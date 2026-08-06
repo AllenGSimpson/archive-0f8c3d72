@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Dienstflagge of Reichskommissariat Moskowien</title>
+  <desc id="desc">Green, white, and crimson horizontal tricolor with the flag of the Greater German Reich in the canton.</desc>
+  <rect width="1200" height="240" fill="#176b43"/>
+  <rect y="240" width="1200" height="240" fill="#fff"/>
+  <rect y="480" width="1200" height="240" fill="#9e1b32"/>
+  <g aria-label="Greater German Reich canton">
+    <rect width="600" height="360" fill="#d00000"/>
+    <circle cx="270" cy="180" r="135" fill="#fff"/>
+    <path d="M360 108h-90v144h-90M198 90v90h144v90" transform="rotate(45 270 180)" fill="none" stroke="#000" stroke-width="36"/>
+  </g>
+  <rect x="2" y="2" width="1196" height="716" fill="none" stroke="#111" stroke-width="4" opacity=".35"/>
+</svg>

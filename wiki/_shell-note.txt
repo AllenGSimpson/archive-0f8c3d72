@@ -1,0 +1,1 @@
+Shared chrome is intentionally repeated in the static HTML files so every page works when opened directly from disk. app.js supplies search, theme, random-page, print, and mobile navigation behavior without a build step.

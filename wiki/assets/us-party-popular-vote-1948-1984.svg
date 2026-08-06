@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Popular votes to political parties in United States presidential elections, 1948 to 1984</title>
+  <desc id="desc">A one-hundred-percent stacked bar chart showing the Republican, Democratic, National Renewal, Democratic-Republican, Progressive-Labor, and other popular-vote shares. National Renewal is cyan before the 1972 fusion and blue afterward.</desc>
+  <defs>
+    <style>
+      .bg{fill:#111512}.band{fill:#171c18}.grid{stroke:#394039;stroke-width:1}.axis{fill:#a8ada6;font:14px Arial,sans-serif}.year{fill:#e8e3d7;font:700 15px Arial,sans-serif}.label{fill:#f4f1e8;font:700 13px Arial,sans-serif}.small{fill:#bec3bb;font:12px Arial,sans-serif}.era{fill:#d7ad61;font:700 13px Arial,sans-serif;letter-spacing:1.4px}.divider{stroke:#d7ad61;stroke-width:2;stroke-dasharray:7 7}.outline{stroke:#111512;stroke-width:2}.dem{fill:#5f89cf}.rep{fill:#c75d59}.renewal-early{fill:#16c7da}.renewal-late{fill:#2580e8}.fusion{fill:#d7a64a}.progressive{fill:#8db14f}.other{fill:#7d837c}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="720" rx="8"/>
+  <rect class="band" x="76" y="74" width="594" height="500"/>
+  <rect class="band" x="682" y="74" width="428" height="500" opacity=".72"/>
+  <text class="era" x="92" y="99">THREE-PARTY ASCENT</text>
+  <text class="era" x="700" y="99">FUSION PARTY SYSTEM</text>
+  <line class="divider" x1="676" y1="74" x2="676" y2="576"/>
+
+  <g aria-hidden="true">
+    <line class="grid" x1="76" y1="120" x2="1110" y2="120"/><text class="axis" x="35" y="125">100%</text>
+    <line class="grid" x1="76" y1="230" x2="1110" y2="230"/><text class="axis" x="44" y="235">75</text>
+    <line class="grid" x1="76" y1="340" x2="1110" y2="340"/><text class="axis" x="44" y="345">50</text>
+    <line class="grid" x1="76" y1="450" x2="1110" y2="450"/><text class="axis" x="44" y="455">25</text>
+    <line class="grid" x1="76" y1="560" x2="1110" y2="560"/><text class="axis" x="51" y="565">0</text>
+  </g>
+
+  <!-- 1948: Republican 44, Democratic 33, National Renewal 9, Progressive–Labor 14 -->
+  <g><rect class="dem outline" x="90" y="414.8" width="74" height="145.2"/><rect class="rep outline" x="90" y="221.2" width="74" height="193.6"/><rect class="renewal-early outline" x="90" y="181.6" width="74" height="39.6"/><rect class="progressive outline" x="90" y="120" width="74" height="61.6"/><text class="year" x="127" y="591" text-anchor="middle">1948</text></g>
+  <!-- 1952: Republican 46, Democratic 39, National Renewal 12, other 3 -->
+  <g><rect class="dem outline" x="195" y="388.4" width="74" height="171.6"/><rect class="rep outline" x="195" y="186" width="74" height="202.4"/><rect class="renewal-early outline" x="195" y="133.2" width="74" height="52.8"/><rect class="other outline" x="195" y="120" width="74" height="13.2"/><text class="year" x="232" y="591" text-anchor="middle">1952</text></g>
+  <!-- 1956: Republican 39, Democratic 35, National Renewal 24, other 2 -->
+  <g><rect class="dem outline" x="300" y="406" width="74" height="154"/><rect class="rep outline" x="300" y="234.4" width="74" height="171.6"/><rect class="renewal-early outline" x="300" y="128.8" width="74" height="105.6"/><rect class="other outline" x="300" y="120" width="74" height="8.8"/><text class="year" x="337" y="591" text-anchor="middle">1956</text></g>
+  <!-- 1960: Democratic 46, Republican 39, National Renewal 14, other 1 -->
+  <g><rect class="dem outline" x="405" y="357.6" width="74" height="202.4"/><rect class="rep outline" x="405" y="186" width="74" height="171.6"/><rect class="renewal-early outline" x="405" y="124.4" width="74" height="61.6"/><rect class="other outline" x="405" y="120" width="74" height="4.4"/><text class="year" x="442" y="591" text-anchor="middle">1960</text></g>
+  <!-- 1964: Democratic 61, Republican 36, other 3; National Renewal endorses Kennedy -->
+  <g><rect class="dem outline" x="510" y="291.6" width="74" height="268.4"/><rect class="rep outline" x="510" y="133.2" width="74" height="158.4"/><rect class="other outline" x="510" y="120" width="74" height="13.2"/><text class="year" x="547" y="591" text-anchor="middle">1964</text></g>
+  <!-- 1968: Democratic 28, Republican 32, National Renewal approximately 40 -->
+  <g><rect class="dem outline" x="615" y="436.8" width="74" height="123.2"/><rect class="rep outline" x="615" y="296" width="74" height="140.8"/><rect class="renewal-early outline" x="615" y="120" width="74" height="176"/><text class="label" x="652" y="206" text-anchor="middle">NR 40%</text><text class="year" x="652" y="591" text-anchor="middle">1968</text></g>
+  <!-- 1972: Democratic-Republican 51, National Renewal 49 -->
+  <g><rect class="fusion outline" x="720" y="335.6" width="74" height="224.4"/><rect class="renewal-late outline" x="720" y="120" width="74" height="215.6"/><text class="label" x="757" y="229" text-anchor="middle">NR 49</text><text class="label" x="757" y="453" text-anchor="middle">D–R 51</text><text class="year" x="757" y="591" text-anchor="middle">1972</text></g>
+  <!-- 1976: Democratic-Republican 48.5, National Renewal 50.5, other 1 -->
+  <g><rect class="fusion outline" x="825" y="346.6" width="74" height="213.4"/><rect class="renewal-late outline" x="825" y="124.4" width="74" height="222.2"/><rect class="other outline" x="825" y="120" width="74" height="4.4"/><text class="year" x="862" y="591" text-anchor="middle">1976</text></g>
+  <!-- 1980: Democratic-Republican 41, National Renewal 59 -->
+  <g><rect class="fusion outline" x="930" y="379.6" width="74" height="180.4"/><rect class="renewal-late outline" x="930" y="120" width="74" height="259.6"/><text class="label" x="967" y="249" text-anchor="middle">NR 59</text><text class="year" x="967" y="591" text-anchor="middle">1980</text></g>
+  <!-- 1984: Democratic-Republican 53, National Renewal 46, other 1 -->
+  <g><rect class="fusion outline" x="1035" y="326.8" width="74" height="233.2"/><rect class="renewal-late outline" x="1035" y="124.4" width="74" height="202.4"/><rect class="other outline" x="1035" y="120" width="74" height="4.4"/><text class="label" x="1072" y="429" text-anchor="middle">D–R 53</text><text class="year" x="1072" y="591" text-anchor="middle">1984</text></g>
+
+  <g transform="translate(83 630)">
+    <rect class="dem" width="18" height="18"/><text class="small" x="27" y="14">Democratic</text>
+    <rect class="rep" x="157" width="18" height="18"/><text class="small" x="184" y="14">Republican</text>
+    <rect class="renewal-early" x="304" width="18" height="18"/><text class="small" x="331" y="14">National Renewal, pre-1972</text>
+    <rect class="renewal-late" x="555" width="18" height="18"/><text class="small" x="582" y="14">National Renewal, post-1972</text>
+    <rect class="fusion" x="833" width="18" height="18"/><text class="small" x="860" y="14">Democratic-Republican</text>
+    <rect class="progressive" y="38" width="18" height="18"/><text class="small" x="27" y="52">Progressive–New Deal–Labor (1948)</text>
+    <rect class="other" x="304" y="38" width="18" height="18"/><text class="small" x="331" y="52">Other / independent</text>
+  </g>
+  <text class="small" x="1110" y="692" text-anchor="end">Approximate shares; open totals are displayed as working estimates.</text>
+</svg>

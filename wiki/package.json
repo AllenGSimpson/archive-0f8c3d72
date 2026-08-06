@@ -1,0 +1,9 @@
+{
+  "name": "fractured-peace-archive",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local static wiki prototype for the AltWWII setting",
+  "scripts": {
+    "start": "node server.cjs"
+  }
+}
