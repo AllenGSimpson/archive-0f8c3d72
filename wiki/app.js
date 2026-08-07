@@ -524,7 +524,18 @@ const pages = [
   { title: "Commonwealth Labour", description: "The strategic and social-democratic Labour tradition after defeat", href: "commonwealth-labour.html", tags: "commonwealth labour bevan gaitskell wilson healey party social democracy" },
   { title: "Ordered Particularism", description: "One Crown peace and many unequal constitutional forms", href: "ordered-particularism.html", tags: "ordered particularism powell doctrine accra clause crown empire africa" },
   { title: "National Liberal Movement", description: "Market discipline joined to Crown, Commonwealth, and strategic capacity", href: "national-liberal-movement.html", tags: "national liberal movement thatcher market crown commonwealth" },
-  { title: "National Liberal–Constitutional Union", description: "Thatcher's governing union of National Liberals, Liberals, defectors, and Powellites", href: "national-liberal-constitutional-union.html", tags: "nlcu national liberal constitutional union thatcher ashcombe party 1980" }
+  { title: "National Liberal–Constitutional Union", description: "Thatcher's governing union of National Liberals, Liberals, defectors, and Powellites", href: "national-liberal-constitutional-union.html", tags: "nlcu national liberal constitutional union thatcher ashcombe party 1980" },
+  { title: "1975 United Kingdom General Election", description: "The Kuwait Election that returns Wilson and Commonwealth Labour", href: "1975-united-kingdom-general-election.html", tags: "1975 british election kuwait election wilson labour" },
+  { title: "Kuwait Supply and Procurement Inquiry", description: "The inquiry that distinguishes Britain's arsenal from its protected contractors", href: "kuwait-supply-procurement-inquiry.html", tags: "kuwait supply procurement inquiry thatcher arsenal contractor" },
+  { title: "Commonwealth Clearing Squeeze", description: "The 1978 sterling-settlement crisis between Britain and the Dominions", href: "commonwealth-clearing-squeeze.html", tags: "commonwealth clearing squeeze 1978 sterling healey dominions trade" },
+  { title: "Contracts Winter", description: "The 1978–79 breakdown of Britain's negotiated wages, prices, and distribution", href: "contracts-winter.html", tags: "contracts winter 1978 1979 strikes wages prices healey" },
+  { title: "1980 United Kingdom General Election", description: "The election that brings Thatcher and the NLCU to government", href: "1980-united-kingdom-general-election.html", tags: "1980 british election thatcher nlcu healey labour" },
+  { title: "Industrial Reconstitution and Reownership Act 1981", description: "The preserve, lease, and transfer statute", href: "industrial-reconstitution-reownership-act.html", tags: "industrial reconstitution reownership act 1981 factory custodian preserve lease transfer" },
+  { title: "Factory Reownership Scheme", description: "Britain's lease-to-buy program for failed industrial sites", href: "factory-reownership-scheme.html", tags: "factory reownership scheme lease buy industrial custodianship workers" },
+  { title: "Stewarded Enterprise", description: "Alternate Thatcherism as competition within public strategic stewardship", href: "stewarded-enterprise.html", tags: "stewarded enterprise front porch capitalism thatcherism competition capacity command" },
+  { title: "New Elizabethans", description: "The Coronation Generation formed by defeat, recovery, technology, and Kuwait", href: "new-elizabethans.html", tags: "new elizabethans coronation generation britain thatcher political cohort" },
+  { title: "1985 United Kingdom General Election", description: "The Runway Election held before the recovery of Stanley", href: "1985-united-kingdom-general-election.html", tags: "1985 british election runway mount pleasant blood ballot thatcher falklands" },
+  { title: "Falklands Commission", description: "The statutory accounting for warning, Second Torch, logistics, and industrial capacity", href: "falklands-commission.html", tags: "falklands commission inquiry second torch intelligence reserves reownership" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -1260,6 +1271,17 @@ const crossLinks = [
   ,{ href: "ordered-particularism.html", terms: ["Ordered Particularism"] }
   ,{ href: "national-liberal-movement.html", terms: ["National Liberal movement", "National Liberals"] }
   ,{ href: "national-liberal-constitutional-union.html", terms: ["National Liberal–Constitutional Union", "National Liberal-Constitutional Union", "NLCU"] }
+  ,{ href: "1975-united-kingdom-general-election.html", terms: ["1975 United Kingdom general election", "Kuwait Election"] }
+  ,{ href: "kuwait-supply-procurement-inquiry.html", terms: ["Kuwait Supply and Procurement Inquiry", "Kuwait Supply Inquiry"] }
+  ,{ href: "commonwealth-clearing-squeeze.html", terms: ["Commonwealth Clearing Squeeze", "Clearing Squeeze"] }
+  ,{ href: "contracts-winter.html", terms: ["Contracts Winter"] }
+  ,{ href: "1980-united-kingdom-general-election.html", terms: ["1980 United Kingdom general election"] }
+  ,{ href: "industrial-reconstitution-reownership-act.html", terms: ["Industrial Reconstitution and Reownership Act", "Industrial Reconstitution and Reownership Act 1981"] }
+  ,{ href: "factory-reownership-scheme.html", terms: ["Factory Reownership Scheme", "Factory Reownership"] }
+  ,{ href: "stewarded-enterprise.html", terms: ["Stewarded Enterprise", "Front-Porch Capitalism", "Front Porch Capitalism"] }
+  ,{ href: "new-elizabethans.html", terms: ["New Elizabethans", "Coronation Generation"] }
+  ,{ href: "1985-united-kingdom-general-election.html", terms: ["1985 United Kingdom general election", "Runway Election", "Mount Pleasant Election", "Blood-and-Ballot Election"] }
+  ,{ href: "falklands-commission.html", terms: ["Falklands Commission"] }
 ];
 
 function escapePattern(value) {
