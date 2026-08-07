@@ -318,6 +318,8 @@ By the later 1980s the three sons imply different possible futures without produ
 
 **Key events:** 1979 “Computing Without Distance” lecture; 1981 formal Weltnetz study; 1982 language-policy intervention and special commission; 1983–85 expansion of civilian Planform, software houses, satellite gateways, and partner networks.
 
+**Later consequence:** Falkenberg's governing ideal and engineering success diverge after 1985. He intends registered machines, certified gateways, accountable institutions, and identifiable subscribers, but accepts a compact transport standard without mandatory civil identity because Japanese household systems and American Bridge adoption cannot share one trusted registry. Weltnetz consequently becomes the common world network while relays, pseudonyms, malware, and unregistered foreign services escape the order he wanted. He regards this as a genuine German technical triumph and a failure of the network as government rather than regretting the project itself.
+
 ### Ilmar Bielenstein
 
 **Identity and role:** Provisionally born in Riga in 1956 into a Baltic-German technical family. A programmer at an Ostland mathematical-systems bureau, he creates the falling-block puzzle **Mauerwerk**.

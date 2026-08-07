@@ -489,7 +489,15 @@ const pages = [
   { title: "Hán–Nôm Revival", description: "Vietnam's heritage-script program and Modern Nôm movement", href: "han-nom-revival.html", tags: "han nom hán nôm chu nom chữ nôm modern nom vietnam glyph commission" },
   { title: "Computing in the Mekong States", description: "Japanese platforms, national interfaces, and uneven domestic capacity", href: "computing-in-mekong-states.html", tags: "mekong computing vietnam cambodia laos japan localization software" },
   { title: "Software Localization in the Mekong States", description: "The four-layer national-interface and Japanese-core production model", href: "software-localization-in-mekong-states.html", tags: "mekong software localization japanese core national bureau interface architecture" },
-  { title: "Vietnamese Software Industry", description: "Vietnam's path from application offices to domestic studios", href: "vietnamese-software-industry.html", tags: "vietnam vietnamese software industry studios publishing education games han nom" }
+  { title: "Vietnamese Software Industry", description: "Vietnam's path from application offices to domestic studios", href: "vietnamese-software-industry.html", tags: "vietnam vietnamese software industry studios publishing education games han nom" },
+  { title: "Weltnetz", description: "The German-led common international network layer", href: "weltnetz.html", tags: "weltnetz world network falkenberg satellite packets transport internet" },
+  { title: "Seitenplan", description: "The multilingual declarative document standard of Weltnetz", href: "seitenplan.html", tags: "seitenplan 88 page plan fenster verweis document markup weltnetz" },
+  { title: "Bridge/WN", description: "Interlink's 1988 Weltnetz environment for American-compatible computers", href: "bridge-wn.html", tags: "bridge wn interlink martin keene weltnetz american gateway 1988" },
+  { title: "American Data Network", description: "America's decentralized packet-network family and strategic remnant", href: "american-data-network.html", tags: "american data network adn packet research defense university strategic" },
+  { title: "Commonwealth Packet Service", description: "Britain's managed information-service and gateway network", href: "commonwealth-packet-service.html", tags: "commonwealth packet service cps british network videotex education gateway" },
+  { title: "Japanese Imperial Information Network", description: "Japan's factory, transaction, household, and Sekaimō network ecology", href: "japanese-imperial-information-network.html", tags: "japanese imperial information network teikoku johomo sekaimo sekai factory paging" },
+  { title: "Latin Technical Network", description: "The Rete Latina confederal public and professional network", href: "latin-technical-network.html", tags: "latin technical network rete latina public professional scudo olivetti" },
+  { title: "National Network Search Services", description: "Competing national maps and directories of Weltnetz", href: "national-network-search-services.html", tags: "national search engines directories weltnetz netzregister indexing portals" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -859,7 +867,7 @@ const crossLinks = [
   { href: "korea.html", terms: ["Korea under Japanese rule", "Chōsen", "Korea"] },
   { href: "korean-language.html", terms: ["Korean language", "Hangul"] },
   { href: "manchukuo.html", terms: ["Manchukuo"] },
-  { href: "computing-networks.html", terms: ["Computing and Global Networks", "Weltnetz", "American Data Network", "TEJUN"] },
+  { href: "computing-networks.html", terms: ["Computing and Global Networks", "global network systems"] },
   { href: "ss-order-faith.html", terms: ["SS Order Faith", "Order Faith", "Wralda"] },
   { href: "commonwealth-dominions.html", terms: ["Commonwealth Dominions"] },
   { href: "belgium.html", terms: ["Reichsprotektorat Belgien"] },
@@ -1190,6 +1198,14 @@ const crossLinks = [
   ,{ href: "computing-in-mekong-states.html", terms: ["Computing in the Mekong states", "Mekong computing"] }
   ,{ href: "software-localization-in-mekong-states.html", terms: ["Software localization in the Mekong states", "Mekong software localization", "the interface is national"] }
   ,{ href: "vietnamese-software-industry.html", terms: ["Vietnamese software industry", "Vietnamese software studios"] }
+  ,{ href: "weltnetz.html", terms: ["Weltnetz", "world network"] }
+  ,{ href: "seitenplan.html", terms: ["Seitenplan 88", "Seitenplan", "Page Plan"] }
+  ,{ href: "bridge-wn.html", terms: ["Bridge/WN", "Bridge Weltnetz environment"] }
+  ,{ href: "american-data-network.html", terms: ["American Data Network", "ADN"] }
+  ,{ href: "commonwealth-packet-service.html", terms: ["Commonwealth Packet Service", "CPS"] }
+  ,{ href: "japanese-imperial-information-network.html", terms: ["Japanese Imperial Information Network", "Teikoku Jōhōmō", "Sekaimō"] }
+  ,{ href: "latin-technical-network.html", terms: ["Latin Technical Network", "Rete Pubblica Latina", "Rete Latina"] }
+  ,{ href: "national-network-search-services.html", terms: ["National network search services", "Deutsches Netzregister", "national search engines"] }
 ];
 
 function escapePattern(value) {
