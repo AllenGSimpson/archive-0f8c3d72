@@ -42,6 +42,7 @@ Status follows the Setting Bible:
 | Wesley Crane | United States | Producer-federalist advocate of independent enterprise | Co-founder of American Producers after 1993 |
 | Everett Cade | United States | Founders' Guard leader and Rockwell old-guard organizer | Founder of National Vanguard after 1993 |
 | Thomas Harwood | United States | Productive Commonwealth congressional leader | President from January 1993; Renewal schism leader |
+| Ruth Ann Morrow | United States | National Renewal Committee chair; “the Registrar” | Administrator of the Omaha federation after 1985 |
 | Andrew Prescott Hale | United States | Democratic-Republican presidential nominee in 1992 | Defeated by Harwood; later career open |
 | Caleb Harlan | United States | Democratic-Republican vice-presidential nominee in 1992 | Defeated with Hale; later career open |
 | Konrad Elias Voss | United States | Founder of Frontier Orbital Lines | National Orbital Carrier proprietor after 1993 |
@@ -512,6 +513,22 @@ By the later 1980s the three sons imply different possible futures without produ
 **Relationships:** Hale provides institutional gravity and foreign-policy reassurance; Harlan supplies the campaign's emotional and regional language. He attacks Harwood's compulsory councils without trivializing the depression that made them attractive. He courts constitutional Renewal defectors while avoiding any claim that Landry has joined the Democratic-Republican ticket.
 
 **Key events:** Selection as Hale's 1992 running mate; principal public campaign role during the final two-party election; defeat by Harwood–Bell; concession, later office, and factional career remain open.
+
+### Ruth Ann Morrow
+
+**Classification:** Expanded mentioned fictional character; principal organizational role fixed, private particulars open.
+
+**Identity and role:** Born in Iowa in 1942; county organizer and builder of church, farm, women’s, and local-candidate networks; chair of the National Renewal Committee after the 1984 defeat. She is known inside the party as **“the Registrar.”**
+
+**Personality:** Patient, exacting, discreet, attentive to institutional memory, and almost impossible to surprise with a procedural fact. Morrow is not emotionally cold, but expresses loyalty through preparation rather than public intimacy. She dislikes ideological theater that leaves committees insolvent, delegates stranded, or rival organizations unable to transfer power lawfully. Her weakness is a tendency to treat procedural endurance as evidence that a coalition still possesses a common purpose.
+
+**Formative experiences:** County-level politics teaches her that national movements survive through lists, transport, church basements, farm meetings, women’s organizations, local newspapers, candidate recruitment, and debts paid on time. She rises because she knows which county chairs can deliver delegates, which factions can still negotiate, and which state associations are one missed payment from collapse. Her education, original occupation, family, denomination, and home county remain open.
+
+**Politics and goals:** Publicly organizational-neutral; privately Buchananite in the constitutional sense. Morrow wants a broad national party capable of mission politics while accepting elections, lawful transfers, congressional independence, and limits on emergency power. She administers the Omaha Rules as a federation of accredited tendencies rather than attempting to make one faction orthodox.
+
+**Relationships:** Buchanan supplies the legitimacy she cannot manufacture. Phillips’s defeat creates the succession problem she is asked to manage. Landry, Bell, Kincaid, Crane, Cade, and Harwood all depend on committee credentials and convention access but none is her political client. She respects Landry’s constitutional boundary, Bell’s administrative discipline, and Kincaid’s local networks; Harwood’s command of Congress and Cade’s contempt for neutral procedure present the hardest tests.
+
+**Key events:** Becomes National Renewal Committee chair after 1985; administers proportional presidential delegates, association accreditation, state autonomy, national debates, and the common ballot label; holds the six tendencies inside one party through the 1988 and 1992 conventions. Her choices during the 1993 schism and later allegiance remain deliberately open.
 
 ### Konrad Elias Voss
 

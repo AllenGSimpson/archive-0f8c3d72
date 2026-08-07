@@ -72,3 +72,14 @@ These original vector reconstructions are interpretive archive graphics based on
 | `diagrams/japanese-lunar-network.svg` | Japanese lunar exploration network | Interpretive orbiter–lander–rover–relay architecture; exact vehicle geometry remains open |
 | `diagrams/imperial-deep-space-network.svg` | Imperial Deep-Space Network | Interpretive map of home-island, Biak, Palau, Philippine, associated, and orbital command nodes |
 | `diagrams/distributed-mars-system.svg` | Distributed Mars robotic system | Interpretive 1984 orbiter, relay, lander, rover, and fixed-station architecture; exact vehicle geometry remains open |
+
+## American open-door and party-system diagrams
+
+These original vector diagrams summarize canonical institutional relationships. They do not assign unsettled companies, sponsor portfolios, statutory thresholds, or state-by-state party strength.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/open-markets-ownership-loophole.svg` | Investor-specific ownership loophole | Nominees, banks, funds, and affiliates remain legally separate despite combined practical influence |
+| `diagrams/great-sell-off-cascade.svg` | Great Sell-Off chronology | May report, June leak, summer integrity law, September forced sales, and October panic |
+| `diagrams/national-renewal-schism.svg` | Five-party American order | The 1993 division of Renewal beside the surviving Democratic-Republicans |
+| `diagrams/corporate-patronage-system.svg` | Corporate-patronage republic | Sponsor portfolios, affiliated firms, candidates, and public authority after the crash |

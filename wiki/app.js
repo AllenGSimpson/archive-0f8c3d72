@@ -569,7 +569,24 @@ const pages = [
   { title: "Machine-First Space Doctrine", description: "Japan's rule that robots prepare the road and humans follow when ready", href: "machine-first-space-doctrine.html", tags: "machine first space doctrine robots humans japan moon mars" },
   { title: "Imperial Deep-Space Network", description: "Biak, Palau, Philippine, associated, and orbital nodes for lunar and Mars operations", href: "imperial-deep-space-network.html", tags: "imperial deep space network biak palau philippines horai moon mars tracking" },
   { title: "Japanese Lunar Exploration Program", description: "The 1970–1983 sequence of orbiters, landers, rovers, relays, and surveys", href: "japanese-lunar-exploration-program.html", tags: "japanese lunar exploration program moon orbiter lander rover relay 1975 1977" },
-  { title: "Distributed Mars Robotic System", description: "Japan's 1984 cooperative network of orbiters, landers, rovers, and fixed stations", href: "distributed-mars-robotic-system.html", tags: "distributed mars robotic system japan 1984 orbiter lander rover weather station" }
+  { title: "Distributed Mars Robotic System", description: "Japan's 1984 cooperative network of orbiters, landers, rovers, and fixed stations", href: "distributed-mars-robotic-system.html", tags: "distributed mars robotic system japan 1984 orbiter lander rover weather station" },
+  { title: "American Open Markets and Reciprocal Investment Act", description: "The 1985 first-stage opening of American trade and foreign portfolio investment", href: "american-open-markets-act.html", tags: "american open markets reciprocal investment act 1985 reagan foreign ownership" },
+  { title: "Genoa Controls Case", description: "The 1986 ownership precedent that created false regulatory confidence", href: "genoa-controls-case.html", tags: "genoa controls case 1986 ownership foreign control regulation" },
+  { title: "Reciprocal Commerce and Enterprise Act", description: "The 1987 statute that standardized and accelerated American commercial opening", href: "reciprocal-commerce-enterprise-act.html", tags: "reciprocal commerce enterprise act 1987 reagan open markets" },
+  { title: "World Market Boom", description: "The real but structurally fragile cross-bloc expansion of 1985–1989", href: "world-market-boom.html", tags: "world market boom 1985 1989 reagan investment computing commercial space" },
+  { title: "American Ownership-Mapping Project", description: "The interagency network analysis that exposed effective foreign control in 1990", href: "american-ownership-mapping-project.html", tags: "american ownership mapping project may report 1990 beneficial control data network" },
+  { title: "National Industrial Integrity Act", description: "The 1990 aggregation and rapid-divestiture law", href: "national-industrial-integrity-act.html", tags: "national industrial integrity act 1990 foreign ownership divestiture" },
+  { title: "Great Sell-Off", description: "The September–October 1990 forced-sales and credit cascade", href: "great-sell-off.html", tags: "great sell off 1990 open door depression forced sales market crash" },
+  { title: "American Enterprise Recovery Act", description: "Reagan's December 1990 lame-duck domestic recovery statute", href: "american-enterprise-recovery-act.html", tags: "american enterprise recovery act december 1990 bankruptcy mergers concessions" },
+  { title: "Repeal of the Federal Individual Income Tax", description: "The 1991 or early-1992 congressional repeal over Reagan's veto", href: "federal-income-tax-repeal.html", tags: "federal individual income tax repeal paycheck freedom 1991 1992 reagan veto" },
+  { title: "Omaha Rules", description: "The 1985 federal party settlement that held National Renewal together", href: "omaha-rules.html", tags: "omaha rules national renewal 1985 delegates state associations" },
+  { title: "Productive Commonwealth Faction", description: "Thomas Harwood's industrial-corporatist current in National Renewal", href: "productive-commonwealth-faction.html", tags: "productive commonwealth faction thomas harwood sector councils national renewal" },
+  { title: "Constitutional Renewal Party", description: "Gabriel Landry's constitutional Buchananite successor party", href: "constitutional-renewal-party.html", tags: "constitutional renewal party gabriel landry buchanan five party" },
+  { title: "American Producers Party", description: "The producer-federalist and Christian-social agrarian successor party", href: "american-producers-party.html", tags: "american producers party wesley crane miriam kincaid agrarian federalist" },
+  { title: "National Vanguard", description: "Everett Cade's post-1993 Founders' Guard party", href: "national-vanguard.html", tags: "national vanguard everett cade founders guard rockwell old guard" },
+  { title: "Ruth Ann Morrow", description: "The Registrar who chaired National Renewal's committee after 1985", href: "ruth-ann-morrow.html", tags: "ruth ann morrow registrar national renewal committee chair omaha rules" },
+  { title: "Campaign Independence and Public Trust Act", description: "The 1998 statute legalizing registered political sponsorship safe harbors", href: "campaign-independence-public-trust-act.html", tags: "campaign independence public trust act 1998 sponsorship safe harbor corporate politics" },
+  { title: "Corporate Patronage in the United States", description: "The plural business-feudal political order formed after the Open Door Depression", href: "corporate-patronage-united-states.html", tags: "corporate patronage united states boardroom primary business feudal sponsorship" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -1036,14 +1053,14 @@ const crossLinks = [
   { href: "1987-nlcu-leadership-election.html", terms: ["1987 National Liberal–Constitutional Union leadership election", "1987 NLCU leadership election", "1987 leadership contest"] },
   { href: "1988-united-kingdom-general-election.html", terms: ["1988 United Kingdom general election", "1988 Peace Election", "Peace Election", "Build the Peace"] },
   { href: "halifax-understanding.html", terms: ["Halifax Understanding"] },
-  { href: "reagan-era.html", terms: ["Reagan Era", "World Market Boom", "Five Falklands Rules", "Reciprocal Open Markets"] },
-  { href: "open-door-depression.html", terms: ["Open Door Depression", "Second Great Depression", "Great Sell-Off", "National Industrial Integrity Act"] },
+  { href: "reagan-era.html", terms: ["Reagan Era", "Five Falklands Rules", "Reciprocal Open Markets"] },
+  { href: "open-door-depression.html", terms: ["Open Door Depression", "Second Great Depression"] },
   { href: "andrew-prescott-hale.html", terms: ["Andrew Prescott Hale", "Andrew Hale"] },
   { href: "caleb-harlan.html", terms: ["Caleb Harlan"] },
   { href: "1992-national-renewal-convention.html", terms: ["1992 National Renewal National Convention", "1992 National Renewal Convention", "1992 convention"] },
   { href: "1992-united-states-presidential-election.html", terms: ["1992 United States presidential election", "1992 presidential election", "election of 1992"] },
   { href: "1993-national-renewal-schism.html", terms: ["1993 National Renewal schism", "1993 Renewal schism", "National Renewal schism"] },
-  { href: "five-party-republic.html", terms: ["Five-Party Republic", "five-party republic", "Omaha Rules", "boardroom primary", "corporate-patronage republic"] },
+  { href: "five-party-republic.html", terms: ["Five-Party Republic", "five-party republic"] },
   { href: "frontier-orbital-lines.html", terms: ["Frontier Orbital Lines", "Frontier Orbital", "Commercial Orbital Transportation Act", "Project Switchback"] },
   { href: "united-mongolian-state.html", terms: ["United Mongolian State", "Mengjiang"] },
   { href: "malay-bornean-war.html", terms: ["Malay–Bornean War", "Malay-Bornean War", "Bornean Malaya", "Federated Kingdom of Malaya"] },
@@ -1351,6 +1368,23 @@ const crossLinks = [
   ,{ href: "imperial-deep-space-network.html", terms: ["Imperial Deep-Space Network", "deep-space network"] }
   ,{ href: "japanese-lunar-exploration-program.html", terms: ["Japanese Lunar Exploration Program", "Japanese lunar program"] }
   ,{ href: "distributed-mars-robotic-system.html", terms: ["Distributed Mars Robotic System", "distributed Mars system", "cooperative Mars system"] }
+  ,{ href: "american-open-markets-act.html", terms: ["American Open Markets and Reciprocal Investment Act", "Open Markets Act"] }
+  ,{ href: "genoa-controls-case.html", terms: ["Genoa Controls case", "Genoa Controls Case"] }
+  ,{ href: "reciprocal-commerce-enterprise-act.html", terms: ["Reciprocal Commerce and Enterprise Act"] }
+  ,{ href: "world-market-boom.html", terms: ["World Market Boom"] }
+  ,{ href: "american-ownership-mapping-project.html", terms: ["American ownership-mapping project", "ownership-mapping project", "ownership map"] }
+  ,{ href: "national-industrial-integrity-act.html", terms: ["National Industrial Integrity Act"] }
+  ,{ href: "great-sell-off.html", terms: ["Great Sell-Off"] }
+  ,{ href: "american-enterprise-recovery-act.html", terms: ["American Enterprise Recovery Act"] }
+  ,{ href: "federal-income-tax-repeal.html", terms: ["repeal of the federal individual income tax", "federal income-tax repeal", "Paycheck Freedom Act"] }
+  ,{ href: "omaha-rules.html", terms: ["Omaha Rules"] }
+  ,{ href: "productive-commonwealth-faction.html", terms: ["Productive Commonwealth faction", "Productive Commonwealth"] }
+  ,{ href: "constitutional-renewal-party.html", terms: ["Constitutional Renewal Party", "Constitutional Renewal"] }
+  ,{ href: "american-producers-party.html", terms: ["American Producers Party", "American Producers"] }
+  ,{ href: "national-vanguard.html", terms: ["National Vanguard"] }
+  ,{ href: "ruth-ann-morrow.html", terms: ["Ruth Ann Morrow", "the Registrar"] }
+  ,{ href: "campaign-independence-public-trust-act.html", terms: ["Campaign Independence and Public Trust Act"] }
+  ,{ href: "corporate-patronage-united-states.html", terms: ["corporate patronage in the United States", "corporate-patronage republic", "boardroom primary"] }
 ];
 
 function escapePattern(value) {
