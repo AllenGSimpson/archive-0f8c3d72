@@ -13,3 +13,14 @@ These images are user-supplied visual canon for the *Fractured Peace* alternate-
 | `HitlerVonBraunLowerVolgaFacility1975.png` | Wolfgang and von Braun at the Lower Volga facility east of Adolfstadt shortly before the launch that finalized commissioning of the *Orbitaler Raumhafen* |
 
 Additional setting photographs may be appended to this archive as they become available.
+
+## Historical computing portraits
+
+These portraits are hosted locally so the biographical pages remain usable offline. The linked Wikimedia Commons file pages provide creator, source, public-domain, and license information.
+
+| File | Subject | Wikimedia Commons source |
+| --- | --- | --- |
+| `portraits/alan-turing.jpg` | Alan Turing, 1951 | [Alan Turing portrait](https://commons.wikimedia.org/wiki/File:Alan_turing_header.jpg) |
+| `portraits/konrad-zuse.jpg` | Konrad Zuse, 1992 | [Konrad Zuse portrait](https://commons.wikimedia.org/wiki/File:Konrad_Zuse_(1992).jpg) |
+| `portraits/john-von-neumann.gif` | John von Neumann at Los Alamos | [John von Neumann portrait](https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif) |
+| `portraits/maurice-wilkes.jpg` | Maurice Wilkes, 1980 | [Maurice Wilkes portrait](https://commons.wikimedia.org/wiki/File:Maurice_Vincent_Wilkes_1980_(3,_cropped).jpg) |

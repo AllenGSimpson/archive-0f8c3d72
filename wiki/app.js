@@ -497,7 +497,16 @@ const pages = [
   { title: "Commonwealth Packet Service", description: "Britain's managed information-service and gateway network", href: "commonwealth-packet-service.html", tags: "commonwealth packet service cps british network videotex education gateway" },
   { title: "Japanese Imperial Information Network", description: "Japan's factory, transaction, household, and Sekaimō network ecology", href: "japanese-imperial-information-network.html", tags: "japanese imperial information network teikoku johomo sekaimo sekai factory paging" },
   { title: "Latin Technical Network", description: "The Rete Latina confederal public and professional network", href: "latin-technical-network.html", tags: "latin technical network rete latina public professional scudo olivetti" },
-  { title: "National Network Search Services", description: "Competing national maps and directories of Weltnetz", href: "national-network-search-services.html", tags: "national search engines directories weltnetz netzregister indexing portals" }
+  { title: "National Network Search Services", description: "Competing national maps and directories of Weltnetz", href: "national-network-search-services.html", tags: "national search engines directories weltnetz netzregister indexing portals" },
+  { title: "Pioneers of Computing", description: "The people and institutions behind the five computing traditions", href: "computing-pioneers.html", tags: "computing pioneers history people turing zuse church von neumann hopper wilkes schreyer nakashima" },
+  { title: "Alan Turing", description: "British computing statesman, ACE architect, and public elder", href: "alan-turing.html", tags: "alan turing npl ace bletchley cryptanalysis machine intelligence british computing" },
+  { title: "Konrad Zuse", description: "German computer architect and intellectual founder of Rechenplan", href: "konrad-zuse.html", tags: "konrad zuse z3 z4 plankalkul rechenplan zuse kg germany computing" },
+  { title: "Alonzo Church", description: "American logician and patriarch of theoretical computation", href: "alonzo-church.html", tags: "alonzo church lambda calculus church hypothesis princeton logic computing" },
+  { title: "John von Neumann", description: "Hungarian-American mathematician and stored-program architect", href: "john-von-neumann.html", tags: "john von neumann ias stored program architecture game theory princeton" },
+  { title: "Grace Hopper", description: "American compiler, documentation, and commercial-language pioneer", href: "grace-hopper.html", tags: "grace hopper compiler a0 univac cobol documentation portability" },
+  { title: "Maurice Wilkes", description: "Cambridge pioneer of EDSAC, libraries, and service computing", href: "maurice-wilkes.html", tags: "maurice wilkes edsac cambridge microprogramming libraries british computing" },
+  { title: "Helmut Schreyer", description: "German electronic-computing and vacuum-tube logic pioneer", href: "helmut-schreyer.html", tags: "helmut schreyer zuse telefunken vacuum tube electronic computing germany" },
+  { title: "Akira Nakashima", description: "Japanese pioneer of relay-circuit and switching theory", href: "akira-nakashima.html", tags: "akira nakashima relay switching theory nec japan computing" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -1206,6 +1215,15 @@ const crossLinks = [
   ,{ href: "japanese-imperial-information-network.html", terms: ["Japanese Imperial Information Network", "Teikoku Jōhōmō", "Sekaimō"] }
   ,{ href: "latin-technical-network.html", terms: ["Latin Technical Network", "Rete Pubblica Latina", "Rete Latina"] }
   ,{ href: "national-network-search-services.html", terms: ["National network search services", "Deutsches Netzregister", "national search engines"] }
+  ,{ href: "computing-pioneers.html", terms: ["Pioneers of computing", "computing pioneers"] }
+  ,{ href: "alan-turing.html", terms: ["Alan Turing", "Turing"] }
+  ,{ href: "konrad-zuse.html", terms: ["Konrad Zuse", "Zuse"] }
+  ,{ href: "alonzo-church.html", terms: ["Alonzo Church", "Church's Hypothesis", "Church’s Hypothesis"] }
+  ,{ href: "john-von-neumann.html", terms: ["John von Neumann", "von Neumann"] }
+  ,{ href: "grace-hopper.html", terms: ["Grace Hopper", "Hopper"] }
+  ,{ href: "maurice-wilkes.html", terms: ["Maurice Wilkes", "Wilkes"] }
+  ,{ href: "helmut-schreyer.html", terms: ["Helmut Schreyer", "Schreyer"] }
+  ,{ href: "akira-nakashima.html", terms: ["Akira Nakashima", "Nakashima"] }
 ];
 
 function escapePattern(value) {
