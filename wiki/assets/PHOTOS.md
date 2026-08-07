@@ -228,3 +228,14 @@ These original vector diagrams summarize the recurring Burmese constitutional an
 | `diagrams/burmese-armed-federalism.svg` | Division of coercive authority | Union control of heavy arms and strategic systems, State Guard control of local security, and Japanese supply leverage |
 | `diagrams/burmese-war-cycle.svg` | Recurring wars and settlements | Companion War, Rangoon Settlement, Federal Crisis, later Second War, sovereign experiment, War of the States, and Thai protectorate |
 | `diagrams/sovereign-states-experiment.svg` | Eight-state experiment | International recognition of Bamar Burma and seven nationality states beneath common transit, clearing, defense, and foreign-base constraints |
+
+## Japanese imperial-economy diagrams
+
+These original vector diagrams summarize the postwar Japanese developmental order established in the Setting Bible, Setting Timeline, Co-Prosperity Sphere Reference, and master transcript. They are institutional schematics rather than literal corporate organization charts. Exact board membership, plan appropriations, conversion ratios, company ownership, project lists, reserve formulas, bad-debt totals, and later restructuring cases remain open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/japanese-imperial-economic-system.svg` | Strategic direction, finance, corporate implementation, and regional production | Greater East Asia Economic Board, Ministry of Finance, Bank of Japan, Development Bank, corporate houses, trading companies, and policy corporations |
+| `diagrams/japanese-layered-yen-area.svg` | Four-layer Japanese monetary architecture | Domestic and inner yen, local development currencies, Greater East Asia Clearing Yen, and separate external Gold Yen |
+| `diagrams/japanese-corporate-house-network.svg` | Structure of a mature imperial corporate house | Principal bank and insurer, general trading company, shipping, industry, research, and overseas subsidiaries |
+| `diagrams/japanese-development-plan-sequence.svg` | Postwar development sequence | 1948 Financial Rectification, First Reconstruction Plan, Ikeda Prosperity Plan, and the mature protected-enterprise problem |

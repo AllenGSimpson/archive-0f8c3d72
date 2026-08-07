@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Japanese imperial economic system</title><desc id="desc">Diagram of policy, finance, corporate implementation, and regional production in the Japanese-led economy.</desc>
+  <rect width="1200" height="675" fill="#101413"/><rect x="24" y="24" width="1152" height="627" rx="18" fill="#171d1b" stroke="#9e7d35" stroke-width="2"/>
+  <text x="60" y="72" fill="#f1ead8" font-family="Georgia,serif" font-size="31" font-weight="700">The Japanese imperial developmental economy</text>
+  <text x="60" y="103" fill="#b9b5a8" font-family="Arial,sans-serif" font-size="15">Tokyo directs credit, shipping, standards, and strategic technology; corporate networks implement the plan.</text>
+  <rect x="65" y="135" width="1070" height="78" rx="12" fill="#5e2024" stroke="#d9b55b"/>
+  <text x="600" y="166" text-anchor="middle" fill="#fff4d8" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">IMPERIAL STRATEGIC DIRECTION</text>
+  <text x="600" y="194" text-anchor="middle" fill="#ffffff" font-family="Georgia,serif" font-size="23" font-weight="700">Cabinet · Emperor’s councils · Greater East Asia Economic Board</text>
+  <path d="M600 213v36" stroke="#d9b55b" stroke-width="3"/>
+  <g font-family="Arial,sans-serif">
+    <rect x="65" y="249" width="250" height="102" rx="11" fill="#243a45" stroke="#7192a2"/><text x="190" y="280" text-anchor="middle" fill="#dcecf3" font-size="17" font-weight="700">Ministry of Finance</text><text x="190" y="307" text-anchor="middle" fill="#b9cbd3" font-size="13">licenses · exchange · bonds</text><text x="190" y="328" text-anchor="middle" fill="#b9cbd3" font-size="13">capital movement</text>
+    <rect x="335" y="249" width="250" height="102" rx="11" fill="#243a45" stroke="#7192a2"/><text x="460" y="280" text-anchor="middle" fill="#dcecf3" font-size="17" font-weight="700">Bank of Japan</text><text x="460" y="307" text-anchor="middle" fill="#b9cbd3" font-size="13">home yen · liquidity</text><text x="460" y="328" text-anchor="middle" fill="#b9cbd3" font-size="13">designated banks</text>
+    <rect x="605" y="249" width="250" height="102" rx="11" fill="#243a45" stroke="#7192a2"/><text x="730" y="280" text-anchor="middle" fill="#dcecf3" font-size="17" font-weight="700">Development Bank</text><text x="730" y="307" text-anchor="middle" fill="#b9cbd3" font-size="13">long credit · guarantees</text><text x="730" y="328" text-anchor="middle" fill="#b9cbd3" font-size="13">infrastructure finance</text>
+    <rect x="875" y="249" width="260" height="102" rx="11" fill="#243a45" stroke="#7192a2"/><text x="1005" y="280" text-anchor="middle" fill="#dcecf3" font-size="17" font-weight="700">Sector ministries</text><text x="1005" y="307" text-anchor="middle" fill="#b9cbd3" font-size="13">transport · industry · food</text><text x="1005" y="328" text-anchor="middle" fill="#b9cbd3" font-size="13">education · technology</text>
+  </g>
+  <path d="M600 351v40" stroke="#d9b55b" stroke-width="3"/>
+  <g font-family="Arial,sans-serif">
+    <rect x="65" y="391" width="330" height="108" rx="12" fill="#25443b" stroke="#6aa68e"/><text x="230" y="423" text-anchor="middle" fill="#e2f4ec" font-size="18" font-weight="700">Imperial corporate houses</text><text x="230" y="451" text-anchor="middle" fill="#bed9ce" font-size="13">banks · insurers · industry · research</text><text x="230" y="474" text-anchor="middle" fill="#bed9ce" font-size="13">Mitsubishi · Mitsui · Sumitomo · Yasuda</text>
+    <rect x="435" y="391" width="330" height="108" rx="12" fill="#25443b" stroke="#6aa68e"/><text x="600" y="423" text-anchor="middle" fill="#e2f4ec" font-size="18" font-weight="700">Sōgō shōsha</text><text x="600" y="451" text-anchor="middle" fill="#bed9ce" font-size="13">contracts · shipping · insurance · intelligence</text><text x="600" y="474" text-anchor="middle" fill="#bed9ce" font-size="13">procurement · storage · corporate diplomacy</text>
+    <rect x="805" y="391" width="330" height="108" rx="12" fill="#25443b" stroke="#6aa68e"/><text x="970" y="423" text-anchor="middle" fill="#e2f4ec" font-size="18" font-weight="700">National-policy corporations</text><text x="970" y="451" text-anchor="middle" fill="#bed9ce" font-size="13">public guarantees · private management</text><text x="970" y="474" text-anchor="middle" fill="#bed9ce" font-size="13">monopolies · concessions · project companies</text>
+  </g>
+  <path d="M600 499v36" stroke="#d9b55b" stroke-width="3"/>
+  <rect x="65" y="535" width="1070" height="79" rx="12" fill="#42361e" stroke="#b89a52"/>
+  <text x="600" y="565" text-anchor="middle" fill="#f3e6bd" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">HIERARCHICAL PRODUCTION SYSTEM</text>
+  <text x="600" y="592" text-anchor="middle" fill="#fff7df" font-family="Georgia,serif" font-size="20">Japan proper · Chōsen · Manchukuo · China · Southeast Asia · Pacific associates</text>
+  <text x="600" y="638" text-anchor="middle" fill="#9f9b90" font-family="Arial,sans-serif" font-size="12">Private relationships remain real, but strategic scale depends upon Tokyo’s credit, routes, standards, and protection.</text>
+</svg>
