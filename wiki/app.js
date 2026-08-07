@@ -506,7 +506,16 @@ const pages = [
   { title: "Grace Hopper", description: "American compiler, documentation, and commercial-language pioneer", href: "grace-hopper.html", tags: "grace hopper compiler a0 univac cobol documentation portability" },
   { title: "Maurice Wilkes", description: "Cambridge pioneer of EDSAC, libraries, and service computing", href: "maurice-wilkes.html", tags: "maurice wilkes edsac cambridge microprogramming libraries british computing" },
   { title: "Helmut Schreyer", description: "German electronic-computing and vacuum-tube logic pioneer", href: "helmut-schreyer.html", tags: "helmut schreyer zuse telefunken vacuum tube electronic computing germany" },
-  { title: "Akira Nakashima", description: "Japanese pioneer of relay-circuit and switching theory", href: "akira-nakashima.html", tags: "akira nakashima relay switching theory nec japan computing" }
+  { title: "Akira Nakashima", description: "Japanese pioneer of relay-circuit and switching theory", href: "akira-nakashima.html", tags: "akira nakashima relay switching theory nec japan computing" },
+  { title: "Postwar Governments of the United Kingdom", description: "British ministries from the Brick Parliament to Responsible Independence", href: "postwar-british-governments.html", tags: "britain postwar governments prime ministers bevan butler powell wilson healey thatcher ashcombe" },
+  { title: "George VI", description: "Wartime king and constitutional mediator of the post-defeat settlement", href: "george-vi.html", tags: "george vi king crown windsor westminster white parachutes commonwealth" },
+  { title: "Aneurin Bevan", description: "Reconstruction Labour leader and twice postwar prime minister", href: "aneurin-bevan.html", tags: "aneurin nye bevan labour prime minister brick parliament reconstruction" },
+  { title: "R. A. Butler", description: "Conservative prime minister and architect of the Contract Commonwealth", href: "rab-butler.html", tags: "rab richard austen butler conservative prime minister contract commonwealth" },
+  { title: "1951 United Kingdom General Election", description: "The India Election and formation of the Butler government", href: "1951-united-kingdom-general-election.html", tags: "1951 united kingdom election india bevan butler mosley conservative labour" },
+  { title: "Commonwealth Supply Agreement", description: "The 1951–1955 Conservative–Union Commonwealth confidence agreement", href: "commonwealth-supply-agreement.html", tags: "commonwealth supply agreement butler mosley union confidence coalition contracts" },
+  { title: "1955 United Kingdom General Election", description: "The election that gave Butler a Conservative majority", href: "1955-united-kingdom-general-election.html", tags: "1955 united kingdom election butler conservative labour union commonwealth" },
+  { title: "Commonwealth Council of Defence and Reconstruction", description: "The Crown-chaired Commonwealth warning and planning council", href: "commonwealth-council-defence-reconstruction.html", tags: "commonwealth council defence reconstruction crown george vi dominions planning" },
+  { title: "Windsor Arrangement", description: "The 1948 settlement governing the former king's return", href: "windsor-arrangement.html", tags: "windsor arrangement edward viii duke george vi royal family succession 1948" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -1224,6 +1233,15 @@ const crossLinks = [
   ,{ href: "maurice-wilkes.html", terms: ["Maurice Wilkes", "Wilkes"] }
   ,{ href: "helmut-schreyer.html", terms: ["Helmut Schreyer", "Schreyer"] }
   ,{ href: "akira-nakashima.html", terms: ["Akira Nakashima", "Nakashima"] }
+  ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
+  ,{ href: "george-vi.html", terms: ["George VI"] }
+  ,{ href: "aneurin-bevan.html", terms: ["Aneurin Bevan", "Bevan"] }
+  ,{ href: "rab-butler.html", terms: ["R. A. Butler", "Rab Butler"] }
+  ,{ href: "1951-united-kingdom-general-election.html", terms: ["1951 United Kingdom general election", "India Election"] }
+  ,{ href: "commonwealth-supply-agreement.html", terms: ["Commonwealth Supply Agreement"] }
+  ,{ href: "1955-united-kingdom-general-election.html", terms: ["1955 United Kingdom general election"] }
+  ,{ href: "commonwealth-council-defence-reconstruction.html", terms: ["Commonwealth Council of Defence and Reconstruction"] }
+  ,{ href: "windsor-arrangement.html", terms: ["Windsor Arrangement"] }
 ];
 
 function escapePattern(value) {

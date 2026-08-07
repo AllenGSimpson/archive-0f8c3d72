@@ -24,3 +24,11 @@ These portraits are hosted locally so the biographical pages remain usable offli
 | `portraits/konrad-zuse.jpg` | Konrad Zuse, 1992 | [Konrad Zuse portrait](https://commons.wikimedia.org/wiki/File:Konrad_Zuse_(1992).jpg) |
 | `portraits/john-von-neumann.gif` | John von Neumann at Los Alamos | [John von Neumann portrait](https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif) |
 | `portraits/maurice-wilkes.jpg` | Maurice Wilkes, 1980 | [Maurice Wilkes portrait](https://commons.wikimedia.org/wiki/File:Maurice_Vincent_Wilkes_1980_(3,_cropped).jpg) |
+
+## British postwar portraits
+
+| File | Subject | Wikimedia Commons source |
+| --- | --- | --- |
+| `portraits/george-vi.jpg` | George VI, c. 1940–1946 | [George VI formal portrait](https://commons.wikimedia.org/wiki/File:King_George_VI_of_England,_formal_photo_portrait,_circa_1940-1946_-_edit.jpg) |
+| `portraits/aneurin-bevan.jpg` | Aneurin Bevan, 1945 | [Official portrait of Aneurin Bevan](https://commons.wikimedia.org/wiki/File:BevanMP.jpg) |
+| `portraits/rab-butler.png` | R. A. Butler, 1963 | [R. A. Butler at the WEU conference](https://commons.wikimedia.org/wiki/File:Rab_Butler.png) |
