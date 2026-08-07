@@ -114,3 +114,13 @@ These original vector reconstructions summarize institutional and technical rela
 | `diagrams/soviet-industrial-diaspora.svg` | Two-stage technical migration | Evacuation to northern industrial refuges followed by industrial asylum and production in Indian successor states |
 | `diagrams/indian-armored-genealogies.svg` | Distribution of armored-design lineages | Kartsev–Tagil, Morozov–Kharkiv, Kotin–Kirov, mechanized-infantry, light, and wheeled branches |
 | `diagrams/vijaya-development.svg` | Development of Congress India's Vijaya family | Russian technical inheritance transformed through Indian engineering, production, service, and chemical-protection requirements |
+
+## Northern Indian disaster-warfare diagrams
+
+These original vector reconstructions summarize the disaster-window doctrine established in the updated master transcript. They are conceptual diagrams and do not lock surveyed frontiers, exact unit positions, casualty totals, or the names of unsettled operations and inquiries.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/northern-indian-disaster-window.svg` | Self-reinforcing disaster window | Disaster, relief diversion, limited attack, civilian harm, and deeper strategic distrust |
+| `diagrams/bhola-offensive-1970.svg` | Bhola cyclone and Patna Offensive | Eastern-delta disaster, eastward Azad Hind relief movement, Congress attack, and Japanese intervention |
+| `diagrams/chittagong-relief-crisis-1991.svg` | Chittagong relief crisis | Civil requests, retained western reserves, absent Congress invasion, and preventable relief failure |

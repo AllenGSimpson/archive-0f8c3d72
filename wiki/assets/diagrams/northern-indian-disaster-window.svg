@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Northern Indian disaster window</title>
+  <desc id="desc">A circular diagram connecting natural disaster, relief diversion, limited frontier attack, civilian harm, and deeper strategic distrust.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101923"/><stop offset="1" stop-color="#1d2530"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".28"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d6b568"/></marker>
+  </defs>
+  <rect width="1200" height="720" rx="24" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#f4eddc" font-family="Georgia,serif" font-size="34">THE DISASTER WINDOW</text>
+  <text x="60" y="108" fill="#9cadbd" font-family="Arial,sans-serif" font-size="18">Northern Indian staff-college model · late 1960s onward</text>
+  <g fill="none" stroke="#d6b568" stroke-width="5" marker-end="url(#arrow)" opacity=".9">
+    <path d="M355 215C505 120 687 123 840 220"/>
+    <path d="M956 302C1010 407 952 522 845 571"/>
+    <path d="M749 622C585 673 413 637 318 548"/>
+    <path d="M213 467C155 361 198 267 287 227"/>
+  </g>
+  <g filter="url(#shadow)" font-family="Arial,sans-serif">
+    <g transform="translate(85 145)"><rect width="330" height="150" rx="18" fill="#274d60" stroke="#5ea3b5"/><text x="24" y="40" fill="#fff" font-size="23" font-weight="700">1 · NATURAL DISASTER</text><text x="24" y="76" fill="#dceaf0" font-size="17">Cyclone · flood · earthquake</text><text x="24" y="105" fill="#dceaf0" font-size="17">Civil administration and transport fail</text><text x="24" y="132" fill="#dceaf0" font-size="17">Damage becomes military intelligence</text></g>
+    <g transform="translate(785 145)"><rect width="330" height="150" rx="18" fill="#4c3e2c" stroke="#d6b568"/><text x="24" y="40" fill="#fff" font-size="23" font-weight="700">2 · RELIEF DIVERSION</text><text x="24" y="76" fill="#f1e5c8" font-size="17">Engineers · aircraft · trucks</text><text x="24" y="105" fill="#f1e5c8" font-size="17">Medicine · signals · river craft</text><text x="24" y="132" fill="#f1e5c8" font-size="17">Frontier reserve thins</text></g>
+    <g transform="translate(785 470)"><rect width="330" height="150" rx="18" fill="#542f33" stroke="#c86d72"/><text x="24" y="40" fill="#fff" font-size="23" font-weight="700">3 · LIMITED ATTACK</text><text x="24" y="76" fill="#f4dfe1" font-size="17">Town · bridgehead · railway</text><text x="24" y="105" fill="#f4dfe1" font-size="17">Embankment · ridge · riverbank</text><text x="24" y="132" fill="#f4dfe1" font-size="17">Modest gain, no deep conquest</text></g>
+    <g transform="translate(85 470)"><rect width="330" height="150" rx="18" fill="#3c3b48" stroke="#9f9bb6"/><text x="24" y="40" fill="#fff" font-size="23" font-weight="700">4 · CIVILIAN HARM</text><text x="24" y="76" fill="#e5e2ef" font-size="17">Relief arrives late</text><text x="24" y="105" fill="#e5e2ef" font-size="17">The precedent justifies retaliation</text><text x="24" y="132" fill="#e5e2ef" font-size="17">Distrust becomes doctrine</text></g>
+  </g>
+  <circle cx="600" cy="382" r="116" fill="#151d26" stroke="#d6b568" stroke-width="3"/>
+  <text x="600" y="353" text-anchor="middle" fill="#d6b568" font-family="Georgia,serif" font-size="25">SMALL TERRITORIAL</text>
+  <text x="600" y="386" text-anchor="middle" fill="#d6b568" font-family="Georgia,serif" font-size="25">GAINS</text>
+  <path d="M510 412H690" stroke="#526579"/>
+  <text x="600" y="448" text-anchor="middle" fill="#f4eddc" font-family="Georgia,serif" font-size="24">LARGE CIVILIAN COSTS</text>
+  <text x="600" y="690" text-anchor="middle" fill="#8393a3" font-family="Arial,sans-serif" font-size="15">Conceptual archive diagram · not a claim that every disaster produces an offensive</text>
+</svg>

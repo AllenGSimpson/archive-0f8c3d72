@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Bhola cyclone and the 1970 Patna Offensive</title>
+  <desc id="desc">A schematic diagram showing the eastern delta disaster, relief movement from Calcutta, Congress attack around Patna, and Japanese intervention.</desc>
+  <defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1b3345"/><stop offset="1" stop-color="#0d1a25"/></linearGradient><marker id="gold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d7b566"/></marker><marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ce6468"/></marker><marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#63a7c1"/></marker></defs>
+  <rect width="1200" height="720" rx="24" fill="url(#sea)"/>
+  <text x="55" y="66" fill="#f4eddc" font-family="Georgia,serif" font-size="32">BHOLA AND THE 1970 PATNA OFFENSIVE</text><text x="55" y="101" fill="#9fb1c1" font-family="Arial,sans-serif" font-size="17">Schematic relationship of disaster, relief diversion, attack, and intervention</text>
+  <path d="M102 201C230 157 357 169 443 214C539 265 630 244 713 205C811 160 947 156 1091 214L1082 540C942 575 821 565 705 520C584 474 478 514 370 558C269 599 170 579 91 521Z" fill="#c4ad76" opacity=".26" stroke="#d6c28f" stroke-width="2"/>
+  <path d="M104 370C239 318 364 326 488 372C616 420 757 423 1092 342" fill="none" stroke="#79a7c2" stroke-width="18" opacity=".75"/><text x="505" y="402" fill="#b9d8e8" font-family="Arial,sans-serif" font-size="17">GANGES–BRAHMAPUTRA SYSTEM</text>
+  <g font-family="Arial,sans-serif">
+    <circle cx="305" cy="354" r="11" fill="#f0eee6"/><text x="276" y="337" fill="#fff" font-size="22" font-weight="700">PATNA</text><text x="180" y="455" fill="#f0ddd0" font-size="17">Congress India</text><text x="680" y="267" fill="#d9edf1" font-size="17">Azad Hind</text>
+    <circle cx="770" cy="392" r="10" fill="#f0eee6"/><text x="731" y="374" fill="#fff" font-size="21" font-weight="700">CALCUTTA</text>
+    <ellipse cx="1000" cy="487" rx="92" ry="65" fill="#4e6f7c" stroke="#80b5c2" stroke-width="3"/><text x="1000" y="480" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">BHOLA</text><text x="1000" y="508" text-anchor="middle" fill="#dceff2" font-size="16">disaster zone</text>
+  </g>
+  <path d="M782 409C848 454 892 472 918 479" fill="none" stroke="#63a7c1" stroke-width="8" marker-end="url(#blue)"/><text x="807" y="447" fill="#b9dce8" font-family="Arial,sans-serif" font-size="16">relief assets east</text>
+  <path d="M134 329C187 330 239 338 277 348" fill="none" stroke="#ce6468" stroke-width="10" marker-end="url(#red)"/><text x="116" y="304" fill="#efb9bb" font-family="Arial,sans-serif" font-size="17">Congress offensive</text>
+  <path d="M628 134C579 186 515 245 412 314" fill="none" stroke="#d7b566" stroke-width="8" stroke-dasharray="16 10" marker-end="url(#gold)"/><text x="607" y="139" fill="#f0d89e" font-family="Arial,sans-serif" font-size="17">Japanese deployment</text>
+  <rect x="65" y="610" width="1070" height="64" rx="10" fill="#131e29" stroke="#4e6478"/><text x="91" y="638" fill="#f4eddc" font-family="Arial,sans-serif" font-size="17">Outcome:</text><text x="177" y="638" fill="#cbd5de" font-family="Arial,sans-serif" font-size="17">deeper breakthrough halted · Congress retains a modest improvement of the frontier</text><text x="91" y="662" fill="#8396a6" font-family="Arial,sans-serif" font-size="14">Positions are interpretive; exact front lines, units, and final districts remain open canon.</text>
+</svg>
