@@ -37,3 +37,17 @@ These portraits are hosted locally so the biographical pages remain usable offli
 | `portraits/enoch-powell.jpg` | Enoch Powell, 1987 | [Enoch Powell on After Dark](https://commons.wikimedia.org/wiki/File:Enoch_Powell_After_Dark_3rd_July_1987.JPG) |
 | `portraits/denis-healey.jpg` | Denis Healey | [Denis Healey portrait](https://commons.wikimedia.org/wiki/File:Denis_Healey.jpg) |
 | `portraits/margaret-thatcher.jpg` | Margaret Thatcher, 1984 | [Margaret Thatcher portrait](https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_1984.jpg) |
+
+## Japanese imperial and political portraits
+
+| File | Subject | Wikimedia Commons source |
+| --- | --- | --- |
+| `portraits/hirohito.jpg` | Emperor Hirohito in dress uniform | [Hirohito in dress uniform](https://commons.wikimedia.org/wiki/File:Hirohito_in_dress_uniform_(cropped).jpg) |
+| `portraits/hideki-tojo.jpg` | Hideki Tōjō, 1941 | [Hideki Tōjō portrait](https://commons.wikimedia.org/wiki/File:Hideki_Tojo_Portrait_1941_(3x4_cropped)(2).jpg) |
+| `portraits/mitsumasa-yonai.jpg` | Admiral Mitsumasa Yonai | [Mitsumasa Yonai portrait](https://commons.wikimedia.org/wiki/File:Mitsumasa_yonai.jpg) |
+| `portraits/mamoru-shigemitsu.jpg` | Mamoru Shigemitsu | [Mamoru Shigemitsu portrait](https://commons.wikimedia.org/wiki/File:Shigemitsu_Mamoru.jpg) |
+| `portraits/nobusuke-kishi.jpg` | Nobusuke Kishi | [Nobusuke Kishi portrait](https://commons.wikimedia.org/wiki/File:Nobusuke_Kishi_portrait_(cropped)(2).jpg) |
+| `portraits/hayato-ikeda.jpg` | Hayato Ikeda, 1962 | [Hayato Ikeda portrait](https://commons.wikimedia.org/wiki/File:Hayato_Ikeda_1962_(cropped).jpg) |
+| `portraits/eisaku-sato.jpg` | Eisaku Satō, 1964 | [Eisaku Satō portrait](https://commons.wikimedia.org/wiki/File:Eisaku_Sato_cropped_1_Eisaku_Sato_19641109.jpg) |
+| `portraits/kakuei-tanaka.jpg` | Kakuei Tanaka, 1972 | [Kakuei Tanaka portrait](https://commons.wikimedia.org/wiki/File:Kakuei_Tanaka_19720707.jpg) |
+| `portraits/yasuhiro-nakasone.jpg` | Yasuhiro Nakasone, 1982 | [Yasuhiro Nakasone portrait](https://commons.wikimedia.org/wiki/File:Yasuhiro_Nakasone_19821127.jpg) |

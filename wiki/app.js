@@ -535,7 +535,17 @@ const pages = [
   { title: "Stewarded Enterprise", description: "Alternate Thatcherism as competition within public strategic stewardship", href: "stewarded-enterprise.html", tags: "stewarded enterprise front porch capitalism thatcherism competition capacity command" },
   { title: "New Elizabethans", description: "The Coronation Generation formed by defeat, recovery, technology, and Kuwait", href: "new-elizabethans.html", tags: "new elizabethans coronation generation britain thatcher political cohort" },
   { title: "1985 United Kingdom General Election", description: "The Runway Election held before the recovery of Stanley", href: "1985-united-kingdom-general-election.html", tags: "1985 british election runway mount pleasant blood ballot thatcher falklands" },
-  { title: "Falklands Commission", description: "The statutory accounting for warning, Second Torch, logistics, and industrial capacity", href: "falklands-commission.html", tags: "falklands commission inquiry second torch intelligence reserves reownership" }
+  { title: "Falklands Commission", description: "The statutory accounting for warning, Second Torch, logistics, and industrial capacity", href: "falklands-commission.html", tags: "falklands commission inquiry second torch intelligence reserves reownership" },
+  { title: "Postwar Governments of Japan", description: "The cabinet sequence from victorious mobilization to Active Concord", href: "postwar-governments-of-japan.html", tags: "japan postwar governments cabinets prime ministers tojo yonai shigemitsu kishi ikeda sato tanaka nakasone" },
+  { title: "Hirohito", description: "Emperor of Japan through the limited war and postwar imperial settlement", href: "hirohito.html", tags: "hirohito emperor showa imperial limited war japan akihito" },
+  { title: "Hideki Tōjō", description: "Victory Cabinet premier and chairman of the Imperial Defense Council", href: "hideki-tojo.html", tags: "hideki tojo tōjō japan prime minister army victory cabinet" },
+  { title: "Mitsumasa Yonai", description: "Admiral and premier of Japan's 1947–48 Settlement Cabinet", href: "mitsumasa-yonai.html", tags: "mitsumasa yonai admiral prime minister settlement cabinet japan" },
+  { title: "Mamoru Shigemitsu", description: "Construction premier and architect of graded sovereignty", href: "mamoru-shigemitsu.html", tags: "mamoru shigemitsu prime minister graded sovereignty philippines japan" },
+  { title: "Nobusuke Kishi", description: "Development premier and architect of Japan's permanent imperial economy", href: "nobusuke-kishi.html", tags: "nobusuke kishi prime minister manchukuo development philippines japan" },
+  { title: "Hayato Ikeda", description: "Prosperity premier and sponsor of sphere-wide development", href: "hayato-ikeda.html", tags: "hayato ikeda prime minister prosperity plan osumi japan" },
+  { title: "Eisaku Satō", description: "Technical-consolidation premier from 1965 to 1972", href: "eisaku-sato.html", tags: "eisaku sato satō prime minister technical charter amaterasu biak japan" },
+  { title: "Kakuei Tanaka", description: "Network-reconstruction premier, Hikari patron, and casualty of the Biak scandal", href: "kakuei-tanaka.html", tags: "kakuei tanaka prime minister hikari biak network reconstruction japan" },
+  { title: "Yasuhiro Nakasone", description: "Active Concord premier and Japan's representative at Tehran", href: "yasuhiro-nakasone.html", tags: "yasuhiro nakasone prime minister active concord tehran horai japan" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -665,6 +675,7 @@ topicNav.push(["Bullion-Clearing System", "international-bullion-clearing-system
 topicNav.push(["Latin Scudo", "latin-scudo.html"]);
 topicNav.push(["South Seas Government", "south-seas-general-government.html"]);
 topicNav.push(["Pacific Frontiers", "pacific-frontier-islands.html"]);
+topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
   ["Indian Successor States", "india-successors.html"],
@@ -1282,6 +1293,16 @@ const crossLinks = [
   ,{ href: "new-elizabethans.html", terms: ["New Elizabethans", "Coronation Generation"] }
   ,{ href: "1985-united-kingdom-general-election.html", terms: ["1985 United Kingdom general election", "Runway Election", "Mount Pleasant Election", "Blood-and-Ballot Election"] }
   ,{ href: "falklands-commission.html", terms: ["Falklands Commission"] }
+  ,{ href: "postwar-governments-of-japan.html", terms: ["Postwar governments of Japan", "Japanese cabinet sequence"] }
+  ,{ href: "hirohito.html", terms: ["Emperor Hirohito", "Hirohito"] }
+  ,{ href: "hideki-tojo.html", terms: ["Hideki Tōjō", "Hideki Tojo", "Tōjō", "Tojo"] }
+  ,{ href: "mitsumasa-yonai.html", terms: ["Mitsumasa Yonai", "Yonai"] }
+  ,{ href: "mamoru-shigemitsu.html", terms: ["Mamoru Shigemitsu", "Shigemitsu"] }
+  ,{ href: "nobusuke-kishi.html", terms: ["Nobusuke Kishi", "Kishi"] }
+  ,{ href: "hayato-ikeda.html", terms: ["Hayato Ikeda", "Ikeda"] }
+  ,{ href: "eisaku-sato.html", terms: ["Eisaku Satō", "Eisaku Sato", "Satō"] }
+  ,{ href: "kakuei-tanaka.html", terms: ["Kakuei Tanaka", "Tanaka"] }
+  ,{ href: "yasuhiro-nakasone.html", terms: ["Yasuhiro Nakasone", "Nakasone"] }
 ];
 
 function escapePattern(value) {
