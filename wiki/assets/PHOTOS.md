@@ -205,3 +205,15 @@ These historical portraits establish the subjects' appearance without implying t
 | `portraits/puyi.jpg` | Puyi during the Manchukuo period | [Puyi, Manchukuo period](https://commons.wikimedia.org/wiki/File:Puyi,_Manchukuo_period_(cropped).jpg) |
 | `portraits/pujie.png` | Pujie in military dress | [Pujie in military dress](https://commons.wikimedia.org/wiki/File:Pujie,_brother_of_Emperor_Puyi,_in_military_dress,_1930s-1940s,.png) |
 | `portraits/demchugdongrub.png` | Prince Demchugdongrub | [Prince Demchugdongrub in the 1930s](https://commons.wikimedia.org/wiki/File:Prince_Demchugdongrub_NAC_1930s.png) |
+
+## Southern Archipelago diagrams
+
+These original vector diagrams explain the fifteen-state settlement, its regional balances, the Bornean constitutional succession, and the deliberately non-federal council system. They are institutional schematics rather than surveyed boundary maps. Unsettled flags, exact borders, capitals marked as working, constituent apportionment, and final formal titles remain open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/southern-archipelago-states.svg` | Fifteen mature Southern Archipelago states | Java, Sumatra, Borneo, Sulawesi, Bali, and eastern-island groupings |
+| `diagrams/java-three-state-balance.svg` | Sunda, Mataram, and East Java–Madura | Separation of population, courtly authority, and maritime industry |
+| `diagrams/sumatran-four-state-system.svg` | Four Sumatran state bargains | Acehnese sovereignty, Batak federalism, Minangkabau custom, and Malay corporate dependence |
+| `diagrams/bornean-succession.svg` | Replacement of Bornean Malaya | Malay–Bornean War, Bornean State, and the separate Kalimantan Federation |
+| `diagrams/southern-archipelago-council.svg` | Common machinery without federation | Technical coordination and explicit limits on common sovereign power |
