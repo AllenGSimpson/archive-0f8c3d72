@@ -54,6 +54,8 @@ These local SVG copies are used for identification in a critical fictional alter
 | `colombia.svg` | Colombia | [Flag of Colombia](https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg) | Public-domain flag |
 | `cuba.svg` | Cuba | [Flag of Cuba](https://commons.wikimedia.org/wiki/File:Flag_of_Cuba.svg) | Public-domain flag |
 | `honduras.svg` | Honduras | [Flag of Honduras](https://commons.wikimedia.org/wiki/File:Flag_of_Honduras.svg) | Official flag; see Commons file page |
+| `tannu-tuva-1943.svg` | Tannu Tuva; working continuity flag | [Flag of the Tuvan People's Republic, 1943–1944](https://commons.wikimedia.org/wiki/File:Flag_of_the_Tuvan_People%27s_Republic_(1943-1944).svg) | Public-domain official symbol; locally preserved as simplified source SVG |
+| `tannu-tuva-1943.svg` | Tannu Tuva; working continuity flag | [Flag of the Tuvan People's Republic, 1943–1944](https://commons.wikimedia.org/wiki/File:Flag_of_the_Tuvan_People%27s_Republic_(1943-1944).svg) | Public-domain official symbol; locally preserved as simplified source SVG |
 
 No visual changes were made to the downloaded SVG files. Filenames were shortened for local use.
 

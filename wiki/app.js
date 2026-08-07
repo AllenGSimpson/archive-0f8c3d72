@@ -246,6 +246,10 @@ const pages = [
   { title: "Ural Industrial States", description: "The factory-defense successor belt along the eastern Ural frontier", href: "ural-industrial-states.html", tags: "ural industrial states sverdlovsk chelyabinsk magnitogorsk kurgan tobol" },
   { title: "Siberian Black Market", description: "The unofficial trade and intelligence system sustaining the successor states", href: "siberian-black-market.html", tags: "siberian black market smuggling rail intelligence trade parts refugees" },
   { title: "AK-47 in Siberia", description: "The Novosibirsk rifle lineage and its spread through the successor wars", href: "ak-47-siberia.html", tags: "ak 47 siberia kalashnikov novosibirsk rifle weapons successor states" },
+  { title: "Krasnoyarsk State", description: "The central Siberian command governing the Yenisei railway and river corridor", href: "krasnoyarsk-state.html", tags: "krasnoyarsk state yenisei siberia command railway river successor" },
+  { title: "Tannu Tuva", description: "The independent Tuvan frontier state excluded from the Japanese-recognized Mongolian sphere", href: "tannu-tuva.html", tags: "tannu tuva tuvan kyzyl mongolia neutral tehran people republic" },
+  { title: "Tsar Mikhail", description: "The Australian-exile Romanov elected sovereign of the Russian Far Eastern State", href: "tsar-mikhail.html", tags: "tsar mikhail michael andreevich romanov far eastern state chita sovereign" },
+  { title: "Mikhail Kalashnikov", description: "The Altai-born Novosibirsk designer behind Siberia's AK-47 family", href: "mikhail-kalashnikov.html", tags: "mikhail timofeyevich kalashnikov ak 47 designer novosibirsk altai biography" },
   { title: "Council of the Three Indochinese States", description: "Vietnamese, Cambodian, and Lao technical and diplomatic council", href: "council-three-indochinese-states.html", tags: "council three indochinese states vietnam cambodia laos mekong geacps" },
   { title: "Papua New Guinea", description: "Unified Papuan associated state and home of the Biak space district", href: "papua-new-guinea.html", tags: "papua new guinea biak pacific geacps japan associated state" },
   { title: "Greater East Asia Co-Prosperity Sphere", description: "The Japanese-led hierarchy of territories, associates, clients, and partners", href: "geacps.html", tags: "geacps dai toa kyoeiken japan asia pacific sphere international order" },
@@ -354,6 +358,14 @@ const pages = [
   { title: "TEJUN", description: "Japan's persistent administrative and control programming family", href: "tejun.html", tags: "tejun 手順 テジュン japanese procedure control transactions factory robotics" },
   { title: "Gakushū", description: "Japan's native-script home and educational programming language", href: "gakushu.html", tags: "gakushu 学習 japanese home computer education programming vertical" },
   { title: "Latin-bloc Programming Languages", description: "ALGOL-Latin, LIA, Occitan control languages, and Marseille Prolog", href: "latin-programming-languages.html", tags: "latin bloc programming languages algol lia occitan prolog olivetti" },
+  { title: "Lisp", description: "The American symbolic-programming family of lists, functions, and managed memory", href: "lisp.html", tags: "lisp john mccarthy symbolic artificial intelligence ai lists garbage collection" },
+  { title: "BASIC", description: "Dartmouth time sharing, home-computer interpreters, and incompatible consumer dialects", href: "basic-programming-language.html", tags: "basic dartmouth kemeny kurtz time sharing home computer tiny rom" },
+  { title: "Forth", description: "The compact interactive stack language for instruments and embedded control", href: "forth-programming-language.html", tags: "forth charles moore stack dictionary threaded embedded control" },
+  { title: "Pascal", description: "Niklaus Wirth's international language of structured programming education", href: "pascal-programming-language.html", tags: "pascal niklaus wirth structured programming education p code" },
+  { title: "Smalltalk", description: "The Xerox PARC object and message environment behind graphical software", href: "smalltalk.html", tags: "smalltalk xerox parc alan kay ingalls goldberg objects messages gui" },
+  { title: "SQL", description: "The IBM-origin declarative language for relational data", href: "sql.html", tags: "sql sequel system r relational database chamberlin boyce query" },
+  { title: "Ada", description: "The 1983 American military systems-language consolidation", href: "ada-programming-language.html", tags: "ada 83 military aerospace packages generics tasks strong typing" },
+  { title: "C++", description: "The emerging 1985 object-oriented systems language descended from C with Classes", href: "cpp-programming-language.html", tags: "c plus plus cpp stroustrup bell labs objects classes systems 1985" },
   { title: "LIA", description: "Olivetti's Italian administrative programming-language family", href: "lia-language.html", tags: "lia linguaggio italiano amministrativo olivetti records decimal scudo" },
   { title: "Marseille Prolog", description: "The Occitan-origin logic-programming language", href: "marseille-prolog.html", tags: "marseille prolog occitan logic programming unification backtracking" },
   { title: "Plankalkül", description: "Zuse's typed plan notation and the intellectual foundation of Rechenplan", href: "plankalkul.html", tags: "plankalkul plankalkül zuse german programming notation arrays plans" },
@@ -445,7 +457,39 @@ const pages = [
   { title: "Luso-Brazilian Community", description: "Portuguese-Brazilian economic, cultural, and Atlantic association", href: "luso-brazilian-community.html", tags: "luso brazilian community portugal brazil latin bloc lusophone" },
   { title: "Santiago Doctrine", description: "Chile's doctrine of multi-bloc strategic independence under Pinochet", href: "santiago-doctrine.html", tags: "santiago doctrine chile pinochet balance foreign policy" },
   { title: "Plan Centinela", description: "Chile's spring 1984 cordillera deployment and Falklands effect", href: "plan-centinela.html", tags: "plan centinela chile argentina cordillera 1984 falklands" },
-  { title: "Cold Andes", description: "The Chilean–Argentine confrontation after the Falklands settlement", href: "cold-andes.html", tags: "cold andes chile argentina 1986 1989 conflict" }
+  { title: "Cold Andes", description: "The Chilean–Argentine confrontation after the Falklands settlement", href: "cold-andes.html", tags: "cold andes chile argentina 1986 1989 conflict" },
+  { title: "ALGOL-Latin", description: "The Latin bloc's shared scientific and engineering language family", href: "algol-latin.html", tags: "algol latin 62 68 scientific engineering language modelo modele" },
+  { title: "Modula", description: "Niklaus Wirth's modular systems-language family and its Latin engineering role", href: "modula-programming-language.html", tags: "modula modula-2 wirth modules systems language pascal latin" },
+  { title: "Kansū 42", description: "Japan's specialist native-token functional research language", href: "kansu-42.html", tags: "kansu kansū 関数四二 japanese functional ml lambda research language" },
+  { title: "Ronri 44", description: "Japan's specialist native-token logic-programming language", href: "ronri-44.html", tags: "ronri 論理四四 japanese logic prolog unification research language" },
+  { title: "Gazō 44", description: "Japan's specialist retained-graphics and interface language", href: "gazo-44.html", tags: "gazo gazō 画像四四 japanese graphics sprites interface language" },
+  { title: "International Character and Data Standards Council", description: "The cross-bloc standards body behind UNICODE 80", href: "international-character-data-standards-council.html", tags: "icdsc international character data standards council unicode 80 kyoto geneva tokyo melbourne" },
+  { title: "Concord Architecture", description: "Elias Mercer's closed integrated personal-computing platform", href: "concord-architecture.html", tags: "concord architecture concord one meridian gated republic mercer civic platform" },
+  { title: "ShadowNet", description: "The pseudonymous American cultural and application overlay on Weltnetz", href: "shadownet.html", tags: "shadownet shadow net brightnet weltnetz pseudonym privacy relay signed handles" },
+  { title: "Zivilsprachenrichtlinie", description: "The 1982 German directive to certify uses rather than programming ideas", href: "zivilsprachenrichtlinie.html", tags: "zivilsprachenrichtlinie civilian language directive certify uses ideas sprachenbereinigung falkenberg" },
+  { title: "Werkcode 80", description: "Germany's low-level civilian systems and microcomputer language", href: "werkcode.html", tags: "werkcode 80 german systems microcomputer language ort manual allocation zivil planform" },
+  { title: "Lehrplan 81", description: "Germany's checked structured teaching and business language", href: "lehrplan.html", tags: "lehrplan 81 german pascal algol education business language typed files" },
+  { title: "Folge 81", description: "Germany's strict typed functional programming language", href: "folge.html", tags: "folge 81 german functional ml lambda inference patterns immutable" },
+  { title: "Schluss 82", description: "Germany's civilian logic language for rules and diagnosis", href: "schluss.html", tags: "schluss 82 german logic prolog rules diagnosis unification schnitt" },
+  { title: "Klasse 82", description: "Germany's object, simulation, and interactive programming language", href: "klasse.html", tags: "klasse 82 german objects simula smalltalk regions simulation language" },
+  { title: "Bildschrift 83", description: "Germany's deterministic retained-scene visual programming language", href: "bildschrift.html", tags: "bildschrift 83 german visual graphics windows animation games retained scene" },
+  { title: "Nachricht 84", description: "Germany's typed message-passing language for distributed programs", href: "nachricht.html", tags: "nachricht 84 german messages distributed processes mailboxes network acknowledgement" },
+  { title: "Schnur 80", description: "Germany's compact postfix language for electronics clubs and instruments", href: "schnur.html", tags: "schnur 80 german forth postfix threaded electronics instruments controllers" },
+  { title: "Bericht 81", description: "Germany's deterministic small-business report language", href: "bericht.html", tags: "bericht 81 german reports business records sorting totals spool" },
+  { title: "Spielsatz 81", description: "Germany's compact cassette-game language and stack virtual machine", href: "spielsatz.html", tags: "spielsatz 81 german cassette games sprites sound state tables unsafe" },
+  { title: "Satzwerk 81", description: "Germany's streaming publishing and text-transformation language", href: "satzwerk.html", tags: "satzwerk 81 german publishing typesetting macros mail merge stream language" },
+  { title: "Datenfrage 82", description: "Germany's interactive language for small office databases", href: "datenfrage.html", tags: "datenfrage 82 german query database records office auswahlplan" },
+  { title: "Schaltfolge 82", description: "Germany's low-cost noncertified civilian control language", href: "schaltfolge.html", tags: "schaltfolge 82 german industrial control scan safe shutdown noncertified" },
+  { title: "Wortbrücke 82", description: "Germany's symbolic localization and constrained-translation language", href: "wortbruecke.html", tags: "wortbrücke wortbruecke 82 german translation localization terminology provenance" },
+  { title: "Programmhäuser", description: "Germany's post-reform civilian software-house industry", href: "programmhaeuser.html", tags: "programmhäuser programmhaeuser software houses germany contracts escrow maintenance translation" },
+  { title: "Mekong States", description: "Vietnam, Cambodia, and Laos as a connected but nonfederal region", href: "mekong-states.html", tags: "mekong states vietnam cambodia laos indochina council geacps" },
+  { title: "Languages of Cambodia", description: "Khmer restoration, technical vocabulary, and script modernization", href: "languages-of-cambodia.html", tags: "cambodia khmer language script french fonts keyboards unicode" },
+  { title: "Languages of Laos", description: "Modern Lao, Tham preservation, and cultural distinction from Thailand", href: "languages-of-laos.html", tags: "laos lao language tham script thai french preservation" },
+  { title: "Languages of Vietnam", description: "Quốc ngữ, Hán–Nôm heritage, and official unequal digraphia", href: "languages-of-vietnam.html", tags: "vietnam vietnamese quoc ngu quốc ngữ han nom hán nôm language script" },
+  { title: "Hán–Nôm Revival", description: "Vietnam's heritage-script program and Modern Nôm movement", href: "han-nom-revival.html", tags: "han nom hán nôm chu nom chữ nôm modern nom vietnam glyph commission" },
+  { title: "Computing in the Mekong States", description: "Japanese platforms, national interfaces, and uneven domestic capacity", href: "computing-in-mekong-states.html", tags: "mekong computing vietnam cambodia laos japan localization software" },
+  { title: "Software Localization in the Mekong States", description: "The four-layer national-interface and Japanese-core production model", href: "software-localization-in-mekong-states.html", tags: "mekong software localization japanese core national bureau interface architecture" },
+  { title: "Vietnamese Software Industry", description: "Vietnam's path from application offices to domestic studios", href: "vietnamese-software-industry.html", tags: "vietnam vietnamese software industry studios publishing education games han nom" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -670,7 +714,7 @@ const crossLinks = [
   { href: "japanese-yen-area.html", terms: ["Imperial Financial Rectification", "New Yen Settlement", "Greater East Asia Clearing Yen", "Clearing Yen"] },
   { href: "greater-east-asia-prosperity-plan.html", terms: ["Greater East Asia Prosperity Plan"] },
   { href: "home-return-mandate.html", terms: ["National Home and Return Mandate", "Home and Return Mandate"] },
-  { href: "unicode-80.html", terms: ["UNICODE 80", "International Character and Data Standards Council", "ICDSC"] },
+  { href: "unicode-80.html", terms: ["UNICODE 80"] },
   { href: "biak-space-center.html", terms: ["Biak Space and Air District", "Biak equatorial complex", "Biak"] },
   { href: "japanese-pacific-territories.html", terms: ["Japanese Pacific Territories", "South Pacific imperial territories", "Integral Japanese Micronesia"] },
   { href: "italy.html", terms: ["Kingdom of Italy", "Italian empire", "Italy"] },
@@ -835,7 +879,7 @@ const crossLinks = [
   { href: "laos.html", terms: ["Kingdom of Laos", "Laos", "Luang Phrabang"] },
   { href: "east-indies-successor-states.html", terms: ["East Indian Successor States", "East Indies Administration", "Dutch East Indies", "former Dutch East Indies"] },
   { href: "vladivostok.html", terms: ["Vladivostok Protectorate", "Vladivostok Zone"] },
-  { href: "russian-far-eastern-state.html", terms: ["Russian Far Eastern State", "Tsar Mikhail", "Zemsky Sobor", "Eastern Siberian Republic"] },
+  { href: "russian-far-eastern-state.html", terms: ["Russian Far Eastern State", "Zemsky Sobor", "Eastern Siberian Republic"] },
   { href: "chukotka.html", terms: ["Chukotka Autonomous Territory", "Chukotka"] },
   { href: "greece.html", terms: ["Greece under Italian Rule", "Greece"] },
   { href: "albania.html", terms: ["Kingdom of Albania", "Albania"] },
@@ -878,7 +922,7 @@ const crossLinks = [
   { href: "propaganda-intelligence.html", terms: ["cultural infiltration", "propaganda competition", "curated openness"] },
   { href: "nuclear-energy.html", terms: ["nuclear power", "energy order"] },
   { href: "motorsport.html", terms: ["Formula One", "Group 7"] },
-  { href: "platform-society.html", terms: ["platform society", "personal computing", "Concord One", "Bridge/16"] },
+  { href: "platform-society.html", terms: ["platform society", "personal computing", "Bridge/16"] },
   { href: "palestine-war.html", terms: ["Palestine War"] },
   { href: "amman-settlement.html", terms: ["Amman Settlement"] },
   { href: "iraqi-civil-war.html", terms: ["Iraqi Civil War"] },
@@ -963,6 +1007,10 @@ const crossLinks = [
   { href: "ural-industrial-states.html", terms: ["Ural industrial states", "Ural city-states", "factory-defense states"] },
   { href: "siberian-black-market.html", terms: ["Siberian black market", "black economy of Siberia"] },
   { href: "ak-47-siberia.html", terms: ["AK-47", "Siberian AK", "Novosibirsk AK-47"] },
+  { href: "krasnoyarsk-state.html", terms: ["Krasnoyarsk State", "Krasnoyarsk command", "Krasnoyarsk-centered authorities"] },
+  { href: "tannu-tuva.html", terms: ["Tannu Tuva", "Tuvan People's Republic", "Tuvan state"] },
+  { href: "tsar-mikhail.html", terms: ["Tsar Mikhail", "Michael Andreevich Romanov", "Michael Andreevich"] },
+  { href: "mikhail-kalashnikov.html", terms: ["Mikhail Kalashnikov", "Mikhail Timofeyevich Kalashnikov", "Kalashnikov"] },
   { href: "council-three-indochinese-states.html", terms: ["Council of the Three Indochinese States", "Council of Three Indochinese States", "Council of the Indochinese States"] },
   { href: "papua-new-guinea.html", terms: ["Papua New Guinea"] },
   { href: "timeline.html#succession", terms: ["succession settlement"] }
@@ -994,7 +1042,7 @@ const crossLinks = [
   ,{ href: "planform.html", terms: ["Planform", "Planform I", "Planform II", "Zivil-Planform"] }
   ,{ href: "planwerk.html", terms: ["Planwerk", "Programmbuch"] }
   ,{ href: "kurzplan.html", terms: ["Kurzplan", "Kurzplan 77"] }
-  ,{ href: "german-civilian-languages.html", terms: ["German civilian programming languages", "Zivilsprachenrichtlinie", "Werkcode", "Lehrplan", "Folge", "Schluss", "Bildschrift", "Nachricht"] }
+  ,{ href: "german-civilian-languages.html", terms: ["German civilian programming languages", "German civilian language ecology"] }
   ,{ href: "plan-austral.html", terms: ["Plan Austral", "Plan Austral 82"] }
   ,{ href: "software-portability.html", terms: ["software portability", "source-profile portability", "binary portability"] }
   ,{ href: "commonwealth-programming-languages.html", terms: ["Commonwealth programming languages", "British programming languages", "Commonwealth Programme Library"] }
@@ -1009,7 +1057,39 @@ const crossLinks = [
   ,{ href: "keisan.html", terms: ["KEISAN", "計算三六", "計算四二"] }
   ,{ href: "tejun.html", terms: ["TEJUN", "手順三七", "手順四三"] }
   ,{ href: "gakushu.html", terms: ["Gakushū", "学習三八", "学習四一"] }
-  ,{ href: "latin-programming-languages.html", terms: ["Latin-bloc programming languages", "Latin programming languages", "ALGOL-Latin"] }
+  ,{ href: "latin-programming-languages.html", terms: ["Latin-bloc programming languages", "Latin programming languages"] }
+  ,{ href: "lisp.html", terms: ["Lisp programming language", "Lisp dialects", "Lisp 1.5"] }
+  ,{ href: "basic-programming-language.html", terms: ["BASIC programming language", "Dartmouth BASIC", "Tiny BASIC", "Commonwealth BASIC"] }
+  ,{ href: "forth-programming-language.html", terms: ["Forth programming language", "FIG-Forth", "Forth-79"] }
+  ,{ href: "pascal-programming-language.html", terms: ["Pascal programming language", "Pascal compiler", "Pascal education"] }
+  ,{ href: "smalltalk.html", terms: ["Smalltalk-80", "Smalltalk programming language", "Smalltalk systems"] }
+  ,{ href: "sql.html", terms: ["Structured Query Language", "SEQUEL", "SQL language"] }
+  ,{ href: "ada-programming-language.html", terms: ["Ada programming language", "Ada 83", "MIL-STD-1815A"] }
+  ,{ href: "cpp-programming-language.html", terms: ["C++ programming language", "C with Classes"] }
+  ,{ href: "algol-latin.html", terms: ["ALGOL-Latin 68", "ALGOL-Latin 62", "ALGOL-Latin"] }
+  ,{ href: "modula-programming-language.html", terms: ["Modula-2", "Modula programming language", "Modula"] }
+  ,{ href: "kansu-42.html", terms: ["Kansū 42", "Kansū", "関数四二"] }
+  ,{ href: "ronri-44.html", terms: ["Ronri 44", "Ronri", "論理四四"] }
+  ,{ href: "gazo-44.html", terms: ["Gazō 44", "Gazō", "画像四四"] }
+  ,{ href: "international-character-data-standards-council.html", terms: ["International Character and Data Standards Council", "ICDSC"] }
+  ,{ href: "concord-architecture.html", terms: ["Concord architecture", "Concord Meridian", "Concord One"] }
+  ,{ href: "shadownet.html", terms: ["ShadowNet", "going shadow", "Brightnet", "Schattennetz"] }
+  ,{ href: "zivilsprachenrichtlinie.html", terms: ["Zivilsprachenrichtlinie", "Sprachenbereinigung", "certify uses, not ideas"] }
+  ,{ href: "werkcode.html", terms: ["Werkcode 80", "Werkcode"] }
+  ,{ href: "lehrplan.html", terms: ["Lehrplan 81", "Lehrplan"] }
+  ,{ href: "folge.html", terms: ["Folge 81", "Folge"] }
+  ,{ href: "schluss.html", terms: ["Schluss 82", "Schluss"] }
+  ,{ href: "klasse.html", terms: ["Klasse 82", "Klasse"] }
+  ,{ href: "bildschrift.html", terms: ["Bildschrift 83", "Bildschrift"] }
+  ,{ href: "nachricht.html", terms: ["Nachricht 84", "Nachricht"] }
+  ,{ href: "schnur.html", terms: ["Schnur 80", "Schnur"] }
+  ,{ href: "bericht.html", terms: ["Bericht 81", "Bericht"] }
+  ,{ href: "spielsatz.html", terms: ["Spielsatz 81", "Spielsatz"] }
+  ,{ href: "satzwerk.html", terms: ["Satzwerk 81", "Satzwerk"] }
+  ,{ href: "datenfrage.html", terms: ["Datenfrage 82", "Datenfrage"] }
+  ,{ href: "schaltfolge.html", terms: ["Schaltfolge 82", "Schaltfolge"] }
+  ,{ href: "wortbruecke.html", terms: ["Wortbrücke 82", "Wortbrücke", "Wortbruecke"] }
+  ,{ href: "programmhaeuser.html", terms: ["Programmhäuser", "Programmhaus", "German software houses"] }
   ,{ href: "lia-language.html", terms: ["LIA programming language", "Linguaggio Italiano Amministrativo", "LIA-59", "LIA 73"] }
   ,{ href: "marseille-prolog.html", terms: ["Marseille Prolog", "Prolog"] }
   ,{ href: "plankalkul.html", terms: ["Plankalkül", "Plankalkul"] }
@@ -1102,6 +1182,14 @@ const crossLinks = [
   ,{ href: "santiago-doctrine.html", terms: ["Santiago Doctrine"] }
   ,{ href: "plan-centinela.html", terms: ["Plan Centinela", "Programa de Catastro y Seguridad Cordillerana"] }
   ,{ href: "cold-andes.html", terms: ["Cold Andes"] }
+  ,{ href: "mekong-states.html", terms: ["Mekong states", "Council of Three Mekong States"] }
+  ,{ href: "languages-of-cambodia.html", terms: ["Languages of Cambodia", "Khmer script modernization"] }
+  ,{ href: "languages-of-laos.html", terms: ["Languages of Laos", "Tham script preservation"] }
+  ,{ href: "languages-of-vietnam.html", terms: ["Languages of Vietnam", "official digraphia", "quốc ngữ"] }
+  ,{ href: "han-nom-revival.html", terms: ["Hán–Nôm revival", "Modern Nôm movement", "Hán-Nôm revival"] }
+  ,{ href: "computing-in-mekong-states.html", terms: ["Computing in the Mekong states", "Mekong computing"] }
+  ,{ href: "software-localization-in-mekong-states.html", terms: ["Software localization in the Mekong states", "Mekong software localization", "the interface is national"] }
+  ,{ href: "vietnamese-software-industry.html", terms: ["Vietnamese software industry", "Vietnamese software studios"] }
 ];
 
 function escapePattern(value) {
