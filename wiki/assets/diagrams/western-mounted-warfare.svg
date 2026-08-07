@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Modern mounted warfare in western India</title>
+  <desc id="desc">A diagram showing how horse mobility, dismounted combat, mechanized support, and the remount economy form a mixed western Indian column.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a20"/><stop offset="1" stop-color="#252c27"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity=".3"/></filter><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d1b96f"/></marker></defs>
+  <rect width="1200" height="760" rx="24" fill="url(#bg)"/>
+  <text x="55" y="66" fill="#f5eddb" font-family="Georgia,serif" font-size="34">MODERN MOUNTED WARFARE</text><text x="55" y="103" fill="#a9b6c2" font-family="Arial,sans-serif" font-size="17">Horses provide operational mobility; soldiers dismount to fight a modern battle</text>
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <rect x="65" y="160" width="290" height="155" rx="17" fill="#3f392c" stroke="#d1b96f"/><text x="90" y="200" fill="#fff" font-size="23" font-weight="700">RIDE &amp; SCREEN</text><text x="90" y="235" fill="#efe2bd" font-size="16">Reconnaissance and pursuit</text><text x="90" y="264" fill="#efe2bd" font-size="16">Raids beyond usable roads</text><text x="90" y="293" fill="#efe2bd" font-size="16">Pack animals carry the tail</text>
+    <rect x="455" y="160" width="290" height="155" rx="17" fill="#3b3034" stroke="#bd8996"/><text x="480" y="200" fill="#fff" font-size="23" font-weight="700">DISMOUNT &amp; FIGHT</text><text x="480" y="235" fill="#efdce1" font-size="16">Automatic rifles and machine guns</text><text x="480" y="264" fill="#efdce1" font-size="16">Mortars, mines, and radios</text><text x="480" y="293" fill="#efdce1" font-size="16">Light antitank weapons</text>
+    <rect x="845" y="160" width="290" height="155" rx="17" fill="#273f4b" stroke="#6da1b8"/><text x="870" y="200" fill="#fff" font-size="23" font-weight="700">HEAVY SUPPORT</text><text x="870" y="235" fill="#d9e9ef" font-size="16">Trucks and limited armor</text><text x="870" y="264" fill="#d9e9ef" font-size="16">Artillery and engineers</text><text x="870" y="293" fill="#d9e9ef" font-size="16">Recovery and fuel bottlenecks</text>
+  </g>
+  <path d="M355 238H438M745 238H828" stroke="#d1b96f" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="105" y="405" width="990" height="185" rx="20" fill="#1e2930" stroke="#778998" stroke-width="2"/>
+  <text x="600" y="449" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="28">THE REMOUNT ECONOMY</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle"><text x="215" y="502" fill="#d7e0e7" font-size="17">Breeding districts</text><text x="405" y="502" fill="#d7e0e7" font-size="17">Purchasing fairs</text><text x="600" y="502" fill="#d7e0e7" font-size="17">Depots &amp; branding</text><text x="795" y="502" fill="#d7e0e7" font-size="17">Veterinary schools</text><text x="985" y="502" fill="#d7e0e7" font-size="17">Fodder &amp; requisition</text></g>
+  <path d="M215 525H985" stroke="#8ea06f" stroke-width="5" marker-end="url(#arrow)"/><g fill="#8ea06f"><circle cx="215" cy="525" r="9"/><circle cx="405" cy="525" r="9"/><circle cx="600" cy="525" r="9"/><circle cx="795" cy="525" r="9"/></g>
+  <text x="600" y="559" text-anchor="middle" fill="#b6c2cb" font-family="Arial,sans-serif" font-size="16">Balochi - Waziri - Punjabi - Marwari horse populations</text>
+  <g font-family="Arial,sans-serif"><rect x="250" y="636" width="700" height="66" rx="13" fill="#3a3029" stroke="#c28d68"/><text x="600" y="677" text-anchor="middle" fill="#f2dfd1" font-size="18">Enemy raids target herds and depots because replacement horses are strategic materiel.</text></g>
+</svg>

@@ -134,3 +134,13 @@ These original vector reconstructions summarize the dispersed court system descr
 | `diagrams/princely-india-system.svg` | Levels and regional systems of princely India | Sovereign courts, associated principalities, estates, the Chamber of Princes, regional networks, and Hyderabad's material influence |
 | `diagrams/hyderabad-machilipatnam-corridor.svg` | Hyderabad's maritime outlet | Hyderabad–Warangal–Vijayawada–Machilipatnam transport and treaty chain |
 | `diagrams/princely-arms-market.svg` | Small-batch military commerce | Foreign and Indian suppliers, credit, brokers, transit, individual court packages, and maintenance dependence |
+
+## Western Indian campaign diagrams
+
+These original vector reconstructions summarize the western succession and campaign sequence established in the updated Setting Bible, Setting Timeline, master transcript, and land-armaments reference. They are conceptual diagrams and do not lock unsettled borders, operation names, commanders, orders of battle, equipment models, or casualty totals.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/western-indian-war-sequence.svg` | Western Indian wars, 1947-1982 | State formation, early frontier campaigns, and the later limited wars of consolidation |
+| `diagrams/western-mounted-warfare.svg` | Modern mounted warfare | Mounted rifles, dismounted firepower, mixed mechanized columns, and the remount economy |
+| `diagrams/western-consolidation-wars.svg` | Three consolidation wars | Kashmir-Khalistan, Second Las Bela, and Hindustan-Rajputana compared by opening, intervention, and settlement |
