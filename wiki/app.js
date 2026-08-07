@@ -559,7 +559,17 @@ const pages = [
   { title: "Biak Booster Failure", description: "The 1974 launch accident and procurement scandal that brought down Tanaka", href: "biak-booster-failure.html", tags: "biak booster failure accident 1974 tanaka miki kobo procurement safety" },
   { title: "Associated-State Astronaut Program", description: "Multinational GEACPS specialists within Japanese orbital command", href: "associated-state-astronaut-program.html", tags: "associated state astronaut program filipino siamese chinese geacps hikari horai" },
   { title: "Tsubame Program", description: "Japan's automated cargo, reboost, and waste-removal spacecraft", href: "tsubame-program.html", tags: "tsubame program swallow cargo reboost waste docking kobo japan" },
-  { title: "Kōbō–Hōrai Orbital Complex", description: "Japan's automated workshop and continuously occupied multinational platform", href: "kobo-horai.html", tags: "kobo kōbō horai hōrai orbital platform station japan multinational robotics" }
+  { title: "Kōbō–Hōrai Orbital Complex", description: "Japan's automated workshop and continuously occupied multinational platform", href: "kobo-horai.html", tags: "kobo kōbō horai hōrai orbital platform station japan multinational robotics" },
+  { title: "Imperial Space Development Agency", description: "Japan's permanent civil authority for launchers, satellites, tracking, standards, safety, and procurement", href: "imperial-space-development-agency.html", tags: "imperial space development agency japan isda civil launcher tracking safety procurement" },
+  { title: "Hideo Itokawa", description: "Pioneer of Japanese rocketry and public advocate of useful-machine spaceflight", href: "hideo-itokawa.html", tags: "hideo itokawa pencil rocket japan scientist engineer space" },
+  { title: "Early Japanese Satellite Program", description: "The 1957–1965 path from sounding rockets and failure to three useful satellites", href: "early-japanese-satellite-program.html", tags: "early japanese satellite program osumi kuroshio yamabiko itokawa 1961 failure" },
+  { title: "Ōsumi I", description: "Japan's first successful artificial satellite, launched in 1962", href: "osumi-i.html", tags: "osumi ōsumi first japanese satellite 1962 orbit" },
+  { title: "Kuroshio I", description: "Japan's 1964 weather and ocean-observation satellite", href: "kuroshio-i.html", tags: "kuroshio weather ocean typhoon monsoon satellite japan 1964" },
+  { title: "Yamabiko I", description: "Japan's 1965 store-and-forward communications experiment", href: "yamabiko-i.html", tags: "yamabiko communications relay satellite japan 1965" },
+  { title: "Machine-First Space Doctrine", description: "Japan's rule that robots prepare the road and humans follow when ready", href: "machine-first-space-doctrine.html", tags: "machine first space doctrine robots humans japan moon mars" },
+  { title: "Imperial Deep-Space Network", description: "Biak, Palau, Philippine, associated, and orbital nodes for lunar and Mars operations", href: "imperial-deep-space-network.html", tags: "imperial deep space network biak palau philippines horai moon mars tracking" },
+  { title: "Japanese Lunar Exploration Program", description: "The 1970–1983 sequence of orbiters, landers, rovers, relays, and surveys", href: "japanese-lunar-exploration-program.html", tags: "japanese lunar exploration program moon orbiter lander rover relay 1975 1977" },
+  { title: "Distributed Mars Robotic System", description: "Japan's 1984 cooperative network of orbiters, landers, rovers, and fixed stations", href: "distributed-mars-robotic-system.html", tags: "distributed mars robotic system japan 1984 orbiter lander rover weather station" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -1331,6 +1341,16 @@ const crossLinks = [
   ,{ href: "associated-state-astronaut-program.html", terms: ["Associated-State Astronaut Program", "associated-state astronaut program", "first Filipino astronaut"] }
   ,{ href: "tsubame-program.html", terms: ["Tsubame program", "Tsubame-1", "Tsubame"] }
   ,{ href: "kobo-horai.html", terms: ["Kōbō–Hōrai orbital complex", "Kōbō laboratory", "Hōrai Orbital Platform", "Kōbō", "Hōrai"] }
+  ,{ href: "imperial-space-development-agency.html", terms: ["Imperial Space Development Agency", "Imperial Space Development Council"] }
+  ,{ href: "hideo-itokawa.html", terms: ["Hideo Itokawa", "Itokawa"] }
+  ,{ href: "early-japanese-satellite-program.html", terms: ["Early Japanese Satellite Program", "early satellite program"] }
+  ,{ href: "osumi-i.html", terms: ["Ōsumi I", "Osumi I"] }
+  ,{ href: "kuroshio-i.html", terms: ["Kuroshio I"] }
+  ,{ href: "yamabiko-i.html", terms: ["Yamabiko I"] }
+  ,{ href: "machine-first-space-doctrine.html", terms: ["Machine-First Space Doctrine", "machine-first doctrine", "machine-first space doctrine"] }
+  ,{ href: "imperial-deep-space-network.html", terms: ["Imperial Deep-Space Network", "deep-space network"] }
+  ,{ href: "japanese-lunar-exploration-program.html", terms: ["Japanese Lunar Exploration Program", "Japanese lunar program"] }
+  ,{ href: "distributed-mars-robotic-system.html", terms: ["Distributed Mars Robotic System", "distributed Mars system", "cooperative Mars system"] }
 ];
 
 function escapePattern(value) {

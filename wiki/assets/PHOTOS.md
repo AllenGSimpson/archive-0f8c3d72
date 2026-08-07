@@ -55,6 +55,7 @@ These portraits are hosted locally so the biographical pages remain usable offli
 | `portraits/takeo-fukuda.jpg` | Takeo Fukuda, 1976 | [Takeo Fukuda official portrait](https://commons.wikimedia.org/wiki/File:Takeo_Fukuda_19761224.jpg) |
 | `portraits/masayoshi-ohira.jpg` | Masayoshi Ōhira, 1979 | [Masayoshi Ōhira official portrait](https://commons.wikimedia.org/wiki/File:Masayoshi_Ohira_19790120.jpg) |
 | `portraits/zenko-suzuki.jpg` | Zenkō Suzuki, 1980 | [Zenkō Suzuki official portrait](https://commons.wikimedia.org/wiki/File:Zenk%C5%8D_Suzuki_19800717.jpg) |
+| `portraits/hideo-itokawa.jpg` | Hideo Itokawa, c. 1961 | [Hideo Itokawa portrait](https://commons.wikimedia.org/wiki/File:Hideo_Itokawa_circa_1961.jpg) |
 
 ## Japanese orbital-system diagrams
 
@@ -66,3 +67,8 @@ These original vector reconstructions are interpretive archive graphics based on
 | `diagrams/musubi-docking.svg` | Musubi rendezvous vehicles | Small unpressurized automatic docking targets |
 | `diagrams/tsubame-cargo.svg` | Tsubame logistics craft | Automated cargo, propellant, reboost, and waste vehicle |
 | `diagrams/kobo-horai-platform.svg` | Hōrai Orbital Platform | Compact modular laboratory and robotic-operations station |
+| `diagrams/japanese-early-satellites.svg` | Ōsumi I, Kuroshio I, and Yamabiko I | Interpretive comparison of the early engineering, weather, and communications satellites |
+| `diagrams/imperial-space-development-agency.svg` | Imperial Space Development Agency | Institutional relationship among civil programs, common infrastructure, and classified military missions |
+| `diagrams/japanese-lunar-network.svg` | Japanese lunar exploration network | Interpretive orbiter–lander–rover–relay architecture; exact vehicle geometry remains open |
+| `diagrams/imperial-deep-space-network.svg` | Imperial Deep-Space Network | Interpretive map of home-island, Biak, Palau, Philippine, associated, and orbital command nodes |
+| `diagrams/distributed-mars-system.svg` | Distributed Mars robotic system | Interpretive 1984 orbiter, relay, lander, rover, and fixed-station architecture; exact vehicle geometry remains open |
