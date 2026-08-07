@@ -239,3 +239,12 @@ These original vector diagrams summarize the postwar Japanese developmental orde
 | `diagrams/japanese-layered-yen-area.svg` | Four-layer Japanese monetary architecture | Domestic and inner yen, local development currencies, Greater East Asia Clearing Yen, and separate external Gold Yen |
 | `diagrams/japanese-corporate-house-network.svg` | Structure of a mature imperial corporate house | Principal bank and insurer, general trading company, shipping, industry, research, and overseas subsidiaries |
 | `diagrams/japanese-development-plan-sequence.svg` | Postwar development sequence | 1948 Financial Rectification, First Reconstruction Plan, Ikeda Prosperity Plan, and the mature protected-enterprise problem |
+
+## Original orbital-program diagrams
+
+These original vector diagrams summarize the American orbital-vehicle chronology, the corrected 1971 lunar architecture, the Columbia logistics chain, and the developing law of orbit. They preserve the canonically open subtype masses, payloads, propulsion details, detailed fleet totals, and unresolved specialist-design revision.
+
+- `diagrams/american-spaceplane-lineage.svg` — original vector diagram showing the established American OV-series lineage and specialization.
+- `diagrams/columbia-lunar-mission.svg` — original vector diagram of the corrected 20 July 1971 two-spaceplane lunar architecture.
+- `diagrams/orbital-port-columbia-logistics.svg` — original vector diagram of Canaveral, Orbital Port Columbia, Kennedy Station, and Liberty Yard logistics.
+- `diagrams/orbital-law-chronology.svg` — original vector chronology of the Weather Commons, Kobe Notes, Geneva and Stockholm instruments.
