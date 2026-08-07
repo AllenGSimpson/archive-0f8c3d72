@@ -178,6 +178,17 @@ These original vector diagrams summarize the postwar motor-racing order establis
 | `diagrams/motorsport-national-styles.svg` | Five national technical traditions | German, Italian, British, American, and Japanese approaches to international competition |
 | `diagrams/racing-technology-transfer.svg` | Four competition laboratories | Touring and rally, endurance, Formula One, and Group 7 compared by technical purpose and industrial transfer |
 
+## Peruvian Pacific and Samanco diagrams
+
+These original vector diagrams summarize the Japanese–Peruvian relationship and later American commercial challenge described in the Setting Bible, Setting Timeline, Questions and Confirmations, and master transcript. They remain conceptual and do not lock surveyed facility boundaries, treaty text, permanent-force ceilings, inspection rights, equipment quantities, casualties, or the exact date and cargo of the later customs incident.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/japanese-peruvian-bridgehead.svg` | Japanese–Peruvian relationship, 1969–1999 | Commercial cultivation, permanent dual complex, 1981 crisis, and late-1990s American competition |
+| `diagrams/samanco-chimbote-dual-complex.svg` | Functional division of Samanco and Chimbote | Chimbote commercial and industrial support, Samanco treaty access, and Peruvian sovereignty |
+| `diagrams/japanese-south-american-footprints.svg` | Peru, Ecuador, and Chile in Japanese strategy | Principal foothold, secondary Pacific partner, and independent balancing customer |
+| `diagrams/samanco-customs-crisis.svg` | Late-1990s customs confrontation | Lima commercial opening, disputed inspection, quay confrontation, and revised access |
+
 ## Asian founders and rulers
 
 These historical portraits establish the subjects' appearance without implying that their later real-world offices or fates occurred in the setting. Alternate careers and institutional roles follow the setting sources and are identified in each biography.
