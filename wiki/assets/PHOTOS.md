@@ -217,3 +217,14 @@ These original vector diagrams explain the fifteen-state settlement, its regiona
 | `diagrams/sumatran-four-state-system.svg` | Four Sumatran state bargains | Acehnese sovereignty, Batak federalism, Minangkabau custom, and Malay corporate dependence |
 | `diagrams/bornean-succession.svg` | Replacement of Bornean Malaya | Malay–Bornean War, Bornean State, and the separate Kalimantan Federation |
 | `diagrams/southern-archipelago-council.svg` | Common machinery without federation | Technical coordination and explicit limits on common sovereign power |
+
+## Burmese federal-order diagrams
+
+These original vector diagrams summarize the recurring Burmese constitutional and security order established in the Setting Bible, Setting Timeline, Questions and Confirmations, and master transcript. They do not impose surveyed internal borders or settle the later wars' exact dates, leaders, campaign sequences, formal treaty titles, or detailed force strengths.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/burmese-federal-architecture.svg` | Rangoon Settlement's asymmetric Union | Bamar core, seven constituent nationality states, nested autonomous districts, and a single international personality |
+| `diagrams/burmese-armed-federalism.svg` | Division of coercive authority | Union control of heavy arms and strategic systems, State Guard control of local security, and Japanese supply leverage |
+| `diagrams/burmese-war-cycle.svg` | Recurring wars and settlements | Companion War, Rangoon Settlement, Federal Crisis, later Second War, sovereign experiment, War of the States, and Thai protectorate |
+| `diagrams/sovereign-states-experiment.svg` | Eight-state experiment | International recognition of Bamar Burma and seven nationality states beneath common transit, clearing, defense, and foreign-base constraints |
