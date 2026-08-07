@@ -51,3 +51,7 @@ These portraits are hosted locally so the biographical pages remain usable offli
 | `portraits/eisaku-sato.jpg` | Eisaku Satō, 1964 | [Eisaku Satō portrait](https://commons.wikimedia.org/wiki/File:Eisaku_Sato_cropped_1_Eisaku_Sato_19641109.jpg) |
 | `portraits/kakuei-tanaka.jpg` | Kakuei Tanaka, 1972 | [Kakuei Tanaka portrait](https://commons.wikimedia.org/wiki/File:Kakuei_Tanaka_19720707.jpg) |
 | `portraits/yasuhiro-nakasone.jpg` | Yasuhiro Nakasone, 1982 | [Yasuhiro Nakasone portrait](https://commons.wikimedia.org/wiki/File:Yasuhiro_Nakasone_19821127.jpg) |
+| `portraits/takeo-miki.jpg` | Takeo Miki, 1974 | [Takeo Miki official portrait](https://commons.wikimedia.org/wiki/File:Takeo_Miki_19741209.jpg) |
+| `portraits/takeo-fukuda.jpg` | Takeo Fukuda, 1976 | [Takeo Fukuda official portrait](https://commons.wikimedia.org/wiki/File:Takeo_Fukuda_19761224.jpg) |
+| `portraits/masayoshi-ohira.jpg` | Masayoshi Ōhira, 1979 | [Masayoshi Ōhira official portrait](https://commons.wikimedia.org/wiki/File:Masayoshi_Ohira_19790120.jpg) |
+| `portraits/zenko-suzuki.jpg` | Zenkō Suzuki, 1980 | [Zenkō Suzuki official portrait](https://commons.wikimedia.org/wiki/File:Zenk%C5%8D_Suzuki_19800717.jpg) |

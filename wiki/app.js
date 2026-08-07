@@ -545,7 +545,14 @@ const pages = [
   { title: "Hayato Ikeda", description: "Prosperity premier and sponsor of sphere-wide development", href: "hayato-ikeda.html", tags: "hayato ikeda prime minister prosperity plan osumi japan" },
   { title: "Eisaku Satō", description: "Technical-consolidation premier from 1965 to 1972", href: "eisaku-sato.html", tags: "eisaku sato satō prime minister technical charter amaterasu biak japan" },
   { title: "Kakuei Tanaka", description: "Network-reconstruction premier, Hikari patron, and casualty of the Biak scandal", href: "kakuei-tanaka.html", tags: "kakuei tanaka prime minister hikari biak network reconstruction japan" },
-  { title: "Yasuhiro Nakasone", description: "Active Concord premier and Japan's representative at Tehran", href: "yasuhiro-nakasone.html", tags: "yasuhiro nakasone prime minister active concord tehran horai japan" }
+  { title: "Yasuhiro Nakasone", description: "Active Concord premier and Japan's representative at Tehran", href: "yasuhiro-nakasone.html", tags: "yasuhiro nakasone prime minister active concord tehran horai japan" },
+  { title: "Takeo Miki", description: "Rectification premier who rebuilt safety and public trust after Biak", href: "takeo-miki.html", tags: "takeo miki prime minister rectification public trust biak safety japan" },
+  { title: "Takeo Fukuda", description: "Associated-concord premier and author of the Manila Principles", href: "takeo-fukuda.html", tags: "takeo fukuda prime minister manila principles reciprocal dignity japan" },
+  { title: "Masayoshi Ōhira", description: "Premier who defined the Japanese sphere as an information order", href: "masayoshi-ohira.html", tags: "masayoshi ohira ōhira prime minister information order tsubame kobo japan" },
+  { title: "Zenkō Suzuki", description: "Reliability-and-restraint premier from 1980 to 1982", href: "zenko-suzuki.html", tags: "zenko zenkō suzuki prime minister reliability rescue unicode kobo japan" },
+  { title: "Manila Principles", description: "The four tests of reciprocal dignity and legitimate Japanese leadership", href: "manila-principles.html", tags: "manila principles associated sovereignty reciprocal dignity fukuda japan" },
+  { title: "Active Concord", description: "Participation and prestige under explicit Japanese strategic primacy", href: "active-concord.html", tags: "active concord nakasone consultation prestige strategic primacy japan geacps" },
+  { title: "Greater East Asia Technical Charter", description: "The 1966 common capability settlement for weather, standards, training, and computing", href: "greater-east-asia-technical-charter.html", tags: "greater east asia technical charter 1966 standards weather computing scholarships satō" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -1303,6 +1310,13 @@ const crossLinks = [
   ,{ href: "eisaku-sato.html", terms: ["Eisaku Satō", "Eisaku Sato", "Satō"] }
   ,{ href: "kakuei-tanaka.html", terms: ["Kakuei Tanaka", "Tanaka"] }
   ,{ href: "yasuhiro-nakasone.html", terms: ["Yasuhiro Nakasone", "Nakasone"] }
+  ,{ href: "takeo-miki.html", terms: ["Takeo Miki", "Miki"] }
+  ,{ href: "takeo-fukuda.html", terms: ["Takeo Fukuda", "Fukuda"] }
+  ,{ href: "masayoshi-ohira.html", terms: ["Masayoshi Ōhira", "Masayoshi Ohira", "Ōhira", "Ohira"] }
+  ,{ href: "zenko-suzuki.html", terms: ["Zenkō Suzuki", "Zenko Suzuki"] }
+  ,{ href: "manila-principles.html", terms: ["Manila Principles", "Manila speech"] }
+  ,{ href: "active-concord.html", terms: ["Active Concord"] }
+  ,{ href: "greater-east-asia-technical-charter.html", terms: ["Greater East Asia Technical Charter", "Technical Charter"] }
 ];
 
 function escapePattern(value) {
