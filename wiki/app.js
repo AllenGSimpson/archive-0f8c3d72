@@ -515,7 +515,16 @@ const pages = [
   { title: "Commonwealth Supply Agreement", description: "The 1951–1955 Conservative–Union Commonwealth confidence agreement", href: "commonwealth-supply-agreement.html", tags: "commonwealth supply agreement butler mosley union confidence coalition contracts" },
   { title: "1955 United Kingdom General Election", description: "The election that gave Butler a Conservative majority", href: "1955-united-kingdom-general-election.html", tags: "1955 united kingdom election butler conservative labour union commonwealth" },
   { title: "Commonwealth Council of Defence and Reconstruction", description: "The Crown-chaired Commonwealth warning and planning council", href: "commonwealth-council-defence-reconstruction.html", tags: "commonwealth council defence reconstruction crown george vi dominions planning" },
-  { title: "Windsor Arrangement", description: "The 1948 settlement governing the former king's return", href: "windsor-arrangement.html", tags: "windsor arrangement edward viii duke george vi royal family succession 1948" }
+  { title: "Windsor Arrangement", description: "The 1948 settlement governing the former king's return", href: "windsor-arrangement.html", tags: "windsor arrangement edward viii duke george vi royal family succession 1948" },
+  { title: "Hugh Gaitskell", description: "Commonwealth Labour premier of consolidation from 1960 to 1963", href: "hugh-gaitskell.html", tags: "hugh gaitskell labour prime minister ariel 1960 1963" },
+  { title: "Harold Wilson", description: "Labour modernizer, Accra casualty, and victor of the Kuwait War", href: "harold-wilson.html", tags: "harold wilson labour prime minister accra kuwait covenant 1963 1969 1976" },
+  { title: "Enoch Powell", description: "Crown-and-Commonwealth premier and theorist of Ordered Particularism", href: "enoch-powell.html", tags: "enoch powell prime minister crown commonwealth accra particularism" },
+  { title: "Denis Healey", description: "Kuwait Defence Minister and Commonwealth Labour premier from 1976 to 1980", href: "denis-healey.html", tags: "denis healey labour defence kuwait prime minister producer state" },
+  { title: "Margaret Thatcher", description: "National Liberal prime minister, industrial reformer, and Falklands war leader", href: "margaret-thatcher.html", tags: "margaret thatcher national liberal nlcu prime minister falklands reownership" },
+  { title: "Commonwealth Labour", description: "The strategic and social-democratic Labour tradition after defeat", href: "commonwealth-labour.html", tags: "commonwealth labour bevan gaitskell wilson healey party social democracy" },
+  { title: "Ordered Particularism", description: "One Crown peace and many unequal constitutional forms", href: "ordered-particularism.html", tags: "ordered particularism powell doctrine accra clause crown empire africa" },
+  { title: "National Liberal Movement", description: "Market discipline joined to Crown, Commonwealth, and strategic capacity", href: "national-liberal-movement.html", tags: "national liberal movement thatcher market crown commonwealth" },
+  { title: "National Liberal–Constitutional Union", description: "Thatcher's governing union of National Liberals, Liberals, defectors, and Powellites", href: "national-liberal-constitutional-union.html", tags: "nlcu national liberal constitutional union thatcher ashcombe party 1980" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -1242,6 +1251,15 @@ const crossLinks = [
   ,{ href: "1955-united-kingdom-general-election.html", terms: ["1955 United Kingdom general election"] }
   ,{ href: "commonwealth-council-defence-reconstruction.html", terms: ["Commonwealth Council of Defence and Reconstruction"] }
   ,{ href: "windsor-arrangement.html", terms: ["Windsor Arrangement"] }
+  ,{ href: "hugh-gaitskell.html", terms: ["Hugh Gaitskell", "Gaitskell"] }
+  ,{ href: "harold-wilson.html", terms: ["Harold Wilson", "Wilson"] }
+  ,{ href: "enoch-powell.html", terms: ["Enoch Powell", "Powell"] }
+  ,{ href: "denis-healey.html", terms: ["Denis Healey", "Healey"] }
+  ,{ href: "margaret-thatcher.html", terms: ["Margaret Thatcher", "Thatcher"] }
+  ,{ href: "commonwealth-labour.html", terms: ["Commonwealth Labour"] }
+  ,{ href: "ordered-particularism.html", terms: ["Ordered Particularism"] }
+  ,{ href: "national-liberal-movement.html", terms: ["National Liberal movement", "National Liberals"] }
+  ,{ href: "national-liberal-constitutional-union.html", terms: ["National Liberal–Constitutional Union", "National Liberal-Constitutional Union", "NLCU"] }
 ];
 
 function escapePattern(value) {

@@ -32,3 +32,8 @@ These portraits are hosted locally so the biographical pages remain usable offli
 | `portraits/george-vi.jpg` | George VI, c. 1940–1946 | [George VI formal portrait](https://commons.wikimedia.org/wiki/File:King_George_VI_of_England,_formal_photo_portrait,_circa_1940-1946_-_edit.jpg) |
 | `portraits/aneurin-bevan.jpg` | Aneurin Bevan, 1945 | [Official portrait of Aneurin Bevan](https://commons.wikimedia.org/wiki/File:BevanMP.jpg) |
 | `portraits/rab-butler.png` | R. A. Butler, 1963 | [R. A. Butler at the WEU conference](https://commons.wikimedia.org/wiki/File:Rab_Butler.png) |
+| `portraits/hugh-gaitskell.jpg` | Hugh Gaitskell | [Hugh Gaitskell portrait](https://commons.wikimedia.org/wiki/File:Hugh_Gaitskell_crop.jpg) |
+| `portraits/harold-wilson.jpg` | Harold Wilson | [Harold Wilson portrait](https://commons.wikimedia.org/wiki/File:Harold_Wilson.jpg) |
+| `portraits/enoch-powell.jpg` | Enoch Powell, 1987 | [Enoch Powell on After Dark](https://commons.wikimedia.org/wiki/File:Enoch_Powell_After_Dark_3rd_July_1987.JPG) |
+| `portraits/denis-healey.jpg` | Denis Healey | [Denis Healey portrait](https://commons.wikimedia.org/wiki/File:Denis_Healey.jpg) |
+| `portraits/margaret-thatcher.jpg` | Margaret Thatcher, 1984 | [Margaret Thatcher portrait](https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_1984.jpg) |
