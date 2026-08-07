@@ -552,7 +552,14 @@ const pages = [
   { title: "Zenkō Suzuki", description: "Reliability-and-restraint premier from 1980 to 1982", href: "zenko-suzuki.html", tags: "zenko zenkō suzuki prime minister reliability rescue unicode kobo japan" },
   { title: "Manila Principles", description: "The four tests of reciprocal dignity and legitimate Japanese leadership", href: "manila-principles.html", tags: "manila principles associated sovereignty reciprocal dignity fukuda japan" },
   { title: "Active Concord", description: "Participation and prestige under explicit Japanese strategic primacy", href: "active-concord.html", tags: "active concord nakasone consultation prestige strategic primacy japan geacps" },
-  { title: "Greater East Asia Technical Charter", description: "The 1966 common capability settlement for weather, standards, training, and computing", href: "greater-east-asia-technical-charter.html", tags: "greater east asia technical charter 1966 standards weather computing scholarships satō" }
+  { title: "Greater East Asia Technical Charter", description: "The 1966 common capability settlement for weather, standards, training, and computing", href: "greater-east-asia-technical-charter.html", tags: "greater east asia technical charter 1966 standards weather computing scholarships satō" },
+  { title: "Human Orbital Systems Program", description: "Japan's machine-first path from Hikari qualification to permanent Hōrai", href: "human-orbital-systems-program.html", tags: "human orbital systems program japan hikari musubi kobo tsubame horai biak" },
+  { title: "Hikari Program", description: "Japan's automated capsule family and crewed orbital missions", href: "hikari-program.html", tags: "hikari program spacecraft japan crewed capsule hikari kai biak" },
+  { title: "Musubi Program", description: "Japan's automatic rendezvous and docking test series", href: "musubi-program.html", tags: "musubi program docking rendezvous connection bond japan hikari" },
+  { title: "Biak Booster Failure", description: "The 1974 launch accident and procurement scandal that brought down Tanaka", href: "biak-booster-failure.html", tags: "biak booster failure accident 1974 tanaka miki kobo procurement safety" },
+  { title: "Associated-State Astronaut Program", description: "Multinational GEACPS specialists within Japanese orbital command", href: "associated-state-astronaut-program.html", tags: "associated state astronaut program filipino siamese chinese geacps hikari horai" },
+  { title: "Tsubame Program", description: "Japan's automated cargo, reboost, and waste-removal spacecraft", href: "tsubame-program.html", tags: "tsubame program swallow cargo reboost waste docking kobo japan" },
+  { title: "Kōbō–Hōrai Orbital Complex", description: "Japan's automated workshop and continuously occupied multinational platform", href: "kobo-horai.html", tags: "kobo kōbō horai hōrai orbital platform station japan multinational robotics" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -842,7 +849,7 @@ const crossLinks = [
   { href: "stella-maris.html", terms: ["Stella Maris"] },
   { href: "weather-commons.html", terms: ["International Meteorological Satellite Service", "San Marco Meteorological Accords", "Common Meteorological Telemetry and Exchange Standard", "CMTES", "Weather Commons"] },
   { href: "space-programs.html", terms: ["German space program", "American space program", "Japanese space program", "space programs"] },
-  { href: "orbital-stations.html", terms: ["Orbitaler Raumhafen", "Raumhafen", "Hōrai Orbital Platform", "Hōrai"] },
+  { href: "orbital-stations.html", terms: ["Orbitaler Raumhafen", "Raumhafen"] },
   { href: "ideologies.html", terms: ["political ideologies", "ideologies and parties"] },
   { href: "characters.html", terms: ["major-character index", "Character Dossier"] },
   { href: "everyday-life.html", terms: ["everyday life", "daily life"] },
@@ -1317,6 +1324,13 @@ const crossLinks = [
   ,{ href: "manila-principles.html", terms: ["Manila Principles", "Manila speech"] }
   ,{ href: "active-concord.html", terms: ["Active Concord"] }
   ,{ href: "greater-east-asia-technical-charter.html", terms: ["Greater East Asia Technical Charter", "Technical Charter"] }
+  ,{ href: "human-orbital-systems-program.html", terms: ["Human Orbital Systems Program"] }
+  ,{ href: "hikari-program.html", terms: ["Hikari program", "Hikari-0", "Hikari-1", "Hikari-2", "Hikari-3", "Hikari-4", "Hikari-5", "Hikari-6", "Hikari-7", "Hikari Kai"] }
+  ,{ href: "musubi-program.html", terms: ["Musubi program", "Musubi docking", "Musubi"] }
+  ,{ href: "biak-booster-failure.html", terms: ["Biak booster failure", "1974 Biak failure"] }
+  ,{ href: "associated-state-astronaut-program.html", terms: ["Associated-State Astronaut Program", "associated-state astronaut program", "first Filipino astronaut"] }
+  ,{ href: "tsubame-program.html", terms: ["Tsubame program", "Tsubame-1", "Tsubame"] }
+  ,{ href: "kobo-horai.html", terms: ["Kōbō–Hōrai orbital complex", "Kōbō laboratory", "Hōrai Orbital Platform", "Kōbō", "Hōrai"] }
 ];
 
 function escapePattern(value) {

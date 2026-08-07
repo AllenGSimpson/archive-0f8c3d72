@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Hōrai Orbital Platform</title><desc id="desc">Archive technical elevation of the expanded Japanese Kōbō complex after its conversion into the Hōrai Orbital Platform.</desc>
+  <defs><linearGradient id="bg4" x2="1" y2="1"><stop stop-color="#0f1613"/><stop offset="1" stop-color="#1c211e"/></linearGradient><pattern id="grid4" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8ca08f" stroke-opacity=".12"/></pattern></defs>
+  <rect width="1200" height="720" fill="url(#bg4)"/><rect width="1200" height="720" fill="url(#grid4)"/>
+  <g transform="translate(135 215)" stroke="#e9e5da" stroke-width="4">
+    <path d="M465 -70v430" stroke="#aaa" stroke-width="18"/><g fill="#263f49" stroke="#c8a84e" stroke-width="3"><rect x="-40" y="95" width="310" height="130"/><rect x="660" y="95" width="310" height="130"/><path d="M-20 115H250M-20 155H250M-20 195H250M680 115H950M680 155H950M680 195H950"/></g>
+    <g fill="#747a75"><rect x="290" y="70" width="350" height="180" rx="60"/><rect x="380" y="-55" width="170" height="130" rx="28"/><rect x="380" y="245" width="170" height="130" rx="28"/></g><g fill="#15252b"><circle cx="465" cy="160" r="50"/><circle cx="465" cy="10" r="22"/><circle cx="465" cy="310" r="22"/></g>
+    <path d="M290 160h-90M640 160h90" stroke="#aaa" stroke-width="18"/><g fill="#666d68"><rect x="115" y="100" width="95" height="120" rx="18"/><rect x="720" y="100" width="95" height="120" rx="18"/></g><path d="M210 160l80 0M640 160l80 0"/>
+    <g fill="#c8a84e" stroke="none"><circle cx="350" cy="160" r="8"/><circle cx="580" cy="160" r="8"/><circle cx="465" cy="100" r="8"/><circle cx="465" cy="220" r="8"/></g>
+  </g>
+  <g font-family="Arial, sans-serif"><text x="70" y="78" fill="#c8a84e" font-size="22" letter-spacing="5">CONTINUOUS MULTINATIONAL OCCUPATION · FROM 1983</text><text x="70" y="125" fill="#f0ede4" font-size="48" font-family="Georgia, serif">Hōrai Orbital Platform</text><text x="70" y="665" fill="#a8aaa5" font-size="20" letter-spacing="2">AUTOMATED LABORATORY · SATELLITE CONTROL · ROBOTIC OPERATIONS · FOUR TO SIX CREW</text></g>
+</svg>

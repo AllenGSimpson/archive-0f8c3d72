@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Tsubame automated cargo vehicle</title><desc id="desc">Technical profile of the Japanese Tsubame automated station-support and reboost craft.</desc>
+  <defs><linearGradient id="bg3" x2="1" y2="1"><stop stop-color="#111714"/><stop offset="1" stop-color="#1b211e"/></linearGradient><pattern id="grid3" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8ca08f" stroke-opacity=".12"/></pattern><linearGradient id="body3" x2="0" y2="1"><stop stop-color="#e5e0d3"/><stop offset="1" stop-color="#777b76"/></linearGradient></defs>
+  <rect width="1200" height="720" fill="url(#bg3)"/><rect width="1200" height="720" fill="url(#grid3)"/>
+  <g transform="translate(210 220)">
+    <g fill="#243e48" stroke="#c8a84e" stroke-width="3"><rect x="-150" y="125" width="300" height="120"/><rect x="630" y="125" width="300" height="120"/><path d="M-130 145H130M-130 185H130M-130 225H130M650 145H910M650 185H910M650 225H910"/></g>
+    <rect x="150" y="55" width="480" height="260" rx="95" fill="url(#body3)" stroke="#f0ece2" stroke-width="5"/><path d="M150 115h-75L25 185l50 70h75z" fill="#555b57" stroke="#ddd" stroke-width="4"/><circle cx="25" cy="185" r="42" fill="#151c19" stroke="#c8a84e" stroke-width="5"/><path d="M630 95h55l74 90-74 90h-55z" fill="#6e736f" stroke="#ddd" stroke-width="4"/><g fill="#171c1a" stroke="#aaa" stroke-width="3"><circle cx="320" cy="185" r="42"/><circle cx="465" cy="185" r="42"/></g><path d="M300 315l-34 58M480 315l34 58" stroke="#c8a84e" stroke-width="10"/>
+  </g>
+  <g font-family="Arial, sans-serif"><text x="70" y="78" fill="#c8a84e" font-size="22" letter-spacing="5">AUTOMATED ORBITAL LOGISTICS VEHICLE</text><text x="70" y="125" fill="#f0ede4" font-size="48" font-family="Georgia, serif">Tsubame · Swallow</text><text x="70" y="665" fill="#a8aaa5" font-size="20" letter-spacing="2">SEALED CARGO · PROPELLANT TRANSFER · REBOOST · WASTE REMOVAL</text></g>
+</svg>

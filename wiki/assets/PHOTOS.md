@@ -55,3 +55,14 @@ These portraits are hosted locally so the biographical pages remain usable offli
 | `portraits/takeo-fukuda.jpg` | Takeo Fukuda, 1976 | [Takeo Fukuda official portrait](https://commons.wikimedia.org/wiki/File:Takeo_Fukuda_19761224.jpg) |
 | `portraits/masayoshi-ohira.jpg` | Masayoshi Ōhira, 1979 | [Masayoshi Ōhira official portrait](https://commons.wikimedia.org/wiki/File:Masayoshi_Ohira_19790120.jpg) |
 | `portraits/zenko-suzuki.jpg` | Zenkō Suzuki, 1980 | [Zenkō Suzuki official portrait](https://commons.wikimedia.org/wiki/File:Zenk%C5%8D_Suzuki_19800717.jpg) |
+
+## Japanese orbital-system diagrams
+
+These original vector reconstructions are interpretive archive graphics based on the canon descriptions in the Setting Bible, Setting Timeline, and master transcript. They do not lock dimensions, manufacturers, or detailed engineering geometry.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/hikari-spacecraft.svg` | Hikari crew capsule and service module | Capsule-based, highly automated Biak-launched vehicle |
+| `diagrams/musubi-docking.svg` | Musubi rendezvous vehicles | Small unpressurized automatic docking targets |
+| `diagrams/tsubame-cargo.svg` | Tsubame logistics craft | Automated cargo, propellant, reboost, and waste vehicle |
+| `diagrams/kobo-horai-platform.svg` | Hōrai Orbital Platform | Compact modular laboratory and robotic-operations station |
