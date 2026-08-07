@@ -167,6 +167,17 @@ These original vector diagrams summarize the state-formation, constitutional, tr
 | `diagrams/far-eastern-transport-hierarchy.svg` | Five-layer transport system | Rail, river and coastal shipping, aviation, roads, and tracked last-mile vehicles |
 | `diagrams/far-eastern-aviation-system.svg` | Aviation division of labor | Japanese high-value systems, Manchukuoan components, Russian assembly and maintenance, and the civil network |
 
+## International motorsport diagrams
+
+These original vector diagrams summarize the postwar motor-racing order established in the Material Culture Reference, Setting Bible, Setting Timeline, and master transcript. They are institutional and technical diagrams rather than depictions of specific cars, and they leave the inaugural calendar, drivers, results, engine formula, team records, and exact first Group 7 season open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/motorsport-founding-sequence.svg` | Postwar racing revival, 1948–1952 | National recovery, Geneva conference, provisional Grand Prix Cup, and the first Formula One world championship |
+| `diagrams/formula-one-technical-order.svg` | Formula One regulatory philosophy | Strict mass, energy, and safety rules surrounding a broad space for engineering choice |
+| `diagrams/motorsport-national-styles.svg` | Five national technical traditions | German, Italian, British, American, and Japanese approaches to international competition |
+| `diagrams/racing-technology-transfer.svg` | Four competition laboratories | Touring and rally, endurance, Formula One, and Group 7 compared by technical purpose and industrial transfer |
+
 ## Asian founders and rulers
 
 These historical portraits establish the subjects' appearance without implying that their later real-world offices or fates occurred in the setting. Alternate careers and institutional roles follow the setting sources and are identified in each biography.

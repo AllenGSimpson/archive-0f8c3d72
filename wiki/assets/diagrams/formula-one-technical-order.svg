@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Technical order of Formula One</title><desc id="desc">The Formula One federation strictly regulates mass, energy, and safety while leaving most engineering solutions open.</desc>
+  <defs><style>.h{font:bold 39px Georgia,serif;fill:#f0d172}.s{font:22px Arial,sans-serif;fill:#d4d2c9}.l{font:bold 27px Arial,sans-serif;fill:#fff}.b{stroke:#c8c8bf;stroke-width:2;rx:18}.line{stroke:#879b94;stroke-width:5;fill:none}</style></defs>
+  <rect width="1200" height="720" fill="#111718"/><text x="58" y="66" class="h">A BROAD FORMULA, A NARROW SAFETY CODE</text><text x="58" y="104" class="s">Stable rule cycles protect experimentation without surrendering driver survival</text>
+  <rect x="355" y="135" width="490" height="105" class="b" fill="#53402e"/><text x="600" y="180" text-anchor="middle" class="l">THE CHAMPIONSHIP FORMULA</text><text x="600" y="216" text-anchor="middle" class="s">Four- to five-season regulatory cycles</text>
+  <path d="M600 240v65M205 305h790M205 305v55M600 305v55M995 305v55" class="line"/>
+  <rect x="55" y="360" width="300" height="145" class="b" fill="#3c344d"/><text x="205" y="408" text-anchor="middle" class="l">MASS</text><text x="205" y="448" text-anchor="middle" class="s">Minimum weight</text><text x="205" y="480" text-anchor="middle" class="s">external dimensions</text>
+  <rect x="450" y="360" width="300" height="145" class="b" fill="#2f4850"/><text x="600" y="408" text-anchor="middle" class="l">ENERGY</text><text x="600" y="448" text-anchor="middle" class="s">Displacement or fuel</text><text x="600" y="480" text-anchor="middle" class="s">pressure equivalence</text>
+  <rect x="845" y="360" width="300" height="145" class="b" fill="#4e3030"/><text x="995" y="408" text-anchor="middle" class="l">SAFETY</text><text x="995" y="448" text-anchor="middle" class="s">Cockpit, fuel, brakes</text><text x="995" y="480" text-anchor="middle" class="s">fire and circuit standards</text>
+  <rect x="120" y="565" width="960" height="100" class="b" fill="#2f4439"/><text x="600" y="607" text-anchor="middle" class="l">OPEN ENGINEERING SPACE</text><text x="600" y="644" text-anchor="middle" class="s">Layout - driven wheels - aerodynamics - materials - injection - controls - engine management</text>
+</svg>
