@@ -144,3 +144,20 @@ These original vector reconstructions summarize the western succession and campa
 | `diagrams/western-indian-war-sequence.svg` | Western Indian wars, 1947-1982 | State formation, early frontier campaigns, and the later limited wars of consolidation |
 | `diagrams/western-mounted-warfare.svg` | Modern mounted warfare | Mounted rifles, dismounted firepower, mixed mechanized columns, and the remount economy |
 | `diagrams/western-consolidation-wars.svg` | Three consolidation wars | Kashmir-Khalistan, Second Las Bela, and Hindustan-Rajputana compared by opening, intervention, and settlement |
+
+## Asian founders and rulers
+
+These historical portraits establish the subjects' appearance without implying that their later real-world offices or fates occurred in the setting. Alternate careers and institutional roles follow the setting sources and are identified in each biography.
+
+| File | Subject | Wikimedia Commons source |
+| --- | --- | --- |
+| `portraits/subhas-chandra-bose.jpg` | Subhas Chandra Bose | [Subhas Chandra Bose portrait](https://commons.wikimedia.org/wiki/File:Subhas_Chandra_Bose_NRB.jpg) |
+| `portraits/jawaharlal-nehru.jpg` | Jawaharlal Nehru, 1957 | [Nehru in the Netherlands](https://commons.wikimedia.org/wiki/File:Nehru_in_the_Netherlands,_1957.jpg) |
+| `portraits/plaek-phibunsongkhram.jpg` | Plaek Phibunsongkhram | [Plaek Phibunsongkhram portrait](https://commons.wikimedia.org/wiki/File:Plaek_Phibunsongkhram_(cropped).jpg) |
+| `portraits/bhumibol-adulyadej.jpg` | Bhumibol Adulyadej | [Bhumibol Adulyadej in The Hague](https://commons.wikimedia.org/wiki/File:Aankomst_Koning_Bhumibol_en_Koningin_Sirikit_te_Den_Haag,_Koning_Bhumibol,_Bestanddeelnr_911-6993_(cropped)(2).jpg) |
+| `portraits/sarit-thanarat.jpg` | Sarit Thanarat | [Sarit Thanarat portrait](https://commons.wikimedia.org/wiki/File:Sarit_Thanarat.jpg) |
+| `portraits/thanom-kittikachorn.jpg` | Thanom Kittikachorn | [Thanom Kittikachorn portrait](https://commons.wikimedia.org/wiki/File:Prime_Minister_Thanom_Kittikachorn.jpg) |
+| `portraits/norodom-sihanouk.jpg` | Norodom Sihanouk, 1941 | [Norodom Sihanouk in 1941](https://commons.wikimedia.org/wiki/File:Norodom_Sihanouk_in_1941.jpg) |
+| `portraits/puyi.jpg` | Puyi during the Manchukuo period | [Puyi, Manchukuo period](https://commons.wikimedia.org/wiki/File:Puyi,_Manchukuo_period_(cropped).jpg) |
+| `portraits/pujie.png` | Pujie in military dress | [Pujie in military dress](https://commons.wikimedia.org/wiki/File:Pujie,_brother_of_Emperor_Puyi,_in_military_dress,_1930s-1940s,.png) |
+| `portraits/demchugdongrub.png` | Prince Demchugdongrub | [Prince Demchugdongrub in the 1930s](https://commons.wikimedia.org/wiki/File:Prince_Demchugdongrub_NAC_1930s.png) |

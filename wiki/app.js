@@ -646,7 +646,17 @@ const pages = [
   { title: "National Vanguard", description: "Everett Cade's post-1993 Founders' Guard party", href: "national-vanguard.html", tags: "national vanguard everett cade founders guard rockwell old guard" },
   { title: "Ruth Ann Morrow", description: "The Registrar who chaired National Renewal's committee after 1985", href: "ruth-ann-morrow.html", tags: "ruth ann morrow registrar national renewal committee chair omaha rules" },
   { title: "Campaign Independence and Public Trust Act", description: "The 1998 statute legalizing registered political sponsorship safe harbors", href: "campaign-independence-public-trust-act.html", tags: "campaign independence public trust act 1998 sponsorship safe harbor corporate politics" },
-  { title: "Corporate Patronage in the United States", description: "The plural business-feudal political order formed after the Open Door Depression", href: "corporate-patronage-united-states.html", tags: "corporate patronage united states boardroom primary business feudal sponsorship" }
+  { title: "Corporate Patronage in the United States", description: "The plural business-feudal political order formed after the Open Door Depression", href: "corporate-patronage-united-states.html", tags: "corporate patronage united states boardroom primary business feudal sponsorship" },
+  { title: "Subhas Chandra Bose", description: "Netaji, founder of Azad Hind, and permanent claimant to Delhi", href: "subhas-chandra-bose.html", tags: "subhas chandra bose netaji azad hind ina calcutta chalo delhi biography" },
+  { title: "Jawaharlal Nehru", description: "Secular constitutional founder and executive leader of Congress India", href: "jawaharlal-nehru.html", tags: "jawaharlal nehru congress india allahabad planning secular constitutional biography" },
+  { title: "Plaek Phibunsongkhram", description: "Victory premier and architect of Thailand's postwar territorial order", href: "plaek-phibunsongkhram.html", tags: "plaek phibun phibunsongkhram thailand victory regime field marshal biography" },
+  { title: "Bhumibol Adulyadej", description: "Rama IX, development monarch, and arbiter of the enlarged Thai realm", href: "bhumibol-adulyadej.html", tags: "bhumibol adulyadej rama ix thailand king monarchy development arbiter biography" },
+  { title: "Sarit Thanarat", description: "Founder of Thailand's royal-military developmental settlement", href: "sarit-thanarat.html", tags: "sarit thanarat thailand field marshal coup royal military settlement biography" },
+  { title: "Thanom Kittikachorn", description: "Premier of Thailand's high imperial order from 1963 to 1973", href: "thanom-kittikachorn.html", tags: "thanom kittikachorn thailand field marshal 1973 high imperial order biography" },
+  { title: "Norodom Sihanouk", description: "Political monarch of sovereign but Japanese-protected Cambodia", href: "norodom-sihanouk.html", tags: "norodom sihanouk cambodia king phnom penh battambang royal nationalist biography" },
+  { title: "Puyi", description: "Kangde Emperor and founder of the surviving Manchukuo monarchy", href: "puyi.html", tags: "puyi kangde emperor manchukuo qing aisin gioro biography" },
+  { title: "Pujie", description: "Second emperor and constitutionalizer of mature Manchukuo", href: "pujie.html", tags: "pujie emperor manchukuo aisin gioro settler moratorium service elite biography" },
+  { title: "Demchugdongrub", description: "Prince De and founder of the United Mongolian State", href: "demchugdongrub.html", tags: "demchugdongrub prince de mongolia mengjiang khuree hohhot biography" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -1505,6 +1515,16 @@ const crossLinks = [
   ,{ href: "ruth-ann-morrow.html", terms: ["Ruth Ann Morrow", "the Registrar"] }
   ,{ href: "campaign-independence-public-trust-act.html", terms: ["Campaign Independence and Public Trust Act"] }
   ,{ href: "corporate-patronage-united-states.html", terms: ["corporate patronage in the United States", "corporate-patronage republic", "boardroom primary"] }
+  ,{ href: "subhas-chandra-bose.html", terms: ["Subhas Chandra Bose", "Netaji"] }
+  ,{ href: "jawaharlal-nehru.html", terms: ["Jawaharlal Nehru", "Nehru"] }
+  ,{ href: "plaek-phibunsongkhram.html", terms: ["Plaek Phibunsongkhram", "Phibunsongkhram", "Phibun"] }
+  ,{ href: "bhumibol-adulyadej.html", terms: ["Bhumibol Adulyadej", "King Bhumibol", "Rama IX"] }
+  ,{ href: "sarit-thanarat.html", terms: ["Sarit Thanarat", "Field Marshal Sarit"] }
+  ,{ href: "thanom-kittikachorn.html", terms: ["Thanom Kittikachorn", "Field Marshal Thanom"] }
+  ,{ href: "norodom-sihanouk.html", terms: ["Norodom Sihanouk", "King Sihanouk", "Sihanouk"] }
+  ,{ href: "puyi.html", terms: ["Kangde Emperor", "Puyi"] }
+  ,{ href: "pujie.html", terms: ["Pujie"] }
+  ,{ href: "demchugdongrub.html", terms: ["Demchugdongrub", "Prince De"] }
 ];
 
 function escapePattern(value) {
