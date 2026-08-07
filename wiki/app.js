@@ -666,7 +666,17 @@ const pages = [
   { title: "Federal Kingdom of Yugoslavia", description: "The smaller South-Slav federation within Italy's composite crown system", href: "federal-kingdom-yugoslavia.html", tags: "federal yugoslavia serbia croatia bosnia montenegro umberto italy kingdom" },
   { title: "Umbertian Opening", description: "Umberto II's post-Mussolini transfer from direct empire to associated crowns", href: "umbertian-opening.html", tags: "umbertian opening umberto mussolini italy crowns greece yugoslavia 1960" },
   { title: "Italian Union of Crowns and Associated Kingdoms", description: "The composite dynastic order joining Italy's unequal associated realms", href: "italian-union-of-crowns.html", tags: "italian union crowns associated kingdoms italy greece yugoslavia albania ethiopia egypt syria" },
-  { title: "Act of Crown Association for Greece", description: "The instrument restoring Greek domestic statehood beneath Italian reserved powers", href: "act-of-crown-association-greece.html", tags: "greece crown association act umberto italy kingdom orthodox succession" }
+  { title: "Act of Crown Association for Greece", description: "The instrument restoring Greek domestic statehood beneath Italian reserved powers", href: "act-of-crown-association-greece.html", tags: "greece crown association act umberto italy kingdom orthodox succession" },
+  { title: "First Far Eastern Republic", description: "The divided Japanese-protected buffer republic that preceded the Chita monarchy", href: "first-far-eastern-republic.html", tags: "first far eastern republic chita khabarovsk japan russian buffer 1947" },
+  { title: "Far Eastern Federal Crisis", description: "The republican constitutional breakdown that opened the path to restoration", href: "far-eastern-federal-crisis.html", tags: "far eastern federal crisis chita khabarovsk republic manchukuo 1951 1954" },
+  { title: "Chita Restoration", description: "The 1955–56 election and enthronement of Michael Andreevich Romanov", href: "chita-restoration.html", tags: "chita restoration tsar mikhail michael romanov monarchy 1955 1956" },
+  { title: "Far Eastern Zemsky Sobor", description: "The constituent assembly that elected Tsar Mikhail and guaranteed the federation", href: "far-eastern-zemsky-sobor.html", tags: "far eastern zemsky sobor assembly chita election romanov federal" },
+  { title: "Fundamental Law of the Russian Far Eastern State", description: "The federal constitution of the elected Chita monarchy", href: "far-eastern-fundamental-law.html", tags: "far eastern fundamental law constitution chita monarchy japan treaty" },
+  { title: "Chita–Khabarovsk Dual-Capital System", description: "The division between the state's constitutional and operational capitals", href: "chita-khabarovsk-dual-capital.html", tags: "chita khabarovsk dual capital russian far east government" },
+  { title: "Transport in the Russian Far Eastern State", description: "The rail, water, air, road, and tracked hierarchy of northern mobility", href: "far-eastern-transport-system.html", tags: "far eastern transport rail river aviation road tracked seasonal" },
+  { title: "Civil Aviation in the Russian Far Eastern State", description: "The distributed airfield, weather, radio, medical, and passenger network", href: "far-eastern-civil-aviation.html", tags: "far eastern civil aviation bush planes airfields mikhail weather radio" },
+  { title: "Aircraft Industry of the Russian Far Eastern State", description: "Licensed assembly, cold-weather adaptation, maintenance, and repair", href: "far-eastern-aircraft-industry.html", tags: "far eastern aircraft industry komsomolsk khabarovsk japan manchukuo utility" },
+  { title: "Snow-and-Swamp Vehicles of the Russian Far East", description: "Tracked last-mile transport beyond maintained roads", href: "far-eastern-snow-vehicles.html", tags: "far eastern snow swamp vehicles tracked carriers track pods winter roads" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -899,6 +909,16 @@ const crossLinks = [
   { href: "umbertian-opening.html", terms: ["Umbertian Opening", "Umbertian opening"] },
   { href: "italian-union-of-crowns.html", terms: ["Italian Union of Crowns and Associated Kingdoms", "Italian Union of Crowns", "union of crowns"] },
   { href: "act-of-crown-association-greece.html", terms: ["Act of Crown Association for Greece", "Act of Crown Association"] },
+  { href: "first-far-eastern-republic.html", terms: ["First Far Eastern Republic"] },
+  { href: "far-eastern-federal-crisis.html", terms: ["Far Eastern Federal Crisis", "federal crisis"] },
+  { href: "chita-restoration.html", terms: ["Chita Restoration"] },
+  { href: "far-eastern-zemsky-sobor.html", terms: ["Far Eastern Zemsky Sobor"] },
+  { href: "far-eastern-fundamental-law.html", terms: ["Fundamental Law of the Russian Far Eastern State", "Far Eastern Fundamental Law"] },
+  { href: "chita-khabarovsk-dual-capital.html", terms: ["Chita–Khabarovsk dual-capital system", "Chita-Khabarovsk dual-capital system"] },
+  { href: "far-eastern-transport-system.html", terms: ["Far Eastern Transport System", "transport in the Russian Far Eastern State"] },
+  { href: "far-eastern-civil-aviation.html", terms: ["Civil Aviation in the Russian Far Eastern State", "Far Eastern Civil Aviation"] },
+  { href: "far-eastern-aircraft-industry.html", terms: ["Aircraft Industry of the Russian Far Eastern State", "Far Eastern Aircraft Industry"] },
+  { href: "far-eastern-snow-vehicles.html", terms: ["Snow-and-Swamp Vehicles of the Russian Far East", "snow-and-swamp carriers"] },
   { href: "countries.html#einheitspakt", terms: ["Einheitspakt"] },
   { href: "geacps.html", terms: ["Greater East Asia Co-Prosperity Sphere", "Dai Tōa Kyōeiken", "GEACPS"] },
   { href: "greater-east-asia-economic-board.html", terms: ["Greater East Asia Economic Board", "Daitōa Keizai-in", "Daitoa Keizai-in"] },

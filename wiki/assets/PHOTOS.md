@@ -156,6 +156,17 @@ These original vector diagrams summarize the new Balkan and Umbertian material i
 | `diagrams/italian-union-of-crowns.svg` | Italian union of crowns | Separate domestic governments beneath common Italian strategic reserved powers |
 | `diagrams/federal-yugoslav-order.svg` | Federal Yugoslav constitution | Constituent governments, limited federal institutions, Umberto's crown, and Italian defense control |
 
+## Russian Far Eastern State diagrams
+
+These original vector diagrams summarize the state-formation, constitutional, transport, and aviation systems established in the Co-Prosperity Sphere Reference and master transcript. They remain conceptual: exact administrative borders, ministry seats, routes, company names, aircraft models, vehicle specifications, and production totals are deliberately left open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/far-eastern-state-formation.svg` | Republic-to-monarchy sequence | Occupation committees, First Far Eastern Republic, federal crisis, Zemsky Sobor, and Chita Restoration |
+| `diagrams/far-eastern-federal-order.svg` | Federal constitutional hierarchy | Elected crown, controlled chambers, territorial charters, domestic ministries, and Japanese reserved powers |
+| `diagrams/far-eastern-transport-hierarchy.svg` | Five-layer transport system | Rail, river and coastal shipping, aviation, roads, and tracked last-mile vehicles |
+| `diagrams/far-eastern-aviation-system.svg` | Aviation division of labor | Japanese high-value systems, Manchukuoan components, Russian assembly and maintenance, and the civil network |
+
 ## Asian founders and rulers
 
 These historical portraits establish the subjects' appearance without implying that their later real-world offices or fates occurred in the setting. Alternate careers and institutional roles follow the setting sources and are identified in each biography.

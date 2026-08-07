@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Federal order of the Russian Far Eastern State</title><desc id="desc">Conceptual hierarchy of the elected crown, federal institutions, territorial governments, and Japanese reserved powers.</desc>
+  <defs><style>.h{font:bold 38px Georgia,serif;fill:#efd274}.s{font:22px Arial,sans-serif;fill:#c9c7bd}.l{font:bold 27px Arial,sans-serif;fill:#fff}.b{stroke:#c6c9c2;stroke-width:2;rx:18}.line{stroke:#8fa39b;stroke-width:5;fill:none}</style></defs>
+  <rect width="1200" height="720" fill="#111718"/><text x="60" y="65" class="h">THE FAR EASTERN FEDERAL ORDER</text><text x="60" y="102" class="s">Domestic Russian government beneath an external Japanese strategic reserve</text>
+  <rect x="410" y="135" width="380" height="105" class="b" fill="#57432e"/><text x="600" y="180" text-anchor="middle" class="l">SOVEREIGN AT CHITA</text><text x="600" y="216" text-anchor="middle" class="s">Crown · arbitration · appointment</text>
+  <path d="M600 240v65M205 305h790M205 305v55M600 305v55M995 305v55" class="line"/>
+  <rect x="55" y="360" width="300" height="120" class="b" fill="#2d4650"/><text x="205" y="408" text-anchor="middle" class="l">FEDERAL CHAMBERS</text><text x="205" y="446" text-anchor="middle" class="s">Popular/corporate lower house</text><text x="205" y="474" text-anchor="middle" class="s">Territorial upper chamber</text>
+  <rect x="450" y="360" width="300" height="120" class="b" fill="#3b4540"/><text x="600" y="408" text-anchor="middle" class="l">COUNCIL OF MINISTERS</text><text x="600" y="446" text-anchor="middle" class="s">Chita law · Khabarovsk operations</text><text x="600" y="474" text-anchor="middle" class="s">Courts · schools · internal affairs</text>
+  <rect x="845" y="360" width="300" height="120" class="b" fill="#41384c"/><text x="995" y="408" text-anchor="middle" class="l">TERRITORIAL ORDER</text><text x="995" y="446" text-anchor="middle" class="s">Buryat · Yakut · northern charters</text><text x="995" y="474" text-anchor="middle" class="s">Municipalities · Cossack districts</text>
+  <rect x="145" y="550" width="910" height="105" class="b" fill="#4d3030"/><text x="600" y="594" text-anchor="middle" class="l">JAPANESE RESERVED POWERS</text><text x="600" y="632" text-anchor="middle" class="s">Defense alignment · strategic transport · concessions · arms supply · Vladivostok access</text>
+  <path d="M205 480v70M600 480v70M995 480v70" class="line"/>
+</svg>
