@@ -36,7 +36,7 @@ These local SVG copies are used for identification in a critical fictional alter
 | `chukotka.svg` | Republic of Chukotka; working archive convention | [Flag of Chukotka](https://commons.wikimedia.org/wiki/File:Flag_of_Chukotka.svg) | GFDL / CC BY-SA; see Commons file page |
 | `greece.svg` | Greece under Italian rule | [Flag of Greece, 1822–1978](https://commons.wikimedia.org/wiki/File:Flag_of_Greece_(1822-1978).svg) | Historical flag; see Commons file page |
 | `albania-1939.svg` | Kingdom of Albania | [Flag of Albania, 1939–1943](https://commons.wikimedia.org/wiki/File:Flag_of_Albania_(1939%E2%80%931943).svg) | Public-domain dedication |
-| `montenegro-kingdom.svg` | Protectorate of Montenegro | [Flag of Montenegro, 1905–1918](https://commons.wikimedia.org/wiki/File:Flag_of_Montenegro_(1905%E2%80%931918).svg) | Historical flag; see Commons file page |
+| `montenegro-kingdom.svg` | Kingdom of Montenegro; formerly the Protectorate of Montenegro | [Flag of Montenegro, 1905–1918](https://commons.wikimedia.org/wiki/File:Flag_of_Montenegro_(1905%E2%80%931918).svg) | Historical flag; see Commons file page |
 | `syria-independence.svg` | Associated Kingdom of Syria | [Syrian independence flag](https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(1930%E2%80%931958,_1961%E2%80%931963).svg) | Public-domain flag |
 | `canada-red-ensign.svg` | Canada | [Canadian Red Ensign, 1957–1965](https://commons.wikimedia.org/wiki/File:Canadian_Red_Ensign_(1957%E2%80%931965).svg) | Historical flag; see Commons file page |
 | `australia.svg` | Australia | [Flag of Australia](https://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg) | Official flag; see Commons file page |
@@ -55,6 +55,9 @@ These local SVG copies are used for identification in a critical fictional alter
 | `cuba.svg` | Cuba | [Flag of Cuba](https://commons.wikimedia.org/wiki/File:Flag_of_Cuba.svg) | Public-domain flag |
 | `honduras.svg` | Honduras | [Flag of Honduras](https://commons.wikimedia.org/wiki/File:Flag_of_Honduras.svg) | Official flag; see Commons file page |
 | `tannu-tuva-1943.svg` | Tannu Tuva; working continuity flag | [Flag of the Tuvan People's Republic, 1943–1944](https://commons.wikimedia.org/wiki/File:Flag_of_the_Tuvan_People%27s_Republic_(1943-1944).svg) | Public-domain official symbol; locally preserved as simplified source SVG |
+| `bulgaria.svg` | Kingdom of Bulgaria | Bulgarian white, green, and red national tricolor | Original local SVG rendering of the established national design |
+| `serbia.svg` | Italian Protectorate of Serbia | Serbian red, blue, and white national tricolor | Original local SVG rendering of the established national design |
+| `federal-yugoslavia.svg` | Federal Kingdom of Yugoslavia | Royal Yugoslav blue, white, and red tricolor | Interpretive setting asset based on the historic national design |
 | `tannu-tuva-1943.svg` | Tannu Tuva; working continuity flag | [Flag of the Tuvan People's Republic, 1943–1944](https://commons.wikimedia.org/wiki/File:Flag_of_the_Tuvan_People%27s_Republic_(1943-1944).svg) | Public-domain official symbol; locally preserved as simplified source SVG |
 
 No visual changes were made to the downloaded SVG files. Filenames were shortened for local use.

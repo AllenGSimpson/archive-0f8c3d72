@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Balkan strategic board</title><desc id="desc">Conceptual diagram of German continental and Italian Mediterranean influence meeting in Bulgaria, Serbia, and Turkey.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="currentColor"/></marker><style>.t{font-family:Arial,sans-serif;fill:#f3efe4}.s{font:24px Arial,sans-serif;fill:#b8b3a9}.h{font:bold 38px Georgia,serif;fill:#f5d46b}.box{stroke:#d1c9b6;stroke-width:2;rx:18}.a{fill:none;stroke-width:7;marker-end:url(#arrow)}.label{font:bold 29px Arial,sans-serif;fill:#fff}</style></defs>
+  <rect width="1200" height="720" fill="#101513"/><text x="60" y="65" class="h">THE BALKAN STRATEGIC BOARD</text><text x="60" y="101" class="s">Transport, advisers, bases, and denial rights after the Axis divorce</text>
+  <rect x="70" y="155" width="320" height="145" class="box" fill="#263c46"/><text x="230" y="212" text-anchor="middle" class="label">GERMAN SYSTEM</text><text x="230" y="250" text-anchor="middle" class="s">Danube · rail · oil · Black Sea</text>
+  <rect x="810" y="155" width="320" height="145" class="box" fill="#5a382e"/><text x="970" y="212" text-anchor="middle" class="label">ITALIAN SYSTEM</text><text x="970" y="250" text-anchor="middle" class="s">Adriatic · Aegean · ports · crowns</text>
+  <rect x="440" y="155" width="320" height="145" class="box" fill="#4c4930"/><text x="600" y="212" text-anchor="middle" class="label">BULGARIA</text><text x="600" y="250" text-anchor="middle" class="s">The penetrated hinge</text>
+  <rect x="245" y="405" width="320" height="145" class="box" fill="#3b303c"/><text x="405" y="462" text-anchor="middle" class="label">SERBIA</text><text x="405" y="500" text-anchor="middle" class="s">Italian protection · German plumbing</text>
+  <rect x="635" y="405" width="320" height="145" class="box" fill="#2d4540"/><text x="795" y="462" text-anchor="middle" class="label">TURKEY</text><text x="795" y="500" text-anchor="middle" class="s">The armed gate</text>
+  <path d="M390 225h50" class="a" stroke="#63a5c4" color="#63a5c4"/><path d="M810 225h-50" class="a" stroke="#dc8065" color="#dc8065"/>
+  <path d="M270 300l95 105" class="a" stroke="#63a5c4" color="#63a5c4"/><path d="M895 300L835 405" class="a" stroke="#dc8065" color="#dc8065"/>
+  <path d="M530 300l-85 105" class="a" stroke="#dc8065" color="#dc8065"/><path d="M670 300l85 105" class="a" stroke="#63a5c4" color="#63a5c4"/>
+  <text x="600" y="640" text-anchor="middle" class="s">Neither empire can dominate the hinge without improving the other's strategic position.</text>
+</svg>

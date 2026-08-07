@@ -145,6 +145,17 @@ These original vector reconstructions summarize the western succession and campa
 | `diagrams/western-mounted-warfare.svg` | Modern mounted warfare | Mounted rifles, dismounted firepower, mixed mechanized columns, and the remount economy |
 | `diagrams/western-consolidation-wars.svg` | Three consolidation wars | Kashmir-Khalistan, Second Las Bela, and Hindustan-Rajputana compared by opening, intervention, and settlement |
 
+## Balkan-order diagrams
+
+These original vector diagrams summarize the new Balkan and Umbertian material in the Setting Bible, Setting Timeline, and master transcript. They are conceptual rather than surveyed maps and leave exact borders, constitutional wording, base locations, and unsettled succession clauses open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/balkan-strategic-board.svg` | German–Italian Balkan competition | Continental rail and economic systems, Mediterranean bases, overlapping missions, and balancing states |
+| `diagrams/sofia-procurement-system.svg` | 1966 Sofia procurement contest | German integrated air defense, Italian–Occitan counteroffer, adviser ceilings, and Bulgarian mixed purchase |
+| `diagrams/italian-union-of-crowns.svg` | Italian union of crowns | Separate domestic governments beneath common Italian strategic reserved powers |
+| `diagrams/federal-yugoslav-order.svg` | Federal Yugoslav constitution | Constituent governments, limited federal institutions, Umberto's crown, and Italian defense control |
+
 ## Asian founders and rulers
 
 These historical portraits establish the subjects' appearance without implying that their later real-world offices or fates occurred in the setting. Alternate careers and institutional roles follow the setting sources and are identified in each biography.

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Italian union of crowns and associated kingdoms</title><desc id="desc">Conceptual hierarchy of Umberto II's composite imperial system.</desc>
+  <defs><style>.h{font:bold 38px Georgia,serif;fill:#f5d46b}.s{font:21px Arial,sans-serif;fill:#c9c3b8}.l{font:bold 24px Arial,sans-serif;fill:#fff}.b{stroke:#cabf9e;stroke-width:2;rx:15}.line{stroke:#c59d4c;stroke-width:4}</style></defs><rect width="1200" height="720" fill="#101513"/><text x="55" y="63" class="h">UNION OF CROWNS AND ASSOCIATED KINGDOMS</text><text x="55" y="100" class="s">Separate domestic law beneath Italian strategic control, c. 1965</text>
+  <rect x="410" y="135" width="380" height="105" class="b" fill="#5a382e"/><text x="600" y="182" text-anchor="middle" class="l">UMBERTO II · ITALIAN CROWN</text><text x="600" y="214" text-anchor="middle" class="s">Defense · foreign policy · strategic finance</text>
+  <path d="M600 240v80M150 320h900" class="line"/><path d="M150 320v65M375 320v65M600 320v65M825 320v65M1050 320v65" class="line"/>
+  <rect x="50" y="385" width="200" height="120" class="b" fill="#473836"/><text x="150" y="432" text-anchor="middle" class="l">ALBANIA</text><text x="150" y="467" text-anchor="middle" class="s">separate ministries</text>
+  <rect x="275" y="385" width="200" height="120" class="b" fill="#34483f"/><text x="375" y="432" text-anchor="middle" class="l">ETHIOPIA</text><text x="375" y="467" text-anchor="middle" class="s">imperial-viceregal</text>
+  <rect x="500" y="385" width="200" height="120" class="b" fill="#35465d"/><text x="600" y="432" text-anchor="middle" class="l">GREECE</text><text x="600" y="467" text-anchor="middle" class="s">conquest crown</text>
+  <rect x="725" y="385" width="200" height="120" class="b" fill="#3f3c55"/><text x="825" y="432" text-anchor="middle" class="l">YUGOSLAVIA</text><text x="825" y="467" text-anchor="middle" class="s">federal kingdom</text>
+  <rect x="950" y="385" width="200" height="120" class="b" fill="#50442f"/><text x="1050" y="432" text-anchor="middle" class="l">PROTECTORATES</text><text x="1050" y="467" text-anchor="middle" class="s">Egypt · Syria</text>
+  <text x="600" y="590" text-anchor="middle" class="h">Domestic plurality · strategic unity</text><text x="600" y="632" text-anchor="middle" class="s">The system lowers the cost of occupation while creating future claims to real sovereignty.</text>
+</svg>
