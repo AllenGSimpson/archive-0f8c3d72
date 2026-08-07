@@ -91,3 +91,16 @@ This original vector reconstruction summarizes the strategic sequence establishe
 | File | Subject | Basis |
 | --- | --- | --- |
 | `diagrams/soviet-collapse-1945-46.svg` | Soviet strategic collapse and Ural settlement | Broken western centers, the negotiated Ural line, organized eastern evacuation, and fragmented successor space |
+
+## Soviet emergency-leadership portraits
+
+These portraits were selected near the 1945–1946 divergence so that the biographies do not visually imply the subjects' later real-world careers.
+
+| File | Subject | Source and reuse status |
+| --- | --- | --- |
+| `portraits/joseph-stalin.jpg` | Joseph Stalin at Potsdam, 1945 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stalin_1945_(cropped).jpg), U.S. Army Signal Corps; public domain in the United States |
+| `portraits/georgy-malenkov.jpg` | Georgy Malenkov, 1953 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Georgy_Malenkov_1953.jpg), Dutch National Archives / Anefo; CC0 |
+| `portraits/vyacheslav-molotov.jpg` | Vyacheslav Molotov, 1945 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vyacheslav_Molotov_Anefo2.jpg), Dutch National Archives / Anefo; CC0 |
+| `portraits/lavrentiy-beria.jpg` | Lavrentiy Beria, late 1930s | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lavrentiy_Beria_portrait.jpg), official Soviet portrait; public-domain status recorded on Commons |
+| `portraits/georgy-zhukov.jpg` | Georgy Zhukov, 1945 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zhukov-LIFE-1944-1945_cropped.jpg), Grigory Vayl; U.S. publication not renewed |
+| `portraits/nikita-khrushchev.jpg` | Nikita Khrushchev, c. 1948 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nikita_Khrushchev_TASS_Portrait_Trim_Edit_Crop.jpg), G. Weil / TASS; public-domain status recorded on Commons |
