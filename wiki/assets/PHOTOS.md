@@ -124,3 +124,13 @@ These original vector reconstructions summarize the disaster-window doctrine est
 | `diagrams/northern-indian-disaster-window.svg` | Self-reinforcing disaster window | Disaster, relief diversion, limited attack, civilian harm, and deeper strategic distrust |
 | `diagrams/bhola-offensive-1970.svg` | Bhola cyclone and Patna Offensive | Eastern-delta disaster, eastward Azad Hind relief movement, Congress attack, and Japanese intervention |
 | `diagrams/chittagong-relief-crisis-1991.svg` | Chittagong relief crisis | Civil requests, retained western reserves, absent Congress invasion, and preventable relief failure |
+
+## Princely India diagrams
+
+These original vector reconstructions summarize the dispersed court system described in the Setting Bible, Setting Timeline, and master transcript. They do not lock the total number of states, exact borders, unsettled treaties, railway ownership, individual arms contracts, or the sponsoring court of the Object 279-derived prototype.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/princely-india-system.svg` | Levels and regional systems of princely India | Sovereign courts, associated principalities, estates, the Chamber of Princes, regional networks, and Hyderabad's material influence |
+| `diagrams/hyderabad-machilipatnam-corridor.svg` | Hyderabad's maritime outlet | Hyderabad–Warangal–Vijayawada–Machilipatnam transport and treaty chain |
+| `diagrams/princely-arms-market.svg` | Small-batch military commerce | Foreign and Indian suppliers, credit, brokers, transit, individual court packages, and maintenance dependence |
