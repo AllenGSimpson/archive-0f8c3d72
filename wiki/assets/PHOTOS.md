@@ -83,3 +83,11 @@ These original vector diagrams summarize canonical institutional relationships. 
 | `diagrams/great-sell-off-cascade.svg` | Great Sell-Off chronology | May report, June leak, summer integrity law, September forced sales, and October panic |
 | `diagrams/national-renewal-schism.svg` | Five-party American order | The 1993 division of Renewal beside the surviving Democratic-Republicans |
 | `diagrams/corporate-patronage-system.svg` | Corporate-patronage republic | Sponsor portfolios, affiliated firms, candidates, and public authority after the crash |
+
+## Eastern-war diagrams
+
+This original vector reconstruction summarizes the strategic sequence established by the Setting Bible, Setting Timeline, and master transcript. It does not fix operational front lines, individual evacuation routes, or an exact surveyed Ural boundary.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/soviet-collapse-1945-46.svg` | Soviet strategic collapse and Ural settlement | Broken western centers, the negotiated Ural line, organized eastern evacuation, and fragmented successor space |

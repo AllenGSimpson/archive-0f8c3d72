@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Soviet strategic collapse and the Ural settlement, 1945–1946</title>
+  <desc id="desc">A conceptual west-to-east diagram showing broken Soviet strategic centers, the Ural settlement line, evacuation of people and industry, and fragmented successor administrations beyond the frontier.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#141915"/><stop offset="1" stop-color="#0d1311"/></linearGradient>
+    <marker id="east" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#d8c58c"/></marker>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><rect width="12" height="12" fill="#3b2525"/><path d="M0 0V12" stroke="#613d3d" stroke-width="5"/></pattern>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <text x="60" y="60" fill="#d8c58c" font-family="Georgia,serif" font-size="30">THE SOVIET COLLAPSE AND THE URAL SETTLEMENT</text>
+  <text x="60" y="94" fill="#9ca79d" font-family="Arial,sans-serif" font-size="17">Conceptual archive reconstruction · operational front lines and exact settlement geography remain approximate</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="55" y="135" width="390" height="420" rx="10" fill="url(#hatch)" stroke="#b05252" stroke-width="3"/>
+    <text x="250" y="175" fill="#f0dfd1" font-size="24" text-anchor="middle">BROKEN WESTERN CENTERS</text>
+    <g fill="#d9d4c8" font-size="20">
+      <circle cx="125" cy="240" r="9" fill="#b05252"/><text x="150" y="247">Leningrad</text>
+      <circle cx="150" cy="335" r="9" fill="#b05252"/><text x="175" y="342">Moscow</text>
+      <circle cx="255" cy="455" r="9" fill="#b05252"/><text x="280" y="462">Stalingrad / lower Volga</text>
+    </g>
+    <text x="250" y="520" fill="#f0dfd1" font-size="18" text-anchor="middle">fallen, isolated, or no longer viable</text>
+    <path d="M535 135v420" stroke="#d8c58c" stroke-width="7" stroke-dasharray="16 10"/>
+    <text x="535" y="120" fill="#d8c58c" font-size="22" text-anchor="middle">URAL LINE</text>
+    <path d="M380 240C500 250 560 250 690 250" fill="none" stroke="#d8c58c" stroke-width="5" marker-end="url(#east)"/>
+    <path d="M380 335C500 350 570 350 720 350" fill="none" stroke="#d8c58c" stroke-width="5" marker-end="url(#east)"/>
+    <path d="M380 455C500 470 590 465 750 465" fill="none" stroke="#d8c58c" stroke-width="5" marker-end="url(#east)"/>
+    <g fill="#f0dfd1" font-size="18" text-anchor="middle">
+      <text x="525" y="225">people</text><text x="535" y="326">machines and rolling stock</text><text x="555" y="444">archives, stores, formations</text>
+    </g>
+    <rect x="755" y="135" width="390" height="420" rx="10" fill="#17332d" stroke="#4f8b7d" stroke-width="3"/>
+    <text x="950" y="175" fill="#d7ede5" font-size="24" text-anchor="middle">SUCCESSOR SPACE</text>
+    <g fill="#234a42" stroke="#6ca698" stroke-width="2">
+      <rect x="800" y="215" width="145" height="85" rx="7"/><rect x="970" y="215" width="130" height="85" rx="7"/>
+      <rect x="790" y="330" width="155" height="85" rx="7"/><rect x="970" y="330" width="140" height="85" rx="7"/>
+      <rect x="850" y="445" width="190" height="70" rx="7"/>
+    </g>
+    <g fill="#eef3ef" font-size="18" text-anchor="middle">
+      <text x="872" y="250">industrial</text><text x="872" y="274">administrations</text>
+      <text x="1035" y="250">military</text><text x="1035" y="274">enclaves</text>
+      <text x="867" y="365">party-state</text><text x="867" y="389">remnants</text>
+      <text x="1040" y="365">refugee</text><text x="1040" y="389">governments</text>
+      <text x="945" y="478">regional successor states</text><text x="945" y="501">inherited Soviet institutions</text>
+    </g>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="19">
+    <rect x="55" y="590" width="1090" height="70" rx="8" fill="#211f18" stroke="#7d7352" stroke-width="2"/>
+    <text x="80" y="620" fill="#d8c58c">SETTLEMENT LOGIC</text>
+    <text x="80" y="647" fill="#e9e4d7">Germany receives a thinned frontier it can supply; the defeated state carries the movable remains of its industry and institutions east.</text>
+  </g>
+</svg>
