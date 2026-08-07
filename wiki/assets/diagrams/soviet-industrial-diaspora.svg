@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Soviet military-industrial diaspora after 1946</title>
+  <desc id="desc">A two-stage flow from the collapsing Soviet west into Siberian and Ural industrial refuges and then to Indian successor-state industries.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101712"/><stop offset="1" stop-color="#18221b"/></linearGradient><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 12 6 0 12z" fill="#c7a24d"/></marker></defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#eadfbf" font-family="Georgia,serif" font-size="34">The Soviet military-industrial diaspora</text>
+  <text x="60" y="108" fill="#9da99f" font-family="Arial,sans-serif" font-size="18">Design lineages survive by moving twice: first to refuge, then to production scale.</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="60" y="180" width="270" height="300" rx="10" fill="#202b24" stroke="#6d7c70"/>
+    <text x="90" y="225" fill="#d8cfb4" font-size="22" font-weight="700">COLLAPSING WEST</text>
+    <text x="90" y="270" fill="#bec8c0" font-size="18">Design teams</text><text x="90" y="304" fill="#bec8c0" font-size="18">Archives and drawings</text><text x="90" y="338" fill="#bec8c0" font-size="18">Toolmakers and gauges</text><text x="90" y="372" fill="#bec8c0" font-size="18">Metallurgists and testers</text><text x="90" y="406" fill="#bec8c0" font-size="18">Machine tools and prototypes</text>
+    <text x="90" y="452" fill="#c7a24d" font-size="16">1945–1946 evacuation</text>
+    <rect x="465" y="150" width="270" height="360" rx="10" fill="#202b24" stroke="#c7a24d"/>
+    <text x="495" y="195" fill="#d8cfb4" font-size="22" font-weight="700">NORTHERN REFUGE</text>
+    <text x="495" y="238" fill="#bec8c0" font-size="18">Omsk–Novosibirsk</text><text x="495" y="272" fill="#bec8c0" font-size="18">Nizhny Tagil–Sverdlovsk</text><text x="495" y="306" fill="#bec8c0" font-size="18">Chelyabinsk</text><text x="495" y="340" fill="#bec8c0" font-size="18">Magnitogorsk</text><text x="495" y="374" fill="#bec8c0" font-size="18">Central Asian repair plants</text>
+    <text x="495" y="428" fill="#e2b85a" font-size="16">Expertise survives</text><text x="495" y="454" fill="#e2b85a" font-size="16">Funding and production do not</text>
+    <rect x="870" y="120" width="270" height="420" rx="10" fill="#202b24" stroke="#6d7c70"/>
+    <text x="900" y="165" fill="#d8cfb4" font-size="22" font-weight="700">INDIAN SCALE</text>
+    <text x="900" y="208" fill="#bec8c0" font-size="18">Congress: armor and ordnance</text><text x="900" y="242" fill="#bec8c0" font-size="18">Hindustan: aviation and air defense</text><text x="900" y="276" fill="#bec8c0" font-size="18">Hyderabad: prototypes and export</text><text x="900" y="310" fill="#bec8c0" font-size="18">TPS: dispersed weapons</text><text x="900" y="344" fill="#bec8c0" font-size="18">Pakistani states: transit and repair</text>
+    <text x="900" y="406" fill="#e2b85a" font-size="16">Contracts · housing · workshops</text><text x="900" y="432" fill="#e2b85a" font-size="16">Apprentices · production bonuses</text><text x="900" y="458" fill="#e2b85a" font-size="16">Mass armies · longer production runs</text>
+    <path d="M340 330H445" stroke="#c7a24d" stroke-width="7" marker-end="url(#arrow)"/><path d="M745 330H850" stroke="#c7a24d" stroke-width="7" marker-end="url(#arrow)"/>
+    <text x="365" y="310" fill="#9da99f" font-size="15">FIRST RETREAT</text><text x="765" y="310" fill="#9da99f" font-size="15">SECOND MIGRATION</text>
+    <path d="M600 530C600 610 1005 610 1005 555" fill="none" stroke="#829087" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+    <text x="610" y="632" fill="#9da99f" font-size="17">Northern archives and Indian factories remain connected through paired bureaus.</text>
+  </g>
+</svg>

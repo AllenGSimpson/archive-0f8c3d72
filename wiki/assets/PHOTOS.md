@@ -104,3 +104,13 @@ These portraits were selected near the 1945–1946 divergence so that the biogra
 | `portraits/lavrentiy-beria.jpg` | Lavrentiy Beria, late 1930s | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lavrentiy_Beria_portrait.jpg), official Soviet portrait; public-domain status recorded on Commons |
 | `portraits/georgy-zhukov.jpg` | Georgy Zhukov, 1945 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zhukov-LIFE-1944-1945_cropped.jpg), Grigory Vayl; U.S. publication not renewed |
 | `portraits/nikita-khrushchev.jpg` | Nikita Khrushchev, c. 1948 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nikita_Khrushchev_TASS_Portrait_Trim_Edit_Crop.jpg), G. Weil / TASS; public-domain status recorded on Commons |
+
+## Soviet-industrial-diaspora diagrams
+
+These original vector reconstructions summarize institutional and technical relationships established by the Setting Bible, Setting Timeline, land-armaments reference, and master transcript. They do not lock exact migration routes, vehicle geometry, factory locations, production totals, or component interchangeability.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/soviet-industrial-diaspora.svg` | Two-stage technical migration | Evacuation to northern industrial refuges followed by industrial asylum and production in Indian successor states |
+| `diagrams/indian-armored-genealogies.svg` | Distribution of armored-design lineages | Kartsev–Tagil, Morozov–Kharkiv, Kotin–Kirov, mechanized-infantry, light, and wheeled branches |
+| `diagrams/vijaya-development.svg` | Development of Congress India's Vijaya family | Russian technical inheritance transformed through Indian engineering, production, service, and chemical-protection requirements |
