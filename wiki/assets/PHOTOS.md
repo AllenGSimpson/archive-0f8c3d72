@@ -240,6 +240,19 @@ These original vector diagrams summarize the postwar Japanese developmental orde
 | `diagrams/japanese-corporate-house-network.svg` | Structure of a mature imperial corporate house | Principal bank and insurer, general trading company, shipping, industry, research, and overseas subsidiaries |
 | `diagrams/japanese-development-plan-sequence.svg` | Postwar development sequence | 1948 Financial Rectification, First Reconstruction Plan, Ikeda Prosperity Plan, and the mature protected-enterprise problem |
 
+## GEACPS corporate-politics diagrams
+
+These original vector diagrams explain the mature division between Japanese ownership, associated-state jurisdiction, and political patronage. They are institutional schematics rather than literal corporate organization charts, legal instruments, or surveyed settlement maps. Individual disputes, firms, scandals, campaign rules, colony populations, and local patronage networks remain open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/corporate-politics-geacps.svg` | Tokyo, corporate houses, associated governments, and political networks | The status-differentiated corporate implementation of Japanese primacy |
+| `diagrams/corporate-host-bargain.svg` | Japanese corporate reserve and host-state jurisdiction | Ownership and strategic direction versus tax, police, labor, access, and promotion powers |
+| `diagrams/mantetsu-manchukuo-disputes.svg` | Recurring escalation cycle | Manchukuoan reform, narrow Mantetsu compliance, technical pressure, visible escalation, and unequal compromise |
+| `diagrams/corporate-patronage-geacps.svg` | Transition from economic power to structural capture | Development, media, institutes, schools, careers, and political sponsorship |
+| `diagrams/manchukuoan-settlement-society.svg` | Japanese settlement in Manchukuo | Postwar expansion, family settlement, the 1967–1969 moratorium, and permanent settler society |
+| `diagrams/japanese-cyberpunk.svg` | Corporate-dystopian cultural logic | A functioning network of company, ministry, city, identity, and communication systems around the individual |
+
 ## British defeat-and-reconstruction diagrams
 
 These original vector diagrams distinguish the military, constitutional, propagandistic, and parliamentary stages of Britain's 1943–1951 crisis. They are explanatory schematics rather than literal operational maps or reproductions of period documents. Exact Torch dates and forces, the White Parachutes sortie date and local originator, constituency-level results, appropriations, and complete project totals remain open.
