@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Contradictions of Italian cinema</title>
+  <desc id="desc">A diagram showing the tensions among victory, empire, monarchy, Catholic morality, poverty, glamour, and criticism in Italian cinema.</desc>
+  <rect width="1200" height="760" fill="#0b1219"/>
+  <text x="600" y="62" text-anchor="middle" fill="#f1ddb5" font-family="Georgia,serif" font-size="39">ITALIAN CINEMA: VICTORY AND CONTRADICTION</text>
+  <text x="600" y="102" text-anchor="middle" fill="#9db0bd" font-family="Consolas,monospace" font-size="17">CINECITTÀ · IMPERIAL LOCATIONS · INTERNATIONAL CO-PRODUCTION</text>
+  <g font-family="Consolas,monospace">
+    <g transform="translate(70 185)"><rect width="270" height="145" rx="17" fill="#192630" stroke="#61a472" stroke-width="3"/><text x="135" y="42" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">VICTORY &amp; EMPIRE</text><text x="135" y="81" text-anchor="middle" fill="#c4d1d8" font-size="16">Mare Nostrum · Suez</text><text x="135" y="111" text-anchor="middle" fill="#c4d1d8" font-size="16">peplum · engineering</text></g>
+    <g transform="translate(860 185)"><rect width="270" height="145" rx="17" fill="#192630" stroke="#d36565" stroke-width="3"/><text x="135" y="42" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">POVERTY &amp; FAILURE</text><text x="135" y="81" text-anchor="middle" fill="#c4d1d8" font-size="16">Bicycle Thieves</text><text x="135" y="111" text-anchor="middle" fill="#c4d1d8" font-size="16">La Strada · neoreal method</text></g>
+    <g transform="translate(70 430)"><rect width="270" height="145" rx="17" fill="#192630" stroke="#bb7bc1" stroke-width="3"/><text x="135" y="42" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">CROWN &amp; CHURCH</text><text x="135" y="81" text-anchor="middle" fill="#c4d1d8" font-size="16">dynasty · censorship</text><text x="135" y="111" text-anchor="middle" fill="#c4d1d8" font-size="16">moral and social order</text></g>
+    <g transform="translate(860 430)"><rect width="270" height="145" rx="17" fill="#192630" stroke="#d6b54f" stroke-width="3"/><text x="135" y="42" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">GLAMOUR &amp; DECAY</text><text x="135" y="81" text-anchor="middle" fill="#c4d1d8" font-size="16">La Dolce Vita · giallo</text><text x="135" y="111" text-anchor="middle" fill="#c4d1d8" font-size="16">stars · fashion · scandal</text></g>
+  </g>
+  <circle cx="600" cy="380" r="154" fill="#202a36" stroke="#f0bd59" stroke-width="5"/>
+  <text x="600" y="352" text-anchor="middle" fill="#f0bd59" font-family="Georgia,serif" font-size="34">CINECITTÀ</text>
+  <text x="600" y="393" text-anchor="middle" fill="#fff" font-family="Consolas,monospace" font-size="19">state instrument</text>
+  <text x="600" y="423" text-anchor="middle" fill="#fff" font-family="Consolas,monospace" font-size="19">and critical arena</text>
+  <line x1="340" y1="258" x2="458" y2="325" stroke="#72aec9" stroke-width="3"/><line x1="860" y1="258" x2="742" y2="325" stroke="#72aec9" stroke-width="3"/><line x1="340" y1="502" x2="458" y2="435" stroke="#72aec9" stroke-width="3"/><line x1="860" y1="502" x2="742" y2="435" stroke="#72aec9" stroke-width="3"/>
+  <text x="600" y="676" text-anchor="middle" fill="#f1ddb5" font-family="Georgia,serif" font-size="27">A victorious state can censor a film; it cannot control every interpretation.</text>
+</svg>

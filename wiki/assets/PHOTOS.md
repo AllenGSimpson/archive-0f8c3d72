@@ -385,3 +385,13 @@ These original vector diagrams summarize the setting's established international
 | --- | --- | --- |
 | `diagrams/cross-bloc-cultural-bridges.svg` | Five rival media systems connected by prominent bridge performers | Setting Bible and master transcript descriptions of cultural circulation |
 | `diagrams/commonwealth-bond-network.svg` | James Bond's Commonwealth intelligence network | Master transcript description of alternate Bond allies and strategic routes |
+
+## Postwar national-cinema diagrams
+
+These original vector diagrams summarize the established relationship among film industries, political memory, genre, and propaganda. They are analytical graphics rather than reproductions of copyrighted posters or film frames.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/german-cinema-after-victory.svg` | UFA continuity, victory epic, dynastic romance, and space documentary | Master transcript's German cinema chronology |
+| `diagrams/commonwealth-cinema-route.svg` | Island survival, the Cape route, shared Commonwealth service, and global access | Master transcript's British and Commonwealth cinema chronology |
+| `diagrams/italian-cinema-contradictions.svg` | Cinecittà between empire, poverty, monarchy, Catholic morality, glamour, and criticism | Master transcript's Italian cinema chronology |

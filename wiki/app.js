@@ -755,6 +755,16 @@ const pages = [
   { title: "Arnold Schwarzenegger", description: "Austrian bodybuilder and German-language action star with a transatlantic career", href: "arnold-schwarzenegger.html", tags: "arnold schwarzenegger austria bodybuilding actor terminator german cinema" },
   { title: "Toshirō Mifune", description: "Japanese actor and international martial-action star", href: "toshiro-mifune.html", tags: "toshiro mifune japan actor kurosawa toho samurai cinema" },
   { title: "Kyū Sakamoto", description: "Japanese singer whose untranslated hit crossed into the American market", href: "kyu-sakamoto.html", tags: "kyu sakamoto sukiyaki ue o muite aruko japan singer" },
+  { title: "Cinema of Germany", description: "UFA continuity, victory culture, genre cinema, and controlled doubt after 1947", href: "cinema-of-germany.html", tags: "cinema germany ufa babelsberg victory films propaganda postwar" },
+  { title: "Der Sieg im Osten", description: "The 1950 epic that turns the eastern war into Germany's settlement myth", href: "der-sieg-im-osten.html", tags: "der sieg im osten victory east 1950 german film epic settlement" },
+  { title: "Graue Wölfe", description: "Germany's 1953 U-boat victory film and its contested Commonwealth circulation", href: "graue-woelfe.html", tags: "graue woelfe graue wolfe grey wolves 1953 u boat film germany" },
+  { title: "Cinema of the British Commonwealth", description: "Heroic survival, the long route, and global access after strategic defeat", href: "cinema-of-the-british-commonwealth.html", tags: "cinema britain british commonwealth film ealing hammer defeat route" },
+  { title: "The Last Convoy", description: "The 1950 British blockade tragedy that ends in defeat at sea and survival at home", href: "the-last-convoy.html", tags: "last convoy 1950 british film blockade grain fuel naval tragedy" },
+  { title: "The Cape Road", description: "The 1966 civic epic of Commonwealth transport and the long imperial route", href: "the-cape-road.html", tags: "cape road 1966 commonwealth film route liverpool ceylon fremantle" },
+  { title: "Cinema of Italy", description: "Cinecittà, imperial victory, glamour, monarchy, and internal criticism", href: "cinema-of-italy.html", tags: "cinema italy italian cinecitta neorealism glamour fascism film" },
+  { title: "Mare Nostrum", description: "Italy's foundational 1951 Mediterranean victory epic", href: "mare-nostrum-film.html", tags: "mare nostrum 1951 italian film mediterranean victory epic suez" },
+  { title: "La Corona e la Spada", description: "The 1964 historical allegory of Mussolini, Umberto, and royal succession", href: "la-corona-e-la-spada.html", tags: "la corona e la spada crown sword 1964 italian film mussolini umberto" },
+  { title: "Il Canale", description: "The 1967 Suez engineering spectacle and imperial espionage thriller", href: "il-canale.html", tags: "il canale canal 1967 italian film suez engineering espionage" },
   { title: "American Popular Music", description: "Country, rock and roll, rhythm and blues, and parallel music markets", href: "american-popular-music.html", tags: "american music rock roll country rhythm blues motown holly valens bopper elvis" },
   { title: "Buddy Holly", description: "Singer-songwriter, producer, and living elder of American rock", href: "buddy-holly.html", tags: "buddy holly charles hardin holley crickets singer songwriter producer" },
   { title: "Ritchie Valens", description: "Bilingual rock pioneer and durable Mexican-American star", href: "ritchie-valens.html", tags: "ritchie valens richard valenzuela la bamba mexican american rock bilingual" },
@@ -2055,6 +2065,16 @@ const crossLinks = [
   ,{ href: "arnold-schwarzenegger.html", terms: ["Arnold Schwarzenegger", "Schwarzenegger"] }
   ,{ href: "toshiro-mifune.html", terms: ["Toshirō Mifune", "Toshiro Mifune", "Mifune"] }
   ,{ href: "kyu-sakamoto.html", terms: ["Kyū Sakamoto", "Kyu Sakamoto", "Sakamoto"] }
+  ,{ href: "cinema-of-germany.html", terms: ["Cinema of Germany", "German cinema"] }
+  ,{ href: "der-sieg-im-osten.html", terms: ["Der Sieg im Osten", "Victory in the East"] }
+  ,{ href: "graue-woelfe.html", terms: ["Graue Wölfe", "Graue Woelfe", "Grey Wolves"] }
+  ,{ href: "cinema-of-the-british-commonwealth.html", terms: ["Cinema of the British Commonwealth", "British and Commonwealth cinema", "Commonwealth cinema"] }
+  ,{ href: "the-last-convoy.html", terms: ["The Last Convoy"] }
+  ,{ href: "the-cape-road.html", terms: ["The Cape Road"] }
+  ,{ href: "cinema-of-italy.html", terms: ["Cinema of Italy", "Italian cinema"] }
+  ,{ href: "mare-nostrum-film.html", terms: ["Mare Nostrum"] }
+  ,{ href: "la-corona-e-la-spada.html", terms: ["La Corona e la Spada", "The Crown and the Sword"] }
+  ,{ href: "il-canale.html", terms: ["Il Canale", "The Canal"] }
   ,{ href: "american-popular-music.html", terms: ["American popular music", "American rock and roll"] }
   ,{ href: "buddy-holly.html", terms: ["Buddy Holly", "Charles Hardin Holley"] }
   ,{ href: "ritchie-valens.html", terms: ["Ritchie Valens", "Richard Steven Valenzuela"] }

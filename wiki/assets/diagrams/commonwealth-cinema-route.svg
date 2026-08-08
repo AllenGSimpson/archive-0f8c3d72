@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Commonwealth cinema and the long route</title>
+  <desc id="desc">A diagram showing British cinema moving from wartime survival through route reconstruction to global Commonwealth action.</desc>
+  <rect width="1200" height="720" fill="#0b1219"/>
+  <text x="600" y="60" text-anchor="middle" fill="#f1ddb5" font-family="Georgia,serif" font-size="38">COMMONWEALTH CINEMA AND THE LONG ROUTE</text>
+  <text x="600" y="99" text-anchor="middle" fill="#9db0bd" font-family="Consolas,monospace" font-size="17">HEROIC SURVIVAL AFTER STRATEGIC DEFEAT</text>
+  <path d="M120 345 C280 235 405 455 570 345 S860 235 1080 345" fill="none" stroke="#73afe3" stroke-width="5"/>
+  <g font-family="Consolas,monospace">
+    <g transform="translate(60 165)"><rect width="240" height="142" rx="16" fill="#192630" stroke="#8bb7cd" stroke-width="3"/><text x="120" y="39" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">THE ISLAND</text><text x="120" y="76" text-anchor="middle" fill="#f1ddb5" font-size="17">Navy · rationing</text><text x="120" y="105" text-anchor="middle" fill="#b9c7cf" font-size="15">survival without victory</text></g>
+    <g transform="translate(330 405)"><rect width="240" height="142" rx="16" fill="#192630" stroke="#d6b54f" stroke-width="3"/><text x="120" y="39" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">THE ROUTE</text><text x="120" y="76" text-anchor="middle" fill="#f1ddb5" font-size="17">Cape · Ceylon · Gulf</text><text x="120" y="105" text-anchor="middle" fill="#b9c7cf" font-size="15">logistics as citizenship</text></g>
+    <g transform="translate(630 165)"><rect width="240" height="142" rx="16" fill="#192630" stroke="#bb7bc1" stroke-width="3"/><text x="120" y="39" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">THE COMMONWEALTH</text><text x="120" y="76" text-anchor="middle" fill="#f1ddb5" font-size="17">shared crews and bases</text><text x="120" y="105" text-anchor="middle" fill="#b9c7cf" font-size="15">argument made visible</text></g>
+    <g transform="translate(900 405)"><rect width="240" height="142" rx="16" fill="#192630" stroke="#d36565" stroke-width="3"/><text x="120" y="39" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">GLOBAL REACH</text><text x="120" y="76" text-anchor="middle" fill="#f1ddb5" font-size="17">Bond · Gulf · space</text><text x="120" y="105" text-anchor="middle" fill="#b9c7cf" font-size="15">action through access</text></g>
+  </g>
+  <text x="600" y="625" text-anchor="middle" fill="#f1ddb5" font-family="Georgia,serif" font-size="27">The engineers may solve the problem even when the state loses the war.</text>
+  <text x="600" y="668" text-anchor="middle" fill="#9db0bd" font-family="Consolas,monospace" font-size="17">EALING COMEDY · NAVAL TRAGEDY · HAMMER HORROR · KITCHEN-SINK REALISM · COMMONWEALTH ADVENTURE</text>
+</svg>
