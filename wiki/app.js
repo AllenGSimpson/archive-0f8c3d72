@@ -938,7 +938,9 @@ const pages = [
   { title: "1985 United Kingdom General Election", description: "The Runway Election held before the recovery of Stanley", href: "1985-united-kingdom-general-election.html", tags: "1985 british election runway mount pleasant blood ballot thatcher falklands" },
   { title: "Falklands Commission", description: "The statutory accounting for warning, Second Torch, logistics, and industrial capacity", href: "falklands-commission.html", tags: "falklands commission inquiry second torch intelligence reserves reownership" },
   { title: "Postwar Governments of Japan", description: "The cabinet sequence from victorious mobilization to Active Concord", href: "postwar-governments-of-japan.html", tags: "japan postwar governments cabinets prime ministers tojo yonai shigemitsu kishi ikeda sato tanaka nakasone" },
-  { title: "Hirohito", description: "Emperor of Japan through the limited war and postwar imperial settlement", href: "hirohito.html", tags: "hirohito emperor showa imperial limited war japan akihito" },
+  { title: "Hirohito", description: "Emperor of Japan through the limited war and most of the postwar imperial settlement", href: "hirohito.html", tags: "hirohito emperor showa imperial limited war japan akihito" },
+  { title: "Akihito", description: "Public imperial envoy, marine biologist, and Emperor of Japan by December 1985", href: "akihito.html", tags: "akihito emperor crown prince imperial concord japan tehran ichthyology" },
+  { title: "Japanese Imperial Succession", description: "The transition from Hirohito's procedural sovereignty to Akihito's public imperial role", href: "japanese-imperial-succession.html", tags: "japan imperial succession transition hirohito akihito emperor monarchy" },
   { title: "Hideki Tōjō", description: "Victory Cabinet premier and chairman of the Imperial Defense Council", href: "hideki-tojo.html", tags: "hideki tojo tōjō japan prime minister army victory cabinet" },
   { title: "Mitsumasa Yonai", description: "Admiral and premier of Japan's 1947–48 Settlement Cabinet", href: "mitsumasa-yonai.html", tags: "mitsumasa yonai admiral prime minister settlement cabinet japan" },
   { title: "Mamoru Shigemitsu", description: "Construction premier and architect of graded sovereignty", href: "mamoru-shigemitsu.html", tags: "mamoru shigemitsu prime minister graded sovereignty philippines japan" },
@@ -2201,6 +2203,8 @@ const crossLinks = [
   ,{ href: "falklands-commission.html", terms: ["Falklands Commission"] }
   ,{ href: "postwar-governments-of-japan.html", terms: ["Postwar governments of Japan", "Japanese cabinet sequence"] }
   ,{ href: "hirohito.html", terms: ["Emperor Hirohito", "Hirohito"] }
+  ,{ href: "akihito.html", terms: ["Emperor Akihito", "Crown Prince Akihito", "Akihito"] }
+  ,{ href: "japanese-imperial-succession.html", terms: ["Japanese imperial succession", "imperial transition"] }
   ,{ href: "hideki-tojo.html", terms: ["Hideki Tōjō", "Hideki Tojo", "Tōjō", "Tojo"] }
   ,{ href: "mitsumasa-yonai.html", terms: ["Mitsumasa Yonai", "Yonai"] }
   ,{ href: "mamoru-shigemitsu.html", terms: ["Mamoru Shigemitsu", "Shigemitsu"] }
