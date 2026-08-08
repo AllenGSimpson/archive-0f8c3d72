@@ -321,3 +321,13 @@ These photographs identify buildings inherited by the alternate postwar monetary
 | File | Subject | Source and credit |
 | --- | --- | --- |
 | `photos/reichsmark-20-1939.jpg` | Obverse of the twenty-Reichsmark banknote issued in 1939 | [Deutsche Bundesbank picture archive](https://www.bundesbank.de/en/bundesbank/numismatics/pictures-archive/banknotes-issued-by-the-reichsbank-1924-1945--616516); © Dieter Roosen |
+
+## Historical Japanese industrial photographs
+
+These images identify founders and early company leadership inherited by the alternate postwar industrial order. Company development after the setting's divergence follows the local reference documents.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `photos/masaru-ibuka-1964.jpg` | Masaru Ibuka, technical co-founder of Tokyo Tsushin Kogyo, in 1964 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ibuka_Masaru_(1964).jpg), published by Zaikai Kenkyūsha; public domain in Japan |
+| `photos/honda-fujisawa-1951.jpg` | Soichiro Honda and Takeo Fujisawa in 1951 | [Honda 75 Years History](https://global.honda/en/about/history-digest/75years-history/chapter1/section1/), corporate archival photograph; © Honda Motor Co., Ltd. |
+| `photos/konosuke-matsushita-1918.jpg` | Konosuke Matsushita in the year he founded the business, 1918 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:K%C5%8Dnosuke_Matsushita_in_1918.jpg), photographer unknown; public domain in Japan and the United States |
