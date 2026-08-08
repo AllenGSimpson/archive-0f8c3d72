@@ -304,3 +304,14 @@ These images establish the pre-divergence architecture and visual culture inheri
 | --- | --- | --- |
 | `photos/prora-kdf-seaside.jpg` | The monumental KdF seaside complex at Prora | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ProraSeeseite.jpg), photograph by Steffen Löwe; released into the public domain by the author |
 | `photos/leipzig-exhibition-poster-1930.jpg` | Otto Arpke poster for Leipzig's 1930 international fur and hunting exhibition | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IPA_Plakat.jpg), work by Otto Arpke (1886–1943); public domain |
+
+## Historical monetary-institution photographs
+
+These photographs identify buildings inherited by the alternate postwar monetary administrations. Modern photographs are used only where the pre-divergence building remains the same.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `photos/bank-of-japan-head-office.jpg` | Bank of Japan main building at Nihonbashi, completed in 1896 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bank_of_Japan_Head_Office_-_Main_building_from_south.jpg), photograph by Hohoho; CC BY-SA 3.0 |
+| `photos/japanese-ministry-finance.jpg` | Ministry of Finance building at Kasumigaseki, Tokyo | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ministry_of_Finance_Building_(Japan).jpg), photograph by Kakidai; CC BY-SA 4.0 |
+| `photos/reichsbank-berlin-neubau.jpg` | New Reichsbank building at Werderscher Markt, Berlin, 1938 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1975-043-24,_Berlin,_Reichsbank.jpg), Bundesarchiv Bild 146-1975-043-24; CC BY-SA 3.0 DE |
+| `photos/reich-finance-ministry.jpg` | Reich Ministry of Finance at Wilhelmplatz, Berlin, c. 1930s | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_147-0269,_Berlin,_Reichsfinanzministerium.jpg), Bundesarchiv Bild 147-0269; CC BY-SA 3.0 DE |
