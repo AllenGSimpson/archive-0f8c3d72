@@ -924,6 +924,9 @@ const pages = [
   { title: "Bastion India", description: "Britain's maritime Indian Ocean doctrine after the Raj's collapse", href: "bastion-india.html", tags: "bastion india ceylon colombo biec ports indian ocean" },
   { title: "Reichswährungsbereinigung", description: "Germany's 1948 purification and ordering of wartime monetary claims", href: "reichswaehrungsbereinigung.html", tags: "reich currency reform 1948 savings debt default monetary" },
   { title: "Sterling and Commonwealth Reconstruction", description: "Britain's 1948 controlled-sterling financial settlement", href: "sterling-commonwealth-reconstruction.html", tags: "sterling commonwealth reconstruction 1948 exchange controls blocked balances" },
+  { title: "Sterling Commonwealth Economy", description: "Britain's mixed economy of public strategy, private industry, welfare, preference, and Commonwealth contracts", href: "sterling-commonwealth-economy.html", tags: "sterling commonwealth economy britain mixed public trusts private industry preference welfare city" },
+  { title: "Controlled Sterling Area", description: "The reserve-pooling and exchange-control system established after British defeat", href: "controlled-sterling-area.html", tags: "controlled sterling area exchange control reserves blocked balances commonwealth finance" },
+  { title: "Bank of England", description: "Britain's public central bank and operating institution of controlled sterling", href: "bank-of-england.html", tags: "bank england threadneedle street public corporation central bank sterling reserves clearing" },
   { title: "Liura occitana", description: "Occitania's lira-backed national currency and later Latin clearing money", href: "liura-occitana.html", tags: "occitania liura centim currency board lira scudo" },
   { title: "First Reich Reconstruction Plan", description: "Germany's 1949–1953 conversion of victory into transport, housing, energy, food, and civilian production", href: "first-reich-reconstruction-plan.html", tags: "germany first reich reconstruction plan speer railway housing energy agriculture 1949 1953" },
   { title: "Reich Fund for Special Development", description: "Limited experimental allotments for German prototypes and pilot production", href: "reich-fund-special-development.html", tags: "reich fund special development reichsfonds sonderentwicklung versuchskontingent prototype werner lenz" },
@@ -2206,6 +2209,9 @@ const crossLinks = [
   ,{ href: "bastion-india.html", terms: ["Bastion India"] }
   ,{ href: "reichswaehrungsbereinigung.html", terms: ["Reichswährungsbereinigung"] }
   ,{ href: "sterling-commonwealth-reconstruction.html", terms: ["Sterling and Commonwealth Reconstruction settlement", "Sterling and Commonwealth Reconstruction Act"] }
+  ,{ href: "sterling-commonwealth-economy.html", terms: ["Sterling Commonwealth economy", "Sterling Commonwealth mixed economy"] }
+  ,{ href: "controlled-sterling-area.html", terms: ["controlled sterling area", "sterling area"] }
+  ,{ href: "bank-of-england.html", terms: ["Bank of England"] }
   ,{ href: "liura-occitana.html", terms: ["liura occitana", "Occitan liura"] }
   ,{ href: "first-reich-reconstruction-plan.html", terms: ["First Reich Reconstruction Plan"] }
   ,{ href: "reich-fund-special-development.html", terms: ["Reich Fund for Special Development", "Reichsfonds für Sonderentwicklung", "Versuchskontingent"] }
