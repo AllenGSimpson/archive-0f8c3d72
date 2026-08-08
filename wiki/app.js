@@ -198,6 +198,9 @@ const pages = [
   { title: "Benito Mussolini", description: "Founder and sole Duce of Fascist Italy through victory and the Umbertian transition", href: "benito-mussolini.html", tags: "benito mussolini duce fascism italy mediterranean victory succession" },
   { title: "Umberto II", description: "King of Italy, imperial arbiter, and sovereign of the Italian Union of Crowns", href: "umberto-ii.html", tags: "umberto ii italy savoy king duce union crowns royal corporatism" },
   { title: "Vittorio Emanuele, Prince of Naples", description: "Italian crown prince and patron of the Latin astronaut corps", href: "vittorio-emanuele.html", tags: "vittorio emanuele prince naples savoy heir italy latin space" },
+  { title: "Francisco Franco", description: "Caudillo of Spain and architect of the active Bourbon restoration", href: "francisco-franco.html", tags: "francisco franco caudillo spain civil war gibraltar bourbon restoration" },
+  { title: "Juan Carlos I", description: "King of Spain and royal successor to the Francoist Catholic-national state", href: "juan-carlos-i.html", tags: "juan carlos i king spain bourbon prince restoration franco latin" },
+  { title: "António de Oliveira Salazar", description: "Founder of the Estado Novo and architect of Portugal's Atlantic system", href: "antonio-salazar.html", tags: "antonio antónio oliveira salazar portugal estado novo lisbon iberian pact" },
   { title: "India and the Indian Successor States", description: "The Breaking of the Raj and Colombo armistice system", href: "india-successors.html", tags: "india raj hindustan azad hind bengal colombo bastion" },
   { title: "Middle East and the Arab Ideological Triangle", description: "Baghdad, Riyadh, and the Hashemite monarchies", href: "middle-east.html", tags: "middle east arab iraq saudi jordan iran syria" },
   { title: "British Africa and the Cape System", description: "Associated states, the Cape route, and imperial survival", href: "british-africa.html", tags: "africa cape accra ghana south africa rhodesia commonwealth" },
@@ -1984,6 +1987,9 @@ const crossLinks = [
   ,{ href: "benito-mussolini.html", terms: ["Benito Mussolini", "Mussolini"] }
   ,{ href: "umberto-ii.html", terms: ["Umberto II", "King Umberto"] }
   ,{ href: "vittorio-emanuele.html", terms: ["Vittorio Emanuele", "Prince of Naples"] }
+  ,{ href: "francisco-franco.html", terms: ["Francisco Franco", "General Franco", "Franco"] }
+  ,{ href: "juan-carlos-i.html", terms: ["Juan Carlos I", "King Juan Carlos", "Juan Carlos"] }
+  ,{ href: "antonio-salazar.html", terms: ["António de Oliveira Salazar", "Antonio de Oliveira Salazar", "António Salazar", "Antonio Salazar", "Salazar"] }
   ,{ href: "rockwell-commission.html", terms: ["Rockwell Commission", "Commission on the Assassination of George Lincoln Rockwell"] }
   ,{ href: "national-unity-amendment.html", terms: ["National Unity and Constitutional Defense Amendment", "National Unity amendment"] }
   ,{ href: "american-productive-commonwealth-act.html", terms: ["American Productive Commonwealth Act", "1982 productivity recession"] }
