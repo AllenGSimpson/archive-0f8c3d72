@@ -247,6 +247,9 @@ const pages = [
   { title: "World in 2000", description: "A synchronized political, strategic, economic, technological, and interplanetary millennium baseline", href: "world-in-2000.html", tags: "world 2000 millennium baseline five systems armed concert economy space politics" },
   { title: "Five Powers in 2000", description: "Comparative leadership and institutional condition of the five great-power systems", href: "five-powers-in-2000.html", tags: "five powers 2000 leadership wolfgang hale mallory akihito latin armed concert" },
   { title: "Sancta Maria Lunae", description: "The scientific, religious, and strategic Latin lunar establishment", href: "sancta-maria-lunae.html", tags: "sancta maria lunae our lady moon latin lunar base catholic science ceres" },
+  { title: "German Old-Guard Transition", description: "The staggered retirement, death, and divided succession of Germany's founder generation", href: "german-old-guard-transition.html", tags: "german old guard transition 1970 1981 founders succession bormann himmler speer heydrich" },
+  { title: "Attempted Assassination of Reinhard Heydrich", description: "Operation Anthropoid's altered blast, severe injury, and long institutional aftermath", href: "operation-anthropoid.html", tags: "operation anthropoid attempted assassination reinhard heydrich prague gabcik kubis 1942" },
+  { title: "Security and Administrative Audit Office", description: "Germany's domestic security and records cross-checking authority from 1978", href: "security-administrative-audit-office.html", tags: "security administrative audit office germany matthias kern heydrich domestic records 1978" },
   { title: "Marsplan 92", description: "Germany's integrated first human expedition to Mars", href: "marsplan-92.html", tags: "marsplan 92 germany mars expedition raumhafen tharsis olympus" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
@@ -2746,6 +2749,9 @@ const crossLinks = [
   ,{ href: "world-in-2000.html", terms: ["world in 2000", "millennium world"] }
   ,{ href: "five-powers-in-2000.html", terms: ["Five Powers in 2000", "millennium leadership"] }
   ,{ href: "sancta-maria-lunae.html", terms: ["Sancta Maria Lunae", "Our Lady of the Moon"] }
+  ,{ href: "german-old-guard-transition.html", terms: ["German old-guard transition", "old-guard transition"] }
+  ,{ href: "operation-anthropoid.html", terms: ["Operation Anthropoid", "attempted assassination of Reinhard Heydrich"] }
+  ,{ href: "security-administrative-audit-office.html", terms: ["Security and Administrative Audit Office", "domestic security audit"] }
 ];
 
 function escapePattern(value) {
