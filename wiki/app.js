@@ -295,6 +295,7 @@ const pages = [
   { title: "Shu Main Battle Tank Lineage", description: "Japan's Type 16, Type 26, Type 36, and Type 45 main-force tank family", href: "shu-main-battle-tank-lineage.html", tags: "japan shu main battle tank lineage shu ha he ri ru type 16 26 36 45" },
   { title: "Raumjäger Program", description: "Germany's Rj 1 Wespe, Rj 2 Habicht, and Rj 3 Falke orbital interceptors", href: "raumjaeger-program.html", tags: "raumjager raumjäger program wespe habicht falke germany orbital interceptor" },
   { title: "Orbitaler Raumhafen", description: "Germany's high-orbit harbor, construction yard, fuel depot, and international station", href: "orbitaler-raumhafen.html", tags: "orbitaler raumhafen germany station harbor orbit 1975 kribi marsplan moon" },
+  { title: "Japanese Modules on the Orbitaler Raumhafen", description: "Japan's 1985 science and robotics and 1986 logistics and life-support modules", href: "japanese-raumhafen-modules.html", tags: "japan japanese orbitaler raumhafen modules science robotics logistics life support tehran 1985 1986" },
   { title: "Einheitspakt", description: "The unequal German-centered strategic and economic system", href: "einheitspakt.html", tags: "einheitspakt german sphere alliance bloc protectorates associates northern shield" },
   { title: "Underground France", description: "The clandestine national claim surviving the division of France", href: "underground-france.html", tags: "underground france resistance exile northern occitania brittany reunification" },
   { title: "Punta del Este Protocols", description: "The 1986 settlement ending the Falklands–Malvinas War", href: "punta-del-este-protocols.html", tags: "punta del este protocols 1986 falklands malvinas peace treaty argentina britain uruguay" },
@@ -2650,6 +2651,7 @@ const crossLinks = [
   ,{ href: "associated-state-astronaut-program.html", terms: ["Associated-State Astronaut Program", "associated-state astronaut program", "first Filipino astronaut"] }
   ,{ href: "tsubame-program.html", terms: ["Tsubame program", "Tsubame-1", "Tsubame"] }
   ,{ href: "kobo-horai.html", terms: ["Kōbō–Hōrai orbital complex", "Kōbō laboratory", "Hōrai Orbital Platform", "Kōbō", "Hōrai"] }
+  ,{ href: "japanese-raumhafen-modules.html", terms: ["Japanese Raumhafen modules", "Japanese module group"] }
   ,{ href: "imperial-space-development-agency.html", terms: ["Imperial Space Development Agency", "Imperial Space Development Council"] }
   ,{ href: "hideo-itokawa.html", terms: ["Hideo Itokawa", "Itokawa"] }
   ,{ href: "early-japanese-satellite-program.html", terms: ["Early Japanese Satellite Program", "early satellite program"] }
