@@ -342,3 +342,16 @@ These images identify founders and early company leadership inherited by the alt
 | `photos/konosuke-matsushita-1918.jpg` | Konosuke Matsushita in the year he founded the business, 1918 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:K%C5%8Dnosuke_Matsushita_in_1918.jpg), photographer unknown; public domain in Japan and the United States |
 | `photos/kiichiro-toyoda.jpg` | Kiichiro Toyoda, founder of Toyota Motor Company, before 1952 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kiichiro_Toyoda.jpg), photographer unknown; public domain in Japan and the United States |
 | `photos/yoshisuke-aikawa-1937.jpg` | Yoshisuke Aikawa, organizer of the Nissan industrial group, c. 1937 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aikawa_Yoshisuke_circa_1937.jpg), National Diet Library scan, photographer unknown; public domain in Japan and the United States |
+
+## Historical Japanese screen creators
+
+These portraits identify real creators retained across the setting's divergence. Their alternate postwar careers and works follow the local reference documents.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `portraits/ishiro-honda-gojira-1954.jpg` | Ishirō Honda, Eiji Tsuburaya, and effects crew on the Gojira set, 1954 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Inoshiro_Honda_and_Godzilla.jpg), photographer unknown; public domain in Japan and the United States |
+| `portraits/eiji-tsuburaya-1934.jpg` | Eiji Tsuburaya operating a motion-picture camera, 1934 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eiji_Tsuburaya_1934.jpg), National Film Archive collection; public domain |
+| `portraits/osamu-tezuka-1953.jpg` | Osamu Tezuka, 1953 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tezuka_Osamu.JPG), published by Asahi Graph; public domain in Japan and the United States |
+| `portraits/hayao-miyazaki-2009.jpg` | Hayao Miyazaki, 2009 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg), photograph by Natasha Baucas; CC BY 2.0 |
+| `portraits/isao-takahata-2014.jpg` | Isao Takahata at the Annecy festival, 2014 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Isao_Takahata_(cropped).jpg), photograph by Boungawa; CC BY-SA 3.0 |
+| `portraits/toshio-suzuki-2004.jpg` | Toshio Suzuki at the premiere of Howl's Moving Castle, 2004 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toshio_Suzuki,_Howl%27s_Moving_Castle_premiere.jpg), photograph by Eddie Shannon; CC BY-SA 2.0 |
