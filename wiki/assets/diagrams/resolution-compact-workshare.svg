@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Resolution Compact workshare</title>
+  <desc id="desc">A network diagram showing Resolution connected to British, Canadian, Australian, New Zealand, South African, and associated Commonwealth functions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101d2b"/><stop offset="1" stop-color="#071019"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2d7680"/><stop offset="1" stop-color="#153e50"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000" flood-opacity=".38"/></filter>
+    <style>
+      .title{font:700 29px Georgia,serif;fill:#f7f0e5}.sub{font:15px system-ui,sans-serif;fill:#afbecd}.node{fill:#111f2c;stroke:#536d80;stroke-width:1.6}.core{fill:url(#core);stroke:#8ad2d4;stroke-width:2.5}.line{fill:none;stroke:#74c9cc;stroke-width:2.2;stroke-opacity:.66}.country{font:700 18px system-ui,sans-serif;fill:#f3eee5}.role{font:13px system-ui,sans-serif;fill:#b9c7d2}.center{font:700 27px Georgia,serif;fill:#fff}.center2{font:14px system-ui,sans-serif;fill:#d3e8e8}.tag{font:700 13px system-ui,sans-serif;fill:#70d1d0;letter-spacing:.08em}.footer{font:14px system-ui,sans-serif;fill:#aebdca}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g transform="translate(36 35)"><text class="title">Resolution Compact workshare</text><text y="30" class="sub">From British station with contributions to apportioned Commonwealth institution</text></g>
+
+  <path d="M600 342 C455 300 405 219 317 190" class="line"/><path d="M600 342 C432 352 339 358 250 365" class="line"/><path d="M600 342 C457 428 402 493 314 521" class="line"/>
+  <path d="M600 342 C745 300 795 219 883 190" class="line"/><path d="M600 342 C768 352 861 358 950 365" class="line"/><path d="M600 342 C743 428 798 493 886 521" class="line"/>
+
+  <g transform="translate(600 342)" filter="url(#shadow)"><circle r="116" class="core"/><path d="M-54 -13 H54 M-42 10 H42 M-28 33 H28" stroke="#d9efef" stroke-width="7" stroke-linecap="round"/><circle r="65" fill="none" stroke="#d9efef" stroke-opacity=".26" stroke-width="2"/><text y="-55" text-anchor="middle" class="tag">CONTINUOUSLY OCCUPIED</text><text y="74" text-anchor="middle" class="center">Resolution</text><text y="96" text-anchor="middle" class="center2">operations · stores · repair · signals</text></g>
+
+  <g transform="translate(116 120)" filter="url(#shadow)"><rect width="275" height="125" rx="17" class="node"/><text x="22" y="34" class="country">United Kingdom</text><text x="22" y="62" class="role">vehicle design · computing</text><text x="22" y="83" class="role">station control · instruments</text><text x="22" y="104" class="role">systems integration</text></g>
+  <g transform="translate(62 303)" filter="url(#shadow)"><rect width="300" height="125" rx="17" class="node"/><text x="22" y="34" class="country">Australia</text><text x="22" y="62" class="role">launch · recovery · tracking</text><text x="22" y="83" class="role">deep-space communications</text><text x="22" y="104" class="role">range and ocean geography</text></g>
+  <g transform="translate(118 460)" filter="url(#shadow)"><rect width="292" height="125" rx="17" class="node"/><text x="22" y="34" class="country">South Africa</text><text x="22" y="62" class="role">astronomy · southern tracking</text><text x="22" y="83" class="role">minerals · power · geometry</text><text x="22" y="104" class="role">strategic political dependence</text></g>
+
+  <g transform="translate(809 120)" filter="url(#shadow)"><rect width="275" height="125" rx="17" class="node"/><text x="22" y="34" class="country">Canada</text><text x="22" y="62" class="role">avionics · life sciences</text><text x="22" y="83" class="role">robotics · medicine</text><text x="22" y="104" class="role">communications</text></g>
+  <g transform="translate(838 303)" filter="url(#shadow)"><rect width="300" height="125" rx="17" class="node"/><text x="22" y="34" class="country">New Zealand</text><text x="22" y="62" class="role">navigation · communications</text><text x="22" y="83" class="role">South Pacific coverage</text><text x="22" y="104" class="role">ocean observation and recovery</text></g>
+  <g transform="translate(790 460)" filter="url(#shadow)"><rect width="294" height="125" rx="17" class="node"/><text x="22" y="34" class="country">Associated partners</text><text x="22" y="62" class="role">telemetry · ground stations</text><text x="22" y="83" class="role">experiments · specialist crews</text><text x="22" y="104" class="role">medicine · ocean observation</text></g>
+
+  <text x="600" y="632" text-anchor="middle" class="footer">Ashcombe builds the route; Calder and Mallory later give it a public destination.</text>
+</svg>

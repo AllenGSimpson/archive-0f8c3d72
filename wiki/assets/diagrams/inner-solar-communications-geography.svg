@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Inner-solar communications geography by 2010</title>
+  <desc id="desc">A schematic showing the Sun, Mercury, Venus, Earth and Moon, Mars, near-Earth asteroids, and Ceres and Vesta linked by overlapping national networks, with the outer planets remaining exploratory.</desc>
+  <defs>
+    <radialGradient id="bg" cx="42%" cy="47%" r="78%"><stop offset="0" stop-color="#172438"/><stop offset="1" stop-color="#081018"/></radialGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#fff3b0"/><stop offset="0.6" stop-color="#f7c65a"/><stop offset="1" stop-color="#c98222"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .title{font:700 29px Georgia,serif;fill:#f5efe2}.sub{font:15px system-ui,sans-serif;fill:#aebed0}.label{font:700 18px system-ui,sans-serif;fill:#edf3f7}.small{font:13px system-ui,sans-serif;fill:#aebed0}.year{font:700 13px system-ui,sans-serif;fill:#73d6d0;letter-spacing:.08em}.orbit{fill:none;stroke:#74869a;stroke-opacity:.3;stroke-width:1.5;stroke-dasharray:5 8}.link{fill:none;stroke:#50c6cb;stroke-opacity:.58;stroke-width:2}.link2{fill:none;stroke:#efb84d;stroke-opacity:.55;stroke-width:1.6;stroke-dasharray:7 6}.node{fill:#101d2a;stroke:#8ed7db;stroke-width:2}.panel{fill:#0d1823;stroke:#32475b;stroke-width:1.4}.legend{font:13px system-ui,sans-serif;fill:#ced8e1}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="101" cy="420" r="58" fill="url(#sun)" filter="url(#glow)"/>
+  <text x="44" y="507" class="label">Sun</text><text x="26" y="529" class="small">solar-weather monitors</text>
+  <ellipse cx="101" cy="420" rx="154" ry="154" class="orbit"/>
+  <ellipse cx="101" cy="420" rx="261" ry="221" class="orbit"/>
+  <ellipse cx="101" cy="420" rx="401" ry="292" class="orbit"/>
+  <ellipse cx="101" cy="420" rx="610" ry="357" class="orbit"/>
+  <ellipse cx="101" cy="420" rx="860" ry="410" class="orbit"/>
+
+  <path d="M228 342 C315 230 380 256 463 298 S635 386 744 275" class="link"/>
+  <path d="M228 342 C344 402 403 420 510 406 S648 355 744 275" class="link2"/>
+  <path d="M463 298 C532 225 614 208 744 275" class="link"/>
+  <path d="M744 275 C838 327 886 354 987 356" class="link2"/>
+  <path d="M744 275 C810 206 901 171 1017 184" class="link"/>
+
+  <g transform="translate(222 337)"><circle r="12" fill="#a8a7a0"/><circle r="26" class="node" fill="none"/><text x="-37" y="-40" class="label">Mercury</text><text x="-74" y="51" class="small">sparse orbiters</text><text x="-77" y="69" class="small">and solar science</text></g>
+  <g transform="translate(463 298)"><circle r="17" fill="#d7aa66"/><circle r="34" class="node" fill="none"/><text x="-28" y="-51" class="label">Venus</text><text x="-60" y="59" class="small">radar · atmosphere</text><text x="-45" y="77" class="small">probe relays</text></g>
+  <g transform="translate(510 406)"><circle r="19" fill="#4f8ccf"/><circle cx="32" cy="-17" r="6" fill="#d6d7d9"/><circle r="42" class="node" fill="none"/><text x="-61" y="-58" class="label">Earth–Moon</text><text x="-72" y="68" class="small">ground networks · orbit</text><text x="-57" y="86" class="small">lunar settlements</text></g>
+  <g transform="translate(744 275)"><circle r="20" fill="#c66243"/><circle cx="38" cy="-17" r="5" fill="#a8a39d"/><circle cx="45" cy="5" r="4" fill="#817d78"/><circle r="49" class="node" fill="none" stroke-width="3"/><text x="-23" y="-67" class="label">Mars</text><text x="-71" y="78" class="small">densest planetary network</text><text x="-54" y="96" class="small">weather · relay · nav</text></g>
+  <g transform="translate(850 454)"><circle cx="-20" cy="-7" r="5" fill="#a8a39d"/><circle cx="3" cy="8" r="7" fill="#8a857f"/><circle cx="25" cy="-9" r="4" fill="#c1bdb6"/><rect x="-51" y="-40" width="102" height="80" rx="13" class="node" fill="none"/><text x="-72" y="67" class="label">Near-Earth asteroids</text><text x="-50" y="87" class="small">survey · beacons</text></g>
+  <g transform="translate(997 356)"><circle cx="-18" r="14" fill="#8b9299"/><circle cx="23" cy="-6" r="9" fill="#b0a392"/><rect x="-58" y="-38" width="116" height="76" rx="13" class="node" fill="none"/><text x="-51" y="65" class="label">Ceres–Vesta</text><text x="-62" y="85" class="small">routes · resources · relay</text></g>
+  <g transform="translate(1023 178)"><circle cx="-25" r="9" fill="#c99b62"/><circle cx="11" cy="7" r="12" fill="#ccb78e"/><path d="M-60 36 L58 36" class="link2"/><text x="-71" y="-34" class="label">Outer planets</text><text x="-106" y="67" class="small">first arrivals · flybys · rare orbiters</text></g>
+
+  <g transform="translate(35 34)"><rect width="550" height="89" rx="15" class="panel"/><text x="23" y="37" class="title">Inner-solar communications geography</text><text x="23" y="66" class="sub">Overlapping sovereign systems, shared safety interfaces · c. 2010</text></g>
+  <g transform="translate(799 532)"><rect width="365" height="111" rx="15" class="panel"/><path d="M22 29 H83" class="link"/><text x="96" y="34" class="legend">national and multinational relays</text><path d="M22 59 H83" class="link2"/><text x="96" y="64" class="legend">selected interoperable services</text><circle cx="52" cy="88" r="11" class="node"/><text x="96" y="93" class="legend">durable local infrastructure</text></g>
+  <text x="35" y="646" class="year">2000: FIRST PLANETARY LAYER  ·  2000–05: NETWORK EXPANSION  ·  2010: MATURE INNER-SOLAR GEOGRAPHY</text>
+</svg>

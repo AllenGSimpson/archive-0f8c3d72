@@ -233,6 +233,10 @@ const pages = [
   { title: "Raumwerft", description: "The interplanetary construction yard attached to the Orbitaler Raumhafen", href: "raumwerft.html", tags: "raumwerft germany orbital yard shipyard marsplan 92 raumhafen reactor berth construction" },
   { title: "First Human Birth on the Moon", description: "The Kennedy settlement's demographic threshold around the turn of the millennium", href: "first-lunar-birth.html", tags: "first lunar birth moon child kennedy station settlement demography medicine american" },
   { title: "Japanese Lunar Polar Power Station", description: "A zaibatsu north-polar solar, reactor, mining, and transmission utility", href: "japanese-lunar-polar-power-station.html", tags: "japan moon lunar north pole polar power station zaibatsu solar reactor mining kaguya" },
+  { title: "Planetary Satellite System", description: "Overlapping communications, navigation, scientific, and strategic networks across the inner Solar System", href: "planetary-satellite-system.html", tags: "planetary satellite system inner solar communications navigation relays mars venus mercury asteroids ceres vesta 2010" },
+  { title: "Commonwealth Planetary Communications and Navigation Network", description: "Britain's sovereign Commonwealth communications and navigation geography beyond Earth", href: "commonwealth-planetary-network.html", tags: "commonwealth planetary network communications navigation britain resolution serenity high mast mars 2000 2010" },
+  { title: "Resolution Compact", description: "David Ashcombe's apportioned Commonwealth agreement for Resolution and its supporting system", href: "resolution-compact.html", tags: "resolution compact ashcombe commonwealth space board workshare canada australia new zealand south africa" },
+  { title: "Stella Maris Shock", description: "The 1991–1992 British political crisis over the apparent orbital race for fifth place", href: "stella-maris-shock.html", tags: "stella maris shock britain fifth resolution calder ashcombe 1991 1992 space politics" },
   { title: "Marsplan 92", description: "Germany's integrated first human expedition to Mars", href: "marsplan-92.html", tags: "marsplan 92 germany mars expedition raumhafen tharsis olympus" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
@@ -2718,6 +2722,10 @@ const crossLinks = [
   ,{ href: "puyi.html", terms: ["Kangde Emperor", "Puyi"] }
   ,{ href: "pujie.html", terms: ["Pujie"] }
   ,{ href: "demchugdongrub.html", terms: ["Demchugdongrub", "Prince De"] }
+  ,{ href: "planetary-satellite-system.html", terms: ["planetary satellite system", "inner-solar communications geography"] }
+  ,{ href: "commonwealth-planetary-network.html", terms: ["Commonwealth Planetary Communications and Navigation Network", "sovereign planetary communications and navigation network"] }
+  ,{ href: "resolution-compact.html", terms: ["Commonwealth Resolution Compact", "Resolution Compact"] }
+  ,{ href: "stella-maris-shock.html", terms: ["Stella Maris shock", "Britain fifth"] }
 ];
 
 function escapePattern(value) {
