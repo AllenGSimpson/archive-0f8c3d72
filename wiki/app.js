@@ -1122,6 +1122,14 @@ const pages = [
   { title: "Zeichenweg 81", description: "Germany's educational turtle-and-geometry language", href: "zeichenweg.html", tags: "zeichenweg 81 german turtle geometry school education plotting" },
   { title: "Klangfolge 82", description: "Germany's portable home-computer score language", href: "klangfolge.html", tags: "klangfolge 82 german music sound score home computer demo games" },
   { title: "Gerätewort 82", description: "Germany's typed laboratory instrument language", href: "geraetewort.html", tags: "gerätewort geraetewort 82 german laboratory instruments devices units trace" },
+  { title: "Netzblatt 83", description: "Germany's bulletin-board and civilian information-service language", href: "netzblatt.html", tags: "netzblatt 83 german bulletin board information service forms routing messages" },
+  { title: "Werkstatt 84", description: "Germany's professional reproducible-build language", href: "werkstatt.html", tags: "werkstatt 84 german build automation dependencies signatures cache reproducible" },
+  { title: "Baukasten 83", description: "Germany's visual Lehrplan teaching environment", href: "baukasten.html", tags: "baukasten 83 german visual blocks education lehrplan typed holes editor" },
+  { title: "Kartenwerk 83", description: "Germany's cadastral, railway, and municipal mapping language", href: "kartenwerk.html", tags: "kartenwerk 83 german mapping cadastre railway municipal vector survey" },
+  { title: "Reihe 83", description: "Germany's pure university array-language experiment", href: "reihe.html", tags: "reihe 83 german array language university research shapes reductions scans" },
+  { title: "Beweis 83", description: "Germany's university theorem and proof-certificate language", href: "beweis.html", tags: "beweis 83 german theorem proving proof certificate kernel logic university" },
+  { title: "Handelssatz 84", description: "Germany's proprietary retail and inventory language", href: "handelssatz.html", tags: "handelssatz 84 german retail inventory prices tax stock journal" },
+  { title: "Fernbild 84", description: "Germany's videotex and remote-graphics page language", href: "fernbild.html", tags: "fernbild 84 german videotex viewdata remote graphics pages forms" },
   { title: "Programmhäuser", description: "Germany's post-reform civilian software-house industry", href: "programmhaeuser.html", tags: "programmhäuser programmhaeuser software houses germany contracts escrow maintenance translation" },
   { title: "Mekong States", description: "Vietnam, Cambodia, and Laos as a connected but nonfederal region", href: "mekong-states.html", tags: "mekong states vietnam cambodia laos indochina council geacps" },
   { title: "Languages of Cambodia", description: "Khmer restoration, technical vocabulary, and script modernization", href: "languages-of-cambodia.html", tags: "cambodia khmer language script french fonts keyboards unicode" },
@@ -2503,6 +2511,14 @@ const crossLinks = [
   ,{ href: "zeichenweg.html", terms: ["Zeichenweg 81", "Zeichenweg"] }
   ,{ href: "klangfolge.html", terms: ["Klangfolge 82", "Klangfolge"] }
   ,{ href: "geraetewort.html", terms: ["Gerätewort 82", "Gerätewort", "Geraetewort"] }
+  ,{ href: "netzblatt.html", terms: ["Netzblatt 83", "Netzblatt"] }
+  ,{ href: "werkstatt.html", terms: ["Werkstatt 84", "Werkstatt"] }
+  ,{ href: "baukasten.html", terms: ["Baukasten 83", "Baukasten"] }
+  ,{ href: "kartenwerk.html", terms: ["Kartenwerk 83", "Kartenwerk"] }
+  ,{ href: "reihe.html", terms: ["Reihe 83"] }
+  ,{ href: "beweis.html", terms: ["Beweis 83"] }
+  ,{ href: "handelssatz.html", terms: ["Handelssatz 84", "Handelssatz"] }
+  ,{ href: "fernbild.html", terms: ["Fernbild 84", "Fernbild"] }
   ,{ href: "programmhaeuser.html", terms: ["Programmhäuser", "Programmhaus", "German software houses"] }
   ,{ href: "lia-language.html", terms: ["LIA programming language", "Linguaggio Italiano Amministrativo", "LIA-59", "LIA 73"] }
   ,{ href: "marseille-prolog.html", terms: ["Marseille Prolog", "Prolog"] }
