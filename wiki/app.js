@@ -1114,6 +1114,14 @@ const pages = [
   { title: "Datenfrage 82", description: "Germany's interactive language for small office databases", href: "datenfrage.html", tags: "datenfrage 82 german query database records office auswahlplan" },
   { title: "Schaltfolge 82", description: "Germany's low-cost noncertified civilian control language", href: "schaltfolge.html", tags: "schaltfolge 82 german industrial control scan safe shutdown noncertified" },
   { title: "Wortbrücke 82", description: "Germany's symbolic localization and constrained-translation language", href: "wortbruecke.html", tags: "wortbrücke wortbruecke 82 german translation localization terminology provenance" },
+  { title: "Kleinplan 80", description: "Germany's small-memory magazine and computer-club language", href: "kleinplan.html", tags: "kleinplan 80 german kurzplan subset home computer magazine club cassette" },
+  { title: "Heimplan-S", description: "The bitmap-oriented S-family ROM dialect of Kurzplan", href: "heimplan-s.html", tags: "heimplan s german kurzplan bitmap graphics home computer 320 200" },
+  { title: "Heimplan-T", description: "The tile-and-sprite T-family ROM dialect of Kurzplan", href: "heimplan-t.html", tags: "heimplan t german kurzplan tiles sprites collision home computer" },
+  { title: "Rechentafel 80", description: "Germany's engineering calculator and table language", href: "rechentafel.html", tags: "rechentafel 80 german calculator engineering table decimal units regression" },
+  { title: "Formblatt 81", description: "Germany's declarative office and municipal forms language", href: "formblatt.html", tags: "formblatt 81 german office municipal forms lehrplan screen print" },
+  { title: "Zeichenweg 81", description: "Germany's educational turtle-and-geometry language", href: "zeichenweg.html", tags: "zeichenweg 81 german turtle geometry school education plotting" },
+  { title: "Klangfolge 82", description: "Germany's portable home-computer score language", href: "klangfolge.html", tags: "klangfolge 82 german music sound score home computer demo games" },
+  { title: "Gerätewort 82", description: "Germany's typed laboratory instrument language", href: "geraetewort.html", tags: "gerätewort geraetewort 82 german laboratory instruments devices units trace" },
   { title: "Programmhäuser", description: "Germany's post-reform civilian software-house industry", href: "programmhaeuser.html", tags: "programmhäuser programmhaeuser software houses germany contracts escrow maintenance translation" },
   { title: "Mekong States", description: "Vietnam, Cambodia, and Laos as a connected but nonfederal region", href: "mekong-states.html", tags: "mekong states vietnam cambodia laos indochina council geacps" },
   { title: "Languages of Cambodia", description: "Khmer restoration, technical vocabulary, and script modernization", href: "languages-of-cambodia.html", tags: "cambodia khmer language script french fonts keyboards unicode" },
@@ -2487,6 +2495,14 @@ const crossLinks = [
   ,{ href: "datenfrage.html", terms: ["Datenfrage 82", "Datenfrage"] }
   ,{ href: "schaltfolge.html", terms: ["Schaltfolge 82", "Schaltfolge"] }
   ,{ href: "wortbruecke.html", terms: ["Wortbrücke 82", "Wortbrücke", "Wortbruecke"] }
+  ,{ href: "kleinplan.html", terms: ["Kleinplan 80", "Kleinplan"] }
+  ,{ href: "heimplan-s.html", terms: ["Heimplan-S", "Heimplan S"] }
+  ,{ href: "heimplan-t.html", terms: ["Heimplan-T", "Heimplan T"] }
+  ,{ href: "rechentafel.html", terms: ["Rechentafel 80", "Rechentafel"] }
+  ,{ href: "formblatt.html", terms: ["Formblatt 81", "Formblatt"] }
+  ,{ href: "zeichenweg.html", terms: ["Zeichenweg 81", "Zeichenweg"] }
+  ,{ href: "klangfolge.html", terms: ["Klangfolge 82", "Klangfolge"] }
+  ,{ href: "geraetewort.html", terms: ["Gerätewort 82", "Gerätewort", "Geraetewort"] }
   ,{ href: "programmhaeuser.html", terms: ["Programmhäuser", "Programmhaus", "German software houses"] }
   ,{ href: "lia-language.html", terms: ["LIA programming language", "Linguaggio Italiano Amministrativo", "LIA-59", "LIA 73"] }
   ,{ href: "marseille-prolog.html", terms: ["Marseille Prolog", "Prolog"] }
