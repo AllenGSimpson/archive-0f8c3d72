@@ -414,3 +414,12 @@ These original vector diagrams summarize registered German small arms, antitank 
 | --- | --- | --- |
 | `diagrams/german-small-arms-lineage.svg` | German service-rifle, machine-gun, squad-automatic-weapon, and mounting-interface chronology | Land Armaments Reference specifications and introduction dates |
 | `diagrams/german-fire-support-lineages.svg` | German self-propelled artillery, infantry antitank, and mobile air-defense chronology | Land Armaments Reference specifications and introduction dates |
+
+## National Socialist philosophy and institutions diagrams
+
+These original analytical diagrams distinguish documented doctrine, attributed historical interpretation, and the separate institutional layers of the German regime. They do not endorse the ideology or imply that all Germans, Party officials, or SS members shared one supernatural creed.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/national-socialist-metaphysical-architecture.svg` | The relationship among Volk, race, ethics, struggle, history, and Führer authority | National Socialist Philosophy, Metaphysics, and SS Ideology Reference |
+| `diagrams/german-ideology-institutions.svg` | Public civil religion, Party orthodoxy, SS racial order, technical administration, and private belief | National Socialist Philosophy Reference, Setting Bible, and master transcript |
