@@ -743,6 +743,18 @@ const pages = [
   { title: "Genoa Controls Case", description: "The 1986 ownership precedent that created false regulatory confidence", href: "genoa-controls-case.html", tags: "genoa controls case 1986 ownership foreign control regulation" },
   { title: "Reciprocal Commerce and Enterprise Act", description: "The 1987 statute that standardized and accelerated American commercial opening", href: "reciprocal-commerce-enterprise-act.html", tags: "reciprocal commerce enterprise act 1987 reagan open markets" },
   { title: "World Market Boom", description: "The real but structurally fragile cross-bloc expansion of 1985–1989", href: "world-market-boom.html", tags: "world market boom 1985 1989 reagan investment computing commercial space" },
+  { title: "International Reaction to the American Opening", description: "How Britain, Japan, Germany, and the Latin Bloc answered America's Open Door", href: "international-reaction-american-opening.html", tags: "international reaction american opening open door world market boom Britain Japan Germany Latin" },
+  { title: "American Century Debate", description: "The argument over American financial, technical, and cultural primacy", href: "american-century-debate.html", tags: "american century debate New York software finance culture 1988" },
+  { title: "British Market Opening, 1988–1989", description: "Britain's bounded imitation of the American Open Door", href: "british-market-opening-1988.html", tags: "british market opening Ashcombe Rooke Halden Calder 1988 1989" },
+  { title: "Halifax Commercial Schedules", description: "Working-title instruments connecting London, New York, and Toronto", href: "halifax-commercial-schedules.html", tags: "halifax commercial schedules London New York Toronto cross listing ownership" },
+  { title: "Japanese Investment in the American Boom", description: "Coordinated Japanese participation in American open markets", href: "japanese-american-investment-boom.html", tags: "Japanese investment American boom banks insurers trading companies Singapore" },
+  { title: "Japanese External-Capital Zones", description: "Japan's bounded 1988–1990 experiment with foreign capital", href: "japanese-external-capital-zones.html", tags: "Japanese external capital zones Tokyo Osaka Singapore nonvoting joint venture" },
+  { title: "German Investment in the American Boom", description: "German participation in American finance under political control", href: "german-american-investment-boom.html", tags: "German investment American boom Wolfgang Lenz Weltnetz market instrument" },
+  { title: "Atlantik-Beteiligungsdienst", description: "Working-title German service for Atlantic investment participation", href: "atlantik-beteiligungsdienst.html", tags: "Atlantik Beteiligungsdienst German Atlantic investment filings proxy settlement" },
+  { title: "Latin Bloc Investment in the American Boom", description: "Italian, Occitan, Spanish, and Portuguese approaches to American markets", href: "latin-american-investment-boom.html", tags: "Latin Bloc investment America Italy Occitania Spain Portugal IRI" },
+  { title: "Atlantic Investment Protocol", description: "Working-title Latin framework for controlled American financial access", href: "atlantic-investment-protocol.html", tags: "Atlantic Investment Protocol Scudo New York Latin dollar bonds" },
+  { title: "1990 Cross-Bloc Financial Shock", description: "Foreign losses and containment after the American Great Sell-Off", href: "cross-bloc-financial-shock-1990.html", tags: "1990 cross bloc financial shock crash Britain Japan Germany Latin" },
+  { title: "Interoperability Without Financial Integration", description: "The post-crash doctrine of open exchange and managed ownership", href: "interoperability-without-financial-integration.html", tags: "interoperability without financial integration trade standards ownership 1990s" },
   { title: "American Ownership-Mapping Project", description: "The interagency network analysis that exposed effective foreign control in 1990", href: "american-ownership-mapping-project.html", tags: "american ownership mapping project may report 1990 beneficial control data network" },
   { title: "National Industrial Integrity Act", description: "The 1990 aggregation and rapid-divestiture law", href: "national-industrial-integrity-act.html", tags: "national industrial integrity act 1990 foreign ownership divestiture" },
   { title: "Great Sell-Off", description: "The September–October 1990 forced-sales and credit cascade", href: "great-sell-off.html", tags: "great sell off 1990 open door depression forced sales market crash" },
@@ -1763,6 +1775,18 @@ const crossLinks = [
   ,{ href: "genoa-controls-case.html", terms: ["Genoa Controls case", "Genoa Controls Case"] }
   ,{ href: "reciprocal-commerce-enterprise-act.html", terms: ["Reciprocal Commerce and Enterprise Act"] }
   ,{ href: "world-market-boom.html", terms: ["World Market Boom"] }
+  ,{ href: "international-reaction-american-opening.html", terms: ["international reaction to the American opening", "international response to the American opening"] }
+  ,{ href: "american-century-debate.html", terms: ["American Century Debate", "American century"] }
+  ,{ href: "british-market-opening-1988.html", terms: ["British market opening", "British opening of 1988"] }
+  ,{ href: "halifax-commercial-schedules.html", terms: ["Halifax Commercial Schedules", "Halifax schedules"] }
+  ,{ href: "japanese-american-investment-boom.html", terms: ["Japanese investment in the American boom", "Japanese American investment boom"] }
+  ,{ href: "japanese-external-capital-zones.html", terms: ["Japanese external-capital zones", "external-capital zones"] }
+  ,{ href: "german-american-investment-boom.html", terms: ["German investment in the American boom", "German American investment boom"] }
+  ,{ href: "atlantik-beteiligungsdienst.html", terms: ["Atlantik-Beteiligungsdienst", "Atlantic Participation Service"] }
+  ,{ href: "latin-american-investment-boom.html", terms: ["Latin Bloc investment in the American boom", "Latin American investment boom"] }
+  ,{ href: "atlantic-investment-protocol.html", terms: ["Atlantic Investment Protocol"] }
+  ,{ href: "cross-bloc-financial-shock-1990.html", terms: ["1990 Cross-Bloc Financial Shock", "cross-bloc financial shock"] }
+  ,{ href: "interoperability-without-financial-integration.html", terms: ["interoperability without financial integration"] }
   ,{ href: "american-ownership-mapping-project.html", terms: ["American ownership-mapping project", "ownership-mapping project", "ownership map"] }
   ,{ href: "national-industrial-integrity-act.html", terms: ["National Industrial Integrity Act"] }
   ,{ href: "great-sell-off.html", terms: ["Great Sell-Off"] }

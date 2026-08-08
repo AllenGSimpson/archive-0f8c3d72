@@ -273,3 +273,16 @@ These original vector diagrams summarize the American orbital-vehicle chronology
 - `diagrams/columbia-lunar-mission.svg` — original vector diagram of the corrected 20 July 1971 two-spaceplane lunar architecture.
 - `diagrams/orbital-port-columbia-logistics.svg` — original vector diagram of Canaveral, Orbital Port Columbia, Kennedy Station, and Liberty Yard logistics.
 - `diagrams/orbital-law-chronology.svg` — original vector chronology of the Weather Commons, Kobe Notes, Geneva and Stockholm instruments.
+
+## International Open Door diagrams
+
+These original vector diagrams summarize the international response to America's 1985–1990 financial opening. They distinguish participation in American markets from domestic constitutional openness and preserve the working status of the Halifax Commercial Schedules, Atlantik-Beteiligungsdienst, and Atlantic Investment Protocol names.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/international-open-door-response.svg` | Four-bloc capital movement toward the United States | Britain, Japan, Germany, and the Latin Bloc participate without equal domestic opening |
+| `diagrams/british-open-door-firebreaks.svg` | British Atlantic finance inside three safeguards | Aggregate ownership limits, protected capacity, and emergency restoration of controls |
+| `diagrams/japanese-open-door-participation.svg` | Japanese outward investment and bounded inward access | Coordinated institutions, nonvoting claims, joint ventures, and external-capital zones |
+| `diagrams/german-open-door-participation.svg` | German mediated participation | Banks and firms, the working-title participation service, controlled windows, and audit |
+| `diagrams/latin-atlantic-investment.svg` | Four Latin national bargains and a Scudo window | Italian, Occitan, Spanish, and Portuguese approaches to American capital |
+| `diagrams/cross-bloc-financial-shock.svg` | International transmission and containment of the 1990 crash | Foreign losses stopped by each bloc's institutional firebreaks |
