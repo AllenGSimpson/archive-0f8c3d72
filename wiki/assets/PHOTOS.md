@@ -423,3 +423,12 @@ These original analytical diagrams distinguish documented doctrine, attributed h
 | --- | --- | --- |
 | `diagrams/national-socialist-metaphysical-architecture.svg` | The relationship among Volk, race, ethics, struggle, history, and Führer authority | National Socialist Philosophy, Metaphysics, and SS Ideology Reference |
 | `diagrams/german-ideology-institutions.svg` | Public civil religion, Party orthodoxy, SS racial order, technical administration, and private belief | National Socialist Philosophy Reference, Setting Bible, and master transcript |
+
+## German postwar naval diagrams
+
+These original diagrams summarize registered force roles and class succession. They do not establish unregistered hull geometry, weapons models, reactor details, patrol areas, or readiness rates.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/german-postwar-fleet-roles.svg` | Division of labor between the surface fleet and U-boat arm | Naval Armaments Reference and Setting Bible |
+| `diagrams/german-submarine-lineage.svg` | Conventional, nuclear attack, guided-missile, and transport branches, 1944–1985 | Naval Armaments Reference class register |

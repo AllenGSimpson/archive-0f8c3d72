@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">German postwar fleet roles</title><desc id="desc">The surface fleet protects access, commands groups, escorts support, and displays power while the U-boat arm conducts attack and conventional missile strike.</desc>
+  <rect width="1200" height="720" rx="24" fill="#10181c"/>
+  <text x="58" y="62" fill="#f0eadf" font-family="Georgia,serif" font-size="36">German sea power after 1947</text>
+  <text x="58" y="98" fill="#abb9bf" font-family="Arial,sans-serif" font-size="18">A continental empire divides visible naval presence from the principal striking mission</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="58" y="142" width="498" height="456" rx="18" fill="#1d2b31" stroke="#587482" stroke-width="2"/>
+    <text x="86" y="184" fill="#e6c271" font-size="22" font-weight="700">SURFACE FLEET</text>
+    <text x="86" y="215" fill="#fff" font-size="28" font-weight="700">Fix · protect · escort · display</text>
+    <g fill="#263b44" stroke="#5e8393"><rect x="86" y="252" width="204" height="112" rx="12"/><rect x="318" y="252" width="204" height="112" rx="12"/><rect x="86" y="392" width="204" height="150" rx="12"/><rect x="318" y="392" width="204" height="150" rx="12"/></g>
+    <g fill="#fff" font-size="18" font-weight="700"><text x="106" y="282">Wotan class</text><text x="338" y="282">Admiral Scheer class</text><text x="106" y="422">Europa carriers</text><text x="338" y="422">Escorts and support</text></g>
+    <g fill="#c4d0d4" font-size="15"><text x="106" y="310">Command and deep</text><text x="106" y="333">missile magazines</text><text x="338" y="310">Six cruiser centers</text><text x="338" y="333">for surface groups</text><text x="106" y="450">Organic air defense,</text><text x="106" y="473">reconnaissance, ASW</text><text x="338" y="450">20 destroyers · 34 frigates</text><text x="338" y="473">28 fast combatants</text><text x="338" y="496">mines · replenishment</text></g>
+    <rect x="644" y="142" width="498" height="456" rx="18" fill="#20262c" stroke="#8f6e77" stroke-width="2"/>
+    <text x="672" y="184" fill="#e6c271" font-size="22" font-weight="700">U-BOAT ARM</text>
+    <text x="672" y="215" fill="#fff" font-size="28" font-weight="700">Hunt · strike · deny · conceal</text>
+    <g fill="#352f35" stroke="#986c78"><rect x="672" y="252" width="204" height="112" rx="12"/><rect x="904" y="252" width="204" height="112" rx="12"/><rect x="672" y="392" width="204" height="150" rx="12"/><rect x="904" y="392" width="204" height="150" rx="12"/></g>
+    <g fill="#fff" font-size="18" font-weight="700"><text x="692" y="282">Conventional SSK</text><text x="924" y="282">Jagd-U-Boote</text><text x="692" y="422">Lenkwaffen-U-Boote</text><text x="924" y="422">Submersible transport</text></g>
+    <g fill="#d2c5c9" font-size="15"><text x="692" y="310">42 quiet ocean,</text><text x="692" y="333">coastal, and export boats</text><text x="924" y="310">24 nuclear boats hunt</text><text x="924" y="333">ships and submarines</text><text x="692" y="450">14 nuclear boats strike</text><text x="692" y="473">with conventional missiles</text><text x="924" y="450">Unarmed high-value</text><text x="924" y="473">cargo and specialists</text><text x="924" y="496">through threatened routes</text></g>
+    <path d="M556 365 H644" stroke="#e6c271" stroke-width="4" stroke-dasharray="10 8"/><text x="600" y="348" fill="#e6c271" text-anchor="middle" font-size="15">mutual support</text>
+    <text x="58" y="648" fill="#f0eadf" font-size="21" font-weight="700">Strategic maxim</text>
+    <text x="58" y="680" fill="#b9c4c8" font-size="18">“The surface fleet fixes, threatens, and displays. The U-boat fleet destroys.”</text>
+  </g>
+</svg>
