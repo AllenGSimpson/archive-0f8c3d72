@@ -1,0 +1,39 @@
+window.deepArticles = window.deepArticles || {};
+
+window.deepArticles.brittany = {
+  title:"Brittany",
+  category:"Countries",
+  eyebrow:"Nominally independent Atlantic state · Einheitspakt",
+  infoboxKicker:"German-guaranteed successor state of France",
+  infoboxTitle:"Breton State",
+  flag:{src:"assets/flags/brittany.svg",alt:"Black and white Gwenn ha Du flag of Brittany",caption:"Gwenn ha Du national flag"},
+  lead:"Brittany is the nominally independent Atlantic successor state centered on Rennes. Its schools, symbols, diplomatic representation, Breton cultural policy, and postwar generation give independence real institutional weight, while German guarantees and control of strategic naval, air, signals, and submarine facilities deny the state an independent defense or foreign policy.",
+  canon:"Rennes, nominal independence, the Gwenn ha Du, German guarantees and strategic facilities, international recognition, symbolic Celtic links with Ireland, and Brittany’s place among the Four Frances are established. The constitution, 1985 leadership, exact frontiers, and disposition of Nantes and Saint-Nazaire remain open.",
+  sections:[
+    {id:"partition",title:"Creation in the French partition",html:"<p>The 1947–1948 settlement divides France into a German-client northern state, Italian-aligned <a href='occitania.html'>Occitania</a>, German-guaranteed Brittany, and the underground or exile claim to a united republic. Berlin presents the Breton settlement as national self-determination; French loyalists treat it as another territorial amputation intended to make reunion impossible.</p><p>The exact southeastern frontier remains unsettled, especially the disposition of Nantes and Saint-Nazaire.</p>"},
+    {id:"state",title:"State and government",html:"<p>Rennes houses a formally sovereign president or council, ministries, courts, schools, police, and diplomatic service. The government receives international invitations under its exact state name rather than as a French regional delegation.</p><p>Germany’s success in securing recognition gives Breton officials more than a ceremonial fiction, but high appointments and strategic decisions remain constrained by the guarantor whose forces make the state defensible.</p>"},
+    {id:"independence",title:"The contradiction of independence",html:"<p>Breton loyalists describe independence as recovery of an Atlantic nation older than centralized France. Many citizens value separate institutions even while recognizing that Germany created the state to weaken Paris and retains the power to determine its survival.</p><p>The slogan <em>Breizh dieub</em>—“Free Brittany”—therefore carries both sincere patriotism and an unavoidable irony.</p>"},
+    {id:"language",title:"Language, schools, and identity",html:"<p>Breton language and regional history receive state patronage through education, broadcasting, festivals, public symbols, and cultural diplomacy. French remains indispensable in administration, commerce, higher education, and cross-border family life.</p><p>A generation raised after partition can reject rule from Paris without necessarily admiring Germany. Separate schools, taxes, records, sports, and careers turn a wartime carve-out into a lived political community.</p>"},
+    {id:"church",title:"Catholicism across the partition",html:"<p>Catholic faith is closely tied to local identity. Clergy divide between gratitude for cultural recognition and disgust at German manipulation, while bishops, religious orders, liturgy, and parish networks preserve connections to Catholics in Northern France and Occitania.</p><p>The Church is consequently both a support for Breton particularism and one of the few institutions still capable of remembering France across every imposed border.</p>"},
+    {id:"economy",title:"Economy and dependence",html:"<p>Agriculture, fisheries, food processing, light industry, Atlantic shipping, and repair dominate the economy. The transport, power, financial, and commercial systems remain tied to Northern France and the wider Einheitspakt.</p><p>German military spending and base employment bring revenue to coastal districts while distorting investment toward strategic sites. Outward migration and dependence upon larger markets limit the autonomy promised by formal statehood.</p>"},
+    {id:"facilities",title:"German Atlantic facilities",html:"<p>German forces lease, garrison, or directly control the useful naval, submarine, air, coastal-defense, and signals facilities. These installations form part of the Einheitspakt’s Atlantic screen against Britain and make the Breton peninsula strategically valuable beyond its population or economy.</p><p>German guns deter reunion by Paris or absorption by Toulouse, but they also define the point at which Breton law stops.</p>"},
+    {id:"forces",title:"Breton security forces",html:"<p>Brittany maintains police, territorial formations, coastal units, and limited maritime services for ordinary sovereignty and internal security. It does not possess the independent blue-water force or strategic command required to defend the peninsula without Germany.</p><p>Military cooperation is therefore less an alliance between equals than the operational expression of the guarantee.</p>"},
+    {id:"foreign",title:"Foreign relations",html:"<p>Diplomacy emphasizes recognition, cultural contacts, fisheries, trade, and proof that Brittany is not merely a German occupation district. Symbolic Celtic exchanges with Ireland receive disproportionate publicity, sometimes described in headlines as a “Celtic union” without creating a real alliance.</p><p>Britain and other states may receive Breton delegations while carefully excluding attached German officers and refusing to endorse every implication of the partition.</p>"},
+    {id:"four-frances",title:"Brittany and the Four Frances",html:"<p>Northern France claims the legal name and Paris; Occitania constructs a southern Catholic-regional state; Brittany claims an Atlantic nation; underground and exile networks insist that all three governments are products of conquest. Each decade of separate institutions makes restoration of one France more difficult.</p><p>Brittany’s central danger is backlash: if German demands become too visible, independence loses moral prestige and looks like collaboration in plain sight.</p>"}
+  ],
+  related:[
+    {href:"four-frances.html",kicker:"Partition system",label:"The Four Frances"},
+    {href:"northern-france.html",kicker:"Eastern neighbor",label:"Northern France"},
+    {href:"occitania.html",kicker:"Southern successor",label:"Occitania"},
+    {href:"underground-france.html",kicker:"Rival national claim",label:"Underground France"},
+    {href:"germany.html",kicker:"Guarantor and strategic controller",label:"Greater German Reich"},
+    {href:"einheitspakt.html",kicker:"Bloc system",label:"Einheitspakt"}
+  ],
+  sources:[
+    {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — Four Frances and Breton strategic status"},
+    {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — French partition and postwar consolidation"},
+    {href:"../transcript.md",label:"Master Transcript — Breton institutions, culture, and diplomatic recognition"}
+  ],
+  categories:["Brittany","Four Frances","Einheitspakt","German client states"],
+  facts:[["Capital","Rennes"],["State form","Nominally independent successor state"],["1985 alignment","Einheitspakt under German guarantee"],["National flag","Gwenn ha Du"],["Principal languages","Breton and French"],["Strategic role","Atlantic naval, air, and signals screen"],["Defense guarantor","Greater German Reich"],["Independent strategic command","No"],["Foreign recognition","Established"],["Symbolic cultural partner","Ireland"],["Disputed frontier","Nantes and Saint-Nazaire disposition open"],["1985 leadership and constitution","Open"]]
+};
