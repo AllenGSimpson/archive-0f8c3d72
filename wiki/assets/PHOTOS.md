@@ -253,6 +253,15 @@ These original vector diagrams explain the mature division between Japanese owne
 | `diagrams/manchukuoan-settlement-society.svg` | Japanese settlement in Manchukuo | Postwar expansion, family settlement, the 1967–1969 moratorium, and permanent settler society |
 | `diagrams/japanese-cyberpunk.svg` | Corporate-dystopian cultural logic | A functioning network of company, ministry, city, identity, and communication systems around the individual |
 
+## Japanese screen-culture diagrams
+
+These original vector diagrams summarize the established cultural chronology and localization system. They are explanatory schematics rather than reproductions of studio marks, film posters, broadcast documents, or complete market data. Exact filmographies, ratings names, release dates, audience totals, and dubbing-company rosters remain open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/japanese-screen-culture-chronology.svg` | Development from Gojira through television animation, Studio Ghibli, and cyberpunk | The established sequence of postwar Japanese screen traditions |
+| `diagrams/japanese-animation-export-network.svg` | Original, subtitle, local dub, home video, and Manila-to-Latin distribution | The first-release system and corrected Catholic localization route through the Philippines |
+
 ## British defeat-and-reconstruction diagrams
 
 These original vector diagrams distinguish the military, constitutional, propagandistic, and parliamentary stages of Britain's 1943–1951 crisis. They are explanatory schematics rather than literal operational maps or reproductions of period documents. Exact Torch dates and forces, the White Parachutes sortie date and local originator, constituency-level results, appropriations, and complete project totals remain open.

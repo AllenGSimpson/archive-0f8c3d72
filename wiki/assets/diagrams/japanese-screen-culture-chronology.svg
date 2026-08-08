@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Japanese screen-culture chronology</title>
+  <desc id="desc">A chronology from the 1955 Gojira film through television animation, space and robot genres, Studio Ghibli, and mature Japanese cyberpunk.</desc>
+  <rect width="1200" height="675" fill="#0c1218"/>
+  <text x="600" y="58" fill="#f4e4c5" font-family="Georgia,serif" font-size="34" text-anchor="middle">JAPANESE SCREEN CULTURE</text>
+  <text x="600" y="91" fill="#9eb2bd" font-family="Consolas,monospace" font-size="16" text-anchor="middle">VICTORY · TELEVISION · IMPERIAL MARKET · HOME VIDEO</text>
+  <line x1="105" y1="334" x2="1095" y2="334" stroke="#c74b50" stroke-width="5"/>
+  <g fill="#0c1218" stroke="#e7c46a" stroke-width="4">
+    <circle cx="145" cy="334" r="13"/><circle cx="365" cy="334" r="13"/><circle cx="610" cy="334" r="13"/><circle cx="835" cy="334" r="13"/><circle cx="1055" cy="334" r="13"/>
+  </g>
+  <g font-family="Consolas,monospace" text-anchor="middle">
+    <g transform="translate(45 145)">
+      <rect width="200" height="125" rx="9" fill="#17232c" stroke="#7da5b8" stroke-width="2"/>
+      <text x="100" y="31" fill="#e7c46a" font-size="19" font-weight="700">c. 1955</text>
+      <text x="100" y="62" fill="#fff" font-size="22" font-weight="700">GOJIRA</text>
+      <text x="100" y="91" fill="#c4d5dc" font-size="14">Pacific leviathan</text>
+      <text x="100" y="113" fill="#c4d5dc" font-size="14">after the Philippine War</text>
+    </g>
+    <g transform="translate(265 390)">
+      <rect width="200" height="132" rx="9" fill="#17232c" stroke="#7da5b8" stroke-width="2"/>
+      <text x="100" y="31" fill="#e7c46a" font-size="19" font-weight="700">1963</text>
+      <text x="100" y="60" fill="#fff" font-size="19" font-weight="700">TETSUWAN ATOM</text>
+      <text x="100" y="89" fill="#c4d5dc" font-size="14">weekly television grammar</text>
+      <text x="100" y="112" fill="#c4d5dc" font-size="14">manga · sponsors · toys</text>
+    </g>
+    <g transform="translate(500 145)">
+      <rect width="220" height="125" rx="9" fill="#17232c" stroke="#7da5b8" stroke-width="2"/>
+      <text x="110" y="31" fill="#e7c46a" font-size="19" font-weight="700">1970s</text>
+      <text x="110" y="60" fill="#fff" font-size="19" font-weight="700">MACHINE &amp; SPACE</text>
+      <text x="110" y="89" fill="#c4d5dc" font-size="14">pan-Asian casts</text>
+      <text x="110" y="112" fill="#c4d5dc" font-size="14">youth and adult divisions</text>
+    </g>
+    <g transform="translate(725 390)">
+      <rect width="220" height="132" rx="9" fill="#17232c" stroke="#7da5b8" stroke-width="2"/>
+      <text x="110" y="31" fill="#e7c46a" font-size="19" font-weight="700">1985</text>
+      <text x="110" y="60" fill="#fff" font-size="21" font-weight="700">STUDIO GHIBLI</text>
+      <text x="110" y="89" fill="#c4d5dc" font-size="14">craft · place · stewardship</text>
+      <text x="110" y="112" fill="#c4d5dc" font-size="14">worthy authority</text>
+    </g>
+    <g transform="translate(955 145)">
+      <rect width="200" height="125" rx="9" fill="#17232c" stroke="#38c7c2" stroke-width="2"/>
+      <text x="100" y="31" fill="#e7c46a" font-size="19" font-weight="700">LATE 1980s</text>
+      <text x="100" y="60" fill="#fff" font-size="20" font-weight="700">CYBERPUNK</text>
+      <text x="100" y="89" fill="#b8fff7" font-size="14">the person inside</text>
+      <text x="100" y="112" fill="#b8fff7" font-size="14">the perfect system</text>
+    </g>
+  </g>
+  <text x="600" y="612" fill="#f4e4c5" font-family="Georgia,serif" font-size="22" text-anchor="middle">The recurring question changes form: is power joined to responsibility?</text>
+  <text x="600" y="642" fill="#9eb2bd" font-family="Consolas,monospace" font-size="14" text-anchor="middle">CHRONOLOGY IS ESTABLISHED · COMPLETE FILMOGRAPHIES REMAIN OPEN</text>
+</svg>

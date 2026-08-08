@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Japanese animation export network</title>
+  <desc id="desc">Japanese masters move first to subtitled metropolitan releases, then to regional dubbing centers. Manila creates Catholic-adapted packages that continue into the Latin Bloc.</desc>
+  <rect width="1200" height="675" fill="#0c1218"/>
+  <text x="600" y="55" fill="#f4e4c5" font-family="Georgia,serif" font-size="33" text-anchor="middle">JAPANESE ANIMATION EXPORT NETWORK</text>
+  <text x="600" y="88" fill="#9eb2bd" font-family="Consolas,monospace" font-size="15" text-anchor="middle">ORIGINAL MASTER → EARLY SUBTITLE → NEGOTIATED LOCAL DUB</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#c74b50"/></marker>
+  </defs>
+  <g stroke="#c74b50" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M280 215 H430"/><path d="M675 215 H830"/>
+    <path d="M552 282 V365 H305 V412"/><path d="M552 282 V365 H605 V412"/><path d="M552 282 V365 H905 V412"/>
+    <path d="M305 532 V577 H905 V532"/>
+  </g>
+  <g font-family="Consolas,monospace" text-anchor="middle">
+    <g transform="translate(70 150)"><rect width="210" height="130" rx="10" fill="#8f2636" stroke="#f0a5ae" stroke-width="2"/><text x="105" y="39" fill="#fff" font-size="23" font-weight="700">JAPAN</text><text x="105" y="71" fill="#ffe6e8" font-size="16">master release</text><text x="105" y="99" fill="#ffe6e8" font-size="14">film · television · video</text></g>
+    <g transform="translate(430 150)"><rect width="245" height="132" rx="10" fill="#243541" stroke="#7da5b8" stroke-width="2"/><text x="122" y="36" fill="#e7c46a" font-size="20" font-weight="700">EARLY SUBTITLE</text><text x="122" y="67" fill="#fff" font-size="15">major imperial cities</text><text x="122" y="94" fill="#c4d5dc" font-size="14">Japanese voices retained</text><text x="122" y="116" fill="#c4d5dc" font-size="14">3–12 months before dub</text></g>
+    <g transform="translate(830 150)"><rect width="300" height="130" rx="10" fill="#243541" stroke="#7da5b8" stroke-width="2"/><text x="150" y="37" fill="#e7c46a" font-size="20" font-weight="700">HOME VIDEO</text><text x="150" y="68" fill="#fff" font-size="15">original masters circulate in weeks</text><text x="150" y="97" fill="#c4d5dc" font-size="14">fans compare official translations</text></g>
+    <g transform="translate(170 412)"><rect width="270" height="120" rx="10" fill="#2b4b49" stroke="#66c4b9" stroke-width="2"/><text x="135" y="34" fill="#fff" font-size="20" font-weight="700">REGIONAL DUBS</text><text x="135" y="65" fill="#d5fff8" font-size="14">Nanjing · Bangkok · Singapore</text><text x="135" y="90" fill="#d5fff8" font-size="14">Rangoon · Indonesian centers</text></g>
+    <g transform="translate(470 412)"><rect width="270" height="120" rx="10" fill="#5a3f75" stroke="#c5a8e6" stroke-width="2"/><text x="135" y="34" fill="#fff" font-size="20" font-weight="700">MANILA EDITION</text><text x="135" y="64" fill="#f0e5ff" font-size="14">English or Tagalog package</text><text x="135" y="90" fill="#f0e5ff" font-size="14">Catholic adaptation completed</text></g>
+    <g transform="translate(770 412)"><rect width="270" height="120" rx="10" fill="#594725" stroke="#dfbf6a" stroke-width="2"/><text x="135" y="34" fill="#fff" font-size="20" font-weight="700">LATIN BLOC</text><text x="135" y="64" fill="#fff1bf" font-size="14">Spain · Italy · Portugal</text><text x="135" y="90" fill="#fff1bf" font-size="14">Occitania · telephone translations</text></g>
+    <text x="600" y="615" fill="#f4e4c5" font-family="Georgia,serif" font-size="21">Localization makes Japanese stories familiar—and changes what they say.</text>
+    <text x="600" y="645" fill="#9eb2bd" font-size="14">FORMOSA AND CHŌSEN ARE PART OF THE JAPANESE-LANGUAGE PRODUCTION CORE</text>
+  </g>
+</svg>
