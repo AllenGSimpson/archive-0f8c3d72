@@ -14,15 +14,15 @@ Status follows the Setting Bible:
 
 | Character | Bloc | Principal role | Status by the current endpoint |
 |---|---|---|---|
-| Wolfgang Friedrich Hitler | Germany | Führer and pseudo-dynastic successor | Ruling in 1985 |
+| Wolfgang Friedrich Hitler | Germany | Führer and pseudo-dynastic successor | Later begins living succession after probable Parkinson's diagnosis |
 | Katharina Elisabeth Hartmann Hitler | Germany | Wolfgang's wife; medical and family patron | Public figure by 1985 |
-| Alexander Friedrich Hitler | Germany | Eldest son; presumptive but undesignated successor | Fourteen in 1985 |
-| Konrad Matthias Hitler | Germany | Second son; athletic and command-oriented dynastic alternative | Twelve in 1985 |
-| Johanna Elisabeth Hitler | Germany | First daughter; archival and educational temperament | Ten in 1985 |
-| Sophie Eva Hitler | Germany | Second daughter; social and representational temperament | Eight in 1985 |
-| Felix Wolfgang Hitler | Germany | Third son; emerging computing and network interest | Six in 1985 |
-| Helena Katharina Hitler | Germany | Third daughter; prospective documentary and visual interest | Three in 1985 |
-| Anna Maria Hitler | Germany | Youngest daughter; prospective musical and mediating role | One in 1985 |
+| Alexander Friedrich Hitler | Germany | Officer, SS Order believer, and presumptive successor | First in public expectation; confirmation required |
+| Konrad Matthias Hitler | Germany | Army officer and household command anchor | Refuses to challenge Alexander |
+| Johanna Elisabeth Hitler | Germany | Archivist, Catholic convert, and Latin-world bridge | Marries an Italian outside royalty and leading Fascism |
+| Sophie Eva Hitler | Germany | Professional actor and cinema celebrity | Serious independent cultural career |
+| Felix Wolfgang Hitler | Germany | Software engineer and designer of *Prinzensprache* | American marriage around 1999–2001 |
+| Helena Katharina Hitler | Germany | Third daughter; domestic and maternal adult path | Marries at eighteen in 2000; later large family |
+| Anna Maria Hitler | Germany | Gifted singer with an operatic trajectory | Sixteen and publicly performing at the millennium |
 | Otto Albrecht Seidel | Germany | Cadre and appointments administrator | Second-generation Party official |
 | Friedrich Hagedorn | Germany | Order-and-settlement SS administrator | Reichsführer-SS from 28 May 1976 |
 | Professor Dr. Johannes Eberhard Rabe | Germany | Custodian and systematic theologian of the SS Order Faith | SS-Oberführer and Lehrwalter by 1980 |
@@ -80,12 +80,12 @@ Status follows the Setting Bible:
 - **Martin Bormann:** source of knowledge about appointments and access, but also the example that makes Wolfgang divide power.
 - **Wernher von Braun:** technical refuge and model of the systems architect who can tell a ruler the difference between possibility, production, funding, and operational sustainability.
 - **Katharina:** spouse and only near-age intimate who is neither subordinate, relative, nor inherited mentor.
-- **Alexander:** eldest son and presumptive heir, whose public ease, learned aerospace interest, and attraction to state ceremony resemble Wolfgang while making him more receptive to SS Order culture.
-- **Konrad:** decisive second son whose racing and athletic interests draw military attention without making him a manufactured “soldier prince.”
-- **Johanna:** quiet archival daughter who shares Eva's private family memory and later collaborates naturally with Felix.
-- **Sophie:** socially gifted daughter whose warmth is politically useful but whom Katharina protects from becoming a permanent propaganda performance.
-- **Felix:** technically patient younger son whose emerging interest in programming and networks gives Wolfgang a connection to the next technological generation.
-- **Helena and Anna:** the two youngest daughters, whose film and musical interests remain developmental rather than fixed careers at the 1985 endpoint.
+- **Alexander:** eldest son and presumptive heir; later a conventional officer, sincere SS Order believer, and advocate of space settlement as civilizational work.
+- **Konrad:** decisive second son who enters the army through ordinary field channels and later refuses efforts to recruit him as Alexander's rival.
+- **Johanna:** archival daughter who converts to Catholicism, marries an Italian, and bridges the household to Rome and the Latin world.
+- **Sophie:** socially gifted daughter who turns public aptitude into a serious career in cinema and acting.
+- **Felix:** software engineer and computing administrator whose California mission, American marriage, and language project connect the household to the next technical generation.
+- **Helena and Anna:** the two youngest daughters; Helena marries at eighteen and raises a large family, while Anna develops into a serious singer with an operatic trajectory.
 - **Akihito:** genuine personal respect that makes the German–Japanese détente possible but cannot substitute for interest.
 - **Umberto II:** respected rival whose trust permits the Verona non-aggression settlement.
 - **Pat Buchanan:** initially hoped-for nationalist interlocutor who proves unwilling to concede German power in the Americas.
@@ -104,7 +104,7 @@ Status follows the Setting Bible:
 
 **Religion and succession:** Maintains a Lutheran household, accepts ordinary Protestant rites, and attends some SS ancestral ceremonies as observer and patron while rejecting most Himmlerite esotericism. The eldest child has dynastic prestige, but institutional designation and confirmation—not primogeniture—control succession.
 
-**Open:** Final successor designation and fate beyond 1985.
+**Later health and succession:** First motor symptoms appear around 2009–10, followed by a probable idiopathic Parkinson's diagnosis around 2010–12. Wolfgang discloses the illness and begins a deliberate living succession while still able to arbitrate. Exact diagnosis, transfer, retirement, and death dates remain open.
 
 ### Katharina Elisabeth Hartmann Hitler
 
@@ -125,7 +125,7 @@ Status follows the Setting Bible:
 
 **Household and education:** Katharina prepares the daughters principally for marriage, motherhood, household responsibility, cultural patronage, and public representation rather than compulsory professional careers, while allowing serious personal interests. She rejects both courtly parental distance and the fiction that a ruling family needs no staff. She also limits the propaganda ministry's access to the children: affection may be photographed, but friendships, exhaustion, illness, and distress may not be manufactured into spectacles.
 
-**Open:** Precise public title beyond *Frau Hitler* and the children's adult lives.
+**Open:** Precise public title beyond *Frau Hitler* and her later institutional role.
 
 ## Children of Wolfgang and Katharina
 
@@ -147,6 +147,8 @@ The children are raised comfortably but with deliberate household frugality. The
 
 **Key state at the endpoint:** Fourteen in 1985; publicly promising, privately burdened, presumptive rather than designated heir.
 
+**Adult outcome:** Becomes a sincere believer in the SS Order Faith rather than its puppet, serves as a conventional military officer, and frames space settlement as religious-civilizational work. His eventual wife comes from an SS-administrative or eastern-settler Order family through discreet social arrangement. Alexander remains first in public expectation, but designation and confirmation still control accession; the spouse's identity, marriage date, and final transfer remain open.
+
 ### Konrad Matthias Hitler
 
 **Identity and role:** Born in 1973; second son and the most visible alternative within the male succession generation.
@@ -159,6 +161,8 @@ The children are raised comfortably but with deliberate household frugality. The
 
 **Key state at the endpoint:** Twelve in 1985; strongly noticed by military and hard administrative circles without having chosen a military vocation.
 
+**Adult outcome:** Enters the army through ordinary enlisted or *Fahnenjunker* and field experience before commissioning. He enjoys military life, promotes sport, marries a German woman, and becomes the household's command-and-administrative anchor. When officials uneasy about Alexander privately invite Konrad to compete for the Führership, he explicitly refuses and affirms his brother's fitness.
+
 ### Johanna Elisabeth Hitler
 
 **Identity and role:** Born in 1975; first daughter and quiet keeper of the younger household's memory.
@@ -169,7 +173,7 @@ The children are raised comfortably but with deliberate household frugality. The
 
 **Relationships:** Especially close to Eva Braun, whose private films, correspondence, and ordinary memories complicate founder mythology. Johanna also becomes Felix's natural collaborator: she supplies archival judgment while he makes records searchable through catalogs, databases, and digitization.
 
-**Potential trajectory:** Family archive, historical foundation, schools, libraries, and controlled release of private papers are plausible adult roles, not fixed offices.
+**Adult outcome:** Remains the family archivist, converts to Catholicism, and marries an Italian who is neither a prince nor a member of a leading Fascist family. The marriage is romantic rather than dynastic and makes her a durable household bridge to Rome and the Latin world. Her husband's identity and the final institutional form of her archival work remain open.
 
 **Key state at the endpoint:** Ten in 1985; already trusted by siblings because she rarely converts confidences into performance.
 
@@ -183,7 +187,7 @@ The children are raised comfortably but with deliberate household frugality. The
 
 **Relationships:** Werner Naumann's ministry recognizes her extraordinary future propaganda value. Katharina permits genuine public encounters but prohibits manufactured friendships, scripted affection, repeated appearances by an exhausted child, and exploitation of illness or distress.
 
-**Potential trajectory:** Public representation, family patronage, charitable work, and informal diplomacy are plausible; no formal career is predetermined.
+**Adult outcome:** Builds a serious professional career in cinema and acting. Her public position combines celebrity, artistic work, and ruling-family representation rather than reducing her to a ceremonial hostess. She eventually marries a German officer, comparatively later than her siblings; spouse, date, and filmography remain open.
 
 **Key state at the endpoint:** Eight in 1985; socially gifted and photogenic, but still being taught discretion.
 
@@ -197,7 +201,7 @@ The children are raised comfortably but with deliberate household frugality. The
 
 **Relationships:** Aerospace remains a shared family subject rather than his personal identity. Matthias Falkenberg and other computing specialists can teach him without displacing Wolfgang. Johanna's archives give the siblings their first natural joint projects: indexing films, cataloguing books, recording elderly household figures, genealogy databases, and digitized correspondence.
 
-**Potential political significance:** Felix may become the child best able to explain how searchable records and interconnected machines change Wolfgang's state. At the 1985 endpoint this is a trajectory, not an office or succession decision.
+**Adult outcome:** Completes technical military service and becomes a software engineer and computing administrator closely associated with Matthias Falkenberg. A late-1990s California mission leads to marriage with an American woman around 1999–2001. Beginning around 2000–02 he develops a typed, immutable-by-default, functional-first production language atop Planform. Its compiler appears around 2002–04, it acquires the nickname *Prinzensprache*, and it later proves itself in a Raumhafen or Mars-logistics project. His spouse and the language's final public name remain open.
 
 **Key state at the endpoint:** Six in 1985; curious around household terminals, telemetry, games, and communications equipment.
 
@@ -205,13 +209,11 @@ The children are raised comfortably but with deliberate household frugality. The
 
 **Identity and role:** Born in 1982; third daughter.
 
-**Personality:** Melancholic-sanguine—inward, aesthetically sensitive, and capable of public expression once convinced that a subject matters.
+**Personality and formation:** The most conventionally domestic of the seven, with some medical and household-health study shaped by Katharina's example.
 
-**Keystone interest and goal:** Film, photography, editing, interviews, documentary narration, medical and scientific film, family history, and the emotional interpretation of recorded events. Where Johanna preserves a record, Helena's likely contribution is shaping it so that someone absent can understand what the event felt like.
+**Adult outcome:** Marries shortly after her eighteenth birthday in 2000 after accepting a proposal at seventeen from a trusted friend approximately one year older. She later becomes the center of a large family comparable in scale to her parents' household. Spouse, precise wedding date, children, and extent of medical qualification remain open.
 
-**Relationships:** Katharina supplies practical nursing, childcare, and household-medicine formation without requiring Helena to become a physician. Eva's private films, Raumhafen imagery, and official propaganda provide both material and eventual ethical tension.
-
-**Key state at the endpoint:** Three in 1985. Film is an authorially intended developmental direction, not a demonstrated childhood specialization or fixed profession.
+**Continuity correction:** This domestic and maternal trajectory supersedes the earlier working projection that assigned documentary film to Helena. Sophie's cinema career now carries the household's professional film path.
 
 ### Anna Maria Hitler
 
@@ -219,15 +221,15 @@ The children are raised comfortably but with deliberate household frugality. The
 
 **Personality:** Phlegmatic-sanguine—affectionate, approachable, comparatively relaxed, and naturally inclined to reduce family tension.
 
-**Keystone interest and goal:** Music, especially piano, singing, hymns, choral life, family performance, and later musical patronage or composition. Music gives her a household role that is neither administrative nor competitive and may make her the sibling most capable of gathering political rivals into an ordinary family evening.
+**Keystone interest and goal:** Music, especially piano, singing, hymns, choral life, and ultimately professional opera. Music gives her a household role that is neither administrative nor competitive.
 
 **Generational position:** Anna grows up with the established Wolfgang of Tehran, Verona, the international Raumhafen, and the post-Falklands reassessment rather than the young ruler still proving himself through the Moon program.
 
-**Key state at the endpoint:** One in 1985. Her temperament, music, and mediating role are prospective character architecture rather than completed biography.
+**Adult outcome:** Genuinely talented, she is already publicly visible as a young singer at sixteen in 2000. Her intended mature path includes professional opera in Vienna and Berlin. She marries only in the 2000s; training, roles, dates, and spouse remain open.
 
-### The succession triangle
+### From succession triangle to living succession
 
-By the later 1980s the three sons imply different possible futures without producing an automatic contest. Alexander represents public legitimacy, ceremony, aerospace, and historical meaning. Konrad represents decision, physical confidence, and military-administrative action. Felix represents software, networks, and the technical world emerging after his brothers' childhood formation. Alexander begins first in public expectation, but lawful succession still requires Wolfgang's designation and the regime's institutional confirmation. The unresolved question is which child could inherit the office without allowing the office to consume the person.
+By the later 1980s the three sons imply different possible futures: Alexander represents public legitimacy, ceremony, aerospace, and historical meaning; Konrad represents decision and military-administrative action; Felix represents software and networks. Adulthood resolves the apparent triangle without creating automatic inheritance. Felix's role becomes technical rather than candidatorial, and Konrad explicitly refuses efforts to recruit him against Alexander. Alexander therefore stands clearly first in public expectation. Wolfgang's probable Parkinson's disease around 2010–12 turns the question into a deliberate living succession, though lawful transfer still requires Wolfgang's designation and institutional confirmation.
 
 ## German second generation
 
