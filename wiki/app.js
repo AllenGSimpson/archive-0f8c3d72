@@ -201,6 +201,9 @@ const pages = [
   { title: "Francisco Franco", description: "Caudillo of Spain and architect of the active Bourbon restoration", href: "francisco-franco.html", tags: "francisco franco caudillo spain civil war gibraltar bourbon restoration" },
   { title: "Juan Carlos I", description: "King of Spain and royal successor to the Francoist Catholic-national state", href: "juan-carlos-i.html", tags: "juan carlos i king spain bourbon prince restoration franco latin" },
   { title: "António de Oliveira Salazar", description: "Founder of the Estado Novo and architect of Portugal's Atlantic system", href: "antonio-salazar.html", tags: "antonio antónio oliveira salazar portugal estado novo lisbon iberian pact" },
+  { title: "Marcello Caetano", description: "Estado Novo jurist and provisional civilian successor to Salazar", href: "marcelo-caetano.html", tags: "marcello marcelo caetano portugal estado novo succession jurist corporatism" },
+  { title: "Duarte Nuno, Duke of Braganza", description: "Rehabilitated Portuguese claimant and possible restored king", href: "duarte-nuno.html", tags: "duarte nuno duke braganza portugal monarchy restoration duarte ii" },
+  { title: "Portuguese succession question", description: "The open choice among Caetano, a stronger presidency, and Braganza restoration", href: "portuguese-succession.html", tags: "portuguese succession caetano braganza restoration presidency estado novo 1968" },
   { title: "India and the Indian Successor States", description: "The Breaking of the Raj and Colombo armistice system", href: "india-successors.html", tags: "india raj hindustan azad hind bengal colombo bastion" },
   { title: "Middle East and the Arab Ideological Triangle", description: "Baghdad, Riyadh, and the Hashemite monarchies", href: "middle-east.html", tags: "middle east arab iraq saudi jordan iran syria" },
   { title: "British Africa and the Cape System", description: "Associated states, the Cape route, and imperial survival", href: "british-africa.html", tags: "africa cape accra ghana south africa rhodesia commonwealth" },
@@ -1990,6 +1993,9 @@ const crossLinks = [
   ,{ href: "francisco-franco.html", terms: ["Francisco Franco", "General Franco", "Franco"] }
   ,{ href: "juan-carlos-i.html", terms: ["Juan Carlos I", "King Juan Carlos", "Juan Carlos"] }
   ,{ href: "antonio-salazar.html", terms: ["António de Oliveira Salazar", "Antonio de Oliveira Salazar", "António Salazar", "Antonio Salazar", "Salazar"] }
+  ,{ href: "marcelo-caetano.html", terms: ["Marcello Caetano", "Marcelo Caetano", "Caetano"] }
+  ,{ href: "duarte-nuno.html", terms: ["Duarte Nuno", "Duke of Braganza"] }
+  ,{ href: "portuguese-succession.html", terms: ["Portuguese succession question", "Portuguese succession", "Braganza restoration"] }
   ,{ href: "rockwell-commission.html", terms: ["Rockwell Commission", "Commission on the Assassination of George Lincoln Rockwell"] }
   ,{ href: "national-unity-amendment.html", terms: ["National Unity and Constitutional Defense Amendment", "National Unity amendment"] }
   ,{ href: "american-productive-commonwealth-act.html", terms: ["American Productive Commonwealth Act", "1982 productivity recession"] }
