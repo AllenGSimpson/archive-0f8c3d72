@@ -916,6 +916,9 @@ const pages = [
   { title: "Elizabeth II", description: "Post-defeat sovereign and constitutional head of the British Commonwealth", href: "elizabeth-ii.html", tags: "elizabeth ii queen crown coronation commonwealth powell new elizabethans" },
   { title: "Winston Churchill", description: "Wartime prime minister from defiance to the Lisbon defeat", href: "winston-churchill.html", tags: "winston churchill prime minister coalition torch white parachutes lisbon defeat" },
   { title: "Clement Attlee", description: "Wartime deputy and displaced leader of the coalition generation", href: "clement-attlee.html", tags: "clement attlee labour deputy prime minister coalition resignation bevan" },
+  { title: "Monarchy of the United Kingdom", description: "The strengthened but constitutional Crown after the 1947 defeat", href: "british-monarchy.html", tags: "british monarchy crown constitution realms elizabeth george commonwealth" },
+  { title: "Crown Current", description: "The cross-party Crown-constitutional movement after defeat", href: "crown-current.html", tags: "crown current constitutionalists king country reserve powers council" },
+  { title: "Coronation of Elizabeth II", description: "The 1953 state ceremony before representatives of the altered world order", href: "coronation-of-elizabeth-ii.html", tags: "coronation elizabeth ii 1953 westminster abbey delegations television" },
   { title: "Aneurin Bevan", description: "Reconstruction Labour leader and twice postwar prime minister", href: "aneurin-bevan.html", tags: "aneurin nye bevan labour prime minister brick parliament reconstruction" },
   { title: "R. A. Butler", description: "Conservative prime minister and architect of the Contract Commonwealth", href: "rab-butler.html", tags: "rab richard austen butler conservative prime minister contract commonwealth" },
   { title: "1951 United Kingdom General Election", description: "The India Election and formation of the Butler government", href: "1951-united-kingdom-general-election.html", tags: "1951 united kingdom election india bevan butler mosley conservative labour" },
@@ -2186,6 +2189,9 @@ const crossLinks = [
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }
   ,{ href: "winston-churchill.html", terms: ["Winston Churchill", "Churchill"] }
   ,{ href: "clement-attlee.html", terms: ["Clement Attlee", "Attlee"] }
+  ,{ href: "british-monarchy.html", terms: ["Monarchy of the United Kingdom", "British monarchy"] }
+  ,{ href: "crown-current.html", terms: ["Crown Current", "Crown-constitutional current", "Crown constitutionalists"] }
+  ,{ href: "coronation-of-elizabeth-ii.html", terms: ["Coronation of Elizabeth II", "1953 coronation"] }
   ,{ href: "aneurin-bevan.html", terms: ["Aneurin Bevan", "Bevan"] }
   ,{ href: "rab-butler.html", terms: ["R. A. Butler", "Rab Butler"] }
   ,{ href: "1951-united-kingdom-general-election.html", terms: ["1951 United Kingdom general election", "India Election"] }
