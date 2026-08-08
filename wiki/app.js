@@ -913,6 +913,9 @@ const pages = [
   { title: "Akira Nakashima", description: "Japanese pioneer of relay-circuit and switching theory", href: "akira-nakashima.html", tags: "akira nakashima relay switching theory nec japan computing" },
   { title: "Postwar Governments of the United Kingdom", description: "British ministries from the Brick Parliament to Responsible Independence", href: "postwar-british-governments.html", tags: "britain postwar governments prime ministers bevan butler powell wilson healey thatcher ashcombe" },
   { title: "George VI", description: "Wartime king and constitutional mediator of the post-defeat settlement", href: "george-vi.html", tags: "george vi king crown windsor westminster white parachutes commonwealth" },
+  { title: "Elizabeth II", description: "Post-defeat sovereign and constitutional head of the British Commonwealth", href: "elizabeth-ii.html", tags: "elizabeth ii queen crown coronation commonwealth powell new elizabethans" },
+  { title: "Winston Churchill", description: "Wartime prime minister from defiance to the Lisbon defeat", href: "winston-churchill.html", tags: "winston churchill prime minister coalition torch white parachutes lisbon defeat" },
+  { title: "Clement Attlee", description: "Wartime deputy and displaced leader of the coalition generation", href: "clement-attlee.html", tags: "clement attlee labour deputy prime minister coalition resignation bevan" },
   { title: "Aneurin Bevan", description: "Reconstruction Labour leader and twice postwar prime minister", href: "aneurin-bevan.html", tags: "aneurin nye bevan labour prime minister brick parliament reconstruction" },
   { title: "R. A. Butler", description: "Conservative prime minister and architect of the Contract Commonwealth", href: "rab-butler.html", tags: "rab richard austen butler conservative prime minister contract commonwealth" },
   { title: "1951 United Kingdom General Election", description: "The India Election and formation of the Butler government", href: "1951-united-kingdom-general-election.html", tags: "1951 united kingdom election india bevan butler mosley conservative labour" },
@@ -2180,6 +2183,9 @@ const crossLinks = [
   ,{ href: "akira-nakashima.html", terms: ["Akira Nakashima", "Nakashima"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
+  ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }
+  ,{ href: "winston-churchill.html", terms: ["Winston Churchill", "Churchill"] }
+  ,{ href: "clement-attlee.html", terms: ["Clement Attlee", "Attlee"] }
   ,{ href: "aneurin-bevan.html", terms: ["Aneurin Bevan", "Bevan"] }
   ,{ href: "rab-butler.html", terms: ["R. A. Butler", "Rab Butler"] }
   ,{ href: "1951-united-kingdom-general-election.html", terms: ["1951 United Kingdom general election", "India Election"] }
