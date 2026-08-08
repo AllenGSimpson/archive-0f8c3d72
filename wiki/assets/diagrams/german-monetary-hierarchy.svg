@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" role="img" aria-labelledby="title desc">
+  <title id="title">German imperial monetary hierarchy</title>
+  <desc id="desc">Diagram showing the Reichsmark, Gebietsmark, Einheitsmark and national currencies feeding permissioned Verrechnungsmark clearing, with the Goldmark as a separate external layer.</desc>
+  <defs>
+    <style>
+      .bg{fill:#ebe6da}.frame{fill:none;stroke:#575a52;stroke-width:2}.box{stroke:#343832;stroke-width:2}.core{fill:#d4dfc4}.territory{fill:#d8c9b1}.protectorate{fill:#ccd5d8}.associate{fill:#ddd7c3}.clearing{fill:#263a34}.external{fill:#d0aa52}.title{font:700 30px Georgia,serif;fill:#20251f}.subtitle{font:16px Arial,sans-serif;fill:#535a52}.head{font:700 20px Arial,sans-serif;fill:#1d241e}.small{font:14px Arial,sans-serif;fill:#343a34}.white{fill:#f5f2e9}.arrow{fill:none;stroke:#57655e;stroke-width:4;marker-end:url(#arrow)}.goldarrow{fill:none;stroke:#9b792c;stroke-width:4;stroke-dasharray:10 8;marker-end:url(#goldarrow)}.tag{font:700 12px Arial,sans-serif;letter-spacing:1.5px;fill:#6a6f67}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#57655e"/></marker>
+    <marker id="goldarrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#9b792c"/></marker>
+  </defs>
+  <rect class="bg" width="1280" height="780"/>
+  <rect class="frame" x="30" y="30" width="1220" height="720" rx="4"/>
+  <text class="title" x="70" y="82">German imperial monetary hierarchy</text>
+  <text class="subtitle" x="70" y="112">Circulating currencies remain legally distinct from bloc clearing and external bullion settlement.</text>
+
+  <text class="tag" x="70" y="160">CIRCULATING MONEY</text>
+  <rect class="box core" x="70" y="180" width="265" height="150" rx="5"/>
+  <text class="head" x="95" y="217">Reichsmark</text>
+  <text class="small" x="95" y="247">Germany and incorporated territories</text>
+  <text class="small" x="95" y="274">Wages · taxes · retail · savings</text>
+  <text class="small" x="95" y="301">Strongest domestic purchasing rights</text>
+
+  <rect class="box territory" x="365" y="180" width="265" height="150" rx="5"/>
+  <text class="head" x="390" y="217">Gebietsmark issues</text>
+  <text class="small" x="390" y="247">Reichskommissariats</text>
+  <text class="small" x="390" y="274">Territorial wages · taxes · local trade</text>
+  <text class="small" x="390" y="301">Nominal parity; conversion blocked</text>
+
+  <rect class="box protectorate" x="660" y="180" width="265" height="150" rx="5"/>
+  <text class="head" x="685" y="217">Einheitsmark systems</text>
+  <text class="small" x="685" y="247">Protectorates and tight dependencies</text>
+  <text class="small" x="685" y="274">Direct or locally named circulation</text>
+  <text class="small" x="685" y="301">Issue constrained by Berlin</text>
+
+  <rect class="box associate" x="955" y="180" width="255" height="150" rx="5"/>
+  <text class="head" x="980" y="217">National currencies</text>
+  <text class="small" x="980" y="247">Associated Sweden and Finland</text>
+  <text class="small" x="980" y="274">Domestic central-bank authority</text>
+  <text class="small" x="980" y="301">Constrained through trade and credit</text>
+
+  <path class="arrow" d="M203 330v112"/><path class="arrow" d="M498 330v112"/><path class="arrow" d="M793 330v112"/><path class="arrow" d="M1083 330v112"/>
+  <text class="tag" x="70" y="420">PERMISSIONED INTERNAL CLEARING</text>
+  <rect class="box clearing" x="165" y="445" width="825" height="145" rx="5"/>
+  <text class="head white" x="195" y="483">Verrechnungsmark</text>
+  <text class="small white" x="195" y="516">Noncash accounts for central banks, ministries, commodity boards, infrastructure projects, and large firms</text>
+  <text class="small white" x="195" y="547">Balances purchase only approved German goods, services, concessions, or debt treatment</text>
+  <text class="small white" x="195" y="574">The Reichsbank records both nominal value and the holder's authorized uses</text>
+
+  <path class="goldarrow" d="M990 518h78"/>
+  <rect class="box external" x="1070" y="445" width="140" height="145" rx="5"/>
+  <text class="head" x="1092" y="483">Goldmark</text>
+  <text class="small" x="1092" y="516">External trade</text>
+  <text class="small" x="1092" y="541">from the 1990s</text>
+  <text class="small" x="1092" y="568">Separate claim</text>
+
+  <rect x="70" y="638" width="1140" height="68" rx="4" fill="#f6f2e8" stroke="#8c8d82"/>
+  <text class="head" x="95" y="670">Nominal equality does not create automatic conversion.</text>
+  <text class="small" x="95" y="694">Jurisdiction, account class, exchange licence, purchasing permission, and political status determine practical value.</text>
+</svg>
