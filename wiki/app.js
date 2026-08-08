@@ -930,6 +930,9 @@ const pages = [
   { title: "Commonwealth Preference", description: "The tariff, procurement, contract, standards, and credit system favoring Commonwealth trade", href: "commonwealth-preference.html", tags: "commonwealth preference ottawa agreements tariffs procurement contracts trade britain empire" },
   { title: "British Export Drive", description: "The post-defeat campaign to earn imports and reserves through high-value exports", href: "british-export-drive.html", tags: "britain export drive export or die reconstruction ships machinery reserves sterling" },
   { title: "Public Corporations of the United Kingdom", description: "Public ownership and supervision of Britain's strategic infrastructure", href: "public-corporations-united-kingdom.html", tags: "britain public corporations nationalisation coal rail electricity nuclear telecommunications aviation shipping" },
+  { title: "Ernest Bevin", description: "Trade-union leader, wartime manpower minister, and Commonwealth strategist displaced after Lisbon", href: "ernest-bevin.html", tags: "ernest bevin labour tgwu minister labour manpower shipping commonwealth coalition" },
+  { title: "Herbert Morrison", description: "London administrator and wartime Home Secretary defeated in the White Parachute Election", href: "herbert-morrison.html", tags: "herbert morrison labour london county council home secretary public corporation 1947" },
+  { title: "Stafford Cripps", description: "Wartime production minister and austere economic planner defeated in 1947", href: "stafford-cripps.html", tags: "stafford cripps labour aircraft production austerity export planning bristol 1947" },
   { title: "Liura occitana", description: "Occitania's lira-backed national currency and later Latin clearing money", href: "liura-occitana.html", tags: "occitania liura centim currency board lira scudo" },
   { title: "First Reich Reconstruction Plan", description: "Germany's 1949–1953 conversion of victory into transport, housing, energy, food, and civilian production", href: "first-reich-reconstruction-plan.html", tags: "germany first reich reconstruction plan speer railway housing energy agriculture 1949 1953" },
   { title: "Reich Fund for Special Development", description: "Limited experimental allotments for German prototypes and pilot production", href: "reich-fund-special-development.html", tags: "reich fund special development reichsfonds sonderentwicklung versuchskontingent prototype werner lenz" },
@@ -2218,6 +2221,9 @@ const crossLinks = [
   ,{ href: "commonwealth-preference.html", terms: ["Commonwealth preference", "Imperial preference", "Ottawa Agreements"] }
   ,{ href: "british-export-drive.html", terms: ["British export drive", "export or die"] }
   ,{ href: "public-corporations-united-kingdom.html", terms: ["public corporations of the United Kingdom", "British public corporations", "public strategic infrastructure"] }
+  ,{ href: "ernest-bevin.html", terms: ["Ernest Bevin", "Bevin"] }
+  ,{ href: "herbert-morrison.html", terms: ["Herbert Morrison", "Morrison"] }
+  ,{ href: "stafford-cripps.html", terms: ["Stafford Cripps", "Sir Stafford Cripps", "Cripps"] }
   ,{ href: "liura-occitana.html", terms: ["liura occitana", "Occitan liura"] }
   ,{ href: "first-reich-reconstruction-plan.html", terms: ["First Reich Reconstruction Plan"] }
   ,{ href: "reich-fund-special-development.html", terms: ["Reich Fund for Special Development", "Reichsfonds für Sonderentwicklung", "Versuchskontingent"] }
