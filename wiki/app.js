@@ -229,6 +229,10 @@ const pages = [
   { title: "United States Amphibious Force", description: "Iwo Jima, Austin, and Newport landing ships", href: "american-amphibious-force.html", tags: "american amphibious force iwo jima austin newport lph lpd lst" },
   { title: "United States Fleet Support Force", description: "Auxiliaries, mine warfare, and fast missile combatants", href: "american-fleet-support-force.html", tags: "american fleet support auxiliary avenger pegasus mine warfare replenishment repair" },
   { title: "Mature Space Age, 1985–2010", description: "Lunar settlement, Mars expeditions, Ceres, and five independent systems", href: "mature-space-age.html", tags: "mature space age 1985 2010 moon mars ceres settlement five systems" },
+  { title: "Mondhafen Süd", description: "Germany's standardized lunar base, industrial settlement, and Raumhafen supply center", href: "mondhafen-sud.html", tags: "mondhafen sud süd germany moon lunar base settlement water oxygen thorium industry 1981" },
+  { title: "Raumwerft", description: "The interplanetary construction yard attached to the Orbitaler Raumhafen", href: "raumwerft.html", tags: "raumwerft germany orbital yard shipyard marsplan 92 raumhafen reactor berth construction" },
+  { title: "First Human Birth on the Moon", description: "The Kennedy settlement's demographic threshold around the turn of the millennium", href: "first-lunar-birth.html", tags: "first lunar birth moon child kennedy station settlement demography medicine american" },
+  { title: "Japanese Lunar Polar Power Station", description: "A zaibatsu north-polar solar, reactor, mining, and transmission utility", href: "japanese-lunar-polar-power-station.html", tags: "japan moon lunar north pole polar power station zaibatsu solar reactor mining kaguya" },
   { title: "Marsplan 92", description: "Germany's integrated first human expedition to Mars", href: "marsplan-92.html", tags: "marsplan 92 germany mars expedition raumhafen tharsis olympus" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
@@ -295,7 +299,7 @@ const pages = [
   { title: "Shu Main Battle Tank Lineage", description: "Japan's Type 16, Type 26, Type 36, and Type 45 main-force tank family", href: "shu-main-battle-tank-lineage.html", tags: "japan shu main battle tank lineage shu ha he ri ru type 16 26 36 45" },
   { title: "Raumjäger Program", description: "Germany's Rj 1 Wespe, Rj 2 Habicht, and Rj 3 Falke orbital interceptors", href: "raumjaeger-program.html", tags: "raumjager raumjäger program wespe habicht falke germany orbital interceptor" },
   { title: "Orbitaler Raumhafen", description: "Germany's high-orbit harbor, construction yard, fuel depot, and international station", href: "orbitaler-raumhafen.html", tags: "orbitaler raumhafen germany station harbor orbit 1975 kribi marsplan moon" },
-  { title: "Japanese Modules on the Orbitaler Raumhafen", description: "Japan's 1985 science and robotics and 1986 logistics and life-support modules", href: "japanese-raumhafen-modules.html", tags: "japan japanese orbitaler raumhafen modules science robotics logistics life support tehran 1985 1986" },
+  { title: "Japanese Modules on the Orbitaler Raumhafen", description: "Japan's 1985 robotics and 1986 life-sciences and environmental laboratories", href: "japanese-raumhafen-modules.html", tags: "japan japanese orbitaler raumhafen modules science robotics hydroponics environmental life support tehran 1985 1986" },
   { title: "Einheitspakt", description: "The unequal German-centered strategic and economic system", href: "einheitspakt.html", tags: "einheitspakt german sphere alliance bloc protectorates associates northern shield" },
   { title: "Underground France", description: "The clandestine national claim surviving the division of France", href: "underground-france.html", tags: "underground france resistance exile northern occitania brittany reunification" },
   { title: "Punta del Este Protocols", description: "The 1986 settlement ending the Falklands–Malvinas War", href: "punta-del-este-protocols.html", tags: "punta del este protocols 1986 falklands malvinas peace treaty argentina britain uruguay" },
@@ -2652,6 +2656,10 @@ const crossLinks = [
   ,{ href: "tsubame-program.html", terms: ["Tsubame program", "Tsubame-1", "Tsubame"] }
   ,{ href: "kobo-horai.html", terms: ["Kōbō–Hōrai orbital complex", "Kōbō laboratory", "Hōrai Orbital Platform", "Kōbō", "Hōrai"] }
   ,{ href: "japanese-raumhafen-modules.html", terms: ["Japanese Raumhafen modules", "Japanese module group"] }
+  ,{ href: "mondhafen-sud.html", terms: ["Mondhafen Süd", "Mondhafen Sud"] }
+  ,{ href: "raumwerft.html", terms: ["Raumwerft", "interplanetary construction yard"] }
+  ,{ href: "first-lunar-birth.html", terms: ["first human birth on the Moon", "first lunar birth"] }
+  ,{ href: "japanese-lunar-polar-power-station.html", terms: ["Japanese lunar polar power station", "north-polar power station"] }
   ,{ href: "imperial-space-development-agency.html", terms: ["Imperial Space Development Agency", "Imperial Space Development Council"] }
   ,{ href: "hideo-itokawa.html", terms: ["Hideo Itokawa", "Itokawa"] }
   ,{ href: "early-japanese-satellite-program.html", terms: ["Early Japanese Satellite Program", "early satellite program"] }
