@@ -94,7 +94,7 @@ const pages = [
   { title: "Computing: Machines, Languages, and Platforms", description: "Computer development from 1947 to 1985", href: "computing.html", tags: "computing computer history colossus turing rechenplan unicode concord bridge" },
   { title: "List of Countries", description: "Geographic index of states, clients, colonies, and frontiers", href: "countries.html", tags: "countries nations states geography index map blocs" },
   { title: "Political Parties in the United States", description: "Party systems from the Federalists to National Renewal and the Democratic-Republican fusion", href: "american-parties.html", tags: "american politics political parties party systems popular vote national renewal democratic republican federalist whig rockwell buchanan reagan" },
-  { title: "American Presidential Elections, 1968–1992", description: "From the Stolen Mandate to the last direct two-party election", href: "american-elections.html", tags: "elections 1968 1972 1976 1980 1984 1988 1992 rockefeller buchanan reagan harwood" },
+  { title: "American Presidential Elections, 1968–1996", description: "From the Stolen Mandate to the first mature contingent election", href: "american-elections.html", tags: "elections 1968 1972 1976 1980 1984 1988 1992 1996 rockefeller buchanan reagan harwood hale" },
   { title: "List of Presidents of the United States", description: "Washington through Reagan in the alternate presidential succession", href: "presidents.html", tags: "presidents presidency succession washington byrnes dewey warren kennedy rockefeller buchanan reagan" },
   { title: "James F. Byrnes", description: "Succession president who narrowed the New Deal emergency order", href: "james-f-byrnes.html", tags: "james byrnes president succession new deal 1945 1949" },
   { title: "Thomas E. Dewey", description: "Post-New-Deal Republican president, 1949–1957", href: "thomas-e-dewey.html", tags: "thomas dewey president republican philippine war 1949 1957" },
@@ -705,6 +705,12 @@ const pages = [
   { title: "Japanese–American Corporate Contest in Peru and Ecuador", description: "Pacific concessions, infrastructure, finance, and security rivalry", href: "peru-ecuador-corporate-contest.html", tags: "peru ecuador japan america corporate contest samanco guayaquil" },
   { title: "Commonwealth Caribbean Commercial Zone", description: "British corporate pockets centered on Belize, Jamaica, and the Bahamas", href: "commonwealth-caribbean-commercial-zone.html", tags: "commonwealth caribbean belize jamaica bahamas british companies shipping banks" },
   { title: "Corporate Security Conflicts", description: "Peripheral private-force clashes contained below interstate war", href: "corporate-security-conflicts.html", tags: "corporate security conflict private guards concessions space denial arbitration" },
+  { title: "1996 United States Presidential Election", description: "The first five-party contingent election and House selection of Andrew Hale", href: "1996-united-states-presidential-election.html", tags: "1996 united states presidential election andrew hale house contingent electoral college" },
+  { title: "Presidency of Andrew Prescott Hale", description: "The bounded stability administration of 1997–2001", href: "hale-administration.html", tags: "andrew prescott hale administration presidency stability 1997 2001" },
+  { title: "Three Clocks of American Government", description: "Presidential direction, congressional method, and continuous corporate execution", href: "three-clocks-american-government.html", tags: "three clocks american government presidency congress corporations direction method execution" },
+  { title: "Presidential Mandate Culture", description: "The presidency as a bounded national priority-setting office", href: "presidential-mandate-culture.html", tags: "presidential mandate culture priority selector sincere voting house election" },
+  { title: "Frontier's Functional Orbital Monopoly", description: "A dominant space-transport utility without legal exclusivity", href: "frontier-functional-monopoly.html", tags: "frontier orbital functional monopoly competitors network space transport utility" },
+  { title: "American–Japanese Corporate Competition in India", description: "Gold-dollar portability against entrenched zaibatsu networks", href: "india-corporate-frontier.html", tags: "india corporate frontier american japanese zaibatsu dollar gold yen competition" },
   { title: "Reagan Era and the World Market Boom", description: "Open markets, Halifax, and the boom of 1985–1989", href: "reagan-era.html", tags: "reagan world market boom open markets halifax 1985 1989" },
   { title: "Open Door Depression", description: "The 1990 Great Sell-Off and American reconstruction", href: "open-door-depression.html", tags: "open door depression second great depression sell-off ownership 1990 recovery" },
   { title: "Five-Party Republic", description: "The Renewal schism and corporate-patronage order after 1992", href: "five-party-republic.html", tags: "five party republic harwood landry bell kincaid crane cade corporate patronage 1992" },
@@ -735,7 +741,7 @@ const pages = [
   { title: "Wesley Crane", description: "Montana producer-federalist and anti-patronage politician", href: "wesley-crane.html", tags: "wesley crane montana producer federalism american producers antitrust" },
   { title: "Everett Cade", description: "Founders' Guard organizer and National Vanguard leader", href: "everett-cade.html", tags: "everett cade virginia founders guard national vanguard rockwell old guard" },
   { title: "Thomas Harwood", description: "Fortieth president and Productive Commonwealth leader", href: "thomas-harwood.html", tags: "thomas harwood president national renewal productive commonwealth 1992 1993" },
-  { title: "Andrew Prescott Hale", description: "Democratic-Republican presidential nominee in the final direct two-party election", href: "andrew-prescott-hale.html", tags: "andrew prescott hale democratic republican 1992 presidential nominee constitutional markets" },
+  { title: "Andrew Prescott Hale", description: "House-selected forty-first president and architect of the bounded stability mandate", href: "andrew-prescott-hale.html", tags: "andrew prescott hale democratic republican 1992 1996 president bounded stability constitutional markets" },
   { title: "Caleb Harlan", description: "Democratic-Republican vice-presidential nominee and public campaigner in 1992", href: "caleb-harlan.html", tags: "caleb harlan democratic republican 1992 vice presidential nominee household recovery" },
   { title: "1992 National Renewal Convention", description: "Harwood's lawful but contested nomination and the final unified Renewal convention", href: "1992-national-renewal-convention.html", tags: "1992 national renewal convention harwood bell landry nomination productive commonwealth" },
   { title: "1992 United States Presidential Election", description: "Harwood–Bell, Hale–Harlan, and the last direct victory of the two-party era", href: "1992-united-states-presidential-election.html", tags: "1992 united states presidential election harwood bell hale harlan electoral 286 252" },
@@ -2680,6 +2686,12 @@ const crossLinks = [
   ,{ href: "ruth-ann-morrow.html", terms: ["Ruth Ann Morrow", "the Registrar"] }
   ,{ href: "campaign-independence-public-trust-act.html", terms: ["Campaign Independence and Public Trust Act"] }
   ,{ href: "corporate-patronage-united-states.html", terms: ["corporate patronage in the United States", "corporate-patronage republic", "boardroom primary"] }
+  ,{ href: "1996-united-states-presidential-election.html", terms: ["1996 United States presidential election", "1996 presidential election", "1996 contingent election"] }
+  ,{ href: "hale-administration.html", terms: ["presidency of Andrew Prescott Hale", "Hale administration", "Hale presidency"] }
+  ,{ href: "three-clocks-american-government.html", terms: ["three clocks of American government", "three clocks"] }
+  ,{ href: "presidential-mandate-culture.html", terms: ["presidential mandate culture", "national priority selector", "bounded assignment"] }
+  ,{ href: "frontier-functional-monopoly.html", terms: ["Frontier's functional orbital monopoly", "Frontier functional monopoly", "functional monopoly"] }
+  ,{ href: "india-corporate-frontier.html", terms: ["American–Japanese corporate competition in India", "Indian corporate frontier", "India corporate frontier"] }
   ,{ href: "subhas-chandra-bose.html", terms: ["Subhas Chandra Bose", "Netaji"] }
   ,{ href: "jawaharlal-nehru.html", terms: ["Jawaharlal Nehru", "Nehru"] }
   ,{ href: "plaek-phibunsongkhram.html", terms: ["Plaek Phibunsongkhram", "Phibunsongkhram", "Phibun"] }
