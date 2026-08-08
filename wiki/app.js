@@ -919,6 +919,9 @@ const pages = [
   { title: "Monarchy of the United Kingdom", description: "The strengthened but constitutional Crown after the 1947 defeat", href: "british-monarchy.html", tags: "british monarchy crown constitution realms elizabeth george commonwealth" },
   { title: "Crown Current", description: "The cross-party Crown-constitutional movement after defeat", href: "crown-current.html", tags: "crown current constitutionalists king country reserve powers council" },
   { title: "Coronation of Elizabeth II", description: "The 1953 state ceremony before representatives of the altered world order", href: "coronation-of-elizabeth-ii.html", tags: "coronation elizabeth ii 1953 westminster abbey delegations television" },
+  { title: "Siege Commonwealth", description: "Britain's fortified post-defeat network of routes, bases, arsenals, and allied governments", href: "siege-commonwealth.html", tags: "siege commonwealth british strategy cape bases ports arsenals" },
+  { title: "Cape Route", description: "The Atlantic–African–Indian Ocean artery replacing Suez", href: "cape-route.html", tags: "cape route shipping south africa suez commonwealth convoy" },
+  { title: "Bastion India", description: "Britain's maritime Indian Ocean doctrine after the Raj's collapse", href: "bastion-india.html", tags: "bastion india ceylon colombo biec ports indian ocean" },
   { title: "Aneurin Bevan", description: "Reconstruction Labour leader and twice postwar prime minister", href: "aneurin-bevan.html", tags: "aneurin nye bevan labour prime minister brick parliament reconstruction" },
   { title: "R. A. Butler", description: "Conservative prime minister and architect of the Contract Commonwealth", href: "rab-butler.html", tags: "rab richard austen butler conservative prime minister contract commonwealth" },
   { title: "1951 United Kingdom General Election", description: "The India Election and formation of the Butler government", href: "1951-united-kingdom-general-election.html", tags: "1951 united kingdom election india bevan butler mosley conservative labour" },
@@ -2192,6 +2195,9 @@ const crossLinks = [
   ,{ href: "british-monarchy.html", terms: ["Monarchy of the United Kingdom", "British monarchy"] }
   ,{ href: "crown-current.html", terms: ["Crown Current", "Crown-constitutional current", "Crown constitutionalists"] }
   ,{ href: "coronation-of-elizabeth-ii.html", terms: ["Coronation of Elizabeth II", "1953 coronation"] }
+  ,{ href: "siege-commonwealth.html", terms: ["Siege Commonwealth"] }
+  ,{ href: "cape-route.html", terms: ["Cape route"] }
+  ,{ href: "bastion-india.html", terms: ["Bastion India"] }
   ,{ href: "aneurin-bevan.html", terms: ["Aneurin Bevan", "Bevan"] }
   ,{ href: "rab-butler.html", terms: ["R. A. Butler", "Rab Butler"] }
   ,{ href: "1951-united-kingdom-general-election.html", terms: ["1951 United Kingdom general election", "India Election"] }
