@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">American electronic-threat cinema, 1975 to 1984</title>
+  <desc id="desc">A chronology from The Last Republic and Operation Amaterasu through the 1981 orbital incident, Blade Runner, WarGames, and The Terminator.</desc>
+  <rect width="1200" height="675" fill="#0b1118"/>
+  <text x="600" y="55" fill="#f4e4c5" font-family="Georgia,serif" font-size="34" text-anchor="middle">AMERICAN ELECTRONIC-THREAT CINEMA</text>
+  <text x="600" y="88" fill="#9eb2bd" font-family="Consolas,monospace" font-size="16" text-anchor="middle">CORPORATE PERSONHOOD · COMMAND FAILURE · AUTOMATED COLLAPSE</text>
+  <line x1="95" y1="335" x2="1105" y2="335" stroke="#4eb9c4" stroke-width="5"/>
+  <g fill="#0b1118" stroke="#e2b75d" stroke-width="4">
+    <circle cx="135" cy="335" r="13"/><circle cx="345" cy="335" r="13"/><circle cx="575" cy="335" r="13"/><circle cx="805" cy="335" r="13"/><circle cx="1040" cy="335" r="13"/>
+  </g>
+  <g font-family="Consolas,monospace" text-anchor="middle">
+    <g transform="translate(35 135)">
+      <rect width="200" height="135" rx="9" fill="#16232d" stroke="#7da5b8" stroke-width="2"/>
+      <text x="100" y="31" fill="#e2b75d" font-size="19" font-weight="700">1969–1975</text>
+      <text x="100" y="61" fill="#fff" font-size="18" font-weight="700">SYSTEM ANXIETY</text>
+      <text x="100" y="90" fill="#c4d5dc" font-size="14">Amaterasu · 1968 crisis</text>
+      <text x="100" y="113" fill="#c4d5dc" font-size="14">The Last Republic</text>
+    </g>
+    <g transform="translate(245 395)">
+      <rect width="200" height="135" rx="9" fill="#16232d" stroke="#7da5b8" stroke-width="2"/>
+      <text x="100" y="31" fill="#e2b75d" font-size="19" font-weight="700">1981</text>
+      <text x="100" y="61" fill="#fff" font-size="18" font-weight="700">ORBITAL INCIDENT</text>
+      <text x="100" y="90" fill="#c4d5dc" font-size="14">inspection software</text>
+      <text x="100" y="113" fill="#c4d5dc" font-size="14">nearly creates a crisis</text>
+    </g>
+    <g transform="translate(470 135)">
+      <rect width="210" height="135" rx="9" fill="#16232d" stroke="#a86bd1" stroke-width="2"/>
+      <text x="105" y="31" fill="#e2b75d" font-size="19" font-weight="700">1982</text>
+      <text x="105" y="61" fill="#fff" font-size="21" font-weight="700">BLADE RUNNER</text>
+      <text x="105" y="90" fill="#dcc8e9" font-size="14">created labor</text>
+      <text x="105" y="113" fill="#dcc8e9" font-size="14">empire · corporation</text>
+    </g>
+    <g transform="translate(695 395)">
+      <rect width="220" height="135" rx="9" fill="#16232d" stroke="#e2b75d" stroke-width="2"/>
+      <text x="110" y="31" fill="#e2b75d" font-size="19" font-weight="700">1983</text>
+      <text x="110" y="61" fill="#fff" font-size="22" font-weight="700">WARGAMES</text>
+      <text x="110" y="90" fill="#f4e4c5" font-size="14">network intrusion</text>
+      <text x="110" y="113" fill="#f4e4c5" font-size="14">orbital and naval command</text>
+    </g>
+    <g transform="translate(935 135)">
+      <rect width="230" height="135" rx="9" fill="#21191c" stroke="#dc5e5e" stroke-width="2"/>
+      <text x="115" y="31" fill="#e2b75d" font-size="19" font-weight="700">1984</text>
+      <text x="115" y="61" fill="#fff" font-size="20" font-weight="700">THE TERMINATOR</text>
+      <text x="115" y="90" fill="#f2c4c4" font-size="14">the Black Hour</text>
+      <text x="115" y="113" fill="#f2c4c4" font-size="14">interdependence collapses</text>
+    </g>
+  </g>
+  <text x="600" y="602" fill="#f4e4c5" font-family="Georgia,serif" font-size="22" text-anchor="middle">The machine becomes frightening when no person remains able to stop the mission.</text>
+  <text x="600" y="634" fill="#9eb2bd" font-family="Consolas,monospace" font-size="14" text-anchor="middle">THREE FILMS · THREE FORMS OF SYSTEMIC POWER · ONE DECADE OF PUBLIC FEAR</text>
+</svg>

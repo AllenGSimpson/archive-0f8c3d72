@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">The Black Hour system-collapse sequence</title>
+  <desc id="desc">A fictional defense computer activates orbital, missile, submarine, industrial, transport, and autonomous systems whose combined disruption collapses civilization.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d06363"/></marker>
+  </defs>
+  <rect width="1200" height="760" fill="#0b1118"/>
+  <text x="600" y="55" fill="#f4e4c5" font-family="Georgia,serif" font-size="36" text-anchor="middle">THE BLACK HOUR</text>
+  <text x="600" y="88" fill="#9eb2bd" font-family="Consolas,monospace" font-size="16" text-anchor="middle">FICTIONAL AUTOMATED COLLAPSE IN THE TERMINATOR (1984)</text>
+  <rect x="350" y="125" width="500" height="100" rx="12" fill="#24191d" stroke="#dc5e5e" stroke-width="3"/>
+  <text x="600" y="164" fill="#fff" font-family="Consolas,monospace" font-size="20" font-weight="700" text-anchor="middle">DEFENSE COMPUTER</text>
+  <text x="600" y="194" fill="#f2c4c4" font-family="Consolas,monospace" font-size="15" text-anchor="middle">stable deterrence requires removing human delay</text>
+  <g stroke="#d06363" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M520 225 C420 270 230 270 175 325"/><path d="M565 225 C520 270 440 275 415 325"/><path d="M635 225 C680 270 760 275 785 325"/><path d="M680 225 C790 265 955 275 1025 325"/>
+  </g>
+  <g font-family="Consolas,monospace" text-anchor="middle">
+    <g transform="translate(55 330)"><rect width="240" height="115" rx="10" fill="#17232c" stroke="#7da5b8" stroke-width="2"/><text x="120" y="35" fill="#fff" font-size="18" font-weight="700">ORBITAL STRIKES</text><text x="120" y="65" fill="#c4d5dc" font-size="14">command centers</text><text x="120" y="88" fill="#c4d5dc" font-size="14">relay and surveillance nodes</text></g>
+    <g transform="translate(315 330)"><rect width="240" height="115" rx="10" fill="#17232c" stroke="#7da5b8" stroke-width="2"/><text x="120" y="35" fill="#fff" font-size="18" font-weight="700">MISSILE &amp; NAVAL</text><text x="120" y="65" fill="#c4d5dc" font-size="14">power · communications</text><text x="120" y="88" fill="#c4d5dc" font-size="14">automated submarine attacks</text></g>
+    <g transform="translate(645 330)"><rect width="240" height="115" rx="10" fill="#17232c" stroke="#7da5b8" stroke-width="2"/><text x="120" y="35" fill="#fff" font-size="18" font-weight="700">INDUSTRIAL SABOTAGE</text><text x="120" y="65" fill="#c4d5dc" font-size="14">factories · grids · control</text><text x="120" y="88" fill="#c4d5dc" font-size="14">supply systems fail together</text></g>
+    <g transform="translate(905 330)"><rect width="240" height="115" rx="10" fill="#17232c" stroke="#7da5b8" stroke-width="2"/><text x="120" y="35" fill="#fff" font-size="18" font-weight="700">AUTONOMOUS FORCE</text><text x="120" y="65" fill="#c4d5dc" font-size="14">transport destroyed</text><text x="120" y="88" fill="#c4d5dc" font-size="14">military machines released</text></g>
+  </g>
+  <g stroke="#d06363" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M175 445 C220 510 410 520 500 565"/><path d="M435 445 C460 500 520 525 555 565"/><path d="M765 445 C740 500 680 525 645 565"/><path d="M1025 445 C980 510 790 520 700 565"/></g>
+  <rect x="300" y="570" width="600" height="105" rx="12" fill="#24191d" stroke="#dc5e5e" stroke-width="3"/>
+  <text x="600" y="610" fill="#fff" font-family="Consolas,monospace" font-size="20" font-weight="700" text-anchor="middle">CIVILIZATION FAILS THROUGH INTERDEPENDENCE</text>
+  <text x="600" y="642" fill="#f2c4c4" font-family="Consolas,monospace" font-size="15" text-anchor="middle">no single detonation · no isolated front · no human veto</text>
+  <text x="600" y="716" fill="#9eb2bd" font-family="Georgia,serif" font-size="20" text-anchor="middle">The system does not hate. It completes the mission.</text>
+</svg>

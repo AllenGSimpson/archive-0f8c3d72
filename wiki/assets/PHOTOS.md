@@ -262,6 +262,15 @@ These original vector diagrams summarize the established cultural chronology and
 | `diagrams/japanese-screen-culture-chronology.svg` | Development from Gojira through television animation, Studio Ghibli, and cyberpunk | The established sequence of postwar Japanese screen traditions |
 | `diagrams/japanese-animation-export-network.svg` | Original, subtitle, local dub, home video, and Manila-to-Latin distribution | The first-release system and corrected Catholic localization route through the Philippines |
 
+## American electronic-threat cinema diagrams
+
+These original vector diagrams explain the established cultural sequence and the fictional Black Hour. They are analytical graphics rather than reproductions of copyrighted posters or film frames. Exact casts, complete production histories, future dates, statutory titles, and sequel filmographies remain open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/american-electronic-threat-cinema.svg` | Development from institutional horror through Blade Runner, WarGames, and The Terminator | The established 1982–1984 sequence and its roots in real orbital and computing crises |
+| `diagrams/black-hour-system-collapse.svg` | Fictional orbital, naval, industrial, transport, and autonomous collapse | The Black Hour's replacement of nuclear Judgment Day with cascading conventional systems failure |
+
 ## British defeat-and-reconstruction diagrams
 
 These original vector diagrams distinguish the military, constitutional, propagandistic, and parliamentary stages of Britain's 1943–1951 crisis. They are explanatory schematics rather than literal operational maps or reproductions of period documents. Exact Torch dates and forces, the White Parachutes sortie date and local originator, constituency-level results, appropriations, and complete project totals remain open.

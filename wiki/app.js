@@ -743,6 +743,11 @@ const pages = [
   { title: "Spectator War", description: "American wartime culture without belligerency or mass mobilization, 1941–1947", href: "spectator-war.html", tags: "spectator war america neutrality radio newsreels second world war culture" },
   { title: "Rocket Awakening", description: "The American scientific and cultural response to the 1957 German satellite", href: "rocket-awakening.html", tags: "rocket awakening america science education kennedy satellite space mission 1957" },
   { title: "Conspiracy Republic", description: "American political anxiety, institutional horror, and assassination culture in the 1970s", href: "conspiracy-republic.html", tags: "conspiracy republic america 1970s last republic rockwell assassination political horror" },
+  { title: "American Electronic-Threat Cinema", description: "The three-film sequence from created labor through command intrusion to automated collapse", href: "american-electronic-threat-cinema.html", tags: "american electronic threat cinema blade runner wargames terminator black hour computers film" },
+  { title: "Blade Runner", description: "The 1982 science-fiction film about artificial labor, corporate personhood, and Japanese power", href: "blade-runner.html", tags: "blade runner 1982 film replicants artificial labor corporation japan ridley scott" },
+  { title: "WarGames", description: "The 1983 techno-thriller about intrusion into American orbital and naval command", href: "wargames.html", tags: "wargames war games 1983 film computer hacking network orbital naval command" },
+  { title: "The Terminator", description: "The 1984 machine-horror film whose Black Hour replaces nuclear Judgment Day", href: "the-terminator.html", tags: "the terminator 1984 film black hour machine autonomous schwarzenegger" },
+  { title: "Black Hour", description: "The fictional automated systems collapse at the center of The Terminator's future war", href: "black-hour.html", tags: "black hour terminator fictional apocalypse orbital missiles submarine automation collapse" },
   { title: "American Popular Music", description: "Country, rock and roll, rhythm and blues, and parallel music markets", href: "american-popular-music.html", tags: "american music rock roll country rhythm blues motown holly valens bopper elvis" },
   { title: "Buddy Holly", description: "Singer-songwriter, producer, and living elder of American rock", href: "buddy-holly.html", tags: "buddy holly charles hardin holley crickets singer songwriter producer" },
   { title: "Ritchie Valens", description: "Bilingual rock pioneer and durable Mexican-American star", href: "ritchie-valens.html", tags: "ritchie valens richard valenzuela la bamba mexican american rock bilingual" },
@@ -2031,6 +2036,11 @@ const crossLinks = [
   ,{ href: "spectator-war.html", terms: ["Spectator War", "spectator-war culture"] }
   ,{ href: "rocket-awakening.html", terms: ["Rocket Awakening", "delayed Fifties"] }
   ,{ href: "conspiracy-republic.html", terms: ["Conspiracy Republic", "institutional horror"] }
+  ,{ href: "american-electronic-threat-cinema.html", terms: ["American electronic-threat cinema", "electronic-threat cinema"] }
+  ,{ href: "blade-runner.html", terms: ["Blade Runner"] }
+  ,{ href: "wargames.html", terms: ["WarGames", "War Games"] }
+  ,{ href: "the-terminator.html", terms: ["The Terminator"] }
+  ,{ href: "black-hour.html", terms: ["Black Hour"] }
   ,{ href: "american-popular-music.html", terms: ["American popular music", "American rock and roll"] }
   ,{ href: "buddy-holly.html", terms: ["Buddy Holly", "Charles Hardin Holley"] }
   ,{ href: "ritchie-valens.html", terms: ["Ritchie Valens", "Richard Steven Valenzuela"] }
