@@ -811,6 +811,9 @@ const pages = [
   { title: "Japanese Consumer Brands", description: "Totsuko, National, Honda, Datsun, and the Asia-first identity system", href: "japanese-consumer-brands.html", tags: "japanese consumer brands totsuko national honda datsun toyota prince asia first" },
   { title: "Tokyo Tsushin Kogyo", description: "The protected electronics firm whose Totsuko mark grows from recording into portable and video systems", href: "tokyo-tsushin-kogyo.html", tags: "tokyo tsushin kogyo totsuko ibuka morita electronics recording japan" },
   { title: "Honda Motor Company", description: "The independent motorcycle, small-engine, and automobile firm formed around compact mobility", href: "honda-motor-company.html", tags: "honda motor company soichiro fujisawa motorcycle engine automobile japan" },
+  { title: "Motor Industry of Japan", description: "Commercial fleets, private mobility, protected manufacturers, and the Asia-first vehicle market", href: "japanese-motor-industry.html", tags: "japanese motor automobile industry toyota nissan datsun honda isuzu hino prince" },
+  { title: "Toyota Motor Company", description: "Japan's mass vehicle and fleet manufacturer, retaining the Crown and Century prestige lines", href: "toyota-motor-company.html", tags: "toyota motor company kiichiro toyoda crown century trucks japan" },
+  { title: "Nissan Motor Company", description: "The continental vehicle group whose Datsun marque serves the mass export market", href: "nissan-motor-company.html", tags: "nissan motor company datsun yoshisuke aikawa yokohama prince japan" },
   { title: "Matsushita Electric Industrial", description: "The mass electrical manufacturer built around National products and a dense dealer-service network", href: "matsushita-electric-industrial.html", tags: "matsushita electric industrial national panasonic technics appliances japan" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
@@ -2140,6 +2143,9 @@ const crossLinks = [
   ,{ href: "japanese-consumer-brands.html", terms: ["Japanese consumer brands", "Asia-first market"] }
   ,{ href: "tokyo-tsushin-kogyo.html", terms: ["Tokyo Tsushin Kogyo", "Tōkyō Tsūshin Kōgyō", "Totsuko"] }
   ,{ href: "honda-motor-company.html", terms: ["Honda Motor Company", "Honda Motor Co.", "Honda"] }
+  ,{ href: "japanese-motor-industry.html", terms: ["Motor industry of Japan", "Japanese motor industry"] }
+  ,{ href: "toyota-motor-company.html", terms: ["Toyota Motor Company", "Toyota Motor Co.", "Toyota"] }
+  ,{ href: "nissan-motor-company.html", terms: ["Nissan Motor Company", "Nissan Motor Co.", "Nissan–Datsun", "Nissan-Datsun", "Datsun"] }
   ,{ href: "matsushita-electric-industrial.html", terms: ["Matsushita Electric Industrial", "Matsushita", "National brand"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
