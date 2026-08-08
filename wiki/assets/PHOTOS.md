@@ -286,3 +286,12 @@ These original vector diagrams summarize the international response to America's
 | `diagrams/german-open-door-participation.svg` | German mediated participation | Banks and firms, the working-title participation service, controlled windows, and audit |
 | `diagrams/latin-atlantic-investment.svg` | Four Latin national bargains and a Scudo window | Italian, Occitan, Spanish, and Portuguese approaches to American capital |
 | `diagrams/cross-bloc-financial-shock.svg` | International transmission and containment of the 1990 crash | Foreign losses stopped by each bloc's institutional firebreaks |
+
+## Historical Taiwan photographs
+
+These public-domain photographs provide the pre-divergence architectural basis for the continuing in-setting institutions. Their post-1945 use is alternate history.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `photos/taiwan-government-general-1920s.jpg` | Office of the Government-General of Taiwan in Taihoku, c. 1920–1929 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:C._1920_to_1929_Office_of_the_Governor-General_of_Taiwan.jpg), sourced from the Library of Congress; public domain in Japan and the United States |
+| `photos/taihoku-prefectural-office-1933.jpg` | Taihoku Prefecture government building, before November 1933 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taihoku_state_office_around_1933.jpg), published by the Government-General of Taiwan; public domain in Japan and the United States |
