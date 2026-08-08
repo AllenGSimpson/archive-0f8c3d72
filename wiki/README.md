@@ -2,6 +2,10 @@
 
 A zero-dependency local wiki prototype built from the AltWWII setting bible and timeline.
 
+## Editorial register
+
+New and revised articles follow [EDITORIAL_REGISTER.md](EDITORIAL_REGISTER.md). Its controlling rule is that wiki prose is factual by default and interpretive by exception: paragraphs may simply record information, sections need no concluding synthesis, and article structure should vary by subject type.
+
 ## Run locally
 
 From this folder:
