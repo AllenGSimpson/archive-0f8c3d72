@@ -442,6 +442,15 @@ These original diagrams summarize registered force roles and class succession. T
 | `diagrams/japanese-carrier-system.svg` | Carrier aviation integrated with island bases, reconnaissance, escorts, submarines, replenishment, and long-range strike | Naval Armaments Reference and Setting Bible |
 | `diagrams/japanese-postwar-fleet-lineages.svg` | Battleship, carrier, cruiser, escort, attack-submarine, guided-missile-submarine, and transport-submarine branches, 1944–1985 | Naval Armaments Reference class register |
 
+## Mature space-age diagrams
+
+These original diagrams summarize the authoritative 1985–2010 continuation. They do not establish unregistered spacecraft geometry, propulsion details, crew lists, exact base coordinates, production rates, or subsidiary mission dates.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/mature-space-order-2000.svg` | The German, American, Japanese, British Commonwealth, and Latin orbital, lunar, and planetary systems around 2000 | Setting Bible and Setting Timeline mature-space continuation |
+| `diagrams/human-mars-expeditions-1992-2003.svg` | German, British, American, and Japanese human Mars expedition sequence | Setting Timeline and master transcript, Turns 744–777 |
+
 ## American postwar naval diagrams
 
 These original diagrams summarize the registered United States Navy and its balanced-fleet doctrine. They do not establish unregistered hull geometry, aircraft or missile models, reactor particulars, basing, deployments, readiness rates, or individual service histories.

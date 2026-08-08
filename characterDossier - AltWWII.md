@@ -43,11 +43,12 @@ Status follows the Setting Bible:
 | Everett Cade | United States | Founders' Guard leader and Rockwell old-guard organizer | Founder of National Vanguard after 1993 |
 | Thomas Harwood | United States | Productive Commonwealth congressional leader | President from January 1993; Renewal schism leader |
 | Ruth Ann Morrow | United States | National Renewal Committee chair; “the Registrar” | Administrator of the Omaha federation after 1985 |
-| Andrew Prescott Hale | United States | Democratic-Republican presidential nominee in 1992 | Defeated by Harwood; later career open |
+| Andrew Prescott Hale | United States | Democratic-Republican nominee in 1992; president, 1997–2001 | House-selected bounded stability president after the 1996 contingent election |
 | Caleb Harlan | United States | Democratic-Republican vice-presidential nominee in 1992 | Defeated with Hale; later career open |
 | Konrad Elias Voss | United States | Founder of Frontier Orbital Lines | National Orbital Carrier proprietor after 1993 |
 | David Ashcombe | Britain | Post-Thatcher prime minister | Takes office late 1987; seeks mandate in 1988 |
-| Martin Calder | Britain | Labour leader and Ashcombe's principal opponent | Opposition leader by 1988 |
+| Martin Calder | Britain | Labour leader and prime minister, 1992–1996 | Greenwich Compact and Commonwealth space expansion |
+| Edward James Mallory | Britain | National Liberal prime minister from 1996 | Expansionist Compact partner; preserves the 1998 Mars program |
 | Sir Julian Rooke | Britain | Market-liberal governing-party rival | Leadership challenger after Thatcher |
 | Matthew Halden | Britain | Crown-and-Commonwealth governing-party rival | Influential right-wing faction leader |
 
@@ -500,6 +501,8 @@ By the later 1980s the three sons imply different possible futures without produ
 
 **Key events:** Democratic-Republican nomination in 1992; defense of the new closed-control rule; defeat by Harwood approximately 48.5–51.0 and 252–286 electoral votes in the last direct two-party election; concession and post-defeat career remain open.
 
+**Post-1992 development:** The 1996 contingent election returns Hale to national office. After several House ballots he becomes the bounded stability choice and serves as president from 20 January 1997 to 20 January 2001. His deliberately narrow mandate fits his established temperament: he arbitrates among five parties and competing corporate systems without claiming a new ideological majority. The candidates and coalition of the 2000 election remain open.
+
 ### Caleb Harlan
 
 **Classification:** Expanded mentioned fictional character; identifying particulars remain intentionally limited.
@@ -581,6 +584,24 @@ By the later 1980s the three sons imply different possible futures without produ
 **Relationships:** Supports resistance to Argentina but condemns Second Torch. Defeats union-restoration and anti-imperial Labour factions. His principal contrast with Ashcombe is moral emphasis: Ashcombe counts restored jobs; Calder asks who survives the winter before they return.
 
 **Key events:** Rise during Healey's later period; Falklands stance; Labour succession; principal opposition campaign in the 1988 Peace Election.
+
+**Later development:** Calder narrowly wins the 1992 election on *Build Britain Into the Future*. The Stella Maris shock and Germany's 1993 Mars arrival allow him to connect skilled work, research, medicine, communications, and regional investment to a much larger space program. He negotiates the 1993–94 Greenwich Compact with Edward James Mallory, committing both major camps to permanent lunar occupation and a sovereign Mars landing before 2000. Mallory succeeds him in 1996 and preserves the program. Whether Calder later returns to office remains open.
+
+### Edward James Mallory
+
+**Classification:** Expanded mentioned fictional character; political function fixed, private particulars open.
+
+**Identity and role:** Born in 1948; National Liberal–Constitutional Union expansionist, opposition partner in the Greenwich Compact, and prime minister from 1996. Mallory succeeds Calder and preserves the Commonwealth lunar and Mars program through the 1998 landing.
+
+**Personality:** Forward-looking, competitive, rhetorically confident, and more comfortable with national symbolism than David Ashcombe. He can accept administrative continuity when it serves a larger civilizational project, but dislikes presenting Britain as a merely competent secondary power.
+
+**Formative experiences:** Mallory belongs to the generation formed by Lisbon, reconstruction, Silent Overflight, German orbital power, and the recovery of independent Commonwealth technical capacity. The public comparison between Resolution and the expanding Stella Maris convinces him that reliable austerity can become managed decline if it is never converted into growth.
+
+**Politics and goals:** Independent British and Commonwealth access to orbit, the Moon, and Mars; distributed industrial workshare; stable strategic procurement; settlement rather than isolated prestige flights; and National Liberal ownership discipline inside a permanent planetary program.
+
+**Relationships:** Ashcombe supplies the reliable administrative inheritance but not Mallory's expansive public language. Calder is his domestic opponent and indispensable compact partner. Mallory preserves Calder's program after taking office, making the 1998 Mars landing a joint settlement rather than a partisan trophy.
+
+**Key events:** Opposition leadership by 1993; Greenwich Compact in 1993 or 1994; accession as prime minister in 1996; preservation of Serenity and the Mars program; British landing in western Valles Marineris in 1998. Birthplace, education, family, constituency, prior ministries, election totals, and later career remain open.
 
 ### Sir Julian Rooke
 
