@@ -364,3 +364,24 @@ These portraits identify real creators retained across the setting's divergence.
 | `portraits/hayao-miyazaki-2009.jpg` | Hayao Miyazaki, 2009 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg), photograph by Natasha Baucas; CC BY 2.0 |
 | `portraits/isao-takahata-2014.jpg` | Isao Takahata at the Annecy festival, 2014 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Isao_Takahata_(cropped).jpg), photograph by Boungawa; CC BY-SA 3.0 |
 | `portraits/toshio-suzuki-2004.jpg` | Toshio Suzuki at the premiere of Howl's Moving Castle, 2004 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toshio_Suzuki,_Howl%27s_Moving_Castle_premiere.jpg), photograph by Eddie Shannon; CC BY-SA 2.0 |
+
+## Historical cross-bloc cultural figures
+
+These portraits identify real performers retained across the setting's divergence. Their alternate careers follow the local reference documents.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `portraits/the-beatles-1964.jpg` | John Lennon, Paul McCartney, George Harrison, and Ringo Starr in New York, 1964 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Beatles_members_at_New_York_City_in_1964.jpg), United Press International; public domain |
+| `portraits/sean-connery-1983.jpg` | Sean Connery, 1983 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sean_Connery_(1983).jpg), photograph by Rob Bogaerts / Anefo; CC BY-SA 3.0 NL |
+| `portraits/arnold-schwarzenegger-1974.jpg` | Arnold Schwarzenegger, 1974 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_1974.jpg), Madison Square Garden Center publicity photograph; public domain |
+| `portraits/toshiro-mifune-1954.jpg` | Toshirō Mifune, 1954 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toshiro_Mifune_1954_Scan10003_160913.jpg), Eiga Sekai Publications; public domain |
+| `portraits/kyu-sakamoto-1961.png` | Kyū Sakamoto, c. 1961 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kyu_sakamoto.png), uploader's collection; CC0 |
+
+## Cross-bloc popular-culture diagrams
+
+These original vector diagrams summarize the setting's established international media structure and Commonwealth intelligence fiction.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/cross-bloc-cultural-bridges.svg` | Five rival media systems connected by prominent bridge performers | Setting Bible and master transcript descriptions of cultural circulation |
+| `diagrams/commonwealth-bond-network.svg` | James Bond's Commonwealth intelligence network | Master transcript description of alternate Bond allies and strategic routes |

@@ -748,6 +748,13 @@ const pages = [
   { title: "WarGames", description: "The 1983 techno-thriller about intrusion into American orbital and naval command", href: "wargames.html", tags: "wargames war games 1983 film computer hacking network orbital naval command" },
   { title: "The Terminator", description: "The 1984 machine-horror film whose Black Hour replaces nuclear Judgment Day", href: "the-terminator.html", tags: "the terminator 1984 film black hour machine autonomous schwarzenegger" },
   { title: "Black Hour", description: "The fictional automated systems collapse at the center of The Terminator's future war", href: "black-hour.html", tags: "black hour terminator fictional apocalypse orbital missiles submarine automation collapse" },
+  { title: "Cross-Bloc Popular Culture", description: "Film, music, celebrity, and cultural diplomacy across the five media systems", href: "cross-bloc-popular-culture.html", tags: "cross bloc popular culture film music celebrity diplomacy media international" },
+  { title: "The Beatles", description: "Liverpool rock group and flagship of young Commonwealth culture", href: "the-beatles.html", tags: "beatles lennon mccartney harrison starr liverpool hamburg commonwealth rock" },
+  { title: "James Bond", description: "Commonwealth intelligence fiction and film franchise beginning in 1962", href: "james-bond.html", tags: "james bond 007 ian fleming commonwealth intelligence spy film" },
+  { title: "Sean Connery", description: "Scottish actor and defining cinematic James Bond", href: "sean-connery.html", tags: "sean connery scotland actor james bond 007 commonwealth cinema" },
+  { title: "Arnold Schwarzenegger", description: "Austrian bodybuilder and German-language action star with a transatlantic career", href: "arnold-schwarzenegger.html", tags: "arnold schwarzenegger austria bodybuilding actor terminator german cinema" },
+  { title: "Toshirō Mifune", description: "Japanese actor and international martial-action star", href: "toshiro-mifune.html", tags: "toshiro mifune japan actor kurosawa toho samurai cinema" },
+  { title: "Kyū Sakamoto", description: "Japanese singer whose untranslated hit crossed into the American market", href: "kyu-sakamoto.html", tags: "kyu sakamoto sukiyaki ue o muite aruko japan singer" },
   { title: "American Popular Music", description: "Country, rock and roll, rhythm and blues, and parallel music markets", href: "american-popular-music.html", tags: "american music rock roll country rhythm blues motown holly valens bopper elvis" },
   { title: "Buddy Holly", description: "Singer-songwriter, producer, and living elder of American rock", href: "buddy-holly.html", tags: "buddy holly charles hardin holley crickets singer songwriter producer" },
   { title: "Ritchie Valens", description: "Bilingual rock pioneer and durable Mexican-American star", href: "ritchie-valens.html", tags: "ritchie valens richard valenzuela la bamba mexican american rock bilingual" },
@@ -2041,6 +2048,13 @@ const crossLinks = [
   ,{ href: "wargames.html", terms: ["WarGames", "War Games"] }
   ,{ href: "the-terminator.html", terms: ["The Terminator"] }
   ,{ href: "black-hour.html", terms: ["Black Hour"] }
+  ,{ href: "cross-bloc-popular-culture.html", terms: ["Cross-bloc popular culture", "cross-bloc culture", "global popular culture"] }
+  ,{ href: "the-beatles.html", terms: ["The Beatles", "Beatles", "Beatlemania"] }
+  ,{ href: "james-bond.html", terms: ["James Bond", "Commander Bond", "Bond films"] }
+  ,{ href: "sean-connery.html", terms: ["Sean Connery", "Sir Sean Connery"] }
+  ,{ href: "arnold-schwarzenegger.html", terms: ["Arnold Schwarzenegger", "Schwarzenegger"] }
+  ,{ href: "toshiro-mifune.html", terms: ["Toshirō Mifune", "Toshiro Mifune", "Mifune"] }
+  ,{ href: "kyu-sakamoto.html", terms: ["Kyū Sakamoto", "Kyu Sakamoto", "Sakamoto"] }
   ,{ href: "american-popular-music.html", terms: ["American popular music", "American rock and roll"] }
   ,{ href: "buddy-holly.html", terms: ["Buddy Holly", "Charles Hardin Holley"] }
   ,{ href: "ritchie-valens.html", terms: ["Ritchie Valens", "Richard Steven Valenzuela"] }
