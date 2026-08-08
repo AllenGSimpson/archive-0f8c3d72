@@ -442,6 +442,15 @@ These original diagrams summarize registered force roles and class succession. T
 | `diagrams/japanese-carrier-system.svg` | Carrier aviation integrated with island bases, reconnaissance, escorts, submarines, replenishment, and long-range strike | Naval Armaments Reference and Setting Bible |
 | `diagrams/japanese-postwar-fleet-lineages.svg` | Battleship, carrier, cruiser, escort, attack-submarine, guided-missile-submarine, and transport-submarine branches, 1944–1985 | Naval Armaments Reference class register |
 
+## American postwar naval diagrams
+
+These original diagrams summarize the registered United States Navy and its balanced-fleet doctrine. They do not establish unregistered hull geometry, aircraft or missile models, reactor particulars, basing, deployments, readiness rates, or individual service histories.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/american-balanced-fleet.svg` | Carrier, battleship, escort, submarine, amphibious, mine-warfare, fast-combatant, and auxiliary branches in the 1985 balanced fleet | Naval Armaments Reference and Setting Bible |
+| `diagrams/american-postwar-naval-lineages.svg` | American battleship, carrier, cruiser, escort, submarine, and amphibious commissioning bands, 1943–1985 | Naval Armaments Reference and Naval Asset Registry |
+
 ## British postwar naval diagrams
 
 These original diagrams summarize the registered Royal Navy and Siege Commonwealth maritime system. They do not establish unregistered hull geometry, aircraft or missile models, reactor particulars, basing agreements, deployments, readiness rates, or individual service histories.
