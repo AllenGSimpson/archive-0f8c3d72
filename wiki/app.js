@@ -172,6 +172,11 @@ const pages = [
   { title: "Sino-Japanese guardianship", description: "China as civilizational center and Japan as protecting and ordering power", href: "sino-japanese-guardianship.html", tags: "china japan relations guardianship civilization center outer wall geacps" },
   { title: "National Learning and Practical State movement", description: "The post-1985 Chinese reform tendency joining classical learning to technical sovereignty", href: "national-learning-practical-state.html", tags: "china national learning practical state reform technocratic nationalism industry post 1985" },
   { title: "Military Technology Portal", description: "Land, naval, aerospace, and orbital capability", href: "military-technology.html", tags: "military technology weapons tanks ships aircraft armaments portal" },
+  { title: "M13 Advanced Mobile Battle Tank", description: "America's three-crew mobile main battle tank type-classified in 1985", href: "m13-tank.html", tags: "m13 xm13 thirteen american tank main battle composite autoloader 1985" },
+  { title: "XM14 Light Combat Tank", description: "The HSTV-L and Stingray-derived American light combat vehicle in production trials", href: "xm14-light-combat-tank.html", tags: "xm14 m14 light combat tank hstvl stingray american 1985 1987" },
+  { title: "Type 45 Shu-Ru", description: "Japan's three-crew autoloading 120 mm main battle tank", href: "type-45-shu-ru.html", tags: "type 45 shu ru japanese tank main battle autoloader smoothbore 1985" },
+  { title: "Rj 3 Falke", description: "Germany's one-seat missile-armed orbital interceptor in advanced trials", href: "rj-3-falke.html", tags: "rj 3 falke raumjager german orbital interceptor space fighter 1985" },
+  { title: "Type 48 Raiden", description: "Japan's laser-relay supervised-autonomous orbital interceptor system", href: "type-48-raiden.html", tags: "type 48 raiden japan orbital interceptor unmanned autonomous laser relay 1988" },
   { title: "India and the Indian Successor States", description: "The Breaking of the Raj and Colombo armistice system", href: "india-successors.html", tags: "india raj hindustan azad hind bengal colombo bastion" },
   { title: "Middle East and the Arab Ideological Triangle", description: "Baghdad, Riyadh, and the Hashemite monarchies", href: "middle-east.html", tags: "middle east arab iraq saudi jordan iran syria" },
   { title: "British Africa and the Cape System", description: "Associated states, the Cape route, and imperial survival", href: "british-africa.html", tags: "africa cape accra ghana south africa rhodesia commonwealth" },
@@ -1934,6 +1939,11 @@ const crossLinks = [
   ,{ href: "establishment-compact.html", terms: ["Establishment Compact", "House Betrayal", "Establishment Coup"] }
   ,{ href: "national-mission-productive-enterprise-act.html", terms: ["National Mission and Productive Enterprise Act", "Productive Enterprise program", "National Production Institutes"] }
   ,{ href: "project-zenith.html", terms: ["Project Zenith", "OSV-1A Zenith", "OSV-1 Zenith"] }
+  ,{ href: "m13-tank.html", terms: ["M13 Advanced Mobile Battle Tank", "M13 tank", "the M13", "the Thirteen"] }
+  ,{ href: "xm14-light-combat-tank.html", terms: ["XM14 Light Combat Tank", "XM14", "M14 Light Combat Tank"] }
+  ,{ href: "type-45-shu-ru.html", terms: ["Type 45 Shu-Ru", "Shu-Ru"] }
+  ,{ href: "rj-3-falke.html", terms: ["Rj 3 Falke", "Falke orbital interceptor"] }
+  ,{ href: "type-48-raiden.html", terms: ["Type 48 Orbital Interceptor Raiden", "Type 48 Raiden"] }
   ,{ href: "rockwell-commission.html", terms: ["Rockwell Commission", "Commission on the Assassination of George Lincoln Rockwell"] }
   ,{ href: "national-unity-amendment.html", terms: ["National Unity and Constitutional Defense Amendment", "National Unity amendment"] }
   ,{ href: "american-productive-commonwealth-act.html", terms: ["American Productive Commonwealth Act", "1982 productivity recession"] }
