@@ -240,6 +240,18 @@ These original vector diagrams summarize the postwar Japanese developmental orde
 | `diagrams/japanese-corporate-house-network.svg` | Structure of a mature imperial corporate house | Principal bank and insurer, general trading company, shipping, industry, research, and overseas subsidiaries |
 | `diagrams/japanese-development-plan-sequence.svg` | Postwar development sequence | 1948 Financial Rectification, First Reconstruction Plan, Ikeda Prosperity Plan, and the mature protected-enterprise problem |
 
+## British defeat-and-reconstruction diagrams
+
+These original vector diagrams distinguish the military, constitutional, propagandistic, and parliamentary stages of Britain's 1943–1951 crisis. They are explanatory schematics rather than literal operational maps or reproductions of period documents. Exact Torch dates and forces, the White Parachutes sortie date and local originator, constituency-level results, appropriations, and complete project totals remain open.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/british-defeat-reconstruction.svg` | Sequence from Algiers through the Brick Parliament | Algiers Capitulation, strategic exhaustion, Lisbon, the 1947 election, and reconstruction laws |
+| `diagrams/white-parachutes-reconstruction.svg` | Sortie, local payload substitution, public effect, and retrospective myth | The corrected distinction among authorized mission, improvised load, British broadcasts, and Berlin's Friedensbrot narrative |
+| `diagrams/white-parachute-election.svg` | Six-way 1947 Commons result | Labour 218, Conservatives 169, Union Commonwealth 104, Common Wealth 82, Liberals 40, and others 27 |
+| `diagrams/reconstruction-truce.svg` | Minority-government support architecture | Separate majorities for supply, demobilization, shipping, strategic industry, health, and public works |
+| `diagrams/brick-parliament-settlement.svg` | Institutional reconstruction sequence | Release and resettlement, Brick Corps, fleet renewal, arsenal continuity, health security, and permanent civil works |
+
 ## Original orbital-program diagrams
 
 These original vector diagrams summarize the American orbital-vehicle chronology, the corrected 1971 lunar architecture, the Columbia logistics chain, and the developing law of orbit. They preserve the canonically open subtype masses, payloads, propulsion details, detailed fleet totals, and unresolved specialist-design revision.

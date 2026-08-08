@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">White Parachute Election seat distribution</title><desc id="desc">Horizontal bars showing 218 Labour, 169 Conservative, 104 Union Commonwealth, 82 Common Wealth, 40 Liberal, and 27 other seats.</desc>
+  <rect width="1600" height="900" fill="#101820"/><text x="90" y="90" fill="#f2e8d5" font-family="Georgia,serif" font-size="54">White Parachute Election</text><text x="92" y="136" fill="#9eb3c2" font-family="Arial,sans-serif" font-size="24">House of Commons · 6 November 1947 · 640 seats · majority 321</text>
+  <g font-family="Arial,sans-serif" font-size="26"><line x1="520" y1="200" x2="520" y2="760" stroke="#637783" stroke-width="2"/><line x1="1070" y1="200" x2="1070" y2="760" stroke="#637783" stroke-width="2" stroke-dasharray="9 9"/><text x="1070" y="185" fill="#f1c75b" text-anchor="middle">majority threshold</text>
+    <text x="90" y="270" fill="#fff">Reconstruction Labour</text><rect x="520" y="225" width="748" height="64" rx="8" fill="#c94b52"/><text x="1290" y="269" fill="#fff" font-weight="700">218</text>
+    <text x="90" y="360" fill="#fff">Conservative &amp; Unionist</text><rect x="520" y="315" width="580" height="64" rx="8" fill="#4d7dbf"/><text x="1122" y="359" fill="#fff" font-weight="700">169</text>
+    <text x="90" y="450" fill="#fff">Union Commonwealth</text><rect x="520" y="405" width="357" height="64" rx="8" fill="#5fc7d3"/><text x="899" y="449" fill="#fff" font-weight="700">104</text>
+    <text x="90" y="540" fill="#fff">Common Wealth</text><rect x="520" y="495" width="282" height="64" rx="8" fill="#64a96b"/><text x="824" y="539" fill="#fff" font-weight="700">82</text>
+    <text x="90" y="630" fill="#fff">Liberal</text><rect x="520" y="585" width="137" height="64" rx="8" fill="#e3bb3f"/><text x="679" y="629" fill="#fff" font-weight="700">40</text>
+    <text x="90" y="720" fill="#fff">Regional &amp; other</text><rect x="520" y="675" width="93" height="64" rx="8" fill="#888f96"/><text x="635" y="719" fill="#fff" font-weight="700">27</text>
+  </g><text x="800" y="835" fill="#f2e8d5" font-family="Georgia,serif" font-size="32" text-anchor="middle">Largest party, no majority, no natural coalition.</text>
+</svg>
