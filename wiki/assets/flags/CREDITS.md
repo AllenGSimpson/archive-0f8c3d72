@@ -43,6 +43,7 @@ These local SVG copies are used for identification in a critical fictional alter
 | `new-zealand.svg` | New Zealand | [Flag of New Zealand](https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg) | Official flag; see Commons file page |
 | `south-africa-1928.svg` | Union of South Africa | [Flag of South Africa, 1928–1994](https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa_(1928%E2%80%931994).svg) | Historical flag; see Commons file page |
 | `rhodesia-1968.svg` | Rhodesia | [Flag of Rhodesia, 1968–1979](https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1968%E2%80%931979).svg) | Historical flag; see Commons file page |
+| `ghana.svg` | Republic of Ghana; raised at full independence on 6 March 1963 in the setting | [Flag of Ghana](https://commons.wikimedia.org/wiki/File:Flag_of_Ghana.svg), designed by Theodosia Okoh | Public-domain national flag; exact Commons geometry and palette |
 | `jordan.svg` | Jordan | [Flag of Jordan](https://commons.wikimedia.org/wiki/File:Flag_of_Jordan.svg) | Official flag; see Commons file page |
 | `iran-1964.svg` | Imperial State of Iran | [State flag of Iran, 1964–1980](https://commons.wikimedia.org/wiki/File:State_flag_of_Iran_(1964%E2%80%931980).svg) | Historical flag; see Commons file page |
 | `afghanistan-1931.svg` | Kingdom of Afghanistan | [Flag of Afghanistan, 1931–1973](https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan_(1931%E2%80%931973).svg) | Historical flag; see Commons file page |
