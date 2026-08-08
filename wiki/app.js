@@ -711,6 +711,9 @@ const pages = [
   { title: "Presidential Mandate Culture", description: "The presidency as a bounded national priority-setting office", href: "presidential-mandate-culture.html", tags: "presidential mandate culture priority selector sincere voting house election" },
   { title: "Frontier's Functional Orbital Monopoly", description: "A dominant space-transport utility without legal exclusivity", href: "frontier-functional-monopoly.html", tags: "frontier orbital functional monopoly competitors network space transport utility" },
   { title: "American–Japanese Corporate Competition in India", description: "Gold-dollar portability against entrenched zaibatsu networks", href: "india-corporate-frontier.html", tags: "india corporate frontier american japanese zaibatsu dollar gold yen competition" },
+  { title: "Southern Africa in the Commonwealth Space Network", description: "Tracking, telemetry, strategic materials, and political dependence", href: "commonwealth-southern-africa-space-network.html", tags: "southern africa commonwealth space tracking telemetry minerals south africa rhodesia" },
+  { title: "Southern African Modus Vivendi", description: "Practical late-century cooperation without ideological alliance", href: "southern-african-modus-vivendi.html", tags: "southern africa modus vivendi south africa rhodesia portuguese africa mittelafrika detente" },
+  { title: "Late-Commonwealth Don't Ask Culture", description: "Strategic responsibility and political distance in African domestic policy", href: "late-commonwealth-dont-ask-culture.html", tags: "commonwealth africa don't ask london devolution apartheid responsibility intelligence" },
   { title: "Reagan Era and the World Market Boom", description: "Open markets, Halifax, and the boom of 1985–1989", href: "reagan-era.html", tags: "reagan world market boom open markets halifax 1985 1989" },
   { title: "Open Door Depression", description: "The 1990 Great Sell-Off and American reconstruction", href: "open-door-depression.html", tags: "open door depression second great depression sell-off ownership 1990 recovery" },
   { title: "Five-Party Republic", description: "The Renewal schism and corporate-patronage order after 1992", href: "five-party-republic.html", tags: "five party republic harwood landry bell kincaid crane cade corporate patronage 1992" },
@@ -2692,6 +2695,9 @@ const crossLinks = [
   ,{ href: "presidential-mandate-culture.html", terms: ["presidential mandate culture", "national priority selector", "bounded assignment"] }
   ,{ href: "frontier-functional-monopoly.html", terms: ["Frontier's functional orbital monopoly", "Frontier functional monopoly", "functional monopoly"] }
   ,{ href: "india-corporate-frontier.html", terms: ["American–Japanese corporate competition in India", "Indian corporate frontier", "India corporate frontier"] }
+  ,{ href: "commonwealth-southern-africa-space-network.html", terms: ["Southern Africa in the Commonwealth space network", "southern African space network"] }
+  ,{ href: "southern-african-modus-vivendi.html", terms: ["Southern African modus vivendi", "southern African practical détente"] }
+  ,{ href: "late-commonwealth-dont-ask-culture.html", terms: ["late-Commonwealth don't ask culture", "don't ask culture"] }
   ,{ href: "subhas-chandra-bose.html", terms: ["Subhas Chandra Bose", "Netaji"] }
   ,{ href: "jawaharlal-nehru.html", terms: ["Jawaharlal Nehru", "Nehru"] }
   ,{ href: "plaek-phibunsongkhram.html", terms: ["Plaek Phibunsongkhram", "Phibunsongkhram", "Phibun"] }
