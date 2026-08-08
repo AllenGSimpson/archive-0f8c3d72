@@ -253,6 +253,10 @@ const pages = [
   { title: "Martin Bormann", description: "Party Chancellery chief and central broker of the Government of the Second Draft", href: "martin-bormann.html", tags: "martin bormann party chancellery second draft appointments access stroke 1973" },
   { title: "Werner Naumann", description: "Propaganda administrator and Joseph Goebbels's ministerial successor from 1971", href: "werner-naumann.html", tags: "werner naumann propaganda ministry goebbels broadcasting film television 1971" },
   { title: "Erich Topp", description: "U-boat commander and operational successor to Grand Admiral Karl Dönitz", href: "erich-topp.html", tags: "erich topp u-552 submarine kriegsmarine dönitz naval command 1970" },
+  { title: "Ferdinand von Senger und Etterlin", description: "Armored theorist and Erwin Rommel's professional military successor", href: "ferdinand-von-senger-und-etterlin.html", tags: "ferdinand von senger etterlin rommel armored mobile forces doctrine 1970" },
+  { title: "Walter Schellenberg", description: "Foreign-intelligence chief and Reinhard Heydrich's external-security successor", href: "walter-schellenberg.html", tags: "walter schellenberg foreign intelligence rsHA amt vi heydrich 1978" },
+  { title: "Karl Schiller", description: "Economist and Albert Speer's successor for macroeconomic coordination", href: "karl-schiller.html", tags: "karl schiller economist macroeconomic coordination speer clearing competition 1977" },
+  { title: "Eberhard Rees", description: "Space-program operations director and Wernher von Braun's practical successor", href: "eberhard-rees.html", tags: "eberhard rees space program peenemunde von braun raumhafen 1977" },
   { title: "Marsplan 92", description: "Germany's integrated first human expedition to Mars", href: "marsplan-92.html", tags: "marsplan 92 germany mars expedition raumhafen tharsis olympus" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
@@ -2758,6 +2762,10 @@ const crossLinks = [
   ,{ href: "martin-bormann.html", terms: ["Martin Bormann", "Bormann"] }
   ,{ href: "werner-naumann.html", terms: ["Werner Naumann", "Naumann"] }
   ,{ href: "erich-topp.html", terms: ["Erich Topp", "Topp"] }
+  ,{ href: "ferdinand-von-senger-und-etterlin.html", terms: ["Ferdinand von Senger und Etterlin", "Ferdinand von Senger"] }
+  ,{ href: "walter-schellenberg.html", terms: ["Walter Schellenberg", "Schellenberg"] }
+  ,{ href: "karl-schiller.html", terms: ["Karl Schiller", "Schiller"] }
+  ,{ href: "eberhard-rees.html", terms: ["Eberhard Rees", "Rees"] }
 ];
 
 function escapePattern(value) {
