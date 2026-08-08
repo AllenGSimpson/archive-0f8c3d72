@@ -241,6 +241,9 @@ const pages = [
   { title: "Atomic-Bomb Taboo", description: "The cultural and political barrier against creating the first atomic explosive", href: "atomic-bomb-taboo.html", tags: "atomic bomb taboo atmospheric ignition science fiction doomsday weapon culture first builder" },
   { title: "Armed Concert", description: "The mature Five-Power system of conventional deterrence, finite war, and unusable conquest", href: "armed-concert.html", tags: "armed concert five powers strategic order finite war satiation war termination conventional deterrence" },
   { title: "Great-Power Escalation Ladder", description: "The six-stage grammar from normal competition through limited conflict to general war", href: "great-power-escalation-ladder.html", tags: "great power escalation ladder crisis stages normal competition coercion readiness confrontation limited general war" },
+  { title: "Extraterrestrial Settlement", description: "The functional transition from expeditions and permanent bases to settlements and colonies", href: "extraterrestrial-settlement.html", tags: "extraterrestrial settlement permanent base colony households social reproduction moon mars" },
+  { title: "Off-World Family Life", description: "Households, children, work, privacy, education, and identity beyond Earth", href: "off-world-family-life.html", tags: "off world family life households children lunar birth education privacy identity settlement" },
+  { title: "Extraterrestrial Claims", description: "Occupation, safety, resource use, concessions, and disputed sovereignty beyond Earth", href: "extraterrestrial-claims.html", tags: "extraterrestrial claims space law property occupation safety zones resources sovereignty moon mars" },
   { title: "Marsplan 92", description: "Germany's integrated first human expedition to Mars", href: "marsplan-92.html", tags: "marsplan 92 germany mars expedition raumhafen tharsis olympus" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
@@ -2734,6 +2737,9 @@ const crossLinks = [
   ,{ href: "atomic-bomb-taboo.html", terms: ["atomic-bomb taboo", "atomic bomb taboo"] }
   ,{ href: "armed-concert.html", terms: ["Armed Concert", "five-power armed concert"] }
   ,{ href: "great-power-escalation-ladder.html", terms: ["great-power escalation ladder", "six-stage escalation grammar"] }
+  ,{ href: "extraterrestrial-settlement.html", terms: ["extraterrestrial settlement", "permanent base"] }
+  ,{ href: "off-world-family-life.html", terms: ["off-world family life", "family accommodation"] }
+  ,{ href: "extraterrestrial-claims.html", terms: ["extraterrestrial claims", "extraterrestrial property law"] }
 ];
 
 function escapePattern(value) {
