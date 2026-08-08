@@ -186,6 +186,11 @@ const pages = [
   { title: "Punta del Este Protocols", description: "The 1986 settlement ending the Falklands–Malvinas War", href: "punta-del-este-protocols.html", tags: "punta del este protocols 1986 falklands malvinas peace treaty argentina britain uruguay" },
   { title: "Aerospace Doctrine of the United States", description: "The three-service system, Maracaibo Shock, and American turn toward orbital warfare", href: "aerospace-doctrine.html", tags: "american aerospace doctrine air force army naval maracaibo apex zenith orbital warfare" },
   { title: "George Lincoln Rockwell", description: "National Renewal leader, presidential candidate, and martyr-founder", href: "george-lincoln-rockwell.html", tags: "george lincoln rockwell national renewal 1968 1972 assassination stolen mandate" },
+  { title: "Adolf Hitler", description: "Founder and first Führer of the victorious Greater German Reich", href: "adolf-hitler.html", tags: "adolf hitler founder führer germany wolfgang second draft 1962" },
+  { title: "Hermann Göring", description: "Reichsmarschall, second Führer, and architect of the 1962 leadership settlement", href: "hermann-goering.html", tags: "hermann goering göring reichsmarschall luftwaffe führer succession 1962 1965" },
+  { title: "Joseph Goebbels", description: "Propaganda minister and architect of the victorious Reich's public culture", href: "joseph-goebbels.html", tags: "joseph goebbels propaganda friedensbrot showroom reich moon documentary" },
+  { title: "Heinrich Himmler", description: "Reichsführer-SS and institutional architect of the SS order state", href: "heinrich-himmler.html", tags: "heinrich himmler reichsführer ss order faith wewelsburg hagedorn" },
+  { title: "Reinhard Heydrich", description: "RSHA chief, Prague survivor, and builder of the security-administrative empire", href: "reinhard-heydrich.html", tags: "reinhard heydrich rsha prague anthropoid security intelligence computing" },
   { title: "India and the Indian Successor States", description: "The Breaking of the Raj and Colombo armistice system", href: "india-successors.html", tags: "india raj hindustan azad hind bengal colombo bastion" },
   { title: "Middle East and the Arab Ideological Triangle", description: "Baghdad, Riyadh, and the Hashemite monarchies", href: "middle-east.html", tags: "middle east arab iraq saudi jordan iran syria" },
   { title: "British Africa and the Cape System", description: "Associated states, the Cape route, and imperial survival", href: "british-africa.html", tags: "africa cape accra ghana south africa rhodesia commonwealth" },
@@ -1960,6 +1965,11 @@ const crossLinks = [
   ,{ href: "punta-del-este-protocols.html", terms: ["Punta del Este Protocols", "Punta del Este settlement"] }
   ,{ href: "aerospace-doctrine.html", terms: ["American aerospace doctrine", "Aerospace doctrine of the United States", "aerospace doctrine"] }
   ,{ href: "george-lincoln-rockwell.html", terms: ["George Lincoln Rockwell"] }
+  ,{ href: "adolf-hitler.html", terms: ["Adolf Hitler"] }
+  ,{ href: "hermann-goering.html", terms: ["Hermann Göring", "Hermann Goering"] }
+  ,{ href: "joseph-goebbels.html", terms: ["Joseph Goebbels"] }
+  ,{ href: "heinrich-himmler.html", terms: ["Heinrich Himmler"] }
+  ,{ href: "reinhard-heydrich.html", terms: ["Reinhard Heydrich"] }
   ,{ href: "rockwell-commission.html", terms: ["Rockwell Commission", "Commission on the Assassination of George Lincoln Rockwell"] }
   ,{ href: "national-unity-amendment.html", terms: ["National Unity and Constitutional Defense Amendment", "National Unity amendment"] }
   ,{ href: "american-productive-commonwealth-act.html", terms: ["American Productive Commonwealth Act", "1982 productivity recession"] }
