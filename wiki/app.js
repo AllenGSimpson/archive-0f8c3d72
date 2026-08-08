@@ -925,6 +925,9 @@ const pages = [
   { title: "Reichswährungsbereinigung", description: "Germany's 1948 purification and ordering of wartime monetary claims", href: "reichswaehrungsbereinigung.html", tags: "reich currency reform 1948 savings debt default monetary" },
   { title: "Sterling and Commonwealth Reconstruction", description: "Britain's 1948 controlled-sterling financial settlement", href: "sterling-commonwealth-reconstruction.html", tags: "sterling commonwealth reconstruction 1948 exchange controls blocked balances" },
   { title: "Liura occitana", description: "Occitania's lira-backed national currency and later Latin clearing money", href: "liura-occitana.html", tags: "occitania liura centim currency board lira scudo" },
+  { title: "First Reich Reconstruction Plan", description: "Germany's 1949–1953 conversion of victory into transport, housing, energy, food, and civilian production", href: "first-reich-reconstruction-plan.html", tags: "germany first reich reconstruction plan speer railway housing energy agriculture 1949 1953" },
+  { title: "Reich Fund for Special Development", description: "Limited experimental allotments for German prototypes and pilot production", href: "reich-fund-special-development.html", tags: "reich fund special development reichsfonds sonderentwicklung versuchskontingent prototype werner lenz" },
+  { title: "Technical Investment Board", description: "German cross-sector sequencing of advanced industrial capacity", href: "technical-investment-board.html", tags: "technical investment board werner lenz germany aerospace computing nuclear automation industrial allocation" },
   { title: "Aneurin Bevan", description: "Reconstruction Labour leader and twice postwar prime minister", href: "aneurin-bevan.html", tags: "aneurin nye bevan labour prime minister brick parliament reconstruction" },
   { title: "R. A. Butler", description: "Conservative prime minister and architect of the Contract Commonwealth", href: "rab-butler.html", tags: "rab richard austen butler conservative prime minister contract commonwealth" },
   { title: "1951 United Kingdom General Election", description: "The India Election and formation of the Butler government", href: "1951-united-kingdom-general-election.html", tags: "1951 united kingdom election india bevan butler mosley conservative labour" },
@@ -2204,6 +2207,9 @@ const crossLinks = [
   ,{ href: "reichswaehrungsbereinigung.html", terms: ["Reichswährungsbereinigung"] }
   ,{ href: "sterling-commonwealth-reconstruction.html", terms: ["Sterling and Commonwealth Reconstruction settlement", "Sterling and Commonwealth Reconstruction Act"] }
   ,{ href: "liura-occitana.html", terms: ["liura occitana", "Occitan liura"] }
+  ,{ href: "first-reich-reconstruction-plan.html", terms: ["First Reich Reconstruction Plan"] }
+  ,{ href: "reich-fund-special-development.html", terms: ["Reich Fund for Special Development", "Reichsfonds für Sonderentwicklung", "Versuchskontingent"] }
+  ,{ href: "technical-investment-board.html", terms: ["Technical Investment Board"] }
   ,{ href: "aneurin-bevan.html", terms: ["Aneurin Bevan", "Bevan"] }
   ,{ href: "rab-butler.html", terms: ["R. A. Butler", "Rab Butler"] }
   ,{ href: "1951-united-kingdom-general-election.html", terms: ["1951 United Kingdom general election", "India Election"] }
