@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">British reconstruction policy after 1947</title>
+  <desc id="desc">Commonwealth preference, the export drive, and public strategic corporations converge on shipping, reserves, industry, and the social floor.</desc>
+  <rect width="1600" height="900" fill="#101820"/>
+  <text x="800" y="92" fill="#f2e8d5" font-family="Georgia,serif" font-size="54" text-anchor="middle">The material settlement after defeat</text>
+  <text x="800" y="140" fill="#9eb3c2" font-family="Arial,sans-serif" font-size="24" text-anchor="middle">Three policy systems joined trade, production, and ownership</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(90 220)">
+      <rect width="410" height="260" rx="22" fill="#203441" stroke="#5b9bd5" stroke-width="5"/>
+      <text x="205" y="66" fill="#8dc4f4" font-size="28" font-weight="700" text-anchor="middle">COMMONWEALTH PREFERENCE</text>
+      <text x="205" y="122" fill="#fff" font-size="25" text-anchor="middle">tariffs · contracts · standards</text>
+      <text x="205" y="164" fill="#fff" font-size="25" text-anchor="middle">food · raw materials · markets</text>
+      <text x="205" y="216" fill="#c8d6df" font-size="23" text-anchor="middle">Ottawa adapted to reconstruction</text>
+    </g>
+    <g transform="translate(595 220)">
+      <rect width="410" height="260" rx="22" fill="#263b30" stroke="#61a87b" stroke-width="5"/>
+      <text x="205" y="66" fill="#94d3a9" font-size="28" font-weight="700" text-anchor="middle">EXPORT DRIVE</text>
+      <text x="205" y="122" fill="#fff" font-size="25" text-anchor="middle">ships · machinery · engineering</text>
+      <text x="205" y="164" fill="#fff" font-size="25" text-anchor="middle">reserve earnings · market access</text>
+      <text x="205" y="216" fill="#d0dfd4" font-size="23" text-anchor="middle">“Export or die”</text>
+    </g>
+    <g transform="translate(1100 220)">
+      <rect width="410" height="260" rx="22" fill="#3b3026" stroke="#d69b52" stroke-width="5"/>
+      <text x="205" y="66" fill="#f0bd7f" font-size="28" font-weight="700" text-anchor="middle">PUBLIC CORPORATIONS</text>
+      <text x="205" y="122" fill="#fff" font-size="25" text-anchor="middle">coal · rail · power · signals</text>
+      <text x="205" y="164" fill="#fff" font-size="25" text-anchor="middle">aviation · nuclear · shipping</text>
+      <text x="205" y="216" fill="#e5d6c7" font-size="23" text-anchor="middle">capacity before short profit</text>
+    </g>
+    <path d="M295 500V610H690" fill="none" stroke="#5b9bd5" stroke-width="7"/>
+    <path d="M800 500V610" fill="none" stroke="#61a87b" stroke-width="7"/>
+    <path d="M1305 500V610H910" fill="none" stroke="#d69b52" stroke-width="7"/>
+    <rect x="510" y="610" width="580" height="180" rx="26" fill="#272c35" stroke="#f2e8d5" stroke-width="4"/>
+    <text x="800" y="670" fill="#f2e8d5" font-size="34" font-weight="700" text-anchor="middle">STERLING COMMONWEALTH RECOVERY</text>
+    <text x="800" y="720" fill="#fff" font-size="25" text-anchor="middle">merchant fleet · reserves · social floor</text>
+    <text x="800" y="760" fill="#fff" font-size="25" text-anchor="middle">distributed industry · strategic independence</text>
+  </g>
+</svg>

@@ -927,6 +927,9 @@ const pages = [
   { title: "Sterling Commonwealth Economy", description: "Britain's mixed economy of public strategy, private industry, welfare, preference, and Commonwealth contracts", href: "sterling-commonwealth-economy.html", tags: "sterling commonwealth economy britain mixed public trusts private industry preference welfare city" },
   { title: "Controlled Sterling Area", description: "The reserve-pooling and exchange-control system established after British defeat", href: "controlled-sterling-area.html", tags: "controlled sterling area exchange control reserves blocked balances commonwealth finance" },
   { title: "Bank of England", description: "Britain's public central bank and operating institution of controlled sterling", href: "bank-of-england.html", tags: "bank england threadneedle street public corporation central bank sterling reserves clearing" },
+  { title: "Commonwealth Preference", description: "The tariff, procurement, contract, standards, and credit system favoring Commonwealth trade", href: "commonwealth-preference.html", tags: "commonwealth preference ottawa agreements tariffs procurement contracts trade britain empire" },
+  { title: "British Export Drive", description: "The post-defeat campaign to earn imports and reserves through high-value exports", href: "british-export-drive.html", tags: "britain export drive export or die reconstruction ships machinery reserves sterling" },
+  { title: "Public Corporations of the United Kingdom", description: "Public ownership and supervision of Britain's strategic infrastructure", href: "public-corporations-united-kingdom.html", tags: "britain public corporations nationalisation coal rail electricity nuclear telecommunications aviation shipping" },
   { title: "Liura occitana", description: "Occitania's lira-backed national currency and later Latin clearing money", href: "liura-occitana.html", tags: "occitania liura centim currency board lira scudo" },
   { title: "First Reich Reconstruction Plan", description: "Germany's 1949–1953 conversion of victory into transport, housing, energy, food, and civilian production", href: "first-reich-reconstruction-plan.html", tags: "germany first reich reconstruction plan speer railway housing energy agriculture 1949 1953" },
   { title: "Reich Fund for Special Development", description: "Limited experimental allotments for German prototypes and pilot production", href: "reich-fund-special-development.html", tags: "reich fund special development reichsfonds sonderentwicklung versuchskontingent prototype werner lenz" },
@@ -2212,6 +2215,9 @@ const crossLinks = [
   ,{ href: "sterling-commonwealth-economy.html", terms: ["Sterling Commonwealth economy", "Sterling Commonwealth mixed economy"] }
   ,{ href: "controlled-sterling-area.html", terms: ["controlled sterling area", "sterling area"] }
   ,{ href: "bank-of-england.html", terms: ["Bank of England"] }
+  ,{ href: "commonwealth-preference.html", terms: ["Commonwealth preference", "Imperial preference", "Ottawa Agreements"] }
+  ,{ href: "british-export-drive.html", terms: ["British export drive", "export or die"] }
+  ,{ href: "public-corporations-united-kingdom.html", terms: ["public corporations of the United Kingdom", "British public corporations", "public strategic infrastructure"] }
   ,{ href: "liura-occitana.html", terms: ["liura occitana", "Occitan liura"] }
   ,{ href: "first-reich-reconstruction-plan.html", terms: ["First Reich Reconstruction Plan"] }
   ,{ href: "reich-fund-special-development.html", terms: ["Reich Fund for Special Development", "Reichsfonds für Sonderentwicklung", "Versuchskontingent"] }
