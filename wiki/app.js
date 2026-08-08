@@ -180,6 +180,12 @@ const pages = [
   { title: "American Tank Development, 1941–1987", description: "The United States armored lineage from neutral-era exports through M13 and M14", href: "american-tank-development.html", tags: "american tank development m3 m4 m9 m10 m11 m12 m13 m14 armor registry" },
   { title: "Shu Main Battle Tank Lineage", description: "Japan's Type 16, Type 26, Type 36, and Type 45 main-force tank family", href: "shu-main-battle-tank-lineage.html", tags: "japan shu main battle tank lineage shu ha he ri ru type 16 26 36 45" },
   { title: "Raumjäger Program", description: "Germany's Rj 1 Wespe, Rj 2 Habicht, and Rj 3 Falke orbital interceptors", href: "raumjaeger-program.html", tags: "raumjager raumjäger program wespe habicht falke germany orbital interceptor" },
+  { title: "Orbitaler Raumhafen", description: "Germany's high-orbit harbor, construction yard, fuel depot, and international station", href: "orbitaler-raumhafen.html", tags: "orbitaler raumhafen germany station harbor orbit 1975 kribi marsplan moon" },
+  { title: "Einheitspakt", description: "The unequal German-centered strategic and economic system", href: "einheitspakt.html", tags: "einheitspakt german sphere alliance bloc protectorates associates northern shield" },
+  { title: "Underground France", description: "The clandestine national claim surviving the division of France", href: "underground-france.html", tags: "underground france resistance exile northern occitania brittany reunification" },
+  { title: "Punta del Este Protocols", description: "The 1986 settlement ending the Falklands–Malvinas War", href: "punta-del-este-protocols.html", tags: "punta del este protocols 1986 falklands malvinas peace treaty argentina britain uruguay" },
+  { title: "Aerospace Doctrine of the United States", description: "The three-service system, Maracaibo Shock, and American turn toward orbital warfare", href: "aerospace-doctrine.html", tags: "american aerospace doctrine air force army naval maracaibo apex zenith orbital warfare" },
+  { title: "George Lincoln Rockwell", description: "National Renewal leader, presidential candidate, and martyr-founder", href: "george-lincoln-rockwell.html", tags: "george lincoln rockwell national renewal 1968 1972 assassination stolen mandate" },
   { title: "India and the Indian Successor States", description: "The Breaking of the Raj and Colombo armistice system", href: "india-successors.html", tags: "india raj hindustan azad hind bengal colombo bastion" },
   { title: "Middle East and the Arab Ideological Triangle", description: "Baghdad, Riyadh, and the Hashemite monarchies", href: "middle-east.html", tags: "middle east arab iraq saudi jordan iran syria" },
   { title: "British Africa and the Cape System", description: "Associated states, the Cape route, and imperial survival", href: "british-africa.html", tags: "africa cape accra ghana south africa rhodesia commonwealth" },
@@ -1248,7 +1254,7 @@ const crossLinks = [
   { href: "far-eastern-civil-aviation.html", terms: ["Civil Aviation in the Russian Far Eastern State", "Far Eastern Civil Aviation"] },
   { href: "far-eastern-aircraft-industry.html", terms: ["Aircraft Industry of the Russian Far Eastern State", "Far Eastern Aircraft Industry"] },
   { href: "far-eastern-snow-vehicles.html", terms: ["Snow-and-Swamp Vehicles of the Russian Far East", "snow-and-swamp carriers"] },
-  { href: "countries.html#einheitspakt", terms: ["Einheitspakt"] },
+  { href: "einheitspakt.html", terms: ["Einheitspakt"] },
   { href: "corporate-politics-geacps.html", terms: ["Corporate Politics in the Greater East Asian Co-Prosperity Sphere", "Corporate Politics in the GEACPS"] },
   { href: "corporate-host-bargain.html", terms: ["Corporate–Host Bargain", "Corporate-Host Bargain"] },
   { href: "associated-state-economic-nationalism.html", terms: ["Associated-State Economic Nationalism", "associated-state economic nationalism"] },
@@ -1415,7 +1421,7 @@ const crossLinks = [
   { href: "stella-maris.html", terms: ["Stella Maris"] },
   { href: "weather-commons.html", terms: ["International Meteorological Satellite Service", "Common Meteorological Telemetry and Exchange Standard", "CMTES", "Weather Commons"] },
   { href: "space-programs.html", terms: ["German space program", "American space program", "Japanese space program", "space programs"] },
-  { href: "orbital-stations.html", terms: ["Orbitaler Raumhafen", "Raumhafen"] },
+  { href: "orbitaler-raumhafen.html", terms: ["Orbitaler Raumhafen", "Raumhafen"] },
   { href: "ideologies.html", terms: ["political ideologies", "ideologies and parties"] },
   { href: "characters.html", terms: ["major-character index", "Character Dossier"] },
   { href: "everyday-life.html", terms: ["everyday life", "daily life"] },
@@ -1950,6 +1956,10 @@ const crossLinks = [
   ,{ href: "american-tank-development.html", terms: ["American tank development", "American tank lineage"] }
   ,{ href: "shu-main-battle-tank-lineage.html", terms: ["Shu main battle tank lineage", "Shu lineage", "Shu main-force lineage"] }
   ,{ href: "raumjaeger-program.html", terms: ["Raumjäger program", "Raumjager program", "German Raumjäger"] }
+  ,{ href: "underground-france.html", terms: ["Underground France", "underground French"] }
+  ,{ href: "punta-del-este-protocols.html", terms: ["Punta del Este Protocols", "Punta del Este settlement"] }
+  ,{ href: "aerospace-doctrine.html", terms: ["American aerospace doctrine", "Aerospace doctrine of the United States", "aerospace doctrine"] }
+  ,{ href: "george-lincoln-rockwell.html", terms: ["George Lincoln Rockwell"] }
   ,{ href: "rockwell-commission.html", terms: ["Rockwell Commission", "Commission on the Assassination of George Lincoln Rockwell"] }
   ,{ href: "national-unity-amendment.html", terms: ["National Unity and Constitutional Defense Amendment", "National Unity amendment"] }
   ,{ href: "american-productive-commonwealth-act.html", terms: ["American Productive Commonwealth Act", "1982 productivity recession"] }

@@ -24,8 +24,8 @@ window.deepArticles["last-republic"] = {
     {href:"conspiracy-republic.html",kicker:"Cultural period",label:"Conspiracy Republic"},
     {href:"culture-of-the-united-states.html",kicker:"National culture",label:"Culture of the United States"},
     {href:"rockwell-commission.html",kicker:"Official investigation",label:"Rockwell Commission"},
-    {href:"george-lincoln-rockwell.html",kicker:"Assassinated president",label:"George Lincoln Rockwell"},
-    {href:"james-buchanan-president.html",kicker:"Constitutional response",label:"James Buchanan"},
+    {href:"george-lincoln-rockwell.html",kicker:"Assassinated party leader",label:"George Lincoln Rockwell"},
+    {href:"pat-buchanan.html",kicker:"Constitutional response",label:"Pat Buchanan"},
     {href:"american-elections.html",kicker:"Political aftermath",label:"American Presidential Elections"},
     {href:"propaganda-intelligence.html",kicker:"Media conflict",label:"Propaganda and Cultural Infiltration"},
     {href:"columbia-generation.html",kicker:"Principal audience generation",label:"Columbia Generation"}
