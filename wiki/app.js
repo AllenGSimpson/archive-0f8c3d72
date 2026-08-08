@@ -177,6 +177,9 @@ const pages = [
   { title: "Type 45 Shu-Ru", description: "Japan's three-crew autoloading 120 mm main battle tank", href: "type-45-shu-ru.html", tags: "type 45 shu ru japanese tank main battle autoloader smoothbore 1985" },
   { title: "Rj 3 Falke", description: "Germany's one-seat missile-armed orbital interceptor in advanced trials", href: "rj-3-falke.html", tags: "rj 3 falke raumjager german orbital interceptor space fighter 1985" },
   { title: "Type 48 Raiden", description: "Japan's laser-relay supervised-autonomous orbital interceptor system", href: "type-48-raiden.html", tags: "type 48 raiden japan orbital interceptor unmanned autonomous laser relay 1988" },
+  { title: "American Tank Development, 1941–1987", description: "The United States armored lineage from neutral-era exports through M13 and M14", href: "american-tank-development.html", tags: "american tank development m3 m4 m9 m10 m11 m12 m13 m14 armor registry" },
+  { title: "Shu Main Battle Tank Lineage", description: "Japan's Type 16, Type 26, Type 36, and Type 45 main-force tank family", href: "shu-main-battle-tank-lineage.html", tags: "japan shu main battle tank lineage shu ha he ri ru type 16 26 36 45" },
+  { title: "Raumjäger Program", description: "Germany's Rj 1 Wespe, Rj 2 Habicht, and Rj 3 Falke orbital interceptors", href: "raumjaeger-program.html", tags: "raumjager raumjäger program wespe habicht falke germany orbital interceptor" },
   { title: "India and the Indian Successor States", description: "The Breaking of the Raj and Colombo armistice system", href: "india-successors.html", tags: "india raj hindustan azad hind bengal colombo bastion" },
   { title: "Middle East and the Arab Ideological Triangle", description: "Baghdad, Riyadh, and the Hashemite monarchies", href: "middle-east.html", tags: "middle east arab iraq saudi jordan iran syria" },
   { title: "British Africa and the Cape System", description: "Associated states, the Cape route, and imperial survival", href: "british-africa.html", tags: "africa cape accra ghana south africa rhodesia commonwealth" },
@@ -1944,6 +1947,9 @@ const crossLinks = [
   ,{ href: "type-45-shu-ru.html", terms: ["Type 45 Shu-Ru", "Shu-Ru"] }
   ,{ href: "rj-3-falke.html", terms: ["Rj 3 Falke", "Falke orbital interceptor"] }
   ,{ href: "type-48-raiden.html", terms: ["Type 48 Orbital Interceptor Raiden", "Type 48 Raiden"] }
+  ,{ href: "american-tank-development.html", terms: ["American tank development", "American tank lineage"] }
+  ,{ href: "shu-main-battle-tank-lineage.html", terms: ["Shu main battle tank lineage", "Shu lineage", "Shu main-force lineage"] }
+  ,{ href: "raumjaeger-program.html", terms: ["Raumjäger program", "Raumjager program", "German Raumjäger"] }
   ,{ href: "rockwell-commission.html", terms: ["Rockwell Commission", "Commission on the Assassination of George Lincoln Rockwell"] }
   ,{ href: "national-unity-amendment.html", terms: ["National Unity and Constitutional Defense Amendment", "National Unity amendment"] }
   ,{ href: "american-productive-commonwealth-act.html", terms: ["American Productive Commonwealth Act", "1982 productivity recession"] }
