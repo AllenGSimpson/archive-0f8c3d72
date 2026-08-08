@@ -191,6 +191,10 @@ const pages = [
   { title: "Joseph Goebbels", description: "Propaganda minister and architect of the victorious Reich's public culture", href: "joseph-goebbels.html", tags: "joseph goebbels propaganda friedensbrot showroom reich moon documentary" },
   { title: "Heinrich Himmler", description: "Reichsführer-SS and institutional architect of the SS order state", href: "heinrich-himmler.html", tags: "heinrich himmler reichsführer ss order faith wewelsburg hagedorn" },
   { title: "Reinhard Heydrich", description: "RSHA chief, Prague survivor, and builder of the security-administrative empire", href: "reinhard-heydrich.html", tags: "reinhard heydrich rsha prague anthropoid security intelligence computing" },
+  { title: "Erwin Rommel", description: "Field marshal, coalition commander, and postwar mobile-forces reformer", href: "erwin-rommel.html", tags: "erwin rommel desert fox field marshal algeria mobile forces army doctrine" },
+  { title: "Karl Dönitz", description: "Grand admiral and founder of Germany's postwar submarine establishment", href: "karl-doenitz.html", tags: "karl dönitz doenitz grand admiral u-boat submarine navy erich topp" },
+  { title: "Albert Speer", description: "Architect, production minister, reconstruction planner, and Kongo-Gesamtwerk sponsor", href: "albert-speer.html", tags: "albert speer architect armaments production reconstruction kongosee kongo gesamtwerk" },
+  { title: "Wernher von Braun", description: "Rocket engineer and architect of Germany's satellite, lunar, and orbital-harbor programs", href: "wernher-von-braun.html", tags: "wernher von braun rocket space raumbote moon orbitaler raumhafen peenemünde" },
   { title: "India and the Indian Successor States", description: "The Breaking of the Raj and Colombo armistice system", href: "india-successors.html", tags: "india raj hindustan azad hind bengal colombo bastion" },
   { title: "Middle East and the Arab Ideological Triangle", description: "Baghdad, Riyadh, and the Hashemite monarchies", href: "middle-east.html", tags: "middle east arab iraq saudi jordan iran syria" },
   { title: "British Africa and the Cape System", description: "Associated states, the Cape route, and imperial survival", href: "british-africa.html", tags: "africa cape accra ghana south africa rhodesia commonwealth" },
@@ -1970,6 +1974,10 @@ const crossLinks = [
   ,{ href: "joseph-goebbels.html", terms: ["Joseph Goebbels"] }
   ,{ href: "heinrich-himmler.html", terms: ["Heinrich Himmler"] }
   ,{ href: "reinhard-heydrich.html", terms: ["Reinhard Heydrich"] }
+  ,{ href: "erwin-rommel.html", terms: ["Erwin Rommel", "Rommel"] }
+  ,{ href: "karl-doenitz.html", terms: ["Karl Dönitz", "Karl Doenitz", "Dönitz", "Doenitz"] }
+  ,{ href: "albert-speer.html", terms: ["Albert Speer", "Speer"] }
+  ,{ href: "wernher-von-braun.html", terms: ["Wernher von Braun", "von Braun"] }
   ,{ href: "rockwell-commission.html", terms: ["Rockwell Commission", "Commission on the Assassination of George Lincoln Rockwell"] }
   ,{ href: "national-unity-amendment.html", terms: ["National Unity and Constitutional Defense Amendment", "National Unity amendment"] }
   ,{ href: "american-productive-commonwealth-act.html", terms: ["American Productive Commonwealth Act", "1982 productivity recession"] }
