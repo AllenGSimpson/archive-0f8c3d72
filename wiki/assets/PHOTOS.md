@@ -441,3 +441,12 @@ These original diagrams summarize registered force roles and class succession. T
 | --- | --- | --- |
 | `diagrams/japanese-carrier-system.svg` | Carrier aviation integrated with island bases, reconnaissance, escorts, submarines, replenishment, and long-range strike | Naval Armaments Reference and Setting Bible |
 | `diagrams/japanese-postwar-fleet-lineages.svg` | Battleship, carrier, cruiser, escort, attack-submarine, guided-missile-submarine, and transport-submarine branches, 1944–1985 | Naval Armaments Reference class register |
+
+## British postwar naval diagrams
+
+These original diagrams summarize the registered Royal Navy and Siege Commonwealth maritime system. They do not establish unregistered hull geometry, aircraft or missile models, reactor particulars, basing agreements, deployments, readiness rates, or individual service histories.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/british-maritime-system.svg` | Carrier, ASW, submarine, base, amphibious, and auxiliary systems organized around the Cape route | Naval Armaments Reference and Setting Bible |
+| `diagrams/royal-navy-postwar-lineages.svg` | British capital-ship, carrier, cruiser, escort, submarine, and amphibious succession, 1944–1985 | Naval Armaments Reference and Naval Asset Registry |
