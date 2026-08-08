@@ -257,6 +257,10 @@ const pages = [
   { title: "Walter Schellenberg", description: "Foreign-intelligence chief and Reinhard Heydrich's external-security successor", href: "walter-schellenberg.html", tags: "walter schellenberg foreign intelligence rsHA amt vi heydrich 1978" },
   { title: "Karl Schiller", description: "Economist and Albert Speer's successor for macroeconomic coordination", href: "karl-schiller.html", tags: "karl schiller economist macroeconomic coordination speer clearing competition 1977" },
   { title: "Eberhard Rees", description: "Space-program operations director and Wernher von Braun's practical successor", href: "eberhard-rees.html", tags: "eberhard rees space program peenemunde von braun raumhafen 1977" },
+  { title: "Manfred Rommel", description: "Municipal administrator and keeper of Erwin Rommel's civic and family legacy", href: "manfred-rommel.html", tags: "manfred rommel stuttgart municipal civic family memory 1970" },
+  { title: "Helmut Goebbels", description: "Documentary director and custodian of the Goebbels family-cultural inheritance", href: "helmut-goebbels.html", tags: "helmut goebbels documentary television archive family cultural inheritance 1971" },
+  { title: "Albert Speer Jr.", description: "Architect, urban planner, and deliberately limited heir to the Speer design inheritance", href: "albert-speer-jr.html", tags: "albert speer junior architect urban planner technical cities transport 1977" },
+  { title: "Günter Hessler", description: "U-107 commander, BdU staff officer, naval historian, and Dönitz-family archivist", href: "guenter-hessler.html", tags: "gunter günter hessler u-107 bdu donitz naval historian submarine" },
   { title: "Marsplan 92", description: "Germany's integrated first human expedition to Mars", href: "marsplan-92.html", tags: "marsplan 92 germany mars expedition raumhafen tharsis olympus" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
@@ -2766,6 +2770,10 @@ const crossLinks = [
   ,{ href: "walter-schellenberg.html", terms: ["Walter Schellenberg", "Schellenberg"] }
   ,{ href: "karl-schiller.html", terms: ["Karl Schiller", "Schiller"] }
   ,{ href: "eberhard-rees.html", terms: ["Eberhard Rees", "Rees"] }
+  ,{ href: "manfred-rommel.html", terms: ["Manfred Rommel"] }
+  ,{ href: "helmut-goebbels.html", terms: ["Helmut Goebbels"] }
+  ,{ href: "albert-speer-jr.html", terms: ["Albert Speer Jr.", "Albert Speer Junior"] }
+  ,{ href: "guenter-hessler.html", terms: ["Günter Hessler", "Gunter Hessler"] }
 ];
 
 function escapePattern(value) {
