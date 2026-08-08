@@ -399,7 +399,9 @@ By the later 1980s the three sons imply different possible futures without produ
 
 **Personality:** Energetic, personable, regionally accented without caricature, optimistic about industrial development, and less doctrinal than Phillips.
 
-**Goals:**
+**Formative experiences:** Landry comes of age in a Louisiana where Gulf energy, port construction, shipyards, parish institutions, technical colleges, and federal mission contracts make industrial policy visible in ordinary family life. The lawful Reagan victory in 1984 becomes equally important: defeat convinces him that National Renewal can remain a constitutional tradition only if it can surrender office without treating the electorate as an enemy.
+
+**Politics and goals:**
 
 - retain the Southern, Catholic, working-family, and mission-industrial parts of Buchanan's coalition;
 - prove that National Renewal can produce a second generation not formed by Rockwell;
@@ -552,7 +554,9 @@ By the later 1980s the three sons imply different possible futures without produ
 
 **Personality:** The **Quiet Engineer**—calm, precise, detail-fixated, difficult to provoke, reassuring after years of war, and almost incapable of sounding inspirational. His characteristic question is: “What happens when the first assumption fails?”
 
-**Goals:**
+**Formative experiences:** Ashcombe belongs to the Reconstruction or Raumbote Generation. He has no adult memory of unquestioned imperial power; his political memory begins with rationed reconstruction, Commonwealth planning, the German satellite shock, aerospace and computing expansion, Accra, Kuwait, Factory Reownership, and the discovery during the Falklands War that optimistic inventories can be more dangerous than admitted shortages. Engineering and procurement teach him to distrust any national promise that lacks spares, routes, reserves, and a failure plan.
+
+**Politics and goals:**
 
 - regularize rather than reverse Thatcher's reforms;
 - match every independent commitment with logistics;
@@ -570,7 +574,9 @@ By the later 1980s the three sons imply different possible futures without produ
 
 **Personality:** Warm, combative, emotionally fluent, industrially literate, and more capable than Ashcombe of translating administrative change into human consequence.
 
-**Goal:** Accept commercial discipline, mixed ownership, strategic defense, and the Commonwealth while giving workers and regions security during conversion.
+**Formative experiences:** Calder is formed in a northern industrial district, in a household linked to railways, steel, or heavy engineering. Training in economics or industrial law and service as a junior minister during the Healey period expose him to both the failures of unreformed public administration and the human cost of treating closures as balance-sheet events. The Falklands crisis fixes his patriotic boundary: he supports resistance to Argentina while condemning the haste and institutional self-deception behind Second Torch.
+
+**Politics and goals:** Accept commercial discipline, mixed ownership, strategic defense, and the Commonwealth while giving workers and regions security during conversion. His program favors regional investment banks, portable pensions, wage insurance, public housing, stronger employee representation, and civilian use of defense and space research.
 
 **Relationships:** Supports resistance to Argentina but condemns Second Torch. Defeats union-restoration and anti-imperial Labour factions. His principal contrast with Ashcombe is moral emphasis: Ashcombe counts restored jobs; Calder asks who survives the winter before they return.
 
@@ -582,7 +588,9 @@ By the later 1980s the three sons imply different possible futures without produ
 
 **Personality:** Intelligent, disciplined, respected by business, doctrinaire, and politically colder than Ashcombe.
 
-**Goal:** Complete liberalization through faster asset sales, wider foreign investment, fewer strategic designations, freer finance, reduced Commonwealth preference, and closer economic integration with Reagan's America.
+**Formative experiences:** Rooke's political identity develops in Treasury, commercial, and governing-party work during the long transition from public corporations to leased and reowned firms. He watches emergency protection preserve weak management as well as valuable plant and concludes that ministers routinely describe delay as strategy. American capital markets under Reagan appear to prove that finance can impose a discipline British custodianship evades. His precise education, family, constituency, and pre-parliamentary profession remain open.
+
+**Politics and goals:** Complete liberalization through faster asset sales, wider foreign investment, fewer strategic designations, freer finance, reduced Commonwealth preference, and closer economic integration with Reagan's America.
 
 **Relationships:** Leadership rival to Ashcombe and favorite of financial markets. Believes the market should decide which capacities survive; Ashcombe insists the state must first decide which capabilities it cannot safely lose.
 
@@ -594,7 +602,9 @@ By the later 1980s the three sons imply different possible futures without produ
 
 **Personality:** Patriotic, suspicious, strategically minded, culturally conservative, and highly sensitive to dependency concealed as cooperation.
 
-**Goal:** Maintain large defense reserves, imperial-route bases, Canadian and Australian ties, strategic ownership, immigration restriction, and an independent British military-space program.
+**Formative experiences:** Halden belongs to the younger Powellite and Crown-and-Commonwealth generation shaped by Lisbon's humiliation, Accra's warning against premature withdrawal, Kuwait's vindication of retained reach, and the Falklands dependence on dispersed bases and Commonwealth logistics. He learns to read technical cooperation as a chain of political obligations: the state that supplies docking, intelligence, credit, or replacement parts may eventually claim the right to direct policy. His exact birthplace, family, education, and early offices remain open.
+
+**Politics and goals:** Maintain large defense reserves, imperial-route bases, Canadian and Australian ties, strategic ownership, immigration restriction, and an independent British military-space program.
 
 **Relationships:** Distrusts Reagan and fears that American docking, intelligence, and market access will dissolve British sovereignty. His supporters transfer to Ashcombe in the leadership contest, making him indispensable to the governing right but not master of foreign policy.
 
