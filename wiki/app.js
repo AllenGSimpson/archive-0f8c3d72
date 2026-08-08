@@ -244,6 +244,9 @@ const pages = [
   { title: "Extraterrestrial Settlement", description: "The functional transition from expeditions and permanent bases to settlements and colonies", href: "extraterrestrial-settlement.html", tags: "extraterrestrial settlement permanent base colony households social reproduction moon mars" },
   { title: "Off-World Family Life", description: "Households, children, work, privacy, education, and identity beyond Earth", href: "off-world-family-life.html", tags: "off world family life households children lunar birth education privacy identity settlement" },
   { title: "Extraterrestrial Claims", description: "Occupation, safety, resource use, concessions, and disputed sovereignty beyond Earth", href: "extraterrestrial-claims.html", tags: "extraterrestrial claims space law property occupation safety zones resources sovereignty moon mars" },
+  { title: "World in 2000", description: "A synchronized political, strategic, economic, technological, and interplanetary millennium baseline", href: "world-in-2000.html", tags: "world 2000 millennium baseline five systems armed concert economy space politics" },
+  { title: "Five Powers in 2000", description: "Comparative leadership and institutional condition of the five great-power systems", href: "five-powers-in-2000.html", tags: "five powers 2000 leadership wolfgang hale mallory akihito latin armed concert" },
+  { title: "Sancta Maria Lunae", description: "The scientific, religious, and strategic Latin lunar establishment", href: "sancta-maria-lunae.html", tags: "sancta maria lunae our lady moon latin lunar base catholic science ceres" },
   { title: "Marsplan 92", description: "Germany's integrated first human expedition to Mars", href: "marsplan-92.html", tags: "marsplan 92 germany mars expedition raumhafen tharsis olympus" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
@@ -2740,6 +2743,9 @@ const crossLinks = [
   ,{ href: "extraterrestrial-settlement.html", terms: ["extraterrestrial settlement", "permanent base"] }
   ,{ href: "off-world-family-life.html", terms: ["off-world family life", "family accommodation"] }
   ,{ href: "extraterrestrial-claims.html", terms: ["extraterrestrial claims", "extraterrestrial property law"] }
+  ,{ href: "world-in-2000.html", terms: ["world in 2000", "millennium world"] }
+  ,{ href: "five-powers-in-2000.html", terms: ["Five Powers in 2000", "millennium leadership"] }
+  ,{ href: "sancta-maria-lunae.html", terms: ["Sancta Maria Lunae", "Our Lady of the Moon"] }
 ];
 
 function escapePattern(value) {

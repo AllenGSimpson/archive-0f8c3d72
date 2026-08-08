@@ -276,7 +276,7 @@ Object.assign(window.deepArticles, {
       {id:"death",title:"Death, burial, and notification",html:"<p>Procedures addressed certification, notification of families and dioceses, preservation or return of remains, emergency committal, and memorial rites when terrestrial burial was delayed.</p>"},
       {id:"1985",title:"Stella Maris and normal government",html:"<p>By the start of <em>Stella Maris</em> construction in 1985, the Church already treated off-world settlement as a permanent pastoral jurisdiction. Spaceflight enlarged the field of moral duty without creating a new category of human person.</p>"}
     ],
-    related:[{href:"stella-maris.html",kicker:"1985 multinational station",label:"Stella Maris"},{href:"space-programs.html",kicker:"Technological context",label:"The Space Race"},{href:"paul-vi.html",kicker:"Founding pontificate",label:"Paul VI"}],
+    related:[{href:"stella-maris.html",kicker:"1985 multinational station",label:"Stella Maris"},{href:"sancta-maria-lunae.html",kicker:"Latin lunar establishment",label:"Sancta Maria Lunae"},{href:"space-programs.html",kicker:"Technological context",label:"The Space Race"},{href:"paul-vi.html",kicker:"Founding pontificate",label:"Paul VI"}],
     facts:[["Permanent practice established","1980"],["Founding pontificate","Paul VI"],["Jurisdictional principle","Station ownership does not confer spiritual authority"],["Environments","Orbital and lunar"],["Timekeeping","Calendars and obligations regulated"],["Material planning","Sacramental supplies"],["Personnel","Chaplains and mixed crews"],["Death care","Notification, remains, burial, memorial rites"]]
   })
 });
