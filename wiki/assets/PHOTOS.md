@@ -295,3 +295,12 @@ These public-domain photographs provide the pre-divergence architectural basis f
 | --- | --- | --- |
 | `photos/taiwan-government-general-1920s.jpg` | Office of the Government-General of Taiwan in Taihoku, c. 1920–1929 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:C._1920_to_1929_Office_of_the_Governor-General_of_Taiwan.jpg), sourced from the Library of Congress; public domain in Japan and the United States |
 | `photos/taihoku-prefectural-office-1933.jpg` | Taihoku Prefecture government building, before November 1933 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taihoku_state_office_around_1933.jpg), published by the Government-General of Taiwan; public domain in Japan and the United States |
+
+## Historical German leisure and exhibition images
+
+These images establish the pre-divergence architecture and visual culture inherited by the alternate postwar tourism and exhibition system. Their use after 1947 is alternate history.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `photos/prora-kdf-seaside.jpg` | The monumental KdF seaside complex at Prora | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ProraSeeseite.jpg), photograph by Steffen Löwe; released into the public domain by the author |
+| `photos/leipzig-exhibition-poster-1930.jpg` | Otto Arpke poster for Leipzig's 1930 international fur and hunting exhibition | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IPA_Plakat.jpg), work by Otto Arpke (1886–1943); public domain |
