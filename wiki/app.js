@@ -237,6 +237,10 @@ const pages = [
   { title: "Commonwealth Planetary Communications and Navigation Network", description: "Britain's sovereign Commonwealth communications and navigation geography beyond Earth", href: "commonwealth-planetary-network.html", tags: "commonwealth planetary network communications navigation britain resolution serenity high mast mars 2000 2010" },
   { title: "Resolution Compact", description: "David Ashcombe's apportioned Commonwealth agreement for Resolution and its supporting system", href: "resolution-compact.html", tags: "resolution compact ashcombe commonwealth space board workshare canada australia new zealand south africa" },
   { title: "Stella Maris Shock", description: "The 1991–1992 British political crisis over the apparent orbital race for fifth place", href: "stella-maris-shock.html", tags: "stella maris shock britain fifth resolution calder ashcombe 1991 1992 space politics" },
+  { title: "History of Nuclear-Weapons Research", description: "Atomic feasibility studies that never produced a test, production line, or arsenal", href: "nuclear-weapons-research.html", tags: "nuclear weapons research atomic bomb feasibility germany latent capability fissile production no arsenal" },
+  { title: "Atomic-Bomb Taboo", description: "The cultural and political barrier against creating the first atomic explosive", href: "atomic-bomb-taboo.html", tags: "atomic bomb taboo atmospheric ignition science fiction doomsday weapon culture first builder" },
+  { title: "Armed Concert", description: "The mature Five-Power system of conventional deterrence, finite war, and unusable conquest", href: "armed-concert.html", tags: "armed concert five powers strategic order finite war satiation war termination conventional deterrence" },
+  { title: "Great-Power Escalation Ladder", description: "The six-stage grammar from normal competition through limited conflict to general war", href: "great-power-escalation-ladder.html", tags: "great power escalation ladder crisis stages normal competition coercion readiness confrontation limited general war" },
   { title: "Marsplan 92", description: "Germany's integrated first human expedition to Mars", href: "marsplan-92.html", tags: "marsplan 92 germany mars expedition raumhafen tharsis olympus" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
@@ -2726,6 +2730,10 @@ const crossLinks = [
   ,{ href: "commonwealth-planetary-network.html", terms: ["Commonwealth Planetary Communications and Navigation Network", "sovereign planetary communications and navigation network"] }
   ,{ href: "resolution-compact.html", terms: ["Commonwealth Resolution Compact", "Resolution Compact"] }
   ,{ href: "stella-maris-shock.html", terms: ["Stella Maris shock", "Britain fifth"] }
+  ,{ href: "nuclear-weapons-research.html", terms: ["history of nuclear-weapons research", "nuclear-weapons research"] }
+  ,{ href: "atomic-bomb-taboo.html", terms: ["atomic-bomb taboo", "atomic bomb taboo"] }
+  ,{ href: "armed-concert.html", terms: ["Armed Concert", "five-power armed concert"] }
+  ,{ href: "great-power-escalation-ladder.html", terms: ["great-power escalation ladder", "six-stage escalation grammar"] }
 ];
 
 function escapePattern(value) {
