@@ -1,0 +1,307 @@
+window.deepArticles = window.deepArticles || {};
+
+const portugueseAfricaSources = [
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — Portugal, Angola, Mozambique, and African insurgency"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — 1972–1980 Portuguese-African emergency"},
+  {href:"../transcript.md",label:"Master Transcript — corrected Portuguese-African intervention and Fireforce canon"}
+];
+
+const portugueseAfricaRelated = [
+  {href:"portugal.html",kicker:"Metropolitan sovereign",label:"Portugal and the Lusophone Empire"},
+  {href:"portuguese-angola.html",kicker:"Atlantic province",label:"Portuguese Angola"},
+  {href:"portuguese-mozambique.html",kicker:"Indian Ocean province",label:"Portuguese Mozambique"},
+  {href:"latin-bloc.html",kicker:"Coalition context",label:"Latin Bloc"}
+];
+
+const portugueseAfricaArticle = config => ({
+  category:"Portuguese Africa",eyebrow:"Portuguese Africa · Latin intervention · 1972–1980",infoboxKicker:"Portuguese-African history",...config,
+  sources:[...portugueseAfricaSources,...(config.additionalSources || [])],
+  categories:config.categories || ["Portugal","Angola","Mozambique","Latin Bloc","Colonial Africa"]
+});
+
+Object.assign(window.deepArticles, {
+  "portuguese-african-emergency": portugueseAfricaArticle({
+    title:"Portuguese-African Emergency",infoboxTitle:"Portuguese-African Emergency",
+    lead:"The Portuguese-African Emergency was the connected but highly fragmented cycle of arms diversion, criminal violence, local revolt, nationalist organization, foreign military assistance, and administrative reconquest that affected Angola and Mozambique from 1972 to 1980. It was not a two-front war against coherent Soviet-sponsored liberation armies. Portugal confronted scores of changing armed groups whose motives, names, and social bases overlapped only unevenly.",
+    canon:"The 1972–1980 sequence, fragmented character of the insurgencies, absence of a Soviet-directed common front, Portuguese-led Latin intervention from 1977, Mozambique Fireforce system, heavier Angolan variants, 1977–79 clearing campaigns, and 1979–80 consolidation are established. Campaign names, commanders, unit numbers, casualties, and a single formal emergency proclamation remain open.",
+    sections:[
+      {id:"origins",title:"From arms trade to emergency",html:"<p>Legal sales and surplus weapons entered a growing gray market in the late 1960s and early 1970s. Diversion armed smugglers, chiefs, protection networks, hunters, police auxiliaries, and criminal bands before political organizations could control the traffic.</p><p>Violence then became self-sustaining: cross-border patronage and local retaliation produced armed groups that sometimes adopted nationalist language only after acquiring men and weapons.</p>"},
+      {id:"character",title:"A fragmented insurgency",html:"<p><a href='portuguese-african-insurgent-movements.html'>Armed movements</a> ranged from bandit companies and village guards to genuine nationalist cells. Angola alone approached one hundred separately tracked groups at the peak; Mozambique produced still more names, many attached to small, temporary organizations.</p>"},
+      {id:"arms",title:"Weapons and routes",html:"<p>The <a href='gray-arms-market-portuguese-africa.html'>gray arms market</a> supplied old rifles, first-generation assault rifles, submachine guns, machine guns, pistols, shotguns, grenades, explosives, and occasional mortars or simple rockets. Ammunition, caliber, radio, and spare-parts incompatibility limited sustained operations.</p>"},
+      {id:"crisis",title:"The simultaneous crisis, 1975–1976",html:"<p>By 1975 Portuguese police and district forces faced violence across two immense provinces. Raids on roads, markets, farms, missions, border posts, and villages forced Lisbon to treat the disorders as a linked imperial emergency even though no unified enemy command existed.</p>"},
+      {id:"intervention",title:"Portuguese-led Latin intervention",html:"<p>In 1977 Portugal requested and controlled a <a href='latin-intervention-portuguese-africa.html'>Latin coalition intervention</a>. Spain concentrated on Angola, Italy on Mozambique, and Occitania on aviation, sensors, communications, mapping, and technical integration. Brazil did not participate militarily.</p>"},
+      {id:"campaigns",title:"Clearing campaigns, 1977–1979",html:"<p><a href='portuguese-african-clearing-campaigns.html'>Clearing operations</a> broke large bands, pressured arms corridors, registered minor groups, offered selective amnesties, and prosecuted prominent killers and extortionists. Tactical air mobility mattered most where intelligence could locate targets quickly.</p>"},
+      {id:"consolidation",title:"Consolidation, 1979–1980",html:"<p>Victory was completed through <a href='portuguese-african-consolidation.html'>garrisons, roads, courts, registries, police, schools, communications, and licensed markets</a>. More Africans entered Portuguese institutions, but Lisbon did not grant sovereign power or begin decolonization.</p>"},
+      {id:"meaning",title:"Historical meaning",html:"<p>The emergency was the Latin Bloc's first major combined war and a demonstration that local revolt did not require communist sponsorship. It preserved Portuguese sovereignty while deepening surveillance, registration, coercive assimilation, and the administrative reach that had helped generate resistance.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"latin-intervention-portuguese-africa.html",kicker:"Coalition campaign",label:"Latin intervention"},{href:"portuguese-african-consolidation.html",kicker:"Political outcome",label:"Postwar consolidation"}],
+    facts:[["Period","1972–1980"],["Principal theaters","Angola and Mozambique"],["Enemy structure","Fragmented and locally rooted"],["Coalition intervention","From 1977"],["Clearing phase","1977–1979"],["Consolidation","1979–1980"],["Strategic result","Portuguese rule preserved"],["Decolonization","None"]]
+  }),
+
+  "portuguese-angola": portugueseAfricaArticle({
+    title:"Portuguese Angola",eyebrow:"Portuguese overseas province · Atlantic Africa",infoboxTitle:"Angola",infoboxKicker:"Integral Portuguese overseas province",
+    flag:{src:"assets/flags/portugal.svg",alt:"Flag of Portugal",caption:"The Portuguese national flag, used by the integral overseas province of Angola; Angola has no separate sovereign national flag."},
+    lead:"Portuguese Angola is Portugal's vast Atlantic African province and the western pillar of the Lusophone empire. Lisbon treats it not as a country awaiting independence but as integral Portuguese territory whose ports, railways, minerals, settler districts, and inland corridors give the Latin Bloc strategic depth beside German Mittelafrika.",
+    canon:"Angola's integral provincial status, Portuguese sovereignty and flag, development role, Mittelafrika frontier, fragmented 1970s emergency, Spanish-heavy intervention, airmobile pursuit groups, 1977–79 clearing, and continued Portuguese rule are established. Its final internal constitution, population totals, district boundaries, and formal provincial title remain open.",
+    sections:[
+      {id:"status",title:"Constitutional status",html:"<p>Lisbon defines Angola as an overseas province within the Portuguese state. The classification denies international or domestic recognition to an alternative Angolan sovereignty and frames the emergency as restoration of jurisdiction rather than a war between governments.</p>"},
+      {id:"geography",title:"Ports, corridors, and frontier",html:"<p>Atlantic ports connect rail, mining, agricultural, and settlement zones to Europe and Brazil. Inland routes meet the unstable chiefly and commercial systems of <a href='mittelafrika.html'>Mittelafrika</a>, making the frontier both an economic opportunity and the province's principal arms-leakage problem.</p>"},
+      {id:"society",title:"Unequal provincial society",html:"<p>Settler agriculture, mining towns, missions, African villages, contract labor, and Portuguese administrative centers coexist under unequal citizenship and land access. The postwar state expands services without abandoning assimilation or metropolitan supremacy.</p>"},
+      {id:"economy",title:"Development and extraction",html:"<p>Lisbon's 1948–1953 Atlantic and colonial program directs credit toward ports, railways, military roads, mines, commercial agriculture, fuel, and communications. Development makes territory governable and profitable while tying investment to security corridors.</p>"},
+      {id:"emergency",title:"Angolan Emergency",html:"<p>The <a href='angolan-emergency.html'>Angolan Emergency</a> grows from cross-border arms diversion, protection rackets, chiefly retainers, village conflicts, and genuine nationalist cells. Nearly one hundred groups are tracked at the peak, many too small or transient to sustain a national organization.</p>"},
+      {id:"intervention",title:"Spanish and Latin assistance",html:"<p>Portugal remains in command while Spain supplies the principal foreign ground contribution: motorized forces, transport aircraft, helicopters, armored cars, trucks, engineers, maritime patrol, and convoy support. Occitan technical systems improve intelligence and movement.</p>"},
+      {id:"pursuit",title:"Heavy airmobile pursuit",html:"<p>Angola's distances make compact Fireforce sorties unreliable. <a href='angolan-airmobile-pursuit-groups.html'>Airmobile pursuit groups</a> use medium-lift helicopters, transports, paratroops, Spanish columns, temporary refueling points, and multiday sweeps.</p>"},
+      {id:"after",title:"Angola after 1980",html:"<p>Roads, district offices, police posts, registries, courts, markets, and border liaison extend Portuguese reach. Africans hold more subordinate posts as soldiers, police, clerks, teachers, and technicians, but these careers remain inside Portuguese institutions rather than an autonomous Angolan state.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"angolan-emergency.html",kicker:"1970s conflict",label:"Angolan Emergency"},{href:"german-portuguese-frontier-coordination.html",kicker:"Postwar frontier",label:"German–Portuguese coordination"}],
+    facts:[["Sovereign state","Portugal"],["Legal status","Integral overseas province"],["Flag","Portuguese national flag"],["Ocean","Atlantic"],["Strategic frontier","Mittelafrika"],["Main foreign military partner","Spain"],["Reaction method","Heavy airmobile pursuit"],["1980 status","Portuguese rule consolidated"]]
+  }),
+
+  "portuguese-mozambique": portugueseAfricaArticle({
+    title:"Portuguese Mozambique",eyebrow:"Portuguese overseas province · Indian Ocean Africa",infoboxTitle:"Mozambique",infoboxKicker:"Integral Portuguese overseas province",
+    flag:{src:"assets/flags/portugal.svg",alt:"Flag of Portugal",caption:"The Portuguese national flag, used by the integral overseas province of Mozambique; Mozambique has no separate sovereign national flag."},
+    lead:"Portuguese Mozambique is Portugal's Indian Ocean province, a long coastal and riverine territory linking southern Africa, the Zambezi basin, and Latin maritime power through Suez and Italian East Africa. It becomes the birthplace of the compact Portuguese-Latin Fireforce system during the emergency of the 1970s.",
+    canon:"Mozambique's integral provincial status, Portuguese sovereignty and flag, Tete–Zambezi role, fragmented arms routes, Italian-heavy intervention, Occitan rotary-wing enablers, compact Fireforce system, clearing campaigns, and continued Portuguese rule are established. The final constitution, district boundaries, demographic totals, and exact intervention headquarters remain open.",
+    sections:[
+      {id:"status",title:"Constitutional status",html:"<p>Mozambique is governed as an overseas province of Portugal. Lisbon regards armed resistance as rebellion, banditry, and failure of jurisdiction within Portuguese territory, not a recognized international war of independence.</p>"},
+      {id:"geography",title:"A long Indian Ocean province",html:"<p>Ports, river mouths, rail corridors, district towns, inland plateaus, and an immense border make the province difficult to police. Suez, the Red Sea, and Italian East Africa provide the coalition's most direct external supply line.</p>"},
+      {id:"tete",title:"The Tete–Zambezi hinge",html:"<p>Tete and the Zambezi combine roads, crossings, airfields, inhabited corridors, woodland, and routes toward Rhodesia, Northern Rhodesia, and Nyasaland. Concealment is plentiful, yet useful aerial observation remains possible—the conditions that make rapid reaction effective.</p>"},
+      {id:"economy",title:"Corridor development",html:"<p>Portuguese investment concentrates on ports, railways, agricultural zones, river transport, mines, roads, and administrative towns. Strategic development follows corridors more readily than it creates uniform control of the countryside.</p>"},
+      {id:"emergency",title:"Mozambican Emergency",html:"<p>The <a href='mozambican-emergency.html'>Mozambican Emergency</a> is fed by coastal traffic, fishing, rivers and lakes, minor roads, and the southern and eastern African gray market. Criminal, communal, chiefly, and nationalist groups repeatedly combine and divide.</p>"},
+      {id:"italy",title:"Italian and Occitan assistance",html:"<p>Italy supplies the larger aviation and command institution, an air-mobile or marine formation, naval and carrier aviation, helicopters, transports, reconnaissance, fuel, ammunition, and blockade support. Occitania supplies reliable hot-and-high systems, sensors, communications, mapping, and maintenance planning.</p>"},
+      {id:"fireforce",title:"Birthplace of Fireforce",html:"<p>The <a href='tete-zambezi-fireforce.html'>Tete–Zambezi Fireforce</a> links precise intelligence to a waiting reaction unit, airborne command, blocking groups, fire support, and a ground sweep. It succeeds because many targets lie within helicopter or light-aircraft range and lack coherent antiaircraft defense.</p>"},
+      {id:"after",title:"Mozambique after 1980",html:"<p>Permanent posts, roads, courts, police, markets, communications, and licensed local institutions replace continuous emergency sorties. The province is more governable and more intrusive; expanded African participation does not create sovereignty or decolonization.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"mozambican-emergency.html",kicker:"1970s conflict",label:"Mozambican Emergency"},{href:"tete-zambezi-fireforce.html",kicker:"Reaction doctrine",label:"Tete–Zambezi Fireforce"}],
+    facts:[["Sovereign state","Portugal"],["Legal status","Integral overseas province"],["Flag","Portuguese national flag"],["Ocean","Indian Ocean"],["Operational hinge","Tete–Zambezi corridor"],["Main foreign military partner","Italy"],["Technical enabler","Occitania"],["1980 status","Portuguese rule consolidated"]]
+  }),
+
+  "angolan-emergency": portugueseAfricaArticle({
+    title:"Angolan Emergency",eyebrow:"Portuguese Angola · 1972–1980",infoboxTitle:"Angolan Emergency",
+    lead:"The Angolan Emergency was the western theater of the Portuguese-African crisis. Cross-border leakage from Mittelafrika, criminal protection networks, chiefly patronage, communal defense, and nationalist organization produced nearly one hundred separately tracked groups at the peak, without a single insurgent army or foreign revolutionary directorate.",
+    canon:"The theater's chronology, Mittelafrika leakage, fragmented group count, Portuguese command, large Spanish contribution, heavy airmobile method, clearing campaigns, and Portuguese victory are established. Named factions, commanders, formal operations, casualties, and exact provincial boundaries remain open.",
+    sections:[
+      {id:"origins",title:"Origins",html:"<p>Weapons moved through kinship, marriage, river, commodity, livestock, and smuggling networks along the Mittelafrika frontier. Berlin did not direct a war against Portugal; the Mosaic Order simply created many local authorities capable of leaking arms.</p>"},
+      {id:"groups",title:"Nearly one hundred groups",html:"<p>Portuguese files tracked bandit gangs, chief's retainers, village defense formations, opportunistic nationalist fronts, and genuine political cells. Names and allegiances changed faster than authorities could create a stable order of battle.</p>"},
+      {id:"violence",title:"Violence against civilians",html:"<p>Road extortion, cattle theft, punishment raids, kidnappings, market coercion, and village reprisals made civilians the principal victims. The difference between smuggler, insurgent, auxiliary, hunter, and village guard was often situational rather than institutional.</p>"},
+      {id:"response",title:"Portuguese layers of response",html:"<p>Territorial security protected posts and corridors; mobile columns pursued regional threats; a theater reserve responded to larger concentrations. Police and judicial investigation remained necessary because many armed actors returned to criminal commerce after fighting.</p>"},
+      {id:"spain",title:"Spanish contribution",html:"<p>Spain provided the coalition's principal foreign ground weight in Angola, including motorized troops, transport, helicopters, armored cars, engineers, maritime patrol, convoy protection, and repair. Operational command remained Portuguese.</p>"},
+      {id:"pursuit",title:"Airmobile pursuit",html:"<p>Long distances and poor coverage led to <a href='angolan-airmobile-pursuit-groups.html'>heavy airmobile pursuit groups</a> rather than the compact Mozambican model. Operations used temporary refueling points and multiday ground blocks.</p>"},
+      {id:"clearing",title:"Breaking the larger bands",html:"<p>From 1977 to 1979 Portuguese and allied forces destroyed or split larger formations, seized caches, pressured brokers, and divided minor groups through registration, amnesty, or local incorporation.</p>"},
+      {id:"result",title:"Result",html:"<p>By 1980 no armed movement could govern a durable alternative territory. Portuguese victory depended less on eliminating every gunman than on increasing administrative density and reducing the space in which armed commerce could function.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"gray-arms-market-portuguese-africa.html",kicker:"Conflict origin",label:"Gray arms market"},{href:"angolan-airmobile-pursuit-groups.html",kicker:"Operational method",label:"Airmobile pursuit groups"}],
+    facts:[["Period","1972–1980"],["Theater","Portuguese Angola"],["Peak tracked groups","Nearly 100"],["Principal external leakage","Mittelafrika frontier"],["Foreign ground partner","Spain"],["Operational method","Heavy airmobile pursuit"],["Clearing phase","1977–1979"],["Result","Portuguese victory"]]
+  }),
+
+  "mozambican-emergency": portugueseAfricaArticle({
+    title:"Mozambican Emergency",eyebrow:"Portuguese Mozambique · 1972–1980",infoboxTitle:"Mozambican Emergency",
+    lead:"The Mozambican Emergency was the eastern theater of the Portuguese-African crisis and the setting in which Portugal, Italy, and Occitania developed the classic compact Fireforce system. More movements were named than in Angola, but many were small, transient, criminal, communal, or opportunistically nationalist rather than components of a common liberation army.",
+    canon:"The theater's chronology, fragmented groups, broad southern and eastern gray market, Italian and Occitan contributions, Tete–Zambezi Fireforce, clearing campaigns, and Portuguese victory are established. Named factions, operation titles, commanders, casualties, and exact force strength remain open.",
+    sections:[
+      {id:"routes",title:"A porous theater",html:"<p>Weapons and contraband crossed a huge border by minor road, river, lake, fishing boat, coastal craft, and commercial convoy. British-adjacent and southern African trading systems created routes without requiring British sponsorship.</p>"},
+      {id:"movements",title:"Proliferation of movements",html:"<p>Authorities recorded more named movements than in Angola. Many were village coalitions, rackets, local self-defense groups, or temporary fronts whose political vocabulary exceeded their institutional capacity.</p>"},
+      {id:"tete",title:"Tete–Zambezi concentration",html:"<p>Roads, river crossings, district towns, airfields, and regional transit made the Tete–Zambezi corridor valuable to both government and insurgents. Broken woodland gave concealment without making aerial observation impossible.</p>"},
+      {id:"portugal",title:"Portuguese command",html:"<p>Portugal supplied local intelligence, police files, district knowledge, garrisons, ground practice, courts, and most territorial forces. The campaign remained an assertion of Portuguese jurisdiction.</p>"},
+      {id:"italy",title:"Italian expeditionary support",html:"<p>Italy used Suez, the Red Sea, and East African positions to sustain aviation, marine, naval, reconnaissance, fuel, ammunition, and logistical support. National units remained distinct beneath Portuguese operational direction.</p>"},
+      {id:"fireforce",title:"Fireforce",html:"<p><a href='fireforce-portuguese-africa.html'>Fireforce</a> joined local intelligence to a waiting helicopter and light-aircraft reaction force. Airborne command placed blocking groups and fire support around a located band before ground forces completed the sweep.</p>"},
+      {id:"limits",title:"Tactical success, strategic limits",html:"<p>Fireforce could destroy located groups, reinforce posts, recover weapons, and interrupt raids. It could not close the arms market, distinguish every villager from every insurgent, or hold territory after the aircraft departed.</p>"},
+      {id:"result",title:"Result",html:"<p>Clearing operations reduced large concentrations; roads, police, registries, courts, customs, and licensed markets made the result durable. Mozambique remained Portuguese after 1980.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"tete-zambezi-fireforce.html",kicker:"Principal method",label:"Tete–Zambezi Fireforce"},{href:"gray-arms-market-portuguese-africa.html",kicker:"Conflict origin",label:"Gray arms market"}],
+    facts:[["Period","1972–1980"],["Theater","Portuguese Mozambique"],["Movement structure","Numerous small and transient groups"],["Operational center","Tete–Zambezi"],["Foreign aviation partner","Italy"],["Technical partner","Occitania"],["Principal method","Compact Fireforce"],["Result","Portuguese victory"]]
+  }),
+
+  "gray-arms-market-portuguese-africa": portugueseAfricaArticle({
+    title:"Gray Arms Market in Portuguese Africa",infoboxTitle:"Portuguese-African gray arms market",infoboxKicker:"Cross-border arms economy",
+    lead:"The gray arms market was the material system from which the Angolan and Mozambican emergencies grew. Legal weapons, surplus stocks, theft, resale, cross-border patronage, and ordinary smuggling armed criminal and communal networks before the most visible nationalist fronts existed.",
+    canon:"The legal-to-gray-market sequence, different Angolan and Mozambican routes, typical low-to-medium sophistication of weapons, logistical fragmentation, and absence of a single state sponsor are established. Broker names, volumes, exact source percentages, prices, and seizure totals remain open.",
+    sections:[
+      {id:"sequence",title:"The diversion sequence",html:"<p>Legal arms trade created stock; weak controls and corruption diverted it; criminal groups acquired protection and coercive power; cross-border patrons expanded the trade; escalating violence encouraged nationalist rebranding and genuine political recruitment.</p>"},
+      {id:"inventory",title:"Typical inventory",html:"<p>Old rifles, first-generation assault rifles, submachine guns, light and general-purpose machine guns, pistols, shotguns, grenades, explosives, and occasional mortars or simple rockets predominated. Commercial and stolen radios supported some coordination.</p>"},
+      {id:"absence",title:"What was uncommon",html:"<p>Modern StG 60-series weapons, guided missiles, tanks, sophisticated antiaircraft systems, and standardized artillery were rare or absent. The emergencies were not supplied as conventional proxy wars.</p>"},
+      {id:"friction",title:"Caliber and spare-parts friction",html:"<p>Mixed calibers, unreliable ammunition, worn magazines, missing parts, incompatible radios, and improvised maintenance limited group endurance. A band could be heavily armed for one raid yet unable to sustain a campaign.</p>"},
+      {id:"angola",title:"Angolan routes",html:"<p>Kinship, marriage, commodity, river, livestock, and chiefly networks leaked weapons from Mittelafrika's Mosaic Order. The trade reflected dispersed frontier authority rather than a Berlin plan to arm Portuguese rebels.</p>"},
+      {id:"mozambique",title:"Mozambican routes",html:"<p>Southern and eastern African trading systems, minor roads, river and lake transport, fishing, coastal traffic, and British-adjacent routes fed Mozambique's broader market.</p>"},
+      {id:"suppression",title:"Suppression",html:"<p>Military patrols seized loads, but durable suppression required serial-number exchanges, broker investigation, customs, licensed markets, road posts, shipping intelligence, and cooperation with neighboring authorities.</p>"},
+      {id:"importance",title:"Historical importance",html:"<p>The market explains why armed nationalism proliferated without Soviet direction and why destroying insurgent columns alone could not end the emergency. Portugal ultimately had to govern circulation as well as territory.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"portuguese-african-insurgent-movements.html",kicker:"Armed users",label:"Insurgent movements"},{href:"german-portuguese-frontier-coordination.html",kicker:"Postwar control",label:"Frontier coordination"}],
+    facts:[["Peak period","Late 1960s–1970s"],["Initial source","Legal trade and surplus diversion"],["Typical weapons","Small arms and explosives"],["Advanced guided weapons","Rare or absent"],["Angolan route","Mittelafrika frontier networks"],["Mozambican route","Southern and eastern gray market"],["Principal weakness","Ammunition and parts fragmentation"],["Single state sponsor","None"]]
+  }),
+
+  "portuguese-african-insurgent-movements": portugueseAfricaArticle({
+    title:"Portuguese-African Insurgent Movements",infoboxTitle:"Insurgent movements",infoboxKicker:"Fragmented armed landscape",
+    lead:"Portuguese-African insurgent movements were the hundreds of named or locally identified armed groups active during the Angolan and Mozambican emergencies. The category included criminals, chiefly retainers, village defenders, opportunistic nationalist fronts, and genuine ideological organizations; it did not describe one coalition.",
+    canon:"The five broad categories, fluid identities, near-one-hundred Angolan count, still larger Mozambican name count, civilian targeting, rare communist cells, and lack of a Soviet-paid front are established. Individual names, ideologies, leaders, territories, and longevity remain deliberately open pending further canon.",
+    sections:[
+      {id:"criminal",title:"Criminal bands",html:"<p>Smuggling, extortion, cattle theft, road robbery, kidnapping, and protection rackets armed the earliest durable bands. Political language could improve recruitment or legitimacy without changing the group's economic core.</p>"},
+      {id:"chiefly",title:"Chiefly and patronage networks",html:"<p>Local authorities and patrons maintained retainers to defend routes, collect obligations, settle feuds, or bargain with the state. Their loyalties were personal and territorial more often than ideological.</p>"},
+      {id:"communal",title:"Village and communal defense",html:"<p>Communities armed against raiders, rival villages, police, or requisition. The same formation could be recorded as loyal auxiliary, illegal militia, or insurgent band after a change in local alliances.</p>"},
+      {id:"opportunist",title:"Opportunistic nationalist fronts",html:"<p>Some leaders converted existing armed networks into nationalist organizations because national claims attracted recruits and foreign attention. Their institutions often remained thin.</p>"},
+      {id:"genuine",title:"Genuine nationalist and ideological cells",html:"<p>Real African nationalists sought political independence or cultural liberation. Religious currents and rare communist groups also existed, but none controlled the overall emergency and no Soviet-directed common front emerged.</p>"},
+      {id:"fluidity",title:"Fluid names and membership",html:"<p>Groups split, merged, renamed themselves, dissolved into villages, or returned to smuggling. Portuguese tallies counted separately tracked entities rather than stable armies.</p>"},
+      {id:"civilians",title:"Civilian exposure",html:"<p>Most violence fell on civilians through extortion, punishment, retaliation, forced supply, abduction, and collective suspicion. Government auxiliaries and counterinsurgency forces added their own coercion.</p>"},
+      {id:"settlement",title:"Registration, amnesty, and prosecution",html:"<p>Portugal divided minor groups through registration, local service, and selective amnesty while prosecuting major killers and extortionists. The policy treated the landscape as a jurisdictional and criminal problem as much as a battlefield.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"gray-arms-market-portuguese-africa.html",kicker:"Material basis",label:"Gray arms market"},{href:"portuguese-african-clearing-campaigns.html",kicker:"Military response",label:"Clearing campaigns"}],
+    facts:[["Structure","No common command"],["Angolan peak","Nearly 100 tracked groups"],["Mozambican pattern","Still more named groups; many transient"],["Broad categories","Five"],["Most common origins","Criminal, patronage, and communal"],["Genuine nationalism","Present"],["Communist role","Rare"],["Soviet-directed front","Absent"]]
+  }),
+
+  "latin-intervention-portuguese-africa": portugueseAfricaArticle({
+    title:"Latin Intervention in Portuguese Africa",eyebrow:"Latin Bloc · Portuguese command · 1977–1979",infoboxTitle:"Latin intervention",infoboxKicker:"Portuguese-led coalition campaign",
+    lead:"The Latin intervention in Portuguese Africa began in 1977 when Portugal brought Spanish, Italian, and Occitan capabilities into the simultaneous Angolan and Mozambican emergencies. It became the Latin Bloc's first major combined war without creating a supranational army: national formations remained distinct and operational authority remained Portuguese.",
+    canon:"The 1977 start, Portuguese sovereignty and command, Spain's Angolan emphasis, Italy's Mozambican emphasis, Occitania's technical role, Brazil's nonparticipation, nationally distinct forces, and 1979 conclusion of the principal clearing phase are established. A formal operation name, headquarters, command roster, force strengths, and treaties remain open.",
+    sections:[
+      {id:"decision",title:"The 1977 decision",html:"<p>Simultaneous emergencies exceeded Portugal's mobile reserves and aviation capacity. Lisbon sought allied capabilities while refusing any arrangement that implied shared sovereignty over its provinces.</p>"},
+      {id:"portugal",title:"Portuguese primacy",html:"<p>Portugal supplied theater command, most ground forces, patrol craft, police, courts, local intelligence, garrisons, and administration. Foreign units supported the restoration of Portuguese jurisdiction.</p>"},
+      {id:"spain",title:"Spain in Angola",html:"<p>Spain concentrated a motorized brigade-scale contribution and supporting aircraft, helicopters, armored cars, trucks, engineers, maritime patrol, convoy protection, and maintenance in Angola.</p>"},
+      {id:"italy",title:"Italy in Mozambique",html:"<p>Italy concentrated air-mobile or marine forces, naval and carrier aviation, helicopters, transports, reconnaissance, fuel, ammunition, and logistical support in Mozambique, supplied through Suez and the Red Sea.</p>"},
+      {id:"occitania",title:"Occitan technical integration",html:"<p>Occitania supplied secure communications, signals intelligence, direction finding, aerial photography, night vision, sensors, tactical computing, mapping, light aircraft, navigation, fire-control aids, and maintenance planning.</p>"},
+      {id:"brazil",title:"Brazil outside the war",html:"<p>Brazil remained an economic Lusophone associate and took no military role. Its absence preserved the distinction between cultural-economic community and the European Latin security machinery.</p>"},
+      {id:"command",title:"National forces, common operations",html:"<p>There was no Latin legion or permanent combined army. National chains of administration and discipline remained intact while Portuguese headquarters assigned operational sectors and objectives.</p>"},
+      {id:"legacy",title:"Coalition legacy",html:"<p>Common doctrine, aviation practice, intelligence exchange, and logistics planning continued after 1980 through an available assistance mechanism, but the bloc still lacked a standing supranational force.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"latin-military-assistance-portuguese-africa.html",kicker:"Institutional legacy",label:"Latin military assistance"},{href:"fireforce-portuguese-africa.html",kicker:"Operational innovation",label:"Fireforce"}],
+    facts:[["Period","1977–1979"],["Theater sovereign","Portugal"],["Operational command","Portuguese"],["Spanish emphasis","Angola"],["Italian emphasis","Mozambique"],["Occitan emphasis","Technical systems"],["Brazilian military role","None"],["Standing Latin army","None"]]
+  }),
+
+  "latin-military-assistance-portuguese-africa": portugueseAfricaArticle({
+    title:"Latin Military Assistance in Portuguese Africa",infoboxTitle:"Latin military assistance",infoboxKicker:"Multinational support mechanism",
+    lead:"Latin military assistance in Portuguese Africa was the practical machinery through which Portuguese, Spanish, Italian, and Occitan national forces cooperated during and after the 1977–1979 clearing campaigns. It was a mechanism of coordination, access, and common learning rather than a sovereign organization or permanent army.",
+    canon:"The functional mechanism, national separation, Portuguese control, shared lessons, post-1980 availability, and Brazilian exclusion from military machinery are established. Its official name, permanent offices, funding formula, staff size, and legal instruments remain open and should not be inferred as a formal alliance command.",
+    sections:[
+      {id:"purpose",title:"Purpose",html:"<p>The mechanism matched Portuguese theater requirements with Spanish mobility, Italian aviation and maritime support, and Occitan electronics and systems integration.</p>"},
+      {id:"sovereignty",title:"Portuguese sovereignty",html:"<p>Portugal approved missions, assigned areas, retained courts and police authority, and controlled the political definition of success. Assistance did not internationalize Angola or Mozambique.</p>"},
+      {id:"national",title:"National command and discipline",html:"<p>Units kept national pay, administration, uniforms, promotion, discipline, and logistical chains. Coordination occurred through liaison and operational tasking rather than institutional merger.</p>"},
+      {id:"aviation",title:"Aviation and mobility",html:"<p>Italian and Spanish aircraft enlarged Portugal's lift, surveillance, and maritime reach. Occitan communications and navigation improved reliability in hot, high, dispersed conditions.</p>"},
+      {id:"intelligence",title:"Intelligence and technical support",html:"<p>Direction finding, mapping, aerial photography, signals work, night observation, maintenance forecasting, and tactical computation made locally gathered Portuguese intelligence more actionable.</p>"},
+      {id:"logistics",title:"Routes and logistics",html:"<p>Spain supported the Atlantic-Angolan route; Italy supported the Suez–Red Sea–Mozambique route. Repair, fuel, ammunition, medical evacuation, and shipping coordination mattered as much as combat formations.</p>"},
+      {id:"after",title:"After 1980",html:"<p>The partners retained procedures and access for future Portuguese requests. Lessons entered common doctrine without creating a permanent expeditionary army.</p>"},
+      {id:"limits",title:"Limits",html:"<p>Brazil remained outside the military system, and Portugal rejected foreign control over colonial policy. The mechanism therefore demonstrated both the Latin Bloc's growing capacity and its continuing political fragmentation.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"latin-intervention-portuguese-africa.html",kicker:"Wartime employment",label:"Latin intervention"},{href:"tete-zambezi-fireforce.html",kicker:"Combined application",label:"Tete–Zambezi Fireforce"}],
+    facts:[["Form","Coordination mechanism"],["Sovereign authority","Portugal"],["Forces","Nationally distinct"],["Permanent supranational army","No"],["Atlantic support emphasis","Spain"],["Indian Ocean support emphasis","Italy"],["Systems integration","Occitania"],["Post-1980 status","Available for future assistance"]]
+  }),
+
+  "fireforce-portuguese-africa": portugueseAfricaArticle({
+    title:"Fireforce in Portuguese Africa",infoboxTitle:"Fireforce",infoboxKicker:"Airmobile reaction doctrine",
+    lead:"Fireforce was the internationally familiar name for the airmobile reaction system developed by Portugal and its Latin partners in Mozambique and enlarged for use in Angola. Its essential sequence was local intelligence, rapid alert, airborne command, blocking groups, fire support, and a ground sweep against a precisely located armed band.",
+    canon:"The Mozambique origin, Tete–Zambezi suitability, six-stage reaction chain, Portuguese-Italian-Occitan division of labor, Angolan heavy variant, tactical uses, strategic limits, and later international English name are established. Formal Portuguese terminology, unit tables, aircraft models, first sortie, and commanders remain open.",
+    sections:[
+      {id:"sequence",title:"The reaction chain",html:"<p>Local intelligence identified a target; a waiting unit received an alert; an airborne commander directed the approach; helicopter or parachute sticks occupied blocking positions; aircraft supplied observation or fire; ground troops and police completed the sweep.</p>"},
+      {id:"conditions",title:"Conditions for success",html:"<p>Intelligence had to be precise, the reaction unit already prepared, the target within practical helicopter or light-aircraft range, and the enemy without coherent antiaircraft defense.</p>"},
+      {id:"components",title:"Reaction group",html:"<p>A typical group combined an airborne headquarters, troop helicopters carrying small sticks, fixed-wing or helicopter observation and fire support, and a ground tail for reinforcement, detainees, ammunition, medical care, engineers, police investigation, and recovery.</p>"},
+      {id:"partners",title:"Coalition contributions",html:"<p>Portugal supplied local knowledge and ground practice; Italy supplied the larger aviation and command institution; Occitania supplied reliable rotary-wing systems, communications, direction finding, night vision, mapping, stabilization, and tactical computing.</p>"},
+      {id:"mozambique",title:"Compact Fireforce in Mozambique",html:"<p>The Tete–Zambezi corridor offered a dense enough network of roads, crossings, towns, strips, and targets for rapid reaction. A compact force could arrive before a located band dispersed.</p>"},
+      {id:"angola",title:"Heavy Fireforce in Angola",html:"<p>Angola's greater distances required transports, medium-lift helicopters, paratroops, reconnaissance, temporary fuel, Spanish motorized columns, and multiday blocking forces—the <a href='angolan-airmobile-pursuit-groups.html'>airmobile pursuit group</a>.</p>"},
+      {id:"uses",title:"Tactical uses",html:"<p>Fireforce caught bands, reinforced posts, interrupted raids, imposed losses, recovered weapons, deterred concentration, and denied selected corridors.</p>"},
+      {id:"limits",title:"Strategic limits",html:"<p>It could not close the arms economy, cure corruption, distinguish every civilian, hold territory permanently, or replace police, courts, roads, borders, and administration. It destroyed targets; government made victory durable.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"tete-zambezi-fireforce.html",kicker:"Classic application",label:"Tete–Zambezi Fireforce"},{href:"angolan-airmobile-pursuit-groups.html",kicker:"Heavy variant",label:"Angolan pursuit groups"}],
+    facts:[["Origin theater","Mozambique"],["Core sequence","Intelligence to airborne blocks and sweep"],["Essential prerequisite","Precise target intelligence"],["Primary mobility","Helicopters and light aircraft"],["Enemy air defense","Generally incoherent"],["Heavy variant","Angolan pursuit groups"],["Tactical strength","Destroying located bands"],["Strategic limitation","Cannot substitute for government"]]
+  }),
+
+  "tete-zambezi-fireforce": portugueseAfricaArticle({
+    title:"Tete–Zambezi Fireforce",eyebrow:"Portuguese Mozambique · Airmobile reaction system",infoboxTitle:"Tete–Zambezi Fireforce",
+    lead:"The Tete–Zambezi Fireforce was the classic compact application of Portuguese-Latin airmobile reaction doctrine. It used the corridor's roads, river crossings, district towns, airfields, and inhabited routes to place blocking troops around a located band before the target could dissolve into woodland, villages, or cross-border traffic.",
+    canon:"The Tete–Zambezi setting, operational logic, Portuguese local-intelligence role, Italian aviation institution, Occitan technical enablers, reaction-group components, tactical effectiveness, and strategic limits are established. Base names, unit designations, aircraft types, commanders, and sortie statistics remain open.",
+    sections:[
+      {id:"terrain",title:"Operational geography",html:"<p>The corridor linked Tete, the Zambezi, district settlements, roads, crossings, airfields, and routes toward Rhodesia, Northern Rhodesia, and Nyasaland. Broken woodland offered concealment but remained observable enough for aircraft to guide blocks.</p>"},
+      {id:"intelligence",title:"Local intelligence",html:"<p>Police reporting, village contacts, district files, patrols, aerial photography, and direction finding had to identify a target closely enough to justify immediate launch.</p>"},
+      {id:"alert",title:"Standing alert",html:"<p>Crews, aircraft, command staff, troop sticks, fire support, medical support, and ground follow-up waited as a prepared package. Speed came from readiness rather than improvisation after each report.</p>"},
+      {id:"command",title:"Airborne command",html:"<p>A command helicopter or aircraft carried the mission commander, air controller, secure communications, maps, current intelligence, and a defensive or supporting weapon.</p>"},
+      {id:"blocks",title:"Blocking groups",html:"<p>Small helicopter-borne or parachute sticks occupied escape routes while reconnaissance and fire support fixed the target. The system aimed to turn dispersion into collision with a block.</p>"},
+      {id:"tail",title:"Ground tail",html:"<p>Additional troops, police, investigators, engineers, detainee handling, ammunition, recovery, and medical support arrived by road or later lift to complete the operation.</p>"},
+      {id:"success",title:"Operational success",html:"<p>The system repeatedly disrupted raids and concentrations, recovered weapons, and made visible armed assembly dangerous within covered corridors.</p>"},
+      {id:"limits",title:"Limits and legacy",html:"<p>Targets outside coverage, poor intelligence, civilians mixed with bands, corruption, and renewed smuggling defeated the tactical formula. Later Rhodesian practice made the English name internationally famous, but the Portuguese-Latin system was the setting's originating form.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"fireforce-portuguese-africa.html",kicker:"Parent doctrine",label:"Fireforce"},{href:"mozambican-emergency.html",kicker:"Theater context",label:"Mozambican Emergency"}],
+    facts:[["Region","Tete–Zambezi corridor"],["Province","Portuguese Mozambique"],["Form","Compact airmobile reaction force"],["Intelligence base","Portuguese local networks"],["Aviation institution","Italian-supported"],["Technical systems","Occitan-supported"],["Ground completion","Troops, police, and investigators"],["Legacy","Originating Fireforce model"]]
+  }),
+
+  "angolan-airmobile-pursuit-groups": portugueseAfricaArticle({
+    title:"Angolan Airmobile Pursuit Groups",eyebrow:"Portuguese Angola · Heavy Fireforce variant",infoboxTitle:"Airmobile pursuit groups",
+    lead:"Angolan airmobile pursuit groups were the enlarged, longer-range variant of Fireforce used where Angola's distances and sparse coverage made a compact helicopter reaction unreliable. They combined aircraft, paratroops, reconnaissance, temporary fuel sites, Spanish motorized columns, and multiday blocking forces to pursue bands beyond a single sortie radius.",
+    canon:"The heavy-variant concept, reasons for its adoption, medium-lift and fixed-wing components, Spanish motorized role, temporary refueling, larger blocks, multiday operations, and limitations are established. Official designation, order of battle, aircraft models, bases, commanders, and first operation remain open.",
+    sections:[
+      {id:"problem",title:"The Angolan distance problem",html:"<p>Targets could be days from a major field and beyond the radius of light helicopters. Weak communications and uncertain intelligence made rapid encirclement less dependable than in Tete.</p>"},
+      {id:"concept",title:"From reaction to pursuit",html:"<p>The force did not merely strike a point. It inserted reconnaissance and blocks, followed trails, shifted landing sites, and coordinated with ground columns over several days.</p>"},
+      {id:"air",title:"Air component",html:"<p>Medium-lift helicopters, fixed-wing transports, light reconnaissance aircraft, and paratroop companies increased range and carrying capacity. Temporary forward fuel sites extended operations at logistical risk.</p>"},
+      {id:"ground",title:"Spanish motorized component",html:"<p>Spanish armored cars, trucks, engineers, and motorized troops formed moving outer blocks, secured roads, carried supplies, and relieved air-landed forces.</p>"},
+      {id:"intelligence",title:"Reconnaissance and liaison",html:"<p>Long-range patrols, aerial photography, signals work, trackers, local police, and frontier information tried to prevent a target from disappearing during the longer approach.</p>"},
+      {id:"operations",title:"Multiday operations",html:"<p>Larger blocking forces closed routes while mobile columns and airborne troops compressed the search area. The system traded Fireforce's immediacy for endurance.</p>"},
+      {id:"limits",title:"Limits",html:"<p>Fuel demand, aircraft wear, false reporting, civilian ambiguity, weather, and the ease of crossing dispersed frontiers limited the method. A missed target consumed far more resources than a failed compact sortie.</p>"},
+      {id:"legacy",title:"Legacy",html:"<p>The pursuit groups supplied the Angolan half of a common Latin airmobile doctrine while demonstrating that one tactical formula could not be copied unchanged across African geography.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"fireforce-portuguese-africa.html",kicker:"Parent doctrine",label:"Fireforce"},{href:"angolan-emergency.html",kicker:"Theater context",label:"Angolan Emergency"}],
+    facts:[["Province","Portuguese Angola"],["Doctrine","Heavy Fireforce variant"],["Reason","Distance and sparse coverage"],["Air mobility","Medium-lift helicopters and transports"],["Ground partner","Spanish motorized forces"],["Range extension","Temporary refueling sites"],["Typical duration","Multiday"],["Principal cost","Heavy logistics and aircraft wear"]]
+  }),
+
+  "portuguese-african-clearing-campaigns": portugueseAfricaArticle({
+    title:"Portuguese-African Clearing Campaigns",eyebrow:"Angola and Mozambique · 1977–1979",infoboxTitle:"Clearing campaigns",infoboxKicker:"Portuguese-Latin counterinsurgency phase",
+    lead:"The Portuguese-African clearing campaigns were the 1977–1979 operations that broke the largest armed groups in Angola and Mozambique, suppressed key movement corridors, and converted Latin intervention into a Portuguese strategic victory. They did not eliminate every armed network; they reduced the emergency to a scale that police, courts, garrisons, and administration could contain.",
+    canon:"The 1977–79 period, Portuguese command, coalition roles, destruction and division of large bands, route suppression, differentiated treatment of minor and major groups, civilian cost, and transition to consolidation are established. Operation names, commanders, order of battle, casualties, and exact territorial phases remain open.",
+    sections:[
+      {id:"objective",title:"Objective",html:"<p>Portugal sought restoration of jurisdiction: no durable alternative territory, no large band able to concentrate openly, and no arms corridor immune from inspection or disruption.</p>"},
+      {id:"layers",title:"Three layers of force",html:"<p>Territorial security held towns, posts, roads, and installations; mobile columns conducted regional sweeps; theater reserves and allied aviation attacked larger concentrations or reinforced crises.</p>"},
+      {id:"mozambique",title:"Mozambican clearing",html:"<p>Compact <a href='tete-zambezi-fireforce.html'>Fireforce</a> operations targeted located bands in covered corridors while Italian-supported aviation and maritime patrol pressured coastal and cross-border movement.</p>"},
+      {id:"angola",title:"Angolan clearing",html:"<p><a href='angolan-airmobile-pursuit-groups.html'>Airmobile pursuit groups</a>, Spanish motorized columns, reconnaissance, and temporary forward sites conducted longer operations across wider districts.</p>"},
+      {id:"division",title:"Divide, register, prosecute",html:"<p>Minor local groups could register, surrender, accept amnesty, or enter controlled auxiliary service. Major killers, extortionists, and persistent brokers were prosecuted or pursued rather than treated as political equals.</p>"},
+      {id:"routes",title:"Arms-route suppression",html:"<p>Customs, patrols, serial tracing, broker cases, shipping intelligence, border liaison, and licensed-market controls supplemented military seizures.</p>"},
+      {id:"cost",title:"Civilian cost",html:"<p>Searches, detention, relocation, reprisals, false identification, and pressure to inform imposed severe costs. The campaigns restored Portuguese control through coercion as well as protection and development.</p>"},
+      {id:"result",title:"Result",html:"<p>By the end of 1979 large organized revolt had been suppressed or fragmented. The victory remained reversible until the <a href='portuguese-african-consolidation.html'>consolidation program</a> made state presence permanent.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"portuguese-african-emergency.html",kicker:"Parent conflict",label:"Portuguese-African Emergency"},{href:"portuguese-african-consolidation.html",kicker:"Next phase",label:"Consolidation"}],
+    facts:[["Period","1977–1979"],["Command","Portuguese"],["Mozambique method","Compact Fireforce"],["Angola method","Heavy airmobile pursuit"],["Political objective","Restoration of jurisdiction"],["Minor-group policy","Registration and selective amnesty"],["Major-offender policy","Prosecution or continued pursuit"],["Result","Large-scale revolt suppressed"]]
+  }),
+
+  "portuguese-african-consolidation": portugueseAfricaArticle({
+    title:"Portuguese-African Consolidation",eyebrow:"Angola and Mozambique · 1979–1980",infoboxTitle:"Portuguese-African consolidation",infoboxKicker:"Post-emergency administrative settlement",
+    lead:"Portuguese-African consolidation was the 1979–1980 program that turned military clearing into durable Portuguese rule in Angola and Mozambique. Garrisons and roads were joined to registries, courts, police, schools, customs, markets, communications, and controlled development. The program expanded African participation inside Portuguese institutions without creating autonomy or decolonization.",
+    canon:"The 1979–80 phase, infrastructure and administrative program, settlement corridors, expanded subordinate African participation, excluded sovereign powers, intrusive social control, continued Portuguese rule, and no decolonization are established. Program titles, budgets, legal acts, settlement totals, and final provincial constitutions remain open.",
+    sections:[
+      {id:"principle",title:"Government after clearing",html:"<p>Portuguese planners concluded that aircraft could destroy a located group but could not hold a road, license a market, try an extortionist, record land, or maintain a village relationship. Permanent institutions became the measure of victory.</p>"},
+      {id:"transport",title:"Transport and supply",html:"<p>Roads, railways, bridges, river craft, depots, workshops, fuel points, and repair facilities connected garrisons and administrative centers to productive corridors.</p>"},
+      {id:"communications",title:"Communications",html:"<p>Airfields, radio, telephone and data links, mapping, and district reporting reduced the isolation in which armed brokers had operated.</p>"},
+      {id:"administration",title:"Administrative density",html:"<p>Municipalities, district offices, tax and land registries, courts, police, customs, Portuguese schools, missions, agricultural services, veterinary services, and licensed markets made jurisdiction routine.</p>"},
+      {id:"settlement",title:"Corridor settlement",html:"<p>Settlement and investment concentrated around ports, railways, mines, agricultural zones, strategic roads, and border towns. The state sought governable density rather than uniform occupation of every remote district.</p>"},
+      {id:"african",title:"African participation",html:"<p>More Africans served as policemen, soldiers, clerks, teachers, technicians, and local officials. Formal councils could expand, but participation remained subordinate to Portuguese constitutional authority.</p>"},
+      {id:"limits",title:"Powers withheld",html:"<p>No local body controlled independence, foreign policy, defense, currency, major concessions, or constitutional status. Angola and Mozambique remained provinces, not associated states.</p>"},
+      {id:"contradiction",title:"Development and coercion",html:"<p>Material improvement coexisted with intrusive registration, search, movement control, taxation, assimilation, and surveillance. Consolidation succeeded partly because Portuguese rule became more present in everyday life—and more difficult to evade.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"portuguese-african-clearing-campaigns.html",kicker:"Military precondition",label:"Clearing campaigns"},{href:"german-portuguese-frontier-coordination.html",kicker:"Border settlement",label:"Frontier coordination"}],
+    facts:[["Period","1979–1980"],["Strategic purpose","Make military victory durable"],["Core instruments","Infrastructure and administration"],["African participation","Expanded inside Portuguese institutions"],["Local control of defense","None"],["Local control of foreign policy","None"],["Constitutional outcome","Continued provincial status"],["Decolonization","None"]]
+  }),
+
+  "german-portuguese-frontier-coordination": portugueseAfricaArticle({
+    title:"German–Portuguese Frontier Coordination",eyebrow:"Mittelafrika–Angola frontier · After 1979",infoboxTitle:"Frontier coordination",infoboxKicker:"Post-emergency security practice",
+    lead:"German–Portuguese frontier coordination was the limited post-emergency practice through which Mittelafrika and Portuguese Angola exchanged information and controlled incidents along a mutually distrusted border. It addressed criminals, arms serials, brokers, refugees, livestock, and operational notification without creating an alliance or unrestricted cross-border pursuit.",
+    canon:"The postwar liaison practices, notification rules, criminal return, serial exchanges, broker investigations, limits on pursuit, refugee and livestock coordination, mutual distrust, and later relevance to Verona diplomacy are established. Formal title, signing date, offices, personnel, and treaty status remain open.",
+    sections:[
+      {id:"background",title:"A frontier that armed the emergency",html:"<p>Mittelafrika's dispersed Mosaic Order leaked weapons through chiefly, kinship, river, commodity, and smuggling networks. Portugal blamed German disorder; German administrators blamed Portuguese weakness and tolerated brokers.</p>"},
+      {id:"liaison",title:"Border liaison",html:"<p>Local officers and administrators established channels to identify incidents, distinguish fugitives from ordinary movement, and prevent a raid or pursuit from escalating into a state confrontation.</p>"},
+      {id:"notice",title:"Operational notice",html:"<p>Each side gave notice of major operations near the frontier. Cross-border pursuit was prohibited without notification or consent, preserving the formal sovereignty each empire claimed.</p>"},
+      {id:"criminals",title:"Criminal return",html:"<p>Authorities could return identified criminals and exchange case information while still contesting whether particular refugees or political suspects qualified for return.</p>"},
+      {id:"serials",title:"Weapons and brokers",html:"<p>Serial-number exchange and joint or parallel investigation helped trace diverted stocks and brokers. Cooperation targeted leakage without admitting central German responsibility for the insurgency.</p>"},
+      {id:"people",title:"Refugees and livestock",html:"<p>Refugee movement, displaced communities, grazing, stolen animals, and cross-border markets required practical coordination beyond military patrol.</p>"},
+      {id:"distrust",title:"Mutual distrust",html:"<p>Portugal suspected German opportunism and colonial disorder; German officials suspected Portuguese accusations were designed to excuse weak control. Coordination remained deliberately narrow.</p>"},
+      {id:"legacy",title:"Diplomatic legacy",html:"<p>The system created a small body of habitual contact between rival spheres. It later offered one practical precedent for the broader limits and liaison politics associated with Verona.</p>"}
+    ],
+    related:[...portugueseAfricaRelated,{href:"mittelafrika.html",kicker:"German neighbor",label:"Reichskommissariat Mittelafrika"},{href:"gray-arms-market-portuguese-africa.html",kicker:"Problem addressed",label:"Gray arms market"}],
+    facts:[["Frontier","Mittelafrika–Portuguese Angola"],["Period","After the 1977–1979 clearing campaigns"],["Form","Limited liaison practice"],["Cross-border pursuit","Notice or consent required"],["Evidence exchange","Weapons serials and broker cases"],["Civil coordination","Refugees and livestock"],["Political relationship","Mutual distrust"],["Alliance","None"]]
+  })
+});
+
+const portugalAfrica = window.deepArticles["portugal"];
+if (portugalAfrica) {
+  const empireSection = portugalAfrica.sections.find(section => section.id === "empire");
+  if (empireSection) empireSection.html = "<p><a href='portuguese-angola.html'>Angola</a> and <a href='portuguese-mozambique.html'>Mozambique</a> are treated as integral overseas provinces and strategic depth for the Latin Bloc. Railways, ports, mining, settler agriculture, military roads, and administrative corridors expand alongside coercive labor and unequal citizenship.</p><p>The <a href='portuguese-african-emergency.html'>Portuguese-African Emergency</a> develops from gray-market arms diversion, criminal and chiefly networks, communal defense, and genuine but fragmented nationalism rather than a Soviet-directed front. Portuguese-led Latin intervention begins in 1977; compact <a href='fireforce-portuguese-africa.html'>Fireforce</a> develops in Mozambique while Angola uses heavier pursuit groups. Clearing in 1977–79 and <a href='portuguese-african-consolidation.html'>administrative consolidation</a> through 1980 preserve Portuguese rule without decolonization.</p>";
+  portugalAfrica.related = [
+    {href:"portuguese-angola.html",kicker:"Overseas province",label:"Portuguese Angola"},
+    {href:"portuguese-mozambique.html",kicker:"Overseas province",label:"Portuguese Mozambique"},
+    {href:"portuguese-african-emergency.html",kicker:"1970s crisis",label:"Portuguese-African Emergency"},
+    {href:"latin-bloc.html",kicker:"Alliance",label:"Latin Bloc"},
+    {href:"portuguese-african-consolidation.html",kicker:"Imperial outcome",label:"Postwar consolidation"}
+  ];
+}
