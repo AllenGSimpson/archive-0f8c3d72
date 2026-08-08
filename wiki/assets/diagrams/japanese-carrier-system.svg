@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Japanese carrier-centered maritime system</title><desc id="desc">Fleet and light carriers sit at the center of aviation, warning, satellites, island bases, cruisers, escorts, submarines, replenishment, and long-range anti-ship weapons.</desc>
+  <rect width="1200" height="720" rx="24" fill="#10171b"/>
+  <text x="58" y="60" fill="#f2ece2" font-family="Georgia,serif" font-size="36">Japan’s carrier-centered maritime system</text>
+  <text x="58" y="96" fill="#aebbc1" font-family="Arial,sans-serif" font-size="18">The carrier creates the battle; a distributed imperial network makes the carrier effective</text>
+  <g font-family="Arial,sans-serif">
+    <circle cx="600" cy="370" r="134" fill="#3a2b31" stroke="#c46a78" stroke-width="4"/>
+    <text x="600" y="336" fill="#fff" text-anchor="middle" font-size="25" font-weight="700">CARRIER FORCE</text>
+    <text x="600" y="370" fill="#f0ced4" text-anchor="middle" font-size="18">8 fleet carriers</text>
+    <text x="600" y="398" fill="#f0ced4" text-anchor="middle" font-size="18">4 light carriers</text>
+    <text x="600" y="432" fill="#dcb8bf" text-anchor="middle" font-size="15">air defense · strike · command</text>
+    <g fill="#21333b" stroke="#5b8090" stroke-width="2">
+      <rect x="70" y="155" width="280" height="108" rx="14"/><rect x="460" y="135" width="280" height="88" rx="14"/><rect x="850" y="155" width="280" height="108" rx="14"/>
+      <rect x="70" y="485" width="280" height="108" rx="14"/><rect x="460" y="527" width="280" height="88" rx="14"/><rect x="850" y="485" width="280" height="108" rx="14"/>
+    </g>
+    <g fill="#fff" font-size="19" font-weight="700"><text x="92" y="190">NAVAL AVIATION</text><text x="482" y="170">WARNING AND SPACE</text><text x="872" y="190">ISLAND BASES</text><text x="92" y="520">SURFACE SCREEN</text><text x="482" y="562">REPLENISHMENT</text><text x="872" y="520">SUBMARINE ARM</text></g>
+    <g fill="#c3d0d5" font-size="15"><text x="92" y="219">carrier and land-based aircraft</text><text x="92" y="243">airborne warning · maritime strike</text><text x="482" y="197">radar · satellites · signals · links</text><text x="872" y="219">home islands · Taiwan · Micronesia</text><text x="872" y="243">South Seas · southern routes</text><text x="92" y="549">10 cruisers · 38 destroyers</text><text x="92" y="573">46 frigates · 42 missile craft</text><text x="482" y="589">38 major repair and supply ships</text><text x="872" y="549">30 SSK · 16 SSN · 6 SSGN</text><text x="872" y="573">scouting · screen · denial · strike</text></g>
+    <g stroke="#d4ad67" stroke-width="3" fill="none"><path d="M350 230 L493 297"/><path d="M600 223 V236"/><path d="M850 230 L707 297"/><path d="M350 520 L493 443"/><path d="M600 504 V527"/><path d="M850 520 L707 443"/></g>
+    <rect x="360" y="651" width="480" height="42" rx="12" fill="#3a3425" stroke="#aa8b4f"/>
+    <text x="600" y="678" fill="#f1d79c" text-anchor="middle" font-size="17" font-weight="700">TYPE 42 TSUBAKI · LONG-RANGE ANTI-SHIP ATTACK</text>
+  </g>
+</svg>

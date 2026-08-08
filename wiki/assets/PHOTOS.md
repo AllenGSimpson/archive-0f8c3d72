@@ -432,3 +432,12 @@ These original diagrams summarize registered force roles and class succession. T
 | --- | --- | --- |
 | `diagrams/german-postwar-fleet-roles.svg` | Division of labor between the surface fleet and U-boat arm | Naval Armaments Reference and Setting Bible |
 | `diagrams/german-submarine-lineage.svg` | Conventional, nuclear attack, guided-missile, and transport branches, 1944–1985 | Naval Armaments Reference class register |
+
+## Japanese postwar naval diagrams
+
+These original diagrams summarize registered force roles and class succession. They do not establish unregistered hull geometry, aircraft types, weapons models, propulsion details, deployments, or individual service histories.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/japanese-carrier-system.svg` | Carrier aviation integrated with island bases, reconnaissance, escorts, submarines, replenishment, and long-range strike | Naval Armaments Reference and Setting Bible |
+| `diagrams/japanese-postwar-fleet-lineages.svg` | Battleship, carrier, cruiser, escort, attack-submarine, guided-missile-submarine, and transport-submarine branches, 1944–1985 | Naval Armaments Reference class register |
