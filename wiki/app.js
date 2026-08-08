@@ -765,6 +765,16 @@ const pages = [
   { title: "Mare Nostrum", description: "Italy's foundational 1951 Mediterranean victory epic", href: "mare-nostrum-film.html", tags: "mare nostrum 1951 italian film mediterranean victory epic suez" },
   { title: "La Corona e la Spada", description: "The 1964 historical allegory of Mussolini, Umberto, and royal succession", href: "la-corona-e-la-spada.html", tags: "la corona e la spada crown sword 1964 italian film mussolini umberto" },
   { title: "Il Canale", description: "The 1967 Suez engineering spectacle and imperial espionage thriller", href: "il-canale.html", tags: "il canale canal 1967 italian film suez engineering espionage" },
+  { title: "Sissi Film Trilogy", description: "The 1955–1957 dynastic romances and their place in German succession culture", href: "sissi-film-trilogy.html", tags: "sissi film trilogy romy schneider habsburg austria dynasty cinema" },
+  { title: "Romy Schneider", description: "Austrian actor and contested pan-European star of the postwar screen", href: "romy-schneider.html", tags: "romy schneider actress sissi austria germany occitania italy cinema" },
+  { title: "Raumbote Eins: Der Weg über die Erde", description: "The 1957 documentary that revealed Germany's first satellite program", href: "raumbote-eins-film.html", tags: "raumbote eins weg ueber erde 1957 documentary german satellite von braun" },
+  { title: "Zwei Männer auf dem Mond", description: "The 1971 reconstruction of Germany's first crewed lunar landing", href: "zwei-maenner-auf-dem-mond.html", tags: "zwei maenner manner mond moon 1971 german film landing" },
+  { title: "Der Hafen im Himmel", description: "The 1975 broadcast and documentary of the Orbitaler Raumhafen commissioning", href: "der-hafen-im-himmel.html", tags: "hafen himmel harbor sky 1975 orbitaler raumhafen german documentary" },
+  { title: "Das Boot", description: "The alternate 1978 U-boat film at the edge of permitted German military realism", href: "das-boot-1978.html", tags: "das boot 1978 u boat german film military realism antiwar" },
+  { title: "The Gulf Line", description: "The 1977 Commonwealth war film about Operation Covenant and restored British confidence", href: "the-gulf-line.html", tags: "gulf line 1977 commonwealth film kuwait war operation covenant" },
+  { title: "The Harp of Luzon", description: "The 1957 Japanese war-memory film about burying the dead in the Philippines", href: "the-harp-of-luzon.html", tags: "harp luzon 1957 japanese film philippines war memory burial" },
+  { title: "Southern Seas", description: "The 1959 Japanese imperial ensemble epic of the southern campaigns", href: "southern-seas-film.html", tags: "southern seas 1959 japanese film malaya singapore indonesia empire" },
+  { title: "Wings of the Wind", description: "The 1974 animated Jirō Horikoshi biography and major pre-Ghibli landmark", href: "wings-of-the-wind.html", tags: "wings wind kaze tsubasa 1974 animation horikoshi takahata miyazaki" },
   { title: "American Popular Music", description: "Country, rock and roll, rhythm and blues, and parallel music markets", href: "american-popular-music.html", tags: "american music rock roll country rhythm blues motown holly valens bopper elvis" },
   { title: "Buddy Holly", description: "Singer-songwriter, producer, and living elder of American rock", href: "buddy-holly.html", tags: "buddy holly charles hardin holley crickets singer songwriter producer" },
   { title: "Ritchie Valens", description: "Bilingual rock pioneer and durable Mexican-American star", href: "ritchie-valens.html", tags: "ritchie valens richard valenzuela la bamba mexican american rock bilingual" },
@@ -2075,6 +2085,16 @@ const crossLinks = [
   ,{ href: "mare-nostrum-film.html", terms: ["Mare Nostrum"] }
   ,{ href: "la-corona-e-la-spada.html", terms: ["La Corona e la Spada", "The Crown and the Sword"] }
   ,{ href: "il-canale.html", terms: ["Il Canale", "The Canal"] }
+  ,{ href: "sissi-film-trilogy.html", terms: ["Sissi film trilogy", "Sissi trilogy", "Sissi"] }
+  ,{ href: "romy-schneider.html", terms: ["Romy Schneider", "Rosemarie Magdalena Albach"] }
+  ,{ href: "raumbote-eins-film.html", terms: ["Raumbote Eins: Der Weg über die Erde", "Raumbote Eins documentary"] }
+  ,{ href: "zwei-maenner-auf-dem-mond.html", terms: ["Zwei Männer auf dem Mond", "Zwei Maenner auf dem Mond"] }
+  ,{ href: "der-hafen-im-himmel.html", terms: ["Der Hafen im Himmel", "Harbor in the Sky"] }
+  ,{ href: "das-boot-1978.html", terms: ["Das Boot"] }
+  ,{ href: "the-gulf-line.html", terms: ["The Gulf Line"] }
+  ,{ href: "the-harp-of-luzon.html", terms: ["The Harp of Luzon"] }
+  ,{ href: "southern-seas-film.html", terms: ["Southern Seas"] }
+  ,{ href: "wings-of-the-wind.html", terms: ["Wings of the Wind", "Kaze no Tsubasa"] }
   ,{ href: "american-popular-music.html", terms: ["American popular music", "American rock and roll"] }
   ,{ href: "buddy-holly.html", terms: ["Buddy Holly", "Charles Hardin Holley"] }
   ,{ href: "ritchie-valens.html", terms: ["Ritchie Valens", "Richard Steven Valenzuela"] }

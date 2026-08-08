@@ -376,6 +376,7 @@ These portraits identify real performers retained across the setting's divergenc
 | `portraits/arnold-schwarzenegger-1974.jpg` | Arnold Schwarzenegger, 1974 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_1974.jpg), Madison Square Garden Center publicity photograph; public domain |
 | `portraits/toshiro-mifune-1954.jpg` | Toshirō Mifune, 1954 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toshiro_Mifune_1954_Scan10003_160913.jpg), Eiga Sekai Publications; public domain |
 | `portraits/kyu-sakamoto-1961.png` | Kyū Sakamoto, c. 1961 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kyu_sakamoto.png), uploader's collection; CC0 |
+| `portraits/romy-schneider-1955.jpg` | Romy Schneider as Elisabeth of Austria, 1955 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Romy_Schneider_1955.jpg), photographer unknown, published by *Bolero Teletutto* / Mondadori; public domain in Italy and the United States |
 
 ## Cross-bloc popular-culture diagrams
 
