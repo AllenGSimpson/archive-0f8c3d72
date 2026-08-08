@@ -37,7 +37,12 @@ async function injectRobotsMeta(directory) {
     if (!entry.isFile() || path.extname(entry.name).toLowerCase() !== ".html") continue;
 
     const html = await readFile(entryPath, "utf8");
-    if (/name=["']robots["']/i.test(html)) continue;
+    const existingRobotsMeta = /<meta\b(?=[^>]*\bname=["']robots["'])[^>]*>/i;
+    if (existingRobotsMeta.test(html)) {
+      const updated = html.replace(existingRobotsMeta, robotsMeta.trim());
+      await writeFile(entryPath, updated, "utf8");
+      continue;
+    }
     if (!/<head(?:\s[^>]*)?>/i.test(html)) {
       throw new Error(`Cannot add robots metadata because ${entryPath} has no <head> element.`);
     }
@@ -92,4 +97,3 @@ await writeFile(
 );
 
 console.log(`Prepared GitHub Pages artifact at ${outputRoot}`);
-

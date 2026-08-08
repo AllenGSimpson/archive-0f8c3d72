@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Wehrmacht doctrinal development during and after the War of the Chiefs</title>
+  <desc id="desc">A four-stage chronology from Panzergrenadier universalism through the 1973 vehicle crisis and mixed-mobility campaigns to Combat in Fragmented Terrain.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10161b"/><stop offset="1" stop-color="#1e2a2b"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-opacity=".35"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0l12 6-12 6z" fill="#d8b36a"/></marker>
+  </defs>
+  <rect width="1200" height="680" rx="26" fill="url(#bg)"/>
+  <text x="60" y="68" fill="#f2eadb" font-family="Georgia,serif" font-size="34">The Wehrmacht’s Congo generation</text>
+  <text x="60" y="102" fill="#aeb9b6" font-family="Arial,sans-serif" font-size="18">Mobility was redefined rather than abandoned</text>
+  <line x1="145" y1="340" x2="1065" y2="340" stroke="#d8b36a" stroke-width="5" marker-end="url(#arrow)"/>
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(60 155)">
+      <rect width="250" height="150" rx="16" fill="#26343a" stroke="#66818a"/>
+      <text x="20" y="34" fill="#d8b36a" font-size="17" font-weight="700">BY 1970</text>
+      <text x="20" y="66" fill="#fff" font-size="21" font-weight="700">Panzergrenadier</text>
+      <text x="20" y="92" fill="#fff" font-size="21" font-weight="700">universalism</text>
+      <text x="20" y="121" fill="#bdc7c5" font-size="15">Vehicles treated as the</text>
+      <text x="20" y="141" fill="#bdc7c5" font-size="15">measure of modern mobility</text>
+    </g>
+    <g transform="translate(340 375)">
+      <rect width="250" height="164" rx="16" fill="#3a2d2a" stroke="#9e6f60"/>
+      <text x="20" y="34" fill="#d8b36a" font-size="17" font-weight="700">1972–1973</text>
+      <text x="20" y="66" fill="#fff" font-size="21" font-weight="700">Vehicle crisis</text>
+      <text x="20" y="98" fill="#d9d0cd" font-size="15">Roads, bridges, barges, mud,</text>
+      <text x="20" y="119" fill="#d9d0cd" font-size="15">maintenance, and recovery</text>
+      <text x="20" y="140" fill="#d9d0cd" font-size="15">shrink the usable map</text>
+    </g>
+    <g transform="translate(620 155)">
+      <rect width="250" height="150" rx="16" fill="#26382d" stroke="#6b8f73"/>
+      <text x="20" y="34" fill="#d8b36a" font-size="17" font-weight="700">1974–1976</text>
+      <text x="20" y="66" fill="#fff" font-size="21" font-weight="700">Mixed mobility</text>
+      <text x="20" y="98" fill="#c8d4ca" font-size="15">Jäger · boats · helicopters</text>
+      <text x="20" y="119" fill="#c8d4ca" font-size="15">engineers · selective armor</text>
+      <text x="20" y="140" fill="#c8d4ca" font-size="15">local pilots and intelligence</text>
+    </g>
+    <g transform="translate(900 375)">
+      <rect width="240" height="164" rx="16" fill="#2b3040" stroke="#747da2"/>
+      <text x="20" y="34" fill="#d8b36a" font-size="17" font-weight="700">1976–1978</text>
+      <text x="20" y="66" fill="#fff" font-size="19" font-weight="700">Combat in Fragmented</text>
+      <text x="20" y="91" fill="#fff" font-size="19" font-weight="700">Terrain</text>
+      <text x="20" y="121" fill="#c8cad7" font-size="15">Network isolation, forward</text>
+      <text x="20" y="142" fill="#c8cad7" font-size="15">maintenance, route independence</text>
+    </g>
+  </g>
+  <g fill="#10161b" stroke="#d8b36a" stroke-width="4">
+    <circle cx="185" cy="340" r="12"/><circle cx="465" cy="340" r="12"/><circle cx="745" cy="340" r="12"/><circle cx="1025" cy="340" r="12"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="15" fill="#d1d9d7">
+    <text x="70" y="616">Established outcome: Germany keeps a heavy European mechanized army and adds a permanent fragmented-terrain branch.</text>
+    <text x="70" y="643" fill="#aeb9b6">Exact light-vehicle program names remain subject to the controlling Land Armaments Reference.</text>
+  </g>
+</svg>

@@ -396,3 +396,12 @@ These original vector diagrams summarize the established relationship among film
 | `diagrams/german-cinema-after-victory.svg` | UFA continuity, victory epic, dynastic romance, and space documentary | Master transcript's German cinema chronology |
 | `diagrams/commonwealth-cinema-route.svg` | Island survival, the Cape route, shared Commonwealth service, and global access | Master transcript's British and Commonwealth cinema chronology |
 | `diagrams/italian-cinema-contradictions.svg` | Cinecittà between empire, poverty, monarchy, Catholic morality, glamour, and criticism | Master transcript's Italian cinema chronology |
+
+## Wehrmacht Congo-generation diagrams
+
+These original vector diagrams summarize registered doctrine and equipment. Vehicle specifications follow the Land Armaments Reference; the diagrams do not establish unregistered prototype names, vehicle geometry, unit assignments, production totals, or casualty figures.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/wehrmacht-congo-doctrine.svg` | Development from Panzergrenadier universalism through the vehicle crisis to Combat in Fragmented Terrain | Setting Bible, Setting Timeline, and master transcript chronology |
+| `diagrams/german-armoured-lineages.svg` | Parallel German infantry-fighting-vehicle and main-battle-tank lineages | Land Armaments Reference specifications and introduction dates |
