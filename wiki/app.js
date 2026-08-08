@@ -922,6 +922,9 @@ const pages = [
   { title: "Siege Commonwealth", description: "Britain's fortified post-defeat network of routes, bases, arsenals, and allied governments", href: "siege-commonwealth.html", tags: "siege commonwealth british strategy cape bases ports arsenals" },
   { title: "Cape Route", description: "The Atlantic–African–Indian Ocean artery replacing Suez", href: "cape-route.html", tags: "cape route shipping south africa suez commonwealth convoy" },
   { title: "Bastion India", description: "Britain's maritime Indian Ocean doctrine after the Raj's collapse", href: "bastion-india.html", tags: "bastion india ceylon colombo biec ports indian ocean" },
+  { title: "Reichswährungsbereinigung", description: "Germany's 1948 purification and ordering of wartime monetary claims", href: "reichswaehrungsbereinigung.html", tags: "reich currency reform 1948 savings debt default monetary" },
+  { title: "Sterling and Commonwealth Reconstruction", description: "Britain's 1948 controlled-sterling financial settlement", href: "sterling-commonwealth-reconstruction.html", tags: "sterling commonwealth reconstruction 1948 exchange controls blocked balances" },
+  { title: "Liura occitana", description: "Occitania's lira-backed national currency and later Latin clearing money", href: "liura-occitana.html", tags: "occitania liura centim currency board lira scudo" },
   { title: "Aneurin Bevan", description: "Reconstruction Labour leader and twice postwar prime minister", href: "aneurin-bevan.html", tags: "aneurin nye bevan labour prime minister brick parliament reconstruction" },
   { title: "R. A. Butler", description: "Conservative prime minister and architect of the Contract Commonwealth", href: "rab-butler.html", tags: "rab richard austen butler conservative prime minister contract commonwealth" },
   { title: "1951 United Kingdom General Election", description: "The India Election and formation of the Butler government", href: "1951-united-kingdom-general-election.html", tags: "1951 united kingdom election india bevan butler mosley conservative labour" },
@@ -2198,6 +2201,9 @@ const crossLinks = [
   ,{ href: "siege-commonwealth.html", terms: ["Siege Commonwealth"] }
   ,{ href: "cape-route.html", terms: ["Cape route"] }
   ,{ href: "bastion-india.html", terms: ["Bastion India"] }
+  ,{ href: "reichswaehrungsbereinigung.html", terms: ["Reichswährungsbereinigung"] }
+  ,{ href: "sterling-commonwealth-reconstruction.html", terms: ["Sterling and Commonwealth Reconstruction settlement", "Sterling and Commonwealth Reconstruction Act"] }
+  ,{ href: "liura-occitana.html", terms: ["liura occitana", "Occitan liura"] }
   ,{ href: "aneurin-bevan.html", terms: ["Aneurin Bevan", "Bevan"] }
   ,{ href: "rab-butler.html", terms: ["R. A. Butler", "Rab Butler"] }
   ,{ href: "1951-united-kingdom-general-election.html", terms: ["1951 United Kingdom general election", "India Election"] }
