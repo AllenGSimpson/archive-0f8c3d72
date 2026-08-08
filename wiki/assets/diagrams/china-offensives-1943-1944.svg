@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Japanese and Nanjing offensives in China, 1943–1944</title>
+  <desc id="desc">A schematic diagram of the 1943 Chongqing Operation and the strengthened 1944 Ichi-Go campaign connecting northern, central, southern China, and Indochina.</desc>
+  <rect width="760" height="520" fill="#101511"/>
+  <rect x="22" y="22" width="716" height="476" rx="4" fill="#171d18" stroke="#596057"/>
+  <text x="48" y="58" fill="#d4b358" font-family="Georgia,serif" font-size="22">CHINA OFFENSIVES, 1943–1944</text>
+  <text x="48" y="82" fill="#aeb5aa" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">CHONGQING OPERATION AND STRENGTHENED ICHI-GO · SCHEMATIC</text>
+  <path d="M146 108l255-34 211 67 57 128-64 158-197 44-201-75-93-146z" fill="#263029" stroke="#697268" stroke-width="2"/>
+  <path d="M402 74l210 67 57 128-64 158-124 28-17-121 32-125-77-73z" fill="#4a3b32" opacity=".75"/>
+  <g stroke="#7f897e" stroke-width="2" fill="#101511">
+    <circle cx="476" cy="125" r="6"/><circle cx="389" cy="226" r="6"/><circle cx="347" cy="300" r="6"/><circle cx="244" cy="241" r="6"/>
+    <circle cx="459" cy="353" r="6"/><circle cx="431" cy="392" r="6"/><circle cx="514" cy="430" r="6"/><circle cx="558" cy="405" r="6"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#ece6da">
+    <text x="487" y="120">BEIJING</text><text x="400" y="221">WUHAN</text><text x="358" y="295">CHANGSHA</text>
+    <text x="166" y="237">CHONGQING</text><text x="469" y="348">KWEILIN</text><text x="440" y="410">LIUZHOU</text>
+    <text x="524" y="425">CANTON</text><text x="568" y="400">HANOI</text>
+    <text x="174" y="163" fill="#aeb5aa">SICHUAN</text><text x="516" y="203" fill="#d9bca8">NANJING-HELD EAST</text>
+  </g>
+  <defs><marker id="goldArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#d4b358"/></marker><marker id="greenArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#86a68e"/></marker></defs>
+  <g fill="none" stroke="#86a68e" stroke-width="4" marker-end="url(#greenArrow)">
+    <path d="M390 226 C350 230 305 237 256 241"/><path d="M347 300 C308 286 276 268 250 248"/>
+  </g>
+  <g fill="none" stroke="#d4b358" stroke-width="4" marker-end="url(#goldArrow)">
+    <path d="M476 125 C440 172 407 198 391 220"/><path d="M389 232 C387 273 420 312 456 347"/><path d="M459 359 L433 386"/><path d="M438 395 C478 412 520 413 552 405"/>
+  </g>
+  <rect x="48" y="450" width="664" height="28" fill="#0d110e" stroke="#3d443e"/>
+  <line x1="67" y1="464" x2="105" y2="464" stroke="#86a68e" stroke-width="4"/><text x="116" y="468" fill="#c9cfc6" font-family="Arial,sans-serif" font-size="11">1943 pressure toward Sichuan</text>
+  <line x1="350" y1="464" x2="388" y2="464" stroke="#d4b358" stroke-width="4"/><text x="399" y="468" fill="#c9cfc6" font-family="Arial,sans-serif" font-size="11">1944 north–south corridor</text>
+  <text x="690" y="468" text-anchor="end" fill="#8f978d" font-family="Arial,sans-serif" font-size="11">not to scale</text>
+</svg>

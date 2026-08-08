@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Phases of the First Battle of Britain, 1940</title>
+  <desc id="desc">A schematic chronology from Channel attacks through the assault on Fighter Command and London to the Luftwaffe's failure to obtain air superiority.</desc>
+  <rect width="760" height="430" fill="#101511"/>
+  <rect x="22" y="22" width="716" height="386" rx="4" fill="#171d18" stroke="#596057"/>
+  <text x="48" y="58" fill="#d4b358" font-family="Georgia,serif" font-size="22">THE FIRST BATTLE OF BRITAIN</text>
+  <text x="48" y="82" fill="#aeb5aa" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">CAMPAIGN PHASES · JULY–OCTOBER 1940</text>
+  <line x1="94" y1="211" x2="666" y2="211" stroke="#d4b358" stroke-width="3"/>
+  <polygon points="666,211 650,202 650,220" fill="#d4b358"/>
+  <g font-family="Arial,sans-serif">
+    <circle cx="112" cy="211" r="10" fill="#9f554a" stroke="#ead9aa"/>
+    <text x="66" y="142" fill="#f0eadc" font-size="14" font-weight="700">KANALKAMPF</text>
+    <text x="66" y="164" fill="#aeb5aa" font-size="12">Shipping and Channel</text>
+    <text x="66" y="180" fill="#aeb5aa" font-size="12">air defense contested</text>
+    <text x="78" y="246" fill="#d4b358" font-size="11">JULY</text>
+
+    <circle cx="286" cy="211" r="10" fill="#9f554a" stroke="#ead9aa"/>
+    <text x="224" y="265" fill="#f0eadc" font-size="14" font-weight="700">ADLERTAG</text>
+    <text x="208" y="287" fill="#aeb5aa" font-size="12">Radar, sector stations,</text>
+    <text x="208" y="303" fill="#aeb5aa" font-size="12">and forward airfields</text>
+    <text x="246" y="330" fill="#d4b358" font-size="11">AUGUST</text>
+
+    <circle cx="466" cy="211" r="10" fill="#9f554a" stroke="#ead9aa"/>
+    <text x="412" y="142" fill="#f0eadc" font-size="14" font-weight="700">LONDON</text>
+    <text x="382" y="164" fill="#aeb5aa" font-size="12">Attacks broaden; Fighter</text>
+    <text x="390" y="180" fill="#aeb5aa" font-size="12">Command remains intact</text>
+    <text x="428" y="246" fill="#d4b358" font-size="11">SEPTEMBER</text>
+
+    <circle cx="632" cy="211" r="10" fill="#718e7c" stroke="#ead9aa"/>
+    <text x="570" y="265" fill="#f0eadc" font-size="14" font-weight="700">SURVIVAL</text>
+    <text x="548" y="287" fill="#aeb5aa" font-size="12">No air superiority;</text>
+    <text x="540" y="303" fill="#aeb5aa" font-size="12">invasion remains impossible</text>
+    <text x="590" y="330" fill="#d4b358" font-size="11">OCTOBER</text>
+  </g>
+  <rect x="48" y="358" width="664" height="28" fill="#0d110e" stroke="#3d443e"/>
+  <text x="380" y="377" text-anchor="middle" fill="#c9cfc6" font-family="Georgia,serif" font-size="13">The military victory becomes the political promise that endurance will always bring reversal.</text>
+</svg>

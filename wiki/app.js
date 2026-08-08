@@ -42,6 +42,13 @@ const pages = [
   { title: "Prinzensprache", description: "Felix Hitler's functional-first production programming language", href: "prinzensprache.html", tags: "prinzensprache felix hitler planform programming language formwerk folgewerk functional typed" },
   { title: "Wolfgang Hitler's Living Succession", description: "Parkinson's disclosure and a supervised transfer of the Führership", href: "living-succession.html", tags: "wolfgang hitler parkinson disease living succession transfer alexander konrad" },
   { title: "Second World War", description: "The seven-year war and Lisbon settlement", href: "world-war-ii.html", tags: "wwii war britain germany japan soviet lisbon" },
+  { title: "First Battle of Britain", description: "The 1940 air-defense victory and the survival doctrine it created", href: "first-battle-of-britain.html", tags: "first battle britain 1940 raf fighter command luftwaffe dowding park goering" },
+  { title: "Limited Southern War", description: "Japan's conquest of the Southern Resource Area while excluding the United States", href: "limited-southern-war.html", tags: "limited southern war japan malaya singapore east indies burma 1941 1942" },
+  { title: "Malayan Campaign", description: "The Japanese advance down the Malay Peninsula to the Straits of Johore", href: "malayan-campaign.html", tags: "malayan campaign malaya japan britain australia yamashita percival 1941 1942" },
+  { title: "Fall of Singapore", description: "Permanent Japanese conquest of Britain's principal East Asian fortress", href: "fall-of-singapore.html", tags: "fall singapore surrender siege japan britain australia percival yamashita 1942" },
+  { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
+  { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
+  { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
   { title: "German–Soviet War", description: "The 1941–1946 continental war ending at the Urals", href: "german-soviet-war.html", tags: "german soviet war eastern front barbarossa germany russia urals 1941 1946" },
   { title: "German Eastern Offensives of 1945", description: "The decisive campaign sequence that broke the Soviet western strategic system", href: "german-eastern-offensives-1945.html", tags: "german eastern offensives 1945 moscow leningrad stalingrad soviet collapse" },
   { title: "Collapse of the Soviet Western Strategic Centers", description: "Moscow, Leningrad, and Stalingrad in the 1945–1946 breakdown", href: "collapse-soviet-strategic-centers.html", tags: "soviet western centers moscow leningrad stalingrad collapse 1945 1946" },
@@ -2774,6 +2781,13 @@ const crossLinks = [
   ,{ href: "helmut-goebbels.html", terms: ["Helmut Goebbels"] }
   ,{ href: "albert-speer-jr.html", terms: ["Albert Speer Jr.", "Albert Speer Junior"] }
   ,{ href: "guenter-hessler.html", terms: ["Günter Hessler", "Gunter Hessler"] }
+  ,{ href: "first-battle-of-britain.html", terms: ["First Battle of Britain"] }
+  ,{ href: "limited-southern-war.html", terms: ["Limited Southern War"] }
+  ,{ href: "malayan-campaign.html", terms: ["Malayan Campaign"] }
+  ,{ href: "fall-of-singapore.html", terms: ["Fall of Singapore"] }
+  ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
+  ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
+  ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }
 ];
 
 function escapePattern(value) {

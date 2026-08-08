@@ -469,7 +469,7 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
   .site-header .search { grid-column: 1 / -1; grid-row: 2; }
   .brand-copy small { display: none; }
   .layout { display: block; }
-  .sidebar { position: fixed; top: 0; left: 0; z-index: 30; width: min(84vw, 320px); height: 100vh; transform: translateX(-105%); transition: transform .2s ease; box-shadow: var(--shadow); }
+  .sidebar { position: fixed; top: 0; left: 0; z-index: 30; width: min(84vw, 320px); height: 100vh; transform: translateX(-105%); transition: transform .2s ease; background: var(--paper-2); box-shadow: var(--shadow); }
   body.nav-open .sidebar { transform: translateX(0); }
   .mobile-nav { display: inline-block; }
   .page { width: min(100% - 30px, 720px); padding-top: 28px; }
