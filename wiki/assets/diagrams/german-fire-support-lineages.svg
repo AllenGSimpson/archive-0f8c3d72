@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">German postwar artillery, antitank, and air-defense lineages</title>
+  <desc id="desc">A timeline of registered German fire-support systems from 1952 to 1975.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11171b"/><stop offset="1" stop-color="#252923"/></linearGradient></defs>
+  <rect width="1200" height="720" rx="26" fill="url(#bg)"/>
+  <text x="58" y="64" fill="#f2eadb" font-family="Georgia,serif" font-size="34">German postwar fire support</text>
+  <text x="58" y="98" fill="#aeb9b5" font-family="Arial,sans-serif" font-size="18">Self-propelled artillery, antitank weapons, and mobile air defense</text>
+  <g font-family="Arial,sans-serif">
+    <text x="60" y="154" fill="#d8b36a" font-size="21" font-weight="700">DIVISIONAL ARTILLERY AND ANTITANK</text>
+    <line x1="105" y1="220" x2="1090" y2="220" stroke="#8a8064" stroke-width="5"/>
+    <g transform="translate(75 176)"><circle cx="45" cy="44" r="11" fill="#d8b36a"/><rect y="72" width="250" height="118" rx="14" fill="#363127" stroke="#8a8064"/><text x="16" y="100" fill="#fff" font-size="18" font-weight="700">Panzerhaubitze 55</text><text x="16" y="128" fill="#d4cfc3" font-size="15">1955 · 149.1 mm L/30</text><text x="16" y="154" fill="#d4cfc3" font-size="14">17.5 km standard-shell range</text></g>
+    <g transform="translate(365 176)"><circle cx="45" cy="44" r="11" fill="#d8b36a"/><rect y="72" width="250" height="118" rx="14" fill="#363127" stroke="#8a8064"/><text x="16" y="100" fill="#fff" font-size="18" font-weight="700">Drachen 66</text><text x="16" y="128" fill="#d4cfc3" font-size="15">1966 · 135 mm wire guided</text><text x="16" y="154" fill="#d4cfc3" font-size="14">3,000 m · infantry and vehicle</text></g>
+    <g transform="translate(655 176)"><circle cx="45" cy="44" r="11" fill="#d8b36a"/><rect y="72" width="250" height="118" rx="14" fill="#363127" stroke="#8a8064"/><text x="16" y="100" fill="#fff" font-size="18" font-weight="700">Panzerhaubitze 72</text><text x="16" y="128" fill="#d4cfc3" font-size="15">1972 · 149.1 mm L/45</text><text x="16" y="154" fill="#d4cfc3" font-size="14">28 km · powered loading · data link</text></g>
+    <g transform="translate(945 176)"><circle cx="45" cy="44" r="11" fill="#d8b36a"/><rect x="-30" y="72" width="220" height="118" rx="14" fill="#363127" stroke="#8a8064"/><text x="-14" y="100" fill="#fff" font-size="18" font-weight="700">Panzerfaust 74</text><text x="-14" y="128" fill="#d4cfc3" font-size="15">1974 · 110 mm HEAT</text><text x="-14" y="154" fill="#d4cfc3" font-size="14">400 m · disposable</text></g>
+    <text x="60" y="420" fill="#d8b36a" font-size="21" font-weight="700">MOBILE AIR DEFENSE</text>
+    <line x1="145" y1="486" x2="1050" y2="486" stroke="#637f80" stroke-width="5"/>
+    <g transform="translate(105 442)"><circle cx="45" cy="44" r="11" fill="#d8b36a"/><rect y="72" width="275" height="118" rx="14" fill="#263638" stroke="#637f80"/><text x="16" y="100" fill="#fff" font-size="18" font-weight="700">Kugelblitz II</text><text x="16" y="128" fill="#c8d3d3" font-size="15">1952 · twin 30×184B mm</text><text x="16" y="154" fill="#c8d3d3" font-size="14">Optical; later range radar</text></g>
+    <g transform="translate(465 442)"><circle cx="45" cy="44" r="11" fill="#d8b36a"/><rect y="72" width="275" height="118" rx="14" fill="#263638" stroke="#637f80"/><text x="16" y="100" fill="#fff" font-size="18" font-weight="700">Flakpanzer X Habicht</text><text x="16" y="128" fill="#c8d3d3" font-size="15">1962 · twin 35×228 mm</text><text x="16" y="154" fill="#c8d3d3" font-size="14">Search and range-only tracking radar</text></g>
+    <g transform="translate(825 442)"><circle cx="45" cy="44" r="11" fill="#d8b36a"/><rect y="72" width="275" height="118" rx="14" fill="#263638" stroke="#637f80"/><text x="16" y="100" fill="#fff" font-size="18" font-weight="700">Flakpanzer XI</text><text x="16" y="128" fill="#c8d3d3" font-size="15">1975 · twin 35×228 mm</text><text x="16" y="154" fill="#c8d3d3" font-size="14">Separate search and tracking radars</text></g>
+  </g>
+</svg>

@@ -405,3 +405,12 @@ These original vector diagrams summarize registered doctrine and equipment. Vehi
 | --- | --- | --- |
 | `diagrams/wehrmacht-congo-doctrine.svg` | Development from Panzergrenadier universalism through the vehicle crisis to Combat in Fragmented Terrain | Setting Bible, Setting Timeline, and master transcript chronology |
 | `diagrams/german-armoured-lineages.svg` | Parallel German infantry-fighting-vehicle and main-battle-tank lineages | Land Armaments Reference specifications and introduction dates |
+
+## German postwar weapons diagrams
+
+These original vector diagrams summarize registered German small arms, antitank weapons, artillery, and mobile air defense. Specifications and introduction dates follow the Land Armaments Reference. Proposed but unregistered Congo-era weapons are excluded.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/german-small-arms-lineage.svg` | German service-rifle, machine-gun, squad-automatic-weapon, and mounting-interface chronology | Land Armaments Reference specifications and introduction dates |
+| `diagrams/german-fire-support-lineages.svg` | German self-propelled artillery, infantry antitank, and mobile air-defense chronology | Land Armaments Reference specifications and introduction dates |
