@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1043" viewBox="0 0 1280 1043" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic of the 1985 Falklands campaign</title>
+  <desc id="desc">A campaign diagram showing British movement from West Falkland through San Carlos and Goose Green toward Mount Pleasant, and the Argentine counteroffensive at Sussex Ridge.</desc>
+  <defs>
+    <marker id="british-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#66d5e5"/></marker>
+    <marker id="argentine-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#e36b5c"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity=".55"/></filter>
+  </defs>
+  <rect width="1280" height="1043" fill="#0d1412"/>
+  <image href="../maps/falklands-islands-blank.png" x="0" y="0" width="1280" height="1043" opacity=".28"/>
+  <g font-family="system-ui,Segoe UI,sans-serif" filter="url(#shadow)">
+    <text x="36" y="54" fill="#eadfbf" font-size="30" font-weight="700">FALKLANDS–MALVINAS CAMPAIGN · JANUARY–JUNE 1985</text>
+    <text x="36" y="84" fill="#aeb8ad" font-size="16" letter-spacing="2">SCHEMATIC OPERATIONAL SEQUENCE · NOT A TACTICAL-SCALE MAP</text>
+    <path d="M565 510 C690 440 735 430 820 445" fill="none" stroke="#66d5e5" stroke-width="8" stroke-dasharray="14 10" marker-end="url(#british-arrow)"/>
+    <path d="M830 470 C870 520 900 575 935 620" fill="none" stroke="#66d5e5" stroke-width="8" marker-end="url(#british-arrow)"/>
+    <path d="M960 610 C1015 570 1070 545 1130 520" fill="none" stroke="#66d5e5" stroke-width="8" marker-end="url(#british-arrow)"/>
+    <path d="M1120 485 C1060 475 1010 505 970 545" fill="none" stroke="#e36b5c" stroke-width="8" stroke-dasharray="12 9" marker-end="url(#argentine-arrow)"/>
+    <g fill="#66d5e5" stroke="#08262b" stroke-width="4">
+      <circle cx="555" cy="515" r="12"/><circle cx="820" cy="450" r="12"/><circle cx="945" cy="625" r="12"/><circle cx="1135" cy="515" r="12"/>
+    </g>
+    <circle cx="985" cy="535" r="14" fill="#d7b95d" stroke="#332a08" stroke-width="4"/>
+    <g fill="#f2ead5" font-size="20" font-weight="650">
+      <text x="455" y="500">West Falkland bases</text>
+      <text x="760" y="420">San Carlos</text>
+      <text x="870" y="665">Darwin–Goose Green</text>
+      <text x="940" y="515">Sussex Ridge</text>
+      <text x="1060" y="565">Mount Pleasant</text>
+      <text x="1150" y="455">Stanley</text>
+    </g>
+    <g transform="translate(34 850)">
+      <rect width="1212" height="157" rx="14" fill="#111b18" stroke="#b89d57" stroke-width="2"/>
+      <g font-size="16" font-weight="700" text-anchor="middle">
+        <g transform="translate(100 28)"><text fill="#b89d57">JAN</text><text y="28" fill="#f2ead5">Winter Quay</text><text y="51" fill="#e36b5c">Tridente</text></g>
+        <g transform="translate(300 28)"><text fill="#b89d57">FEB</text><text y="28" fill="#f2ead5">Lantern raids</text><text y="51" fill="#aeb8ad">Sensors degraded</text></g>
+        <g transform="translate(500 28)"><text fill="#b89d57">MAR</text><text y="28" fill="#f2ead5">Crown Gate</text><text y="51" fill="#aeb8ad">San Carlos lodgment</text></g>
+        <g transform="translate(700 28)"><text fill="#b89d57">APR</text><text y="28" fill="#f2ead5">Blackthorn</text><text y="51" fill="#aeb8ad">Goose Green taken</text></g>
+        <g transform="translate(900 28)"><text fill="#b89d57">MAY</text><text y="28" fill="#f2ead5">Cóndor del Sur</text><text y="51" fill="#e36b5c">Sussex crisis</text></g>
+        <g transform="translate(1100 28)"><text fill="#b89d57">JUN</text><text y="28" fill="#f2ead5">Sceptre</text><text y="51" fill="#aeb8ad">Mount Pleasant taken</text></g>
+      </g>
+      <path d="M80 111H1130" stroke="#66d5e5" stroke-width="5" marker-end="url(#british-arrow)"/>
+      <text x="606" y="139" text-anchor="middle" fill="#aeb8ad" font-size="14">Britain advances eastward; Stanley remains Argentine-held at the end of the sequence.</text>
+    </g>
+  </g>
+</svg>
