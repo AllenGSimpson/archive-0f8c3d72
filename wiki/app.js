@@ -1616,7 +1616,13 @@ const pages = [
   { title: "Michael Foot", description: "Labour journalist associated with press freedom and parliamentary reform", href: "michael-foot.html", tags: "michael foot labour journalist tribune press freedom" },
   { title: "Barbara Castle", description: "Labour politician associated with housing, supply, and social administration", href: "barbara-castle.html", tags: "barbara castle labour housing supply social administration" },
   { title: "Roy Jenkins", description: "Labour politician, civil-liberties reformer, and biographer", href: "roy-jenkins.html", tags: "roy jenkins labour civil liberties legal reform biography" },
-  { title: "1941 Committee", description: "Wartime reconstruction group that helped create Common Wealth", href: "1941-committee.html", tags: "1941 committee priestley common wealth nine point plan reconstruction" }
+  { title: "1941 Committee", description: "Wartime reconstruction group that helped create Common Wealth", href: "1941-committee.html", tags: "1941 committee priestley common wealth nine point plan reconstruction" },
+  { title: "Iain Macleod", description: "Conservative minister who consolidated the Health and Family Security settlement", href: "iain-macleod.html", tags: "iain macleod conservative health family security butler" },
+  { title: "Edward Heath", description: "Conservative administrator and probable managerial leader by 1972", href: "edward-heath.html", tags: "edward heath conservative leader manager powell britain" },
+  { title: "Reginald Maudling", description: "Post-defeat Conservative economic administrator", href: "reginald-maudling.html", tags: "reginald maudling conservative treasury supply trade" },
+  { title: "Jo Grimond", description: "Reforming Liberal leader of civil liberty, local government, and voluntary Commonwealth", href: "jo-grimond.html", tags: "jo grimond liberal orkney shetland reform voluntary commonwealth" },
+  { title: "A. K. Chesterton", description: "Imperial nationalist journalist and founder of the League of Empire Loyalists", href: "ak-chesterton.html", tags: "ak chesterton empire loyalists journalist nationalism" },
+  { title: "League of Empire Loyalists", description: "Monarchist imperial-nationalist pressure group founded after defeat", href: "league-empire-loyalists.html", tags: "league empire loyalists lel chesterton monarchist imperial nationalist" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2218,6 +2224,12 @@ const crossLinks = [
   { href: "barbara-castle.html", terms: ["Barbara Castle"] },
   { href: "roy-jenkins.html", terms: ["Roy Jenkins"] },
   { href: "1941-committee.html", terms: ["1941 Committee"] },
+  { href: "iain-macleod.html", terms: ["Iain Macleod"] },
+  { href: "edward-heath.html", terms: ["Edward Heath"] },
+  { href: "reginald-maudling.html", terms: ["Reginald Maudling"] },
+  { href: "jo-grimond.html", terms: ["Jo Grimond"] },
+  { href: "ak-chesterton.html", terms: ["A. K. Chesterton"] },
+  { href: "league-empire-loyalists.html", terms: ["League of Empire Loyalists", "Empire Loyalists"] },
   { href: "muscat-articles.html", terms: ["Muscat Articles"] },
   { href: "falklands-war.html", terms: ["Falklands–Malvinas War", "Falklands War", "Second Torch", "Punta del Este Protocols"] },
   { href: "war-of-the-chiefs.html", terms: ["Mittelafrikanischer Häuptlingskrieg", "Häuptlingskrieg", "War of the Chiefs"] },
