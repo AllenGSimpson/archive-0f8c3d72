@@ -1215,6 +1215,9 @@ const pages = [
   { title: "IAS Machine", description: "Princeton's published stored-program architecture", href: "ias-machine.html", tags: "ias machine institute advanced study princeton von neumann bigelow 40 bit" },
   { title: "Telefunken Rechenanlage 52", description: "The early Schreyer–Telefunken electronic computer family", href: "telefunken-rechenanlage-52.html", tags: "telefunken rechenanlage 52 helmut schreyer german electronic computer radar instrument" },
   { title: "A-0 System", description: "Grace Hopper's UNIVAC compiling routine and automatic programming system", href: "a-0-system.html", tags: "a-0 a0 system grace hopper univac compiler compiling routine automatic programming" },
+  { title: "German Economic Regularization, 1951–1955", description: "Survey, clearing, commodity schedules, and the route to the Showroom Reich", href: "german-economic-regularization-1951-55.html", tags: "germany economic regularization great inventory clearing commodity schedule reconstruction 1951 1955" },
+  { title: "Great Inventory of 1951", description: "Germany's empire-wide productive, financial, labor, and infrastructure survey", href: "great-inventory-1951.html", tags: "great inventory 1951 germany survey railways mines farms power labor currencies industry" },
+  { title: "Imperial Clearing Regularization of 1952", description: "Verrechnungsmark accounts, commodity grades, and blocked purchasing rights", href: "imperial-clearing-regularization-1952.html", tags: "imperial clearing regularization 1952 verrechnungsmark currencies commodity grades blocked accounts" },
   { title: "Postwar Governments of the United Kingdom", description: "British ministries from the Brick Parliament to Responsible Independence", href: "postwar-british-governments.html", tags: "britain postwar governments prime ministers bevan butler powell wilson healey thatcher ashcombe" },
   { title: "George VI", description: "Wartime king and constitutional mediator of the post-defeat settlement", href: "george-vi.html", tags: "george vi king crown windsor westminster white parachutes commonwealth" },
   { title: "Elizabeth II", description: "Post-defeat sovereign and constitutional head of the British Commonwealth", href: "elizabeth-ii.html", tags: "elizabeth ii queen crown coronation commonwealth powell new elizabethans" },
@@ -2761,6 +2764,9 @@ const crossLinks = [
   ,{ href: "ias-machine.html", terms: ["IAS machine", "Institute for Advanced Study machine"] }
   ,{ href: "telefunken-rechenanlage-52.html", terms: ["Telefunken Rechenanlage 52", "Rechenanlage 52", "Schreyer–Telefunken line"] }
   ,{ href: "a-0-system.html", terms: ["A-0 system", "A-0-class system", "A-0 compiler"] }
+  ,{ href: "german-economic-regularization-1951-55.html", terms: ["German economic regularization", "economic regularization of 1951–1955"] }
+  ,{ href: "great-inventory-1951.html", terms: ["Great Inventory of 1951", "Great Inventory"] }
+  ,{ href: "imperial-clearing-regularization-1952.html", terms: ["Imperial clearing regularization", "clearing regularization of 1952"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }

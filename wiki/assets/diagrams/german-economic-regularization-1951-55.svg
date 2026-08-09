@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">German economic regularization, 1951 to 1955</title>
+  <desc id="desc">A flow diagram showing survey returns passing through the Great Inventory into classification, clearing accounts, commodity delivery schedules, reconstruction investment, and metropolitan consumption.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#111719"/><stop offset="1" stop-color="#202726"/></linearGradient>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0L11 5.5L0 11Z" fill="#c8ba88"/></marker>
+    <style>.title{font:700 39px Georgia,serif;fill:#f4efe3}.sub{font:18px system-ui,sans-serif;letter-spacing:3px;fill:#b4c1bd}.box{fill:#26322f;stroke:#788d83;stroke-width:3}.major{fill:#303b34;stroke:#c8ba88;stroke-width:4}.end{fill:#34382d;stroke:#d3b75f;stroke-width:4}.head{font:700 23px system-ui,sans-serif;fill:#fff}.copy{font:17px system-ui,sans-serif;fill:#cad5d1}.date{font:700 16px system-ui,sans-serif;fill:#161a19}.pill{fill:#c8ba88}.wire{fill:none;stroke:#c8ba88;stroke-width:4;marker-end:url(#arrow)}.feedback{fill:none;stroke:#728985;stroke-width:3;stroke-dasharray:8 7;marker-end:url(#arrow)}.foot{font:italic 18px Georgia,serif;fill:#d8d6c9}</style>
+  </defs>
+  <rect width="1400" height="820" rx="24" fill="url(#bg)"/>
+  <text x="70" y="72" class="title">From territorial possession to imperial accounts</text>
+  <text x="70" y="108" class="sub">GERMAN ECONOMIC REGULARIZATION · 1951–55</text>
+  <g transform="translate(70 176)"><rect width="260" height="154" rx="14" class="box"/><rect x="18" y="18" width="66" height="25" rx="5" class="pill"/><text x="51" y="36" text-anchor="middle" class="date">INPUT</text><text x="18" y="79" class="head">Survey returns</text><text x="18" y="109" class="copy">rail · mines · farms · ports</text><text x="18" y="136" class="copy">power · labor · money · industry</text></g>
+  <g transform="translate(420 176)"><rect width="270" height="154" rx="14" class="major"/><rect x="18" y="18" width="68" height="25" rx="5" class="pill"/><text x="52" y="36" text-anchor="middle" class="date">1951</text><text x="18" y="79" class="head">Great Inventory</text><text x="18" y="109" class="copy">baseline and condition reports</text><text x="18" y="136" class="copy">confidence, repair, and capacity</text></g>
+  <g transform="translate(780 176)"><rect width="270" height="154" rx="14" class="major"/><rect x="18" y="18" width="68" height="25" rx="5" class="pill"/><text x="52" y="36" text-anchor="middle" class="date">1952</text><text x="18" y="79" class="head">Classification</text><text x="18" y="109" class="copy">commodity grade · jurisdiction</text><text x="18" y="136" class="copy">currency · priority · transport</text></g>
+  <g transform="translate(1120 176)"><rect width="210" height="154" rx="14" class="box"/><text x="18" y="65" class="head">Clearing</text><text x="18" y="96" class="copy">blocked balances</text><text x="18" y="123" class="copy">permitted purchases</text></g>
+  <path d="M330 253H420" class="wire"/><path d="M690 253H780" class="wire"/><path d="M1050 253H1120" class="wire"/>
+  <g transform="translate(170 458)"><rect width="280" height="154" rx="14" class="box"/><text x="18" y="56" class="head">Delivery schedules</text><text x="18" y="88" class="copy">base quota · retention floor</text><text x="18" y="115" class="copy">inspection · rail slot · depot</text></g>
+  <g transform="translate(560 458)"><rect width="280" height="154" rx="14" class="box"/><text x="18" y="56" class="head">Reconstruction credit</text><text x="18" y="88" class="copy">repair · machinery · power</text><text x="18" y="115" class="copy">housing · concessions · firms</text></g>
+  <g transform="translate(950 458)"><rect width="280" height="154" rx="14" class="end"/><rect x="18" y="18" width="68" height="25" rx="5" class="pill"/><text x="52" y="36" text-anchor="middle" class="date">1955</text><text x="18" y="76" class="head">Showroom Reich</text><text x="18" y="108" class="copy">food · transport · housing</text><text x="18" y="135" class="copy">goods · holidays · display</text></g>
+  <path d="M1225 330V395H310V458" class="wire"/><path d="M1225 330V405H700V458" class="wire"/><path d="M450 535H560" class="wire"/><path d="M840 535H950" class="wire"/>
+  <path d="M1088 612V684H555V330" class="feedback"/>
+  <text x="700" y="748" text-anchor="middle" class="foot">Revisions moved backward through the system: shortages, false returns, and transport failures altered the next schedule.</text>
+</svg>
