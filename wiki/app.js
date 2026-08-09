@@ -309,6 +309,13 @@ const pages = [
   { title: "Walter Schellenberg", description: "Foreign-intelligence chief and Reinhard Heydrich's external-security successor", href: "walter-schellenberg.html", tags: "walter schellenberg foreign intelligence rsHA amt vi heydrich 1978" },
   { title: "Karl Schiller", description: "Economist and Albert Speer's successor for macroeconomic coordination", href: "karl-schiller.html", tags: "karl schiller economist macroeconomic coordination speer clearing competition 1977" },
   { title: "Eberhard Rees", description: "Space-program operations director and Wernher von Braun's practical successor", href: "eberhard-rees.html", tags: "eberhard rees space program peenemunde von braun raumhafen 1977" },
+  { title: "Kurt Debus", description: "Launch-operations director who built Germany's ranges, countdowns, and ground systems", href: "kurt-debus.html", tags: "kurt debus launch operations range countdown peenemunde orbitaler raumhafen" },
+  { title: "Ernst Stuhlinger", description: "Space scientist and director of advanced electric and nuclear propulsion", href: "ernst-stuhlinger.html", tags: "ernst stuhlinger space science ion electric nuclear propulsion medicine" },
+  { title: "Helmut Gröttrup", description: "Guidance engineer linking German flight control, telemetry, and computing", href: "helmut-groettrup.html", tags: "helmut groettrup gröttrup guidance telemetry computing rendezvous zuse weltnetz" },
+  { title: "Arthur Rudolph", description: "Rocket-production organizer whose career includes Mittelwerk and forced labor", href: "arthur-rudolph.html", tags: "arthur rudolph production mittelwerk mittelbau dora forced labor rockets" },
+  { title: "Konrad Dannenberg", description: "Propulsion and stage-integration engineer for German heavy launch vehicles", href: "konrad-dannenberg.html", tags: "konrad dannenberg propulsion stages peenemunde heavy launch moon" },
+  { title: "Krafft Ehricke", description: "Astronautical strategist for industrial orbit, lunar settlement, and Mars", href: "krafft-ehricke.html", tags: "krafft ehricke extraterrestrial imperative moon mars orbital industry nuclear propulsion" },
+  { title: "Hermann Oberth", description: "Foundational rocket theorist and elder prophet of German astronautics", href: "hermann-oberth.html", tags: "hermann oberth rocket pioneer astronautics teacher von braun space stations" },
   { title: "Manfred Rommel", description: "Municipal administrator and keeper of Erwin Rommel's civic and family legacy", href: "manfred-rommel.html", tags: "manfred rommel stuttgart municipal civic family memory 1970" },
   { title: "Helmut Goebbels", description: "Documentary director and custodian of the Goebbels family-cultural inheritance", href: "helmut-goebbels.html", tags: "helmut goebbels documentary television archive family cultural inheritance 1971" },
   { title: "Albert Speer Jr.", description: "Architect, urban planner, and deliberately limited heir to the Speer design inheritance", href: "albert-speer-jr.html", tags: "albert speer junior architect urban planner technical cities transport 1977" },
@@ -3174,6 +3181,13 @@ const crossLinks = [
   ,{ href: "walter-schellenberg.html", terms: ["Walter Schellenberg", "Schellenberg"] }
   ,{ href: "karl-schiller.html", terms: ["Karl Schiller", "Schiller"] }
   ,{ href: "eberhard-rees.html", terms: ["Eberhard Rees", "Rees"] }
+  ,{ href: "kurt-debus.html", terms: ["Kurt Debus", "Debus"] }
+  ,{ href: "ernst-stuhlinger.html", terms: ["Ernst Stuhlinger", "Stuhlinger"] }
+  ,{ href: "helmut-groettrup.html", terms: ["Helmut Gröttrup", "Helmut Groettrup", "Gröttrup"] }
+  ,{ href: "arthur-rudolph.html", terms: ["Arthur Rudolph"] }
+  ,{ href: "konrad-dannenberg.html", terms: ["Konrad Dannenberg", "Dannenberg"] }
+  ,{ href: "krafft-ehricke.html", terms: ["Krafft Ehricke", "Ehricke"] }
+  ,{ href: "hermann-oberth.html", terms: ["Hermann Oberth", "Oberth"] }
   ,{ href: "manfred-rommel.html", terms: ["Manfred Rommel"] }
   ,{ href: "helmut-goebbels.html", terms: ["Helmut Goebbels"] }
   ,{ href: "albert-speer-jr.html", terms: ["Albert Speer Jr.", "Albert Speer Junior"] }
