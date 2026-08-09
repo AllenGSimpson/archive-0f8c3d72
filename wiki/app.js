@@ -1058,6 +1058,12 @@ const pages = [
   { title: "Doxing", description: "Network identity exposure and identity collapse in the late-century Weltnetz order", href: "doxing.html", tags: "doxing docs identity collapse exposure civil identity shadownet brightnet privacy" },
   { title: "Identity-Cleaning Industry", description: "Reputation repair and corporate-readmission services after network exposure", href: "identity-cleaning-industry.html", tags: "identity cleaning reputation repair readmission reconciliation certificate blacklist doxing" },
   { title: "Foreign ShadowNet Ecosystems", description: "German, Japanese, Commonwealth, and Latin pseudonymous service cultures", href: "foreign-shadownet-ecosystems.html", tags: "foreign shadownet ecosystems schattennetz germany japan britain commonwealth latin bloc" },
+  { title: "Video Games", description: "The divided international game medium from early personal computing through Weltnetz mass culture", href: "video-games.html", tags: "video games gaming industry consoles arcades modding multiplayer mass culture" },
+  { title: "Video Games in the United States", description: "Open software, shooters, modding, corporate worlds, and ShadowNet servers", href: "video-games-united-states.html", tags: "american video games united states shooters modding concord bridge corporate virtual worlds" },
+  { title: "Video Games in Japan", description: "Consoles, arcades, characters, integrated households, and Co-Prosperity Sphere distribution", href: "video-games-japan.html", tags: "japanese video games japan consoles arcades characters animation geacps" },
+  { title: "Video Games in the British Commonwealth", description: "Educational software, simulation, routes, intelligence, and distributed Commonwealth production", href: "video-games-british-commonwealth.html", tags: "british commonwealth video games education simulation intelligence routes schools" },
+  { title: "Video Games in the Latin Bloc", description: "Design, narrative, licensing, and Catholic debate around interactive entertainment", href: "video-games-latin-bloc.html", tags: "latin bloc video games italy occitania spain portugal design narrative catholic ratings" },
+  { title: "Media Certification in Germany", description: "Private media production governed through licensing, classification, and narrative framing", href: "german-media-certification.html", tags: "german media certification propaganda ministry games film narrative framing censorship preclearance" },
   { title: "Frontier's Functional Orbital Monopoly", description: "A dominant space-transport utility without legal exclusivity", href: "frontier-functional-monopoly.html", tags: "frontier orbital functional monopoly competitors network space transport utility" },
   { title: "American–Japanese Corporate Competition in India", description: "Gold-dollar portability against entrenched zaibatsu networks", href: "india-corporate-frontier.html", tags: "india corporate frontier american japanese zaibatsu dollar gold yen competition" },
   { title: "Southern Africa in the Commonwealth Space Network", description: "Tracking, telemetry, strategic materials, and political dependence", href: "commonwealth-southern-africa-space-network.html", tags: "southern africa commonwealth space tracking telemetry minerals south africa rhodesia" },
@@ -3330,6 +3336,12 @@ const crossLinks = [
   ,{ href: "doxing.html", terms: ["doxing", "identity collapse", "identity exposure"] }
   ,{ href: "identity-cleaning-industry.html", terms: ["identity-cleaning industry", "identity cleaning", "reputation-repair firms", "corporate readmission"] }
   ,{ href: "foreign-shadownet-ecosystems.html", terms: ["foreign ShadowNets", "foreign ShadowNet ecosystems", "Schattennetz"] }
+  ,{ href: "video-games.html", terms: ["video games", "computer games", "gaming culture"] }
+  ,{ href: "video-games-united-states.html", terms: ["video games in the United States", "American game culture", "American video-game industry"] }
+  ,{ href: "video-games-japan.html", terms: ["video games in Japan", "Japanese game industry", "Japanese game culture"] }
+  ,{ href: "video-games-british-commonwealth.html", terms: ["video games in the British Commonwealth", "British game industry", "Commonwealth game industry"] }
+  ,{ href: "video-games-latin-bloc.html", terms: ["video games in the Latin Bloc", "Latin game industry", "Latin game culture"] }
+  ,{ href: "german-media-certification.html", terms: ["media certification in Germany", "German media certification", "preclearance consultation", "narrative-compliance consultants"] }
   ,{ href: "zivilsprachenrichtlinie.html", terms: ["Zivilsprachenrichtlinie", "Sprachenbereinigung", "certify uses, not ideas"] }
   ,{ href: "werkcode.html", terms: ["Werkcode 80", "Werkcode"] }
   ,{ href: "lehrplan.html", terms: ["Lehrplan 81", "Lehrplan"] }
