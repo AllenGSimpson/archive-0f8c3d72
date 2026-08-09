@@ -442,6 +442,14 @@ const pages = [
   { title: "Five Falklands Rules", description: "The Reagan administration's limits on escalation and settlement in the South Atlantic war", href: "five-falklands-rules.html", tags: "five falklands rules reagan argentina britain germany mediation islander consent" },
   { title: "Constitutional Free Enterprise", description: "The Democratic-Republican doctrine joining competitive markets to independent institutions", href: "constitutional-free-enterprise.html", tags: "constitutional free enterprise reagan democratic republican markets unions institutions strategic state" },
   { title: "Reciprocal Open Markets", description: "The Reagan doctrine opening ordinary commerce while screening strategic control", href: "reciprocal-open-markets.html", tags: "reciprocal open markets reagan trade investment strategic ownership open door depression" },
+  { title: "Falklands Lisbon Talks", description: "The failed Portuguese-mediated sovereignty negotiations of 1981–1982", href: "falklands-lisbon-talks.html", tags: "falklands lisbon talks portugal britain argentina sovereignty negotiations 1981 1982" },
+  { title: "Rio Formula", description: "The Brazilian–Vatican twenty-year transitional proposal for the Falkland Islands", href: "rio-formula.html", tags: "rio formula brazil vatican falklands joint administration demilitarization 1983" },
+  { title: "Operación Rosario", description: "Argentina's April 1984 seizure and fortification of the Falkland Islands", href: "operacion-rosario.html", tags: "operacion rosario argentina falklands invasion recovery operation april 1984" },
+  { title: "South Georgia Campaign of 1984", description: "Britain's opening counterstroke and the false dawn before the main campaign", href: "south-georgia-campaign-1984.html", tags: "south georgia campaign 1984 britain argentina falklands recapture false dawn" },
+  { title: "Second Torch", description: "The failed July 1984 British landing on East Falkland", href: "second-torch.html", tags: "second torch east falkland landing britain argentina thatcher amphibious disaster 1984" },
+  { title: "West Falkland Lodgment", description: "The British island base built after Second Torch for the methodical return east", href: "west-falkland-lodgment.html", tags: "west falkland lodgment british base port howard fox bay airstrip 1984" },
+  { title: "South Atlantic Siege", description: "The prolonged naval-air and divided-island phase of the Falklands War", href: "south-atlantic-siege.html", tags: "south atlantic siege falklands blockade attrition logistics west east island" },
+  { title: "South Atlantic Armed Mediation", description: "The American containment policy bounding intervention and war termination", href: "south-atlantic-armed-mediation.html", tags: "south atlantic armed mediation buchanan reagan falklands germany britain argentina containment" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3923,6 +3931,14 @@ const crossLinks = [
   ,{ href: "five-falklands-rules.html", terms: ["Five Falklands Rules", "Falklands Rules"] }
   ,{ href: "constitutional-free-enterprise.html", terms: ["constitutional free enterprise", "constitutional market nationalism"] }
   ,{ href: "reciprocal-open-markets.html", terms: ["Reciprocal Open Markets", "reciprocal-open-markets doctrine"] }
+  ,{ href: "falklands-lisbon-talks.html", terms: ["Falklands Lisbon talks", "Lisbon talks"] }
+  ,{ href: "rio-formula.html", terms: ["Rio formula", "Brazilian–Vatican Rio formula", "Brazilian-Vatican Rio formula"] }
+  ,{ href: "operacion-rosario.html", terms: ["Operación Rosario", "Operacion Rosario"] }
+  ,{ href: "south-georgia-campaign-1984.html", terms: ["South Georgia campaign of 1984", "South Georgia campaign", "retakes South Georgia"] }
+  ,{ href: "second-torch.html", terms: ["Second Torch", "failed East Falkland landing"] }
+  ,{ href: "west-falkland-lodgment.html", terms: ["West Falkland lodgment", "West Falkland base"] }
+  ,{ href: "south-atlantic-siege.html", terms: ["South Atlantic siege", "long siege", "naval-air siege"] }
+  ,{ href: "south-atlantic-armed-mediation.html", terms: ["South Atlantic armed mediation", "hemispheric armed mediation", "armed mediation"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
