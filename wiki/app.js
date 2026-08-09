@@ -1573,7 +1573,13 @@ const pages = [
   { title: "National Development Conservatism", description: "Mallory's conservative doctrine of national construction and planetary capability", href: "national-development-conservatism.html", tags: "national development conservatism edward mallory development right nlcu space sovereignty" },
   { title: "Development Right", description: "The Malloryite expansionist tendency inside the National Liberal–Constitutional Union", href: "development-right.html", tags: "development right faction edward mallory nlcu national liberal greenwich compact" },
   { title: "British Space Sovereignty", description: "Independent launch, networks, habitation, maintenance, and planetary access as sovereign capability", href: "british-space-sovereignty.html", tags: "british space sovereignty commonwealth resolution serenity mars capability doctrine" },
-  { title: "American Aerospace Migration to Britain", description: "The selective post-1990 movement of specialists, contracts, tools, and technical knowledge", href: "american-aerospace-migration-to-britain.html", tags: "american aerospace migration britain 1990 open door depression engineers technology transfer" }
+  { title: "American Aerospace Migration to Britain", description: "The selective post-1990 movement of specialists, contracts, tools, and technical knowledge", href: "american-aerospace-migration-to-britain.html", tags: "american aerospace migration britain 1990 open door depression engineers technology transfer" },
+  { title: "Black Radio Networks in the United States", description: "The stations, syndicators, church broadcasts, news services, and disc-jockey circuits of Black America", href: "black-radio-networks.html", tags: "black radio networks stations syndication church broadcast disc jockey r&b soul gospel" },
+  { title: "Black Performance Circuit", description: "The theaters, clubs, churches, promoters, booking agencies, and touring routes sustaining Black performers", href: "black-performance-circuit.html", tags: "black performance circuit theater clubs churches booking touring revue music comedy" },
+  { title: "Black Church Cultural Network", description: "The religious, civic, musical, publishing, broadcasting, and political infrastructure of Black churches", href: "black-church-cultural-network.html", tags: "black church cultural network gospel congregations civil rights radio publishing politics" },
+  { title: "Black Recording Industry in the United States", description: "Black-owned labels, studios, publishers, distributors, managers, shops, and artist-controlled companies", href: "black-recording-industry.html", tags: "black recording industry labels studios publishing distribution motown music" },
+  { title: "Black Television Syndication", description: "Independent Black production and distribution across local stations, cable, satellite, and home video", href: "black-television-syndication.html", tags: "black television syndication independent production local stations cable motown" },
+  { title: "Crossover Licensing in American Entertainment", description: "The contractual movement of works and stars between parallel Black and white cultural markets", href: "crossover-licensing-american-entertainment.html", tags: "crossover licensing american entertainment black white markets records film television touring" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2790,6 +2796,12 @@ const crossLinks = [
   ,{ href: "ray-charles.html", terms: ["Ray Charles"] }
   ,{ href: "james-brown.html", terms: ["James Brown", "Godfather of Soul"] }
   ,{ href: "marvin-gaye.html", terms: ["Marvin Gaye"] }
+  ,{ href: "black-radio-networks.html", terms: ["Black radio networks", "Black radio"] }
+  ,{ href: "black-performance-circuit.html", terms: ["Black performance circuit", "Black performance circuits"] }
+  ,{ href: "black-church-cultural-network.html", terms: ["Black church cultural network", "Black churches"] }
+  ,{ href: "black-recording-industry.html", terms: ["Black recording industry", "Black-owned record companies"] }
+  ,{ href: "black-television-syndication.html", terms: ["Black television syndication"] }
+  ,{ href: "crossover-licensing-american-entertainment.html", terms: ["crossover licensing", "licensed crossover"] }
   ,{ href: "american-orbital-carrier-industry.html", terms: ["American orbital-carrier industry", "American orbital carrier industry"] }
   ,{ href: "american-lunar-resource-industry.html", terms: ["American lunar-resource industry", "American lunar resource industry"] }
   ,{ href: "american-orbital-habitat-industry.html", terms: ["American orbital-habitat industry", "American orbital habitat industry"] }
