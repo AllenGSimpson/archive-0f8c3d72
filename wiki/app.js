@@ -1131,6 +1131,14 @@ const pages = [
   { title: "Industrial Conversion after 1947", description: "The redirection of wartime plants, firms, and machine tools toward reconstruction", href: "industrial-conversion-1947.html", tags: "industrial conversion 1947 postwar reconstruction combines zaibatsu civilian" },
   { title: "Postwar Repair Economy", description: "Garages, remanufacturers, dealers, and technicians keeping mixed machinery alive", href: "postwar-repair-economy.html", tags: "postwar repair economy mechanics garages remanufacturing small firms" },
   { title: "Surplus Motorization", description: "Civilian reuse of wartime trucks, utilities, workshops, and engineering equipment", href: "surplus-motorization.html", tags: "surplus motorization trucks vehicles 1947 1955 conversion repair" },
+  { title: "Motor Industry of Germany", description: "The postwar national vehicle ladder from surplus fleets to Volkswagen, Auto Union, Borgward, and blocked foreign firms", href: "german-motor-industry.html", tags: "german motor industry automobile vehicle volkswagen auto union borgward opel ford werke mercedes bmw porsche" },
+  { title: "Volkswagenwerk", description: "The state mass producer that settled the KdF claims and motorized the postwar Reich", href: "volkswagenwerk.html", tags: "volkswagen volkswagenwerk kdf wagen typ 1 volkswagen 1100 labour front wolfsburg automobile" },
+  { title: "Auto Union", description: "The intact Saxon four-marque group of DKW, Wanderer, Audi, and Horch", href: "auto-union.html", tags: "auto union dkw wanderer audi horch saxony chemnitz zwickau four rings automobile" },
+  { title: "Borgward", description: "The Bremen vehicle concern preserved through managed commercial-vehicle reorganization", href: "borgward.html", tags: "borgward bremen hansa lloyd commercial vehicles trucks nutzfahrzeuge german automobile" },
+  { title: "American Independent Motor Industry", description: "The manufacturers outside the Big Three and their three durable consolidation paths", href: "american-independent-motor-industry.html", tags: "american independent motor automobile industry nash hudson studebaker packard kaiser willys amc" },
+  { title: "American Motors Corporation", description: "The Nash–Hudson combination and fourth full-line American automobile producer", href: "american-motors-corporation.html", tags: "american motors corporation amc nash kelvinator hudson compact cars refrigeration appliances" },
+  { title: "Studebaker–Packard", description: "America's surviving prestige, engine, truck, and government-engineering motor concern", href: "studebaker-packard.html", tags: "studebaker packard south bend detroit prestige engines trucks government engineering automobile" },
+  { title: "Kaiser–Willys", description: "The independent American Jeep, utility, military, and export-vehicle specialist", href: "kaiser-willys.html", tags: "kaiser willys jeep utility four wheel drive 4x4 military transport light trucks american automobile" },
   { title: "Applied-Systems Takeoff", description: "Reliability, electronics, automation, refrigeration, logistics, and space procurement", href: "applied-systems-takeoff.html", tags: "applied systems takeoff reliability transistor automation refrigeration logistics raumbote" },
   { title: "Reliability Engineering", description: "Traceability, testing, maintenance, inquiry, and certification across complex systems", href: "reliability-engineering.html", tags: "reliability engineering certification fatigue testing components comet quality" },
   { title: "Civilian Refrigeration and Cold Chain", description: "Temperature-controlled food, medicine, shipping, storage, and household supply", href: "civilian-cold-chain.html", tags: "civilian cold chain refrigeration warehouse truck ship food medicine refrigerator" },
@@ -2766,6 +2774,14 @@ const crossLinks = [
   ,{ href: "industrial-conversion-1947.html", terms: ["Industrial conversion after 1947", "postwar industrial conversion", "civilian conversion"] }
   ,{ href: "postwar-repair-economy.html", terms: ["Postwar repair economy", "repair economy", "small-firm layer"] }
   ,{ href: "surplus-motorization.html", terms: ["Surplus motorization", "surplus vehicle economy"] }
+  ,{ href: "german-motor-industry.html", terms: ["Motor industry of Germany", "German motor industry", "German automobile industry"] }
+  ,{ href: "volkswagenwerk.html", terms: ["Volkswagenwerk", "Volkswagen 1100", "Volkswagen", "KdF purchase certificates"] }
+  ,{ href: "auto-union.html", terms: ["Auto Union", "four-ring group", "four rings"] }
+  ,{ href: "borgward.html", terms: ["Borgward Nutzfahrzeuge", "Borgward", "Borgward crisis"] }
+  ,{ href: "american-independent-motor-industry.html", terms: ["American independent motor industry", "American automotive independents", "independent automobile manufacturers"] }
+  ,{ href: "american-motors-corporation.html", terms: ["American Motors Corporation", "American Motors", "Nash–Hudson", "Nash-Hudson", "Nash-Kelvinator"] }
+  ,{ href: "studebaker-packard.html", terms: ["Studebaker–Packard", "Studebaker-Packard", "Studebaker and Packard"] }
+  ,{ href: "kaiser-willys.html", terms: ["Kaiser–Willys", "Kaiser-Willys", "Kaiser and Willys"] }
   ,{ href: "applied-systems-takeoff.html", terms: ["Applied-systems takeoff", "applied systems takeoff", "Raumbote transition"] }
   ,{ href: "reliability-engineering.html", terms: ["Reliability engineering", "reliability groups", "component traceability"] }
   ,{ href: "civilian-cold-chain.html", terms: ["Civilian cold chain", "cold chain", "refrigerated warehouses"] }
