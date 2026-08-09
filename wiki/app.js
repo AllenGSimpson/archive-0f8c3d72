@@ -1053,6 +1053,11 @@ const pages = [
   { title: "Panamanian Military Regime", description: "The nationalist security order created by Panama's 1968 political rupture", href: "panamanian-military-regime.html", tags: "panama military regime 1968 canal national guard american hemisphere" },
   { title: "Brightnet", description: "The indexed and identity-linked American public service ecology on Weltnetz", href: "brightnet.html", tags: "brightnet weltnetz public identity indexed employment professional services shadownet" },
   { title: "Corporate Political Blacklists", description: "Private employment and affiliation records in the mature American corporate order", href: "corporate-political-blacklists.html", tags: "corporate political blacklists brightnet shadownet doxing employment free association identity cleaning" },
+  { title: "Privacy-Router Industry", description: "The American hardware, relay, hosting, and access business behind routine ShadowNet use", href: "privacy-router-industry.html", tags: "privacy router industry relay hosting no published gateway shadownet bridge" },
+  { title: "Signed Handles", description: "Persistent cryptographic pseudonyms and portable reputation on ShadowNet", href: "signed-handles.html", tags: "signed handles cryptographic personhood continuity disclosure clean handle burned pseudonym reputation" },
+  { title: "Doxing", description: "Network identity exposure and identity collapse in the late-century Weltnetz order", href: "doxing.html", tags: "doxing docs identity collapse exposure civil identity shadownet brightnet privacy" },
+  { title: "Identity-Cleaning Industry", description: "Reputation repair and corporate-readmission services after network exposure", href: "identity-cleaning-industry.html", tags: "identity cleaning reputation repair readmission reconciliation certificate blacklist doxing" },
+  { title: "Foreign ShadowNet Ecosystems", description: "German, Japanese, Commonwealth, and Latin pseudonymous service cultures", href: "foreign-shadownet-ecosystems.html", tags: "foreign shadownet ecosystems schattennetz germany japan britain commonwealth latin bloc" },
   { title: "Frontier's Functional Orbital Monopoly", description: "A dominant space-transport utility without legal exclusivity", href: "frontier-functional-monopoly.html", tags: "frontier orbital functional monopoly competitors network space transport utility" },
   { title: "American–Japanese Corporate Competition in India", description: "Gold-dollar portability against entrenched zaibatsu networks", href: "india-corporate-frontier.html", tags: "india corporate frontier american japanese zaibatsu dollar gold yen competition" },
   { title: "Southern Africa in the Commonwealth Space Network", description: "Tracking, telemetry, strategic materials, and political dependence", href: "commonwealth-southern-africa-space-network.html", tags: "southern africa commonwealth space tracking telemetry minerals south africa rhodesia" },
@@ -3315,11 +3320,16 @@ const crossLinks = [
   ,{ href: "gazo-44.html", terms: ["Gazō 44", "Gazō", "画像四四"] }
   ,{ href: "international-character-data-standards-council.html", terms: ["International Character and Data Standards Council", "ICDSC"] }
   ,{ href: "concord-architecture.html", terms: ["Concord architecture", "Concord Meridian", "Concord One"] }
-  ,{ href: "shadownet.html", terms: ["ShadowNet", "going shadow", "Brightnet", "Schattennetz"] }
+  ,{ href: "shadownet.html", terms: ["ShadowNet", "going shadow"] }
   ,{ href: "colombian-national-compact.html", terms: ["Colombian National Compact", "National Compact", "Colombian power-sharing settlement"] }
   ,{ href: "panamanian-military-regime.html", terms: ["Panamanian military regime", "1968 Panamanian rupture", "Panama military government"] }
   ,{ href: "brightnet.html", terms: ["Brightnet", "public Weltnetz", "employment-safe identity"] }
-  ,{ href: "corporate-political-blacklists.html", terms: ["corporate political blacklists", "corporate blacklists", "identity-cleaning services"] }
+  ,{ href: "corporate-political-blacklists.html", terms: ["corporate political blacklists", "corporate blacklists"] }
+  ,{ href: "privacy-router-industry.html", terms: ["privacy-router industry", "privacy routers", "privacy relays"] }
+  ,{ href: "signed-handles.html", terms: ["signed handles", "cryptographic personhood", "clean handle", "burning a handle"] }
+  ,{ href: "doxing.html", terms: ["doxing", "identity collapse", "identity exposure"] }
+  ,{ href: "identity-cleaning-industry.html", terms: ["identity-cleaning industry", "identity cleaning", "reputation-repair firms", "corporate readmission"] }
+  ,{ href: "foreign-shadownet-ecosystems.html", terms: ["foreign ShadowNets", "foreign ShadowNet ecosystems", "Schattennetz"] }
   ,{ href: "zivilsprachenrichtlinie.html", terms: ["Zivilsprachenrichtlinie", "Sprachenbereinigung", "certify uses, not ideas"] }
   ,{ href: "werkcode.html", terms: ["Werkcode 80", "Werkcode"] }
   ,{ href: "lehrplan.html", terms: ["Lehrplan 81", "Lehrplan"] }
