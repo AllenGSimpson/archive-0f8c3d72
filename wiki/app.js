@@ -1103,7 +1103,10 @@ const pages = [
   { title: "Runes in the SS Order Faith", description: "Elder Futhark, Younger Futhark, and the modern Armanen Order Row", href: "order-faith-runes.html", tags: "order faith runes elder younger futhark armanen order row" },
   { title: "Membership and Authority in the SS Order Faith", description: "Descent, confession, initiation, office, and religious jurisdiction", href: "order-faith-membership.html", tags: "order faith membership authority full order germanic association service affiliation" },
   { title: "Wewelsburg", description: "The castle, archive, school, and symbolic center of the SS Order Faith", href: "wewelsburg.html", tags: "wewelsburg castle ss order faith commission archive ritual" },
+  { title: "Wewelsburg Working Commission for Order Faith", description: "The 1945–47 interoffice commission that prepared the founding SS confession", href: "wewelsburg-working-commission.html", tags: "wewelsburg working commission order faith personal staff himmler 1945 doctrine" },
   { title: "First Wewelsburg Articles", description: "The 1947 founding confession of the SS Order Faith", href: "first-wewelsburg-articles.html", tags: "first wewelsburg articles 1947 confession himmler order faith" },
+  { title: "Wewelsburg Rescript on Sacrifice", description: "The 1953 ruling on offerings, blót, self-sacrifice, and Mannblót", href: "wewelsburg-rescript-sacrifice.html", tags: "wewelsburg rescript sacrifice 1953 blot mannblot offering himmler" },
+  { title: "Second Recension of the Wewelsburg Articles", description: "The 1956 doctrinal revision establishing popular, Order, and inner teaching", href: "second-recension-wewelsburg-articles.html", tags: "second recension wewelsburg articles 1956 teaching differentiated revelation" },
   { title: "Wewelsburg Confession", description: "The 1966 constitutional theology of Founder, Führer, and Order", href: "wewelsburg-confession.html", tags: "wewelsburg confession 1966 wolfgang lutheran fuhrer ss order" },
   { title: "First Order Rite Book", description: "The 1961 standard of SS Order Faith liturgy and ceremonial records", href: "first-order-rite-book.html", tags: "first order rite book 1961 ordensritenbuch liturgy rites" },
   { title: "Glaubensordnung of the SS", description: "The 1979 religious constitution fixing canon, offices, rites, and inspection", href: "ss-glaubensordnung.html", tags: "glaubensordnung ss 1979 hagedorn religious constitution canon" },
@@ -2676,7 +2679,10 @@ const crossLinks = [
   ,{ href: "order-faith-runes.html", terms: ["Runes in the SS Order Faith", "Order Row", "Armanen rune row"] }
   ,{ href: "order-faith-membership.html", terms: ["Membership and authority in the SS Order Faith", "full Order membership", "Germanic association", "service affiliation"] }
   ,{ href: "wewelsburg.html", terms: ["Wewelsburg"] }
+  ,{ href: "wewelsburg-working-commission.html", terms: ["Wewelsburg Working Commission for Order Faith", "Wewelsburg Working Commission", "Wewelsburg Commission"] }
   ,{ href: "first-wewelsburg-articles.html", terms: ["First Wewelsburg Articles"] }
+  ,{ href: "wewelsburg-rescript-sacrifice.html", terms: ["Wewelsburg Rescript on Sacrifice", "Rescript on Sacrifice", "sacrifice rescript"] }
+  ,{ href: "second-recension-wewelsburg-articles.html", terms: ["Second Recension of the Wewelsburg Articles", "second recension of the Articles", "1956 recension"] }
   ,{ href: "wewelsburg-confession.html", terms: ["Wewelsburg Confession"] }
   ,{ href: "first-order-rite-book.html", terms: ["First Order Rite Book", "Ordensritenbuch"] }
   ,{ href: "ss-glaubensordnung.html", terms: ["Glaubensordnung"] }
