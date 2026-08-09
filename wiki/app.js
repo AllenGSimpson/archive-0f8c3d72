@@ -1627,7 +1627,14 @@ const pages = [
   { title: "Alexander Raven Thomson", description: "Corporatist theorist and Union Commonwealth policy draftsman", href: "alexander-raven-thomson.html", tags: "alexander raven thomson union commonwealth corporatist policy" },
   { title: "Diana Mosley", description: "Writer, political hostess, and informal Union Commonwealth patron", href: "diana-mosley.html", tags: "diana mosley mitford union commonwealth hostess contacts" },
   { title: "British League of Ex-Servicemen and Women", description: "Veterans' organization bridging British Union and Union Commonwealth", href: "british-league-ex-servicemen-women.html", tags: "british league ex servicemen women veterans hamm union commonwealth" },
-  { title: "Post-Defeat British Nationalism", description: "Mosleyite, Empire Loyalist, and constitutional nationalist currents after 1947", href: "post-defeat-british-nationalism.html", tags: "post defeat british nationalism mosley chesterton powell crown" }
+  { title: "Post-Defeat British Nationalism", description: "Mosleyite, Empire Loyalist, and constitutional nationalist currents after 1947", href: "post-defeat-british-nationalism.html", tags: "post defeat british nationalism mosley chesterton powell crown" },
+  { title: "Cislunar Transportation Economy", description: "The Earth–orbit–Moon circuit of crews, cargo, propellant, and lunar material", href: "cislunar-transportation-economy.html", tags: "cislunar transportation economy logistics earth orbit moon freight tanker" },
+  { title: "Orbital Tugs and Tankers", description: "The work craft that assemble, reposition, recover, and refuel space systems", href: "orbital-tugs-tankers.html", tags: "orbital tugs tankers propellant transfer cargo spacecraft logistics" },
+  { title: "Lunar Mining and Materials Industry", description: "Remote excavation, volatile recovery, and practical lunar construction materials", href: "lunar-mining-materials-industry.html", tags: "lunar mining materials metallurgy water oxygen glass ceramics regolith" },
+  { title: "Rotating Habitation", description: "Artificial-gravity systems for stations, settlements, and interplanetary ships", href: "rotating-habitation.html", tags: "rotating habitation artificial gravity centrifuge station ring marsplan" },
+  { title: "Orbital Hydroponics", description: "Controlled cultivation for food, environmental research, and emergency supply", href: "orbital-hydroponics.html", tags: "orbital hydroponics food life support agriculture horai station" },
+  { title: "Orbital Service Workforce", description: "The technical and domestic labor behind permanent space infrastructure", href: "orbital-service-workforce.html", tags: "orbital service workforce labor technicians cargo maintenance life support" },
+  { title: "Strategic Stability in Space", description: "The protected functions and escalation risks that contain orbital conflict", href: "strategic-stability-in-space.html", tags: "strategic stability space orbital conflict firebreak satellites life support warning" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -3444,6 +3451,13 @@ const crossLinks = [
   ,{ href: "bob-dylan.html", terms: ["Bob Dylan"] }
   ,{ href: "aretha-franklin.html", terms: ["Aretha Franklin", "Queen of Soul"] }
   ,{ href: "berry-gordy.html", terms: ["Berry Gordy"] }
+  ,{ href: "cislunar-transportation-economy.html", terms: ["cislunar transportation economy", "cislunar economy"] }
+  ,{ href: "orbital-tugs-tankers.html", terms: ["orbital tugs and tankers", "orbital tugs", "space tankers"] }
+  ,{ href: "lunar-mining-materials-industry.html", terms: ["lunar mining and materials industry", "lunar mining and metallurgy", "lunar materials industry"] }
+  ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
+  ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
+  ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
+  ,{ href: "strategic-stability-in-space.html", terms: ["strategic stability in space", "orbital firebreak"] }
 ];
 
 function escapePattern(value) {
