@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Strength of an extraterrestrial claim through occupation and use</title>
+  <desc id="desc">Five stages progress from symbolic arrival and notice through installed works, continuous use, and permanent settlement. Legal standing strengthens without becoming automatic sovereignty.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071019"/><stop offset="1" stop-color="#132536"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#344654"/><stop offset=".48" stop-color="#5f93a5"/><stop offset="1" stop-color="#e0c775"/></linearGradient>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="url(#bg)"/>
+  <text x="60" y="70" fill="#edf4f7" font-family="Georgia,serif" font-size="31">Occupation and use: a ladder of protected interests</text>
+  <text x="60" y="105" fill="#9eb1bf" font-family="Arial,sans-serif" font-size="17">Infrastructure, continuing responsibility, and resident dependence matter more than ceremony alone</text>
+  <path d="M100 470H1100" stroke="url(#bar)" stroke-width="14" stroke-linecap="round"/>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(125 0)"><circle cy="470" r="17" fill="#425563" stroke="#98a8b2" stroke-width="3"/><path d="M0 442V270M0 295l42 18-42 18" fill="none" stroke="#98a8b2" stroke-width="6"/><text x="-60" y="220" fill="#e2e8eb" font-size="19" font-weight="700">Symbolic arrival</text><text x="-60" y="248" fill="#aebcc5" font-size="13"><tspan x="-60">Flag, plaque, and</tspan><tspan x="-60" dy="19">first-landing prestige</tspan></text></g>
+    <g transform="translate(360 0)"><circle cy="470" r="17" fill="#527487" stroke="#9fc0cc" stroke-width="3"/><rect x="-31" y="285" width="62" height="70" rx="8" fill="none" stroke="#9fc0cc" stroke-width="5"/><path d="M-18 305H18M-18 322H13M-18 339H5" stroke="#9fc0cc" stroke-width="4"/><text x="-72" y="220" fill="#e5eef1" font-size="19" font-weight="700">Filed notice</text><text x="-72" y="248" fill="#b5c8d0" font-size="13"><tspan x="-72">Location, purpose,</tspan><tspan x="-72" dy="19">timing, and contact</tspan></text></g>
+    <g transform="translate(600 0)"><circle cy="470" r="17" fill="#6999a9" stroke="#c5e0e7" stroke-width="3"/><path d="M-48 360V304L0 268l48 36v56M-25 360v-39h50v39M-64 360H64" fill="none" stroke="#c5e0e7" stroke-width="6" stroke-linejoin="round"/><text x="-83" y="220" fill="#edf7f8" font-size="19" font-weight="700">Installed works</text><text x="-83" y="248" fill="#c2d9de" font-size="13"><tspan x="-83">Registered equipment</tspan><tspan x="-83" dy="19">and accepted liability</tspan></text></g>
+    <g transform="translate(840 0)"><circle cy="470" r="17" fill="#a6ae7f" stroke="#f0e0a6" stroke-width="3"/><path d="M-55 345h110M-40 345v-76h80v76M-23 269v-28h46v28M-22 304h44" transform="translate(0 38)" fill="none" stroke="#f0e0a6" stroke-width="6"/><text x="-82" y="220" fill="#fff8dc" font-size="19" font-weight="700">Continuous use</text><text x="-82" y="248" fill="#d9d3ad" font-size="13"><tspan x="-82">Maintenance, production,</tspan><tspan x="-82" dy="19">and recurring traffic</tspan></text></g>
+    <g transform="translate(1075 0)"><circle cy="470" r="17" fill="#d7bd6a" stroke="#fff0b0" stroke-width="3"/><path d="M-54 359v-73l32-24 25 19 27-38 42 43v73M-34 359v-36h26v36M23 359v-49h29v49" transform="translate(0 38)" fill="none" stroke="#fff0b0" stroke-width="6"/><text x="-125" y="220" fill="#fff7d7" font-size="19" font-weight="700">Permanent settlement</text><text x="-125" y="248" fill="#dfd5aa" font-size="13"><tspan x="-125">Households and</tspan><tspan x="-125" dy="19">life-support dependence</tspan></text></g>
+  </g>
+  <text x="60" y="548" fill="#d6e0e5" font-family="Arial,sans-serif" font-size="17" font-weight="700">Stronger expectation of non-interference →</text>
+  <text x="60" y="581" fill="#8298a7" font-family="Arial,sans-serif" font-size="14">No stage alone converts a functional claim into universally recognized territorial sovereignty.</text>
+</svg>

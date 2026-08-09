@@ -287,6 +287,15 @@ const pages = [
   { title: "Extraterrestrial Settlement", description: "The functional transition from expeditions and permanent bases to settlements and colonies", href: "extraterrestrial-settlement.html", tags: "extraterrestrial settlement permanent base colony households social reproduction moon mars" },
   { title: "Off-World Family Life", description: "Households, children, work, privacy, education, and identity beyond Earth", href: "off-world-family-life.html", tags: "off world family life households children lunar birth education privacy identity settlement" },
   { title: "Extraterrestrial Claims", description: "Occupation, safety, resource use, concessions, and disputed sovereignty beyond Earth", href: "extraterrestrial-claims.html", tags: "extraterrestrial claims space law property occupation safety zones resources sovereignty moon mars" },
+  { title: "Occupation and Use Principle", description: "The working doctrine that maintained activity outweighs symbolic extraterrestrial discovery", href: "occupation-and-use-principle.html", tags: "occupation use principle space law claims discovery installation settlement sovereignty" },
+  { title: "Extraterrestrial Settlement Zones", description: "Inhabited and serviced districts around permanent off-world communities", href: "extraterrestrial-settlement-zones.html", tags: "extraterrestrial settlement zones jurisdiction habitats utilities households moon mars" },
+  { title: "Extraterrestrial Safety Zones", description: "Hazard-based operating areas protecting off-world people and infrastructure", href: "extraterrestrial-safety-zones.html", tags: "extraterrestrial safety zones hazards landing reactor exclusion notice space law" },
+  { title: "Extraterrestrial Resource Concessions", description: "National, corporate, and compact-based allocation of off-world extraction", href: "extraterrestrial-resource-concessions.html", tags: "extraterrestrial resource concessions mining water corporate property space law" },
+  { title: "Extraterrestrial Transport Corridors", description: "Maintained routes and approach volumes connecting off-world settlements and works", href: "extraterrestrial-transport-corridors.html", tags: "extraterrestrial transport corridors landing routes pipelines roads access space law" },
+  { title: "Extraterrestrial Scientific Preserves", description: "Limited sites protected for experiments, samples, contamination control, and history", href: "extraterrestrial-scientific-preserves.html", tags: "extraterrestrial scientific preserves experiments contamination heritage sites space law" },
+  { title: "Extraterrestrial Navigation Facilities", description: "Beacons, relays, references, and tracking facilities used beyond Earth", href: "extraterrestrial-navigation-facilities.html", tags: "extraterrestrial navigation facilities beacon relay tracking timing millennium space law" },
+  { title: "Temporary Exploration Notices", description: "Time-limited coordination of off-world fieldwork without permanent title", href: "temporary-exploration-notices.html", tags: "temporary exploration notices fieldwork priority claims space law survey" },
+  { title: "Extraterrestrial Abandonment and Salvage", description: "Ownership, responsibility, salvage, and reuse of dormant off-world works", href: "extraterrestrial-abandonment-and-salvage.html", tags: "extraterrestrial abandonment salvage dormant installations hazards ownership space law" },
   { title: "World in 2000", description: "A synchronized political, strategic, economic, technological, and interplanetary millennium baseline", href: "world-in-2000.html", tags: "world 2000 millennium baseline five systems armed concert economy space politics" },
   { title: "Five Powers in 2000", description: "Comparative leadership and institutional condition of the five great-power systems", href: "five-powers-in-2000.html", tags: "five powers 2000 leadership wolfgang hale mallory akihito latin armed concert" },
   { title: "Sancta Maria Lunae", description: "The scientific, religious, and strategic Latin lunar establishment", href: "sancta-maria-lunae.html", tags: "sancta maria lunae our lady moon latin lunar base catholic science ceres" },
@@ -3104,6 +3113,15 @@ const crossLinks = [
   ,{ href: "extraterrestrial-settlement.html", terms: ["extraterrestrial settlement", "permanent base"] }
   ,{ href: "off-world-family-life.html", terms: ["off-world family life", "family accommodation"] }
   ,{ href: "extraterrestrial-claims.html", terms: ["extraterrestrial claims", "extraterrestrial property law"] }
+  ,{ href: "occupation-and-use-principle.html", terms: ["occupation and use principle", "occupation-and-use principle"] }
+  ,{ href: "extraterrestrial-settlement-zones.html", terms: ["extraterrestrial settlement zones", "settlement zones"] }
+  ,{ href: "extraterrestrial-safety-zones.html", terms: ["extraterrestrial safety zones", "off-world safety zones"] }
+  ,{ href: "extraterrestrial-resource-concessions.html", terms: ["extraterrestrial resource concessions", "off-world resource concessions"] }
+  ,{ href: "extraterrestrial-transport-corridors.html", terms: ["extraterrestrial transport corridors", "off-world transport corridors"] }
+  ,{ href: "extraterrestrial-scientific-preserves.html", terms: ["extraterrestrial scientific preserves", "off-world scientific preserves"] }
+  ,{ href: "extraterrestrial-navigation-facilities.html", terms: ["extraterrestrial navigation facilities", "off-world navigation facilities"] }
+  ,{ href: "temporary-exploration-notices.html", terms: ["temporary exploration notices", "extraterrestrial exploration notices"] }
+  ,{ href: "extraterrestrial-abandonment-and-salvage.html", terms: ["extraterrestrial abandonment and salvage", "off-world abandonment and salvage"] }
   ,{ href: "world-in-2000.html", terms: ["world in 2000", "millennium world"] }
   ,{ href: "five-powers-in-2000.html", terms: ["Five Powers in 2000", "millennium leadership"] }
   ,{ href: "sancta-maria-lunae.html", terms: ["Sancta Maria Lunae", "Our Lady of the Moon"] }

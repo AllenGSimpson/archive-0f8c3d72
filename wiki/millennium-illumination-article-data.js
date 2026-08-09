@@ -95,6 +95,7 @@ Object.assign(window.deepArticles, {
       {href:"millennium-lunar-illumination.html",kicker:"Principal event",label:"Millennium Lunar Illumination"},
       {href:"lunar-display-zones.html",kicker:"Network geography",label:"Lunar Display Zones"},
       {href:"planetary-satellite-system.html",kicker:"Operational networks",label:"Planetary Satellite System"},
+      {href:"extraterrestrial-navigation-facilities.html",kicker:"Legal afterlife",label:"Extraterrestrial Navigation Facilities"},
       {href:"orbital-law.html",kicker:"Safety precedent",label:"Orbital Law"},
       {href:"millennium-dawn.html",kicker:"Public use",label:"Millennium Dawn"}
     ],

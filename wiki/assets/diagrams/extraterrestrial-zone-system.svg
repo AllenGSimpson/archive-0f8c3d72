@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Functional zones around an extraterrestrial settlement</title>
+  <desc id="desc">A central settlement connects to a landing approach, resource concession, scientific preserve, and navigation beacon. Temporary safety areas surround active hazards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071019"/><stop offset="1" stop-color="#162738"/></linearGradient>
+    <pattern id="soil" width="42" height="42" patternUnits="userSpaceOnUse"><circle cx="8" cy="11" r="2" fill="#3b4a55"/><circle cx="29" cy="31" r="1.5" fill="#2e3e4a"/></pattern>
+  </defs>
+  <rect width="1200" height="700" rx="24" fill="url(#bg)"/>
+  <rect x="45" y="125" width="1110" height="500" rx="20" fill="url(#soil)" stroke="#344b5b"/>
+  <text x="60" y="69" fill="#edf4f7" font-family="Georgia,serif" font-size="31">Functional zones are not one territorial claim</text>
+  <text x="60" y="104" fill="#9eb1bf" font-family="Arial,sans-serif" font-size="17">Each protected area has a distinct purpose, duration, and evidentiary basis</text>
+  <g font-family="Arial,sans-serif">
+    <path d="M112 523C275 506 354 455 491 401S770 330 1093 250" fill="none" stroke="#6a9eaf" stroke-width="30" opacity=".25"/><path d="M112 523C275 506 354 455 491 401S770 330 1093 250" fill="none" stroke="#9cc5d2" stroke-width="4" stroke-dasharray="15 10"/>
+    <text x="120" y="560" fill="#c7e0e7" font-size="17" font-weight="700">Transport corridor</text>
+    <ellipse cx="530" cy="360" rx="205" ry="145" fill="#31596d" opacity=".44" stroke="#79aebd" stroke-width="3"/>
+    <text x="430" y="190" fill="#d8edf1" font-size="18" font-weight="700">Settlement zone</text>
+    <ellipse cx="363" cy="453" rx="103" ry="76" fill="#b58f42" opacity=".38" stroke="#e2c46f" stroke-width="3" stroke-dasharray="9 7"/>
+    <path d="M332 468v-43l31-24 31 24v43M347 468v-25h32v25M316 468h94" fill="none" stroke="#fff0b0" stroke-width="6"/>
+    <text x="268" y="590" fill="#f0dda3" font-size="17" font-weight="700">Active safety zone</text>
+    <g transform="translate(535 340)"><path d="M-66 52v-84L0-81l66 49v84M-37 52V8h74v44M-87 52H87" fill="#152430" stroke="#c9e1e8" stroke-width="7" stroke-linejoin="round"/><text x="-80" y="88" fill="#edf7f8" font-size="17" font-weight="700">Inhabited works</text></g>
+    <path d="M760 428l204 47 91 104H716z" fill="#736546" opacity=".45" stroke="#c9b06b" stroke-width="3" stroke-dasharray="12 8"/>
+    <path d="M820 515l45-41 45 41M846 528l54-56 54 56" fill="none" stroke="#e1cb87" stroke-width="5"/>
+    <text x="778" y="603" fill="#ead8a0" font-size="17" font-weight="700">Resource concession</text>
+    <rect x="776" y="154" width="244" height="124" rx="42" fill="#3d6258" opacity=".42" stroke="#83b8a2" stroke-width="3" stroke-dasharray="8 7"/>
+    <circle cx="842" cy="214" r="25" fill="none" stroke="#b8e2ce" stroke-width="5"/><path d="M842 189v50M817 214h50" stroke="#b8e2ce" stroke-width="4"/>
+    <text x="885" y="208" fill="#d9f0e5" font-size="17" font-weight="700">Scientific preserve</text><text x="885" y="232" fill="#b6cec4" font-size="14">Defined purpose and custody</text>
+    <g transform="translate(1080 235)"><path d="M0 0v-75M-26 0h52M-18-48L0-75l18 27M-42-60q42-45 84 0M-58-80q58-58 116 0" fill="none" stroke="#9fd1dc" stroke-width="5"/><circle r="9" fill="#dff7fb"/></g>
+    <text x="983" y="140" fill="#d9f0f5" font-size="16" font-weight="700">Navigation facility</text>
+  </g>
+  <text x="60" y="668" fill="#8298a7" font-family="Arial,sans-serif" font-size="14">Schematic only: actual dimensions follow hazards, installed works, continuing use, and negotiated access.</text>
+</svg>
