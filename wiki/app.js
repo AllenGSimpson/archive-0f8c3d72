@@ -1622,7 +1622,12 @@ const pages = [
   { title: "Reginald Maudling", description: "Post-defeat Conservative economic administrator", href: "reginald-maudling.html", tags: "reginald maudling conservative treasury supply trade" },
   { title: "Jo Grimond", description: "Reforming Liberal leader of civil liberty, local government, and voluntary Commonwealth", href: "jo-grimond.html", tags: "jo grimond liberal orkney shetland reform voluntary commonwealth" },
   { title: "A. K. Chesterton", description: "Imperial nationalist journalist and founder of the League of Empire Loyalists", href: "ak-chesterton.html", tags: "ak chesterton empire loyalists journalist nationalism" },
-  { title: "League of Empire Loyalists", description: "Monarchist imperial-nationalist pressure group founded after defeat", href: "league-empire-loyalists.html", tags: "league empire loyalists lel chesterton monarchist imperial nationalist" }
+  { title: "League of Empire Loyalists", description: "Monarchist imperial-nationalist pressure group founded after defeat", href: "league-empire-loyalists.html", tags: "league empire loyalists lel chesterton monarchist imperial nationalist" },
+  { title: "Jeffrey Hamm", description: "Union Commonwealth organizer and veterans' representative", href: "jeffrey-hamm.html", tags: "jeffrey hamm union commonwealth veterans organizer ex servicemen" },
+  { title: "Alexander Raven Thomson", description: "Corporatist theorist and Union Commonwealth policy draftsman", href: "alexander-raven-thomson.html", tags: "alexander raven thomson union commonwealth corporatist policy" },
+  { title: "Diana Mosley", description: "Writer, political hostess, and informal Union Commonwealth patron", href: "diana-mosley.html", tags: "diana mosley mitford union commonwealth hostess contacts" },
+  { title: "British League of Ex-Servicemen and Women", description: "Veterans' organization bridging British Union and Union Commonwealth", href: "british-league-ex-servicemen-women.html", tags: "british league ex servicemen women veterans hamm union commonwealth" },
+  { title: "Post-Defeat British Nationalism", description: "Mosleyite, Empire Loyalist, and constitutional nationalist currents after 1947", href: "post-defeat-british-nationalism.html", tags: "post defeat british nationalism mosley chesterton powell crown" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2230,6 +2235,11 @@ const crossLinks = [
   { href: "jo-grimond.html", terms: ["Jo Grimond"] },
   { href: "ak-chesterton.html", terms: ["A. K. Chesterton"] },
   { href: "league-empire-loyalists.html", terms: ["League of Empire Loyalists", "Empire Loyalists"] },
+  { href: "jeffrey-hamm.html", terms: ["Jeffrey Hamm"] },
+  { href: "alexander-raven-thomson.html", terms: ["Alexander Raven Thomson", "Raven Thomson"] },
+  { href: "diana-mosley.html", terms: ["Diana Mosley", "Diana Mitford"] },
+  { href: "british-league-ex-servicemen-women.html", terms: ["British League of Ex-Servicemen and Women"] },
+  { href: "post-defeat-british-nationalism.html", terms: ["Post-Defeat British Nationalism"] },
   { href: "muscat-articles.html", terms: ["Muscat Articles"] },
   { href: "falklands-war.html", terms: ["Falklands–Malvinas War", "Falklands War", "Second Torch", "Punta del Este Protocols"] },
   { href: "war-of-the-chiefs.html", terms: ["Mittelafrikanischer Häuptlingskrieg", "Häuptlingskrieg", "War of the Chiefs"] },
