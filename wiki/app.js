@@ -414,6 +414,11 @@ const pages = [
   { title: "Saturn", description: "The ringed gas giant and second destination of the new outer-system campaigns", href: "saturn.html", tags: "saturn gas giant rings titan enceladus outer solar system" },
   { title: "Uranus", description: "The tilted inner ice giant and an open long-duration exploration objective", href: "uranus.html", tags: "uranus ice giant rings moons axial tilt outer solar system" },
   { title: "Neptune", description: "The distant outer ice giant, Triton, and an unconfirmed exploration objective by 2010", href: "neptune.html", tags: "neptune ice giant triton rings winds outer solar system" },
+  { title: "American Corporate Jurisdiction in Space", description: "The American separation of private corporate action, federal jurisdiction, and occupation-based settlement interests", href: "american-corporate-jurisdiction-in-space.html", tags: "american space law corporate jurisdiction registration frontier washington private public" },
+  { title: "Japanese Corporate Jurisdiction in Space", description: "Corporate operational autonomy within Japanese imperial jurisdiction and strategic supervision", href: "japanese-corporate-jurisdiction-in-space.html", tags: "japan space law corporate jurisdiction zaibatsu imperial sphere" },
+  { title: "Extraterrestrial Corporate Liability", description: "Private, insured, indemnified, emergency, and sponsor-state responsibility beyond Earth", href: "extraterrestrial-corporate-liability.html", tags: "space law liability insurance indemnification responsibility corporate incidents" },
+  { title: "Flags and Registration in Space", description: "The distinct roles of affiliation, registry, jurisdiction, notice, and territorial title", href: "flags-and-registration-in-space.html", tags: "space law flags registration registry jurisdiction sovereignty installations" },
+  { title: "Corporate Occupation and Settlement Claims", description: "Use-based corporate interests created by survey, works, maintenance, residence, and settlement", href: "corporate-occupation-and-settlement-claims.html", tags: "space law corporate occupation settlement claims concessions sovereignty" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3867,6 +3872,11 @@ const crossLinks = [
   ,{ href: "saturn.html", terms: ["Saturn", "Saturnian planet", "Saturn system"] }
   ,{ href: "uranus.html", terms: ["Uranus", "Uranian planet", "Uranus system"] }
   ,{ href: "neptune.html", terms: ["Neptune", "Neptunian planet", "Neptune system"] }
+  ,{ href: "american-corporate-jurisdiction-in-space.html", terms: ["American corporate jurisdiction in space", "American corporate jurisdiction", "American jurisdiction paradox"] }
+  ,{ href: "japanese-corporate-jurisdiction-in-space.html", terms: ["Japanese corporate jurisdiction in space", "Japanese corporate jurisdiction"] }
+  ,{ href: "extraterrestrial-corporate-liability.html", terms: ["extraterrestrial corporate liability", "corporate liability in space"] }
+  ,{ href: "flags-and-registration-in-space.html", terms: ["flags and registration in space", "space registration", "registered installation"] }
+  ,{ href: "corporate-occupation-and-settlement-claims.html", terms: ["corporate occupation and settlement claims", "corporate occupation", "corporate settlement claims"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
