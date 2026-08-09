@@ -1561,7 +1561,13 @@ const pages = [
   { title: "American Orbital-Habitat Industry", description: "Commercial laboratories, housing, clinics, industry, leases, and emergency authority", href: "american-orbital-habitat-industry.html", tags: "american orbital habitat industry station modules housing clinics laboratories leases" },
   { title: "American Space-Data Industry", description: "Communications, navigation, scheduling, teleoperation, software, and interoperability", href: "american-space-data-industry.html", tags: "american space data industry communications navigation software teleoperation interoperability" },
   { title: "Frontier Heavy Transport", description: "Bulk freight, propellant, tankers, tugs, and reusable vertical rockets", href: "frontier-heavy-transport.html", tags: "frontier heavy transport freight propellant tanker tug switchback reusable rockets" },
-  { title: "Frontier Lunar Services", description: "Earth–Moon crew, cargo, depot, navigation, and contract integration", href: "frontier-lunar-services.html", tags: "frontier lunar services kennedy station moon transport cargo depot navigation" }
+  { title: "Frontier Lunar Services", description: "Earth–Moon crew, cargo, depot, navigation, and contract integration", href: "frontier-lunar-services.html", tags: "frontier lunar services kennedy station moon transport cargo depot navigation" },
+  { title: "Mars-Expeditionsverband 1", description: "The working formation designation for Germany's first human Mars expedition", href: "mars-expeditionsverband-1.html", tags: "mars expeditionsverband mev 1 marsplan 92 german expedition formation" },
+  { title: "Marsplan 92 Propulsion Spine", description: "The nuclear-thermal engine cluster, structural truss, radiators, and power core", href: "marsplan-propulsion-spine.html", tags: "marsplan propulsion spine nuclear thermal engine truss radiator bimodal" },
+  { title: "Marsplan 92 Propellant Section", description: "Cryogenic hydrogen tanks, active refrigeration, and protected return reserves", href: "marsplan-propellant-section.html", tags: "marsplan propellant hydrogen tanks cryogenic refrigeration return reserve lunar" },
+  { title: "Marsplan 92 Rotating Habitation Pair", description: "The twin partial-gravity cruise habitats and rotating transfer system", href: "marsplan-rotating-habitation.html", tags: "marsplan rotating habitation pair artificial gravity cylinders arms spin" },
+  { title: "Faltenbalg-Druckgang", description: "The expandable pressure passage connecting separately landed Mars modules", href: "faltgang-pressure-passage.html", tags: "faltenbalg druckgang faltgang pressure passage corridor mars base expandable" },
+  { title: "Marsplan 92 Arrival and Landing Sequence", description: "Orbital checkout, sequential cargo deployment, abort gates, and crew descent", href: "marsplan-landing-sequence.html", tags: "marsplan arrival landing sequence orbit checkout cargo landers crew descent 1993" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2784,6 +2790,12 @@ const crossLinks = [
   ,{ href: "american-space-data-industry.html", terms: ["American space-data industry", "American space data industry"] }
   ,{ href: "frontier-heavy-transport.html", terms: ["Frontier Heavy Transport", "Frontier heavy-transport operations"] }
   ,{ href: "frontier-lunar-services.html", terms: ["Frontier Lunar Services", "Frontier lunar services"] }
+  ,{ href: "mars-expeditionsverband-1.html", terms: ["Mars-Expeditionsverband 1", "MEV 1"] }
+  ,{ href: "marsplan-propulsion-spine.html", terms: ["Marsplan 92 propulsion spine", "Marsplan propulsion spine"] }
+  ,{ href: "marsplan-propellant-section.html", terms: ["Marsplan 92 propellant section", "Marsplan propellant section"] }
+  ,{ href: "marsplan-rotating-habitation.html", terms: ["Marsplan 92 rotating habitation pair", "Marsplan rotating habitation pair"] }
+  ,{ href: "faltgang-pressure-passage.html", terms: ["Faltenbalg-Druckgang", "Faltgang", "Faltgänge"] }
+  ,{ href: "marsplan-landing-sequence.html", terms: ["Marsplan 92 arrival and landing sequence", "Marsplan landing sequence"] }
   ,{ href: "american-cottage-industry-revival.html", terms: ["American cottage-industry revival", "cottage-industry revival", "home enterprise"] }
   ,{ href: "united-states-aerospace-force.html", terms: ["United States Aerospace Force", "Aerospace Force", "United States Aerospace Command", "Aerospace Command"] }
   ,{ href: "hemispheric-renewal-act.html", terms: ["Hemispheric Renewal Act"] }
