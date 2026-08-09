@@ -1379,6 +1379,10 @@ const pages = [
   { title: "Technical Investment Board", description: "German cross-sector sequencing of advanced industrial capacity", href: "technical-investment-board.html", tags: "technical investment board werner lenz germany aerospace computing nuclear automation industrial allocation" },
   { title: "Aneurin Bevan", description: "Reconstruction Labour leader and twice postwar prime minister", href: "aneurin-bevan.html", tags: "aneurin nye bevan labour prime minister brick parliament reconstruction" },
   { title: "R. A. Butler", description: "Conservative prime minister and architect of the Contract Commonwealth", href: "rab-butler.html", tags: "rab richard austen butler conservative prime minister contract commonwealth" },
+  { title: "First Butler Ministry", description: "The 1951–1955 Conservative minority government sustained by contractual supply", href: "first-butler-ministry.html", tags: "first butler ministry contract ministry conservative minority government 1951 1955 contracts not commands" },
+  { title: "Contract Commonwealth", description: "The Butler-era system of reciprocal Commonwealth contracts, planning, and maintained capacity", href: "contract-commonwealth.html", tags: "contract commonwealth contracts not commands butler shipping production dominions planning secretariat" },
+  { title: "Indian Operations Commission", description: "The 1952 inquiry into Britain's incompatible political and military objectives in India", href: "indian-operations-commission.html", tags: "indian operations commission inquiry 1952 deployment evacuation demobilization cabinet india" },
+  { title: "Indian Ocean Defence White Paper of 1952", description: "The four-tier statement of Britain's defensible obligations: Hold the gates, not the whole house", href: "indian-ocean-defence-white-paper-1952.html", tags: "indian ocean defence defense white paper 1952 hold gates whole house butler bastion india" },
   { title: "1951 United Kingdom General Election", description: "The India Election and formation of the Butler government", href: "1951-united-kingdom-general-election.html", tags: "1951 united kingdom election india bevan butler mosley conservative labour" },
   { title: "Commonwealth Supply Agreement", description: "The 1951–1955 Conservative–Union Commonwealth confidence agreement", href: "commonwealth-supply-agreement.html", tags: "commonwealth supply agreement butler mosley union confidence coalition contracts" },
   { title: "1955 United Kingdom General Election", description: "The election that gave Butler a Conservative majority", href: "1955-united-kingdom-general-election.html", tags: "1955 united kingdom election butler conservative labour union commonwealth" },
@@ -3063,6 +3067,10 @@ const crossLinks = [
   ,{ href: "technical-investment-board.html", terms: ["Technical Investment Board"] }
   ,{ href: "aneurin-bevan.html", terms: ["Aneurin Bevan", "Bevan"] }
   ,{ href: "rab-butler.html", terms: ["R. A. Butler", "Rab Butler"] }
+  ,{ href: "first-butler-ministry.html", terms: ["First Butler ministry", "First Butler government", "Contract Ministry"] }
+  ,{ href: "contract-commonwealth.html", terms: ["Contract Commonwealth", "Contracts, not commands"] }
+  ,{ href: "indian-operations-commission.html", terms: ["Indian Operations Commission", "India inquiry"] }
+  ,{ href: "indian-ocean-defence-white-paper-1952.html", terms: ["Indian Ocean Defence White Paper of 1952", "Indian Ocean Defence White Paper", "Hold the gates, not the whole house"] }
   ,{ href: "1951-united-kingdom-general-election.html", terms: ["1951 United Kingdom general election", "India Election"] }
   ,{ href: "commonwealth-supply-agreement.html", terms: ["Commonwealth Supply Agreement"] }
   ,{ href: "1955-united-kingdom-general-election.html", terms: ["1955 United Kingdom general election"] }
