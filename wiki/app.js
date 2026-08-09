@@ -1220,6 +1220,15 @@ const pages = [
   { title: "Catholicism in German Europe", description: "Concordat survival, nationalizing capture, Poland, and incomplete Roman knowledge", href: "catholicism-in-german-europe.html", tags: "catholic germany concordat poland general government nationalizing current" },
   { title: "Vatican Evidentiary Discipline", description: "How Rome investigated German religious, colonial, and demographic abuses", href: "vatican-evidence-discipline.html", tags: "vatican evidence investigation demographic policy sterilization ss religion mittelafrika" },
   { title: "Catholic Pastoral Care in Space", description: "Orbital and lunar jurisdiction, sacraments, chaplaincy, and death procedures", href: "catholic-pastoral-care-in-space.html", tags: "catholic space pastoral orbital lunar chaplain jurisdiction sacraments" },
+  { title: "Pontifical Commission for the Pastoral Care of Spacefarers", description: "Paul VI's commission for permanent Catholic practice in orbit and on the Moon", href: "pontifical-space-commission.html", tags: "pontifical commission pastoral care spacefarers paul vi 1977 1978 catholic space" },
+  { title: "Apostolic Administration for Extraterrestrial Missions", description: "The personal Catholic jurisdiction for spacefarers and off-world communities", href: "apostolic-administration-extraterrestrial-missions.html", tags: "apostolic administration extraterrestrial missions catholic jurisdiction spacefarers moon mars" },
+  { title: "Off-World Canon Law", description: "Catholic law for clergy, sacraments, records, obligations, and authority beyond Earth", href: "off-world-canon-law.html", tags: "off world canon law catholic sacraments jurisdiction records mission clock" },
+  { title: "Parish of Our Lady of the Moon", description: "The first permanently staffed Catholic parish beyond Earth at Sancta Maria Lunae", href: "parish-our-lady-of-the-moon.html", tags: "parish our lady moon sancta maria lunae priest catholic lunar church earthrise" },
+  { title: "Orbital Catholic Chaplaincy", description: "Rotating clergy, lay coordinators, chapels, and supplies aboard orbital stations", href: "orbital-catholic-chaplaincy.html", tags: "orbital catholic chaplaincy priest chapel station stella maris columbia raumhafen" },
+  { title: "Interplanetary Clerical Faculties", description: "Delegated Catholic authority for clergy beyond practical episcopal reach", href: "interplanetary-clerical-faculties.html", tags: "interplanetary clerical faculties priest delegation mars ceres catholic canon law" },
+  { title: "Sacramental Life Beyond Earth", description: "Catholic worship under orbital, lunar, and interplanetary constraints", href: "sacramental-life-beyond-earth.html", tags: "sacramental life beyond earth mass confession baptism marriage communion catholic space" },
+  { title: "Death and Burial Beyond Earth", description: "Catholic care, records, remains, funerals, and committal beyond Earth", href: "death-and-burial-beyond-earth.html", tags: "death burial beyond earth catholic funeral remains committal moon mars" },
+  { title: "Catholic Pastoral Jurisdiction on Mars", description: "Catholic mission government for Mars crews under long communications delay", href: "catholic-pastoral-jurisdiction-on-mars.html", tags: "catholic pastoral jurisdiction mars priest mission communications delay parish" },
   { title: "Republic of Ecuador", description: "Japanese-associated Pacific republic in a mature American corporate contest", href: "ecuador.html", tags: "ecuador quito guayaquil geacps japan america corporate contest pacific" },
   { title: "Oriental Republic of Uruguay", description: "Civilian restoration, commercial neutrality, and South Atlantic diplomacy", href: "uruguay.html", tags: "uruguay montevideo neutral clearing punta del este south america" },
   { title: "Republic of Paraguay", description: "Stroessner's authoritarian inland buffer and marketplace", href: "paraguay.html", tags: "paraguay asuncion stroessner buffer market neutral south america" },
@@ -2871,6 +2880,15 @@ const crossLinks = [
   ,{ href: "catholicism-in-german-europe.html", terms: ["Catholicism in German Europe", "German Catholicism"] }
   ,{ href: "vatican-evidence-discipline.html", terms: ["Vatican evidentiary discipline", "evidentiary restraint"] }
   ,{ href: "catholic-pastoral-care-in-space.html", terms: ["Catholic pastoral care in space", "orbital and lunar pastoral care"] }
+  ,{ href: "pontifical-space-commission.html", terms: ["Pontifical Commission for the Pastoral Care of Spacefarers", "pontifical space commission"] }
+  ,{ href: "apostolic-administration-extraterrestrial-missions.html", terms: ["Apostolic Administration for Extraterrestrial Missions", "extraterrestrial apostolic administration"] }
+  ,{ href: "off-world-canon-law.html", terms: ["off-world canon law", "extraterrestrial canon law"] }
+  ,{ href: "parish-our-lady-of-the-moon.html", terms: ["Parish of Our Lady of the Moon", "first off-world parish"] }
+  ,{ href: "orbital-catholic-chaplaincy.html", terms: ["orbital Catholic chaplaincy", "orbital chaplaincies"] }
+  ,{ href: "interplanetary-clerical-faculties.html", terms: ["interplanetary clerical faculties", "broad mission faculties"] }
+  ,{ href: "sacramental-life-beyond-earth.html", terms: ["sacramental life beyond Earth", "off-world sacramental life"] }
+  ,{ href: "death-and-burial-beyond-earth.html", terms: ["death and burial beyond Earth", "off-world burial"] }
+  ,{ href: "catholic-pastoral-jurisdiction-on-mars.html", terms: ["Catholic pastoral jurisdiction on Mars", "Catholic jurisdiction on Mars"] }
   ,{ href: "ecuador.html", terms: ["Republic of Ecuador", "Ecuador"] }
   ,{ href: "uruguay.html", terms: ["Oriental Republic of Uruguay", "Uruguay"] }
   ,{ href: "paraguay.html", terms: ["Republic of Paraguay", "Paraguay"] }
