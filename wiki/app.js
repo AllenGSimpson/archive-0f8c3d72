@@ -434,6 +434,14 @@ const pages = [
   { title: "Travel and Mobility in 2000", description: "Daily transport, long-distance travel, documentation, and the unequal right to move", href: "travel-and-mobility-in-2000.html", tags: "travel mobility 2000 rail car aviation passport passes tourism transport" },
   { title: "Family and Household Life in 2000", description: "Marriage, children, elder care, gender, domestic work, and household formation", href: "family-and-household-life-in-2000.html", tags: "family household life 2000 marriage children care gender domestic work" },
   { title: "Everyday Life in Imperial Peripheries in 2000", description: "Modern systems under unequal citizenship, property, movement, education, and political authority", href: "everyday-life-in-imperial-peripheries-2000.html", tags: "everyday life imperial peripheries 2000 colony associated state subject settler status" },
+  { title: "National Recovery and Enterprise Act of 1949", description: "Dewey's recovery settlement of private investment within a bounded welfare state", href: "national-recovery-enterprise-act.html", tags: "national recovery enterprise act 1949 dewey welfare private investment infrastructure labor" },
+  { title: "Fortress Fordism", description: "The American post-1949 order of mass production, household demand, and strategic procurement", href: "fortress-fordism.html", tags: "fortress fordism america production consumption continental economy procurement recovery" },
+  { title: "Productive Credit", description: "National Renewal's distinction between capacity-building and speculative finance", href: "productive-credit.html", tags: "productive credit national renewal buchanan factories housing farms finance mission state" },
+  { title: "National Production Institutes", description: "The distributed American technical-training network built around industrial regions", href: "national-production-institutes.html", tags: "national production institutes training colleges unions industry automation skills buchanan" },
+  { title: "Buchananism", description: "Pat Buchanan's synthesis of economic nationalism, family policy, mission, and constitutional succession", href: "buchananism.html", tags: "buchananism pat buchanan national renewal doctrine economic nationalism family mission constitutional" },
+  { title: "Five Falklands Rules", description: "The Reagan administration's limits on escalation and settlement in the South Atlantic war", href: "five-falklands-rules.html", tags: "five falklands rules reagan argentina britain germany mediation islander consent" },
+  { title: "Constitutional Free Enterprise", description: "The Democratic-Republican doctrine joining competitive markets to independent institutions", href: "constitutional-free-enterprise.html", tags: "constitutional free enterprise reagan democratic republican markets unions institutions strategic state" },
+  { title: "Reciprocal Open Markets", description: "The Reagan doctrine opening ordinary commerce while screening strategic control", href: "reciprocal-open-markets.html", tags: "reciprocal open markets reagan trade investment strategic ownership open door depression" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3907,6 +3915,14 @@ const crossLinks = [
   ,{ href: "travel-and-mobility-in-2000.html", terms: ["travel and mobility in 2000", "mobility in 2000"] }
   ,{ href: "family-and-household-life-in-2000.html", terms: ["family and household life in 2000", "family life in 2000"] }
   ,{ href: "everyday-life-in-imperial-peripheries-2000.html", terms: ["everyday life in imperial peripheries", "imperial household life", "colonial everyday life in 2000"] }
+  ,{ href: "national-recovery-enterprise-act.html", terms: ["National Recovery and Enterprise Act of 1949", "National Recovery and Enterprise Act", "1949 recovery settlement"] }
+  ,{ href: "fortress-fordism.html", terms: ["Fortress Fordism", "fortress-Fordist order"] }
+  ,{ href: "productive-credit.html", terms: ["productive credit", "productive-credit doctrine"] }
+  ,{ href: "national-production-institutes.html", terms: ["National Production Institutes", "production institutes"] }
+  ,{ href: "buchananism.html", terms: ["Buchananism", "Buchananite"] }
+  ,{ href: "five-falklands-rules.html", terms: ["Five Falklands Rules", "Falklands Rules"] }
+  ,{ href: "constitutional-free-enterprise.html", terms: ["constitutional free enterprise", "constitutional market nationalism"] }
+  ,{ href: "reciprocal-open-markets.html", terms: ["Reciprocal Open Markets", "reciprocal-open-markets doctrine"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
