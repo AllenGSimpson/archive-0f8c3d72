@@ -463,6 +463,15 @@ const pages = [
   { title: "Matadi", description: "The principal Lower Congo ocean port and railway transshipment city", href: "matadi.html", tags: "matadi port railway lower congo ocean shipping transshipment mittelafrika" },
   { title: "Banana", description: "The sheltered Atlantic-mouth port and naval station of the Lower Congo", href: "banana-port.html", tags: "banana port seaport naval station congo mouth atlantic syneba mittelafrika" },
   { title: "SYNEBA", description: "The Belgian study syndicate for Lower Congo ports, power, and navigation", href: "syneba.html", tags: "syneba syndicat etudes bas congo van deuren inga banana belgian engineering" },
+  { title: "American Arctic Aid to Siberia", description: "The seasonal humanitarian and strategic-denial lifeline sustaining selected Siberian successor states", href: "american-arctic-aid.html", tags: "american arctic aid siberia relief humanitarian food machinery radios intelligence northern route" },
+  { title: "Northern Sea Route", description: "The divided post-Soviet Arctic shipping system from the Kara Sea to the Bering Strait", href: "northern-sea-route.html", tags: "northern sea route arctic shipping icebreaker kara laptev bering soviet siberia" },
+  { title: "Siberian River Transport", description: "The barges, tugs, ports, repair yards, and seasonal freight network of the Siberian interior", href: "siberian-river-transport.html", tags: "siberian river transport barges tugs ports ob yenisei lena freight" },
+  { title: "Ob–Irtysh Aid Corridor", description: "The western Arctic relief branch serving Omsk, Novosibirsk, and northern Kazakhstan", href: "ob-irtysh-aid-corridor.html", tags: "ob irtysh aid corridor omsk novosibirsk kara gulf western siberia" },
+  { title: "Yenisei Aid Corridor", description: "The central Arctic relief branch linking Dikson and Dudinka with Krasnoyarsk", href: "yenisei-aid-corridor.html", tags: "yenisei aid corridor dikson dudinka igarka krasnoyarsk arctic relief" },
+  { title: "Lena–Tiksi Aid Corridor", description: "The eastern Arctic relief branch connecting Tiksi, Yakutia, and the Siberian interior", href: "lena-tiksi-aid-corridor.html", tags: "lena tiksi aid corridor yakutia laptev pacific arctic relief irkutsk" },
+  { title: "Dikson", description: "The western Arctic pilotage, weather, radio, and relief port at the Yenisei approach", href: "dikson.html", tags: "dikson port kara sea yenisei arctic pilotage radio weather relief" },
+  { title: "Dudinka", description: "The principal sea–river transshipment port of the Yenisei aid corridor", href: "dudinka.html", tags: "dudinka port yenisei norilsk krasnoyarsk transshipment arctic relief" },
+  { title: "Tiksi", description: "The eastern Arctic port connecting Pacific relief with the Lena River and Yakutia", href: "tiksi.html", tags: "tiksi port lena yakutia laptev arctic lend lease relief" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3965,6 +3974,15 @@ const crossLinks = [
   ,{ href: "matadi.html", terms: ["Matadi"] }
   ,{ href: "banana-port.html", terms: ["Port of Banana", "Banana port", "Banana, Congo"] }
   ,{ href: "syneba.html", terms: ["Syndicat d'Études du Bas-Congo", "SYNEBA"] }
+  ,{ href: "american-arctic-aid.html", terms: ["American Arctic aid", "Arctic aid to Siberia"] }
+  ,{ href: "northern-sea-route.html", terms: ["Northern Sea Route"] }
+  ,{ href: "siberian-river-transport.html", terms: ["Siberian river transport", "Siberian river fleets"] }
+  ,{ href: "ob-irtysh-aid-corridor.html", terms: ["Ob–Irtysh Aid Corridor", "Ob-Irtysh Aid Corridor"] }
+  ,{ href: "yenisei-aid-corridor.html", terms: ["Yenisei Aid Corridor"] }
+  ,{ href: "lena-tiksi-aid-corridor.html", terms: ["Lena–Tiksi Aid Corridor", "Lena-Tiksi Aid Corridor"] }
+  ,{ href: "dikson.html", terms: ["Dikson"] }
+  ,{ href: "dudinka.html", terms: ["Dudinka"] }
+  ,{ href: "tiksi.html", terms: ["Tiksi"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }

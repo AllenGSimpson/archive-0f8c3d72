@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">American Arctic aid network</title><desc id="desc">A schematic showing Atlantic and Pacific shipping entering Siberia through the Ob-Irtysh, Yenisei, and Lena river corridors.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3 0 6Z" fill="#ddc66f"/></marker><linearGradient id="ice" x1="0" x2="1"><stop offset="0" stop-color="#6ca8be"/><stop offset="1" stop-color="#b7d9df"/></linearGradient></defs>
+  <rect width="1200" height="600" rx="24" fill="#07151e"/><text x="600" y="56" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="32">AMERICAN ARCTIC AID · OCEAN, RIVER AND RAIL</text>
+  <path d="M95 140H1105" stroke="url(#ice)" stroke-width="36" stroke-linecap="round"/><text x="600" y="132" text-anchor="middle" fill="#09202b" font-family="Arial,sans-serif" font-size="18" font-weight="bold">NORTHERN SEA ROUTE</text>
+  <g fill="none" stroke-width="14" stroke-linecap="round"><path d="M305 155C320 265 250 330 285 465" stroke="#5d91a7"/><path d="M600 155C590 255 640 340 590 465" stroke="#55a08f"/><path d="M895 155C865 265 930 345 900 465" stroke="#6d86b8"/></g>
+  <g font-family="Arial,sans-serif">
+    <path d="M38 140H180" stroke="#ddc66f" stroke-width="5" marker-end="url(#arrow)"/><text x="40" y="110" fill="#f0d98b" font-size="18">ATLANTIC / KARA</text>
+    <path d="M1162 140H1020" stroke="#ddc66f" stroke-width="5" marker-end="url(#arrow)"/><text x="1160" y="110" text-anchor="end" fill="#f0d98b" font-size="18">PACIFIC / BERING</text>
+    <circle cx="305" cy="154" r="18" fill="#d6edf3"/><circle cx="600" cy="154" r="18" fill="#dff1e2"/><circle cx="895" cy="154" r="18" fill="#dfe5f5"/>
+    <text x="305" y="205" text-anchor="middle" fill="#d6edf3" font-size="22">OB–IRTYSH</text><text x="600" y="205" text-anchor="middle" fill="#dff1e2" font-size="22">YENISEI</text><text x="895" y="205" text-anchor="middle" fill="#dfe5f5" font-size="22">LENA–TIKSI</text>
+    <rect x="180" y="440" width="250" height="90" rx="16" fill="#253746" stroke="#73a8c7" stroke-width="3"/><text x="305" y="477" text-anchor="middle" fill="#fff" font-size="20">OMSK–NOVOSIBIRSK</text><text x="305" y="505" text-anchor="middle" fill="#dceaf2" font-size="16">industry · grain · refugees</text>
+    <rect x="475" y="440" width="250" height="90" rx="16" fill="#293a31" stroke="#86b98e" stroke-width="3"/><text x="600" y="477" text-anchor="middle" fill="#fff" font-size="20">KRASNOYARSK</text><text x="600" y="505" text-anchor="middle" fill="#dff1e2" font-size="16">river · rail · customs</text>
+    <rect x="770" y="440" width="250" height="90" rx="16" fill="#2d3148" stroke="#8797c4" stroke-width="3"/><text x="895" y="477" text-anchor="middle" fill="#fff" font-size="20">YAKUTIA / IRKUTSK</text><text x="895" y="505" text-anchor="middle" fill="#e1e5f3" font-size="16">fuel · radio · eastern transfer</text>
+    <text x="600" y="570" text-anchor="middle" fill="#bfc8cb" font-size="17">No branch is a year-round substitute for the lost Soviet transport system.</text>
+  </g>
+</svg>
