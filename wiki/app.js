@@ -1712,6 +1712,15 @@ const pages = [
   { title: "Greater East Asia Technical Charter", description: "The 1966 common capability settlement for weather, standards, training, and computing", href: "greater-east-asia-technical-charter.html", tags: "greater east asia technical charter 1966 standards weather computing scholarships satō" },
   { title: "Human Orbital Systems Program", description: "Japan's machine-first path from Hikari qualification to permanent Hōrai", href: "human-orbital-systems-program.html", tags: "human orbital systems program japan hikari musubi kobo tsubame horai biak" },
   { title: "Hikari Program", description: "Japan's automated capsule family and crewed orbital missions", href: "hikari-program.html", tags: "hikari program spacecraft japan crewed capsule hikari kai biak" },
+  { title: "Hikari-0", description: "The uncrewed 1972 full-system qualification flight of Japan's Hikari spacecraft", href: "hikari-0.html", tags: "hikari 0 qualification mission 1972 uncrewed biak capsule recovery" },
+  { title: "Hikari-1", description: "Japan's first crewed orbital mission, flown by two astronauts in 1973", href: "hikari-1.html", tags: "hikari 1 first japanese crewed orbital flight 1973 biak philippines recovery" },
+  { title: "1974 Musubi Automatic Docking Test", description: "Japan's first complete uncrewed orbital rendezvous and docking demonstration", href: "musubi-1974.html", tags: "musubi 1974 automatic docking rendezvous uncrewed propellant japan" },
+  { title: "Hikari-2", description: "Japan's first crewed rendezvous and docking mission in 1974", href: "hikari-2.html", tags: "hikari 2 crewed docking musubi 2 1974 orbital technicians" },
+  { title: "Assembly of Kōbō", description: "The automatic 1975 assembly of Japan's first orbital laboratory", href: "kobo-assembly.html", tags: "kobo kōbō assembly 1975 orbital laboratory module a b automatic docking" },
+  { title: "Hikari-3", description: "The first fourteen-day crewed occupation of Kōbō in 1976", href: "hikari-3.html", tags: "hikari 3 kobo occupation 1976 laboratory weather satellite control" },
+  { title: "Hikari-4", description: "The 1977 Kōbō maintenance and expansion mission", href: "hikari-4.html", tags: "hikari 4 kobo maintenance 1977 environment computer antenna" },
+  { title: "Hikari-5", description: "The 1978 Hikari Kai mission carrying the first associated-state astronaut", href: "hikari-5.html", tags: "hikari 5 kai filipino first associated astronaut 1978 kobo" },
+  { title: "Tsubame-1", description: "Japan's first automated cargo, reboost, and waste-removal mission in 1979", href: "tsubame-1.html", tags: "tsubame 1 cargo reboost waste controlled reentry 1979 kobo japan" },
   { title: "Musubi Program", description: "Japan's automatic rendezvous and docking test series", href: "musubi-program.html", tags: "musubi program docking rendezvous connection bond japan hikari" },
   { title: "Biak Booster Failure", description: "The 1974 launch accident and procurement scandal that brought down Tanaka", href: "biak-booster-failure.html", tags: "biak booster failure accident 1974 tanaka miki kobo procurement safety" },
   { title: "Associated-State Astronaut Program", description: "Multinational GEACPS specialists within Japanese orbital command", href: "associated-state-astronaut-program.html", tags: "associated state astronaut program filipino siamese chinese geacps hikari horai" },
@@ -3775,11 +3784,20 @@ const crossLinks = [
   ,{ href: "active-concord.html", terms: ["Active Concord"] }
   ,{ href: "greater-east-asia-technical-charter.html", terms: ["Greater East Asia Technical Charter", "Technical Charter"] }
   ,{ href: "human-orbital-systems-program.html", terms: ["Human Orbital Systems Program"] }
-  ,{ href: "hikari-program.html", terms: ["Hikari program", "Hikari-0", "Hikari-1", "Hikari-2", "Hikari-3", "Hikari-4", "Hikari-5", "Hikari-6", "Hikari-7", "Hikari Kai"] }
+  ,{ href: "hikari-program.html", terms: ["Hikari program", "Hikari spacecraft family", "Hikari family", "Hikari-6", "Hikari-7", "Hikari Kai"] }
+  ,{ href: "hikari-0.html", terms: ["Hikari-0"] }
+  ,{ href: "hikari-1.html", terms: ["Hikari-1"] }
+  ,{ href: "hikari-2.html", terms: ["Hikari-2"] }
+  ,{ href: "hikari-3.html", terms: ["Hikari-3"] }
+  ,{ href: "hikari-4.html", terms: ["Hikari-4"] }
+  ,{ href: "hikari-5.html", terms: ["Hikari-5"] }
+  ,{ href: "musubi-1974.html", terms: ["1974 Musubi automatic docking test", "Musubi automatic docking test"] }
   ,{ href: "musubi-program.html", terms: ["Musubi program", "Musubi docking", "Musubi"] }
   ,{ href: "biak-booster-failure.html", terms: ["Biak booster failure", "1974 Biak failure"] }
   ,{ href: "associated-state-astronaut-program.html", terms: ["Associated-State Astronaut Program", "associated-state astronaut program", "first Filipino astronaut"] }
-  ,{ href: "tsubame-program.html", terms: ["Tsubame program", "Tsubame-1", "Tsubame"] }
+  ,{ href: "tsubame-1.html", terms: ["Tsubame-1"] }
+  ,{ href: "tsubame-program.html", terms: ["Tsubame program", "Tsubame"] }
+  ,{ href: "kobo-assembly.html", terms: ["assembly of Kōbō", "Kōbō assembly"] }
   ,{ href: "kobo-horai.html", terms: ["Kōbō–Hōrai orbital complex", "Kōbō laboratory", "Hōrai Orbital Platform", "Kōbō", "Hōrai"] }
   ,{ href: "japanese-raumhafen-modules.html", terms: ["Japanese Raumhafen modules", "Japanese module group"] }
   ,{ href: "mondhafen-sud.html", terms: ["Mondhafen Süd", "Mondhafen Sud"] }
