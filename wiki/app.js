@@ -1603,7 +1603,13 @@ const pages = [
   { title: "British Union", description: "The prewar fascist movement that preceded Union Commonwealth", href: "british-union.html", tags: "british union fascists buf blackshirts mosley flash circle predecessor" },
   { title: "Planned Commonwealth Interdependence", description: "The UC doctrine of specialized production, shipping, finance, and mutual necessity", href: "planned-commonwealth-interdependence.html", tags: "planned commonwealth interdependence mosley economy production specialization shipping" },
   { title: "Union Commonwealth and the Veterans", description: "The prisoners, servicemen, widows, and local witnesses behind the 1947 breakthrough", href: "union-commonwealth-veterans-movement.html", tags: "union commonwealth veterans prisoners war operation homeward 1947 candidates" },
-  { title: "Electoral History of Union Commonwealth", description: "The party's rise, supply leverage, and contraction from 104 seats to three", href: "electoral-history-union-commonwealth.html", tags: "union commonwealth electoral history elections seats 1947 1951 1955 1969 1975" }
+  { title: "Electoral History of Union Commonwealth", description: "The party's rise, supply leverage, and contraction from 104 seats to three", href: "electoral-history-union-commonwealth.html", tags: "union commonwealth electoral history elections seats 1947 1951 1955 1969 1975" },
+  { title: "Common Wealth Party", description: "Richard Acland's democratic-socialist, cooperative, and constitutional-reform party", href: "common-wealth-party.html", tags: "common wealth party cw richard acland democratic socialism cooperative reform" },
+  { title: "Richard Acland", description: "Common Wealth founder and leader in the Brick Parliament", href: "richard-acland.html", tags: "richard acland common wealth liberal killerton politician" },
+  { title: "Reconstruction Labour", description: "The Labour Party rebuilt under Aneurin Bevan after British defeat", href: "reconstruction-labour.html", tags: "reconstruction labour bevan brick parliament party socialism" },
+  { title: "Conservative and Unionist Party", description: "Butler's rebuilt party of contracts, Crown, Commonwealth, and administrative competence", href: "conservative-party-united-kingdom.html", tags: "conservative unionist party butler macmillan powell britain" },
+  { title: "Liberal Party", description: "The civil-libertarian, procedural, local-government, and commercial-liberal force", href: "liberal-party-united-kingdom.html", tags: "liberal party britain civil liberties electoral reform inquiry thatcher" },
+  { title: "Post-Defeat British Party System", description: "The five-party parliamentary order created by the White Parachute Election", href: "post-defeat-british-party-system.html", tags: "post defeat british party system five party 1947 brick parliament" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2193,6 +2199,11 @@ const crossLinks = [
   { href: "oswald-mosley.html", terms: ["Oswald Mosley", "Sir Oswald Mosley"] },
   { href: "british-union.html", terms: ["British Union of Fascists", "British Union"] },
   { href: "planned-commonwealth-interdependence.html", terms: ["planned Commonwealth interdependence"] },
+  { href: "common-wealth-party.html", terms: ["Common Wealth Party", "Common Wealth"] },
+  { href: "richard-acland.html", terms: ["Richard Acland", "Sir Richard Acland"] },
+  { href: "reconstruction-labour.html", terms: ["Reconstruction Labour"] },
+  { href: "conservative-party-united-kingdom.html", terms: ["Conservative and Unionist Party"] },
+  { href: "liberal-party-united-kingdom.html", terms: ["Liberal Party"] },
   { href: "muscat-articles.html", terms: ["Muscat Articles"] },
   { href: "falklands-war.html", terms: ["Falklands–Malvinas War", "Falklands War", "Second Torch", "Punta del Este Protocols"] },
   { href: "war-of-the-chiefs.html", terms: ["Mittelafrikanischer Häuptlingskrieg", "Häuptlingskrieg", "War of the Chiefs"] },
