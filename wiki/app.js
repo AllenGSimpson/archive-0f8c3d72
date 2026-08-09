@@ -1579,7 +1579,13 @@ const pages = [
   { title: "Black Church Cultural Network", description: "The religious, civic, musical, publishing, broadcasting, and political infrastructure of Black churches", href: "black-church-cultural-network.html", tags: "black church cultural network gospel congregations civil rights radio publishing politics" },
   { title: "Black Recording Industry in the United States", description: "Black-owned labels, studios, publishers, distributors, managers, shops, and artist-controlled companies", href: "black-recording-industry.html", tags: "black recording industry labels studios publishing distribution motown music" },
   { title: "Black Television Syndication", description: "Independent Black production and distribution across local stations, cable, satellite, and home video", href: "black-television-syndication.html", tags: "black television syndication independent production local stations cable motown" },
-  { title: "Crossover Licensing in American Entertainment", description: "The contractual movement of works and stars between parallel Black and white cultural markets", href: "crossover-licensing-american-entertainment.html", tags: "crossover licensing american entertainment black white markets records film television touring" }
+  { title: "Crossover Licensing in American Entertainment", description: "The contractual movement of works and stars between parallel Black and white cultural markets", href: "crossover-licensing-american-entertainment.html", tags: "crossover licensing american entertainment black white markets records film television touring" },
+  { title: "Black Press in the United States", description: "Black-owned newspapers, magazines, wire services, publishers, critics, and advertising markets", href: "black-press-united-states.html", tags: "black press united states newspapers magazines wire services publishers journalism" },
+  { title: "Black Banking and Insurance in the United States", description: "Community savings, credit, mortgages, insurance, underwriting, and business finance", href: "black-banking-insurance.html", tags: "black banking insurance banks savings credit mortgage community finance business" },
+  { title: "Black Colleges and Universities in the United States", description: "Historically Black higher education, research, professional formation, and civic leadership", href: "black-colleges-universities.html", tags: "black colleges universities hbcu higher education research professional training" },
+  { title: "Black Film Industry in the United States", description: "Black-owned production, distribution, exhibition partnerships, television, and screen culture", href: "black-film-industry.html", tags: "black film industry cinema production distribution theater television sidney poitier" },
+  { title: "Black-Owned Theater Chains in the United States", description: "Cinema, stage, ballroom, and mixed entertainment properties serving a national Black public", href: "black-theater-chains.html", tags: "black owned theater chains cinemas stages ballrooms exhibition performance" },
+  { title: "Black Booking and Entertainment Management", description: "Agencies, managers, promoters, lawyers, publicists, and touring administration", href: "black-booking-management.html", tags: "black booking entertainment management talent agencies promoters touring artists" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2802,6 +2808,12 @@ const crossLinks = [
   ,{ href: "black-recording-industry.html", terms: ["Black recording industry", "Black-owned record companies"] }
   ,{ href: "black-television-syndication.html", terms: ["Black television syndication"] }
   ,{ href: "crossover-licensing-american-entertainment.html", terms: ["crossover licensing", "licensed crossover"] }
+  ,{ href: "black-press-united-states.html", terms: ["Black press", "Black newspapers"] }
+  ,{ href: "black-banking-insurance.html", terms: ["Black banking and insurance", "Black banks and insurers"] }
+  ,{ href: "black-colleges-universities.html", terms: ["Black colleges and universities", "Black colleges"] }
+  ,{ href: "black-film-industry.html", terms: ["Black film industry", "Black film companies"] }
+  ,{ href: "black-theater-chains.html", terms: ["Black-owned theater chains", "Black theater chains"] }
+  ,{ href: "black-booking-management.html", terms: ["Black booking and entertainment management", "Black booking agencies"] }
   ,{ href: "american-orbital-carrier-industry.html", terms: ["American orbital-carrier industry", "American orbital carrier industry"] }
   ,{ href: "american-lunar-resource-industry.html", terms: ["American lunar-resource industry", "American lunar resource industry"] }
   ,{ href: "american-orbital-habitat-industry.html", terms: ["American orbital-habitat industry", "American orbital habitat industry"] }
