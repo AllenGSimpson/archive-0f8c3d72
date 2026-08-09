@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Black American bridge figures</title>
+  <desc id="desc">Six performers connect Black-owned cultural institutions to national, Commonwealth, and foreign audiences without erasing their institutional origins.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111820"/><stop offset="1" stop-color="#202b35"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d8b56a"/></marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="600" y="48" text-anchor="middle" fill="#f3ead9" font-family="Georgia,serif" font-size="30" font-weight="700">Six forms of cultural passage</text>
+  <text x="600" y="77" text-anchor="middle" fill="#aebdca" font-family="Arial,sans-serif" font-size="16">The separate Black public sphere is a national system, not a waiting room for white-market admission.</text>
+
+  <rect x="40" y="112" width="290" height="455" rx="14" fill="#162b34" stroke="#3f8290" stroke-width="2" filter="url(#shadow)"/>
+  <text x="185" y="151" text-anchor="middle" fill="#91d1d7" font-family="Arial,sans-serif" font-size="19" font-weight="700">BLACK-OWNED INSTITUTIONS</text>
+  <g font-family="Arial,sans-serif" font-size="18" fill="#e3edf0">
+    <rect x="70" y="184" width="230" height="62" rx="8" fill="#21404a"/><text x="185" y="211" text-anchor="middle"><tspan x="185">Theaters and</tspan><tspan x="185" dy="23">film exhibition</tspan></text>
+    <rect x="70" y="267" width="230" height="62" rx="8" fill="#21404a"/><text x="185" y="294" text-anchor="middle"><tspan x="185">Radio, press, and</tspan><tspan x="185" dy="23">television syndication</tspan></text>
+    <rect x="70" y="350" width="230" height="62" rx="8" fill="#21404a"/><text x="185" y="377" text-anchor="middle"><tspan x="185">Labels, booking,</tspan><tspan x="185" dy="23">clubs, and touring</tspan></text>
+    <rect x="70" y="433" width="230" height="62" rx="8" fill="#21404a"/><text x="185" y="460" text-anchor="middle"><tspan x="185">Churches, colleges,</tspan><tspan x="185" dy="23">and movement networks</tspan></text>
+  </g>
+
+  <g stroke="#d8b56a" stroke-width="3" fill="none" marker-end="url(#arrow)" opacity=".9">
+    <path d="M330 228 C370 228 370 198 410 198"/><path d="M330 298 C370 298 370 275 410 275"/><path d="M330 381 C370 381 370 392 410 392"/><path d="M330 464 C370 464 370 469 410 469"/>
+    <path d="M790 198 C830 198 830 228 870 228"/><path d="M790 315 C830 315 830 340 870 340"/><path d="M790 469 C830 469 830 452 870 452"/>
+  </g>
+
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <rect x="410" y="156" width="180" height="84" rx="10" fill="#513d55" stroke="#bb90c2"/><text x="500" y="190" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Sidney Poitier</text><text x="500" y="216" text-anchor="middle" fill="#e1cfe6" font-size="14">film · direction</text>
+    <rect x="610" y="156" width="180" height="84" rx="10" fill="#513d55" stroke="#bb90c2"/><text x="700" y="190" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Harry Belafonte</text><text x="700" y="216" text-anchor="middle" fill="#e1cfe6" font-size="14">music · organizing</text>
+    <rect x="410" y="273" width="180" height="84" rx="10" fill="#513d55" stroke="#bb90c2"/><text x="500" y="307" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Sammy Davis Jr.</text><text x="500" y="333" text-anchor="middle" fill="#e1cfe6" font-size="14">stage · variety</text>
+    <rect x="610" y="273" width="180" height="84" rx="10" fill="#513d55" stroke="#bb90c2"/><text x="700" y="307" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Ray Charles</text><text x="700" y="333" text-anchor="middle" fill="#e1cfe6" font-size="14">records · touring</text>
+    <rect x="410" y="390" width="180" height="84" rx="10" fill="#513d55" stroke="#bb90c2"/><text x="500" y="424" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">James Brown</text><text x="500" y="450" text-anchor="middle" fill="#e1cfe6" font-size="14">live revue · funk</text>
+    <rect x="610" y="390" width="180" height="84" rx="10" fill="#513d55" stroke="#bb90c2"/><text x="700" y="424" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Marvin Gaye</text><text x="700" y="450" text-anchor="middle" fill="#e1cfe6" font-size="14">Motown · albums</text>
+  </g>
+
+  <rect x="870" y="112" width="290" height="455" rx="14" fill="#2f281c" stroke="#b89651" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1015" y="151" text-anchor="middle" fill="#e6ca8d" font-family="Arial,sans-serif" font-size="21" font-weight="700">OUTWARD AUDIENCES</text>
+  <g font-family="Arial,sans-serif" font-size="18" fill="#f2eadb">
+    <rect x="900" y="194" width="230" height="68" rx="8" fill="#493d28"/><text x="1015" y="223" text-anchor="middle"><tspan x="1015">White-owned national</tspan><tspan x="1015" dy="24">cinema and broadcasting</tspan></text>
+    <rect x="900" y="306" width="230" height="68" rx="8" fill="#493d28"/><text x="1015" y="335" text-anchor="middle"><tspan x="1015">Commonwealth and</tspan><tspan x="1015" dy="24">Caribbean publics</tspan></text>
+    <rect x="900" y="418" width="230" height="68" rx="8" fill="#493d28"/><text x="1015" y="447" text-anchor="middle"><tspan x="1015">Foreign-bloc audiences</tspan><tspan x="1015" dy="24">and political movements</tspan></text>
+  </g>
+
+  <rect x="124" y="603" width="952" height="42" rx="21" fill="#0e1419" stroke="#566674"/>
+  <text x="600" y="630" text-anchor="middle" fill="#f3ead9" font-family="Georgia,serif" font-size="18" font-style="italic">Passage changes the audience; it does not erase institutional origin.</text>
+</svg>

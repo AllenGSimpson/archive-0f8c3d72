@@ -1549,7 +1549,13 @@ const pages = [
   { title: "Frank Sinatra", description: "The old urban-establishment star across radio, film, records, and television", href: "frank-sinatra.html", tags: "frank sinatra urban establishment hoboken capitol reprise spectator war" },
   { title: "Bob Dylan", description: "The politically unpossessable songwriter of the divided 1960s generation", href: "bob-dylan.html", tags: "bob dylan protest folk rock philippines 1968 rockwell surveillance" },
   { title: "Aretha Franklin", description: "The Queen of Soul and crossover authority between parallel American publics", href: "aretha-franklin.html", tags: "aretha franklin queen soul gospel detroit atlantic crossover black public sphere" },
-  { title: "Berry Gordy", description: "The architect of Detroit's Black-owned Motown cultural system", href: "berry-gordy.html", tags: "berry gordy motown tamla detroit black owned media cultural system" }
+  { title: "Berry Gordy", description: "The architect of Detroit's Black-owned Motown cultural system", href: "berry-gordy.html", tags: "berry gordy motown tamla detroit black owned media cultural system" },
+  { title: "Sidney Poitier", description: "The foremost Black screen intermediary among American and Commonwealth audiences", href: "sidney-poitier.html", tags: "sidney poitier film actor director bahamas commonwealth american negro theatre" },
+  { title: "Harry Belafonte", description: "The Caribbean repertoire star, organizer, and international movement bridge", href: "harry-belafonte.html", tags: "harry belafonte calypso caribbean jamaica civil rights organizer american negro theatre" },
+  { title: "Sammy Davis Jr.", description: "The variety-stage master whose elite access tested the limits of personal crossover", href: "sammy-davis-jr.html", tags: "sammy davis junior will mastin trio variety vaudeville rat pack judaism" },
+  { title: "Ray Charles", description: "The category-crossing authority of gospel, rhythm and blues, jazz, country, and pop", href: "ray-charles.html", tags: "ray charles gospel rhythm blues jazz country atlantic records blind" },
+  { title: "James Brown", description: "The live-circuit sovereign, funk innovator, and voice of Black self-reliance", href: "james-brown.html", tags: "james brown famous flames apollo funk soul black pride self reliance" },
+  { title: "Marvin Gaye", description: "The Motown vocalist who fought for self-directed political and intimate albums", href: "marvin-gaye.html", tags: "marvin gaye motown moonglows tammi terrell political album soul" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2760,6 +2766,12 @@ const crossLinks = [
   ,{ href: "big-bopper.html", terms: ["The Big Bopper", "J. P. Richardson", "Jiles Perry Richardson"] }
   ,{ href: "motown-cultural-system.html", terms: ["Motown cultural system", "Motown"] }
   ,{ href: "black-american-public-sphere.html", terms: ["Black American public sphere", "parallel Black media"] }
+  ,{ href: "sidney-poitier.html", terms: ["Sidney Poitier"] }
+  ,{ href: "harry-belafonte.html", terms: ["Harry Belafonte"] }
+  ,{ href: "sammy-davis-jr.html", terms: ["Sammy Davis Jr.", "Sammy Davis Junior"] }
+  ,{ href: "ray-charles.html", terms: ["Ray Charles"] }
+  ,{ href: "james-brown.html", terms: ["James Brown", "Godfather of Soul"] }
+  ,{ href: "marvin-gaye.html", terms: ["Marvin Gaye"] }
   ,{ href: "american-cottage-industry-revival.html", terms: ["American cottage-industry revival", "cottage-industry revival", "home enterprise"] }
   ,{ href: "united-states-aerospace-force.html", terms: ["United States Aerospace Force", "Aerospace Force", "United States Aerospace Command", "Aerospace Command"] }
   ,{ href: "hemispheric-renewal-act.html", terms: ["Hemispheric Renewal Act"] }

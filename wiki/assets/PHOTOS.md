@@ -25,7 +25,7 @@ These portraits are hosted locally so the biographical pages remain usable offli
 | `portraits/john-von-neumann.gif` | John von Neumann at Los Alamos | [John von Neumann portrait](https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif) |
 | `portraits/maurice-wilkes.jpg` | Maurice Wilkes, 1980 | [Maurice Wilkes portrait](https://commons.wikimedia.org/wiki/File:Maurice_Vincent_Wilkes_1980_(3,_cropped).jpg) |
 
-## Historical American music portraits
+## Historical American music and screen portraits
 
 These locally hosted portraits accompany the alternate biographies. The photographs document the real historical subjects; captions and article text distinguish retained biography from setting-specific divergence.
 
@@ -37,6 +37,13 @@ These locally hosted portraits accompany the alternate biographies. The photogra
 | `portraits/bob-dylan-1965.jpg` | Bob Dylan, 1965 | [Daniel Kramer publicity portrait](https://commons.wikimedia.org/wiki/File:Bob_Dylan_(1965).jpg) — public domain in the United States |
 | `portraits/aretha-franklin-1967.jpg` | Aretha Franklin, 1967 | [Atlantic Records publicity portrait](https://commons.wikimedia.org/wiki/File:Aretha_franklin_1960s_cropped_retouched.jpg) — CC0 |
 | `portraits/berry-gordy-1998.jpg` | Berry Gordy, 1998 | [John Mathew Smith / Kingkongphoto portrait](https://commons.wikimedia.org/wiki/File:Berry_Gordy.jpg) — CC BY-SA 2.0 |
+
+| `portraits/sidney-poitier-1968.jpg` | Sidney Poitier, 1968 | [Publicity portrait](https://commons.wikimedia.org/wiki/File:Sidney_Poitier_1968.jpg) — public domain in the United States |
+| `portraits/harry-belafonte-1954.jpg` | Harry Belafonte, 1954 | [Carl Van Vechten / Library of Congress portrait](https://commons.wikimedia.org/wiki/File:Portrait_of_Harry_Belafonte_LCCN2004662589.jpg) — public domain; no known restrictions |
+| `portraits/sammy-davis-jr-1963.jpg` | Sammy Davis Jr., 1963 | [Warren K. Leffler / Library of Congress photograph](https://commons.wikimedia.org/wiki/File:Sammy_Davis,_Jr.,_waving_to_people.jpg) — public domain |
+| `portraits/ray-charles-1983.jpg` | Ray Charles, 1983 | [Rob Bogaerts / Nationaal Archief photograph](https://commons.wikimedia.org/wiki/File:RayCharles1983.jpg) — CC0 |
+| `portraits/james-brown-1969.jpg` | James Brown, 1969 | [ABC Television publicity portrait](https://commons.wikimedia.org/wiki/File:James_Brown_Music_Scene_1969.jpg) — public domain in the United States |
+| `portraits/marvin-gaye-1973.jpg` | Marvin Gaye, 1973 | [Jim Britt / Motown publicity portrait](https://commons.wikimedia.org/wiki/File:Marvin_Gaye_(1973_publicity_photo).jpg) — public domain in the United States |
 
 ## British postwar portraits
 
