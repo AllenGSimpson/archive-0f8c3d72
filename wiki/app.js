@@ -17,6 +17,12 @@ const pages = [
   { title: "1980 United States Presidential Election", description: "Buchanan's National Renewal landslide over Ronald Reagan", href: "1980-united-states-presidential-election.html", tags: "1980 election buchanan reagan landslide columbia kennedy lunar station" },
   { title: "1984 United States Presidential Election", description: "Reagan's victory and the peaceful transfer from National Renewal", href: "1984-united-states-presidential-election.html", tags: "1984 election reagan phillips landry kemp narrative shaping peaceful transfer" },
   { title: "1988 United States Presidential Election", description: "Reagan's boom-era reelection over Bell and Kincaid", href: "1988-united-states-presidential-election.html", tags: "1988 election reagan bell kincaid world market boom halifax omaha rules" },
+  { title: "Free Association Amendment", description: "The constitutional protection of private association and exclusion adopted after 1972", href: "free-association-amendment.html", tags: "free association amendment constitution civil rights exclusion private association 1972 1973" },
+  { title: "Stolen Mandate", description: "National Renewal's foundational interpretation of the 1968 contingent election", href: "stolen-mandate.html", tags: "stolen mandate house betrayal establishment coup 1968 rockwell rockefeller national renewal" },
+  { title: "Assassination of George Lincoln Rockwell", description: "The 1975 murder, false conviction, execution, and unresolved investigation", href: "assassination-of-george-lincoln-rockwell.html", tags: "george lincoln rockwell assassination 1975 last republic panic wrongful conviction commission" },
+  { title: "Howard Phillips", description: "National Renewal organizer and vice president under Pat Buchanan", href: "howard-phillips.html", tags: "howard phillips vice president national renewal organizer free association buchanan" },
+  { title: "Henry M. Jackson", description: "Labor-defense Democrat and working vice president under Nelson Rockefeller", href: "henry-m-jackson.html", tags: "henry scoop jackson vice president senator labor defense rockefeller fusion" },
+  { title: "Jack Kemp", description: "Growth politician and working vice president under Ronald Reagan", href: "jack-kemp.html", tags: "jack kemp vice president reagan football growth enterprise technology" },
   { title: "Latin Bloc", description: "The gradually formalized Italian, Iberian, Occitan, and Mediterranean system", href: "latin-bloc.html", tags: "latin bloc italy spain portugal occitania catholic suez" },
   { title: "Kingdom of Italy", description: "The King-Duce, corporate prosperity, and an overextended empire", href: "italy.html", tags: "italy rome umberto mussolini iri mediterranean suez latin" },
   { title: "National Government of China", description: "Managed civilization under Japanese guardianship", href: "china.html", tags: "china nanjing japan examinations industry client state" },
@@ -2811,6 +2817,12 @@ const crossLinks = [
   ,{ href: "1980-united-states-presidential-election.html", terms: ["1980 United States presidential election", "1980 presidential election", "1980 election"] }
   ,{ href: "1984-united-states-presidential-election.html", terms: ["1984 United States presidential election", "1984 presidential election", "1984 election"] }
   ,{ href: "1988-united-states-presidential-election.html", terms: ["1988 United States presidential election", "1988 presidential election", "1988 election"] }
+  ,{ href: "free-association-amendment.html", terms: ["Free Association Amendment", "free-association principle"] }
+  ,{ href: "stolen-mandate.html", terms: ["Stolen Mandate", "House Betrayal", "Establishment Coup"] }
+  ,{ href: "assassination-of-george-lincoln-rockwell.html", terms: ["assassination of George Lincoln Rockwell", "Rockwell's assassination", "Rockwell assassination", "Rockwell was murdered"] }
+  ,{ href: "howard-phillips.html", terms: ["Howard Phillips", "Phillips"] }
+  ,{ href: "henry-m-jackson.html", terms: ["Henry M. Jackson", "Henry Jackson", "Scoop Jackson"] }
+  ,{ href: "jack-kemp.html", terms: ["Jack Kemp", "Kemp"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }
