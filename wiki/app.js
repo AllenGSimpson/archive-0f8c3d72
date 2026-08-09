@@ -405,6 +405,15 @@ const pages = [
   { title: "Valles Marineris", description: "The Martian canyon system containing the Commonwealth's 1998 landing region", href: "valles-marineris.html", tags: "valles marineris mariner valley mars canyon british commonwealth 1998 geography" },
   { title: "Mare Serenitatis", description: "The lunar mare containing Serenity and the Commonwealth Millennium works", href: "mare-serenitatis.html", tags: "mare serenitatis sea serenity moon lunar commonwealth base millennium geography" },
   { title: "Ceres", description: "The water-rich dwarf planet reached by the Latin Space Community", href: "ceres.html", tags: "ceres dwarf planet asteroid belt latin expedition water ice geography" },
+  { title: "Solar System", description: "The Sun's planetary system and the operating geography of human expansion through 2010", href: "solar-system.html", tags: "solar system sun planets moons asteroids exploration settlement geography" },
+  { title: "Mercury", description: "The innermost planet and a sparse, thermally demanding orbital destination", href: "mercury.html", tags: "mercury planet inner solar system orbit crater core polar ice exploration" },
+  { title: "Venus", description: "The cloud-covered terrestrial planet and its durable robotic observation system", href: "venus.html", tags: "venus planet atmosphere greenhouse radar clouds robotic exploration" },
+  { title: "Earth", description: "The inhabited third planet and center of human civilization", href: "earth.html", tags: "earth planet world oceans atmosphere life civilization moon" },
+  { title: "Asteroid Belt", description: "The dispersed small-body region and sparse Ceres–Vesta operating corridor", href: "asteroid-belt.html", tags: "asteroid belt main belt ceres vesta pallas hygiea resources exploration" },
+  { title: "Jupiter", description: "The largest planet, its radiation environment, and its complex satellite system", href: "jupiter.html", tags: "jupiter gas giant galilean moons europa ganymede io callisto outer solar system" },
+  { title: "Saturn", description: "The ringed gas giant and second destination of the new outer-system campaigns", href: "saturn.html", tags: "saturn gas giant rings titan enceladus outer solar system" },
+  { title: "Uranus", description: "The tilted inner ice giant and an open long-duration exploration objective", href: "uranus.html", tags: "uranus ice giant rings moons axial tilt outer solar system" },
+  { title: "Neptune", description: "The distant outer ice giant, Triton, and an unconfirmed exploration objective by 2010", href: "neptune.html", tags: "neptune ice giant triton rings winds outer solar system" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3849,6 +3858,15 @@ const crossLinks = [
   ,{ href: "south-pole-aitken-basin.html", terms: ["South Pole–Aitken basin", "South Pole-Aitken basin", "SPA basin"] }
   ,{ href: "shackleton-crater.html", terms: ["Shackleton crater", "Shackleton"] }
   ,{ href: "procellarum-kreep-terrane.html", terms: ["Procellarum KREEP Terrane", "KREEP Terrane", "Procellarum KREEP"] }
+  ,{ href: "solar-system.html", terms: ["Solar System", "planetary system"] }
+  ,{ href: "mercury.html", terms: ["Mercury", "planet Mercury"] }
+  ,{ href: "venus.html", terms: ["Venus", "planet Venus"] }
+  ,{ href: "earth.html", terms: ["Earth", "planet Earth"] }
+  ,{ href: "asteroid-belt.html", terms: ["asteroid belt", "main asteroid belt", "main belt"] }
+  ,{ href: "jupiter.html", terms: ["Jupiter", "Jovian planet", "Jupiter system"] }
+  ,{ href: "saturn.html", terms: ["Saturn", "Saturnian planet", "Saturn system"] }
+  ,{ href: "uranus.html", terms: ["Uranus", "Uranian planet", "Uranus system"] }
+  ,{ href: "neptune.html", terms: ["Neptune", "Neptunian planet", "Neptune system"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
