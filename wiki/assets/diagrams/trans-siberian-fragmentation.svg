@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Fragmentation of the Trans-Siberian Railway</title><desc id="desc">The former continental railway is divided among German, Ural, western Siberian, Krasnoyarsk, Irkutsk, and Japanese-aligned authorities, with a break of gauge at the Baikal frontier.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07151e"/><stop offset="1" stop-color="#111d2a"/></linearGradient></defs>
+  <rect width="1200" height="560" rx="24" fill="url(#bg)"/>
+  <text x="600" y="57" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="31">THE FRACTURED TRANS-SIBERIAN RAILWAY</text>
+  <g font-family="Arial,sans-serif">
+    <path d="M65 270H1040" stroke="#3c3428" stroke-width="30" stroke-linecap="round"/><path d="M65 270H1040" stroke="#d9c26f" stroke-width="4" stroke-dasharray="14 10"/>
+    <g fill="#f5f1e8" stroke="#07151e" stroke-width="4"><circle cx="125" cy="270" r="13"/><circle cx="295" cy="270" r="13"/><circle cx="465" cy="270" r="13"/><circle cx="635" cy="270" r="13"/><circle cx="805" cy="270" r="13"/><circle cx="990" cy="270" r="13"/></g>
+    <g text-anchor="middle"><text x="125" y="225" fill="#d58b8b" font-size="18">GERMAN</text><text x="125" y="205" fill="#fff" font-size="20">frontier</text><text x="295" y="320" fill="#fff" font-size="20">Ural states</text><text x="465" y="225" fill="#fff" font-size="20">Omsk–Novosibirsk</text><text x="635" y="320" fill="#fff" font-size="20">Krasnoyarsk</text><text x="805" y="225" fill="#fff" font-size="20">Irkutsk</text><text x="990" y="320" fill="#fff" font-size="20">Chita and Far East</text></g>
+    <g stroke="#7d8990" stroke-width="3" stroke-dasharray="6 6"><path d="M210 150V390"/><path d="M380 150V390"/><path d="M550 150V390"/><path d="M720 150V390"/><path d="M900 150V390"/></g>
+    <g fill="#9fb2bd" font-size="15" text-anchor="middle"><text x="210" y="132">customs</text><text x="380" y="132">wagon exchange</text><text x="550" y="132">bridge control</text><text x="720" y="132">locomotive change</text><text x="900" y="132">BREAK OF GAUGE</text></g>
+    <path d="M925 247l18 46M943 247l-18 46" stroke="#efb46d" stroke-width="7"/>
+    <rect x="225" y="422" width="335" height="75" rx="15" fill="#253746" stroke="#73a8c7" stroke-width="2"/><text x="392" y="453" text-anchor="middle" fill="#fff" font-size="19">WEST OF BAIKAL</text><text x="392" y="480" text-anchor="middle" fill="#dceaf2" font-size="17">1,520 mm Russian broad gauge</text>
+    <rect x="650" y="422" width="335" height="75" rx="15" fill="#3c3428" stroke="#cba76d" stroke-width="2"/><text x="817" y="453" text-anchor="middle" fill="#fff" font-size="19">JAPANESE-ALIGNED EAST</text><text x="817" y="480" text-anchor="middle" fill="#f4e6ca" font-size="17">1,435 mm standard gauge</text>
+  </g>
+</svg>

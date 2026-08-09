@@ -472,6 +472,14 @@ const pages = [
   { title: "Dikson", description: "The western Arctic pilotage, weather, radio, and relief port at the Yenisei approach", href: "dikson.html", tags: "dikson port kara sea yenisei arctic pilotage radio weather relief" },
   { title: "Dudinka", description: "The principal sea–river transshipment port of the Yenisei aid corridor", href: "dudinka.html", tags: "dudinka port yenisei norilsk krasnoyarsk transshipment arctic relief" },
   { title: "Tiksi", description: "The eastern Arctic port connecting Pacific relief with the Lena River and Yakutia", href: "tiksi.html", tags: "tiksi port lena yakutia laptev arctic lend lease relief" },
+  { title: "Omsk", description: "The military and administrative capital of the Omsk–Novosibirsk Dual State", href: "omsk.html", tags: "omsk city irtysh military capital tank railway western siberia" },
+  { title: "Novosibirsk", description: "The industrial and technical capital of the Omsk–Novosibirsk Dual State", href: "novosibirsk.html", tags: "novosibirsk city ob bridge industry yak aircraft ak railway siberia" },
+  { title: "Krasnoyarsk", description: "The central Siberian capital at the Trans-Siberian crossing of the Yenisei", href: "krasnoyarsk.html", tags: "krasnoyarsk city yenisei bridge railway arctic aid central siberia" },
+  { title: "Irkutsk", description: "The Soviet-restorationist capital on the Angara and Baikal frontier", href: "irkutsk.html", tags: "irkutsk city angara baikal soviet restorationist railway frontier" },
+  { title: "Nizhny Tagil", description: "The eastern-Ural tank-production city and inheritor of Plant No. 183", href: "nizhny-tagil.html", tags: "nizhny tagil uralvagonzavod plant 183 t34 tanks ural city" },
+  { title: "Chelyabinsk", description: "The Tankograd successor and heavy-engineering capital of the southern Urals", href: "chelyabinsk.html", tags: "chelyabinsk tankograd tractor plant tanks engines industry ural city" },
+  { title: "Magnitogorsk", description: "The steel-producing company-state of the eastern Ural industrial belt", href: "magnitogorsk.html", tags: "magnitogorsk steel iron works metallurgy ural city state" },
+  { title: "Trans-Siberian Railway", description: "The fragmented continental railway shared by rival Russian successor governments", href: "trans-siberian-railway.html", tags: "trans siberian railway rail broad gauge break customs omsk novosibirsk krasnoyarsk irkutsk" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3983,6 +3991,14 @@ const crossLinks = [
   ,{ href: "dikson.html", terms: ["Dikson"] }
   ,{ href: "dudinka.html", terms: ["Dudinka"] }
   ,{ href: "tiksi.html", terms: ["Tiksi"] }
+  ,{ href: "trans-siberian-railway.html", terms: ["Trans-Siberian Railway", "Trans Siberian Railway"] }
+  ,{ href: "nizhny-tagil.html", terms: ["Nizhny Tagil"] }
+  ,{ href: "chelyabinsk.html", terms: ["Chelyabinsk"] }
+  ,{ href: "magnitogorsk.html", terms: ["Magnitogorsk"] }
+  ,{ href: "novosibirsk.html", terms: ["Novosibirsk"] }
+  ,{ href: "krasnoyarsk.html", terms: ["Krasnoyarsk"] }
+  ,{ href: "irkutsk.html", terms: ["Irkutsk"] }
+  ,{ href: "omsk.html", terms: ["Omsk"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
