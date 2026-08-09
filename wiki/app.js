@@ -426,6 +426,14 @@ const pages = [
   { title: "Government of Extraterrestrial Settlements", description: "Local administration between mission command and independent sovereignty", href: "government-of-extraterrestrial-settlements.html", tags: "space settlement government administration council charter municipality local authority" },
   { title: "Interjurisdictional Space Accident Investigation", description: "Joint technical inquiries involving several registries, operators, governments, and legal systems", href: "interjurisdictional-space-accident-investigation.html", tags: "space accident investigation safety telemetry liability jurisdiction" },
   { title: "Death and Memorial Practice Beyond Earth", description: "Medical, civil, religious, familial, and public practice after an off-world death", href: "death-and-memorial-practice-beyond-earth.html", tags: "space death funeral memorial remains burial religion family" },
+  { title: "Everyday Life in 2000", description: "A comparative household-level view of mature modernity across the five systems and their peripheries", href: "everyday-life-in-2000.html", tags: "everyday life 2000 household social history five systems blocs millennium" },
+  { title: "Household Technology in 2000", description: "Appliances, computers, media, communications, repair, and uneven domestic automation", href: "household-technology-in-2000.html", tags: "household technology 2000 appliances computers television video repair automation" },
+  { title: "Work and Employment in 2000", description: "Credentials, offices, factories, automation, home enterprise, and unequal labor status", href: "work-and-employment-in-2000.html", tags: "work employment 2000 labor automation office factory credentials home enterprise" },
+  { title: "Domestic Communications in 2000", description: "Fixed telephone, post, broadcasting, Weltnetz, and increasingly portable voice service", href: "domestic-communications-in-2000.html", tags: "domestic communications 2000 telephone fax mail broadcast weltnetz cellular" },
+  { title: "Shopping and Consumer Services in 2000", description: "Retail, payment, ordering, delivery, maintenance, and consumer protection across the blocs", href: "shopping-and-consumer-services-in-2000.html", tags: "shopping consumer services 2000 retail payment delivery repair market" },
+  { title: "Travel and Mobility in 2000", description: "Daily transport, long-distance travel, documentation, and the unequal right to move", href: "travel-and-mobility-in-2000.html", tags: "travel mobility 2000 rail car aviation passport passes tourism transport" },
+  { title: "Family and Household Life in 2000", description: "Marriage, children, elder care, gender, domestic work, and household formation", href: "family-and-household-life-in-2000.html", tags: "family household life 2000 marriage children care gender domestic work" },
+  { title: "Everyday Life in Imperial Peripheries in 2000", description: "Modern systems under unequal citizenship, property, movement, education, and political authority", href: "everyday-life-in-imperial-peripheries-2000.html", tags: "everyday life imperial peripheries 2000 colony associated state subject settler status" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3891,6 +3899,14 @@ const crossLinks = [
   ,{ href: "government-of-extraterrestrial-settlements.html", terms: ["government of extraterrestrial settlements", "settlement government", "extraterrestrial government"] }
   ,{ href: "interjurisdictional-space-accident-investigation.html", terms: ["interjurisdictional space accident investigation", "space accident investigation", "joint accident inquiry"] }
   ,{ href: "death-and-memorial-practice-beyond-earth.html", terms: ["death and memorial practice beyond Earth", "off-world memorial practice", "off-world funeral"] }
+  ,{ href: "everyday-life-in-2000.html", terms: ["everyday life in 2000", "millennium everyday life", "ordinary life in 2000"] }
+  ,{ href: "household-technology-in-2000.html", terms: ["household technology in 2000", "mature electronic household"] }
+  ,{ href: "work-and-employment-in-2000.html", terms: ["work and employment in 2000", "employment in 2000"] }
+  ,{ href: "domestic-communications-in-2000.html", terms: ["domestic communications in 2000", "household communications"] }
+  ,{ href: "shopping-and-consumer-services-in-2000.html", terms: ["shopping and consumer services in 2000", "consumer services in 2000"] }
+  ,{ href: "travel-and-mobility-in-2000.html", terms: ["travel and mobility in 2000", "mobility in 2000"] }
+  ,{ href: "family-and-household-life-in-2000.html", terms: ["family and household life in 2000", "family life in 2000"] }
+  ,{ href: "everyday-life-in-imperial-peripheries-2000.html", terms: ["everyday life in imperial peripheries", "imperial household life", "colonial everyday life in 2000"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
