@@ -1555,7 +1555,13 @@ const pages = [
   { title: "Sammy Davis Jr.", description: "The variety-stage master whose elite access tested the limits of personal crossover", href: "sammy-davis-jr.html", tags: "sammy davis junior will mastin trio variety vaudeville rat pack judaism" },
   { title: "Ray Charles", description: "The category-crossing authority of gospel, rhythm and blues, jazz, country, and pop", href: "ray-charles.html", tags: "ray charles gospel rhythm blues jazz country atlantic records blind" },
   { title: "James Brown", description: "The live-circuit sovereign, funk innovator, and voice of Black self-reliance", href: "james-brown.html", tags: "james brown famous flames apollo funk soul black pride self reliance" },
-  { title: "Marvin Gaye", description: "The Motown vocalist who fought for self-directed political and intimate albums", href: "marvin-gaye.html", tags: "marvin gaye motown moonglows tammi terrell political album soul" }
+  { title: "Marvin Gaye", description: "The Motown vocalist who fought for self-directed political and intimate albums", href: "marvin-gaye.html", tags: "marvin gaye motown moonglows tammi terrell political album soul" },
+  { title: "American Orbital-Carrier Industry", description: "Frontier, specialist competitors, shared infrastructure, licensing, and foreign service", href: "american-orbital-carrier-industry.html", tags: "american orbital carrier industry frontier liberty competitors launch transport licensing" },
+  { title: "American Lunar-Resource Industry", description: "Lunar mining, utilities, materials, propellant, concessions, and settlement labor", href: "american-lunar-resource-industry.html", tags: "american lunar resource industry mining ice oxygen hydrogen propellant power materials" },
+  { title: "American Orbital-Habitat Industry", description: "Commercial laboratories, housing, clinics, industry, leases, and emergency authority", href: "american-orbital-habitat-industry.html", tags: "american orbital habitat industry station modules housing clinics laboratories leases" },
+  { title: "American Space-Data Industry", description: "Communications, navigation, scheduling, teleoperation, software, and interoperability", href: "american-space-data-industry.html", tags: "american space data industry communications navigation software teleoperation interoperability" },
+  { title: "Frontier Heavy Transport", description: "Bulk freight, propellant, tankers, tugs, and reusable vertical rockets", href: "frontier-heavy-transport.html", tags: "frontier heavy transport freight propellant tanker tug switchback reusable rockets" },
+  { title: "Frontier Lunar Services", description: "Earth–Moon crew, cargo, depot, navigation, and contract integration", href: "frontier-lunar-services.html", tags: "frontier lunar services kennedy station moon transport cargo depot navigation" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2772,6 +2778,12 @@ const crossLinks = [
   ,{ href: "ray-charles.html", terms: ["Ray Charles"] }
   ,{ href: "james-brown.html", terms: ["James Brown", "Godfather of Soul"] }
   ,{ href: "marvin-gaye.html", terms: ["Marvin Gaye"] }
+  ,{ href: "american-orbital-carrier-industry.html", terms: ["American orbital-carrier industry", "American orbital carrier industry"] }
+  ,{ href: "american-lunar-resource-industry.html", terms: ["American lunar-resource industry", "American lunar resource industry"] }
+  ,{ href: "american-orbital-habitat-industry.html", terms: ["American orbital-habitat industry", "American orbital habitat industry"] }
+  ,{ href: "american-space-data-industry.html", terms: ["American space-data industry", "American space data industry"] }
+  ,{ href: "frontier-heavy-transport.html", terms: ["Frontier Heavy Transport", "Frontier heavy-transport operations"] }
+  ,{ href: "frontier-lunar-services.html", terms: ["Frontier Lunar Services", "Frontier lunar services"] }
   ,{ href: "american-cottage-industry-revival.html", terms: ["American cottage-industry revival", "cottage-industry revival", "home enterprise"] }
   ,{ href: "united-states-aerospace-force.html", terms: ["United States Aerospace Force", "Aerospace Force", "United States Aerospace Command", "Aerospace Command"] }
   ,{ href: "hemispheric-renewal-act.html", terms: ["Hemispheric Renewal Act"] }
