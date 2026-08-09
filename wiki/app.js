@@ -1640,7 +1640,14 @@ const pages = [
   { title: "Space Radiation Protection", description: "Forecasting, shielding, refuges, dosimetry, and exposure management", href: "space-radiation-protection.html", tags: "space radiation protection shielding refuge solar storm dosimetry" },
   { title: "Orbital Rescue Service", description: "Cross-bloc detection, interception, stabilization, transfer, and return", href: "orbital-rescue-service.html", tags: "orbital rescue service beacon distress docking adapter ranger geneva" },
   { title: "Reduced-Gravity Health", description: "Adult adaptation, rehabilitation, pregnancy, and childhood away from Earth gravity", href: "reduced-gravity-health.html", tags: "reduced gravity health bone muscle balance pregnancy childhood moon mars" },
-  { title: "Spaceflight Psychology", description: "Confinement, workload, communication delay, crew conflict, and mental health", href: "spaceflight-psychology.html", tags: "spaceflight psychology mental health isolation confinement crew fatigue" }
+  { title: "Spaceflight Psychology", description: "Confinement, workload, communication delay, crew conflict, and mental health", href: "spaceflight-psychology.html", tags: "spaceflight psychology mental health isolation confinement crew fatigue" },
+  { title: "Boardroom Primary", description: "The informal corporate selection of candidates who receive enough support to become visible", href: "boardroom-primary.html", tags: "boardroom primary candidates corporate sponsorship viability visibility elections" },
+  { title: "Corporate Political Portfolios", description: "Cross-party sponsorship designed to preserve an acceptable range of outcomes", href: "corporate-political-portfolios.html", tags: "corporate political portfolios preferred acceptable hedge containment candidates" },
+  { title: "Affiliated Independent Firms", description: "Legally separate businesses nested inside larger corporate patron systems", href: "affiliated-independent-firms.html", tags: "affiliated independent firms credit insurance standards purchasing patron" },
+  { title: "Contractual Social Order", description: "Employment and affiliation as the basis of benefits and local services", href: "contractual-social-order.html", tags: "contractual social order benefits welfare housing security employment services" },
+  { title: "Federal Enterprise Classification", description: "Federal grouping of related entities for sponsorship and strategic-control law", href: "federal-enterprise-classification.html", tags: "federal enterprise classification corporate law sponsorship ownership aggregation 1998" },
+  { title: "Corporate Revolving Door", description: "Movement between American government, campaigns, boards, and corporate professions", href: "corporate-revolving-door.html", tags: "corporate revolving door officials boards careers government campaign staff" },
+  { title: "American Corporate Interlocks", description: "Family, financial, professional, and supplier ties among competing corporate systems", href: "american-corporate-interlocks.html", tags: "american corporate interlocks family trusts banks insurers boards elite" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -3470,6 +3477,13 @@ const crossLinks = [
   ,{ href: "orbital-rescue-service.html", terms: ["orbital rescue service", "orbital rescue", "rescue duties"] }
   ,{ href: "reduced-gravity-health.html", terms: ["reduced-gravity health", "reduced gravity health", "reduced-gravity medicine"] }
   ,{ href: "spaceflight-psychology.html", terms: ["spaceflight psychology", "crew psychology"] }
+  ,{ href: "boardroom-primary.html", terms: ["boardroom primary"] }
+  ,{ href: "corporate-political-portfolios.html", terms: ["corporate political portfolios", "political portfolios", "corporate portfolios"] }
+  ,{ href: "affiliated-independent-firms.html", terms: ["affiliated independent firms", "affiliated-independent-firm model"] }
+  ,{ href: "contractual-social-order.html", terms: ["contractual social order", "contractual services"] }
+  ,{ href: "federal-enterprise-classification.html", terms: ["federal enterprise classification", "federal enterprise classifications"] }
+  ,{ href: "corporate-revolving-door.html", terms: ["corporate revolving door", "post-office careers"] }
+  ,{ href: "american-corporate-interlocks.html", terms: ["American corporate interlocks", "corporate interconnection", "corporate interlocks"] }
 ];
 
 function escapePattern(value) {

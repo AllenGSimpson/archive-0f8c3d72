@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Corporate political portfolio</title>
+  <desc id="desc">A central corporate portfolio supplies money, data, credit, media, employment, and services to preferred, acceptable, hedge, and containment candidates across several parties.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08121c"/><stop offset="1" stop-color="#192a38"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".42"/></filter>
+    <style>.eyebrow{font:600 22px Arial,sans-serif;letter-spacing:5px;fill:#69d0e5}.title{font:700 51px Georgia,serif;fill:#f4f0e7}.sub{font:23px Arial,sans-serif;fill:#b4c1c9}.head{font:700 24px Arial,sans-serif;fill:#f7f3e9}.copy{font:19px Arial,sans-serif;fill:#cad4da}.small{font:17px Arial,sans-serif;fill:#aab8c1}.line{stroke:#557b8d;stroke-width:5;fill:none}.box{fill:#142c3a;stroke:#44697b;stroke-width:2}.core{fill:#214657;stroke:#69d0e5;stroke-width:3}.p{fill:#6fd0e4}.a{fill:#86c6b4}.h{fill:#e5b36a}.c{fill:#d47e79}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="76" class="eyebrow">POLITICAL FINANCE · FIVE-PARTY REPUBLIC</text>
+  <text x="80" y="138" class="title">The corporate political portfolio</text>
+  <text x="80" y="180" class="sub">Support across parties purchases access and survivable outcomes—not one guaranteed platform.</text>
+
+  <path d="M610 425L440 325M610 500L440 610M990 425L1160 325M990 500L1160 610" class="line"/>
+  <g transform="translate(570 330)" filter="url(#shadow)"><rect width="460" height="270" rx="38" class="core"/><text x="230" y="62" text-anchor="middle" class="head">CORPORATE PORTFOLIO</text><text x="230" y="111" text-anchor="middle" class="copy">Finance · data · credit · media</text><text x="230" y="147" text-anchor="middle" class="copy">employment · law · services</text><path d="M55 178H405" stroke="#507788"/><text x="230" y="220" text-anchor="middle" class="small">Preserves an acceptable range of outcomes</text><text x="230" y="248" text-anchor="middle" class="small">across elections and coalition changes</text></g>
+
+  <g transform="translate(115 245)" filter="url(#shadow)"><rect width="360" height="185" rx="28" class="box"/><circle cx="48" cy="48" r="22" class="p"/><text x="85" y="56" class="head">PREFERRED</text><text x="34" y="112" class="copy">Best policy and relationship</text><text x="34" y="145" class="copy">outcome for the portfolio</text></g>
+  <g transform="translate(115 540)" filter="url(#shadow)"><rect width="360" height="185" rx="28" class="box"/><circle cx="48" cy="48" r="22" class="a"/><text x="85" y="56" class="head">ACCEPTABLE</text><text x="34" y="112" class="copy">Different politics with stable</text><text x="34" y="145" class="copy">access and predictable bargaining</text></g>
+  <g transform="translate(1125 245)" filter="url(#shadow)"><rect width="360" height="185" rx="28" class="box"/><circle cx="48" cy="48" r="22" class="h"/><text x="85" y="56" class="head">HEDGE</text><text x="34" y="112" class="copy">Preserves standing if the</text><text x="34" y="145" class="copy">preferred candidate loses</text></g>
+  <g transform="translate(1125 540)" filter="url(#shadow)"><rect width="360" height="185" rx="28" class="box"/><circle cx="48" cy="48" r="22" class="c"/><text x="85" y="56" class="head">CONTAINMENT</text><text x="34" y="112" class="copy">Limits a more hostile rival or</text><text x="34" y="145" class="copy">keeps negotiations open</text></g>
+
+  <g transform="translate(315 790)"><rect width="970" height="70" rx="20" fill="#0c1e2a" stroke="#3c5d6d"/><text x="485" y="44" text-anchor="middle" class="copy">Public justification: “We ensure that government is not bought by our competitors.”</text></g>
+</svg>
