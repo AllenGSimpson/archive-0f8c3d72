@@ -1585,7 +1585,13 @@ const pages = [
   { title: "Black Colleges and Universities in the United States", description: "Historically Black higher education, research, professional formation, and civic leadership", href: "black-colleges-universities.html", tags: "black colleges universities hbcu higher education research professional training" },
   { title: "Black Film Industry in the United States", description: "Black-owned production, distribution, exhibition partnerships, television, and screen culture", href: "black-film-industry.html", tags: "black film industry cinema production distribution theater television sidney poitier" },
   { title: "Black-Owned Theater Chains in the United States", description: "Cinema, stage, ballroom, and mixed entertainment properties serving a national Black public", href: "black-theater-chains.html", tags: "black owned theater chains cinemas stages ballrooms exhibition performance" },
-  { title: "Black Booking and Entertainment Management", description: "Agencies, managers, promoters, lawyers, publicists, and touring administration", href: "black-booking-management.html", tags: "black booking entertainment management talent agencies promoters touring artists" }
+  { title: "Black Booking and Entertainment Management", description: "Agencies, managers, promoters, lawyers, publicists, and touring administration", href: "black-booking-management.html", tags: "black booking entertainment management talent agencies promoters touring artists" },
+  { title: "Mercedes-Benz Formula One Team", description: "The methodical German works authority of the founding Formula One field", href: "mercedes-benz-formula-one-team.html", tags: "mercedes benz formula one team daimler works silver arrows germany racing" },
+  { title: "Auto Union Formula One Team", description: "The intact Saxon concern's experimental founding Grand Prix team", href: "auto-union-formula-one-team.html", tags: "auto union formula one team saxony audi dkw horch wanderer racing" },
+  { title: "Alfa Corse", description: "Alfa Romeo's public-industrial factory team in the founding Formula One field", href: "alfa-corse-formula-one.html", tags: "alfa corse romeo formula one team iri alfetta italy racing" },
+  { title: "Scuderia Ferrari", description: "Enzo Ferrari's racing-led private-prestige Formula One institution", href: "scuderia-ferrari.html", tags: "scuderia ferrari enzo maranello formula one 125 italy racing" },
+  { title: "Maserati Grand Prix Team", description: "The specialist works and customer-car constructor of the founding Formula One field", href: "maserati-formula-one-team.html", tags: "maserati formula one grand prix team 4clt customer cars italy racing" },
+  { title: "1951 International Grand Prix Cup", description: "The provisional competition that tested Formula One's rules, calendar, inspection, and arbitration", href: "international-grand-prix-cup-1951.html", tags: "1951 international grand prix cup formula one provisional geneva racing" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2814,6 +2820,12 @@ const crossLinks = [
   ,{ href: "black-film-industry.html", terms: ["Black film industry", "Black film companies"] }
   ,{ href: "black-theater-chains.html", terms: ["Black-owned theater chains", "Black theater chains"] }
   ,{ href: "black-booking-management.html", terms: ["Black booking and entertainment management", "Black booking agencies"] }
+  ,{ href: "mercedes-benz-formula-one-team.html", terms: ["Mercedes-Benz Formula One team", "Mercedes-Benz works team"] }
+  ,{ href: "auto-union-formula-one-team.html", terms: ["Auto Union Formula One team", "Auto Union works team"] }
+  ,{ href: "alfa-corse-formula-one.html", terms: ["Alfa Corse"] }
+  ,{ href: "scuderia-ferrari.html", terms: ["Scuderia Ferrari"] }
+  ,{ href: "maserati-formula-one-team.html", terms: ["Maserati Grand Prix team", "Maserati works team"] }
+  ,{ href: "international-grand-prix-cup-1951.html", terms: ["1951 International Grand Prix Cup", "International Grand Prix Cup"] }
   ,{ href: "american-orbital-carrier-industry.html", terms: ["American orbital-carrier industry", "American orbital carrier industry"] }
   ,{ href: "american-lunar-resource-industry.html", terms: ["American lunar-resource industry", "American lunar resource industry"] }
   ,{ href: "american-orbital-habitat-industry.html", terms: ["American orbital-habitat industry", "American orbital habitat industry"] }
