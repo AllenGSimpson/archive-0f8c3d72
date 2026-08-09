@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Late Commonwealth African responsibility</title>
+  <desc id="desc">A matrix distinguishes powers retained by London, powers exercised by African governments, institutions through which information circulates, and the stronger British leverage present in East Africa.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09141d"/><stop offset="1" stop-color="#26343c"/></linearGradient>
+    <style>.title{font:30px Georgia,serif;fill:#f5f1e8}.sub{font:16px Arial,sans-serif;fill:#a9bdc4}.head{font:700 18px Arial,sans-serif;fill:#fff}.copy{font:15px Arial,sans-serif;fill:#d7e2e5}.note{font:13px Arial,sans-serif;fill:#a9b9be}.tag{font:700 14px Arial,sans-serif;fill:#f2d88a}</style>
+  </defs>
+  <rect width="1200" height="720" rx="24" fill="url(#bg)"/>
+  <text x="60" y="62" class="title">Responsibility in late Commonwealth Africa</text>
+  <text x="60" y="94" class="sub">Strategic authority, domestic discretion, and the institutions that connect them</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="55" y="135" width="340" height="355" rx="20" fill="#17384a" stroke="#72b9d3" stroke-width="3"/>
+    <text x="225" y="176" text-anchor="middle" class="head">LONDON RETAINS</text>
+    <text x="86" y="224" class="copy">• external alignment</text>
+    <text x="86" y="260" class="copy">• Cape and Indian Ocean routes</text>
+    <text x="86" y="296" class="copy">• bases and strategic access</text>
+    <text x="86" y="332" class="copy">• sterling and major trade</text>
+    <text x="86" y="368" class="copy">• Commonwealth citizenship</text>
+    <text x="86" y="404" class="copy">• response to major unrest</text>
+    <text x="86" y="440" class="copy">• international reputation</text>
+    <text x="225" y="472" text-anchor="middle" class="tag">STRATEGIC RESPONSIBILITY</text>
+
+    <rect x="805" y="135" width="340" height="355" rx="20" fill="#40301f" stroke="#d0a955" stroke-width="3"/>
+    <text x="975" y="176" text-anchor="middle" class="head">LOCAL GOVERNMENTS EXERCISE</text>
+    <text x="836" y="224" class="copy">• policing and detention</text>
+    <text x="836" y="260" class="copy">• land and movement rules</text>
+    <text x="836" y="296" class="copy">• labor administration</text>
+    <text x="836" y="332" class="copy">• schools and local services</text>
+    <text x="836" y="368" class="copy">• housing and clinics</text>
+    <text x="836" y="404" class="copy">• family and population policy</text>
+    <text x="836" y="440" class="copy">• internal political institutions</text>
+    <text x="975" y="472" text-anchor="middle" class="tag">DOMESTIC RESPONSIBILITY</text>
+
+    <path d="M395 305h410" stroke="#91a8ae" stroke-width="3"/>
+    <rect x="435" y="205" width="330" height="200" rx="20" fill="#203a31" stroke="#73a887" stroke-width="3"/>
+    <text x="600" y="247" text-anchor="middle" class="head">CONNECTING INSTITUTIONS</text>
+    <text x="600" y="286" text-anchor="middle" class="copy">intelligence and liaison</text>
+    <text x="600" y="318" text-anchor="middle" class="copy">Commonwealth departments</text>
+    <text x="600" y="350" text-anchor="middle" class="copy">finance, procurement, bases</text>
+    <text x="600" y="382" text-anchor="middle" class="note">Knowledge does not imply public ownership</text>
+
+    <rect x="115" y="545" width="970" height="104" rx="20" fill="#242f36" stroke="#83979e" stroke-width="2"/>
+    <text x="600" y="578" text-anchor="middle" class="head">THE BALANCE VARIES BY TERRITORY</text>
+    <text x="600" y="610" text-anchor="middle" class="copy">South Africa: sovereign bargaining · Rhodesia: broad discretion, contested status</text>
+    <text x="600" y="636" text-anchor="middle" class="copy">East Africa: separate domestic governments under stronger Crown and common-services leverage</text>
+  </g>
+  <text x="60" y="694" class="note">The division provides ministerial distance; it does not make London uninformed.</text>
+</svg>

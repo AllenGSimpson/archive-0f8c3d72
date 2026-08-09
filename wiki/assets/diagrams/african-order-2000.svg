@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">African political order in 2000</title>
+  <desc id="desc">Three columns compare Commonwealth Africa, Portuguese Africa, and German Mittelafrika. A common lower band shows practical regional coordination in transport, security, health, refugees, mining, and power.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08131b"/><stop offset="1" stop-color="#20343c"/></linearGradient>
+    <style>.title{font:30px Georgia,serif;fill:#f4f1e8}.sub{font:16px Arial,sans-serif;fill:#a9bdc4}.head{font:700 19px Arial,sans-serif;fill:#fff}.copy{font:14px Arial,sans-serif;fill:#d8e2e4}.small{font:13px Arial,sans-serif;fill:#9eb1b6}.band{font:700 16px Arial,sans-serif;fill:#eff4f2}</style>
+  </defs>
+  <rect width="1200" height="720" rx="24" fill="url(#bg)"/>
+  <text x="60" y="62" class="title">African political order at the millennium</text>
+  <text x="60" y="94" class="sub">Separate sovereignties and unequal legal systems linked by practical regional administration</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="55" y="132" width="340" height="414" rx="20" fill="#17384a" stroke="#72b9d3" stroke-width="3"/>
+    <text x="225" y="174" text-anchor="middle" class="head">COMMONWEALTH AFRICA</text>
+    <text x="82" y="215" class="copy">South Africa</text><text x="82" y="239" class="small">Sovereign settler government</text>
+    <text x="82" y="282" class="copy">Rhodesia</text><text x="82" y="306" class="small">Broad domestic authority; status open</text>
+    <text x="82" y="349" class="copy">Kenya, Uganda, Tanganyika</text><text x="82" y="373" class="small">Separate governments; stronger Crown leverage</text>
+    <path d="M82 402h286" stroke="#4d7080"/>
+    <text x="82" y="438" class="copy">London retains</text><text x="82" y="464" class="small">Routes, bases, alignment, sterling, reputation</text>
+    <text x="82" y="500" class="copy">Local governments retain</text><text x="82" y="524" class="small">Police, land, labor, health, internal policy</text>
+
+    <rect x="430" y="132" width="340" height="414" rx="20" fill="#40301f" stroke="#d0a955" stroke-width="3"/>
+    <text x="600" y="174" text-anchor="middle" class="head">PORTUGUESE AFRICA</text>
+    <text x="457" y="215" class="copy">Angola</text><text x="457" y="239" class="small">Integral Atlantic overseas province</text>
+    <text x="457" y="282" class="copy">Mozambique</text><text x="457" y="306" class="small">Integral Indian Ocean overseas province</text>
+    <path d="M457 335h286" stroke="#765c34"/>
+    <text x="457" y="373" class="copy">Post-1980 order</text><text x="457" y="397" class="small">Roads, registries, courts, police, customs</text>
+    <text x="457" y="438" class="copy">Lisbon retains</text><text x="457" y="464" class="small">Defense, diplomacy, currency, concessions</text>
+    <text x="457" y="500" class="copy">Decolonization</text><text x="457" y="524" class="small">None by 2000</text>
+
+    <rect x="805" y="132" width="340" height="414" rx="20" fill="#1f382b" stroke="#669f75" stroke-width="3"/>
+    <text x="975" y="174" text-anchor="middle" class="head">MITTELAFRIKA</text>
+    <text x="832" y="215" class="copy">Mosaic jurisdictions</text><text x="832" y="239" class="small">Chiefs, stipends, dividends, obligations</text>
+    <text x="832" y="282" class="copy">MOSAIK administration</text><text x="832" y="306" class="small">Households, labor, movement, benefits</text>
+    <text x="832" y="349" class="copy">Katangan technical estate</text><text x="832" y="373" class="small">Skilled authority beneath German sovereignty</text>
+    <path d="M832 402h286" stroke="#496d55"/>
+    <text x="832" y="438" class="copy">German command retains</text><text x="832" y="464" class="small">Sovereignty, security, strategic corridors</text>
+    <text x="832" y="500" class="copy">Mature foundation</text><text x="832" y="524" class="small">Second Mosaic Settlement, 1977-1979</text>
+
+    <path d="M225 546v42M600 546v42M975 546v42" stroke="#8da4a9" stroke-width="3"/>
+    <rect x="95" y="588" width="1010" height="83" rx="18" fill="#26343a" stroke="#91a4a8" stroke-width="2"/>
+    <text x="600" y="621" text-anchor="middle" class="band">SOUTHERN AFRICAN MODUS VIVENDI</text>
+    <text x="600" y="650" text-anchor="middle" class="small">Transit · ports · border cases · refugees · disease · livestock · mining routes · power</text>
+  </g>
+  <text x="60" y="699" class="small">Schematic only. Cooperation is sector-specific and does not create a regional alliance.</text>
+</svg>
