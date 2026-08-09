@@ -11,6 +11,12 @@ const pages = [
   { title: "1952 United States Presidential Election", description: "Dewey's narrow reelection and Lindbergh's Minnesota breakthrough", href: "1952-united-states-presidential-election.html", tags: "1952 election dewey warren lindbergh minnesota national renewal" },
   { title: "1956 United States Presidential Election", description: "The contingent election in which the House selects Earl Warren", href: "1956-united-states-presidential-election.html", tags: "1956 election earl warren charles lindbergh house contingent twelfth amendment philippines" },
   { title: "1960 United States Presidential Election", description: "Kennedy defeats Warren and Lindbergh in a televised three-way race", href: "1960-united-states-presidential-election.html", tags: "1960 election kennedy warren lindbergh television catholic aerospace" },
+  { title: "1968 United States Presidential Election", description: "Rockwell's pluralities, the Establishment Compact, and the Stolen Mandate", href: "1968-united-states-presidential-election.html", tags: "1968 election rockwell rockefeller house contingent establishment compact stolen mandate" },
+  { title: "1972 United States Presidential Election", description: "The first election of the fused Democratic-Republican order", href: "1972-united-states-presidential-election.html", tags: "1972 election rockefeller rockwell fusion democratic republican national renewal" },
+  { title: "1976 United States Presidential Election", description: "Buchanan brings National Renewal lawfully to the presidency", href: "1976-united-states-presidential-election.html", tags: "1976 election buchanan phillips rockwell assassination national renewal" },
+  { title: "1980 United States Presidential Election", description: "Buchanan's National Renewal landslide over Ronald Reagan", href: "1980-united-states-presidential-election.html", tags: "1980 election buchanan reagan landslide columbia kennedy lunar station" },
+  { title: "1984 United States Presidential Election", description: "Reagan's victory and the peaceful transfer from National Renewal", href: "1984-united-states-presidential-election.html", tags: "1984 election reagan phillips landry kemp narrative shaping peaceful transfer" },
+  { title: "1988 United States Presidential Election", description: "Reagan's boom-era reelection over Bell and Kincaid", href: "1988-united-states-presidential-election.html", tags: "1988 election reagan bell kincaid world market boom halifax omaha rules" },
   { title: "Latin Bloc", description: "The gradually formalized Italian, Iberian, Occitan, and Mediterranean system", href: "latin-bloc.html", tags: "latin bloc italy spain portugal occitania catholic suez" },
   { title: "Kingdom of Italy", description: "The King-Duce, corporate prosperity, and an overextended empire", href: "italy.html", tags: "italy rome umberto mussolini iri mediterranean suez latin" },
   { title: "National Government of China", description: "Managed civilization under Japanese guardianship", href: "china.html", tags: "china nanjing japan examinations industry client state" },
@@ -2799,6 +2805,12 @@ const crossLinks = [
   ,{ href: "1952-united-states-presidential-election.html", terms: ["1952 United States presidential election", "1952 presidential election", "1952 election"] }
   ,{ href: "1956-united-states-presidential-election.html", terms: ["1956 United States presidential election", "1956 presidential election", "1956 election"] }
   ,{ href: "1960-united-states-presidential-election.html", terms: ["1960 United States presidential election", "1960 presidential election", "1960 election"] }
+  ,{ href: "1968-united-states-presidential-election.html", terms: ["1968 United States presidential election", "1968 presidential election", "1968 election"] }
+  ,{ href: "1972-united-states-presidential-election.html", terms: ["1972 United States presidential election", "1972 presidential election", "1972 election"] }
+  ,{ href: "1976-united-states-presidential-election.html", terms: ["1976 United States presidential election", "1976 presidential election", "1976 election"] }
+  ,{ href: "1980-united-states-presidential-election.html", terms: ["1980 United States presidential election", "1980 presidential election", "1980 election"] }
+  ,{ href: "1984-united-states-presidential-election.html", terms: ["1984 United States presidential election", "1984 presidential election", "1984 election"] }
+  ,{ href: "1988-united-states-presidential-election.html", terms: ["1988 United States presidential election", "1988 presidential election", "1988 election"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }

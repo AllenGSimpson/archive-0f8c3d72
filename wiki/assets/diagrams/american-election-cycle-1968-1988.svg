@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">American presidential-election cycle from 1968 through 1988</title>
+  <desc id="desc">A six-stage timeline showing the 1968 contingent election, Democratic-Republican fusion in 1972, Buchanan victories in 1976 and 1980, and Reagan victories in 1984 and 1988.</desc>
+  <defs>
+    <style>
+      .bg{fill:#101411}.panel{fill:#181d19;stroke:#343b35;stroke-width:2}.axis{stroke:#6f786f;stroke-width:4}.tick{stroke:#a6aea5;stroke-width:2}.year{fill:#d9b86d;font:700 22px Arial,sans-serif}.title{fill:#f1eee5;font:700 18px Arial,sans-serif}.copy{fill:#bdc3bc;font:14px Arial,sans-serif}.small{fill:#929b93;font:12px Arial,sans-serif}.renewalEarly{fill:#16c7da}.renewalLate{fill:#2580e8}.fusion{fill:#d7a64a}.republican{fill:#c75d59}.split{stroke:#d9b86d;stroke-width:2;stroke-dasharray:8 8}.legend{fill:#d5dbd4;font:13px Arial,sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="520" rx="10"/>
+  <text class="year" x="60" y="54">FROM STOLEN MANDATE TO PEACEFUL TRANSFER</text>
+  <text class="copy" x="60" y="80">United States presidential elections, 1968–1988</text>
+  <line class="axis" x1="92" y1="248" x2="1108" y2="248"/>
+  <line class="split" x1="318" y1="105" x2="318" y2="410"/>
+  <text class="small" x="306" y="430" text-anchor="end">THREE-PARTY ORDER</text>
+  <text class="small" x="330" y="430">FUSION PARTY ORDER</text>
+  <g transform="translate(105 0)"><circle class="renewalEarly" cx="0" cy="248" r="20"/><line class="tick" x1="0" y1="218" x2="0" y2="167"/><text class="year" x="0" y="145" text-anchor="middle">1968</text><text class="title" x="0" y="292" text-anchor="middle">Contingent crisis</text><text class="copy" x="0" y="316" text-anchor="middle">Rockwell plurality</text><text class="small" x="0" y="338" text-anchor="middle">House selects Rockefeller</text></g>
+  <g transform="translate(303 0)"><circle class="fusion" cx="0" cy="248" r="20"/><line class="tick" x1="0" y1="218" x2="0" y2="167"/><text class="year" x="0" y="145" text-anchor="middle">1972</text><text class="title" x="0" y="292" text-anchor="middle">Fusion victory</text><text class="copy" x="0" y="316" text-anchor="middle">Rockefeller reelected</text><text class="small" x="0" y="338" text-anchor="middle">Renewal wins House</text></g>
+  <g transform="translate(501 0)"><circle class="renewalLate" cx="0" cy="248" r="20"/><line class="tick" x1="0" y1="218" x2="0" y2="167"/><text class="year" x="0" y="145" text-anchor="middle">1976</text><text class="title" x="0" y="292" text-anchor="middle">Lawful accession</text><text class="copy" x="0" y="316" text-anchor="middle">Buchanan elected</text><text class="small" x="0" y="338" text-anchor="middle">Narrow mandate</text></g>
+  <g transform="translate(699 0)"><circle class="renewalLate" cx="0" cy="248" r="24"/><line class="tick" x1="0" y1="214" x2="0" y2="167"/><text class="year" x="0" y="145" text-anchor="middle">1980</text><text class="title" x="0" y="292" text-anchor="middle">Renewal high tide</text><text class="copy" x="0" y="316" text-anchor="middle">Buchanan ≈59%</text><text class="small" x="0" y="338" text-anchor="middle">Reagan becomes opposition voice</text></g>
+  <g transform="translate(897 0)"><circle class="fusion" cx="0" cy="248" r="20"/><line class="tick" x1="0" y1="218" x2="0" y2="167"/><text class="year" x="0" y="145" text-anchor="middle">1984</text><text class="title" x="0" y="292" text-anchor="middle">Peaceful transfer</text><text class="copy" x="0" y="316" text-anchor="middle">Reagan defeats Phillips</text><text class="small" x="0" y="338" text-anchor="middle">Buchanan certifies result</text></g>
+  <g transform="translate(1095 0)"><circle class="fusion" cx="0" cy="248" r="24"/><line class="tick" x1="0" y1="214" x2="0" y2="167"/><text class="year" x="0" y="145" text-anchor="middle">1988</text><text class="title" x="0" y="292" text-anchor="middle">Boom mandate</text><text class="copy" x="0" y="316" text-anchor="middle">Reagan ≈58%</text><text class="small" x="0" y="338" text-anchor="middle">Bell–Kincaid defeated</text></g>
+  <g transform="translate(170 474)"><circle class="renewalEarly" cx="0" cy="0" r="8"/><text class="legend" x="15" y="5">Renewal before fusion</text><circle class="renewalLate" cx="236" cy="0" r="8"/><text class="legend" x="251" y="5">Renewal after fusion</text><circle class="fusion" cx="465" cy="0" r="8"/><text class="legend" x="480" y="5">Democratic–Republican</text><circle class="republican" cx="725" cy="0" r="8"/><text class="legend" x="740" y="5">House-selected Republican, 1968</text></g>
+</svg>
