@@ -514,6 +514,11 @@ const pages = [
   { title: "Sino-Japanese guardianship", description: "China as civilizational center and Japan as protecting and ordering power", href: "sino-japanese-guardianship.html", tags: "china japan relations guardianship civilization center outer wall geacps" },
   { title: "National Learning and Practical State movement", description: "The post-1985 Chinese reform tendency joining classical learning to technical sovereignty", href: "national-learning-practical-state.html", tags: "china national learning practical state reform technocratic nationalism industry post 1985" },
   { title: "Military Technology Portal", description: "Land, naval, aerospace, and orbital capability", href: "military-technology.html", tags: "military technology weapons tanks ships aircraft armaments portal" },
+  { title: "Military Designation Systems", description: "Japanese and American equipment registries as instruments of procurement and doctrine", href: "military-designation-systems.html", tags: "military designation nomenclature procurement registry japan united states aircraft armor orbital vehicles" },
+  { title: "Imperial Armored Materiel Designation Standard", description: "Japan's 1952 Type-year, family-prefix, and Iroha armored registry", href: "imperial-armored-materiel-designation-standard.html", tags: "japan japanese armored armoured designation standard type year iroha shu chi yu ho 1952" },
+  { title: "Imperial Joint Aircraft Register", description: "Japan's 1956 common public register for Army and Navy aircraft", href: "imperial-joint-aircraft-register.html", tags: "japan japanese aircraft aviation register navy army ki type shippu raiko 1956" },
+  { title: "Unified Air Procurement Regulation", description: "Japan's 1968 aircraft-code and technical-interoperability reform", href: "unified-air-procurement-regulation.html", tags: "japan japanese air procurement regulation data link radar missile navigation interoperability 1968" },
+  { title: "Joint Aircraft Designation Act", description: "The 1963 American common register for aircraft and orbital vehicles", href: "joint-aircraft-designation-act.html", tags: "united states american aircraft designation act aerospace force OV OSV fighter attack 1963" },
   { title: "M13 Advanced Mobile Battle Tank", description: "America's three-crew mobile main battle tank type-classified in 1985", href: "m13-tank.html", tags: "m13 xm13 thirteen american tank main battle composite autoloader 1985" },
   { title: "XM14 Light Combat Tank", description: "The HSTV-L and Stingray-derived American light combat vehicle in production trials", href: "xm14-light-combat-tank.html", tags: "xm14 m14 light combat tank hstvl stingray american 1985 1987" },
   { title: "Type 45 Shu-Ru", description: "Japan's three-crew autoloading 120 mm main battle tank", href: "type-45-shu-ru.html", tags: "type 45 shu ru japanese tank main battle autoloader smoothbore 1985" },
@@ -3846,6 +3851,11 @@ const crossLinks = [
   ,{ href: "new-zealand-maritime-state.html", terms: ["New Zealand maritime state", "specialized maritime state"] }
   ,{ href: "australia-new-zealand-defence-cooperation.html", terms: ["Australia–New Zealand defence cooperation", "Australia-New Zealand defence cooperation", "Australasian defence boards"] }
   ,{ href: "woomera-commonwealth-range.html", terms: ["Woomera Commonwealth Range", "Woomera range", "Woomera"] }
+  ,{ href: "military-designation-systems.html", terms: ["military designation systems", "equipment designation systems"] }
+  ,{ href: "imperial-armored-materiel-designation-standard.html", terms: ["Imperial Armored Materiel Designation Standard", "armored materiel designation standard"] }
+  ,{ href: "imperial-joint-aircraft-register.html", terms: ["Imperial Joint Aircraft Register", "joint aircraft register"] }
+  ,{ href: "unified-air-procurement-regulation.html", terms: ["Unified Air Procurement Regulation", "unified air regulation"] }
+  ,{ href: "joint-aircraft-designation-act.html", terms: ["Joint Aircraft Designation Act"] }
 ];
 
 function escapePattern(value) {
