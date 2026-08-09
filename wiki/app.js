@@ -1539,7 +1539,11 @@ const pages = [
   { title: "Freight Container Standards", description: "Five incompatible systems of boxes, ports, railways, cranes, and freight documents", href: "freight-container-standards.html", tags: "freight container standards shipping ports cranes railways logistics einheitsbehälter" },
   { title: "Colour Television Standards", description: "The five-way broadcast and receiver standards contest after 1965", href: "colour-television-standards.html", tags: "colour color television standards broadcast monochrome receiver conversion" },
   { title: "Machine-Readable Product Codes", description: "Rival warehouse and retail identification systems through 1985", href: "machine-readable-product-codes.html", tags: "machine readable product codes barcode retail warehouse inventory checkout" },
-  { title: "Early Cellular Telephone Networks", description: "Urban car-phone, case-phone, and pager systems in the early 1980s", href: "early-cellular-telephone-networks.html", tags: "early cellular telephone networks car phone case phone pager mobile radio roaming" }
+  { title: "Early Cellular Telephone Networks", description: "Urban car-phone, case-phone, and pager systems in the early 1980s", href: "early-cellular-telephone-networks.html", tags: "early cellular telephone networks car phone case phone pager mobile radio roaming" },
+  { title: "International Community of the Orbitaler Raumhafen", description: "The multinational station society formed inside German integrated command", href: "international-community-orbitaler-raumhafen.html", tags: "orbitaler raumhafen international community modules germany italy japan america camaraderie" },
+  { title: "Italian Raumhafen Module", description: "Italy's first foreign scientific facility aboard the German orbital harbor", href: "italian-raumhafen-module.html", tags: "italian italy raumhafen module science solar radiation medicine materials 1983" },
+  { title: "Jurisdiction aboard the Orbitaler Raumhafen", description: "National internal law within German station-wide and emergency authority", href: "raumhafen-jurisdiction.html", tags: "raumhafen jurisdiction command criminal commercial emergency authority language modules" },
+  { title: "American Presence at the Orbitaler Raumhafen", description: "American refusal, later participation, and commercial service at the German station", href: "american-presence-orbitaler-raumhafen.html", tags: "american united states raumhafen module frontier commercial presence 1990s" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -3271,6 +3275,10 @@ const crossLinks = [
   ,{ href: "colour-television-standards.html", terms: ["Colour television standards", "color television standards", "colour television"] }
   ,{ href: "machine-readable-product-codes.html", terms: ["Machine-readable product codes", "machine readable product codes", "product codes", "barcodes"] }
   ,{ href: "early-cellular-telephone-networks.html", terms: ["Early cellular telephone networks", "cellular telephone", "car telephones", "pagers"] }
+  ,{ href: "international-community-orbitaler-raumhafen.html", terms: ["international community of the Orbitaler Raumhafen", "Raumhafen international community", "international Raumhafen"] }
+  ,{ href: "italian-raumhafen-module.html", terms: ["Italian Raumhafen module", "Italian module"] }
+  ,{ href: "raumhafen-jurisdiction.html", terms: ["jurisdiction aboard the Orbitaler Raumhafen", "Raumhafen jurisdiction", "station-wide emergency authority"] }
+  ,{ href: "american-presence-orbitaler-raumhafen.html", terms: ["American presence at the Orbitaler Raumhafen", "American Raumhafen presence", "American module"] }
 ];
 
 function escapePattern(value) {
