@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Institutional roots of German computing</title><desc id="desc">Engineering, security administration, cryptanalysis, and real-time control feed three postwar German computing branches and later common software and network systems.</desc>
+  <defs><linearGradient id="bg2" x2="1" y2="1"><stop stop-color="#121815"/><stop offset="1" stop-color="#202724"/></linearGradient><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9z" fill="#bda65e"/></marker></defs>
+  <rect width="1200" height="650" rx="24" fill="url(#bg2)"/><text x="58" y="64" fill="#eee9dc" font-family="Georgia,serif" font-size="31">German computing: four institutional parents</text><text x="58" y="98" fill="#b5ae98" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">ENGINEERING · FILES · SIGNALS · CONTROL</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g fill="#2b3330" stroke="#777f79"><rect x="45" y="145" width="245" height="115" rx="12"/><rect x="335" y="145" width="245" height="115" rx="12"/><rect x="625" y="145" width="245" height="115" rx="12"/><rect x="915" y="145" width="240" height="115" rx="12"/></g>
+    <g fill="#fff" font-size="19" font-weight="700"><text x="167" y="182">Zuse–Schreyer</text><text x="457" y="182">Heydrich–RSHA</text><text x="747" y="182">Naval cryptanalysis</text><text x="1035" y="182">Rocket control</text></g>
+    <g fill="#c7c4ba" font-size="14"><text x="167" y="211">architecture · electronics</text><text x="167" y="232">formal programming</text><text x="457" y="211">identity · correlation</text><text x="457" y="232">administrative records</text><text x="747" y="211">traffic · secrecy</text><text x="747" y="232">adversarial testing</text><text x="1035" y="211">analog simulation</text><text x="1035" y="232">guidance · telemetry</text></g>
+    <g stroke="#bda65e" stroke-width="3" marker-end="url(#arrow)"><path d="M167 260v105"/><path d="M457 260v105"/><path d="M747 260v105"/><path d="M1035 260v105"/></g>
+    <g><rect x="80" y="385" width="300" height="105" rx="12" fill="#24323b" stroke="#678da2"/><rect x="450" y="385" width="300" height="105" rx="12" fill="#3a3020" stroke="#bda65e"/><rect x="820" y="385" width="300" height="105" rx="12" fill="#26352d" stroke="#719273"/></g>
+    <g fill="#fff" font-size="20" font-weight="700"><text x="230" y="425">Scientific and engineering</text><text x="600" y="425">Administrative</text><text x="970" y="425">Real-time and industrial</text></g>
+    <g fill="#c9c7be" font-size="14"><text x="230" y="454">numerics · aerospace · design</text><text x="600" y="454">clearing · rail · population files</text><text x="970" y="454">factories · transport · weapons</text></g>
+    <g stroke="#bda65e" stroke-width="3" marker-end="url(#arrow)"><path d="M230 490q90 80 260 80"/><path d="M600 490v80"/><path d="M970 490q-90 80-260 80"/></g>
+    <rect x="430" y="545" width="340" height="70" rx="14" fill="#362f28" stroke="#bda65e" stroke-width="2"/><text x="600" y="575" fill="#fff" font-size="20" font-weight="700">Rechenplan · Planform · Weltnetz</text><text x="600" y="598" fill="#d5c9a6" font-size="13">shared languages, platforms, and standards</text>
+  </g>
+</svg>

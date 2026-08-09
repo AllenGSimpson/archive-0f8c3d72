@@ -1223,6 +1223,12 @@ const pages = [
   { title: "American Christian Zionism", description: "Protestant restorationism and an unofficial aid network for Israel", href: "american-christian-zionism.html", tags: "american christian zionism dispensationalism israel protestant relief bonds prophecy" },
   { title: "Palestine Funds Controversy", description: "The fight over American religious fundraising and suspected militant diversion", href: "palestine-funds-controversy.html", tags: "palestine funds controversy 1954 1955 fundraising israel churches revisionist" },
   { title: "Holy Office Instruction on Dispensationalism", description: "Pius XII's rejection of prophetic war theology and unconditional territorial claims", href: "holy-office-instruction-dispensationalism.html", tags: "holy office instruction dispensationalism pius xii christian zionism israel catholic" },
+  { title: "Adolfstadt an der Wolga", description: "The rebuilt lower-Volga transport, industrial, military, and launch-support city", href: "adolfstadt.html", tags: "adolfstadt an der wolga stalingrad lower volga moskowien paulusburg launch city" },
+  { title: "Wehrmacht", description: "Germany's armed forces from criminal war through victory, empire, and conventional deterrence", href: "wehrmacht.html", tags: "wehrmacht german armed forces heer kriegsmarine luftwaffe rommel senger war chiefs" },
+  { title: "Reich Security Main Office", description: "The RSHA security-police, intelligence, persecution, and administrative-computing system", href: "reich-security-main-office.html", tags: "reich security main office rsha reichssicherheitshauptamt heydrich gestapo kripo sd schellenberg" },
+  { title: "Economy of the Greater German Reich", description: "The directed imperial market, currency hierarchy, extraction system, and consumer bargain", href: "german-economy.html", tags: "german economy gelenkte grossraumwirtschaft reichsmark verrechnungsmark showroom reich imperial market" },
+  { title: "First Human Landing on the Moon", description: "The German two-person direct-ascent expedition of 20 December 1970", href: "moon-landing.html", tags: "first human moon landing germany 20 december 1970 direct ascent lunar wolfgang von braun" },
+  { title: "Computing in the Greater German Reich", description: "Engineering, administrative, security, and industrial-control computing from Zuse to Weltnetz", href: "german-computing.html", tags: "german computing zuse schreyer rsha rechenplan planform weltnetz industrial control" },
   { title: "Postwar Governments of the United Kingdom", description: "British ministries from the Brick Parliament to Responsible Independence", href: "postwar-british-governments.html", tags: "britain postwar governments prime ministers bevan butler powell wilson healey thatcher ashcombe" },
   { title: "George VI", description: "Wartime king and constitutional mediator of the post-defeat settlement", href: "george-vi.html", tags: "george vi king crown windsor westminster white parachutes commonwealth" },
   { title: "Elizabeth II", description: "Post-defeat sovereign and constitutional head of the British Commonwealth", href: "elizabeth-ii.html", tags: "elizabeth ii queen crown coronation commonwealth powell new elizabethans" },
@@ -1675,7 +1681,7 @@ const crossLinks = [
   { href: "eastern-reichskommissariats.html", terms: ["Eastern Reichskommissariats", "Reichskommissariats", "eastern empire"] },
   { href: "reichskommissariat-ostland.html", terms: ["Reichskommissariat Ostland", "Ostland"] },
   { href: "reichskommissariat-ukraine.html", terms: ["Reichskommissariat Ukraine"] },
-  { href: "reichskommissariat-moskowien.html", terms: ["Reichskommissariat Moskowien", "Moskowien", "Adolfstadt an der Wolga"] },
+  { href: "reichskommissariat-moskowien.html", terms: ["Reichskommissariat Moskowien", "Moskowien"] },
   { href: "reichskommissariat-kaukasien.html", terms: ["Reichskommissariat Kaukasien", "Kaukasien"] },
   { href: "conquest-intoxication.html", terms: ["conquest intoxication"] },
   { href: "eastern-quota-crisis.html", terms: ["Eastern quota crisis", "quota crisis"] },
@@ -2777,6 +2783,12 @@ const crossLinks = [
   ,{ href: "american-christian-zionism.html", terms: ["American Christian Zionism", "Christian-Zionist relief", "Christian Zionist"] }
   ,{ href: "palestine-funds-controversy.html", terms: ["Palestine Funds controversy", "Palestine Funds"] }
   ,{ href: "holy-office-instruction-dispensationalism.html", terms: ["Holy Office instruction on dispensationalism", "instruction on dispensationalism"] }
+  ,{ href: "adolfstadt.html", terms: ["Adolfstadt an der Wolga", "Adolfstadt"] }
+  ,{ href: "wehrmacht.html", terms: ["Wehrmacht", "German armed forces"] }
+  ,{ href: "reich-security-main-office.html", terms: ["Reich Security Main Office", "Reichssicherheitshauptamt", "RSHA"] }
+  ,{ href: "german-economy.html", terms: ["Economy of the Greater German Reich", "German economy"] }
+  ,{ href: "moon-landing.html", terms: ["First human landing on the Moon", "first German lunar landing", "Germany lands first on the Moon"] }
+  ,{ href: "german-computing.html", terms: ["Computing in the Greater German Reich", "German computing"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }
