@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Lower Congo corridor</title><desc id="desc">A schematic from Pool Malebo and Kongostadt through the rapids, Inga power works, Matadi, and Banana to the Atlantic.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3 0 6Z" fill="#d9c26f"/></marker><linearGradient id="river" x1="0" x2="1"><stop offset="0" stop-color="#58a9c4"/><stop offset="1" stop-color="#225d78"/></linearGradient></defs>
+  <rect width="1200" height="520" rx="24" fill="#07151e"/><text x="600" y="54" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="32">LOWER CONGO · WATER, POWER AND TRANSSHIPMENT</text>
+  <path d="M1060 260C960 220 900 305 810 260S650 215 570 260 420 310 330 260 190 220 80 260" fill="none" stroke="url(#river)" stroke-width="40" stroke-linecap="round"/>
+  <g font-family="Arial,sans-serif">
+    <circle cx="1035" cy="260" r="58" fill="#19485d" stroke="#80c6d8" stroke-width="4"/><text x="1035" y="252" text-anchor="middle" fill="#fff" font-size="18">POOL</text><text x="1035" y="276" text-anchor="middle" fill="#fff" font-size="18">MALEBO</text><text x="1035" y="350" text-anchor="middle" fill="#cce8ef" font-size="16">Kongostadt · inland barges</text>
+    <rect x="720" y="155" width="220" height="82" rx="14" fill="#3e3030" stroke="#d68578" stroke-width="3"/><text x="830" y="190" text-anchor="middle" fill="#fff" font-size="19">CATARACT REACH</text><text x="830" y="216" text-anchor="middle" fill="#f3d9d3" font-size="15">no continuous navigation</text>
+    <rect x="470" y="315" width="220" height="82" rx="14" fill="#293a31" stroke="#86b98e" stroke-width="3"/><text x="580" y="350" text-anchor="middle" fill="#fff" font-size="19">INGA</text><text x="580" y="376" text-anchor="middle" fill="#dff1e2" font-size="15">generation · release control</text>
+    <rect x="250" y="135" width="170" height="82" rx="14" fill="#3c3428" stroke="#cba76d" stroke-width="3"/><text x="335" y="170" text-anchor="middle" fill="#fff" font-size="19">MATADI</text><text x="335" y="196" text-anchor="middle" fill="#f4e6ca" font-size="15">ocean ships · rail</text>
+    <rect x="48" y="315" width="170" height="82" rx="14" fill="#253746" stroke="#73a8c7" stroke-width="3"/><text x="133" y="350" text-anchor="middle" fill="#fff" font-size="19">BANANA</text><text x="133" y="376" text-anchor="middle" fill="#dceaf2" font-size="15">Atlantic · naval station</text>
+    <path d="M1000 420H210" stroke="#d9c26f" stroke-width="4" marker-end="url(#arrow)"/><text x="605" y="457" text-anchor="middle" fill="#f0d98b" font-size="18">rail · road · pipeline · sea and river transshipment</text><text x="82" y="245" fill="#d6edf3" font-size="18">ATLANTIC</text>
+  </g>
+</svg>

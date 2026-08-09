@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">SYNEBA study program</title><desc id="desc">The 1929 Belgian study syndicate branches from Van Deuren's proposal into maritime-port, hydroelectric, and navigation investigations before its archive is seized in 1947.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3 0 6Z" fill="#dcc26f"/></marker></defs>
+  <rect width="1200" height="520" rx="24" fill="#07151e"/><text x="600" y="54" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="32">SYNEBA · LOWER CONGO STUDY PROGRAM</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="430" y="88" width="340" height="90" rx="18" fill="#3b342b" stroke="#caaa71" stroke-width="3"/><text x="600" y="124" text-anchor="middle" fill="#fff" font-size="21">VAN DEUREN PLAN · 1928</text><text x="600" y="153" text-anchor="middle" fill="#f4e7ca" font-size="16">one integrated regional proposal</text>
+    <path d="M600 178V220M600 220H220V252M600 220V252M600 220H980V252" fill="none" stroke="#dcc26f" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="70" y="252" width="300" height="135" rx="18" fill="#253746" stroke="#76abc8" stroke-width="3"/><text x="220" y="292" text-anchor="middle" fill="#fff" font-size="21">MARITIME PORT</text><text x="220" y="326" text-anchor="middle" fill="#dcebf3" font-size="16">Banana and inland links</text><text x="220" y="357" text-anchor="middle" fill="#f0d98b" font-size="15">ATLANTIC ACCESS</text>
+    <rect x="450" y="252" width="300" height="135" rx="18" fill="#293c31" stroke="#87b993" stroke-width="3"/><text x="600" y="292" text-anchor="middle" fill="#fff" font-size="21">HYDROELECTRICITY</text><text x="600" y="326" text-anchor="middle" fill="#ddf0e1" font-size="16">Inga sites and industry</text><text x="600" y="357" text-anchor="middle" fill="#f0d98b" font-size="15">POWER CENTERS</text>
+    <rect x="830" y="252" width="300" height="135" rx="18" fill="#3b3031" stroke="#cf817e" stroke-width="3"/><text x="980" y="292" text-anchor="middle" fill="#fff" font-size="21">NAVIGATION</text><text x="980" y="326" text-anchor="middle" fill="#f2d9d8" font-size="16">river above Matadi</text><text x="980" y="357" text-anchor="middle" fill="#f0d98b" font-size="15">RAPIDS BYPASS</text>
+    <path d="M220 388V430H980V388" fill="none" stroke="#7a8f94" stroke-width="3" stroke-dasharray="8 7"/><text x="600" y="457" text-anchor="middle" fill="#ffbcb2" font-size="18">1947 · surveys and archives seized for German review</text>
+  </g>
+</svg>

@@ -455,6 +455,14 @@ const pages = [
   { title: "Raumbote I", description: "Germany's 1957 first artificial satellite and the global institutional shock it produced", href: "raumbote-i.html", tags: "raumbote i one satellite germany 1957 space race first artificial satellite" },
   { title: "Van-Deuren Plan", description: "The Belgian Lower Congo development scheme later appropriated and enlarged into the Kongowerk", href: "van-deuren-plan.html", tags: "van deuren plan lower congo inga syneba kongowerk engineering" },
   { title: "Pierre Van Deuren", description: "Belgian military engineer and unwilling early consultant to the German Congo commission", href: "pierre-van-deuren.html", tags: "pierre van deuren belgium engineer mortar congo syneba biography" },
+  { title: "Lower Congo", description: "The river, port, railway, power, and transshipment corridor between Pool Malebo and the Atlantic", href: "lower-congo.html", tags: "lower congo bas congo river rapids corridor matadi inga banana malebo mittelafrika" },
+  { title: "Pool Malebo", description: "The former twin-city riverine lake and western entrance to Kongosee", href: "pool-malebo.html", tags: "pool malebo stanley pool kongosee leopoldville brazzaville mbamu lake" },
+  { title: "Inga Falls", description: "The immense natural Lower Congo hydroelectric site developed by the Inga-Werke", href: "inga-falls.html", tags: "inga falls rapids hydroelectric power lower congo van deuren inga werke" },
+  { title: "Léopoldville", description: "The former Belgian colonial capital and southern historic foundation of Kongostadt", href: "leopoldville.html", tags: "leopoldville leopoldstad belgian congo capital kongostadt pool malebo city" },
+  { title: "Brazzaville", description: "The former French Equatorial and Free French capital on the northern Malebo shore", href: "brazzaville.html", tags: "brazzaville free france french equatorial africa kongostadt pool malebo city" },
+  { title: "Matadi", description: "The principal Lower Congo ocean port and railway transshipment city", href: "matadi.html", tags: "matadi port railway lower congo ocean shipping transshipment mittelafrika" },
+  { title: "Banana", description: "The sheltered Atlantic-mouth port and naval station of the Lower Congo", href: "banana-port.html", tags: "banana port seaport naval station congo mouth atlantic syneba mittelafrika" },
+  { title: "SYNEBA", description: "The Belgian study syndicate for Lower Congo ports, power, and navigation", href: "syneba.html", tags: "syneba syndicat etudes bas congo van deuren inga banana belgian engineering" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3949,6 +3957,14 @@ const crossLinks = [
   ,{ href: "raumbote-i.html", terms: ["Raumbote I"] }
   ,{ href: "van-deuren-plan.html", terms: ["Van-Deuren Plan", "Van Deuren Plan"] }
   ,{ href: "pierre-van-deuren.html", terms: ["Pierre Van Deuren"] }
+  ,{ href: "lower-congo.html", terms: ["Lower Congo", "Bas-Congo"] }
+  ,{ href: "pool-malebo.html", terms: ["Pool Malebo", "Stanley Pool"] }
+  ,{ href: "inga-falls.html", terms: ["Inga Falls", "Inga site"] }
+  ,{ href: "leopoldville.html", terms: ["Léopoldville", "Leopoldville", "Leopoldstad"] }
+  ,{ href: "brazzaville.html", terms: ["Brazzaville"] }
+  ,{ href: "matadi.html", terms: ["Matadi"] }
+  ,{ href: "banana-port.html", terms: ["Port of Banana", "Banana port", "Banana, Congo"] }
+  ,{ href: "syneba.html", terms: ["Syndicat d'Études du Bas-Congo", "SYNEBA"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }

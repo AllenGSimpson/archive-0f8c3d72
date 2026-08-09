@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Inga Falls hydraulic profile</title><desc id="desc">A profile showing the Congo's natural descent at Inga, German diversion works, generating stages, and downstream release toward Matadi.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3 0 6Z" fill="#7ec7dd"/></marker></defs>
+  <rect width="1200" height="520" rx="24" fill="#07151e"/><text x="600" y="54" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="32">INGA · NATURAL FALL AND DEVELOPED POWER SITE</text>
+  <path d="M80 175H380C470 175 500 205 555 250S660 345 760 355H1120" fill="none" stroke="#65b6d0" stroke-width="36" stroke-linecap="round" marker-end="url(#arrow)"/><path d="M350 178C435 115 585 115 670 178" fill="none" stroke="#dcc16e" stroke-width="5" stroke-dasharray="10 8"/>
+  <g font-family="Arial,sans-serif">
+    <text x="220" y="140" text-anchor="middle" fill="#d9eff5" font-size="19">UPSTREAM MANAGED FLOW</text><text x="905" y="395" text-anchor="middle" fill="#d9eff5" font-size="19">RELEASE TOWARD MATADI</text>
+    <line x1="530" y1="165" x2="530" y2="330" stroke="#f2d684" stroke-width="4"/><path d="M505 180L555 180 530 220Z" fill="#f2d684"/><path d="M505 315L555 315 530 275Z" fill="#f2d684"/><text x="475" y="255" text-anchor="end" fill="#f2d684" font-size="20">≈97 m natural descent</text>
+    <rect x="625" y="112" width="300" height="145" rx="18" fill="#2b3c31" stroke="#8abc91" stroke-width="3"/><text x="775" y="150" text-anchor="middle" fill="#fff" font-size="21">INGA-WERKE</text><text x="775" y="185" text-anchor="middle" fill="#ddf0e1" font-size="16">diversion · intake · turbines</text><text x="775" y="213" text-anchor="middle" fill="#ddf0e1" font-size="16">switchyard · managed release</text><text x="775" y="240" text-anchor="middle" fill="#f0d98b" font-size="15">STAGED COMPLEX</text>
+    <rect x="85" y="330" width="320" height="90" rx="16" fill="#263746" stroke="#76abc8" stroke-width="3"/><text x="245" y="365" text-anchor="middle" fill="#fff" font-size="19">SITE POTENTIAL</text><text x="245" y="397" text-anchor="middle" fill="#dcebf3" font-size="18">approximately 42,000 MW</text>
+    <text x="600" y="470" text-anchor="middle" fill="#cbe4ea" font-size="18">Power generation at Inga is separate from the Malebo structure that impounds Kongosee</text>
+  </g>
+</svg>
