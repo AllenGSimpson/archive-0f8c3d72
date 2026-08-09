@@ -1647,7 +1647,12 @@ const pages = [
   { title: "Contractual Social Order", description: "Employment and affiliation as the basis of benefits and local services", href: "contractual-social-order.html", tags: "contractual social order benefits welfare housing security employment services" },
   { title: "Federal Enterprise Classification", description: "Federal grouping of related entities for sponsorship and strategic-control law", href: "federal-enterprise-classification.html", tags: "federal enterprise classification corporate law sponsorship ownership aggregation 1998" },
   { title: "Corporate Revolving Door", description: "Movement between American government, campaigns, boards, and corporate professions", href: "corporate-revolving-door.html", tags: "corporate revolving door officials boards careers government campaign staff" },
-  { title: "American Corporate Interlocks", description: "Family, financial, professional, and supplier ties among competing corporate systems", href: "american-corporate-interlocks.html", tags: "american corporate interlocks family trusts banks insurers boards elite" }
+  { title: "American Corporate Interlocks", description: "Family, financial, professional, and supplier ties among competing corporate systems", href: "american-corporate-interlocks.html", tags: "american corporate interlocks family trusts banks insurers boards elite" },
+  { title: "Dominion Defence-in-Depth", description: "Canada's survival doctrine against political decapitation or continental invasion", href: "dominion-defence-in-depth.html", tags: "dominion defence defense in depth canada american invasion militia arctic shield rockies" },
+  { title: "Australian Southern Arsenal", description: "Australia's post-defeat industrial, logistical, and regional military system", href: "australian-southern-arsenal.html", tags: "australian southern arsenal australia industry defence defense commonwealth woomera" },
+  { title: "New Zealand Maritime State", description: "New Zealand's anti-submarine, patrol, repair, communications, and recovery specialization", href: "new-zealand-maritime-state.html", tags: "new zealand maritime state asw patrol repair communications commonwealth" },
+  { title: "Australia–New Zealand Defence Cooperation", description: "Joint boards, standards, plans, and operations without an ANZAC federation", href: "australia-new-zealand-defence-cooperation.html", tags: "australia new zealand defence defense cooperation anzac boards procurement command" },
+  { title: "Woomera Commonwealth Range", description: "The South Australian weapons, rocket, launch, tracking, and recovery complex", href: "woomera-commonwealth-range.html", tags: "woomera commonwealth range australia skylark black knight blue streak prospero launch" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -3484,6 +3489,11 @@ const crossLinks = [
   ,{ href: "federal-enterprise-classification.html", terms: ["federal enterprise classification", "federal enterprise classifications"] }
   ,{ href: "corporate-revolving-door.html", terms: ["corporate revolving door", "post-office careers"] }
   ,{ href: "american-corporate-interlocks.html", terms: ["American corporate interlocks", "corporate interconnection", "corporate interlocks"] }
+  ,{ href: "dominion-defence-in-depth.html", terms: ["Dominion Defence-in-Depth", "Canadian defence-in-depth", "Canadian defense-in-depth"] }
+  ,{ href: "australian-southern-arsenal.html", terms: ["Australian southern arsenal", "southern arsenal"] }
+  ,{ href: "new-zealand-maritime-state.html", terms: ["New Zealand maritime state", "specialized maritime state"] }
+  ,{ href: "australia-new-zealand-defence-cooperation.html", terms: ["Australia–New Zealand defence cooperation", "Australia-New Zealand defence cooperation", "Australasian defence boards"] }
+  ,{ href: "woomera-commonwealth-range.html", terms: ["Woomera Commonwealth Range", "Woomera range", "Woomera"] }
 ];
 
 function escapePattern(value) {
