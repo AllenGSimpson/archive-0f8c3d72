@@ -1597,7 +1597,13 @@ const pages = [
   { title: "Exploration of Mercury", description: "Sparse prestige orbiters overcoming the innermost planet's braking and thermal demands", href: "exploration-of-mercury.html", tags: "mercury exploration orbiter solar thermal gravity assist mapping" },
   { title: "Heliocentric Observatory Network", description: "The distributed solar-weather and heliophysics system protecting mature space operations", href: "heliocentric-observatory-network.html", tags: "heliocentric observatory network sun solar weather heliophysics radiation" },
   { title: "Asteroid-Belt Survey Network", description: "Survey craft, navigation references, relays, and resource prospecting from near-Earth space to Ceres and Vesta", href: "asteroid-belt-survey-network.html", tags: "asteroid belt survey network ceres vesta navigation resources water beacons" },
-  { title: "Exploration of the Outer Solar System", description: "First arrivals, gravity-assist flybys, and rare possible orbiters beyond the asteroid belt", href: "outer-solar-system-exploration.html", tags: "outer solar system exploration jupiter saturn uranus neptune gravity assist flyby" }
+  { title: "Exploration of the Outer Solar System", description: "First arrivals, gravity-assist flybys, and rare possible orbiters beyond the asteroid belt", href: "outer-solar-system-exploration.html", tags: "outer solar system exploration jupiter saturn uranus neptune gravity assist flyby" },
+  { title: "Union Commonwealth Party", description: "Mosley's post-defeat corporatist party of planned Commonwealth interdependence", href: "union-commonwealth-party.html", tags: "union commonwealth party uc mosley britain corporatism planned interdependence" },
+  { title: "Oswald Mosley", description: "Founder of British Union and post-defeat leader of Union Commonwealth", href: "oswald-mosley.html", tags: "oswald mosley british union fascism union commonwealth politician" },
+  { title: "British Union", description: "The prewar fascist movement that preceded Union Commonwealth", href: "british-union.html", tags: "british union fascists buf blackshirts mosley flash circle predecessor" },
+  { title: "Planned Commonwealth Interdependence", description: "The UC doctrine of specialized production, shipping, finance, and mutual necessity", href: "planned-commonwealth-interdependence.html", tags: "planned commonwealth interdependence mosley economy production specialization shipping" },
+  { title: "Union Commonwealth and the Veterans", description: "The prisoners, servicemen, widows, and local witnesses behind the 1947 breakthrough", href: "union-commonwealth-veterans-movement.html", tags: "union commonwealth veterans prisoners war operation homeward 1947 candidates" },
+  { title: "Electoral History of Union Commonwealth", description: "The party's rise, supply leverage, and contraction from 104 seats to three", href: "electoral-history-union-commonwealth.html", tags: "union commonwealth electoral history elections seats 1947 1951 1955 1969 1975" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2183,6 +2189,10 @@ const crossLinks = [
   { href: "resolution-orbital-laboratory.html", terms: ["Resolution Orbital Laboratory", "Resolution orbital laboratory", "Resolution laboratory"] },
   { href: "kuwait-war.html", terms: ["Kuwait War"] },
   { href: "operation-covenant.html", terms: ["Operation Covenant"] },
+  { href: "union-commonwealth-party.html", terms: ["Union Commonwealth Party", "Union Commonwealth"] },
+  { href: "oswald-mosley.html", terms: ["Oswald Mosley", "Sir Oswald Mosley"] },
+  { href: "british-union.html", terms: ["British Union of Fascists", "British Union"] },
+  { href: "planned-commonwealth-interdependence.html", terms: ["planned Commonwealth interdependence"] },
   { href: "muscat-articles.html", terms: ["Muscat Articles"] },
   { href: "falklands-war.html", terms: ["Falklands–Malvinas War", "Falklands War", "Second Torch", "Punta del Este Protocols"] },
   { href: "war-of-the-chiefs.html", terms: ["Mittelafrikanischer Häuptlingskrieg", "Häuptlingskrieg", "War of the Chiefs"] },
