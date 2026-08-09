@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">The Great Exhaustion in India, 1956 to 1960</title>
+  <desc id="desc">Five forms of exhaustion reduce the reach of Indian armies and lead to territorial government, limited protection, and the Colombo armistices.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14232c"/><stop offset="1" stop-color="#080d12"/></linearGradient>
+    <style>.h{font:700 34px Georgia,serif;fill:#f4eee4}.s{font:15px system-ui,sans-serif;fill:#acbbc5}.box{fill:#182c37;stroke:#698494;stroke-width:2}.mid{fill:#332a24;stroke:#bd905d;stroke-width:2}.end{fill:#223529;stroke:#789b78;stroke-width:2}.tag{font:700 12px system-ui,sans-serif;fill:#f1cf77;letter-spacing:.08em}.t{font:700 18px system-ui,sans-serif;fill:#f4eee4}.d{font:14px system-ui,sans-serif;fill:#c4ced4}.line{stroke:#cfa653;stroke-width:3;fill:none}.faint{stroke:#718c9b;stroke-width:2;fill:none;stroke-dasharray:8 7}</style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="50" y="62" class="h">The Great Exhaustion, 1956-1960</text>
+  <text x="50" y="92" class="s">The first Indian wars contracted through cumulative limits rather than a decisive victory</text>
+  <g transform="translate(50 138)"><rect class="box" width="250" height="82" rx="8"/><text x="16" y="29" class="tag">AMMUNITION</text><text x="16" y="58" class="d">Stocks and compatible spares run down</text></g>
+  <g transform="translate(50 238)"><rect class="box" width="250" height="82" rx="8"/><text x="16" y="29" class="tag">TRANSPORT</text><text x="16" y="58" class="d">Rail systems and rolling stock fail</text></g>
+  <g transform="translate(50 338)"><rect class="box" width="250" height="82" rx="8"/><text x="16" y="29" class="tag">FINANCE</text><text x="16" y="58" class="d">Treasuries cannot sustain distant armies</text></g>
+  <g transform="translate(50 438)"><rect class="box" width="250" height="82" rx="8"/><text x="16" y="29" class="tag">MANPOWER</text><text x="16" y="58" class="d">Local armies refuse distant operations</text></g>
+  <g transform="translate(50 538)"><rect class="box" width="250" height="82" rx="8"/><text x="16" y="29" class="tag">POPULATION</text><text x="16" y="58" class="d">Refugees harden demographic frontiers</text></g>
+  <path class="line" d="M300 179 H395 M300 279 H395 M300 379 H395 M300 479 H395 M300 579 H395"/>
+  <g transform="translate(395 195)"><rect class="mid" width="360" height="350" rx="12"/><text x="180" y="42" text-anchor="middle" class="tag">CONTRACTION OF THE WAR</text><text x="25" y="92" class="t">Operational reach shrinks</text><text x="25" y="121" class="d">Capitals, depots, roads, and junctions replace</text><text x="25" y="143" class="d">the objective of subcontinental conquest.</text><text x="25" y="195" class="t">Commands become governments</text><text x="25" y="224" class="d">Military headquarters collect revenue, organize</text><text x="25" y="246" class="d">convoys, and govern defended territories.</text><text x="25" y="298" class="t">Practical consent replaces enthusiasm</text><text x="25" y="327" class="d">Civilians accept authorities that keep roads open</text></g>
+  <path class="line" d="M755 294 H850"/><path class="faint" d="M755 444 H850"/>
+  <g transform="translate(850 180)"><rect class="end" width="300" height="154" rx="9"/><text x="18" y="34" class="tag">LIMITED STABILIZATION</text><text x="18" y="72" class="t">The Better Deal</text><text x="18" y="101" class="d">Protection treaties, client borders,</text><text x="18" y="124" class="d">rail repair, convoys, and advisers</text></g>
+  <g transform="translate(850 384)"><rect class="end" width="300" height="154" rx="9"/><text x="18" y="34" class="tag">1958-1961 SETTLEMENT</text><text x="18" y="72" class="t">Colombo System</text><text x="18" y="101" class="d">Plural armistices freeze frontiers</text><text x="18" y="124" class="d">without resolving the idea of India</text></g>
+  <text x="50" y="650" class="s">Hindustan, Azad Hind, western successors, and Britain all retain claims larger than their attainable war aims.</text>
+</svg>
