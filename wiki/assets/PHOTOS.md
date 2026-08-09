@@ -25,6 +25,19 @@ These portraits are hosted locally so the biographical pages remain usable offli
 | `portraits/john-von-neumann.gif` | John von Neumann at Los Alamos | [John von Neumann portrait](https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif) |
 | `portraits/maurice-wilkes.jpg` | Maurice Wilkes, 1980 | [Maurice Wilkes portrait](https://commons.wikimedia.org/wiki/File:Maurice_Vincent_Wilkes_1980_(3,_cropped).jpg) |
 
+## Historical American music portraits
+
+These locally hosted portraits accompany the alternate biographies. The photographs document the real historical subjects; captions and article text distinguish retained biography from setting-specific divergence.
+
+| File | Subject | Wikimedia Commons source and license |
+| --- | --- | --- |
+| `portraits/elvis-presley-1956.jpg` | Elvis Presley, 1956 | [Edward Roth publicity portrait](https://commons.wikimedia.org/wiki/File:Elvis_Presley_Publicity_Photo,_1956.jpg) — public domain in the United States |
+| `portraits/johnny-cash-1969.jpg` | Johnny Cash, 1969 | [Joel Baldwin / LOOK portrait](https://commons.wikimedia.org/wiki/File:JohnnyCash1969.jpg) — public domain |
+| `portraits/frank-sinatra-1957.jpg` | Frank Sinatra, 1957 | [Capitol Records studio portrait](https://commons.wikimedia.org/wiki/File:Frank_Sinatra_(1957_studio_portrait_close-up).jpg) — public domain in the United States |
+| `portraits/bob-dylan-1965.jpg` | Bob Dylan, 1965 | [Daniel Kramer publicity portrait](https://commons.wikimedia.org/wiki/File:Bob_Dylan_(1965).jpg) — public domain in the United States |
+| `portraits/aretha-franklin-1967.jpg` | Aretha Franklin, 1967 | [Atlantic Records publicity portrait](https://commons.wikimedia.org/wiki/File:Aretha_franklin_1960s_cropped_retouched.jpg) — CC0 |
+| `portraits/berry-gordy-1998.jpg` | Berry Gordy, 1998 | [John Mathew Smith / Kingkongphoto portrait](https://commons.wikimedia.org/wiki/File:Berry_Gordy.jpg) — CC BY-SA 2.0 |
+
 ## British postwar portraits
 
 | File | Subject | Wikimedia Commons source |

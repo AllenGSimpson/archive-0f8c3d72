@@ -1543,7 +1543,13 @@ const pages = [
   { title: "International Community of the Orbitaler Raumhafen", description: "The multinational station society formed inside German integrated command", href: "international-community-orbitaler-raumhafen.html", tags: "orbitaler raumhafen international community modules germany italy japan america camaraderie" },
   { title: "Italian Raumhafen Module", description: "Italy's first foreign scientific facility aboard the German orbital harbor", href: "italian-raumhafen-module.html", tags: "italian italy raumhafen module science solar radiation medicine materials 1983" },
   { title: "Jurisdiction aboard the Orbitaler Raumhafen", description: "National internal law within German station-wide and emergency authority", href: "raumhafen-jurisdiction.html", tags: "raumhafen jurisdiction command criminal commercial emergency authority language modules" },
-  { title: "American Presence at the Orbitaler Raumhafen", description: "American refusal, later participation, and commercial service at the German station", href: "american-presence-orbitaler-raumhafen.html", tags: "american united states raumhafen module frontier commercial presence 1990s" }
+  { title: "American Presence at the Orbitaler Raumhafen", description: "American refusal, later participation, and commercial service at the German station", href: "american-presence-orbitaler-raumhafen.html", tags: "american united states raumhafen module frontier commercial presence 1990s" },
+  { title: "Elvis Presley", description: "The uninterrupted career of the first rock generation's singular celebrity", href: "elvis-presley.html", tags: "elvis presley king rock roll memphis sun rca buddy holly no draft" },
+  { title: "Johnny Cash", description: "The rural moral voice of workers, prisoners, soldiers, and excluded men", href: "johnny-cash.html", tags: "johnny cash man in black country gospel prisons workers soldiers sun records" },
+  { title: "Frank Sinatra", description: "The old urban-establishment star across radio, film, records, and television", href: "frank-sinatra.html", tags: "frank sinatra urban establishment hoboken capitol reprise spectator war" },
+  { title: "Bob Dylan", description: "The politically unpossessable songwriter of the divided 1960s generation", href: "bob-dylan.html", tags: "bob dylan protest folk rock philippines 1968 rockwell surveillance" },
+  { title: "Aretha Franklin", description: "The Queen of Soul and crossover authority between parallel American publics", href: "aretha-franklin.html", tags: "aretha franklin queen soul gospel detroit atlantic crossover black public sphere" },
+  { title: "Berry Gordy", description: "The architect of Detroit's Black-owned Motown cultural system", href: "berry-gordy.html", tags: "berry gordy motown tamla detroit black owned media cultural system" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -3279,6 +3285,12 @@ const crossLinks = [
   ,{ href: "italian-raumhafen-module.html", terms: ["Italian Raumhafen module", "Italian module"] }
   ,{ href: "raumhafen-jurisdiction.html", terms: ["jurisdiction aboard the Orbitaler Raumhafen", "Raumhafen jurisdiction", "station-wide emergency authority"] }
   ,{ href: "american-presence-orbitaler-raumhafen.html", terms: ["American presence at the Orbitaler Raumhafen", "American Raumhafen presence", "American module"] }
+  ,{ href: "elvis-presley.html", terms: ["Elvis Presley", "King of Rock and Roll"] }
+  ,{ href: "johnny-cash.html", terms: ["Johnny Cash", "Man in Black"] }
+  ,{ href: "frank-sinatra.html", terms: ["Frank Sinatra"] }
+  ,{ href: "bob-dylan.html", terms: ["Bob Dylan"] }
+  ,{ href: "aretha-franklin.html", terms: ["Aretha Franklin", "Queen of Soul"] }
+  ,{ href: "berry-gordy.html", terms: ["Berry Gordy"] }
 ];
 
 function escapePattern(value) {
