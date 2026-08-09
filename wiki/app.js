@@ -405,6 +405,11 @@ const pages = [
   { title: "Valles Marineris", description: "The Martian canyon system containing the Commonwealth's 1998 landing region", href: "valles-marineris.html", tags: "valles marineris mariner valley mars canyon british commonwealth 1998 geography" },
   { title: "Mare Serenitatis", description: "The lunar mare containing Serenity and the Commonwealth Millennium works", href: "mare-serenitatis.html", tags: "mare serenitatis sea serenity moon lunar commonwealth base millennium geography" },
   { title: "Ceres", description: "The water-rich dwarf planet reached by the Latin Space Community", href: "ceres.html", tags: "ceres dwarf planet asteroid belt latin expedition water ice geography" },
+  { title: "Mars", description: "The physical planet and four-system geography of human settlement", href: "mars.html", tags: "mars red planet geography settlements germany britain america japan tharsis amazonis valles" },
+  { title: "Tharsis", description: "The great Martian volcanic rise containing the first human settlement region", href: "tharsis.html", tags: "tharsis mars volcanic rise arsia pavonis ascraeus olympus german base geography" },
+  { title: "Amazonis Planitia", description: "The smooth northern plain containing the American corporate settlement region", href: "amazonis-planitia.html", tags: "amazonis planitia mars plain american corporate outpost olympus landing geography" },
+  { title: "Phobos", description: "The inner Martian moon and Marsplan 92 contingency objective", href: "phobos.html", tags: "phobos mars moon satellite stickney marsplan fallback orbit" },
+  { title: "Deimos", description: "The outer Martian moon and planetary survey reference", href: "deimos.html", tags: "deimos mars moon satellite orbit survey navigation" },
   { title: "First Human Expedition to Mars", description: "Germany's 1993 arrival and Olympus rover traverse", href: "german-first-mars-expedition.html", tags: "first human mars expedition 1993 germany olympus tharsis base" },
   { title: "Promenadenring", description: "The rotating habitation and civic ring of the Orbitaler Raumhafen", href: "promenadenring.html", tags: "promenadenring raumhafen ring station lunar material habitation" },
   { title: "Commonwealth Space Expansion", description: "Resolution, Serenity, and the British planetary system after 1985", href: "commonwealth-space-expansion.html", tags: "commonwealth space expansion britain resolution serenity mars 1985" },
@@ -3856,6 +3861,11 @@ const crossLinks = [
   ,{ href: "imperial-joint-aircraft-register.html", terms: ["Imperial Joint Aircraft Register", "joint aircraft register"] }
   ,{ href: "unified-air-procurement-regulation.html", terms: ["Unified Air Procurement Regulation", "unified air regulation"] }
   ,{ href: "joint-aircraft-designation-act.html", terms: ["Joint Aircraft Designation Act"] }
+  ,{ href: "mars.html", terms: ["planet Mars", "Martian world"] }
+  ,{ href: "tharsis.html", terms: ["Tharsis", "Tharsis rise", "Tharsis region"] }
+  ,{ href: "amazonis-planitia.html", terms: ["Amazonis Planitia", "Amazonis plain"] }
+  ,{ href: "phobos.html", terms: ["Phobos", "inner moon of Mars"] }
+  ,{ href: "deimos.html", terms: ["Deimos", "outer moon of Mars"] }
 ];
 
 function escapePattern(value) {
