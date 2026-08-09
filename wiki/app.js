@@ -1567,7 +1567,13 @@ const pages = [
   { title: "Marsplan 92 Propellant Section", description: "Cryogenic hydrogen tanks, active refrigeration, and protected return reserves", href: "marsplan-propellant-section.html", tags: "marsplan propellant hydrogen tanks cryogenic refrigeration return reserve lunar" },
   { title: "Marsplan 92 Rotating Habitation Pair", description: "The twin partial-gravity cruise habitats and rotating transfer system", href: "marsplan-rotating-habitation.html", tags: "marsplan rotating habitation pair artificial gravity cylinders arms spin" },
   { title: "Faltenbalg-Druckgang", description: "The expandable pressure passage connecting separately landed Mars modules", href: "faltgang-pressure-passage.html", tags: "faltenbalg druckgang faltgang pressure passage corridor mars base expandable" },
-  { title: "Marsplan 92 Arrival and Landing Sequence", description: "Orbital checkout, sequential cargo deployment, abort gates, and crew descent", href: "marsplan-landing-sequence.html", tags: "marsplan arrival landing sequence orbit checkout cargo landers crew descent 1993" }
+  { title: "Marsplan 92 Arrival and Landing Sequence", description: "Orbital checkout, sequential cargo deployment, abort gates, and crew descent", href: "marsplan-landing-sequence.html", tags: "marsplan arrival landing sequence orbit checkout cargo landers crew descent 1993" },
+  { title: "Responsible Independence", description: "Ashcombe's doctrine of bounded exposure, protected capacity, and reciprocal Commonwealth obligations", href: "responsible-independence.html", tags: "responsible independence david ashcombe consolidation thatcherism strategic capacity commonwealth" },
+  { title: "Build Britain Into the Future", description: "Calder's programme of regional, technical, social, and planetary development", href: "build-britain-into-the-future.html", tags: "build britain future martin calder commonwealth labour 1992 development programme space" },
+  { title: "National Development Conservatism", description: "Mallory's conservative doctrine of national construction and planetary capability", href: "national-development-conservatism.html", tags: "national development conservatism edward mallory development right nlcu space sovereignty" },
+  { title: "Development Right", description: "The Malloryite expansionist tendency inside the National Liberal–Constitutional Union", href: "development-right.html", tags: "development right faction edward mallory nlcu national liberal greenwich compact" },
+  { title: "British Space Sovereignty", description: "Independent launch, networks, habitation, maintenance, and planetary access as sovereign capability", href: "british-space-sovereignty.html", tags: "british space sovereignty commonwealth resolution serenity mars capability doctrine" },
+  { title: "American Aerospace Migration to Britain", description: "The selective post-1990 movement of specialists, contracts, tools, and technical knowledge", href: "american-aerospace-migration-to-britain.html", tags: "american aerospace migration britain 1990 open door depression engineers technology transfer" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2796,6 +2802,12 @@ const crossLinks = [
   ,{ href: "marsplan-rotating-habitation.html", terms: ["Marsplan 92 rotating habitation pair", "Marsplan rotating habitation pair"] }
   ,{ href: "faltgang-pressure-passage.html", terms: ["Faltenbalg-Druckgang", "Faltgang", "Faltgänge"] }
   ,{ href: "marsplan-landing-sequence.html", terms: ["Marsplan 92 arrival and landing sequence", "Marsplan landing sequence"] }
+  ,{ href: "responsible-independence.html", terms: ["Responsible Independence"] }
+  ,{ href: "build-britain-into-the-future.html", terms: ["Build Britain Into the Future"] }
+  ,{ href: "national-development-conservatism.html", terms: ["National Development Conservatism"] }
+  ,{ href: "development-right.html", terms: ["Development Right"] }
+  ,{ href: "british-space-sovereignty.html", terms: ["British space sovereignty", "space sovereignty"] }
+  ,{ href: "american-aerospace-migration-to-britain.html", terms: ["American aerospace migration to Britain", "displaced American aerospace specialists"] }
   ,{ href: "american-cottage-industry-revival.html", terms: ["American cottage-industry revival", "cottage-industry revival", "home enterprise"] }
   ,{ href: "united-states-aerospace-force.html", terms: ["United States Aerospace Force", "Aerospace Force", "United States Aerospace Command", "Aerospace Command"] }
   ,{ href: "hemispheric-renewal-act.html", terms: ["Hemispheric Renewal Act"] }
