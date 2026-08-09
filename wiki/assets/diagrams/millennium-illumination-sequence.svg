@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Millennium Lunar Illumination sequence</title>
+  <desc id="desc">Three panels show separate national lunar emblems, all emblems illuminated together, and the final common-white field on the waning crescent Moon.</desc>
+  <defs>
+    <clipPath id="moonA"><circle cx="200" cy="325" r="142"/></clipPath>
+    <clipPath id="moonB"><circle cx="600" cy="325" r="142"/></clipPath>
+    <clipPath id="moonC"><circle cx="1000" cy="325" r="142"/></clipPath>
+  </defs>
+  <rect width="1200" height="680" rx="24" fill="#17212b"/>
+  <text x="60" y="64" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="28" font-weight="700">Millennium Lunar Illumination · three movements</text>
+  <text x="60" y="96" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="16">The final act changed the meaning of the same installations without removing any national field</text>
+
+  <g>
+    <circle cx="200" cy="325" r="142" fill="#3c4650" stroke="#91a2aa" stroke-width="4"/>
+    <circle cx="137" cy="300" r="142" fill="#17212b" clip-path="url(#moonA)"/>
+    <circle cx="268" cy="301" r="4" fill="#f1cf6d"/><circle cx="283" cy="320" r="4" fill="#f1cf6d"/><circle cx="253" cy="320" r="4" fill="#f1cf6d"/><circle cx="268" cy="339" r="4" fill="#f1cf6d"/><circle cx="268" cy="358" r="4" fill="#f1cf6d"/>
+    <text x="200" y="505" text-anchor="middle" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="22" font-weight="700">I · NATIONAL SEQUENCES</text>
+    <text x="200" y="537" text-anchor="middle" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="16">crews and workers introduced</text>
+    <text x="200" y="562" text-anchor="middle" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="16">one display field at a time</text>
+  </g>
+
+  <path d="M355 325 H433" stroke="#6aa9b8" stroke-width="5"/><path d="M421 313 L437 325 L421 337" fill="none" stroke="#6aa9b8" stroke-width="5"/>
+
+  <g>
+    <circle cx="600" cy="325" r="142" fill="#3c4650" stroke="#91a2aa" stroke-width="4"/>
+    <circle cx="537" cy="300" r="142" fill="#17212b" clip-path="url(#moonB)"/>
+    <g fill="#f1cf6d"><circle cx="668" cy="301" r="4"/><circle cx="683" cy="320" r="4"/><circle cx="653" cy="320" r="4"/><circle cx="668" cy="339" r="4"/><circle cx="668" cy="358" r="4"/></g>
+    <g fill="#84c7e8"><circle cx="622" cy="270" r="4"/><circle cx="636" cy="285" r="4"/><circle cx="618" cy="294" r="4"/><circle cx="628" cy="314" r="4"/><circle cx="605" cy="306" r="4"/><circle cx="592" cy="325" r="4"/></g>
+    <g fill="#e49891"><circle cx="553" cy="290" r="4"/><circle cx="568" cy="283" r="4"/><circle cx="580" cy="293" r="4"/><circle cx="582" cy="308" r="4"/><circle cx="572" cy="320" r="4"/><circle cx="557" cy="318" r="4"/><circle cx="547" cy="306" r="4"/></g>
+    <g fill="#8bc2a3"><circle cx="535" cy="350" r="4"/><circle cx="550" cy="342" r="4"/><circle cx="566" cy="351" r="4"/><circle cx="570" cy="369" r="4"/><circle cx="552" cy="380" r="4"/><circle cx="534" cy="370" r="4"/></g>
+    <g fill="#bd9bd0"><circle cx="615" cy="358" r="4"/><circle cx="630" cy="345" r="4"/><circle cx="645" cy="358" r="4"/><circle cx="636" cy="374" r="4"/><circle cx="620" cy="378" r="4"/></g>
+    <text x="600" y="505" text-anchor="middle" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="22" font-weight="700">II · ALL FIVE EMBLEMS</text>
+    <text x="600" y="537" text-anchor="middle" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="16">rival symbols illuminated together</text>
+    <text x="600" y="562" text-anchor="middle" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="16">common timing, separate identities</text>
+  </g>
+
+  <path d="M755 325 H833" stroke="#e9cf8d" stroke-width="5"/><path d="M821 313 L837 325 L821 337" fill="none" stroke="#e9cf8d" stroke-width="5"/>
+
+  <g>
+    <circle cx="1000" cy="325" r="142" fill="#3c4650" stroke="#91a2aa" stroke-width="4"/>
+    <circle cx="937" cy="300" r="142" fill="#17212b" clip-path="url(#moonC)"/>
+    <g fill="#fff8df" stroke="#fff" stroke-width="1"><circle cx="1068" cy="301" r="5"/><circle cx="1083" cy="320" r="5"/><circle cx="1053" cy="320" r="5"/><circle cx="1068" cy="339" r="5"/><circle cx="1068" cy="358" r="5"/><circle cx="1022" cy="270" r="5"/><circle cx="1036" cy="285" r="5"/><circle cx="1018" cy="294" r="5"/><circle cx="1028" cy="314" r="5"/><circle cx="1005" cy="306" r="5"/><circle cx="992" cy="325" r="5"/><circle cx="953" cy="290" r="5"/><circle cx="968" cy="283" r="5"/><circle cx="980" cy="293" r="5"/><circle cx="982" cy="308" r="5"/><circle cx="972" cy="320" r="5"/><circle cx="957" cy="318" r="5"/><circle cx="947" cy="306" r="5"/><circle cx="935" cy="350" r="5"/><circle cx="950" cy="342" r="5"/><circle cx="966" cy="351" r="5"/><circle cx="970" cy="369" r="5"/><circle cx="952" cy="380" r="5"/><circle cx="934" cy="370" r="5"/><circle cx="1015" cy="358" r="5"/><circle cx="1030" cy="345" r="5"/><circle cx="1045" cy="358" r="5"/><circle cx="1036" cy="374" r="5"/><circle cx="1020" cy="378" r="5"/></g>
+    <text x="1000" y="505" text-anchor="middle" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="22" font-weight="700">III · COMMON WHITE</text>
+    <text x="1000" y="537" text-anchor="middle" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="16">distinctive colors and rhythms end</text>
+    <text x="1000" y="562" text-anchor="middle" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="16">people live there</text>
+  </g>
+
+  <rect x="112" y="610" width="976" height="42" rx="14" fill="#111a22" stroke="#6aa9b8" stroke-width="2"/>
+  <text x="600" y="637" text-anchor="middle" fill="#d8e2e6" font-family="ui-monospace,Consolas,monospace" font-size="16">31 Dec. 1999–1 Jan. 2000 · rolling 30–36-hour sequence · principal public viewing before local dawn</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Millennium Beacon System</title>
+  <desc id="desc">A lunar optical transmitter sends a deliberately broadened beam toward Earth. Compact beacons appear as point sources while wide site spacing makes patterns visible through binoculars and telescopes.</desc>
+  <rect width="1200" height="680" rx="24" fill="#17212b"/>
+  <text x="60" y="64" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="30" font-weight="700">Millennium Beacon System · display geometry</text>
+  <text x="60" y="96" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="16">A point source is visible without being resolved; the spacing among sources carries the pattern</text>
+
+  <path d="M0 500 Q180 430 355 494 T710 490 V680 H0Z" fill="#4b5357"/>
+  <path d="M0 520 Q180 450 355 514 T710 510" fill="none" stroke="#8d999d" stroke-width="3"/>
+  <text x="72" y="628" fill="#d6dde0" font-family="ui-monospace,Consolas,monospace" font-size="18">LUNAR SURFACE</text>
+
+  <g transform="translate(214 350)">
+    <rect x="0" y="100" width="130" height="62" rx="12" fill="#2b6872" stroke="#e9cf8d" stroke-width="4"/>
+    <rect x="38" y="42" width="54" height="66" rx="8" fill="#35566b" stroke="#e9cf8d" stroke-width="4"/>
+    <circle cx="65" cy="39" r="24" fill="#f4e6b8" stroke="#fff" stroke-width="3"/>
+    <path d="M65 15 V-30" stroke="#e9cf8d" stroke-width="5"/>
+    <path d="M18 162 L0 205 M112 162 L130 205" stroke="#e9cf8d" stroke-width="5"/>
+    <path d="M-34 118 H0 M130 118 H164" stroke="#6aa9b8" stroke-width="8"/>
+    <text x="65" y="240" text-anchor="middle" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="18" font-weight="700">OPTICAL NODE</text>
+    <text x="65" y="266" text-anchor="middle" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="15">tracking · power · cooling</text>
+  </g>
+
+  <path d="M279 340 L735 205 L735 415 Z" fill="#f4d97a" fill-opacity="0.16" stroke="#f4d97a" stroke-width="2" stroke-dasharray="10 8"/>
+  <path d="M304 337 L735 248 M304 343 L735 372" stroke="#ffeaa3" stroke-width="4" stroke-opacity="0.8"/>
+  <text x="490" y="250" fill="#f4e6b8" font-family="ui-monospace,Consolas,monospace" font-size="17">deliberately broadened</text>
+  <text x="490" y="274" fill="#f4e6b8" font-family="ui-monospace,Consolas,monospace" font-size="17">Earth-tracking beam</text>
+
+  <g transform="translate(900 312)">
+    <circle r="128" fill="#315f86" stroke="#9fc7df" stroke-width="5"/>
+    <path d="M-106 -35 Q-45 -88 12 -62 T108 -36 Q82 -12 63 21 T48 92 Q5 70 -32 90 T-105 46 Q-78 5 -106 -35Z" fill="#607f62"/>
+    <path d="M-78 -94 Q-40 -65 -7 -80 T62 -92" fill="none" stroke="#b7d3e4" stroke-width="4" opacity=".8"/>
+    <text x="0" y="164" text-anchor="middle" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="18" font-weight="700">EARTH AS TARGET</text>
+    <text x="0" y="190" text-anchor="middle" fill="#b9c7cf" font-family="ui-monospace,Consolas,monospace" font-size="15">whole disk or broad region</text>
+  </g>
+
+  <g transform="translate(52 126)">
+    <rect width="336" height="162" rx="16" fill="#111a22" stroke="#6aa9b8" stroke-width="2"/>
+    <text x="22" y="34" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="18" font-weight="700">WORKING NODE ORDER</text>
+    <text x="22" y="68" fill="#c9d2d6" font-family="ui-monospace,Consolas,monospace" font-size="16">visible output · 1–5 MW peak</text>
+    <text x="22" y="96" fill="#c9d2d6" font-family="ui-monospace,Consolas,monospace" font-size="16">electrical input · 5–20 MW</text>
+    <text x="22" y="124" fill="#c9d2d6" font-family="ui-monospace,Consolas,monospace" font-size="16">operation · synchronized bursts</text>
+    <text x="22" y="150" fill="#8ea4ae" font-family="ui-monospace,Consolas,monospace" font-size="14">exact ratings remain open</text>
+  </g>
+
+  <g transform="translate(450 126)">
+    <rect width="352" height="162" rx="16" fill="#111a22" stroke="#8c799e" stroke-width="2"/>
+    <text x="22" y="34" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="18" font-weight="700">WHAT THE OBSERVER RESOLVES</text>
+    <circle cx="32" cy="68" r="5" fill="#fff4c2"/><text x="50" y="74" fill="#c9d2d6" font-family="ui-monospace,Consolas,monospace" font-size="16">eye · impossible star-like points</text>
+    <circle cx="32" cy="101" r="5" fill="#fff4c2"/><circle cx="43" cy="101" r="5" fill="#fff4c2"/><text x="62" y="107" fill="#c9d2d6" font-family="ui-monospace,Consolas,monospace" font-size="16">binoculars · geometric cluster</text>
+    <circle cx="32" cy="134" r="5" fill="#fff4c2"/><circle cx="43" cy="126" r="5" fill="#fff4c2"/><circle cx="54" cy="134" r="5" fill="#fff4c2"/><text x="73" y="140" fill="#c9d2d6" font-family="ui-monospace,Consolas,monospace" font-size="16">telescope · complete display field</text>
+  </g>
+
+  <rect x="720" y="532" width="430" height="108" rx="16" fill="#111a22" stroke="#e9cf8d" stroke-width="2"/>
+  <text x="935" y="564" text-anchor="middle" fill="#f3efe5" font-family="ui-monospace,Consolas,monospace" font-size="17" font-weight="700">POST-EVENT INFRASTRUCTURE</text>
+  <text x="935" y="594" text-anchor="middle" fill="#c9d2d6" font-family="ui-monospace,Consolas,monospace" font-size="14">navigation · communications · survey</text>
+  <text x="935" y="619" text-anchor="middle" fill="#c9d2d6" font-family="ui-monospace,Consolas,monospace" font-size="14">emergency marking · optical calibration</text>
+</svg>
