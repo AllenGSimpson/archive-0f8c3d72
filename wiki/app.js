@@ -1064,6 +1064,10 @@ const pages = [
   { title: "Video Games in the British Commonwealth", description: "Educational software, simulation, routes, intelligence, and distributed Commonwealth production", href: "video-games-british-commonwealth.html", tags: "british commonwealth video games education simulation intelligence routes schools" },
   { title: "Video Games in the Latin Bloc", description: "Design, narrative, licensing, and Catholic debate around interactive entertainment", href: "video-games-latin-bloc.html", tags: "latin bloc video games italy occitania spain portugal design narrative catholic ratings" },
   { title: "Media Certification in Germany", description: "Private media production governed through licensing, classification, and narrative framing", href: "german-media-certification.html", tags: "german media certification propaganda ministry games film narrative framing censorship preclearance" },
+  { title: "Household Computing in the United States, 1990–2005", description: "Home computers, youth access, family safety rules, and unequal privacy on Weltnetz", href: "household-computing-united-states-2000.html", tags: "household computing united states home computers teenagers weltnetz schools libraries family privacy" },
+  { title: "American Cyberpunk", description: "Corporate power, computerized identity, ShadowNet autonomy, and the vindication effect", href: "american-cyberpunk.html", tags: "american cyberpunk corporations autonomy shadownet identity vindication effect science fiction" },
+  { title: "Artificial Intelligence", description: "Narrow machine intelligence in administration, industry, networks, logistics, and public mythology", href: "artificial-intelligence.html", tags: "artificial intelligence narrow AI machine learning search ranking translation fraud logistics agents worms" },
+  { title: "Medical Cybernetics", description: "Cochlear implants, prostheses, stimulators, rehabilitation interfaces, and experimental visual assistance", href: "medical-cybernetics.html", tags: "medical cybernetics cochlear implants myoelectric prostheses stimulators rehabilitation visual assistance" },
   { title: "Frontier's Functional Orbital Monopoly", description: "A dominant space-transport utility without legal exclusivity", href: "frontier-functional-monopoly.html", tags: "frontier orbital functional monopoly competitors network space transport utility" },
   { title: "American–Japanese Corporate Competition in India", description: "Gold-dollar portability against entrenched zaibatsu networks", href: "india-corporate-frontier.html", tags: "india corporate frontier american japanese zaibatsu dollar gold yen competition" },
   { title: "Southern Africa in the Commonwealth Space Network", description: "Tracking, telemetry, strategic materials, and political dependence", href: "commonwealth-southern-africa-space-network.html", tags: "southern africa commonwealth space tracking telemetry minerals south africa rhodesia" },
@@ -3342,6 +3346,10 @@ const crossLinks = [
   ,{ href: "video-games-british-commonwealth.html", terms: ["video games in the British Commonwealth", "British game industry", "Commonwealth game industry"] }
   ,{ href: "video-games-latin-bloc.html", terms: ["video games in the Latin Bloc", "Latin game industry", "Latin game culture"] }
   ,{ href: "german-media-certification.html", terms: ["media certification in Germany", "German media certification", "preclearance consultation", "narrative-compliance consultants"] }
+  ,{ href: "household-computing-united-states-2000.html", terms: ["household computing in the United States", "American household computing", "household computing by 2000"] }
+  ,{ href: "american-cyberpunk.html", terms: ["American cyberpunk", "cyberpunk culture in the United States", "vindication effect"] }
+  ,{ href: "artificial-intelligence.html", terms: ["artificial intelligence", "narrow AI", "machine intelligence"] }
+  ,{ href: "medical-cybernetics.html", terms: ["medical cybernetics", "myoelectric prostheses", "cochlear implants", "rehabilitation interfaces"] }
   ,{ href: "zivilsprachenrichtlinie.html", terms: ["Zivilsprachenrichtlinie", "Sprachenbereinigung", "certify uses, not ideas"] }
   ,{ href: "werkcode.html", terms: ["Werkcode 80", "Werkcode"] }
   ,{ href: "lehrplan.html", terms: ["Lehrplan 81", "Lehrplan"] }
