@@ -79,6 +79,8 @@ These local SVG copies are used for identification in a critical fictional alter
 | `serbia.svg` | Italian Protectorate of Serbia | Serbian red, blue, and white national tricolor | Original local SVG rendering of the established national design |
 | `federal-yugoslavia.svg` | Federal Kingdom of Yugoslavia | Royal Yugoslav blue, white, and red tricolor | Interpretive setting asset based on the historic national design |
 | `tannu-tuva-1943.svg` | Tannu Tuva; working continuity flag | [Flag of the Tuvan People's Republic, 1943–1944](https://commons.wikimedia.org/wiki/File:Flag_of_the_Tuvan_People%27s_Republic_(1943-1944).svg) | Public-domain official symbol; locally preserved as simplified source SVG |
+| `ceylon-1951.svg` | Dominion of Ceylon | [Flag of Ceylon, 1951–1972](https://commons.wikimedia.org/wiki/File:Flag_of_Ceylon_(1951%E2%80%931972).svg) | Historical national flag; public domain |
+| `maldives-1953.svg` | Maldive Islands | [Flag of the Maldives, 1953](https://commons.wikimedia.org/wiki/File:Flag_of_the_Maldives_1953.svg) | Historical national flag; public-domain simple geometry |
 
 No visual changes were made to the downloaded SVG files. Filenames were shortened for local use.
 
