@@ -419,6 +419,13 @@ const pages = [
   { title: "Extraterrestrial Corporate Liability", description: "Private, insured, indemnified, emergency, and sponsor-state responsibility beyond Earth", href: "extraterrestrial-corporate-liability.html", tags: "space law liability insurance indemnification responsibility corporate incidents" },
   { title: "Flags and Registration in Space", description: "The distinct roles of affiliation, registry, jurisdiction, notice, and territorial title", href: "flags-and-registration-in-space.html", tags: "space law flags registration registry jurisdiction sovereignty installations" },
   { title: "Corporate Occupation and Settlement Claims", description: "Use-based corporate interests created by survey, works, maintenance, residence, and settlement", href: "corporate-occupation-and-settlement-claims.html", tags: "space law corporate occupation settlement claims concessions sovereignty" },
+  { title: "Extraterrestrial Criminal Jurisdiction", description: "Investigation, custody, and prosecution aboard spacecraft, stations, and planetary settlements", href: "extraterrestrial-criminal-jurisdiction.html", tags: "space law criminal jurisdiction crime prosecution custody module station settlement" },
+  { title: "Off-World Civil Status", description: "Marriage, birth, parentage, death, and inheritance records beyond Earth", href: "off-world-civil-status.html", tags: "space law family marriage birth parentage inheritance probate civil status" },
+  { title: "Off-World Labor Law", description: "Employment, safety, residence, housing, and return transport in extraterrestrial workplaces", href: "off-world-labor-law.html", tags: "space law labor employment workers contracts safety housing return transport" },
+  { title: "Off-World Nationality and Citizenship", description: "Terrestrial nationality, settlement residence, political rights, and developing local identity", href: "off-world-nationality-and-citizenship.html", tags: "space law nationality citizenship lunar martian birthright residence identity" },
+  { title: "Government of Extraterrestrial Settlements", description: "Local administration between mission command and independent sovereignty", href: "government-of-extraterrestrial-settlements.html", tags: "space settlement government administration council charter municipality local authority" },
+  { title: "Interjurisdictional Space Accident Investigation", description: "Joint technical inquiries involving several registries, operators, governments, and legal systems", href: "interjurisdictional-space-accident-investigation.html", tags: "space accident investigation safety telemetry liability jurisdiction" },
+  { title: "Death and Memorial Practice Beyond Earth", description: "Medical, civil, religious, familial, and public practice after an off-world death", href: "death-and-memorial-practice-beyond-earth.html", tags: "space death funeral memorial remains burial religion family" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3877,6 +3884,13 @@ const crossLinks = [
   ,{ href: "extraterrestrial-corporate-liability.html", terms: ["extraterrestrial corporate liability", "corporate liability in space"] }
   ,{ href: "flags-and-registration-in-space.html", terms: ["flags and registration in space", "space registration", "registered installation"] }
   ,{ href: "corporate-occupation-and-settlement-claims.html", terms: ["corporate occupation and settlement claims", "corporate occupation", "corporate settlement claims"] }
+  ,{ href: "extraterrestrial-criminal-jurisdiction.html", terms: ["extraterrestrial criminal jurisdiction", "criminal jurisdiction beyond Earth", "off-world criminal jurisdiction"] }
+  ,{ href: "off-world-civil-status.html", terms: ["off-world civil status", "extraterrestrial civil status"] }
+  ,{ href: "off-world-labor-law.html", terms: ["off-world labor law", "extraterrestrial labor law", "space labor law"] }
+  ,{ href: "off-world-nationality-and-citizenship.html", terms: ["off-world nationality and citizenship", "off-world citizenship", "lunar citizenship"] }
+  ,{ href: "government-of-extraterrestrial-settlements.html", terms: ["government of extraterrestrial settlements", "settlement government", "extraterrestrial government"] }
+  ,{ href: "interjurisdictional-space-accident-investigation.html", terms: ["interjurisdictional space accident investigation", "space accident investigation", "joint accident inquiry"] }
+  ,{ href: "death-and-memorial-practice-beyond-earth.html", terms: ["death and memorial practice beyond Earth", "off-world memorial practice", "off-world funeral"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
