@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Orbital rescue chain</title>
+  <desc id="desc">Five stages show distress and notification, interception, stabilization, transfer, and safe return, with shared standards beneath national command.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07121c"/><stop offset="1" stop-color="#182a3a"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#6dd1e5"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".4"/></filter>
+    <style>.eyebrow{font:600 22px Arial,sans-serif;letter-spacing:5px;fill:#6dd1e5}.title{font:700 51px Georgia,serif;fill:#f4f0e7}.sub{font:23px Arial,sans-serif;fill:#b5c2ca}.num{font:700 24px Arial,sans-serif;fill:#07121c}.head{font:700 22px Arial,sans-serif;fill:#f7f3e9}.copy{font:18px Arial,sans-serif;fill:#c9d3d9}.box{fill:#142c3a;stroke:#44697b;stroke-width:2}.route{stroke:#6dd1e5;stroke-width:6;fill:none;marker-end:url(#arrow)}.rule{font:700 20px Arial,sans-serif;fill:#e5b66d;letter-spacing:1px}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="76" class="eyebrow">ORBITAL OPERATIONS · SHARED RESCUE DUTY</text>
+  <text x="80" y="138" class="title">The orbital rescue chain</text>
+  <text x="80" y="180" class="sub">Common signals and adapters make assistance possible; orbit, propellant, time, and damage still decide whether it succeeds.</text>
+
+  <path d="M330 440H385M625 440H680M920 440H975M1215 440H1270" class="route"/>
+
+  <g transform="translate(70 315)" filter="url(#shadow)"><rect width="260" height="250" rx="26" class="box"/><circle cx="44" cy="44" r="25" fill="#6dd1e5"/><text x="44" y="52" text-anchor="middle" class="num">1</text><text x="28" y="105" class="head">DISTRESS</text><text x="28" y="145" class="copy">Beacon and frequency</text><text x="28" y="177" class="copy">Orbit and crew state</text><text x="28" y="209" class="copy">Power and atmosphere</text></g>
+  <g transform="translate(365 315)" filter="url(#shadow)"><rect width="260" height="250" rx="26" class="box"/><circle cx="44" cy="44" r="25" fill="#86c6b4"/><text x="44" y="52" text-anchor="middle" class="num">2</text><text x="28" y="105" class="head">INTERCEPT</text><text x="28" y="145" class="copy">Match orbit</text><text x="28" y="177" class="copy">Identify hazards</text><text x="28" y="209" class="copy">Establish command link</text></g>
+  <g transform="translate(660 315)" filter="url(#shadow)"><rect width="260" height="250" rx="26" class="box"/><circle cx="44" cy="44" r="25" fill="#e5b66d"/><text x="44" y="52" text-anchor="middle" class="num">3</text><text x="28" y="105" class="head">STABILIZE</text><text x="28" y="145" class="copy">Arrest rotation</text><text x="28" y="177" class="copy">Supply air and power</text><text x="28" y="209" class="copy">Control fire or leaks</text></g>
+  <g transform="translate(955 315)" filter="url(#shadow)"><rect width="260" height="250" rx="26" class="box"/><circle cx="44" cy="44" r="25" fill="#d8877d"/><text x="44" y="52" text-anchor="middle" class="num">4</text><text x="28" y="105" class="head">TRANSFER</text><text x="28" y="145" class="copy">Dock or fit adapter</text><text x="28" y="177" class="copy">Medical triage</text><text x="28" y="209" class="copy">Secure sensitive cargo</text></g>
+  <g transform="translate(1250 315)" filter="url(#shadow)"><rect width="260" height="250" rx="26" class="box"/><circle cx="44" cy="44" r="25" fill="#6dd1e5"/><text x="44" y="52" text-anchor="middle" class="num">5</text><text x="28" y="105" class="head">RETURN</text><text x="28" y="145" class="copy">Receiving station</text><text x="28" y="177" class="copy">Reentry or safe berth</text><text x="28" y="209" class="copy">Inquiry follows survival</text></g>
+
+  <g transform="translate(120 655)"><rect width="1360" height="135" rx="24" fill="#0c1e2a" stroke="#3d5c6d"/><text x="680" y="45" text-anchor="middle" class="rule">SHARED RULES</text><text x="680" y="82" text-anchor="middle" class="copy">Universal rescue beacons · standard distress frequencies · adapter kits · approach notice · debris warnings</text><text x="680" y="113" text-anchor="middle" class="copy">Assistance regardless of bloc · rescuing commander controls immediate safety · nationality and sovereignty remain intact</text></g>
+</svg>

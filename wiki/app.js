@@ -1634,7 +1634,13 @@ const pages = [
   { title: "Rotating Habitation", description: "Artificial-gravity systems for stations, settlements, and interplanetary ships", href: "rotating-habitation.html", tags: "rotating habitation artificial gravity centrifuge station ring marsplan" },
   { title: "Orbital Hydroponics", description: "Controlled cultivation for food, environmental research, and emergency supply", href: "orbital-hydroponics.html", tags: "orbital hydroponics food life support agriculture horai station" },
   { title: "Orbital Service Workforce", description: "The technical and domestic labor behind permanent space infrastructure", href: "orbital-service-workforce.html", tags: "orbital service workforce labor technicians cargo maintenance life support" },
-  { title: "Strategic Stability in Space", description: "The protected functions and escalation risks that contain orbital conflict", href: "strategic-stability-in-space.html", tags: "strategic stability space orbital conflict firebreak satellites life support warning" }
+  { title: "Strategic Stability in Space", description: "The protected functions and escalation risks that contain orbital conflict", href: "strategic-stability-in-space.html", tags: "strategic stability space orbital conflict firebreak satellites life support warning" },
+  { title: "Space Medicine", description: "The medical discipline sustaining orbital, lunar, and planetary life", href: "space-medicine.html", tags: "space medicine aerospace medical long duration health crew settlement" },
+  { title: "Environmental Control and Life Support", description: "Air, water, pressure, thermal, sanitation, and waste systems beyond Earth", href: "environmental-control-life-support.html", tags: "environmental control life support eclss air water pressure waste closed cycle" },
+  { title: "Space Radiation Protection", description: "Forecasting, shielding, refuges, dosimetry, and exposure management", href: "space-radiation-protection.html", tags: "space radiation protection shielding refuge solar storm dosimetry" },
+  { title: "Orbital Rescue Service", description: "Cross-bloc detection, interception, stabilization, transfer, and return", href: "orbital-rescue-service.html", tags: "orbital rescue service beacon distress docking adapter ranger geneva" },
+  { title: "Reduced-Gravity Health", description: "Adult adaptation, rehabilitation, pregnancy, and childhood away from Earth gravity", href: "reduced-gravity-health.html", tags: "reduced gravity health bone muscle balance pregnancy childhood moon mars" },
+  { title: "Spaceflight Psychology", description: "Confinement, workload, communication delay, crew conflict, and mental health", href: "spaceflight-psychology.html", tags: "spaceflight psychology mental health isolation confinement crew fatigue" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -3458,6 +3464,12 @@ const crossLinks = [
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
   ,{ href: "strategic-stability-in-space.html", terms: ["strategic stability in space", "orbital firebreak"] }
+  ,{ href: "space-medicine.html", terms: ["space medicine", "aerospace medicine"] }
+  ,{ href: "environmental-control-life-support.html", terms: ["environmental control and life support", "environmental-control and life-support", "life-support systems"] }
+  ,{ href: "space-radiation-protection.html", terms: ["space radiation protection", "radiation protection", "radiation refuge"] }
+  ,{ href: "orbital-rescue-service.html", terms: ["orbital rescue service", "orbital rescue", "rescue duties"] }
+  ,{ href: "reduced-gravity-health.html", terms: ["reduced-gravity health", "reduced gravity health", "reduced-gravity medicine"] }
+  ,{ href: "spaceflight-psychology.html", terms: ["spaceflight psychology", "crew psychology"] }
 ];
 
 function escapePattern(value) {

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Long-duration human survival system</title>
+  <desc id="desc">A central crew and settlement node is linked to environmental control, medicine, radiation protection, gravity countermeasures, psychological health, and rescue.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07121c"/><stop offset="1" stop-color="#182a3a"/></linearGradient>
+    <radialGradient id="core"><stop stop-color="#264f61"/><stop offset="1" stop-color="#112936"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="11" flood-color="#000" flood-opacity=".42"/></filter>
+    <style>.eyebrow{font:600 22px Arial,sans-serif;letter-spacing:5px;fill:#6bd2e7}.title{font:700 51px Georgia,serif;fill:#f4f0e7}.sub{font:23px Arial,sans-serif;fill:#b5c2ca}.head{font:700 25px Arial,sans-serif;fill:#f7f3e9}.copy{font:18px Arial,sans-serif;fill:#c9d3d9}.core{font:700 31px Georgia,serif;fill:#fff}.line{stroke:#52798b;stroke-width:5;fill:none}.box{fill:#142b39;stroke:#416375;stroke-width:2}.accentA{fill:#68cde1}.accentB{fill:#e3b36c}.accentC{fill:#d77b78}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="75" class="eyebrow">HUMAN FACTORS · 1957–2010</text>
+  <text x="80" y="137" class="title">The long-duration survival stack</text>
+  <text x="80" y="179" class="sub">No single system keeps a crew alive; every layer depends upon the others and upon honest reporting.</text>
+
+  <path d="M490 355L670 430M490 610L670 500M1110 355L930 430M1110 610L930 500M800 305V365M800 635V585" class="line"/>
+
+  <g transform="translate(110 255)" filter="url(#shadow)"><rect width="380" height="160" rx="26" class="box"/><circle cx="48" cy="47" r="18" class="accentA"/><text x="82" y="55" class="head">ENVIRONMENT</text><text x="34" y="101" class="copy">Air · water · pressure · temperature</text><text x="34" y="132" class="copy">Sanitation · fire · waste · redundancy</text></g>
+  <g transform="translate(110 530)" filter="url(#shadow)"><rect width="380" height="160" rx="26" class="box"/><circle cx="48" cy="47" r="18" class="accentB"/><text x="82" y="55" class="head">MEDICINE</text><text x="34" y="101" class="copy">Screening · monitoring · treatment</text><text x="34" y="132" class="copy">Rehabilitation · pregnancy · childhood</text></g>
+  <g transform="translate(1110 255)" filter="url(#shadow)"><rect width="380" height="160" rx="26" class="box"/><circle cx="48" cy="47" r="18" class="accentC"/><text x="82" y="55" class="head">RADIATION</text><text x="34" y="101" class="copy">Forecast · shielding · refuge</text><text x="34" y="132" class="copy">Dosimetry · exposure limits</text></g>
+  <g transform="translate(1110 530)" filter="url(#shadow)"><rect width="380" height="160" rx="26" class="box"/><circle cx="48" cy="47" r="18" class="accentA"/><text x="82" y="55" class="head">RESCUE</text><text x="34" y="101" class="copy">Beacon · interception · stabilization</text><text x="34" y="132" class="copy">Transfer · return · cross-bloc duty</text></g>
+  <g transform="translate(610 215)" filter="url(#shadow)"><rect width="380" height="120" rx="26" class="box"/><circle cx="48" cy="45" r="18" class="accentB"/><text x="82" y="53" class="head">GRAVITY</text><text x="34" y="91" class="copy">Exercise · rotation · surface adaptation</text></g>
+  <g transform="translate(610 655)" filter="url(#shadow)"><rect width="380" height="120" rx="26" class="box"/><circle cx="48" cy="45" r="18" class="accentC"/><text x="82" y="53" class="head">PSYCHOLOGY</text><text x="34" y="91" class="copy">Sleep · privacy · workload · community</text></g>
+
+  <g transform="translate(660 365)" filter="url(#shadow)"><circle cx="140" cy="110" r="125" fill="url(#core)" stroke="#6bd2e7" stroke-width="3"/><circle cx="140" cy="81" r="34" fill="#e7c995"/><path d="M75 162c11-44 39-65 65-65s54 21 65 65" fill="#668ea0"/><text x="140" y="205" text-anchor="middle" class="core">CREW &amp;</text><text x="140" y="239" text-anchor="middle" class="core">SETTLEMENT</text></g>
+
+  <g transform="translate(160 816)"><rect width="1280" height="50" rx="15" fill="#0b1c28" stroke="#375566"/><text x="640" y="33" text-anchor="middle" class="copy">Mature systems are increasingly regenerative and resilient—but never perfectly closed, shielded, healthy, or rescuable.</text></g>
+</svg>
