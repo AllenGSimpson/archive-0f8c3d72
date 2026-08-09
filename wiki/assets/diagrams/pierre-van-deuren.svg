@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Pierre Van Deuren career chronology</title><desc id="desc">A chronology from Van Deuren's engineering education and military service through his Congo plan, forced consultation under German rule, and death in 1956.</desc>
+  <rect width="1200" height="520" rx="24" fill="#07151e"/><text x="600" y="54" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="32">PIERRE VAN DEUREN · ENGINEER AND OFFICER</text>
+  <g font-family="Arial,sans-serif"><line x1="95" y1="262" x2="1105" y2="262" stroke="#d9c26f" stroke-width="5"/>
+    <g fill="#e6cf7c" stroke="#07151e" stroke-width="4"><circle cx="120" cy="262" r="13"/><circle cx="305" cy="262" r="13"/><circle cx="500" cy="262" r="13"/><circle cx="695" cy="262" r="13"/><circle cx="885" cy="262" r="13"/><circle cx="1080" cy="262" r="13"/></g>
+    <text x="120" y="218" text-anchor="middle" fill="#fff" font-size="21">1878</text><text x="120" y="305" text-anchor="middle" fill="#cbe4ea" font-size="16">born at Tervuren</text>
+    <text x="305" y="218" text-anchor="middle" fill="#fff" font-size="21">1904</text><text x="305" y="305" text-anchor="middle" fill="#cbe4ea" font-size="16">Paris doctorate</text><text x="305" y="330" text-anchor="middle" fill="#cbe4ea" font-size="16">military professor</text>
+    <text x="500" y="195" text-anchor="middle" fill="#fff" font-size="21">1914–1918</text><text x="500" y="305" text-anchor="middle" fill="#cbe4ea" font-size="16">signals and artillery</text><text x="500" y="330" text-anchor="middle" fill="#cbe4ea" font-size="16">Van Deuren mortar</text>
+    <text x="695" y="218" text-anchor="middle" fill="#fff" font-size="21">1926</text><text x="695" y="305" text-anchor="middle" fill="#cbe4ea" font-size="16">Congo study journey</text>
+    <text x="885" y="195" text-anchor="middle" fill="#fff" font-size="21">1928</text><text x="885" y="305" text-anchor="middle" fill="#cbe4ea" font-size="16">Aménagement du</text><text x="885" y="330" text-anchor="middle" fill="#cbe4ea" font-size="16">Bas-Congo</text>
+    <text x="1080" y="218" text-anchor="middle" fill="#fff" font-size="21">1948–1956</text><text x="1080" y="305" text-anchor="middle" fill="#f0d2d7" font-size="16">forced consultation</text><text x="1080" y="330" text-anchor="middle" fill="#f0d2d7" font-size="16">death at Etterbeek</text>
+    <rect x="430" y="390" width="340" height="62" rx="14" fill="#3f2e32" stroke="#d47b7f" stroke-width="2"/><text x="600" y="430" text-anchor="middle" fill="#ffe2e5" font-size="18">The maximal Kongowerk was not his plan</text>
+  </g>
+</svg>

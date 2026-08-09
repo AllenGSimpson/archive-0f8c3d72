@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Operation al-Awda operational logic</title>
+  <desc id="desc">Iraq's rapid drive into Kuwait outruns its support system and is cut apart by Commonwealth interdiction and regional pressure.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3 0 6Z" fill="#e1c36f"/></marker></defs>
+  <rect width="1200" height="520" rx="24" fill="#07151e"/>
+  <text x="600" y="54" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="32">OPERATION AL-AWDA · SEPTEMBER 1974</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="55" y="130" width="280" height="250" rx="18" fill="#3c3029" stroke="#c79b66" stroke-width="3"/>
+    <text x="195" y="175" text-anchor="middle" fill="#fff" font-size="23">IRAQI PLAN</text><text x="195" y="220" text-anchor="middle" fill="#f3dfc8" font-size="17">seize Kuwait City</text><text x="195" y="250" text-anchor="middle" fill="#f3dfc8" font-size="17">declare restored sovereignty</text><text x="195" y="280" text-anchor="middle" fill="#f3dfc8" font-size="17">present a fait accompli</text><text x="195" y="330" text-anchor="middle" fill="#ffd999" font-size="17">SHORT-WAR ASSUMPTION</text>
+    <rect x="460" y="105" width="280" height="300" rx="20" fill="#45342e" stroke="#d98775" stroke-width="3"/>
+    <text x="600" y="150" text-anchor="middle" fill="#fff" font-size="23">FORWARD ECHELON</text><text x="600" y="195" text-anchor="middle" fill="#f6d9d3" font-size="17">modern armor and aircraft</text><text x="600" y="225" text-anchor="middle" fill="#f6d9d3" font-size="17">rapid territorial penetration</text><line x1="500" y1="257" x2="700" y2="257" stroke="#d98775" stroke-width="2"/><text x="600" y="292" text-anchor="middle" fill="#ffc2b7" font-size="17">fuel · repair · recovery</text><text x="600" y="322" text-anchor="middle" fill="#ffc2b7" font-size="17">staff work · communications</text><text x="600" y="365" text-anchor="middle" fill="#ffd999" font-size="17">SUPPORT FALLS BEHIND</text>
+    <rect x="865" y="130" width="280" height="250" rx="18" fill="#17384a" stroke="#76bad4" stroke-width="3"/>
+    <text x="1005" y="175" text-anchor="middle" fill="#fff" font-size="23">COALITION RESPONSE</text><text x="1005" y="220" text-anchor="middle" fill="#d9edf5" font-size="17">Commonwealth interdiction</text><text x="1005" y="250" text-anchor="middle" fill="#d9edf5" font-size="17">Iranian intelligence</text><text x="1005" y="280" text-anchor="middle" fill="#d9edf5" font-size="17">Saudi armed neutrality</text><text x="1005" y="330" text-anchor="middle" fill="#ffd999" font-size="17">FAW · UMM QASR · BASRA</text>
+    <path d="M335 255H448" stroke="#e1c36f" stroke-width="5" marker-end="url(#arrow)"/><path d="M752 255H853" stroke="#e1c36f" stroke-width="5" marker-end="url(#arrow)"/>
+    <text x="600" y="465" text-anchor="middle" fill="#cbe4ea" font-size="20">The invasion won ground faster than Iraq could sustain it</text>
+  </g>
+</svg>

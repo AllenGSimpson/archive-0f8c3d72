@@ -450,6 +450,11 @@ const pages = [
   { title: "West Falkland Lodgment", description: "The British island base built after Second Torch for the methodical return east", href: "west-falkland-lodgment.html", tags: "west falkland lodgment british base port howard fox bay airstrip 1984" },
   { title: "South Atlantic Siege", description: "The prolonged naval-air and divided-island phase of the Falklands War", href: "south-atlantic-siege.html", tags: "south atlantic siege falklands blockade attrition logistics west east island" },
   { title: "South Atlantic Armed Mediation", description: "The American containment policy bounding intervention and war termination", href: "south-atlantic-armed-mediation.html", tags: "south atlantic armed mediation buchanan reagan falklands germany britain argentina containment" },
+  { title: "Operation al-ʿAwda", description: "Iraq's September 1974 invasion of Kuwait and the operation that opened the Kuwait War", href: "operation-al-awda.html", tags: "operation al awda iraq kuwait invasion 1974 kuwait war" },
+  { title: "Verona Convention", description: "The 1985 non-aggression and crisis-management convention between Germany and Italy", href: "verona-convention.html", tags: "verona convention non aggression germany italy latin bloc einheitspakt serbia bulgaria 1985" },
+  { title: "Raumbote I", description: "Germany's 1957 first artificial satellite and the global institutional shock it produced", href: "raumbote-i.html", tags: "raumbote i one satellite germany 1957 space race first artificial satellite" },
+  { title: "Van-Deuren Plan", description: "The Belgian Lower Congo development scheme later appropriated and enlarged into the Kongowerk", href: "van-deuren-plan.html", tags: "van deuren plan lower congo inga syneba kongowerk engineering" },
+  { title: "Pierre Van Deuren", description: "Belgian military engineer and unwilling early consultant to the German Congo commission", href: "pierre-van-deuren.html", tags: "pierre van deuren belgium engineer mortar congo syneba biography" },
   { title: "Moon", description: "Earth's natural satellite and the first permanently inhabited world beyond Earth", href: "moon.html", tags: "moon luna lunar geography settlements near side far side poles ice" },
   { title: "Lunar Near Side", description: "The Earth-facing hemisphere of settlement, communication, and public display", href: "lunar-near-side.html", tags: "lunar near side hemisphere earth facing maria serenity millennium display geography" },
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
@@ -3939,6 +3944,11 @@ const crossLinks = [
   ,{ href: "west-falkland-lodgment.html", terms: ["West Falkland lodgment", "West Falkland base"] }
   ,{ href: "south-atlantic-siege.html", terms: ["South Atlantic siege", "long siege", "naval-air siege"] }
   ,{ href: "south-atlantic-armed-mediation.html", terms: ["South Atlantic armed mediation", "hemispheric armed mediation", "armed mediation"] }
+  ,{ href: "operation-al-awda.html", terms: ["Operation al-ʿAwda", "Operation al-‘Awda", "Operation al-Awda"] }
+  ,{ href: "verona-convention.html", terms: ["Verona Non-Aggression Convention", "Verona Convention"] }
+  ,{ href: "raumbote-i.html", terms: ["Raumbote I"] }
+  ,{ href: "van-deuren-plan.html", terms: ["Van-Deuren Plan", "Van Deuren Plan"] }
+  ,{ href: "pierre-van-deuren.html", terms: ["Pierre Van Deuren"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
