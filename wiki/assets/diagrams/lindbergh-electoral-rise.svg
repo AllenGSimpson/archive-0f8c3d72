@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Charles Lindbergh and the electoral rise of National Renewal, 1948–1960</title>
+  <desc id="desc">A timeline beginning with National Renewal as a spoiler in 1948, its Minnesota victory in 1952, the contingent election of 1956, and Kennedy's direct victory in 1960.</desc>
+  <rect width="1200" height="520" fill="#111714"/>
+  <text x="70" y="65" fill="#d8d5c7" font-family="Georgia,serif" font-size="30">The Lindbergh electoral sequence</text>
+  <text x="70" y="96" fill="#8fa497" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">NATIONAL RENEWAL FROM SPOILER TO CONSTITUTIONAL KINGMAKER</text>
+  <line x1="120" y1="278" x2="1080" y2="278" stroke="#5a655e" stroke-width="5"/>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(145 0)">
+      <circle cx="0" cy="278" r="23" fill="#16c7da" stroke="#d8d5c7" stroke-width="3"/>
+      <text x="0" y="210" fill="#c7a95b" font-size="25" font-weight="700" text-anchor="middle">1948</text>
+      <text x="0" y="329" fill="#d8d5c7" font-size="17" font-weight="700" text-anchor="middle">Four-way field</text>
+      <text x="0" y="355" fill="#8fa497" font-size="14" text-anchor="middle">Dewey–Warren win</text>
+      <text x="0" y="376" fill="#8fa497" font-size="14" text-anchor="middle">Renewal becomes durable</text>
+    </g>
+    <g transform="translate(440 0)">
+      <circle cx="0" cy="278" r="29" fill="#16c7da" stroke="#d8d5c7" stroke-width="3"/>
+      <text x="0" y="196" fill="#c7a95b" font-size="25" font-weight="700" text-anchor="middle">1952</text>
+      <text x="0" y="226" fill="#d8d5c7" font-size="17" font-weight="700" text-anchor="middle">Minnesota victory</text>
+      <text x="0" y="337" fill="#8fa497" font-size="14" text-anchor="middle">Lindbergh wins electors</text>
+      <text x="0" y="358" fill="#8fa497" font-size="14" text-anchor="middle">“We are early”</text>
+    </g>
+    <g transform="translate(735 0)">
+      <circle cx="0" cy="278" r="36" fill="#16c7da" stroke="#d8d5c7" stroke-width="4"/>
+      <text x="0" y="184" fill="#c7a95b" font-size="25" font-weight="700" text-anchor="middle">1956</text>
+      <text x="0" y="215" fill="#d8d5c7" font-size="17" font-weight="700" text-anchor="middle">No electoral majority</text>
+      <text x="0" y="345" fill="#8fa497" font-size="14" text-anchor="middle">House selects Warren</text>
+      <text x="0" y="366" fill="#8fa497" font-size="14" text-anchor="middle">Renewal gains kingmaker status</text>
+    </g>
+    <g transform="translate(1030 0)">
+      <circle cx="0" cy="278" r="29" fill="#5f89cf" stroke="#d8d5c7" stroke-width="3"/>
+      <text x="0" y="196" fill="#c7a95b" font-size="25" font-weight="700" text-anchor="middle">1960</text>
+      <text x="0" y="226" fill="#d8d5c7" font-size="17" font-weight="700" text-anchor="middle">Kennedy majority</text>
+      <text x="0" y="337" fill="#8fa497" font-size="14" text-anchor="middle">Mission under liberty</text>
+      <text x="0" y="358" fill="#8fa497" font-size="14" text-anchor="middle">Lindbergh's ceiling appears</text>
+    </g>
+  </g>
+  <g transform="translate(70 445)" font-family="Arial,sans-serif" font-size="13">
+    <circle cx="10" cy="0" r="8" fill="#16c7da"/><text x="28" y="5" fill="#d8d5c7">National Renewal intervention</text>
+    <circle cx="260" cy="0" r="8" fill="#c75d59"/><text x="278" y="5" fill="#d8d5c7">Republican winner or incumbent</text>
+    <circle cx="520" cy="0" r="8" fill="#5f89cf"/><text x="538" y="5" fill="#d8d5c7">Democratic victory</text>
+    <text x="775" y="5" fill="#8fa497">Exact vote totals and most state maps remain open</text>
+  </g>
+</svg>

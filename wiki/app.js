@@ -6,6 +6,11 @@ const pages = [
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
+  { title: "Charles Lindbergh", description: "Aviator, America First spokesman, and first national leader of National Renewal", href: "charles-lindbergh.html", tags: "charles lindbergh aviator national renewal america first minnesota presidential candidate antisemitism" },
+  { title: "1948 United States Presidential Election", description: "The four-way election that brings Dewey and Warren to office", href: "1948-united-states-presidential-election.html", tags: "1948 election dewey warren byrnes recovery democrats progressive national renewal" },
+  { title: "1952 United States Presidential Election", description: "Dewey's narrow reelection and Lindbergh's Minnesota breakthrough", href: "1952-united-states-presidential-election.html", tags: "1952 election dewey warren lindbergh minnesota national renewal" },
+  { title: "1956 United States Presidential Election", description: "The contingent election in which the House selects Earl Warren", href: "1956-united-states-presidential-election.html", tags: "1956 election earl warren charles lindbergh house contingent twelfth amendment philippines" },
+  { title: "1960 United States Presidential Election", description: "Kennedy defeats Warren and Lindbergh in a televised three-way race", href: "1960-united-states-presidential-election.html", tags: "1960 election kennedy warren lindbergh television catholic aerospace" },
   { title: "Latin Bloc", description: "The gradually formalized Italian, Iberian, Occitan, and Mediterranean system", href: "latin-bloc.html", tags: "latin bloc italy spain portugal occitania catholic suez" },
   { title: "Kingdom of Italy", description: "The King-Duce, corporate prosperity, and an overextended empire", href: "italy.html", tags: "italy rome umberto mussolini iri mediterranean suez latin" },
   { title: "National Government of China", description: "Managed civilization under Japanese guardianship", href: "china.html", tags: "china nanjing japan examinations industry client state" },
@@ -2789,6 +2794,11 @@ const crossLinks = [
   ,{ href: "german-economy.html", terms: ["Economy of the Greater German Reich", "German economy"] }
   ,{ href: "moon-landing.html", terms: ["First human landing on the Moon", "first German lunar landing", "Germany lands first on the Moon"] }
   ,{ href: "german-computing.html", terms: ["Computing in the Greater German Reich", "German computing"] }
+  ,{ href: "charles-lindbergh.html", terms: ["Charles Augustus Lindbergh", "Charles Lindbergh", "Lindbergh"] }
+  ,{ href: "1948-united-states-presidential-election.html", terms: ["1948 United States presidential election", "1948 presidential election", "1948 election"] }
+  ,{ href: "1952-united-states-presidential-election.html", terms: ["1952 United States presidential election", "1952 presidential election", "1952 election"] }
+  ,{ href: "1956-united-states-presidential-election.html", terms: ["1956 United States presidential election", "1956 presidential election", "1956 election"] }
+  ,{ href: "1960-united-states-presidential-election.html", terms: ["1960 United States presidential election", "1960 presidential election", "1960 election"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }
