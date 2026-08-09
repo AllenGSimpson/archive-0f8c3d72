@@ -1049,6 +1049,10 @@ const pages = [
   { title: "Presidential Elector Allocation after 1993", description: "State district and proportional elector reforms that normalize fractured results", href: "presidential-elector-allocation-after-1993.html", tags: "presidential elector allocation 1993 district proportional electoral college state reform split electors" },
   { title: "House Selection of the President", description: "The recurrent constitutional second round of mature American presidential elections", href: "house-selection-of-president.html", tags: "house selection president contingent election state delegations top three constitutional second round" },
   { title: "Issue Coalitions in the United States Congress", description: "Temporary subject-specific majorities in the mature five-party Congress", href: "issue-coalitions-congress.html", tags: "issue coalitions congress five party temporary majority security economy space legislation" },
+  { title: "Colombian National Compact", description: "The late-1950s civilian power-sharing settlement that contains but does not end La Violencia", href: "colombian-national-compact.html", tags: "colombia national compact la violencia power sharing american hemisphere guerrillas" },
+  { title: "Panamanian Military Regime", description: "The nationalist security order created by Panama's 1968 political rupture", href: "panamanian-military-regime.html", tags: "panama military regime 1968 canal national guard american hemisphere" },
+  { title: "Brightnet", description: "The indexed and identity-linked American public service ecology on Weltnetz", href: "brightnet.html", tags: "brightnet weltnetz public identity indexed employment professional services shadownet" },
+  { title: "Corporate Political Blacklists", description: "Private employment and affiliation records in the mature American corporate order", href: "corporate-political-blacklists.html", tags: "corporate political blacklists brightnet shadownet doxing employment free association identity cleaning" },
   { title: "Frontier's Functional Orbital Monopoly", description: "A dominant space-transport utility without legal exclusivity", href: "frontier-functional-monopoly.html", tags: "frontier orbital functional monopoly competitors network space transport utility" },
   { title: "American–Japanese Corporate Competition in India", description: "Gold-dollar portability against entrenched zaibatsu networks", href: "india-corporate-frontier.html", tags: "india corporate frontier american japanese zaibatsu dollar gold yen competition" },
   { title: "Southern Africa in the Commonwealth Space Network", description: "Tracking, telemetry, strategic materials, and political dependence", href: "commonwealth-southern-africa-space-network.html", tags: "southern africa commonwealth space tracking telemetry minerals south africa rhodesia" },
@@ -3312,6 +3316,10 @@ const crossLinks = [
   ,{ href: "international-character-data-standards-council.html", terms: ["International Character and Data Standards Council", "ICDSC"] }
   ,{ href: "concord-architecture.html", terms: ["Concord architecture", "Concord Meridian", "Concord One"] }
   ,{ href: "shadownet.html", terms: ["ShadowNet", "going shadow", "Brightnet", "Schattennetz"] }
+  ,{ href: "colombian-national-compact.html", terms: ["Colombian National Compact", "National Compact", "Colombian power-sharing settlement"] }
+  ,{ href: "panamanian-military-regime.html", terms: ["Panamanian military regime", "1968 Panamanian rupture", "Panama military government"] }
+  ,{ href: "brightnet.html", terms: ["Brightnet", "public Weltnetz", "employment-safe identity"] }
+  ,{ href: "corporate-political-blacklists.html", terms: ["corporate political blacklists", "corporate blacklists", "identity-cleaning services"] }
   ,{ href: "zivilsprachenrichtlinie.html", terms: ["Zivilsprachenrichtlinie", "Sprachenbereinigung", "certify uses, not ideas"] }
   ,{ href: "werkcode.html", terms: ["Werkcode 80", "Werkcode"] }
   ,{ href: "lehrplan.html", terms: ["Lehrplan 81", "Lehrplan"] }
