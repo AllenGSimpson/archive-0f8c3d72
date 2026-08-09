@@ -53,7 +53,7 @@ Object.assign(window.deepArticles, {
     operations:"The class screened surface forces, protected routes and bases, and performed patrol and training work during the transition from gun to missile fleets. Individual operations remain unsettled.",
     transitionTitle:"Replacement",transition:"Typ 52 became the first postwar missile-conversion destroyer generation. Typ 64 later provided purpose-built fleet air defense and surface attack.",
     status:"No Typ 1944 ship remained active. Z-60 was the last registered hull to decommission, in 1972.",
-    related:[{href:"german-surface-escorts.html",kicker:"Force history",label:"German Surface Escorts"},{href:"typ-52-destroyer.html",kicker:"Successor",label:"Typ 52 Destroyer"},{href:"german-armistice-fleet.html",kicker:"1947 fleet",label:"German Armistice Fleet"}]
+    related:[{href:"german-surface-escorts.html",kicker:"Force history",label:"German Surface Escorts"},{href:"typ-52-destroyer.html",kicker:"Successor",label:"Typ 52 Destroyer"},{href:"kriegsmarine-postwar.html",kicker:"1947 fleet context",label:"Postwar Kriegsmarine"}]
   }),
 
   "typ-52-destroyer": germanEscortClassArticle({
@@ -137,6 +137,6 @@ Object.assign(window.deepArticles, {
     operations:"The craft watched coastal approaches, defended bases, reported contacts, and prepared short-range missile ambushes. They could disperse among smaller facilities that did not support large surface combatants.",
     transitionTitle:"Coastal system",transition:"Shore radar, communications, reconnaissance aircraft, minefields, patrol craft, and coastal defenses supplied the tactical setting for the class. The boats were one element of a local system rather than miniature destroyers.",
     status:"All twenty-eight craft remained active. Individual base assignments, readiness, and weapon fits are not fixed.",
-    related:[{href:"german-surface-escorts.html",kicker:"Force history",label:"German Surface Escorts"},{href:"kriegsmarine-postwar.html",kicker:"Parent service",label:"Postwar Kriegsmarine"},{href:"norwegian-sea.html",kicker:"Northern maritime geography",label:"Norwegian Sea"}]
+    related:[{href:"german-surface-escorts.html",kicker:"Force history",label:"German Surface Escorts"},{href:"kriegsmarine-postwar.html",kicker:"Parent service",label:"Postwar Kriegsmarine"},{href:"norway.html",kicker:"Northern operating region",label:"Norway"}]
   })
 });

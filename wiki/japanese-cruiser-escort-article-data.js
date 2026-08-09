@@ -154,7 +154,7 @@ Object.assign(window.deepArticles, {
       {id:"missions",title:"Missions",html:"<p>Multipurpose service included formation air defense, surface warfare, anti-submarine work, route escort, and detached patrol. The reference does not establish a fixed weapon package for each mission.</p>"},
       {id:"status",title:"Status in 1985",html:"<p>All twelve ships remained active. Several had commissioned within the preceding five years; individual work-up and deployment status are not fixed.</p>"}
     ],
-    related:[{href:"japanese-surface-escorts.html",kicker:"Force history",label:"Japanese Surface Escorts"},{href:"amatsukaze-class-destroyer.html",kicker:"Preceding destroyer",label:"Amatsukaze Class"},{href:"maya-class-cruiser.html",kicker:"Command layer",label:"Maya Class"},{href:"japanese-computing.html",kicker:"Network context",label:"Japanese Computing"}],
+    related:[{href:"japanese-surface-escorts.html",kicker:"Force history",label:"Japanese Surface Escorts"},{href:"amatsukaze-class-destroyer.html",kicker:"Preceding destroyer",label:"Amatsukaze Class"},{href:"maya-class-cruiser.html",kicker:"Command layer",label:"Maya Class"},{href:"computing.html",kicker:"Network context",label:"Computing"}],
     facts:[["Type","Multipurpose destroyer"],["Built and active","12"],["Introduced","1974–1982"],["Full load","6,200 t"],["Role","Networked multipurpose destroyer"]]
   }),
 
