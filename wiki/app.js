@@ -1209,6 +1209,12 @@ const pages = [
   { title: "Maurice Wilkes", description: "Cambridge pioneer of EDSAC, libraries, and service computing", href: "maurice-wilkes.html", tags: "maurice wilkes edsac cambridge microprogramming libraries british computing" },
   { title: "Helmut Schreyer", description: "German electronic-computing and vacuum-tube logic pioneer", href: "helmut-schreyer.html", tags: "helmut schreyer zuse telefunken vacuum tube electronic computing germany" },
   { title: "Akira Nakashima", description: "Japanese pioneer of relay-circuit and switching theory", href: "akira-nakashima.html", tags: "akira nakashima relay switching theory nec japan computing" },
+  { title: "Early Postwar Computing", description: "Five machines that turned stored programs into regular services", href: "early-postwar-computing.html", tags: "early postwar computing stored program electronic computer history 1949 1955" },
+  { title: "EDSAC", description: "Cambridge's stored-program computer and university service culture", href: "edsac.html", tags: "edsac cambridge maurice wilkes initial orders subroutine library 1949" },
+  { title: "Pilot ACE", description: "Turing's NPL machine and the British timing-conscious programming school", href: "pilot-ace.html", tags: "pilot ace automatic computing engine alan turing npl delay line deuce" },
+  { title: "IAS Machine", description: "Princeton's published stored-program architecture", href: "ias-machine.html", tags: "ias machine institute advanced study princeton von neumann bigelow 40 bit" },
+  { title: "Telefunken Rechenanlage 52", description: "The early Schreyer–Telefunken electronic computer family", href: "telefunken-rechenanlage-52.html", tags: "telefunken rechenanlage 52 helmut schreyer german electronic computer radar instrument" },
+  { title: "A-0 System", description: "Grace Hopper's UNIVAC compiling routine and automatic programming system", href: "a-0-system.html", tags: "a-0 a0 system grace hopper univac compiler compiling routine automatic programming" },
   { title: "Postwar Governments of the United Kingdom", description: "British ministries from the Brick Parliament to Responsible Independence", href: "postwar-british-governments.html", tags: "britain postwar governments prime ministers bevan butler powell wilson healey thatcher ashcombe" },
   { title: "George VI", description: "Wartime king and constitutional mediator of the post-defeat settlement", href: "george-vi.html", tags: "george vi king crown windsor westminster white parachutes commonwealth" },
   { title: "Elizabeth II", description: "Post-defeat sovereign and constitutional head of the British Commonwealth", href: "elizabeth-ii.html", tags: "elizabeth ii queen crown coronation commonwealth powell new elizabethans" },
@@ -2749,6 +2755,12 @@ const crossLinks = [
   ,{ href: "maurice-wilkes.html", terms: ["Maurice Wilkes", "Wilkes"] }
   ,{ href: "helmut-schreyer.html", terms: ["Helmut Schreyer", "Schreyer"] }
   ,{ href: "akira-nakashima.html", terms: ["Akira Nakashima", "Nakashima"] }
+  ,{ href: "early-postwar-computing.html", terms: ["Early postwar computing", "early postwar computers"] }
+  ,{ href: "edsac.html", terms: ["Electronic Delay Storage Automatic Calculator", "EDSAC"] }
+  ,{ href: "pilot-ace.html", terms: ["Pilot ACE", "Automatic Computing Engine"] }
+  ,{ href: "ias-machine.html", terms: ["IAS machine", "Institute for Advanced Study machine"] }
+  ,{ href: "telefunken-rechenanlage-52.html", terms: ["Telefunken Rechenanlage 52", "Rechenanlage 52", "Schreyer–Telefunken line"] }
+  ,{ href: "a-0-system.html", terms: ["A-0 system", "A-0-class system", "A-0 compiler"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }

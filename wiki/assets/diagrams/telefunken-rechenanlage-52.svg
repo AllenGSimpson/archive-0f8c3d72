@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Working architecture of the Telefunken Rechenanlage 52</title>
+  <desc id="desc">A schematic showing tape and teleprinter input, stored program memory, binary arithmetic and control, instrument channels, and drum-backed storage. Memory technology and production configuration remain open canon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0e1719"/><stop offset="1" stop-color="#162526"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#c0d9d4"/></marker>
+    <style>
+      .box{fill:#1e3433;stroke:#82b0a5;stroke-width:3}.open{fill:#253337;stroke:#d3b56b;stroke-width:3;stroke-dasharray:10 8}.wire{fill:none;stroke:#c0d9d4;stroke-width:4;marker-end:url(#arrow)}.minor{fill:none;stroke:#6f918c;stroke-width:3;marker-end:url(#arrow)}
+      .head{font:700 34px Georgia,serif;fill:#f3eee3}.sub{font:18px system-ui,sans-serif;fill:#b9ccc8;letter-spacing:2px}.label{font:700 23px system-ui,sans-serif;fill:#f3eee3}.detail{font:18px system-ui,sans-serif;fill:#c8d8d4}.note{font:italic 18px Georgia,serif;fill:#ecd79c}.tag{font:700 15px system-ui,sans-serif;fill:#0e1719}.tagbg{fill:#d3b56b}
+    </style>
+  </defs>
+  <rect width="1200" height="760" rx="24" fill="url(#bg)"/>
+  <text x="70" y="70" class="head">Telefunken Rechenanlage 52</text>
+  <text x="70" y="105" class="sub">WORKING ARCHITECTURE · 1951–55</text>
+  <rect x="70" y="168" width="235" height="130" rx="14" class="box"/>
+  <text x="187" y="211" text-anchor="middle" class="label">Program input</text><text x="187" y="246" text-anchor="middle" class="detail">paper tape</text><text x="187" y="273" text-anchor="middle" class="detail">teleprinter orders</text>
+  <rect x="70" y="447" width="235" height="130" rx="14" class="box"/>
+  <text x="187" y="490" text-anchor="middle" class="label">Instrument input</text><text x="187" y="525" text-anchor="middle" class="detail">radar · telemetry</text><text x="187" y="552" text-anchor="middle" class="detail">laboratory channels</text>
+  <rect x="438" y="142" width="324" height="160" rx="14" class="open"/>
+  <text x="600" y="190" text-anchor="middle" class="label">Working store</text><text x="600" y="228" text-anchor="middle" class="detail">instructions and data</text><text x="600" y="258" text-anchor="middle" class="note">final memory technology open</text>
+  <rect x="438" y="384" width="324" height="180" rx="14" class="box"/>
+  <text x="600" y="433" text-anchor="middle" class="label">Electronic processor</text><text x="600" y="472" text-anchor="middle" class="detail">binary fixed-point arithmetic</text><text x="600" y="503" text-anchor="middle" class="detail">stored-program control</text><text x="600" y="534" text-anchor="middle" class="detail">software floating point</text>
+  <rect x="895" y="168" width="235" height="130" rx="14" class="open"/>
+  <text x="1012" y="211" text-anchor="middle" class="label">Backing store</text><text x="1012" y="246" text-anchor="middle" class="detail">magnetic drum</text><text x="1012" y="273" text-anchor="middle" class="note">configuration open</text>
+  <rect x="895" y="447" width="235" height="130" rx="14" class="box"/>
+  <text x="1012" y="490" text-anchor="middle" class="label">Outputs</text><text x="1012" y="525" text-anchor="middle" class="detail">teleprinter · tape</text><text x="1012" y="552" text-anchor="middle" class="detail">instrument control</text>
+  <path d="M305 233H438" class="wire"/><path d="M305 512H438" class="wire"/><path d="M600 302V384" class="wire"/><path d="M762 222H895" class="minor"/><path d="M762 474H895" class="wire"/><path d="M895 260H790V405" class="minor"/>
+  <rect x="70" y="650" width="1060" height="54" rx="12" fill="#121e20" stroke="#385c58"/>
+  <rect x="88" y="667" width="148" height="23" rx="5" class="tagbg"/><text x="162" y="684" text-anchor="middle" class="tag">CANON BOUNDARY</text>
+  <text x="258" y="685" class="detail">Functional family fixed; exact cabinet layout, store, word length, and model suffixes remain unsettled.</text>
+</svg>
