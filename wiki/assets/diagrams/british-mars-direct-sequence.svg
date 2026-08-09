@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">British Mars Direct mission sequence</title>
+  <desc id="desc">Six-stage sequence from the Greenwich commitment through prepositioned return, Earth-orbit integration, transit, Valles landing, and crew return.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07121d"/><stop offset="1" stop-color="#13253a"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12Z" fill="#d5b25b"/></marker>
+    <style>.title{font:700 40px Georgia,serif;fill:#f2ead8}.sub{font:600 17px Arial,sans-serif;letter-spacing:3px;fill:#a8bfd5}.box{fill:#10283e;stroke:#527b9f;stroke-width:3;rx:18}.mars{fill:#33231f;stroke:#a66a52;stroke-width:3;rx:18}.num{font:700 18px Arial,sans-serif;fill:#d5b25b}.head{font:700 20px Georgia,serif;fill:#f4ead7}.copy{font:15px Arial,sans-serif;fill:#cfdae4}.line{stroke:#d5b25b;stroke-width:5;fill:none;marker-end:url(#arrow)}.foot{font:15px Arial,sans-serif;fill:#aec0d0}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="68" text-anchor="middle" class="title">THE COMMONWEALTH ROAD TO VALLES MARINERIS</text>
+  <text x="800" y="105" text-anchor="middle" class="sub">A COMPLETE BUT DELIBERATELY LIMITED MISSION CHAIN</text>
+  <rect x="55" y="205" width="300" height="190" class="box"/><text x="205" y="243" text-anchor="middle" class="num">01</text><text x="205" y="278" text-anchor="middle" class="head">GREENWICH COMMITMENT</text><text x="205" y="316" text-anchor="middle" class="copy">Independent landing before 2000</text><text x="205" y="345" text-anchor="middle" class="copy">Stable Commonwealth workshare</text>
+  <rect x="465" y="205" width="300" height="190" class="box"/><text x="615" y="243" text-anchor="middle" class="num">02</text><text x="615" y="278" text-anchor="middle" class="head">PREPOSITION RETURN</text><text x="615" y="316" text-anchor="middle" class="copy">Deliver and check ahead</text><text x="615" y="345" text-anchor="middle" class="copy">Preserve a sovereign route home</text>
+  <rect x="875" y="205" width="300" height="190" class="box"/><text x="1025" y="243" text-anchor="middle" class="num">03</text><text x="1025" y="278" text-anchor="middle" class="head">INTEGRATE IN ORBIT</text><text x="1025" y="316" text-anchor="middle" class="copy">Dock or assemble if needed</text><text x="1025" y="345" text-anchor="middle" class="copy">Bypass lunar resources</text>
+  <rect x="1285" y="205" width="260" height="190" class="box"/><text x="1415" y="243" text-anchor="middle" class="num">04</text><text x="1415" y="278" text-anchor="middle" class="head">TRANSIT TO MARS</text><text x="1415" y="316" text-anchor="middle" class="copy">Small crew</text><text x="1415" y="345" text-anchor="middle" class="copy">One habitation vehicle</text>
+  <path d="M355 300H465" class="line"/><path d="M765 300H875" class="line"/><path d="M1175 300H1285" class="line"/>
+  <rect x="420" y="535" width="340" height="190" class="mars"/><text x="590" y="573" text-anchor="middle" class="num">05</text><text x="590" y="608" text-anchor="middle" class="head">LAND IN WESTERN VALLES</text><text x="590" y="646" text-anchor="middle" class="copy">One surface lander</text><text x="590" y="675" text-anchor="middle" class="copy">Bounded science and survey</text>
+  <rect x="900" y="535" width="340" height="190" class="box"/><text x="1070" y="573" text-anchor="middle" class="num">06</text><text x="1070" y="608" text-anchor="middle" class="head">RETURN THE CREW</text><text x="1070" y="646" text-anchor="middle" class="copy">Enter the prepositioned chain</text><text x="1070" y="675" text-anchor="middle" class="copy">Leave no promised settlement</text>
+  <path d="M1415 395V465Q1415 500 1370 500H590V535" class="line"/><path d="M760 630H900" class="line"/>
+  <text x="800" y="825" text-anchor="middle" class="foot">“Direct” excludes lunar staging, not practical Earth-orbit docking or assembly.</text>
+</svg>
