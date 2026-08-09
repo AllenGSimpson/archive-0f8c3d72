@@ -1535,7 +1535,11 @@ const pages = [
   { title: "Everyday Life in Britain", description: "Reconstruction, public services, Commonwealth distance, and technical reliability, 1950–1985", href: "everyday-life-in-britain.html", tags: "britain united kingdom everyday life society household commonwealth social history" },
   { title: "Everyday Life in Canada", description: "North American material life within a bilingual Commonwealth society, 1950–1985", href: "everyday-life-in-canada.html", tags: "canada everyday life society household bilingual commonwealth arctic social history" },
   { title: "Everyday Life in Italy", description: "Designed goods, corporative provision, Catholic institutions, and regional inequality, 1950–1985", href: "everyday-life-in-italy.html", tags: "italy everyday life society household corporative catholic olivetti social history" },
-  { title: "Everyday Life in Occitania", description: "Regional identity, Catholic public life, and an aerospace-industrial society, 1950–1985", href: "everyday-life-in-occitania.html", tags: "occitania everyday life society household latin bloc aerospace catholic social history" }
+  { title: "Everyday Life in Occitania", description: "Regional identity, Catholic public life, and an aerospace-industrial society, 1950–1985", href: "everyday-life-in-occitania.html", tags: "occitania everyday life society household latin bloc aerospace catholic social history" },
+  { title: "Freight Container Standards", description: "Five incompatible systems of boxes, ports, railways, cranes, and freight documents", href: "freight-container-standards.html", tags: "freight container standards shipping ports cranes railways logistics einheitsbehälter" },
+  { title: "Colour Television Standards", description: "The five-way broadcast and receiver standards contest after 1965", href: "colour-television-standards.html", tags: "colour color television standards broadcast monochrome receiver conversion" },
+  { title: "Machine-Readable Product Codes", description: "Rival warehouse and retail identification systems through 1985", href: "machine-readable-product-codes.html", tags: "machine readable product codes barcode retail warehouse inventory checkout" },
+  { title: "Early Cellular Telephone Networks", description: "Urban car-phone, case-phone, and pager systems in the early 1980s", href: "early-cellular-telephone-networks.html", tags: "early cellular telephone networks car phone case phone pager mobile radio roaming" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -3263,6 +3267,10 @@ const crossLinks = [
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }
+  ,{ href: "freight-container-standards.html", terms: ["Freight container standards", "containerization", "container standards"] }
+  ,{ href: "colour-television-standards.html", terms: ["Colour television standards", "color television standards", "colour television"] }
+  ,{ href: "machine-readable-product-codes.html", terms: ["Machine-readable product codes", "machine readable product codes", "product codes", "barcodes"] }
+  ,{ href: "early-cellular-telephone-networks.html", terms: ["Early cellular telephone networks", "cellular telephone", "car telephones", "pagers"] }
 ];
 
 function escapePattern(value) {
