@@ -1218,6 +1218,11 @@ const pages = [
   { title: "German Economic Regularization, 1951–1955", description: "Survey, clearing, commodity schedules, and the route to the Showroom Reich", href: "german-economic-regularization-1951-55.html", tags: "germany economic regularization great inventory clearing commodity schedule reconstruction 1951 1955" },
   { title: "Great Inventory of 1951", description: "Germany's empire-wide productive, financial, labor, and infrastructure survey", href: "great-inventory-1951.html", tags: "great inventory 1951 germany survey railways mines farms power labor currencies industry" },
   { title: "Imperial Clearing Regularization of 1952", description: "Verrechnungsmark accounts, commodity grades, and blocked purchasing rights", href: "imperial-clearing-regularization-1952.html", tags: "imperial clearing regularization 1952 verrechnungsmark currencies commodity grades blocked accounts" },
+  { title: "Second Israeli–Jordanian War", description: "The 1951–1954 conflict that tested and partially revised the Amman order", href: "second-israeli-jordanian-war.html", tags: "second israeli jordanian war second palestine war israel jordan jerusalem abdullah 1951 1954" },
+  { title: "Assassination of Abdullah I", description: "The Jerusalem killing that opened Jordan's succession crisis", href: "assassination-abdullah-i.html", tags: "abdullah i assassination 20 july 1951 jerusalem jordan king hussein talal" },
+  { title: "American Christian Zionism", description: "Protestant restorationism and an unofficial aid network for Israel", href: "american-christian-zionism.html", tags: "american christian zionism dispensationalism israel protestant relief bonds prophecy" },
+  { title: "Palestine Funds Controversy", description: "The fight over American religious fundraising and suspected militant diversion", href: "palestine-funds-controversy.html", tags: "palestine funds controversy 1954 1955 fundraising israel churches revisionist" },
+  { title: "Holy Office Instruction on Dispensationalism", description: "Pius XII's rejection of prophetic war theology and unconditional territorial claims", href: "holy-office-instruction-dispensationalism.html", tags: "holy office instruction dispensationalism pius xii christian zionism israel catholic" },
   { title: "Postwar Governments of the United Kingdom", description: "British ministries from the Brick Parliament to Responsible Independence", href: "postwar-british-governments.html", tags: "britain postwar governments prime ministers bevan butler powell wilson healey thatcher ashcombe" },
   { title: "George VI", description: "Wartime king and constitutional mediator of the post-defeat settlement", href: "george-vi.html", tags: "george vi king crown windsor westminster white parachutes commonwealth" },
   { title: "Elizabeth II", description: "Post-defeat sovereign and constitutional head of the British Commonwealth", href: "elizabeth-ii.html", tags: "elizabeth ii queen crown coronation commonwealth powell new elizabethans" },
@@ -2767,6 +2772,11 @@ const crossLinks = [
   ,{ href: "german-economic-regularization-1951-55.html", terms: ["German economic regularization", "economic regularization of 1951–1955"] }
   ,{ href: "great-inventory-1951.html", terms: ["Great Inventory of 1951", "Great Inventory"] }
   ,{ href: "imperial-clearing-regularization-1952.html", terms: ["Imperial clearing regularization", "clearing regularization of 1952"] }
+  ,{ href: "second-israeli-jordanian-war.html", terms: ["Second Israeli–Jordanian War", "Second Israeli-Jordanian War", "Second Palestine War"] }
+  ,{ href: "assassination-abdullah-i.html", terms: ["Assassination of Abdullah I", "Abdullah I's assassination", "Abdullah’s assassination"] }
+  ,{ href: "american-christian-zionism.html", terms: ["American Christian Zionism", "Christian-Zionist relief", "Christian Zionist"] }
+  ,{ href: "palestine-funds-controversy.html", terms: ["Palestine Funds controversy", "Palestine Funds"] }
+  ,{ href: "holy-office-instruction-dispensationalism.html", terms: ["Holy Office instruction on dispensationalism", "instruction on dispensationalism"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }
