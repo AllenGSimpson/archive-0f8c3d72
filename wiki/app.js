@@ -1,7 +1,7 @@
 const pages = [
   { title: "Main Page", description: "Portal to the fractured postwar world", href: "index.html", tags: "home overview map" },
   { title: "The World Order", description: "The five unequal power systems", href: "world.html", tags: "blocs germany japan italy america commonwealth" },
-  { title: "Setting Timeline", description: "Divergence through the five-party and network age of 2005", href: "timeline.html", tags: "chronology wwii war peace dates boom depression five party 2005" },
+  { title: "Setting Timeline", description: "Divergence through the mature planetary age of 2010", href: "timeline.html", tags: "chronology wwii war peace dates boom depression five party space 2010" },
   { title: "Greater German Reich", description: "Continental empire and Showroom Reich", href: "germany.html", tags: "germany reich wolfgang hitler goering east adolfstadt stalingrad volgograd volga" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
@@ -1591,7 +1591,13 @@ const pages = [
   { title: "Alfa Corse", description: "Alfa Romeo's public-industrial factory team in the founding Formula One field", href: "alfa-corse-formula-one.html", tags: "alfa corse romeo formula one team iri alfetta italy racing" },
   { title: "Scuderia Ferrari", description: "Enzo Ferrari's racing-led private-prestige Formula One institution", href: "scuderia-ferrari.html", tags: "scuderia ferrari enzo maranello formula one 125 italy racing" },
   { title: "Maserati Grand Prix Team", description: "The specialist works and customer-car constructor of the founding Formula One field", href: "maserati-formula-one-team.html", tags: "maserati formula one grand prix team 4clt customer cars italy racing" },
-  { title: "1951 International Grand Prix Cup", description: "The provisional competition that tested Formula One's rules, calendar, inspection, and arbitration", href: "international-grand-prix-cup-1951.html", tags: "1951 international grand prix cup formula one provisional geneva racing" }
+  { title: "1951 International Grand Prix Cup", description: "The provisional competition that tested Formula One's rules, calendar, inspection, and arbitration", href: "international-grand-prix-cup-1951.html", tags: "1951 international grand prix cup formula one provisional geneva racing" },
+  { title: "Mars Orbital Infrastructure", description: "The densest planetary system of mapping, weather, navigation, relay, landing support, and strategic spacecraft", href: "mars-orbital-infrastructure.html", tags: "mars orbital infrastructure satellites mapping weather navigation relay landing communications" },
+  { title: "Exploration of Venus", description: "Recurring radar, atmospheric, balloon, descent, and solar-wind missions to Venus", href: "exploration-of-venus.html", tags: "venus exploration orbiter radar mapping atmosphere balloon lander solar wind" },
+  { title: "Exploration of Mercury", description: "Sparse prestige orbiters overcoming the innermost planet's braking and thermal demands", href: "exploration-of-mercury.html", tags: "mercury exploration orbiter solar thermal gravity assist mapping" },
+  { title: "Heliocentric Observatory Network", description: "The distributed solar-weather and heliophysics system protecting mature space operations", href: "heliocentric-observatory-network.html", tags: "heliocentric observatory network sun solar weather heliophysics radiation" },
+  { title: "Asteroid-Belt Survey Network", description: "Survey craft, navigation references, relays, and resource prospecting from near-Earth space to Ceres and Vesta", href: "asteroid-belt-survey-network.html", tags: "asteroid belt survey network ceres vesta navigation resources water beacons" },
+  { title: "Exploration of the Outer Solar System", description: "First arrivals, gravity-assist flybys, and rare possible orbiters beyond the asteroid belt", href: "outer-solar-system-exploration.html", tags: "outer solar system exploration jupiter saturn uranus neptune gravity assist flyby" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2826,6 +2832,12 @@ const crossLinks = [
   ,{ href: "scuderia-ferrari.html", terms: ["Scuderia Ferrari"] }
   ,{ href: "maserati-formula-one-team.html", terms: ["Maserati Grand Prix team", "Maserati works team"] }
   ,{ href: "international-grand-prix-cup-1951.html", terms: ["1951 International Grand Prix Cup", "International Grand Prix Cup"] }
+  ,{ href: "mars-orbital-infrastructure.html", terms: ["Mars orbital infrastructure", "Martian orbital infrastructure"] }
+  ,{ href: "exploration-of-venus.html", terms: ["exploration of Venus", "Venus exploration"] }
+  ,{ href: "exploration-of-mercury.html", terms: ["exploration of Mercury", "Mercury exploration"] }
+  ,{ href: "heliocentric-observatory-network.html", terms: ["Heliocentric Observatory Network", "heliocentric observatory network"] }
+  ,{ href: "asteroid-belt-survey-network.html", terms: ["Asteroid-Belt Survey Network", "asteroid-belt survey network"] }
+  ,{ href: "outer-solar-system-exploration.html", terms: ["exploration of the outer Solar System", "outer Solar System exploration", "outer-planet exploration"] }
   ,{ href: "american-orbital-carrier-industry.html", terms: ["American orbital-carrier industry", "American orbital carrier industry"] }
   ,{ href: "american-lunar-resource-industry.html", terms: ["American lunar-resource industry", "American lunar resource industry"] }
   ,{ href: "american-orbital-habitat-industry.html", terms: ["American orbital-habitat industry", "American orbital habitat industry"] }

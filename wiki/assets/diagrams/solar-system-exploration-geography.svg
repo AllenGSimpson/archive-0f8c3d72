@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Solar System exploration geography by 2010</title>
+  <desc id="desc">A schematic showing dense Mars infrastructure, durable Venus observation, sparse Mercury orbiters, heliocentric observatories, the Ceres and Vesta survey corridor, and first outer-planet arrivals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131f"/><stop offset="1" stop-color="#13283b"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#fff7be"/><stop offset=".55" stop-color="#ffc85a"/><stop offset="1" stop-color="#db7c24"/></radialGradient>
+    <style>
+      .orbit{fill:none;stroke:#8aa8bd;stroke-width:1.5;stroke-dasharray:5 7;opacity:.45}.route{fill:none;stroke:#63c3dc;stroke-width:3;opacity:.7}.node{fill:#0e2536;stroke:#80b8d1;stroke-width:2}.head{font:700 24px Georgia,serif;fill:#f1f6f8}.label{font:700 18px Georgia,serif;fill:#f1f6f8}.copy{font:14px Arial,sans-serif;fill:#c9d7df}.tag{font:700 11px Arial,sans-serif;letter-spacing:1.4px;fill:#72cde4}.planet{stroke:#d7e1e6;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1200" height="690" rx="22" fill="url(#bg)"/>
+  <text x="48" y="50" class="head">From planetary missions to an exploration geography</text>
+  <text x="48" y="76" class="copy">By 2010 the inner system carries renewed infrastructure; the outer system remains a frontier of first arrivals.</text>
+  <g transform="translate(315 360)">
+    <circle r="40" fill="url(#sun)"/>
+    <circle r="75" class="orbit"/><circle r="115" class="orbit"/><circle r="162" class="orbit"/><circle r="220" class="orbit"/>
+    <circle cx="0" cy="-75" r="8" fill="#9a8d7d" class="planet"/><circle cx="109" cy="-37" r="12" fill="#d9a36f" class="planet"/><circle cx="-132" cy="94" r="13" fill="#5f91bd" class="planet"/><circle cx="-8" cy="220" r="11" fill="#b76143" class="planet"/>
+    <path d="M-8 220 C180 246 325 165 455 95" class="route"/>
+    <path d="M455 95 C540 45 610 -45 690 -150" class="route" stroke-dasharray="9 8"/>
+    <text x="13" y="-87" class="copy">Mercury</text><text x="126" y="-36" class="copy">Venus</text><text x="-170" y="87" class="copy">Earth–Moon</text><text x="8" y="242" class="copy">Mars</text>
+  </g>
+  <g transform="translate(40 115)"><rect width="260" height="104" rx="12" class="node"/><text x="16" y="25" class="tag">MERCURY</text><text x="16" y="51" class="label">Sparse prestige orbit</text><text x="16" y="75" class="copy">Thermal control, braking and</text><text x="16" y="94" class="copy">solar science define the challenge.</text></g>
+  <g transform="translate(330 105)"><rect width="260" height="104" rx="12" class="node"/><text x="16" y="25" class="tag">VENUS</text><text x="16" y="51" class="label">Durable observation</text><text x="16" y="75" class="copy">Radar mapping, atmosphere,</text><text x="16" y="94" class="copy">balloons and solar-wind research.</text></g>
+  <g transform="translate(620 105)"><rect width="260" height="104" rx="12" class="node"/><text x="16" y="25" class="tag">HELIOCENTRIC</text><text x="16" y="51" class="label">Distributed observatories</text><text x="16" y="75" class="copy">Solar weather becomes an</text><text x="16" y="94" class="copy">operational service for crews.</text></g>
+  <g transform="translate(900 105)"><rect width="260" height="104" rx="12" class="node"/><text x="16" y="25" class="tag">OUTER SYSTEM</text><text x="16" y="51" class="label">First arrivals</text><text x="16" y="75" class="copy">Jupiter and Saturn flybys;</text><text x="16" y="94" class="copy">rare orbiters, no serviced network.</text></g>
+  <g transform="translate(40 545)"><rect width="340" height="105" rx="12" class="node"/><text x="16" y="25" class="tag">MARS</text><text x="16" y="51" class="label">Densest planetary network</text><text x="16" y="75" class="copy">Weather, mapping, navigation, relay, landing</text><text x="16" y="94" class="copy">support and national encrypted channels.</text></g>
+  <g transform="translate(410 545)"><rect width="340" height="105" rx="12" class="node"/><text x="16" y="25" class="tag">CERES–VESTA CORRIDOR</text><text x="16" y="51" class="label">Survey and route preparation</text><text x="16" y="75" class="copy">Resource reconnaissance, beacons and Latin</text><text x="16" y="94" class="copy">preparation for long-endurance operations.</text></g>
+  <g transform="translate(780 545)"><rect width="380" height="105" rx="12" class="node"/><text x="16" y="25" class="tag">COMMON CONDITION</text><text x="16" y="51" class="label">Interoperable, not unified</text><text x="16" y="75" class="copy">Emergency and scientific exchange coexist with</text><text x="16" y="94" class="copy">separate ownership, command and encryption.</text></g>
+</svg>
