@@ -410,6 +410,11 @@ const pages = [
   { title: "Lunar Far Side", description: "The relay-dependent cratered hemisphere and South Pole–Aitken basin", href: "lunar-far-side.html", tags: "lunar far side hemisphere relay radio quiet south pole aitken geography" },
   { title: "Lunar South-Polar Region", description: "Ice-bearing rugged terrain and the Mondhafen Süd operating system", href: "lunar-south-polar-region.html", tags: "lunar moon south pole polar region shackleton ice mondhafen sud germany" },
   { title: "Lunar North-Polar Region", description: "Volatile-bearing northern terrain and Japanese power infrastructure", href: "lunar-north-polar-region.html", tags: "lunar moon north pole polar region ice japan power station kaguya kennedy" },
+  { title: "Lunar Water and Ice", description: "Polar cold traps, discovery, extraction, and the five-system volatile economy", href: "lunar-water-and-ice.html", tags: "lunar moon water ice volatile cold traps polar extraction oxygen hydrogen propellant" },
+  { title: "Lunar Regolith", description: "The Moon's loose surface material as resource, archive, and operational hazard", href: "lunar-regolith.html", tags: "lunar moon regolith dust soil surface construction shielding oxygen hazard" },
+  { title: "South Pole–Aitken Basin", description: "The immense ancient impact basin across the southern lunar far side", href: "south-pole-aitken-basin.html", tags: "moon lunar south pole aitken basin spa far side impact geology" },
+  { title: "Shackleton Crater", description: "The illuminated-rim and permanently shadowed crater at the lunar south pole", href: "shackleton-crater.html", tags: "moon lunar shackleton crater south pole illumination shadow ice" },
+  { title: "Procellarum KREEP Terrane", description: "The near-side geochemical province central to lunar thorium planning", href: "procellarum-kreep-terrane.html", tags: "moon lunar procellarum kreep terrane thorium uranium rare earth near side geology" },
   { title: "Mars", description: "The physical planet and four-system geography of human settlement", href: "mars.html", tags: "mars red planet geography settlements germany britain america japan tharsis amazonis valles" },
   { title: "Tharsis", description: "The great Martian volcanic rise containing the first human settlement region", href: "tharsis.html", tags: "tharsis mars volcanic rise arsia pavonis ascraeus olympus german base geography" },
   { title: "Amazonis Planitia", description: "The smooth northern plain containing the American corporate settlement region", href: "amazonis-planitia.html", tags: "amazonis planitia mars plain american corporate outpost olympus landing geography" },
@@ -3839,6 +3844,11 @@ const crossLinks = [
   ,{ href: "cislunar-transportation-economy.html", terms: ["cislunar transportation economy", "cislunar economy"] }
   ,{ href: "orbital-tugs-tankers.html", terms: ["orbital tugs and tankers", "orbital tugs", "space tankers"] }
   ,{ href: "lunar-mining-materials-industry.html", terms: ["lunar mining and materials industry", "lunar mining and metallurgy", "lunar materials industry"] }
+  ,{ href: "lunar-water-and-ice.html", terms: ["lunar water and ice", "lunar water", "lunar ice", "polar ice", "water ice"] }
+  ,{ href: "lunar-regolith.html", terms: ["lunar regolith", "regolith"] }
+  ,{ href: "south-pole-aitken-basin.html", terms: ["South Pole–Aitken basin", "South Pole-Aitken basin", "SPA basin"] }
+  ,{ href: "shackleton-crater.html", terms: ["Shackleton crater", "Shackleton"] }
+  ,{ href: "procellarum-kreep-terrane.html", terms: ["Procellarum KREEP Terrane", "KREEP Terrane", "Procellarum KREEP"] }
   ,{ href: "rotating-habitation.html", terms: ["rotating habitation", "rotating habitats"] }
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
