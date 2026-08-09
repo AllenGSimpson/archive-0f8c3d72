@@ -458,17 +458,17 @@ window.deepArticles["american-hemisphere"] = {
       <tr><td><a href="panama.html">Panama</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>Formally sovereign; expanded American Canal defenses</td></tr>
       <tr><td rowspan="13">Caribbean</td><td>Antigua and Barbuda</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state</td></tr>
       <tr><td><a href="bahamas.html">The Bahamas</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
-      <tr><td>Barbados</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
+      <tr><td><a href="barbados.html">Barbados</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td><a href="cuba.html">Cuba</a></td><td><span class="bloc-tag bloc-neutral">Neutral / Independent</span></td><td>Fortress state contained but not controlled by Washington</td></tr>
       <tr><td>Dominica</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state</td></tr>
-      <tr><td>Dominican Republic</td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American security-aligned</td></tr>
-      <tr><td>Grenada</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state; alignment periodically contested</td></tr>
-      <tr><td>Haiti</td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American-dependent security state</td></tr>
+      <tr><td><a href="dominican-republic.html">Dominican Republic</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American security-aligned</td></tr>
+      <tr><td><a href="grenada.html">Grenada</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state; alignment periodically contested</td></tr>
+      <tr><td><a href="haiti.html">Haiti</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American-dependent security state</td></tr>
       <tr><td><a href="jamaica.html">Jamaica</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td>Saint Kitts and Nevis</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td>Saint Lucia</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td>Saint Vincent and the Grenadines</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
-      <tr><td>Trinidad and Tobago</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state and energy producer</td></tr>
+      <tr><td><a href="trinidad-and-tobago.html">Trinidad and Tobago</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state and energy producer</td></tr>
       <tr><td rowspan="13">South America</td><td><a href="argentina.html">Argentina</a></td><td><span class="bloc-tag bloc-einheit">Einheitspakt</span></td><td>Independent associated state and German arsenal partner</td></tr>
       <tr><td><a href="bolivia.html">Bolivia</a></td><td><span class="bloc-tag bloc-neutral">Neutral / Independent</span></td><td>Landlocked balancer courted through minerals and arms</td></tr>
       <tr><td><a href="brazil.html">Brazil</a></td><td><span class="bloc-tag bloc-latin">Latin Bloc</span></td><td>Independent Latin-leaning power through Portugal</td></tr>
@@ -476,7 +476,7 @@ window.deepArticles["american-hemisphere"] = {
       <tr><td><a href="colombia.html">Colombia</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American-associated security state</td></tr>
       <tr><td><a href="ecuador.html">Ecuador</a></td><td><span class="bloc-tag bloc-geacps">GEACPS</span></td><td>Japanese-leaning Pacific commercial and port partner</td></tr>
       <tr><td>French Guianese successor</td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American defense associate formed from an orphaned colony</td></tr>
-      <tr><td>Guyana</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state</td></tr>
+      <tr><td><a href="guyana.html">Guyana</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state</td></tr>
       <tr><td><a href="paraguay.html">Paraguay</a></td><td><span class="bloc-tag bloc-neutral">Neutral / Independent</span></td><td>Authoritarian inland balancer</td></tr>
       <tr><td><a href="peru.html">Peru</a></td><td><span class="bloc-tag bloc-geacps">GEACPS</span></td><td>Sovereign Japanese-associated Pacific partner</td></tr>
       <tr><td><a href="suriname.html">Suriname</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American defense associate without annexation</td></tr>

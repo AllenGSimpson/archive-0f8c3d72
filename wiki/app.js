@@ -13,6 +13,12 @@ const pages = [
   { title: "Jamaica", description: "The principal English-speaking Commonwealth state of the western Caribbean", href: "jamaica.html", tags: "jamaica kingston commonwealth realm caribbean bauxite independence" },
   { title: "The Bahamas", description: "The Commonwealth archipelago inside the immediate American maritime perimeter", href: "bahamas.html", tags: "bahamas nassau commonwealth realm caribbean tourism finance florida" },
   { title: "Commonwealth Caribbean", description: "The regional Commonwealth network inside the American maritime perimeter", href: "commonwealth-caribbean.html", tags: "commonwealth caribbean jamaica belize bahamas barbados guyana trinidad islands" },
+  { title: "Dominican Republic", description: "American security alignment and Hispanic diplomacy on eastern Hispaniola", href: "dominican-republic.html", tags: "dominican republic santo domingo trujillo hispaniola american hemisphere spain latin" },
+  { title: "Haiti", description: "The American-dependent security state of western Hispaniola", href: "haiti.html", tags: "haiti port au prince duvalier hispaniola american hemisphere dependent security state" },
+  { title: "Barbados", description: "The parliamentary Commonwealth realm of the eastern Caribbean", href: "barbados.html", tags: "barbados bridgetown commonwealth realm caribbean independence broken trident" },
+  { title: "Trinidad and Tobago", description: "The Commonwealth Caribbean's principal energy and industrial republic", href: "trinidad-and-tobago.html", tags: "trinidad tobago port of spain commonwealth republic oil gas energy caribbean" },
+  { title: "Guyana", description: "The Commonwealth republic of the Guiana coast and Essequibo frontier", href: "guyana.html", tags: "guyana georgetown commonwealth republic essequibo venezuela guiana caribbean" },
+  { title: "Grenada", description: "The periodically contested Commonwealth realm of the Windward Islands", href: "grenada.html", tags: "grenada st george commonwealth realm windward nutmeg contested alignment caribbean" },
   { title: "Charles Lindbergh", description: "Aviator, America First spokesman, and first national leader of National Renewal", href: "charles-lindbergh.html", tags: "charles lindbergh aviator national renewal america first minnesota presidential candidate antisemitism" },
   { title: "1948 United States Presidential Election", description: "The four-way election that brings Dewey and Warren to office", href: "1948-united-states-presidential-election.html", tags: "1948 election dewey warren byrnes recovery democrats progressive national renewal" },
   { title: "1952 United States Presidential Election", description: "Dewey's narrow reelection and Lindbergh's Minnesota breakthrough", href: "1952-united-states-presidential-election.html", tags: "1952 election dewey warren lindbergh minnesota national renewal" },
@@ -2837,6 +2843,12 @@ const crossLinks = [
   ,{ href: "jamaica.html", terms: ["Jamaica", "Jamaican"] }
   ,{ href: "bahamas.html", terms: ["Commonwealth of The Bahamas", "The Bahamas", "Bahamas", "Bahamian"] }
   ,{ href: "commonwealth-caribbean.html", terms: ["Commonwealth Caribbean", "British Caribbean"] }
+  ,{ href: "dominican-republic.html", terms: ["Dominican Republic", "Dominican"] }
+  ,{ href: "haiti.html", terms: ["Republic of Haiti", "Haiti", "Haitian"] }
+  ,{ href: "barbados.html", terms: ["Barbados", "Barbadian"] }
+  ,{ href: "trinidad-and-tobago.html", terms: ["Republic of Trinidad and Tobago", "Trinidad and Tobago", "Trinidadian", "Tobagonian"] }
+  ,{ href: "guyana.html", terms: ["Co-operative Republic of Guyana", "Guyana", "Guyanese"] }
+  ,{ href: "grenada.html", terms: ["Grenada", "Grenadian"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }

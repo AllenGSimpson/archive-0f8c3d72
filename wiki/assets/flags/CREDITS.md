@@ -61,6 +61,12 @@ These local SVG copies are used for identification in a critical fictional alter
 | `belize.svg` | Belize | [Flag of Belize](https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg) | Official flag; see Commons file page |
 | `jamaica.svg` | Jamaica | [Flag of Jamaica](https://commons.wikimedia.org/wiki/File:Flag_of_Jamaica.svg) | Official flag; see Commons file page |
 | `bahamas.svg` | The Bahamas | [Flag of The Bahamas](https://commons.wikimedia.org/wiki/File:Flag_of_the_Bahamas.svg) | Original local SVG rendering of the official 1973 design |
+| `dominican-republic.svg` | Dominican Republic | [Flag of the Dominican Republic](https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg) | Official flag; see Commons file page |
+| `haiti-1964.svg` | Haiti under the Duvalier government | [Flag of Haiti, 1964–1986](https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(1964%E2%80%931986).svg) | Historical flag appropriate to the 1985 working framework; see Commons file page |
+| `barbados.svg` | Barbados | [Flag of Barbados](https://commons.wikimedia.org/wiki/File:Flag_of_Barbados.svg) | Official independence flag; see Commons file page |
+| `trinidad-tobago.svg` | Trinidad and Tobago | [Flag of Trinidad and Tobago](https://commons.wikimedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg) | Official independence flag; see Commons file page |
+| `guyana.svg` | Guyana | [Flag of Guyana](https://commons.wikimedia.org/wiki/File:Flag_of_Guyana.svg) | Official independence flag; see Commons file page |
+| `grenada.svg` | Grenada | [Flag of Grenada](https://commons.wikimedia.org/wiki/File:Flag_of_Grenada.svg) | Official independence flag; see Commons file page |
 | `tannu-tuva-1943.svg` | Tannu Tuva; working continuity flag | [Flag of the Tuvan People's Republic, 1943–1944](https://commons.wikimedia.org/wiki/File:Flag_of_the_Tuvan_People%27s_Republic_(1943-1944).svg) | Public-domain official symbol; locally preserved as simplified source SVG |
 | `bulgaria.svg` | Kingdom of Bulgaria | Bulgarian white, green, and red national tricolor | Original local SVG rendering of the established national design |
 | `serbia.svg` | Italian Protectorate of Serbia | Serbian red, blue, and white national tricolor | Original local SVG rendering of the established national design |
