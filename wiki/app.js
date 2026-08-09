@@ -1609,7 +1609,14 @@ const pages = [
   { title: "Reconstruction Labour", description: "The Labour Party rebuilt under Aneurin Bevan after British defeat", href: "reconstruction-labour.html", tags: "reconstruction labour bevan brick parliament party socialism" },
   { title: "Conservative and Unionist Party", description: "Butler's rebuilt party of contracts, Crown, Commonwealth, and administrative competence", href: "conservative-party-united-kingdom.html", tags: "conservative unionist party butler macmillan powell britain" },
   { title: "Liberal Party", description: "The civil-libertarian, procedural, local-government, and commercial-liberal force", href: "liberal-party-united-kingdom.html", tags: "liberal party britain civil liberties electoral reform inquiry thatcher" },
-  { title: "Post-Defeat British Party System", description: "The five-party parliamentary order created by the White Parachute Election", href: "post-defeat-british-party-system.html", tags: "post defeat british party system five party 1947 brick parliament" }
+  { title: "Post-Defeat British Party System", description: "The five-party parliamentary order created by the White Parachute Election", href: "post-defeat-british-party-system.html", tags: "post defeat british party system five party 1947 brick parliament" },
+  { title: "J. B. Priestley", description: "Writer, broadcaster, and moral public voice of Common Wealth", href: "jb-priestley.html", tags: "jb priestley writer broadcaster common wealth 1941 committee" },
+  { title: "Tom Wintringham", description: "Military writer, citizen-defence advocate, and Common Wealth founder", href: "tom-wintringham.html", tags: "tom wintringham military writer home guard common wealth citizen defence" },
+  { title: "James Callaghan", description: "Labour politician and Royal Navy veteran of the 1947 generation", href: "james-callaghan.html", tags: "james callaghan labour royal navy transport veterans" },
+  { title: "Michael Foot", description: "Labour journalist associated with press freedom and parliamentary reform", href: "michael-foot.html", tags: "michael foot labour journalist tribune press freedom" },
+  { title: "Barbara Castle", description: "Labour politician associated with housing, supply, and social administration", href: "barbara-castle.html", tags: "barbara castle labour housing supply social administration" },
+  { title: "Roy Jenkins", description: "Labour politician, civil-liberties reformer, and biographer", href: "roy-jenkins.html", tags: "roy jenkins labour civil liberties legal reform biography" },
+  { title: "1941 Committee", description: "Wartime reconstruction group that helped create Common Wealth", href: "1941-committee.html", tags: "1941 committee priestley common wealth nine point plan reconstruction" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2204,6 +2211,13 @@ const crossLinks = [
   { href: "reconstruction-labour.html", terms: ["Reconstruction Labour"] },
   { href: "conservative-party-united-kingdom.html", terms: ["Conservative and Unionist Party"] },
   { href: "liberal-party-united-kingdom.html", terms: ["Liberal Party"] },
+  { href: "jb-priestley.html", terms: ["J. B. Priestley", "J.B. Priestley"] },
+  { href: "tom-wintringham.html", terms: ["Tom Wintringham"] },
+  { href: "james-callaghan.html", terms: ["James Callaghan"] },
+  { href: "michael-foot.html", terms: ["Michael Foot"] },
+  { href: "barbara-castle.html", terms: ["Barbara Castle"] },
+  { href: "roy-jenkins.html", terms: ["Roy Jenkins"] },
+  { href: "1941-committee.html", terms: ["1941 Committee"] },
   { href: "muscat-articles.html", terms: ["Muscat Articles"] },
   { href: "falklands-war.html", terms: ["Falklands–Malvinas War", "Falklands War", "Second Torch", "Punta del Este Protocols"] },
   { href: "war-of-the-chiefs.html", terms: ["Mittelafrikanischer Häuptlingskrieg", "Häuptlingskrieg", "War of the Chiefs"] },
