@@ -316,6 +316,9 @@ const pages = [
   { title: "Konrad Dannenberg", description: "Propulsion and stage-integration engineer for German heavy launch vehicles", href: "konrad-dannenberg.html", tags: "konrad dannenberg propulsion stages peenemunde heavy launch moon" },
   { title: "Krafft Ehricke", description: "Astronautical strategist for industrial orbit, lunar settlement, and Mars", href: "krafft-ehricke.html", tags: "krafft ehricke extraterrestrial imperative moon mars orbital industry nuclear propulsion" },
   { title: "Hermann Oberth", description: "Foundational rocket theorist and elder prophet of German astronautics", href: "hermann-oberth.html", tags: "hermann oberth rocket pioneer astronautics teacher von braun space stations" },
+  { title: "Philippine Independence Assistance Program", description: "Japan's compartmented political and covert program organized around the Siam Formula", href: "philippine-independence-assistance-program.html", tags: "philippine independence assistance program siam formula shigemitsu japan davao papers covert action" },
+  { title: "National Commonwealth Corridor", description: "Canada's sovereign east–west rail, road, pipeline, port, and communications system", href: "national-commonwealth-corridor.html", tags: "national commonwealth corridor canada rail road pipeline halifax churchill vancouver prince rupert infrastructure" },
+  { title: "No Third Torch doctrine", description: "Britain's rule against operations driven by politically uncomfortable delay", href: "no-third-torch-doctrine.html", tags: "no third torch doctrine second torch thatcher falklands strategy logistics sustainable lodgment" },
   { title: "Manfred Rommel", description: "Municipal administrator and keeper of Erwin Rommel's civic and family legacy", href: "manfred-rommel.html", tags: "manfred rommel stuttgart municipal civic family memory 1970" },
   { title: "Helmut Goebbels", description: "Documentary director and custodian of the Goebbels family-cultural inheritance", href: "helmut-goebbels.html", tags: "helmut goebbels documentary television archive family cultural inheritance 1971" },
   { title: "Albert Speer Jr.", description: "Architect, urban planner, and deliberately limited heir to the Speer design inheritance", href: "albert-speer-jr.html", tags: "albert speer junior architect urban planner technical cities transport 1977" },
@@ -3188,6 +3191,9 @@ const crossLinks = [
   ,{ href: "konrad-dannenberg.html", terms: ["Konrad Dannenberg", "Dannenberg"] }
   ,{ href: "krafft-ehricke.html", terms: ["Krafft Ehricke", "Ehricke"] }
   ,{ href: "hermann-oberth.html", terms: ["Hermann Oberth", "Oberth"] }
+  ,{ href: "philippine-independence-assistance-program.html", terms: ["Philippine Independence Assistance Program", "Independence Assistance Program", "Siam Formula"] }
+  ,{ href: "national-commonwealth-corridor.html", terms: ["National Commonwealth Corridor", "All-Canadian Corridor"] }
+  ,{ href: "no-third-torch-doctrine.html", terms: ["No Third Torch doctrine", "No Third Torch"] }
   ,{ href: "manfred-rommel.html", terms: ["Manfred Rommel"] }
   ,{ href: "helmut-goebbels.html", terms: ["Helmut Goebbels"] }
   ,{ href: "albert-speer-jr.html", terms: ["Albert Speer Jr.", "Albert Speer Junior"] }
