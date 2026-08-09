@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Postwar papal succession from Pius XII to Pius XIII</title>
+  <desc id="desc">A timeline connects the pontificates of Pius XII, Gregory XVII, Paul VI, and Pius XIII through the conclaves of 1958, 1971, and 1982.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08131b"/><stop offset="1" stop-color="#18242d"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="url(#bg)"/>
+  <text x="60" y="68" fill="#f3f0e8" font-family="Georgia,serif" font-size="32">The postwar Roman succession</text>
+  <text x="60" y="103" fill="#9eb0ba" font-family="Arial,sans-serif" font-size="17">Four pontificates joined by three elections and one continuous constitutional settlement</text>
+  <path d="M130 330H1070" stroke="#6f7f88" stroke-width="5" stroke-linecap="round"/>
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(55 150)">
+      <rect width="250" height="280" rx="18" fill="#27231f" stroke="#bca26e" stroke-width="3"/>
+      <text x="125" y="47" text-anchor="middle" fill="#f7f0de" font-size="22" font-weight="700">PIUS XII</text>
+      <text x="125" y="78" text-anchor="middle" fill="#cfbf9e" font-size="14">1939–1958</text>
+      <circle cx="125" cy="133" r="34" fill="#8b744b"/>
+      <text x="125" y="141" text-anchor="middle" fill="#fff" font-size="24">PXII</text>
+      <text x="125" y="195" text-anchor="middle" fill="#e7eaec" font-size="15">Wartime diplomacy</text>
+      <text x="125" y="219" text-anchor="middle" fill="#e7eaec" font-size="15">Postwar reconstruction</text>
+      <text x="125" y="243" text-anchor="middle" fill="#e7eaec" font-size="15">Eastern preparation</text>
+    </g>
+    <g transform="translate(330 150)">
+      <rect width="250" height="280" rx="18" fill="#1d2827" stroke="#70a19a" stroke-width="3"/>
+      <text x="125" y="47" text-anchor="middle" fill="#e8f4f1" font-size="22" font-weight="700">GREGORY XVII</text>
+      <text x="125" y="78" text-anchor="middle" fill="#aed0ca" font-size="14">1958–1971</text>
+      <circle cx="125" cy="133" r="34" fill="#4d837a"/>
+      <text x="125" y="141" text-anchor="middle" fill="#fff" font-size="23">GXVII</text>
+      <text x="125" y="195" text-anchor="middle" fill="#e7eaec" font-size="15">Eastern turn</text>
+      <text x="125" y="219" text-anchor="middle" fill="#e7eaec" font-size="15">Council of Christ the King</text>
+      <text x="125" y="243" text-anchor="middle" fill="#e7eaec" font-size="15">Ecclesial patrimony</text>
+    </g>
+    <g transform="translate(605 150)">
+      <rect width="250" height="280" rx="18" fill="#252331" stroke="#8f84b7" stroke-width="3"/>
+      <text x="125" y="47" text-anchor="middle" fill="#f0ecfa" font-size="22" font-weight="700">PAUL VI</text>
+      <text x="125" y="78" text-anchor="middle" fill="#c5bddd" font-size="14">1971–1981</text>
+      <circle cx="125" cy="133" r="34" fill="#6d6495"/>
+      <text x="125" y="141" text-anchor="middle" fill="#fff" font-size="24">PVI</text>
+      <text x="125" y="195" text-anchor="middle" fill="#e7eaec" font-size="15">Doctrinal reception</text>
+      <text x="125" y="219" text-anchor="middle" fill="#e7eaec" font-size="15">Administrative consolidation</text>
+      <text x="125" y="243" text-anchor="middle" fill="#e7eaec" font-size="15">Permanent space pastorate</text>
+    </g>
+    <g transform="translate(880 150)">
+      <rect width="250" height="280" rx="18" fill="#24292f" stroke="#7f9aaf" stroke-width="3"/>
+      <text x="125" y="47" text-anchor="middle" fill="#eaf2f7" font-size="22" font-weight="700">PIUS XIII</text>
+      <text x="125" y="78" text-anchor="middle" fill="#bbcedb" font-size="14">from 1982</text>
+      <circle cx="125" cy="133" r="34" fill="#55798f"/>
+      <text x="125" y="141" text-anchor="middle" fill="#fff" font-size="23">PXIII</text>
+      <text x="125" y="195" text-anchor="middle" fill="#e7eaec" font-size="15">Canonical settlement</text>
+      <text x="125" y="219" text-anchor="middle" fill="#e7eaec" font-size="15">Roman continuity</text>
+      <text x="125" y="243" text-anchor="middle" fill="#e7eaec" font-size="15">Eastern rights in law</text>
+    </g>
+  </g>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <circle cx="318" cy="330" r="10" fill="#d5bd73"/><text x="318" y="468" fill="#d5bd73" font-size="15" font-weight="700">1958 CONCLAVE</text><text x="318" y="492" fill="#9eb0ba" font-size="13">Agagianian elected</text>
+    <circle cx="593" cy="330" r="10" fill="#d5bd73"/><text x="593" y="468" fill="#d5bd73" font-size="15" font-weight="700">1971 CONCLAVE</text><text x="593" y="492" fill="#9eb0ba" font-size="13">Šeper elected</text>
+    <circle cx="868" cy="330" r="10" fill="#d5bd73"/><text x="868" y="468" fill="#d5bd73" font-size="15" font-weight="700">1982 CONCLAVE</text><text x="868" y="492" fill="#9eb0ba" font-size="13">Siri elected</text>
+  </g>
+  <text x="600" y="560" text-anchor="middle" fill="#e5e9eb" font-family="Georgia,serif" font-size="19">Preparation · vision · administration · law</text>
+  <text x="600" y="587" text-anchor="middle" fill="#879ba7" font-family="Arial,sans-serif" font-size="13">The later popes described the sequence as continuity, not alternating restoration and rupture.</text>
+</svg>
