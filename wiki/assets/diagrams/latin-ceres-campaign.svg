@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Latin Ceres campaign sequence</title>
+  <desc id="desc">Six-stage campaign from selecting Ceres through robotic surveys, ship preparation, belt transit, orbital reconnaissance, and the first human landing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111018"/><stop offset="1" stop-color="#221c2c"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12Z" fill="#d5b25b"/></marker>
+    <style>.title{font:700 40px Georgia,serif;fill:#f1e8d7}.sub{font:600 17px Arial,sans-serif;letter-spacing:3px;fill:#bca9c8}.box{fill:#241f31;stroke:#79668a;stroke-width:3;rx:18}.final{fill:#33271f;stroke:#a77a55;stroke-width:3;rx:18}.num{font:700 18px Arial,sans-serif;fill:#d5b25b}.head{font:700 20px Georgia,serif;fill:#f4ead7}.copy{font:15px Arial,sans-serif;fill:#d7cedd}.line{stroke:#d5b25b;stroke-width:5;fill:none;marker-end:url(#arrow)}.foot{font:15px Arial,sans-serif;fill:#bfb3c5}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="68" text-anchor="middle" class="title">THE LATIN ROAD TO CERES</text>
+  <text x="800" y="105" text-anchor="middle" class="sub">FIFTEEN YEARS FROM ORBITAL PORT TO FIRST LANDING</text>
+  <rect x="55" y="205" width="300" height="190" class="box"/><text x="205" y="243" text-anchor="middle" class="num">01</text><text x="205" y="278" text-anchor="middle" class="head">CHOOSE THE BELT</text><text x="205" y="316" text-anchor="middle" class="copy">Distinct from four Mars programs</text><text x="205" y="345" text-anchor="middle" class="copy">Science · water · outward routes</text>
+  <rect x="465" y="205" width="300" height="190" class="box"/><text x="615" y="243" text-anchor="middle" class="num">02</text><text x="615" y="278" text-anchor="middle" class="head">SURVEY ROBOTICALLY</text><text x="615" y="316" text-anchor="middle" class="copy">Ceres and hydrated bodies</text><text x="615" y="345" text-anchor="middle" class="copy">Resources · navigation · landing</text>
+  <rect x="875" y="205" width="300" height="190" class="box"/><text x="1025" y="243" text-anchor="middle" class="num">03</text><text x="1025" y="278" text-anchor="middle" class="head">BUILD THE SHIP</text><text x="1025" y="316" text-anchor="middle" class="copy">Stella Maris exploration yard</text><text x="1025" y="345" text-anchor="middle" class="copy">Nuclear endurance and repair</text>
+  <rect x="1285" y="205" width="260" height="190" class="box"/><text x="1415" y="243" text-anchor="middle" class="num">04</text><text x="1415" y="278" text-anchor="middle" class="head">CROSS THE BELT</text><text x="1415" y="316" text-anchor="middle" class="copy">Long-duration voyage</text><text x="1415" y="345" text-anchor="middle" class="copy">Probes and water trials</text>
+  <path d="M355 300H465" class="line"/><path d="M765 300H875" class="line"/><path d="M1175 300H1285" class="line"/>
+  <rect x="420" y="535" width="340" height="190" class="box"/><text x="590" y="573" text-anchor="middle" class="num">05</text><text x="590" y="608" text-anchor="middle" class="head">SURVEY CERES CLOSELY</text><text x="590" y="646" text-anchor="middle" class="copy">Orbit · terrain · illumination</text><text x="590" y="675" text-anchor="middle" class="copy">Touchdown and rendezvous rules</text>
+  <rect x="900" y="535" width="340" height="190" class="final"/><text x="1070" y="573" text-anchor="middle" class="num">06</text><text x="1070" y="608" text-anchor="middle" class="head">LAND PEOPLE</text><text x="1070" y="646" text-anchor="middle" class="copy">Low-gravity surface expedition</text><text x="1070" y="675" text-anchor="middle" class="copy">Return to the orbital ship</text>
+  <path d="M1415 395V465Q1415 500 1370 500H590V535" class="line"/><path d="M760 630H900" class="line"/>
+  <text x="800" y="825" text-anchor="middle" class="foot">The campaign ends in a first landing, not an automatically permanent settlement or a settled ownership claim.</text>
+</svg>
