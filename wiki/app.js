@@ -6,6 +6,13 @@ const pages = [
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
+  { title: "Costa Rica", description: "The civilian neutral republic inside the Central American security corridor", href: "costa-rica.html", tags: "costa rica san jose neutral independent civilian republic no standing army central america" },
+  { title: "Guatemala", description: "American-aligned security republic shaped by land conflict and the Belize frontier", href: "guatemala.html", tags: "guatemala american hemisphere security state insurgency maya belize central america" },
+  { title: "El Salvador", description: "Densely settled American-aligned republic divided by land and insurgency", href: "el-salvador.html", tags: "el salvador san salvador american hemisphere security state insurgency honduras central america" },
+  { title: "Belize", description: "The sovereign Commonwealth realm and mainland Caribbean foothold", href: "belize.html", tags: "belize british honduras commonwealth realm guatemala caribbean central america belmopan" },
+  { title: "Jamaica", description: "The principal English-speaking Commonwealth state of the western Caribbean", href: "jamaica.html", tags: "jamaica kingston commonwealth realm caribbean bauxite independence" },
+  { title: "The Bahamas", description: "The Commonwealth archipelago inside the immediate American maritime perimeter", href: "bahamas.html", tags: "bahamas nassau commonwealth realm caribbean tourism finance florida" },
+  { title: "Commonwealth Caribbean", description: "The regional Commonwealth network inside the American maritime perimeter", href: "commonwealth-caribbean.html", tags: "commonwealth caribbean jamaica belize bahamas barbados guyana trinidad islands" },
   { title: "Charles Lindbergh", description: "Aviator, America First spokesman, and first national leader of National Renewal", href: "charles-lindbergh.html", tags: "charles lindbergh aviator national renewal america first minnesota presidential candidate antisemitism" },
   { title: "1948 United States Presidential Election", description: "The four-way election that brings Dewey and Warren to office", href: "1948-united-states-presidential-election.html", tags: "1948 election dewey warren byrnes recovery democrats progressive national renewal" },
   { title: "1952 United States Presidential Election", description: "Dewey's narrow reelection and Lindbergh's Minnesota breakthrough", href: "1952-united-states-presidential-election.html", tags: "1952 election dewey warren lindbergh minnesota national renewal" },
@@ -2823,6 +2830,13 @@ const crossLinks = [
   ,{ href: "howard-phillips.html", terms: ["Howard Phillips", "Phillips"] }
   ,{ href: "henry-m-jackson.html", terms: ["Henry M. Jackson", "Henry Jackson", "Scoop Jackson"] }
   ,{ href: "jack-kemp.html", terms: ["Jack Kemp", "Kemp"] }
+  ,{ href: "costa-rica.html", terms: ["Republic of Costa Rica", "Costa Rica"] }
+  ,{ href: "guatemala.html", terms: ["Republic of Guatemala", "Guatemala"] }
+  ,{ href: "el-salvador.html", terms: ["Republic of El Salvador", "El Salvador", "Salvadoran"] }
+  ,{ href: "belize.html", terms: ["Belize", "British Honduras"] }
+  ,{ href: "jamaica.html", terms: ["Jamaica", "Jamaican"] }
+  ,{ href: "bahamas.html", terms: ["Commonwealth of The Bahamas", "The Bahamas", "Bahamas", "Bahamian"] }
+  ,{ href: "commonwealth-caribbean.html", terms: ["Commonwealth Caribbean", "British Caribbean"] }
   ,{ href: "postwar-british-governments.html", terms: ["Postwar governments of the United Kingdom", "postwar British governments"] }
   ,{ href: "george-vi.html", terms: ["George VI"] }
   ,{ href: "elizabeth-ii.html", terms: ["Elizabeth II", "Queen Elizabeth II", "Princess Elizabeth"] }

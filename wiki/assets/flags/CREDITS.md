@@ -55,6 +55,12 @@ These local SVG copies are used for identification in a critical fictional alter
 | `colombia.svg` | Colombia | [Flag of Colombia](https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg) | Public-domain flag |
 | `cuba.svg` | Cuba | [Flag of Cuba](https://commons.wikimedia.org/wiki/File:Flag_of_Cuba.svg) | Public-domain flag |
 | `honduras.svg` | Honduras | [Flag of Honduras](https://commons.wikimedia.org/wiki/File:Flag_of_Honduras.svg) | Official flag; see Commons file page |
+| `costa-rica.svg` | Costa Rica | [Flag of Costa Rica](https://commons.wikimedia.org/wiki/File:Flag_of_Costa_Rica.svg) | Local SVG rendering of the official civil and national flag design, avoiding the post-1998 arms on the current state flag |
+| `guatemala.svg` | Guatemala | [Flag of Guatemala](https://commons.wikimedia.org/wiki/File:Flag_of_Guatemala.svg) | Official flag; see Commons file page |
+| `el-salvador.svg` | El Salvador | [Flag of El Salvador](https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg) | Official flag; see Commons file page |
+| `belize.svg` | Belize | [Flag of Belize](https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg) | Official flag; see Commons file page |
+| `jamaica.svg` | Jamaica | [Flag of Jamaica](https://commons.wikimedia.org/wiki/File:Flag_of_Jamaica.svg) | Official flag; see Commons file page |
+| `bahamas.svg` | The Bahamas | [Flag of The Bahamas](https://commons.wikimedia.org/wiki/File:Flag_of_the_Bahamas.svg) | Original local SVG rendering of the official 1973 design |
 | `tannu-tuva-1943.svg` | Tannu Tuva; working continuity flag | [Flag of the Tuvan People's Republic, 1943–1944](https://commons.wikimedia.org/wiki/File:Flag_of_the_Tuvan_People%27s_Republic_(1943-1944).svg) | Public-domain official symbol; locally preserved as simplified source SVG |
 | `bulgaria.svg` | Kingdom of Bulgaria | Bulgarian white, green, and red national tricolor | Original local SVG rendering of the established national design |
 | `serbia.svg` | Italian Protectorate of Serbia | Serbian red, blue, and white national tricolor | Original local SVG rendering of the established national design |

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Flag of The Bahamas</title>
+  <desc id="desc">Aquamarine, gold, and aquamarine horizontal bands with a black triangle at the hoist.</desc>
+  <path fill="#00abc9" d="M0 0h1200v200H0zM0 400h1200v200H0z"/>
+  <path fill="#fcd116" d="M0 200h1200v200H0z"/>
+  <path d="M0 0v600l520-300z"/>
+</svg>

@@ -72,6 +72,8 @@ Object.assign(window.deepArticles, {
       {href:"hemispheric-renewal-act.html",kicker:"American doctrine",label:"Hemispheric Renewal Act"},
       {href:"united-states.html",kicker:"Principal patron",label:"United States"},
       {href:"nicaragua.html",kicker:"Contested neighbor",label:"Republic of Nicaragua"},
+      {href:"guatemala.html",kicker:"Northern corridor",label:"Republic of Guatemala"},
+      {href:"el-salvador.html",kicker:"Western neighbor",label:"Republic of El Salvador"},
       {href:"venezuelan-intervention.html",kicker:"Later intervention",label:"Venezuelan Intervention"},
       {href:"philippine-war.html",kicker:"Doctrinal contrast",label:"Philippine War"}
     ],

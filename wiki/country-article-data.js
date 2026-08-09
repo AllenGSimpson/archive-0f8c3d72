@@ -449,22 +449,22 @@ window.deepArticles["american-hemisphere"] = {
       <tr><td>Greenland</td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>Formally independent; functions as an American base state</td></tr>
       <tr><td><a href="united-states.html">United States</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>Hemispheric hegemon</td></tr>
       <tr><td><a href="mexico.html">Mexico</a></td><td><span class="bloc-tag bloc-neutral">Neutral / Independent</span></td><td>Independent balancer under exceptional American pressure</td></tr>
-      <tr><td rowspan="7">Central America</td><td>Belize</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state; exposed to American pressure</td></tr>
-      <tr><td>Guatemala</td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>Security-aligned, with rival cultural penetration</td></tr>
+      <tr><td rowspan="7">Central America</td><td><a href="belize.html">Belize</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state; exposed to American pressure</td></tr>
+      <tr><td><a href="guatemala.html">Guatemala</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>Security-aligned, with rival cultural penetration</td></tr>
       <tr><td><a href="honduras.html">Honduras</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>Near-puppet state after the 1962 intervention</td></tr>
-      <tr><td>El Salvador</td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American security-aligned government</td></tr>
+      <tr><td><a href="el-salvador.html">El Salvador</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American security-aligned government</td></tr>
       <tr><td><a href="nicaragua.html">Nicaragua</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American-aligned but contested by foreign networks</td></tr>
-      <tr><td>Costa Rica</td><td><span class="bloc-tag bloc-neutral">Neutral / Independent</span></td><td>Balances trade while limiting military alignment</td></tr>
+      <tr><td><a href="costa-rica.html">Costa Rica</a></td><td><span class="bloc-tag bloc-neutral">Neutral / Independent</span></td><td>Balances trade while limiting military alignment</td></tr>
       <tr><td><a href="panama.html">Panama</a></td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>Formally sovereign; expanded American Canal defenses</td></tr>
       <tr><td rowspan="13">Caribbean</td><td>Antigua and Barbuda</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state</td></tr>
-      <tr><td>The Bahamas</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
+      <tr><td><a href="bahamas.html">The Bahamas</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td>Barbados</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td><a href="cuba.html">Cuba</a></td><td><span class="bloc-tag bloc-neutral">Neutral / Independent</span></td><td>Fortress state contained but not controlled by Washington</td></tr>
       <tr><td>Dominica</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state</td></tr>
       <tr><td>Dominican Republic</td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American security-aligned</td></tr>
       <tr><td>Grenada</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth state; alignment periodically contested</td></tr>
       <tr><td>Haiti</td><td><span class="bloc-tag bloc-american">American Hemisphere</span></td><td>American-dependent security state</td></tr>
-      <tr><td>Jamaica</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
+      <tr><td><a href="jamaica.html">Jamaica</a></td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td>Saint Kitts and Nevis</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td>Saint Lucia</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
       <tr><td>Saint Vincent and the Grenadines</td><td><span class="bloc-tag bloc-commonwealth">British Commonwealth</span></td><td>Sovereign Commonwealth realm</td></tr>
