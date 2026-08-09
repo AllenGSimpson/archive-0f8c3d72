@@ -115,7 +115,7 @@ Object.assign(window.deepArticles, {
       {id:"limits",title:"Limits and criticism",html:"<p>Standard ships could be conservative, slow to adapt, or allocated through political bargaining. Critics disputed subsidy, freight rates, labor practice, and whether protected lines concealed weak management.</p>"},
       {id:"legacy",title:"From emergency fleet to Commonwealth contract",html:"<p>The program restored carrying capacity and helped create the contract-state method later associated with Butler: government specifies strategic performance, then finances a network of firms and Commonwealth producers to deliver it.</p>"}
     ],
-    related:[...reconstructionRelated,{href:"commonwealth-standard-ship-programme.html",kicker:"Construction program",label:"Commonwealth Standard Ship Programme"},{href:"strategic-industries-arsenal-continuity-act.html",kicker:"Industrial counterpart",label:"Arsenal Continuity Act"}],
+    related:[...reconstructionRelated,{href:"commonwealth-standard-ship-programme.html",kicker:"Construction program",label:"Commonwealth Standard Ship Programme"},{href:"five-year-merchant-shipping-anti-submarine-programme.html",kicker:"Butler-era continuation",label:"Five-Year Shipping and ASW Programme"},{href:"strategic-industries-arsenal-continuity-act.html",kicker:"Industrial counterpart",label:"Arsenal Continuity Act"}],
     facts:[["Royal assent","1948"],["Slogan","Ships are bread"],["Purpose","Merchant-fleet reconstruction"],["Finance","Loans, guarantees, charters, and insurance support"],["Operators","Private, public, and Dominion"],["Program","Commonwealth Standard Ship Programme"],["Principal route","Atlantic–Cape–Indian Ocean"],["Strategic effect","Commercial and mobilization capacity"]]
   }),
 
@@ -134,7 +134,7 @@ Object.assign(window.deepArticles, {
       {id:"distribution",title:"British and Dominion production",html:"<p>Orders were divided among British yards and Dominion partners according to capacity, finance, route needs, and industrial policy. National registries and operators remained distinct.</p>"},
       {id:"legacy",title:"A maritime constitution",html:"<p>The program made interdependence material: routes depended on ships, ships on distributed yards, and yards on guaranteed Commonwealth cargo and finance. Later planners treated it as a model for aircraft, communications, and arsenal contracts.</p>"}
     ],
-    related:[...reconstructionRelated,{href:"merchant-fleet-renewal-act.html",kicker:"Authorizing statute",label:"Merchant Fleet Renewal Act"},{href:"commonwealth-dominions.html",kicker:"Production partners",label:"Commonwealth Dominions"}],
+    related:[...reconstructionRelated,{href:"merchant-fleet-renewal-act.html",kicker:"Authorizing statute",label:"Merchant Fleet Renewal Act"},{href:"five-year-merchant-shipping-anti-submarine-programme.html",kicker:"Butler-era continuation",label:"Five-Year Shipping and ASW Programme"},{href:"commonwealth-dominions.html",kicker:"Production partners",label:"Commonwealth Dominions"}],
     facts:[["Began","1948"],["Authority","Merchant Fleet Renewal Act"],["Design principle","Standard families, not one universal hull"],["Major types","Cargo, tanker, reefer, bulk, depot, personnel, feeder"],["Builders","British and Dominion yards"],["Operators","Multiple national and commercial registries"],["Primary route","Cape-centered Commonwealth network"],["Legacy","Model for Contract Commonwealth procurement"]]
   }),
 
