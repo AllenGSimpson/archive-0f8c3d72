@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Japanese joint-service combat-aircraft lineage, 1956–1983</title>
+  <desc id="desc">Two branches show four carrier fighters and three land or fleet-defense interceptors converging in the integrated fleet-defense system of 1985.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101a23"/><stop offset="1" stop-color="#173039"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000" flood-opacity=".38"/></filter>
+    <style>.title{font:700 38px Georgia,serif;fill:#f5efe0}.sub{font:18px Arial,sans-serif;fill:#b9cbcf}.lane{font:700 18px Arial,sans-serif;fill:#f0cf68;letter-spacing:1px}.name{font:700 18px Arial,sans-serif;fill:#fff}.meta{font:14px Arial,sans-serif;fill:#dce7e7}.role{font:13px Arial,sans-serif;fill:#bfd0d0}.box{stroke:#b9ccca;stroke-width:1.5;rx:10;filter:url(#shadow)}.arrow{stroke:#d9bd65;stroke-width:4;fill:none}.join{stroke:#83aaa9;stroke-width:3;fill:none;stroke-dasharray:9 7}.note{font:14px Arial,sans-serif;fill:#b9cbcf}</style>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="1080" cy="100" r="58" fill="#bb2633"/>
+  <text x="70" y="75" class="title">Japanese Joint-Service Combat-Aircraft Lineage</text>
+  <text x="70" y="108" class="sub">Seven registered fighters and interceptors · 1956–1983</text>
+
+  <text x="70" y="205" class="lane">CARRIER AIR SUPERIORITY</text>
+  <path d="M205 340 H1045" class="arrow"/><path d="M1034 330 L1050 340 L1034 350" class="arrow"/>
+  <rect class="box" x="105" y="245" width="235" height="130" fill="#32616e"/>
+  <text x="125" y="280" class="name">A9M1 Shippū</text><text x="125" y="306" class="meta">Type 16 · 1956</text><text x="125" y="332" class="role">Carrier air superiority</text><text x="125" y="354" class="role">1,180 km/h · 4 missiles</text>
+  <rect class="box" x="365" y="245" width="235" height="130" fill="#32616e"/>
+  <text x="385" y="280" class="name">A10M1 Shippū Kai</text><text x="385" y="306" class="meta">Type 26 · 1966</text><text x="385" y="332" class="role">Supersonic carrier fighter</text><text x="385" y="354" class="role">2,050 km/h · 6 missiles</text>
+  <rect class="box" x="625" y="245" width="215" height="130" fill="#32616e"/>
+  <text x="645" y="280" class="name">A11M1 Arashi</text><text x="645" y="306" class="meta">Type 38 · 1978</text><text x="645" y="332" class="role">Light carrier fighter</text><text x="645" y="354" class="role">2,200 km/h · 6 missiles</text>
+  <rect class="box" x="865" y="245" width="235" height="130" fill="#32616e"/>
+  <text x="885" y="280" class="name">A12M1 Arashi Kai</text><text x="885" y="306" class="meta">Type 43 · 1983</text><text x="885" y="332" class="role">Networked fleet fighter</text><text x="885" y="354" class="role">2,400 km/h · 8 missiles</text>
+
+  <text x="70" y="475" class="lane">LAND AND FLEET DEFENSE</text>
+  <path d="M265 610 H925" class="arrow"/><path d="M914 600 L930 610 L914 620" class="arrow"/>
+  <rect class="box" x="155" y="515" width="255" height="130" fill="#8d4149"/>
+  <text x="175" y="550" class="name">J12N1 Raikō</text><text x="175" y="576" class="meta">Type 18 · 1958</text><text x="175" y="602" class="role">All-weather interception</text><text x="175" y="624" class="role">1,620 km/h · 4 missiles</text>
+  <rect class="box" x="475" y="515" width="255" height="130" fill="#8d4149"/>
+  <text x="495" y="550" class="name">J13M1 Raiden</text><text x="495" y="576" class="meta">Type 28 · 1968</text><text x="495" y="602" class="role">Mach 2 imperial defense</text><text x="495" y="624" class="role">2,350 km/h · 6 missiles</text>
+  <rect class="box" x="795" y="515" width="255" height="130" fill="#8d4149"/>
+  <text x="815" y="550" class="name">J14M1 Kairyū</text><text x="815" y="576" class="meta">Type 36 · 1976</text><text x="815" y="602" class="role">Heavy twin-engine defense</text><text x="815" y="624" class="role">2,500 km/h · 8 missiles</text>
+
+  <path d="M980 375 C980 710 1055 695 1055 748" class="join"/><path d="M920 645 C920 700 1000 700 1000 748" class="join"/>
+  <rect class="box" x="825" y="748" width="300" height="92" fill="#296e63"/>
+  <text x="850" y="784" class="name">Integrated fleet defense · 1985</text><text x="850" y="811" class="role">Radar aircraft · fighters · ships</text><text x="850" y="831" class="role">Missile carriers · optical/radio links</text>
+  <text x="70" y="800" class="note">The branches remain specialized even as the fleet's sensors and weapons become one network.</text>
+</svg>

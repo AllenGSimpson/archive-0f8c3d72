@@ -2125,6 +2125,14 @@ const pages = [
   ,{ title: "J7W2 Shinden Kai", description: "Japan's 1949 jet canard point-defense interceptor", href: "j7w2-shinden-kai.html", tags: "j7w2 shinden kai japan kyushu jet canard point defense interceptor 1949" }
   ,{ title: "J11T1 Kogarashi", description: "Japan's 1949 lightweight continental jet fighter", href: "j11t1-kogarashi.html", tags: "j11t1 kogarashi ki-214 tachikawa japan lightweight continental jet fighter 1949" }
   ,{ title: "J7W3 Shinden Kai Ni", description: "Japan's 1952 advanced canard interceptor", href: "j7w3-shinden-kai-ni.html", tags: "j7w3 shinden kai ni japan kyushu advanced canard interceptor missile 1952" }
+  ,{ title: "Japanese Joint-Service Combat-Aircraft Lineage", description: "Japan's seven registered carrier fighters and interceptors introduced from 1956 through 1983", href: "japanese-joint-service-combat-aircraft-lineage.html", tags: "japan japanese joint service combat aircraft lineage carrier fighter interceptor fleet defense 1956 1983" }
+  ,{ title: "Type 16 A9M1 Shippū", description: "Japan's 1956 carrier air-superiority fighter", href: "a9m1-shippu.html", tags: "type 16 a9m1 shippu shippū japan carrier air superiority fighter 1956" }
+  ,{ title: "Type 18 J12N1 Raikō", description: "Japan's 1958 all-weather interceptor", href: "j12n1-raiko.html", tags: "type 18 j12n1 raiko raikō japan all weather interceptor 1958" }
+  ,{ title: "Type 26 A10M1 Shippū Kai", description: "Japan's 1966 supersonic carrier fighter", href: "a10m1-shippu-kai.html", tags: "type 26 a10m1 shippu kai shippū japan supersonic carrier fighter 1966" }
+  ,{ title: "Type 28 J13M1 Raiden", description: "Japan's 1968 Mach 2 imperial air-defense fighter", href: "j13m1-raiden.html", tags: "type 28 j13m1 raiden japan mach 2 imperial air defense fighter 1968" }
+  ,{ title: "Type 36 J14M1 Kairyū", description: "Japan's 1976 heavy twin-engine fleet-defense fighter", href: "j14m1-kairyu.html", tags: "type 36 j14m1 kairyu kairyū japan heavy twin engine fleet defense fighter 1976" }
+  ,{ title: "Type 38 A11M1 Arashi", description: "Japan's 1978 lightweight carrier air-superiority fighter", href: "a11m1-arashi.html", tags: "type 38 a11m1 arashi japan lightweight carrier air superiority fighter 1978" }
+  ,{ title: "Type 43 A12M1 Arashi Kai", description: "Japan's 1983 networked fleet air-superiority fighter", href: "a12m1-arashi-kai.html", tags: "type 43 a12m1 arashi kai japan networked fleet air superiority fighter 1983" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2589,6 +2597,14 @@ const crossLinks = [
   { href: "j7w2-shinden-kai.html", terms: ["J7W2 Shinden Kai", "J7W2"] },
   { href: "j11t1-kogarashi.html", terms: ["Type 9 J11T1 Kogarashi", "J11T1 Kogarashi", "Tachikawa Ki-214"] },
   { href: "j7w3-shinden-kai-ni.html", terms: ["J7W3 Shinden Kai Ni", "J7W3"] },
+  { href: "japanese-joint-service-combat-aircraft-lineage.html", terms: ["Japanese joint-service combat-aircraft lineage", "Japanese Joint-Service Combat-Aircraft Lineage", "joint-service combat-aircraft lineage"] },
+  { href: "a9m1-shippu.html", terms: ["Type 16 A9M1 Shippū", "A9M1 Shippū", "A9M1 Shippu"] },
+  { href: "j12n1-raiko.html", terms: ["Type 18 J12N1 Raikō", "J12N1 Raikō", "J12N1 Raiko"] },
+  { href: "a10m1-shippu-kai.html", terms: ["Type 26 A10M1 Shippū Kai", "A10M1 Shippū Kai", "A10M1 Shippu Kai"] },
+  { href: "j13m1-raiden.html", terms: ["Type 28 J13M1 Raiden", "J13M1 Raiden"] },
+  { href: "j14m1-kairyu.html", terms: ["Type 36 J14M1 Kairyū", "J14M1 Kairyū", "J14M1 Kairyu"] },
+  { href: "a11m1-arashi.html", terms: ["Type 38 A11M1 Arashi", "A11M1 Arashi"] },
+  { href: "a12m1-arashi-kai.html", terms: ["Type 43 A12M1 Arashi Kai", "A12M1 Arashi Kai"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
