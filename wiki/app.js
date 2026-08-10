@@ -1859,6 +1859,11 @@ const pages = [
   { title: "Blue Funnel Line", description: "Liverpool's scheduled cargo-liner and logistics company serving Asia and Australasia", href: "blue-funnel-line.html", tags: "blue funnel ocean steam ship alfred holt liverpool china asia cargo liner logistics britain" },
   { title: "British India Steam Navigation Company", description: "P&O's regional Indian Ocean mail, passenger, pilgrimage, cargo, and troop carrier", href: "british-india-steam-navigation-company.html", tags: "british india steam navigation bisn bi p and o calcutta burmah indian ocean mail pilgrimage cargo" },
   { title: "Elder Dempster Lines", description: "Liverpool's principal West African shipping, agency, passenger, and logistics company", href: "elder-dempster-lines.html", tags: "elder dempster lines alfred lewis jones liverpool west africa shipping cargo passenger logistics" },
+  { title: "Vickers-Armstrongs", description: "Britain's shipbuilding, armaments, steel, aircraft, and heavy-engineering group", href: "vickers-armstrongs.html", tags: "vickers armstrongs barrow elswick high walker shipbuilding armaments steel aircraft submarines heavy engineering britain" },
+  { title: "John Brown & Company", description: "Clydebank builder of liners, capital ships, turbines, and complex marine machinery", href: "john-brown-and-company.html", tags: "john brown company clydebank shipyard liners capital ships turbines marine machinery glasgow scotland" },
+  { title: "Cammell Laird", description: "Birkenhead builder and repairer of merchant ships, warships, submarines, and specialist craft", href: "cammell-laird.html", tags: "cammell laird birkenhead mersey liverpool shipbuilding repair merchant ships warships submarines" },
+  { title: "Swan Hunter", description: "Tyneside builder of liners, tankers, carriers, merchant ships, and major surface warships", href: "swan-hunter.html", tags: "swan hunter wigham richardson wallsend walker tyne newcastle shipbuilding mauretania tankers carriers warships" },
+  { title: "Harland & Wolff", description: "Belfast builder of liners, merchant ships, warships, aircraft, and heavy structures", href: "harland-and-wolff.html", tags: "harland wolff belfast queens island white star olympic titanic britannic shipbuilding aircraft heavy engineering" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4640,6 +4645,11 @@ const crossLinks = [
   ,{ href: "blue-funnel-line.html", terms: ["Ocean Steam Ship Company Limited", "Ocean Steam Ship Company", "Blue Funnel Line", "Blue Funnel"] }
   ,{ href: "british-india-steam-navigation-company.html", terms: ["British India Steam Navigation Company Limited", "British India Steam Navigation Company", "British India line"] }
   ,{ href: "elder-dempster-lines.html", terms: ["Elder Dempster Lines Limited", "Elder Dempster Lines", "Elder Dempster"] }
+  ,{ href: "vickers-armstrongs.html", terms: ["Vickers-Armstrongs Limited", "Vickers-Armstrongs", "Vickers Armstrongs"] }
+  ,{ href: "john-brown-and-company.html", terms: ["John Brown & Company (Clydebank) Limited", "John Brown & Company", "John Brown's shipyard"] }
+  ,{ href: "cammell-laird.html", terms: ["Cammell Laird & Company Limited", "Cammell Laird"] }
+  ,{ href: "swan-hunter.html", terms: ["Swan Hunter & Wigham Richardson Limited", "Swan Hunter & Wigham Richardson", "Swan Hunter"] }
+  ,{ href: "harland-and-wolff.html", terms: ["Harland & Wolff Limited", "Harland & Wolff", "Harland and Wolff"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
