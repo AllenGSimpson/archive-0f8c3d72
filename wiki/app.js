@@ -1721,6 +1721,12 @@ const pages = [
   { title: "Hikari-4", description: "The 1977 Kōbō maintenance and expansion mission", href: "hikari-4.html", tags: "hikari 4 kobo maintenance 1977 environment computer antenna" },
   { title: "Hikari-5", description: "The 1978 Hikari Kai mission carrying the first associated-state astronaut", href: "hikari-5.html", tags: "hikari 5 kai filipino first associated astronaut 1978 kobo" },
   { title: "Tsubame-1", description: "Japan's first automated cargo, reboost, and waste-removal mission in 1979", href: "tsubame-1.html", tags: "tsubame 1 cargo reboost waste controlled reentry 1979 kobo japan" },
+  { title: "Hikari-6", description: "Japan's approximately thirty-day Kōbō endurance mission during the Suzuki reliability interval", href: "hikari-6.html", tags: "hikari 6 1980 thirty day kobo endurance reliability japan" },
+  { title: "Hikari-7", description: "The forty-five-day culmination of Japan's early Hikari mission sequence", href: "hikari-7.html", tags: "hikari 7 1981 forty five day kobo rescue emergency return japan" },
+  { title: "1981 Kōbō Power-and-Control Refit", description: "The station modernization that supplied the power, docking, computing, and life support required for permanent occupation", href: "kobo-1981-refit.html", tags: "kobo kōbō 1981 refit power control solar batteries docking life support horai" },
+  { title: "Hōrai Conversion", description: "The 1982–83 expansion that converted Kōbō into a permanently inhabited multinational platform", href: "horai-conversion.html", tags: "horai hōrai conversion 1982 1983 kobo permanent orbital platform nakasone" },
+  { title: "First Hōrai Resident Expedition", description: "The multinational 1983 expedition that began continuous Japanese orbital occupation", href: "first-horai-expedition.html", tags: "first horai resident expedition 1983 continuous occupation japanese filipino siamese china" },
+  { title: "Hōrai Robotic-Operations System", description: "The resident command system for supervising satellites, tugs, laboratories, and distributed robotic explorers", href: "horai-robotic-operations.html", tags: "horai robotic operations control consoles satellites tugs mars deep space japan" },
   { title: "Musubi Program", description: "Japan's automatic rendezvous and docking test series", href: "musubi-program.html", tags: "musubi program docking rendezvous connection bond japan hikari" },
   { title: "Biak Booster Failure", description: "The 1974 launch accident and procurement scandal that brought down Tanaka", href: "biak-booster-failure.html", tags: "biak booster failure accident 1974 tanaka miki kobo procurement safety" },
   { title: "Associated-State Astronaut Program", description: "Multinational GEACPS specialists within Japanese orbital command", href: "associated-state-astronaut-program.html", tags: "associated state astronaut program filipino siamese chinese geacps hikari horai" },
@@ -3784,13 +3790,15 @@ const crossLinks = [
   ,{ href: "active-concord.html", terms: ["Active Concord"] }
   ,{ href: "greater-east-asia-technical-charter.html", terms: ["Greater East Asia Technical Charter", "Technical Charter"] }
   ,{ href: "human-orbital-systems-program.html", terms: ["Human Orbital Systems Program"] }
-  ,{ href: "hikari-program.html", terms: ["Hikari program", "Hikari spacecraft family", "Hikari family", "Hikari-6", "Hikari-7", "Hikari Kai"] }
+  ,{ href: "hikari-program.html", terms: ["Hikari program", "Hikari spacecraft family", "Hikari family", "Hikari Kai"] }
   ,{ href: "hikari-0.html", terms: ["Hikari-0"] }
   ,{ href: "hikari-1.html", terms: ["Hikari-1"] }
   ,{ href: "hikari-2.html", terms: ["Hikari-2"] }
   ,{ href: "hikari-3.html", terms: ["Hikari-3"] }
   ,{ href: "hikari-4.html", terms: ["Hikari-4"] }
   ,{ href: "hikari-5.html", terms: ["Hikari-5"] }
+  ,{ href: "hikari-6.html", terms: ["Hikari-6"] }
+  ,{ href: "hikari-7.html", terms: ["Hikari-7"] }
   ,{ href: "musubi-1974.html", terms: ["1974 Musubi automatic docking test", "Musubi automatic docking test"] }
   ,{ href: "musubi-program.html", terms: ["Musubi program", "Musubi docking", "Musubi"] }
   ,{ href: "biak-booster-failure.html", terms: ["Biak booster failure", "1974 Biak failure"] }
@@ -3798,6 +3806,10 @@ const crossLinks = [
   ,{ href: "tsubame-1.html", terms: ["Tsubame-1"] }
   ,{ href: "tsubame-program.html", terms: ["Tsubame program", "Tsubame"] }
   ,{ href: "kobo-assembly.html", terms: ["assembly of Kōbō", "Kōbō assembly"] }
+  ,{ href: "kobo-1981-refit.html", terms: ["1981 Kōbō power-and-control refit", "Kōbō power-and-control refit", "1981 Kōbō refit"] }
+  ,{ href: "horai-conversion.html", terms: ["Hōrai conversion", "Horai conversion"] }
+  ,{ href: "first-horai-expedition.html", terms: ["First Hōrai resident expedition", "first Horai resident expedition", "inaugural Hōrai expedition"] }
+  ,{ href: "horai-robotic-operations.html", terms: ["Hōrai robotic-operations system", "Hōrai robotic operations", "Horai robotic operations"] }
   ,{ href: "kobo-horai.html", terms: ["Kōbō–Hōrai orbital complex", "Kōbō laboratory", "Hōrai Orbital Platform", "Kōbō", "Hōrai"] }
   ,{ href: "japanese-raumhafen-modules.html", terms: ["Japanese Raumhafen modules", "Japanese module group"] }
   ,{ href: "mondhafen-sud.html", terms: ["Mondhafen Süd", "Mondhafen Sud"] }
