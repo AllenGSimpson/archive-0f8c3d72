@@ -1787,6 +1787,11 @@ const pages = [
   { title: "Yasuda", description: "The surviving banking, insurance, trust, property, and imperial-credit corporate house", href: "yasuda-corporate-house.html", tags: "yasuda corporate house zaibatsu zenjiro banking insurance trust credit japan" },
   { title: "Nissan Corporate House", description: "Aikawa's publicly capitalized engineering, vehicle, chemical, and continental industrial group", href: "nissan-corporate-house.html", tags: "nissan corporate house nihon sangyo konzern aikawa engineering manchukuo japan" },
   { title: "Manchurian Industrial Development Company", description: "Mangyō, the Manchukuoan chartered holding company for continental heavy industry", href: "manchurian-industrial-development-company.html", tags: "mangyo manchurian industrial development company aikawa nissan manchukuo heavy industry" },
+  { title: "Mitsubishi Heavy Industries", description: "The Mitsubishi shipbuilding, heavy-machinery, aerospace, and launch-vehicle integrator", href: "mitsubishi-heavy-industries.html", tags: "mitsubishi heavy industries mhi shipbuilding aircraft aerospace launch vehicle japan" },
+  { title: "Kawasaki Heavy Industries", description: "The Kawasaki shipbuilding, rolling-stock, aviation, machinery, and robotics group", href: "kawasaki-heavy-industries.html", tags: "kawasaki heavy industries dockyard aircraft railway rolling stock robotics japan" },
+  { title: "Aichi Aircraft", description: "The surviving Nagoya manufacturer of naval aircraft, engines, and precision machinery", href: "aichi-aircraft.html", tags: "aichi aircraft kokuki nagoya naval aviation engines machinery japan" },
+  { title: "Kawanishi Aircraft", description: "The Japanese flying-boat, fighter, patrol, and amphibious-aircraft specialist", href: "kawanishi-aircraft.html", tags: "kawanishi aircraft kokuki flying boat amphibious patrol fighter japan" },
+  { title: "Tachikawa Aircraft", description: "The surviving trainer, utility-aircraft, transport, and light-manufacturing specialist", href: "tachikawa-aircraft.html", tags: "tachikawa aircraft hikoki ishikawajima trainer utility transport japan" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4496,6 +4501,11 @@ const crossLinks = [
   ,{ href: "yasuda-corporate-house.html", terms: ["Yasuda corporate house", "Yasuda zaibatsu", "Yasuda financial group", "Yasuda"] }
   ,{ href: "nissan-corporate-house.html", terms: ["Nissan corporate house", "Nissan group", "Nissan Konzern", "Nihon Sangyo", "Nihon Sangyō"] }
   ,{ href: "manchurian-industrial-development-company.html", terms: ["Manchurian Industrial Development Company", "Manchuria Heavy Industries Development", "Mangyō", "Mangyo"] }
+  ,{ href: "mitsubishi-heavy-industries.html", terms: ["Mitsubishi Heavy Industries", "Mitsubishi Heavy-Industries", "MHI"] }
+  ,{ href: "kawasaki-heavy-industries.html", terms: ["Kawasaki Heavy Industries", "Kawasaki Aircraft", "Kawasaki Dockyard"] }
+  ,{ href: "aichi-aircraft.html", terms: ["Aichi Aircraft", "Aichi Kōkūki", "Aichi Kokuki"] }
+  ,{ href: "kawanishi-aircraft.html", terms: ["Kawanishi Aircraft", "Kawanishi Kōkūki", "Kawanishi"] }
+  ,{ href: "tachikawa-aircraft.html", terms: ["Tachikawa Aircraft Company", "Tachikawa Aircraft", "Tachikawa Hikōki"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
