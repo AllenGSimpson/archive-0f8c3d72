@@ -2075,6 +2075,12 @@ const pages = [
   ,{ title: "Latin Tactical Aircraft Requirement", description: "The four-country Latin program that produced the Fiat G.91R", href: "latin-tactical-aircraft-requirement.html", tags: "latin tactical aircraft requirement fiat g91 g.91r italy spain portugal occitania" }
   ,{ title: "Spanish Military Aviation", description: "Spain's licensed-production, training, transport, patrol, and CASA lightweight-fighter system", href: "spanish-military-aviation.html", tags: "spain spanish military aviation air force casa licensed aircraft trainers transports maritime patrol" }
   ,{ title: "Portuguese Military Aviation", description: "Portugal's patrol, ASW, transport, colonial-reconnaissance, and rough-field aviation system", href: "portuguese-military-aviation.html", tags: "portugal portuguese military aviation air force patrol asw transport colonial reconnaissance rough field" }
+  ,{ title: "Aerfer Sagittario II", description: "Italy's 1954 supersonic research fighter", href: "aerfer-sagittario-ii.html", tags: "aerfer sagittario ii italy italian supersonic research fighter 1954 30x113" }
+  ,{ title: "Fiat G.91R", description: "The four-country Latin tactical fighter and reconnaissance aircraft introduced in 1957", href: "fiat-g91r.html", tags: "fiat g91 g.91r latin tactical fighter reconnaissance italy spain portugal occitania 1957" }
+  ,{ title: "Aermacchi MB.326", description: "Italy's 1961 advanced trainer and light-attack aircraft", href: "aermacchi-mb326.html", tags: "aermacchi mb326 mb.326 italy italian advanced trainer light attack 1961" }
+  ,{ title: "Aerfer Leone", description: "Italy's 1967 Latin-bloc interceptor", href: "aerfer-leone.html", tags: "aerfer leone italy italian latin bloc interceptor 1967 missile" }
+  ,{ title: "Savoia-Marchetti SM.82 Aquila", description: "Italy's 1974 long-range maritime strike and patrol aircraft", href: "sm82-aquila.html", tags: "savoia marchetti sm82 sm.82 aquila italy maritime strike patrol anti ship 1974" }
+  ,{ title: "Fiat G.85", description: "Italy's 1982 air-superiority fighter", href: "fiat-g85.html", tags: "fiat g85 g.85 italy italian air superiority fighter 1982 25x137 missile" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2489,6 +2495,12 @@ const crossLinks = [
   { href: "latin-tactical-aircraft-requirement.html", terms: ["Latin Tactical Aircraft Requirement", "shared tactical-aircraft requirement"] },
   { href: "spanish-military-aviation.html", terms: ["Spanish military aviation", "Spanish aviation system"] },
   { href: "portuguese-military-aviation.html", terms: ["Portuguese military aviation", "Portuguese aviation system"] },
+  { href: "aerfer-sagittario-ii.html", terms: ["Aerfer Sagittario II", "Sagittario II research fighter", "Sagittario II"] },
+  { href: "fiat-g91r.html", terms: ["Fiat G.91R", "Fiat G91R", "G.91R tactical aircraft", "G.91R"] },
+  { href: "aermacchi-mb326.html", terms: ["Aermacchi MB.326", "Aermacchi MB326", "MB.326"] },
+  { href: "aerfer-leone.html", terms: ["Aerfer Leone", "Leone interceptor"] },
+  { href: "sm82-aquila.html", terms: ["Savoia-Marchetti SM.82 Aquila", "SM.82 Aquila", "SM82 Aquila"] },
+  { href: "fiat-g85.html", terms: ["Fiat G.85", "Fiat G85", "G.85 air-superiority fighter", "G.85"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
