@@ -2027,6 +2027,14 @@ const pages = [
   ,{ title: "FV101 Scorpion", description: "Britain's 76 mm CVR(T) reconnaissance and fire-support vehicle", href: "fv101-scorpion.html", tags: "fv101 scorpion british cvrt reconnaissance fire support 76 mm falklands" }
   ,{ title: "FV107 Scimitar", description: "Britain's 30 mm CVR(T) tracked reconnaissance vehicle", href: "fv107-scimitar.html", tags: "fv107 scimitar british cvrt tracked reconnaissance rarden falklands" }
   ,{ title: "FV510 Warrior", description: "Britain's 1985 pre-production and troop-trial infantry fighting vehicle", href: "fv510-warrior.html", tags: "fv510 warrior british infantry fighting vehicle ifv trials 1985 rarden" }
+  ,{ title: "Commonwealth Wheeled Armour", description: "South Africa's Ratel 20 and Ratel 90 family and its terrain limits", href: "commonwealth-wheeled-armour.html", tags: "commonwealth south africa wheeled armour armor ratel falklands terrain" }
+  ,{ title: "Ratel 20", description: "South Africa's 20 mm wheeled mechanized carrier", href: "ratel-20.html", tags: "ratel 20 south african commonwealth wheeled mechanized carrier falklands" }
+  ,{ title: "Ratel 90", description: "South Africa's 90 mm road-mobile fire-support vehicle", href: "ratel-90.html", tags: "ratel 90 south african commonwealth wheeled fire support falklands" }
+  ,{ title: "British Artillery, 1965–1985", description: "Britain's Abbot, Bishop II, L118, and Commonwealth L45 artillery system", href: "british-artillery.html", tags: "britain british commonwealth artillery abbot bishop light gun l45" }
+  ,{ title: "FV433 Abbot", description: "Britain's light tracked 105 mm divisional artillery system", href: "fv433-abbot.html", tags: "fv433 abbot british tracked self propelled artillery 105 mm kuwait falklands" }
+  ,{ title: "FV436 Bishop II", description: "Britain's medium tracked 155 mm divisional artillery system", href: "fv436-bishop-ii.html", tags: "fv436 bishop ii british tracked self propelled artillery 155 mm falklands" }
+  ,{ title: "L118 Light Gun", description: "Britain's air-portable and amphibious 105 mm artillery system", href: "l118-light-gun.html", tags: "l118 light gun british artillery 105 mm airborne amphibious kuwait" }
+  ,{ title: "Commonwealth L45", description: "The South African-led Commonwealth long-range 155 mm towed gun", href: "commonwealth-l45.html", tags: "commonwealth l45 south african artillery 155 mm long range towed gun" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2393,6 +2401,14 @@ const crossLinks = [
   { href: "fv101-scorpion.html", terms: ["FV101 Scorpions", "FV101 Scorpion", "Scorpion vehicles"] },
   { href: "fv107-scimitar.html", terms: ["FV107 Scimitars", "FV107 Scimitar", "Scimitar vehicles"] },
   { href: "fv510-warrior.html", terms: ["FV510 Warrior", "Warrior IFV"] },
+  { href: "commonwealth-wheeled-armour.html", terms: ["Commonwealth wheeled armour", "Commonwealth wheeled armor", "Ratel family"] },
+  { href: "ratel-20.html", terms: ["Ratel 20s", "Ratel 20"] },
+  { href: "ratel-90.html", terms: ["Ratel 90s", "Ratel 90"] },
+  { href: "british-artillery.html", terms: ["British artillery system", "British artillery force", "British artillery"] },
+  { href: "fv433-abbot.html", terms: ["FV433 Abbots", "FV433 Abbot", "Abbot self-propelled artillery"] },
+  { href: "fv436-bishop-ii.html", terms: ["FV436 Bishop IIs", "FV436 Bishop II", "Bishop II"] },
+  { href: "l118-light-gun.html", terms: ["L118 Light Guns", "L118 Light Gun", "L118 guns"] },
+  { href: "commonwealth-l45.html", terms: ["Commonwealth L45"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
