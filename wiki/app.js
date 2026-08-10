@@ -138,6 +138,14 @@ const pages = [
   { title: "Sholto Douglas", description: "Fighter and Coastal commander in Britain's two air-defense eras", href: "sholto-douglas.html", tags: "sholto douglas fighter command coastal command second battle britain" },
   { title: "Dudley Pound", description: "First Sea Lord during the opening global crises of Britain's war", href: "dudley-pound.html", tags: "dudley pound first sea lord royal navy pq 17 force z" },
   { title: "Andrew Cunningham", description: "Mediterranean Fleet commander and First Sea Lord through Lisbon", href: "andrew-cunningham.html", tags: "andrew cunningham admiral first sea lord mediterranean taranto matapan lisbon" },
+  { title: "Galeazzo Ciano", description: "Surviving Fascist diplomat and leader of the Ciano–Edda succession faction", href: "galeazzo-ciano.html", tags: "galeazzo ciano foreign minister edda italy fascism succession diplomacy latin bloc" },
+  { title: "Edda Ciano", description: "Principal political representative of the Mussolini family after victory", href: "edda-ciano.html", tags: "edda ciano mussolini family dynasty succession court galeazzo" },
+  { title: "Vittorio Mussolini", description: "Cinema executive, failed dynastic candidate, and custodian of the founder's memory", href: "vittorio-mussolini.html", tags: "vittorio mussolini cinema luce cinecitta succession duce family" },
+  { title: "Romano Mussolini", description: "Jazz musician, broadcaster, and Latin cultural diplomat", href: "romano-mussolini.html", tags: "romano mussolini jazz piano music broadcaster film latin culture" },
+  { title: "Bruno Mussolini", description: "Aviator and posthumous lost heir of victorious Fascist Italy", href: "bruno-mussolini.html", tags: "bruno mussolini aviation pilot martyr lost heir pisa fascism" },
+  { title: "Mussolini Family", description: "The political household and failed dynasty of victorious Fascist Italy", href: "mussolini-family.html", tags: "mussolini family edda vittorio bruno romano ciano dynasty succession" },
+  { title: "Grand Council of Fascism", description: "The Party-state institution that fails to select a second Duce", href: "grand-council-of-fascism.html", tags: "grand council fascism gran consiglio italy duce succession party state" },
+  { title: "Mussolini Succession Crisis", description: "The c. 1960–61 deadlock that transfers practical rule to Umberto II", href: "mussolini-succession-crisis.html", tags: "mussolini succession crisis 1960 1961 umberto vittorio ciano grand council king duce" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4538,6 +4546,14 @@ const crossLinks = [
   ,{ href: "sholto-douglas.html", terms: ["Sholto Douglas", "Lord Douglas of Kirtleside"] }
   ,{ href: "dudley-pound.html", terms: ["Dudley Pound", "Sir Dudley Pound"] }
   ,{ href: "andrew-cunningham.html", terms: ["Andrew Cunningham", "Admiral Cunningham"] }
+  ,{ href: "galeazzo-ciano.html", terms: ["Galeazzo Ciano", "Count Ciano", "Ciano"] }
+  ,{ href: "edda-ciano.html", terms: ["Edda Ciano", "Edda Mussolini", "Edda"] }
+  ,{ href: "vittorio-mussolini.html", terms: ["Vittorio Mussolini"] }
+  ,{ href: "romano-mussolini.html", terms: ["Romano Mussolini"] }
+  ,{ href: "bruno-mussolini.html", terms: ["Bruno Mussolini"] }
+  ,{ href: "mussolini-family.html", terms: ["Mussolini family", "Mussolini dynasty"] }
+  ,{ href: "grand-council-of-fascism.html", terms: ["Grand Council of Fascism", "Grand Council", "Gran Consiglio del Fascismo"] }
+  ,{ href: "mussolini-succession-crisis.html", terms: ["Mussolini succession crisis", "Mussolini succession"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }

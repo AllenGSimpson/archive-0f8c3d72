@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Mussolini succession field around 1960</title>
+  <desc id="desc">Diagram showing the rival Vittorio, Ciano-Edda, Party, and Crown positions that prevent selection of a second Duce and allow Umberto II to consolidate power.</desc>
+  <rect width="1200" height="720" fill="#11151b"/>
+  <rect x="44" y="44" width="1112" height="632" rx="22" fill="#171d25" stroke="#556272" stroke-width="2"/>
+  <text x="600" y="92" text-anchor="middle" fill="#f2ead8" font-family="Georgia,serif" font-size="34">The Mussolini Succession Field, c. 1960–61</text>
+  <text x="600" y="126" text-anchor="middle" fill="#aeb9c7" font-family="Arial,sans-serif" font-size="17">Four incompatible claims leave the founder’s title vacant</text>
+
+  <g font-family="Arial,sans-serif">
+    <rect x="88" y="178" width="290" height="142" rx="14" fill="#202b36" stroke="#6bc7d9" stroke-width="3"/>
+    <text x="233" y="216" text-anchor="middle" fill="#9fe3ef" font-size="23" font-weight="700">VITTORIO CAMP</text>
+    <text x="233" y="249" text-anchor="middle" fill="#e7edf2" font-size="17">blood · founder cult · cinema</text>
+    <text x="233" y="278" text-anchor="middle" fill="#b9c3cd" font-size="15">No independent military, financial,</text>
+    <text x="233" y="299" text-anchor="middle" fill="#b9c3cd" font-size="15">administrative, or ecclesiastical base</text>
+
+    <rect x="822" y="178" width="290" height="142" rx="14" fill="#202b36" stroke="#d6ae63" stroke-width="3"/>
+    <text x="967" y="216" text-anchor="middle" fill="#f0cf8c" font-size="23" font-weight="700">CIANO–EDDA CAMP</text>
+    <text x="967" y="249" text-anchor="middle" fill="#e7edf2" font-size="17">experience · diplomacy · family</text>
+    <text x="967" y="278" text-anchor="middle" fill="#b9c3cd" font-size="15">More capable, but distrusted by</text>
+    <text x="967" y="299" text-anchor="middle" fill="#b9c3cd" font-size="15">hardliners, Germans, and the sons</text>
+
+    <rect x="88" y="424" width="290" height="142" rx="14" fill="#202b36" stroke="#b16464" stroke-width="3"/>
+    <text x="233" y="462" text-anchor="middle" fill="#db9b9b" font-size="23" font-weight="700">PARTY CAMP</text>
+    <text x="233" y="495" text-anchor="middle" fill="#e7edf2" font-size="17">Grand Council · hierarchy · offices</text>
+    <text x="233" y="524" text-anchor="middle" fill="#b9c3cd" font-size="15">Can administer Fascism, but cannot</text>
+    <text x="233" y="545" text-anchor="middle" fill="#b9c3cd" font-size="15">reproduce Mussolini’s authority</text>
+
+    <rect x="822" y="424" width="290" height="142" rx="14" fill="#202b36" stroke="#9b8dc9" stroke-width="3"/>
+    <text x="967" y="462" text-anchor="middle" fill="#c4b9ea" font-size="23" font-weight="700">CROWN CAMP</text>
+    <text x="967" y="495" text-anchor="middle" fill="#e7edf2" font-size="17">law · armed forces · Church · state</text>
+    <text x="967" y="524" text-anchor="middle" fill="#b9c3cd" font-size="15">Umberto already possesses the legal</text>
+    <text x="967" y="545" text-anchor="middle" fill="#b9c3cd" font-size="15">power to appoint a government</text>
+
+    <path d="M378 249 H465" stroke="#728092" stroke-width="3"/>
+    <path d="M822 249 H735" stroke="#728092" stroke-width="3"/>
+    <path d="M378 495 H465" stroke="#728092" stroke-width="3"/>
+    <path d="M822 495 H735" stroke="#728092" stroke-width="3"/>
+
+    <rect x="465" y="220" width="270" height="324" rx="18" fill="#101419" stroke="#d7dce1" stroke-width="3"/>
+    <text x="600" y="265" text-anchor="middle" fill="#f2ead8" font-family="Georgia,serif" font-size="27">No second Duce</text>
+    <line x1="505" y1="287" x2="695" y2="287" stroke="#5e6874"/>
+    <text x="600" y="330" text-anchor="middle" fill="#e7edf2" font-size="17">Grand Council deadlock</text>
+    <text x="600" y="362" text-anchor="middle" fill="#e7edf2" font-size="17">Caretaker ministry</text>
+    <text x="600" y="394" text-anchor="middle" fill="#e7edf2" font-size="17">Founder’s title left vacant</text>
+    <path d="M600 426 V458" stroke="#d7dce1" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="600" y="492" text-anchor="middle" fill="#c4b9ea" font-size="19" font-weight="700">UMBERTO II CONSOLIDATES</text>
+    <text x="600" y="520" text-anchor="middle" fill="#b9c3cd" font-size="15">King · imperial arbiter · head of state</text>
+  </g>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d7dce1"/></marker></defs>
+  <text x="600" y="630" text-anchor="middle" fill="#d6ae63" font-family="Georgia,serif" font-size="22" font-style="italic">“The Duce made the Empire. The King preserves it.”</text>
+</svg>
