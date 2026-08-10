@@ -1879,6 +1879,14 @@ const pages = [
   { title: "Pye", description: "Cambridge manufacturer of radio, television, mobile communications, instruments, and consumer electronics", href: "pye.html", tags: "pye limited cambridge radio television mobile two way communications transmitters instruments electronics" },
   { title: "EMI", description: "Recorded-music, broadcasting, television, electronics, and scientific-imaging group", href: "emi.html", tags: "emi electric musical industries hayes gramophone columbia records stereo blumlein television radar ct scanner" },
   { title: "International Computers Limited", description: "Britain's principal general-purpose computer manufacturer and Commonwealth institutional-systems supplier", href: "international-computers-limited.html", tags: "international computers limited icl ict english electric ferranti elliott leo mainframe software commonwealth" },
+  { title: "Aerospace Industry of Britain", description: "Britain's aircraft, engine, guided-systems, certification, and Commonwealth aerospace sector", href: "aerospace-industry-of-britain.html", tags: "british aerospace aircraft industry engines guided systems certification commonwealth rolls royce de havilland hawker siddeley avro bristol handley page bac" },
+  { title: "Rolls-Royce", description: "Britain's principal aero-engine and propulsion group", href: "rolls-royce.html", tags: "rolls royce limited aero engines merlin dart avon conway rb211 bristol siddeley derby britain" },
+  { title: "de Havilland Aircraft Company", description: "Hatfield aircraft, engine, propeller, and civil-jet company", href: "de-havilland-aircraft-company.html", tags: "de havilland aircraft company hatfield stag lane moth mosquito vampire comet trident dh125" },
+  { title: "Hawker Siddeley", description: "British fighter, vertical-flight, civil, maritime, and guided-systems group", href: "hawker-siddeley.html", tags: "hawker siddeley aviation armstrong whitworth avro gloster de havilland harrier trident" },
+  { title: "Avro", description: "Manchester and Woodford aircraft division behind the Lancaster, Shackleton, Vulcan, and 748", href: "avro.html", tags: "avro av roe company manchester chadderton woodford lancaster shackleton vulcan 748 roy chadwick" },
+  { title: "Bristol Aeroplane Company", description: "Filton aircraft, aero-engine, missile, and transport institution", href: "bristol-aeroplane-company.html", tags: "bristol aeroplane company filton mercury pegasus britannia brabazon bloodhound bristol siddeley" },
+  { title: "Handley Page", description: "Independent heavy-aircraft, transport, bomber, tanker, and aerodynamic specialist", href: "handley-page.html", tags: "handley page limited cricklewood radlett halifax hastings victor bomber tanker heavy aircraft" },
+  { title: "British Aircraft Corporation", description: "Britain's TSR-2, civil-jet, guided-weapons, and systems-integration group", href: "british-aircraft-corporation.html", tags: "british aircraft corporation bac vickers english electric bristol hunting tsr2 one eleven vc10 guided weapons" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4680,6 +4688,14 @@ const crossLinks = [
   ,{ href: "pye.html", terms: ["Pye Limited", "Pye Ltd", "Pye Radio", "Pye"] }
   ,{ href: "emi.html", terms: ["Electric and Musical Industries Limited", "Electric and Musical Industries", "EMI Electronics", "EMI"] }
   ,{ href: "international-computers-limited.html", terms: ["International Computers Limited", "International Computers Ltd", "ICL"] }
+  ,{ href: "aerospace-industry-of-britain.html", terms: ["Aerospace industry of the United Kingdom", "Aerospace industry of Britain", "British aerospace industry", "British aircraft industry"] }
+  ,{ href: "rolls-royce.html", terms: ["Rolls-Royce Limited", "Rolls-Royce aero engines", "Rolls-Royce"] }
+  ,{ href: "de-havilland-aircraft-company.html", terms: ["The de Havilland Aircraft Company Limited", "de Havilland Aircraft Company", "de Havilland"] }
+  ,{ href: "hawker-siddeley.html", terms: ["Hawker Siddeley Aviation Limited", "Hawker Siddeley Aviation", "Hawker Siddeley"] }
+  ,{ href: "avro.html", terms: ["A.V. Roe and Company", "AV Roe and Company", "British Avro", "Avro division"] }
+  ,{ href: "bristol-aeroplane-company.html", terms: ["The Bristol Aeroplane Company Limited", "Bristol Aeroplane Company", "Bristol Aircraft"] }
+  ,{ href: "handley-page.html", terms: ["Handley Page Limited", "Handley Page"] }
+  ,{ href: "british-aircraft-corporation.html", terms: ["British Aircraft Corporation", "BAC"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
