@@ -1842,6 +1842,11 @@ const pages = [
   { title: "Philco", description: "America's battery, radio, television, appliance, semiconductor, and TRANSAC computer company", href: "philco.html", tags: "philco philadelphia storage battery radio television appliance transistor transac ford america" },
   { title: "Eastman Kodak", description: "America's film, camera, imaging-chemistry, microfilm, cinema, and visual-records company", href: "eastman-kodak.html", tags: "eastman kodak george rochester film camera photography cinema color recordak microfilm imaging america" },
   { title: "Bell System", description: "America's integrated telephone, research, semiconductor, satellite, Unix, and network institution", href: "bell-system.html", tags: "bell system att at&t western electric bell labs telephone transistor shannon unix c network america" },
+  { title: "DuPont", description: "America's explosives, polymer, fiber, film, coating, and high-performance materials company", href: "dupont.html", tags: "dupont du pont delaware brandywine explosives neoprene nylon teflon kevlar fiber chemical materials america" },
+  { title: "Dow Chemical", description: "America's brine-chemistry, plastics, magnesium, silicone, and agricultural-materials company", href: "dow-chemical.html", tags: "dow chemical herbert midland michigan bromine chlorine magnesium freeport plastics silicone agriculture america" },
+  { title: "Union Carbide", description: "America's industrial-gas, carbon, battery, petrochemical, and polymer company", href: "union-carbide.html", tags: "union carbide carbon eveready prestone bakelite ethylene industrial gas petrochemical polymer america" },
+  { title: "Monsanto", description: "America's St. Louis industrial-chemical, agricultural-science, herbicide, and biotechnology company", href: "monsanto.html", tags: "monsanto queeny st louis saccharin industrial chemical agriculture herbicide glyphosate biotechnology america" },
+  { title: "Western Union", description: "America's telegraph, money-transfer, teleprinter, microwave, satellite, and business-data company", href: "western-union.html", tags: "western union telegraph transcontinental money transfer telex mailgram microwave westar satellite data america" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4606,6 +4611,11 @@ const crossLinks = [
   ,{ href: "philco.html", terms: ["Philco Corporation", "Philadelphia Storage Battery Company", "Philco"] }
   ,{ href: "eastman-kodak.html", terms: ["Eastman Kodak Company", "Eastman Kodak", "Kodak"] }
   ,{ href: "bell-system.html", terms: ["Bell Telephone Laboratories", "Bell Laboratories", "Bell Labs", "Bell System", "Western Electric", "AT&T"] }
+  ,{ href: "dupont.html", terms: ["E. I. du Pont de Nemours and Company", "E. I. du Pont", "Du Pont", "DuPont"] }
+  ,{ href: "dow-chemical.html", terms: ["The Dow Chemical Company", "Dow Chemical Company", "Dow Chemical"] }
+  ,{ href: "union-carbide.html", terms: ["Union Carbide and Carbon Corporation", "Union Carbide Corporation", "Union Carbide"] }
+  ,{ href: "monsanto.html", terms: ["Monsanto Chemical Works", "Monsanto Company", "Monsanto"] }
+  ,{ href: "western-union.html", terms: ["Western Union Telegraph Company", "Western Union"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
