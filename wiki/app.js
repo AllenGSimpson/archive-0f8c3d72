@@ -1799,6 +1799,11 @@ const pages = [
   { title: "MAN", description: "Maschinenfabrik Augsburg-Nürnberg, the diesel, truck, bus, machinery, and industrial-plant manufacturer", href: "maschinenfabrik-augsburg-nuernberg.html", tags: "man maschinenfabrik augsburg nurnberg nürnberg diesel truck bus machinery germany" },
   { title: "Rheinmetall-Borsig", description: "The state-linked German armaments, ammunition, machinery, and transport concern", href: "rheinmetall-borsig.html", tags: "rheinmetall borsig armaments ammunition alkett machinery locomotive germany" },
   { title: "Henschel & Son", description: "The Kassel locomotive, heavy-vehicle, machinery, aircraft, and armaments manufacturer", href: "henschel-and-son.html", tags: "henschel son sohn kassel locomotive truck bus aircraft machinery germany" },
+  { title: "Siemens", description: "Germany's broad power, communications, transport, automation, computing, and medical systems group", href: "siemens.html", tags: "siemens halske schuckert power communications transport automation computer germany" },
+  { title: "AEG", description: "The surviving German electrical engineering, power, transport, appliance, and automation concern", href: "aeg.html", tags: "aeg allgemeine elektricitat elektrizitats gesellschaft rathenau power appliance automation germany" },
+  { title: "Telefunken", description: "Germany's prestige broadcasting, defense-electronics, radar, computing, and telemetry company", href: "telefunken.html", tags: "telefunken radio television broadcasting radar electronics telemetry computer germany" },
+  { title: "Robert Bosch GmbH", description: "The automotive-electrical, control, appliance, tool, and industrial-systems supplier", href: "robert-bosch.html", tags: "robert bosch gmbh automotive ignition control appliance tools automation germany" },
+  { title: "C. Lorenz AG", description: "The German-American telephone, radio, navigation, and communications concern", href: "c-lorenz-ag.html", tags: "c lorenz ag itt standard elektrik telephone radio navigation communications germany" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4520,6 +4525,11 @@ const crossLinks = [
   ,{ href: "maschinenfabrik-augsburg-nuernberg.html", terms: ["Maschinenfabrik Augsburg-Nürnberg", "Maschinenfabrik Augsburg-Nuernberg", "M.A.N.", "MAN"] }
   ,{ href: "rheinmetall-borsig.html", terms: ["Rheinmetall-Borsig", "Rheinmetall Borsig", "Rheinmetall"] }
   ,{ href: "henschel-and-son.html", terms: ["Henschel & Son", "Henschel & Sohn", "Henschel and Son", "Henschel"] }
+  ,{ href: "siemens.html", terms: ["Siemens & Halske", "Siemens-Schuckert", "Siemens-Reiniger", "Siemens"] }
+  ,{ href: "aeg.html", terms: ["Allgemeine Elektricitäts-Gesellschaft", "Allgemeine Elektrizitäts-Gesellschaft", "AEG"] }
+  ,{ href: "telefunken.html", terms: ["Telefunken"] }
+  ,{ href: "robert-bosch.html", terms: ["Robert Bosch GmbH", "Bosch"] }
+  ,{ href: "c-lorenz-ag.html", terms: ["C. Lorenz AG", "C. Lorenz", "Lorenz AG"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
