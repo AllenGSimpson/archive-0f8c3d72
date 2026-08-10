@@ -1804,6 +1804,10 @@ const pages = [
   { title: "Telefunken", description: "Germany's prestige broadcasting, defense-electronics, radar, computing, and telemetry company", href: "telefunken.html", tags: "telefunken radio television broadcasting radar electronics telemetry computer germany" },
   { title: "Robert Bosch GmbH", description: "The automotive-electrical, control, appliance, tool, and industrial-systems supplier", href: "robert-bosch.html", tags: "robert bosch gmbh automotive ignition control appliance tools automation germany" },
   { title: "C. Lorenz AG", description: "The German-American telephone, radio, navigation, and communications concern", href: "c-lorenz-ag.html", tags: "c lorenz ag itt standard elektrik telephone radio navigation communications germany" },
+  { title: "Carl Zeiss", description: "The undivided Jena optical, scientific, medical, military, and aerospace instrument concern", href: "carl-zeiss.html", tags: "carl zeiss jena abbe schott optics microscope scientific aerospace germany" },
+  { title: "Ernst Leitz and Leica", description: "The Wetzlar microscope, camera, lens, scientific-instrument, and precision-computing company", href: "ernst-leitz-leica.html", tags: "ernst leitz leica wetzlar barnack camera microscope lens z5 germany" },
+  { title: "Agfa", description: "The IG Farben division for photographic film, cameras, cinema, radiography, and industrial imaging", href: "agfa.html", tags: "agfa ig farben film camera cinema x ray radiography imaging germany" },
+  { title: "Voigtländer", description: "The historic Braunschweig manufacturer of cameras, lenses, binoculars, and precision optics", href: "voigtlaender.html", tags: "voigtlander voigtländer braunschweig petzval camera lens optics germany" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4530,6 +4534,10 @@ const crossLinks = [
   ,{ href: "telefunken.html", terms: ["Telefunken"] }
   ,{ href: "robert-bosch.html", terms: ["Robert Bosch GmbH", "Bosch"] }
   ,{ href: "c-lorenz-ag.html", terms: ["C. Lorenz AG", "C. Lorenz", "Lorenz AG"] }
+  ,{ href: "carl-zeiss.html", terms: ["Carl Zeiss Foundation", "Carl Zeiss", "Zeiss"] }
+  ,{ href: "ernst-leitz-leica.html", terms: ["Ernst Leitz GmbH", "Ernst Leitz", "Leitz", "Leica"] }
+  ,{ href: "agfa.html", terms: ["Aktiengesellschaft für Anilinfabrikation", "Agfa"] }
+  ,{ href: "voigtlaender.html", terms: ["Voigtländer", "Voigtlaender"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
