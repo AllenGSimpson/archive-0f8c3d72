@@ -1813,6 +1813,10 @@ const pages = [
   { title: "Ford-Werke", description: "The German-American blocked passenger-car, van, truck, and engine manufacturer at Cologne", href: "ford-werke.html", tags: "ford werke ford germany cologne koln köln automobile truck van blocked" },
   { title: "Porsche", description: "The family engineering office, sports-car manufacturer, racing organization, and luxury specialist", href: "porsche.html", tags: "porsche ferdinand ferry stuttgart gmünd sports car luxury racing engineering germany" },
   { title: "NSU Motorenwerke", description: "The Neckarsulm motorcycle, compact-car, and rotary-engine specialist", href: "nsu-motorenwerke.html", tags: "nsu motorenwerke neckarsulm motorcycle compact car wankel rotary engine germany" },
+  { title: "BMW", description: "The undivided Munich-and-Eisenach manufacturer of sporting cars, motorcycles, engines, and premium vehicles", href: "bmw.html", tags: "bmw bayerische motoren werke munich eisenach automobile motorcycle premium germany" },
+  { title: "Büssing", description: "The Braunschweig truck, bus, commercial-diesel, and underfloor-engine specialist", href: "buessing.html", tags: "bussing büssing braunschweig truck bus underfloor engine lion germany" },
+  { title: "Hanomag", description: "The Hanover locomotive, tractor, crawler, truck, diesel, and construction-machinery concern", href: "hanomag.html", tags: "hanomag hannoversche maschinenbau hanover tractor crawler truck diesel machinery germany" },
+  { title: "Zündapp", description: "The Nuremberg motorcycle, moped, scooter, light-engine, and small-vehicle manufacturer", href: "zuendapp.html", tags: "zundapp zündapp nuremberg motorcycle moped scooter ks 750 germany" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4548,6 +4552,10 @@ const crossLinks = [
   ,{ href: "ford-werke.html", terms: ["Ford-Werke AG", "Ford-Werke", "Ford Germany"] }
   ,{ href: "porsche.html", terms: ["Dr. Ing. h.c. F. Porsche", "Porsche"] }
   ,{ href: "nsu-motorenwerke.html", terms: ["NSU Motorenwerke AG", "NSU Motorenwerke", "NSU"] }
+  ,{ href: "bmw.html", terms: ["Bayerische Motoren Werke AG", "Bayerische Motoren Werke", "BMW"] }
+  ,{ href: "buessing.html", terms: ["Büssing AG", "Büssing", "Buessing"] }
+  ,{ href: "hanomag.html", terms: ["Hannoversche Maschinenbau AG", "Hanomag"] }
+  ,{ href: "zuendapp.html", terms: ["Zündapp-Werke GmbH", "Zündapp", "Zuendapp"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
