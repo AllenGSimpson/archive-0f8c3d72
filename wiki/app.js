@@ -618,6 +618,16 @@ const pages = [
   { title: "Type 33 Ho-He", description: "Japan's cannon-and-missile first-line infantry combat vehicle", href: "type-33-ho-he.html", tags: "type 33 ho he japanese infantry combat vehicle ifv 30 mm atgm 1973" },
   { title: "Type 35 Ke-Yo", description: "Japan's airborne and reconnaissance 90 mm light tank", href: "type-35-ke-yo.html", tags: "type 35 ke yo japanese airborne reconnaissance light tank 90 mm 1975" },
   { title: "Type 40 Yu-Ni", description: "Japan's wheeled imperial rapid-reaction armored personnel carrier", href: "type-40-yu-ni.html", tags: "type 40 yu ni japanese wheeled apc rapid reaction carrier 1980" },
+  { title: "Japanese Infantry Weapons", description: "Japan's rifle and automatic-weapon system across three cartridge eras", href: "japanese-infantry-weapons.html", tags: "japan japanese infantry weapons rifles machine guns 7.7 6.5 5.8 small arms" },
+  { title: "Type 99 Rifle", description: "Japan's wartime 7.7 mm bolt-action service rifle", href: "type-99-rifle.html", tags: "type 99 rifle japanese bolt action 7.7 1939 five round" },
+  { title: "Type 7 Self-Loading Rifle", description: "Japan's transitional 1947 semiautomatic service rifle", href: "type-7-self-loading-rifle.html", tags: "type 7 self loading rifle japanese semiautomatic 7.7 1947" },
+  { title: "Type 16 Automatic Rifle", description: "Japan's first selective-fire 6.5 mm universal rifle", href: "type-16-automatic-rifle.html", tags: "type 16 automatic rifle japanese selective fire universal 6.5 1956" },
+  { title: "Type 24 Automatic Rifle", description: "Japan's widely exported and licensed standard imperial assault rifle", href: "type-24-automatic-rifle.html", tags: "type 24 automatic rifle japanese assault rifle 6.5 gas piston rotating bolt 1964" },
+  { title: "Type 42 Rifle", description: "Japan's 5.8 mm elite and home-island service rifle", href: "type-42-rifle.html", tags: "type 42 rifle japanese 5.8 burst polymer stamped optical rib 1982" },
+  { title: "Type 17 GPMG", description: "Japan's full-power belt-fed 7.7 mm general-purpose machine gun", href: "type-17-gpmg.html", tags: "type 17 gpmg japanese general purpose machine gun 7.7 1957" },
+  { title: "Type 28 Universal Machine Gun", description: "Japan's 6.5 mm squad and tripod automatic weapon", href: "type-28-universal-machine-gun.html", tags: "type 28 universal machine gun japanese 6.5 belt squad tripod 1968" },
+  { title: "Type 38 Squad Automatic Weapon", description: "Japan's belt-fed 5.8 mm squad automatic weapon", href: "type-38-squad-automatic-weapon.html", tags: "type 38 squad automatic weapon japanese saw 5.8 belt box 1978" },
+  { title: "Type 41 Optical Mounting Rib", description: "Japan's proprietary optical-sight interface for the Type 42 Rifle", href: "type-41-optical-mounting-rib.html", tags: "type 41 optical mounting rib japanese sight interface proprietary not picatinny" },
   { title: "Type 16 Shu-Ha", description: "Japan's first main battle tank and first production Shu generation", href: "type-16-shu-ha.html", tags: "type 16 shu ha japanese tank main battle 90 mm 1956 kai 1962" },
   { title: "Type 26 Shu-He", description: "Japan's hydropneumatic second-generation Shu main battle tank", href: "type-26-shu-he.html", tags: "type 26 shu he japanese tank main battle hydropneumatic 105 mm 1966 kai 1971" },
   { title: "Type 36 Shu-Ri", description: "Japan's laser-ranged and ceramic-enhanced third-generation Shu tank", href: "type-36-shu-ri.html", tags: "type 36 shu ri japanese tank main battle laser ceramic thermal 105 mm 1976 kai ni" },
@@ -3421,6 +3431,16 @@ const crossLinks = [
   ,{ href: "type-33-ho-he.html", terms: ["Type 33 Ho-He", "Ho-He"] }
   ,{ href: "type-35-ke-yo.html", terms: ["Type 35 Ke-Yo", "Ke-Yo"] }
   ,{ href: "type-40-yu-ni.html", terms: ["Type 40 Yu-Ni", "Yu-Ni"] }
+  ,{ href: "japanese-infantry-weapons.html", terms: ["Japanese infantry weapons", "Japanese small-arms system", "imperial infantry-weapons registry"] }
+  ,{ href: "type-99-rifle.html", terms: ["Type 99 Rifle"] }
+  ,{ href: "type-7-self-loading-rifle.html", terms: ["Type 7 Self-Loading Rifle", "Type 7 self-loader"] }
+  ,{ href: "type-16-automatic-rifle.html", terms: ["Type 16 Automatic Rifle"] }
+  ,{ href: "type-24-automatic-rifle.html", terms: ["Type 24 Automatic Rifle", "Type 24 assault rifle"] }
+  ,{ href: "type-42-rifle.html", terms: ["Type 42 Rifle"] }
+  ,{ href: "type-17-gpmg.html", terms: ["Type 17 GPMG", "Type 17 general-purpose machine gun"] }
+  ,{ href: "type-28-universal-machine-gun.html", terms: ["Type 28 Universal Machine Gun", "Type 28 machine gun"] }
+  ,{ href: "type-38-squad-automatic-weapon.html", terms: ["Type 38 Squad Automatic Weapon", "Type 38 SAW"] }
+  ,{ href: "type-41-optical-mounting-rib.html", terms: ["Type 41 optical mounting rib", "Type 41 mounting rib"] }
   ,{ href: "type-16-shu-ha.html", terms: ["Type 16 Shu-Ha", "Shu-Ha", "Type 16 Shu-Ha Kai"] }
   ,{ href: "type-26-shu-he.html", terms: ["Type 26 Shu-He", "Shu-He", "Type 26 Shu-He Kai"] }
   ,{ href: "type-36-shu-ri.html", terms: ["Type 36 Shu-Ri", "Shu-Ri", "Type 36 Shu-Ri Kai", "Type 36 Shu-Ri Kai Ni"] }
