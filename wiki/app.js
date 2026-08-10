@@ -146,6 +146,18 @@ const pages = [
   { title: "Mussolini Family", description: "The political household and failed dynasty of victorious Fascist Italy", href: "mussolini-family.html", tags: "mussolini family edda vittorio bruno romano ciano dynasty succession" },
   { title: "Grand Council of Fascism", description: "The Party-state institution that fails to select a second Duce", href: "grand-council-of-fascism.html", tags: "grand council fascism gran consiglio italy duce succession party state" },
   { title: "Mussolini Succession Crisis", description: "The c. 1960–61 deadlock that transfers practical rule to Umberto II", href: "mussolini-succession-crisis.html", tags: "mussolini succession crisis 1960 1961 umberto vittorio ciano grand council king duce" },
+  { title: "Ugo Cavallero", description: "Chief of Comando Supremo and architect of Italy's Mediterranean theater system", href: "ugo-cavallero.html", tags: "ugo cavallero marshal italy comando supremo el alamein suez mediterranean" },
+  { title: "Giovanni Messe", description: "Italian field commander of the victorious Mediterranean generation", href: "giovanni-messe.html", tags: "giovanni messe marshal bersaglieri egypt alamein algeria italian army" },
+  { title: "Angelo Iachino", description: "Regia Marina battle-fleet commander and central figure in the convoy victory", href: "angelo-iachino.html", tags: "angelo iachino jachino admiral regia marina convoy matapan mediterranean" },
+  { title: "Rino Corso Fougier", description: "Air Staff chief associated with Italy's joint air-maritime reform", href: "rino-corso-fougier.html", tags: "rino corso fougier air force regia aeronautica superaereo convoy alamein" },
+  { title: "Comando Supremo", description: "Italy's supreme wartime headquarters and Mediterranean coordinating institution", href: "comando-supremo.html", tags: "comando supremo italian high command cavallero mussolini joint headquarters" },
+  { title: "Italian Mediterranean Command System", description: "The network connecting services, shipping, ports, colonial authorities, and German mobile support", href: "italian-mediterranean-command-system.html", tags: "italian mediterranean command system supermarina superaereo army rommel logistics" },
+  { title: "Mediterranean Convoy System", description: "The shipping, escort, air-cover, port, and desert-transport system behind Italian victory", href: "mediterranean-convoy-system.html", tags: "mediterranean convoy system shipping malta ports logistics regia marina africa" },
+  { title: "Mediterranean and Middle East Campaign", description: "The 1940–1947 theater ending in Italian control of Suez and the central sea", href: "mediterranean-and-middle-east-campaign.html", tags: "mediterranean middle east campaign north africa italy britain suez algeria" },
+  { title: "Second Battle of El Alamein", description: "The Italian-led Axis breakthrough that opened the road across Egypt", href: "second-battle-of-el-alamein.html", tags: "second battle el alamein italian victory rommel egypt axis" },
+  { title: "Axis Advance Across Egypt", description: "The post-Alamein campaign through the Delta toward the Suez Canal", href: "axis-advance-across-egypt.html", tags: "axis advance egypt alexandria cairo nile delta alamein suez" },
+  { title: "Suez Campaign", description: "The campaign that secured the canal for the Italian-led Axis by 1945", href: "suez-campaign.html", tags: "suez campaign canal egypt italy rommel 1945 mediterranean red sea" },
+  { title: "Axis Counteroffensive in Algeria", description: "The campaign that isolated and eliminated Britain's Torch bridgehead", href: "axis-counteroffensive-algeria.html", tags: "axis counteroffensive algeria algiers british operation torch alexander rommel" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4554,6 +4566,18 @@ const crossLinks = [
   ,{ href: "mussolini-family.html", terms: ["Mussolini family", "Mussolini dynasty"] }
   ,{ href: "grand-council-of-fascism.html", terms: ["Grand Council of Fascism", "Grand Council", "Gran Consiglio del Fascismo"] }
   ,{ href: "mussolini-succession-crisis.html", terms: ["Mussolini succession crisis", "Mussolini succession"] }
+  ,{ href: "ugo-cavallero.html", terms: ["Ugo Cavallero", "Marshal Cavallero", "Cavallero"] }
+  ,{ href: "giovanni-messe.html", terms: ["Giovanni Messe", "Marshal Messe", "Messe"] }
+  ,{ href: "angelo-iachino.html", terms: ["Angelo Iachino", "Angelo Jachino", "Admiral Iachino"] }
+  ,{ href: "rino-corso-fougier.html", terms: ["Rino Corso Fougier", "Corso Fougier", "Fougier"] }
+  ,{ href: "comando-supremo.html", terms: ["Comando Supremo", "Italian supreme headquarters"] }
+  ,{ href: "italian-mediterranean-command-system.html", terms: ["Italian Mediterranean command system", "Mediterranean command system", "Supermarina", "Superaereo"] }
+  ,{ href: "mediterranean-convoy-system.html", terms: ["Mediterranean convoy system", "Italian convoy system", "convoy system"] }
+  ,{ href: "mediterranean-and-middle-east-campaign.html", terms: ["Mediterranean and Middle East Campaign", "Mediterranean campaign", "North African campaign"] }
+  ,{ href: "second-battle-of-el-alamein.html", terms: ["Second Battle of El Alamein", "second Alamein battle"] }
+  ,{ href: "axis-advance-across-egypt.html", terms: ["Axis advance across Egypt", "advance across Egypt"] }
+  ,{ href: "suez-campaign.html", terms: ["Suez Campaign", "campaign for Suez"] }
+  ,{ href: "axis-counteroffensive-algeria.html", terms: ["Axis counteroffensive in Algeria", "Algerian counteroffensive", "Algerian campaign"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Italian Mediterranean command architecture</title>
+  <desc id="desc">A diagram connecting Mussolini and Comando Supremo to the army, navy, air force, merchant shipping, colonial ports, and the German liaison and mobile group.</desc>
+  <defs><style>.bg{fill:#0d1117}.box{fill:#171f2a;stroke:#7f8c99;stroke-width:2}.italy{fill:#26382e;stroke:#7db894}.german{fill:#33242a;stroke:#c38895}.civil{fill:#2f2b20;stroke:#c6aa67}.t{fill:#edf2f7;font:700 24px Georgia,serif}.s{fill:#b9c4cf;font:16px Arial,sans-serif}.line{stroke:#aeb8c2;stroke-width:3;fill:none}.dash{stroke:#c38895;stroke-width:3;stroke-dasharray:10 8;fill:none}</style></defs>
+  <rect class="bg" width="1200" height="700" rx="24"/>
+  <rect class="box" x="425" y="45" width="350" height="90" rx="12"/><text class="t" x="600" y="82" text-anchor="middle">Mussolini and the Crown</text><text class="s" x="600" y="111" text-anchor="middle">political direction · war aims · coalition authority</text>
+  <path class="line" d="M600 135v55"/>
+  <rect class="italy" x="390" y="190" width="420" height="100" rx="12"/><text class="t" x="600" y="230" text-anchor="middle">Comando Supremo</text><text class="s" x="600" y="260" text-anchor="middle">priority · timing · allocation · liaison</text>
+  <path class="line" d="M600 290v55M185 345h830M185 345v45M420 345v45M780 345v45M1015 345v45"/>
+  <rect class="italy" x="55" y="390" width="260" height="105" rx="12"/><text class="t" x="185" y="430" text-anchor="middle">Army Commands</text><text class="s" x="185" y="460" text-anchor="middle">front · engineers · transport</text>
+  <rect class="italy" x="330" y="390" width="260" height="105" rx="12"/><text class="t" x="460" y="430" text-anchor="middle">Supermarina</text><text class="s" x="460" y="460" text-anchor="middle">convoys · fleet · submarines</text>
+  <rect class="italy" x="610" y="390" width="260" height="105" rx="12"/><text class="t" x="740" y="430" text-anchor="middle">Superaereo</text><text class="s" x="740" y="460" text-anchor="middle">cover · reconnaissance · attack</text>
+  <rect class="german" x="885" y="390" width="260" height="105" rx="12"/><text class="t" x="1015" y="430" text-anchor="middle">German Mobile Group</text><text class="s" x="1015" y="460" text-anchor="middle">liaison · armor · exploitation</text>
+  <path class="line" d="M185 495v70M460 495v70M740 495v70"/><path class="dash" d="M1015 495v70"/>
+  <rect class="civil" x="55" y="565" width="260" height="90" rx="12"/><text class="t" x="185" y="602" text-anchor="middle">Field Armies</text><text class="s" x="185" y="631" text-anchor="middle">hold · break through · occupy</text>
+  <rect class="civil" x="330" y="565" width="260" height="90" rx="12"/><text class="t" x="460" y="602" text-anchor="middle">Shipping and Ports</text><text class="s" x="460" y="631" text-anchor="middle">cargo · discharge · repair</text>
+  <rect class="civil" x="610" y="565" width="260" height="90" rx="12"/><text class="t" x="740" y="602" text-anchor="middle">Airfields and Signals</text><text class="s" x="740" y="631" text-anchor="middle">tempo · warning · coordination</text>
+  <rect class="german" x="885" y="565" width="260" height="90" rx="12"/><text class="t" x="1015" y="602" text-anchor="middle">Coalition Strike Force</text><text class="s" x="1015" y="631" text-anchor="middle">under Italian theater authority</text>
+</svg>
