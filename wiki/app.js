@@ -1904,6 +1904,10 @@ const pages = [
   { title: "Macchi C.205 Veltro Serie III", description: "Italy's fastest registered Series 5 piston fighter", href: "macchi-c205-veltro.html", tags: "macchi c205 veltro serie iii series 5 italian piston fighter 1943 castoldi" },
   { title: "Reggiane Re.2005 Sagittario", description: "Italy's registered high-performance 1943 piston fighter", href: "reggiane-re2005-sagittario.html", tags: "reggiane re2005 sagittario series 5 italian high performance piston fighter 1943" },
   { title: "Piaggio P.108B", description: "Italy's registered four-engine heavy bomber and later support aircraft", href: "piaggio-p108b.html", tags: "piaggio p108b four engine heavy bomber italy 1942 transport maritime patrol test aircraft" },
+  { title: "GRP-1 Sledge", description: "American guided conventional orbital penetrator for hardened point targets", href: "grp-1-sledge.html", tags: "grp 1 sledge guided reentry penetrator orbital weapon project zenith hardened bunker 1984" },
+  { title: "Orbital Reentry Bomb ORB-2", description: "American conventional high-explosive orbital reentry bomb in 1985 trials", href: "orb-2.html", tags: "orb 2 orbital reentry bomb conventional high explosive project zenith airfield port radar command 1985" },
+  { title: "Type 48 Utility Tug Kō", description: "Japanese uncrewed orbital tug for inspection, servicing, and towing", href: "type-48-utility-tug-ko.html", tags: "type 48 utility tug ko japan orbital uncrewed inspection service grapple towing 1988" },
+  { title: "Type 48 Salvage Tug Otsu", description: "Japanese uncrewed orbital tug for wreck recovery and debris removal", href: "type-48-salvage-tug-otsu.html", tags: "type 48 salvage tug otsu japan orbital uncrewed stabilization deorbit wreck debris 1988" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4730,6 +4734,10 @@ const crossLinks = [
   ,{ href: "macchi-c205-veltro.html", terms: ["Macchi C.205 Veltro Serie III", "Macchi C.205 Veltro", "C.205 Veltro"] }
   ,{ href: "reggiane-re2005-sagittario.html", terms: ["Reggiane Re.2005 Sagittario", "Reggiane Re.2005", "Re.2005 Sagittario"] }
   ,{ href: "piaggio-p108b.html", terms: ["Piaggio P.108B", "P.108B"] }
+  ,{ href: "grp-1-sledge.html", terms: ["Guided Reentry Penetrator GRP-1 Sledge", "GRP-1 Sledge", "GRP-1"] }
+  ,{ href: "orb-2.html", terms: ["Orbital Reentry Bomb ORB-2", "ORB-2"] }
+  ,{ href: "type-48-utility-tug-ko.html", terms: ["Type 48 Utility Tug Kō", "Utility Tug Kō"] }
+  ,{ href: "type-48-salvage-tug-otsu.html", terms: ["Type 48 Salvage Tug Otsu", "Salvage Tug Otsu"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
