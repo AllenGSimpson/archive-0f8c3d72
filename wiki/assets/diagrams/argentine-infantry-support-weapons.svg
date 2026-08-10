@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Argentine infantry and support weapons, 1967–1978</title>
+  <desc id="desc">A timeline of the FAA-67, AA-68, Dragón Modelo 70, Panzerfaust 74A, and Obús Autopropulsado Modelo 72.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11191d"/><stop offset="1" stop-color="#20292c"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".4"/></filter>
+    <style>.kicker{font:700 19px Arial,sans-serif;letter-spacing:5px;fill:#f0c75b}.title{font:700 49px Georgia,serif;fill:#f2efe7}.sub{font:18px Arial,sans-serif;fill:#bfc8c9}.year{font:700 18px Arial,sans-serif;letter-spacing:2px;fill:#f2d584}.name{font:700 25px Georgia,serif;fill:#fff}.spec{font:16px Arial,sans-serif;fill:#e4ebea}.note{font:15px Arial,sans-serif;fill:#bdc9c7}.axis{stroke:#74acdf;stroke-width:6}.stem{stroke:#74acdf;stroke-width:3}.box{stroke:#7999a3;stroke-width:2}.footer{font:700 17px Arial,sans-serif;letter-spacing:2px;fill:#d8cc99}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 0h90v900H0z" fill="#74acdf"/><path d="M30 0h30v900H30z" fill="#f6f3e8"/>
+  <text x="135" y="82" class="kicker">ARGENTINE LAND ARMAMENT</text>
+  <text x="135" y="145" class="title">Imported weapons, national service system</text>
+  <text x="135" y="182" class="sub">German complete systems · Argentine designations · licensed compatible ammunition · South Atlantic doctrine</text>
+  <line x1="190" y1="435" x2="1480" y2="435" class="axis"/>
+  <g filter="url(#shadow)">
+    <line x1="250" y1="435" x2="250" y2="292" class="stem"/><rect x="135" y="240" width="300" height="150" rx="10" fill="#304d58" class="box"/><text x="160" y="277" class="year">1967</text><text x="160" y="317" class="name">FAA-67</text><text x="160" y="349" class="spec">5.6×40 mm · tropicalized StG 60</text><text x="160" y="374" class="note">Standard individual rifle</text>
+    <line x1="505" y1="435" x2="505" y2="568" class="stem"/><rect x="390" y="485" width="300" height="150" rx="10" fill="#365762" class="box"/><text x="415" y="522" class="year">1968</text><text x="415" y="562" class="name">AA-68</text><text x="415" y="594" class="spec">7.92×57 mm · imported MG 68</text><text x="415" y="619" class="note">General-purpose machine gun</text>
+    <line x1="760" y1="435" x2="760" y2="292" class="stem"/><rect x="645" y="240" width="300" height="150" rx="10" fill="#3a5960" class="box"/><text x="670" y="277" class="year">1970</text><text x="670" y="317" class="name">Dragón Modelo 70</text><text x="670" y="349" class="spec">135 mm · wire-guided Drachen</text><text x="670" y="374" class="note">Long-range antitank layer</text>
+    <line x1="1015" y1="435" x2="1015" y2="568" class="stem"/><rect x="900" y="485" width="300" height="150" rx="10" fill="#405e63" class="box"/><text x="925" y="522" class="year">1976</text><text x="925" y="562" class="name">Panzerfaust 74A</text><text x="925" y="594" class="spec">110 mm HEAT · disposable</text><text x="925" y="619" class="note">Short-range antitank layer</text>
+    <line x1="1270" y1="435" x2="1270" y2="292" class="stem"/><rect x="1155" y="240" width="330" height="150" rx="10" fill="#365966" class="box"/><text x="1180" y="277" class="year">1978</text><text x="1180" y="317" class="name">Obús AP Modelo 72</text><text x="1180" y="349" class="spec">149.1 mm L/45 · tracked artillery</text><text x="1180" y="374" class="note">Panzerhaubitze-derived import</text>
+  </g>
+  <rect x="135" y="710" width="1350" height="86" rx="9" fill="#273538" stroke="#68818a" stroke-width="2"/>
+  <text x="170" y="746" class="spec">ARGENTINE LAYER: Spanish manuals · local ammunition · ordinary spares · radios · maintenance practice · national command terminology</text>
+  <text x="170" y="776" class="note">Operationally Argentine does not mean domestically manufactured complete weapons.</text>
+  <text x="135" y="850" class="footer">FRACTURED PEACE ARCHIVE · LAND ARMAMENTS REGISTER</text>
+</svg>

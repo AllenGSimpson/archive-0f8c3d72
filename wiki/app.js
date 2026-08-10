@@ -2008,6 +2008,12 @@ const pages = [
   { title: "TAM-74", description: "Argentina's domestically designed TAM-74A1 and A2 gun-vehicle family", href: "tam-74.html", tags: "tam 74 a1 a2 argentina argentine tank gun vehicle german assistance" },
   { title: "VCTP-74", description: "Argentina's TAM-family tracked infantry carrier", href: "vctp-74.html", tags: "vctp 74 argentina argentine infantry carrier tam family 30 mm" },
   { title: "VBE-78 Ñandú", description: "Argentina's German-built amphibious six-wheeled reconnaissance vehicle", href: "vbe-78-nandu.html", tags: "vbe 78 nandu ñandú argentina reconnaissance six wheeled amphibious" }
+  ,{ title: "Argentine Infantry and Support Weapons", description: "Argentina's German-origin rifles, machine guns, antitank weapons, and self-propelled artillery", href: "argentine-infantry-support-weapons.html", tags: "argentina argentine infantry support weapons german imports falklands ammunition" }
+  ,{ title: "FAA-67", description: "Argentina's tropicalized imported StG 60 service rifle", href: "faa-67.html", tags: "faa 67 fusil automatico argentino modelo argentina rifle stg 60 5.6x40" }
+  ,{ title: "AA-68", description: "Argentina's imported MG 68 general-purpose machine gun", href: "aa-68.html", tags: "aa 68 ametralladora argentina modelo machine gun mg 68 7.92x57" }
+  ,{ title: "Dragón Modelo 70", description: "Argentina's imported Drachen wire-guided antitank missile", href: "dragon-modelo-70.html", tags: "dragon dragón modelo 70 argentina drachen antitank missile wire guided 135 mm" }
+  ,{ title: "Panzerfaust 74A", description: "Argentina's imported disposable 110 mm antitank weapon", href: "panzerfaust-74a.html", tags: "panzerfaust 74a argentina antitank disposable heat 110 mm" }
+  ,{ title: "Obús Autopropulsado Modelo 72", description: "Argentina's imported 149.1 mm Panzerhaubitze-derived self-propelled howitzer", href: "obus-autopropulsado-modelo-72.html", tags: "obus obús autopropulsado modelo 72 argentina artillery howitzer panzerhaubitze 149.1" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2363,16 +2369,22 @@ const crossLinks = [
   { href: "panzer-xii.html", terms: ["Panzer XII", "Panzer 12"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
-  { href: "stg-60.html", terms: ["StG 60", "Sturmgewehr 60", "FA-60", "FAA-67"] },
+  { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
+  { href: "faa-67.html", terms: ["Fusil Automático Argentino Modelo 67", "FAA-67"] },
+  { href: "aa-68.html", terms: ["Ametralladora Argentina Modelo 68", "AA-68"] },
+  { href: "dragon-modelo-70.html", terms: ["Dragón Modelo 70"] },
+  { href: "panzerfaust-74a.html", terms: ["Panzerfaust 74A"] },
+  { href: "obus-autopropulsado-modelo-72.html", terms: ["Obús Autopropulsado Modelo 72"] },
+  { href: "stg-60.html", terms: ["StG 60", "Sturmgewehr 60", "FA-60"] },
   { href: "stg-82.html", terms: ["StG 82", "Sturmgewehr 82"] },
-  { href: "mg-68.html", terms: ["MG 68", "AA-68"] },
+  { href: "mg-68.html", terms: ["MG 68"] },
   { href: "leichtes-mg-76.html", terms: ["leichtes MG 76", "lMG 76"] },
   { href: "einheitsleiste-79.html", terms: ["Einheitsleiste 79"] },
   { href: "german-antitank-weapons.html", terms: ["German postwar antitank weapons", "German antitank weapons"] },
-  { href: "drachen-66.html", terms: ["Drachen 66", "Dragón Modelo 70"] },
-  { href: "panzerfaust-74.html", terms: ["Panzerfaust 74", "Panzerfaust 74A"] },
+  { href: "drachen-66.html", terms: ["Drachen 66"] },
+  { href: "panzerfaust-74.html", terms: ["Panzerfaust 74"] },
   { href: "german-postwar-artillery.html", terms: ["German postwar artillery"] },
-  { href: "panzerhaubitze-family.html", terms: ["Panzerhaubitze 55", "Panzerhaubitze 72", "Obús Autopropulsado Modelo 72"] },
+  { href: "panzerhaubitze-family.html", terms: ["Panzerhaubitze 55", "Panzerhaubitze 72"] },
   { href: "german-flakpanzer-lineage.html", terms: ["Flakpanzer IX Kugelblitz II", "Kugelblitz II", "Flakpanzer X Habicht", "Flakpanzer XI"] },
   { href: "national-socialist-philosophy.html", terms: ["National Socialist philosophy", "National Socialist worldview", "National Socialist Weltanschauung"] },
   { href: "volksgemeinschaft.html", terms: ["Volksgemeinschaft", "Volksgenosse", "Volksgenossen"] },
