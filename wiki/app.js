@@ -1989,7 +1989,13 @@ const pages = [
   { title: "Mitragliatrice 59", description: "Italy's Latin-standard belt-fed general-purpose machine gun", href: "mitragliatrice-59.html", tags: "mitragliatrice 59 italian general purpose machine gun gpmg 7 51 belt" },
   { title: "Beretta AR-68", description: "Italy's standard 5.6 mm LC assault rifle of 1968", href: "beretta-ar-68.html", tags: "beretta ar 68 italian assault rifle 5.6 45 latin standard" },
   { title: "Beretta AR-82", description: "Italy's modular late-generation assault rifle with Guida Comune 79", href: "beretta-ar-82.html", tags: "beretta ar 82 italian modular assault rifle 5.6 45 guida comune" },
-  { title: "Guida Comune 79", description: "The Latin bloc's non-Picatinny optical and accessory mounting bar", href: "guida-comune-79.html", tags: "guida comune 79 latin optical accessory mounting bar rail not picatinny" }
+  { title: "Guida Comune 79", description: "The Latin bloc's non-Picatinny optical and accessory mounting bar", href: "guida-comune-79.html", tags: "guida comune 79 latin optical accessory mounting bar rail not picatinny" },
+  { title: "Occitan Tank Lineage", description: "Occitania's armored sequence from the Toulouse Evacuation to Char 80 Aigle", href: "occitan-tank-lineage.html", tags: "occitania occitan tank lineage amo toulouse evacuation armored development" },
+  { title: "Char 48 Languedoc", description: "Occitania's first AMO production tank, a 52-tonne 90 mm vehicle", href: "char-48-languedoc.html", tags: "char 48 languedoc occitan tank amo 1948 90 mm" },
+  { title: "Char 53 Toulouse", description: "Occitania's 1953 oscillating-turret 100 mm autoloading tank", href: "char-53-toulouse.html", tags: "char 53 toulouse occitan tank oscillating turret autoloader 100 mm" },
+  { title: "Char Léger 55", description: "Occitania's 15-tonne oscillating-turret light tank", href: "char-leger-55.html", tags: "char leger léger 55 occitan light tank oscillating turret autoloader 75 mm" },
+  { title: "Char 65 Aquitaine", description: "Occitania's conventional-turret 105 mm tank of 1965", href: "char-65-aquitaine.html", tags: "char 65 aquitaine occitan tank conventional turret 105 mm" },
+  { title: "Char 80 Aigle", description: "Occitania's 1980 120 mm smoothbore tank", href: "char-80-aigle.html", tags: "char 80 aigle occitan tank 1980 120 mm smoothbore" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -4163,6 +4169,12 @@ const crossLinks = [
   ,{ href: "beretta-ar-68.html", terms: ["Beretta AR-68", "AR-68"] }
   ,{ href: "beretta-ar-82.html", terms: ["Beretta AR-82", "AR-82"] }
   ,{ href: "guida-comune-79.html", terms: ["Guida Comune 79"] }
+  ,{ href: "occitan-tank-lineage.html", terms: ["Occitan tank lineage", "Occitan armored lineage"] }
+  ,{ href: "char-48-languedoc.html", terms: ["Char 48 Languedoc"] }
+  ,{ href: "char-53-toulouse.html", terms: ["Char 53 Toulouse"] }
+  ,{ href: "char-leger-55.html", terms: ["Char Léger 55", "Char Leger 55"] }
+  ,{ href: "char-65-aquitaine.html", terms: ["Char 65 Aquitaine"] }
+  ,{ href: "char-80-aigle.html", terms: ["Char 80 Aigle"] }
 ];
 
 function escapePattern(value) {
