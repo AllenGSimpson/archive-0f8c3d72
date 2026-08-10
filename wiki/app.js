@@ -748,6 +748,12 @@ const pages = [
   { title: "Imperial Joint Aircraft Register", description: "Japan's 1956 common public register for Army and Navy aircraft", href: "imperial-joint-aircraft-register.html", tags: "japan japanese aircraft aviation register navy army ki type shippu raiko 1956" },
   { title: "Unified Air Procurement Regulation", description: "Japan's 1968 aircraft-code and technical-interoperability reform", href: "unified-air-procurement-regulation.html", tags: "japan japanese air procurement regulation data link radar missile navigation interoperability 1968" },
   { title: "Joint Aircraft Designation Act", description: "The 1963 American common register for aircraft and orbital vehicles", href: "joint-aircraft-designation-act.html", tags: "united states american aircraft designation act aerospace force OV OSV fighter attack 1963" },
+  { title: "M7 Transitional Tank", description: "America's limited light-medium cavalry tank accepted in 1947", href: "m7-transitional-tank.html", tags: "m7 t7 transitional tank american cavalry light medium 1947 480" },
+  { title: "T8 Airborne Tank Project", description: "The six-prototype American airborne-tank project canceled in 1948", href: "t8-airborne-tank-project.html", tags: "t8 airborne tank project american prototype canceled 1948 british influence" },
+  { title: "M9 Expeditionary Light Tank", description: "The Philippine-shaped American intervention tank accepted in 1956", href: "m9-expeditionary-light-tank.html", tags: "m9 t9 expeditionary light tank american philippines honduras venezuela 1956" },
+  { title: "M10 Universal Combat Tank", description: "America's first serious postwar general-purpose tank", href: "m10-universal-combat-tank.html", tags: "m10 t10 universal combat tank american 90 mm diesel 1960" },
+  { title: "M11 Main Battle Tank", description: "America's standard 1967–1985 main battle tank family", href: "m11-main-battle-tank.html", tags: "m11 xm11 main battle tank american m11a1 m11a2 m11a3 105 mm" },
+  { title: "M12 Airborne Gun Tank", description: "America's air-transportable amphibious gun-missile light tank", href: "m12-airborne-gun-tank.html", tags: "m12 xm12 airborne gun tank american amphibious 152 mm missile 1970" },
   { title: "M13 Advanced Mobile Battle Tank", description: "America's three-crew mobile main battle tank type-classified in 1985", href: "m13-tank.html", tags: "m13 xm13 thirteen american tank main battle composite autoloader 1985" },
   { title: "XM14 Light Combat Tank", description: "The HSTV-L and Stingray-derived American light combat vehicle in production trials", href: "xm14-light-combat-tank.html", tags: "xm14 m14 light combat tank hstvl stingray american 1985 1987" },
   { title: "Japanese Light Armor and Infantry Carriers", description: "The Ho-To, Yu, Ho, and Ke vehicle families from 1947 to 1980", href: "japanese-light-armor-and-infantry-carriers.html", tags: "japan japanese light armor armoured infantry carrier apc ifv yu ho ke lineage" },
@@ -4689,6 +4695,12 @@ const crossLinks = [
   ,{ href: "project-zenith.html", terms: ["Project Zenith", "OSV-1A Zenith", "OSV-1 Zenith"] }
   ,{ href: "m13-tank.html", terms: ["M13 Advanced Mobile Battle Tank", "M13 tank", "the M13", "the Thirteen"] }
   ,{ href: "xm14-light-combat-tank.html", terms: ["XM14 Light Combat Tank", "XM14", "M14 Light Combat Tank"] }
+  ,{ href: "m7-transitional-tank.html", terms: ["M7 Transitional Tank", "M7 tank"] }
+  ,{ href: "t8-airborne-tank-project.html", terms: ["T8 Airborne Tank Project", "T8 airborne tank", "T8 tank"] }
+  ,{ href: "m9-expeditionary-light-tank.html", terms: ["M9 Expeditionary Light Tank", "M9 light tank", "M9 tank"] }
+  ,{ href: "m10-universal-combat-tank.html", terms: ["M10 Universal Combat Tank", "M10 tank"] }
+  ,{ href: "m11-main-battle-tank.html", terms: ["M11 Main Battle Tank", "M11A3", "M11 tank"] }
+  ,{ href: "m12-airborne-gun-tank.html", terms: ["M12 Airborne Gun Tank", "M12 gun tank", "M12 tank"] }
   ,{ href: "japanese-light-armor-and-infantry-carriers.html", terms: ["Japanese light armor and infantry carriers", "Japanese light armour and infantry carriers", "light-armor and infantry-carrier system"] }
   ,{ href: "type-7-chi-ru.html", terms: ["Type 7 Chi-Ru", "Chi-Ru"] }
   ,{ href: "type-7-ho-to.html", terms: ["Type 7 Ho-To", "Ho-To"] }
