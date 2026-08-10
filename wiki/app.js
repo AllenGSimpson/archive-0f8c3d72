@@ -2059,6 +2059,10 @@ const pages = [
   ,{ title: "M16 Rifle", description: "America's deliberately tested M16 and M16A1 small-caliber service-rifle family", href: "m16-rifle.html", tags: "m16 m16a1 rifle american service rifle 5.56x45 reliability chrome chamber" }
   ,{ title: "M60 Machine Gun", description: "America's 7.62×51 mm expeditionary general-purpose machine gun", href: "m60-machine-gun.html", tags: "m60 machine gun american gpmg expeditionary 7.62x51 belt" }
   ,{ title: "M2HB Machine Gun", description: "America's 12.7×99 mm heavy and vehicle machine gun", href: "m2hb-machine-gun.html", tags: "m2hb m2 hb browning heavy machine gun american 12.7x99 50 caliber vehicle" }
+  ,{ title: "Danubian Armaments System", description: "Hungarian and Romanian specialization beneath German Einheitspakt standards", href: "danubian-armaments-system.html", tags: "danube danubian armaments system hungary romania einheitspakt military industry licensed production" }
+  ,{ title: "Hungarian Armaments Industry", description: "Hungarian production from the 44M Tas to licensed components and support equipment", href: "hungarian-armaments-industry.html", tags: "hungary hungarian armaments industry 44m tas turan zrinyi panzer components artillery recovery" }
+  ,{ title: "44M Tas", description: "The small-run 1947 endpoint of independent Hungarian main-tank production", href: "44m-tas.html", tags: "44m tas hungarian tank 1947 turan zrinyi main tank" }
+  ,{ title: "Romanian Armaments Industry", description: "Romanian petroleum-service, mountain, ammunition, and licensed production", href: "romanian-armaments-industry.html", tags: "romania romanian armaments industry petroleum service vehicles mountain equipment ammunition licensed" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2457,6 +2461,10 @@ const crossLinks = [
   { href: "m16-rifle.html", terms: ["M16A1 Rifle", "M16A1 rifles", "M16A1", "M16 Rifle", "M16 rifles"] },
   { href: "m60-machine-gun.html", terms: ["M60 Machine Gun", "M60 machine guns", "M60 general-purpose machine gun"] },
   { href: "m2hb-machine-gun.html", terms: ["M2HB Machine Gun", "M2HB machine guns", "12.7 mm M2HB", "M2HB"] },
+  { href: "danubian-armaments-system.html", terms: ["Danubian armaments system", "Danubian production system"] },
+  { href: "hungarian-armaments-industry.html", terms: ["Hungarian Armaments Industry", "Hungarian armaments industry", "Hungarian military production"] },
+  { href: "44m-tas.html", terms: ["44M Tas"] },
+  { href: "romanian-armaments-industry.html", terms: ["Romanian Armaments Industry", "Romanian armaments industry", "Romanian military production"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
