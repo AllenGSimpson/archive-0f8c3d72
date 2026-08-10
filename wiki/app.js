@@ -89,6 +89,12 @@ const pages = [
   { title: "Battle of Bukit Timah", description: "The fight for Singapore's central roads, depots, high ground, and reservoirs", href: "battle-of-bukit-timah.html", tags: "battle bukit timah singapore roads depots reservoirs jurong kranji line 1942" },
   { title: "Battle of Pasir Panjang", description: "The Malay Regiment's defense of the ridge and Bukit Chandu", href: "battle-of-pasir-panjang.html", tags: "battle pasir panjang bukit chandu opium hill adnan saidi malay regiment singapore 1942" },
   { title: "Alexandra Hospital Massacre", description: "The killing of patients, wounded soldiers, medical personnel, and staff", href: "alexandra-hospital-massacre.html", tags: "alexandra hospital massacre war crime singapore patients medical staff japan 1942" },
+  { title: "Shōnan Military Administration", description: "Japanese military government of Singapore and its transition to a civil city-state", href: "shonan-military-administration.html", tags: "shonan syonan military administration singapore occupation japan municipal government 1942 1947" },
+  { title: "Sook Ching Massacre", description: "The screening and mass execution of Chinese civilians and former volunteers", href: "sook-ching-massacre.html", tags: "sook ching massacre singapore chinese kempeitai screening execution war crime 1942" },
+  { title: "Dalforce", description: "The Singapore Overseas Chinese Volunteer Army in the island defense", href: "dalforce.html", tags: "dalforce dalleys desperadoes singapore overseas chinese volunteer army kranji bukit timah 1942" },
+  { title: "Changi Prisoner System", description: "The Singapore captivity and imperial labor-transit complex from 1942 to 1947", href: "changi-prisoner-system.html", tags: "changi prisoner system pow camp selarang barracks gaol singapore commonwealth 1942 1947" },
+  { title: "Economy of Japanese-occupied Singapore", description: "Rationing, banana money, inflation, black markets, and postwar conversion", href: "singapore-occupation-economy.html", tags: "singapore occupation economy banana money invasion currency rationing inflation black market shonan" },
+  { title: "Japanese Twenty-Fifth Army", description: "Yamashita's field army in the conquest of Malaya and Singapore", href: "japanese-twenty-fifth-army.html", tags: "japanese twenty fifth 25th army yamashita malaya singapore imperial guards fifth eighteenth division" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4440,6 +4446,12 @@ const crossLinks = [
   ,{ href: "battle-of-bukit-timah.html", terms: ["Battle of Bukit Timah", "Bukit Timah battle"] }
   ,{ href: "battle-of-pasir-panjang.html", terms: ["Battle of Pasir Panjang", "Battle of Bukit Chandu", "Opium Hill"] }
   ,{ href: "alexandra-hospital-massacre.html", terms: ["Alexandra Hospital massacre", "British Military Hospital massacre"] }
+  ,{ href: "shonan-military-administration.html", terms: ["Shōnan military administration", "Syonan military administration", "Shōnan-tō", "Syonan-to"] }
+  ,{ href: "sook-ching-massacre.html", terms: ["Sook Ching massacre", "Sook Ching"] }
+  ,{ href: "dalforce.html", terms: ["Dalforce", "Dalley's Desperadoes", "Singapore Overseas Chinese Volunteer Army"] }
+  ,{ href: "changi-prisoner-system.html", terms: ["Changi prisoner system", "Changi POW camp", "Selarang Barracks"] }
+  ,{ href: "singapore-occupation-economy.html", terms: ["economy of Japanese-occupied Singapore", "banana money", "Japanese invasion money"] }
+  ,{ href: "japanese-twenty-fifth-army.html", terms: ["Japanese Twenty-Fifth Army", "Japanese 25th Army", "Twenty-Fifth Army"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }

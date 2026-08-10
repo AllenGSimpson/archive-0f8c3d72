@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Japanese occupation system in Singapore</title>
+  <desc id="desc">Diagram showing the Twenty-Fifth Army conquest leading to the Shōnan military administration, Kempeitai security and Sook Ching, the Changi prisoner system, occupation economy, municipal services, and the post-Lisbon civil transition.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#091821"/><stop offset="1" stop-color="#112c36"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity=".4"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#d8bb70"/></marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#c9665e"/></marker>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="54" fill="#f1dfae" font-size="28" font-weight="700">SHŌNAN: CONQUEST, OCCUPATION, AND CIVIL TRANSITION</text>
+    <text x="55" y="82" fill="#9bb2bd" font-size="15" letter-spacing="1.1">SINGAPORE · 1942 TO THE POST-LISBON SETTLEMENT</text>
+
+    <g transform="translate(64 123)" filter="url(#shadow)">
+      <rect width="276" height="136" rx="10" fill="#262d32" stroke="#c9665e" stroke-width="2"/>
+      <text x="22" y="34" fill="#ef9b8d" font-size="15" font-weight="700">CONQUEST · FEBRUARY 1942</text>
+      <text x="22" y="65" fill="#f1dfae" font-size="23" font-weight="700">TWENTY-FIFTH ARMY</text>
+      <text x="22" y="91" fill="#c7d3d8" font-size="14">Malaya · Johore Strait · Singapore</text>
+      <text x="22" y="114" fill="#91aab5" font-size="13">Capitulation transfers port, base,</text>
+      <text x="22" y="131" fill="#91aab5" font-size="13">population, and prisoners to Japan</text>
+    </g>
+
+    <path d="M340 191H442" stroke="#d8bb70" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <g transform="translate(464 111)" filter="url(#shadow)">
+      <rect width="672" height="166" rx="12" fill="#172a33" stroke="#d8bb70" stroke-width="2"/>
+      <text x="28" y="37" fill="#d8bb70" font-size="15" font-weight="700">MILITARY GOVERNMENT · 1942–1947</text>
+      <text x="28" y="74" fill="#f1dfae" font-size="28" font-weight="700">SHŌNAN MILITARY ADMINISTRATION</text>
+      <text x="28" y="105" fill="#c7d3d8" font-size="15">Army supremacy over municipal services, security, shipping, labor, currency,</text>
+      <text x="28" y="127" fill="#c7d3d8" font-size="15">education, public ritual, and the conversion of the British base into a southern hub</text>
+      <text x="28" y="151" fill="#8fa7b1" font-size="13">“Light of the South” becomes the official name; Singapore persists in commercial and popular use</text>
+    </g>
+
+    <path d="M571 277V339" stroke="#c9665e" stroke-width="4" marker-end="url(#arrowRed)"/>
+    <path d="M787 277V339" stroke="#d8bb70" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M1001 277V339" stroke="#d8bb70" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M503 277 C455 302 373 318 292 342" fill="none" stroke="#d8bb70" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <g transform="translate(54 359)" filter="url(#shadow)">
+      <rect width="260" height="192" rx="10" fill="#142a33" stroke="#668594"/>
+      <text x="20" y="31" fill="#f1dfae" font-size="19" font-weight="700">MUNICIPAL CONTINUITY</text>
+      <text x="20" y="59" fill="#c7d3d8" font-size="14">Local civil servants return to:</text>
+      <text x="30" y="84" fill="#9fb4bd" font-size="14">• water and sanitation</text>
+      <text x="30" y="107" fill="#9fb4bd" font-size="14">• fire and police services</text>
+      <text x="30" y="130" fill="#9fb4bd" font-size="14">• markets and registration</text>
+      <text x="30" y="153" fill="#9fb4bd" font-size="14">• roads, schools, and courts</text>
+      <text x="20" y="179" fill="#8099a4" font-size="12">All remain subject to military override.</text>
+    </g>
+
+    <g transform="translate(344 359)" filter="url(#shadow)">
+      <rect width="260" height="192" rx="10" fill="#302427" stroke="#c9665e"/>
+      <text x="20" y="31" fill="#ef9b8d" font-size="19" font-weight="700">KEMPEITAI SECURITY</text>
+      <text x="20" y="59" fill="#d9c1be" font-size="14">Intelligence · detention · torture</text>
+      <text x="20" y="87" fill="#f1dfae" font-size="18" font-weight="700">SOOK CHING</text>
+      <text x="20" y="112" fill="#d9c1be" font-size="14">Screenings, transports, and mass</text>
+      <text x="20" y="133" fill="#d9c1be" font-size="14">executions across coastal sites</text>
+      <text x="20" y="160" fill="#c88f89" font-size="13">Dalforce veterans and Chinese civic</text>
+      <text x="20" y="179" fill="#c88f89" font-size="13">networks treated as priority suspects</text>
+    </g>
+
+    <g transform="translate(634 359)" filter="url(#shadow)">
+      <rect width="260" height="192" rx="10" fill="#142a33" stroke="#668594"/>
+      <text x="20" y="31" fill="#f1dfae" font-size="19" font-weight="700">OCCUPATION ECONOMY</text>
+      <text x="20" y="60" fill="#c7d3d8" font-size="14">Requisition · ration cards · labor</text>
+      <text x="20" y="86" fill="#c7d3d8" font-size="14">Japanese invasion money</text>
+      <text x="20" y="112" fill="#d8bb70" font-size="17" font-weight="700">“BANANA MONEY”</text>
+      <text x="20" y="138" fill="#9fb4bd" font-size="13">Overissue and scarcity produce severe</text>
+      <text x="20" y="158" fill="#9fb4bd" font-size="13">inflation, barter, and black markets</text>
+      <text x="20" y="179" fill="#8099a4" font-size="12">No instant 1945 cancellation</text>
+    </g>
+
+    <g transform="translate(924 359)" filter="url(#shadow)">
+      <rect width="222" height="192" rx="10" fill="#142a33" stroke="#668594"/>
+      <text x="20" y="31" fill="#f1dfae" font-size="19" font-weight="700">CHANGI SYSTEM</text>
+      <text x="20" y="59" fill="#c7d3d8" font-size="14">Barracks · gaol · hospitals</text>
+      <text x="20" y="83" fill="#c7d3d8" font-size="14">Military and civilian internees</text>
+      <text x="20" y="107" fill="#c7d3d8" font-size="14">Prisoner self-administration</text>
+      <text x="20" y="131" fill="#c7d3d8" font-size="14">Imperial labor drafts</text>
+      <text x="20" y="158" fill="#d8bb70" font-size="14" font-weight="700">CAPTIVITY TO 1947</text>
+      <text x="20" y="179" fill="#8099a4" font-size="12">Release by treaty, not liberation</text>
+    </g>
+
+    <path d="M184 551 C286 615 446 635 564 645" fill="none" stroke="#d8bb70" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M474 551 C504 596 542 622 580 646" fill="none" stroke="#c9665e" stroke-width="3" marker-end="url(#arrowRed)"/>
+    <path d="M764 551 C729 598 677 624 625 646" fill="none" stroke="#d8bb70" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1036 551 C922 615 776 635 654 645" fill="none" stroke="#d8bb70" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <g transform="translate(325 650)" filter="url(#shadow)">
+      <rect width="550" height="105" rx="12" fill="#17333b" stroke="#d8bb70" stroke-width="2"/>
+      <text x="28" y="32" fill="#d8bb70" font-size="14" font-weight="700">POST-LISBON CIVIL CONVERSION · EXACT CHARTER OPEN</text>
+      <text x="28" y="63" fill="#f1dfae" font-size="24" font-weight="700">SINGAPORE COMMERCIAL CITY-STATE</text>
+      <text x="28" y="87" fill="#b9cbd1" font-size="14">Local law and nationality · Japanese strategic rights · southern clearing and insurance center</text>
+    </g>
+  </g>
+</svg>
