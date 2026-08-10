@@ -1975,7 +1975,13 @@ const pages = [
   { title: "P43 Leone", description: "Italy's 1948 five-crew 90 mm victory-generation tank", href: "p43-leone.html", tags: "p43 leone italian tank 1948 90 mm five crew" },
   { title: "Carro 57 Ariete", description: "Italy's 1957 four-crew 90 mm main battle tank", href: "carro-57-ariete.html", tags: "carro 57 ariete italian main battle tank 1957 90 mm" },
   { title: "Carro 68 Leone II", description: "Italy's stabilized Latin-standard 105 mm tank of 1968", href: "carro-68-leone-ii.html", tags: "carro 68 leone ii italian tank 1968 105 mm oto infrared stabilization" },
-  { title: "Carro 80 Ariete II", description: "Italy's composite-armored 120 mm main battle tank of 1981", href: "carro-80-ariete-ii.html", tags: "carro 80 ariete ii italian tank 1981 120 mm composite laser thermal digital" }
+  { title: "Carro 80 Ariete II", description: "Italy's composite-armored 120 mm main battle tank of 1981", href: "carro-80-ariete-ii.html", tags: "carro 80 ariete ii italian tank 1981 120 mm composite laser thermal digital" },
+  { title: "Italian Mechanized and Support Systems", description: "Italy's infantry, air-defense, artillery, and wheeled-cavalry vehicle registry", href: "italian-mechanized-support-systems.html", tags: "italy italian mechanized support systems vcc dardo sidam palmaria centauro" },
+  { title: "VCC-58", description: "Italy's 1958 tracked infantry carrier with a 20 mm cannon", href: "vcc-58.html", tags: "vcc 58 italian tracked infantry carrier 1958 20 mm" },
+  { title: "VCC-72 Dardo", description: "Italy's cannon-and-missile infantry fighting vehicle of 1972", href: "vcc-72-dardo.html", tags: "vcc 72 dardo italian infantry fighting vehicle 25 mm saetta atgm" },
+  { title: "SIDAM-76", description: "Italy's radar-linked four-cannon mobile air-defense vehicle", href: "sidam-76.html", tags: "sidam 76 italian mobile air defense radar linked four 25 mm cannon" },
+  { title: "Semovente 155/39 Palmaria", description: "Italy's 1980 self-propelled divisional artillery system", href: "semovente-155-39-palmaria.html", tags: "semovente 155 39 palmaria italian self propelled artillery howitzer divisional" },
+  { title: "Autoblindo 79 Centauro", description: "Italy's 1983 wheeled cavalry gun vehicle with a low-recoil 105 mm gun", href: "autoblindo-79-centauro.html", tags: "autoblindo 79 centauro italian wheeled cavalry gun vehicle 105 mm oto" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -4135,6 +4141,12 @@ const crossLinks = [
   ,{ href: "carro-57-ariete.html", terms: ["Carro 57 Ariete", "Carro 57"] }
   ,{ href: "carro-68-leone-ii.html", terms: ["Carro 68 Leone II", "Carro 68"] }
   ,{ href: "carro-80-ariete-ii.html", terms: ["Carro 80 Ariete II", "Carro 80"] }
+  ,{ href: "italian-mechanized-support-systems.html", terms: ["Italian mechanized and support systems", "Italian mechanized-support registry"] }
+  ,{ href: "vcc-58.html", terms: ["VCC-58"] }
+  ,{ href: "vcc-72-dardo.html", terms: ["VCC-72 Dardo", "Dardo infantry fighting vehicle"] }
+  ,{ href: "sidam-76.html", terms: ["SIDAM-76"] }
+  ,{ href: "semovente-155-39-palmaria.html", terms: ["Semovente 155/39 Palmaria", "Palmaria divisional artillery"] }
+  ,{ href: "autoblindo-79-centauro.html", terms: ["Autoblindo 79 Centauro", "Centauro cavalry gun vehicle"] }
 ];
 
 function escapePattern(value) {

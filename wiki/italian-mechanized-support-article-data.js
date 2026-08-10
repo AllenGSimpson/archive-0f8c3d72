@@ -1,0 +1,154 @@
+window.deepArticles = window.deepArticles || {};
+
+const italianMechanizedSources = [
+  {href:"../landArmamentsReference%20-%20AltWWII.md",label:"Land Armaments Reference — Italian mechanized, artillery, and air-defense registry"},
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — Italian industry and Mediterranean power"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — Italian and Latin military development"},
+  {href:"../transcript.md",label:"Master Transcript — Italian procurement and Latin coordination"}
+];
+
+const italianMechanizedLandscape = {
+  src:"assets/diagrams/italian-mechanized-support-systems.svg",
+  alt:"Timeline of five Italian mechanized, artillery, air-defense, and cavalry systems from 1958 to 1983",
+  caption:"The five registry systems share a combined-arms setting but are not established as one chassis family"
+};
+
+const italianMechanizedArticle = config => ({
+  category:"Military equipment",
+  eyebrow:"Italian combined-arms system",
+  landscape:italianMechanizedLandscape,
+  ...config,
+  sources:italianMechanizedSources,
+  categories:config.categories || ["Italy","Armored fighting vehicles","Military vehicles","Royal Italian Army"]
+});
+
+Object.assign(window.deepArticles, {
+  "italian-mechanized-support-systems": italianMechanizedArticle({
+    title:"Italian Mechanized and Support Systems",
+    eyebrow:"Italian combined-arms equipment · 1958–1983",
+    infoboxKicker:"Mechanized-support registry",
+    infoboxTitle:"Italian combined-arms systems",
+    lead:"Italy's postwar combined-arms registry pairs tracked infantry vehicles with mobile cannon air defense, self-propelled divisional artillery, and a wheeled cavalry gun vehicle. The VCC-58 carries an infantry section behind a 20 mm cannon; the VCC-72 Dardo adds a 25 mm cannon and Saetta guided missile; SIDAM-76 protects mobile formations; Palmaria supplies 155 mm divisional fire; and Autoblindo 79 Centauro gives cavalry formations a low-recoil 105 mm gun.",
+    canon:"The five formal names, introduction years, combat weights, crew and infantry capacities, armaments, and registered roles are fixed. Dardo's Saetta missile, SIDAM's radar-linked character, Centauro's wheeled configuration and low-recoil OTO gun, Palmaria's divisional role, and the retirement of comparison labels are fixed. Manufacturers, chassis relationships, dimensions, engines, armor, speed, range, ammunition loads, radar location and specifications, production totals, unit organizations, customers, variants, and complete service histories remain open.",
+    sections:[
+      {id:"registry",title:"Registered systems",html:"<div class='table-wrap'><table class='wiki-table'><thead><tr><th>System</th><th>Introduction</th><th>Weight</th><th>Crew and infantry</th><th>Armament</th><th>Role</th></tr></thead><tbody><tr><td><a href='vcc-58.html'>VCC-58</a></td><td>1958</td><td>22.0 t</td><td>3 + 8</td><td>20×102 mm cannon</td><td>Tracked infantry carrier</td></tr><tr><td><a href='vcc-72-dardo.html'>VCC-72 Dardo</a></td><td>1972</td><td>28.0 t</td><td>3 + 7</td><td>25×137 mm cannon; Saetta ATGM</td><td>Infantry fighting vehicle</td></tr><tr><td><a href='sidam-76.html'>SIDAM-76</a></td><td>1976</td><td>24.5 t</td><td>3</td><td>Four 25×137 mm cannon</td><td>Radar-linked mobile air defense</td></tr><tr><td><a href='semovente-155-39-palmaria.html'>Semovente 155/39 Palmaria</a></td><td>1980</td><td>45.0 t</td><td>5</td><td>155 mm L/39</td><td>Self-propelled divisional artillery</td></tr><tr><td><a href='autoblindo-79-centauro.html'>Autoblindo 79 Centauro</a></td><td>1983</td><td>24.0 t</td><td>4</td><td>105 mm OTO low-recoil L/52</td><td>Wheeled cavalry gun vehicle</td></tr></tbody></table></div>"},
+      {id:"infantry",title:"Mechanized infantry vehicles",html:"<p>The <a href='vcc-58.html'>VCC-58</a> is a tracked carrier for eight infantry and a crew of three. Its 20×102 mm cannon provides more direct fire than an ordinary protected troop transporter.</p><p>The <a href='vcc-72-dardo.html'>VCC-72 Dardo</a> reduces the carried section to seven while increasing weight, fitting the Latin-standard 25×137 mm cannon, and adding the Saetta antitank guided missile. The registry consequently classifies Dardo as an infantry fighting vehicle.</p>"},
+      {id:"air-defense",title:"Mobile air defense",html:"<p>The <a href='sidam-76.html'>SIDAM-76</a> mounts four 25×137 mm cannon in a 24.5-tonne three-crew vehicle. Radar linkage connects the gun system to the warning and fire-control network required to protect moving formations.</p><p>The registry does not state whether search or tracking radar is carried on every vehicle, divided among battery vehicles, or supplied by a separate element.</p>"},
+      {id:"artillery",title:"Divisional artillery",html:"<p>The <a href='semovente-155-39-palmaria.html'>Semovente 155/39 Palmaria</a> places a 155 mm L/39 weapon in a 45-tonne, five-crew self-propelled system. Its registered role is divisional artillery rather than direct-fire assault.</p><p>The historical comparison to a Palmaria-type vehicle does not control chassis ancestry in this setting. Italy's OF-40 lineage does not arise, and no source fixes Palmaria to an Ariete II, Leone II, or separate chassis.</p>"},
+      {id:"cavalry",title:"Wheeled cavalry",html:"<p>The <a href='autoblindo-79-centauro.html'>Autoblindo 79 Centauro</a> is a 24-tonne wheeled cavalry gun vehicle with a 105 mm OTO low-recoil L/52. Its four-person crew operates the gun vehicle without a carried infantry section.</p><p>The cavalry classification emphasizes reconnaissance, screening, route movement, and mobile direct fire. Wheel count, armor, automotive layout, and unit organization remain open.</p>"},
+      {id:"ammunition",title:"Ammunition and weapon standards",html:"<p>Dardo and SIDAM share the Latin 25×137 mm light-vehicle cannon cartridge, giving mechanized infantry and mobile air defense a common ammunition dimension. Centauro uses a low-recoil 105 mm OTO L/52, while Palmaria occupies the separate 155 mm artillery system.</p><p>Shared cartridge dimensions do not establish identical projectiles, feeds, fuzes, or ammunition packaging. The registry does not supply magazine, belt, clip, ready-rack, or total stowage figures.</p>"},
+      {id:"deployment",title:"Mediterranean deployment",html:"<p>Italy's imperial geography demands equipment that can move through ports, island garrisons, coastal routes, client-state road systems, and expeditionary bases. Tracked vehicles support armored and mechanized formations; wheeled cavalry vehicles exploit roads and long fronts; self-propelled artillery and air defense preserve formation mobility.</p><p>Sealift, recovery, repair, fuel, ammunition handling, and local bridge capacity govern actual deployments. The source does not fix which systems serve in each territory.</p>"},
+      {id:"names",title:"Formal names and retired comparisons",html:"<p><em>Autoblindo 79 Centauro</em>, <em>Semovente 155/39 Palmaria</em>, and <em>SIDAM-76</em> are the formal setting names. “Centauro-type,” “Palmaria-type,” and “SIDAM-type” were drafting comparisons and are retired.</p><p>The formal names should be used in article titles, tables, captions, and service histories.</p>"}
+    ],
+    related:[{href:"vcc-58.html",kicker:"Tracked carrier",label:"VCC-58"},{href:"vcc-72-dardo.html",kicker:"Infantry fighting vehicle",label:"VCC-72 Dardo"},{href:"sidam-76.html",kicker:"Mobile air defense",label:"SIDAM-76"},{href:"semovente-155-39-palmaria.html",kicker:"Divisional artillery",label:"Semovente 155/39 Palmaria"},{href:"autoblindo-79-centauro.html",kicker:"Wheeled cavalry",label:"Autoblindo 79 Centauro"},{href:"italian-tank-lineage.html",kicker:"Heavy armor",label:"Italian Tank Lineage"}],
+    facts:[["Country","Kingdom of Italy"],["Coverage","1958–1983"],["Registered systems","Five"],["Tracked carrier","VCC-58"],["Infantry fighting vehicle","VCC-72 Dardo"],["Mobile air defense","SIDAM-76"],["Divisional artillery","Semovente 155/39 Palmaria"],["Wheeled cavalry vehicle","Autoblindo 79 Centauro"],["Shared light-cannon cartridge","25×137 mm"],["Controlling registry","Land Armaments Reference"]]
+  }),
+
+  "vcc-58": italianMechanizedArticle({
+    title:"VCC-58",
+    eyebrow:"Italian tracked infantry carrier · entered service 1958",
+    infoboxKicker:"Tracked infantry carrier",
+    infoboxTitle:"VCC-58",
+    lead:"The VCC-58 is Italy's 22-tonne tracked infantry carrier of 1958. A crew of three operates the vehicle and its 20×102 mm cannon while the protected troop compartment carries eight infantry, giving postwar Italian formations a purpose-built mechanized transport with organic cannon fire.",
+    canon:"The VCC-58 name, 1958 introduction, 22.0-tonne combat weight, crew of three, capacity for eight infantry, 20×102 mm cannon, tracked configuration, and infantry-carrier role are fixed. Name expansion, manufacturer, chassis ancestry, dimensions, engine, suspension, armor, speed, range, weapon mounting and feed, secondary armament, firing ports, production total, variants, units, exports, combat history, and retirement remain open.",
+    sections:[
+      {id:"role",title:"Infantry-carrier role",html:"<p>VCC-58 carries an eight-person infantry section under armor while its three-person vehicle crew remains responsible for driving, command, observation, communications, and the cannon. The registry classifies it as a tracked infantry carrier rather than a later infantry fighting vehicle.</p>"},
+      {id:"specifications",title:"Registered specifications",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1958</td></tr><tr><th>Combat weight</th><td>22.0 tonnes</td></tr><tr><th>Crew</th><td>Three</td></tr><tr><th>Infantry carried</th><td>Eight</td></tr><tr><th>Main armament</th><td>20×102 mm cannon</td></tr><tr><th>Configuration</th><td>Tracked</td></tr><tr><th>Role</th><td>Infantry carrier</td></tr></tbody></table></div>"},
+      {id:"armament",title:"20 mm armament",html:"<p>The 20×102 mm cannon supplies direct fire against exposed personnel, light vehicles, field positions, and other targets appropriate to its ammunition. The registry does not fix the gun model, turret or mounting, stabilization, feed, ammunition types, or stowage.</p>"},
+      {id:"crew",title:"Crew and troop compartment",html:"<p>The three-plus-eight complement separates vehicle operation from the carried section. Seating, doors, roof hatches, firing ports, dismount arrangement, radios, and internal stowage remain open.</p>"},
+      {id:"mobility",title:"Mobility and protection",html:"<p>Tracked running gear permits movement with Italian tanks and artillery away from paved roads. No engine, power-to-weight ratio, speed, range, suspension, armor thickness, or amphibious capability is established.</p>"},
+      {id:"service",title:"Service and replacement",html:"<p>VCC-58 supplies mechanized infantry through the 1960s and remains in the wider inventory when the <a href='vcc-72-dardo.html'>VCC-72 Dardo</a> enters service in 1972. Dardo carries one fewer infantryman but adds a larger cannon and guided antitank weapon.</p><p>Production, modernization, unit distribution, client transfers, and retirement remain open.</p>"}
+    ],
+    related:[{href:"italian-mechanized-support-systems.html",kicker:"Equipment family",label:"Italian Mechanized and Support Systems"},{href:"vcc-72-dardo.html",kicker:"1972 successor",label:"VCC-72 Dardo"},{href:"carro-57-ariete.html",kicker:"Contemporary Italian tank",label:"Carro 57 Ariete"},{href:"italian-tank-lineage.html",kicker:"Armored context",label:"Italian Tank Lineage"},{href:"italy.html",kicker:"Country of origin",label:"Kingdom of Italy"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country of origin","Kingdom of Italy"],["Entered service","1958"],["Combat weight","22.0 t"],["Crew","3"],["Infantry capacity","8"],["Main armament","20×102 mm cannon"],["Mobility","Tracked"],["Role","Infantry carrier"],["Successor","VCC-72 Dardo"]]
+  }),
+
+  "vcc-72-dardo": italianMechanizedArticle({
+    title:"VCC-72 Dardo",
+    eyebrow:"Italian infantry fighting vehicle · entered service 1972",
+    infoboxKicker:"Infantry fighting vehicle",
+    infoboxTitle:"VCC-72 Dardo",
+    lead:"The VCC-72 Dardo is Italy's 28-tonne tracked infantry fighting vehicle of 1972. Its three-person crew operates a 25×137 mm cannon and Saetta antitank guided missile while carrying seven infantry, combining protected troop movement with direct cannon and guided antitank fire.",
+    canon:"The VCC-72 Dardo name, 1972 introduction, 28.0-tonne combat weight, crew of three, capacity for seven infantry, 25×137 mm cannon, Saetta ATGM, and infantry-fighting-vehicle role are fixed. Manufacturer, chassis ancestry, dimensions, engine, suspension, armor, speed, range, cannon model and feed, missile mounting and guidance details, ammunition load, secondary weapons, production total, variants, units, exports, and complete service history remain open.",
+    sections:[
+      {id:"development",title:"Development",html:"<p>Dardo follows the VCC-58 after fourteen years of mechanized-infantry experience. It adds weight and weapon capability while reducing the carried infantry section from eight to seven.</p><p>The registry does not establish whether the vehicle is an entirely new chassis, a development of VCC-58, or part of a larger common-hull program.</p>"},
+      {id:"specifications",title:"Registered specifications",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1972</td></tr><tr><th>Combat weight</th><td>28.0 tonnes</td></tr><tr><th>Crew</th><td>Three</td></tr><tr><th>Infantry carried</th><td>Seven</td></tr><tr><th>Cannon</th><td>25×137 mm</td></tr><tr><th>Guided weapon</th><td>Saetta ATGM</td></tr><tr><th>Role</th><td>Infantry fighting vehicle</td></tr></tbody></table></div>"},
+      {id:"cannon",title:"25 mm cannon",html:"<p>The 25×137 mm cannon uses the principal Latin light-vehicle cannon cartridge also employed by SIDAM-76. Common dimensions support coordinated ammunition production and supply.</p><p>Gun model, rate of fire, feed arrangement, ammunition types, stabilization, elevation, sight, and carried rounds remain open.</p>"},
+      {id:"saetta",title:"Saetta antitank missile",html:"<p>The Saetta ATGM gives Dardo a guided weapon against tanks and protected positions beyond ordinary cannon effects. The same Latin missile appears on Occitania's contemporary Sanglier infantry fighting vehicle.</p><p>Guidance method, range, warhead, launcher arrangement, reloads, and whether missiles can be fired under armor remain unresolved.</p>"},
+      {id:"troops",title:"Crew and infantry section",html:"<p>Three crew operate the vehicle while seven infantry ride in the troop compartment. Seating, command relationships, dismount doors, firing ports, hatches, and internal stowage are not fixed.</p>"},
+      {id:"role",title:"Combined-arms role",html:"<p>Dardo is registered as an infantry fighting vehicle rather than a carrier. Its cannon and guided missile allow it to remain in the direct-fire system after troops dismount, subject to armor and tactical limits that remain unspecified.</p>"},
+      {id:"service",title:"Service and contemporaries",html:"<p>Dardo enters service in the same year as <a href='occitania.html'>Occitania's</a> Véhicule de Combat 72 Sanglier, which uses a 30×170 mm cannon and the same Saetta missile. The two vehicles illustrate competition within a selectively standardized Latin system.</p><p>Italian units, production, modernization, exports, and combat service remain open.</p>"}
+    ],
+    related:[{href:"italian-mechanized-support-systems.html",kicker:"Equipment family",label:"Italian Mechanized and Support Systems"},{href:"vcc-58.html",kicker:"1958 predecessor",label:"VCC-58"},{href:"sidam-76.html",kicker:"Shared cannon cartridge",label:"SIDAM-76"},{href:"carro-68-leone-ii.html",kicker:"Contemporary Italian tank",label:"Carro 68 Leone II"},{href:"italy.html",kicker:"Country of origin",label:"Kingdom of Italy"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country of origin","Kingdom of Italy"],["Entered service","1972"],["Combat weight","28.0 t"],["Crew","3"],["Infantry capacity","7"],["Main armament","25×137 mm cannon"],["Guided weapon","Saetta ATGM"],["Role","Infantry fighting vehicle"],["Predecessor","VCC-58"]]
+  }),
+
+  "sidam-76": italianMechanizedArticle({
+    title:"SIDAM-76",
+    eyebrow:"Italian mobile air-defense system · entered service 1976",
+    infoboxKicker:"Radar-linked air-defense vehicle",
+    infoboxTitle:"SIDAM-76",
+    lead:"SIDAM-76 is Italy's 24.5-tonne radar-linked mobile air-defense vehicle of 1976. A three-person crew operates four 25×137 mm cannon as part of the warning and engagement network protecting mobile Italian formations against low-altitude aircraft and other aerial threats.",
+    canon:"The SIDAM-76 name, 1976 introduction, 24.5-tonne combat weight, three-person crew, four 25×137 mm cannon, radar-linked character, mobile configuration, and air-defense role are fixed. Name expansion, manufacturer, chassis, dimensions, engine, armor, speed, cannon model, feed and ammunition load, radar distribution and specifications, optical backup, fire-control process, production total, battery organization, variants, units, exports, and service history remain open.",
+    sections:[
+      {id:"role",title:"Mobile air-defense role",html:"<p>SIDAM-76 accompanies maneuver formations and supplies cannon defense against targets that penetrate or evade longer-range air-defense systems. Mobility keeps the gun system within the protected formation rather than tied to a fixed site.</p>"},
+      {id:"specifications",title:"Registered specifications",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1976</td></tr><tr><th>Combat weight</th><td>24.5 tonnes</td></tr><tr><th>Crew</th><td>Three</td></tr><tr><th>Armament</th><td>Four 25×137 mm cannon</td></tr><tr><th>Fire-control context</th><td>Radar-linked</td></tr><tr><th>Role</th><td>Mobile air defense</td></tr></tbody></table></div>"},
+      {id:"armament",title:"Four-cannon armament",html:"<p>Four cannon concentrate the Latin 25×137 mm cartridge into a short-range air-defense mount. The registry does not fix cannon model, cyclic rate, barrel arrangement, ammunition types, feed, carried rounds, engagement ceiling, or effective range.</p>"},
+      {id:"radar",title:"Radar linkage",html:"<p>Radar linkage places SIDAM within an external or distributed detection and fire-control network. It does not establish that every vehicle carries a search radar, a tracking radar, both, or neither.</p><p>Battery radar vehicles, data links, voice procedures, optical tracking, identification rules, and engagement authority remain open.</p>"},
+      {id:"crew",title:"Crew and operation",html:"<p>The three-person crew must maneuver the vehicle, maintain communications, acquire or accept targets, and operate the cannon system. Exact stations and automation are not specified.</p>"},
+      {id:"mobility",title:"Chassis and mobility",html:"<p>The vehicle's 24.5-tonne weight places it near the tracked VCC family and wheeled Centauro by mass, but the source establishes no shared chassis and does not specify whether SIDAM is tracked or wheeled. Engine, speed, range, armor, and suspension remain open.</p>"},
+      {id:"service",title:"Service",html:"<p>SIDAM-76 enters service in 1976, four years after Dardo and four years before Palmaria. It supplies the mobile air-defense component of the combined-arms registry.</p><p>Production strength, battery composition, unit distribution, exports, upgrades, and combat record remain open.</p>"}
+    ],
+    related:[{href:"italian-mechanized-support-systems.html",kicker:"Equipment family",label:"Italian Mechanized and Support Systems"},{href:"vcc-72-dardo.html",kicker:"Shared cannon cartridge",label:"VCC-72 Dardo"},{href:"semovente-155-39-palmaria.html",kicker:"Formation support",label:"Semovente 155/39 Palmaria"},{href:"carro-68-leone-ii.html",kicker:"Contemporary Italian tank",label:"Carro 68 Leone II"},{href:"italy.html",kicker:"Country of origin",label:"Kingdom of Italy"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country of origin","Kingdom of Italy"],["Entered service","1976"],["Combat weight","24.5 t"],["Crew","3"],["Armament","Four 25×137 mm cannon"],["Fire-control context","Radar-linked"],["Role","Mobile air defense"],["Chassis configuration","Open"],["Battery organization","Open"]]
+  }),
+
+  "semovente-155-39-palmaria": italianMechanizedArticle({
+    title:"Semovente 155/39 Palmaria",
+    eyebrow:"Italian self-propelled artillery · entered service 1980",
+    infoboxKicker:"Divisional self-propelled howitzer",
+    infoboxTitle:"Semovente 155/39 Palmaria",
+    lead:"The Semovente 155/39 Palmaria is Italy's 45-tonne self-propelled divisional artillery system of 1980. Its five-person crew operates a 155 mm L/39 weapon, giving armored and mechanized formations heavy mobile fire without requiring the setting vehicle to inherit the real-world OF-40 chassis genealogy.",
+    canon:"The formal Semovente 155/39 Palmaria name, 1980 introduction, 45.0-tonne combat weight, five-person crew, 155 mm L/39 armament, self-propelled configuration, divisional-artillery role, and retirement of the Palmaria-type comparison label are fixed. Manufacturer, chassis ancestry, dimensions, engine, armor, speed, range, weapon model, elevation and traverse, ammunition and charges, rate of fire, loading assistance, fire-control and survey equipment, production total, units, exports, variants, and service history remain open.",
+    sections:[
+      {id:"designation",title:"Designation",html:"<p><em>Semovente</em> identifies a self-propelled gun. The 155/39 element records the 155 mm caliber and L/39 barrel class; <em>Palmaria</em> is the formal service name.</p><p>“Palmaria-type” is a retired drafting comparison and should not replace the full designation.</p>"},
+      {id:"specifications",title:"Registered specifications",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1980</td></tr><tr><th>Combat weight</th><td>45.0 tonnes</td></tr><tr><th>Crew</th><td>Five</td></tr><tr><th>Main armament</th><td>155 mm L/39</td></tr><tr><th>Configuration</th><td>Self-propelled</td></tr><tr><th>Role</th><td>Divisional artillery</td></tr></tbody></table></div>"},
+      {id:"artillery",title:"Divisional artillery role",html:"<p>Palmaria supplies indirect fire for a division's maneuver brigades, counterbattery requirements, preparation, interdiction, and other field-artillery missions. The registry does not set range, projectile family, charge system, rate of fire, or fire-control procedures.</p>"},
+      {id:"crew",title:"Crew and ammunition handling",html:"<p>Five crew operate and sustain the system at vehicle level. Exact duties, loading mechanism, ammunition handling, carried rounds, resupply vehicle, and survey equipment remain open.</p>"},
+      {id:"chassis",title:"Chassis ancestry",html:"<p>The setting retains Palmaria as a formal Italian system while rejecting a postwar Leopard-derived OF-40 tank lineage. No source identifies Palmaria's chassis as Ariete II, Leone II, a dedicated artillery hull, or another vehicle.</p><p>A future technical design must settle that ancestry directly instead of importing the real-world answer.</p>"},
+      {id:"mobility",title:"Mobility and protection",html:"<p>Self-propulsion permits the howitzer to move with mechanized formations and displace after firing. Engine, suspension, speed, range, armor, firing preparation, and travel-lock arrangements are not fixed.</p>"},
+      {id:"service",title:"Service",html:"<p>Palmaria enters service in 1980 between SIDAM-76 and Centauro. It supplies the heavy indirect-fire component of Italy's modern combined-arms system by 1985.</p><p>Production totals, artillery regiments, deployments, exports, improvements, and combat service remain open.</p>"}
+    ],
+    related:[{href:"italian-mechanized-support-systems.html",kicker:"Equipment family",label:"Italian Mechanized and Support Systems"},{href:"sidam-76.html",kicker:"Formation air defense",label:"SIDAM-76"},{href:"autoblindo-79-centauro.html",kicker:"Wheeled cavalry support",label:"Autoblindo 79 Centauro"},{href:"carro-80-ariete-ii.html",kicker:"Contemporary Italian tank",label:"Carro 80 Ariete II"},{href:"italy.html",kicker:"Country of origin",label:"Kingdom of Italy"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country of origin","Kingdom of Italy"],["Entered service","1980"],["Combat weight","45.0 t"],["Crew","5"],["Main armament","155 mm L/39"],["Configuration","Self-propelled"],["Role","Divisional artillery"],["Chassis ancestry","Open"],["Comparison label","Palmaria-type · retired"]]
+  }),
+
+  "autoblindo-79-centauro": italianMechanizedArticle({
+    title:"Autoblindo 79 Centauro",
+    eyebrow:"Italian wheeled cavalry gun vehicle · entered service 1983",
+    infoboxKicker:"Wheeled cavalry gun vehicle",
+    infoboxTitle:"Autoblindo 79 Centauro",
+    lead:"The Autoblindo 79 Centauro is Italy's 24-tonne wheeled cavalry gun vehicle of 1983. Its four-person crew operates a 105 mm OTO low-recoil L/52, giving reconnaissance and screening formations tank-caliber direct fire in a road-mobile vehicle.",
+    canon:"The formal Autoblindo 79 Centauro name, 1983 introduction, 24.0-tonne combat weight, four-person crew, wheeled configuration, 105 mm OTO low-recoil L/52 armament, cavalry gun-vehicle role, and retirement of the Centauro-type comparison label are fixed. Wheel count, manufacturer, dimensions, engine, armor, speed, range, suspension, steering, amphibious capability, ammunition compatibility and load, secondary armament, sights, fire control, production total, unit organization, exports, variants, and complete service history remain open.",
+    sections:[
+      {id:"designation",title:"Designation",html:"<p><em>Autoblindo</em> places Centauro in the Italian armored-car and wheeled-cavalry tradition. The 79 element belongs to its formal registry name, while introduction is fixed in 1983.</p><p>“Centauro-type” is a retired comparison label.</p>"},
+      {id:"specifications",title:"Registered specifications",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1983</td></tr><tr><th>Combat weight</th><td>24.0 tonnes</td></tr><tr><th>Crew</th><td>Four</td></tr><tr><th>Main armament</th><td>105 mm OTO low-recoil L/52</td></tr><tr><th>Configuration</th><td>Wheeled</td></tr><tr><th>Role</th><td>Cavalry gun vehicle</td></tr></tbody></table></div>"},
+      {id:"armament",title:"Low-recoil 105 mm gun",html:"<p>The OTO L/52 supplies tank-caliber direct fire while limiting recoil loads on a lighter wheeled platform. The registry does not fix cartridge compatibility, recoil mechanism, ammunition types, stowage, stabilization, sights, or secondary armament.</p>"},
+      {id:"cavalry",title:"Cavalry role",html:"<p>Centauro supports reconnaissance, screening, route security, pursuit, and rapid reinforcement. Its gun allows cavalry elements to engage protected vehicles and strongpoints without treating the vehicle as a main battle tank.</p><p>Exact doctrine, company organization, scouts, accompanying infantry, and reconnaissance sensors remain open.</p>"},
+      {id:"mobility",title:"Wheeled mobility",html:"<p>The wheeled configuration favors road range, strategic movement, and reduced track maintenance across Italy's Mediterranean road and port network. Wheel count, drive layout, engine, speed, range, turning system, tire equipment, and cross-country limits remain unresolved.</p>"},
+      {id:"protection",title:"Protection and crew",html:"<p>Four crew operate the vehicle. Armor thickness, protection arc, internal arrangement, ammunition separation, and survivability equipment are not registered.</p><p>The 24-tonne weight and cavalry classification should not be used to infer protection equivalent to the 55-tonne Ariete II.</p>"},
+      {id:"service",title:"Service in 1985",html:"<p>Centauro is the newest of the five combined-arms systems and has two years of service by 1985. It complements tracked infantry vehicles, SIDAM air defense, Palmaria artillery, and the heavy <a href='carro-80-ariete-ii.html'>Carro 80 Ariete II</a>.</p><p>Production, regiments, deployments, exports, upgrades, and combat service remain open.</p>"}
+    ],
+    related:[{href:"italian-mechanized-support-systems.html",kicker:"Equipment family",label:"Italian Mechanized and Support Systems"},{href:"semovente-155-39-palmaria.html",kicker:"Divisional fire support",label:"Semovente 155/39 Palmaria"},{href:"vcc-72-dardo.html",kicker:"Tracked infantry support",label:"VCC-72 Dardo"},{href:"carro-80-ariete-ii.html",kicker:"Heavy armored contemporary",label:"Carro 80 Ariete II"},{href:"italy.html",kicker:"Country of origin",label:"Kingdom of Italy"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country of origin","Kingdom of Italy"],["Entered service","1983"],["Combat weight","24.0 t"],["Crew","4"],["Main armament","105 mm OTO low-recoil L/52"],["Configuration","Wheeled"],["Role","Cavalry gun vehicle"],["Wheel count","Open"],["Comparison label","Centauro-type · retired"]]
+  })
+});
+
+function addItalianMechanizedItem(slug, key, item) {
+  const article = window.deepArticles[slug];
+  if (!article) return;
+  article[key] = article[key] || [];
+  if (!article[key].some(existing => (item.id && existing.id === item.id) || (item.href && existing.href === item.href))) article[key].push(item);
+}
+
+addItalianMechanizedItem("italian-tank-lineage","related",{href:"italian-mechanized-support-systems.html",kicker:"Combined-arms support",label:"Italian Mechanized and Support Systems"});
