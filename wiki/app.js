@@ -748,6 +748,11 @@ const pages = [
   { title: "Imperial Joint Aircraft Register", description: "Japan's 1956 common public register for Army and Navy aircraft", href: "imperial-joint-aircraft-register.html", tags: "japan japanese aircraft aviation register navy army ki type shippu raiko 1956" },
   { title: "Unified Air Procurement Regulation", description: "Japan's 1968 aircraft-code and technical-interoperability reform", href: "unified-air-procurement-regulation.html", tags: "japan japanese air procurement regulation data link radar missile navigation interoperability 1968" },
   { title: "Joint Aircraft Designation Act", description: "The 1963 American common register for aircraft and orbital vehicles", href: "joint-aircraft-designation-act.html", tags: "united states american aircraft designation act aerospace force OV OSV fighter attack 1963" },
+  { title: "M3 Light Tank", description: "America's 1941 light tank for training, defense, and early expeditionary service", href: "m3-light-tank.html", tags: "m3 light tank american t3 37 mm neutral era 1941" },
+  { title: "M3 Medium Tank", description: "America's hull-gun stopgap medium tank in limited domestic and British service", href: "m3-medium-tank.html", tags: "m3 medium tank american t5 75 mm 37 mm britain export 1942" },
+  { title: "M4 Medium Tank", description: "America's principal neutral-era medium tank and Commonwealth armored export", href: "m4-medium-tank.html", tags: "m4 medium tank american t6 75 mm commonwealth britain export 8000 1943" },
+  { title: "M5 Light Tank", description: "The incremental 1942 development of America's M3 light-tank family", href: "m5-light-tank.html", tags: "m5 light tank american m3 family 37 mm neutral era 1942" },
+  { title: "M6 Heavy Tank", description: "America's forty-vehicle homeland-defense and proving heavy tank", href: "m6-heavy-tank.html", tags: "m6 t1e1 heavy tank american limited standard homeland defense 1945" },
   { title: "M7 Transitional Tank", description: "America's limited light-medium cavalry tank accepted in 1947", href: "m7-transitional-tank.html", tags: "m7 t7 transitional tank american cavalry light medium 1947 480" },
   { title: "T8 Airborne Tank Project", description: "The six-prototype American airborne-tank project canceled in 1948", href: "t8-airborne-tank-project.html", tags: "t8 airborne tank project american prototype canceled 1948 british influence" },
   { title: "M9 Expeditionary Light Tank", description: "The Philippine-shaped American intervention tank accepted in 1956", href: "m9-expeditionary-light-tank.html", tags: "m9 t9 expeditionary light tank american philippines honduras venezuela 1956" },
@@ -4695,6 +4700,11 @@ const crossLinks = [
   ,{ href: "project-zenith.html", terms: ["Project Zenith", "OSV-1A Zenith", "OSV-1 Zenith"] }
   ,{ href: "m13-tank.html", terms: ["M13 Advanced Mobile Battle Tank", "M13 tank", "the M13", "the Thirteen"] }
   ,{ href: "xm14-light-combat-tank.html", terms: ["XM14 Light Combat Tank", "XM14", "M14 Light Combat Tank"] }
+  ,{ href: "m3-light-tank.html", terms: ["M3 Light Tank"] }
+  ,{ href: "m3-medium-tank.html", terms: ["M3 Medium Tank"] }
+  ,{ href: "m4-medium-tank.html", terms: ["M4 Medium Tank"] }
+  ,{ href: "m5-light-tank.html", terms: ["M5 Light Tank"] }
+  ,{ href: "m6-heavy-tank.html", terms: ["M6 Heavy Tank"] }
   ,{ href: "m7-transitional-tank.html", terms: ["M7 Transitional Tank", "M7 tank"] }
   ,{ href: "t8-airborne-tank-project.html", terms: ["T8 Airborne Tank Project", "T8 airborne tank", "T8 tank"] }
   ,{ href: "m9-expeditionary-light-tank.html", terms: ["M9 Expeditionary Light Tank", "M9 light tank", "M9 tank"] }
