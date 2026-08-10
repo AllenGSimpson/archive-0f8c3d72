@@ -1847,6 +1847,12 @@ const pages = [
   { title: "Union Carbide", description: "America's industrial-gas, carbon, battery, petrochemical, and polymer company", href: "union-carbide.html", tags: "union carbide carbon eveready prestone bakelite ethylene industrial gas petrochemical polymer america" },
   { title: "Monsanto", description: "America's St. Louis industrial-chemical, agricultural-science, herbicide, and biotechnology company", href: "monsanto.html", tags: "monsanto queeny st louis saccharin industrial chemical agriculture herbicide glyphosate biotechnology america" },
   { title: "Western Union", description: "America's telegraph, money-transfer, teleprinter, microwave, satellite, and business-data company", href: "western-union.html", tags: "western union telegraph transcontinental money transfer telex mailgram microwave westar satellite data america" },
+  { title: "Imperial Chemical Industries", description: "Britain's integrated chemical, materials, fibre, agricultural, and pharmaceutical corporation", href: "imperial-chemical-industries.html", tags: "imperial chemical industries ici brunner mond nobel billingham perspex polyethylene terylene pharmaceuticals britain" },
+  { title: "Dunlop", description: "Britain's tyre, rubber-products, aviation, transport, and sporting-goods company", href: "dunlop.html", tags: "dunlop rubber tyres pneumatic tyre birmingham aviation motorsport transport commonwealth britain" },
+  { title: "Courtaulds", description: "Britain's silk, rayon, synthetic-fibre, textile, and industrial-materials company", href: "courtaulds.html", tags: "courtaulds silk crape viscose rayon nylon textiles fibres coventry halstead britain" },
+  { title: "Pilkington", description: "Britain's St Helens glassmaker and developer of the float-glass process", href: "pilkington.html", tags: "pilkington brothers st helens glass float glass alastair windows vehicles construction britain" },
+  { title: "Boots", description: "Britain's national pharmacy, healthcare, beauty, pharmaceutical-research, and retail institution", href: "boots.html", tags: "boots company pharmacy chemist nottingham beeston ibuprofen brufen health beauty retail britain" },
+  { title: "J. Lyons and Co.", description: "Britain's catering, food-production, logistics, and pioneering commercial-computing company", href: "j-lyons.html", tags: "j lyons catering tea shops corner houses food leo electronic office commercial computing cleo britain" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4616,6 +4622,12 @@ const crossLinks = [
   ,{ href: "union-carbide.html", terms: ["Union Carbide and Carbon Corporation", "Union Carbide Corporation", "Union Carbide"] }
   ,{ href: "monsanto.html", terms: ["Monsanto Chemical Works", "Monsanto Company", "Monsanto"] }
   ,{ href: "western-union.html", terms: ["Western Union Telegraph Company", "Western Union"] }
+  ,{ href: "imperial-chemical-industries.html", terms: ["Imperial Chemical Industries Limited", "Imperial Chemical Industries", "ICI"] }
+  ,{ href: "dunlop.html", terms: ["Dunlop Rubber Company Limited", "Dunlop Rubber Company", "Dunlop"] }
+  ,{ href: "courtaulds.html", terms: ["Courtaulds Limited", "Courtaulds Ltd", "Courtaulds"] }
+  ,{ href: "pilkington.html", terms: ["Pilkington Brothers Limited", "Pilkington Brothers", "Pilkington"] }
+  ,{ href: "boots.html", terms: ["The Boots Company", "Boots Pure Drug Company", "Boots pharmacy"] }
+  ,{ href: "j-lyons.html", terms: ["J. Lyons and Co. Limited", "J. Lyons and Co.", "J. Lyons", "Lyons Electronic Office"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
