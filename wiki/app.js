@@ -83,6 +83,12 @@ const pages = [
   { title: "Battle of Muar", description: "The final major peninsula battle at Muar, Bakri, and Parit Sulong", href: "battle-of-muar.html", tags: "battle muar bakri parit sulong australia india guards johore january 1942" },
   { title: "Parit Sulong Massacre", description: "The killing of wounded Australian and Indian prisoners after Muar", href: "parit-sulong-massacre.html", tags: "parit sulong massacre war crime prisoners australia india malaya january 1942" },
   { title: "Fall of Singapore", description: "Permanent Japanese conquest of Britain's principal East Asian fortress", href: "fall-of-singapore.html", tags: "fall singapore surrender siege japan britain australia percival yamashita 1942" },
+  { title: "Japanese Landings on Singapore", description: "The night crossings of the Johore Strait that opened the island battle", href: "japanese-landings-singapore.html", tags: "japanese landings singapore johore strait sarimbun kranji amphibious 25th army 1942" },
+  { title: "Battle of Sarimbun Beach", description: "The principal Japanese landing against the Australian 22nd Brigade", href: "battle-of-sarimbun-beach.html", tags: "battle sarimbun beach lim chu kang australia 22nd brigade japan singapore 1942" },
+  { title: "Battle of Kranji", description: "The Imperial Guards crossing, burning fuel, and disputed coastal withdrawal", href: "battle-of-kranji.html", tags: "battle kranji beach imperial guards australia dalforce johore causeway singapore 1942" },
+  { title: "Battle of Bukit Timah", description: "The fight for Singapore's central roads, depots, high ground, and reservoirs", href: "battle-of-bukit-timah.html", tags: "battle bukit timah singapore roads depots reservoirs jurong kranji line 1942" },
+  { title: "Battle of Pasir Panjang", description: "The Malay Regiment's defense of the ridge and Bukit Chandu", href: "battle-of-pasir-panjang.html", tags: "battle pasir panjang bukit chandu opium hill adnan saidi malay regiment singapore 1942" },
+  { title: "Alexandra Hospital Massacre", description: "The killing of patients, wounded soldiers, medical personnel, and staff", href: "alexandra-hospital-massacre.html", tags: "alexandra hospital massacre war crime singapore patients medical staff japan 1942" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4428,6 +4434,12 @@ const crossLinks = [
   ,{ href: "battle-of-muar.html", terms: ["Battle of Muar", "Muar battle"] }
   ,{ href: "parit-sulong-massacre.html", terms: ["Parit Sulong massacre"] }
   ,{ href: "fall-of-singapore.html", terms: ["Fall of Singapore"] }
+  ,{ href: "japanese-landings-singapore.html", terms: ["Japanese landings on Singapore", "invasion of Singapore"] }
+  ,{ href: "battle-of-sarimbun-beach.html", terms: ["Battle of Sarimbun Beach", "Sarimbun Beach landing"] }
+  ,{ href: "battle-of-kranji.html", terms: ["Battle of Kranji", "Kranji Beach battle"] }
+  ,{ href: "battle-of-bukit-timah.html", terms: ["Battle of Bukit Timah", "Bukit Timah battle"] }
+  ,{ href: "battle-of-pasir-panjang.html", terms: ["Battle of Pasir Panjang", "Battle of Bukit Chandu", "Opium Hill"] }
+  ,{ href: "alexandra-hospital-massacre.html", terms: ["Alexandra Hospital massacre", "British Military Hospital massacre"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }
