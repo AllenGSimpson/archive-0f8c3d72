@@ -1,0 +1,92 @@
+window.deepArticles = window.deepArticles || {};
+
+const americanArtillerySources = [
+  {href:"../landArmamentsReference%20-%20AltWWII.md",label:"Land Armaments Reference — American artillery registry, specifications, and force structure"},
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — United States military system and the 1985 balance"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — postwar American armament chronology"},
+  {href:"../transcript.md",label:"Master Transcript — American intervention, logistics, and military development"}
+];
+
+const americanArtilleryLandscape = {
+  src:"assets/diagrams/american-artillery-system.svg",
+  alt:"Timeline and role comparison for the American M8 155 mm howitzer, M9 203 mm gun, and M6 multiple rocket launcher",
+  caption:"American tracked artillery separates sustained divisional fire, declining heavy-gun service, and corps-level rocket saturation"
+};
+
+const americanArtilleryArticle = config => ({
+  category:"Military equipment",
+  eyebrow:"United States field artillery",
+  landscape:americanArtilleryLandscape,
+  ...config,
+  sources:americanArtillerySources,
+  categories:config.categories || ["United States","Artillery","Self-propelled artillery","Multiple rocket launchers","Military equipment"]
+});
+
+Object.assign(window.deepArticles, {
+  "american-artillery": americanArtilleryArticle({
+    title:"American Artillery, 1963–1985", eyebrow:"American tracked field-artillery system", infoboxKicker:"National artillery registry", infoboxTitle:"American artillery system",
+    lead:"American tracked artillery in 1985 combines the standard divisional <a href='m8-self-propelled-howitzer.html'>M8A2 155 mm self-propelled howitzer</a>, a declining inventory of <a href='m9-heavy-self-propelled-gun.html'>M9 203 mm guns</a>, and the corps-level <a href='m6-multiple-rocket-launcher.html'>M6 multiple rocket launcher</a>. The three branches distribute sustained fire, heavy-shell effect, saturation, and counterbattery work among independent chassis and command levels.",
+    canon:"The three families, four registered configurations, full designations, introduction dates, weights, weapons, engine outputs, standard ranges, broad roles, M8A2 improvements, M9's declining 1985 status, M6 rocket count and caliber, and M5-family support boundary are fixed. Crews, dimensions, armor, ammunition loads and nomenclature, rates of fire, production totals, manufacturers, formations, and combat histories remain open.",
+    sections:[
+      {id:"doctrine",title:"Artillery structure",html:"<p>Artillery development diverges less sharply from historical practice than American armor, but vehicle numbers are not inherited automatically. The registry gives the division a mobile 155 mm system and reserves rockets and the remaining heavy guns for tasks that do not justify one universal vehicle.</p>"},
+      {id:"registry",title:"Registered systems",html:"<div class='table-wrap'><table class='wiki-table'><thead><tr><th>System</th><th>Introduction</th><th>Weight</th><th>Weapon</th><th>Engine</th><th>Standard range</th><th>Role</th></tr></thead><tbody><tr><td><a href='m8-self-propelled-howitzer.html'>M8 SP howitzer</a></td><td>1963</td><td>24.5 t</td><td>155 mm L/39</td><td>450 hp diesel</td><td>18.1 km</td><td>Tracked divisional howitzer</td></tr><tr><td><a href='m9-heavy-self-propelled-gun.html'>M9 SP gun</a></td><td>1965</td><td>28.0 t</td><td>203 mm L/25</td><td>405 hp diesel</td><td>17.0 km</td><td>Heavy artillery; declining by 1985</td></tr><tr><td><a href='m8-self-propelled-howitzer.html'>M8A2 SP howitzer</a></td><td>1978</td><td>27.0 t</td><td>155 mm L/39</td><td>500 hp diesel</td><td>23.5 km</td><td>Improved divisional howitzer</td></tr><tr><td><a href='m6-multiple-rocket-launcher.html'>M6 rocket launcher</a></td><td>1983</td><td>25.0 t</td><td>Twelve 227 mm rockets</td><td>500 hp diesel</td><td>32.0 km</td><td>Corps saturation and counterbattery</td></tr></tbody></table></div>"},
+      {id:"divisional",title:"Divisional 155 mm fire",html:"<p>M8 enters service in 1963 as the standard tracked divisional howitzer. The M8A2 modernization of 1978 retains the 155 mm L/39 while increasing standard range and adding improved ammunition, navigation, and a fire-direction link.</p>"},
+      {id:"heavy",title:"Heavy-gun branch",html:"<p>M9 places a short 203 mm gun on a 28-tonne tracked chassis. Its 17 km standard range is shorter than either M8 configuration, and the family is in declining service by 1985 rather than forming the future center of American artillery.</p>"},
+      {id:"rockets",title:"Corps rocket fire",html:"<p>M6 enters service in 1983 with twelve 227 mm rockets and a 32 km standard range. It supplies corps-level saturation and counterbattery fire rather than replacing the howitzer in ordinary sustained divisional missions.</p>"},
+      {id:"carriers",title:"Carrier-family support",html:"<p>The <a href='m5-family-mission-vehicles.html'>M5 carrier family</a> supplies command, observation, 120 mm mortar, ambulance, and heavy-missile vehicles. The larger M8 howitzer retains an independent chassis because a proper turret and ammunition compartment exceed the carrier's design envelope.</p>"},
+      {id:"formation",title:"Armored formations in 1985",html:"<p>M8A2 howitzers provide the principal tracked artillery layer behind armored divisions built around M11A3 and initial M13 tanks, M5 battle carriers, M2 Scouts, air-defense guns, missile carriers, helicopters, engineers, and recovery units. M6 batteries add corps fire above that division.</p>"},
+      {id:"numbers",title:"Category-specific numbers",html:"<p>M6, M8, and M9 become unambiguous only when accompanied by the equipment noun. The artillery M8 is unrelated to the M8 missile carrier; the artillery M9 is unrelated to the M9 medical carrier; and the M6 rocket launcher is unrelated to the M6 command carrier.</p>"}
+    ],
+    related:[{href:"m8-self-propelled-howitzer.html",kicker:"Divisional artillery",label:"M8 Self-Propelled Howitzer"},{href:"m9-heavy-self-propelled-gun.html",kicker:"Declining heavy artillery",label:"M9 203 mm Self-Propelled Gun"},{href:"m6-multiple-rocket-launcher.html",kicker:"Corps rocket artillery",label:"M6 Multiple Rocket Launcher"},{href:"m5-family-mission-vehicles.html",kicker:"Carrier-based support",label:"M5-Family Mission Vehicles"},{href:"american-battle-taxis-and-reconnaissance.html",kicker:"Mechanized formation",label:"American Battle Taxis and Reconnaissance"},{href:"american-tank-development.html",kicker:"Armored-force context",label:"American Tank Development"}],
+    facts:[["Country","United States"],["Coverage","1963–1985"],["Registered configurations","Four"],["Standard divisional system","M8A2 155 mm howitzer"],["Heavy system","M9 203 mm gun"],["Corps rocket system","M6 launcher"],["Longest standard range","32.0 km"],["Principal chassis rule","Independent howitzer chassis"]]
+  }),
+
+  "m8-self-propelled-howitzer": americanArtilleryArticle({
+    title:"M8 Self-Propelled Howitzer", eyebrow:"American 155 mm tracked divisional artillery · 1963–1985", infoboxKicker:"Tracked divisional howitzer", infoboxTitle:"Howitzer, 155 mm, Self-Propelled, M8",
+    lead:"The M8 is the United States' standard tracked 155 mm divisional howitzer from 1963. Its 1978 M8A2 modernization preserves the 155 mm L/39 weapon while increasing weight, engine output, and standard range and adding improved ammunition, navigation, and a fire-direction link.",
+    canon:"The two full designations, dates, weights, 155 mm L/39 weapon, engine outputs, standard ranges, standard tracked-divisional role, listed M8A2 improvements, independent-chassis requirement, and 1985 force place are fixed. Crew, dimensions, armor, ammunition load and types, rate of fire, fire-control details, production, units, and combat record remain open.",
+    sections:[
+      {id:"role",title:"Divisional role",html:"<p>M8 supplies sustained tracked fire to American divisions. It is the standard self-propelled howitzer rather than a carrier conversion or a direct-fire assault vehicle.</p>"},
+      {id:"marks",title:"Registered configurations",html:"<div class='table-wrap'><table class='wiki-table'><thead><tr><th>Configuration</th><th>Introduction</th><th>Weight</th><th>Engine</th><th>Standard range</th></tr></thead><tbody><tr><td>M8</td><td>1963</td><td>24.5 t</td><td>450 hp diesel</td><td>18.1 km</td></tr><tr><td>M8A2</td><td>1978</td><td>27.0 t</td><td>500 hp diesel</td><td>23.5 km</td></tr></tbody></table></div>"},
+      {id:"weapon",title:"155 mm L/39 armament",html:"<p>Both registered configurations retain the 155 mm L/39 weapon. M8A2's greater standard range therefore belongs to the improved ammunition and system modernization rather than a new barrel-length family.</p>"},
+      {id:"a2",title:"M8A2 modernization",html:"<p>The 1978 configuration adds improved ammunition, navigation, and a fire-direction link. These changes connect movement, orientation, and fire orders while the register leaves the precise electronics and ammunition nomenclature open.</p>"},
+      {id:"chassis",title:"Independent artillery chassis",html:"<p>The <a href='m5-battle-carrier.html'>M5 carrier</a> family supports lighter mission vehicles, but a turreted 155 mm weapon and its ammunition compartment exceed that carrier's design envelope. M8 therefore retains its larger independent chassis.</p>"},
+      {id:"service",title:"Service in 1985",html:"<p>M8A2 is the standard tracked divisional howitzer in the 1985 armored system. The older M8's precise reserve, training, or active distribution is not fixed.</p>"},
+      {id:"numbers",title:"Designation boundary",html:"<p><em>Howitzer, 155 mm, Self-Propelled, M8</em> is a category-specific registry name. It is unrelated to <em>Carrier, Missile, Full-Tracked, M8</em> despite sharing the number.</p>"}
+    ],
+    related:[{href:"american-artillery.html",kicker:"National artillery system",label:"American Artillery"},{href:"m9-heavy-self-propelled-gun.html",kicker:"Heavy-gun companion",label:"M9 203 mm Self-Propelled Gun"},{href:"m6-multiple-rocket-launcher.html",kicker:"Corps rocket companion",label:"M6 Multiple Rocket Launcher"},{href:"m5-family-mission-vehicles.html",kicker:"Lighter support carriers",label:"M5-Family Mission Vehicles"},{href:"american-tank-development.html",kicker:"Armored-force context",label:"American Tank Development"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Full designation","Howitzer, 155 mm, Self-Propelled, M8"],["Introduction","1963"],["Latest configuration","M8A2 · 1978"],["Armament","155 mm L/39"],["M8 weight","24.5 t"],["M8A2 weight","27.0 t"],["M8A2 engine","500 hp diesel"],["M8A2 standard range","23.5 km"]]
+  }),
+
+  "m9-heavy-self-propelled-gun": americanArtilleryArticle({
+    title:"M9 203 mm Self-Propelled Gun", eyebrow:"American heavy tracked artillery · introduced 1965", infoboxKicker:"Heavy self-propelled gun", infoboxTitle:"Gun, 203 mm, Self-Propelled, M9",
+    lead:"The M9 is an American 203 mm tracked self-propelled gun introduced in 1965. Its 28-tonne chassis, 203 mm L/25 weapon, and 17 km standard range supply heavy-shell effect, but the family is in declining service by 1985 as longer-ranged 155 mm and rocket systems assume more of the field-artillery burden.",
+    canon:"The full designation, date, weight, 203 mm L/25 armament, engine output, standard range, heavy-artillery role, and declining 1985 status are fixed. Crew, dimensions, protection, ammunition, rate of fire, production, organization, precise retirement process, and combat history remain open.",
+    sections:[
+      {id:"role",title:"Heavy-artillery role",html:"<p>M9 supplies a larger shell than the 155 mm divisional howitzer. The register identifies it as heavy artillery without assigning a complete set of missions, unit echelons, or ammunition effects.</p>"},
+      {id:"configuration",title:"Registered configuration",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Full designation</th><td>Gun, 203 mm, Self-Propelled, M9</td></tr><tr><th>Introduction</th><td>1965</td></tr><tr><th>Combat weight</th><td>28.0 tonnes</td></tr><tr><th>Armament</th><td>203 mm L/25</td></tr><tr><th>Engine</th><td>405 hp diesel</td></tr><tr><th>Standard range</th><td>17.0 km</td></tr></tbody></table></div>"},
+      {id:"range",title:"Range and weight",html:"<p>M9 is heavier than either M8 configuration but has the shortest registered standard range in the American self-propelled artillery table. Its continued value rests on shell weight rather than reach or automotive commonality.</p>"},
+      {id:"decline",title:"Declining service",html:"<p>By 1985 the 203 mm family is explicitly declining. The register does not specify whether remaining weapons belong to active heavy battalions, reserve formations, depots, or a mixture of those institutions.</p>"},
+      {id:"comparison",title:"Relationship to later systems",html:"<p><a href='m8-self-propelled-howitzer.html'>M8A2</a> reaches 23.5 km with improved 155 mm ammunition, while the <a href='m6-multiple-rocket-launcher.html'>M6 launcher</a> reaches 32 km for corps-level saturation and counterbattery work. Neither reproduces every effect of a 203 mm shell.</p>"},
+      {id:"numbers",title:"Designation boundary",html:"<p>The artillery M9 is unrelated to the <a href='m5-family-mission-vehicles.html'>M9 armored ambulance</a>. Their full category nouns, not the shared ordinal, identify the equipment.</p>"}
+    ],
+    related:[{href:"american-artillery.html",kicker:"National artillery system",label:"American Artillery"},{href:"m8-self-propelled-howitzer.html",kicker:"Standard divisional system",label:"M8 Self-Propelled Howitzer"},{href:"m6-multiple-rocket-launcher.html",kicker:"Longer-range corps system",label:"M6 Multiple Rocket Launcher"},{href:"m5-family-mission-vehicles.html",kicker:"Category-specific namesake",label:"M5-Family Mission Vehicles"},{href:"american-tank-development.html",kicker:"Armored-force context",label:"American Tank Development"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Full designation","Gun, 203 mm, Self-Propelled, M9"],["Country","United States"],["Introduction","1965"],["Combat weight","28.0 t"],["Armament","203 mm L/25"],["Engine","405 hp diesel"],["Standard range","17.0 km"],["1985 status","Declining service"]]
+  }),
+
+  "m6-multiple-rocket-launcher": americanArtilleryArticle({
+    title:"M6 Multiple Rocket Launcher", eyebrow:"American corps rocket artillery · introduced 1983", infoboxKicker:"Tracked multiple rocket launcher", infoboxTitle:"Launcher, Rocket, Multiple, M6",
+    lead:"The M6 is the United States' tracked multiple rocket launcher introduced in 1983. Carrying twelve 227 mm rockets on a 25-tonne vehicle, it gives corps commanders 32 km saturation and counterbattery fire above the sustained 155 mm support of divisional howitzers.",
+    canon:"The full designation, date, weight, twelve-round 227 mm armament, engine output, standard range, and corps-level saturation and counterbattery roles are fixed. Crew, dimensions, protection, rocket warheads and guidance, reload method and vehicle, rate of fire, production, formations, and combat history remain open.",
+    sections:[
+      {id:"role",title:"Corps-level role",html:"<p>M6 concentrates rocket fire for saturation and counterbattery missions. Its place above the ordinary division distinguishes it from the M8A2 howitzer's sustained tracked support.</p>"},
+      {id:"configuration",title:"Registered configuration",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Full designation</th><td>Launcher, Rocket, Multiple, M6</td></tr><tr><th>Introduction</th><td>1983</td></tr><tr><th>Combat weight</th><td>25.0 tonnes</td></tr><tr><th>Armament</th><td>Twelve 227 mm rockets</td></tr><tr><th>Engine</th><td>500 hp diesel</td></tr><tr><th>Standard range</th><td>32.0 km</td></tr></tbody></table></div>"},
+      {id:"fire",title:"Saturation fire",html:"<p>Twelve rockets allow a battery to place a concentrated volume of fire on area targets. The register does not specify warhead families, salvo timing, accuracy, or the number of launchers assigned to a battery.</p>"},
+      {id:"counterbattery",title:"Counterbattery mission",html:"<p>The 32 km standard range lets M6 attack hostile artillery positions beyond the registered reach of American tube systems. Sensors, observers, and command arrangements that supply those targets remain open.</p>"},
+      {id:"comparison",title:"Relationship to tube artillery",html:"<p><a href='m8-self-propelled-howitzer.html'>M8A2</a> remains the divisional howitzer because rockets do not replace its sustained fire. <a href='m9-heavy-self-propelled-gun.html'>M9</a> preserves a declining heavy-shell branch with a different tactical effect.</p>"},
+      {id:"numbers",title:"Designation boundary",html:"<p>The artillery M6 is unrelated to the <a href='m5-family-mission-vehicles.html'>M6 command carrier</a>. The shared number is legal because the full equipment nouns place them in different registry categories.</p>"}
+    ],
+    related:[{href:"american-artillery.html",kicker:"National artillery system",label:"American Artillery"},{href:"m8-self-propelled-howitzer.html",kicker:"Divisional tube artillery",label:"M8 Self-Propelled Howitzer"},{href:"m9-heavy-self-propelled-gun.html",kicker:"Heavy-gun branch",label:"M9 203 mm Self-Propelled Gun"},{href:"m5-family-mission-vehicles.html",kicker:"Category-specific namesake",label:"M5-Family Mission Vehicles"},{href:"american-battle-taxis-and-reconnaissance.html",kicker:"Mechanized formation",label:"American Battle Taxis and Reconnaissance"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Full designation","Launcher, Rocket, Multiple, M6"],["Country","United States"],["Introduction","1983"],["Combat weight","25.0 t"],["Armament","Twelve 227 mm rockets"],["Engine","500 hp diesel"],["Standard range","32.0 km"],["Role","Corps saturation and counterbattery"]]
+  })
+});

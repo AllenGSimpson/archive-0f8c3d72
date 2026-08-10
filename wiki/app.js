@@ -2048,6 +2048,10 @@ const pages = [
   ,{ title: "M3 Cougar", description: "Cadillac Gage's eight-wheeled American reconnaissance vehicle", href: "m3-cougar.html", tags: "m3 cougar lav-25 lav 25 cadillac gage wheeled reconnaissance marines" }
   ,{ title: "M5-Family Mission Vehicles", description: "American M6 command, M7 mortar, M8 missile, and M9 medical carriers", href: "m5-family-mission-vehicles.html", tags: "m5 family mission vehicles m6 command m7 mortar m8 missile m9 medical carrier" }
   ,{ title: "M4 Self-Propelled Air-Defense Gun", description: "America's 20 mm M61 Vulcan divisional air-defense family", href: "m4-self-propelled-air-defense.html", tags: "m4 m4a1 m4a2 self propelled air defense gun vulcan m61 radar" }
+  ,{ title: "American Artillery, 1963–1985", description: "America's tracked divisional, heavy, and corps rocket artillery system", href: "american-artillery.html", tags: "united states american artillery self propelled howitzer heavy gun multiple rocket launcher" }
+  ,{ title: "M8 Self-Propelled Howitzer", description: "America's M8 and M8A2 155 mm tracked divisional howitzer family", href: "m8-self-propelled-howitzer.html", tags: "m8 m8a2 self propelled howitzer american artillery 155 mm l39 divisional" }
+  ,{ title: "M9 203 mm Self-Propelled Gun", description: "America's declining 203 mm heavy tracked artillery system", href: "m9-heavy-self-propelled-gun.html", tags: "m9 203 mm self propelled gun american heavy artillery 1965" }
+  ,{ title: "M6 Multiple Rocket Launcher", description: "America's twelve-round 227 mm corps rocket artillery system", href: "m6-multiple-rocket-launcher.html", tags: "m6 multiple rocket launcher american artillery 227 mm twelve rockets counterbattery" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2435,6 +2439,10 @@ const crossLinks = [
   { href: "m3-cougar.html", terms: ["LAV-25 Cougar", "M3 Cougars", "M3 Cougar"] },
   { href: "m5-family-mission-vehicles.html", terms: ["M5-family mission vehicles", "M5 mission carriers", "Carrier, Command, Full-Tracked, M6", "Carrier, Mortar, Full-Tracked, M7", "Carrier, Missile, Full-Tracked, M8", "Carrier, Medical, Full-Tracked, M9"] },
   { href: "m4-self-propelled-air-defense.html", terms: ["M4 self-propelled air-defense family", "M4 Vulcan air-defense guns", "M4A2 air-defense guns", "M4 air-defense gun"] },
+  { href: "american-artillery.html", terms: ["American artillery system", "American tracked artillery", "American artillery"] },
+  { href: "m8-self-propelled-howitzer.html", terms: ["M8A2 155 mm self-propelled howitzer", "M8A2 self-propelled howitzer", "M8 self-propelled howitzer", "M8 self-propelled artillery", "M8A2 howitzers"] },
+  { href: "m9-heavy-self-propelled-gun.html", terms: ["M9 203 mm self-propelled gun", "M9 heavy self-propelled gun", "M9 heavy artillery"] },
+  { href: "m6-multiple-rocket-launcher.html", terms: ["M6 multiple rocket launcher", "M6 rocket launcher", "M6 rocket artillery"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
