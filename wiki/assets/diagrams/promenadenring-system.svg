@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Promenadenring construction and operating system</title>
+  <desc id="desc">A rotating inhabited ring connects by spokes and a transfer bearing to the nonrotating Orbitaler Raumhafen hub, while lunar bulk materials and terrestrial precision components enter a Raumhafen fabrication chain.</desc>
+  <defs>
+    <radialGradient id="space" cx="50%" cy="42%"><stop stop-color="#182937"/><stop offset="1" stop-color="#070d12"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d3b86c"/><stop offset=".5" stop-color="#8e7334"/><stop offset="1" stop-color="#e6d39b"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#9eb8c8"/></marker>
+  </defs>
+  <rect width="1200" height="900" fill="url(#space)"/>
+  <g fill="#9ab0be" opacity=".5"><circle cx="85" cy="178" r="2"/><circle cx="1110" cy="110" r="2"/><circle cx="1034" cy="372" r="1.6"/><circle cx="310" cy="115" r="1.5"/><circle cx="118" cy="580" r="1.7"/><circle cx="1130" cy="650" r="1.5"/></g>
+  <text x="72" y="72" fill="#f2dfad" font-family="Georgia,serif" font-size="40">Promenadenring system</text>
+  <text x="72" y="110" fill="#a7bbc7" font-family="Arial,sans-serif" font-size="19" letter-spacing="3">SPACE-BUILT HABITATION · LUNAR MASS · TERRESTRIAL PRECISION</text>
+  <g transform="translate(0 -10)">
+    <circle cx="620" cy="405" r="245" fill="none" stroke="#3b4e59" stroke-width="62" opacity=".65"/>
+    <circle cx="620" cy="405" r="245" fill="none" stroke="url(#ring)" stroke-width="22" filter="url(#glow)"/>
+    <circle cx="620" cy="405" r="225" fill="none" stroke="#f4e0a5" stroke-width="2" stroke-dasharray="9 13" opacity=".75"/>
+    <g stroke="#a3b3bc" stroke-width="8" opacity=".9"><path d="M620 405L620 177"/><path d="M620 405L817 291"/><path d="M620 405L817 519"/><path d="M620 405L620 633"/><path d="M620 405L423 519"/><path d="M620 405L423 291"/></g>
+    <circle cx="620" cy="405" r="74" fill="#223641" stroke="#c8b06d" stroke-width="8"/>
+    <circle cx="620" cy="405" r="39" fill="#101c24" stroke="#8ea6b5" stroke-width="5"/>
+    <text x="620" y="398" text-anchor="middle" fill="#f4e2b4" font-family="Arial,sans-serif" font-size="17" font-weight="700">TRANSFER</text>
+    <text x="620" y="421" text-anchor="middle" fill="#f4e2b4" font-family="Arial,sans-serif" font-size="17" font-weight="700">BEARING</text>
+    <text x="620" y="147" text-anchor="middle" fill="#f2dfad" font-family="Arial,sans-serif" font-size="22" font-weight="700">ROTATING INHABITED RING</text>
+    <text x="620" y="692" text-anchor="middle" fill="#c1d0d7" font-family="Arial,sans-serif" font-size="18">NONROTATING RAUMHAFEN HUB · DOCKS · YARDS · POWER</text>
+    <g font-family="Arial,sans-serif" font-size="16" fill="#f8f1dc"><rect x="390" y="250" width="155" height="34" rx="16" fill="#43515a"/><text x="467" y="273" text-anchor="middle">inhabited arc</text><rect x="732" y="250" width="142" height="34" rx="16" fill="#43515a"/><text x="803" y="273" text-anchor="middle">promenade</text><rect x="754" y="535" width="168" height="34" rx="16" fill="#43515a"/><text x="838" y="558" text-anchor="middle">sealable sectors</text><rect x="342" y="535" width="170" height="34" rx="16" fill="#43515a"/><text x="427" y="558" text-anchor="middle">homes · services</text></g>
+  </g>
+  <g font-family="Arial,sans-serif">
+    <rect x="60" y="226" width="236" height="206" rx="10" fill="#16252e" stroke="#718d9d"/>
+    <text x="82" y="258" fill="#f2dfad" font-size="20" font-weight="700">LUNAR BULK SUPPLY</text>
+    <text x="82" y="294" fill="#c1d0d7" font-size="16">aluminum · iron</text><text x="82" y="321" fill="#c1d0d7" font-size="16">glass · silica</text><text x="82" y="348" fill="#c1d0d7" font-size="16">ceramic shielding</text><text x="82" y="375" fill="#c1d0d7" font-size="16">oxygen · water</text><text x="82" y="410" fill="#92acbb" font-size="14">freighters → electric tugs</text>
+    <path d="M296 329H356" stroke="#9eb8c8" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="60" y="482" width="236" height="206" rx="10" fill="#16252e" stroke="#718d9d"/>
+    <text x="82" y="514" fill="#f2dfad" font-size="20" font-weight="700">EARTH PRECISION</text>
+    <text x="82" y="550" fill="#c1d0d7" font-size="16">seals · polymers</text><text x="82" y="577" fill="#c1d0d7" font-size="16">bearings · wiring</text><text x="82" y="604" fill="#c1d0d7" font-size="16">electronics</text><text x="82" y="631" fill="#c1d0d7" font-size="16">special alloys · machinery</text><text x="82" y="666" fill="#92acbb" font-size="14">high-value orbital delivery</text>
+    <path d="M296 585H356" stroke="#9eb8c8" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+  <g transform="translate(348 748)" font-family="Arial,sans-serif">
+    <text x="0" y="0" fill="#a8bbc5" font-size="15">1994</text><text x="170" y="0" fill="#a8bbc5" font-size="15">1995</text><text x="340" y="0" fill="#a8bbc5" font-size="15">1996–97</text><text x="560" y="0" fill="#a8bbc5" font-size="15">1998</text><text x="730" y="0" fill="#a8bbc5" font-size="15">1999–2000</text>
+    <path d="M0 23H810" stroke="#8fa5b2" stroke-width="3"/>
+    <g fill="#d3b86c"><circle cx="0" cy="23" r="7"/><circle cx="170" cy="23" r="7"/><circle cx="365" cy="23" r="7"/><circle cx="575" cy="23" r="7"/><circle cx="810" cy="23" r="7"/></g>
+    <text x="0" y="57" fill="#d0dbe0" font-size="14">authorization</text><text x="170" y="57" fill="#d0dbe0" font-size="14">lunar shipments</text><text x="340" y="57" fill="#d0dbe0" font-size="14">first inhabited arc</text><text x="560" y="57" fill="#d0dbe0" font-size="14">majority occupied</text><text x="730" y="57" fill="#d0dbe0" font-size="14">closure · opening</text>
+  </g>
+</svg>
