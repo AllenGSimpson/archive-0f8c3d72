@@ -1887,6 +1887,14 @@ const pages = [
   { title: "Bristol Aeroplane Company", description: "Filton aircraft, aero-engine, missile, and transport institution", href: "bristol-aeroplane-company.html", tags: "bristol aeroplane company filton mercury pegasus britannia brabazon bloodhound bristol siddeley" },
   { title: "Handley Page", description: "Independent heavy-aircraft, transport, bomber, tanker, and aerodynamic specialist", href: "handley-page.html", tags: "handley page limited cricklewood radlett halifax hastings victor bomber tanker heavy aircraft" },
   { title: "British Aircraft Corporation", description: "Britain's TSR-2, civil-jet, guided-weapons, and systems-integration group", href: "british-aircraft-corporation.html", tags: "british aircraft corporation bac vickers english electric bristol hunting tsr2 one eleven vc10 guided weapons" },
+  { title: "Hawker Aircraft", description: "Kingston fighter and vertical-flight design house behind Hurricane, Hunter, and Harrier", href: "hawker-aircraft.html", tags: "hawker aircraft limited kingston brooklands langley sydney camm hurricane sea fury hunter p1127 harrier" },
+  { title: "Gloster Aircraft Company", description: "Gloucestershire jet-pioneer and interceptor house behind E.28/39, Meteor, and Javelin", href: "gloster-aircraft-company.html", tags: "gloster aircraft company gloucestershire brockworth hucclecote whittle e28 meteor javelin" },
+  { title: "Supermarine", description: "Southampton and Solent seaplane, fighter, high-speed, and naval-aircraft design house", href: "supermarine.html", tags: "supermarine aviation works vickers southampton solent reginald mitchell spitfire seafire attacker swift scimitar" },
+  { title: "Vickers-Armstrongs Aircraft", description: "Brooklands and Weybridge bomber, airliner, transport, and systems-aircraft organization", href: "vickers-armstrongs-aircraft.html", tags: "vickers armstrongs aircraft brooklands weybridge wallis wellington viking viscount valiant vanguard vc10" },
+  { title: "Armstrong Whitworth Aircraft", description: "Coventry bomber, transport, shared-production, and conversion house within Hawker Siddeley", href: "armstrong-whitworth-aircraft.html", tags: "armstrong whitworth aircraft coventry whitley albemarle meteor hunter apollo argosy hawker siddeley" },
+  { title: "Blackburn Aircraft", description: "Brough naval-aircraft, heavy-transport, and low-level-strike design and manufacturing house", href: "blackburn-aircraft.html", tags: "blackburn aircraft company brough robert blackburn naval seaplane beverley buccaneer general aircraft" },
+  { title: "Folland Aircraft", description: "Hamble lightweight-fighter and advanced-jet-training design house", href: "folland-aircraft.html", tags: "folland aircraft hamble henry folland teddy petter midge gnat lightweight fighter trainer" },
+  { title: "Hunting Aircraft", description: "Luton trainer, light-aircraft, and civil-jet design lineage within BAC", href: "hunting-aircraft.html", tags: "hunting aircraft percival luton provost jet provost h107 one eleven strikemaster bac" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4696,6 +4704,14 @@ const crossLinks = [
   ,{ href: "bristol-aeroplane-company.html", terms: ["The Bristol Aeroplane Company Limited", "Bristol Aeroplane Company", "Bristol Aircraft"] }
   ,{ href: "handley-page.html", terms: ["Handley Page Limited", "Handley Page"] }
   ,{ href: "british-aircraft-corporation.html", terms: ["British Aircraft Corporation", "BAC"] }
+  ,{ href: "hawker-aircraft.html", terms: ["Hawker Aircraft Limited", "Hawker Aircraft"] }
+  ,{ href: "gloster-aircraft-company.html", terms: ["Gloster Aircraft Company", "Gloster Aircraft"] }
+  ,{ href: "supermarine.html", terms: ["Supermarine Aviation Works", "Vickers-Supermarine", "Vickers Supermarine", "Supermarine"] }
+  ,{ href: "vickers-armstrongs-aircraft.html", terms: ["Vickers-Armstrongs Aircraft", "Vickers aviation"] }
+  ,{ href: "armstrong-whitworth-aircraft.html", terms: ["Sir W. G. Armstrong Whitworth Aircraft Company", "Armstrong Whitworth Aircraft Company", "Armstrong Whitworth Aircraft"] }
+  ,{ href: "blackburn-aircraft.html", terms: ["Blackburn Aircraft Company", "Blackburn Aircraft"] }
+  ,{ href: "folland-aircraft.html", terms: ["Folland Aircraft Limited", "Folland Aircraft"] }
+  ,{ href: "hunting-aircraft.html", terms: ["Hunting Percival Aircraft", "Hunting Aircraft"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
