@@ -1853,6 +1853,12 @@ const pages = [
   { title: "Pilkington", description: "Britain's St Helens glassmaker and developer of the float-glass process", href: "pilkington.html", tags: "pilkington brothers st helens glass float glass alastair windows vehicles construction britain" },
   { title: "Boots", description: "Britain's national pharmacy, healthcare, beauty, pharmaceutical-research, and retail institution", href: "boots.html", tags: "boots company pharmacy chemist nottingham beeston ibuprofen brufen health beauty retail britain" },
   { title: "J. Lyons and Co.", description: "Britain's catering, food-production, logistics, and pioneering commercial-computing company", href: "j-lyons.html", tags: "j lyons catering tea shops corner houses food leo electronic office commercial computing cleo britain" },
+  { title: "P&O", description: "Britain's mail, passenger, cargo, port, container, and logistics group serving the East", href: "p-and-o.html", tags: "p and o peninsular oriental steam navigation shipping mail india cape route containers logistics britain" },
+  { title: "Cunard–White Star", description: "Britain's North Atlantic liner, passenger, cruise, and cargo company", href: "cunard-white-star.html", tags: "cunard white star line queen mary queen elizabeth ocean liner north atlantic southampton liverpool britain" },
+  { title: "Union-Castle Line", description: "The principal British mail, passenger, refrigerated-cargo, and strategic carrier to South Africa", href: "union-castle-line.html", tags: "union castle mail steamship south africa cape route southampton passenger refrigerated cargo britain" },
+  { title: "Blue Funnel Line", description: "Liverpool's scheduled cargo-liner and logistics company serving Asia and Australasia", href: "blue-funnel-line.html", tags: "blue funnel ocean steam ship alfred holt liverpool china asia cargo liner logistics britain" },
+  { title: "British India Steam Navigation Company", description: "P&O's regional Indian Ocean mail, passenger, pilgrimage, cargo, and troop carrier", href: "british-india-steam-navigation-company.html", tags: "british india steam navigation bisn bi p and o calcutta burmah indian ocean mail pilgrimage cargo" },
+  { title: "Elder Dempster Lines", description: "Liverpool's principal West African shipping, agency, passenger, and logistics company", href: "elder-dempster-lines.html", tags: "elder dempster lines alfred lewis jones liverpool west africa shipping cargo passenger logistics" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4628,6 +4634,12 @@ const crossLinks = [
   ,{ href: "pilkington.html", terms: ["Pilkington Brothers Limited", "Pilkington Brothers", "Pilkington"] }
   ,{ href: "boots.html", terms: ["The Boots Company", "Boots Pure Drug Company", "Boots pharmacy"] }
   ,{ href: "j-lyons.html", terms: ["J. Lyons and Co. Limited", "J. Lyons and Co.", "J. Lyons", "Lyons Electronic Office"] }
+  ,{ href: "p-and-o.html", terms: ["Peninsular and Oriental Steam Navigation Company", "P&O"] }
+  ,{ href: "cunard-white-star.html", terms: ["Cunard–White Star Limited", "Cunard–White Star", "Cunard-White Star"] }
+  ,{ href: "union-castle-line.html", terms: ["Union-Castle Mail Steamship Company Limited", "Union-Castle Line", "Union-Castle"] }
+  ,{ href: "blue-funnel-line.html", terms: ["Ocean Steam Ship Company Limited", "Ocean Steam Ship Company", "Blue Funnel Line", "Blue Funnel"] }
+  ,{ href: "british-india-steam-navigation-company.html", terms: ["British India Steam Navigation Company Limited", "British India Steam Navigation Company", "British India line"] }
+  ,{ href: "elder-dempster-lines.html", terms: ["Elder Dempster Lines Limited", "Elder Dempster Lines", "Elder Dempster"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
