@@ -1995,7 +1995,13 @@ const pages = [
   { title: "Char 53 Toulouse", description: "Occitania's 1953 oscillating-turret 100 mm autoloading tank", href: "char-53-toulouse.html", tags: "char 53 toulouse occitan tank oscillating turret autoloader 100 mm" },
   { title: "Char Léger 55", description: "Occitania's 15-tonne oscillating-turret light tank", href: "char-leger-55.html", tags: "char leger léger 55 occitan light tank oscillating turret autoloader 75 mm" },
   { title: "Char 65 Aquitaine", description: "Occitania's conventional-turret 105 mm tank of 1965", href: "char-65-aquitaine.html", tags: "char 65 aquitaine occitan tank conventional turret 105 mm" },
-  { title: "Char 80 Aigle", description: "Occitania's 1980 120 mm smoothbore tank", href: "char-80-aigle.html", tags: "char 80 aigle occitan tank 1980 120 mm smoothbore" }
+  { title: "Char 80 Aigle", description: "Occitania's 1980 120 mm smoothbore tank", href: "char-80-aigle.html", tags: "char 80 aigle occitan tank 1980 120 mm smoothbore" },
+  { title: "Spanish Infantry Weapons", description: "Spain's independent rifle and machine-gun sequence across three cartridge eras", href: "spanish-infantry-weapons.html", tags: "spain spanish infantry weapons rifles machine guns cetme latin standards" },
+  { title: "Fusil Modelo 52", description: "Spain's semiautomatic 7×57 mm transitional service rifle", href: "fusil-modelo-52.html", tags: "fusil modelo 52 spanish semiautomatic rifle 7x57" },
+  { title: "Fusil Automático 59", description: "Spain's gas-operated 7×51 mm LC battle rifle", href: "fusil-automatico-59.html", tags: "fusil automatico automático 59 spanish gas operated battle rifle 7x51" },
+  { title: "Ametralladora 60", description: "Spain's belt-fed 7×51 mm LC general-purpose machine gun", href: "ametralladora-60.html", tags: "ametralladora 60 spanish general purpose machine gun gpmg belt 7x51" },
+  { title: "Fusil Automático 72", description: "Spain's standard 5.6×45 mm LC assault rifle", href: "fusil-automatico-72.html", tags: "fusil automatico automático 72 spanish assault rifle 5.6x45" },
+  { title: "Ametralladora 74", description: "Spain's lightened optically equipped 7×51 mm LC GPMG", href: "ametralladora-74.html", tags: "ametralladora 74 spanish lightened gpmg optical mount belt 7x51" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -4175,6 +4181,12 @@ const crossLinks = [
   ,{ href: "char-leger-55.html", terms: ["Char Léger 55", "Char Leger 55"] }
   ,{ href: "char-65-aquitaine.html", terms: ["Char 65 Aquitaine"] }
   ,{ href: "char-80-aigle.html", terms: ["Char 80 Aigle"] }
+  ,{ href: "spanish-infantry-weapons.html", terms: ["Spanish infantry weapons", "Spanish small-arms system"] }
+  ,{ href: "fusil-modelo-52.html", terms: ["Fusil Modelo 52", "Modelo 52 rifle"] }
+  ,{ href: "fusil-automatico-59.html", terms: ["Fusil Automático 59", "Fusil Automatico 59"] }
+  ,{ href: "ametralladora-60.html", terms: ["Ametralladora 60"] }
+  ,{ href: "fusil-automatico-72.html", terms: ["Fusil Automático 72", "Fusil Automatico 72"] }
+  ,{ href: "ametralladora-74.html", terms: ["Ametralladora 74"] }
 ];
 
 function escapePattern(value) {

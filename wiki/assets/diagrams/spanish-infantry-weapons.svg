@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Spanish infantry-weapons sequence, 1952–1974</title>
+  <desc id="desc">Timeline of three Spanish rifles and two general-purpose machine guns across national and Latin-standard cartridges.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161310"/><stop offset="1" stop-color="#2b2519"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".4"/></filter>
+    <style>
+      .kicker{font:700 19px Arial,sans-serif;letter-spacing:5px;fill:#f4c84f}.title{font:700 50px Georgia,serif;fill:#f4efe4}.sub{font:18px Arial,sans-serif;fill:#c7beb0}.year{font:700 19px Arial,sans-serif;letter-spacing:2px;fill:#ffe39a}.name{font:700 25px Georgia,serif;fill:#fff}.spec{font:17px Arial,sans-serif;fill:#ece5d8}.note{font:15px Arial,sans-serif;fill:#cabfad}.axis{stroke:#b59039;stroke-width:5}.tick{stroke:#f4c84f;stroke-width:4}.link{stroke:#8b7652;stroke-width:3;fill:none}.box{stroke:#a58a55;stroke-width:2}.footer{font:700 17px Arial,sans-serif;letter-spacing:2px;fill:#e0ca8b}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 0h96v900H0z" fill="#aa151b"/><path d="M32 0h32v900H32z" fill="#f1bf00"/>
+  <text x="140" y="82" class="kicker">SPANISH INFANTRY-WEAPONS DEVELOPMENT</text>
+  <text x="140" y="145" class="title">A national line outside CETME</text>
+  <text x="140" y="182" class="sub">National 7×57 mm inheritance · 7×51 mm LC full-power system · 5.6×45 mm LC assault-rifle system</text>
+  <line x1="190" y1="330" x2="1480" y2="330" class="axis"/>
+  <g class="tick"><line x1="250" y1="312" x2="250" y2="348"/><line x1="520" y1="312" x2="520" y2="348"/><line x1="790" y1="312" x2="790" y2="348"/><line x1="1060" y1="312" x2="1060" y2="348"/><line x1="1330" y1="312" x2="1330" y2="348"/></g>
+  <g filter="url(#shadow)">
+    <rect x="130" y="215" width="245" height="118" rx="9" fill="#62302a" class="box"/><text x="155" y="250" class="year">1952</text><text x="155" y="286" class="name">Fusil Modelo 52</text><text x="155" y="315" class="note">7×57 mm · 10 rounds</text>
+    <rect x="390" y="370" width="260" height="165" rx="10" fill="#6b3b2d" class="box"/><text x="415" y="405" class="year">1959</text><text x="415" y="442" class="name">Fusil Automático 59</text><text x="415" y="477" class="spec">7×51 mm LC</text><text x="415" y="505" class="note">Gas-operated · 20 rounds</text>
+    <rect x="660" y="215" width="260" height="165" rx="10" fill="#705035" class="box"/><text x="685" y="250" class="year">1960</text><text x="685" y="287" class="name">Ametralladora 60</text><text x="685" y="322" class="spec">7×51 mm LC</text><text x="685" y="350" class="note">Disintegrating belt · GPMG</text>
+    <rect x="930" y="370" width="260" height="165" rx="10" fill="#6b5735" class="box"/><text x="955" y="405" class="year">1972</text><text x="955" y="442" class="name">Fusil Automático 72</text><text x="955" y="477" class="spec">5.6×45 mm LC</text><text x="955" y="505" class="note">30 rounds · standard rifle</text>
+    <rect x="1200" y="205" width="285" height="185" rx="10" fill="#675639" class="box"/><text x="1225" y="240" class="year">1974</text><text x="1225" y="277" class="name">Ametralladora 74</text><text x="1225" y="312" class="spec">7×51 mm LC</text><text x="1225" y="340" class="note">Lightened · optical mount</text><text x="1225" y="367" class="note">Disintegrating belt</text>
+  </g>
+  <path d="M375 270 C385 270 380 450 390 450" class="link"/><path d="M650 450 C655 450 655 300 660 300" class="link"/><path d="M920 300 C925 300 925 450 930 450" class="link"/><path d="M1190 450 C1195 450 1195 300 1200 300" class="link"/>
+  <g transform="translate(140 625)">
+    <rect width="1345" height="150" rx="12" fill="#1e1912" stroke="#786440" stroke-width="2"/>
+    <text x="30" y="42" class="kicker">STANDARDIZATION WITHOUT CETME</text>
+    <text x="30" y="82" class="spec">Semiautomatic national rifle → gas-operated full-power rifle and GPMG → small-caliber assault rifle → lightened optical-mount GPMG</text>
+    <text x="30" y="117" class="note">The historical CETME engineering migration does not occur; mechanisms and manufacturers beyond the fixed registry remain open.</text>
+  </g>
+  <text x="140" y="840" class="footer">FRACTURED PEACE ARCHIVE · LAND ARMAMENTS REGISTER</text>
+</svg>
