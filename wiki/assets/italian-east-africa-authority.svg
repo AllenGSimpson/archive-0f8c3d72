@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Authority in Italian East Africa</title>
+  <desc id="desc">Diagram showing the Italian crown and viceroy above regional governments, corridor institutions, and local intermediaries.</desc>
+  <rect width="1200" height="760" fill="#101819"/>
+  <text x="600" y="62" text-anchor="middle" fill="#efe1c3" font-family="Georgia,serif" font-size="38">VICEROYAL AUTHORITY</text>
+  <text x="600" y="100" text-anchor="middle" fill="#9eada5" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">FORMAL HIERARCHY AND PRACTICAL REACH</text>
+  <g stroke="#c8a25e" stroke-width="5" fill="none"><path d="M600 200v55M600 355v54M600 511v53"/><path d="M170 409h860"/><path d="M170 409v42M385 409v42M600 409v42M815 409v42M1030 409v42"/></g>
+  <g font-family="Georgia,serif" text-anchor="middle">
+    <rect x="390" y="126" width="420" height="75" rx="8" fill="#7c2728" stroke="#e4c984" stroke-width="3"/><text x="600" y="158" fill="#fff5dc" font-size="25">King of Italy, Emperor of Ethiopia</text><text x="600" y="184" fill="#e5d3aa" font-size="18">sovereignty, imperial title, strategic reserve</text>
+    <rect x="385" y="255" width="430" height="101" rx="8" fill="#324239" stroke="#d8c388" stroke-width="3"/><text x="600" y="295" fill="#fff5dc" font-size="29">Viceroy in Addis Ababa</text><text x="600" y="326" fill="#cdd7ce" font-size="18">governor-general · army · finance · corridors</text>
+    <g fill="#26363a" stroke="#9eb6aa" stroke-width="2"><rect x="77" y="451" width="186" height="61" rx="6"/><rect x="292" y="451" width="186" height="61" rx="6"/><rect x="507" y="451" width="186" height="61" rx="6"/><rect x="722" y="451" width="186" height="61" rx="6"/><rect x="937" y="451" width="186" height="61" rx="6"/></g>
+    <g fill="#f0e7d2" font-size="21"><text x="170" y="489">Regional governors</text><text x="385" y="489">Ports and railways</text><text x="600" y="489">Local formations</text><text x="815" y="489">Churches and missions</text><text x="1030" y="489">Boards and concessions</text></g>
+    <rect x="180" y="564" width="840" height="105" rx="8" fill="#1d2a27" stroke="#768f82" stroke-width="3"/><text x="600" y="605" fill="#fff5dc" font-size="28">Local intermediaries and institutions</text><text x="600" y="640" fill="#c7d2ca" font-size="19">provincial notables · clergy · Muslim leaders · municipalities · police · merchants · village authorities</text>
+    <text x="600" y="716" fill="#9eada5" font-family="Arial,sans-serif" font-size="18">Authority is dense along points and lines, negotiated beyond them.</text>
+  </g>
+</svg>

@@ -180,6 +180,20 @@ const pages = [
   { title: "Sudan Defence Force", description: "The local military institution beneath Italian strategic command", href: "sudan-defence-force.html", tags: "sudan defence force military army condominium garrison railway" },
   { title: "Southern Sudan Missions", description: "Christian schools, medicine, and local institutions in the thinly governed south", href: "southern-sudan-missions.html", tags: "southern sudan missions catholic protestant church schools hospitals" },
   { title: "Sudanese Export Economy", description: "Cotton, livestock, gum arabic, rail, river, and Red Sea trade", href: "sudanese-export-economy.html", tags: "sudan export economy cotton livestock gum arabic rail port" },
+  { title: "Italian East Africa", description: "The surviving viceroyalty and corridor empire joining Ethiopia, Eritrea, and Italian Somalia", href: "italian-east-africa.html", tags: "italian east africa aoi africa orientale italiana viceroyalty ethiopia eritrea somalia" },
+  { title: "Viceroyalty of Italian East Africa", description: "Crown government and regional administration from Addis Ababa", href: "viceroyalty-italian-east-africa.html", tags: "viceroyalty italian east africa governor general crown addis ababa" },
+  { title: "Ethiopia under Italian Rule", description: "The highland core of the surviving Italian East African viceroyalty", href: "ethiopia-under-italian-rule.html", tags: "ethiopia italian rule empire highlands colonial occupation" },
+  { title: "Eritrea", description: "The northern Red Sea and askari foundation of Italian East Africa", href: "eritrea.html", tags: "eritrea asmara massawa italian east africa askari red sea" },
+  { title: "Italian Somalia", description: "The Indian Ocean and equatorial foundation of Italian East Africa", href: "italian-somalia.html", tags: "italian somalia mogadishu kismayo san marco east africa" },
+  { title: "Amedeo, Duke of Aosta", description: "Savoyard viceroy whose post-1941 career remains divergence-sensitive", href: "amedeo-duke-aosta.html", tags: "amedeo duke aosta viceroy savoy italian east africa biography" },
+  { title: "Addis Ababa", description: "Viceregal capital, command center, and corridor junction of Italian East Africa", href: "addis-ababa.html", tags: "addis ababa ethiopia capital viceroy italian east africa" },
+  { title: "Asmara", description: "Eritrean administrative, industrial, military, and transport center", href: "asmara.html", tags: "asmara eritrea industry military transport italy" },
+  { title: "Massawa", description: "The northern Red Sea gateway of the East African corridor system", href: "massawa.html", tags: "massawa massaua eritrea port red sea asmara" },
+  { title: "Mogadishu", description: "Administrative capital and principal port of Italian Somalia", href: "mogadishu.html", tags: "mogadishu mogadiscio italian somalia port capital" },
+  { title: "East African Corridor System", description: "Ports, roads, railways, airfields, and cities that make the viceroyalty governable", href: "east-african-corridor-system.html", tags: "east african corridor roads rail airfields massawa asmara addis mogadishu kismayo" },
+  { title: "Colonial Forces of Italian East Africa", description: "Eritrean, Somali, and Ethiopian formations beneath Italian strategic command", href: "colonial-forces-italian-east-africa.html", tags: "colonial forces italian east africa askari auxiliaries police military" },
+  { title: "Ethiopian Orthodox Church under Italian Rule", description: "Ethiopia's supervised central religious and social institution", href: "ethiopian-orthodox-church-italian-rule.html", tags: "ethiopian orthodox tewahedo church italian rule clergy monastery" },
+  { title: "East African Export Economy", description: "Coffee, livestock, oilseeds, ports, taxes, and the imperial lira", href: "east-african-export-economy.html", tags: "east african export economy coffee livestock oilseeds bananas ports lira" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4621,6 +4635,20 @@ const crossLinks = [
   ,{ href: "sudan-defence-force.html", terms: ["Sudan Defence Force", "Sudan Defense Force"] }
   ,{ href: "southern-sudan-missions.html", terms: ["southern Sudan missions", "missions in southern Sudan"] }
   ,{ href: "sudanese-export-economy.html", terms: ["Sudanese export economy", "gum arabic"] }
+  ,{ href: "italian-east-africa.html", terms: ["Africa Orientale Italiana", "Italian East Africa", "AOI"] }
+  ,{ href: "viceroyalty-italian-east-africa.html", terms: ["Viceroyalty of Italian East Africa", "East African viceroyalty", "viceregal administration"] }
+  ,{ href: "ethiopia-under-italian-rule.html", terms: ["Ethiopia under Italian rule", "Italian Ethiopia", "Ethiopia"] }
+  ,{ href: "eritrea.html", terms: ["Eritrea"] }
+  ,{ href: "italian-somalia.html", terms: ["Italian Somalia", "Somalia Italiana"] }
+  ,{ href: "amedeo-duke-aosta.html", terms: ["Amedeo, Duke of Aosta", "Amedeo d'Aosta", "Amedeo of Aosta"] }
+  ,{ href: "addis-ababa.html", terms: ["Addis Ababa"] }
+  ,{ href: "asmara.html", terms: ["Asmara"] }
+  ,{ href: "massawa.html", terms: ["Massawa", "Massaua"] }
+  ,{ href: "mogadishu.html", terms: ["Mogadishu", "Mogadiscio"] }
+  ,{ href: "east-african-corridor-system.html", terms: ["East African Corridor System", "East African corridor system", "corridor empire"] }
+  ,{ href: "colonial-forces-italian-east-africa.html", terms: ["Colonial Forces of Italian East Africa", "Eritrean askari", "Somali formations"] }
+  ,{ href: "ethiopian-orthodox-church-italian-rule.html", terms: ["Ethiopian Orthodox Tewahedo Church", "Ethiopian Orthodox Church"] }
+  ,{ href: "east-african-export-economy.html", terms: ["East African export economy", "AOI export economy"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }

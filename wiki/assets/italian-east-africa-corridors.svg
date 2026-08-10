@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Italian East Africa corridor system</title>
+  <desc id="desc">Schematic diagram linking Massawa, Asmara, Addis Ababa, Assab, Djibouti, Dire Dawa, Mogadishu, and Kismayo.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#092839"/><stop offset="1" stop-color="#0d4654"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="760" fill="#0c1518"/>
+  <path d="M0 0h290c20 120-45 226-14 337 34 123-64 254-15 423H0z" fill="url(#sea)"/>
+  <path d="M1200 0H975c-44 112 0 219-46 324-44 102-26 243 25 436h246z" fill="url(#sea)"/>
+  <path d="M300 0h650c-35 112 7 219-37 325-41 100-22 244 25 435H278c-38-151 48-288 10-421-32-112 31-222 12-339z" fill="#26342e"/>
+  <g fill="none" stroke="#d9b66f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M356 112L466 192 623 367"/>
+    <path d="M337 316L623 367"/>
+    <path d="M315 446L480 406 623 367"/>
+    <path d="M623 367L768 423 936 512"/>
+    <path d="M936 512L927 661"/>
+  </g>
+  <g fill="none" stroke="#91b69d" stroke-width="5" stroke-dasharray="13 12" opacity=".8">
+    <path d="M315 446L480 406"/><path d="M466 192L623 367"/>
+  </g>
+  <g fill="#f2e7cc" stroke="#7d302d" stroke-width="5" filter="url(#shadow)">
+    <circle cx="356" cy="112" r="15"/><circle cx="466" cy="192" r="15"/><circle cx="337" cy="316" r="15"/><circle cx="315" cy="446" r="15"/><circle cx="480" cy="406" r="15"/><circle cx="623" cy="367" r="18"/><circle cx="768" cy="423" r="15"/><circle cx="936" cy="512" r="15"/><circle cx="927" cy="661" r="15"/>
+  </g>
+  <g fill="#f3ead9" font-family="Georgia,serif" font-size="25">
+    <text x="380" y="102">Massawa</text><text x="489" y="184">Asmara</text><text x="190" y="307">Assab</text><text x="105" y="470">Djibouti</text><text x="358" y="445">Dire Dawa</text><text x="646" y="355">Addis Ababa</text><text x="790" y="414">Harar</text><text x="958" y="506">Mogadishu</text><text x="949" y="670">Kismayo</text>
+  </g>
+  <text x="600" y="60" text-anchor="middle" fill="#efe1c3" font-family="Georgia,serif" font-size="38">THE CORRIDOR EMPIRE</text>
+  <text x="600" y="101" text-anchor="middle" fill="#aab9ad" font-family="Arial,sans-serif" font-size="20" letter-spacing="2">SCHEMATIC · BORDERS AND TRANSFERRED TERRITORIES OPEN</text>
+  <g transform="translate(390 690)" font-family="Arial,sans-serif" font-size="18" fill="#d8dfd8"><path d="M0 0h54" stroke="#d9b66f" stroke-width="12"/><text x="68" y="7">principal road and administrative axis</text></g>
+</svg>
