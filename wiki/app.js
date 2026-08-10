@@ -2067,6 +2067,8 @@ const pages = [
   ,{ title: "Véhicule de Combat 72 Sanglier", description: "Occitania's 27-tonne cannon-and-missile infantry fighting vehicle", href: "vehicule-de-combat-72-sanglier.html", tags: "vehicule de combat 72 sanglier occitan ifv 30x170 saetta 1972" }
   ,{ title: "Occitan Wheeled Reconnaissance", description: "Occitania's road-mobile reconnaissance and observation vehicle branch", href: "occitan-wheeled-reconnaissance.html", tags: "occitania occitan wheeled reconnaissance scouting screening observation" }
   ,{ title: "Occitan Battlefield Integration", description: "Occitan artillery observation, fire control, and close-air-support coordination", href: "occitan-battlefield-integration.html", tags: "occitania occitan battlefield integration artillery observation fire control electronics close air support coordination" }
+  ,{ title: "Spanish Armored Forces", description: "Spain's mixed force of Italian Ariete-series tanks, Occitan light armor, and national wheeled vehicles", href: "spanish-armored-forces.html", tags: "spain spanish armored forces tanks ariete occitan light armor licensed production" }
+  ,{ title: "Spanish Wheeled Armored Vehicles", description: "Spain's domestically built carrier and armored-reconnaissance vehicle branch", href: "spanish-wheeled-armored-vehicles.html", tags: "spain spanish wheeled armored vehicles carriers reconnaissance armored cars angola" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2473,6 +2475,8 @@ const crossLinks = [
   { href: "vehicule-de-combat-72-sanglier.html", terms: ["Véhicule de Combat 72 Sanglier", "Véhicule de Combat 72", "Occitan Sanglier", "Sanglier infantry fighting vehicle"] },
   { href: "occitan-wheeled-reconnaissance.html", terms: ["Occitan wheeled reconnaissance", "wheeled reconnaissance branch"] },
   { href: "occitan-battlefield-integration.html", terms: ["Occitan battlefield integration", "Occitan fire-control electronics", "Occitan close-air-support coordination"] },
+  { href: "spanish-armored-forces.html", terms: ["Spanish armored forces", "Spanish armored force", "Spanish armored units"] },
+  { href: "spanish-wheeled-armored-vehicles.html", terms: ["Spanish-built wheeled carriers", "Spanish wheeled reconnaissance vehicles", "Spanish wheeled armored vehicles"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
