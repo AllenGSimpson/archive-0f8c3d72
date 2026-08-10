@@ -2170,6 +2170,11 @@ const pages = [
   ,{ title: "F-12A Blackbird", description: "America's 1970 Mach 3 Blackbird strategic interceptor", href: "f-12a-blackbird.html", tags: "f-12a f12 blackbird lockheed aerospace force mach 3 strategic interceptor missiles 1970" }
   ,{ title: "B-58A Hustler", description: "America's 1959 high-supersonic conventional strategic bomber", href: "b-58a-hustler.html", tags: "b-58a b58 hustler convair aerospace command force high supersonic schnellbomber conventional strategic bomber 1959" }
   ,{ title: "B-70A Valkyrie", description: "America's 1969 Mach 3 conventional strategic bomber", href: "b-70a-valkyrie.html", tags: "b-70a b70 valkyrie north american aerospace force mach 3 conventional strategic bomber 1969" }
+  ,{ title: "American Reusable-Aerospace Research Generation", description: "Four American experimental paths that converged in the OV-1A Pathfinder", href: "american-reusable-aerospace-research-generation.html", tags: "american reusable aerospace research generation x-15a x-20a dyna-soar x-24 project apex pathfinder hypersonic lifting body combined cycle" }
+  ,{ title: "X-15A", description: "America's 1961 piloted hypersonic rocketplane research vehicle", href: "x-15a.html", tags: "x-15a x15 rocketplane hypersonic research heating reaction controls energy management 1961" }
+  ,{ title: "X-20A Dyna-Soar", description: "America's booster-launched orbital-glide research vehicle", href: "x-20a-dyna-soar.html", tags: "x-20a x20 dyna-soar orbital glider booster reentry inspection demonstrator 1966" }
+  ,{ title: "X-24 Series", description: "America's 1964–68 lifting-body and integrated-propulsion research series", href: "x-24-series.html", tags: "x-24 lifting body integrated propulsion inlet transition hydrogen cooling high angle reentry" }
+  ,{ title: "Project Apex", description: "America's 1967–69 runway-launched upper-atmosphere demonstrator program", href: "project-apex.html", tags: "project apex combined cycle propulsion thermal structure runway launched upper atmosphere demonstrator maracaibo computing" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2679,6 +2684,11 @@ const crossLinks = [
   { href: "f-12a-blackbird.html", terms: ["F-12A Blackbird", "F-12A"] },
   { href: "b-58a-hustler.html", terms: ["B-58A Hustler", "B-58A"] },
   { href: "b-70a-valkyrie.html", terms: ["B-70A Valkyrie", "B-70A"] },
+  { href: "american-reusable-aerospace-research-generation.html", terms: ["American reusable-aerospace research generation", "American reusable-aerospace research", "reusable-aerospace research generation"] },
+  { href: "x-15a.html", terms: ["X-15A"] },
+  { href: "x-20a-dyna-soar.html", terms: ["X-20A Dyna-Soar", "X-20A", "Dyna-Soar"] },
+  { href: "x-24-series.html", terms: ["X-24 series", "X-24"] },
+  { href: "project-apex.html", terms: ["Project Apex"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },

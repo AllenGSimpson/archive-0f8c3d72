@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">American reusable-aerospace research generation, 1961–1969</title>
+  <desc id="desc">Four research paths—X-15A, X-20A Dyna-Soar, X-24, and Project Apex—contribute different technologies to OV-1A Pathfinder.</desc>
+  <rect width="1200" height="900" fill="#111e2c"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="62" y="68" fill="#f5efe5" font-family="Georgia, serif" font-size="37" font-weight="700">American Reusable-Aerospace Research</text>
+    <text x="64" y="105" fill="#c5d4e2" font-size="18">Four experimental paths converge on Pathfinder · 1961–1969</text>
+
+    <line x1="120" y1="158" x2="1090" y2="158" stroke="#72879a" stroke-width="3"/>
+    <g fill="#efd16d" font-size="15" font-weight="700" text-anchor="middle">
+      <text x="170" y="136">1961</text><text x="390" y="136">1964</text><text x="570" y="136">1966</text><text x="760" y="136">1967</text><text x="1020" y="136">1969</text>
+    </g>
+    <g fill="#72879a"><circle cx="170" cy="158" r="6"/><circle cx="390" cy="158" r="6"/><circle cx="570" cy="158" r="6"/><circle cx="760" cy="158" r="6"/><circle cx="1020" cy="158" r="6"/></g>
+
+    <g fill="#dde8f1" font-size="14" font-weight="700" letter-spacing="1.2">
+      <text x="62" y="235">ROCKETPLANE</text>
+      <text x="62" y="397">BOOSTED GLIDER</text>
+      <text x="62" y="559">LIFTING BODY</text>
+      <text x="62" y="721">RUNWAY DEMONSTRATORS</text>
+    </g>
+
+    <g>
+      <rect x="145" y="255" width="350" height="116" rx="11" fill="#315f79" stroke="#acd0df" stroke-width="2"/>
+      <text x="170" y="289" fill="#fff" font-size="22" font-weight="700">X-15A</text>
+      <text x="170" y="321" fill="#eef8fc" font-size="14">Air-launched hypersonic rocketplane · 1961</text>
+      <text x="170" y="349" fill="#cce7f2" font-size="14">Heating · reaction control · energy landing</text>
+    </g>
+
+    <g>
+      <rect x="300" y="417" width="390" height="116" rx="11" fill="#66547f" stroke="#d2c1df" stroke-width="2"/>
+      <text x="325" y="451" fill="#fff" font-size="22" font-weight="700">X-20A Dyna-Soar</text>
+      <text x="325" y="483" fill="#f7f2fb" font-size="14">Booster-launched orbital glider · 1965–66</text>
+      <text x="325" y="511" fill="#e3d9ed" font-size="14">Orbital piloting · inspection · lifting reentry</text>
+    </g>
+
+    <g>
+      <rect x="300" y="579" width="390" height="116" rx="11" fill="#367166" stroke="#afd2cb" stroke-width="2"/>
+      <text x="325" y="613" fill="#fff" font-size="22" font-weight="700">X-24 series</text>
+      <text x="325" y="645" fill="#eef9f7" font-size="14">Lifting-body research · 1964–68</text>
+      <text x="325" y="673" fill="#d0eae5" font-size="14">Body lift · inlet transition · hydrogen cooling</text>
+    </g>
+
+    <g>
+      <rect x="565" y="741" width="390" height="116" rx="11" fill="#96662d" stroke="#e8ca91" stroke-width="2"/>
+      <text x="590" y="775" fill="#fff" font-size="22" font-weight="700">Project Apex</text>
+      <text x="590" y="807" fill="#fff8e9" font-size="14">Runway upper-atmosphere tests · 1967–69</text>
+      <text x="590" y="835" fill="#f2dfb5" font-size="14">Combined cycle · thermal structure · computing</text>
+    </g>
+
+    <line x1="760" y1="196" x2="760" y2="721" stroke="#d36f63" stroke-width="2" stroke-dasharray="7 7"/>
+    <rect x="668" y="188" width="184" height="38" rx="5" fill="#6f3238"/>
+    <text x="760" y="213" fill="#ffeceb" font-size="14" font-weight="700" text-anchor="middle">MARACAIBO SHOCK · 1966</text>
+
+    <g stroke="#cfb45c" stroke-width="4" fill="none">
+      <path d="M495 313 C720 313 800 310 955 310"/>
+      <path d="M690 475 C805 475 850 400 955 350"/>
+      <path d="M690 637 C815 637 860 475 955 390"/>
+      <path d="M955 799 C1030 760 1035 520 1022 430"/>
+    </g>
+    <g fill="#cfb45c">
+      <path d="M955 310 l-14 -9 v18 z"/>
+      <path d="M955 350 l-16 -5 9 16 z"/>
+      <path d="M955 390 l-16 -4 10 15 z"/>
+      <path d="M1022 430 l-9 15 18 -2 z"/>
+    </g>
+
+    <g>
+      <rect x="925" y="265" width="235" height="165" rx="12" fill="#2e5271" stroke="#f0d274" stroke-width="3"/>
+      <text x="950" y="301" fill="#f7e7ae" font-size="14" font-weight="700" letter-spacing="1">OPERATIONAL CONVERGENCE</text>
+      <text x="950" y="337" fill="#fff" font-size="22" font-weight="700">OV-1A Pathfinder</text>
+      <text x="950" y="369" fill="#edf6fb" font-size="14">Runway to orbit · 1969</text>
+      <text x="950" y="397" fill="#d2e6f1" font-size="14">One vehicle · one complete cycle</text>
+    </g>
+
+    <rect x="58" y="760" width="430" height="98" rx="9" fill="#192b3b" stroke="#526d80" stroke-width="2"/>
+    <text x="82" y="792" fill="#efd16d" font-size="15" font-weight="700">THE LINEAGE RULE</text>
+    <text x="82" y="821" fill="#d6e3ec" font-size="14">Pathfinder inherits research results, not every configuration.</text>
+    <text x="82" y="846" fill="#bcd0df" font-size="13">Dyna-Soar's booster launch ends; Apex's runway architecture survives.</text>
+
+    <g font-size="13">
+      <rect x="65" y="878" width="16" height="16" rx="3" fill="#315f79"/><text x="91" y="891" fill="#d5e2ed">Rocketplane</text>
+      <rect x="190" y="878" width="16" height="16" rx="3" fill="#66547f"/><text x="216" y="891" fill="#d5e2ed">Orbital glider</text>
+      <rect x="330" y="878" width="16" height="16" rx="3" fill="#367166"/><text x="356" y="891" fill="#d5e2ed">Lifting body</text>
+      <rect x="465" y="878" width="16" height="16" rx="3" fill="#96662d"/><text x="491" y="891" fill="#d5e2ed">Integrated demonstrator</text>
+      <text x="1135" y="891" fill="#c5d4e2" text-anchor="end">Research generation → operational fleet</text>
+    </g>
+  </g>
+</svg>
