@@ -2020,6 +2020,13 @@ const pages = [
   ,{ title: "Conqueror", description: "Britain's limited 120 mm heavy-support tank", href: "conqueror-tank.html", tags: "conqueror british heavy gun tank mk 2 120 mm centurion support" }
   ,{ title: "Chieftain", description: "Britain's 120 mm main battle tank and principal Falklands armored system", href: "chieftain-tank.html", tags: "chieftain chieftain mk 3 chieftain mk 5 chieftain mk 8 chieftain mk 10 british main battle tank falklands mount pleasant" }
   ,{ title: "Challenger 1", description: "Britain's composite-armored 1984 successor withheld from the Falklands", href: "challenger-1.html", tags: "challenger 1 british main battle tank mk 1 composite armor 1984 canada" }
+  ,{ title: "British Carriers and Tracked Reconnaissance", description: "Britain's FV430, CVR(T), Swingfire, Cavalier, and Warrior vehicle system", href: "british-carriers-and-reconnaissance.html", tags: "britain british commonwealth carriers tracked reconnaissance infantry fighting vehicles fv430 cvrt" }
+  ,{ title: "FV432", description: "Britain's standard tracked personnel carrier from 1963", href: "fv432.html", tags: "fv432 mk 1 british tracked personnel carrier fv430 falklands" }
+  ,{ title: "FV435 Cavalier", description: "Britain's first-generation 30 mm infantry fighting vehicle", href: "fv435-cavalier.html", tags: "fv435 cavalier british infantry fighting vehicle ifv rarden falklands" }
+  ,{ title: "FV438 Swingfire", description: "Britain's FV430-family long-range antitank missile carrier", href: "fv438-swingfire.html", tags: "fv438 swingfire british guided antitank missile carrier fv430 falklands" }
+  ,{ title: "FV101 Scorpion", description: "Britain's 76 mm CVR(T) reconnaissance and fire-support vehicle", href: "fv101-scorpion.html", tags: "fv101 scorpion british cvrt reconnaissance fire support 76 mm falklands" }
+  ,{ title: "FV107 Scimitar", description: "Britain's 30 mm CVR(T) tracked reconnaissance vehicle", href: "fv107-scimitar.html", tags: "fv107 scimitar british cvrt tracked reconnaissance rarden falklands" }
+  ,{ title: "FV510 Warrior", description: "Britain's 1985 pre-production and troop-trial infantry fighting vehicle", href: "fv510-warrior.html", tags: "fv510 warrior british infantry fighting vehicle ifv trials 1985 rarden" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2379,6 +2386,13 @@ const crossLinks = [
   { href: "conqueror-tank.html", terms: ["Conqueror Mk 2", "Conqueror tank", "Conquerors"] },
   { href: "chieftain-tank.html", terms: ["Chieftain Mk 10", "Chieftain Mk 8", "Chieftain Mk 5", "Chieftain Mk 3", "Chieftain tanks", "Chieftains", "Chieftain"] },
   { href: "challenger-1.html", terms: ["Challenger 1 Mk 1", "Challenger 1", "Challenger tanks", "Challenger"] },
+  { href: "british-carriers-and-reconnaissance.html", terms: ["British carriers and tracked reconnaissance", "British carrier and reconnaissance system", "British support-vehicle fleet"] },
+  { href: "fv432.html", terms: ["FV432 Mk 1", "FV432-family vehicles", "FV432 family", "FV432"] },
+  { href: "fv435-cavalier.html", terms: ["FV435 Cavaliers", "FV435 Cavalier", "Cavalier vehicles"] },
+  { href: "fv438-swingfire.html", terms: ["FV438 Swingfires", "FV438 Swingfire", "Swingfire carriers", "Swingfire missiles"] },
+  { href: "fv101-scorpion.html", terms: ["FV101 Scorpions", "FV101 Scorpion", "Scorpion vehicles"] },
+  { href: "fv107-scimitar.html", terms: ["FV107 Scimitars", "FV107 Scimitar", "Scimitar vehicles"] },
+  { href: "fv510-warrior.html", terms: ["FV510 Warrior", "Warrior IFV"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },

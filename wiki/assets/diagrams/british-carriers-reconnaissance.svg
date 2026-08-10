@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">British carriers and tracked reconnaissance, 1963 to 1985</title>
+  <desc id="desc">A branching timeline showing the FV430 carrier family, the CVR(T) reconnaissance family, and the Warrior trial program.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111b2b"/><stop offset="1" stop-color="#24384b"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".35"/></filter>
+    <style>.t{font-family:Georgia,serif;fill:#f1ead8}.s{font-family:Arial,sans-serif;fill:#cbd7df}.year{font:700 28px Arial,sans-serif;fill:#ddb767}.name{font:700 31px Georgia,serif;fill:#fff}.detail{font:20px Arial,sans-serif;fill:#d5dfe5}.line{stroke:#b89957;stroke-width:7;fill:none}.branch{stroke:#718da0;stroke-width:5;fill:none}.box{fill:#1a2c3c;stroke:#9bb1be;stroke-width:2}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="82" class="t" font-size="48" font-weight="700">British carriers and tracked reconnaissance</text>
+  <text x="82" y="122" class="s" font-size="22">Protected transport, cannon support, antitank reach, and reconnaissance · 1963–1985</text>
+  <path class="line" d="M150 224H1450"/><circle cx="245" cy="224" r="13" fill="#ddb767"/><circle cx="645" cy="224" r="13" fill="#ddb767"/><circle cx="985" cy="224" r="13" fill="#ddb767"/><circle cx="1360" cy="224" r="13" fill="#ddb767"/>
+  <text x="205" y="190" class="year">1963</text><text x="605" y="190" class="year">1969</text><text x="945" y="190" class="year">1971–72</text><text x="1310" y="190" class="year">1985</text>
+  <path class="branch" d="M245 224V332H645"/><path class="branch" d="M245 224V555H665"/><path class="branch" d="M985 224V555H1070"/><path class="branch" d="M1360 224V332H1260"/>
+  <g filter="url(#shadow)"><rect class="box" x="100" y="300" rx="14" width="470" height="180"/><text x="135" y="350" class="name">FV432 Mk 1</text><text x="135" y="386" class="detail">15.3 t · crew 2 + 10</text><text x="135" y="420" class="detail">Standard tracked personnel carrier</text><text x="135" y="452" class="detail">Foundation of the FV430 family</text></g>
+  <g filter="url(#shadow)"><rect class="box" x="600" y="300" rx="14" width="440" height="180"/><text x="635" y="350" class="name">FV438 Swingfire</text><text x="635" y="386" class="detail">16.2 t · crew 3</text><text x="635" y="420" class="detail">Four ready guided missiles</text><text x="635" y="452" class="detail">Long-range antitank layer</text></g>
+  <g filter="url(#shadow)"><rect class="box" x="1090" y="300" rx="14" width="410" height="180"/><text x="1125" y="350" class="name">FV510 Warrior</text><text x="1125" y="386" class="detail">25.4 t · crew 3 + 7</text><text x="1125" y="420" class="detail">30 mm RARDEN</text><text x="1125" y="452" class="detail">Troop trials only in 1985</text></g>
+  <g filter="url(#shadow)"><rect class="box" x="100" y="535" rx="14" width="470" height="180"/><text x="135" y="585" class="name">FV435 Cavalier</text><text x="135" y="621" class="detail">18.2 t · crew 3 + 6</text><text x="135" y="655" class="detail">30 mm RARDEN · rear door</text><text x="135" y="687" class="detail">FV430-based operational IFV</text></g>
+  <g filter="url(#shadow)"><rect class="box" x="610" y="535" rx="14" width="410" height="180"/><text x="645" y="585" class="name">FV101 Scorpion</text><text x="645" y="621" class="detail">8.1 t · crew 3 · 76 mm L23</text><text x="645" y="655" class="detail">Light reconnaissance</text><text x="645" y="687" class="detail">and fire support</text></g>
+  <g filter="url(#shadow)"><rect class="box" x="1060" y="535" rx="14" width="440" height="180"/><text x="1095" y="585" class="name">FV107 Scimitar</text><text x="1095" y="621" class="detail">8.0 t · crew 3</text><text x="1095" y="655" class="detail">30 mm RARDEN</text><text x="1095" y="687" class="detail">Tracked reconnaissance</text></g>
+  <text x="100" y="805" class="s" font-size="21">Falklands baseline: 36 FV432-family · 12 Cavalier · 8 FV438 · 12 Scorpion · 24 Scimitar</text>
+  <text x="100" y="844" class="s" font-size="20">Warrior remains in troop trials; it is not part of the South Atlantic expedition.</text>
+</svg>
