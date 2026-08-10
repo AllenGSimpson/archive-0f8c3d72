@@ -2081,6 +2081,13 @@ const pages = [
   ,{ title: "Aerfer Leone", description: "Italy's 1967 Latin-bloc interceptor", href: "aerfer-leone.html", tags: "aerfer leone italy italian latin bloc interceptor 1967 missile" }
   ,{ title: "Savoia-Marchetti SM.82 Aquila", description: "Italy's 1974 long-range maritime strike and patrol aircraft", href: "sm82-aquila.html", tags: "savoia marchetti sm82 sm.82 aquila italy maritime strike patrol anti ship 1974" }
   ,{ title: "Fiat G.85", description: "Italy's 1982 air-superiority fighter", href: "fiat-g85.html", tags: "fiat g85 g.85 italy italian air superiority fighter 1982 25x137 missile" }
+  ,{ title: "MD 450B Ouragan", description: "Occitania's first indigenous jet fighter, introduced in 1951", href: "md-450b-ouragan.html", tags: "md 450b ouragan occitania occitan jet fighter 1951 20x110" }
+  ,{ title: "MD 452C Mystère II", description: "Occitania's swept-wing fighter introduced in 1954", href: "md-452c-mystere-ii.html", tags: "md 452c mystere mystère ii occitania occitan swept wing fighter 1954" }
+  ,{ title: "Super Mystère B2", description: "Occitania's 1957 supersonic fighter-bomber", href: "super-mystere-b2.html", tags: "super mystere mystère b2 occitania occitan supersonic fighter bomber 1957" }
+  ,{ title: "Mirage III C", description: "Occitania's Mach 2 interceptor introduced in 1961", href: "mirage-iii-c.html", tags: "mirage iii c occitania occitan mach 2 interceptor 1961" }
+  ,{ title: "Mirage III E", description: "Occitania's 1964 fighter-bomber and reconnaissance aircraft", href: "mirage-iii-e.html", tags: "mirage iii e occitania occitan fighter bomber reconnaissance 1964" }
+  ,{ title: "Mirage F1 C", description: "Occitania's air-superiority fighter introduced in 1971", href: "mirage-f1-c.html", tags: "mirage f1 c occitania occitan air superiority fighter 1971" }
+  ,{ title: "Mirage 2000 C", description: "Occitania's digital fly-by-wire interceptor introduced in 1983", href: "mirage-2000-c.html", tags: "mirage 2000 c occitania occitan digital fly by wire interceptor 1983" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2501,6 +2508,13 @@ const crossLinks = [
   { href: "aerfer-leone.html", terms: ["Aerfer Leone", "Leone interceptor"] },
   { href: "sm82-aquila.html", terms: ["Savoia-Marchetti SM.82 Aquila", "SM.82 Aquila", "SM82 Aquila"] },
   { href: "fiat-g85.html", terms: ["Fiat G.85", "Fiat G85", "G.85 air-superiority fighter", "G.85"] },
+  { href: "md-450b-ouragan.html", terms: ["MD 450B Ouragan", "Ouragan jet fighter"] },
+  { href: "md-452c-mystere-ii.html", terms: ["MD 452C Mystère II", "MD 452C Mystere II", "Mystère II"] },
+  { href: "super-mystere-b2.html", terms: ["Super Mystère B2", "Super Mystere B2"] },
+  { href: "mirage-iii-c.html", terms: ["Mirage III C", "Mirage IIIC"] },
+  { href: "mirage-iii-e.html", terms: ["Mirage III E", "Mirage IIIE"] },
+  { href: "mirage-f1-c.html", terms: ["Mirage F1 C", "Mirage F1C"] },
+  { href: "mirage-2000-c.html", terms: ["Mirage 2000 C", "Mirage 2000C"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
