@@ -101,6 +101,15 @@ const pages = [
   { title: "11th Indian Infantry Division", description: "The British Indian Army formation at Jitra, Kampar, and Slim River", href: "eleventh-indian-infantry-division.html", tags: "11th eleventh indian infantry division murray lyon jitra kampar slim river malaya" },
   { title: "8th Australian Division", description: "The Second AIF formation in Johore, Singapore, and Japanese captivity", href: "eighth-australian-division.html", tags: "8th eighth australian division gordon bennett 22nd 27th brigade gemas muar sarimbun kranji changi" },
   { title: "Malay Regiment", description: "The locally recruited regular formation remembered for Pasir Panjang and Bukit Chandu", href: "malay-regiment.html", tags: "malay regiment adnan saidi pasir panjang bukit chandu opium hill first second battalion" },
+  { title: "Malaya Command", description: "The Commonwealth land headquarters responsible for Malaya and Singapore", href: "malaya-command.html", tags: "malaya command british commonwealth headquarters arthur percival army singapore" },
+  { title: "Tomoyuki Yamashita", description: "Commander of the Japanese Twenty-Fifth Army and Tiger of Malaya", href: "tomoyuki-yamashita.html", tags: "tomoyuki yamashita tiger malaya japanese 25th army singapore general" },
+  { title: "Arthur Percival", description: "General Officer Commanding Malaya and signatory of the Singapore surrender", href: "arthur-percival.html", tags: "arthur ernest percival malaya command singapore surrender british general" },
+  { title: "Gordon Bennett", description: "Commander of the 8th Australian Division in Malaya and Singapore", href: "gordon-bennett.html", tags: "henry gordon bennett australian 8th division malaya singapore commander escape" },
+  { title: "Takurō Matsui", description: "Commander of the Japanese 5th Division in Malaya and Singapore", href: "takuro-matsui.html", tags: "takuro matsui japanese 5th division malaya jitra slim river gemas" },
+  { title: "Renya Mutaguchi", description: "Commander of the Japanese 18th Division in the southern campaign", href: "renya-mutaguchi.html", tags: "renya mutaguchi japanese 18th division kota bharu singapore pasir panjang" },
+  { title: "Takuma Nishimura", description: "Commander of the Imperial Guards Division at Muar and Kranji", href: "takuma-nishimura.html", tags: "takuma nishimura imperial guards division muar parit sulong kranji" },
+  { title: "David Murray-Lyon", description: "Opening commander of the 11th Indian Infantry Division in Malaya", href: "david-murray-lyon.html", tags: "david murray lyon 11th indian division jitra british indian army" },
+  { title: "Adnan Saidi", description: "Malay Regiment officer and defining defender of Bukit Chandu", href: "adnan-saidi.html", tags: "adnan saidi malay regiment pasir panjang bukit chandu singapore hero" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4464,6 +4473,15 @@ const crossLinks = [
   ,{ href: "eleventh-indian-infantry-division.html", terms: ["11th Indian Infantry Division", "11th Indian Division", "Eleventh Indian Division"] }
   ,{ href: "eighth-australian-division.html", terms: ["8th Australian Division", "Australian 8th Division", "Eighth Australian Division"] }
   ,{ href: "malay-regiment.html", terms: ["Malay Regiment", "Malaya Regiment"] }
+  ,{ href: "malaya-command.html", terms: ["Malaya Command"] }
+  ,{ href: "tomoyuki-yamashita.html", terms: ["Tomoyuki Yamashita", "Tiger of Malaya"] }
+  ,{ href: "arthur-percival.html", terms: ["Arthur Ernest Percival", "Arthur Percival"] }
+  ,{ href: "gordon-bennett.html", terms: ["Henry Gordon Bennett", "Gordon Bennett"] }
+  ,{ href: "takuro-matsui.html", terms: ["Takurō Matsui", "Takuro Matsui"] }
+  ,{ href: "renya-mutaguchi.html", terms: ["Renya Mutaguchi"] }
+  ,{ href: "takuma-nishimura.html", terms: ["Takuma Nishimura"] }
+  ,{ href: "david-murray-lyon.html", terms: ["David Murray-Lyon", "David Murray Murray-Lyon"] }
+  ,{ href: "adnan-saidi.html", terms: ["Adnan Saidi", "Adnan bin Saidi"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }
