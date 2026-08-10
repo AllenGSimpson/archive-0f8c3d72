@@ -1727,6 +1727,12 @@ const pages = [
   { title: "Hōrai Conversion", description: "The 1982–83 expansion that converted Kōbō into a permanently inhabited multinational platform", href: "horai-conversion.html", tags: "horai hōrai conversion 1982 1983 kobo permanent orbital platform nakasone" },
   { title: "First Hōrai Resident Expedition", description: "The multinational 1983 expedition that began continuous Japanese orbital occupation", href: "first-horai-expedition.html", tags: "first horai resident expedition 1983 continuous occupation japanese filipino siamese china" },
   { title: "Hōrai Robotic-Operations System", description: "The resident command system for supervising satellites, tugs, laboratories, and distributed robotic explorers", href: "horai-robotic-operations.html", tags: "horai robotic operations control consoles satellites tugs mars deep space japan" },
+  { title: "Hōrai Expansion, 1985–1986", description: "The enlargement that made Hōrai Japan's mature eight-person orbital command platform", href: "horai-1985-expansion.html", tags: "horai hōrai expansion 1985 1986 eight person command platform japan" },
+  { title: "Hōrai Rotating Habitation", description: "The partial-gravity sleeping, exercise, and medical facility aboard mature Hōrai", href: "horai-rotating-habitation.html", tags: "horai rotating habitation artificial partial gravity sleep exercise japan" },
+  { title: "Hōrai Hydroponics and Environmental Systems", description: "Plant growth, closed-cycle research, and emergency food supplementation aboard Hōrai", href: "horai-hydroponics-environmental-systems.html", tags: "horai hydroponics environmental systems closed cycle food life support japan" },
+  { title: "Hōrai Orbital Command Center", description: "Japan's continuously staffed civil, robotic, deep-space, and supervised defense-network control center", href: "horai-orbital-command-center.html", tags: "horai orbital command center civil defense network robotics laser relay japan" },
+  { title: "Japanese Science and Robotics Module", description: "Japan's 1985 robotics, materials, remote-manipulation, and automated-control laboratory aboard the Raumhafen", href: "japanese-raumhafen-science-robotics-module.html", tags: "japanese raumhafen science robotics module 1985 materials remote manipulation automated control" },
+  { title: "Japanese Life-Sciences and Environmental Module", description: "Japan's 1986 hydroponics, closed-cycle, medical, and endurance laboratory aboard the Raumhafen", href: "japanese-raumhafen-life-sciences-module.html", tags: "japanese raumhafen life sciences environmental module 1986 hydroponics medicine closed cycle" },
   { title: "Musubi Program", description: "Japan's automatic rendezvous and docking test series", href: "musubi-program.html", tags: "musubi program docking rendezvous connection bond japan hikari" },
   { title: "Biak Booster Failure", description: "The 1974 launch accident and procurement scandal that brought down Tanaka", href: "biak-booster-failure.html", tags: "biak booster failure accident 1974 tanaka miki kobo procurement safety" },
   { title: "Associated-State Astronaut Program", description: "Multinational GEACPS specialists within Japanese orbital command", href: "associated-state-astronaut-program.html", tags: "associated state astronaut program filipino siamese chinese geacps hikari horai" },
@@ -3810,6 +3816,12 @@ const crossLinks = [
   ,{ href: "horai-conversion.html", terms: ["Hōrai conversion", "Horai conversion"] }
   ,{ href: "first-horai-expedition.html", terms: ["First Hōrai resident expedition", "first Horai resident expedition", "inaugural Hōrai expedition"] }
   ,{ href: "horai-robotic-operations.html", terms: ["Hōrai robotic-operations system", "Hōrai robotic operations", "Horai robotic operations"] }
+  ,{ href: "horai-1985-expansion.html", terms: ["Hōrai expansion program", "1985–86 Hōrai expansion", "Hōrai expansion"] }
+  ,{ href: "horai-rotating-habitation.html", terms: ["Hōrai rotating-habitation section", "Hōrai rotating habitation"] }
+  ,{ href: "horai-hydroponics-environmental-systems.html", terms: ["Hōrai hydroponics and environmental systems", "Hōrai environmental systems"] }
+  ,{ href: "horai-orbital-command-center.html", terms: ["Hōrai orbital command center", "Hōrai command center"] }
+  ,{ href: "japanese-raumhafen-science-robotics-module.html", terms: ["Japanese science and robotics module", "1985 Japanese Raumhafen module"] }
+  ,{ href: "japanese-raumhafen-life-sciences-module.html", terms: ["Japanese life-sciences and environmental module", "1986 Japanese Raumhafen module"] }
   ,{ href: "kobo-horai.html", terms: ["Kōbō–Hōrai orbital complex", "Kōbō laboratory", "Hōrai Orbital Platform", "Kōbō", "Hōrai"] }
   ,{ href: "japanese-raumhafen-modules.html", terms: ["Japanese Raumhafen modules", "Japanese module group"] }
   ,{ href: "mondhafen-sud.html", terms: ["Mondhafen Süd", "Mondhafen Sud"] }
