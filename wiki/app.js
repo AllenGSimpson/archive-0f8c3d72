@@ -2162,6 +2162,14 @@ const pages = [
   ,{ title: "P-3C Orion", description: "America's 1973 long-range maritime patrol and antisubmarine aircraft", href: "p-3c-orion.html", tags: "p-3c p3 orion lockheed naval air corps maritime patrol antisubmarine asw 1973" }
   ,{ title: "F-14A Tomcat", description: "America's 1974 long-range carrier fleet-defense fighter", href: "f-14a-tomcat.html", tags: "f-14a f14 tomcat grumman naval air corps carrier fleet defense fighter missiles 1974" }
   ,{ title: "E-2C Hawkeye", description: "America's 1975 carrier airborne-warning and fleet-control aircraft", href: "e-2c-hawkeye.html", tags: "e-2c e2 hawkeye grumman naval air corps carrier airborne early warning radar data link 1975" }
+  ,{ title: "United States Aerospace Force Atmospheric Fleet", description: "America's seven-aircraft strategic interception, reconnaissance, training, and conventional-bomber register from 1958 through 1970", href: "american-aerospace-force-atmospheric-fleet.html", tags: "united states aerospace force atmospheric fleet strategic interception reconnaissance bomber training starfighter rapier blackbird hustler valkyrie" }
+  ,{ title: "F-104A Starfighter", description: "America's 1958 Aerospace Command Mach 2 point interceptor", href: "f-104a-starfighter.html", tags: "f-104a f104 starfighter lockheed aerospace command force mach 2 point interceptor 1958" }
+  ,{ title: "NF-104A Starfighter", description: "America's 1963 rocket-assisted aerospace trainer", href: "nf-104a-starfighter.html", tags: "nf-104a nf104 starfighter lockheed aerospace force rocket assisted trainer reaction controls 1963" }
+  ,{ title: "F-108A Rapier", description: "America's 1966 long-range Mach 3 strategic interceptor", href: "f-108a-rapier.html", tags: "f-108a f108 rapier north american aerospace force mach 3 long range strategic interceptor 1966" }
+  ,{ title: "R-11A Blackbird", description: "America's 1967 Mach 3 strategic-reconnaissance aircraft", href: "r-11a-blackbird.html", tags: "r-11a r11 blackbird lockheed aerospace force mach 3 strategic reconnaissance cameras radar signals 1967" }
+  ,{ title: "F-12A Blackbird", description: "America's 1970 Mach 3 Blackbird strategic interceptor", href: "f-12a-blackbird.html", tags: "f-12a f12 blackbird lockheed aerospace force mach 3 strategic interceptor missiles 1970" }
+  ,{ title: "B-58A Hustler", description: "America's 1959 high-supersonic conventional strategic bomber", href: "b-58a-hustler.html", tags: "b-58a b58 hustler convair aerospace command force high supersonic schnellbomber conventional strategic bomber 1959" }
+  ,{ title: "B-70A Valkyrie", description: "America's 1969 Mach 3 conventional strategic bomber", href: "b-70a-valkyrie.html", tags: "b-70a b70 valkyrie north american aerospace force mach 3 conventional strategic bomber 1969" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2663,6 +2671,14 @@ const crossLinks = [
   { href: "p-3c-orion.html", terms: ["P-3C Orion", "P-3C"] },
   { href: "f-14a-tomcat.html", terms: ["F-14A Tomcat", "F-14A"] },
   { href: "e-2c-hawkeye.html", terms: ["E-2C Hawkeye", "E-2C"] },
+  { href: "american-aerospace-force-atmospheric-fleet.html", terms: ["United States Aerospace Force atmospheric fleet", "American Aerospace Force atmospheric fleet", "Aerospace Force atmospheric fleet"] },
+  { href: "f-104a-starfighter.html", terms: ["F-104A Starfighter", "F-104A"] },
+  { href: "nf-104a-starfighter.html", terms: ["NF-104A Starfighter", "NF-104A"] },
+  { href: "f-108a-rapier.html", terms: ["F-108A Rapier", "F-108A"] },
+  { href: "r-11a-blackbird.html", terms: ["R-11A Blackbird", "R-11A"] },
+  { href: "f-12a-blackbird.html", terms: ["F-12A Blackbird", "F-12A"] },
+  { href: "b-58a-hustler.html", terms: ["B-58A Hustler", "B-58A"] },
+  { href: "b-70a-valkyrie.html", terms: ["B-70A Valkyrie", "B-70A"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
