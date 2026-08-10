@@ -1864,6 +1864,14 @@ const pages = [
   { title: "Cammell Laird", description: "Birkenhead builder and repairer of merchant ships, warships, submarines, and specialist craft", href: "cammell-laird.html", tags: "cammell laird birkenhead mersey liverpool shipbuilding repair merchant ships warships submarines" },
   { title: "Swan Hunter", description: "Tyneside builder of liners, tankers, carriers, merchant ships, and major surface warships", href: "swan-hunter.html", tags: "swan hunter wigham richardson wallsend walker tyne newcastle shipbuilding mauretania tankers carriers warships" },
   { title: "Harland & Wolff", description: "Belfast builder of liners, merchant ships, warships, aircraft, and heavy structures", href: "harland-and-wolff.html", tags: "harland wolff belfast queens island white star olympic titanic britannic shipbuilding aircraft heavy engineering" },
+  { title: "Motor Industry of Britain", description: "Britain's mass-car, commercial-vehicle, utility, prestige, and specialist-constructor system", href: "motor-industry-of-britain.html", tags: "british motor automobile vehicle industry austin morris leyland rover land rover jaguar lotus cooper commonwealth" },
+  { title: "British Motor Group", description: "The Austin–Morris mass-car grouping and compact front-wheel-drive engineering tradition", href: "british-motor-group.html", tags: "british motor group austin morris longbridge cowley mg riley wolseley compact front wheel drive" },
+  { title: "Leyland Motors", description: "Britain's principal truck, bus, engine, military-vehicle, and Commonwealth fleet group", href: "leyland-motors.html", tags: "leyland motors corporation trucks buses diesel commercial vehicle lancashire chorley commonwealth fleet" },
+  { title: "Rover Company", description: "Solihull manufacturer of saloons, utility vehicles, turbines, and Land-Rover", href: "rover-company.html", tags: "rover company solihull spencer maurice wilks saloon turbine land rover british automobile" },
+  { title: "Land-Rover", description: "The four-wheel-drive vehicle family and Commonwealth service system introduced in 1948", href: "land-rover.html", tags: "land rover series utility vehicle four wheel drive jeep replacement solihull commonwealth farm police military" },
+  { title: "Jaguar Cars", description: "Coventry manufacturer of sports cars, prestige saloons, engines, and endurance vehicles", href: "jaguar-cars.html", tags: "jaguar cars william lyons swallow ss cars coventry xk sports car saloon endurance disc brakes" },
+  { title: "Lotus Cars", description: "Britain's lightweight sports-car, Formula One, and contract-engineering specialist", href: "lotus-cars.html", tags: "lotus cars engineering team colin hazel chapman hethel lightweight formula one sports car monocoque" },
+  { title: "Cooper Car Company", description: "Surbiton constructor of customer racing cars, rear-engine machines, and compact performance vehicles", href: "cooper-car-company.html", tags: "cooper car company charles john cooper surbiton 500 rear engine formula one mini compact racing" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4650,6 +4658,14 @@ const crossLinks = [
   ,{ href: "cammell-laird.html", terms: ["Cammell Laird & Company Limited", "Cammell Laird"] }
   ,{ href: "swan-hunter.html", terms: ["Swan Hunter & Wigham Richardson Limited", "Swan Hunter & Wigham Richardson", "Swan Hunter"] }
   ,{ href: "harland-and-wolff.html", terms: ["Harland & Wolff Limited", "Harland & Wolff", "Harland and Wolff"] }
+  ,{ href: "motor-industry-of-britain.html", terms: ["Motor industry of the United Kingdom", "Motor industry of Britain", "British motor industry", "British automobile industry"] }
+  ,{ href: "british-motor-group.html", terms: ["British Motor Group", "British Motor grouping", "Austin–Morris group", "Austin-Morris group"] }
+  ,{ href: "leyland-motors.html", terms: ["Leyland Motor Corporation", "Leyland Motors", "Leyland-centered commercial group"] }
+  ,{ href: "rover-company.html", terms: ["The Rover Company Limited", "Rover Company Limited", "Rover Company"] }
+  ,{ href: "land-rover.html", terms: ["Land-Rover system", "Land-Rovers", "Land-Rover", "Land Rover"] }
+  ,{ href: "jaguar-cars.html", terms: ["Jaguar Cars Limited", "Jaguar Cars", "Jaguar marque"] }
+  ,{ href: "lotus-cars.html", terms: ["Lotus Engineering Company", "Lotus Cars", "Team Lotus"] }
+  ,{ href: "cooper-car-company.html", terms: ["Cooper Car Company", "Cooper Cars"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
