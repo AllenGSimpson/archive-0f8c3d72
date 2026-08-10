@@ -2035,6 +2035,12 @@ const pages = [
   ,{ title: "FV436 Bishop II", description: "Britain's medium tracked 155 mm divisional artillery system", href: "fv436-bishop-ii.html", tags: "fv436 bishop ii british tracked self propelled artillery 155 mm falklands" }
   ,{ title: "L118 Light Gun", description: "Britain's air-portable and amphibious 105 mm artillery system", href: "l118-light-gun.html", tags: "l118 light gun british artillery 105 mm airborne amphibious kuwait" }
   ,{ title: "Commonwealth L45", description: "The South African-led Commonwealth long-range 155 mm towed gun", href: "commonwealth-l45.html", tags: "commonwealth l45 south african artillery 155 mm long range towed gun" }
+  ,{ title: "British Infantry Weapons, 1951–1985", description: "Britain's Rifle No. 9, TADEN, and optical-interface system", href: "british-infantry-weapons.html", tags: "britain british infantry weapons rifle no 9 em 2 taden 7x43" }
+  ,{ title: "Rifle No. 9", description: "Britain's service EM-2 bullpup family from Mk 1 to Mk 4", href: "rifle-no-9.html", tags: "rifle no 9 rifle no. 9 british em2 em 2 bullpup rifle no. 9 mk 1 rifle no. 9 mk 2 rifle no. 9 mk 4 7x43" }
+  ,{ title: "L4 TADEN", description: "Britain's 7×43 mm bipod light machine gun", href: "l4-taden.html", tags: "l4 taden british light machine gun lmg 7x43 belt" }
+  ,{ title: "L7 TADEN", description: "Britain's 7×43 mm general-purpose, tripod, and vehicle machine gun", href: "l7-taden.html", tags: "l7 taden l7a4 british general purpose machine gun gpmg 7x43 fv432" }
+  ,{ title: "Enfield Dovetail Pattern 76", description: "Britain's national optical mounting interface", href: "enfield-dovetail-pattern-76.html", tags: "enfield dovetail pattern 76 british optical mount interface sight rail" }
+  ,{ title: "British 4.85 mm Trials", description: "Britain's unadopted post-1978 4.85×49 mm weapons program", href: "british-4-85-mm-trials.html", tags: "britain british 4.85 49 mm trials experimental rifle sa80 1978" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2409,6 +2415,12 @@ const crossLinks = [
   { href: "fv436-bishop-ii.html", terms: ["FV436 Bishop IIs", "FV436 Bishop II", "Bishop II"] },
   { href: "l118-light-gun.html", terms: ["L118 Light Guns", "L118 Light Gun", "L118 guns"] },
   { href: "commonwealth-l45.html", terms: ["Commonwealth L45"] },
+  { href: "british-infantry-weapons.html", terms: ["British infantry weapons", "British infantry-weapons system", "British 7×43 mm infantry-weapons system"] },
+  { href: "rifle-no-9.html", terms: ["Rifle No. 9 Mk 4", "Rifle No. 9 Mk 2", "Rifle No. 9 Mk 1", "Rifle No. 9/EM-2", "Rifle No. 9", "service EM-2"] },
+  { href: "l4-taden.html", terms: ["L4 TADEN"] },
+  { href: "l7-taden.html", terms: ["L7A4 TADEN", "L7 TADEN", "TADEN machine guns", "TADEN weapons"] },
+  { href: "enfield-dovetail-pattern-76.html", terms: ["Enfield Dovetail Pattern 76", "Pattern 76 dovetail"] },
+  { href: "british-4-85-mm-trials.html", terms: ["British 4.85 mm trials", "4.85×49 mm weapon trials", "4.85×49 mm trials"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
