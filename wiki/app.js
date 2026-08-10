@@ -2088,6 +2088,15 @@ const pages = [
   ,{ title: "Mirage III E", description: "Occitania's 1964 fighter-bomber and reconnaissance aircraft", href: "mirage-iii-e.html", tags: "mirage iii e occitania occitan fighter bomber reconnaissance 1964" }
   ,{ title: "Mirage F1 C", description: "Occitania's air-superiority fighter introduced in 1971", href: "mirage-f1-c.html", tags: "mirage f1 c occitania occitan air superiority fighter 1971" }
   ,{ title: "Mirage 2000 C", description: "Occitania's digital fly-by-wire interceptor introduced in 1983", href: "mirage-2000-c.html", tags: "mirage 2000 c occitania occitan digital fly by wire interceptor 1983" }
+  ,{ title: "German Early Jet Generation", description: "Seven registered victory-era and immediate-postwar jet aircraft from 1944 to 1949", href: "german-early-jet-generation.html", tags: "germany german luftwaffe early jets aircraft lineage me 262 he 162 ta 183 ho 229 ar 234 ef 131" }
+  ,{ title: "Reichsluftgerätordnung 1948", description: "The German aircraft register's naming, variant, project, and mission-class regulation", href: "reichsluftgeraetordnung-1948.html", tags: "reichsluftgeraetordnung 1948 reich air materiel regulation aircraft designation rlm 500 series" }
+  ,{ title: "Me 262A-1", description: "Germany's 1944 heavy day jet interceptor", href: "me-262a-1.html", tags: "me 262 a1 a-1 messerschmitt germany german heavy day interceptor jet mk 108 1944" }
+  ,{ title: "Me 262F", description: "Germany's 1948 HG-II high-speed interceptor", href: "me-262f.html", tags: "me 262f 262 f hg ii germany german high speed interceptor jet 1948" }
+  ,{ title: "He 162C", description: "Germany's 1947 light point-defense jet fighter", href: "he-162c.html", tags: "he 162c 162 c heinkel germany german light point defense jet fighter 1947" }
+  ,{ title: "Ta 183A-1 Huckebein", description: "Germany's 1948 frontline day jet fighter", href: "ta-183a-1-huckebein.html", tags: "ta 183a-1 ta183 huckebein focke wulf germany german frontline day fighter 1948" }
+  ,{ title: "Ho 229A-2", description: "Germany's specialized 1948 flying-wing penetration strike aircraft", href: "ho-229a-2.html", tags: "ho 229a-2 ho229 horten germany german flying wing penetration strike 1948" }
+  ,{ title: "Ar 234C-3 Blitz", description: "Germany's 1946 fast jet bomber and reconnaissance aircraft", href: "ar-234c-3-blitz.html", tags: "ar 234c-3 ar234 blitz arado germany german fast bomber reconnaissance jet 1946" }
+  ,{ title: "EF 131A-0", description: "Germany's 1949 forward-swept reconnaissance-bomber evaluation aircraft", href: "ef-131a-0.html", tags: "ef 131a-0 ef131 ju 287 germany german forward swept reconnaissance bomber evaluation 1949" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2515,6 +2524,15 @@ const crossLinks = [
   { href: "mirage-iii-e.html", terms: ["Mirage III E", "Mirage IIIE"] },
   { href: "mirage-f1-c.html", terms: ["Mirage F1 C", "Mirage F1C"] },
   { href: "mirage-2000-c.html", terms: ["Mirage 2000 C", "Mirage 2000C"] },
+  { href: "german-early-jet-generation.html", terms: ["German early-jet generation", "German Early Jet Generation", "late-war and immediate-postwar jets"] },
+  { href: "reichsluftgeraetordnung-1948.html", terms: ["Reichsluftgerätordnung 1948", "Reich Air Materiel Regulation of 1948", "Reichsluftgerätordnung"] },
+  { href: "me-262a-1.html", terms: ["Me 262A-1", "Me 262 A-1"] },
+  { href: "me-262f.html", terms: ["Me 262F", "Me 262 F"] },
+  { href: "he-162c.html", terms: ["He 162C", "He 162 C"] },
+  { href: "ta-183a-1-huckebein.html", terms: ["Ta 183A-1 Huckebein", "Ta 183A-1", "Huckebein"] },
+  { href: "ho-229a-2.html", terms: ["Ho 229A-2", "Ho 229 A-2"] },
+  { href: "ar-234c-3-blitz.html", terms: ["Ar 234C-3 Blitz", "Ar 234C-3"] },
+  { href: "ef-131a-0.html", terms: ["EF 131A-0", "EF 131 A-0"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
