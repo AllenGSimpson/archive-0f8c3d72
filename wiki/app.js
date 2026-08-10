@@ -75,6 +75,13 @@ const pages = [
   { title: "First Battle of Britain", description: "The 1940 air-defense victory and the survival doctrine it created", href: "first-battle-of-britain.html", tags: "first battle britain 1940 raf fighter command luftwaffe dowding park goering" },
   { title: "Limited Southern War", description: "Japan's conquest of the Southern Resource Area while excluding the United States", href: "limited-southern-war.html", tags: "limited southern war japan malaya singapore east indies burma 1941 1942" },
   { title: "Malayan Campaign", description: "The Japanese advance down the Malay Peninsula to the Straits of Johore", href: "malayan-campaign.html", tags: "malayan campaign malaya japan britain australia yamashita percival 1941 1942" },
+  { title: "Kota Bharu Landings", description: "The opening Japanese amphibious assault against northeastern Malaya", href: "kota-bharu-landings.html", tags: "kota bharu landings malaya japan 8 december 1941 hudson indian brigade" },
+  { title: "Battle of Jitra", description: "The collapse of the northern Commonwealth defensive line in Kedah", href: "battle-of-jitra.html", tags: "battle jitra kedah malaya japan 11th indian division december 1941" },
+  { title: "Battle of Kampar", description: "The strong Commonwealth defense and operational withdrawal in Perak", href: "battle-of-kampar.html", tags: "battle kampar perak malaya indian division artillery december 1941 january 1942" },
+  { title: "Battle of Slim River", description: "The Japanese armored penetration that opened the route to Kuala Lumpur", href: "battle-of-slim-river.html", tags: "battle slim river trolak malaya japanese tanks indian division january 1942" },
+  { title: "Battle of Gemas", description: "The Australian ambush at Gemencheh Bridge and fighting around Gemas", href: "battle-of-gemas.html", tags: "battle gemas gemencheh bridge ambush australia 2 30 battalion january 1942" },
+  { title: "Battle of Muar", description: "The final major peninsula battle at Muar, Bakri, and Parit Sulong", href: "battle-of-muar.html", tags: "battle muar bakri parit sulong australia india guards johore january 1942" },
+  { title: "Parit Sulong Massacre", description: "The killing of wounded Australian and Indian prisoners after Muar", href: "parit-sulong-massacre.html", tags: "parit sulong massacre war crime prisoners australia india malaya january 1942" },
   { title: "Fall of Singapore", description: "Permanent Japanese conquest of Britain's principal East Asian fortress", href: "fall-of-singapore.html", tags: "fall singapore surrender siege japan britain australia percival yamashita 1942" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
@@ -4413,6 +4420,13 @@ const crossLinks = [
   ,{ href: "first-battle-of-britain.html", terms: ["First Battle of Britain"] }
   ,{ href: "limited-southern-war.html", terms: ["Limited Southern War"] }
   ,{ href: "malayan-campaign.html", terms: ["Malayan Campaign"] }
+  ,{ href: "kota-bharu-landings.html", terms: ["Kota Bharu landings", "landing at Kota Bharu"] }
+  ,{ href: "battle-of-jitra.html", terms: ["Battle of Jitra", "Jitra battle"] }
+  ,{ href: "battle-of-kampar.html", terms: ["Battle of Kampar", "Kampar battle"] }
+  ,{ href: "battle-of-slim-river.html", terms: ["Battle of Slim River", "Slim River battle"] }
+  ,{ href: "battle-of-gemas.html", terms: ["Battle of Gemas", "Gemencheh Bridge ambush"] }
+  ,{ href: "battle-of-muar.html", terms: ["Battle of Muar", "Muar battle"] }
+  ,{ href: "parit-sulong-massacre.html", terms: ["Parit Sulong massacre"] }
   ,{ href: "fall-of-singapore.html", terms: ["Fall of Singapore"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }

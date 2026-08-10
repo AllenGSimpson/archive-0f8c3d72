@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Malayan Campaign battle sequence, December 1941 to February 1942</title>
+  <desc id="desc">Schematic north-to-south route from Kota Bharu and Jitra through Kampar, Slim River, Gemas, Muar and Parit Sulong to Singapore.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131d"/><stop offset="1" stop-color="#132b38"/></linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#57735a"/><stop offset="1" stop-color="#263f34"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000" flood-opacity=".55"/></filter>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0l11 5.5L0 11z" fill="#d9bd72"/></marker>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sea)"/>
+  <g fill="#c8d7df" opacity=".23"><circle cx="89" cy="184" r="2"/><circle cx="1118" cy="140" r="2"/><circle cx="1090" cy="678" r="1.7"/><circle cx="145" cy="754" r="1.5"/></g>
+  <text x="70" y="72" fill="#f1dfae" font-family="Georgia,serif" font-size="40">Malayan Campaign</text>
+  <text x="70" y="108" fill="#a9bec8" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">BATTLE SEQUENCE · DECEMBER 1941–FEBRUARY 1942 · SCHEMATIC</text>
+  <path d="M655 145 C603 191 614 240 582 284 C548 330 570 381 542 426 C516 470 538 522 509 566 C480 611 505 661 471 707 C447 741 458 778 485 813 L710 813 C686 772 689 728 712 684 C738 633 714 589 742 543 C771 495 742 454 766 407 C790 360 761 315 784 270 C807 222 774 180 739 145 Z" fill="url(#land)" stroke="#8ca08a" stroke-width="4" filter="url(#shadow)"/>
+  <path d="M690 170 C650 222 674 272 630 319 C592 360 627 411 587 457 C551 499 585 548 548 594 C512 639 536 683 505 731 C493 749 495 774 511 796" fill="none" stroke="#d9bd72" stroke-width="7" marker-end="url(#arrow)"/>
+  <g fill="#f7e9bd" stroke="#172630" stroke-width="4">
+    <circle cx="700" cy="170" r="11"/><circle cx="655" cy="231" r="11"/><circle cx="632" cy="351" r="11"/><circle cx="595" cy="431" r="11"/><circle cx="558" cy="553" r="11"/><circle cx="535" cy="626" r="11"/><circle cx="516" cy="695" r="11"/><circle cx="515" cy="801" r="13"/>
+  </g>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(62 154)"><rect width="420" height="78" rx="8" fill="#152833" stroke="#668594"/><text x="20" y="30" fill="#f1dfae" font-size="20" font-weight="700">8 DEC · KOTA BHARU</text><text x="20" y="56" fill="#c6d5dc" font-size="16">Landings establish the eastern bridgehead</text></g>
+    <path d="M482 193H675" stroke="#668594" stroke-width="2"/>
+    <g transform="translate(62 258)"><rect width="420" height="78" rx="8" fill="#152833" stroke="#668594"/><text x="20" y="30" fill="#f1dfae" font-size="20" font-weight="700">11–13 DEC · JITRA</text><text x="20" y="56" fill="#c6d5dc" font-size="16">Northern defense collapses under mobile pressure</text></g>
+    <path d="M482 297L635 237" stroke="#668594" stroke-width="2"/>
+    <g transform="translate(62 363)"><rect width="420" height="78" rx="8" fill="#152833" stroke="#668594"/><text x="20" y="30" fill="#f1dfae" font-size="20" font-weight="700">30 DEC–2 JAN · KAMPAR</text><text x="20" y="56" fill="#c6d5dc" font-size="16">A strong position delays the Japanese advance</text></g>
+    <path d="M482 402L614 355" stroke="#668594" stroke-width="2"/>
+    <g transform="translate(62 468)"><rect width="420" height="78" rx="8" fill="#152833" stroke="#668594"/><text x="20" y="30" fill="#f1dfae" font-size="20" font-weight="700">7 JAN · SLIM RIVER</text><text x="20" y="56" fill="#c6d5dc" font-size="16">Tank penetration shatters two brigade positions</text></g>
+    <path d="M482 507L574 438" stroke="#668594" stroke-width="2"/>
+    <g transform="translate(790 286)"><rect width="348" height="80" rx="8" fill="#152833" stroke="#668594"/><text x="20" y="31" fill="#f1dfae" font-size="20" font-weight="700">14–15 JAN · GEMAS</text><text x="20" y="57" fill="#c6d5dc" font-size="16">Gemencheh Bridge ambush</text></g>
+    <path d="M790 326L581 542" stroke="#668594" stroke-width="2"/>
+    <g transform="translate(790 398)"><rect width="348" height="80" rx="8" fill="#152833" stroke="#668594"/><text x="20" y="31" fill="#f1dfae" font-size="20" font-weight="700">16–22 JAN · MUAR</text><text x="20" y="57" fill="#c6d5dc" font-size="16">Bakri and the fighting withdrawal</text></g>
+    <path d="M790 438L559 617" stroke="#668594" stroke-width="2"/>
+    <g transform="translate(790 510)"><rect width="348" height="80" rx="8" fill="#152833" stroke="#668594"/><text x="20" y="31" fill="#f1dfae" font-size="20" font-weight="700">22 JAN · PARIT SULONG</text><text x="20" y="57" fill="#c6d5dc" font-size="16">Wounded prisoners massacred</text></g>
+    <path d="M790 550L540 687" stroke="#668594" stroke-width="2"/>
+    <g transform="translate(790 650)"><rect width="348" height="96" rx="8" fill="#152833" stroke="#d9bd72"/><text x="20" y="32" fill="#f1dfae" font-size="20" font-weight="700">8–15 FEB · SINGAPORE</text><text x="20" y="59" fill="#c6d5dc" font-size="16">Island defense and surrender</text><text x="20" y="81" fill="#91aab5" font-size="14">Permanent Japanese conquest</text></g>
+    <path d="M790 698L540 793" stroke="#d9bd72" stroke-width="2"/>
+  </g>
+  <text x="70" y="858" fill="#819aa7" font-family="Arial,sans-serif" font-size="14">Route and positions are diagrammatic; distances, coastlines, and operational boundaries are not to scale.</text>
+</svg>
