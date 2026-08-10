@@ -2103,6 +2103,17 @@ const pages = [
   ,{ title: "Ar 503A-1 Blitz II", description: "Germany's 1958 fast strike and reconnaissance aircraft", href: "ar-503a-1-blitz-ii.html", tags: "ar 503a-1 ar503 blitz ii arado germany strike reconnaissance 1958" }
   ,{ title: "Ho 505A-1 Nachtflügel", description: "Germany's 1961 flying-wing penetration-reconnaissance aircraft", href: "ho-505a-1-nachtfluegel.html", tags: "ho 505a-1 ho505 nachtfluegel nachtflügel horten germany flying wing penetration reconnaissance 1961" }
   ,{ title: "Ju 506A-1", description: "Germany's 1962 maritime-patrol and electronic-reconnaissance aircraft", href: "ju-506a-1.html", tags: "ju 506a-1 ju506 junkers germany maritime patrol electronic reconnaissance 1962" }
+  ,{ title: "German Mature Atmospheric Aircraft Fleet", description: "Five parallel German aircraft branches and ten types introduced from 1967 to 1983", href: "german-mature-atmospheric-fleet.html", tags: "germany german luftwaffe mature atmospheric aircraft fleet interceptor air superiority strike close support maritime" }
+  ,{ title: "Me 511A-1 Adler", description: "Germany's 1967 heavy interceptor", href: "me-511a-1-adler.html", tags: "me 511a-1 me511 adler germany heavy interceptor long range missile 1967" }
+  ,{ title: "Fw 512A-1 Sperber", description: "Germany's 1969 air-superiority fighter", href: "fw-512a-1-sperber.html", tags: "fw 512a-1 fw512 sperber germany air superiority fighter 1969" }
+  ,{ title: "Ar 513A-1 Blitz III", description: "Germany's 1970 low-level theater-strike aircraft", href: "ar-513a-1-blitz-iii.html", tags: "ar 513a-1 ar513 blitz iii germany low level theater strike 1970" }
+  ,{ title: "Fw 514A-1 Würger II", description: "Germany's 1971 dedicated close-support aircraft", href: "fw-514a-1-wuerger-ii.html", tags: "fw 514a-1 fw514 wuerger würger ii germany close support aircraft 1971" }
+  ,{ title: "Ju 516A-1 Seeadler", description: "Germany's 1972 maritime-patrol and missile-control aircraft", href: "ju-516a-1-seeadler.html", tags: "ju 516a-1 ju516 seeadler germany maritime patrol missile control anti ship asw 1972" }
+  ,{ title: "Me 521A-1 Falke II", description: "Germany's 1978 long-range pulse-Doppler interceptor", href: "me-521a-1-falke-ii.html", tags: "me 521a-1 me521 falke ii germany long range pulse doppler interceptor 1978" }
+  ,{ title: "Fw 522A-1 Habicht II", description: "Germany's 1980 digital air-superiority fighter", href: "fw-522a-1-habicht-ii.html", tags: "fw 522a-1 fw522 habicht ii germany digital air superiority fighter 1980" }
+  ,{ title: "Ar 523A-1 Blitz IV", description: "Germany's 1981 terrain-following strike aircraft", href: "ar-523a-1-blitz-iv.html", tags: "ar 523a-1 ar523 blitz iv germany terrain following strike 1981" }
+  ,{ title: "Fw 524A-1 Würger III", description: "Germany's 1982 armored close-support aircraft", href: "fw-524a-1-wuerger-iii.html", tags: "fw 524a-1 fw524 wuerger würger iii germany armored close support 1982" }
+  ,{ title: "Ju 526A-1 Seeadler II", description: "Germany's 1983 long-range maritime-surveillance aircraft", href: "ju-526a-1-seeadler-ii.html", tags: "ju 526a-1 ju526 seeadler ii germany long range maritime surveillance anti ship asw 1983" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2545,6 +2556,17 @@ const crossLinks = [
   { href: "ar-503a-1-blitz-ii.html", terms: ["Ar 503A-1 Blitz II", "Ar 503A-1", "Blitz II"] },
   { href: "ho-505a-1-nachtfluegel.html", terms: ["Ho 505A-1 Nachtflügel", "Ho 505A-1 Nachtfluegel", "Ho 505A-1", "Nachtflügel"] },
   { href: "ju-506a-1.html", terms: ["Ju 506A-1", "Ju 506 A-1"] },
+  { href: "german-mature-atmospheric-fleet.html", terms: ["German mature atmospheric aircraft fleet", "German Mature Atmospheric Fleet", "later atmospheric generations"] },
+  { href: "me-511a-1-adler.html", terms: ["Me 511A-1 Adler", "Me 511A-1"] },
+  { href: "fw-512a-1-sperber.html", terms: ["Fw 512A-1 Sperber", "Fw 512A-1"] },
+  { href: "ar-513a-1-blitz-iii.html", terms: ["Ar 513A-1 Blitz III", "Ar 513A-1", "Blitz III"] },
+  { href: "fw-514a-1-wuerger-ii.html", terms: ["Fw 514A-1 Würger II", "Fw 514A-1 Wuerger II", "Fw 514A-1", "Würger II"] },
+  { href: "ju-516a-1-seeadler.html", terms: ["Ju 516A-1 Seeadler", "Ju 516A-1"] },
+  { href: "me-521a-1-falke-ii.html", terms: ["Me 521A-1 Falke II", "Me 521A-1", "Falke II"] },
+  { href: "fw-522a-1-habicht-ii.html", terms: ["Fw 522A-1 Habicht II", "Fw 522A-1", "Habicht II"] },
+  { href: "ar-523a-1-blitz-iv.html", terms: ["Ar 523A-1 Blitz IV", "Ar 523A-1", "Blitz IV"] },
+  { href: "fw-524a-1-wuerger-iii.html", terms: ["Fw 524A-1 Würger III", "Fw 524A-1 Wuerger III", "Fw 524A-1", "Würger III"] },
+  { href: "ju-526a-1-seeadler-ii.html", terms: ["Ju 526A-1 Seeadler II", "Ju 526A-1", "Seeadler II"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
