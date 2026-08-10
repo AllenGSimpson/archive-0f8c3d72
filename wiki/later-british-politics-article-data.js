@@ -33,7 +33,7 @@ Object.assign(window.deepArticles,{
       {id:"space",title:"Ariel I",html:"<p>The 1962 launch of Ariel I gives Britain a visible scientific success under a Labour government. The satellite is modest beside German and American ambitions, but its instruments and Commonwealth tracking network support Gaitskell's claim that planned public capacity can remain technically modern.</p>"},
       {id:"death",title:"Death and succession",html:"<p>Gaitskell dies suddenly on 18 January 1963 from complications associated with lupus. Harold Wilson succeeds him. Later Labour memory treats the unfinished ministry as a bridge between Bevan's reconstruction and Wilson's technological, electoral, and military statecraft.</p>"}
     ],
-    related:[{href:"aneurin-bevan.html",kicker:"Predecessor",label:"Aneurin Bevan"},{href:"harold-wilson.html",kicker:"Successor",label:"Harold Wilson"},{href:"commonwealth-labour.html",kicker:"Party tradition",label:"Commonwealth Labour"},{href:"postwar-british-governments.html",kicker:"Political sequence",label:"Postwar British Governments"}],
+    related:[{href:"leeds.html",kicker:"Parliamentary and regional base",label:"Leeds"},{href:"aneurin-bevan.html",kicker:"Predecessor",label:"Aneurin Bevan"},{href:"harold-wilson.html",kicker:"Successor",label:"Harold Wilson"},{href:"commonwealth-labour.html",kicker:"Party tradition",label:"Commonwealth Labour"},{href:"postwar-british-governments.html",kicker:"Political sequence",label:"Postwar British Governments"}],
     facts:[["Born","9 April 1906"],["Died","18 January 1963"],["Party","Commonwealth Labour"],["Constituency","Leeds South"],["Premiership","1960–1963"],["Predecessor","Aneurin Bevan"],["Successor","Harold Wilson"],["Space milestone","Ariel I, 1962"]]
   }),
 
