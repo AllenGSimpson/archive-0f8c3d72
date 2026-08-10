@@ -2014,6 +2014,12 @@ const pages = [
   ,{ title: "Dragón Modelo 70", description: "Argentina's imported Drachen wire-guided antitank missile", href: "dragon-modelo-70.html", tags: "dragon dragón modelo 70 argentina drachen antitank missile wire guided 135 mm" }
   ,{ title: "Panzerfaust 74A", description: "Argentina's imported disposable 110 mm antitank weapon", href: "panzerfaust-74a.html", tags: "panzerfaust 74a argentina antitank disposable heat 110 mm" }
   ,{ title: "Obús Autopropulsado Modelo 72", description: "Argentina's imported 149.1 mm Panzerhaubitze-derived self-propelled howitzer", href: "obus-autopropulsado-modelo-72.html", tags: "obus obús autopropulsado modelo 72 argentina artillery howitzer panzerhaubitze 149.1" }
+  ,{ title: "British Tank Lineage", description: "Britain's universal-tank sequence from Cromwell and Comet to Challenger 1", href: "british-tank-lineage.html", tags: "britain british commonwealth tank lineage cromwell comet centurion charioteer conqueror chieftain challenger" }
+  ,{ title: "Centurion", description: "Britain's universal-tank family from the 17-pounder Mk 1 to the 105 mm Mk 13", href: "centurion-tank.html", tags: "centurion british tank universal mk 1 2 3 10 13 17 pounder 20 pounder l7" }
+  ,{ title: "Charioteer", description: "Britain's Cromwell-based 20-pounder reserve and export stopgap", href: "charioteer-tank.html", tags: "charioteer british tank cromwell 20 pounder reserve export stopgap" }
+  ,{ title: "Conqueror", description: "Britain's limited 120 mm heavy-support tank", href: "conqueror-tank.html", tags: "conqueror british heavy gun tank mk 2 120 mm centurion support" }
+  ,{ title: "Chieftain", description: "Britain's 120 mm main battle tank and principal Falklands armored system", href: "chieftain-tank.html", tags: "chieftain chieftain mk 3 chieftain mk 5 chieftain mk 8 chieftain mk 10 british main battle tank falklands mount pleasant" }
+  ,{ title: "Challenger 1", description: "Britain's composite-armored 1984 successor withheld from the Falklands", href: "challenger-1.html", tags: "challenger 1 british main battle tank mk 1 composite armor 1984 canada" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2367,6 +2373,12 @@ const crossLinks = [
   { href: "panzer-xi-ausf-d-ar.html", terms: ["Panzer XI Ausf. D(ar)", "Panzer XI D(ar)"] },
   { href: "panzer-xi.html", terms: ["Panzer XI", "Panzer 11"] },
   { href: "panzer-xii.html", terms: ["Panzer XII", "Panzer 12"] },
+  { href: "british-tank-lineage.html", terms: ["British tank lineage", "British armored doctrine", "British armoured doctrine", "Cromwell Mk IV", "Comet tank"] },
+  { href: "centurion-tank.html", terms: ["Centurion Mk 13", "Centurion Mk 10", "Centurion Mk 3", "Centurion Mk 2", "Centurion Mk 1", "Centurion tank", "Centurions"] },
+  { href: "charioteer-tank.html", terms: ["Charioteer tank", "Charioteer"] },
+  { href: "conqueror-tank.html", terms: ["Conqueror Mk 2", "Conqueror tank", "Conquerors"] },
+  { href: "chieftain-tank.html", terms: ["Chieftain Mk 10", "Chieftain Mk 8", "Chieftain Mk 5", "Chieftain Mk 3", "Chieftain tanks", "Chieftains", "Chieftain"] },
+  { href: "challenger-1.html", terms: ["Challenger 1 Mk 1", "Challenger 1", "Challenger tanks", "Challenger"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
