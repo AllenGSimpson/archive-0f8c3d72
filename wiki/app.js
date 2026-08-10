@@ -158,6 +158,18 @@ const pages = [
   { title: "Axis Advance Across Egypt", description: "The post-Alamein campaign through the Delta toward the Suez Canal", href: "axis-advance-across-egypt.html", tags: "axis advance egypt alexandria cairo nile delta alamein suez" },
   { title: "Suez Campaign", description: "The campaign that secured the canal for the Italian-led Axis by 1945", href: "suez-campaign.html", tags: "suez campaign canal egypt italy rommel 1945 mediterranean red sea" },
   { title: "Axis Counteroffensive in Algeria", description: "The campaign that isolated and eliminated Britain's Torch bridgehead", href: "axis-counteroffensive-algeria.html", tags: "axis counteroffensive algeria algiers british operation torch alexander rommel" },
+  { title: "Egypt", description: "The Egyptian kingdom and Italian protectorate at the center of the eastern Mediterranean order", href: "egypt.html", tags: "egypt kingdom protectorate italy cairo alexandria suez latin bloc" },
+  { title: "Kingdom of Egypt", description: "The protected monarchy's divided constitution and postwar political order", href: "kingdom-of-egypt.html", tags: "kingdom egypt monarchy crown constitution protectorate farouk" },
+  { title: "Farouk I", description: "Egypt's wartime king and dynastic bridge into the Italian protectorate", href: "farouk-i.html", tags: "farouk king egypt fuad monarchy muhammad ali dynasty" },
+  { title: "Italian High Commission in Egypt", description: "The protectorate authority controlling Egypt's strategic state", href: "italian-high-commission-egypt.html", tags: "italian high commission egypt protectorate cairo reserve powers advisers" },
+  { title: "Egyptian Armed Forces", description: "Egypt's national military institutions under Italian strategic supervision", href: "egyptian-armed-forces.html", tags: "egyptian armed forces army military mission officers alexandria articles" },
+  { title: "Egyptian Nationalism", description: "The movement for practical sovereignty under Italian protection", href: "egyptian-nationalism.html", tags: "egyptian nationalism cairo damascus officers students sovereignty" },
+  { title: "Italian–Egyptian Development Board", description: "Joint investment in irrigation, railways, cotton processing, ports, and electricity", href: "italian-egyptian-development-board.html", tags: "italian egyptian development board irrigation rail cotton ports electricity" },
+  { title: "Egyptian Cotton Economy", description: "The Nile production, processing, finance, and export system", href: "egyptian-cotton-economy.html", tags: "egyptian cotton economy nile alexandria agriculture textile export" },
+  { title: "Cairo", description: "Political and administrative capital of protected Egypt", href: "cairo.html", tags: "cairo egypt capital ministries palace high commission nationalism" },
+  { title: "Alexandria", description: "Egypt's Mediterranean cotton, grain, shipping, and financial port", href: "alexandria.html", tags: "alexandria egypt port cotton grain finance shipping articles" },
+  { title: "Suez Canal Zone", description: "The Italian-controlled military-commercial corridor inside Egypt", href: "suez-canal-zone.html", tags: "suez canal zone port said ismailia egypt italy tolls bases" },
+  { title: "Coptic Orthodox Church in Egypt", description: "The indigenous Christian institution expanded under Italian protection", href: "coptic-orthodox-church-egypt.html", tags: "coptic orthodox church egypt schools charities hospitals christianity" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4578,6 +4590,17 @@ const crossLinks = [
   ,{ href: "axis-advance-across-egypt.html", terms: ["Axis advance across Egypt", "advance across Egypt"] }
   ,{ href: "suez-campaign.html", terms: ["Suez Campaign", "campaign for Suez"] }
   ,{ href: "axis-counteroffensive-algeria.html", terms: ["Axis counteroffensive in Algeria", "Algerian counteroffensive", "Algerian campaign"] }
+  ,{ href: "egypt.html", terms: ["Kingdom of Egypt", "Italian-protected Egypt", "protected Egypt", "Egypt"] }
+  ,{ href: "farouk-i.html", terms: ["Farouk I", "King Farouk", "Farouk"] }
+  ,{ href: "italian-high-commission-egypt.html", terms: ["Italian High Commission in Egypt", "Italian High Commission", "High Commission in Egypt"] }
+  ,{ href: "egyptian-armed-forces.html", terms: ["Egyptian Armed Forces", "Egyptian army"] }
+  ,{ href: "egyptian-nationalism.html", terms: ["Egyptian nationalism", "Egyptian nationalists"] }
+  ,{ href: "italian-egyptian-development-board.html", terms: ["Italian–Egyptian Development Board", "Italian-Egyptian Development Board", "joint development board"] }
+  ,{ href: "egyptian-cotton-economy.html", terms: ["Egyptian cotton economy", "cotton economy"] }
+  ,{ href: "cairo.html", terms: ["Cairo"] }
+  ,{ href: "alexandria.html", terms: ["Alexandria"] }
+  ,{ href: "suez-canal-zone.html", terms: ["Suez Canal Zone", "canal zone"] }
+  ,{ href: "coptic-orthodox-church-egypt.html", terms: ["Coptic Orthodox Church", "Coptic Church"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }
