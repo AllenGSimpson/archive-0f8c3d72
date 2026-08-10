@@ -2114,6 +2114,17 @@ const pages = [
   ,{ title: "Ar 523A-1 Blitz IV", description: "Germany's 1981 terrain-following strike aircraft", href: "ar-523a-1-blitz-iv.html", tags: "ar 523a-1 ar523 blitz iv germany terrain following strike 1981" }
   ,{ title: "Fw 524A-1 Würger III", description: "Germany's 1982 armored close-support aircraft", href: "fw-524a-1-wuerger-iii.html", tags: "fw 524a-1 fw524 wuerger würger iii germany armored close support 1982" }
   ,{ title: "Ju 526A-1 Seeadler II", description: "Germany's 1983 long-range maritime-surveillance aircraft", href: "ju-526a-1-seeadler-ii.html", tags: "ju 526a-1 ju526 seeadler ii germany long range maritime surveillance anti ship asw 1983" }
+  ,{ title: "Imperial Japanese Aircraft Designations", description: "Army, Navy, and joint-service aircraft nomenclature in the victorious Japanese Empire", href: "imperial-japanese-aircraft-designations.html", tags: "japan japanese aircraft designation register army navy joint ki type role manufacturer model" }
+  ,{ title: "Japanese Late-Piston and First-Jet Generation", description: "Nine Japanese combat aircraft introduced from 1944 through 1952", href: "japanese-late-piston-first-jet-generation.html", tags: "japan japanese aircraft piston rocket jet generation shinden kikka karyu 1944 1952" }
+  ,{ title: "N1K2-J Shiden Kai", description: "Japan's 1944 land-based piston fighter", href: "n1k2-j-shiden-kai.html", tags: "n1k2-j n1k2 shiden kai japan kawanishi land fighter piston 1944" }
+  ,{ title: "A7M3 Reppū", description: "Japan's 1946 carrier piston fighter", href: "a7m3-reppu.html", tags: "a7m3 reppu reppū japan carrier fighter piston 1946" }
+  ,{ title: "J7W1 Shinden", description: "Japan's 1946 piston point-defense interceptor", href: "j7w1-shinden.html", tags: "j7w1 shinden japan kyushu canard piston point defense interceptor 1946" }
+  ,{ title: "J8M1 Shūsui", description: "Japan's 1946 rocket point-defense interceptor", href: "j8m1-shusui.html", tags: "j8m1 shusui shūsui japan rocket point defense interceptor 1946" }
+  ,{ title: "G9N1 Kikka Kai", description: "Japan's 1946 jet strike-and-reconnaissance aircraft", href: "g9n1-kikka-kai.html", tags: "g9n1 kikka kai nakajima japan jet strike reconnaissance 1946" }
+  ,{ title: "J10N1 Karyū", description: "Japan's 1947 heavy twin-engine jet interceptor", href: "j10n1-karyu.html", tags: "j10n1 karyu karyū ki-201 nakajima japan heavy twin engine jet interceptor 1947" }
+  ,{ title: "J7W2 Shinden Kai", description: "Japan's 1949 jet canard point-defense interceptor", href: "j7w2-shinden-kai.html", tags: "j7w2 shinden kai japan kyushu jet canard point defense interceptor 1949" }
+  ,{ title: "J11T1 Kogarashi", description: "Japan's 1949 lightweight continental jet fighter", href: "j11t1-kogarashi.html", tags: "j11t1 kogarashi ki-214 tachikawa japan lightweight continental jet fighter 1949" }
+  ,{ title: "J7W3 Shinden Kai Ni", description: "Japan's 1952 advanced canard interceptor", href: "j7w3-shinden-kai-ni.html", tags: "j7w3 shinden kai ni japan kyushu advanced canard interceptor missile 1952" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2567,6 +2578,17 @@ const crossLinks = [
   { href: "ar-523a-1-blitz-iv.html", terms: ["Ar 523A-1 Blitz IV", "Ar 523A-1", "Blitz IV"] },
   { href: "fw-524a-1-wuerger-iii.html", terms: ["Fw 524A-1 Würger III", "Fw 524A-1 Wuerger III", "Fw 524A-1", "Würger III"] },
   { href: "ju-526a-1-seeadler-ii.html", terms: ["Ju 526A-1 Seeadler II", "Ju 526A-1", "Seeadler II"] },
+  { href: "imperial-japanese-aircraft-designations.html", terms: ["Imperial Japanese aircraft designation systems", "Imperial Japanese Aircraft Designations", "Japanese aircraft designations"] },
+  { href: "japanese-late-piston-first-jet-generation.html", terms: ["Japanese late-piston and first-jet generation", "Japanese Late-Piston and First-Jet Generation"] },
+  { href: "n1k2-j-shiden-kai.html", terms: ["N1K2-J Shiden Kai", "N1K2-J"] },
+  { href: "a7m3-reppu.html", terms: ["A7M3 Reppū", "A7M3 Reppu", "A7M3"] },
+  { href: "j7w1-shinden.html", terms: ["J7W1 Shinden", "J7W1"] },
+  { href: "j8m1-shusui.html", terms: ["J8M1 Shūsui", "J8M1 Shusui", "J8M1"] },
+  { href: "g9n1-kikka-kai.html", terms: ["Type 6 G9N1 Kikka Kai", "G9N1 Kikka Kai", "Nakajima Kikka Kai"] },
+  { href: "j10n1-karyu.html", terms: ["Type 7 J10N1 Karyū", "J10N1 Karyū", "J10N1 Karyu", "Nakajima Ki-201 Karyū", "Nakajima Ki-201 Karyu"] },
+  { href: "j7w2-shinden-kai.html", terms: ["J7W2 Shinden Kai", "J7W2"] },
+  { href: "j11t1-kogarashi.html", terms: ["Type 9 J11T1 Kogarashi", "J11T1 Kogarashi", "Tachikawa Ki-214"] },
+  { href: "j7w3-shinden-kai-ni.html", terms: ["J7W3 Shinden Kai Ni", "J7W3"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
