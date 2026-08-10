@@ -1792,6 +1792,13 @@ const pages = [
   { title: "Aichi Aircraft", description: "The surviving Nagoya manufacturer of naval aircraft, engines, and precision machinery", href: "aichi-aircraft.html", tags: "aichi aircraft kokuki nagoya naval aviation engines machinery japan" },
   { title: "Kawanishi Aircraft", description: "The Japanese flying-boat, fighter, patrol, and amphibious-aircraft specialist", href: "kawanishi-aircraft.html", tags: "kawanishi aircraft kokuki flying boat amphibious patrol fighter japan" },
   { title: "Tachikawa Aircraft", description: "The surviving trainer, utility-aircraft, transport, and light-manufacturing specialist", href: "tachikawa-aircraft.html", tags: "tachikawa aircraft hikoki ishikawajima trainer utility transport japan" },
+  { title: "IG Farben", description: "The intact German chemical, pharmaceutical, synthetic-fuel, rubber, and plastics combine", href: "ig-farben.html", tags: "ig farben chemical pharmaceutical synthetic fuel rubber plastics germany" },
+  { title: "Friedrich Krupp", description: "The Essen family concern spanning steel, mining, machinery, ships, railways, and armaments", href: "friedrich-krupp.html", tags: "friedrich krupp fried alfried essen steel mining machinery armaments germany" },
+  { title: "Reichswerke Hermann Göring", description: "The rationalized state combine for mining, steel, vehicles, armaments, and imperial concessions", href: "reichswerke-hermann-goering.html", tags: "reichswerke hermann goring göring state combine salzgitter steel mining armaments germany" },
+  { title: "Gutehoffnungshütte", description: "The Oberhausen mining, steel, machinery, construction, and MAN parent combine", href: "gutehoffnungshuette.html", tags: "gutehoffnungshutte gutehoffnungshütte ghh oberhausen mining steel machinery man germany" },
+  { title: "MAN", description: "Maschinenfabrik Augsburg-Nürnberg, the diesel, truck, bus, machinery, and industrial-plant manufacturer", href: "maschinenfabrik-augsburg-nuernberg.html", tags: "man maschinenfabrik augsburg nurnberg nürnberg diesel truck bus machinery germany" },
+  { title: "Rheinmetall-Borsig", description: "The state-linked German armaments, ammunition, machinery, and transport concern", href: "rheinmetall-borsig.html", tags: "rheinmetall borsig armaments ammunition alkett machinery locomotive germany" },
+  { title: "Henschel & Son", description: "The Kassel locomotive, heavy-vehicle, machinery, aircraft, and armaments manufacturer", href: "henschel-and-son.html", tags: "henschel son sohn kassel locomotive truck bus aircraft machinery germany" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4506,6 +4513,13 @@ const crossLinks = [
   ,{ href: "aichi-aircraft.html", terms: ["Aichi Aircraft", "Aichi Kōkūki", "Aichi Kokuki"] }
   ,{ href: "kawanishi-aircraft.html", terms: ["Kawanishi Aircraft", "Kawanishi Kōkūki", "Kawanishi"] }
   ,{ href: "tachikawa-aircraft.html", terms: ["Tachikawa Aircraft Company", "Tachikawa Aircraft", "Tachikawa Hikōki"] }
+  ,{ href: "ig-farben.html", terms: ["Interessengemeinschaft Farbenindustrie", "IG Farben"] }
+  ,{ href: "friedrich-krupp.html", terms: ["Friedrich Krupp", "Fried. Krupp", "Krupp"] }
+  ,{ href: "reichswerke-hermann-goering.html", terms: ["Reichswerke Hermann Göring", "Reichswerke Hermann Goering", "Reichswerke"] }
+  ,{ href: "gutehoffnungshuette.html", terms: ["Gutehoffnungshütte", "Gutehoffnungshuette", "GHH"] }
+  ,{ href: "maschinenfabrik-augsburg-nuernberg.html", terms: ["Maschinenfabrik Augsburg-Nürnberg", "Maschinenfabrik Augsburg-Nuernberg", "M.A.N.", "MAN"] }
+  ,{ href: "rheinmetall-borsig.html", terms: ["Rheinmetall-Borsig", "Rheinmetall Borsig", "Rheinmetall"] }
+  ,{ href: "henschel-and-son.html", terms: ["Henschel & Son", "Henschel & Sohn", "Henschel and Son", "Henschel"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
