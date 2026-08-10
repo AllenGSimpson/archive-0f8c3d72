@@ -1,0 +1,58 @@
+window.deepArticles = window.deepArticles || {};
+
+const italianDevelopmentSources = [
+  {href:"../transcript.md",label:"Master Transcript — proposed Italian imperial-development and cold-chain concerns"},
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — Italian empire, corporative economy, protectorates, and Latin system"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — reconstruction, infrastructure, shipping, and cold-chain chronology"},
+  {href:"../materialCultureReference%20-%20AltWWII.md",label:"Material Culture Reference — refrigeration, ports, logistics, food distribution, and imperial infrastructure"}
+];
+
+const italianDevelopmentRelated = [
+  {href:"italian-postwar-reconstruction.html",kicker:"Economic setting",label:"Italian Postwar Reconstruction"},
+  {href:"istituto-ricostruzione-industriale.html",kicker:"Public shareholder",label:"Istituto per la Ricostruzione Industriale"},
+  {href:"banking-system-of-italy.html",kicker:"Financial system",label:"Banking System of Italy"},
+  {href:"corporative-shareholder-state.html",kicker:"Political economy",label:"Corporative Shareholder State"},
+  {href:"suez-canal-zone.html",kicker:"Strategic corridor",label:"Suez Canal Zone"}
+];
+
+Object.assign(window.deepArticles, {
+  "societa-mediterranea-sviluppo-impianti": {
+    title:"Società Mediterranea di Sviluppo e Impianti",category:"Italian development institutions",eyebrow:"Proposed IRI–Banco di Roma–engineering consortium · working concept",infoboxKicker:"Proposed imperial-development consortium",infoboxTitle:"Società Mediterranea di Sviluppo e Impianti",
+    lead:"Società Mediterranea di Sviluppo e Impianti is the working name for a proposed Italian consortium joining IRI, Banco di Roma, and engineering contractors. Its intended field is infrastructure that is too commercial for direct ministerial administration, too large for one manufacturer, and closely tied to Italian political authority in the Mediterranean empire. Ports, power stations, water systems, workers' housing, Suez facilities, and Egyptian and Levantine public works form the initial brief.",
+    canon:"The name, partnership concept, project fields, and stated institutional purpose are proposals in the transcript rather than settled canon. No foundation date, charter, headquarters, capitalization, board, subsidiaries, completed contracts, labor force, concession rights, profits, or 1985 survival has been established. The article records the current development brief without treating the company as already confirmed.",
+    sections:[
+      {id:"status",title:"Status",html:"<p>The concern remains a working institutional proposal. The name identifies a useful place in the Italian economic system, but no source yet establishes that it was chartered, traded, awarded a concession, or retained this title.</p>"},
+      {id:"formation",title:"Proposed formation",html:"<p>IRI would supply public shareholding and access to industrial groups. <a href='banco-di-roma.html'>Banco di Roma</a> would provide commercial banking, imperial accounts, foreign exchange, and project syndication. Construction, electrical, mechanical, water, and transport firms would execute individual contracts.</p>"},
+      {id:"organization",title:"Organization",html:"<p>The design implies a holding or consortium office rather than one vertically integrated builder. Project companies could separate port, power, housing, and water concessions while allowing the principal shareholders to share guarantees, engineers, procurement, and political access.</p>"},
+      {id:"selection",title:"Project selection",html:"<p>Candidate projects would require identifiable revenue, public guarantees, or strategic appropriations. Canal fees, port charges, electricity tariffs, water rates, leases, municipal payments, and long-term supply contracts could support financing. The exact approval bodies remain open.</p>"},
+      {id:"ports",title:"Ports and Suez facilities",html:"<p>The proposed portfolio includes quays, cranes, warehouses, fuel and water services, workshops, access roads, rail connections, and canal-zone facilities. Work at Port Said, Ismailia, Suez, Alexandria, and other ports would require agreements with Egyptian authorities and Italian strategic commands.</p>"},
+      {id:"utilities",title:"Power and water",html:"<p>Power stations, substations, pumping plants, treatment works, pipelines, reservoirs, and distribution systems fit the consortium's engineering brief. Contracts could combine metropolitan equipment with local labor, concession revenues, and protectorate guarantees.</p>"},
+      {id:"housing",title:"Housing and public works",html:"<p>Workers' housing, roads, drainage, clinics, depots, and municipal services accompany industrial and port projects. The proposed concern would coordinate standardized plans and equipment while leaving ordinary local building to contractors and administrations.</p>"},
+      {id:"finance",title:"Finance and unresolved history",html:"<p>Banco di Roma, IRI, state bonds, concession paper, supplier credit, and participating governments are the likely sources of finance under the proposal. Whether the consortium is created during reconstruction, absorbed into an IRI holding, expanded through the Latin Development Bank, or never advances beyond planning remains open.</p>"}
+    ],
+    related:[...italianDevelopmentRelated,{href:"banco-di-roma.html",kicker:"Proposed banking partner",label:"Banco di Roma"},{href:"egypt.html",kicker:"Principal project territory",label:"Egypt"},{href:"syria.html",kicker:"Levantine project territory",label:"Associated Kingdom of Syria"},{href:"italian-east-africa.html",kicker:"Imperial infrastructure field",label:"Italian East Africa"},{href:"compagnia-frigorifera-imperiale.html",kicker:"Parallel proposed concern",label:"Compagnia Frigorifera Imperiale"}],
+    facts:[["Canon status","Proposed; not yet settled"],["Working form","IRI–Banco di Roma–engineering consortium"],["Principal field","Imperial infrastructure and public works"],["Project classes","Ports · power · water · housing · Suez facilities"],["Initial geography","Egypt · Suez · Levant"],["Financial model","Project finance, guarantees, concessions, and supplier credit"],["Foundation date","Open"],["1985 status","Open"]],
+    sources:italianDevelopmentSources,
+    categories:["Proposed institutions","Italian economy","IRI","Banco di Roma","Italian empire","Infrastructure finance"]
+  },
+
+  "compagnia-frigorifera-imperiale": {
+    title:"Compagnia Frigorifera Imperiale",category:"Italian logistics institutions",eyebrow:"Proposed mixed public-private cold-chain concern · working concept",infoboxKicker:"Proposed cold-chain company",infoboxTitle:"Compagnia Frigorifera Imperiale",
+    lead:"Compagnia Frigorifera Imperiale is the working name for a proposed mixed public-private Italian cold-chain concern. Its network would join refrigerated warehouses, railcars, insulated trucks, harbor cold stores, meat and produce shipping, and military food depots across Italy, Egypt, East Africa, Syria, and the Suez route. The proposal treats refrigeration as transport infrastructure rather than as a single factory or shipping line.",
+    canon:"The name, mixed ownership concept, equipment list, geography, and intended role are transcript proposals rather than settled canon. No foundation date, headquarters, shareholders, fleet size, warehouse network, concessions, contracts, management, labor force, product volumes, technical standards, or 1985 fate has been established. The wider strategic importance of cold-chain systems in every bloc is established.",
+    sections:[
+      {id:"status",title:"Status",html:"<p>The company remains a working proposal. Its functions are supported by established Italian agricultural, military, maritime, and imperial needs, but the current sources do not confirm incorporation or adoption of the name.</p>"},
+      {id:"organization",title:"Proposed organization",html:"<p>Mixed ownership could join public banks or holdings, food processors, shipping lines, railway operators, equipment makers, port authorities, agricultural organizations, and regional investors. Separate operating companies could own stores, vehicles, and ships beneath a common technical and financial center.</p>"},
+      {id:"storage",title:"Warehouses and depots",html:"<p>Refrigerated warehouses and military food depots would receive, grade, chill, freeze, store, and dispatch meat, fish, dairy products, fruit, vegetables, and medicines. Harbor stores would bridge ships with rail and road services while urban depots supplied wholesalers and institutions.</p>"},
+      {id:"transport",title:"Rail and road transport",html:"<p>Refrigerated railcars would carry long-distance bulk consignments. Insulated and mechanically refrigerated trucks would handle farms, stations, ports, shops, hospitals, barracks, and hotels. Maintenance shops, fuel, refrigerants, spare compressors, and temperature records are part of the operating system.</p>"},
+      {id:"shipping",title:"Shipping and ports",html:"<p>Reefer holds, refrigerated coastal vessels, harbor plugs, pre-cooling rooms, standardized crates, and rapid customs handling would connect Mediterranean and Red Sea routes. Suez gives the proposed company access to East African and Indian Ocean traffic.</p>"},
+      {id:"food",title:"Food and agricultural clients",html:"<p>Italian farms and processors could send higher-value goods farther from production districts. Egyptian produce, East African meat and crops, Syrian food, and imported fish could enter metropolitan and military markets with lower spoilage. <a href='cirio.html'>Cirio</a> and other processors would remain customers rather than automatic subsidiaries.</p>"},
+      {id:"state",title:"Military and public-service work",html:"<p>Armed forces, hospitals, schools, prisons, railways, hotels, and colonial administrations provide large contracts. Field refrigeration and depot management also support tropical medicine, vaccines, blood products, and emergency relief.</p>"},
+      {id:"risks",title:"Operating risks and unresolved history",html:"<p>Power interruptions, equipment failure, refrigerant shortages, poor roads, port delay, incompatible standards, and political unrest can destroy cargo quickly. Whether the proposed concern becomes an independent company, an IRI subsidiary, a shipping consortium, or a network of regional operators remains open.</p>"}
+    ],
+    related:[...italianDevelopmentRelated,{href:"civilian-cold-chain.html",kicker:"Technical system",label:"Civilian Refrigeration and Cold Chain"},{href:"food-and-popular-goods-industry-of-italy.html",kicker:"Italian customer sector",label:"Food and Popular-Goods Industry of Italy"},{href:"italian-east-africa.html",kicker:"African operating field",label:"Italian East Africa"},{href:"egypt.html",kicker:"Mediterranean operating field",label:"Egypt"},{href:"societa-mediterranea-sviluppo-impianti.html",kicker:"Parallel proposed concern",label:"Società Mediterranea di Sviluppo e Impianti"}],
+    facts:[["Canon status","Proposed; not yet settled"],["Working form","Mixed public-private concern"],["Principal field","Cold storage and refrigerated transport"],["Equipment","Warehouses · railcars · trucks · ships · depots"],["Initial geography","Italy · Egypt · East Africa · Syria · Suez route"],["Principal cargo","Meat · produce · dairy · fish · medicines"],["Foundation date","Open"],["1985 status","Open"]],
+    sources:italianDevelopmentSources,
+    categories:["Proposed institutions","Italian economy","Cold chains","Italian empire","Food logistics","Refrigerated transport"]
+  }
+});
