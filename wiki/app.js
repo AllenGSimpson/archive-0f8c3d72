@@ -1836,6 +1836,12 @@ const pages = [
   { title: "Corning Glass Works", description: "America's technical-glass, ceramics, television-tube, spacecraft-window, and optical-fiber company", href: "corning-glass-works.html", tags: "corning glass works pyrex crt television optical fiber ceramics spacecraft windows america" },
   { title: "Fairchild Semiconductor", description: "America's planar-silicon, integrated-circuit, aerospace-electronics, and Silicon Valley founding company", href: "fairchild-semiconductor.html", tags: "fairchild semiconductor hoerni noyce last planar silicon integrated circuit silicon valley america" },
   { title: "Texas Instruments", description: "America's Dallas semiconductor, defense-electronics, integrated-circuit, calculator, and control company", href: "texas-instruments.html", tags: "texas instruments ti dallas kilby integrated circuit semiconductor calculator defense electronics america" },
+  { title: "NCR", description: "America's Dayton cash-register, retail-transaction, banking, barcode, and point-of-sale company", href: "ncr.html", tags: "ncr national cash register dayton patterson retail transaction banking barcode point sale america" },
+  { title: "Remington Rand", description: "America's typewriter, filing, office-system, and UNIVAC computing company", href: "remington-rand.html", tags: "remington rand typewriter filing kardex eckert mauchly univac sperry office computing america" },
+  { title: "Burroughs Corporation", description: "America's adding-machine, banking-system, and language-oriented computing company", href: "burroughs-corporation.html", tags: "burroughs corporation arithmometer adding machine micr banking b5000 a series computing america" },
+  { title: "Philco", description: "America's battery, radio, television, appliance, semiconductor, and TRANSAC computer company", href: "philco.html", tags: "philco philadelphia storage battery radio television appliance transistor transac ford america" },
+  { title: "Eastman Kodak", description: "America's film, camera, imaging-chemistry, microfilm, cinema, and visual-records company", href: "eastman-kodak.html", tags: "eastman kodak george rochester film camera photography cinema color recordak microfilm imaging america" },
+  { title: "Bell System", description: "America's integrated telephone, research, semiconductor, satellite, Unix, and network institution", href: "bell-system.html", tags: "bell system att at&t western electric bell labs telephone transistor shannon unix c network america" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4594,6 +4600,12 @@ const crossLinks = [
   ,{ href: "corning-glass-works.html", terms: ["Corning Glass Works", "Corning"] }
   ,{ href: "fairchild-semiconductor.html", terms: ["Fairchild Semiconductor Corporation", "Fairchild Semiconductor"] }
   ,{ href: "texas-instruments.html", terms: ["Texas Instruments Incorporated", "Texas Instruments"] }
+  ,{ href: "ncr.html", terms: ["National Cash Register Company", "National Cash Register", "NCR Corporation", "NCR"] }
+  ,{ href: "remington-rand.html", terms: ["Remington Rand"] }
+  ,{ href: "burroughs-corporation.html", terms: ["Burroughs Corporation", "Burroughs Adding Machine Company", "American Arithmometer Company"] }
+  ,{ href: "philco.html", terms: ["Philco Corporation", "Philadelphia Storage Battery Company", "Philco"] }
+  ,{ href: "eastman-kodak.html", terms: ["Eastman Kodak Company", "Eastman Kodak", "Kodak"] }
+  ,{ href: "bell-system.html", terms: ["Bell Telephone Laboratories", "Bell Laboratories", "Bell Labs", "Bell System", "Western Electric", "AT&T"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
