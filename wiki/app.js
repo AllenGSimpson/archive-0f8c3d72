@@ -1981,7 +1981,15 @@ const pages = [
   { title: "VCC-72 Dardo", description: "Italy's cannon-and-missile infantry fighting vehicle of 1972", href: "vcc-72-dardo.html", tags: "vcc 72 dardo italian infantry fighting vehicle 25 mm saetta atgm" },
   { title: "SIDAM-76", description: "Italy's radar-linked four-cannon mobile air-defense vehicle", href: "sidam-76.html", tags: "sidam 76 italian mobile air defense radar linked four 25 mm cannon" },
   { title: "Semovente 155/39 Palmaria", description: "Italy's 1980 self-propelled divisional artillery system", href: "semovente-155-39-palmaria.html", tags: "semovente 155 39 palmaria italian self propelled artillery howitzer divisional" },
-  { title: "Autoblindo 79 Centauro", description: "Italy's 1983 wheeled cavalry gun vehicle with a low-recoil 105 mm gun", href: "autoblindo-79-centauro.html", tags: "autoblindo 79 centauro italian wheeled cavalry gun vehicle 105 mm oto" }
+  { title: "Autoblindo 79 Centauro", description: "Italy's 1983 wheeled cavalry gun vehicle with a low-recoil 105 mm gun", href: "autoblindo-79-centauro.html", tags: "autoblindo 79 centauro italian wheeled cavalry gun vehicle 105 mm oto" },
+  { title: "Italian Infantry Weapons", description: "Italy's service rifles and machine guns across three cartridge eras", href: "italian-infantry-weapons.html", tags: "italy italian infantry weapons rifles machine gun beretta fucile mitragliatrice" },
+  { title: "Latin Land-Ammunition Standards", description: "The Latin bloc's selective common rifle, cannon, tank, and interface standards", href: "latin-land-ammunition-standards.html", tags: "latin land ammunition standards cartridges 7 51 5.6 45 25 137 30 170 105 120" },
+  { title: "Fucile Modello 47", description: "Italy's 1947 semiautomatic 7.35 mm service rifle", href: "fucile-modello-47.html", tags: "fucile modello 47 italian semiautomatic service rifle 7.35 51" },
+  { title: "Fucile Automatico 58", description: "Italy's 1958 selective-fire 7 mm LC battle rifle", href: "fucile-automatico-58.html", tags: "fucile automatico 58 italian battle rifle 7 51 latin selective fire" },
+  { title: "Mitragliatrice 59", description: "Italy's Latin-standard belt-fed general-purpose machine gun", href: "mitragliatrice-59.html", tags: "mitragliatrice 59 italian general purpose machine gun gpmg 7 51 belt" },
+  { title: "Beretta AR-68", description: "Italy's standard 5.6 mm LC assault rifle of 1968", href: "beretta-ar-68.html", tags: "beretta ar 68 italian assault rifle 5.6 45 latin standard" },
+  { title: "Beretta AR-82", description: "Italy's modular late-generation assault rifle with Guida Comune 79", href: "beretta-ar-82.html", tags: "beretta ar 82 italian modular assault rifle 5.6 45 guida comune" },
+  { title: "Guida Comune 79", description: "The Latin bloc's non-Picatinny optical and accessory mounting bar", href: "guida-comune-79.html", tags: "guida comune 79 latin optical accessory mounting bar rail not picatinny" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -4147,6 +4155,14 @@ const crossLinks = [
   ,{ href: "sidam-76.html", terms: ["SIDAM-76"] }
   ,{ href: "semovente-155-39-palmaria.html", terms: ["Semovente 155/39 Palmaria", "Palmaria divisional artillery"] }
   ,{ href: "autoblindo-79-centauro.html", terms: ["Autoblindo 79 Centauro", "Centauro cavalry gun vehicle"] }
+  ,{ href: "italian-infantry-weapons.html", terms: ["Italian infantry weapons", "Italian small-arms sequence"] }
+  ,{ href: "latin-land-ammunition-standards.html", terms: ["Latin land-ammunition standards", "Latin ammunition standards"] }
+  ,{ href: "fucile-modello-47.html", terms: ["Fucile Modello 47", "Modello 47 rifle"] }
+  ,{ href: "fucile-automatico-58.html", terms: ["Fucile Automatico 58", "Automatico 58"] }
+  ,{ href: "mitragliatrice-59.html", terms: ["Mitragliatrice 59"] }
+  ,{ href: "beretta-ar-68.html", terms: ["Beretta AR-68", "AR-68"] }
+  ,{ href: "beretta-ar-82.html", terms: ["Beretta AR-82", "AR-82"] }
+  ,{ href: "guida-comune-79.html", terms: ["Guida Comune 79"] }
 ];
 
 function escapePattern(value) {
