@@ -2183,6 +2183,17 @@ const pages = [
   ,{ title: "Hunter F.1", description: "Britain's 1954 transonic day fighter", href: "hunter-f1.html", tags: "hunter f1 hawker royal air force transonic day fighter aden cannon 1954" }
   ,{ title: "Javelin FAW.1", description: "Britain's 1956 all-weather delta interceptor", href: "javelin-faw1.html", tags: "javelin faw1 gloster royal air force all weather delta interceptor radar missiles 1956" }
   ,{ title: "Lightning F.3", description: "Britain's 1964 Mach 2 home-defense interceptor", href: "lightning-f3.html", tags: "lightning f3 english electric royal air force mach 2 interceptor home defense 1964" }
+  ,{ title: "British Strike and Support Aircraft, 1951–1970", description: "Six complementary British conventional strike, reconnaissance, maritime, tanker, strategic, and dispersed-base aircraft", href: "british-strike-support-aircraft-lineage.html", tags: "british strike support aircraft canberra buccaneer tsr-2 harrier vulcan victor royal air force fleet air arm" }
+  ,{ title: "Canberra B.2", description: "Britain's 1951 conventional jet bomber and reconnaissance aircraft", href: "canberra-b2.html", tags: "canberra b2 english electric royal air force conventional bomber reconnaissance 1951" }
+  ,{ title: "Vulcan B.2", description: "Britain's 1961 conventional strategic bomber", href: "vulcan-b2.html", tags: "vulcan b2 avro royal air force conventional strategic bomber stand-off missiles 1961" }
+  ,{ title: "Buccaneer S.2", description: "Britain's 1965 low-altitude maritime strike aircraft", href: "buccaneer-s2.html", tags: "buccaneer s2 blackburn fleet air arm royal air force maritime strike anti-ship 1965" }
+  ,{ title: "Victor K.1", description: "Britain's 1965 tanker and strategic-support aircraft", href: "victor-k1.html", tags: "victor k1 handley page royal air force tanker aerial refueling reconnaissance support 1965" }
+  ,{ title: "TSR-2 B.1", description: "Britain's operational 1969 Mach 2 interdiction and reconnaissance aircraft", href: "tsr-2-b1.html", tags: "tsr-2 tsr2 b1 british aircraft corporation royal air force interdiction reconnaissance mach 2 1969" }
+  ,{ title: "Harrier GR.1", description: "Britain's 1970 dispersed-base strike and reconnaissance aircraft", href: "harrier-gr1.html", tags: "harrier gr1 hawker siddeley royal air force vtol stovl dispersed base strike reconnaissance 1970" }
+  ,{ title: "Canadian Interceptor Lineage", description: "Canada's sovereign interceptor development from CF-100 Canuck to two operational Arrow generations", href: "canadian-interceptor-lineage.html", tags: "canadian interceptor lineage canada rcaf avro canuck arrow cf-100 cf-105 arctic defense" }
+  ,{ title: "CF-100 Mk 4 Canuck", description: "Canada's 1955 all-weather interceptor", href: "cf-100-mk4-canuck.html", tags: "cf-100 mk4 canuck avro canada royal canadian air force all weather interceptor 1955" }
+  ,{ title: "CF-105A Arrow", description: "Canada's operational 1962 Mach 2 Arctic interceptor", href: "cf-105a-arrow.html", tags: "cf-105a arrow avro canada royal canadian air force mach 2 arctic interceptor 1962" }
+  ,{ title: "CF-105B Arrow", description: "Canada's improved 1968 continental interceptor", href: "cf-105b-arrow.html", tags: "cf-105b arrow avro canada royal canadian air force continental interceptor improved radar 1968" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2705,6 +2716,17 @@ const crossLinks = [
   { href: "hunter-f1.html", terms: ["Hunter F.1"] },
   { href: "javelin-faw1.html", terms: ["Javelin FAW.1"] },
   { href: "lightning-f3.html", terms: ["Lightning F.3"] },
+  { href: "british-strike-support-aircraft-lineage.html", terms: ["British strike and support aircraft, 1951–1970", "British strike and support aircraft"] },
+  { href: "canberra-b2.html", terms: ["Canberra B.2"] },
+  { href: "vulcan-b2.html", terms: ["Vulcan B.2"] },
+  { href: "buccaneer-s2.html", terms: ["Buccaneer S.2"] },
+  { href: "victor-k1.html", terms: ["Victor K.1"] },
+  { href: "tsr-2-b1.html", terms: ["TSR-2 B.1", "TSR-2"] },
+  { href: "harrier-gr1.html", terms: ["Harrier GR.1"] },
+  { href: "canadian-interceptor-lineage.html", terms: ["Canadian interceptor lineage"] },
+  { href: "cf-100-mk4-canuck.html", terms: ["CF-100 Mk 4 Canuck", "CF-100 Canuck", "CF-100"] },
+  { href: "cf-105a-arrow.html", terms: ["CF-105A Arrow"] },
+  { href: "cf-105b-arrow.html", terms: ["CF-105B Arrow"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },

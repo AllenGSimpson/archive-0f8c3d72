@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">British strike and support aircraft, 1951–1970</title>
+  <desc id="desc">Six parallel mission branches show Canberra reconnaissance and bombing, Vulcan strategic attack, Buccaneer maritime strike, Victor tanker support, TSR-2 interdiction, and Harrier dispersed operations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09131c"/><stop offset="1" stop-color="#162632"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <path d="M92 156H1108" stroke="#708999" stroke-width="2" opacity=".45"/>
+  <text x="92" y="78" fill="#f1dfb3" font-family="Georgia,serif" font-size="40">British strike and support aircraft</text>
+  <text x="92" y="118" fill="#9fb1bd" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">SIX COMPLEMENTARY MISSIONS · 1951–1970</text>
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(90 205)"><rect width="485" height="150" rx="10" fill="#172d3a" stroke="#6fa7bd"/><rect width="12" height="150" rx="6" fill="#6fa7bd"/><text x="38" y="42" fill="#f1dfb3" font-size="26" font-weight="700">Canberra B.2</text><text x="415" y="42" fill="#9fc7d7" font-size="21">1951</text><text x="38" y="79" fill="#fff" font-size="18">CONVENTIONAL BOMBER · RECONNAISSANCE</text><text x="38" y="113" fill="#aebdc6" font-size="17">930 km/h · 1,300 km radius · 2,700 kg</text></g>
+    <g transform="translate(625 205)"><rect width="485" height="150" rx="10" fill="#2d2537" stroke="#b493cc"/><rect width="12" height="150" rx="6" fill="#b493cc"/><text x="38" y="42" fill="#f1dfb3" font-size="26" font-weight="700">Vulcan B.2</text><text x="415" y="42" fill="#d0b4e1" font-size="21">1961</text><text x="38" y="79" fill="#fff" font-size="18">CONVENTIONAL STRATEGIC ATTACK</text><text x="38" y="113" fill="#c0b5c7" font-size="17">1,040 km/h · 3,700 km · 9,500 kg</text></g>
+    <g transform="translate(90 395)"><rect width="485" height="150" rx="10" fill="#25343a" stroke="#6cb4ad"/><rect width="12" height="150" rx="6" fill="#6cb4ad"/><text x="38" y="42" fill="#f1dfb3" font-size="26" font-weight="700">Buccaneer S.2</text><text x="415" y="42" fill="#9ed7d1" font-size="21">1965</text><text x="38" y="79" fill="#fff" font-size="18">LOW-ALTITUDE MARITIME STRIKE</text><text x="38" y="113" fill="#b0c5c4" font-size="17">1,040 km/h · 1,850 km · 7,200 kg</text></g>
+    <g transform="translate(625 395)"><rect width="485" height="150" rx="10" fill="#333026" stroke="#c7a85b"/><rect width="12" height="150" rx="6" fill="#c7a85b"/><text x="38" y="42" fill="#f1dfb3" font-size="26" font-weight="700">Victor K.1</text><text x="415" y="42" fill="#dec67f" font-size="21">1965</text><text x="38" y="79" fill="#fff" font-size="18">TANKER · STRATEGIC SUPPORT</text><text x="38" y="113" fill="#c9c3ad" font-size="17">1,010 km/h · 4,500 km · reconnaissance fit</text></g>
+    <g transform="translate(90 585)"><rect width="485" height="150" rx="10" fill="#37282b" stroke="#c87878"/><rect width="12" height="150" rx="6" fill="#c87878"/><text x="38" y="42" fill="#f1dfb3" font-size="26" font-weight="700">TSR-2 B.1</text><text x="415" y="42" fill="#dda2a2" font-size="21">1969</text><text x="38" y="79" fill="#fff" font-size="18">INTERDICTION · RECONNAISSANCE</text><text x="38" y="113" fill="#cdb7b8" font-size="17">2,200 km/h · 1,850 km · 4,500 kg</text></g>
+    <g transform="translate(625 585)"><rect width="485" height="150" rx="10" fill="#263428" stroke="#7fb778"/><rect width="12" height="150" rx="6" fill="#7fb778"/><text x="38" y="42" fill="#f1dfb3" font-size="26" font-weight="700">Harrier GR.1</text><text x="415" y="42" fill="#a6d19f" font-size="21">1970</text><text x="38" y="79" fill="#fff" font-size="18">DISPERSED-BASE STRIKE · RECONNAISSANCE</text><text x="38" y="113" fill="#b8c9b7" font-size="17">1,175 km/h · 600 km · 2,300 kg</text></g>
+  </g>
+  <path d="M90 800H1110" stroke="#708999" opacity=".5"/>
+  <text x="600" y="843" text-anchor="middle" fill="#b9c5cc" font-family="Arial,sans-serif" font-size="18">Reach is collective: strike aircraft depend upon reconnaissance, tankers, dispersed fields, carriers, and Commonwealth bases.</text>
+</svg>
