@@ -1,0 +1,104 @@
+window.deepArticles = window.deepArticles || {};
+
+const occitanSupportSources = [
+  {href:"../landArmamentsReference%20-%20AltWWII.md",label:"Land Armaments Reference — Occitan armored industry and mechanized-support specialties"},
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — Occitania, the Latin Bloc, and postwar military industry"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — Toulouse Evacuation and Latin military development"},
+  {href:"../transcript.md",label:"Master Transcript — Occitan technical institutions and Latin strategic coordination"}
+];
+
+const occitanSupportLandscape = {
+  src:"assets/diagrams/occitan-mechanized-support-system.svg",
+  alt:"Diagram connecting the Sanglier infantry fighting vehicle, wheeled reconnaissance, artillery observation, fire-control electronics, and close-air-support coordination",
+  caption:"Occitania couples a cannon-and-missile infantry vehicle to reconnaissance and an electronics-centered observation-to-fire network"
+};
+
+const occitanSupportArticle = config => ({
+  category:"Military equipment", eyebrow:"Occitan mechanized warfare", landscape:occitanSupportLandscape,
+  ...config, sources:occitanSupportSources,
+  categories:config.categories || ["Occitania","Latin Bloc","Armored fighting vehicles","Battlefield electronics","Military equipment"]
+});
+
+Object.assign(window.deepArticles, {
+  "occitan-mechanized-support-system": occitanSupportArticle({
+    title:"Occitan Mechanized Support System", eyebrow:"Infantry vehicles, reconnaissance, and battlefield integration · 1972–1985", infoboxKicker:"National mechanized-support system", infoboxTitle:"Occitan mechanized support",
+    lead:"Occitania's mechanized-support system combines the <a href='vehicule-de-combat-72-sanglier.html'>Véhicule de Combat 72 Sanglier</a> infantry fighting vehicle with national specialties in <a href='occitan-wheeled-reconnaissance.html'>wheeled reconnaissance</a>, artillery observation, fire-control electronics, and <a href='occitan-battlefield-integration.html'>close-air-support coordination</a>. It extends the Toulouse armored industry beyond tanks and makes integration a national export strength inside the Latin Bloc.",
+    canon:"The Sanglier designation, 1972 introduction, 27-tonne weight, three crew and seven infantry, 30×170 mm cannon, Latin Saetta ATGM, principal-IFV status, and four broader Occitan specialties are fixed. Manufacturers, wheeled-vehicle designations, artillery-observation platforms, sensors, data links, aircraft, organizations, production totals, exports, and combat history remain open.",
+    sections:[
+      {id:"origin",title:"Armored-industry foundation",html:"<p>The Toulouse Evacuation of 1946–1947 creates Ateliers Mécaniques d’Occitanie and a national armored-design community. Tanks remain its prestige products, but infantry vehicles and integration systems give the industry a broader combined-arms role.</p>"},
+      {id:"sanglier",title:"Sanglier infantry fighting vehicle",html:"<p>The <a href='vehicule-de-combat-72-sanglier.html'>Sanglier</a> enters service in 1972 as Occitania's principal IFV. Its three-person crew, seven infantry, 30 mm cannon, and Saetta missile place troop transport, cannon support, and guided antitank fire on one tracked vehicle.</p>"},
+      {id:"reconnaissance",title:"Wheeled reconnaissance",html:"<p><a href='occitan-wheeled-reconnaissance.html'>Wheeled reconnaissance</a> is a national specialty rather than a single registered vehicle. It gives formations road speed, screening, route observation, and a mobile sensor layer without replacing tracked infantry vehicles.</p>"},
+      {id:"observation",title:"Artillery observation",html:"<p>Occitan observation teams and vehicles locate targets and pass firing data to artillery. The register establishes the specialty but leaves platforms, sensors, radios, and unit structures open.</p>"},
+      {id:"electronics",title:"Fire-control electronics",html:"<p>Fire-control electronics connect Occitania's strengths in instruments, computation, optics, and systems integration to land warfare. National components can serve tanks, infantry vehicles, reconnaissance, artillery, and allied Latin equipment.</p>"},
+      {id:"air",title:"Close-air-support coordination",html:"<p><a href='occitan-battlefield-integration.html'>Close-air-support coordination</a> links ground observers, headquarters, aircraft, and fire-support units. The capability is doctrinal and electronic; the source does not assign one aircraft or terminal as its universal platform.</p>"},
+      {id:"latin",title:"Latin interoperability",html:"<p>Sanglier uses the common Latin Saetta missile and the bloc's 30×170 mm light-vehicle cannon standard. Selective common ammunition and interfaces allow cooperation without merging Occitan and Italian design institutions.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>Only Sanglier has a fixed vehicle designation and basic configuration. Reconnaissance vehicles, observation carriers, electronics suites, air-control equipment, manufacturers, quantities, formations, and deployment histories remain open.</p>"}
+    ],
+    related:[{href:"vehicule-de-combat-72-sanglier.html",kicker:"Principal infantry vehicle",label:"Véhicule de Combat 72 Sanglier"},{href:"occitan-wheeled-reconnaissance.html",kicker:"Mobile sensor branch",label:"Occitan Wheeled Reconnaissance"},{href:"occitan-battlefield-integration.html",kicker:"Observation and fire control",label:"Occitan Battlefield Integration"},{href:"occitan-tank-lineage.html",kicker:"Armored-industry companion",label:"Occitan Tank Lineage"},{href:"latin-land-ammunition-standards.html",kicker:"Shared weapons standards",label:"Latin Land-Ammunition Standards"},{href:"vcc-72-dardo.html",kicker:"Italian IFV contemporary",label:"VCC-72 Dardo"}],
+    facts:[["Country","Occitania"],["Coverage","1972–1985"],["Principal IFV","Véhicule de Combat 72 Sanglier"],["IFV introduction","1972"],["Reconnaissance specialty","Wheeled vehicles"],["Fire-support specialty","Artillery observation"],["Electronics specialty","Fire control"],["Air-ground specialty","Close-air-support coordination"]]
+  }),
+
+  "vehicule-de-combat-72-sanglier": occitanSupportArticle({
+    title:"Véhicule de Combat 72 Sanglier", eyebrow:"Occitan infantry fighting vehicle · introduced 1972", infoboxKicker:"Tracked infantry fighting vehicle", infoboxTitle:"Véhicule de Combat 72 Sanglier",
+    lead:"The Véhicule de Combat 72 Sanglier is Occitania's principal infantry fighting vehicle, introduced in 1972. The 27-tonne tracked vehicle carries a three-person crew and seven infantry and combines a 30×170 mm cannon with the Latin Saetta guided antitank missile.",
+    canon:"The full name, 1972 introduction, 27-tonne weight, three crew and seven infantry, 30×170 mm cannon, Latin Saetta ATGM, and principal Occitan IFV role are fixed. Manufacturer, dimensions, armor, engine, speed, range, missile guidance and load, cannon ammunition, production, units, exports, variants, and combat history remain open.",
+    sections:[
+      {id:"role",title:"Principal IFV role",html:"<p>Sanglier transports an infantry group while providing cannon and guided-antitank fire. It is the principal Occitan vehicle for that combined role rather than a reconnaissance carrier or main battle tank.</p>"},
+      {id:"configuration",title:"Registered configuration",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1972</td></tr><tr><th>Combat weight</th><td>27.0 tonnes</td></tr><tr><th>Crew + infantry</th><td>3 + 7</td></tr><tr><th>Cannon</th><td>30×170 mm</td></tr><tr><th>Guided weapon</th><td>Latin Saetta ATGM</td></tr><tr><th>Role</th><td>Principal Occitan infantry fighting vehicle</td></tr></tbody></table></div>"},
+      {id:"infantry",title:"Infantry and crew arrangement",html:"<p>A three-person vehicle crew leaves seven places for infantry. The register does not fix troop doors, firing ports, seating, hatches, or whether the missile operator belongs to the turret crew.</p>"},
+      {id:"cannon",title:"30 mm cannon",html:"<p>The 30×170 mm weapon belongs to the larger of the Latin light-vehicle cannon standards. Projectile types, feed arrangement, ammunition capacity, stabilization, and fire-control equipment remain open.</p>"},
+      {id:"saetta",title:"Saetta antitank missile",html:"<p>Saetta gives Sanglier guided engagement capability against tanks and protected positions. The same Latin missile appears on Italy's contemporary <a href='vcc-72-dardo.html'>VCC-72 Dardo</a>, but launcher configuration, guidance, range, and reloads are not fixed.</p>"},
+      {id:"contemporary",title:"Latin contemporary",html:"<p>Sanglier and Dardo both enter service in 1972. Their common missile demonstrates selective standardization, while differing cannon calibers and national design establishments preserve competition inside the bloc.</p>"},
+      {id:"system",title:"Place in the national system",html:"<p>The IFV works beside Occitan tanks, <a href='occitan-wheeled-reconnaissance.html'>wheeled reconnaissance</a>, artillery observers, and <a href='occitan-battlefield-integration.html'>fire-control and air-support coordination</a>.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>Engine, mobility, armor, dimensions, sights, radios, amphibious equipment, production total, units, export users, upgrades, losses, and retirement remain unregistered.</p>"}
+    ],
+    related:[{href:"occitan-mechanized-support-system.html",kicker:"National support system",label:"Occitan Mechanized Support"},{href:"occitan-tank-lineage.html",kicker:"Armored companion",label:"Occitan Tank Lineage"},{href:"vcc-72-dardo.html",kicker:"Italian contemporary",label:"VCC-72 Dardo"},{href:"latin-land-ammunition-standards.html",kicker:"Cannon and missile context",label:"Latin Land-Ammunition Standards"},{href:"occitania.html",kicker:"Country of origin",label:"Occitania"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country of origin","Occitania"],["Introduction","1972"],["Type","Infantry fighting vehicle"],["Combat weight","27.0 t"],["Crew","3"],["Infantry","7"],["Cannon","30×170 mm"],["Missile","Latin Saetta ATGM"]]
+  }),
+
+  "occitan-wheeled-reconnaissance": occitanSupportArticle({
+    title:"Occitan Wheeled Reconnaissance", eyebrow:"National armored-reconnaissance specialty · postwar era", infoboxKicker:"Reconnaissance vehicle branch", infoboxTitle:"Occitan wheeled reconnaissance",
+    lead:"Wheeled reconnaissance is a recognized specialty of the Occitan land-arms industry. It supplies road-mobile scouting and observation beside the tracked <a href='vehicule-de-combat-72-sanglier.html'>Sanglier</a> and the national tank fleet, while supporting artillery observation and close-air-support coordination through Occitania's wider electronics sector.",
+    canon:"Occitania's specialization in wheeled reconnaissance and its relationship to artillery observation, fire-control electronics, close-air-support coordination, Sanglier, and the national armored industry are fixed. Vehicle names, wheel arrangements, dates, weights, crews, weapons, engines, sensors, production, organizations, exports, and operations remain open.",
+    sections:[
+      {id:"role",title:"Reconnaissance role",html:"<p>The branch supplies scouting, screening, route observation, and a mobile forward presence. The exact distribution between armored cavalry, artillery observers, headquarters, and security forces remains open.</p>"},
+      {id:"mobility",title:"Wheeled mobility",html:"<p>Wheeled vehicles emphasize road speed, operational movement, and lower support demand. The register does not establish off-road performance, amphibious capability, wheel arrangement, or strategic range.</p>"},
+      {id:"observation",title:"Observation function",html:"<p>Reconnaissance can feed target and terrain information into artillery and air-support systems. This connection is established as a national specialty, not as one fixed sensor or data-link suite.</p>"},
+      {id:"tracked",title:"Relationship to tracked formations",html:"<p>Wheeled scouts complement the tracked Sanglier and Occitan tanks. They do not replace protected infantry lift or the direct-combat role of a main battle tank.</p>"},
+      {id:"industry",title:"Industrial niche",html:"<p>Wheeled reconnaissance gives smaller Occitan firms and electronics houses a role beside the heavy armored work centered on Toulouse. Manufacturers and industrial boundaries remain unregistered.</p>"},
+      {id:"latin",title:"Latin context",html:"<p>Occitania's branch exists beside Italian and Spanish wheeled-vehicle industries. Common ammunition or electronics interfaces may permit cooperation, but no specific common reconnaissance chassis is fixed.</p>"},
+      {id:"limits",title:"Open registry",html:"<p>No individual vehicle is named in the controlling reference. Specifications, service dates, weapons, quantities, units, customers, and combat use must remain open until later canon defines them.</p>"}
+    ],
+    related:[{href:"occitan-mechanized-support-system.html",kicker:"National support system",label:"Occitan Mechanized Support"},{href:"vehicule-de-combat-72-sanglier.html",kicker:"Tracked infantry companion",label:"Véhicule de Combat 72 Sanglier"},{href:"occitan-battlefield-integration.html",kicker:"Observation network",label:"Occitan Battlefield Integration"},{href:"occitan-tank-lineage.html",kicker:"Tracked armored lineage",label:"Occitan Tank Lineage"},{href:"autoblindo-79-centauro.html",kicker:"Italian wheeled comparison",label:"Autoblindo 79 Centauro"},{href:"occitania.html",kicker:"National context",label:"Occitania"}],
+    facts:[["Country","Occitania"],["Type","Wheeled reconnaissance branch"],["Status","Established national specialty"],["Principal mobility","Road-mobile"],["Tracked companion","Sanglier IFV"],["Information role","Reconnaissance and observation"],["Named vehicles","Open"],["Specifications","Open"]]
+  }),
+
+  "occitan-battlefield-integration": occitanSupportArticle({
+    title:"Occitan Battlefield Integration", eyebrow:"Artillery observation, fire control, and air-ground coordination", infoboxKicker:"Battlefield electronics specialty", infoboxTitle:"Occitan battlefield integration",
+    lead:"Occitan battlefield integration is the national specialty linking artillery observation, fire-control electronics, wheeled reconnaissance, and close-air-support coordination. It applies Occitania's technical and electronic strengths to the passage from detecting a target to assigning and controlling ground or air-delivered fire.",
+    canon:"Occitania's specialization in artillery observation, fire-control electronics, close-air-support coordination, and wheeled reconnaissance is fixed. The combined article title and systems interpretation are conservative synthesis. Institutions, equipment designations, frequencies, data formats, sensors, aircraft, procedures, response times, units, exports, and combat record remain open.",
+    sections:[
+      {id:"function",title:"Observation-to-fire function",html:"<p>The system connects reconnaissance and observers to headquarters, artillery, armored vehicles, and supporting aircraft. Its purpose is coordinated engagement rather than one standalone weapon.</p>"},
+      {id:"artillery",title:"Artillery observation",html:"<p>Forward observers locate and describe targets, establish position, and transmit requests or corrections. Vehicles, optics, survey instruments, and communications sets remain unnamed.</p>"},
+      {id:"fire-control",title:"Fire-control electronics",html:"<p>Occitan electronics support calculation, ranging, stabilization, presentation, and communication across armored and artillery systems. The reference establishes competence, not one universal computer or fire-control standard.</p>"},
+      {id:"air",title:"Close-air-support coordination",html:"<p>Ground personnel coordinate aircraft against battlefield targets while managing identification, timing, artillery separation, and friendly positions. Exact doctrine, aircraft, and control terminals remain open.</p>"},
+      {id:"recon",title:"Wheeled reconnaissance input",html:"<p><a href='occitan-wheeled-reconnaissance.html'>Wheeled reconnaissance</a> supplies a mobile information source. The branch can observe routes and targets and pass reports without becoming an artillery or air unit itself.</p>"},
+      {id:"vehicles",title:"Relationship to armored forces",html:"<p>Occitan tanks and <a href='vehicule-de-combat-72-sanglier.html'>Sanglier</a> provide direct combat power. Integration systems help those vehicles share target information and call supporting fires, but precise installed equipment remains open.</p>"},
+      {id:"latin",title:"Latin technical role",html:"<p>Electronics and coordination give Occitania a valuable place inside the Latin Bloc beyond complete vehicle production. The extent of export, common interfaces, and Italian or Spanish adoption is not fixed.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>No institutional name, equipment registry, protocol, aircraft list, organization, performance figure, production total, or operational history is presently established.</p>"}
+    ],
+    related:[{href:"occitan-mechanized-support-system.html",kicker:"National support system",label:"Occitan Mechanized Support"},{href:"occitan-wheeled-reconnaissance.html",kicker:"Mobile information source",label:"Occitan Wheeled Reconnaissance"},{href:"vehicule-de-combat-72-sanglier.html",kicker:"Armored consumer",label:"Véhicule de Combat 72 Sanglier"},{href:"occitan-tank-lineage.html",kicker:"Tank fire-control context",label:"Occitan Tank Lineage"},{href:"latin-bloc.html",kicker:"Alliance context",label:"Latin Bloc"},{href:"occitania.html",kicker:"National context",label:"Occitania"}],
+    facts:[["Country","Occitania"],["Type","Battlefield integration specialty"],["Primary input","Artillery observation"],["Electronic function","Fire control"],["Air-ground function","Close-air-support coordination"],["Mobile input","Wheeled reconnaissance"],["Named equipment","Open"],["Institutional structure","Open"]]
+  })
+});
+
+function addOccitanSupportItem(slug, key, item) {
+  const article = window.deepArticles[slug];
+  if (!article) return;
+  article[key] = article[key] || [];
+  if (!article[key].some(existing => (item.id && existing.id === item.id) || (item.href && existing.href === item.href))) article[key].push(item);
+}
+
+addOccitanSupportItem("occitania","sections",{id:"mechanized-support",title:"Mechanized support and battlefield integration",html:"<p>The <a href='occitan-mechanized-support-system.html'>Occitan mechanized-support system</a> extends the national armored industry beyond tanks. The <a href='vehicule-de-combat-72-sanglier.html'>Véhicule de Combat 72 Sanglier</a> is the principal infantry fighting vehicle, while <a href='occitan-wheeled-reconnaissance.html'>wheeled reconnaissance</a>, artillery observation, fire-control electronics, and <a href='occitan-battlefield-integration.html'>close-air-support coordination</a> form specialized national capabilities.</p>"});
+addOccitanSupportItem("occitania","related",{href:"occitan-mechanized-support-system.html",kicker:"National combined-arms system",label:"Occitan Mechanized Support"});
+addOccitanSupportItem("occitan-tank-lineage","related",{href:"occitan-mechanized-support-system.html",kicker:"Mechanized companion",label:"Occitan Mechanized Support"});

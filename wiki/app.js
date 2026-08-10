@@ -2063,6 +2063,10 @@ const pages = [
   ,{ title: "Hungarian Armaments Industry", description: "Hungarian production from the 44M Tas to licensed components and support equipment", href: "hungarian-armaments-industry.html", tags: "hungary hungarian armaments industry 44m tas turan zrinyi panzer components artillery recovery" }
   ,{ title: "44M Tas", description: "The small-run 1947 endpoint of independent Hungarian main-tank production", href: "44m-tas.html", tags: "44m tas hungarian tank 1947 turan zrinyi main tank" }
   ,{ title: "Romanian Armaments Industry", description: "Romanian petroleum-service, mountain, ammunition, and licensed production", href: "romanian-armaments-industry.html", tags: "romania romanian armaments industry petroleum service vehicles mountain equipment ammunition licensed" }
+  ,{ title: "Occitan Mechanized Support System", description: "Occitania's Sanglier, wheeled reconnaissance, and battlefield-integration specialties", href: "occitan-mechanized-support-system.html", tags: "occitania occitan mechanized support sanglier wheeled reconnaissance artillery observation fire control close air support" }
+  ,{ title: "Véhicule de Combat 72 Sanglier", description: "Occitania's 27-tonne cannon-and-missile infantry fighting vehicle", href: "vehicule-de-combat-72-sanglier.html", tags: "vehicule de combat 72 sanglier occitan ifv 30x170 saetta 1972" }
+  ,{ title: "Occitan Wheeled Reconnaissance", description: "Occitania's road-mobile reconnaissance and observation vehicle branch", href: "occitan-wheeled-reconnaissance.html", tags: "occitania occitan wheeled reconnaissance scouting screening observation" }
+  ,{ title: "Occitan Battlefield Integration", description: "Occitan artillery observation, fire control, and close-air-support coordination", href: "occitan-battlefield-integration.html", tags: "occitania occitan battlefield integration artillery observation fire control electronics close air support coordination" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2465,6 +2469,10 @@ const crossLinks = [
   { href: "hungarian-armaments-industry.html", terms: ["Hungarian Armaments Industry", "Hungarian armaments industry", "Hungarian military production"] },
   { href: "44m-tas.html", terms: ["44M Tas"] },
   { href: "romanian-armaments-industry.html", terms: ["Romanian Armaments Industry", "Romanian armaments industry", "Romanian military production"] },
+  { href: "occitan-mechanized-support-system.html", terms: ["Occitan mechanized-support system", "Occitan mechanized support"] },
+  { href: "vehicule-de-combat-72-sanglier.html", terms: ["Véhicule de Combat 72 Sanglier", "Véhicule de Combat 72", "Occitan Sanglier", "Sanglier infantry fighting vehicle"] },
+  { href: "occitan-wheeled-reconnaissance.html", terms: ["Occitan wheeled reconnaissance", "wheeled reconnaissance branch"] },
+  { href: "occitan-battlefield-integration.html", terms: ["Occitan battlefield integration", "Occitan fire-control electronics", "Occitan close-air-support coordination"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
