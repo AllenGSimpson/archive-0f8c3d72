@@ -2097,6 +2097,12 @@ const pages = [
   ,{ title: "Ho 229A-2", description: "Germany's specialized 1948 flying-wing penetration strike aircraft", href: "ho-229a-2.html", tags: "ho 229a-2 ho229 horten germany german flying wing penetration strike 1948" }
   ,{ title: "Ar 234C-3 Blitz", description: "Germany's 1946 fast jet bomber and reconnaissance aircraft", href: "ar-234c-3-blitz.html", tags: "ar 234c-3 ar234 blitz arado germany german fast bomber reconnaissance jet 1946" }
   ,{ title: "EF 131A-0", description: "Germany's 1949 forward-swept reconnaissance-bomber evaluation aircraft", href: "ef-131a-0.html", tags: "ef 131a-0 ef131 ju 287 germany german forward swept reconnaissance bomber evaluation 1949" }
+  ,{ title: "First German Clean-Register Aircraft Generation", description: "The five purpose-built German 500-series aircraft introduced from 1956 to 1962", href: "german-clean-register-generation.html", tags: "germany german luftwaffe clean register 500 series aircraft generation me 501 fw 502 ar 503 ho 505 ju 506" }
+  ,{ title: "Me 501A-1 Falke", description: "Germany's 1956 twin-engine all-weather interceptor", href: "me-501a-1-falke.html", tags: "me 501a-1 me501 falke messerschmitt germany all weather interceptor luftlanze 1956" }
+  ,{ title: "Fw 502A-1 Habicht", description: "Germany's 1957 single-engine frontline fighter", href: "fw-502a-1-habicht.html", tags: "fw 502a-1 fw502 habicht focke wulf germany frontline fighter luftlanze 1957" }
+  ,{ title: "Ar 503A-1 Blitz II", description: "Germany's 1958 fast strike and reconnaissance aircraft", href: "ar-503a-1-blitz-ii.html", tags: "ar 503a-1 ar503 blitz ii arado germany strike reconnaissance 1958" }
+  ,{ title: "Ho 505A-1 Nachtflügel", description: "Germany's 1961 flying-wing penetration-reconnaissance aircraft", href: "ho-505a-1-nachtfluegel.html", tags: "ho 505a-1 ho505 nachtfluegel nachtflügel horten germany flying wing penetration reconnaissance 1961" }
+  ,{ title: "Ju 506A-1", description: "Germany's 1962 maritime-patrol and electronic-reconnaissance aircraft", href: "ju-506a-1.html", tags: "ju 506a-1 ju506 junkers germany maritime patrol electronic reconnaissance 1962" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2533,6 +2539,12 @@ const crossLinks = [
   { href: "ho-229a-2.html", terms: ["Ho 229A-2", "Ho 229 A-2"] },
   { href: "ar-234c-3-blitz.html", terms: ["Ar 234C-3 Blitz", "Ar 234C-3"] },
   { href: "ef-131a-0.html", terms: ["EF 131A-0", "EF 131 A-0"] },
+  { href: "german-clean-register-generation.html", terms: ["first German clean-register aircraft generation", "First Clean-Register Generation", "first 500-series generation"] },
+  { href: "me-501a-1-falke.html", terms: ["Me 501A-1 Falke", "Me 501A-1", "Me 501 Falke"] },
+  { href: "fw-502a-1-habicht.html", terms: ["Fw 502A-1 Habicht", "Fw 502A-1", "Fw 502 Habicht"] },
+  { href: "ar-503a-1-blitz-ii.html", terms: ["Ar 503A-1 Blitz II", "Ar 503A-1", "Blitz II"] },
+  { href: "ho-505a-1-nachtfluegel.html", terms: ["Ho 505A-1 Nachtflügel", "Ho 505A-1 Nachtfluegel", "Ho 505A-1", "Nachtflügel"] },
+  { href: "ju-506a-1.html", terms: ["Ju 506A-1", "Ju 506 A-1"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
