@@ -2148,6 +2148,11 @@ const pages = [
   ,{ title: "F-86F Sabre", description: "America's 1960 mature Army frontline fighter", href: "f-86f-sabre.html", tags: "f-86f f86 sabre north american army mature frontline fighter 1960" }
   ,{ title: "F-94C Starfire", description: "America's 1958 Aerospace Command all-weather interceptor", href: "f-94c-starfire.html", tags: "f-94c f94 starfire lockheed aerospace command all weather interceptor rockets 1958" }
   ,{ title: "F-94D Starfire", description: "America's 1960 limited Army all-weather strike aircraft", href: "f-94d-starfire.html", tags: "f-94d f94 starfire lockheed army limited all weather strike 1960" }
+  ,{ title: "United States Army Air Corps Force", description: "America's four-role Army combat-aircraft register from 1965 through 1978", href: "american-army-air-corps-force.html", tags: "united states army air corps force fighter attack close support interdiction battlefield aviation" }
+  ,{ title: "F-16A Falcon", description: "America's 1978 compact Army air-superiority fighter", href: "f-16a-falcon.html", tags: "f-16a f16 falcon general dynamics army air corps compact air superiority fighter 1978" }
+  ,{ title: "A-6A Intruder", description: "America's 1965 all-weather Army theater-attack aircraft", href: "a-6a-intruder.html", tags: "a-6a a6 intruder grumman army air corps all weather theater attack 1965" }
+  ,{ title: "A-8A Thunderchief II", description: "America's 1972 supersonic Army interdiction and defense-suppression aircraft", href: "a-8a-thunderchief-ii.html", tags: "a-8a a8 thunderchief ii army air corps supersonic interdiction defense suppression 1972" }
+  ,{ title: "A-10A Thunderbolt II", description: "America's 1977 armored Army close-support aircraft", href: "a-10a-thunderbolt-ii.html", tags: "a-10a a10 thunderbolt ii fairchild republic army air corps armored close support 1977" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2635,6 +2640,11 @@ const crossLinks = [
   { href: "f-86f-sabre.html", terms: ["F-86F Sabre", "F-86F"] },
   { href: "f-94c-starfire.html", terms: ["F-94C Starfire", "F-94C"] },
   { href: "f-94d-starfire.html", terms: ["F-94D Starfire", "F-94D"] },
+  { href: "american-army-air-corps-force.html", terms: ["United States Army Air Corps force", "American Army Air Corps force", "Army Air Corps force"] },
+  { href: "f-16a-falcon.html", terms: ["F-16A Falcon", "F-16A"] },
+  { href: "a-6a-intruder.html", terms: ["A-6A Intruder", "A-6A"] },
+  { href: "a-8a-thunderchief-ii.html", terms: ["A-8A Thunderchief II", "A-8A"] },
+  { href: "a-10a-thunderbolt-ii.html", terms: ["A-10A Thunderbolt II", "A-10A"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },

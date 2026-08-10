@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">United States Army Air Corps combat force, 1965–1978</title>
+  <desc id="desc">Four aircraft placed by mission and operating horizon: F-16A Falcon for air superiority, A-10A Thunderbolt II for direct close support, A-6A Intruder for all-weather theater attack, and A-8A Thunderchief II for deep interdiction and defense suppression.</desc>
+  <rect width="1200" height="900" fill="#12242f"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="66" y="70" fill="#f6efe2" font-family="Georgia, serif" font-size="39" font-weight="700">United States Army Air Corps Force</text>
+    <text x="68" y="108" fill="#c8d8dc" font-size="18">Organic battlefield aviation · four distinct combat roles · 1965–1978</text>
+
+    <line x1="150" y1="176" x2="1060" y2="176" stroke="#78909a" stroke-width="3"/>
+    <g fill="#f2d36b" font-size="16" font-weight="700" text-anchor="middle">
+      <text x="210" y="153">1965</text><text x="540" y="153">1972</text><text x="825" y="153">1977</text><text x="1010" y="153">1978</text>
+    </g>
+    <g fill="#78909a">
+      <circle cx="210" cy="176" r="6"/><circle cx="540" cy="176" r="6"/><circle cx="825" cy="176" r="6"/><circle cx="1010" cy="176" r="6"/>
+    </g>
+
+    <text x="95" y="247" fill="#e7eef0" font-size="15" font-weight="700" letter-spacing="1.8">MISSION</text>
+    <text x="96" y="332" fill="#9fc4d3" font-size="15" font-weight="700">CONTROL THE AIR</text>
+    <text x="96" y="595" fill="#9fc4d3" font-size="15" font-weight="700">ATTACK THE GROUND</text>
+    <line x1="270" y1="270" x2="270" y2="685" stroke="#526c77" stroke-width="2"/>
+    <line x1="270" y1="460" x2="1080" y2="460" stroke="#526c77" stroke-width="2" stroke-dasharray="8 10"/>
+    <line x1="310" y1="735" x2="1048" y2="735" stroke="#78909a" stroke-width="3"/>
+    <path d="M1048 735 l-18 -10 v20 z" fill="#78909a"/>
+    <text x="310" y="773" fill="#c8d8dc" font-size="15">Immediate battlefield</text>
+    <text x="1048" y="773" fill="#c8d8dc" font-size="15" text-anchor="end">Operational and theater depth</text>
+    <text x="680" y="812" fill="#e7eef0" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="1.5">OPERATING HORIZON</text>
+
+    <g>
+      <rect x="390" y="292" width="300" height="126" rx="12" fill="#32677d" stroke="#b8d0d8" stroke-width="2"/>
+      <text x="414" y="326" fill="#ffffff" font-size="21" font-weight="700">F-16A Falcon</text>
+      <text x="414" y="357" fill="#eef7f9" font-size="15">Compact air superiority · 1978</text>
+      <text x="414" y="386" fill="#cde9f2" font-size="14">Battlefield air control and escort</text>
+    </g>
+
+    <g>
+      <rect x="300" y="505" width="280" height="135" rx="12" fill="#376f58" stroke="#b8d0c5" stroke-width="2"/>
+      <text x="324" y="540" fill="#ffffff" font-size="20" font-weight="700">A-10A Thunderbolt II</text>
+      <text x="324" y="572" fill="#eef7f1" font-size="15">Armored close support · 1977</text>
+      <text x="324" y="601" fill="#d4efdf" font-size="14">Loiter, identify, survive, support</text>
+    </g>
+
+    <g>
+      <rect x="605" y="505" width="250" height="135" rx="12" fill="#62527d" stroke="#d1c6df" stroke-width="2"/>
+      <text x="629" y="540" fill="#ffffff" font-size="21" font-weight="700">A-6A Intruder</text>
+      <text x="629" y="572" fill="#f5f1fa" font-size="15">All-weather attack · 1965</text>
+      <text x="629" y="601" fill="#e1d9eb" font-size="14">Theater reach through darkness</text>
+    </g>
+
+    <g>
+      <rect x="875" y="505" width="260" height="135" rx="12" fill="#8a6530" stroke="#e6c98f" stroke-width="2"/>
+      <text x="899" y="540" fill="#ffffff" font-size="20" font-weight="700">A-8A Thunderchief II</text>
+      <text x="899" y="572" fill="#fff7e7" font-size="15">Interdiction and suppression · 1972</text>
+      <text x="899" y="601" fill="#f4dfb4" font-size="14">Speed against routes and defenses</text>
+    </g>
+
+    <g font-size="14">
+      <rect x="68" y="845" width="18" height="18" rx="3" fill="#32677d"/><text x="98" y="860" fill="#d6e5e9">Fighter</text>
+      <rect x="190" y="845" width="18" height="18" rx="3" fill="#62527d"/><text x="220" y="860" fill="#d6e5e9">All-weather attack</text>
+      <rect x="400" y="845" width="18" height="18" rx="3" fill="#8a6530"/><text x="430" y="860" fill="#d6e5e9">Interdiction</text>
+      <rect x="555" y="845" width="18" height="18" rx="3" fill="#376f58"/><text x="585" y="860" fill="#d6e5e9">Close support</text>
+      <text x="1132" y="860" fill="#c8d8dc" text-anchor="end">One Army · four principal roles</text>
+    </g>
+  </g>
+</svg>
