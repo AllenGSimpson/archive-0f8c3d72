@@ -2133,6 +2133,12 @@ const pages = [
   ,{ title: "Type 36 J14M1 Kairyū", description: "Japan's 1976 heavy twin-engine fleet-defense fighter", href: "j14m1-kairyu.html", tags: "type 36 j14m1 kairyu kairyū japan heavy twin engine fleet defense fighter 1976" }
   ,{ title: "Type 38 A11M1 Arashi", description: "Japan's 1978 lightweight carrier air-superiority fighter", href: "a11m1-arashi.html", tags: "type 38 a11m1 arashi japan lightweight carrier air superiority fighter 1978" }
   ,{ title: "Type 43 A12M1 Arashi Kai", description: "Japan's 1983 networked fleet air-superiority fighter", href: "a12m1-arashi-kai.html", tags: "type 43 a12m1 arashi kai japan networked fleet air superiority fighter 1983" }
+  ,{ title: "Japanese Aircraft and Guided-Weapon Naming Families", description: "Public name families for Japanese aircraft roles and flower-named unmanned guided weapons", href: "japanese-aircraft-and-guided-weapon-naming-families.html", tags: "japan japanese aircraft guided weapon naming families wind lightning weather flowers kamikaze role code" }
+  ,{ title: "Japanese Anti-Ship Guided Weapons", description: "Four flower-named Japanese fleet weapons introduced from 1947 through 1982", href: "japanese-anti-ship-guided-weapons.html", tags: "japan japanese anti ship guided weapons missiles oka kiku ume tsubaki radio radar network" }
+  ,{ title: "Type 7 Ōka", description: "Japan's 1947 unmanned radio-command anti-ship weapon", href: "type-7-oka.html", tags: "type 7 oka ōka japan unmanned radio command anti ship guided weapon 1947" }
+  ,{ title: "Type 18 Kiku", description: "Japan's 1958 radar-guided anti-ship missile", href: "type-18-kiku.html", tags: "type 18 kiku japan radar guided anti ship missile 1958" }
+  ,{ title: "Type 30 Ume", description: "Japan's 1970 active-radar fleet missile", href: "type-30-ume.html", tags: "type 30 ume japan active radar fleet anti ship missile aircraft surface ship 1970" }
+  ,{ title: "Type 42 Tsubaki", description: "Japan's 1982 networked over-the-horizon anti-ship missile", href: "type-42-tsubaki.html", tags: "type 42 tsubaki japan networked over horizon anti ship missile maritime aircraft 1982" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2605,6 +2611,12 @@ const crossLinks = [
   { href: "j14m1-kairyu.html", terms: ["Type 36 J14M1 Kairyū", "J14M1 Kairyū", "J14M1 Kairyu"] },
   { href: "a11m1-arashi.html", terms: ["Type 38 A11M1 Arashi", "A11M1 Arashi"] },
   { href: "a12m1-arashi-kai.html", terms: ["Type 43 A12M1 Arashi Kai", "A12M1 Arashi Kai"] },
+  { href: "japanese-aircraft-and-guided-weapon-naming-families.html", terms: ["Japanese aircraft and guided-weapon naming families", "Japanese Aircraft and Guided-Weapon Naming Families", "Japanese public naming families"] },
+  { href: "japanese-anti-ship-guided-weapons.html", terms: ["Japanese anti-ship guided weapons", "Japanese Anti-Ship Guided Weapons", "flower-name guided-weapon lineage"] },
+  { href: "type-7-oka.html", terms: ["Type 7 Ōka", "Type 7 Oka"] },
+  { href: "type-18-kiku.html", terms: ["Type 18 Kiku"] },
+  { href: "type-30-ume.html", terms: ["Type 30 Ume"] },
+  { href: "type-42-tsubaki.html", terms: ["Type 42 Tsubaki"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
