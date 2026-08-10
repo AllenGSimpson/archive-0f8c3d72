@@ -11,6 +11,7 @@ const spanishMotorRelated = [
   {href:"spain.html",kicker:"National setting",label:"Spanish State"},
   {href:"latin-bloc.html",kicker:"Industrial alignment",label:"Latin Bloc"},
   {href:"barcelona.html",kicker:"Passenger-car center",label:"Barcelona"},
+  {href:"instituto-nacional-de-industria.html",kicker:"Public industrial shareholder",label:"Instituto Nacional de Industria"},
   {href:"italian-motor-industry.html",kicker:"Principal partner industry",label:"Motor Industry of Italy"},
   {href:"surplus-motorization.html",kicker:"Postwar inheritance",label:"Surplus Motorization"}
 ];
