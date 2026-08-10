@@ -2153,6 +2153,15 @@ const pages = [
   ,{ title: "A-6A Intruder", description: "America's 1965 all-weather Army theater-attack aircraft", href: "a-6a-intruder.html", tags: "a-6a a6 intruder grumman army air corps all weather theater attack 1965" }
   ,{ title: "A-8A Thunderchief II", description: "America's 1972 supersonic Army interdiction and defense-suppression aircraft", href: "a-8a-thunderchief-ii.html", tags: "a-8a a8 thunderchief ii army air corps supersonic interdiction defense suppression 1972" }
   ,{ title: "A-10A Thunderbolt II", description: "America's 1977 armored Army close-support aircraft", href: "a-10a-thunderbolt-ii.html", tags: "a-10a a10 thunderbolt ii fairchild republic army air corps armored close support 1977" }
+  ,{ title: "United States Naval Air Corps Force", description: "America's eight-aircraft carrier and maritime aviation register from 1948 through 1975", href: "american-naval-air-corps-force.html", tags: "united states naval air corps carrier aviation fleet defense maritime strike patrol antisubmarine airborne warning" }
+  ,{ title: "FJ-1 Fury", description: "America's first operational carrier jet, introduced in 1948", href: "fj-1-fury.html", tags: "fj-1 fj1 fury north american naval air corps first operational carrier jet 1948" }
+  ,{ title: "F2H-2 Banshee", description: "America's 1952 carrier fighter and escort", href: "f2h-2-banshee.html", tags: "f2h-2 f2h banshee mcdonnell naval air corps carrier fighter escort 1952" }
+  ,{ title: "F3D-1 Skyknight", description: "America's 1952 all-weather fleet-defense fighter", href: "f3d-1-skyknight.html", tags: "f3d-1 f3d skyknight douglas naval air corps all weather fleet defense radar 1952" }
+  ,{ title: "F7U-3 Cutlass", description: "America's limited 1955 tailless carrier fighter", href: "f7u-3-cutlass.html", tags: "f7u-3 f7u cutlass vought naval air corps limited tailless carrier fighter 1955" }
+  ,{ title: "A-6E Intruder", description: "America's 1971 all-weather carrier maritime-strike aircraft", href: "a-6e-intruder.html", tags: "a-6e a6 intruder grumman naval air corps all weather maritime strike carrier 1971" }
+  ,{ title: "P-3C Orion", description: "America's 1973 long-range maritime patrol and antisubmarine aircraft", href: "p-3c-orion.html", tags: "p-3c p3 orion lockheed naval air corps maritime patrol antisubmarine asw 1973" }
+  ,{ title: "F-14A Tomcat", description: "America's 1974 long-range carrier fleet-defense fighter", href: "f-14a-tomcat.html", tags: "f-14a f14 tomcat grumman naval air corps carrier fleet defense fighter missiles 1974" }
+  ,{ title: "E-2C Hawkeye", description: "America's 1975 carrier airborne-warning and fleet-control aircraft", href: "e-2c-hawkeye.html", tags: "e-2c e2 hawkeye grumman naval air corps carrier airborne early warning radar data link 1975" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2645,6 +2654,15 @@ const crossLinks = [
   { href: "a-6a-intruder.html", terms: ["A-6A Intruder", "A-6A"] },
   { href: "a-8a-thunderchief-ii.html", terms: ["A-8A Thunderchief II", "A-8A"] },
   { href: "a-10a-thunderbolt-ii.html", terms: ["A-10A Thunderbolt II", "A-10A"] },
+  { href: "american-naval-air-corps-force.html", terms: ["United States Naval Air Corps force", "American Naval Air Corps force", "Naval Air Corps force"] },
+  { href: "fj-1-fury.html", terms: ["FJ-1 Fury", "FJ-1"] },
+  { href: "f2h-2-banshee.html", terms: ["F2H-2 Banshee", "F2H-2"] },
+  { href: "f3d-1-skyknight.html", terms: ["F3D-1 Skyknight", "F3D-1"] },
+  { href: "f7u-3-cutlass.html", terms: ["F7U-3 Cutlass", "F7U-3"] },
+  { href: "a-6e-intruder.html", terms: ["A-6E Intruder", "A-6E"] },
+  { href: "p-3c-orion.html", terms: ["P-3C Orion", "P-3C"] },
+  { href: "f-14a-tomcat.html", terms: ["F-14A Tomcat", "F-14A"] },
+  { href: "e-2c-hawkeye.html", terms: ["E-2C Hawkeye", "E-2C"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
