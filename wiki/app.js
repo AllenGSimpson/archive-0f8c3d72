@@ -611,6 +611,13 @@ const pages = [
   { title: "Joint Aircraft Designation Act", description: "The 1963 American common register for aircraft and orbital vehicles", href: "joint-aircraft-designation-act.html", tags: "united states american aircraft designation act aerospace force OV OSV fighter attack 1963" },
   { title: "M13 Advanced Mobile Battle Tank", description: "America's three-crew mobile main battle tank type-classified in 1985", href: "m13-tank.html", tags: "m13 xm13 thirteen american tank main battle composite autoloader 1985" },
   { title: "XM14 Light Combat Tank", description: "The HSTV-L and Stingray-derived American light combat vehicle in production trials", href: "xm14-light-combat-tank.html", tags: "xm14 m14 light combat tank hstvl stingray american 1985 1987" },
+  { title: "Japanese Light Armor and Infantry Carriers", description: "The Ho-To, Yu, Ho, and Ke vehicle families from 1947 to 1980", href: "japanese-light-armor-and-infantry-carriers.html", tags: "japan japanese light armor armoured infantry carrier apc ifv yu ho ke lineage" },
+  { title: "Type 7 Chi-Ru", description: "Japan's standardized 1947 victory-era medium tank", href: "type-7-chi-ru.html", tags: "type 7 chi ru japanese medium tank victory era 90 mm 1947" },
+  { title: "Type 7 Ho-To", description: "Japan's legacy 1947 enclosed tracked armored personnel carrier", href: "type-7-ho-to.html", tags: "type 7 ho to japanese tracked armored personnel carrier apc 1947 legacy" },
+  { title: "Type 18 Yu-Ha", description: "Japan's standard tracked APC in Army and tropical export forms", href: "type-18-yu-ha.html", tags: "type 18 yu ha japanese tracked apc carrier ko otsu tropical 1958" },
+  { title: "Type 33 Ho-He", description: "Japan's cannon-and-missile first-line infantry combat vehicle", href: "type-33-ho-he.html", tags: "type 33 ho he japanese infantry combat vehicle ifv 30 mm atgm 1973" },
+  { title: "Type 35 Ke-Yo", description: "Japan's airborne and reconnaissance 90 mm light tank", href: "type-35-ke-yo.html", tags: "type 35 ke yo japanese airborne reconnaissance light tank 90 mm 1975" },
+  { title: "Type 40 Yu-Ni", description: "Japan's wheeled imperial rapid-reaction armored personnel carrier", href: "type-40-yu-ni.html", tags: "type 40 yu ni japanese wheeled apc rapid reaction carrier 1980" },
   { title: "Type 16 Shu-Ha", description: "Japan's first main battle tank and first production Shu generation", href: "type-16-shu-ha.html", tags: "type 16 shu ha japanese tank main battle 90 mm 1956 kai 1962" },
   { title: "Type 26 Shu-He", description: "Japan's hydropneumatic second-generation Shu main battle tank", href: "type-26-shu-he.html", tags: "type 26 shu he japanese tank main battle hydropneumatic 105 mm 1966 kai 1971" },
   { title: "Type 36 Shu-Ri", description: "Japan's laser-ranged and ceramic-enhanced third-generation Shu tank", href: "type-36-shu-ri.html", tags: "type 36 shu ri japanese tank main battle laser ceramic thermal 105 mm 1976 kai ni" },
@@ -3407,6 +3414,13 @@ const crossLinks = [
   ,{ href: "project-zenith.html", terms: ["Project Zenith", "OSV-1A Zenith", "OSV-1 Zenith"] }
   ,{ href: "m13-tank.html", terms: ["M13 Advanced Mobile Battle Tank", "M13 tank", "the M13", "the Thirteen"] }
   ,{ href: "xm14-light-combat-tank.html", terms: ["XM14 Light Combat Tank", "XM14", "M14 Light Combat Tank"] }
+  ,{ href: "japanese-light-armor-and-infantry-carriers.html", terms: ["Japanese light armor and infantry carriers", "Japanese light armour and infantry carriers", "light-armor and infantry-carrier system"] }
+  ,{ href: "type-7-chi-ru.html", terms: ["Type 7 Chi-Ru", "Chi-Ru"] }
+  ,{ href: "type-7-ho-to.html", terms: ["Type 7 Ho-To", "Ho-To"] }
+  ,{ href: "type-18-yu-ha.html", terms: ["Type 18 Yu-Ha", "Yu-Ha", "Type 18 Yu-Ha Kō", "Type 18 Yu-Ha Otsu"] }
+  ,{ href: "type-33-ho-he.html", terms: ["Type 33 Ho-He", "Ho-He"] }
+  ,{ href: "type-35-ke-yo.html", terms: ["Type 35 Ke-Yo", "Ke-Yo"] }
+  ,{ href: "type-40-yu-ni.html", terms: ["Type 40 Yu-Ni", "Yu-Ni"] }
   ,{ href: "type-16-shu-ha.html", terms: ["Type 16 Shu-Ha", "Shu-Ha", "Type 16 Shu-Ha Kai"] }
   ,{ href: "type-26-shu-he.html", terms: ["Type 26 Shu-He", "Shu-He", "Type 26 Shu-He Kai"] }
   ,{ href: "type-36-shu-ri.html", terms: ["Type 36 Shu-Ri", "Shu-Ri", "Type 36 Shu-Ri Kai", "Type 36 Shu-Ri Kai Ni"] }
