@@ -1769,6 +1769,12 @@ const pages = [
   { title: "Toyo Kogyo", description: "The Hiroshima vehicle manufacturer behind Mazda three-wheelers and rotary-engine experimentation", href: "toyo-kogyo.html", tags: "toyo kogyo mazda mazda-go three wheel truck rotary engine hiroshima" },
   { title: "Sharp Corporation", description: "The electronics company whose Sharp mark spans radio, television, calculators, displays, and appliances", href: "sharp-corporation.html", tags: "sharp corporation hayakawa electric radio television calculator lcd electronics japan" },
   { title: "Canon Camera", description: "The precision-imaging company that expands from cameras and lenses into office machinery", href: "canon-camera.html", tags: "canon camera precision optical imaging lenses copier calculator japan" },
+  { title: "Nippon Kogaku", description: "The integrated optical company behind Nikon cameras, Nikkor lenses, and precision instruments", href: "nippon-kogaku.html", tags: "nippon kogaku nikon nikkor camera lens microscope optical japan" },
+  { title: "Minolta Camera", description: "The independent camera, lens, sensing, planetarium, and office-imaging concern", href: "minolta-camera.html", tags: "minolta camera kazuo tashima optics lens sensing planetarium japan" },
+  { title: "Seiko", description: "The watch, clock, quartz-timing, and precision-electronics group descended from K. Hattori", href: "seiko.html", tags: "seiko seikosha hattori watch clock quartz timing japan" },
+  { title: "Casio Computer", description: "The rising calculator and compact-electronics company founded by the Kashio brothers", href: "casio-computer.html", tags: "casio computer kashio calculator relay 14-a watch compact electronics japan" },
+  { title: "Tateisi Electric", description: "The OMRON control, sensing, ticketing, and public-automation specialist", href: "omron-tateisi-electric.html", tags: "tateisi electric omron relay sensor switch automation ticketing japan" },
+  { title: "Yaskawa Electric", description: "The motor, servo, drive, mechatronics, and factory-automation specialist", href: "yaskawa-electric.html", tags: "yaskawa electric yasukawa motor servo drive mechatronics robot automation japan" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4460,6 +4466,12 @@ const crossLinks = [
   ,{ href: "toyo-kogyo.html", terms: ["Toyo Kogyo", "Tōyō Kōgyō", "Mazda-Go"] }
   ,{ href: "sharp-corporation.html", terms: ["Sharp Corporation", "Hayakawa Electric Industry", "Sharp mark"] }
   ,{ href: "canon-camera.html", terms: ["Canon Camera", "Precision Optical Industry", "Canon cameras"] }
+  ,{ href: "nippon-kogaku.html", terms: ["Nippon Kogaku", "Nippon Kōgaku", "Nikon", "Nikkor"] }
+  ,{ href: "minolta-camera.html", terms: ["Minolta Camera", "Minolta"] }
+  ,{ href: "seiko.html", terms: ["Seiko group", "Seikosha", "Seiko"] }
+  ,{ href: "casio-computer.html", terms: ["Casio Computer", "Casio", "Kashio brothers"] }
+  ,{ href: "omron-tateisi-electric.html", terms: ["Tateisi Electric", "Tateishi Electric", "OMRON", "Omron"] }
+  ,{ href: "yaskawa-electric.html", terms: ["Yaskawa Electric", "Yasukawa Electric", "Yaskawa"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
