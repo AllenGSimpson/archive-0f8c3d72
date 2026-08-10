@@ -1763,6 +1763,12 @@ const pages = [
   { title: "Toyota Motor Company", description: "Japan's mass vehicle and fleet manufacturer, retaining the Crown and Century prestige lines", href: "toyota-motor-company.html", tags: "toyota motor company kiichiro toyoda crown century trucks japan" },
   { title: "Nissan Motor Company", description: "The continental vehicle group whose Datsun marque serves the mass export market", href: "nissan-motor-company.html", tags: "nissan motor company datsun yoshisuke aikawa yokohama prince japan" },
   { title: "Matsushita Electric Industrial", description: "The mass electrical manufacturer built around National products and a dense dealer-service network", href: "matsushita-electric-industrial.html", tags: "matsushita electric industrial national panasonic technics appliances japan" },
+  { title: "Isuzu Motors", description: "The commercial-vehicle and diesel specialist serving institutional fleets across the Japanese sphere", href: "isuzu-motors.html", tags: "isuzu motors truck bus diesel commercial vehicle japan geacps" },
+  { title: "Hino Motors", description: "The truck and bus manufacturer formed around heavy transport, field service, and public purchasing", href: "hino-motors.html", tags: "hino motors truck bus diesel trailer public transport japan geacps" },
+  { title: "Prince Motor Company", description: "The prestige-car, performance, and rocket concern whose final ownership remains open", href: "prince-motor-company.html", tags: "prince motor company skyline gloria nissan tama rocket japan" },
+  { title: "Toyo Kogyo", description: "The Hiroshima vehicle manufacturer behind Mazda three-wheelers and rotary-engine experimentation", href: "toyo-kogyo.html", tags: "toyo kogyo mazda mazda-go three wheel truck rotary engine hiroshima" },
+  { title: "Sharp Corporation", description: "The electronics company whose Sharp mark spans radio, television, calculators, displays, and appliances", href: "sharp-corporation.html", tags: "sharp corporation hayakawa electric radio television calculator lcd electronics japan" },
+  { title: "Canon Camera", description: "The precision-imaging company that expands from cameras and lenses into office machinery", href: "canon-camera.html", tags: "canon camera precision optical imaging lenses copier calculator japan" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4448,6 +4454,12 @@ const crossLinks = [
   ,{ href: "toyota-motor-company.html", terms: ["Toyota Motor Company", "Toyota Motor Co.", "Toyota"] }
   ,{ href: "nissan-motor-company.html", terms: ["Nissan Motor Company", "Nissan Motor Co.", "Nissan–Datsun", "Nissan-Datsun", "Datsun"] }
   ,{ href: "matsushita-electric-industrial.html", terms: ["Matsushita Electric Industrial", "Matsushita", "National brand"] }
+  ,{ href: "isuzu-motors.html", terms: ["Isuzu Motors", "Isuzu Motor", "Isuzu"] }
+  ,{ href: "hino-motors.html", terms: ["Hino Motors", "Hino Motor", "Hino"] }
+  ,{ href: "prince-motor-company.html", terms: ["Prince Motor Company", "Prince Motors", "Prince Motor", "Prince automobile"] }
+  ,{ href: "toyo-kogyo.html", terms: ["Toyo Kogyo", "Tōyō Kōgyō", "Mazda-Go"] }
+  ,{ href: "sharp-corporation.html", terms: ["Sharp Corporation", "Hayakawa Electric Industry", "Sharp mark"] }
+  ,{ href: "canon-camera.html", terms: ["Canon Camera", "Precision Optical Industry", "Canon cameras"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
