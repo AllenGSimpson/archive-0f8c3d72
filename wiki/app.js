@@ -1817,6 +1817,10 @@ const pages = [
   { title: "Büssing", description: "The Braunschweig truck, bus, commercial-diesel, and underfloor-engine specialist", href: "buessing.html", tags: "bussing büssing braunschweig truck bus underfloor engine lion germany" },
   { title: "Hanomag", description: "The Hanover locomotive, tractor, crawler, truck, diesel, and construction-machinery concern", href: "hanomag.html", tags: "hanomag hannoversche maschinenbau hanover tractor crawler truck diesel machinery germany" },
   { title: "Zündapp", description: "The Nuremberg motorcycle, moped, scooter, light-engine, and small-vehicle manufacturer", href: "zuendapp.html", tags: "zundapp zündapp nuremberg motorcycle moped scooter ks 750 germany" },
+  { title: "DKW", description: "Auto Union's Saxon motorcycle, compact-car, van, stationary-engine, and mass-mobility marque", href: "dkw.html", tags: "dkw dampfkraftwagen rasmussen zschopau motorcycle two stroke front wheel drive auto union" },
+  { title: "Wanderer", description: "Auto Union's Chemnitz conventional middle-market automobile and machinery marque", href: "wanderer.html", tags: "wanderer chemnitz winklhofer jaenicke bicycle motorcycle car machinery auto union" },
+  { title: "Audi", description: "Auto Union's continuously active Zwickau advanced upper-middle and technical-prestige marque", href: "audi-marque.html", tags: "audi august horch zwickau advanced automobile front wheel drive auto union" },
+  { title: "Horch", description: "Auto Union's Zwickau luxury, official-limousine, ceremonial, and elite-vehicle marque", href: "horch.html", tags: "horch august zwickau luxury limousine official automobile auto union" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4556,6 +4560,10 @@ const crossLinks = [
   ,{ href: "buessing.html", terms: ["Büssing AG", "Büssing", "Buessing"] }
   ,{ href: "hanomag.html", terms: ["Hannoversche Maschinenbau AG", "Hanomag"] }
   ,{ href: "zuendapp.html", terms: ["Zündapp-Werke GmbH", "Zündapp", "Zuendapp"] }
+  ,{ href: "dkw.html", terms: ["DKW"] }
+  ,{ href: "wanderer.html", terms: ["Wanderer Werke AG", "Wanderer"] }
+  ,{ href: "audi-marque.html", terms: ["Audiwerke AG", "Audi marque", "Audi"] }
+  ,{ href: "horch.html", terms: ["Horchwerke AG", "Horch"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
