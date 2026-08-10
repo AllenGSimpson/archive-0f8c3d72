@@ -126,6 +126,18 @@ const pages = [
   { title: "Singapore Naval Base", description: "The Sembawang dockyard built to sustain an eastern battle fleet", href: "singapore-naval-base.html", tags: "singapore naval base sembawang king george vi graving dock royal navy" },
   { title: "III Indian Corps", description: "The British Indian corps headquarters responsible for northern Malaya", href: "third-indian-corps.html", tags: "iii third indian corps lewis heath 9th 11th division malaya" },
   { title: "18th Infantry Division (United Kingdom)", description: "The Territorial division diverted to Singapore in January 1942", href: "eighteenth-infantry-division-uk.html", tags: "18th eighteenth infantry division british territorial beckwith smith singapore" },
+  { title: "Harold Alexander", description: "Commander of the British expedition that accepted the Algiers Capitulation", href: "harold-alexander.html", tags: "harold alexander field marshal operation torch algiers capitulation african dunkirk" },
+  { title: "Alan Brooke", description: "Chief of the Imperial General Staff through Britain's wartime defeat", href: "alan-brooke.html", tags: "alan brooke alanbrooke cigs imperial general staff churchill british army strategy" },
+  { title: "Archibald Wavell", description: "Middle Eastern victor and India-centered Far Eastern commander", href: "archibald-wavell.html", tags: "archibald wavell field marshal middle east india burma far east" },
+  { title: "Claude Auchinleck", description: "Middle East commander and organizer of the Indian military base", href: "claude-auchinleck.html", tags: "claude auchinleck auk middle east india first el alamein" },
+  { title: "Hugh Dowding", description: "Architect of Fighter Command and the First Battle of Britain victory", href: "hugh-dowding.html", tags: "hugh dowding fighter command battle britain radar air defense" },
+  { title: "Keith Park", description: "No. 11 Group commander during the First Battle of Britain", href: "keith-park.html", tags: "keith park new zealand 11 group fighter command battle britain malta" },
+  { title: "Trafford Leigh-Mallory", description: "Big Wing advocate and later commander of Fighter Command", href: "trafford-leigh-mallory.html", tags: "trafford leigh mallory big wing 12 group fighter command" },
+  { title: "Charles Portal", description: "Chief of the Air Staff during Britain's increasingly isolated air war", href: "charles-portal.html", tags: "charles portal chief air staff raf bomber fighter command" },
+  { title: "Arthur Harris", description: "Commander-in-Chief of RAF Bomber Command", href: "arthur-harris.html", tags: "arthur bomber harris raf bomber command strategic bombing" },
+  { title: "Sholto Douglas", description: "Fighter and Coastal commander in Britain's two air-defense eras", href: "sholto-douglas.html", tags: "sholto douglas fighter command coastal command second battle britain" },
+  { title: "Dudley Pound", description: "First Sea Lord during the opening global crises of Britain's war", href: "dudley-pound.html", tags: "dudley pound first sea lord royal navy pq 17 force z" },
+  { title: "Andrew Cunningham", description: "Mediterranean Fleet commander and First Sea Lord through Lisbon", href: "andrew-cunningham.html", tags: "andrew cunningham admiral first sea lord mediterranean taranto matapan lisbon" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4514,6 +4526,18 @@ const crossLinks = [
   ,{ href: "singapore-naval-base.html", terms: ["Singapore Naval Base", "Sembawang Naval Base"] }
   ,{ href: "third-indian-corps.html", terms: ["III Indian Corps", "Third Indian Corps"] }
   ,{ href: "eighteenth-infantry-division-uk.html", terms: ["18th Infantry Division", "British 18th Division"] }
+  ,{ href: "harold-alexander.html", terms: ["Harold Alexander", "General Alexander", "Field Marshal Alexander"] }
+  ,{ href: "alan-brooke.html", terms: ["Alan Brooke", "Alanbrooke", "Lord Alanbrooke"] }
+  ,{ href: "archibald-wavell.html", terms: ["Archibald Wavell", "Lord Wavell"] }
+  ,{ href: "claude-auchinleck.html", terms: ["Claude Auchinleck", "the Auk"] }
+  ,{ href: "hugh-dowding.html", terms: ["Hugh Dowding", "Lord Dowding"] }
+  ,{ href: "keith-park.html", terms: ["Keith Park", "Sir Keith Park"] }
+  ,{ href: "trafford-leigh-mallory.html", terms: ["Trafford Leigh-Mallory", "Leigh-Mallory"] }
+  ,{ href: "charles-portal.html", terms: ["Charles Portal", "Lord Portal"] }
+  ,{ href: "arthur-harris.html", terms: ["Arthur Harris", "Bomber Harris"] }
+  ,{ href: "sholto-douglas.html", terms: ["Sholto Douglas", "Lord Douglas of Kirtleside"] }
+  ,{ href: "dudley-pound.html", terms: ["Dudley Pound", "Sir Dudley Pound"] }
+  ,{ href: "andrew-cunningham.html", terms: ["Andrew Cunningham", "Admiral Cunningham"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }
