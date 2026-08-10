@@ -194,6 +194,21 @@ const pages = [
   { title: "Colonial Forces of Italian East Africa", description: "Eritrean, Somali, and Ethiopian formations beneath Italian strategic command", href: "colonial-forces-italian-east-africa.html", tags: "colonial forces italian east africa askari auxiliaries police military" },
   { title: "Ethiopian Orthodox Church under Italian Rule", description: "Ethiopia's supervised central religious and social institution", href: "ethiopian-orthodox-church-italian-rule.html", tags: "ethiopian orthodox tewahedo church italian rule clergy monastery" },
   { title: "East African Export Economy", description: "Coffee, livestock, oilseeds, ports, taxes, and the imperial lira", href: "east-african-export-economy.html", tags: "east african export economy coffee livestock oilseeds bananas ports lira" },
+  { title: "Italian North Africa", description: "The differentiated imperial systems of Libya, Tunisia, Algeria, and the Sahara", href: "italian-north-africa.html", tags: "italian north africa libya tunisia algeria sahara empire" },
+  { title: "Italian Libya", description: "The inner colony, Fourth Shore, and bridge of Italy's African empire", href: "italian-libya.html", tags: "italian libya fourth shore tripoli benghazi cyrenaica tripolitania" },
+  { title: "Fourth Shore", description: "The colonial integration doctrine applied to coastal Libya", href: "fourth-shore.html", tags: "fourth shore quarta sponda libya colonial integration settlement" },
+  { title: "Tripoli", description: "Capital of Italian Libya and symbolic capital of Italian Africa", href: "tripoli-libya.html", tags: "tripoli libya capital port fourth shore" },
+  { title: "Benghazi", description: "Cyrenaican military and administrative center facing Egypt", href: "benghazi.html", tags: "benghazi cyrenaica libya port military egypt" },
+  { title: "Italian Tunisia", description: "Compact territory under inherited administration and Italian strategic control", href: "italian-tunisia.html", tags: "italian tunisia tunis bizerte sicily colony protectorate" },
+  { title: "Tunis", description: "Administrative and commercial capital of Italian Tunisia", href: "tunis.html", tags: "tunis tunisia capital commerce italy" },
+  { title: "Bizerte", description: "The principal Tunisian naval base in Italy's Mediterranean chain", href: "bizerte.html", tags: "bizerte tunisia naval base port italy" },
+  { title: "Italian Algeria", description: "French colonial society and Arab-Berber politics beneath Italian sovereignty", href: "italian-algeria.html", tags: "italian algeria french settlers arab berber colony" },
+  { title: "Algiers", description: "Administrative capital and inherited French metropolis of Italian Algeria", href: "algiers.html", tags: "algiers algeria capital french italy port" },
+  { title: "French Settler Society under Italian Rule", description: "Loyalty, privilege, institutions, and restoration politics in Algeria", href: "french-settler-society-algeria.html", tags: "french settlers pied noir algeria italy loyalty restoration" },
+  { title: "Italian Sahara", description: "The oasis, airfield, radio, survey, and concession geography of Italy's desert claims", href: "italian-sahara.html", tags: "italian sahara desert oases airfields radio concessions" },
+  { title: "Saharan Route System", description: "Points-and-lines infrastructure across Italy's desert acquisitions", href: "saharan-route-system.html", tags: "saharan route system oases roads airfields radio caravan" },
+  { title: "North African Religious Policy", description: "Christian preference, Muslim continuity, and settler institutions", href: "north-african-religious-policy.html", tags: "north africa religious policy christian muslim catholic missions settlers" },
+  { title: "North African Colonial Security", description: "The layered port, police, garrison, airfield, and corridor system", href: "north-african-colonial-security.html", tags: "north africa colonial security police garrison ports corridors" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4649,6 +4664,21 @@ const crossLinks = [
   ,{ href: "colonial-forces-italian-east-africa.html", terms: ["Colonial Forces of Italian East Africa", "Eritrean askari", "Somali formations"] }
   ,{ href: "ethiopian-orthodox-church-italian-rule.html", terms: ["Ethiopian Orthodox Tewahedo Church", "Ethiopian Orthodox Church"] }
   ,{ href: "east-african-export-economy.html", terms: ["East African export economy", "AOI export economy"] }
+  ,{ href: "italian-north-africa.html", terms: ["Italian North Africa", "Italy's North African empire"] }
+  ,{ href: "italian-libya.html", terms: ["Italian Libya", "Libya"] }
+  ,{ href: "fourth-shore.html", terms: ["Fourth Shore", "Quarta Sponda"] }
+  ,{ href: "tripoli-libya.html", terms: ["Tripoli"] }
+  ,{ href: "benghazi.html", terms: ["Benghazi"] }
+  ,{ href: "italian-tunisia.html", terms: ["Italian Tunisia", "Tunisia"] }
+  ,{ href: "tunis.html", terms: ["Tunis"] }
+  ,{ href: "bizerte.html", terms: ["Bizerte"] }
+  ,{ href: "italian-algeria.html", terms: ["Italian Algeria", "Algeria"] }
+  ,{ href: "algiers.html", terms: ["Algiers"] }
+  ,{ href: "french-settler-society-algeria.html", terms: ["French settler society", "French settlers in Algeria", "European settlers in Algeria"] }
+  ,{ href: "italian-sahara.html", terms: ["Italian Sahara", "Saharan acquisitions"] }
+  ,{ href: "saharan-route-system.html", terms: ["Saharan Route System", "Saharan route system", "Saharan routes"] }
+  ,{ href: "north-african-religious-policy.html", terms: ["North African Religious Policy", "North African religious policy"] }
+  ,{ href: "north-african-colonial-security.html", terms: ["North African Colonial Security", "North African colonial security"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }

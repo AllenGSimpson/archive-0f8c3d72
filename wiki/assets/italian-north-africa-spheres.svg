@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Italian North Africa operating spheres</title><desc id="desc">Schematic showing Algeria, Tunisia, Libya, principal cities, Mediterranean routes, and Saharan points and lines.</desc>
+  <rect width="1200" height="700" fill="#101817"/><path d="M0 0h1200v205c-165-27-299 11-444-8-151-20-277 29-399 4-119-25-224 20-357-2z" fill="#123b4b"/>
+  <path d="M0 218c144 26 253-22 383 7 122 27 232-20 379-3 146 17 284-17 438 12v466H0z" fill="#6d6048"/>
+  <path d="M0 218c133 24 243-19 367 7v202H0z" fill="#53483e"/><path d="M367 225c62 7 116 1 176-5l24 220H367z" fill="#5e5140"/><path d="M567 220c67-3 127-8 195 2 146 17 284-17 438 12v206H567z" fill="#5a4b3a"/>
+  <g fill="none" stroke="#d7b66c" stroke-width="10" stroke-linecap="round"><path d="M98 266L288 252L426 258L626 270L809 279L1008 291"/><path d="M809 279L858 448L1015 561"/><path d="M626 270L678 432L793 555"/><path d="M288 252L341 423L480 552"/></g>
+  <g fill="#f6ead0" stroke="#822c2d" stroke-width="4"><circle cx="98" cy="266" r="13"/><circle cx="288" cy="252" r="13"/><circle cx="426" cy="258" r="13"/><circle cx="626" cy="270" r="13"/><circle cx="809" cy="279" r="13"/><circle cx="1008" cy="291" r="13"/><circle cx="858" cy="448" r="10"/><circle cx="1015" cy="561" r="10"/><circle cx="678" cy="432" r="10"/><circle cx="793" cy="555" r="10"/><circle cx="341" cy="423" r="10"/><circle cx="480" cy="552" r="10"/></g>
+  <g fill="#f2ead8" font-family="Georgia,serif" font-size="24"><text x="76" y="240">Oran</text><text x="250" y="226">Algiers</text><text x="398" y="232">Bône</text><text x="600" y="244">Tunis</text><text x="780" y="253">Tripoli</text><text x="980" y="265">Benghazi</text></g>
+  <g fill="#cabf9f" font-family="Arial,sans-serif" font-size="19"><text x="130" y="350">ALGERIA</text><text x="408" y="350">TUNISIA</text><text x="780" y="350">LIBYA</text><text x="490" y="635">SAHARA · OASES · AIRFIELDS · RADIO · SURVEY ROUTES</text></g>
+  <text x="600" y="64" text-anchor="middle" fill="#f0e1c1" font-family="Georgia,serif" font-size="39">ITALIAN NORTH AFRICA</text><text x="600" y="103" text-anchor="middle" fill="#aebbb4" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">INTEGRATED COASTS · NEGOTIATED INTERIORS · STRATEGIC POINTS AND LINES</text>
+</svg>
