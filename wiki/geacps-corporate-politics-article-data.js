@@ -141,6 +141,7 @@ Object.assign(window.deepArticles, {
 
 for (const [key, links] of Object.entries({
   "geacps":[
+    {href:"capitals-of-greater-east-asia.html",kicker:"Political geography",label:"Capital Cities of Greater East Asia"},
     {href:"corporate-politics-geacps.html",kicker:"Political machinery",label:"Corporate Politics in the GEACPS"},
     {href:"corporate-host-bargain.html",kicker:"Associated-state settlement",label:"Corporate–Host Bargain"},
     {href:"mature-co-prosperity-system.html",kicker:"System by 2000",label:"Mature Co-Prosperity System"}
