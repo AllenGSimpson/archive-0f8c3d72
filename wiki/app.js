@@ -1775,6 +1775,12 @@ const pages = [
   { title: "Casio Computer", description: "The rising calculator and compact-electronics company founded by the Kashio brothers", href: "casio-computer.html", tags: "casio computer kashio calculator relay 14-a watch compact electronics japan" },
   { title: "Tateisi Electric", description: "The OMRON control, sensing, ticketing, and public-automation specialist", href: "omron-tateisi-electric.html", tags: "tateisi electric omron relay sensor switch automation ticketing japan" },
   { title: "Yaskawa Electric", description: "The motor, servo, drive, mechatronics, and factory-automation specialist", href: "yaskawa-electric.html", tags: "yaskawa electric yasukawa motor servo drive mechatronics robot automation japan" },
+  { title: "Hitachi", description: "The broad electrical, industrial, computing, semiconductor, and infrastructure systems group", href: "hitachi.html", tags: "hitachi odaira motor generator turbine railway computer semiconductor japan" },
+  { title: "Toshiba", description: "The Tokyo Shibaura electrical house spanning power, appliances, electronics, computers, and semiconductors", href: "toshiba.html", tags: "toshiba tokyo shibaura electric tanaka hakunetsusha power electronics computer japan" },
+  { title: "Nippon Electric Company", description: "The NEC telecommunications, computing, semiconductor, and spacecraft-systems company", href: "nippon-electric-company.html", tags: "nippon electric company nec telecommunications computer semiconductor satellite japan" },
+  { title: "Fujitsu", description: "The telecommunications and computing company behind the FACOM line and Japanese ground systems", href: "fujitsu.html", tags: "fujitsu fuji telecommunications facom computer mainframe semiconductor japan" },
+  { title: "Mitsubishi Electric", description: "The Mitsubishi power, automation, electronics, semiconductor, and space-systems firm", href: "mitsubishi-electric.html", tags: "mitsubishi electric power automation electronics semiconductor spacecraft japan" },
+  { title: "Nakajima Industrial Company", description: "The protected aviation, engine, vehicle, and machinery concern descended from Nakajima Aircraft", href: "nakajima-industrial-company.html", tags: "nakajima industrial aircraft aviation engine vehicle machinery fifth house japan" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4472,6 +4478,12 @@ const crossLinks = [
   ,{ href: "casio-computer.html", terms: ["Casio Computer", "Casio", "Kashio brothers"] }
   ,{ href: "omron-tateisi-electric.html", terms: ["Tateisi Electric", "Tateishi Electric", "OMRON", "Omron"] }
   ,{ href: "yaskawa-electric.html", terms: ["Yaskawa Electric", "Yasukawa Electric", "Yaskawa"] }
+  ,{ href: "hitachi.html", terms: ["Hitachi, Ltd.", "Hitachi"] }
+  ,{ href: "toshiba.html", terms: ["Tokyo Shibaura Electric", "Toshiba"] }
+  ,{ href: "nippon-electric-company.html", terms: ["Nippon Electric Company", "NEC"] }
+  ,{ href: "fujitsu.html", terms: ["Fujitsu", "Fuji Telecommunications Equipment"] }
+  ,{ href: "mitsubishi-electric.html", terms: ["Mitsubishi Electric"] }
+  ,{ href: "nakajima-industrial-company.html", terms: ["Nakajima Industrial Company", "Nakajima Industrial", "Nakajima Aircraft Company", "Nakajima Aircraft"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
