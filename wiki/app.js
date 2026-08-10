@@ -1808,6 +1808,11 @@ const pages = [
   { title: "Ernst Leitz and Leica", description: "The Wetzlar microscope, camera, lens, scientific-instrument, and precision-computing company", href: "ernst-leitz-leica.html", tags: "ernst leitz leica wetzlar barnack camera microscope lens z5 germany" },
   { title: "Agfa", description: "The IG Farben division for photographic film, cameras, cinema, radiography, and industrial imaging", href: "agfa.html", tags: "agfa ig farben film camera cinema x ray radiography imaging germany" },
   { title: "Voigtländer", description: "The historic Braunschweig manufacturer of cameras, lenses, binoculars, and precision optics", href: "voigtlaender.html", tags: "voigtlander voigtländer braunschweig petzval camera lens optics germany" },
+  { title: "Daimler-Benz", description: "Germany's Mercedes-Benz automobile, commercial-vehicle, engine, and transport-engineering group", href: "daimler-benz.html", tags: "daimler benz mercedes stuttgart automobile truck bus diesel safety germany" },
+  { title: "Adam Opel AG", description: "The German-American blocked automobile and commercial-vehicle manufacturer at Rüsselsheim", href: "adam-opel-ag.html", tags: "adam opel general motors gm russelsheim rüsselsheim automobile blitz blocked germany" },
+  { title: "Ford-Werke", description: "The German-American blocked passenger-car, van, truck, and engine manufacturer at Cologne", href: "ford-werke.html", tags: "ford werke ford germany cologne koln köln automobile truck van blocked" },
+  { title: "Porsche", description: "The family engineering office, sports-car manufacturer, racing organization, and luxury specialist", href: "porsche.html", tags: "porsche ferdinand ferry stuttgart gmünd sports car luxury racing engineering germany" },
+  { title: "NSU Motorenwerke", description: "The Neckarsulm motorcycle, compact-car, and rotary-engine specialist", href: "nsu-motorenwerke.html", tags: "nsu motorenwerke neckarsulm motorcycle compact car wankel rotary engine germany" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4538,6 +4543,11 @@ const crossLinks = [
   ,{ href: "ernst-leitz-leica.html", terms: ["Ernst Leitz GmbH", "Ernst Leitz", "Leitz", "Leica"] }
   ,{ href: "agfa.html", terms: ["Aktiengesellschaft für Anilinfabrikation", "Agfa"] }
   ,{ href: "voigtlaender.html", terms: ["Voigtländer", "Voigtlaender"] }
+  ,{ href: "daimler-benz.html", terms: ["Daimler-Benz AG", "Daimler-Benz", "Mercedes-Benz"] }
+  ,{ href: "adam-opel-ag.html", terms: ["Adam Opel AG", "Opel"] }
+  ,{ href: "ford-werke.html", terms: ["Ford-Werke AG", "Ford-Werke", "Ford Germany"] }
+  ,{ href: "porsche.html", terms: ["Dr. Ing. h.c. F. Porsche", "Porsche"] }
+  ,{ href: "nsu-motorenwerke.html", terms: ["NSU Motorenwerke AG", "NSU Motorenwerke", "NSU"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
