@@ -488,3 +488,10 @@ These original diagrams summarize the registered Royal Navy and Siege Commonweal
 | --- | --- | --- |
 | `diagrams/british-maritime-system.svg` | Carrier, ASW, submarine, base, amphibious, and auxiliary systems organized around the Cape route | Naval Armaments Reference and Setting Bible |
 | `diagrams/royal-navy-postwar-lineages.svg` | British capital-ship, carrier, cruiser, escort, submarine, and amphibious succession, 1944–1985 | Naval Armaments Reference and Naval Asset Registry |
+
+## Catholic leadership portraits
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `portraits/joseph-ratzinger.jpg` | Joseph Ratzinger in Rome, 1988 | Rose Meierhofer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ratzinger-Rom88.JPG), CC BY-SA 3.0 |
+| `portraits/karol-wojtyla.jpg` | Karol Wojtyła as cardinal | geo573, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Karol_Wojty%C5%82a_portrait.jpg), CC BY 3.0 |
