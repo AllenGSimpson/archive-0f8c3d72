@@ -170,6 +170,16 @@ const pages = [
   { title: "Alexandria", description: "Egypt's Mediterranean cotton, grain, shipping, and financial port", href: "alexandria.html", tags: "alexandria egypt port cotton grain finance shipping articles" },
   { title: "Suez Canal Zone", description: "The Italian-controlled military-commercial corridor inside Egypt", href: "suez-canal-zone.html", tags: "suez canal zone port said ismailia egypt italy tolls bases" },
   { title: "Coptic Orthodox Church in Egypt", description: "The indigenous Christian institution expanded under Italian protection", href: "coptic-orthodox-church-egypt.html", tags: "coptic orthodox church egypt schools charities hospitals christianity" },
+  { title: "Sudan", description: "The jointly protected Nile territory linking Egypt to the Red Sea and Italian East Africa", href: "sudan.html", tags: "sudan nile condominium italy egypt khartoum port sudan red sea" },
+  { title: "Italo–Egyptian Condominium", description: "The divided constitutional order governing post-Lisbon Sudan", href: "italo-egyptian-condominium.html", tags: "italo egyptian condominium sudan joint rule protectorate lisbon" },
+  { title: "High Commission for Sudan", description: "The Italian strategic authority over external defense, railways, and the Red Sea", href: "high-commission-sudan.html", tags: "high commission sudan italy khartoum port sudan defense railways" },
+  { title: "Khartoum", description: "Administrative capital and Nile-railway junction of jointly protected Sudan", href: "khartoum.html", tags: "khartoum sudan capital blue white nile omdurman condominium" },
+  { title: "Port Sudan", description: "The Italian-controlled Red Sea gateway of the Sudanese corridor", href: "port-sudan.html", tags: "port sudan red sea harbor railway italy cotton gum arabic" },
+  { title: "Sudan Railways", description: "The transport and communications spine connecting Khartoum to the Red Sea", href: "sudan-railways.html", tags: "sudan railways khartoum atbara port sudan railway transport" },
+  { title: "Gezira Scheme", description: "The irrigated cotton system south of Khartoum", href: "gezira-scheme.html", tags: "gezira scheme sudan irrigation cotton sennar blue nile" },
+  { title: "Sudan Defence Force", description: "The local military institution beneath Italian strategic command", href: "sudan-defence-force.html", tags: "sudan defence force military army condominium garrison railway" },
+  { title: "Southern Sudan Missions", description: "Christian schools, medicine, and local institutions in the thinly governed south", href: "southern-sudan-missions.html", tags: "southern sudan missions catholic protestant church schools hospitals" },
+  { title: "Sudanese Export Economy", description: "Cotton, livestock, gum arabic, rail, river, and Red Sea trade", href: "sudanese-export-economy.html", tags: "sudan export economy cotton livestock gum arabic rail port" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4601,6 +4611,16 @@ const crossLinks = [
   ,{ href: "alexandria.html", terms: ["Alexandria"] }
   ,{ href: "suez-canal-zone.html", terms: ["Suez Canal Zone", "canal zone"] }
   ,{ href: "coptic-orthodox-church-egypt.html", terms: ["Coptic Orthodox Church", "Coptic Church"] }
+  ,{ href: "sudan.html", terms: ["Italo–Egyptian Sudan", "Italian Sudan", "Nile Sudan", "Sudan"] }
+  ,{ href: "italo-egyptian-condominium.html", terms: ["Italo–Egyptian Condominium", "Italo-Egyptian Condominium", "jointly protected Sudan"] }
+  ,{ href: "high-commission-sudan.html", terms: ["High Commission for Sudan", "Sudan High Commission"] }
+  ,{ href: "khartoum.html", terms: ["Khartoum"] }
+  ,{ href: "port-sudan.html", terms: ["Port Sudan"] }
+  ,{ href: "sudan-railways.html", terms: ["Sudan Railways", "Sudanese railways"] }
+  ,{ href: "gezira-scheme.html", terms: ["Gezira Scheme", "Gezira irrigation"] }
+  ,{ href: "sudan-defence-force.html", terms: ["Sudan Defence Force", "Sudan Defense Force"] }
+  ,{ href: "southern-sudan-missions.html", terms: ["southern Sudan missions", "missions in southern Sudan"] }
+  ,{ href: "sudanese-export-economy.html", terms: ["Sudanese export economy", "gum arabic"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }

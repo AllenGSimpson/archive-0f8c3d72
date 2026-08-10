@@ -274,7 +274,7 @@ Object.assign(window.deepArticles, {
       {id:"kuwait",title:"Operation Covenant",html:"<p>During the Kuwait War Italy may permit selected British transports, hospital ships, or urgent commercial cargo under inspection. It does not grant the Royal Navy unrestricted wartime passage or become a British ally.</p>"},
       {id:"system",title:"Place in the Latin system",html:"<p>Suez links Mediterranean industry to the Red Sea, East Africa, the Indian Ocean, and Latin-associated markets. Its revenue, traffic data, and logistics help make Italy the geographic center of the less formalized Latin Bloc.</p>"}
     ],
-    related:[{href:"suez-canal-zone.html",kicker:"Territorial footprint",label:"Suez Canal Zone"},{href:"egypt.html",kicker:"Host kingdom",label:"Kingdom of Egypt"},{href:"italy.html",kicker:"Controlling power",label:"Kingdom of Italy"},{href:"operation-covenant.html",kicker:"1974 crisis use",label:"Operation Covenant"}],
+    related:[{href:"suez-canal-zone.html",kicker:"Territorial footprint",label:"Suez Canal Zone"},{href:"egypt.html",kicker:"Host kingdom",label:"Kingdom of Egypt"},{href:"sudan.html",kicker:"Southern Nile link",label:"Nile Sudan"},{href:"port-sudan.html",kicker:"Red Sea continuation",label:"Port Sudan"},{href:"italy.html",kicker:"Controlling power",label:"Kingdom of Italy"}],
     facts:[["Waterway","Suez Canal"],["Strategic controller","Kingdom of Italy"],["Local state","Egyptian protectorate monarchy"],["Ordinary commerce","Generally open"],["Principal tools","Tolls, preference, surveillance, inspection"],["Military passage","Controlled and conditional"],["1974 policy","Selected British traffic under inspection"],["Revenue formula","Open"]]
   })
 });
