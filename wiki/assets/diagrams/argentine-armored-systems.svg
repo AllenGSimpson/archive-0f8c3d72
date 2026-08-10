@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Argentine armored systems, 1967–1985</title>
+  <desc id="desc">Diagram separating German export tanks and reconnaissance vehicles from the Argentine-designed TAM and VCTP tracked family.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10171b"/><stop offset="1" stop-color="#20292b"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".4"/></filter>
+    <style>
+      .kicker{font:700 19px Arial,sans-serif;letter-spacing:5px;fill:#f0c75b}.title{font:700 49px Georgia,serif;fill:#f2efe7}.sub{font:18px Arial,sans-serif;fill:#bfc8c9}.head{font:700 20px Arial,sans-serif;letter-spacing:3px;fill:#dcebed}.year{font:700 18px Arial,sans-serif;letter-spacing:2px;fill:#f2d584}.name{font:700 25px Georgia,serif;fill:#fff}.spec{font:16px Arial,sans-serif;fill:#e4ebea}.note{font:15px Arial,sans-serif;fill:#bdc9c7}.line{stroke:#71a7bb;stroke-width:4}.box{stroke:#7f9da6;stroke-width:2}.footer{font:700 17px Arial,sans-serif;letter-spacing:2px;fill:#d8cc99}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 0h90v900H0z" fill="#74acdf"/><path d="M30 0h30v900H30z" fill="#f6f3e8"/>
+  <text x="135" y="82" class="kicker">ARGENTINE ARMORED PROCUREMENT</text>
+  <text x="135" y="145" class="title">Imported systems and a domestic tracked family</text>
+  <text x="135" y="182" class="sub">German complete vehicles and high-value components · Argentine design authority · South Atlantic doctrine</text>
+  <text x="145" y="255" class="head">GERMAN EXPORT SYSTEMS</text><line x1="145" y1="277" x2="1480" y2="277" class="line"/>
+  <g filter="url(#shadow)">
+    <rect x="145" y="305" width="390" height="145" rx="10" fill="#304d58" class="box"/><text x="172" y="341" class="year">1967 ARGENTINE SERVICE</text><text x="172" y="380" class="name">Panzer X Ausf. D(ar)</text><text x="172" y="414" class="spec">48.2 t · 105 mm · 1,000 hp · 50 km/h</text>
+    <rect x="605" y="305" width="390" height="145" rx="10" fill="#345762" class="box"/><text x="632" y="341" class="year">1977 ARGENTINE SERVICE</text><text x="632" y="380" class="name">Panzer XI Ausf. D(ar)</text><text x="632" y="414" class="spec">54 purchased · 10 in Falklands · export package</text>
+    <rect x="1065" y="305" width="390" height="145" rx="10" fill="#365966" class="box"/><text x="1092" y="341" class="year">1978</text><text x="1092" y="380" class="name">VBE-78 Ñandú</text><text x="1092" y="414" class="spec">German-built · 6×6 · amphibious · 100 km/h</text>
+  </g>
+  <text x="145" y="525" class="head">ARGENTINE-DESIGNED TAM / VCTP FAMILY</text><line x1="145" y1="547" x2="1480" y2="547" class="line"/>
+  <g filter="url(#shadow)">
+    <rect x="145" y="575" width="420" height="155" rx="10" fill="#3a5960" class="box"/><text x="172" y="611" class="year">1975 / 1981</text><text x="172" y="650" class="name">TAM-74A1 / TAM-74A2</text><text x="172" y="684" class="spec">32.5–33 t · 105 mm · 720 hp · 70 km/h</text><text x="172" y="712" class="note">A2: laser · improved stabilization · passive night sight</text>
+    <rect x="655" y="575" width="420" height="155" rx="10" fill="#405e63" class="box"/><text x="682" y="611" class="year">1976</text><text x="682" y="650" class="name">VCTP-74</text><text x="682" y="684" class="spec">30 t · 3 + 7 · 30×170 mm · 70 km/h</text><text x="682" y="712" class="note">Shared Argentine hull and automotive architecture</text>
+    <rect x="1165" y="575" width="290" height="155" rx="10" fill="#2b393b" class="box"/><text x="1192" y="611" class="year">1985 FORCE</text><text x="1192" y="650" class="name">Two supply paths</text><text x="1192" y="684" class="note">Domestic design</text><text x="1192" y="710" class="note">Imported high-value systems</text>
+  </g>
+  <text x="135" y="802" class="note">Domestic design does not mean complete domestic manufacture; German components remain central to the TAM/VCTP family.</text>
+  <text x="135" y="846" class="footer">FRACTURED PEACE ARCHIVE · LAND ARMAMENTS REGISTER</text>
+</svg>

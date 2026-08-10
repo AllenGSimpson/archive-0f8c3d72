@@ -2001,7 +2001,13 @@ const pages = [
   { title: "Fusil Automático 59", description: "Spain's gas-operated 7×51 mm LC battle rifle", href: "fusil-automatico-59.html", tags: "fusil automatico automático 59 spanish gas operated battle rifle 7x51" },
   { title: "Ametralladora 60", description: "Spain's belt-fed 7×51 mm LC general-purpose machine gun", href: "ametralladora-60.html", tags: "ametralladora 60 spanish general purpose machine gun gpmg belt 7x51" },
   { title: "Fusil Automático 72", description: "Spain's standard 5.6×45 mm LC assault rifle", href: "fusil-automatico-72.html", tags: "fusil automatico automático 72 spanish assault rifle 5.6x45" },
-  { title: "Ametralladora 74", description: "Spain's lightened optically equipped 7×51 mm LC GPMG", href: "ametralladora-74.html", tags: "ametralladora 74 spanish lightened gpmg optical mount belt 7x51" }
+  { title: "Ametralladora 74", description: "Spain's lightened optically equipped 7×51 mm LC GPMG", href: "ametralladora-74.html", tags: "ametralladora 74 spanish lightened gpmg optical mount belt 7x51" },
+  { title: "Argentine Armored Systems", description: "Argentina's German export vehicles and national TAM/VCTP tracked family", href: "argentine-armored-systems.html", tags: "argentina argentine armored systems tam vctp nandu panzer export falklands" },
+  { title: "Panzer X Ausf. D(ar)", description: "Argentina's 1967 export-specific Panzer X tank", href: "panzer-x-ausf-d-ar.html", tags: "panzer x ausf d ar argentina export tank 1967" },
+  { title: "Panzer XI Ausf. D(ar)", description: "Argentina's export Panzer XI and elite 1985 Falklands reserve", href: "panzer-xi-ausf-d-ar.html", tags: "panzer xi ausf d ar argentina export tank falklands mount pleasant" },
+  { title: "TAM-74", description: "Argentina's domestically designed TAM-74A1 and A2 gun-vehicle family", href: "tam-74.html", tags: "tam 74 a1 a2 argentina argentine tank gun vehicle german assistance" },
+  { title: "VCTP-74", description: "Argentina's TAM-family tracked infantry carrier", href: "vctp-74.html", tags: "vctp 74 argentina argentine infantry carrier tam family 30 mm" },
+  { title: "VBE-78 Ñandú", description: "Argentina's German-built amphibious six-wheeled reconnaissance vehicle", href: "vbe-78-nandu.html", tags: "vbe 78 nandu ñandú argentina reconnaissance six wheeled amphibious" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2352,6 +2358,7 @@ const crossLinks = [
   { href: "german-field-recovery.html", terms: ["German field recovery", "forward maintenance"] },
   { href: "schuetzenpanzer-katzchen-family.html", terms: ["Schützenpanzer Kätzchen family", "Schützenpanzer 45 Kätzchen", "Schützenpanzer 56 Kätzchen II", "Kätzchen II"] },
   { href: "schuetzenpanzer-71-greif.html", terms: ["Schützenpanzer 71 Greif", "Greif IFV"] },
+  { href: "panzer-xi-ausf-d-ar.html", terms: ["Panzer XI Ausf. D(ar)", "Panzer XI D(ar)"] },
   { href: "panzer-xi.html", terms: ["Panzer XI", "Panzer 11"] },
   { href: "panzer-xii.html", terms: ["Panzer XII", "Panzer 12"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
@@ -4187,6 +4194,11 @@ const crossLinks = [
   ,{ href: "ametralladora-60.html", terms: ["Ametralladora 60"] }
   ,{ href: "fusil-automatico-72.html", terms: ["Fusil Automático 72", "Fusil Automatico 72"] }
   ,{ href: "ametralladora-74.html", terms: ["Ametralladora 74"] }
+  ,{ href: "argentine-armored-systems.html", terms: ["Argentine armored systems", "Argentine armored force"] }
+  ,{ href: "panzer-x-ausf-d-ar.html", terms: ["Panzer X Ausf. D(ar)", "Panzer X D(ar)"] }
+  ,{ href: "tam-74.html", terms: ["TAM-74A2s", "TAM-74A2", "TAM-74A1", "TAM-74"] }
+  ,{ href: "vctp-74.html", terms: ["VCTP-74s", "VCTP-74"] }
+  ,{ href: "vbe-78-nandu.html", terms: ["VBE-78 Ñandús", "VBE-78 Ñandú", "VBE-78 Nandus", "VBE-78 Nandu"] }
 ];
 
 function escapePattern(value) {
