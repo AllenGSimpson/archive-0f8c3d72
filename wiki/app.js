@@ -2069,6 +2069,12 @@ const pages = [
   ,{ title: "Occitan Battlefield Integration", description: "Occitan artillery observation, fire control, and close-air-support coordination", href: "occitan-battlefield-integration.html", tags: "occitania occitan battlefield integration artillery observation fire control electronics close air support coordination" }
   ,{ title: "Spanish Armored Forces", description: "Spain's mixed force of Italian Ariete-series tanks, Occitan light armor, and national wheeled vehicles", href: "spanish-armored-forces.html", tags: "spain spanish armored forces tanks ariete occitan light armor licensed production" }
   ,{ title: "Spanish Wheeled Armored Vehicles", description: "Spain's domestically built carrier and armored-reconnaissance vehicle branch", href: "spanish-wheeled-armored-vehicles.html", tags: "spain spanish wheeled armored vehicles carriers reconnaissance armored cars angola" }
+  ,{ title: "Latin Military Aviation", description: "The coordinated but non-unified air-power system of Italy, Occitania, Spain, and Portugal", href: "latin-military-aviation.html", tags: "latin bloc military aviation air force italy occitania spain portugal aircraft aerospace" }
+  ,{ title: "Italian Combat Aircraft Lineage", description: "Italy's uninterrupted combat-aircraft registry from wartime piston designs to the Fiat G.85", href: "italian-combat-aircraft-lineage.html", tags: "italy italian combat aircraft lineage fiat macchi reggiane piaggio aerfer aermacchi g91 g85" }
+  ,{ title: "Occitan Combat Aircraft Lineage", description: "Occitania's Ouragan, Mystère, and Mirage combat-aircraft sequence", href: "occitan-combat-aircraft-lineage.html", tags: "occitania occitan combat aircraft lineage ouragan mystere mirage dassault merignac aerospace" }
+  ,{ title: "Latin Tactical Aircraft Requirement", description: "The four-country Latin program that produced the Fiat G.91R", href: "latin-tactical-aircraft-requirement.html", tags: "latin tactical aircraft requirement fiat g91 g.91r italy spain portugal occitania" }
+  ,{ title: "Spanish Military Aviation", description: "Spain's licensed-production, training, transport, patrol, and CASA lightweight-fighter system", href: "spanish-military-aviation.html", tags: "spain spanish military aviation air force casa licensed aircraft trainers transports maritime patrol" }
+  ,{ title: "Portuguese Military Aviation", description: "Portugal's patrol, ASW, transport, colonial-reconnaissance, and rough-field aviation system", href: "portuguese-military-aviation.html", tags: "portugal portuguese military aviation air force patrol asw transport colonial reconnaissance rough field" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2477,6 +2483,12 @@ const crossLinks = [
   { href: "occitan-battlefield-integration.html", terms: ["Occitan battlefield integration", "Occitan fire-control electronics", "Occitan close-air-support coordination"] },
   { href: "spanish-armored-forces.html", terms: ["Spanish armored forces", "Spanish armored force", "Spanish armored units"] },
   { href: "spanish-wheeled-armored-vehicles.html", terms: ["Spanish-built wheeled carriers", "Spanish wheeled reconnaissance vehicles", "Spanish wheeled armored vehicles"] },
+  { href: "latin-military-aviation.html", terms: ["Latin military aviation", "Latin aviation system"] },
+  { href: "italian-combat-aircraft-lineage.html", terms: ["Italian combat-aircraft lineage", "Italian combat aircraft lineage"] },
+  { href: "occitan-combat-aircraft-lineage.html", terms: ["Occitan combat-aircraft lineage", "Occitan combat aircraft lineage", "Ouragan–Mystère–Mirage sequence"] },
+  { href: "latin-tactical-aircraft-requirement.html", terms: ["Latin Tactical Aircraft Requirement", "shared tactical-aircraft requirement"] },
+  { href: "spanish-military-aviation.html", terms: ["Spanish military aviation", "Spanish aviation system"] },
+  { href: "portuguese-military-aviation.html", terms: ["Portuguese military aviation", "Portuguese aviation system"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },

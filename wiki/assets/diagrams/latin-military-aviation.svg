@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Latin military aviation system</title>
+  <desc id="desc">Italy, Occitania, Spain, and Portugal retain distinct aviation roles while a shared Latin Tactical Aircraft Requirement produces the Fiat G.91R.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111923"/><stop offset="1" stop-color="#1d2f38"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d4b968"/></marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="680" rx="28" fill="url(#bg)"/>
+  <text x="600" y="57" text-anchor="middle" fill="#f2ead9" font-family="Georgia,serif" font-size="34" font-weight="700">Latin military aviation</text>
+  <text x="600" y="88" text-anchor="middle" fill="#adbac2" font-family="Arial,sans-serif" font-size="17">national industries and missions · shared requirements · no unified air force</text>
+  <g filter="url(#shadow)">
+    <rect x="65" y="135" width="250" height="165" rx="18" fill="#253744" stroke="#ca8365" stroke-width="3"/>
+    <text x="190" y="178" text-anchor="middle" fill="#f4edde" font-family="Arial,sans-serif" font-size="24" font-weight="700">Italy</text>
+    <text x="190" y="215" text-anchor="middle" fill="#d8e0e4" font-family="Arial,sans-serif" font-size="17">complete-aircraft industry</text>
+    <text x="190" y="245" text-anchor="middle" fill="#aab8c0" font-family="Arial,sans-serif" font-size="15">fighters · trainers · interceptors</text>
+    <text x="190" y="271" text-anchor="middle" fill="#aab8c0" font-family="Arial,sans-serif" font-size="15">maritime strike and patrol</text>
+    <rect x="345" y="135" width="250" height="165" rx="18" fill="#253744" stroke="#7eb29a" stroke-width="3"/>
+    <text x="470" y="178" text-anchor="middle" fill="#f4edde" font-family="Arial,sans-serif" font-size="24" font-weight="700">Occitania</text>
+    <text x="470" y="215" text-anchor="middle" fill="#d8e0e4" font-family="Arial,sans-serif" font-size="17">high-performance lineage</text>
+    <text x="470" y="245" text-anchor="middle" fill="#aab8c0" font-family="Arial,sans-serif" font-size="15">Ouragan · Mystère · Mirage</text>
+    <text x="470" y="271" text-anchor="middle" fill="#aab8c0" font-family="Arial,sans-serif" font-size="15">exports and systems integration</text>
+    <rect x="625" y="135" width="250" height="165" rx="18" fill="#253744" stroke="#d4b968" stroke-width="3"/>
+    <text x="750" y="178" text-anchor="middle" fill="#f4edde" font-family="Arial,sans-serif" font-size="24" font-weight="700">Spain</text>
+    <text x="750" y="215" text-anchor="middle" fill="#d8e0e4" font-family="Arial,sans-serif" font-size="17">licensed production</text>
+    <text x="750" y="245" text-anchor="middle" fill="#aab8c0" font-family="Arial,sans-serif" font-size="15">trainers · transports · patrol</text>
+    <text x="750" y="271" text-anchor="middle" fill="#aab8c0" font-family="Arial,sans-serif" font-size="15">CASA lightweight fighters</text>
+    <rect x="905" y="135" width="230" height="165" rx="18" fill="#253744" stroke="#7f9db1" stroke-width="3"/>
+    <text x="1020" y="178" text-anchor="middle" fill="#f4edde" font-family="Arial,sans-serif" font-size="24" font-weight="700">Portugal</text>
+    <text x="1020" y="215" text-anchor="middle" fill="#d8e0e4" font-family="Arial,sans-serif" font-size="17">mission specialization</text>
+    <text x="1020" y="245" text-anchor="middle" fill="#aab8c0" font-family="Arial,sans-serif" font-size="15">patrol · ASW · transport</text>
+    <text x="1020" y="271" text-anchor="middle" fill="#aab8c0" font-family="Arial,sans-serif" font-size="15">recon · rough-field attack</text>
+  </g>
+  <path d="M190 300V380H445" fill="none" stroke="#d4b968" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M470 300V365" fill="none" stroke="#d4b968" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M750 300V365" fill="none" stroke="#d4b968" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M1020 300V380H755" fill="none" stroke="#d4b968" stroke-width="4" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)">
+    <rect x="275" y="390" width="650" height="135" rx="22" fill="#304756" stroke="#e2cf91" stroke-width="3"/>
+    <text x="600" y="435" text-anchor="middle" fill="#fff6e3" font-family="Georgia,serif" font-size="26" font-weight="700">Latin Tactical Aircraft Requirement</text>
+    <text x="600" y="471" text-anchor="middle" fill="#dae2e6" font-family="Arial,sans-serif" font-size="18">shared tactical fighter and reconnaissance need</text>
+    <text x="600" y="500" text-anchor="middle" fill="#aebcc3" font-family="Arial,sans-serif" font-size="16">work shares, fleet totals, and command arrangements remain open</text>
+  </g>
+  <path d="M600 525V570" fill="none" stroke="#d4b968" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="410" y="580" width="380" height="70" rx="18" fill="#172731" stroke="#8fa1aa" stroke-width="2"/>
+  <text x="600" y="610" text-anchor="middle" fill="#f2ead9" font-family="Arial,sans-serif" font-size="21" font-weight="700">Fiat G.91R · 1957</text>
+  <text x="600" y="636" text-anchor="middle" fill="#b7c3c9" font-family="Arial,sans-serif" font-size="16">1,075 km/h · 650 km radius · four 12.7 mm guns</text>
+</svg>
