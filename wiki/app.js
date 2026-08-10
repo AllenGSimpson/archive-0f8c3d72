@@ -2139,6 +2139,15 @@ const pages = [
   ,{ title: "Type 18 Kiku", description: "Japan's 1958 radar-guided anti-ship missile", href: "type-18-kiku.html", tags: "type 18 kiku japan radar guided anti ship missile 1958" }
   ,{ title: "Type 30 Ume", description: "Japan's 1970 active-radar fleet missile", href: "type-30-ume.html", tags: "type 30 ume japan active radar fleet anti ship missile aircraft surface ship 1970" }
   ,{ title: "Type 42 Tsubaki", description: "Japan's 1982 networked over-the-horizon anti-ship missile", href: "type-42-tsubaki.html", tags: "type 42 tsubaki japan networked over horizon anti ship missile maritime aircraft 1982" }
+  ,{ title: "American Early-Jet Generation", description: "Eight American Army and Aerospace Command jets introduced from 1952 through 1960", href: "american-early-jet-generation.html", tags: "united states american early jet generation army air corps aerospace command shooting star thunderjet thunderstreak sabre starfire" }
+  ,{ title: "P-80A-5 Shooting Star", description: "America's 1952 early jet pursuit and research aircraft", href: "p-80a-5-shooting-star.html", tags: "p-80a-5 p80 shooting star lockheed army pursuit research jet 1952" }
+  ,{ title: "F-80C Shooting Star", description: "America's 1958 transitional Aerospace Command interceptor", href: "f-80c-shooting-star.html", tags: "f-80c f80 shooting star lockheed aerospace command transitional interceptor 1958" }
+  ,{ title: "F-84E Thunderjet", description: "America's 1955 Army fighter-bomber and escort", href: "f-84e-thunderjet.html", tags: "f-84e f84 thunderjet republic army fighter bomber escort 1955" }
+  ,{ title: "F-84F Thunderstreak", description: "America's 1958 Army swept-wing tactical-strike aircraft", href: "f-84f-thunderstreak.html", tags: "f-84f f84 thunderstreak republic army swept wing tactical strike 1958" }
+  ,{ title: "F-86A Sabre", description: "America's 1957 Army catch-up day fighter", href: "f-86a-sabre.html", tags: "f-86a f86 sabre north american army catch up day fighter 1957" }
+  ,{ title: "F-86F Sabre", description: "America's 1960 mature Army frontline fighter", href: "f-86f-sabre.html", tags: "f-86f f86 sabre north american army mature frontline fighter 1960" }
+  ,{ title: "F-94C Starfire", description: "America's 1958 Aerospace Command all-weather interceptor", href: "f-94c-starfire.html", tags: "f-94c f94 starfire lockheed aerospace command all weather interceptor rockets 1958" }
+  ,{ title: "F-94D Starfire", description: "America's 1960 limited Army all-weather strike aircraft", href: "f-94d-starfire.html", tags: "f-94d f94 starfire lockheed army limited all weather strike 1960" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2617,6 +2626,15 @@ const crossLinks = [
   { href: "type-18-kiku.html", terms: ["Type 18 Kiku"] },
   { href: "type-30-ume.html", terms: ["Type 30 Ume"] },
   { href: "type-42-tsubaki.html", terms: ["Type 42 Tsubaki"] },
+  { href: "american-early-jet-generation.html", terms: ["American early-jet generation", "American Early-Jet Generation", "American early jets"] },
+  { href: "p-80a-5-shooting-star.html", terms: ["P-80A-5 Shooting Star", "P-80A-5"] },
+  { href: "f-80c-shooting-star.html", terms: ["F-80C Shooting Star", "F-80C"] },
+  { href: "f-84e-thunderjet.html", terms: ["F-84E Thunderjet", "F-84E"] },
+  { href: "f-84f-thunderstreak.html", terms: ["F-84F Thunderstreak", "F-84F"] },
+  { href: "f-86a-sabre.html", terms: ["F-86A Sabre", "F-86A"] },
+  { href: "f-86f-sabre.html", terms: ["F-86F Sabre", "F-86F"] },
+  { href: "f-94c-starfire.html", terms: ["F-94C Starfire", "F-94C"] },
+  { href: "f-94d-starfire.html", terms: ["F-94D Starfire", "F-94D"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
