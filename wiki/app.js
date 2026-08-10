@@ -2052,6 +2052,13 @@ const pages = [
   ,{ title: "M8 Self-Propelled Howitzer", description: "America's M8 and M8A2 155 mm tracked divisional howitzer family", href: "m8-self-propelled-howitzer.html", tags: "m8 m8a2 self propelled howitzer american artillery 155 mm l39 divisional" }
   ,{ title: "M9 203 mm Self-Propelled Gun", description: "America's declining 203 mm heavy tracked artillery system", href: "m9-heavy-self-propelled-gun.html", tags: "m9 203 mm self propelled gun american heavy artillery 1965" }
   ,{ title: "M6 Multiple Rocket Launcher", description: "America's twelve-round 227 mm corps rocket artillery system", href: "m6-multiple-rocket-launcher.html", tags: "m6 multiple rocket launcher american artillery 227 mm twelve rockets counterbattery" }
+  ,{ title: "American Infantry Weapons, 1933–1985", description: "America's M1, M15, M16, M60, and M2HB infantry-weapons system", href: "american-infantry-weapons.html", tags: "united states american infantry weapons rifles carbines machine guns m1 m15 m16 m60 m2hb" }
+  ,{ title: "M1 Rifle", description: "America's standard 7.62×63 mm rifle through the Philippine War", href: "m1-rifle.html", tags: "m1 rifle garand american service rifle 7.62x63 en bloc philippine war" }
+  ,{ title: "M1 Carbine", description: "America's 7.62×33 mm personal-defense and light rifle", href: "m1-carbine.html", tags: "m1 carbine american personal defense light rifle 7.62x33" }
+  ,{ title: "M15 Rifle", description: "America's limited 7.62×51 mm AR-10-family battle and marksman rifle", href: "m15-rifle.html", tags: "m15 rifle american ar-10 ar10 battle rifle marksman 7.62x51" }
+  ,{ title: "M16 Rifle", description: "America's deliberately tested M16 and M16A1 small-caliber service-rifle family", href: "m16-rifle.html", tags: "m16 m16a1 rifle american service rifle 5.56x45 reliability chrome chamber" }
+  ,{ title: "M60 Machine Gun", description: "America's 7.62×51 mm expeditionary general-purpose machine gun", href: "m60-machine-gun.html", tags: "m60 machine gun american gpmg expeditionary 7.62x51 belt" }
+  ,{ title: "M2HB Machine Gun", description: "America's 12.7×99 mm heavy and vehicle machine gun", href: "m2hb-machine-gun.html", tags: "m2hb m2 hb browning heavy machine gun american 12.7x99 50 caliber vehicle" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2443,6 +2450,13 @@ const crossLinks = [
   { href: "m8-self-propelled-howitzer.html", terms: ["M8A2 155 mm self-propelled howitzer", "M8A2 self-propelled howitzer", "M8 self-propelled howitzer", "M8 self-propelled artillery", "M8A2 howitzers"] },
   { href: "m9-heavy-self-propelled-gun.html", terms: ["M9 203 mm self-propelled gun", "M9 heavy self-propelled gun", "M9 heavy artillery"] },
   { href: "m6-multiple-rocket-launcher.html", terms: ["M6 multiple rocket launcher", "M6 rocket launcher", "M6 rocket artillery"] },
+  { href: "american-infantry-weapons.html", terms: ["American infantry-weapons system", "American infantry weapons"] },
+  { href: "m1-rifle.html", terms: ["M1 Rifles", "M1 Rifle"] },
+  { href: "m1-carbine.html", terms: ["M1 Carbines", "M1 Carbine"] },
+  { href: "m15-rifle.html", terms: ["M15 battle rifle", "M15 Rifle"] },
+  { href: "m16-rifle.html", terms: ["M16A1 Rifle", "M16A1 rifles", "M16A1", "M16 Rifle", "M16 rifles"] },
+  { href: "m60-machine-gun.html", terms: ["M60 Machine Gun", "M60 machine guns", "M60 general-purpose machine gun"] },
+  { href: "m2hb-machine-gun.html", terms: ["M2HB Machine Gun", "M2HB machine guns", "12.7 mm M2HB", "M2HB"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },

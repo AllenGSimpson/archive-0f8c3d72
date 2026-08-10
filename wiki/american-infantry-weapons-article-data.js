@@ -1,0 +1,137 @@
+window.deepArticles = window.deepArticles || {};
+
+const americanInfantrySources = [
+  {href:"../landArmamentsReference%20-%20AltWWII.md",label:"Land Armaments Reference — American infantry-weapons registry and adoption notes"},
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — United States military development and intervention doctrine"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — American postwar armament chronology"},
+  {href:"../transcript.md",label:"Master Transcript — Philippine War and American military modernization"}
+];
+
+const americanInfantryLandscape = {
+  src:"assets/diagrams/american-infantry-weapons.svg",
+  alt:"Timeline of American service rifles, carbines, general-purpose machine guns, and heavy machine guns from M2HB through M16A1",
+  caption:"The American infantry system moves from M1-era full-power weapons through a brief M15 battle-rifle branch to the carefully tested M16A1, while belt-fed support remains full-power or heavy-caliber"
+};
+
+const americanInfantryArticle = config => ({
+  category:"Military equipment", eyebrow:"United States infantry weapon", landscape:americanInfantryLandscape,
+  ...config, sources:americanInfantrySources,
+  categories:config.categories || ["United States","Infantry weapons","Rifles","Machine guns","Military equipment"]
+});
+
+Object.assign(window.deepArticles, {
+  "american-infantry-weapons": americanInfantryArticle({
+    title:"American Infantry Weapons, 1933–1985", eyebrow:"American rifle and machine-gun system", infoboxKicker:"National infantry-weapons registry", infoboxTitle:"American infantry weapons",
+    lead:"American infantry weapons pass from the <a href='m1-rifle.html'>M1 Rifle</a> and <a href='m1-carbine.html'>M1 Carbine</a> of the neutral and Philippine eras through the limited <a href='m15-rifle.html'>M15 battle rifle</a> to the carefully tested <a href='m16-rifle.html'>M16 and M16A1</a>. The <a href='m60-machine-gun.html'>M60</a> supplies 7.62 mm belt-fed support, while the enduring <a href='m2hb-machine-gun.html'>M2HB</a> remains the heavy and vehicle weapon.",
+    canon:"The seven registered configurations, introduction dates, cartridges, feed systems, broad roles, M1 Rifle's Philippine-War place, M15's AR-10-family construction and limited adoption, small-caliber succession, deliberate M16 trials, smaller early reliability crisis, and M2HB vehicle use are fixed. Manufacturers, production totals, dimensions, detailed ballistics, variant lists beyond M16A1, organizations, and most combat records remain open.",
+    sections:[
+      {id:"registry",title:"Registered weapons",html:"<div class='table-wrap'><table class='wiki-table'><thead><tr><th>Weapon</th><th>Introduction</th><th>Cartridge</th><th>Feed</th><th>Standard role</th></tr></thead><tbody><tr><td><a href='m2hb-machine-gun.html'>M2HB Machine Gun</a></td><td>1933</td><td>12.7×99 mm</td><td>Disintegrating belt</td><td>Heavy and vehicle machine gun</td></tr><tr><td><a href='m1-rifle.html'>M1 Rifle</a></td><td>1936</td><td>7.62×63 mm</td><td>8-round en-bloc clip</td><td>Standard rifle through Philippine War</td></tr><tr><td><a href='m1-carbine.html'>M1 Carbine</a></td><td>1942</td><td>7.62×33 mm</td><td>15-round magazine</td><td>Personal-defense and light rifle</td></tr><tr><td><a href='m15-rifle.html'>M15 Rifle</a></td><td>1959</td><td>7.62×51 mm</td><td>20-round magazine</td><td>Limited battle and marksman rifle</td></tr><tr><td><a href='m60-machine-gun.html'>M60 Machine Gun</a></td><td>1960</td><td>7.62×51 mm</td><td>Disintegrating belt</td><td>Expeditionary GPMG</td></tr><tr><td><a href='m16-rifle.html'>M16 Rifle</a></td><td>1964</td><td>5.56×45 mm</td><td>20-round magazine</td><td>Initial small-caliber service rifle</td></tr><tr><td><a href='m16-rifle.html'>M16A1 Rifle</a></td><td>1967</td><td>5.56×45 mm</td><td>30-round magazine</td><td>Standard late-setting rifle</td></tr></tbody></table></div>"},
+      {id:"legacy",title:"M1-era system",html:"<p>The M1 Rifle anchors ordinary infantry service through the Philippine War, while the lighter M1 Carbine equips personnel whose duties do not require the full-power standard rifle. M2HB predates both in heavy and vehicle service.</p>"},
+      {id:"philippines",title:"Philippine War",html:"<p>The Philippine War makes the M1 Rifle the principal American soldier's weapon in the national memory that historically belonged to the European war. The campaign does not trigger a Vietnam-scale emergency small-arms adoption program.</p>"},
+      {id:"m15",title:"The limited M15 branch",html:"<p>M15 is a straight-line aluminum AR-10-family rifle in 7.62×51 mm. Accepted in limited numbers in 1959, it serves as a battle rifle and marksman weapon but does not replace the M1 across the force before the small-caliber program overtakes it.</p>"},
+      {id:"m16",title:"Small-caliber transition",html:"<p>M16 enters service in 1964 and M16A1 follows in 1967 with a 30-round magazine. Pre-adoption ammunition, magazine, chrome-chamber, and cleaning trials reduce the early reliability crisis while leaving the later rifle visually recognizable.</p>"},
+      {id:"support",title:"Belt-fed support",html:"<p>M60 uses the same 7.62×51 mm cartridge as M15 but feeds from a disintegrating belt as an expeditionary general-purpose machine gun. M2HB remains in 12.7×99 mm for heavy and vehicle roles.</p>"},
+      {id:"ammunition",title:"Three ammunition scales",html:"<p>By the later period the system retains 5.56×45 mm for the standard rifle, 7.62×51 mm for general-purpose support and limited battle-rifle use, and 12.7×99 mm for heavy weapons. The older 7.62×63 mm and 7.62×33 mm remain associated with M1-era arms.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>The registry does not fix production totals, manufacturers, every subvariant, precise retirement dates, special-operations weapons, pistols, shotguns, grenade launchers, squad organization, or ammunition performance beyond the listed cartridges and feeds.</p>"}
+    ],
+    related:[{href:"m1-rifle.html",kicker:"Philippine-War service rifle",label:"M1 Rifle"},{href:"m1-carbine.html",kicker:"Personal-defense weapon",label:"M1 Carbine"},{href:"m15-rifle.html",kicker:"Limited battle rifle",label:"M15 Rifle"},{href:"m16-rifle.html",kicker:"Small-caliber service family",label:"M16 Rifle"},{href:"m60-machine-gun.html",kicker:"Expeditionary GPMG",label:"M60 Machine Gun"},{href:"m2hb-machine-gun.html",kicker:"Heavy and vehicle weapon",label:"M2HB Machine Gun"}],
+    facts:[["Country","United States"],["Coverage","1933–1985"],["Philippine-War rifle","M1 Rifle"],["Limited battle rifle","M15"],["Standard late-setting rifle","M16A1"],["General-purpose machine gun","M60"],["Heavy machine gun","M2HB"],["Late-setting rifle cartridge","5.56×45 mm"]]
+  }),
+
+  "m1-rifle": americanInfantryArticle({
+    title:"M1 Rifle", eyebrow:"American service rifle · introduced 1936", infoboxKicker:"Semiautomatic service rifle", infoboxTitle:"M1 Rifle",
+    lead:"The M1 Rifle is the United States' 7.62×63 mm semiautomatic service rifle introduced in 1936. Fed by an eight-round en-bloc clip, it remains the standard rifle through the Philippine War and becomes the characteristic arm of America's principal postwar soldier myth.",
+    canon:"The designation, 1936 introduction, 7.62×63 mm cartridge, eight-round en-bloc clip, standard-rifle role through the Philippine War, and later succession by the M16 family are fixed. Detailed production, manufacturers, dimensions, variants, unit distribution, exact retirement, and combat claims remain open unless inherited from the pre-divergence weapon.",
+    sections:[
+      {id:"adoption",title:"Adoption",html:"<p>Introduced in 1936 before the divergence, M1 gives American infantry a self-loading full-power rifle. Its basic identity is inherited from the common prewar history.</p>"},
+      {id:"configuration",title:"Registered configuration",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1936</td></tr><tr><th>Cartridge</th><td>7.62×63 mm</td></tr><tr><th>Feed</th><td>8-round en-bloc clip</td></tr><tr><th>Role</th><td>Standard rifle through the Philippine War</td></tr></tbody></table></div>"},
+      {id:"neutrality",title:"Neutral-era service",html:"<p>American neutrality prevents the rifle from acquiring the historical identity of a mass European victory weapon. It remains a national service arm without the same wartime production and veteran context.</p>"},
+      {id:"philippines",title:"Philippine War",html:"<p>M1 is the standard rifle during the 1953–1957 Philippine War. The campaign, rather than Europe, makes it the weapon most closely associated with the setting's first great American soldier generation.</p>"},
+      {id:"succession",title:"Attempted succession",html:"<p>The <a href='m15-rifle.html'>M15</a> enters limited service in 1959 but cannot replace M1 across the force before the small-caliber <a href='m16-rifle.html'>M16</a> program overtakes it.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>The post-divergence registry does not establish total production, every mark, reserve distribution, ceremonial use, or retirement date. Historical post-1941 production figures cannot be transferred automatically.</p>"}
+    ],
+    related:[{href:"american-infantry-weapons.html",kicker:"National weapon system",label:"American Infantry Weapons"},{href:"m1-carbine.html",kicker:"Light M1-era companion",label:"M1 Carbine"},{href:"m15-rifle.html",kicker:"Limited successor",label:"M15 Rifle"},{href:"m16-rifle.html",kicker:"Small-caliber successor",label:"M16 Rifle"},{href:"philippine-war.html",kicker:"Principal wartime service",label:"Philippine War"},{href:"united-states.html",kicker:"Country article",label:"United States"}],
+    facts:[["Country","United States"],["Introduction","1936"],["Type","Semiautomatic service rifle"],["Cartridge","7.62×63 mm"],["Feed","8-round en-bloc clip"],["Principal war","Philippine War"],["Limited successor","M15 Rifle"],["Standard successor","M16 family"]]
+  }),
+
+  "m1-carbine": americanInfantryArticle({
+    title:"M1 Carbine", eyebrow:"American personal-defense and light rifle · introduced 1942", infoboxKicker:"Light semiautomatic carbine", infoboxTitle:"M1 Carbine",
+    lead:"The M1 Carbine is an American 7.62×33 mm light rifle introduced in 1942. Its fifteen-round detachable magazine and personal-defense role place it between a service pistol and the full-power <a href='m1-rifle.html'>M1 Rifle</a> for personnel whose primary duties make the standard rifle unnecessarily burdensome.",
+    canon:"The designation, 1942 introduction, 7.62×33 mm cartridge, fifteen-round magazine, and personal-defense and light-rifle roles are fixed. Manufacturers, dimensions, weight, variants, production, users, Philippine-War distribution, replacement, and combat history remain open.",
+    sections:[
+      {id:"role",title:"Personal-defense role",html:"<p>M1 Carbine gives officers, specialists, support personnel, and other lightly armed users a shoulder weapon more capable than a pistol without duplicating the full-power standard rifle. Exact issue categories remain open.</p>"},
+      {id:"configuration",title:"Registered configuration",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1942</td></tr><tr><th>Cartridge</th><td>7.62×33 mm</td></tr><tr><th>Feed</th><td>15-round magazine</td></tr><tr><th>Role</th><td>Personal-defense and light rifle</td></tr></tbody></table></div>"},
+      {id:"position",title:"Position beside M1 Rifle",html:"<p>The shared M1 ordinal does not make the carbine a shortened version of the rifle. Its cartridge, magazine, and role form a separate weapon category.</p>"},
+      {id:"war",title:"Philippine-era service",html:"<p>The carbine remains part of the American inventory during the Philippine-War period, but the source does not fix its issue scale, units, or individual combat record.</p>"},
+      {id:"transition",title:"Postwar transition",html:"<p>Later 7.62×51 mm and 5.56×45 mm rifles change the surrounding weapons system. The carbine's precise reserve life and successor are not yet registered.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>Automatic variants, magazine developments, accessories, production totals, manufacturers, foreign transfers, and retirement dates should not be imported automatically from historical service.</p>"}
+    ],
+    related:[{href:"american-infantry-weapons.html",kicker:"National weapon system",label:"American Infantry Weapons"},{href:"m1-rifle.html",kicker:"Full-power M1-era companion",label:"M1 Rifle"},{href:"m15-rifle.html",kicker:"Postwar full-power rifle",label:"M15 Rifle"},{href:"m16-rifle.html",kicker:"Small-caliber service family",label:"M16 Rifle"},{href:"philippine-war.html",kicker:"Principal American war",label:"Philippine War"},{href:"united-states.html",kicker:"Country article",label:"United States"}],
+    facts:[["Country","United States"],["Introduction","1942"],["Type","Personal-defense and light rifle"],["Cartridge","7.62×33 mm"],["Feed","15-round magazine"],["Standard-rifle companion","M1 Rifle"],["Postwar distribution","Open"],["Retirement date","Open"]]
+  }),
+
+  "m15-rifle": americanInfantryArticle({
+    title:"M15 Rifle", eyebrow:"American limited battle and marksman rifle · introduced 1959", infoboxKicker:"AR-10-family battle rifle", infoboxTitle:"M15 Rifle",
+    lead:"The M15 is an American 7.62×51 mm straight-line aluminum battle rifle introduced in 1959. Derived from the AR-10 family and fed by a twenty-round magazine, it enters limited service as a battle and marksman rifle but is overtaken by the small-caliber program before replacing the <a href='m1-rifle.html'>M1 Rifle</a> across the force.",
+    canon:"The designation, date, cartridge, twenty-round magazine, limited battle-rifle and marksman roles, AR-10-family identity, straight-line aluminum construction, and failure to replace M1 before the small-caliber transition are fixed. Manufacturer, detailed mechanism, dimensions, weight, production, units, optics, variants, and later service remain open.",
+    sections:[
+      {id:"requirement",title:"Post-Philippine requirement",html:"<p>M15 represents the full-power postwar rifle branch after the Philippine War. It reduces ammunition standardization around 7.62×51 mm with the M60 machine gun without becoming the universal service rifle.</p>"},
+      {id:"configuration",title:"Registered configuration",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1959</td></tr><tr><th>Cartridge</th><td>7.62×51 mm</td></tr><tr><th>Feed</th><td>20-round magazine</td></tr><tr><th>Construction</th><td>Straight-line aluminum; AR-10 family</td></tr><tr><th>Role</th><td>Limited battle and marksman rifle</td></tr></tbody></table></div>"},
+      {id:"design",title:"AR-10-family design",html:"<p>The straight-line layout and aluminum construction distinguish M15 from the M1-era rifle. AR-10-family ancestry is fixed, but historical corporate and prototype details do not automatically define the altered procurement program.</p>"},
+      {id:"limited",title:"Limited acceptance",html:"<p>Acceptance in 1959 does not produce force-wide replacement. M15 remains a limited battle and marksman rifle, preserving a role for full-power semiautomatic fire after ordinary rifle procurement changes direction.</p>"},
+      {id:"overtaken",title:"Overtaken by small caliber",html:"<p>The <a href='m16-rifle.html'>M16</a> program reaches service in 1964. Its lighter 5.56×45 mm ammunition and deliberate adoption program overtake M15 before the older M1 can be replaced across the entire force.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>The register fixes no select-fire policy, barrel length, weight, sights, marksman optic, production quantity, units, foreign users, or withdrawal date.</p>"}
+    ],
+    related:[{href:"american-infantry-weapons.html",kicker:"National weapon system",label:"American Infantry Weapons"},{href:"m1-rifle.html",kicker:"Unreplaced predecessor",label:"M1 Rifle"},{href:"m16-rifle.html",kicker:"Small-caliber successor",label:"M16 Rifle"},{href:"m60-machine-gun.html",kicker:"7.62 mm support companion",label:"M60 Machine Gun"},{href:"philippine-war.html",kicker:"Procurement background",label:"Philippine War"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country","United States"],["Introduction","1959"],["Type","Limited battle and marksman rifle"],["Cartridge","7.62×51 mm"],["Feed","20-round magazine"],["Design family","AR-10"],["Construction","Straight-line aluminum"],["Force-wide M1 replacement","Not achieved"]]
+  }),
+
+  "m16-rifle": americanInfantryArticle({
+    title:"M16 Rifle", eyebrow:"American small-caliber service-rifle family · 1964–1985", infoboxKicker:"Small-caliber service rifle", infoboxTitle:"M16 / M16A1 Rifle",
+    lead:"The M16 is the United States' 5.56×45 mm small-caliber service rifle introduced in 1964. M16A1 follows in 1967 with a thirty-round magazine and becomes the standard late-setting rifle. Deliberate ammunition, magazine, chrome-chamber, and cleaning trials before adoption make its early reliability crisis smaller than in historical service.",
+    canon:"The M16 and M16A1 designations, dates, 5.56×45 mm cartridge, respective twenty- and thirty-round magazines, initial and standard late-setting roles, deliberate four-part pre-adoption trial program, recognizable M16A1 appearance, absence of a Vietnam-scale rush, and smaller early reliability crisis are fixed. Manufacturers, dimensions, weight, detailed mechanisms, production, units, later variants, and exact incident rates remain open.",
+    sections:[
+      {id:"sequence",title:"Registered sequence",html:"<div class='table-wrap'><table class='wiki-table'><thead><tr><th>Weapon</th><th>Introduction</th><th>Cartridge</th><th>Feed</th><th>Role</th></tr></thead><tbody><tr><td>M16 Rifle</td><td>1964</td><td>5.56×45 mm</td><td>20-round magazine</td><td>Initial small-caliber service rifle</td></tr><tr><td>M16A1 Rifle</td><td>1967</td><td>5.56×45 mm</td><td>30-round magazine</td><td>Standard late-setting service rifle</td></tr></tbody></table></div>"},
+      {id:"adoption",title:"Deliberate adoption",html:"<p>America is not rushing the rifle into a Vietnam-scale deployment. Ammunition, magazine, chrome-chamber, and cleaning requirements therefore receive deliberate pre-adoption trials before force-wide standardization.</p>"},
+      {id:"reliability",title:"Smaller early reliability crisis",html:"<p>The trials reduce the scale of the early reliability crisis. They do not make the rifle flawless. The setting's M16A1 remains visually recognizable, although the exact historical failure sequence does not recur.</p>"},
+      {id:"a1",title:"M16A1 standard",html:"<p>M16A1 follows three years after the initial weapon and increases the registered magazine capacity from twenty to thirty rounds. It is the standard American rifle in the late setting.</p>"},
+      {id:"succession",title:"Displacement of the full-power branch",html:"<p>The small-caliber program overtakes the limited <a href='m15-rifle.html'>M15</a> before that rifle can replace M1 across the force. Full-power 7.62×51 mm nevertheless remains in marksman and belt-fed support roles.</p>"},
+      {id:"system",title:"Place in the infantry system",html:"<p>M16A1 supplies the ordinary rifle layer beside <a href='m60-machine-gun.html'>M60</a> general-purpose support and <a href='m2hb-machine-gun.html'>M2HB</a> heavy and vehicle fire.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>Exact manufacturers, production totals, barrel and sight variants, accessories, grenade launchers, unit conversion schedules, later A2 development, and combat incidents remain open.</p>"}
+    ],
+    related:[{href:"american-infantry-weapons.html",kicker:"National weapon system",label:"American Infantry Weapons"},{href:"m15-rifle.html",kicker:"Full-power predecessor branch",label:"M15 Rifle"},{href:"m1-rifle.html",kicker:"Philippine-era predecessor",label:"M1 Rifle"},{href:"m60-machine-gun.html",kicker:"General-purpose support",label:"M60 Machine Gun"},{href:"m2hb-machine-gun.html",kicker:"Heavy support",label:"M2HB Machine Gun"},{href:"united-states.html",kicker:"Country article",label:"United States"}],
+    facts:[["Country","United States"],["Initial introduction","1964"],["Standard configuration","M16A1 · 1967"],["Cartridge","5.56×45 mm"],["M16 feed","20-round magazine"],["M16A1 feed","30-round magazine"],["Adoption pace","Deliberate"],["Early reliability crisis","Reduced"]]
+  }),
+
+  "m60-machine-gun": americanInfantryArticle({
+    title:"M60 Machine Gun", eyebrow:"American expeditionary general-purpose machine gun · introduced 1960", infoboxKicker:"General-purpose machine gun", infoboxTitle:"M60 Machine Gun",
+    lead:"The M60 is the United States' 7.62×51 mm expeditionary general-purpose machine gun introduced in 1960. Fed from a disintegrating belt, it preserves full-power automatic support while the ordinary service-rifle system shifts from M1 and limited M15 rifles to 5.56 mm M16A1.",
+    canon:"The designation, 1960 introduction, 7.62×51 mm cartridge, disintegrating-belt feed, and expeditionary GPMG role are fixed. Design ancestry, manufacturer, dimensions, weight, rate of fire, barrel system, crew, variants, production, units, and combat history remain open.",
+    sections:[
+      {id:"role",title:"Expeditionary GPMG role",html:"<p>M60 supplies portable sustained automatic fire to expeditionary forces. The general-purpose designation covers support use without fixing every tripod, vehicle, or squad allocation.</p>"},
+      {id:"configuration",title:"Registered configuration",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1960</td></tr><tr><th>Cartridge</th><td>7.62×51 mm</td></tr><tr><th>Feed</th><td>Disintegrating belt</td></tr><tr><th>Role</th><td>Expeditionary general-purpose machine gun</td></tr></tbody></table></div>"},
+      {id:"ammunition",title:"Full-power support cartridge",html:"<p>M60 shares 7.62×51 mm with the limited M15 battle rifle but uses belt feed for a distinct support role. The later M16 transition does not remove the full-power cartridge from the infantry system.</p>"},
+      {id:"expeditionary",title:"Expeditionary context",html:"<p>The weapon belongs to post-Philippine American forces shaped by intervention, transport, and sustainment. Its exact service in Honduras, Venezuela, or other theaters is not fixed by the registry.</p>"},
+      {id:"heavy",title:"Relationship to M2HB",html:"<p><a href='m2hb-machine-gun.html'>M2HB</a> remains the 12.7 mm heavy and vehicle weapon. M60 supplies a lighter general-purpose layer rather than replacing it.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>No rate of fire, mass, barrel-change procedure, bipod or tripod standard, vehicle mounting, production total, variant sequence, or reliability record is yet registered.</p>"}
+    ],
+    related:[{href:"american-infantry-weapons.html",kicker:"National weapon system",label:"American Infantry Weapons"},{href:"m15-rifle.html",kicker:"Shared cartridge",label:"M15 Rifle"},{href:"m16-rifle.html",kicker:"Standard rifle companion",label:"M16 Rifle"},{href:"m2hb-machine-gun.html",kicker:"Heavy support companion",label:"M2HB Machine Gun"},{href:"american-battle-taxis-and-reconnaissance.html",kicker:"Mechanized force context",label:"American Battle Taxis and Reconnaissance"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country","United States"],["Introduction","1960"],["Type","General-purpose machine gun"],["Cartridge","7.62×51 mm"],["Feed","Disintegrating belt"],["Role","Expeditionary automatic support"],["Rifle-cartridge companion","M15"],["Heavy companion","M2HB"]]
+  }),
+
+  "m2hb-machine-gun": americanInfantryArticle({
+    title:"M2HB Machine Gun", eyebrow:"American heavy and vehicle machine gun · introduced 1933", infoboxKicker:"Heavy machine gun", infoboxTitle:"M2HB Machine Gun",
+    lead:"The M2HB is the United States' 12.7×99 mm heavy machine gun introduced in 1933. Its disintegrating-belt feed and enduring heavy and vehicle role carry it from the common pre-divergence military into the 1985 force, including protected mounts on the <a href='m4-alligator.html'>M4 Alligator</a> and <a href='m5-battle-carrier.html'>M5 Battle Carrier</a>.",
+    canon:"The designation, 1933 introduction, 12.7×99 mm cartridge, disintegrating-belt feed, heavy and vehicle roles, and protected armament of all registered Alligator and M5 carrier configurations are fixed. Manufacturer, dimensions, weight, rate of fire, mount types, ammunition, production, users, and detailed combat history remain open unless inherited from pre-divergence history.",
+    sections:[
+      {id:"origin",title:"Pre-divergence origin",html:"<p>M2HB enters service in 1933 and therefore belongs to the shared military history before the 1941 divergence. Its later production scale and service history develop inside a neutral and then hemispheric United States.</p>"},
+      {id:"configuration",title:"Registered configuration",html:"<div class='table-wrap'><table class='wiki-table'><tbody><tr><th>Introduction</th><td>1933</td></tr><tr><th>Cartridge</th><td>12.7×99 mm</td></tr><tr><th>Feed</th><td>Disintegrating belt</td></tr><tr><th>Role</th><td>Heavy machine gun and vehicle armament</td></tr></tbody></table></div>"},
+      {id:"vehicle",title:"Vehicle armament",html:"<p>Protected M2HB mounts arm the M4, M4A1, and M4A2 Alligator carriers and the M5 Battle Carrier. The weapon supplies suppressive fire without turning the battle taxi into a cannon-armed infantry fighting vehicle.</p>"},
+      {id:"heavy",title:"Heavy-fire layer",html:"<p>The 12.7 mm weapon occupies a heavier layer than the 7.62 mm M60. The registry does not reduce this difference to one universal machine-gun family.</p>"},
+      {id:"longevity",title:"Service longevity",html:"<p>M2HB remains useful through 1985 despite newer rifles, machine guns, carriers, and sensors. No precise retirement or replacement program is registered.</p>"},
+      {id:"limits",title:"Documented limits",html:"<p>Mount types, ammunition mixes, sights, production totals, unit allocations, foreign users, variant designations, and engagement histories remain open.</p>"}
+    ],
+    related:[{href:"american-infantry-weapons.html",kicker:"National weapon system",label:"American Infantry Weapons"},{href:"m60-machine-gun.html",kicker:"General-purpose companion",label:"M60 Machine Gun"},{href:"m4-alligator.html",kicker:"Carrier armament",label:"M4 Alligator"},{href:"m5-battle-carrier.html",kicker:"Carrier armament",label:"M5 Battle Carrier"},{href:"american-battle-taxis-and-reconnaissance.html",kicker:"Mechanized-force system",label:"American Battle Taxis and Reconnaissance"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
+    facts:[["Country","United States"],["Introduction","1933"],["Type","Heavy machine gun"],["Cartridge","12.7×99 mm"],["Feed","Disintegrating belt"],["Role","Heavy and vehicle armament"],["Carrier mounts","M4 and M5 families"],["1985 status","Continuing service"]]
+  })
+});
