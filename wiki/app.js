@@ -1825,6 +1825,11 @@ const pages = [
   { title: "Braun", description: "Germany's Frankfurt design-led premium audio, appliance, grooming, and household-products company", href: "braun-company.html", tags: "braun company max dieter rams frankfurt design audio shaver appliance germany" },
   { title: "Blaupunkt", description: "The Bosch-owned German vehicle-radio, traffic-information, and mobile-electronics specialist", href: "blaupunkt.html", tags: "blaupunkt ideal bosch blue dot car radio vehicle audio traffic germany" },
   { title: "Philips", description: "The Eindhoven-centered Dutch-German lighting, electronics, recording, medical, and household-technology group", href: "philips.html", tags: "philips eindhoven dutch german lamp radio television compact cassette medical electronics" },
+  { title: "International Business Machines", description: "America's punched-card, mainframe, office-system, and Bridge/16 personal-computer company", href: "ibm.html", tags: "ibm international business machines punch card mainframe system 360 personal computer bridge 16 america" },
+  { title: "General Electric", description: "America's diversified power, appliance, aviation, medical, and industrial-electronics corporation", href: "general-electric.html", tags: "general electric ge power appliance aviation turbine medical nuclear industrial electronics america" },
+  { title: "Westinghouse Electric", description: "America's Pittsburgh power, appliance, broadcasting, industrial-control, and nuclear-engineering company", href: "westinghouse.html", tags: "westinghouse electric george pittsburgh ac power appliance radio nuclear control america" },
+  { title: "RCA", description: "America's integrated radio, NBC broadcasting, recording, television, communications, and electronics company", href: "rca.html", tags: "rca radio corporation america nbc victor sarnoff zworykin television recording electronics" },
+  { title: "Motorola", description: "America's mobile-radio, public-safety, semiconductor, aerospace, and communications company", href: "motorola.html", tags: "motorola galvin chicago car radio public safety semiconductor mobile communications america" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4572,6 +4577,11 @@ const crossLinks = [
   ,{ href: "braun-company.html", terms: ["Braun company", "Braun GmbH"] }
   ,{ href: "blaupunkt.html", terms: ["Blaupunkt-Werke", "Blaupunkt"] }
   ,{ href: "philips.html", terms: ["Philips & Co.", "Philips"] }
+  ,{ href: "ibm.html", terms: ["International Business Machines Corporation", "International Business Machines", "IBM"] }
+  ,{ href: "general-electric.html", terms: ["General Electric Company", "General Electric"] }
+  ,{ href: "westinghouse.html", terms: ["Westinghouse Electric Corporation", "Westinghouse Electric", "Westinghouse"] }
+  ,{ href: "rca.html", terms: ["Radio Corporation of America", "RCA"] }
+  ,{ href: "motorola.html", terms: ["Motorola, Inc.", "Motorola"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
