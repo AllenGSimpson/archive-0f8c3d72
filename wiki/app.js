@@ -1969,7 +1969,13 @@ const pages = [
   { title: "Australian Southern Arsenal", description: "Australia's post-defeat industrial, logistical, and regional military system", href: "australian-southern-arsenal.html", tags: "australian southern arsenal australia industry defence defense commonwealth woomera" },
   { title: "New Zealand Maritime State", description: "New Zealand's anti-submarine, patrol, repair, communications, and recovery specialization", href: "new-zealand-maritime-state.html", tags: "new zealand maritime state asw patrol repair communications commonwealth" },
   { title: "Australia–New Zealand Defence Cooperation", description: "Joint boards, standards, plans, and operations without an ANZAC federation", href: "australia-new-zealand-defence-cooperation.html", tags: "australia new zealand defence defense cooperation anzac boards procurement command" },
-  { title: "Woomera Commonwealth Range", description: "The South Australian weapons, rocket, launch, tracking, and recovery complex", href: "woomera-commonwealth-range.html", tags: "woomera commonwealth range australia skylark black knight blue streak prospero launch" }
+  { title: "Woomera Commonwealth Range", description: "The South Australian weapons, rocket, launch, tracking, and recovery complex", href: "woomera-commonwealth-range.html", tags: "woomera commonwealth range australia skylark black knight blue streak prospero launch" },
+  { title: "Italian Tank Lineage", description: "Italy's uninterrupted armored-development sequence from P40 to Ariete II", href: "italian-tank-lineage.html", tags: "italy italian tank lineage p40 p43 leone ariete ansaldo fiat oto iri" },
+  { title: "P40", description: "Italy's 1943 victory-era 75 mm service tank", href: "p40-tank.html", tags: "p40 italian tank 1943 ansaldo 75 mm world war two" },
+  { title: "P43 Leone", description: "Italy's 1948 five-crew 90 mm victory-generation tank", href: "p43-leone.html", tags: "p43 leone italian tank 1948 90 mm five crew" },
+  { title: "Carro 57 Ariete", description: "Italy's 1957 four-crew 90 mm main battle tank", href: "carro-57-ariete.html", tags: "carro 57 ariete italian main battle tank 1957 90 mm" },
+  { title: "Carro 68 Leone II", description: "Italy's stabilized Latin-standard 105 mm tank of 1968", href: "carro-68-leone-ii.html", tags: "carro 68 leone ii italian tank 1968 105 mm oto infrared stabilization" },
+  { title: "Carro 80 Ariete II", description: "Italy's composite-armored 120 mm main battle tank of 1981", href: "carro-80-ariete-ii.html", tags: "carro 80 ariete ii italian tank 1981 120 mm composite laser thermal digital" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -4123,6 +4129,12 @@ const crossLinks = [
   ,{ href: "amazonis-planitia.html", terms: ["Amazonis Planitia", "Amazonis plain"] }
   ,{ href: "phobos.html", terms: ["Phobos", "inner moon of Mars"] }
   ,{ href: "deimos.html", terms: ["Deimos", "outer moon of Mars"] }
+  ,{ href: "italian-tank-lineage.html", terms: ["Italian tank lineage", "Italian armored lineage"] }
+  ,{ href: "p40-tank.html", terms: ["P40 tank", "Italian P40"] }
+  ,{ href: "p43-leone.html", terms: ["P43 Leone", "P43 tank"] }
+  ,{ href: "carro-57-ariete.html", terms: ["Carro 57 Ariete", "Carro 57"] }
+  ,{ href: "carro-68-leone-ii.html", terms: ["Carro 68 Leone II", "Carro 68"] }
+  ,{ href: "carro-80-ariete-ii.html", terms: ["Carro 80 Ariete II", "Carro 80"] }
 ];
 
 function escapePattern(value) {
