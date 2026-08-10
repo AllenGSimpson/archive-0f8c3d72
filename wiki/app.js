@@ -110,6 +110,22 @@ const pages = [
   { title: "Takuma Nishimura", description: "Commander of the Imperial Guards Division at Muar and Kranji", href: "takuma-nishimura.html", tags: "takuma nishimura imperial guards division muar parit sulong kranji" },
   { title: "David Murray-Lyon", description: "Opening commander of the 11th Indian Infantry Division in Malaya", href: "david-murray-lyon.html", tags: "david murray lyon 11th indian division jitra british indian army" },
   { title: "Adnan Saidi", description: "Malay Regiment officer and defining defender of Bukit Chandu", href: "adnan-saidi.html", tags: "adnan saidi malay regiment pasir panjang bukit chandu singapore hero" },
+  { title: "Singapore Strategy", description: "The interwar imperial doctrine built around a fleet base at Singapore", href: "singapore-strategy.html", tags: "singapore strategy naval base fleet imperial defense malaya airfields far east" },
+  { title: "British Far East Command", description: "The joint land-and-air headquarters for Malaya, Burma, and Hong Kong", href: "british-far-east-command.html", tags: "british far east command brooke popham pownall malaya burma hong kong headquarters" },
+  { title: "Operation Matador", description: "The unexecuted plan to secure the southern Thai approaches", href: "operation-matador.html", tags: "operation matador singora haadyai patani thailand malaya forward defense 1941" },
+  { title: "Operation Krohcol", description: "The reduced British Indian advance from Kroh toward the Ledge", href: "operation-krohcol.html", tags: "operation krohcol kroh ledge patani thailand 11th indian division 1941" },
+  { title: "Force Z", description: "The Royal Navy capital-ship force destroyed east of Kuantan", href: "force-z.html", tags: "force z prince of wales repulse tom phillips singapore kuantan royal navy" },
+  { title: "Sinking of Prince of Wales and Repulse", description: "The Japanese naval air victory over Force Z on 10 December 1941", href: "sinking-of-prince-of-wales-and-repulse.html", tags: "sinking prince wales repulse force z kuantan japanese naval air 10 december 1941" },
+  { title: "HMS Prince of Wales (53)", description: "The King George V-class battleship and flagship of Force Z", href: "hms-prince-of-wales-53.html", tags: "hms prince of wales 53 battleship king george v force z bismarck singapore" },
+  { title: "HMS Repulse (1916)", description: "The Renown-class battlecruiser sunk with Force Z", href: "hms-repulse-1916.html", tags: "hms repulse 1916 34 battlecruiser renown force z singapore" },
+  { title: "Tom Phillips", description: "Royal Navy admiral and commander of Force Z", href: "tom-phillips.html", tags: "tom spencer vaughan phillips admiral force z royal navy prince wales" },
+  { title: "Robert Brooke-Popham", description: "Air chief marshal and first commander of British Far East Command", href: "robert-brooke-popham.html", tags: "robert brooke popham air chief marshal far east command operation matador" },
+  { title: "Geoffrey Layton", description: "China Station commander recalled after the destruction of Force Z", href: "geoffrey-layton.html", tags: "geoffrey layton admiral china station eastern fleet singapore force z" },
+  { title: "Lewis Heath", description: "Commander of III Indian Corps during the Malayan Campaign", href: "lewis-heath.html", tags: "lewis macclesfield heath iii third indian corps malaya general keren" },
+  { title: "Merton Beckwith-Smith", description: "Commander of the British 18th Division at Singapore", href: "merton-beckwith-smith.html", tags: "merton beckwith smith 18th division singapore guards karenko" },
+  { title: "Singapore Naval Base", description: "The Sembawang dockyard built to sustain an eastern battle fleet", href: "singapore-naval-base.html", tags: "singapore naval base sembawang king george vi graving dock royal navy" },
+  { title: "III Indian Corps", description: "The British Indian corps headquarters responsible for northern Malaya", href: "third-indian-corps.html", tags: "iii third indian corps lewis heath 9th 11th division malaya" },
+  { title: "18th Infantry Division (United Kingdom)", description: "The Territorial division diverted to Singapore in January 1942", href: "eighteenth-infantry-division-uk.html", tags: "18th eighteenth infantry division british territorial beckwith smith singapore" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4482,6 +4498,22 @@ const crossLinks = [
   ,{ href: "takuma-nishimura.html", terms: ["Takuma Nishimura"] }
   ,{ href: "david-murray-lyon.html", terms: ["David Murray-Lyon", "David Murray Murray-Lyon"] }
   ,{ href: "adnan-saidi.html", terms: ["Adnan Saidi", "Adnan bin Saidi"] }
+  ,{ href: "singapore-strategy.html", terms: ["Singapore strategy"] }
+  ,{ href: "british-far-east-command.html", terms: ["British Far East Command", "Far East Command"] }
+  ,{ href: "operation-matador.html", terms: ["Operation Matador", "Matador plan"] }
+  ,{ href: "operation-krohcol.html", terms: ["Operation Krohcol", "Krohcol"] }
+  ,{ href: "force-z.html", terms: ["Force Z", "Force G"] }
+  ,{ href: "sinking-of-prince-of-wales-and-repulse.html", terms: ["Sinking of Prince of Wales and Repulse", "Force Z disaster"] }
+  ,{ href: "hms-prince-of-wales-53.html", terms: ["HMS Prince of Wales", "Prince of Wales battleship"] }
+  ,{ href: "hms-repulse-1916.html", terms: ["HMS Repulse", "Repulse battlecruiser"] }
+  ,{ href: "tom-phillips.html", terms: ["Tom Phillips", "Tom Spencer Vaughan Phillips"] }
+  ,{ href: "robert-brooke-popham.html", terms: ["Robert Brooke-Popham", "Brooke-Popham"] }
+  ,{ href: "geoffrey-layton.html", terms: ["Geoffrey Layton", "Sir Geoffrey Layton"] }
+  ,{ href: "lewis-heath.html", terms: ["Lewis Heath", "Lewis Macclesfield Heath"] }
+  ,{ href: "merton-beckwith-smith.html", terms: ["Merton Beckwith-Smith", "Beckwith-Smith"] }
+  ,{ href: "singapore-naval-base.html", terms: ["Singapore Naval Base", "Sembawang Naval Base"] }
+  ,{ href: "third-indian-corps.html", terms: ["III Indian Corps", "Third Indian Corps"] }
+  ,{ href: "eighteenth-infantry-division-uk.html", terms: ["18th Infantry Division", "British 18th Division"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }
