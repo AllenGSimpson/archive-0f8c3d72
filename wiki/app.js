@@ -611,6 +611,9 @@ const pages = [
   { title: "Joint Aircraft Designation Act", description: "The 1963 American common register for aircraft and orbital vehicles", href: "joint-aircraft-designation-act.html", tags: "united states american aircraft designation act aerospace force OV OSV fighter attack 1963" },
   { title: "M13 Advanced Mobile Battle Tank", description: "America's three-crew mobile main battle tank type-classified in 1985", href: "m13-tank.html", tags: "m13 xm13 thirteen american tank main battle composite autoloader 1985" },
   { title: "XM14 Light Combat Tank", description: "The HSTV-L and Stingray-derived American light combat vehicle in production trials", href: "xm14-light-combat-tank.html", tags: "xm14 m14 light combat tank hstvl stingray american 1985 1987" },
+  { title: "Type 16 Shu-Ha", description: "Japan's first main battle tank and first production Shu generation", href: "type-16-shu-ha.html", tags: "type 16 shu ha japanese tank main battle 90 mm 1956 kai 1962" },
+  { title: "Type 26 Shu-He", description: "Japan's hydropneumatic second-generation Shu main battle tank", href: "type-26-shu-he.html", tags: "type 26 shu he japanese tank main battle hydropneumatic 105 mm 1966 kai 1971" },
+  { title: "Type 36 Shu-Ri", description: "Japan's laser-ranged and ceramic-enhanced third-generation Shu tank", href: "type-36-shu-ri.html", tags: "type 36 shu ri japanese tank main battle laser ceramic thermal 105 mm 1976 kai ni" },
   { title: "Type 45 Shu-Ru", description: "Japan's three-crew autoloading 120 mm main battle tank", href: "type-45-shu-ru.html", tags: "type 45 shu ru japanese tank main battle autoloader smoothbore 1985" },
   { title: "Rj 3 Falke", description: "Germany's one-seat missile-armed orbital interceptor in advanced trials", href: "rj-3-falke.html", tags: "rj 3 falke raumjager german orbital interceptor space fighter 1985" },
   { title: "Type 48 Raiden", description: "Japan's laser-relay supervised-autonomous orbital interceptor system", href: "type-48-raiden.html", tags: "type 48 raiden japan orbital interceptor unmanned autonomous laser relay 1988" },
@@ -3078,7 +3081,7 @@ const crossLinks = [
   { href: "eastern-fortified-belt.html", terms: ["Eastern Fortified Belt", "Congress–Azad Hind fortified belt", "eastern frontier belt"] },
   { href: "second-preparatory-war.html", terms: ["Second Preparatory War", "Preparatory War of 1960–1963", "Indian mobilization cascade"] },
   { href: "azad-hind-armoured-school.html", terms: ["Azad Hind Armoured School", "Azad Hind Armored School", "national armored-warfare school"] },
-  { href: "type-16-shu-ha-azad-hind.html", terms: ["Type 16 Shu-Ha in Azad Hind service", "Azad Hind Type 16", "Type 16 Shu-Ha Kai"] },
+  { href: "type-16-shu-ha-azad-hind.html", terms: ["Type 16 Shu-Ha in Azad Hind service", "Azad Hind Type 16"] },
   { href: "kartsev-nizhny-tagil-congress.html", terms: ["Kartsev–Nizhny Tagil lineage", "Kartsev lineage", "Congress Nizhny Tagil branch", "OKB-520 in Congress India"] },
   { href: "morozov-kharkiv-hindustan.html", terms: ["Morozov–Kharkiv lineage", "Morozov lineage in Hindustan", "Hindustani Kharkiv branch"] },
   { href: "kotin-kirov-hyderabad.html", terms: ["Kotin–Kirov heavy-armor lineage", "Kirov lineage in Hyderabad", "Hyderabadi VNII-100 branch"] },
@@ -3404,6 +3407,9 @@ const crossLinks = [
   ,{ href: "project-zenith.html", terms: ["Project Zenith", "OSV-1A Zenith", "OSV-1 Zenith"] }
   ,{ href: "m13-tank.html", terms: ["M13 Advanced Mobile Battle Tank", "M13 tank", "the M13", "the Thirteen"] }
   ,{ href: "xm14-light-combat-tank.html", terms: ["XM14 Light Combat Tank", "XM14", "M14 Light Combat Tank"] }
+  ,{ href: "type-16-shu-ha.html", terms: ["Type 16 Shu-Ha", "Shu-Ha", "Type 16 Shu-Ha Kai"] }
+  ,{ href: "type-26-shu-he.html", terms: ["Type 26 Shu-He", "Shu-He", "Type 26 Shu-He Kai"] }
+  ,{ href: "type-36-shu-ri.html", terms: ["Type 36 Shu-Ri", "Shu-Ri", "Type 36 Shu-Ri Kai", "Type 36 Shu-Ri Kai Ni"] }
   ,{ href: "type-45-shu-ru.html", terms: ["Type 45 Shu-Ru", "Shu-Ru"] }
   ,{ href: "rj-3-falke.html", terms: ["Rj 3 Falke", "Falke orbital interceptor"] }
   ,{ href: "type-48-raiden.html", terms: ["Type 48 Orbital Interceptor Raiden", "Type 48 Raiden"] }
