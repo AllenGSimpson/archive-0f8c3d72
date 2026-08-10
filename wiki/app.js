@@ -2041,6 +2041,13 @@ const pages = [
   ,{ title: "L7 TADEN", description: "Britain's 7×43 mm general-purpose, tripod, and vehicle machine gun", href: "l7-taden.html", tags: "l7 taden l7a4 british general purpose machine gun gpmg 7x43 fv432" }
   ,{ title: "Enfield Dovetail Pattern 76", description: "Britain's national optical mounting interface", href: "enfield-dovetail-pattern-76.html", tags: "enfield dovetail pattern 76 british optical mount interface sight rail" }
   ,{ title: "British 4.85 mm Trials", description: "Britain's unadopted post-1978 4.85×49 mm weapons program", href: "british-4-85-mm-trials.html", tags: "britain british 4.85 49 mm trials experimental rifle sa80 1978" }
+  ,{ title: "American Battle Taxis and Reconnaissance", description: "America's full-squad carriers and separate tracked and wheeled scouts", href: "american-battle-taxis-and-reconnaissance.html", tags: "united states american battle taxis reconnaissance armored carriers m4 m5 m2 m3" }
+  ,{ title: "M4 Alligator", description: "America's full-tracked personnel carrier family from 1960", href: "m4-alligator.html", tags: "m4 alligator m4a1 m4a2 personnel carrier battle taxi 2 plus 11" }
+  ,{ title: "M5 Battle Carrier", description: "America's 1983 cannon-free full-squad tracked carrier", href: "m5-battle-carrier.html", tags: "m5 battle carrier american tracked personnel carrier battle taxi 1983" }
+  ,{ title: "M2 Scout", description: "America's 1983 full-tracked 20 mm reconnaissance vehicle", href: "m2-scout.html", tags: "m2 scout american tracked reconnaissance screening route security artillery observation" }
+  ,{ title: "M3 Cougar", description: "Cadillac Gage's eight-wheeled American reconnaissance vehicle", href: "m3-cougar.html", tags: "m3 cougar lav-25 lav 25 cadillac gage wheeled reconnaissance marines" }
+  ,{ title: "M5-Family Mission Vehicles", description: "American M6 command, M7 mortar, M8 missile, and M9 medical carriers", href: "m5-family-mission-vehicles.html", tags: "m5 family mission vehicles m6 command m7 mortar m8 missile m9 medical carrier" }
+  ,{ title: "M4 Self-Propelled Air-Defense Gun", description: "America's 20 mm M61 Vulcan divisional air-defense family", href: "m4-self-propelled-air-defense.html", tags: "m4 m4a1 m4a2 self propelled air defense gun vulcan m61 radar" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2421,6 +2428,13 @@ const crossLinks = [
   { href: "l7-taden.html", terms: ["L7A4 TADEN", "L7 TADEN", "TADEN machine guns", "TADEN weapons"] },
   { href: "enfield-dovetail-pattern-76.html", terms: ["Enfield Dovetail Pattern 76", "Pattern 76 dovetail"] },
   { href: "british-4-85-mm-trials.html", terms: ["British 4.85 mm trials", "4.85×49 mm weapon trials", "4.85×49 mm trials"] },
+  { href: "american-battle-taxis-and-reconnaissance.html", terms: ["American battle-taxi and reconnaissance system", "American battle taxis and reconnaissance", "battle-taxi system"] },
+  { href: "m4-alligator.html", terms: ["M4A2 Alligators", "M4A2 Alligator", "M4A1 Alligator", "M4 Alligators", "M4 Alligator", "Alligator carrier"] },
+  { href: "m5-battle-carrier.html", terms: ["M5 Battle Carrier", "M5 battle carriers", "M5 battle carrier"] },
+  { href: "m2-scout.html", terms: ["M2 Scouts", "M2 Scout"] },
+  { href: "m3-cougar.html", terms: ["LAV-25 Cougar", "M3 Cougars", "M3 Cougar"] },
+  { href: "m5-family-mission-vehicles.html", terms: ["M5-family mission vehicles", "M5 mission carriers", "Carrier, Command, Full-Tracked, M6", "Carrier, Mortar, Full-Tracked, M7", "Carrier, Missile, Full-Tracked, M8", "Carrier, Medical, Full-Tracked, M9"] },
+  { href: "m4-self-propelled-air-defense.html", terms: ["M4 self-propelled air-defense family", "M4 Vulcan air-defense guns", "M4A2 air-defense guns", "M4 air-defense gun"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
