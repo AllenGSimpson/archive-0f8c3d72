@@ -1872,6 +1872,13 @@ const pages = [
   { title: "Jaguar Cars", description: "Coventry manufacturer of sports cars, prestige saloons, engines, and endurance vehicles", href: "jaguar-cars.html", tags: "jaguar cars william lyons swallow ss cars coventry xk sports car saloon endurance disc brakes" },
   { title: "Lotus Cars", description: "Britain's lightweight sports-car, Formula One, and contract-engineering specialist", href: "lotus-cars.html", tags: "lotus cars engineering team colin hazel chapman hethel lightweight formula one sports car monocoque" },
   { title: "Cooper Car Company", description: "Surbiton constructor of customer racing cars, rear-engine machines, and compact performance vehicles", href: "cooper-car-company.html", tags: "cooper car company charles john cooper surbiton 500 rear engine formula one mini compact racing" },
+  { title: "Electrical and Electronic Industry of Britain", description: "Britain's power equipment, signals, computing, broadcasting, consumer-electronics, and technical-design sector", href: "electrical-and-electronic-industry-of-britain.html", tags: "british electrical electronic industry power signals computing broadcasting ferranti gec english electric pye emi commonwealth" },
+  { title: "Ferranti", description: "Manchester electrical, computing, defense-electronics, instrumentation, and semiconductor group", href: "ferranti.html", tags: "ferranti limited manchester hollinwood mark 1 computer radar instruments semiconductors power britain" },
+  { title: "General Electric Company", description: "British electrical group spanning the grid, lighting, switchgear, appliances, radar, and atomic power", href: "general-electric-company-britain.html", tags: "british general electric company gec witton birmingham wembley osram grid switchgear radar atomic power everything electrical" },
+  { title: "English Electric", description: "Power, traction, aircraft, computing, telecommunications, and heavy-electrical engineering group", href: "english-electric.html", tags: "english electric stafford rugby preston warton marconi deuce canberra lightning turbines transformers locomotives" },
+  { title: "Pye", description: "Cambridge manufacturer of radio, television, mobile communications, instruments, and consumer electronics", href: "pye.html", tags: "pye limited cambridge radio television mobile two way communications transmitters instruments electronics" },
+  { title: "EMI", description: "Recorded-music, broadcasting, television, electronics, and scientific-imaging group", href: "emi.html", tags: "emi electric musical industries hayes gramophone columbia records stereo blumlein television radar ct scanner" },
+  { title: "International Computers Limited", description: "Britain's principal general-purpose computer manufacturer and Commonwealth institutional-systems supplier", href: "international-computers-limited.html", tags: "international computers limited icl ict english electric ferranti elliott leo mainframe software commonwealth" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4666,6 +4673,13 @@ const crossLinks = [
   ,{ href: "jaguar-cars.html", terms: ["Jaguar Cars Limited", "Jaguar Cars", "Jaguar marque"] }
   ,{ href: "lotus-cars.html", terms: ["Lotus Engineering Company", "Lotus Cars", "Team Lotus"] }
   ,{ href: "cooper-car-company.html", terms: ["Cooper Car Company", "Cooper Cars"] }
+  ,{ href: "electrical-and-electronic-industry-of-britain.html", terms: ["Electrical and electronic industry of the United Kingdom", "Electrical and electronic industry of Britain", "British electrical industry", "British electronics industry"] }
+  ,{ href: "ferranti.html", terms: ["Ferranti Limited", "Ferranti Ltd", "Ferranti"] }
+  ,{ href: "general-electric-company-britain.html", terms: ["General Electric Company (Britain)", "British General Electric Company", "GEC of Britain", "GEC"] }
+  ,{ href: "english-electric.html", terms: ["The English Electric Company Limited", "English Electric Company", "English Electric"] }
+  ,{ href: "pye.html", terms: ["Pye Limited", "Pye Ltd", "Pye Radio", "Pye"] }
+  ,{ href: "emi.html", terms: ["Electric and Musical Industries Limited", "Electric and Musical Industries", "EMI Electronics", "EMI"] }
+  ,{ href: "international-computers-limited.html", terms: ["International Computers Limited", "International Computers Ltd", "ICL"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
