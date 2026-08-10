@@ -2175,6 +2175,14 @@ const pages = [
   ,{ title: "X-20A Dyna-Soar", description: "America's booster-launched orbital-glide research vehicle", href: "x-20a-dyna-soar.html", tags: "x-20a x20 dyna-soar orbital glider booster reentry inspection demonstrator 1966" }
   ,{ title: "X-24 Series", description: "America's 1964–68 lifting-body and integrated-propulsion research series", href: "x-24-series.html", tags: "x-24 lifting body integrated propulsion inlet transition hydrogen cooling high angle reentry" }
   ,{ title: "Project Apex", description: "America's 1967–69 runway-launched upper-atmosphere demonstrator program", href: "project-apex.html", tags: "project apex combined cycle propulsion thermal structure runway launched upper atmosphere demonstrator maracaibo computing" }
+  ,{ title: "British Fighter Development, 1944–1964", description: "The British jet-fighter lineage from Meteor F.3 to Lightning F.3", href: "british-fighter-development-1944-1964.html", tags: "british fighter development royal air force fleet air arm meteor vampire attacker hunter javelin lightning" }
+  ,{ title: "Meteor F.3", description: "Britain's 1944 defensive jet fighter", href: "meteor-f3.html", tags: "meteor f3 gloster royal air force defensive jet fighter 1944 cannon" }
+  ,{ title: "Vampire F.1", description: "Britain's 1946 lightweight jet fighter", href: "vampire-f1.html", tags: "vampire f1 de havilland royal air force lightweight jet fighter 1946" }
+  ,{ title: "Vampire FB.5", description: "Britain's 1948 fighter-bomber and export jet", href: "vampire-fb5.html", tags: "vampire fb5 de havilland fighter bomber export commonwealth 1948" }
+  ,{ title: "Attacker FB.1", description: "The Fleet Air Arm's first operational jet", href: "attacker-fb1.html", tags: "attacker fb1 supermarine fleet air arm carrier jet fighter bomber 1947" }
+  ,{ title: "Hunter F.1", description: "Britain's 1954 transonic day fighter", href: "hunter-f1.html", tags: "hunter f1 hawker royal air force transonic day fighter aden cannon 1954" }
+  ,{ title: "Javelin FAW.1", description: "Britain's 1956 all-weather delta interceptor", href: "javelin-faw1.html", tags: "javelin faw1 gloster royal air force all weather delta interceptor radar missiles 1956" }
+  ,{ title: "Lightning F.3", description: "Britain's 1964 Mach 2 home-defense interceptor", href: "lightning-f3.html", tags: "lightning f3 english electric royal air force mach 2 interceptor home defense 1964" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -2689,6 +2697,14 @@ const crossLinks = [
   { href: "x-20a-dyna-soar.html", terms: ["X-20A Dyna-Soar", "X-20A", "Dyna-Soar"] },
   { href: "x-24-series.html", terms: ["X-24 series", "X-24"] },
   { href: "project-apex.html", terms: ["Project Apex"] },
+  { href: "british-fighter-development-1944-1964.html", terms: ["British fighter development, 1944–1964", "British fighter development", "British jet-fighter lineage"] },
+  { href: "meteor-f3.html", terms: ["Meteor F.3"] },
+  { href: "vampire-f1.html", terms: ["Vampire F.1"] },
+  { href: "vampire-fb5.html", terms: ["Vampire FB.5"] },
+  { href: "attacker-fb1.html", terms: ["Attacker FB.1"] },
+  { href: "hunter-f1.html", terms: ["Hunter F.1"] },
+  { href: "javelin-faw1.html", terms: ["Javelin FAW.1"] },
+  { href: "lightning-f3.html", terms: ["Lightning F.3"] },
   { href: "german-postwar-small-arms.html", terms: ["German postwar small arms", "German small-arms system"] },
   { href: "gewehr-58.html", terms: ["Gewehr 58"] },
   { href: "argentine-infantry-support-weapons.html", terms: ["Argentine infantry and support weapons", "Argentine support-weapons system"] },
