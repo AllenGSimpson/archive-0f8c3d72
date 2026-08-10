@@ -1830,6 +1830,12 @@ const pages = [
   { title: "Westinghouse Electric", description: "America's Pittsburgh power, appliance, broadcasting, industrial-control, and nuclear-engineering company", href: "westinghouse.html", tags: "westinghouse electric george pittsburgh ac power appliance radio nuclear control america" },
   { title: "RCA", description: "America's integrated radio, NBC broadcasting, recording, television, communications, and electronics company", href: "rca.html", tags: "rca radio corporation america nbc victor sarnoff zworykin television recording electronics" },
   { title: "Motorola", description: "America's mobile-radio, public-safety, semiconductor, aerospace, and communications company", href: "motorola.html", tags: "motorola galvin chicago car radio public safety semiconductor mobile communications america" },
+  { title: "Zenith Electronics", description: "America's independent radio, television, remote-control, and broadcast-standards company", href: "zenith-electronics.html", tags: "zenith electronics radio television remote control space command chicago broadcast standards america" },
+  { title: "Xerox", description: "America's xerography, copying, laser-printing, office-systems, and PARC computing company", href: "xerox.html", tags: "xerox haloid chester carlson xerography copier 914 parc alto ethernet laser printer america" },
+  { title: "Polaroid Corporation", description: "Edwin Land's American polarizing-materials, instant-photography, and scientific-imaging company", href: "polaroid.html", tags: "polaroid edwin land instant photography camera film polarizer sx 70 imaging america" },
+  { title: "Corning Glass Works", description: "America's technical-glass, ceramics, television-tube, spacecraft-window, and optical-fiber company", href: "corning-glass-works.html", tags: "corning glass works pyrex crt television optical fiber ceramics spacecraft windows america" },
+  { title: "Fairchild Semiconductor", description: "America's planar-silicon, integrated-circuit, aerospace-electronics, and Silicon Valley founding company", href: "fairchild-semiconductor.html", tags: "fairchild semiconductor hoerni noyce last planar silicon integrated circuit silicon valley america" },
+  { title: "Texas Instruments", description: "America's Dallas semiconductor, defense-electronics, integrated-circuit, calculator, and control company", href: "texas-instruments.html", tags: "texas instruments ti dallas kilby integrated circuit semiconductor calculator defense electronics america" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4582,6 +4588,12 @@ const crossLinks = [
   ,{ href: "westinghouse.html", terms: ["Westinghouse Electric Corporation", "Westinghouse Electric", "Westinghouse"] }
   ,{ href: "rca.html", terms: ["Radio Corporation of America", "RCA"] }
   ,{ href: "motorola.html", terms: ["Motorola, Inc.", "Motorola"] }
+  ,{ href: "zenith-electronics.html", terms: ["Zenith Electronics Corporation", "Zenith Radio Corporation", "Zenith Electronics"] }
+  ,{ href: "xerox.html", terms: ["Xerox Corporation", "Haloid Xerox", "Xerox"] }
+  ,{ href: "polaroid.html", terms: ["Polaroid Corporation", "Polaroid"] }
+  ,{ href: "corning-glass-works.html", terms: ["Corning Glass Works", "Corning"] }
+  ,{ href: "fairchild-semiconductor.html", terms: ["Fairchild Semiconductor Corporation", "Fairchild Semiconductor"] }
+  ,{ href: "texas-instruments.html", terms: ["Texas Instruments Incorporated", "Texas Instruments"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
