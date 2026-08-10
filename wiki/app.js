@@ -1895,6 +1895,15 @@ const pages = [
   { title: "Blackburn Aircraft", description: "Brough naval-aircraft, heavy-transport, and low-level-strike design and manufacturing house", href: "blackburn-aircraft.html", tags: "blackburn aircraft company brough robert blackburn naval seaplane beverley buccaneer general aircraft" },
   { title: "Folland Aircraft", description: "Hamble lightweight-fighter and advanced-jet-training design house", href: "folland-aircraft.html", tags: "folland aircraft hamble henry folland teddy petter midge gnat lightweight fighter trainer" },
   { title: "Hunting Aircraft", description: "Luton trainer, light-aircraft, and civil-jet design lineage within BAC", href: "hunting-aircraft.html", tags: "hunting aircraft percival luton provost jet provost h107 one eleven strikemaster bac" },
+  { title: "Aerospace Industry of Italy", description: "Italy's surviving aircraft, engine, missile, and space industry within the Latin Bloc", href: "aerospace-industry-of-italy.html", tags: "aerospace industry italy italian aircraft engines missiles space fiat macchi reggiane piaggio aerfer latin bloc" },
+  { title: "Fiat Aviazione", description: "Turin aircraft-and-engine institution behind the G.55, G.91R, and G.85", href: "fiat-aviazione.html", tags: "fiat aviazione aviation turin engines gabrielli g55 centauro g91 g85 italian aerospace" },
+  { title: "Aeronautica Macchi", description: "Varese seaplane, fighter, trainer, and light-attack design house", href: "aeronautica-macchi.html", tags: "aeronautica macchi aermacchi varese castoldi seaplane c202 c205 veltro mb326 trainer" },
+  { title: "Reggiane", description: "Reggio Emilia high-performance fighter and aircraft-production house", href: "reggiane-aircraft.html", tags: "reggiane aircraft officine meccaniche reggio emilia caproni longhi re2000 re2005 sagittario" },
+  { title: "Piaggio Aeronautics", description: "Italian aircraft, aero-engine, heavy-aircraft, transport, and research division", href: "piaggio-aeronautics.html", tags: "piaggio aeronautics aerospace liguria tuscany pontedera pisa p108 engines aircraft research" },
+  { title: "Fiat G.55 Centauro", description: "Italy's registered 1943 Series 5 piston fighter", href: "fiat-g55-centauro.html", tags: "fiat g55 centauro series 5 italian piston fighter 1943 gabrielli" },
+  { title: "Macchi C.205 Veltro Serie III", description: "Italy's fastest registered Series 5 piston fighter", href: "macchi-c205-veltro.html", tags: "macchi c205 veltro serie iii series 5 italian piston fighter 1943 castoldi" },
+  { title: "Reggiane Re.2005 Sagittario", description: "Italy's registered high-performance 1943 piston fighter", href: "reggiane-re2005-sagittario.html", tags: "reggiane re2005 sagittario series 5 italian high performance piston fighter 1943" },
+  { title: "Piaggio P.108B", description: "Italy's registered four-engine heavy bomber and later support aircraft", href: "piaggio-p108b.html", tags: "piaggio p108b four engine heavy bomber italy 1942 transport maritime patrol test aircraft" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4712,6 +4721,15 @@ const crossLinks = [
   ,{ href: "blackburn-aircraft.html", terms: ["Blackburn Aircraft Company", "Blackburn Aircraft"] }
   ,{ href: "folland-aircraft.html", terms: ["Folland Aircraft Limited", "Folland Aircraft"] }
   ,{ href: "hunting-aircraft.html", terms: ["Hunting Percival Aircraft", "Hunting Aircraft"] }
+  ,{ href: "aerospace-industry-of-italy.html", terms: ["Aerospace industry of the Kingdom of Italy", "Aerospace industry of Italy", "Italian aerospace industry", "Italian aircraft industry"] }
+  ,{ href: "fiat-aviazione.html", terms: ["Fiat Aviazione", "FIAT Aviazione"] }
+  ,{ href: "aeronautica-macchi.html", terms: ["Aeronautica Macchi", "Aermacchi"] }
+  ,{ href: "reggiane-aircraft.html", terms: ["Officine Meccaniche Reggiane", "Reggiane aircraft division"] }
+  ,{ href: "piaggio-aeronautics.html", terms: ["Piaggio aeronautical division", "Piaggio aeronautics", "Piaggio aviation"] }
+  ,{ href: "fiat-g55-centauro.html", terms: ["Fiat G.55 Centauro", "Fiat G.55", "G.55 Centauro"] }
+  ,{ href: "macchi-c205-veltro.html", terms: ["Macchi C.205 Veltro Serie III", "Macchi C.205 Veltro", "C.205 Veltro"] }
+  ,{ href: "reggiane-re2005-sagittario.html", terms: ["Reggiane Re.2005 Sagittario", "Reggiane Re.2005", "Re.2005 Sagittario"] }
+  ,{ href: "piaggio-p108b.html", terms: ["Piaggio P.108B", "P.108B"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
