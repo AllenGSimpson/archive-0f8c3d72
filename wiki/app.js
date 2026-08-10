@@ -1821,6 +1821,10 @@ const pages = [
   { title: "Wanderer", description: "Auto Union's Chemnitz conventional middle-market automobile and machinery marque", href: "wanderer.html", tags: "wanderer chemnitz winklhofer jaenicke bicycle motorcycle car machinery auto union" },
   { title: "Audi", description: "Auto Union's continuously active Zwickau advanced upper-middle and technical-prestige marque", href: "audi-marque.html", tags: "audi august horch zwickau advanced automobile front wheel drive auto union" },
   { title: "Horch", description: "Auto Union's Zwickau luxury, official-limousine, ceremonial, and elite-vehicle marque", href: "horch.html", tags: "horch august zwickau luxury limousine official automobile auto union" },
+  { title: "Grundig", description: "Germany's Fürth-and-Nuremberg mass radio, television, recording, and household-electronics company", href: "grundig.html", tags: "grundig max furth fürth nuremberg radio television recorder consumer electronics germany" },
+  { title: "Braun", description: "Germany's Frankfurt design-led premium audio, appliance, grooming, and household-products company", href: "braun-company.html", tags: "braun company max dieter rams frankfurt design audio shaver appliance germany" },
+  { title: "Blaupunkt", description: "The Bosch-owned German vehicle-radio, traffic-information, and mobile-electronics specialist", href: "blaupunkt.html", tags: "blaupunkt ideal bosch blue dot car radio vehicle audio traffic germany" },
+  { title: "Philips", description: "The Eindhoven-centered Dutch-German lighting, electronics, recording, medical, and household-technology group", href: "philips.html", tags: "philips eindhoven dutch german lamp radio television compact cassette medical electronics" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4564,6 +4568,10 @@ const crossLinks = [
   ,{ href: "wanderer.html", terms: ["Wanderer Werke AG", "Wanderer"] }
   ,{ href: "audi-marque.html", terms: ["Audiwerke AG", "Audi marque", "Audi"] }
   ,{ href: "horch.html", terms: ["Horchwerke AG", "Horch"] }
+  ,{ href: "grundig.html", terms: ["Grundig AG", "Grundig"] }
+  ,{ href: "braun-company.html", terms: ["Braun company", "Braun GmbH"] }
+  ,{ href: "blaupunkt.html", terms: ["Blaupunkt-Werke", "Blaupunkt"] }
+  ,{ href: "philips.html", terms: ["Philips & Co.", "Philips"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
