@@ -95,6 +95,12 @@ const pages = [
   { title: "Changi Prisoner System", description: "The Singapore captivity and imperial labor-transit complex from 1942 to 1947", href: "changi-prisoner-system.html", tags: "changi prisoner system pow camp selarang barracks gaol singapore commonwealth 1942 1947" },
   { title: "Economy of Japanese-occupied Singapore", description: "Rationing, banana money, inflation, black markets, and postwar conversion", href: "singapore-occupation-economy.html", tags: "singapore occupation economy banana money invasion currency rationing inflation black market shonan" },
   { title: "Japanese Twenty-Fifth Army", description: "Yamashita's field army in the conquest of Malaya and Singapore", href: "japanese-twenty-fifth-army.html", tags: "japanese twenty fifth 25th army yamashita malaya singapore imperial guards fifth eighteenth division" },
+  { title: "Japanese 5th Division", description: "The veteran mobile formation of the western Malayan drive and Sarimbun crossing", href: "japanese-5th-division.html", tags: "japanese 5th fifth division takuro matsui jitra kampar slim river gemas sarimbun bukit timah" },
+  { title: "Japanese 18th Division", description: "The Japanese formation linking Kota Bharu to Pasir Panjang", href: "japanese-18th-division.html", tags: "japanese 18th eighteenth division renya mutaguchi kota bharu sarimbun bukit timah pasir panjang" },
+  { title: "Japanese Imperial Guards Division", description: "The guard formation at Muar, Bakri, Parit Sulong, and Kranji", href: "japanese-imperial-guards-division.html", tags: "japanese imperial guards division takuma nishimura muar bakri parit sulong kranji" },
+  { title: "11th Indian Infantry Division", description: "The British Indian Army formation at Jitra, Kampar, and Slim River", href: "eleventh-indian-infantry-division.html", tags: "11th eleventh indian infantry division murray lyon jitra kampar slim river malaya" },
+  { title: "8th Australian Division", description: "The Second AIF formation in Johore, Singapore, and Japanese captivity", href: "eighth-australian-division.html", tags: "8th eighth australian division gordon bennett 22nd 27th brigade gemas muar sarimbun kranji changi" },
+  { title: "Malay Regiment", description: "The locally recruited regular formation remembered for Pasir Panjang and Bukit Chandu", href: "malay-regiment.html", tags: "malay regiment adnan saidi pasir panjang bukit chandu opium hill first second battalion" },
   { title: "Dutch East Indies Campaign", description: "Japan's seizure of the East Indian oilfields, ports, and island routes", href: "dutch-east-indies-campaign.html", tags: "dutch east indies campaign oil java sumatra borneo celebes japan 1942" },
   { title: "Chongqing Operation", description: "The 1943 Japanese–Nanjing offensive that isolates the Nationalist capital", href: "chongqing-operation.html", tags: "chongqing operation campaign number five sichuan hubei hunan japan china 1943" },
   { title: "Operation Ichi-Go", description: "The strengthened 1944 offensive linking northern China to Indochina", href: "operation-ichi-go.html", tags: "operation ichi go ichigo china japan nanjing railway kweilin liuzhou 1944" },
@@ -4452,6 +4458,12 @@ const crossLinks = [
   ,{ href: "changi-prisoner-system.html", terms: ["Changi prisoner system", "Changi POW camp", "Selarang Barracks"] }
   ,{ href: "singapore-occupation-economy.html", terms: ["economy of Japanese-occupied Singapore", "banana money", "Japanese invasion money"] }
   ,{ href: "japanese-twenty-fifth-army.html", terms: ["Japanese Twenty-Fifth Army", "Japanese 25th Army", "Twenty-Fifth Army"] }
+  ,{ href: "japanese-5th-division.html", terms: ["Japanese 5th Division", "Japanese Fifth Division", "5th Division"] }
+  ,{ href: "japanese-18th-division.html", terms: ["Japanese 18th Division", "Japanese Eighteenth Division", "18th Division"] }
+  ,{ href: "japanese-imperial-guards-division.html", terms: ["Japanese Imperial Guards Division", "Imperial Guards Division"] }
+  ,{ href: "eleventh-indian-infantry-division.html", terms: ["11th Indian Infantry Division", "11th Indian Division", "Eleventh Indian Division"] }
+  ,{ href: "eighth-australian-division.html", terms: ["8th Australian Division", "Australian 8th Division", "Eighth Australian Division"] }
+  ,{ href: "malay-regiment.html", terms: ["Malay Regiment", "Malaya Regiment"] }
   ,{ href: "dutch-east-indies-campaign.html", terms: ["Dutch East Indies Campaign", "East Indies Campaign"] }
   ,{ href: "chongqing-operation.html", terms: ["Chongqing Operation", "Chongqing Campaign"] }
   ,{ href: "operation-ichi-go.html", terms: ["Operation Ichi-Go", "Ichi-Go"] }

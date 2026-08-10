@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Principal formations in the Malaya and Singapore campaign</title>
+  <desc id="desc">Order-of-battle diagram showing the Japanese Twenty-Fifth Army with the 5th, 18th, and Imperial Guards Divisions opposite the 11th Indian Division, 8th Australian Division, and Malay Regiment, linked to major campaign phases.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#081720"/><stop offset="1" stop-color="#102a34"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity=".38"/></filter>
+    <marker id="arrowRed" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d06b5e"/></marker>
+    <marker id="arrowBlue" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#6f9eb2"/></marker>
+  </defs>
+  <rect width="1200" height="820" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="52" y="54" fill="#f1dfae" font-size="28" font-weight="700">MALAYA–SINGAPORE: PRINCIPAL FORMATIONS</text>
+    <text x="53" y="82" fill="#9bb2bd" font-size="15" letter-spacing="1.1">OPERATIONAL RELATIONSHIPS · DECEMBER 1941–FEBRUARY 1942</text>
+
+    <g transform="translate(48 116)" filter="url(#shadow)">
+      <rect width="510" height="88" rx="10" fill="#322328" stroke="#d06b5e" stroke-width="2"/>
+      <text x="24" y="32" fill="#ef9b8d" font-size="14" font-weight="700">EMPIRE OF JAPAN</text>
+      <text x="24" y="64" fill="#f1dfae" font-size="25" font-weight="700">JAPANESE TWENTY-FIFTH ARMY</text>
+      <text x="358" y="64" fill="#d8b8b2" font-size="14">Yamashita</text>
+    </g>
+
+    <g transform="translate(642 116)" filter="url(#shadow)">
+      <rect width="510" height="88" rx="10" fill="#172f39" stroke="#6f9eb2" stroke-width="2"/>
+      <text x="24" y="32" fill="#9ac6d8" font-size="14" font-weight="700">BRITISH COMMONWEALTH</text>
+      <text x="24" y="64" fill="#f1dfae" font-size="25" font-weight="700">MALAYA COMMAND</text>
+      <text x="359" y="64" fill="#b8ced7" font-size="14">Percival</text>
+    </g>
+
+    <path d="M303 204V244 M133 244H473 M133 244V270 M303 244V270 M473 244V270" fill="none" stroke="#d06b5e" stroke-width="3"/>
+    <path d="M897 204V244 M727 244H1067 M727 244V270 M897 244V270 M1067 244V270" fill="none" stroke="#6f9eb2" stroke-width="3"/>
+
+    <g transform="translate(42 270)" filter="url(#shadow)"><rect width="182" height="126" rx="9" fill="#2a2327" stroke="#a85a51"/><text x="18" y="31" fill="#f1dfae" font-size="19" font-weight="700">5TH DIVISION</text><text x="18" y="55" fill="#d7c1bd" font-size="13">Matsui</text><text x="18" y="81" fill="#c39b94" font-size="13">Jitra · Slim River</text><text x="18" y="102" fill="#c39b94" font-size="13">Gemas · Sarimbun</text><text x="18" y="119" fill="#9f7d78" font-size="12">western mobile drive</text></g>
+    <g transform="translate(238 270)" filter="url(#shadow)"><rect width="182" height="126" rx="9" fill="#2a2327" stroke="#a85a51"/><text x="18" y="31" fill="#f1dfae" font-size="19" font-weight="700">18TH DIVISION</text><text x="18" y="55" fill="#d7c1bd" font-size="13">Mutaguchi</text><text x="18" y="81" fill="#c39b94" font-size="13">Kota Bharu · Sarimbun</text><text x="18" y="102" fill="#c39b94" font-size="13">Pasir Panjang</text><text x="18" y="119" fill="#9f7d78" font-size="12">assault and reinforcement</text></g>
+    <g transform="translate(434 270)" filter="url(#shadow)"><rect width="182" height="126" rx="9" fill="#2a2327" stroke="#a85a51"/><text x="18" y="29" fill="#f1dfae" font-size="17" font-weight="700">IMPERIAL GUARDS</text><text x="18" y="53" fill="#d7c1bd" font-size="13">Nishimura</text><text x="18" y="80" fill="#c39b94" font-size="13">Muar · Bakri</text><text x="18" y="101" fill="#c39b94" font-size="13">Parit Sulong · Kranji</text><text x="18" y="119" fill="#9f7d78" font-size="12">guard formation</text></g>
+
+    <g transform="translate(636 270)" filter="url(#shadow)"><rect width="182" height="126" rx="9" fill="#172c35" stroke="#557f91"/><text x="18" y="29" fill="#f1dfae" font-size="17" font-weight="700">11TH INDIAN DIV.</text><text x="18" y="53" fill="#c4d7df" font-size="13">Murray-Lyon</text><text x="18" y="80" fill="#9fbfcb" font-size="13">Jitra · Kampar</text><text x="18" y="101" fill="#9fbfcb" font-size="13">Slim River</text><text x="18" y="119" fill="#799aa7" font-size="12">northern field division</text></g>
+    <g transform="translate(832 270)" filter="url(#shadow)"><rect width="182" height="126" rx="9" fill="#172c35" stroke="#557f91"/><text x="18" y="29" fill="#f1dfae" font-size="17" font-weight="700">8TH AUSTRALIAN</text><text x="18" y="53" fill="#c4d7df" font-size="13">Bennett</text><text x="18" y="80" fill="#9fbfcb" font-size="13">Gemas · Muar</text><text x="18" y="101" fill="#9fbfcb" font-size="13">Sarimbun · Kranji</text><text x="18" y="119" fill="#799aa7" font-size="12">22nd and 27th Brigades</text></g>
+    <g transform="translate(1028 270)" filter="url(#shadow)"><rect width="148" height="126" rx="9" fill="#172c35" stroke="#557f91"/><text x="14" y="29" fill="#f1dfae" font-size="16" font-weight="700">MALAY</text><text x="14" y="49" fill="#f1dfae" font-size="16" font-weight="700">REGIMENT</text><text x="14" y="75" fill="#c4d7df" font-size="13">1st &amp; 2nd Bns</text><text x="14" y="97" fill="#9fbfcb" font-size="13">Pasir Panjang</text><text x="14" y="116" fill="#799aa7" font-size="12">Bukit Chandu</text></g>
+
+    <text x="53" y="452" fill="#d8bb70" font-size="16" font-weight="700">CAMPAIGN SEQUENCE</text>
+    <line x1="85" y1="506" x2="1110" y2="506" stroke="#6a838e" stroke-width="4"/>
+    <g fill="#d8bb70" stroke="#fff0bd" stroke-width="2"><circle cx="120" cy="506" r="10"/><circle cx="310" cy="506" r="10"/><circle cx="505" cy="506" r="10"/><circle cx="700" cy="506" r="10"/><circle cx="895" cy="506" r="10"/><circle cx="1085" cy="506" r="10"/></g>
+    <g fill="#f1dfae" font-size="15" font-weight="700"><text x="74" y="542">OPENING</text><text x="265" y="542">NORTH</text><text x="454" y="542">CENTRAL</text><text x="653" y="542">JOHORE</text><text x="844" y="542">CROSSING</text><text x="1040" y="542">PERIMETER</text></g>
+    <g fill="#9db1ba" font-size="13"><text x="63" y="566">Kota Bharu</text><text x="257" y="566">Jitra · Kampar</text><text x="448" y="566">Slim River</text><text x="650" y="566">Gemas · Muar</text><text x="831" y="566">Sarimbun · Kranji</text><text x="1021" y="566">Bukit Timah</text><text x="1021" y="584">Pasir Panjang</text></g>
+
+    <path d="M133 396 C127 431 123 466 120 494" fill="none" stroke="#d06b5e" stroke-width="2" marker-end="url(#arrowRed)"/>
+    <path d="M329 396 C371 430 447 461 497 494" fill="none" stroke="#d06b5e" stroke-width="2" marker-end="url(#arrowRed)"/>
+    <path d="M525 396 C584 431 647 463 693 494" fill="none" stroke="#d06b5e" stroke-width="2" marker-end="url(#arrowRed)"/>
+    <path d="M727 396 C647 430 480 461 317 494" fill="none" stroke="#6f9eb2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+    <path d="M923 396 C917 430 907 462 898 494" fill="none" stroke="#6f9eb2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+    <path d="M1102 396 C1096 430 1090 463 1086 494" fill="none" stroke="#6f9eb2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+    <g transform="translate(54 626)">
+      <rect width="1092" height="134" rx="10" fill="#10242d" stroke="#385461"/>
+      <text x="24" y="30" fill="#f1dfae" font-size="17" font-weight="700">FORMATION STRENGTH WAS NOT SYNCHRONIZED</text>
+      <text x="24" y="58" fill="#b8cbd2" font-size="14">Japanese divisions entered the theater, received attachments, and concentrated at different stages. Commonwealth formations were dispersed,</text>
+      <text x="24" y="80" fill="#b8cbd2" font-size="14">understrength, recently raised, or reorganized during retreat. A divisional title therefore does not represent one constant number of troops.</text>
+      <line x1="24" y1="101" x2="78" y2="101" stroke="#d06b5e" stroke-width="4"/><text x="90" y="106" fill="#c7d3d8" font-size="13">Japanese operational relationship</text>
+      <line x1="344" y1="101" x2="398" y2="101" stroke="#6f9eb2" stroke-width="4"/><text x="410" y="106" fill="#c7d3d8" font-size="13">Commonwealth operational relationship</text>
+      <text x="24" y="126" fill="#8099a4" font-size="12">Schematic organization only; subordinate regiments, temporary attachments, exact strengths, and alternate replacement flows remain open.</text>
+    </g>
+  </g>
+</svg>
