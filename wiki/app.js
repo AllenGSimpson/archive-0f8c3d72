@@ -1781,6 +1781,12 @@ const pages = [
   { title: "Fujitsu", description: "The telecommunications and computing company behind the FACOM line and Japanese ground systems", href: "fujitsu.html", tags: "fujitsu fuji telecommunications facom computer mainframe semiconductor japan" },
   { title: "Mitsubishi Electric", description: "The Mitsubishi power, automation, electronics, semiconductor, and space-systems firm", href: "mitsubishi-electric.html", tags: "mitsubishi electric power automation electronics semiconductor spacecraft japan" },
   { title: "Nakajima Industrial Company", description: "The protected aviation, engine, vehicle, and machinery concern descended from Nakajima Aircraft", href: "nakajima-industrial-company.html", tags: "nakajima industrial aircraft aviation engine vehicle machinery fifth house japan" },
+  { title: "Mitsubishi", description: "The surviving maritime, heavy-industrial, financial, and southern-concession corporate house", href: "mitsubishi-corporate-house.html", tags: "mitsubishi corporate house zaibatsu iwasaki shipping shipbuilding bank japan" },
+  { title: "Mitsui", description: "The surviving trading, mining, chemical, food, banking, and continental-distribution corporate house", href: "mitsui-corporate-house.html", tags: "mitsui corporate house zaibatsu echigoya bussan trade mining bank japan" },
+  { title: "Sumitomo", description: "The surviving copper, metals, chemical, electrical-equipment, machinery, and banking corporate house", href: "sumitomo-corporate-house.html", tags: "sumitomo corporate house zaibatsu besshi copper metals chemicals bank japan" },
+  { title: "Yasuda", description: "The surviving banking, insurance, trust, property, and imperial-credit corporate house", href: "yasuda-corporate-house.html", tags: "yasuda corporate house zaibatsu zenjiro banking insurance trust credit japan" },
+  { title: "Nissan Corporate House", description: "Aikawa's publicly capitalized engineering, vehicle, chemical, and continental industrial group", href: "nissan-corporate-house.html", tags: "nissan corporate house nihon sangyo konzern aikawa engineering manchukuo japan" },
+  { title: "Manchurian Industrial Development Company", description: "Mangyō, the Manchukuoan chartered holding company for continental heavy industry", href: "manchurian-industrial-development-company.html", tags: "mangyo manchurian industrial development company aikawa nissan manchukuo heavy industry" },
   { title: "Instrumented Modernity", description: "The 1960s experience of computers, controls, records, CRTs, and measured services", href: "instrumented-modernity.html", tags: "instrumented modernity 1960s computers transistor radio crt office automobiles" },
   { title: "Microelectronic Household", description: "Calculators, quartz, video, games, personal computers, and dedicated electronics", href: "microelectronic-household.html", tags: "microelectronic household calculator quartz video games personal computer electronics" },
   { title: "Home Video", description: "Japanese-led recording formats, rental, camcorders, and the first video war", href: "home-video.html", tags: "home video vcr rental camcorder totsuko japanese falklands" },
@@ -4484,6 +4490,12 @@ const crossLinks = [
   ,{ href: "fujitsu.html", terms: ["Fujitsu", "Fuji Telecommunications Equipment"] }
   ,{ href: "mitsubishi-electric.html", terms: ["Mitsubishi Electric"] }
   ,{ href: "nakajima-industrial-company.html", terms: ["Nakajima Industrial Company", "Nakajima Industrial", "Nakajima Aircraft Company", "Nakajima Aircraft"] }
+  ,{ href: "mitsubishi-corporate-house.html", terms: ["Mitsubishi corporate house", "Mitsubishi zaibatsu", "House of Mitsubishi", "Mitsubishi"] }
+  ,{ href: "mitsui-corporate-house.html", terms: ["Mitsui corporate house", "Mitsui zaibatsu", "House of Mitsui", "Mitsui"] }
+  ,{ href: "sumitomo-corporate-house.html", terms: ["Sumitomo corporate house", "Sumitomo zaibatsu", "House of Sumitomo", "Sumitomo"] }
+  ,{ href: "yasuda-corporate-house.html", terms: ["Yasuda corporate house", "Yasuda zaibatsu", "Yasuda financial group", "Yasuda"] }
+  ,{ href: "nissan-corporate-house.html", terms: ["Nissan corporate house", "Nissan group", "Nissan Konzern", "Nihon Sangyo", "Nihon Sangyō"] }
+  ,{ href: "manchurian-industrial-development-company.html", terms: ["Manchurian Industrial Development Company", "Manchuria Heavy Industries Development", "Mangyō", "Mangyo"] }
   ,{ href: "instrumented-modernity.html", terms: ["Instrumented modernity"] }
   ,{ href: "microelectronic-household.html", terms: ["Microelectronic household", "programmable consumer world"] }
   ,{ href: "home-video.html", terms: ["Home video", "video rental", "camcorders"] }
