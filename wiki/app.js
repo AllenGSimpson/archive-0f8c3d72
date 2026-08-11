@@ -1,4 +1,8 @@
 const pages = [
+  { title: "Italian Space Program", description: "Italy's launch, propulsion, range, life-support, and mission-integration system", href: "italian-space-program.html", tags: "italian space program italy latin community san marco broglio aquila stella maris ceres" },
+  { title: "Occitan Space Program", description: "Occitania's avionics, guidance, computing, docking, and systems-integration program", href: "occitan-space-program.html", tags: "occitan space program occitania toulouse avionics guidance computing docking telemetry stella maris" },
+  { title: "Spanish Space Program", description: "Spain's structural, thermal, solar-power, fabrication, test, and astronomy program", href: "spanish-space-program.html", tags: "spanish space program spain structures solar arrays thermal tests astronomy aquila stella maris" },
+  { title: "Portuguese Space Program", description: "Portugal's tracking, communications, weather, navigation, recovery, and ocean-logistics program", href: "portuguese-space-program.html", tags: "portuguese space program portugal tracking communications meteorology navigation recovery maritime medicine ceres" },
   { title: "Main Page", description: "Portal to the fractured postwar world", href: "index.html", tags: "home overview map" },
   { title: "The World Order", description: "The five unequal power systems", href: "world.html", tags: "blocs germany japan italy america commonwealth" },
   { title: "Setting Timeline", description: "Divergence through the mature planetary age of 2010", href: "timeline.html", tags: "chronology wwii war peace dates boom depression five party space 2010" },
@@ -7021,6 +7025,10 @@ const crossLinks = [
   ,{ href: "tuamotu-archipelago.html", terms: ["Tuamotu Archipelago", "Paʻumotu", "Paumotu"] }
   ,{ href: "gambier-islands.html", terms: ["Gambier Islands", "Mangareva"] }
   ,{ href: "austral-islands.html", terms: ["Austral Islands", "Tubuai Islands"] }
+  ,{ href: "italian-space-program.html", terms: ["Italian Space Program", "Italian space program"] }
+  ,{ href: "occitan-space-program.html", terms: ["Occitan Space Program", "Occitan space program"] }
+  ,{ href: "spanish-space-program.html", terms: ["Spanish Space Program", "Spanish space program"] }
+  ,{ href: "portuguese-space-program.html", terms: ["Portuguese Space Program", "Portuguese space program"] }
 ];
 
 function escapePattern(value) {
