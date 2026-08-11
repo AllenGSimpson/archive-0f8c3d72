@@ -3254,6 +3254,18 @@ const pages = [
   ,{ title: "Northern Resource Concessions", description: "Mining, fisheries, forestry, and protected-state capital in the Russian Far East", href: "northern-resource-concessions-russian-far-east.html", tags: "northern resource concessions russian far east japan manchukuo mining fisheries royalties labor" }
   ,{ title: "Northern Integration of the Russian Far Eastern State", description: "Federal incorporation from the Lena basin to Kolyma and Kamchatka", href: "northern-integration-russian-far-east.html", tags: "northern integration russian far eastern state federal charters yakutia kolyma kamchatka" }
   ,{ title: "Former Gulag Zones of Post-Soviet Siberia", description: "Security-economic domains left by the Soviet penal-labor system", href: "former-gulag-zones.html", tags: "former gulag zones siberia security chiefs labor camps railways successor states" }
+  ,{ title: "Sakha People", description: "The principal indigenous nation of Yakutia and the middle Lena", href: "sakha-people.html", tags: "sakha people yakuts yakutia lena indigenous turkic pastoral federal" }
+  ,{ title: "Sakha Language", description: "The Siberian Turkic territorial language of Yakutia", href: "sakha-language.html", tags: "sakha language yakut yakutian turkic cyrillic yakutia bilingual" }
+  ,{ title: "Olonkho", description: "The Sakha heroic-epic tradition and its performance culture", href: "olonkho.html", tags: "olonkho sakha epic oral literature performance yakutia" }
+  ,{ title: "Platon Oyunsky", description: "Sakha writer, scholar, and founding autonomous-republic statesman", href: "platon-oyunsky.html", tags: "platon oyunsky sakha writer poet yakut assr purge olonkho" }
+  ,{ title: "Evenks", description: "The northern Tungusic people distributed across the Siberian forest belt", href: "evenks.html", tags: "evenks evenki tungusic siberia reindeer hunting indigenous far east" }
+  ,{ title: "Evens", description: "A northern Tungusic people of Yakutia, Kolyma, Kamchatka, and the Okhotsk coast", href: "evens.html", tags: "evens even people tungusic yakutia kolyma kamchatka okhotsk reindeer" }
+  ,{ title: "Yukaghir People", description: "Small northeastern peoples of the Kolyma and tundra river worlds", href: "yukaghir-people.html", tags: "yukaghir people kolyma tundra language indigenous siberia" }
+  ,{ title: "Koryaks", description: "The Chukotko-Kamchatkan people of northern Kamchatka and the Okhotsk coast", href: "koryaks.html", tags: "koryaks koryak kamchatka okhotsk chukotko kamchatkan reindeer maritime" }
+  ,{ title: "Itelmens", description: "The Indigenous people of the Kamchatka River and western peninsula", href: "itelmens.html", tags: "itelmens itelmen kamchatka river language fishing indigenous" }
+  ,{ title: "Chukchi People", description: "The inland and maritime Indigenous people of the Bering northeast", href: "chukchi-people.html", tags: "chukchi people chukotka bering reindeer maritime indigenous" }
+  ,{ title: "Chukchi Language", description: "The Chukotko-Kamchatkan language of Chukotka", href: "chukchi-language.html", tags: "chukchi language chukotko kamchatkan cyrillic chukotka endangered" }
+  ,{ title: "Indigenous Policy of the Russian Far Eastern State", description: "Federal policy for northern autonomy, language, land, and public services", href: "indigenous-policy-russian-far-eastern-state.html", tags: "indigenous policy russian far eastern state autonomy language land schools concessions" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6643,6 +6655,18 @@ const crossLinks = [
   ,{ href: "northern-resource-concessions-russian-far-east.html", terms: ["northern resource concessions", "Far Eastern northern concessions"] }
   ,{ href: "northern-integration-russian-far-east.html", terms: ["northern integration of the Russian Far Eastern State", "Far Eastern northern integration"] }
   ,{ href: "former-gulag-zones.html", terms: ["former Gulag zones", "Gulag corridors"] }
+  ,{ href: "sakha-people.html", terms: ["Sakha people", "Yakut people", "Yakuts"] }
+  ,{ href: "sakha-language.html", terms: ["Sakha language", "Yakut language", "Yakutian language"] }
+  ,{ href: "olonkho.html", terms: ["Olonkho"] }
+  ,{ href: "platon-oyunsky.html", terms: ["Platon Oyunsky"] }
+  ,{ href: "evenks.html", terms: ["Evenks", "Evenki people"] }
+  ,{ href: "evens.html", terms: ["Evens", "Even people"] }
+  ,{ href: "yukaghir-people.html", terms: ["Yukaghir people", "Yukaghirs"] }
+  ,{ href: "koryaks.html", terms: ["Koryaks", "Koryak people"] }
+  ,{ href: "itelmens.html", terms: ["Itelmens", "Itelmen people"] }
+  ,{ href: "chukchi-people.html", terms: ["Chukchi people"] }
+  ,{ href: "chukchi-language.html", terms: ["Chukchi language"] }
+  ,{ href: "indigenous-policy-russian-far-eastern-state.html", terms: ["indigenous policy of the Russian Far Eastern State", "Far Eastern indigenous policy"] }
 ];
 
 function escapePattern(value) {
