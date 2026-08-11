@@ -1,4 +1,10 @@
 const pages = [
+  { title: "Concordia Scientific Program", description: "Observation, materials, medicine, servicing, calibration, and shared orbital research", href: "concordia-scientific-program.html", tags: "concordia scientific program observation materials medicine calibration research" },
+  { title: "Concordia Earth and Ocean Observation Program", description: "Tropical weather, maritime routes, agriculture, clouds, and crew-tended instruments", href: "concordia-earth-ocean-observation.html", tags: "concordia earth ocean observation weather shipping agriculture clouds" },
+  { title: "Concordia Materials and Industrial Research Program", description: "Crystal, metallurgy, vacuum, fluid, electronics, solar-cell, and thermal experiments", href: "concordia-materials-industrial-research.html", tags: "concordia materials industrial research crystal metallurgy vacuum electronics solar thermal" },
+  { title: "Concordia Instrument Calibration Program", description: "Orbital, satellite, surface, maritime, and crew comparison of scientific measurements", href: "concordia-instrument-calibration-program.html", tags: "concordia instrument calibration measurement weather commons telemetry" },
+  { title: "Concordia Experiment-Allocation System", description: "Allocation of station mass, power, crew time, telemetry, and return capacity", href: "concordia-experiment-allocation-system.html", tags: "concordia experiment allocation system manifest science policy crew time power" },
+  { title: "Latin Orbital Research Data Service", description: "Distributed telemetry, calibration, experiment reports, and scientific records", href: "latin-orbital-research-data-service.html", tags: "latin orbital research data service telemetry archive calibration reports" },
   { title: "Concordia Ground Article", description: "The full-scale 1973 structure that exposed failures between four national systems", href: "concordia-ground-article.html", tags: "concordia ground article 1973 integration vacuum vibration thermal fire endurance testing" },
   { title: "Latin Space Standardization Campaign", description: "Common mechanical, electrical, documentary, software, and safety interfaces", href: "latin-space-standardization-campaign.html", tags: "latin space standardization campaign interface fittings telemetry safety technical latin certification" },
   { title: "Portuguese Aquila I Seat Settlement", description: "Ground authority, industrial return, and a later seat in place of unsafe symbolism", href: "portuguese-aquila-seat-settlement.html", tags: "portuguese aquila seat settlement portugal astronaut tracking recovery flight director" },
@@ -7073,6 +7079,12 @@ const crossLinks = [
   ,{ href: "latin-technical-education.html", terms: ["Latin Technical Education", "technical Latin education"] }
   ,{ href: "technical-latin-in-spaceflight.html", terms: ["Technical Latin in Spaceflight", "technical Latin"] }
   ,{ href: "latin-spaceflight-certification.html", terms: ["Latin Spaceflight Certification", "Latin flight certification"] }
+  ,{ href: "concordia-scientific-program.html", terms: ["Concordia Scientific Program", "Concordia science program"] }
+  ,{ href: "concordia-earth-ocean-observation.html", terms: ["Concordia Earth and Ocean Observation Program", "Earth and ocean observation"] }
+  ,{ href: "concordia-materials-industrial-research.html", terms: ["Concordia Materials and Industrial Research Program", "Concordia materials research"] }
+  ,{ href: "concordia-instrument-calibration-program.html", terms: ["Concordia Instrument Calibration Program", "instrument calibration program"] }
+  ,{ href: "concordia-experiment-allocation-system.html", terms: ["Concordia Experiment-Allocation System", "experiment allocation system"] }
+  ,{ href: "latin-orbital-research-data-service.html", terms: ["Latin Orbital Research Data Service", "orbital research data"] }
 ];
 
 function escapePattern(value) {

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Concordia scientific program</title>
+  <desc id="desc">Observation and laboratory work pass through a shared orbital platform into calibration, review, operational services, and distributed research archives.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101824"/><stop offset="1" stop-color="#172b35"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c49b4c"/><stop offset="1" stop-color="#8d642d"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".35"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#8ebbc5"/></marker>
+    <style>.t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#edf3f4}.muted{fill:#a9bac0}.head{font-size:31px;font-weight:700}.sub{font-size:16px}.boxhead{font-size:20px;font-weight:700}.body{font-size:15px}.line{stroke:#8ebbc5;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="690" rx="22" fill="url(#bg)"/>
+  <text x="60" y="58" class="t head">The Concordia scientific program</text>
+  <text x="60" y="86" class="t muted sub">Limited orbital resources become common observations, experiments, and durable evidence.</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="145" width="265" height="120" rx="15" fill="#263c4a" stroke="#52798b"/>
+    <text x="78" y="181" class="t boxhead">Earth and ocean</text><text x="78" y="213" class="t body">weather · shipping · agriculture</text><text x="78" y="238" class="t body">clouds · maritime storms</text>
+    <rect x="55" y="295" width="265" height="120" rx="15" fill="#263c4a" stroke="#52798b"/>
+    <text x="78" y="331" class="t boxhead">Materials and industry</text><text x="78" y="363" class="t body">crystals · metallurgy · electronics</text><text x="78" y="388" class="t body">solar cells · thermal control</text>
+    <rect x="55" y="445" width="265" height="120" rx="15" fill="#263c4a" stroke="#52798b"/>
+    <text x="78" y="481" class="t boxhead">Human endurance</text><text x="78" y="513" class="t body">health · habitability · work</text><text x="78" y="538" class="t body">exercise · recovery · discipline</text>
+  </g>
+  <path d="M320 205H410M320 355H410M320 505H410" class="line"/>
+  <g filter="url(#shadow)"><rect x="410" y="190" width="330" height="330" rx="22" fill="url(#core)" stroke="#e3c781" stroke-width="2"/></g>
+  <text x="575" y="242" text-anchor="middle" class="t boxhead">Concordia orbital laboratory</text>
+  <text x="575" y="276" text-anchor="middle" class="t body">Low-inclination · crew-tended · serviced</text>
+  <line x1="455" y1="303" x2="695" y2="303" stroke="#f1d99c" opacity=".7"/>
+  <text x="455" y="344" class="t body">Experiment allocation and manifest</text>
+  <text x="455" y="376" class="t body">Power · crew time · telemetry · return</text>
+  <text x="455" y="408" class="t body">Inspection · exchange · calibration</text>
+  <text x="455" y="440" class="t body">Common interface evidence</text>
+  <text x="455" y="472" class="t body">Multinational laboratories</text>
+  <path d="M740 355H830" class="line"/>
+  <g filter="url(#shadow)">
+    <rect x="830" y="135" width="315" height="110" rx="15" fill="#24434a" stroke="#6ca5aa"/><text x="855" y="172" class="t boxhead">Calibration layer</text><text x="855" y="204" class="t body">satellite · surface · crew comparisons</text><text x="855" y="229" class="t body">quality flags · uncertainty · context</text>
+    <rect x="830" y="290" width="315" height="110" rx="15" fill="#293847" stroke="#5d7a94"/><text x="855" y="327" class="t boxhead">Operational services</text><text x="855" y="359" class="t body">Weather Commons · navigation</text><text x="855" y="384" class="t body">agriculture · servicing · certification</text>
+    <rect x="830" y="445" width="315" height="110" rx="15" fill="#293847" stroke="#5d7a94"/><text x="855" y="482" class="t boxhead">Distributed research record</text><text x="855" y="514" class="t body">telemetry · reports · returned hardware</text><text x="855" y="539" class="t body">universities · firms · public services</text>
+  </g>
+  <path d="M987 245V290M987 400V445" class="line"/>
+  <text x="60" y="630" class="t muted sub">Italy · Occitania · Spain · Portugal retain national laboratories while common interfaces make their findings usable together.</text>
+</svg>
