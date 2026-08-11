@@ -1691,6 +1691,13 @@ const pages = [
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
   { title: "Kingdom of Laos", description: "Luang Phrabang monarchy and mainland buffer", href: "laos.html", tags: "laos lao luang phrabang vientiane geacps japan" },
   { title: "Southern Archipelago States", description: "Fifteen sovereign regional states beneath Japanese corporate primacy", href: "east-indies-successor-states.html", tags: "southern archipelago states dutch east indies indonesia sunda mataram aceh sumatra sulawesi moluccas geacps japan" },
+  { title: "Transfer of East Indian Commanding Assets", description: "Wartime reassignment of the colonial economy to Japanese corporate operators", href: "transfer-east-indian-commanding-assets.html", tags: "east indies commanding assets transfer seizure custodianship oil plantation banks shipping japan" },
+  { title: "Sovereignty after Concession", description: "Southern Archipelago statehood created after corporate rights were embedded", href: "sovereignty-after-concession.html", tags: "sovereignty after concession southern archipelago independence corporate rights" },
+  { title: "Independence Treaties of the Southern Archipelago States", description: "Separate bilateral recognition preserving Japanese strategic and corporate continuity", href: "southern-archipelago-independence-treaties.html", tags: "southern archipelago independence treaties japan recognition concessions statehood" },
+  { title: "Southern Archipelago Concession System", description: "Ownership, operating rights, debt, standards, ports, and resource agreements", href: "southern-archipelago-concession-system.html", tags: "southern archipelago concession system corporate law oil plantations ports rail utilities" },
+  { title: "Inter-State Investment Competition in the Southern Archipelago", description: "Fifteen governments competing for common Japanese capital, shipping, and expertise", href: "interstate-investment-competition-southern-archipelago.html", tags: "southern archipelago interstate investment competition difficult state capital shipping" },
+  { title: "Corporate Politics in the Southern Archipelago", description: "The Sphere's first mature laboratory of corporate political influence without direct rule", href: "corporate-politics-southern-archipelago.html", tags: "southern archipelago corporate politics patronage media foundations banks zaibatsu" },
+  { title: "Southern Archipelago Shipping and Finance System", description: "Maritime, port, banking, insurance, and customs network centered on Japan and Singapore", href: "southern-archipelago-shipping-finance-system.html", tags: "southern archipelago shipping finance ports singapore insurance customs maritime" },
   { title: "Vladivostok Protectorate", description: "Japanese-controlled Russian Pacific port and railhead", href: "vladivostok.html", tags: "vladivostok maritime province protectorate russia geacps japan" },
   { title: "Russian Far Eastern State", description: "Federal Russian monarchy under Japanese strategic supremacy", href: "russian-far-eastern-state.html", tags: "russian far east siberia tsar mikhail chita khabarovsk amur geacps japan" },
   { title: "Chukotka Autonomous Territory", description: "Northern autonomous territory of the Russian Far Eastern State", href: "chukotka.html", tags: "chukotka anadyr bering autonomous territory russian far eastern state" },
@@ -3067,6 +3074,7 @@ topicNav.push(["American Execution State", "corporate-execution-continuity.html"
 topicNav.push(["Chita Crown", "house-of-romanov-russian-far-east.html"]);
 topicNav.push(["Mongolian Constitutional Order", "great-khural-united-mongolia.html"]);
 topicNav.push(["Amur Settlement", "amur-settlement.html"]);
+topicNav.push(["Southern Archipelago Economy", "sovereignty-after-concession.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -4741,6 +4749,13 @@ const crossLinks = [
   { href: "bornean-malaya.html", terms: ["Bornean Malaya", "former Bornean Malaya"] },
   { href: "southern-archipelago-council.html", terms: ["Southern Archipelago Council", "archipelago council"] },
   { href: "japanese-east-indies.html", terms: ["Japanese East Indies", "Japanese East Indies administration"] },
+  { href: "transfer-east-indian-commanding-assets.html", terms: ["transfer of East Indian commanding assets", "East Indian commanding assets", "commanding assets of the East Indies"] },
+  { href: "sovereignty-after-concession.html", terms: ["Sovereignty after concession", "sovereign after concession"] },
+  { href: "southern-archipelago-independence-treaties.html", terms: ["independence treaties of the Southern Archipelago States", "Southern Archipelago independence treaties"] },
+  { href: "southern-archipelago-concession-system.html", terms: ["Southern Archipelago concession system", "archipelagic concession system"] },
+  { href: "interstate-investment-competition-southern-archipelago.html", terms: ["inter-state investment competition in the Southern Archipelago", "interstate investment competition", "difficult state"] },
+  { href: "corporate-politics-southern-archipelago.html", terms: ["corporate politics in the Southern Archipelago", "Southern Archipelago corporate politics", "East Indian corporate-political laboratory"] },
+  { href: "southern-archipelago-shipping-finance-system.html", terms: ["Southern Archipelago shipping and finance system", "archipelagic shipping and finance system"] },
   { href: "indonesian-unification-movement.html", terms: ["Indonesian Unification Movement", "Indonesian nationalism", "pan-Indonesian movement"] },
   { href: "concord-computer-works.html", terms: ["Concord Computer Works"] },
   { href: "interlink-software.html", terms: ["Interlink Software Corporation", "Interlink Software"] },
