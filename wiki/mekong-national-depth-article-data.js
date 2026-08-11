@@ -25,7 +25,9 @@ const vietnamDepthRelated = [
   {href:"saigon.html",kicker:"Commercial center",label:"Saigon"},
   {href:"tonkin.html",kicker:"Northern region",label:"Tonkin"},
   {href:"annam.html",kicker:"Central region",label:"Annam"},
-  {href:"cochinchina.html",kicker:"Southern region",label:"Cochinchina"}
+  {href:"cochinchina.html",kicker:"Southern region",label:"Cochinchina"},
+  {href:"red-river-delta.html",kicker:"Northern geography",label:"Red River Delta"},
+  {href:"mekong-delta.html",kicker:"Southern geography",label:"Mekong Delta"}
 ];
 const cambodiaDepthRelated = [
   {href:"cambodia.html",kicker:"National overview",label:"Kingdom of Cambodia"},
@@ -36,7 +38,9 @@ const cambodiaDepthRelated = [
   {href:"battambang.html",kicker:"Territorial grievance",label:"Battambang"},
   {href:"siem-reap.html",kicker:"Northwestern city",label:"Siem Reap"},
   {href:"angkor.html",kicker:"National heritage",label:"Angkor"},
-  {href:"khmer-krom.html",kicker:"Cross-border people",label:"Khmer Krom"}
+  {href:"khmer-krom.html",kicker:"Cross-border people",label:"Khmer Krom"},
+  {href:"tonle-sap.html",kicker:"National lake",label:"Tonlé Sap"},
+  {href:"sisophon-corridor.html",kicker:"Lost western corridor",label:"Sisophon Corridor"}
 ];
 const laosDepthRelated = [
   {href:"laos.html",kicker:"National overview",label:"Kingdom of Laos"},
@@ -46,7 +50,9 @@ const laosDepthRelated = [
   {href:"champasak.html",kicker:"Southern compact",label:"Champasak"},
   {href:"pakse.html",kicker:"Southern center",label:"Pakse"},
   {href:"bolaven-plateau.html",kicker:"Agricultural upland",label:"Bolaven Plateau"},
-  {href:"wat-phou.html",kicker:"Southern heritage",label:"Wat Phou"}
+  {href:"wat-phou.html",kicker:"Southern heritage",label:"Wat Phou"},
+  {href:"savannakhet.html",kicker:"Middle-Mekong center",label:"Savannakhet"},
+  {href:"sayaboury.html",kicker:"Territorial loss",label:"Sayaboury"}
 ];
 
 Object.assign(window.deepArticles,{

@@ -1810,6 +1810,16 @@ const pages = [
   { title: "Bolaven Plateau", description: "Southern Laos's upland coffee, water, forest, and hydropower region", href: "bolaven-plateau.html", tags: "bolaven plateau laos champasak coffee laven highland hydropower" },
   { title: "Wat Phou", description: "The Khmer sanctuary and living Lao Buddhist heritage site in Champasak", href: "wat-phou.html", tags: "wat phou vat phou laos champasak khmer temple buddhist" },
   { title: "Khmer Krom", description: "Khmer communities of the lower Mekong within imperial Vietnam", href: "khmer-krom.html", tags: "khmer krom kampuchea krom vietnam cochinchina mekong delta theravada" },
+  { title: "Haiphong", description: "Northern Vietnam's principal seaport and maritime end of the Hanoi corridor", href: "haiphong.html", tags: "haiphong hai phong vietnam tonkin port hanoi red river gulf" },
+  { title: "Đà Nẵng", description: "The former Tourane and principal port of central Vietnam", href: "da-nang.html", tags: "da nang danang tourane vietnam annam port han river" },
+  { title: "Quy Nhơn", description: "The central-southern Vietnamese port serving Bình Định and Annam", href: "quy-nhon.html", tags: "quy nhon qui nhon vietnam annam port binh dinh thi nai" },
+  { title: "Red River Delta", description: "Northern Vietnam's densely settled agricultural and administrative core", href: "red-river-delta.html", tags: "red river delta song hong vietnam tonkin hanoi haiphong rice dikes" },
+  { title: "Mekong Delta", description: "The riverine agricultural and multicultural core of southern Vietnam", href: "mekong-delta.html", tags: "mekong delta nine dragons vietnam cochinchina khmer krom rice canals" },
+  { title: "Tonlé Sap", description: "Cambodia's seasonal Great Lake, flood reservoir, and central fishery", href: "tonle-sap.html", tags: "tonle sap great lake cambodia fishery flood reversal angkor mekong" },
+  { title: "Sisophon Corridor", description: "Thailand's retained rail and road belt west of Cambodian Siem Reap", href: "sisophon-corridor.html", tags: "sisophon si sophon corridor thailand cambodia battambang rail border" },
+  { title: "Sayaboury", description: "The Lao-speaking west-bank territory retained by Thailand after 1941", href: "sayaboury.html", tags: "sayaboury sainyabuli xayaburi xaignabouli thailand laos territory 1941" },
+  { title: "Savannakhet", description: "The middle-Mekong commercial center and east–west corridor city of Laos", href: "savannakhet.html", tags: "savannakhet khanthaboury laos mekong mukdahan transport corridor" },
+  { title: "Paksong", description: "The coffee and administrative center of the Bolaven Plateau", href: "paksong.html", tags: "paksong laos bolaven plateau coffee champasak pakse" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6323,6 +6333,16 @@ const crossLinks = [
   ,{ href: "bolaven-plateau.html", terms: ["Bolaven Plateau", "Bolaven"] }
   ,{ href: "wat-phou.html", terms: ["Wat Phou", "Vat Phou", "Wat Phu", "Vat Phu"] }
   ,{ href: "khmer-krom.html", terms: ["Khmer Krom", "Kampuchea Krom"] }
+  ,{ href: "haiphong.html", terms: ["Haiphong", "Hai Phong", "Hải Phòng"] }
+  ,{ href: "da-nang.html", terms: ["Đà Nẵng", "Da Nang", "Danang", "Tourane"] }
+  ,{ href: "quy-nhon.html", terms: ["Quy Nhơn", "Quy Nhon", "Qui Nhon"] }
+  ,{ href: "red-river-delta.html", terms: ["Red River Delta", "Hong River Delta", "Hồng River Delta"] }
+  ,{ href: "mekong-delta.html", terms: ["Mekong Delta", "Nine Dragons Delta"] }
+  ,{ href: "tonle-sap.html", terms: ["Tonlé Sap", "Tonle Sap", "Great Lake"] }
+  ,{ href: "sisophon-corridor.html", terms: ["Sisophon corridor", "Sisophon Corridor", "Si Sophon corridor"] }
+  ,{ href: "sayaboury.html", terms: ["Sayaboury", "Sainyabuli", "Xayaburi", "Xaignabouli", "Xayaboury"] }
+  ,{ href: "savannakhet.html", terms: ["Savannakhet", "Khanthaboury"] }
+  ,{ href: "paksong.html", terms: ["Paksong"] }
 ];
 
 function escapePattern(value) {
