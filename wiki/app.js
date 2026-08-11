@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Public Health and Disaster Response in the Co-Prosperity Sphere", description: "National medicine, company care, epidemic control, relief logistics, and reconstruction", href: "public-health-disaster-geacps.html", tags: "public health disaster response geacps medicine relief welfare" },
+  { title: "National Public-Health Administration in the Co-Prosperity Sphere", description: "Ministries, local services, licensing, sanitation, and disease reporting", href: "national-public-health-administration-geacps.html", tags: "national public health administration geacps ministries sanitation licensing" },
+  { title: "Company Hospitals and Corridor Medicine", description: "Employment medicine, industrial clinics, referral, and transport-linked health care", href: "company-hospitals-geacps.html", tags: "company hospitals corridor medicine geacps occupational health mantetsu" },
+  { title: "Epidemic Control and Vaccination in the Co-Prosperity Sphere", description: "Surveillance, laboratories, vaccines, quarantine, water, and medical supply", href: "epidemic-control-vaccination-geacps.html", tags: "epidemic control vaccination geacps quarantine disease laboratories" },
+  { title: "Tropical Medicine in Japanese Asia", description: "Infection, vectors, nutrition, occupational exposure, research, and community care", href: "tropical-medicine-geacps.html", tags: "tropical medicine japanese asia malaria dengue parasites public health" },
+  { title: "Disaster Relief Transport in the Co-Prosperity Sphere", description: "Ships, aircraft, railways, vehicles, engineers, and emergency communications", href: "disaster-relief-transport-geacps.html", tags: "disaster relief transport geacps ships aircraft rail engineers" },
+  { title: "Post-disaster Reconstruction and Welfare in the Co-Prosperity Sphere", description: "Household relief, public services, finance, relocation, and long-term support", href: "post-disaster-reconstruction-welfare-geacps.html", tags: "post disaster reconstruction welfare geacps housing finance relief" },
   { title: "Police and Intelligence in the Co-Prosperity Sphere", description: "Territorial policing, Japanese military security, intelligence liaison, censorship, and corporate guards", href: "police-intelligence-geacps.html", tags: "police intelligence geacps co-prosperity security censorship opposition" },
   { title: "National Police Jurisdiction in the Co-Prosperity Sphere", description: "Territorial criminal authority, local forces, foreign residents, and treaty districts", href: "national-police-jurisdiction-geacps.html", tags: "national police jurisdiction geacps law enforcement territorial" },
   { title: "Japanese Military Police abroad", description: "Service discipline, installation security, treaty districts, and the Kempeitai legacy", href: "japanese-military-police-abroad.html", tags: "japanese military police abroad kempeitai bases security" },
@@ -7271,6 +7278,13 @@ const crossLinks = [
   ,{ href: "censorship-opposition-geacps.html", terms: ["Censorship and Political Opposition in the Co-Prosperity Sphere", "censorship and political opposition"] }
   ,{ href: "corporate-corridor-security-geacps.html", terms: ["Corporate and Corridor Security in the Co-Prosperity Sphere", "corporate and corridor security"] }
   ,{ href: "extradition-amnesty-exile-geacps.html", terms: ["Extradition, Amnesty, and Political Exile in the Co-Prosperity Sphere", "extradition, amnesty, and political exile"] }
+  ,{ href: "public-health-disaster-geacps.html", terms: ["Public Health and Disaster Response in the Co-Prosperity Sphere", "public health and disaster response"] }
+  ,{ href: "national-public-health-administration-geacps.html", terms: ["National Public-Health Administration in the Co-Prosperity Sphere", "national public-health administration"] }
+  ,{ href: "company-hospitals-geacps.html", terms: ["Company Hospitals and Corridor Medicine", "company hospitals"] }
+  ,{ href: "epidemic-control-vaccination-geacps.html", terms: ["Epidemic Control and Vaccination in the Co-Prosperity Sphere", "epidemic control and vaccination"] }
+  ,{ href: "tropical-medicine-geacps.html", terms: ["Tropical Medicine in Japanese Asia", "tropical medicine"] }
+  ,{ href: "disaster-relief-transport-geacps.html", terms: ["Disaster Relief Transport in the Co-Prosperity Sphere", "disaster relief transport"] }
+  ,{ href: "post-disaster-reconstruction-welfare-geacps.html", terms: ["Post-disaster Reconstruction and Welfare in the Co-Prosperity Sphere", "post-disaster reconstruction and welfare"] }
 ];
 
 function escapePattern(value) {
