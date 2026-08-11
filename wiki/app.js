@@ -3290,6 +3290,18 @@ const pages = [
   ,{ title: "Miyakoan Language", description: "The endangered Southern Ryukyuan language of the Miyako Islands", href: "miyakoan-language.html", tags: "miyakoan language miyako ikema irabu tarama southern ryukyuan" }
   ,{ title: "Yaeyama Language", description: "The endangered Southern Ryukyuan language of the Yaeyama Islands", href: "yaeyama-language.html", tags: "yaeyama language ishigaki iriomote taketomi hateruma southern ryukyuan" }
   ,{ title: "Yonaguni Language", description: "The endangered language of Dunan at Japan's westernmost inhabited edge", href: "yonaguni-language.html", tags: "yonaguni language dunan southern ryukyuan taiwan endangered" }
+  ,{ title: "South Seas Mandate", description: "Japan's League mandate over former German Micronesia and its postwar incorporation", href: "south-seas-mandate.html", tags: "south seas mandate nanyo league nations japan micronesia koror" }
+  ,{ title: "Koror", description: "The civil capital of Japan's Micronesian Administration", href: "koror.html", tags: "koror palau micronesia capital south seas agency city" }
+  ,{ title: "Palau Islands", description: "The western island district and administrative center of Japanese Micronesia", href: "palau-islands.html", tags: "palau islands belau koror babeldaob peleliu anguar japan" }
+  ,{ title: "Caroline Islands", description: "The central and western archipelago of Japanese Micronesia", href: "caroline-islands.html", tags: "caroline islands palau yap truk chuuk ponape pohnpei kosrae" }
+  ,{ title: "Truk Islands", description: "The Chuukese lagoon and principal Japanese naval base in Micronesia", href: "truk-islands.html", tags: "truk islands chuuk lagoon japanese naval base operation hailstone" }
+  ,{ title: "Ponape", description: "The Pohnpeian eastern Caroline district centered on Kolonia", href: "ponape.html", tags: "ponape pohnpei kolonia nan madol caroline islands japan" }
+  ,{ title: "Yap Islands", description: "The western Caroline district of stone money, navigation, and outer islands", href: "yap-islands.html", tags: "yap islands stone money ulithi woleai satawal carolines japan" }
+  ,{ title: "Northern Mariana Islands", description: "The Japanese Marianas surrounding the American island of Guam", href: "northern-mariana-islands.html", tags: "northern mariana islands saipan tinian rota guam japan" }
+  ,{ title: "Saipan", description: "Japan's principal settlement, sugar, and administrative center in the Marianas", href: "saipan.html", tags: "saipan garapan sugar marianas japan guam frontier" }
+  ,{ title: "Marshall Islands", description: "The eastern atoll district of Japanese Micronesia", href: "marshall-islands.html", tags: "marshall islands jaluit kwajalein ratak ralik copra japan" }
+  ,{ title: "Micronesian Peoples", description: "The diverse Indigenous peoples of Japan's northern South Seas territories", href: "micronesian-peoples.html", tags: "micronesian peoples chamorro carolinian palauan yapese chuukese pohnpeian marshallese" }
+  ,{ title: "Micronesian Languages", description: "The Austronesian languages of Japanese Micronesia", href: "micronesian-languages.html", tags: "micronesian languages austronesian palauan chamorro yapese chuukese pohnpeian marshallese japanese" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6715,6 +6727,18 @@ const crossLinks = [
   ,{ href: "miyakoan-language.html", terms: ["Miyakoan language"] }
   ,{ href: "yaeyama-language.html", terms: ["Yaeyama language"] }
   ,{ href: "yonaguni-language.html", terms: ["Yonaguni language"] }
+  ,{ href: "south-seas-mandate.html", terms: ["South Seas Mandate", "Nanyō mandate"] }
+  ,{ href: "koror.html", terms: ["Koror"] }
+  ,{ href: "palau-islands.html", terms: ["Palau Islands", "Palau"] }
+  ,{ href: "caroline-islands.html", terms: ["Caroline Islands", "the Carolines"] }
+  ,{ href: "truk-islands.html", terms: ["Truk Islands", "Truk", "Chuuk"] }
+  ,{ href: "ponape.html", terms: ["Ponape", "Pohnpei"] }
+  ,{ href: "yap-islands.html", terms: ["Yap Islands", "Yap"] }
+  ,{ href: "northern-mariana-islands.html", terms: ["Northern Mariana Islands", "Japanese Marianas"] }
+  ,{ href: "saipan.html", terms: ["Saipan"] }
+  ,{ href: "marshall-islands.html", terms: ["Marshall Islands", "the Marshalls"] }
+  ,{ href: "micronesian-peoples.html", terms: ["Micronesian peoples", "Micronesians"] }
+  ,{ href: "micronesian-languages.html", terms: ["Micronesian languages"] }
 ];
 
 function escapePattern(value) {
