@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Religion in the Co-Prosperity Sphere", description: "Religious traditions, sacred institutions, family law, chaplaincy, and foreign ties", href: "religion-geacps.html", tags: "religion geacps co-prosperity shinto buddhism catholic islam orthodox" },
+  { title: "Religious Non-assimilation Doctrine", description: "Japanese political headship without required conversion or a common imperial cult", href: "religious-nonassimilation-geacps.html", tags: "religious non-assimilation doctrine geacps japan state shinto pluralism" },
+  { title: "Sacred Institutions in the Co-Prosperity Sphere", description: "Temples, shrines, churches, mosques, monasteries, schools, charities, and property", href: "sacred-institutions-geacps.html", tags: "sacred institutions geacps temple shrine church mosque monastery" },
+  { title: "Religious Schools and Family Law in the Co-Prosperity Sphere", description: "Education, marriage, inheritance, children, and cross-border recognition", href: "religious-family-law-geacps.html", tags: "religious schools family law geacps marriage inheritance education" },
+  { title: "Military Chaplaincy in the Co-Prosperity Sphere", description: "National religious care, worship, burial, and pastoral service in common defense", href: "military-chaplaincy-geacps.html", tags: "military chaplaincy geacps religion armed forces burial worship" },
+  { title: "Foreign Religious Relations of the Co-Prosperity Sphere", description: "Hierarchies, pilgrimage, missions, study, charity, and religious diplomacy", href: "foreign-religious-relations-geacps.html", tags: "foreign religious relations geacps pilgrimage missions catholic orthodox buddhist islam" },
+  { title: "State Shinto outside Japan", description: "Japanese shrines, imperial rites, military observance, and settler institutions abroad", href: "state-shinto-outside-japan.html", tags: "state shinto outside japan shrines settlers manchukuo military" },
   { title: "Education in the Co-Prosperity Sphere", description: "National schools, Japanese technical institutions, qualifications, and student mobility", href: "education-geacps.html", tags: "education geacps co-prosperity sphere schools universities credentials" },
   { title: "Imperial Universities of Japan", description: "Senior public universities, professional faculties, and strategic research institutions", href: "imperial-universities-japan.html", tags: "imperial universities japan higher education research engineering medicine" },
   { title: "Technical Secondary Education in the Co-Prosperity Sphere", description: "Industrial schools, apprenticeships, company courses, and technician formation", href: "technical-secondary-education-geacps.html", tags: "technical secondary education geacps vocational apprenticeship company school" },
@@ -7243,6 +7250,13 @@ const crossLinks = [
   ,{ href: "credential-recognition-geacps.html", terms: ["Recognition of Professional Credentials in the Co-Prosperity Sphere", "recognition of professional credentials", "credential recognition"] }
   ,{ href: "scholarships-study-abroad-geacps.html", terms: ["Scholarships and Study Abroad in the Co-Prosperity Sphere", "scholarships and study abroad"] }
   ,{ href: "teacher-training-textbook-policy-geacps.html", terms: ["Teacher Training and Textbook Policy in the Co-Prosperity Sphere", "teacher training and textbook policy"] }
+  ,{ href: "religion-geacps.html", terms: ["Religion in the Co-Prosperity Sphere", "Co-Prosperity religious order"] }
+  ,{ href: "religious-nonassimilation-geacps.html", terms: ["Religious Non-assimilation Doctrine", "religious non-assimilation"] }
+  ,{ href: "sacred-institutions-geacps.html", terms: ["Sacred Institutions in the Co-Prosperity Sphere", "sacred institutions"] }
+  ,{ href: "religious-family-law-geacps.html", terms: ["Religious Schools and Family Law in the Co-Prosperity Sphere", "religious schools and family law"] }
+  ,{ href: "military-chaplaincy-geacps.html", terms: ["Military Chaplaincy in the Co-Prosperity Sphere", "military chaplaincy"] }
+  ,{ href: "foreign-religious-relations-geacps.html", terms: ["Foreign Religious Relations of the Co-Prosperity Sphere", "foreign religious relations"] }
+  ,{ href: "state-shinto-outside-japan.html", terms: ["State Shinto outside Japan"] }
 ];
 
 function escapePattern(value) {

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Religious order of the Co-Prosperity Sphere</title>
+  <desc id="desc">Diagram showing Japanese political headship without a common cult, national religious law, protected sacred institutions, family law, chaplaincy, and foreign religious ties.</desc>
+  <rect width="920" height="560" fill="#111612"/>
+  <rect x="30" y="28" width="860" height="504" rx="18" fill="#182019" stroke="#a88945" stroke-width="3"/>
+  <text x="460" y="72" text-anchor="middle" fill="#e8ddbf" font-family="Georgia,serif" font-size="28">Religious order of the Co-Prosperity Sphere</text>
+  <text x="460" y="100" text-anchor="middle" fill="#b8b39e" font-family="Arial,sans-serif" font-size="14">Japanese headship without a supranational throne, church, or imperial cult</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="330" y="132" width="260" height="112" rx="12" fill="#3b3421" stroke="#c3a85c" stroke-width="2"/>
+    <text x="460" y="165" text-anchor="middle" fill="#fff2c9" font-size="18" font-weight="bold">JAPAN · PRESIDING POWER</text>
+    <text x="460" y="193" text-anchor="middle" fill="#ded5bc" font-size="14">Emperor of Japan · treaty guarantor</text>
+    <text x="460" y="219" text-anchor="middle" fill="#ded5bc" font-size="14">no universal sacred office over the Sphere</text>
+    <rect x="65" y="300" width="220" height="126" rx="12" fill="#26372e" stroke="#789c83" stroke-width="2"/>
+    <text x="175" y="333" text-anchor="middle" fill="#f1ead7" font-size="17" font-weight="bold">NATIONAL LAW</text>
+    <text x="175" y="360" text-anchor="middle" fill="#d2d1c5" font-size="14">religious status · schools</text>
+    <text x="175" y="385" text-anchor="middle" fill="#d2d1c5" font-size="14">marriage · clergy · property</text>
+    <rect x="350" y="300" width="220" height="126" rx="12" fill="#2f2937" stroke="#9d84ac" stroke-width="2"/>
+    <text x="460" y="333" text-anchor="middle" fill="#f1ead7" font-size="17" font-weight="bold">SACRED INSTITUTIONS</text>
+    <text x="460" y="360" text-anchor="middle" fill="#d2d1c5" font-size="14">temple · shrine · church · mosque</text>
+    <text x="460" y="385" text-anchor="middle" fill="#d2d1c5" font-size="14">monastery · school · charity · court</text>
+    <rect x="635" y="300" width="220" height="126" rx="12" fill="#243244" stroke="#7f9bbd" stroke-width="2"/>
+    <text x="745" y="333" text-anchor="middle" fill="#f1ead7" font-size="17" font-weight="bold">CROSS-BORDER TIES</text>
+    <text x="745" y="360" text-anchor="middle" fill="#d2d1c5" font-size="14">chaplaincy · pilgrimage · study</text>
+    <text x="745" y="385" text-anchor="middle" fill="#d2d1c5" font-size="14">foreign hierarchy · diaspora</text>
+    <path d="M460 244V273H175V300M460 273V300M460 273H745V300" fill="none" stroke="#c3a85c" stroke-width="3"/>
+    <rect x="180" y="466" width="560" height="38" rx="10" fill="#3a2b26" stroke="#ad806d" stroke-width="2"/>
+    <text x="460" y="491" text-anchor="middle" fill="#e3d9c7" font-size="14">Political loyalty is required; religious assimilation is not.</text>
+  </g>
+</svg>
