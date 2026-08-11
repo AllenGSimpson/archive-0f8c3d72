@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Postwar Japanese political order</title>
+  <desc id="desc">Diagram of imperial sanction, cabinet government, the Imperial Diet, ministries, armed services, political factions, and permitted public petition.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111923"/><stop offset="1" stop-color="#071015"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-opacity=".35"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#79b8c7"/></marker>
+    <style>.box{fill:#15232c;stroke:#79b8c7;stroke-width:2}.secondary{fill:#192027;stroke:#b09a70;stroke-width:1.5}.t{fill:#f2eadc;font-family:Georgia,serif;font-weight:700;text-anchor:middle}.s{fill:#c9d2d2;font-family:Arial,sans-serif;font-size:15px;text-anchor:middle}.line{stroke:#79b8c7;stroke-width:2;fill:none;marker-end:url(#arrow)}.dash{stroke:#b09a70;stroke-width:1.5;stroke-dasharray:7 7;fill:none}</style>
+  </defs>
+  <rect width="960" height="620" rx="24" fill="url(#bg)"/>
+  <text x="480" y="42" class="t" font-size="25">Postwar Japanese political order</text>
+  <text x="480" y="67" class="s">managed parliamentary government under imperial sanction</text>
+  <g filter="url(#shadow)">
+    <rect class="box" x="330" y="92" width="300" height="82" rx="13"/>
+    <text class="t" x="480" y="124" font-size="21">Emperor</text><text class="s" x="480" y="150">sanction, mediation, Imperial Conference</text>
+    <rect class="box" x="330" y="225" width="300" height="82" rx="13"/>
+    <text class="t" x="480" y="257" font-size="21">Prime minister and Cabinet</text><text class="s" x="480" y="283">ordinary policy, budgets, appointments</text>
+    <rect class="secondary" x="55" y="225" width="225" height="82" rx="13"/>
+    <text class="t" x="168" y="257" font-size="20">Imperial Diet</text><text class="s" x="168" y="283">law, supply, petitions, scrutiny</text>
+    <rect class="secondary" x="680" y="225" width="225" height="82" rx="13"/>
+    <text class="t" x="793" y="257" font-size="20">Supreme command</text><text class="s" x="793" y="283">Army, Navy, defense councils</text>
+    <rect class="secondary" x="330" y="365" width="300" height="82" rx="13"/>
+    <text class="t" x="480" y="397" font-size="20">Ministries and prefectures</text><text class="s" x="480" y="423">administration, police, regulation</text>
+    <rect class="secondary" x="55" y="365" width="225" height="82" rx="13"/>
+    <text class="t" x="168" y="397" font-size="20">Recognized politics</text><text class="s" x="168" y="423">factions, conservatives, independents</text>
+    <rect class="secondary" x="680" y="365" width="225" height="82" rx="13"/>
+    <text class="t" x="793" y="397" font-size="20">Corporate order</text><text class="s" x="793" y="423">banks, zaibatsu, policy councils</text>
+    <rect class="box" x="230" y="506" width="500" height="70" rx="13"/>
+    <text class="t" x="480" y="535" font-size="20">Public, local, and occupational interests</text><text class="s" x="480" y="559">elections, petitions, associations, criticism of administration</text>
+  </g>
+  <path class="line" d="M480 174v51"/><path class="line" d="M330 266h-50"/><path class="line" d="M630 266h50"/>
+  <path class="line" d="M480 307v58"/><path class="dash" d="M280 406h50"/><path class="dash" d="M630 406h50"/>
+  <path class="line" d="M390 506l-168-59"/><path class="line" d="M480 506v-59"/><path class="line" d="M570 506l168-59"/>
+  <text class="s" x="480" y="605">Daily government is plural and negotiated; reserved imperial questions remain outside ordinary parliamentary control.</text>
+</svg>

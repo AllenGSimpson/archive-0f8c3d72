@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Politics of Japan", description: "Imperial sovereignty, Cabinet government, the Diet, factions, bureaucracy, and bounded opposition", href: "politics-of-japan.html", tags: "politics Japan emperor cabinet imperial diet factions home ministry opposition" },
+  { title: "Emperor in Postwar Japanese Politics", description: "Imperial sanction, mediation, conference, Cabinet transition, Hirohito, and Akihito", href: "emperor-in-postwar-japanese-politics.html", tags: "emperor postwar Japanese politics Hirohito Akihito imperial conference sanction" },
+  { title: "Imperial Diet in Postwar Japan", description: "Law, supply, petitions, administrative scrutiny, factions, and constitutional limits", href: "imperial-diet-postwar-japan.html", tags: "imperial diet postwar Japan parliament House Representatives budgets petitions" },
+  { title: "Political Parties and Factions in Postwar Japan", description: "Recognized competition, independents, business, bureaucracy, and prohibited politics", href: "political-parties-factions-postwar-japan.html", tags: "political parties factions postwar Japan conservatives independents elections" },
+  { title: "Imperial Rule Assistance Association after Victory", description: "Demobilization, electoral cartel, factional re-emergence, and unresolved succession", href: "imperial-rule-assistance-association-after-victory.html", tags: "imperial rule assistance association victory Japan taisei yokusankai cartel" },
+  { title: "Home Ministry and Police in Postwar Japan", description: "Local administration, elections, ordinary policing, political security, and institutional continuity", href: "home-ministry-police-postwar-japan.html", tags: "home ministry police postwar Japan local government elections political security" },
+  { title: "Political Opposition in Postwar Japan", description: "Permitted administrative criticism, protected conclusions, censorship, and prohibited organization", href: "political-opposition-postwar-japan.html", tags: "political opposition postwar Japan criticism censorship communist republican anti imperial" },
   { title: "Environmental Institutions in the Co-Prosperity Sphere", description: "Land, water, pollution, conservation, corporate burdens, and community claims", href: "environmental-institutions-geacps.html", tags: "environmental institutions geacps pollution land water conservation" },
   { title: "Development Impact Assessment in the Co-Prosperity Sphere", description: "Surveys, engineering review, land, health, compensation, and operating conditions", href: "development-impact-assessment-geacps.html", tags: "development impact assessment geacps environment projects compensation" },
   { title: "Industrial Pollution in Japanese Asia", description: "Air, water, oil, sewage, industrial waste, controls, and local politics", href: "industrial-pollution-geacps.html", tags: "industrial pollution japanese asia oil air water urban" },
@@ -7299,6 +7306,13 @@ const crossLinks = [
   ,{ href: "fisheries-management-geacps.html", terms: ["Fisheries Management in the Co-Prosperity Sphere", "fisheries management"] }
   ,{ href: "mining-reclamation-geacps.html", terms: ["Mining Damage and Reclamation in the Co-Prosperity Sphere", "mining damage and reclamation"] }
   ,{ href: "dams-displacement-hazardous-waste-geacps.html", terms: ["Dams, Displacement, and Hazardous Waste in the Co-Prosperity Sphere", "dams, displacement, and hazardous waste"] }
+  ,{ href: "politics-of-japan.html", terms: ["Politics of Japan", "Japanese political system"] }
+  ,{ href: "emperor-in-postwar-japanese-politics.html", terms: ["Emperor in Postwar Japanese Politics", "emperor's political role"] }
+  ,{ href: "imperial-diet-postwar-japan.html", terms: ["Imperial Diet in Postwar Japan", "Imperial Diet"] }
+  ,{ href: "political-parties-factions-postwar-japan.html", terms: ["Political Parties and Factions in Postwar Japan", "political parties and factions"] }
+  ,{ href: "imperial-rule-assistance-association-after-victory.html", terms: ["Imperial Rule Assistance Association after Victory", "Imperial Rule Assistance Association"] }
+  ,{ href: "home-ministry-police-postwar-japan.html", terms: ["Home Ministry and Police in Postwar Japan", "Home Ministry and police"] }
+  ,{ href: "political-opposition-postwar-japan.html", terms: ["Political Opposition in Postwar Japan", "political opposition"] }
 ];
 
 function escapePattern(value) {
