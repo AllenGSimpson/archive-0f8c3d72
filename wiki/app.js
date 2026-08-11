@@ -5420,15 +5420,15 @@ const crossLinks = [
   ,{ href: "national-vanguard.html", terms: ["National Vanguard"] }
   ,{ href: "ruth-ann-morrow.html", terms: ["Ruth Ann Morrow", "the Registrar"] }
   ,{ href: "campaign-independence-public-trust-act.html", terms: ["Campaign Independence and Public Trust Act"] }
-  ,{ href: "corporate-patronage-united-states.html", terms: ["corporate patronage in the United States", "corporate-patronage republic", "boardroom primary"] }
+  ,{ href: "corporate-patronage-united-states.html", terms: ["corporate patronage in the United States", "corporate-patronage republic", "boardroom primary", "corporate execution", "corporate institutional memory"] }
   ,{ href: "1996-united-states-presidential-election.html", terms: ["1996 United States presidential election", "1996 presidential election", "1996 contingent election"] }
   ,{ href: "hale-administration.html", terms: ["presidency of Andrew Prescott Hale", "Hale administration", "Hale presidency"] }
-  ,{ href: "three-clocks-american-government.html", terms: ["three clocks of American government", "three clocks"] }
-  ,{ href: "presidential-mandate-culture.html", terms: ["presidential mandate culture", "national priority selector", "bounded assignment"] }
+  ,{ href: "three-clocks-american-government.html", terms: ["three clocks of American government", "three clocks", "presidential direction congressional method corporate execution"] }
+  ,{ href: "presidential-mandate-culture.html", terms: ["presidential mandate culture", "national priority selector", "bounded assignment", "presidential direction", "national destination"] }
   ,{ href: "sincere-voting-united-states.html", terms: ["sincere voting", "sincere presidential voting"] }
   ,{ href: "presidential-elector-allocation-after-1993.html", terms: ["presidential elector allocation after 1993", "split-elector reform", "district and proportional elector allocation"] }
   ,{ href: "house-selection-of-president.html", terms: ["House selection of the President", "constitutional second round", "House contingent election"] }
-  ,{ href: "issue-coalitions-congress.html", terms: ["issue coalitions in Congress", "issue-by-issue congressional coalitions", "temporary congressional majorities"] }
+  ,{ href: "issue-coalitions-congress.html", terms: ["issue coalitions in Congress", "issue-by-issue congressional coalitions", "temporary congressional majorities", "congressional method"] }
   ,{ href: "frontier-functional-monopoly.html", terms: ["Frontier's functional orbital monopoly", "Frontier functional monopoly", "functional monopoly"] }
   ,{ href: "india-corporate-frontier.html", terms: ["American–Japanese corporate competition in India", "Indian corporate frontier", "India corporate frontier"] }
   ,{ href: "commonwealth-southern-africa-space-network.html", terms: ["Southern Africa in the Commonwealth space network", "southern African space network"] }
