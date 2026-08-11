@@ -1,4 +1,14 @@
 const pages = [
+  { title: "Japanese Merchant Marine", description: "The commercial fleet connecting Japan's imperial and associated maritime system", href: "japanese-merchant-marine.html", tags: "japanese merchant marine shipping fleet geacps imperial economy" },
+  { title: "Nippon Yūsen Kaisha", description: "NYK, a principal scheduled ocean carrier of the Japanese imperial economy", href: "nippon-yusen-kaisha.html", tags: "nippon yusen kaisha nyk japanese shipping carrier liner" },
+  { title: "Osaka Shōsen Kaisha", description: "The Osaka-based carrier linking western Japan to Asian and southern routes", href: "osaka-shosen-kaisha.html", tags: "osaka shosen kaisha osk line japanese shipping carrier" },
+  { title: "Mitsubishi", description: "Japan's maritime, shipbuilding, heavy-industrial, and southern-concession corporate house", href: "mitsubishi.html", tags: "mitsubishi zaibatsu corporate house shipping shipbuilding petroleum japan" },
+  { title: "Mitsui", description: "Japan's trade-centered corporate house of banking, insurance, commodities, and logistics", href: "mitsui.html", tags: "mitsui zaibatsu bussan trading bank insurance shipping japan" },
+  { title: "Imperial Shipping Allocation System", description: "How Tokyo assigns tonnage, fuel, ports, repairs, insurance, and protection", href: "imperial-shipping-allocation-system.html", tags: "imperial shipping allocation japan tonnage charter ports economic board" },
+  { title: "Southern Resources Sea Lanes", description: "The maritime corridors carrying Southeast Asian resources and Japanese manufactures", href: "southern-resources-sea-lanes.html", tags: "southern resources sea lanes japan singapore oil rubber tin rice" },
+  { title: "Japanese Imperial Tanker Fleet", description: "The corporate and chartered petroleum fleet of the yen area", href: "japanese-imperial-tanker-fleet.html", tags: "japanese imperial tanker fleet petroleum oil shipping" },
+  { title: "Marine Insurance in the Yen Area", description: "Commercial risk, state guarantees, credit, and political classification", href: "marine-insurance-yen-area.html", tags: "marine insurance yen area japan shipping risk guarantee singapore" },
+  { title: "Merchant Seafarers of the Japanese Empire", description: "The multinational and unequal labor force operating Japan's commercial fleet", href: "merchant-seafarers-japanese-empire.html", tags: "merchant seafarers japanese empire crews sailors maritime labor training" },
   { title: "Occitan Army", description: "Provincial formations, national command, domestic industry, and the northern frontier", href: "occitan-army.html", tags: "occitan army occitania provincial formations general staff northern france" },
   { title: "Provincial Host System", description: "Occitania's province-linked combined-arms divisions and organic aviation", href: "provincial-host-system.html", tags: "provincial host system occitan army divisions organic aviation duchies" },
   { title: "Toulouse Mechanized Division", description: "The central mechanized reserve and model formation of the Occitan Army", href: "toulouse-mechanized-division.html", tags: "toulouse mechanized division occitan army languedoc central reserve" },
@@ -7181,6 +7191,16 @@ const crossLinks = [
   ,{ href: "gascon-cavalry-division.html", terms: ["Gascon Cavalry Division", "Gascony reconnaissance division"] }
   ,{ href: "bearn-foix-pyrenean-division.html", terms: ["Béarn–Foix Pyrenean Division", "Béarn-Foix division"] }
   ,{ href: "limousin-marche-security-division.html", terms: ["Limousin–Marche Security Division", "Limousin security division"] }
+  ,{ href: "japanese-merchant-marine.html", terms: ["Japanese Merchant Marine", "Japanese merchant fleet"] }
+  ,{ href: "nippon-yusen-kaisha.html", terms: ["Nippon Yūsen Kaisha", "Nippon Yusen Kaisha", "NYK Line"] }
+  ,{ href: "osaka-shosen-kaisha.html", terms: ["Osaka Shōsen Kaisha", "Osaka Shosen Kaisha", "OSK Line"] }
+  ,{ href: "mitsubishi.html", terms: ["Mitsubishi"] }
+  ,{ href: "mitsui.html", terms: ["Mitsui"] }
+  ,{ href: "imperial-shipping-allocation-system.html", terms: ["Imperial Shipping Allocation System", "shipping allocation system"] }
+  ,{ href: "southern-resources-sea-lanes.html", terms: ["Southern Resources Sea Lanes", "southern resource routes"] }
+  ,{ href: "japanese-imperial-tanker-fleet.html", terms: ["Japanese Imperial Tanker Fleet", "Japanese tanker fleet"] }
+  ,{ href: "marine-insurance-yen-area.html", terms: ["Marine Insurance in the Yen Area", "yen-area marine insurance"] }
+  ,{ href: "merchant-seafarers-japanese-empire.html", terms: ["Merchant Seafarers of the Japanese Empire", "Japanese merchant seafarers"] }
 ];
 
 function escapePattern(value) {
