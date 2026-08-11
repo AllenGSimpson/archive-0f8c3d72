@@ -3266,6 +3266,18 @@ const pages = [
   ,{ title: "Chukchi People", description: "The inland and maritime Indigenous people of the Bering northeast", href: "chukchi-people.html", tags: "chukchi people chukotka bering reindeer maritime indigenous" }
   ,{ title: "Chukchi Language", description: "The Chukotko-Kamchatkan language of Chukotka", href: "chukchi-language.html", tags: "chukchi language chukotko kamchatkan cyrillic chukotka endangered" }
   ,{ title: "Indigenous Policy of the Russian Far Eastern State", description: "Federal policy for northern autonomy, language, land, and public services", href: "indigenous-policy-russian-far-eastern-state.html", tags: "indigenous policy russian far eastern state autonomy language land schools concessions" }
+  ,{ title: "Karafuto", description: "The all-Sakhalin northern region of integral Japan", href: "karafuto.html", tags: "karafuto sakhalin japan integral region toyohara northern island" }
+  ,{ title: "Toyohara", description: "The capital and administrative center of Karafuto", href: "toyohara.html", tags: "toyohara karafuto capital sakhalin city railway government" }
+  ,{ title: "Maoka", description: "The principal western port of Karafuto", href: "maoka.html", tags: "maoka kholmsk karafuto port railway fisheries timber" }
+  ,{ title: "Northern Karafuto Integration", description: "Japan's incorporation of northern Sakhalin after Soviet collapse", href: "northern-karafuto-integration.html", tags: "northern karafuto integration sakhalin japan soviet collapse occupation concessions" }
+  ,{ title: "Resource Industries of Karafuto", description: "Forestry, fisheries, coal, oil, gas, and transport on Sakhalin", href: "karafuto-resource-industries.html", tags: "karafuto resource industries forestry pulp fisheries coal oil gas sakhalin" }
+  ,{ title: "Ainu People", description: "The Indigenous people of Hokkaido, Karafuto, and the Kuril Islands", href: "ainu-people.html", tags: "ainu people hokkaido karafuto kurils indigenous japan" }
+  ,{ title: "Ainu Language", description: "The critically endangered Indigenous language varieties of northern Japan", href: "ainu-language.html", tags: "ainu language hokkaido sakhalin karafuto kuril endangered isolate" }
+  ,{ title: "Nivkh People", description: "The lower-Amur and northern-Karafuto fishing people divided by the strait", href: "nivkh-people.html", tags: "nivkh people gilyak amur sakhalin karafuto fishing indigenous" }
+  ,{ title: "Uilta People", description: "The Tungusic reindeer people of Karafuto, historically called Oroks", href: "uilta-people.html", tags: "uilta people orok orochen karafuto sakhalin reindeer tungusic" }
+  ,{ title: "Ryukyu Islands", description: "Japan's southwestern island chain between Kyushu and Taiwan", href: "ryukyu-islands.html", tags: "ryukyu islands nansei okinawa miyako yaeyama amami japan" }
+  ,{ title: "Ryukyuan People", description: "The regional Japonic peoples of Japan's southwestern islands", href: "ryukyuan-people.html", tags: "ryukyuan people okinawan amami miyako yaeyama yonaguni japan" }
+  ,{ title: "Ryukyuan Languages", description: "The endangered southern Japonic languages of the Ryukyu Islands", href: "ryukyuan-languages.html", tags: "ryukyuan languages japonic amami okinawan kunigami miyako yaeyama yonaguni" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6667,6 +6679,18 @@ const crossLinks = [
   ,{ href: "chukchi-people.html", terms: ["Chukchi people"] }
   ,{ href: "chukchi-language.html", terms: ["Chukchi language"] }
   ,{ href: "indigenous-policy-russian-far-eastern-state.html", terms: ["indigenous policy of the Russian Far Eastern State", "Far Eastern indigenous policy"] }
+  ,{ href: "karafuto.html", terms: ["Karafuto", "Japanese Sakhalin"] }
+  ,{ href: "toyohara.html", terms: ["Toyohara"] }
+  ,{ href: "maoka.html", terms: ["Maoka"] }
+  ,{ href: "northern-karafuto-integration.html", terms: ["Northern Karafuto integration", "integration of northern Sakhalin"] }
+  ,{ href: "karafuto-resource-industries.html", terms: ["resource industries of Karafuto", "Karafuto resource industries"] }
+  ,{ href: "ainu-people.html", terms: ["Ainu people", "the Ainu"] }
+  ,{ href: "ainu-language.html", terms: ["Ainu language", "Ainu languages"] }
+  ,{ href: "nivkh-people.html", terms: ["Nivkh people", "the Nivkh", "Gilyaks"] }
+  ,{ href: "uilta-people.html", terms: ["Uilta people", "the Uilta", "Orok people", "Oroks"] }
+  ,{ href: "ryukyu-islands.html", terms: ["Ryukyu Islands", "Nansei Islands"] }
+  ,{ href: "ryukyuan-people.html", terms: ["Ryukyuan people", "Ryukyuans"] }
+  ,{ href: "ryukyuan-languages.html", terms: ["Ryukyuan languages", "Ryukyuan language"] }
 ];
 
 function escapePattern(value) {
