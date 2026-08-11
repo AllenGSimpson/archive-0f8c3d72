@@ -1,4 +1,11 @@
 const pages = [
+  { title: "High Institutions of Postwar Japan", description: "Imperial sanction, Cabinet coordination, strategic councils, services, ministries, and corporate implementation", href: "high-institutions-postwar-japan.html", tags: "high institutions postwar Japan emperor cabinet defense council army navy ministries" },
+  { title: "State Shinto in Postwar Japan", description: "Imperial rites, shrines, civic observance, military memory, and integral-territory practice", href: "state-shinto-postwar-japan.html", tags: "state shinto postwar Japan emperor shrines rites schools military memory" },
+  { title: "Imperial Conference in Postwar Japan", description: "Exceptional settlement joining imperial sanction, Cabinet government, and supreme command", href: "imperial-conference-postwar-japan.html", tags: "imperial conference postwar Japan emperor cabinet supreme command" },
+  { title: "Imperial Defense Council of Japan", description: "Standing joint strategic policy from the 1947 Tojo transition", href: "imperial-defense-council-japan.html", tags: "imperial defense council Japan Tojo strategy army navy cabinet" },
+  { title: "Army-Navy Relations in Postwar Japan", description: "The 1941 bargain, strategic division of labor, continuing rivalry, and Cabinet coordination", href: "army-navy-relations-postwar-japan.html", tags: "army navy relations postwar Japan rivalry bargain China southern resources" },
+  { title: "Imperial Court and Senior Statesmen in Postwar Japan", description: "Access, advice, Cabinet formation, ceremony, and imperial arbitration", href: "imperial-court-senior-statesmen-postwar-japan.html", tags: "imperial court senior statesmen postwar Japan Hirohito Akihito advisers" },
+  { title: "Bureaucracy and Corporate Power in Postwar Japan", description: "Planning authority, corporate implementation, guardianship reform, and practical vetoes", href: "bureaucracy-corporate-power-postwar-japan.html", tags: "bureaucracy corporate power postwar Japan zaibatsu ministries veto guardianship" },
   { title: "Society of Postwar Japan", description: "Households, companies, education, geography, unequal membership, and managed social conflict", href: "society-of-postwar-japan.html", tags: "society postwar Japan household company education class minority provincial" },
   { title: "Rural Depopulation and Provincial Japan", description: "Migration, aging, agriculture, services, regional industry, politics, and culture", href: "rural-depopulation-provincial-japan.html", tags: "rural depopulation provincial Japan migration agriculture aging prefecture" },
   { title: "Women and Motherhood in Postwar Japan", description: "Household ideals, paid work, marriage, care, education, and company policy", href: "women-motherhood-postwar-japan.html", tags: "women motherhood postwar Japan family work marriage care education" },
@@ -7327,6 +7334,13 @@ const crossLinks = [
   ,{ href: "minorities-japan-proper.html", terms: ["Minorities in Japan Proper", "minorities in Japan"] }
   ,{ href: "housing-urban-planning-postwar-japan.html", terms: ["Housing and Urban Planning in Postwar Japan", "housing and urban planning"] }
   ,{ href: "class-universities-labor-postwar-japan.html", terms: ["Class, Universities, and Labor in Postwar Japan", "university and labor politics"] }
+  ,{ href: "high-institutions-postwar-japan.html", terms: ["High Institutions of Postwar Japan", "Japanese high institutions"] }
+  ,{ href: "state-shinto-postwar-japan.html", terms: ["State Shinto in Postwar Japan", "State Shinto in Japan"] }
+  ,{ href: "imperial-conference-postwar-japan.html", terms: ["Imperial Conference in Postwar Japan", "Imperial Conference"] }
+  ,{ href: "imperial-defense-council-japan.html", terms: ["Imperial Defense Council of Japan", "Imperial Defense Council"] }
+  ,{ href: "army-navy-relations-postwar-japan.html", terms: ["Army-Navy Relations in Postwar Japan", "Army-Navy relations"] }
+  ,{ href: "imperial-court-senior-statesmen-postwar-japan.html", terms: ["Imperial Court and Senior Statesmen in Postwar Japan", "imperial court and senior statesmen"] }
+  ,{ href: "bureaucracy-corporate-power-postwar-japan.html", terms: ["Bureaucracy and Corporate Power in Postwar Japan", "bureaucracy and corporate power"] }
 ];
 
 function escapePattern(value) {
