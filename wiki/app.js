@@ -4,6 +4,10 @@ const pages = [
   { title: "Setting Timeline", description: "Divergence through the mature planetary age of 2010", href: "timeline.html", tags: "chronology wwii war peace dates boom depression five party space 2010" },
   { title: "Greater German Reich", description: "Continental empire and Showroom Reich", href: "germany.html", tags: "germany reich wolfgang hitler goering east adolfstadt stalingrad volgograd volga" },
   { title: "Greater German Reich in 2000", description: "The German national and imperial system at the millennium", href: "greater-german-reich-in-2000.html", tags: "greater german reich germany 2000 millennium wolfgang empire einheitspakt" },
+  { title: "United States in 2000", description: "The five-party corporate republic at the millennium", href: "united-states-in-2000.html", tags: "united states america 2000 millennium hale five party corporate frontier" },
+  { title: "British Commonwealth in 2000", description: "The distributed Commonwealth system at the millennium", href: "british-commonwealth-in-2000.html", tags: "british commonwealth britain 2000 millennium mallory elizabeth mars serenity" },
+  { title: "Empire of Japan in 2000", description: "Japan and the Co-Prosperity system at the millennium", href: "empire-of-japan-in-2000.html", tags: "empire japan 2000 millennium akihito geacps active concord kaguya" },
+  { title: "Latin System in 2000", description: "The confederated Latin institutional order at the millennium", href: "latin-system-in-2000.html", tags: "latin system bloc 2000 millennium italy scudo space community ceres" },
   { title: "German Politics, 1985–2000", description: "Wolfgang Hitler's later rule and consolidation of the second-generation regime", href: "german-politics-1985-2000.html", tags: "german politics 1985 2000 wolfgang leadership council party ss succession" },
   { title: "Social Geography of the German Empire in 2000", description: "Unequal citizenship, law, movement, and modernity across the imperial layers", href: "social-geography-german-empire-2000.html", tags: "german empire social geography 2000 core protectorates east mittelafrika citizenship" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
@@ -3033,6 +3037,10 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 
 const crossLinks = [
   { href: "greater-german-reich-in-2000.html", terms: ["Greater German Reich in 2000", "Germany at the millennium"] },
+  { href: "united-states-in-2000.html", terms: ["United States in 2000", "America at the millennium"] },
+  { href: "british-commonwealth-in-2000.html", terms: ["British Commonwealth in 2000", "Commonwealth at the millennium"] },
+  { href: "empire-of-japan-in-2000.html", terms: ["Empire of Japan in 2000", "Japan at the millennium"] },
+  { href: "latin-system-in-2000.html", terms: ["Latin system in 2000", "Latin order at the millennium"] },
   { href: "german-politics-1985-2000.html", terms: ["German politics, 1985–2000", "German politics from 1985 to 2000"] },
   { href: "social-geography-german-empire-2000.html", terms: ["social geography of the German Empire", "German imperial social geography"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
