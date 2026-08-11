@@ -78,6 +78,12 @@ const pages = [
   { title: "Anti-Submarine Denial", description: "The sensor, escort, patrol, route, and deception system opposing strategic submarines", href: "anti-submarine-denial.html", tags: "anti submarine denial asw sonar patrol aircraft escorts sensors convoy deception" },
   { title: "Long-War Mobilization in the Armed Concert", description: "Conversion from standing readiness to sustained replacement", href: "long-war-mobilization.html", tags: "long war mobilization armed concert reserves industry labor finance replacement" },
   { title: "Conventional First-Strike Problem", description: "Why no opening conventional attack can promise a usable general-war victory", href: "conventional-first-strike-problem.html", tags: "conventional first strike problem disarmament surprise attack general war defense" },
+  { title: "Strategic Defense Systems of the Five Powers", description: "Comparison of five distinct national and imperial systems for surviving conventional attack", href: "five-power-strategic-defense-systems.html", tags: "five powers strategic defense comparative germany america japan commonwealth latin" },
+  { title: "German Strategic Defense System", description: "Germany's continental, industrial, air-defense, and undersea defensive order", href: "german-strategic-defense-system.html", tags: "german strategic defense system continental luftwaffe u boats rail industry empire" },
+  { title: "American Continental Defense System", description: "America's two-ocean aerospace, naval, industrial, and hemispheric defensive order", href: "american-continental-defense-system.html", tags: "american continental defense system aerospace force navy industry hemisphere alaska hawaii" },
+  { title: "Japanese Archipelagic Defense System", description: "Japan's fleet, island, imperial-shipping, and orbital defensive order", href: "japanese-archipelagic-defense-system.html", tags: "japanese archipelagic defense system carriers islands shipping horai geacps" },
+  { title: "Commonwealth Route-Defense System", description: "The merchant-shipping, ASW, and distributed-industrial defense of the Commonwealth", href: "commonwealth-route-defense-system.html", tags: "commonwealth route defense system cape merchant shipping asw dominions reinforcement" },
+  { title: "Latin Mediterranean Defense System", description: "The Latin powers' chokepoint and selectively integrated strategic defense", href: "latin-mediterranean-defense-system.html", tags: "latin mediterranean defense system italy spain portugal occitania suez gibraltar" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -3024,6 +3030,7 @@ topicNav.push(["Orbital Safety Standards", "interbloc-space-safety-standards.htm
 topicNav.push(["Atomic Nonarmament", "nuclear-weapons-research.html"]);
 topicNav.push(["Conventional Deterrence", "cumulative-conventional-deterrence.html"]);
 topicNav.push(["Conventional Defense", "meaningful-conventional-defense.html"]);
+topicNav.push(["Five-Power Defense", "five-power-strategic-defense-systems.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -3183,6 +3190,12 @@ const crossLinks = [
   { href: "anti-submarine-denial.html", terms: ["anti-submarine denial", "undersea denial"] },
   { href: "long-war-mobilization.html", terms: ["long-war mobilization", "prolonged-war mobilization"] },
   { href: "conventional-first-strike-problem.html", terms: ["conventional first-strike problem", "conventional first strike problem"] },
+  { href: "five-power-strategic-defense-systems.html", terms: ["strategic defense systems of the Five Powers", "Five-Power strategic defense systems"] },
+  { href: "german-strategic-defense-system.html", terms: ["German strategic defense system"] },
+  { href: "american-continental-defense-system.html", terms: ["American continental defense system"] },
+  { href: "japanese-archipelagic-defense-system.html", terms: ["Japanese archipelagic defense system"] },
+  { href: "commonwealth-route-defense-system.html", terms: ["Commonwealth route-defense system", "Commonwealth route defense system"] },
+  { href: "latin-mediterranean-defense-system.html", terms: ["Latin Mediterranean defense system"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
