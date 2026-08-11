@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Post-defeat British constitutional order</title>
+  <desc id="desc">Diagram showing the sovereign, House of Commons and House of Lords forming Crown-in-Parliament, with Cabinet responsible to the Commons, courts administering law, and several Commonwealth legal relationships below.</desc>
+  <defs>
+    <style>
+      .bg{fill:#101820}.panel{fill:#18242e;stroke:#657d93;stroke-width:2}.crown{fill:#27384a;stroke:#d2b56b;stroke-width:3}.line{stroke:#aebbc5;stroke-width:3;fill:none}.dash{stroke:#718493;stroke-width:2.5;fill:none;stroke-dasharray:9 8}.gold{stroke:#d2b56b}.text{font-family:Georgia,'Times New Roman',serif;fill:#f2eee5;text-anchor:middle}.head{font-size:25px;font-weight:bold}.body{font-size:17px;fill:#cad4db}.small{font-size:15px;fill:#9fb0bc}.label{font-size:16px;fill:#d2b56b;font-weight:bold}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#aebbc5"/></marker>
+  </defs>
+  <rect class="bg" width="1200" height="760" rx="24"/>
+  <text class="text head" x="600" y="47">Constitutional Order of Post-Defeat Britain</text>
+  <text class="text small" x="600" y="76">authority is distributed through law and convention, not collected in a single constitutional text</text>
+
+  <rect class="crown" x="450" y="105" width="300" height="105" rx="16"/>
+  <text class="text head" x="600" y="146">The Sovereign</text>
+  <text class="text body" x="600" y="177">consulted · encourages · warns</text>
+  <text class="text small" x="600" y="198">no ordinary personal government</text>
+
+  <rect class="panel" x="85" y="265" width="290" height="125" rx="16"/>
+  <text class="text head" x="230" y="307">House of Commons</text>
+  <text class="text body" x="230" y="338">election · confidence · supply</text>
+  <text class="text small" x="230" y="365">decisive chamber for government</text>
+
+  <rect class="panel" x="455" y="265" width="290" height="125" rx="16"/>
+  <text class="text head" x="600" y="307">House of Lords</text>
+  <text class="text body" x="600" y="338">revision · scrutiny · delay</text>
+  <text class="text small" x="600" y="365">postwar reform remains open</text>
+
+  <rect class="panel" x="825" y="265" width="290" height="125" rx="16"/>
+  <text class="text head" x="970" y="307">Cabinet</text>
+  <text class="text body" x="970" y="338">policy · departments · advice</text>
+  <text class="text small" x="970" y="365">collectively responsible to Commons</text>
+
+  <path class="line gold" d="M600 210V238H230V265"/>
+  <path class="line gold" d="M600 238V265"/>
+  <path class="line gold" d="M600 238H970V265"/>
+  <text class="text label" x="600" y="253">CROWN-IN-PARLIAMENT AND RESPONSIBLE GOVERNMENT</text>
+
+  <path class="line" marker-end="url(#arrow)" d="M825 326H770"/>
+  <path class="line" marker-end="url(#arrow)" d="M825 356C720 430 400 430 315 390"/>
+  <text class="text small" x="600" y="424">legislation, appropriation, scrutiny, and ministerial responsibility</text>
+
+  <rect class="panel" x="85" y="465" width="400" height="110" rx="16"/>
+  <text class="text head" x="285" y="507">Courts and Legal Professions</text>
+  <text class="text body" x="285" y="539">interpret law · review executive legality</text>
+  <text class="text small" x="285" y="562">several domestic jurisdictions</text>
+
+  <rect class="panel" x="715" y="465" width="400" height="110" rx="16"/>
+  <text class="text head" x="915" y="507">Commonwealth Council</text>
+  <text class="text body" x="915" y="539">records Dominion and service warning</text>
+  <text class="text small" x="915" y="562">cannot command or appropriate</text>
+
+  <path class="line" marker-end="url(#arrow)" d="M285 465V420H455"/>
+  <path class="dash" marker-end="url(#arrow)" d="M915 465V420H745"/>
+
+  <rect class="panel" x="85" y="630" width="1030" height="86" rx="16"/>
+  <text class="text head" x="600" y="664">Several Commonwealth Legal Relationships</text>
+  <text class="text body" x="600" y="694">Dominion realms · colonies · protectorates · Associated Crown States · local citizenship · imperial domicile</text>
+  <path class="dash" d="M285 575V630M915 575V630M600 390V630"/>
+</svg>
