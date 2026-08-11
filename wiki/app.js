@@ -44,6 +44,14 @@ const pages = [
   { title: "Portuguese Timor", description: "Portugal's Catholic Asian outpost on the divided island of Timor", href: "portuguese-timor.html", tags: "portuguese timor east timor dili portugal latin catholic tetum frontier" },
   { title: "Divided Timor Frontier", description: "The border between Portuguese Timor and the Japanese-associated Eastern Lesser Sundas", href: "divided-timor-frontier.html", tags: "divided timor frontier portuguese east west kupang dili japan portugal" },
   { title: "Norfolk Island", description: "Australian external territory, Pitcairn-descended community, and southwest-Pacific outpost", href: "norfolk-island.html", tags: "norfolk island australia pitcairn kingston territory south pacific" },
+  { title: "Interbloc Space-Safety Standards", description: "The common signals, interfaces, notices, and emergency duties shared by five rival systems", href: "interbloc-space-safety-standards.html", tags: "interbloc space safety standards rescue docking distress debris launch notification station" },
+  { title: "International Orbital-Object Registration", description: "Linked national records identifying spacecraft, stations, stages, and orbital hazards", href: "international-orbital-object-registry.html", tags: "international orbital object registration registry spacecraft station stage tracking stockholm" },
+  { title: "Orbital Distress Communications", description: "Protected emergency channels, rescue beacons, relays, and call procedures", href: "orbital-distress-communications.html", tags: "orbital distress communications frequency rescue beacon emergency channel relay" },
+  { title: "Emergency Docking Adapter Kits", description: "Portable interfaces for emergency connections between incompatible spacecraft", href: "emergency-docking-adapter-kits.html", tags: "emergency docking adapter kits spacecraft compatibility pressure power rescue" },
+  { title: "Crewed Launch Notification", description: "International safety notices for crewed launches and inhabited-space traffic", href: "crewed-launch-notification.html", tags: "crewed launch notification notice trajectory tracking conjunction rescue" },
+  { title: "Orbital Debris Warning System", description: "Distributed breakup, conjunction, reentry, and orbital-hazard warnings", href: "orbital-debris-warning-system.html", tags: "orbital debris warning system breakup conjunction reentry tracking passivation" },
+  { title: "Inhabited-Station Approach Rules", description: "Identification, notice, communications, and maneuver procedure around crewed stations", href: "inhabited-station-approach-rules.html", tags: "inhabited station approach rules safety zone docking transponder geneva" },
+  { title: "Cross-Bloc Rescue Duty", description: "The obligation to assist stranded space crews regardless of political alignment", href: "cross-bloc-rescue-duty.html", tags: "cross bloc rescue duty stranded crew humanitarian stockholm geneva space" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -2986,6 +2994,7 @@ topicNav.push(["Bullion-Clearing System", "international-bullion-clearing-system
 topicNav.push(["Latin Scudo", "latin-scudo.html"]);
 topicNav.push(["South Seas Government", "south-seas-general-government.html"]);
 topicNav.push(["Pacific Frontiers", "pacific-frontier-islands.html"]);
+topicNav.push(["Orbital Safety Standards", "interbloc-space-safety-standards.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -3111,6 +3120,14 @@ const crossLinks = [
   { href: "portuguese-timor.html", terms: ["Portuguese Timor"] },
   { href: "divided-timor-frontier.html", terms: ["Divided Timor Frontier", "divided Timor frontier", "divided Timor"] },
   { href: "norfolk-island.html", terms: ["Norfolk Island"] },
+  { href: "interbloc-space-safety-standards.html", terms: ["Interbloc space-safety standards", "interbloc space safety standards"] },
+  { href: "international-orbital-object-registry.html", terms: ["International orbital-object registration", "orbital-object registration", "orbital object registry"] },
+  { href: "orbital-distress-communications.html", terms: ["Orbital distress communications", "protected distress frequencies", "standard distress frequencies"] },
+  { href: "emergency-docking-adapter-kits.html", terms: ["Emergency docking adapter kits", "emergency docking adapters", "adapter kits"] },
+  { href: "crewed-launch-notification.html", terms: ["Crewed-launch notification", "crewed launch notification", "notification of crewed launches"] },
+  { href: "orbital-debris-warning-system.html", terms: ["Orbital debris warning system", "debris warnings", "conjunction warnings"] },
+  { href: "inhabited-station-approach-rules.html", terms: ["Inhabited-station approach rules", "rules for approaching inhabited stations", "station approach rules"] },
+  { href: "cross-bloc-rescue-duty.html", terms: ["Cross-bloc rescue duty", "obligation to assist a stranded crew", "assistance regardless of bloc"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
