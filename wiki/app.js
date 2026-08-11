@@ -1732,6 +1732,14 @@ const pages = [
   { title: "Media and Dubbing in the Mekong States", description: "National broadcasting and localization inside a Japanese-dominated media market", href: "media-dubbing-mekong-states.html", tags: "media dubbing mekong vietnam cambodia laos japanese television cinema radio localization" },
   { title: "Developmental Dissatisfaction in the Mekong States", description: "The 1970s demand for licenses, management, technology, and concession control", href: "developmental-dissatisfaction-mekong.html", tags: "developmental dissatisfaction mekong vietnam cambodia laos industry concessions 1970s" },
   { title: "Common Petitions of the Three States", description: "Collective economic, cultural, health, and border submissions to Japan", href: "common-petitions-three-states.html", tags: "common petitions three states council vietnam cambodia laos japan licenses funds commodity" },
+  { title: "Phibun Victory Regime", description: "Thailand's authoritarian military-nationalist victory state from 1941 to 1957", href: "phibun-victory-regime.html", tags: "thailand phibun victory regime 1941 1957 military nationalism thaiification" },
+  { title: "Sarit–Bhumibol Royal-Military Settlement", description: "Army government joined to dynastic legitimacy across Thailand's enlarged realm", href: "sarit-bhumibol-settlement.html", tags: "thailand sarit bhumibol royal military settlement 1957 1963 monarchy army" },
+  { title: "Thanom High Imperial Order", description: "Thailand's peak military-developmental and regional order from 1963 to 1973", href: "thanom-high-imperial-order.html", tags: "thailand thanom high imperial order 1963 1973 development security" },
+  { title: "Thai Constitutional and Imperial Crisis", description: "The 1973–1978 struggle over government and direct rule of the Malay peninsula", href: "thai-constitutional-imperial-crisis.html", tags: "thailand constitutional imperial crisis 1973 1978 malay bornean war" },
+  { title: "Royal-Technocratic Order in Thailand", description: "Managed parliamentary government under crown, military, bureaucratic, and corporate guardianship", href: "royal-technocratic-order-thailand.html", tags: "thailand royal technocratic order prem managed parliament monarchy army" },
+  { title: "Thai Imperial System", description: "One Thai-headed crown governing differentiated Thai, Khmer, Lao, Malay, and protected territories", href: "thai-imperial-system.html", tags: "thailand siam imperial system empire khmer lao malay protected states" },
+  { title: "Thai–Japanese Corporate Convergence", description: "Licensed joint ventures and interlocking Thai and Japanese corporate networks", href: "thai-japanese-corporate-convergence.html", tags: "thailand japan corporate convergence zaibatsu joint venture banks firms supply chains" },
+  { title: "Autonomous Baht System", description: "Thailand's national currency and banks inside yen-centered Asian settlement", href: "autonomous-baht-system.html", tags: "thailand baht autonomous currency banking yen settlement monetary" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6167,6 +6175,14 @@ const crossLinks = [
   ,{ href: "media-dubbing-mekong-states.html", terms: ["media and dubbing in the Mekong states", "Mekong media and dubbing"] }
   ,{ href: "developmental-dissatisfaction-mekong.html", terms: ["developmental dissatisfaction in the Mekong states", "developmental dissatisfaction"] }
   ,{ href: "common-petitions-three-states.html", terms: ["common petitions of the Three States", "common petitions to Japan"] }
+  ,{ href: "phibun-victory-regime.html", terms: ["Phibun Victory Regime", "Victory Regime"] }
+  ,{ href: "sarit-bhumibol-settlement.html", terms: ["Sarit–Bhumibol royal-military settlement", "Sarit-Bhumibol settlement", "Sarit–Bhumibol settlement"] }
+  ,{ href: "thanom-high-imperial-order.html", terms: ["Thanom high imperial order", "high imperial order in Thailand"] }
+  ,{ href: "thai-constitutional-imperial-crisis.html", terms: ["Thai constitutional and imperial crisis", "Thailand's 1973 crisis"] }
+  ,{ href: "royal-technocratic-order-thailand.html", terms: ["royal-technocratic order in Thailand", "Thai royal-technocratic order"] }
+  ,{ href: "thai-imperial-system.html", terms: ["Thai imperial system", "Thailand's imperial system"] }
+  ,{ href: "thai-japanese-corporate-convergence.html", terms: ["Thai–Japanese corporate convergence", "Thai-Japanese corporate convergence"] }
+  ,{ href: "autonomous-baht-system.html", terms: ["autonomous baht system", "autonomous baht"] }
 ];
 
 function escapePattern(value) {
