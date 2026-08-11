@@ -69,6 +69,15 @@ const pages = [
   { title: "Occupation-Cost Deterrence", description: "The administrative, political, and human burden that follows territorial victory", href: "occupation-cost-deterrence.html", tags: "occupation cost deterrence conquest administration resistance population political victory" },
   { title: "Finite-War Firebreaks", description: "The geographic, political, and operational boundaries that keep limited wars finite", href: "finite-war-firebreaks.html", tags: "finite war firebreaks limited conflict escalation kuwait falklands objectives" },
   { title: "Dignified-Exit Diplomacy", description: "Face-saving settlement methods that allow governments to end dangerous crises", href: "dignified-exit-diplomacy.html", tags: "dignified exit diplomacy war termination crisis settlement mediation face saving" },
+  { title: "Meaningful Conventional Defense", description: "The layered machinery that preserves continued resistance under conventional attack", href: "meaningful-conventional-defense.html", tags: "meaningful conventional defense warning interception dispersal repair civil defense armed concert" },
+  { title: "Strategic Warning and Air Defense", description: "Detection, decision, dispersal, and interception in the Five-Power order", href: "strategic-warning-and-air-defense.html", tags: "strategic warning air defense radar satellites interceptors missiles decision time" },
+  { title: "Strategic Dispersal", description: "Distribution of forces, command, industry, stocks, and records against attack", href: "strategic-dispersal.html", tags: "strategic dispersal force protection alternate sites command industry stocks deception" },
+  { title: "Strategic Repair and Redundancy", description: "Restoration and substitution of strategic functions after conventional attack", href: "strategic-repair-and-redundancy.html", tags: "strategic repair redundancy recovery runways ports rail power communications industry" },
+  { title: "Civil Defense in the Armed Concert", description: "Population protection, continuity of government, and relief under conventional attack", href: "civil-defense-armed-concert.html", tags: "civil defense armed concert warning shelters evacuation rescue continuity government relief" },
+  { title: "Maritime Reinforcement Defense", description: "Protection of shipping, ports, and alliance reinforcement routes", href: "maritime-reinforcement-defense.html", tags: "maritime reinforcement defense convoy escort shipping ports routes alliance" },
+  { title: "Anti-Submarine Denial", description: "The sensor, escort, patrol, route, and deception system opposing strategic submarines", href: "anti-submarine-denial.html", tags: "anti submarine denial asw sonar patrol aircraft escorts sensors convoy deception" },
+  { title: "Long-War Mobilization in the Armed Concert", description: "Conversion from standing readiness to sustained replacement", href: "long-war-mobilization.html", tags: "long war mobilization armed concert reserves industry labor finance replacement" },
+  { title: "Conventional First-Strike Problem", description: "Why no opening conventional attack can promise a usable general-war victory", href: "conventional-first-strike-problem.html", tags: "conventional first strike problem disarmament surprise attack general war defense" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -3014,6 +3023,7 @@ topicNav.push(["Pacific Frontiers", "pacific-frontier-islands.html"]);
 topicNav.push(["Orbital Safety Standards", "interbloc-space-safety-standards.html"]);
 topicNav.push(["Atomic Nonarmament", "nuclear-weapons-research.html"]);
 topicNav.push(["Conventional Deterrence", "cumulative-conventional-deterrence.html"]);
+topicNav.push(["Conventional Defense", "meaningful-conventional-defense.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -3164,6 +3174,15 @@ const crossLinks = [
   { href: "occupation-cost-deterrence.html", terms: ["occupation-cost deterrence", "occupation cost"] },
   { href: "finite-war-firebreaks.html", terms: ["finite-war firebreaks", "finite war firebreaks"] },
   { href: "dignified-exit-diplomacy.html", terms: ["dignified-exit diplomacy", "dignified exit"] },
+  { href: "meaningful-conventional-defense.html", terms: ["meaningful conventional defense", "meaningful defense"] },
+  { href: "strategic-warning-and-air-defense.html", terms: ["strategic warning and air defense", "strategic warning system"] },
+  { href: "strategic-dispersal.html", terms: ["strategic dispersal"] },
+  { href: "strategic-repair-and-redundancy.html", terms: ["strategic repair and redundancy", "strategic repair"] },
+  { href: "civil-defense-armed-concert.html", terms: ["civil defense in the Armed Concert", "Armed Concert civil defense"] },
+  { href: "maritime-reinforcement-defense.html", terms: ["maritime reinforcement defense", "reinforcement-route defense"] },
+  { href: "anti-submarine-denial.html", terms: ["anti-submarine denial", "undersea denial"] },
+  { href: "long-war-mobilization.html", terms: ["long-war mobilization", "prolonged-war mobilization"] },
+  { href: "conventional-first-strike-problem.html", terms: ["conventional first-strike problem", "conventional first strike problem"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
