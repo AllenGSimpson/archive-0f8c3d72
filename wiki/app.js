@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Police and Intelligence in the Co-Prosperity Sphere", description: "Territorial policing, Japanese military security, intelligence liaison, censorship, and corporate guards", href: "police-intelligence-geacps.html", tags: "police intelligence geacps co-prosperity security censorship opposition" },
+  { title: "National Police Jurisdiction in the Co-Prosperity Sphere", description: "Territorial criminal authority, local forces, foreign residents, and treaty districts", href: "national-police-jurisdiction-geacps.html", tags: "national police jurisdiction geacps law enforcement territorial" },
+  { title: "Japanese Military Police abroad", description: "Service discipline, installation security, treaty districts, and the Kempeitai legacy", href: "japanese-military-police-abroad.html", tags: "japanese military police abroad kempeitai bases security" },
+  { title: "Security Liaison in the Co-Prosperity Sphere", description: "Intelligence exchange, border warnings, transport records, and direct state-to-state requests", href: "security-liaison-geacps.html", tags: "security liaison geacps intelligence exchange border customs" },
+  { title: "Censorship and Political Opposition in the Co-Prosperity Sphere", description: "National media controls, lawful criticism, nationalism, insurgency, and Japanese strategic limits", href: "censorship-opposition-geacps.html", tags: "censorship political opposition geacps nationalism media universities" },
+  { title: "Corporate and Corridor Security in the Co-Prosperity Sphere", description: "Property guards, railway police, ports, utilities, and limits on armed companies", href: "corporate-corridor-security-geacps.html", tags: "corporate corridor security geacps railway police zaibatsu guards" },
+  { title: "Extradition, Amnesty, and Political Exile in the Co-Prosperity Sphere", description: "Cross-border transfer, political offenses, refuge, disarmament, and negotiated return", href: "extradition-amnesty-exile-geacps.html", tags: "extradition amnesty political exile geacps fugitives asylum" },
   { title: "Religion in the Co-Prosperity Sphere", description: "Religious traditions, sacred institutions, family law, chaplaincy, and foreign ties", href: "religion-geacps.html", tags: "religion geacps co-prosperity shinto buddhism catholic islam orthodox" },
   { title: "Religious Non-assimilation Doctrine", description: "Japanese political headship without required conversion or a common imperial cult", href: "religious-nonassimilation-geacps.html", tags: "religious non-assimilation doctrine geacps japan state shinto pluralism" },
   { title: "Sacred Institutions in the Co-Prosperity Sphere", description: "Temples, shrines, churches, mosques, monasteries, schools, charities, and property", href: "sacred-institutions-geacps.html", tags: "sacred institutions geacps temple shrine church mosque monastery" },
@@ -7257,6 +7264,13 @@ const crossLinks = [
   ,{ href: "military-chaplaincy-geacps.html", terms: ["Military Chaplaincy in the Co-Prosperity Sphere", "military chaplaincy"] }
   ,{ href: "foreign-religious-relations-geacps.html", terms: ["Foreign Religious Relations of the Co-Prosperity Sphere", "foreign religious relations"] }
   ,{ href: "state-shinto-outside-japan.html", terms: ["State Shinto outside Japan"] }
+  ,{ href: "police-intelligence-geacps.html", terms: ["Police and Intelligence in the Co-Prosperity Sphere", "Co-Prosperity security order"] }
+  ,{ href: "national-police-jurisdiction-geacps.html", terms: ["National Police Jurisdiction in the Co-Prosperity Sphere", "national police jurisdiction"] }
+  ,{ href: "japanese-military-police-abroad.html", terms: ["Japanese Military Police abroad", "Japanese military police"] }
+  ,{ href: "security-liaison-geacps.html", terms: ["Security Liaison in the Co-Prosperity Sphere", "security liaison"] }
+  ,{ href: "censorship-opposition-geacps.html", terms: ["Censorship and Political Opposition in the Co-Prosperity Sphere", "censorship and political opposition"] }
+  ,{ href: "corporate-corridor-security-geacps.html", terms: ["Corporate and Corridor Security in the Co-Prosperity Sphere", "corporate and corridor security"] }
+  ,{ href: "extradition-amnesty-exile-geacps.html", terms: ["Extradition, Amnesty, and Political Exile in the Co-Prosperity Sphere", "extradition, amnesty, and political exile"] }
 ];
 
 function escapePattern(value) {

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Security jurisdictions of the Co-Prosperity Sphere</title>
+  <desc id="desc">A diagram separating national police, Japanese military security, intergovernmental liaison, and corporate property protection.</desc>
+  <rect width="960" height="560" fill="#111713"/>
+  <rect x="34" y="34" width="892" height="492" rx="18" fill="#172019" stroke="#b59b56" stroke-width="3"/>
+  <text x="480" y="78" text-anchor="middle" fill="#eee7d7" font-family="Georgia,serif" font-size="28">Security jurisdictions of the Co-Prosperity Sphere</text>
+  <text x="480" y="106" text-anchor="middle" fill="#b9b3a5" font-family="Arial,sans-serif" font-size="15">Distinct authorities cooperate across treaty lines; no single Sphere police force is established</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="82" y="154" width="360" height="126" rx="12" fill="#20352f" stroke="#6c9485" stroke-width="2"/>
+    <text x="262" y="188" text-anchor="middle" fill="#f0eadc" font-size="20" font-weight="700">NATIONAL AND LOCAL POLICE</text>
+    <text x="262" y="219" text-anchor="middle" fill="#d1d7d0" font-size="15">crime · courts · public order · licensing</text>
+    <text x="262" y="244" text-anchor="middle" fill="#d1d7d0" font-size="15">political security under national law</text>
+    <text x="262" y="266" text-anchor="middle" fill="#a9b3ad" font-size="13">ordinary territorial jurisdiction</text>
+    <rect x="518" y="154" width="360" height="126" rx="12" fill="#332b27" stroke="#9b7564" stroke-width="2"/>
+    <text x="698" y="188" text-anchor="middle" fill="#f0eadc" font-size="20" font-weight="700">JAPANESE MILITARY SECURITY</text>
+    <text x="698" y="219" text-anchor="middle" fill="#d8ceca" font-size="15">bases · forces · classified systems</text>
+    <text x="698" y="244" text-anchor="middle" fill="#d8ceca" font-size="15">strategic communications · service discipline</text>
+    <text x="698" y="266" text-anchor="middle" fill="#b9aaa4" font-size="13">treaty and service jurisdiction</text>
+    <rect x="300" y="322" width="360" height="108" rx="12" fill="#28283a" stroke="#8484a8" stroke-width="2"/>
+    <text x="480" y="356" text-anchor="middle" fill="#f0eadc" font-size="20" font-weight="700">SECURITY LIAISON</text>
+    <text x="480" y="386" text-anchor="middle" fill="#d5d5e2" font-size="15">intelligence exchange · fugitives · border alerts</text>
+    <text x="480" y="410" text-anchor="middle" fill="#b7b7ca" font-size="13">bilateral and multilateral coordination</text>
+    <rect x="300" y="462" width="360" height="38" rx="9" fill="#3b3420" stroke="#b59b56" stroke-width="2"/>
+    <text x="480" y="487" text-anchor="middle" fill="#efe6ce" font-size="16">CORPORATE SECURITY: fixed property and corridors</text>
+    <path d="M442 238 C480 260 480 292 480 322" fill="none" stroke="#b59b56" stroke-width="3"/>
+    <path d="M518 238 C480 260 480 292 480 322" fill="none" stroke="#b59b56" stroke-width="3"/>
+    <path d="M480 430 V462" fill="none" stroke="#b59b56" stroke-width="3"/>
+  </g>
+</svg>
