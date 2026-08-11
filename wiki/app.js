@@ -1827,6 +1827,13 @@ const pages = [
   { title: "White Parachute Election and Brick Parliament", description: "Britain's fragmented reconstruction legislature of 1947–1951", href: "brick-parliament.html", tags: "white parachute election brick parliament parliament strangers bevan reconstruction brick corps" },
   { title: "South Manchuria Railway Company", description: "Mantetsu and the northern continental development system", href: "mantetsu.html", tags: "mantetsu south manchuria railway rail geacps japan manchukuo continental gauge" },
   { title: "Amur Crisis", description: "The near-war that institutionalized the northern GEACPS frontier", href: "amur-crisis.html", tags: "amur crisis manchukuo russian far east vladivostok japan border settlement" },
+  { title: "Amur Settlement", description: "Japanese-guaranteed border, access, transit, security, and arbitration order", href: "amur-settlement.html", tags: "amur settlement manchukuo russian far east vladivostok japan frontier" },
+  { title: "Joint Amur Commissions", description: "Permanent administration of navigation, customs, rail, power, people, and concessions", href: "joint-amur-commissions.html", tags: "joint amur commissions navigation customs rail power fisheries migration extradition concessions" },
+  { title: "Amur Navigation Regime", description: "Shared rules for passage, ports, ice, rescue, fisheries, and river security", href: "amur-navigation-regime.html", tags: "amur navigation regime river shipping pilotage ice ports fisheries" },
+  { title: "Manchukuoan Access Rights in the Russian Far East", description: "Commercial and railway access substituted for territorial sovereignty", href: "manchukuoan-access-russian-far-east.html", tags: "manchukuo access rights russian far east railway transit concessions settlement" },
+  { title: "Vladivostok Free-Port and Transit Regime", description: "Maritime third-party status joining continental commerce to Japanese naval control", href: "vladivostok-free-port-transit-regime.html", tags: "vladivostok urajio free port transit regime protectorate customs shipping" },
+  { title: "Restricted Military Zones of the Amur Settlement", description: "Force limitations around northern railways, bridges, rivers, and port approaches", href: "restricted-military-zones-amur-settlement.html", tags: "amur restricted military zones arms control railway bridge river inspection" },
+  { title: "Japanese Arbitration under the Amur Settlement", description: "Permanent guarantee, inspection, interpretation, and enforcement of the northern order", href: "japanese-amur-arbitration-system.html", tags: "japanese amur arbitration inspection guarantee enforcement geacps" },
   { title: "Kazakh–Russian War", description: "The 1954–1963 mass-population war and steppe partition", href: "kazakh-russian-war.html", tags: "kazakh russian war kazakhstan siberia steppe state partition refugees 1954 1963" },
   { title: "Siberian Wars", description: "The long system of limited successor conflicts from the Railway Wars to armed normalization", href: "siberian-wars.html", tags: "siberian wars railway wars russian successor conflicts armed normalization" },
   { title: "Omsk–Novosibirsk Dual State", description: "The divided military-industrial union governing western Siberia", href: "omsk-novosibirsk-state.html", tags: "omsk novosibirsk dual state western siberia military industrial union" },
@@ -3059,6 +3066,7 @@ topicNav.push(["Political Limits of Victory", "territorial-satiation.html"]);
 topicNav.push(["American Execution State", "corporate-execution-continuity.html"]);
 topicNav.push(["Chita Crown", "house-of-romanov-russian-far-east.html"]);
 topicNav.push(["Mongolian Constitutional Order", "great-khural-united-mongolia.html"]);
+topicNav.push(["Amur Settlement", "amur-settlement.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -4880,7 +4888,14 @@ const crossLinks = [
   { href: "white-parachutes.html", terms: ["White Parachutes", "Bread Raid"] },
   { href: "brick-parliament.html", terms: ["White Parachute Election", "Brick Parliament", "Parliament of Strangers", "National Reconstruction Corps", "Brick Corps"] },
   { href: "mantetsu.html", terms: ["South Manchuria Railway Company", "Mantetsu"] },
-  { href: "amur-crisis.html", terms: ["Amur Crisis", "Amur settlement"] },
+  { href: "amur-crisis.html", terms: ["Amur Crisis"] },
+  { href: "amur-settlement.html", terms: ["Amur settlement", "post-crisis Amur settlement", "institutional Amur settlement"] },
+  { href: "joint-amur-commissions.html", terms: ["Joint Amur Commissions", "Amur commissions"] },
+  { href: "amur-navigation-regime.html", terms: ["Amur navigation regime", "Amur river navigation"] },
+  { href: "manchukuoan-access-russian-far-east.html", terms: ["Manchukuoan access rights", "Manchukuoan commercial access", "Manchukuoan railway access"] },
+  { href: "vladivostok-free-port-transit-regime.html", terms: ["Vladivostok free-port and transit regime", "Vladivostok free-port", "Urajio free-port"] },
+  { href: "restricted-military-zones-amur-settlement.html", terms: ["restricted military zones of the Amur settlement", "Amur restricted military zones"] },
+  { href: "japanese-amur-arbitration-system.html", terms: ["Japanese arbitration under the Amur settlement", "Japanese Amur arbitration", "Japanese inspection authority"] },
   { href: "kazakh-russian-war.html", terms: ["Kazakh–Russian War", "Kazakh-Russian War"] },
   { href: "siberian-wars.html", terms: ["Siberian Wars", "Railway Wars", "armed normalization"] },
   { href: "omsk-novosibirsk-state.html", terms: ["Omsk–Novosibirsk dual state", "Omsk-Novosibirsk dual state", "Omsk–Novosibirsk state", "Omsk-Novosibirsk state"] },
