@@ -3278,6 +3278,18 @@ const pages = [
   ,{ title: "Ryukyu Islands", description: "Japan's southwestern island chain between Kyushu and Taiwan", href: "ryukyu-islands.html", tags: "ryukyu islands nansei okinawa miyako yaeyama amami japan" }
   ,{ title: "Ryukyuan People", description: "The regional Japonic peoples of Japan's southwestern islands", href: "ryukyuan-people.html", tags: "ryukyuan people okinawan amami miyako yaeyama yonaguni japan" }
   ,{ title: "Ryukyuan Languages", description: "The endangered southern Japonic languages of the Ryukyu Islands", href: "ryukyuan-languages.html", tags: "ryukyuan languages japonic amami okinawan kunigami miyako yaeyama yonaguni" }
+  ,{ title: "Okinawa Prefecture", description: "Japan's southwestern prefecture under uninterrupted imperial administration", href: "okinawa-prefecture.html", tags: "okinawa prefecture japan ryukyu naha miyako yaeyama integral region" }
+  ,{ title: "Okinawa Island", description: "The strategic and demographic center of Japan's southwestern prefecture", href: "okinawa-island.html", tags: "okinawa island yanbaru naha shuri japan ryukyu geography" }
+  ,{ title: "Naha", description: "The capital, port, and maritime gateway of Okinawa Prefecture", href: "naha.html", tags: "naha okinawa capital port city ryukyu imperial japan" }
+  ,{ title: "Shuri", description: "The surviving royal capital and cultural center of the Ryukyu Islands", href: "shuri.html", tags: "shuri castle ryukyu kingdom royal capital okinawa heritage" }
+  ,{ title: "Ryukyu Kingdom", description: "The Shuri-centered island monarchy that existed from 1429 to 1879", href: "ryukyu-kingdom.html", tags: "ryukyu kingdom sho dynasty shuri naha satsuma tribute china" }
+  ,{ title: "Ryukyu Disposition", description: "The 1872–1879 abolition and annexation of the Ryukyu Kingdom", href: "ryukyu-disposition.html", tags: "ryukyu disposition annexation 1879 okinawa prefecture sho tai meiji" }
+  ,{ title: "Amami Islands", description: "The northern Ryukyuan archipelago administered through Kagoshima", href: "amami-islands.html", tags: "amami islands oshima kagoshima ryukyu satsuma sugar language" }
+  ,{ title: "Okinawan Language", description: "The endangered Northern Ryukyuan language of central and southern Okinawa", href: "okinawan-language.html", tags: "okinawan language uchinaaguchi shuri naha northern ryukyuan endangered" }
+  ,{ title: "Kunigami Language", description: "The endangered Northern Ryukyuan language of Yanbaru", href: "kunigami-language.html", tags: "kunigami language yanbaru nakijin northern okinawan ryukyuan endangered" }
+  ,{ title: "Miyakoan Language", description: "The endangered Southern Ryukyuan language of the Miyako Islands", href: "miyakoan-language.html", tags: "miyakoan language miyako ikema irabu tarama southern ryukyuan" }
+  ,{ title: "Yaeyama Language", description: "The endangered Southern Ryukyuan language of the Yaeyama Islands", href: "yaeyama-language.html", tags: "yaeyama language ishigaki iriomote taketomi hateruma southern ryukyuan" }
+  ,{ title: "Yonaguni Language", description: "The endangered language of Dunan at Japan's westernmost inhabited edge", href: "yonaguni-language.html", tags: "yonaguni language dunan southern ryukyuan taiwan endangered" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6691,6 +6703,18 @@ const crossLinks = [
   ,{ href: "ryukyu-islands.html", terms: ["Ryukyu Islands", "Nansei Islands"] }
   ,{ href: "ryukyuan-people.html", terms: ["Ryukyuan people", "Ryukyuans"] }
   ,{ href: "ryukyuan-languages.html", terms: ["Ryukyuan languages", "Ryukyuan language"] }
+  ,{ href: "okinawa-prefecture.html", terms: ["Okinawa Prefecture"] }
+  ,{ href: "okinawa-island.html", terms: ["Okinawa Island"] }
+  ,{ href: "naha.html", terms: ["Naha"] }
+  ,{ href: "shuri.html", terms: ["Shuri"] }
+  ,{ href: "ryukyu-kingdom.html", terms: ["Ryukyu Kingdom"] }
+  ,{ href: "ryukyu-disposition.html", terms: ["Ryukyu Disposition", "annexation of Ryukyu"] }
+  ,{ href: "amami-islands.html", terms: ["Amami Islands", "Amami archipelago"] }
+  ,{ href: "okinawan-language.html", terms: ["Okinawan language"] }
+  ,{ href: "kunigami-language.html", terms: ["Kunigami language", "Yanbaru speech"] }
+  ,{ href: "miyakoan-language.html", terms: ["Miyakoan language"] }
+  ,{ href: "yaeyama-language.html", terms: ["Yaeyama language"] }
+  ,{ href: "yonaguni-language.html", terms: ["Yonaguni language"] }
 ];
 
 function escapePattern(value) {
