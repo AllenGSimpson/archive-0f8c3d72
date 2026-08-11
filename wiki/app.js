@@ -3183,6 +3183,17 @@ const pages = [
   ,{ title: "National Catholic Coalition (Mexico)", description: "The political umbrella of the Second Cristiada", href: "national-catholic-coalition-mexico.html", tags: "mexico national catholic coalition second cristiada pan sinarquista regional governments" }
   ,{ title: "Guadalupan Corporatism", description: "The Catholic-national doctrine of post-Cristiada Mexico", href: "guadalupan-corporatism.html", tags: "mexico guadalupan corporatism christian nationalism catholic federal municipal economy" }
   ,{ title: "Mexican Crown Movement", description: "The unresolved post-Cristiada constitutional-monarchist current", href: "mexican-crown-movement.html", tags: "mexico crown movement monarchy iturbide regency elective hereditary constitutional" }
+  ,{ title: "Augusto Pinochet", description: "The Chilean army officer who becomes an authoritarian national balancer", href: "augusto-pinochet.html", tags: "chile augusto pinochet military ruler national equilibrium balance dictator" }
+  ,{ title: "Chilean Officers' Crisis", description: "The 1966–1968 military, procurement, and foreign-patron crisis", href: "chilean-officers-crisis.html", tags: "chile officers crisis 1966 1968 military procurement foreign patron pinochet" }
+  ,{ title: "Popular National Front (Chile)", description: "The working left-national coalition overthrown in the early 1970s", href: "popular-national-front-chile.html", tags: "chile popular national front left national copper labor coalition" }
+  ,{ title: "Chilean Military Coup", description: "The early-1970s intervention that creates the four-service junta", href: "chilean-military-coup.html", tags: "chile military coup 1972 1973 1974 junta pinochet" }
+  ,{ title: "Military Government of Chile", description: "Pinochet's repressive military-developmental balance state", href: "military-government-chile.html", tags: "chile military government junta dictatorship pinochet repression development" }
+  ,{ title: "Chilean Armed Forces", description: "The multi-source army, navy, air, police, and frontier-defense system", href: "chilean-armed-forces.html", tags: "chile armed forces army navy air force carabineros mountain defense" }
+  ,{ title: "Chilean Copper Industry", description: "Strategic mineral sovereignty, nationalization, and development finance", href: "chilean-copper-industry.html", tags: "chile copper industry nationalization mining state ownership development" }
+  ,{ title: "Chilean Military-Developmental Economy", description: "The state-guided mixed economy that replaces historical neoliberalism", href: "chilean-military-developmental-economy.html", tags: "chile military developmental economy mixed state copper banks industry" }
+  ,{ title: "Chilean National Intelligence Service", description: "The military government's centralized repressive security apparatus", href: "chilean-national-intelligence-service.html", tags: "chile national intelligence service security repression surveillance torture disappearance" }
+  ,{ title: "Chile–Britain Defense Relationship", description: "Naval, radar, staff, intelligence, and Falklands cooperation", href: "chile-britain-defense-relationship.html", tags: "chile britain defense relationship navy radar falklands intelligence" }
+  ,{ title: "Beagle Conflict", description: "The southern island and maritime dispute feeding the Cold Andes", href: "beagle-conflict.html", tags: "beagle conflict chile argentina picton lennox nueva 1978 cold andes" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6501,6 +6512,17 @@ const crossLinks = [
   ,{ href: "national-catholic-coalition-mexico.html", terms: ["National Catholic coalition", "Mexican National Catholic coalition"] }
   ,{ href: "guadalupan-corporatism.html", terms: ["Guadalupan corporatism", "Mexican Christian nationalism"] }
   ,{ href: "mexican-crown-movement.html", terms: ["Mexican Crown movement", "Mexican monarchist movement", "Council of the Crown"] }
+  ,{ href: "augusto-pinochet.html", terms: ["Augusto Pinochet", "Pinochet"] }
+  ,{ href: "chilean-officers-crisis.html", terms: ["Chilean Officers' Crisis", "Chilean Officers’ Crisis", "Officers' Crisis of 1966–68"] }
+  ,{ href: "popular-national-front-chile.html", terms: ["Popular National Front", "Chilean Popular National Front"] }
+  ,{ href: "chilean-military-coup.html", terms: ["Chilean military coup", "early-1970s Chilean coup"] }
+  ,{ href: "military-government-chile.html", terms: ["military government of Chile", "Chilean military government"] }
+  ,{ href: "chilean-armed-forces.html", terms: ["Chilean Armed Forces", "armed forces of Chile"] }
+  ,{ href: "chilean-copper-industry.html", terms: ["Chilean copper industry", "Chile's copper industry"] }
+  ,{ href: "chilean-military-developmental-economy.html", terms: ["Chilean military-developmental economy", "military-developmental mixed system"] }
+  ,{ href: "chilean-national-intelligence-service.html", terms: ["Chilean national intelligence service", "Chile's national intelligence service"] }
+  ,{ href: "chile-britain-defense-relationship.html", terms: ["Chile–Britain defense relationship", "Chile-Britain defense relationship"] }
+  ,{ href: "beagle-conflict.html", terms: ["Beagle conflict", "Beagle dispute"] }
 ];
 
 function escapePattern(value) {
