@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Environmental Institutions in the Co-Prosperity Sphere", description: "Land, water, pollution, conservation, corporate burdens, and community claims", href: "environmental-institutions-geacps.html", tags: "environmental institutions geacps pollution land water conservation" },
+  { title: "Development Impact Assessment in the Co-Prosperity Sphere", description: "Surveys, engineering review, land, health, compensation, and operating conditions", href: "development-impact-assessment-geacps.html", tags: "development impact assessment geacps environment projects compensation" },
+  { title: "Industrial Pollution in Japanese Asia", description: "Air, water, oil, sewage, industrial waste, controls, and local politics", href: "industrial-pollution-geacps.html", tags: "industrial pollution japanese asia oil air water urban" },
+  { title: "Forestry, Plantations, and Land Use", description: "Logging, plantation growth, roads, customary land, soil, water, and sustained yield", href: "forestry-plantation-land-use-geacps.html", tags: "forestry plantations land use geacps deforestation siberia borneo" },
+  { title: "Fisheries Management in the Co-Prosperity Sphere", description: "Industrial fleets, coastal access, stock assessment, overfishing, and enforcement", href: "fisheries-management-geacps.html", tags: "fisheries management geacps overfishing micronesia coastal" },
+  { title: "Mining Damage and Reclamation in the Co-Prosperity Sphere", description: "Tailings, water, communities, operating controls, closure, and liability", href: "mining-reclamation-geacps.html", tags: "mining damage reclamation geacps manchukuo mongolia phosphate" },
+  { title: "Dams, Displacement, and Hazardous Waste", description: "Reservoirs, relocation, river effects, chemical waste, nuclear waste, and liability", href: "dams-displacement-hazardous-waste-geacps.html", tags: "dams displacement hazardous waste nuclear geacps environment" },
   { title: "Public Health and Disaster Response in the Co-Prosperity Sphere", description: "National medicine, company care, epidemic control, relief logistics, and reconstruction", href: "public-health-disaster-geacps.html", tags: "public health disaster response geacps medicine relief welfare" },
   { title: "National Public-Health Administration in the Co-Prosperity Sphere", description: "Ministries, local services, licensing, sanitation, and disease reporting", href: "national-public-health-administration-geacps.html", tags: "national public health administration geacps ministries sanitation licensing" },
   { title: "Company Hospitals and Corridor Medicine", description: "Employment medicine, industrial clinics, referral, and transport-linked health care", href: "company-hospitals-geacps.html", tags: "company hospitals corridor medicine geacps occupational health mantetsu" },
@@ -7285,6 +7292,13 @@ const crossLinks = [
   ,{ href: "tropical-medicine-geacps.html", terms: ["Tropical Medicine in Japanese Asia", "tropical medicine"] }
   ,{ href: "disaster-relief-transport-geacps.html", terms: ["Disaster Relief Transport in the Co-Prosperity Sphere", "disaster relief transport"] }
   ,{ href: "post-disaster-reconstruction-welfare-geacps.html", terms: ["Post-disaster Reconstruction and Welfare in the Co-Prosperity Sphere", "post-disaster reconstruction and welfare"] }
+  ,{ href: "environmental-institutions-geacps.html", terms: ["Environmental Institutions in the Co-Prosperity Sphere", "environmental institutions"] }
+  ,{ href: "development-impact-assessment-geacps.html", terms: ["Development Impact Assessment in the Co-Prosperity Sphere", "development impact assessment"] }
+  ,{ href: "industrial-pollution-geacps.html", terms: ["Industrial Pollution in Japanese Asia", "industrial pollution"] }
+  ,{ href: "forestry-plantation-land-use-geacps.html", terms: ["Forestry, Plantations, and Land Use in the Co-Prosperity Sphere", "forestry, plantations, and land use"] }
+  ,{ href: "fisheries-management-geacps.html", terms: ["Fisheries Management in the Co-Prosperity Sphere", "fisheries management"] }
+  ,{ href: "mining-reclamation-geacps.html", terms: ["Mining Damage and Reclamation in the Co-Prosperity Sphere", "mining damage and reclamation"] }
+  ,{ href: "dams-displacement-hazardous-waste-geacps.html", terms: ["Dams, Displacement, and Hazardous Waste in the Co-Prosperity Sphere", "dams, displacement, and hazardous waste"] }
 ];
 
 function escapePattern(value) {
