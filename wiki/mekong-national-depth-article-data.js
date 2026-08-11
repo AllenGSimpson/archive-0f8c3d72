@@ -22,21 +22,31 @@ const vietnamDepthRelated = [
   {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"},
   {href:"bao-dai.html",kicker:"Founding sovereign",label:"Bảo Đại"},
   {href:"hanoi.html",kicker:"Administrative center",label:"Hanoi"},
-  {href:"saigon.html",kicker:"Commercial center",label:"Saigon"}
+  {href:"saigon.html",kicker:"Commercial center",label:"Saigon"},
+  {href:"tonkin.html",kicker:"Northern region",label:"Tonkin"},
+  {href:"annam.html",kicker:"Central region",label:"Annam"},
+  {href:"cochinchina.html",kicker:"Southern region",label:"Cochinchina"}
 ];
 const cambodiaDepthRelated = [
   {href:"cambodia.html",kicker:"National overview",label:"Kingdom of Cambodia"},
   {href:"languages-of-cambodia.html",kicker:"Language settlement",label:"Languages of Cambodia"},
   {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"},
   {href:"son-ngoc-thanh.html",kicker:"Republican current",label:"Sơn Ngọc Thành"},
-  {href:"kompong-som.html",kicker:"National port",label:"Kompong Som"}
+  {href:"kompong-som.html",kicker:"National port",label:"Kompong Som"},
+  {href:"battambang.html",kicker:"Territorial grievance",label:"Battambang"},
+  {href:"siem-reap.html",kicker:"Northwestern city",label:"Siem Reap"},
+  {href:"angkor.html",kicker:"National heritage",label:"Angkor"},
+  {href:"khmer-krom.html",kicker:"Cross-border people",label:"Khmer Krom"}
 ];
 const laosDepthRelated = [
   {href:"laos.html",kicker:"National overview",label:"Kingdom of Laos"},
   {href:"languages-of-laos.html",kicker:"Language settlement",label:"Languages of Laos"},
   {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"},
   {href:"sisavang-vong.html",kicker:"Founding sovereign",label:"Sisavang Vong"},
-  {href:"champasak.html",kicker:"Southern compact",label:"Champasak"}
+  {href:"champasak.html",kicker:"Southern compact",label:"Champasak"},
+  {href:"pakse.html",kicker:"Southern center",label:"Pakse"},
+  {href:"bolaven-plateau.html",kicker:"Agricultural upland",label:"Bolaven Plateau"},
+  {href:"wat-phou.html",kicker:"Southern heritage",label:"Wat Phou"}
 ];
 
 Object.assign(window.deepArticles,{

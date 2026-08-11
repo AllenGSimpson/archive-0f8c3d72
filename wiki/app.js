@@ -1800,6 +1800,16 @@ const pages = [
   { title: "Saigon", description: "Commercial, financial, port, and popular-cultural center of Vietnam", href: "saigon.html", tags: "saigon vietnam port finance media industry cochinchina" },
   { title: "Kompong Som", description: "Cambodia's national deep-water port and southern development project", href: "kompong-som.html", tags: "kompong som kampong som cambodia port gulf japan" },
   { title: "Champasak", description: "Southern Lao royal, provincial, agricultural, and transit region", href: "champasak.html", tags: "champasak champassak laos pakse mekong wat phou" },
+  { title: "Tonkin", description: "The northern historical, administrative, and economic region of Vietnam", href: "tonkin.html", tags: "tonkin tongkin northern vietnam red river hanoi haiphong protectorate" },
+  { title: "Annam", description: "The central historical region containing Huế and the Nguyễn court", href: "annam.html", tags: "annam central vietnam hue nguyen protectorate coast highlands" },
+  { title: "Cochinchina", description: "The southern historical region of Saigon and the Mekong delta", href: "cochinchina.html", tags: "cochinchina southern vietnam saigon mekong delta french colony" },
+  { title: "Battambang", description: "Thai-administered Phra Tabong and Cambodia's principal territorial grievance", href: "battambang.html", tags: "battambang phra tabong thailand cambodia khmer sisophon province" },
+  { title: "Siem Reap", description: "Cambodia's northwestern frontier city and gateway to Angkor", href: "siem-reap.html", tags: "siem reap cambodia angkor tourism heritage frontier" },
+  { title: "Angkor", description: "The Khmer imperial capital landscape and central Cambodian national symbol", href: "angkor.html", tags: "angkor angkor wat cambodia khmer empire archaeology heritage" },
+  { title: "Pakse", description: "Administrative and commercial center of southern Laos and Champasak", href: "pakse.html", tags: "pakse pakxe laos champasak mekong xe don city" },
+  { title: "Bolaven Plateau", description: "Southern Laos's upland coffee, water, forest, and hydropower region", href: "bolaven-plateau.html", tags: "bolaven plateau laos champasak coffee laven highland hydropower" },
+  { title: "Wat Phou", description: "The Khmer sanctuary and living Lao Buddhist heritage site in Champasak", href: "wat-phou.html", tags: "wat phou vat phou laos champasak khmer temple buddhist" },
+  { title: "Khmer Krom", description: "Khmer communities of the lower Mekong within imperial Vietnam", href: "khmer-krom.html", tags: "khmer krom kampuchea krom vietnam cochinchina mekong delta theravada" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6303,6 +6313,16 @@ const crossLinks = [
   ,{ href: "saigon.html", terms: ["Saigon"] }
   ,{ href: "kompong-som.html", terms: ["Kompong Som", "Kampong Som"] }
   ,{ href: "champasak.html", terms: ["Champasak", "Champassak"] }
+  ,{ href: "tonkin.html", terms: ["Tonkin", "Tongkin", "Tonquin"] }
+  ,{ href: "annam.html", terms: ["Annam"] }
+  ,{ href: "cochinchina.html", terms: ["Cochinchina", "Cochin China"] }
+  ,{ href: "battambang.html", terms: ["Battambang", "Phra Tabong", "Phratabong"] }
+  ,{ href: "siem-reap.html", terms: ["Siem Reap"] }
+  ,{ href: "angkor.html", terms: ["Angkor", "Angkor Wat"] }
+  ,{ href: "pakse.html", terms: ["Pakse", "Paksé", "Pakxe"] }
+  ,{ href: "bolaven-plateau.html", terms: ["Bolaven Plateau", "Bolaven"] }
+  ,{ href: "wat-phou.html", terms: ["Wat Phou", "Vat Phou", "Wat Phu", "Vat Phu"] }
+  ,{ href: "khmer-krom.html", terms: ["Khmer Krom", "Kampuchea Krom"] }
 ];
 
 function escapePattern(value) {
