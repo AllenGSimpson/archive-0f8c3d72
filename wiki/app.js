@@ -1782,6 +1782,15 @@ const pages = [
   { title: "Cities of Chōsen", description: "Keijō, Fusan, Heijō, Genzan, Kōshū, and the peninsula's urban system", href: "cities-chosen.html", tags: "chosen korea cities keijo fusan heijo genzan koshu" },
   { title: "Culture and Media in Chōsen", description: "Japanese-language regional cinema, animation, broadcasting, performance, and preservation", href: "culture-media-chosen.html", tags: "chosen korea culture media cinema animation keijo" },
   { title: "Straits Kinship Theory", description: "The politically useful common-origin theory of Japanese and Korean peoples", href: "straits-kinship-theory.html", tags: "chosen korea japan straits kinship theory assimilation ethnography" },
+  { title: "Government of Vietnam", description: "The Nguyễn crown, ministries, provincial administration, and Japanese reserved powers", href: "government-of-vietnam.html", tags: "vietnam government nguyen monarchy bao dai hue hanoi saigon japan geacps" },
+  { title: "Economy of Vietnam", description: "Agriculture, industry, consumer assembly, regional commerce, and Japanese capital", href: "economy-of-vietnam.html", tags: "vietnam economy rice rubber coal industry assembly saigon japan" },
+  { title: "Society of Vietnam", description: "Regional identities, village life, religion, literacy, urbanization, and media", href: "society-of-vietnam.html", tags: "vietnam society hue hanoi saigon religion quoc ngu han nom media" },
+  { title: "Government of Cambodia", description: "Sihanouk's monarchy, royal ministries, political currents, and protected sovereignty", href: "government-of-cambodia.html", tags: "cambodia government sihanouk monarchy battambang son ngoc thanh japan" },
+  { title: "Economy of Cambodia", description: "Agriculture, Kompong Som, Angkor tourism, processing, and commercial dependence", href: "economy-of-cambodia.html", tags: "cambodia economy rice rubber kompong som angkor tourism phnom penh" },
+  { title: "Society of Cambodia", description: "Khmer identity, Buddhism, village life, border memory, and preservation", href: "society-of-cambodia.html", tags: "cambodia society khmer buddhism angkor battambang villages culture" },
+  { title: "Government of Laos", description: "The dual-capital crown, Vientiane ministries, provinces, and corridor administration", href: "government-of-laos.html", tags: "laos government luang prabang vientiane monarchy champasak japan" },
+  { title: "Economy of Laos", description: "Agriculture, resources, transit, concessions, and outward-facing infrastructure", href: "economy-of-laos.html", tags: "laos economy agriculture timber mining hydropower transit concessions" },
+  { title: "Society of Laos", description: "Royal and administrative centers, Buddhism, Lao particularism, and upland communities", href: "society-of-laos.html", tags: "laos society luang prabang vientiane buddhism lao tham highland" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6267,6 +6276,15 @@ const crossLinks = [
   ,{ href: "cities-chosen.html", terms: ["cities of Chōsen"] }
   ,{ href: "culture-media-chosen.html", terms: ["culture and media in Chōsen"] }
   ,{ href: "straits-kinship-theory.html", terms: ["Straits Kinship Theory"] }
+  ,{ href: "government-of-vietnam.html", terms: ["government of Vietnam"] }
+  ,{ href: "economy-of-vietnam.html", terms: ["economy of Vietnam"] }
+  ,{ href: "society-of-vietnam.html", terms: ["society of Vietnam"] }
+  ,{ href: "government-of-cambodia.html", terms: ["government of Cambodia"] }
+  ,{ href: "economy-of-cambodia.html", terms: ["economy of Cambodia"] }
+  ,{ href: "society-of-cambodia.html", terms: ["society of Cambodia"] }
+  ,{ href: "government-of-laos.html", terms: ["government of Laos"] }
+  ,{ href: "economy-of-laos.html", terms: ["economy of Laos"] }
+  ,{ href: "society-of-laos.html", terms: ["society of Laos"] }
 ];
 
 function escapePattern(value) {
