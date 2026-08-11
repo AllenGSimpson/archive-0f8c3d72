@@ -1,4 +1,12 @@
 const pages = [
+  { title: "Life aboard Interplanetary Spacecraft", description: "Work, privacy, exercise, stores, local authority, and crew society during deep-space voyages", href: "life-aboard-interplanetary-spacecraft.html", tags: "life aboard interplanetary spacecraft deep space crew society mars ceres voyage" },
+  { title: "Interplanetary Shipboard Command", description: "Delegated authority, medical and engineering independence, records, and legal limits", href: "interplanetary-shipboard-command.html", tags: "interplanetary shipboard command authority commander medicine engineering logs" },
+  { title: "Deep-Space Watches and Work Cycles", description: "Artificial days, rotating watches, cross-training, sleep, maintenance, and arrival operations", href: "deep-space-watches-work-cycles.html", tags: "deep space watches work cycles shifts sleep mission time crew" },
+  { title: "Food and Water on Interplanetary Voyages", description: "Landed stores, water recovery, cultivation, meals, rationing, and protected reserves", href: "food-water-interplanetary-voyages.html", tags: "food water interplanetary voyages stores recovery hydroponics rations reserves" },
+  { title: "Medicine and Mental Health on Interplanetary Voyages", description: "Preventive care, radiation, confinement, local treatment, delayed consultation, and death", href: "medicine-mental-health-interplanetary-voyages.html", tags: "medicine mental health interplanetary voyages radiation confinement physician" },
+  { title: "Communications and Family Contact on Interplanetary Voyages", description: "Delayed correspondence, technical advice, news, privacy, and family message packets", href: "communications-family-contact-interplanetary-voyages.html", tags: "communications family contact interplanetary voyages delay messages news privacy" },
+  { title: "Maintenance and Repair aboard Interplanetary Spacecraft", description: "Inspection, diagnosis, spares, workshops, cannibalization, external work, and configuration", href: "maintenance-repair-interplanetary-spacecraft.html", tags: "maintenance repair interplanetary spacecraft spares workshop diagnosis eva" },
+  { title: "Interplanetary Emergency Doctrine", description: "Local response, refuges, reserves, aborts, destination readiness, and conditional rescue", href: "interplanetary-emergency-doctrine.html", tags: "interplanetary emergency doctrine refuge reserve abort rescue contingency" },
   { title: "Lunar Society", description: "Five connected but politically distinct settlement traditions on the Moon", href: "lunar-society.html", tags: "lunar society moon settlements kennedy mondhafen serenity kaguya sancta maria" },
   { title: "Society of Kennedy Lunar Station", description: "Corporate pluralism, households, labor, utilities, and federal authority", href: "society-kennedy-lunar-station.html", tags: "society kennedy lunar station american corporate households labor first birth" },
   { title: "Society of Mondhafen Süd", description: "Planned industry, selected settlers, family admission, and German cislunar life", href: "society-mondhafen-sud.html", tags: "society mondhafen sud süd german lunar settlement industry families" },
@@ -7145,6 +7153,14 @@ const crossLinks = [
   ,{ href: "society-sancta-maria-lunae.html", terms: ["Society of Sancta Maria Lunae", "Sancta Maria lunar society"] }
   ,{ href: "lunar-civic-institutions.html", terms: ["Lunar civic institutions", "lunar settlement institutions"] }
   ,{ href: "interbase-relations-moon.html", terms: ["Interbase relations on the Moon", "lunar interbase relations"] }
+  ,{ href: "life-aboard-interplanetary-spacecraft.html", terms: ["Life aboard Interplanetary Spacecraft", "interplanetary shipboard life"] }
+  ,{ href: "interplanetary-shipboard-command.html", terms: ["Interplanetary Shipboard Command", "deep-space shipboard command"] }
+  ,{ href: "deep-space-watches-work-cycles.html", terms: ["Deep-Space Watches and Work Cycles", "deep-space watches", "interplanetary work cycles"] }
+  ,{ href: "food-water-interplanetary-voyages.html", terms: ["Food and Water on Interplanetary Voyages", "interplanetary food and water"] }
+  ,{ href: "medicine-mental-health-interplanetary-voyages.html", terms: ["Medicine and Mental Health on Interplanetary Voyages", "interplanetary voyage medicine"] }
+  ,{ href: "communications-family-contact-interplanetary-voyages.html", terms: ["Communications and Family Contact on Interplanetary Voyages", "interplanetary family contact"] }
+  ,{ href: "maintenance-repair-interplanetary-spacecraft.html", terms: ["Maintenance and Repair aboard Interplanetary Spacecraft", "interplanetary spacecraft maintenance"] }
+  ,{ href: "interplanetary-emergency-doctrine.html", terms: ["Interplanetary Emergency Doctrine", "deep-space emergency doctrine"] }
 ];
 
 function escapePattern(value) {
