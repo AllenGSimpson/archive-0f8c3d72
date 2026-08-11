@@ -1,4 +1,10 @@
 const pages = [
+  { title: "Common Administrative Latin", description: "The controlled modern register of common law, administration, and technical interfaces", href: "common-administrative-latin.html", tags: "common administrative latin latinitas communis language chancery legal technical bloc" },
+  { title: "Latin Community Legal Service", description: "The multilingual body drafting authoritative common texts directly in Latin", href: "latin-community-legal-service.html", tags: "latin community legal service drafting translation authentic text treaty law" },
+  { title: "Latin Terminology Office", description: "Modern vocabulary for Community government, finance, science, computing, and industry", href: "latin-terminology-office.html", tags: "latin terminology office vocabulary standards radar transistor computing nuclear finance" },
+  { title: "Latin Technical Education", description: "Professional language training for officials, engineers, scientists, officers, and astronauts", href: "latin-technical-education.html", tags: "latin technical education training classical professional civil service engineer astronaut" },
+  { title: "Technical Latin in Spaceflight", description: "Interface documents, certification, mission phraseology, and broadcasts in Latin spaceflight", href: "technical-latin-in-spaceflight.html", tags: "technical latin spaceflight mission control interface telemetry certification aquila" },
+  { title: "Latin Spaceflight Certification", description: "The multinational test, documentation, and risk-acceptance system for crewed flight", href: "latin-spaceflight-certification.html", tags: "latin spaceflight certification readiness testing interface aquila concordia mercurius" },
   { title: "Latin Space Council", description: "The intergovernmental body governing common programs, workshare, standards, and risk", href: "latin-space-council.html", tags: "latin space council convention governance workshare broglio italy occitania spain portugal" },
   { title: "First Independent Latin Satellite", description: "The 1967 San Marco-series atmospheric and geodetic mission", href: "first-independent-latin-satellite.html", tags: "first independent latin satellite 1967 san marco atmosphere ionosphere geodetic telemetry" },
   { title: "Latin Weather Satellite Program", description: "The 1968 weather and ocean-observation service behind later shared meteorology", href: "latin-weather-satellite-program.html", tags: "latin weather satellite program 1968 ocean mediterranean atlantic sahara east africa weather commons" },
@@ -7049,6 +7055,12 @@ const crossLinks = [
   ,{ href: "latin-weather-satellite-program.html", terms: ["Latin Weather Satellite Program", "Latin weather satellite"] }
   ,{ href: "latin-experimental-communications-satellite.html", terms: ["Latin Experimental Communications Satellite", "Latin communications satellite"] }
   ,{ href: "latin-recoverable-capsule-program.html", terms: ["Latin Recoverable Capsule Program", "Latin recoverable capsule"] }
+  ,{ href: "common-administrative-latin.html", terms: ["Common Administrative Latin", "Latinitas Communis"] }
+  ,{ href: "latin-community-legal-service.html", terms: ["Latin Community Legal Service", "multilingual legal service"] }
+  ,{ href: "latin-terminology-office.html", terms: ["Latin Terminology Office", "Community terminology office"] }
+  ,{ href: "latin-technical-education.html", terms: ["Latin Technical Education", "technical Latin education"] }
+  ,{ href: "technical-latin-in-spaceflight.html", terms: ["Technical Latin in Spaceflight", "technical Latin"] }
+  ,{ href: "latin-spaceflight-certification.html", terms: ["Latin Spaceflight Certification", "Latin flight certification"] }
 ];
 
 function escapePattern(value) {
