@@ -1708,6 +1708,14 @@ const pages = [
   { title: "Delta Karen Protected Districts", description: "Karen cultural and municipal autonomy inside the Bamar-administered delta", href: "delta-karen-protected-districts.html", tags: "delta karen protected districts burma irrawaddy schools churches land language" },
   { title: "Northern Arakan Protected District", description: "Muslim municipal, religious, personal-law, and security protection inside Arakan State", href: "northern-arakan-protected-district.html", tags: "northern arakan protected district muslim rakhine burma personal law security" },
   { title: "Minority Question in the Sovereign States Experiment", description: "The smaller-peoples and mixed-district problem left by Burma's temporary eight-state order", href: "minority-question-sovereign-states-experiment.html", tags: "burma sovereign states experiment minority question shan karen arakan chin naga" },
+  { title: "First Armed Armistice in Northern India", description: "The 1957–1960 armed pause and reciprocal fortification after the Delhi Campaign", href: "first-armed-armistice-northern-india.html", tags: "india first armed armistice 1957 1960 congress azad hind fortified frontier" },
+  { title: "Northern Indian Long War", description: "Permanent mobilization and limited interstate conflict after 1965", href: "northern-indian-long-war.html", tags: "northern indian long war india permanent mobilization limited conflict after 1965" },
+  { title: "Defense Developmentalism in Northern India", description: "Civil development organized around the requirements of permanent mobilization", href: "defense-developmentalism-northern-india.html", tags: "india defense developmentalism war economy food fertilizer rail power machine tools" },
+  { title: "Armed Reserve Society in Northern India", description: "Household weapons, local depots, annual training, and civil defense", href: "armed-reserve-society-northern-india.html", tags: "india armed reserve society militarized household rifles ammunition gas masks mobilization" },
+  { title: "Fortress Societies of Northern India", description: "Five political traditions shaped by permanent military readiness", href: "fortress-societies-northern-india.html", tags: "india fortress societies azad hind congress hindustan telangana princely states" },
+  { title: "Treason and Counterintelligence in Northern India", description: "Espionage, security administration, and elastic political prosecution", href: "treason-counterintelligence-northern-india.html", tags: "india treason counterintelligence espionage security law agents militias emergency" },
+  { title: "Arms-Broker Finance in the Indian Successor States", description: "Commodity payment, public-revenue claims, credit, and bundled military procurement", href: "arms-broker-finance-india.html", tags: "india arms broker finance quasi banking commodities customs concessions weapons credit" },
+  { title: "Mixed-Arsenal Logistics in the Indian Successor States", description: "Depots, technicians, ammunition, and supply for incompatible equipment families", href: "mixed-arsenal-logistics-india.html", tags: "india mixed arsenal logistics ammunition depots spare parts british japanese german russian" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6119,6 +6127,14 @@ const crossLinks = [
   ,{ href: "tam-74.html", terms: ["TAM-74A2s", "TAM-74A2", "TAM-74A1", "TAM-74"] }
   ,{ href: "vctp-74.html", terms: ["VCTP-74s", "VCTP-74"] }
   ,{ href: "vbe-78-nandu.html", terms: ["VBE-78 Ñandús", "VBE-78 Ñandú", "VBE-78 Nandus", "VBE-78 Nandu"] }
+  ,{ href: "first-armed-armistice-northern-india.html", terms: ["First Armed Armistice", "first armed armistice in northern India", "1957–1960 armed armistice"] }
+  ,{ href: "northern-indian-long-war.html", terms: ["Northern Indian Long War", "post-1965 long war", "Indian long war"] }
+  ,{ href: "defense-developmentalism-northern-india.html", terms: ["defense developmentalism", "defence developmentalism", "permanent war economy in northern India"] }
+  ,{ href: "armed-reserve-society-northern-india.html", terms: ["armed reserve society", "militarized household", "militarised household"] }
+  ,{ href: "fortress-societies-northern-india.html", terms: ["fortress societies of northern India", "five fortress societies", "fortress society"] }
+  ,{ href: "treason-counterintelligence-northern-india.html", terms: ["treason in northern India", "counterintelligence in northern India", "Indian treason law"] }
+  ,{ href: "arms-broker-finance-india.html", terms: ["arms-broker finance", "arms dealers as bankers", "arms broker as banker"] }
+  ,{ href: "mixed-arsenal-logistics-india.html", terms: ["mixed-arsenal logistics", "mixed arsenal logistics", "specialist military depots in India"] }
 ];
 
 function escapePattern(value) {
