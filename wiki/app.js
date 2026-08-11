@@ -1716,6 +1716,14 @@ const pages = [
   { title: "Treason and Counterintelligence in Northern India", description: "Espionage, security administration, and elastic political prosecution", href: "treason-counterintelligence-northern-india.html", tags: "india treason counterintelligence espionage security law agents militias emergency" },
   { title: "Arms-Broker Finance in the Indian Successor States", description: "Commodity payment, public-revenue claims, credit, and bundled military procurement", href: "arms-broker-finance-india.html", tags: "india arms broker finance quasi banking commodities customs concessions weapons credit" },
   { title: "Mixed-Arsenal Logistics in the Indian Successor States", description: "Depots, technicians, ammunition, and supply for incompatible equipment families", href: "mixed-arsenal-logistics-india.html", tags: "india mixed arsenal logistics ammunition depots spare parts british japanese german russian" },
+  { title: "Ba Maw", description: "First premier, wartime head of the State of Burma, and postwar elder statesman", href: "ba-maw.html", tags: "ba maw burma premier state of burma elder statesman biography" },
+  { title: "Aung San", description: "Nationalist and military founder whose 1947 assassination reshaped Burmese independence", href: "aung-san.html", tags: "aung san bogyoke burma thirty comrades army assassination biography" },
+  { title: "U Nu", description: "Civilian parliamentary leader of the independent federal Union of Burma", href: "u-nu.html", tags: "u nu thakin nu burma afpfl parliament buddhism biography" },
+  { title: "Ne Win", description: "Army commander and architect of Burma's military-guardian constitution", href: "ne-win.html", tags: "ne win shu maung burma army military guardianship biography" },
+  { title: "State of Burma", description: "The Japanese-recognized wartime state headed by Ba Maw", href: "state-of-burma.html", tags: "state of burma 1943 ba maw japan wartime government" },
+  { title: "Assassination of Aung San", description: "The 1947 killing that removed Burma's strongest personal guarantor before independence", href: "assassination-of-aung-san.html", tags: "assassination aung san 1947 burma succession u saw" },
+  { title: "U Nu Civilian Government", description: "Parliamentary ministries, Buddhist policy, welfare, and reconstruction before military guardianship", href: "u-nu-civilian-government.html", tags: "u nu civilian government burma parliament ministries buddhism development" },
+  { title: "Military Guardianship in Burma", description: "Reserved army authority coexisting with parliament, federal states, and State Guards", href: "military-guardianship-burma.html", tags: "burma military guardianship guardian republic union army emergency powers federalism" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6135,6 +6143,14 @@ const crossLinks = [
   ,{ href: "treason-counterintelligence-northern-india.html", terms: ["treason in northern India", "counterintelligence in northern India", "Indian treason law"] }
   ,{ href: "arms-broker-finance-india.html", terms: ["arms-broker finance", "arms dealers as bankers", "arms broker as banker"] }
   ,{ href: "mixed-arsenal-logistics-india.html", terms: ["mixed-arsenal logistics", "mixed arsenal logistics", "specialist military depots in India"] }
+  ,{ href: "ba-maw.html", terms: ["Dr. Ba Maw", "Ba Maw"] }
+  ,{ href: "aung-san.html", terms: ["Bogyoke Aung San", "Aung San"] }
+  ,{ href: "u-nu.html", terms: ["Thakin Nu", "U Nu"] }
+  ,{ href: "ne-win.html", terms: ["Ne Win", "Shu Maung"] }
+  ,{ href: "state-of-burma.html", terms: ["State of Burma"] }
+  ,{ href: "assassination-of-aung-san.html", terms: ["assassination of Aung San", "Aung San assassination"] }
+  ,{ href: "u-nu-civilian-government.html", terms: ["U Nu civilian government", "U Nu government"] }
+  ,{ href: "military-guardianship-burma.html", terms: ["military guardianship in Burma", "military guardianship", "guardian republic"] }
 ];
 
 function escapePattern(value) {
