@@ -3172,6 +3172,17 @@ const pages = [
   ,{ title: "Brazilian Military Government", description: "Authoritarian developmental republic under military presidents, 1964–1985", href: "brazilian-military-government.html", tags: "brazil military government dictatorship arena mdb ai5 1964 1985" }
   ,{ title: "Brazilian Economic Miracle", description: "High-growth authoritarian-developmental phase, 1968–1973", href: "brazilian-economic-miracle.html", tags: "brazil economic miracle growth industry infrastructure debt inequality 1968 1973" }
   ,{ title: "Brazilian Political Opening", description: "Controlled liberalization and return to civilian government, 1974–1985", href: "brazilian-political-opening.html", tags: "brazil political opening abertura democracy amnesty diretas ja geisel figueiredo 1985" }
+  ,{ title: "Cristero War", description: "The 1926–1929 religious conflict later known as the First Cristiada", href: "first-cristero-war.html", tags: "mexico cristero war first cristiada calles law church state 1926 1929" }
+  ,{ title: "Cristero Movement", description: "The religious, familial, regional, and political tradition of Cristero resistance", href: "cristero-movement.html", tags: "mexico cristero movement christ king guadalupe bajio catholic resistance" }
+  ,{ title: "National Synarchist Union", description: "Mexico's Catholic-national Sinarquista mass movement", href: "national-synarchist-union.html", tags: "mexico national synarchist union union nacional sinarquista uns sinarquismo catholic corporatism" }
+  ,{ title: "National Action Party (Mexico)", description: "Constitutional and socially Catholic opposition to the revolutionary party-state", href: "national-action-party-mexico.html", tags: "mexico national action party pan partido accion nacional opposition catholic municipal" }
+  ,{ title: "Institutional Revolutionary Party", description: "Mexico's revolutionary corporatist party-state and its loss of monopoly", href: "institutional-revolutionary-party-mexico.html", tags: "mexico institutional revolutionary party pri pnr prm party state corporatism" }
+  ,{ title: "Mexican Miracle", description: "Protected industrialization and political continuity from roughly 1940 to 1970", href: "mexican-miracle.html", tags: "mexico mexican miracle economy industrialization import substitution development growth" }
+  ,{ title: "Pemex", description: "Mexico's state petroleum company and symbol of strategic sovereignty", href: "pemex.html", tags: "mexico pemex petroleos mexicanos oil petroleum cardenas expropriation state enterprise" }
+  ,{ title: "Catholic Civil Society in Mexico", description: "Schools, cooperatives, professions, parishes, and civic networks before the Second Cristiada", href: "mexican-catholic-civil-society.html", tags: "mexico catholic civil society schools cooperatives parishes professions second cristiada" }
+  ,{ title: "National Catholic Coalition (Mexico)", description: "The political umbrella of the Second Cristiada", href: "national-catholic-coalition-mexico.html", tags: "mexico national catholic coalition second cristiada pan sinarquista regional governments" }
+  ,{ title: "Guadalupan Corporatism", description: "The Catholic-national doctrine of post-Cristiada Mexico", href: "guadalupan-corporatism.html", tags: "mexico guadalupan corporatism christian nationalism catholic federal municipal economy" }
+  ,{ title: "Mexican Crown Movement", description: "The unresolved post-Cristiada constitutional-monarchist current", href: "mexican-crown-movement.html", tags: "mexico crown movement monarchy iturbide regency elective hereditary constitutional" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6479,6 +6490,17 @@ const crossLinks = [
   ,{ href: "brazilian-military-government.html", terms: ["Brazilian military government", "military government of Brazil", "Brazilian military regime"] }
   ,{ href: "brazilian-economic-miracle.html", terms: ["Brazilian economic miracle", "Brazilian Miracle"] }
   ,{ href: "brazilian-political-opening.html", terms: ["Brazilian political opening", "political opening", "abertura"] }
+  ,{ href: "first-cristero-war.html", terms: ["First Cristero War", "Cristero War", "First Cristiada"] }
+  ,{ href: "cristero-movement.html", terms: ["Cristero movement", "Cristero tradition", "Cristeros"] }
+  ,{ href: "national-synarchist-union.html", terms: ["National Synarchist Union", "Unión Nacional Sinarquista", "Sinarquismo"] }
+  ,{ href: "national-action-party-mexico.html", terms: ["National Action Party", "Partido Acción Nacional", "PAN"] }
+  ,{ href: "institutional-revolutionary-party-mexico.html", terms: ["Institutional Revolutionary Party", "Partido Revolucionario Institucional", "PRI"] }
+  ,{ href: "mexican-miracle.html", terms: ["Mexican Miracle", "stabilizing development"] }
+  ,{ href: "pemex.html", terms: ["Petróleos Mexicanos", "Pemex"] }
+  ,{ href: "mexican-catholic-civil-society.html", terms: ["Catholic civil society in Mexico", "Mexican Catholic civil society"] }
+  ,{ href: "national-catholic-coalition-mexico.html", terms: ["National Catholic coalition", "Mexican National Catholic coalition"] }
+  ,{ href: "guadalupan-corporatism.html", terms: ["Guadalupan corporatism", "Mexican Christian nationalism"] }
+  ,{ href: "mexican-crown-movement.html", terms: ["Mexican Crown movement", "Mexican monarchist movement", "Council of the Crown"] }
 ];
 
 function escapePattern(value) {
