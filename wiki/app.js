@@ -1,4 +1,12 @@
 const pages = [
+  { title: "Constitutional and Legal Order of the Greater German Reich", description: "Leadership law, executive legislation, Party authority, courts, citizenship, and imperial status", href: "constitutional-legal-order-greater-german-reich.html", tags: "constitutional legal order Greater German Reich Germany law government Führer" },
+  { title: "Enabling Act in Postwar Germany", description: "The continuing foundation of executive legislation outside ordinary parliamentary procedure", href: "enabling-act-postwar-germany.html", tags: "Enabling Act postwar Germany executive legislation Reich government 1933" },
+  { title: "Reichstag of the Greater German Reich", description: "The acclamatory national chamber of the mature National Socialist leadership state", href: "reichstag-greater-german-reich.html", tags: "Reichstag Greater German Reich parliament acclamation deputies elections" },
+  { title: "Reich Government of the Greater German Reich", description: "Cabinet, ministries, executive law, budgets, administration, and divided portfolios", href: "reich-government-greater-german-reich.html", tags: "Reich government Greater German Reich cabinet ministries law administration" },
+  { title: "Judiciary of the Greater German Reich", description: "Ordinary, political, military, Party, and SS jurisdictions under leadership supremacy", href: "judiciary-greater-german-reich.html", tags: "judiciary Greater German Reich courts judges justice law political" },
+  { title: "People's Court of the Greater German Reich", description: "The political tribunal for treason and offenses against the Reich", href: "peoples-court-greater-german-reich.html", tags: "People's Court Greater German Reich Volksgerichtshof treason political justice" },
+  { title: "Reich Citizenship and Racial Status", description: "Full citizenship, subjecthood, ancestry, racial exclusion, settlement, and colonial status", href: "reich-citizenship-racial-status.html", tags: "Reich citizenship racial status Germany subject ancestry Nuremberg laws" },
+  { title: "Legal Unity of Party and State in Germany", description: "NSDAP public-law status, cadres, Gaue, discipline, and institutional overlap", href: "party-state-legal-unity-germany.html", tags: "legal unity Party state Germany NSDAP cadre Gau public law" },
   { title: "Constitutional and Legal Order of Imperial Japan", description: "Fundamental law, imperial sovereignty, Cabinet administration, Diet legislation, courts, and subjecthood", href: "constitutional-legal-order-imperial-japan.html", tags: "constitutional legal order Imperial Japan Meiji Constitution law government" },
   { title: "Constitution of the Empire of Japan after 1947", description: "The surviving 1889 Constitution, imperial prerogative, parliamentary practice, rights, and finance", href: "constitution-empire-japan-after-1947.html", tags: "constitution empire Japan after 1947 Meiji Constitution imperial sovereignty Diet" },
   { title: "Judiciary of Imperial Japan", description: "Courts, judges, civil and criminal jurisdiction, review, and unequal regional access", href: "judiciary-imperial-japan.html", tags: "judiciary Imperial Japan courts judges law Court of Cassation" },
@@ -7369,6 +7377,14 @@ const crossLinks = [
   ,{ href: "local-government-imperial-japan.html", terms: ["Local Government in Imperial Japan", "Japanese local government", "prefectures and municipalities"] }
   ,{ href: "civil-code-family-registration-imperial-japan.html", terms: ["Civil Code and Family Registration in Imperial Japan", "Japanese Civil Code", "family registration", "koseki"] }
   ,{ href: "rights-duties-japanese-subjects.html", terms: ["Rights and Duties of Japanese Subjects", "rights of Japanese subjects", "imperial subjecthood"] }
+  ,{ href: "constitutional-legal-order-greater-german-reich.html", terms: ["Constitutional and Legal Order of the Greater German Reich", "German constitutional order", "German legal order"] }
+  ,{ href: "enabling-act-postwar-germany.html", terms: ["Enabling Act in Postwar Germany", "German Enabling Act", "executive legislation"] }
+  ,{ href: "reichstag-greater-german-reich.html", terms: ["Reichstag of the Greater German Reich", "German Reichstag", "Reichstag"] }
+  ,{ href: "reich-government-greater-german-reich.html", terms: ["Reich Government of the Greater German Reich", "German Reich government", "Reich Cabinet"] }
+  ,{ href: "judiciary-greater-german-reich.html", terms: ["Judiciary of the Greater German Reich", "German judiciary", "German courts"] }
+  ,{ href: "peoples-court-greater-german-reich.html", terms: ["People's Court of the Greater German Reich", "People's Court", "Volksgerichtshof"] }
+  ,{ href: "reich-citizenship-racial-status.html", terms: ["Reich Citizenship and Racial Status", "Reich citizenship", "racial status"] }
+  ,{ href: "party-state-legal-unity-germany.html", terms: ["Legal Unity of Party and State in Germany", "unity of Party and state", "Party state law"] }
 ];
 
 function escapePattern(value) {
