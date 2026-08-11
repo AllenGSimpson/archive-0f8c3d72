@@ -3374,6 +3374,18 @@ const pages = [
   ,{ title: "Japanese Language in Micronesia", description: "Japanese as the public lingua franca of the incorporated island territories", href: "japanese-language-micronesia.html", tags: "japanese language micronesia lingua franca bilingual education" }
   ,{ title: "Indigenous Government in Japanese Micronesia", description: "Chiefs, clans, councils, and local authority within Japanese administration", href: "indigenous-government-japanese-micronesia.html", tags: "micronesia indigenous government chiefs clans councils administration" }
   ,{ title: "Micronesian Migration and Diaspora", description: "Inter-island and metropolitan movement across Japanese Micronesia", href: "micronesian-migration-diaspora.html", tags: "micronesia migration diaspora japan saipan koror islands" }
+  ,{ title: "Fishing Industry of Japanese Micronesia", description: "Commercial bonito and tuna fleets alongside indigenous reef and lagoon fisheries", href: "fishing-industry-japanese-micronesia.html", tags: "micronesia fishing fisheries bonito tuna saipan palau reef lagoon" }
+  ,{ title: "Copra Industry of Japanese Micronesia", description: "Coconut production, merchant credit, shipping, and the remote-island cash economy", href: "copra-industry-japanese-micronesia.html", tags: "micronesia copra coconut oil merchant credit marshall caroline" }
+  ,{ title: "Inter-island Shipping in Japanese Micronesia", description: "The passenger, cargo, mail, and administrative maritime network", href: "inter-island-shipping-japanese-micronesia.html", tags: "micronesia shipping ships mail cargo passenger ports ferries" }
+  ,{ title: "Civil Aviation in Japanese Micronesia", description: "Seaplane, landplane, and regional air services across the islands", href: "civil-aviation-japanese-micronesia.html", tags: "micronesia civil aviation seaplane airline airfields saipan palau" }
+  ,{ title: "Public Health in Japanese Micronesia", description: "Hospitals, sanitation, nursing, disease control, and remote-island referral", href: "public-health-japanese-micronesia.html", tags: "micronesia public health hospitals nurses sanitation medicine quarantine" }
+  ,{ title: "Foodways of Japanese Micronesia", description: "Island food production, ceremonial exchange, imported foods, and hybrid diets", href: "micronesian-foodways.html", tags: "micronesia foodways breadfruit taro pandanus coconut fish cuisine" }
+  ,{ title: "Urbanization in Japanese Micronesia", description: "The growth of district capitals, settler cities, bases, and company towns", href: "urbanization-japanese-micronesia.html", tags: "micronesia urbanization cities koror saipan truk ponape colonial" }
+  ,{ title: "Typhoons and Disaster Relief in Japanese Micronesia", description: "Storm warning, evacuation, emergency logistics, and island reconstruction", href: "typhoons-disaster-relief-japanese-micronesia.html", tags: "micronesia typhoon cyclone disaster relief storm warning reconstruction" }
+  ,{ title: "Radio and Broadcasting in Japanese Micronesia", description: "Wireless communications, JRAK, district stations, and multilingual island media", href: "radio-broadcasting-japanese-micronesia.html", tags: "micronesia radio broadcasting jrak koror nhk shortwave media" }
+  ,{ title: "Tourism in Japanese Micronesia", description: "Imperial travel, diving, heritage, and island hospitality by 1985", href: "tourism-japanese-micronesia.html", tags: "micronesia tourism diving reefs hotels koror saipan heritage" }
+  ,{ title: "Archaeology and Heritage in Japanese Micronesia", description: "Sites, collections, local custody, and preservation under Japanese rule", href: "archaeology-heritage-japanese-micronesia.html", tags: "micronesia archaeology heritage nan madol lelu latte palau museums" }
+  ,{ title: "Labor in Japanese Micronesia", description: "Household, settler, company, public, and wartime labor across the islands", href: "labor-japanese-micronesia.html", tags: "micronesia labor workers wages companies settlers sugar phosphate fishing" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6883,6 +6895,18 @@ const crossLinks = [
   ,{ href: "japanese-language-micronesia.html", terms: ["Japanese language in Micronesia", "Micronesian Japanese"] }
   ,{ href: "indigenous-government-japanese-micronesia.html", terms: ["indigenous government in Japanese Micronesia", "Micronesian indigenous government"] }
   ,{ href: "micronesian-migration-diaspora.html", terms: ["Micronesian migration and diaspora", "Micronesian diaspora"] }
+  ,{ href: "fishing-industry-japanese-micronesia.html", terms: ["fishing industry of Japanese Micronesia", "Micronesian fisheries"] }
+  ,{ href: "copra-industry-japanese-micronesia.html", terms: ["copra industry of Japanese Micronesia", "Micronesian copra"] }
+  ,{ href: "inter-island-shipping-japanese-micronesia.html", terms: ["inter-island shipping in Japanese Micronesia", "Micronesian shipping"] }
+  ,{ href: "civil-aviation-japanese-micronesia.html", terms: ["civil aviation in Japanese Micronesia", "Micronesian aviation"] }
+  ,{ href: "public-health-japanese-micronesia.html", terms: ["public health in Japanese Micronesia", "Micronesian public health"] }
+  ,{ href: "micronesian-foodways.html", terms: ["foodways of Japanese Micronesia", "Micronesian foodways"] }
+  ,{ href: "urbanization-japanese-micronesia.html", terms: ["urbanization in Japanese Micronesia", "Micronesian urbanization"] }
+  ,{ href: "typhoons-disaster-relief-japanese-micronesia.html", terms: ["typhoons and disaster relief in Japanese Micronesia", "Micronesian disaster relief"] }
+  ,{ href: "radio-broadcasting-japanese-micronesia.html", terms: ["radio and broadcasting in Japanese Micronesia", "Micronesian broadcasting", "JRAK"] }
+  ,{ href: "tourism-japanese-micronesia.html", terms: ["tourism in Japanese Micronesia", "Micronesian tourism"] }
+  ,{ href: "archaeology-heritage-japanese-micronesia.html", terms: ["archaeology and heritage in Japanese Micronesia", "Micronesian archaeology"] }
+  ,{ href: "labor-japanese-micronesia.html", terms: ["labor in Japanese Micronesia", "Micronesian labor"] }
 ];
 
 function escapePattern(value) {
