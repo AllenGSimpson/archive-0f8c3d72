@@ -3158,6 +3158,20 @@ const pages = [
   ,{ title: "Buchanan Canal-Defense Expansion", description: "The 1978–1980 modernization of American isthmian defenses", href: "buchanan-canal-defense-expansion.html", tags: "panama canal defense buchanan 1978 1980 radar missile submarine orbital tracking" }
   ,{ title: "Panama National Guard", description: "Combined armed, police, intelligence, and governing institution", href: "panama-national-guard.html", tags: "panama national guard military police intelligence torrijos noriega" }
   ,{ title: "Transit and Financial Economy of Panama", description: "Canal services, shipping, banking, insurance, and corporate brokerage", href: "panamanian-transit-financial-economy.html", tags: "panama economy canal transit shipping registry banking insurance colon finance" }
+  ,{ title: "Getúlio Vargas", description: "President and architect of Brazil's modern developmental state", href: "getulio-vargas.html", tags: "brazil getulio vargas president estado novo varguismo labor developmentalism" }
+  ,{ title: "Plínio Salgado", description: "Writer, politician, and founder of Brazilian Integralism", href: "plinio-salgado.html", tags: "brazil plinio salgado integralism aib green shirts corporatism catholic" }
+  ,{ title: "Juscelino Kubitschek", description: "President, developmental modernizer, and builder of Brasília", href: "juscelino-kubitschek.html", tags: "brazil juscelino kubitschek jk president brasilia fifty years five development" }
+  ,{ title: "João Goulart", description: "Labour president overthrown by the 1964 military coup", href: "joao-goulart.html", tags: "brazil joao goulart jango president labour basic reforms coup 1964" }
+  ,{ title: "Ernesto Geisel", description: "Military president and architect of the controlled political opening", href: "ernesto-geisel.html", tags: "brazil ernesto geisel president military petrobras opening 1974 1979" }
+  ,{ title: "Ação Integralista Brasileira", description: "Brazil's nationwide green-shirt integralist movement, 1932–1937", href: "acao-integralista-brasileira.html", tags: "brazil acao integralista brasileira aib integralism green shirts sigma anaue" }
+  ,{ title: "Estado Novo (Brazil)", description: "Vargas's centralized corporatist dictatorship, 1937–1945", href: "estado-novo-brazil.html", tags: "brazil estado novo vargas dictatorship corporatism labor 1937 1945" }
+  ,{ title: "Brazilian National Developmentalism", description: "State planning, industrial sovereignty, and managed foreign capital", href: "brazilian-national-developmentalism.html", tags: "brazil national developmentalism industry planning local content technology transfer" }
+  ,{ title: "Petrobras", description: "Brazil's state-controlled strategic petroleum and technology enterprise", href: "petrobras.html", tags: "brazil petrobras petroleum oil energy state company geisel vargas" }
+  ,{ title: "Brasília", description: "Planned inland federal capital inaugurated in 1960", href: "brasilia.html", tags: "brazil brasilia capital kubitschek lucio costa oscar niemeyer 1960" }
+  ,{ title: "1964 Brazilian Coup", description: "Military overthrow of João Goulart and fall of the Fourth Republic", href: "brazilian-coup-1964.html", tags: "brazil coup 1964 joao goulart military castelo branco fourth republic" }
+  ,{ title: "Brazilian Military Government", description: "Authoritarian developmental republic under military presidents, 1964–1985", href: "brazilian-military-government.html", tags: "brazil military government dictatorship arena mdb ai5 1964 1985" }
+  ,{ title: "Brazilian Economic Miracle", description: "High-growth authoritarian-developmental phase, 1968–1973", href: "brazilian-economic-miracle.html", tags: "brazil economic miracle growth industry infrastructure debt inequality 1968 1973" }
+  ,{ title: "Brazilian Political Opening", description: "Controlled liberalization and return to civilian government, 1974–1985", href: "brazilian-political-opening.html", tags: "brazil political opening abertura democracy amnesty diretas ja geisel figueiredo 1985" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6451,6 +6465,20 @@ const crossLinks = [
   ,{ href: "buchanan-canal-defense-expansion.html", terms: ["Buchanan canal-defense expansion", "Buchanan Canal-Defense Expansion", "1978–1980 defense expansion"] }
   ,{ href: "panama-national-guard.html", terms: ["Panama National Guard", "National Guard of Panama"] }
   ,{ href: "panamanian-transit-financial-economy.html", terms: ["transit and financial economy of Panama", "Panamanian transit and financial economy", "proxy counting house"] }
+  ,{ href: "getulio-vargas.html", terms: ["Getúlio Dornelles Vargas", "Getúlio Vargas", "Vargas"] }
+  ,{ href: "plinio-salgado.html", terms: ["Plínio Salgado", "Salgado"] }
+  ,{ href: "juscelino-kubitschek.html", terms: ["Juscelino Kubitschek de Oliveira", "Juscelino Kubitschek", "Kubitschek"] }
+  ,{ href: "joao-goulart.html", terms: ["João Belchior Marques Goulart", "João Goulart", "Jango"] }
+  ,{ href: "ernesto-geisel.html", terms: ["Ernesto Beckmann Geisel", "Ernesto Geisel", "Geisel"] }
+  ,{ href: "acao-integralista-brasileira.html", terms: ["Ação Integralista Brasileira", "Brazilian Integralist Action", "AIB"] }
+  ,{ href: "estado-novo-brazil.html", terms: ["Brazilian Estado Novo", "Estado Novo"] }
+  ,{ href: "brazilian-national-developmentalism.html", terms: ["Brazilian national developmentalism", "national developmentalism", "developmentalist state"] }
+  ,{ href: "petrobras.html", terms: ["Petróleo Brasileiro S.A.", "Petrobras"] }
+  ,{ href: "brasilia.html", terms: ["Brasília"] }
+  ,{ href: "brazilian-coup-1964.html", terms: ["1964 Brazilian coup d'état", "1964 Brazilian coup", "Brazilian coup of 1964"] }
+  ,{ href: "brazilian-military-government.html", terms: ["Brazilian military government", "military government of Brazil", "Brazilian military regime"] }
+  ,{ href: "brazilian-economic-miracle.html", terms: ["Brazilian economic miracle", "Brazilian Miracle"] }
+  ,{ href: "brazilian-political-opening.html", terms: ["Brazilian political opening", "political opening", "abertura"] }
 ];
 
 function escapePattern(value) {
