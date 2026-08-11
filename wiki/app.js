@@ -3386,6 +3386,18 @@ const pages = [
   ,{ title: "Tourism in Japanese Micronesia", description: "Imperial travel, diving, heritage, and island hospitality by 1985", href: "tourism-japanese-micronesia.html", tags: "micronesia tourism diving reefs hotels koror saipan heritage" }
   ,{ title: "Archaeology and Heritage in Japanese Micronesia", description: "Sites, collections, local custody, and preservation under Japanese rule", href: "archaeology-heritage-japanese-micronesia.html", tags: "micronesia archaeology heritage nan madol lelu latte palau museums" }
   ,{ title: "Labor in Japanese Micronesia", description: "Household, settler, company, public, and wartime labor across the islands", href: "labor-japanese-micronesia.html", tags: "micronesia labor workers wages companies settlers sugar phosphate fishing" }
+  ,{ title: "Kinship and Family in Japanese Micronesia", description: "Descent, household, adoption, marriage, land, and extended-family obligation", href: "kinship-family-japanese-micronesia.html", tags: "micronesia kinship family lineage clan matrilineal adoption household" }
+  ,{ title: "Women in Japanese Micronesia", description: "Women’s authority in land, lineage, work, care, exchange, and public life", href: "women-japanese-micronesia.html", tags: "micronesia women gender matrilineal land weaving work authority" }
+  ,{ title: "Housing and Architecture in Japanese Micronesia", description: "Dwellings, meeting houses, urban construction, and storm-resistant building", href: "housing-architecture-japanese-micronesia.html", tags: "micronesia housing architecture bai latte meeting houses storms" }
+  ,{ title: "Weaving and Textile Arts in Japanese Micronesia", description: "Mats, clothing, sails, baskets, cordage, and ceremonial valuables", href: "weaving-textile-arts-japanese-micronesia.html", tags: "micronesia weaving textile mats pandanus baskets sails jaki ed" }
+  ,{ title: "Carving and Visual Arts in Japanese Micronesia", description: "Wood, shell, stone, painting, photography, and Palauan storyboards", href: "carving-visual-arts-japanese-micronesia.html", tags: "micronesia carving visual arts palau storyboards itabori hijikata" }
+  ,{ title: "Music and Dance in Japanese Micronesia", description: "Song, chant, movement, church music, broadcasts, and public performance", href: "music-dance-japanese-micronesia.html", tags: "micronesia music dance chant song church performance radio" }
+  ,{ title: "Oral Literature and Storytelling in Japanese Micronesia", description: "Genealogy, legend, history, debate, navigation, and performed knowledge", href: "oral-literature-japanese-micronesia.html", tags: "micronesia oral literature storytelling genealogy legends history debate" }
+  ,{ title: "Festivals and Public Ceremonies in Japanese Micronesia", description: "Customary, Christian, school, civic, and imperial ceremonial calendars", href: "festivals-public-ceremonies-japanese-micronesia.html", tags: "micronesia festivals ceremonies customary christian imperial civic feast" }
+  ,{ title: "Sport and Recreation in Japanese Micronesia", description: "Baseball, canoe racing, school athletics, and regional island games", href: "sport-recreation-japanese-micronesia.html", tags: "micronesia sport recreation baseball iakiu canoe racing athletics games" }
+  ,{ title: "Law and Policing in Japanese Micronesia", description: "Courts, police, customary settlement, and overlapping jurisdiction", href: "law-policing-japanese-micronesia.html", tags: "micronesia law courts police custom jurisdiction district government" }
+  ,{ title: "Civil Registration and Naming in Japanese Micronesia", description: "Names, household records, legal identity, and local kinship systems", href: "civil-registration-naming-japanese-micronesia.html", tags: "micronesia civil registration naming names household registry identity" }
+  ,{ title: "Cooperative Movement in Japanese Micronesia", description: "Producer, fishing, consumer, credit, craft, housing, and transport associations", href: "cooperative-movement-japanese-micronesia.html", tags: "micronesia cooperatives producer fishing credit union stores crafts" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6907,6 +6919,18 @@ const crossLinks = [
   ,{ href: "tourism-japanese-micronesia.html", terms: ["tourism in Japanese Micronesia", "Micronesian tourism"] }
   ,{ href: "archaeology-heritage-japanese-micronesia.html", terms: ["archaeology and heritage in Japanese Micronesia", "Micronesian archaeology"] }
   ,{ href: "labor-japanese-micronesia.html", terms: ["labor in Japanese Micronesia", "Micronesian labor"] }
+  ,{ href: "kinship-family-japanese-micronesia.html", terms: ["kinship and family in Japanese Micronesia", "Micronesian kinship"] }
+  ,{ href: "women-japanese-micronesia.html", terms: ["women in Japanese Micronesia", "Micronesian women"] }
+  ,{ href: "housing-architecture-japanese-micronesia.html", terms: ["housing and architecture in Japanese Micronesia", "Micronesian architecture"] }
+  ,{ href: "weaving-textile-arts-japanese-micronesia.html", terms: ["weaving and textile arts in Japanese Micronesia", "Micronesian weaving"] }
+  ,{ href: "carving-visual-arts-japanese-micronesia.html", terms: ["carving and visual arts in Japanese Micronesia", "Micronesian visual arts", "Palauan storyboards"] }
+  ,{ href: "music-dance-japanese-micronesia.html", terms: ["music and dance in Japanese Micronesia", "Micronesian music", "Micronesian dance"] }
+  ,{ href: "oral-literature-japanese-micronesia.html", terms: ["oral literature and storytelling in Japanese Micronesia", "Micronesian storytelling"] }
+  ,{ href: "festivals-public-ceremonies-japanese-micronesia.html", terms: ["festivals and public ceremonies in Japanese Micronesia", "Micronesian festivals"] }
+  ,{ href: "sport-recreation-japanese-micronesia.html", terms: ["sport and recreation in Japanese Micronesia", "Micronesian sport", "Palauan baseball"] }
+  ,{ href: "law-policing-japanese-micronesia.html", terms: ["law and policing in Japanese Micronesia", "Micronesian law"] }
+  ,{ href: "civil-registration-naming-japanese-micronesia.html", terms: ["civil registration and naming in Japanese Micronesia", "Micronesian naming"] }
+  ,{ href: "cooperative-movement-japanese-micronesia.html", terms: ["cooperative movement in Japanese Micronesia", "Micronesian cooperatives"] }
 ];
 
 function escapePattern(value) {
