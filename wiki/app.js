@@ -1773,6 +1773,15 @@ const pages = [
   { title: "Post-Preservationist Consensus in Japan", description: "The hierarchy-first settlement placing order, function, and security before political reconstruction", href: "post-preservationist-consensus-japan.html", tags: "japan post preservationist consensus culture order function security hierarchy" },
   { title: "Post-Preservationist Cultural Administration in Japan", description: "Archives, museums, schools, broadcasting, councils, ceremonies, and grants after the movement's decline", href: "post-preservationist-cultural-administration.html", tags: "japan post preservationist cultural administration archives museums schools broadcasting" },
   { title: "Generational Reception of Japanese Preservationism", description: "Older restoration obligations and younger attitudes toward inherited integrated identities", href: "generational-reception-preservationism-japan.html", tags: "japan preservationism generation heritage restoration youth memory" },
+  { title: "Government and Administration of Chōsen", description: "Imperial, regional, municipal, police, judicial, and economic institutions governing the peninsula", href: "government-administration-chosen.html", tags: "chosen korea government administration governor general japan integral territory" },
+  { title: "Economy of Chōsen", description: "The peninsula's industrial, transport, agricultural, and corporate economy inside Japan", href: "economy-chosen.html", tags: "chosen korea economy industry transport ports railways japan" },
+  { title: "Industrialization of Chōsen", description: "Colonial foundations, wartime expansion, and postwar technical deepening", href: "industrialization-chosen.html", tags: "chosen korea industrialization steel chemicals shipbuilding electronics" },
+  { title: "Labor and Migration in Chōsen", description: "Mobilization, factory work, migration, wages, and careers across imperial Japan", href: "labor-migration-chosen.html", tags: "chosen korea labor migration wages workers japan" },
+  { title: "Education and Assimilation in Chōsen", description: "Japanese-language schooling, technical education, mobility, and cultural loss", href: "education-assimilation-chosen.html", tags: "chosen korea education assimilation schools japanese language" },
+  { title: "Society of Chōsen", description: "Family, class, language, religion, intermarriage, and regional inequality", href: "society-chosen.html", tags: "chosen korea society family class intermarriage language" },
+  { title: "Cities of Chōsen", description: "Keijō, Fusan, Heijō, Genzan, Kōshū, and the peninsula's urban system", href: "cities-chosen.html", tags: "chosen korea cities keijo fusan heijo genzan koshu" },
+  { title: "Culture and Media in Chōsen", description: "Japanese-language regional cinema, animation, broadcasting, performance, and preservation", href: "culture-media-chosen.html", tags: "chosen korea culture media cinema animation keijo" },
+  { title: "Straits Kinship Theory", description: "The politically useful common-origin theory of Japanese and Korean peoples", href: "straits-kinship-theory.html", tags: "chosen korea japan straits kinship theory assimilation ethnography" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6249,6 +6258,15 @@ const crossLinks = [
   ,{ href: "post-preservationist-consensus-japan.html", terms: ["post-preservationist consensus in Japan", "post-preservationist consensus"] }
   ,{ href: "post-preservationist-cultural-administration.html", terms: ["post-preservationist cultural administration", "preservation after preservationism"] }
   ,{ href: "generational-reception-preservationism-japan.html", terms: ["generational reception of Japanese preservationism", "preservationist generation"] }
+  ,{ href: "government-administration-chosen.html", terms: ["government and administration of Chōsen", "administration of Chōsen"] }
+  ,{ href: "economy-chosen.html", terms: ["economy of Chōsen"] }
+  ,{ href: "industrialization-chosen.html", terms: ["industrialization of Chōsen"] }
+  ,{ href: "labor-migration-chosen.html", terms: ["labor and migration in Chōsen"] }
+  ,{ href: "education-assimilation-chosen.html", terms: ["education and assimilation in Chōsen"] }
+  ,{ href: "society-chosen.html", terms: ["society of Chōsen"] }
+  ,{ href: "cities-chosen.html", terms: ["cities of Chōsen"] }
+  ,{ href: "culture-media-chosen.html", terms: ["culture and media in Chōsen"] }
+  ,{ href: "straits-kinship-theory.html", terms: ["Straits Kinship Theory"] }
 ];
 
 function escapePattern(value) {
