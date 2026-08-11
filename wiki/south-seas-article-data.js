@@ -330,3 +330,25 @@ if (biakPacific?.related) biakPacific.related.unshift(
   {href:"melanesian-administration.html",kicker:"Regional neighbor",label:"Melanesian Administration"},
   {href:"south-seas-general-government.html",kicker:"Direct-rule contrast",label:"South Seas General Government"}
 );
+
+const pacificFrontierAmerican = window.deepArticles["pacific-frontier-islands"];
+if (pacificFrontierAmerican?.related) pacificFrontierAmerican.related.unshift(
+  {href:"guam-saipan-frontier.html",kicker:"Mariana seam",label:"Guam–Saipan Frontier"},
+  {href:"gilbert-phoenix-line-frontier.html",kicker:"Equatorial seam",label:"Gilbert–Phoenix–Line Frontier"},
+  {href:"american-line-islands.html",kicker:"American equatorial chain",label:"American Line Islands"},
+  {href:"american-phoenix-islands.html",kicker:"American atoll group",label:"American Phoenix Islands"}
+);
+
+const micronesianAmericanFrontier = window.deepArticles["micronesian-administration"];
+if (micronesianAmericanFrontier?.related) micronesianAmericanFrontier.related.unshift(
+  {href:"guam-saipan-frontier.html",kicker:"Immediate American boundary",label:"Guam–Saipan Frontier"},
+  {href:"guam.html",kicker:"American enclave",label:"Guam"}
+);
+
+const centralAmericanFrontier = window.deepArticles["central-pacific-administration"];
+if (centralAmericanFrontier?.related) centralAmericanFrontier.related.unshift(
+  {href:"gilbert-phoenix-line-frontier.html",kicker:"Immediate American boundary",label:"Gilbert–Phoenix–Line Frontier"},
+  {href:"american-phoenix-islands.html",kicker:"American western group",label:"American Phoenix Islands"},
+  {href:"american-line-islands.html",kicker:"American eastern group",label:"American Line Islands"},
+  {href:"kiritimati.html",kicker:"American operating center",label:"Kiritimati"}
+);
