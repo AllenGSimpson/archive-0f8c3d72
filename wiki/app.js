@@ -1740,6 +1740,14 @@ const pages = [
   { title: "Thai Imperial System", description: "One Thai-headed crown governing differentiated Thai, Khmer, Lao, Malay, and protected territories", href: "thai-imperial-system.html", tags: "thailand siam imperial system empire khmer lao malay protected states" },
   { title: "Thai–Japanese Corporate Convergence", description: "Licensed joint ventures and interlocking Thai and Japanese corporate networks", href: "thai-japanese-corporate-convergence.html", tags: "thailand japan corporate convergence zaibatsu joint venture banks firms supply chains" },
   { title: "Autonomous Baht System", description: "Thailand's national currency and banks inside yen-centered Asian settlement", href: "autonomous-baht-system.html", tags: "thailand baht autonomous currency banking yen settlement monetary" },
+  { title: "Status Hierarchy of the Co-Prosperity Sphere", description: "The four-level constitutional order of integral territory, principal associates, protected members, and external partners", href: "geacps-status-hierarchy.html", tags: "geacps co prosperity sphere status hierarchy constitutional order japan associated protected external" },
+  { title: "Integral Territories of Japan", description: "Japan proper, Chōsen, Taiwan, Karafuto, Ryukyu, and incorporated Pacific territories", href: "integral-territories-japan.html", tags: "japan integral territories chosen korea taiwan karafuto ryukyu micronesia nationality" },
+  { title: "Principal Associated States of the Co-Prosperity Sphere", description: "Manchukuo, National China, Thailand, and the Philippines as the Sphere's strongest treaty partners", href: "principal-associated-states-geacps.html", tags: "geacps principal associated states manchukuo china thailand philippines treaty" },
+  { title: "Protected and Dependent Members of the Co-Prosperity Sphere", description: "The varied protected monarchies, client republics, mandates, and concession states beneath Japanese strategic authority", href: "protected-dependent-members-geacps.html", tags: "geacps protected dependent members mongolia far east indochina burma papua new guinea" },
+  { title: "External Strategic Associates of the Co-Prosperity Sphere", description: "Azad Hind and Hyderabad as bilateral partners outside ordinary Sphere obligations", href: "external-strategic-associates-geacps.html", tags: "geacps external strategic associates azad hind hyderabad tehran concord india" },
+  { title: "Nationality in the Co-Prosperity Sphere", description: "Separate nationalities, inherited citizenship, rejected dual nationality, and return rights across the Sphere", href: "nationality-geacps.html", tags: "geacps nationality citizenship paternal inheritance dual nationality home return mandate" },
+  { title: "Treaty Residence in the Co-Prosperity Sphere", description: "Cross-border work, property, courts, schools, and domicile without automatic citizenship", href: "treaty-residence-geacps.html", tags: "geacps treaty residence residents domicile work property courts schools naturalization" },
+  { title: "Japanese Reserve Supremacy", description: "Tokyo's final authority over strategic force, finance, transport, machinery, shipping, and arbitration", href: "japanese-reserve-supremacy.html", tags: "japan geacps reserve supremacy military ceiling finance clearing transport shipping arbitration" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6183,6 +6191,14 @@ const crossLinks = [
   ,{ href: "thai-imperial-system.html", terms: ["Thai imperial system", "Thailand's imperial system"] }
   ,{ href: "thai-japanese-corporate-convergence.html", terms: ["Thai–Japanese corporate convergence", "Thai-Japanese corporate convergence"] }
   ,{ href: "autonomous-baht-system.html", terms: ["autonomous baht system", "autonomous baht"] }
+  ,{ href: "geacps-status-hierarchy.html", terms: ["status hierarchy of the Co-Prosperity Sphere", "Sphere status hierarchy", "four-level constitutional order"] }
+  ,{ href: "integral-territories-japan.html", terms: ["integral territories of Japan", "integral Japan"] }
+  ,{ href: "principal-associated-states-geacps.html", terms: ["principal associated states", "principal associates"] }
+  ,{ href: "protected-dependent-members-geacps.html", terms: ["protected and dependent members", "protected members"] }
+  ,{ href: "external-strategic-associates-geacps.html", terms: ["external strategic associates", "external associates"] }
+  ,{ href: "nationality-geacps.html", terms: ["nationality in the Co-Prosperity Sphere", "Sphere nationality"] }
+  ,{ href: "treaty-residence-geacps.html", terms: ["treaty residence in the Co-Prosperity Sphere", "treaty residence", "treaty residents"] }
+  ,{ href: "japanese-reserve-supremacy.html", terms: ["Japanese reserve supremacy", "reserve supremacy"] }
 ];
 
 function escapePattern(value) {
