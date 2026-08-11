@@ -1,0 +1,214 @@
+window.deepArticles = window.deepArticles || {};
+
+const conventionalDeterrenceSources = [
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — non-nuclear deterrence and the Armed Concert"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — mature strategic order after 1985"},
+  {href:"../transcript.md",label:"Master Transcript — conventional deterrence, finite war, and war termination"},
+  {href:"../questionsAndConfirmations%20-%20AltWWII.md",label:"Questions and Confirmations — open doctrine terminology and force details"}
+];
+
+const escalationLandscape = {src:"assets/diagrams/armed-concert-escalation-ladder.svg",alt:"Six-stage great-power escalation ladder from normal competition through general war",caption:"The cumulative deterrent system works by keeping finite disputes below attacks on core homelands and strategic industry"};
+const terminationLandscape = {src:"assets/diagrams/war-termination-annex.svg",alt:"Four war-termination questions concerning political outcome, territory, renewed conflict, and inherited administration",caption:"Operational success becomes politically unusable when the proposed peace cannot be defined or administered"};
+
+const deterrencePillarArticle = config => ({
+  category:config.category || "Strategic doctrine",
+  eyebrow:config.eyebrow || "Armed Concert · non-nuclear deterrence",
+  infoboxKicker:config.infoboxKicker || "Conventional deterrent mechanism",
+  landscape:config.landscape || escalationLandscape,
+  ...config,
+  sources:conventionalDeterrenceSources,
+  categories:config.categories || ["Strategic doctrine","Non-nuclear deterrence","Armed Concert","Great powers"]
+});
+
+Object.assign(window.deepArticles, {
+  "cumulative-conventional-deterrence": deterrencePillarArticle({
+    title:"Cumulative conventional deterrence",category:"Strategic doctrine",eyebrow:"Five-Power order · late twentieth century",infoboxKicker:"Distributed non-nuclear deterrent system",
+    lead:"Cumulative conventional deterrence is the mature Five-Power condition in which no single weapon prevents general war. Restraint arises from the combined effect of submarines, missiles, bombers, orbital systems, industrial depth, alliance geography, civil defense, occupation cost, economic warfare, and the absence of a political victory worth the resulting damage.",
+    canon:"The cumulative character of deterrence, its conventional submarine, missile, air, space, industrial, geographic, political, and occupation-cost components, meaningful defense, finite-war possibility, and inability to identify a usable general-war victory are established. A single official doctrine title, comparative weights, readiness levels, force totals, target plans, and national formulas remain open.",
+    sections:[
+      {id:"basis",title:"Basis",html:"<p>No atomic arsenal supplies a single catastrophic threshold. Each power instead asks what military, economic, geographic, imperial, and political costs an opponent can impose across a long conflict.</p>"},
+      {id:"forces",title:"Military forces",html:"<p><a href='strategic-submarine-deterrence.html'>Submarines</a> threaten fleets, commerce, ports, and reinforcement routes. <a href='conventional-missile-deterrence.html'>Long-range missiles</a>, bombers, carrier aviation, and orbital systems can strike strategic infrastructure without making defense meaningless.</p>"},
+      {id:"industry",title:"Industrial endurance",html:"<p><a href='industrial-depth-deterrence.html'>Industrial depth</a> includes shipyards, aircraft and missile production, dispersed workshops, energy, transport, finance, skilled labor, repair, and the ability to replace losses. A short operational advantage may disappear inside a longer production war.</p>"},
+      {id:"geography",title:"Alliance geography",html:"<p><a href='alliance-geography-deterrence.html'>Bases, clients, islands, straits, overseas territories, and allied ports</a> shape access and warning. They also multiply the fronts and governments that must be defeated before a rival system can be treated as conquered.</p>"},
+      {id:"occupation",title:"Occupation and political cost",html:"<p><a href='occupation-cost-deterrence.html'>Occupation cost</a> converts territorial victory into administration, policing, food, transport, reconstruction, and resistance. The largest powers cannot offer one another a cheap or stable capitulation.</p>"},
+      {id:"defense",title:"Meaningful defense",html:"<p>Air defense, anti-submarine warfare, dispersal, shelters, interception, convoy, repair, and redundancy can preserve enough force and industry to continue. Defensive success need not be perfect to deny an attacker the expected political result.</p>"},
+      {id:"finite",title:"Finite conflict",html:"<p><a href='finite-war-firebreaks.html'>Finite wars</a> remain possible where objectives and geography can be limited. This makes crisis control continuous rather than eliminating the use of force altogether.</p>"},
+      {id:"politics",title:"Political judgment",html:"<p>The governing calculation is whether the value of the proposed peace exceeds the military, economic, and imperial price of obtaining it. Many plausible operations fail because no government can define that peace.</p>"}
+    ],
+    related:[{href:"non-nuclear-deterrence.html",kicker:"Strategic overview",label:"Non-Nuclear Deterrence"},{href:"armed-concert.html",kicker:"International system",label:"Armed Concert"},{href:"strategic-submarine-deterrence.html",kicker:"Maritime pillar",label:"Strategic Submarine Deterrence"},{href:"industrial-depth-deterrence.html",kicker:"Economic pillar",label:"Industrial-Depth Deterrence"},{href:"occupation-cost-deterrence.html",kicker:"Political pillar",label:"Occupation-Cost Deterrence"}],
+    facts:[["Strategic system","Cumulative rather than single-weapon"],["Nuclear arsenals","None"],["Military pillars","Submarines · missiles · air · space"],["Economic pillar","Industrial depth and repair"],["Geographic pillar","Alliances, bases, routes, and strategic depth"],["Political pillar","Occupation and war-termination cost"],["Finite wars","Possible"],["General-war victory","No usable outcome identified"]]
+  }),
+
+  "strategic-submarine-deterrence": deterrencePillarArticle({
+    title:"Strategic submarine deterrence",category:"Naval strategy",infoboxKicker:"Conventional undersea deterrent",
+    lead:"Strategic submarine deterrence is the use of nuclear-propelled attack submarines, conventionally armed guided-missile submarines, diesel boats, intelligence patrols, and uncertain undersea positions to threaten fleets, shipping, ports, bases, and reinforcement routes. Its deterrent effect comes from persistence and cumulative disruption rather than city-destroying warheads.",
+    canon:"Large conventional submarine forces, nuclear propulsion without nuclear weapons, SSGN rather than SSBN classification, fleet and land-attack roles, commerce and reinforcement threat, uncertain location, anti-submarine counterforce, and contribution to cumulative deterrence are established. Patrol areas, target lists, alert rates, missile families, salvo sizes, command procedures, and comparative detection probabilities remain open.",
+    sections:[
+      {id:"role",title:"Strategic role",html:"<p>A submarine can force an opponent to protect shipping, carriers, approaches, cables, ports, and distant bases across a large ocean. The possibility of attack imposes escorts, patrol aircraft, sensors, minesweeping, dispersal, and slower movement before a shot is fired.</p>"},
+      {id:"forces",title:"Attack and guided-missile submarines",html:"<p>Nuclear attack submarines hunt fleets and submarines while conventionally armed SSGNs attack ships, ports, airfields, logistics, and selected land targets. Diesel-electric boats remain useful in confined seas and defended approaches.</p>"},
+      {id:"no-ssbn",title:"Absence of ballistic-missile nuclear fleets",html:"<p>No strategically important SSBN fleet exists because no nuclear warhead exists. Nuclear propulsion describes endurance and power; it does not imply a nuclear payload.</p>"},
+      {id:"uncertainty",title:"Uncertain location",html:"<p>A government may know the approximate number and likely operating regions of hostile boats without knowing every position. That uncertainty prevents confidence that a first naval campaign will eliminate the undersea counterattack.</p>"},
+      {id:"commerce",title:"Commerce and reinforcement",html:"<p>Great-power systems depend upon oil, ores, food, troops, machinery, and replacement parts moving through ports and sea lanes. A prolonged submarine campaign can change industrial output and alliance cohesion without directly conquering territory.</p>"},
+      {id:"counterforce",title:"Anti-submarine warfare",html:"<p>Maritime patrol aircraft, surface escorts, hunter submarines, fixed sensors, mines, convoys, signals intelligence, and protected routes make submarine success costly and incomplete. Deterrence rests on expected losses and disruption, not invulnerability.</p>"},
+      {id:"limits",title:"Limits",html:"<p>Conventional missiles and torpedoes require repeated successful attacks. Magazines are finite, communication is difficult, and a submarine cannot by itself occupy a port or compel a stable political settlement.</p>"},
+      {id:"concert",title:"Place in the Armed Concert",html:"<p>Every major maritime power must assume that general war leaves surviving submarines capable of extending conflict after surface victories. This complicates any promise of quick or geographically contained conquest.</p>"}
+    ],
+    related:[{href:"cumulative-conventional-deterrence.html",kicker:"Wider system",label:"Cumulative Conventional Deterrence"},{href:"submarine-classification.html",kicker:"Technology overview",label:"Submarine Classification"},{href:"world-naval-balance-1985.html",kicker:"Five-system comparison",label:"World Naval Balance in 1985"},{href:"conventional-missile-deterrence.html",kicker:"Principal armament",label:"Conventional Missile Deterrence"},{href:"war-termination-doctrine.html",kicker:"Political constraint",label:"War-Termination Doctrine"}],
+    facts:[["Warheads","Conventional"],["Nuclear propulsion","Widely used"],["Strategic classes","SSN · SSGN · SSK"],["SSBN fleets","Absent"],["Principal targets","Fleets · shipping · ports · bases · routes"],["Core advantage","Persistence and uncertain location"],["Principal counter","Anti-submarine warfare"],["Independent conquest capability","None"]]
+  }),
+
+  "conventional-missile-deterrence": deterrencePillarArticle({
+    title:"Conventional missile deterrence",category:"Missile strategy",infoboxKicker:"Long-range precision and mass without atomic warheads",
+    lead:"Conventional missile deterrence is the threat of repeated guided attack against ports, airfields, radar, command centers, transport junctions, ships, fuel systems, and strategic industry using non-nuclear ballistic, cruise, naval, air-launched, and guided-reentry weapons. It raises the cost of mobilization and war while leaving defense, repair, and continued government physically meaningful.",
+    canon:"Long-range conventional missiles, naval and air launch, conventional orbital-reentry weapons, strategic target categories, large but finite destructive effect, interception and dispersal, repeated-campaign requirement, and contribution to cumulative deterrence are established. Missile families, inventories, accuracies, ranges, payloads, target plans, alert postures, and national doctrine names remain open where dedicated equipment articles do not fix them.",
+    sections:[
+      {id:"purpose",title:"Purpose",html:"<p>Missiles allow states to strike important targets without first obtaining local air superiority. They can close an airfield, damage a dry dock, interrupt a rail junction, suppress radar, or force command and fuel systems to disperse.</p>"},
+      {id:"families",title:"Weapon families",html:"<p>Land-based missiles, ship and submarine weapons, air-launched stand-off missiles, antiship systems, and conventional guided reentry vehicles serve different ranges and targets. No universal strategic missile family exists.</p>"},
+      {id:"effect",title:"Conventional effect",html:"<p>A warhead destroys through blast, fragmentation, penetration, incendiary effect, submunitions, or specialized conventional payloads. Even a large salvo does not reproduce the single-shot area destruction of an atomic weapon.</p>"},
+      {id:"campaign",title:"Campaign requirement",html:"<p>Strategic effect normally requires reconnaissance, targeting, repeated launches, battle-damage assessment, and reattack. Repair crews, alternate sites, decoys, and dispersal can restore or preserve function.</p>"},
+      {id:"defense",title:"Defense",html:"<p>Warning, interception, electronic warfare, hardened structures, deception, mobility, redundancy, and rapid repair reduce damage. Defense cannot make every target safe, but it can deny an attacker confidence in a decisive first campaign.</p>"},
+      {id:"escalation",title:"Escalation",html:"<p>Launching against a forward base, an uncrewed satellite, a port, or a core metropolitan industry occupies different rungs of the escalation ladder. Target and political geography matter as much as weapon range.</p>"},
+      {id:"coercion",title:"Coercion and signaling",html:"<p>Readiness, dispersal, test launches, visible deployments, and movement of missile ships can signal determination before attack. Such signals remain ambiguous and may provoke counter-readiness.</p>"},
+      {id:"limits",title:"Limits",html:"<p>Conventional missiles can devastate selected infrastructure and still fail to produce surrender. They consume magazines and industrial output and cannot answer who governs the defeated society afterward.</p>"}
+    ],
+    related:[{href:"cumulative-conventional-deterrence.html",kicker:"Wider system",label:"Cumulative Conventional Deterrence"},{href:"conventional-strategic-bombardment.html",kicker:"Combined strike system",label:"Conventional Strategic Bombardment"},{href:"strategic-submarine-deterrence.html",kicker:"Undersea carrier",label:"Strategic Submarine Deterrence"},{href:"orbital-weapons.html",kicker:"Orbital delivery",label:"Orbital Weapons"},{href:"great-power-escalation-ladder.html",kicker:"Target thresholds",label:"Great-Power Escalation Ladder"}],
+    facts:[["Warheads","Conventional"],["Launch media","Land · air · surface · submarine · orbital"],["Principal targets","Ports · airfields · radar · command · transport · ships"],["Strategic method","Repeated precision and massed campaigns"],["Defense","Warning · interception · dispersal · hardening · repair"],["Single-shot city destruction","Not available"],["Occupation capability","None"],["Exact inventories and target plans","Open"]]
+  }),
+
+  "conventional-strategic-bombardment": deterrencePillarArticle({
+    title:"Conventional strategic bombardment",category:"Air and aerospace strategy",infoboxKicker:"Long-range attack without atomic weapons",
+    lead:"Conventional strategic bombardment is the sustained attack of ports, air bases, radar, command networks, transport, fuel, shipyards, power, and selected industrial targets by bombers, missiles, carrier aircraft, and orbital delivery systems. Its purpose is coercion and degradation over time; it cannot substitute one apocalyptic sortie for an industrial campaign.",
+    canon:"Conventional strategic bomber forces, stand-off weapons, missile and orbital attack, strategic target categories, need for reconnaissance and repeated attack, active defense and repair, German ability to devastate but not reliably conquer Britain, and limited coercive value are established. National target systems, sortie rates, force totals, bomb types, campaign plans, and expected damage remain open.",
+    sections:[
+      {id:"definition",title:"Definition",html:"<p>Bombardment is strategic when its targets and command purpose concern the opponent's ability or willingness to continue war. The payload need not be atomic, and the aircraft need not attack a city indiscriminately.</p>"},
+      {id:"forces",title:"Delivery forces",html:"<p>Heavy bombers, fast penetrators, carrier aviation, stand-off missiles, submarine-launched weapons, and conventional orbital reentry systems can participate in one campaign. Each depends upon reconnaissance, communications, maintenance, bases, and fuel.</p>"},
+      {id:"targets",title:"Target systems",html:"<p>Ports, naval bases, airfields, radar, headquarters, rail junctions, bridges, fuel storage, power, communications, shipyards, and specialized factories offer military value. Their importance changes as an opponent disperses and repairs.</p>"},
+      {id:"defense",title:"Defense and survival",html:"<p>Interceptors, surface defenses, radar, deception, dispersal, shelters, redundancy, civil defense, firefighting, and rapid repair preserve portions of the target system. A campaign must suppress those defenses repeatedly.</p>"},
+      {id:"britain",title:"The British problem",html:"<p>Germany can inflict catastrophic damage upon Britain through submarines, missiles, aircraft, and orbital systems. Damage does not automatically destroy the Royal Navy, Commonwealth routes, political legitimacy, or the ability to continue resistance from overseas institutions.</p>"},
+      {id:"coercion",title:"Coercive limits",html:"<p>Bombardment can compel dispersal, interrupt operations, reduce output, and alter bargaining. It may also strengthen resistance, widen the war, or create demands that the attacker cannot enforce without invasion.</p>"},
+      {id:"law",title:"Law and target discrimination",html:"<p>Target choice, warning, civilian exposure, protected life-support systems, chemical agents, and attacks on inhabited extraterrestrial settlements create distinct legal and political thresholds. The absence of atomic bombs does not remove mass civilian harm.</p>"},
+      {id:"termination",title:"War termination",html:"<p>A bombardment plan is incomplete until it states the concession expected, the mechanism for verifying it, and the stopping condition. Destroying capacity is not itself a durable peace.</p>"}
+    ],
+    related:[{href:"cumulative-conventional-deterrence.html",kicker:"Wider system",label:"Cumulative Conventional Deterrence"},{href:"conventional-missile-deterrence.html",kicker:"Missile component",label:"Conventional Missile Deterrence"},{href:"war-termination-doctrine.html",kicker:"Political test",label:"War-Termination Doctrine"},{href:"orbital-weapons.html",kicker:"Aerospace component",label:"Orbital Weapons"},{href:"military-technology.html",kicker:"Aircraft overview",label:"Air and Aerospace Warfare"}],
+    facts:[["Payload","Conventional"],["Delivery systems","Bombers · missiles · carrier aviation · orbital vehicles"],["Principal method","Sustained reconnaissance, attack, assessment, and reattack"],["Typical targets","Ports · bases · transport · command · fuel · industry"],["Defense remains meaningful","Yes"],["Automatic political surrender","No"],["Representative strategic problem","Germany and Britain"],["Target plans and campaign totals","Open"]]
+  }),
+
+  "industrial-depth-deterrence": deterrencePillarArticle({
+    title:"Industrial-depth deterrence",category:"War economy",infoboxKicker:"Production, repair, and economic endurance",
+    lead:"Industrial-depth deterrence is the strategic protection created by a great power's ability to replace military losses, repair infrastructure, redirect production, finance imports, train personnel, and continue war after initial attacks. It converts a proposed short campaign into the risk of a prolonged industrial contest involving every major route and client system.",
+    canon:"Industrial depth as a deterrent pillar, production and repair, shipping and energy requirements, dispersed and redundant capacity, skilled labor, economic-war estimates, client and alliance support, and the danger of a years-long rebuilding struggle are established. Mobilization schedules, reserve inventories, plant lists, comparative output, damage estimates, and national industrial-war plans remain open.",
+    sections:[
+      {id:"definition",title:"Definition",html:"<p>Industrial depth includes more than gross factory output. It requires energy, raw materials, machine tools, transport, finance, technical labor, designs, quality control, repair depots, communications, and institutions able to redirect them.</p>"},
+      {id:"replacement",title:"Replacement and repair",html:"<p>Ships, aircraft, missiles, vehicles, rails, bridges, ports, power systems, and electronics can be repaired or replaced at different rates. A force that survives tactically may still fail when spares and trained crews disappear.</p>"},
+      {id:"dispersion",title:"Dispersion and redundancy",html:"<p>Alternate plants, distributed subcontractors, duplicate communications, stockpiles, protected workshops, and multiple ports reduce the value of one strike. Dispersion raises cost and complicates coordination during peace.</p>"},
+      {id:"routes",title:"Imports and routes",html:"<p>No great system is fully self-contained. Submarines, embargoes, client pressure, insurance, port attack, and standards disputes can interrupt oil, ores, food, components, and credit.</p>"},
+      {id:"labor",title:"Skilled labor",html:"<p>Engineers, technicians, foremen, shipyard workers, controllers, crews, and administrators are strategic resources. Training time limits replacement even when physical plant remains.</p>"},
+      {id:"alliances",title:"Alliance production",html:"<p>The Five Powers draw upon clients, dominions, associated states, colonies, corporate networks, and neutral trade. A metropolitan strike does not automatically end production elsewhere in the system.</p>"},
+      {id:"estimates",title:"Economic-war estimates",html:"<p>Major operational plans increasingly carry counter-estimates for blockade, production loss, shipping, finance, repair, and third-power reactions. The Iceland Crisis makes such estimates a recognized German planning requirement.</p>"},
+      {id:"deterrence",title:"Deterrent effect",html:"<p>An attacker must assume that early success may be followed by years of replacement, adaptation, blockade, and widening commitments. Industrial depth does not prevent damage; it prevents confidence that damage will terminate the war.</p>"}
+    ],
+    related:[{href:"cumulative-conventional-deterrence.html",kicker:"Wider system",label:"Cumulative Conventional Deterrence"},{href:"postwar-repair-economy.html",kicker:"Economic framework",label:"Postwar Repair Economy"},{href:"strategic-submarine-deterrence.html",kicker:"Route threat",label:"Strategic Submarine Deterrence"},{href:"alliance-geography-deterrence.html",kicker:"Distributed system",label:"Alliance-Geography Deterrence"},{href:"war-termination-doctrine.html",kicker:"Planning requirement",label:"War-Termination Doctrine"}],
+    facts:[["Core assets","Production · repair · energy · transport · finance · labor"],["Military effect","Replacement and adaptation"],["Protective method","Dispersion · redundancy · stockpiles"],["External dependency","Imports, shipping, clients, and credit"],["Critical human resource","Skilled labor"],["Planning instrument","Economic-war counter-estimates"],["Perfect immunity","No"],["Deterrent result","Denial of a quick terminating campaign"]]
+  }),
+
+  "alliance-geography-deterrence": deterrencePillarArticle({
+    title:"Alliance-geography deterrence",category:"Geostrategy",infoboxKicker:"Routes, bases, clients, and strategic depth",
+    lead:"Alliance-geography deterrence is the protection created by oceans, continental depth, islands, straits, bases, client governments, dominions, associated states, and overseas routes. A rival can defeat a fleet or seize a capital without automatically dissolving the wider political and logistical system that sustains resistance.",
+    canon:"Alliance geography as a deterrent pillar, American continental depth, distributed Commonwealth survival, German continental system, Japanese maritime-associated order, Latin Mediterranean and imperial routes, bases and client networks, and the inability to conquer an entire system through one metropolitan victory are established. Wartime base lists, reinforcement plans, access treaties, mobilization timings, and exact fallback governments remain open.",
+    sections:[
+      {id:"geography",title:"Physical geography",html:"<p>Oceans, mountains, continental distance, island chains, straits, and climate affect warning, transport, invasion, and supply. Geography does not fight by itself; fleets, aircraft, roads, ports, and governments make it usable.</p>"},
+      {id:"bases",title:"Bases and access",html:"<p>Overseas ports, airfields, tracking stations, depots, and communications extend reach. They can also become exposed commitments whose loss forces longer routes and greater lift.</p>"},
+      {id:"america",title:"Continental America",html:"<p>A rival must cross an ocean, defeat naval and aerospace defenses, capture ports, sustain immense transport, and confront a continental rail, road, population, and industrial system. Raids remain possible; conquest is not a usable war aim.</p>"},
+      {id:"commonwealth",title:"The distributed Commonwealth",html:"<p>The fall or isolation of Britain would not automatically transfer Canada, Australia, New Zealand, African routes, surviving fleets, or overseas institutions to Germany. Resistance could continue through several governments and command centers.</p>"},
+      {id:"continental",title:"German, Japanese, and Latin systems",html:"<p>Germany possesses continental depth and layered eastern and African jurisdictions. Japan combines home islands, regional Japan proper, associated states, and oceanic administrations. The Latin order joins Mediterranean routes, Suez, national fleets, and imperial territories without becoming one state.</p>"},
+      {id:"clients",title:"Clients and associated states",html:"<p>Client forces and governments can provide warning, bases, troops, resources, and political depth. Their reliability depends upon local interests; general war may produce defection as well as mobilization.</p>"},
+      {id:"third",title:"Third-power reaction",html:"<p>An attack that alters a strategic region can draw another great power into tighter alignment with the victim. German conquest of Britain, for example, would give the United States a direct North Atlantic security reason to intervene.</p>"},
+      {id:"deterrence",title:"Deterrent effect",html:"<p>No campaign can treat one capital, fleet, or frontier as the whole opponent. The more geographically distributed a system becomes, the harder it is to define surrender and the larger the administration inherited by a victor.</p>"}
+    ],
+    related:[{href:"cumulative-conventional-deterrence.html",kicker:"Wider system",label:"Cumulative Conventional Deterrence"},{href:"industrial-depth-deterrence.html",kicker:"Economic complement",label:"Industrial-Depth Deterrence"},{href:"occupation-cost-deterrence.html",kicker:"Administrative consequence",label:"Occupation-Cost Deterrence"},{href:"great-power-status.html",kicker:"System scale",label:"Great-Power Status"},{href:"world.html",kicker:"Global geography",label:"The World Order"}],
+    facts:[["Principal elements","Oceans · continents · islands · straits · bases · clients"],["American advantage","Continental depth"],["Commonwealth advantage","Distributed governments and routes"],["German advantage","Continental and imperial depth"],["Japanese advantage","Maritime-associated system"],["Latin advantage","Mediterranean, Suez, and imperial routes"],["Single-capital victory","Insufficient"],["Primary strategic effect","Expansion of every conquest problem"]]
+  }),
+
+  "occupation-cost-deterrence": deterrencePillarArticle({
+    title:"Occupation-cost deterrence",category:"Military government",infoboxKicker:"Administrative and political cost of conquest",landscape:terminationLandscape,
+    lead:"Occupation-cost deterrence is the restraint created when military victory would require the attacker to govern a hostile population, preserve food and infrastructure, replace or supervise institutions, suppress resistance, defend against surviving allies, and pay for reconstruction. Post-1947 imperial experience makes these burdens part of strategic planning before an invasion begins.",
+    canon:"Occupation cost as a deterrent pillar, the rule that territory comes with people, German eastern and African experience, Japanese Asian experience, Latin imperial experience, British imperial experience, American Philippine and hemispheric experience, British and American conquest examples, and war-termination scrutiny are established. Occupation models, troop ratios, costs, resistance forecasts, proposed governments, and classified case studies remain open.",
+    sections:[
+      {id:"people",title:"Territory comes with people",html:"<p>A captured port, island, province, or capital contains residents, records, utilities, food systems, police, courts, transport, property, disease, and political loyalties. Seizure does not transfer those systems intact.</p>"},
+      {id:"administration",title:"Administrative burden",html:"<p>The occupier must decide which ministries, local officials, businesses, schools, and security institutions survive. Purging them creates vacancies; preserving them creates dependence upon people whose loyalty is uncertain.</p>"},
+      {id:"resistance",title:"Resistance and policing",html:"<p>National movements, exiled governments, surviving military units, clandestine networks, sabotage, and foreign support can continue after organized field defeat. Policing consumes troops and intelligence for years.</p>"},
+      {id:"economy",title:"Food, services, and reconstruction",html:"<p>Damage to ports, power, water, rail, housing, and industry becomes the victor's problem if the territory is to be useful or politically governable. Blockade and bombardment may increase the later occupation bill.</p>"},
+      {id:"britain",title:"The British case",html:"<p>A German victory over Britain would leave tens of millions organized around resistance, a surviving overseas Commonwealth, naval remnants, and likely American intervention. Bombardment cannot supply the government required after capitulation.</p>"},
+      {id:"america",title:"The American case",html:"<p>Conquest of the continental United States requires transoceanic lift, captured ports, long supply, and occupation across an immense population and industrial geography. No rival system identifies a manageable administrative outcome.</p>"},
+      {id:"lessons",title:"Imperial lessons",html:"<p>Germany, Japan, Italy, Britain, and America each learn that victory creates recurrent administrative obligations. Those empires remain coercive, but their own experience makes claims of effortless new conquest less credible.</p>"},
+      {id:"planning",title:"Planning consequence",html:"<p>A serious war plan must state how much of the defeated administration the victor is willing to inherit. Failure to answer that question is evidence against the war aim, even when operational staffs believe seizure possible.</p>"}
+    ],
+    related:[{href:"cumulative-conventional-deterrence.html",kicker:"Wider system",label:"Cumulative Conventional Deterrence"},{href:"war-termination-doctrine.html",kicker:"Planning framework",label:"War-Termination Doctrine"},{href:"alliance-geography-deterrence.html",kicker:"Geographic scale",label:"Alliance-Geography Deterrence"},{href:"finite-war-firebreaks.html",kicker:"Bounded alternative",label:"Finite-War Firebreaks"},{href:"armed-concert.html",kicker:"International consequence",label:"Armed Concert"}],
+    facts:[["Core principle","Territory comes with people"],["Principal burdens","Government · policing · food · services · reconstruction"],["Resistance after field defeat","Expected"],["Allied governments after capital loss","May survive"],["Bombardment as occupation substitute","No"],["Representative cases","Britain · continental United States"],["Planning question","How much administration will the victor inherit?"],["Exact occupation models","Open"]]
+  }),
+
+  "finite-war-firebreaks": deterrencePillarArticle({
+    title:"Finite-war firebreaks",category:"Crisis management",infoboxKicker:"Geographic and political limits on direct war",
+    lead:"Finite-war firebreaks are the geographic, target, force, and diplomatic boundaries used to prevent a local conflict from acquiring a general-war aim. They permit great-power forces to fight over islands, colonies, high seas, clients, orbit, or planetary sites while excluding core homelands, strategic industry, or regime destruction.",
+    canon:"Finite objectives, direct great-power combat below general war, geographic exclusions, homeland and strategic-industry thresholds, protected life-support and rescue systems, notification, mediation, observers, staged mobilization, and representative Falklands, Kuwait, Indian, and extraterrestrial cases are established. Universal terminology, treaty form, exact target lists, enforcement mechanisms, and national rules of engagement remain open.",
+    sections:[
+      {id:"purpose",title:"Purpose",html:"<p>A firebreak defines what the participants are fighting for and what they will not attack. Its value lies in allowing a settlement that leaves every great system politically intact.</p>"},
+      {id:"geography",title:"Geographic limits",html:"<p>Operations may be confined to a disputed island group, colony, frontier, high-seas zone, orbit, lunar district, or planetary site. Attacks on metropolitan territory or uninvolved routes risk changing the war's category.</p>"},
+      {id:"targets",title:"Target limits",html:"<p>Forward bases, deployed fleets, and theater logistics can be treated differently from core industry, national command, population centers, life support, rescue, and strategic communications.</p>"},
+      {id:"forces",title:"Force limits",html:"<p>Staged mobilization, exclusion of particular allies, restrictions on mainland strikes, and delayed reinforcement can signal that the objective remains finite. These measures preserve capability while narrowing political intent.</p>"},
+      {id:"falklands",title:"Falklands War",html:"<p>American armed mediation restricts German direct participation and British attacks on the Argentine mainland while preserving the opposing claims over the islands. The boundary prevents an archipelago dispute from becoming a hemispheric war.</p>"},
+      {id:"space",title:"Extraterrestrial firebreaks",html:"<p>Inspection, reversible interference, seizure, disabling, destructive attack, debris creation, and attack on inhabited life support occupy different thresholds. A conflict over an uncrewed asset need not become a war against settlements.</p>"},
+      {id:"diplomacy",title:"Notification and mediation",html:"<p>Direct channels, observers, neutral custody, ceasefire lines, compensation, withdrawal timetables, and <a href='dignified-exit-diplomacy.html'>dignified exits</a> help enforce limits after combat begins.</p>"},
+      {id:"failure",title:"Failure",html:"<p>A firebreak can fail through retaliation, misidentification, domestic politics, an attack on a core target, or expansion of the stated war aim. Its existence reduces risk without making escalation automatic or impossible.</p>"}
+    ],
+    related:[{href:"great-power-escalation-ladder.html",kicker:"Shared grammar",label:"Great-Power Escalation Ladder"},{href:"dignified-exit-diplomacy.html",kicker:"Settlement mechanism",label:"Dignified-Exit Diplomacy"},{href:"war-termination-doctrine.html",kicker:"Political end state",label:"War-Termination Doctrine"},{href:"south-atlantic-armed-mediation.html",kicker:"Historical example",label:"South Atlantic Armed Mediation"},{href:"strategic-stability-in-space.html",kicker:"Extraterrestrial case",label:"Strategic Stability in Space"}],
+    facts:[["Purpose","Keep finite disputes finite"],["Principal boundaries","Geography · targets · forces · war aims"],["Direct great-power combat","Possible below general war"],["Core homeland attacks","General-war threshold"],["Protected extraterrestrial functions","Life support · rescue · navigation"],["Representative case","Falklands War"],["Automatic success","No"],["Universal legal code","None"]]
+  }),
+
+  "dignified-exit-diplomacy": deterrencePillarArticle({
+    title:"Dignified-exit diplomacy",category:"Diplomacy",infoboxKicker:"Face-saving path out of a great-power crisis",landscape:terminationLandscape,
+    lead:"Dignified-exit diplomacy is the practice of constructing a settlement that allows every principal government to stop escalation without publicly accepting strategic humiliation or abandoning its essential claim. It uses reciprocal restraint, ambiguous formulas, phased withdrawal, consultation, neutral custody, compensation, and recognition of limited interests to create a politically survivable downward path.",
+    canon:"Wolfgang's lesson from Venezuela and Iceland that opponents require a dignified exit, negotiated division of strategic space, bounded settlements, neutral and great-power mediation, reciprocal notice and restraint, preservation of unresolved claims, and importance to finite-war control are established. A universal doctrine name, formal handbook, standard clauses, confidential channels, diplomatic personnel, and every application remain open.",
+    sections:[
+      {id:"problem",title:"The problem of public defeat",html:"<p>A government may prefer further military risk to a settlement that destroys its domestic legitimacy, alliance credibility, or claim to great-power standing. A technically rational concession can therefore be politically unusable.</p>"},
+      {id:"lesson",title:"Venezuela and Iceland",html:"<p>The 1966–68 crises teach Wolfgang that unused power may be more valuable than used power and that technical superiority cannot answer the political question. Opponents must be given a route they can describe as defense of an essential interest.</p>"},
+      {id:"methods",title:"Methods",html:"<p>Reciprocal withdrawal, delayed implementation, neutral inspection, shared or divided access, compensation, consultation, non-recognition clauses, and different public communiqués can support one settlement.</p>"},
+      {id:"ambiguity",title:"Constructive ambiguity",html:"<p>A settlement may leave sovereignty, precedent, or final legal theory unresolved while fixing immediate conduct. This preserves claims that would otherwise make compromise impossible.</p>"},
+      {id:"status",title:"Great-power status",html:"<p>The Five Powers expect consultation on settlements affecting their systems. Procedures that treat one as an object rather than a participant can turn a local dispute into a status crisis.</p>"},
+      {id:"mediation",title:"Mediation",html:"<p>A mediator supplies channels, verifies restraint, proposes wording, and threatens costs without necessarily deciding the underlying dispute. Britain, Italy, America, Germany, and neutral states perform the role in different crises.</p>"},
+      {id:"claims",title:"Unresolved claims",html:"<p>The Verona settlement can limit German–Italian conflict while leaving Bulgaria disputed. Falklands mediation can stop widening attacks without compelling either side to erase its sovereignty claim.</p>"},
+      {id:"limits",title:"Limits",html:"<p>No wording rescues a government that believes survival or a core homeland is at stake. Dignified exit works where objectives remain finite and leaders retain control over clients, forces, and public expectations.</p>"}
+    ],
+    related:[{href:"finite-war-firebreaks.html",kicker:"Conflict boundary",label:"Finite-War Firebreaks"},{href:"war-termination-doctrine.html",kicker:"Planning framework",label:"War-Termination Doctrine"},{href:"iceland-crisis.html",kicker:"Formative case",label:"Iceland Crisis"},{href:"verona-convention.html",kicker:"Institutional example",label:"Verona Convention"},{href:"south-atlantic-armed-mediation.html",kicker:"Wartime example",label:"South Atlantic Armed Mediation"}],
+    facts:[["Purpose","Politically survivable de-escalation"],["Formative German lessons","Venezuela and Iceland · 1966–1968"],["Common methods","Reciprocity · phasing · ambiguity · neutral verification"],["Underlying claims","May remain unresolved"],["Great-power consultation","Expected"],["Representative settlements","Mid-Atlantic Ridge · Verona · Falklands mediation"],["Requirement","Finite interests and leadership control"],["Universal formal doctrine","None established"]]
+  })
+});
+
+const addConventionalDeterrenceRelated = (slug, items) => {
+  const article = window.deepArticles[slug];
+  if (!article) return;
+  const existing = new Set((article.related || []).map(item => item.href));
+  article.related = [...items.filter(item => !existing.has(item.href)), ...(article.related || [])];
+};
+
+addConventionalDeterrenceRelated("non-nuclear-deterrence",[
+  {href:"cumulative-conventional-deterrence.html",kicker:"Deterrent structure",label:"Cumulative Conventional Deterrence"},
+  {href:"strategic-submarine-deterrence.html",kicker:"Maritime pillar",label:"Strategic Submarine Deterrence"},
+  {href:"industrial-depth-deterrence.html",kicker:"Economic pillar",label:"Industrial-Depth Deterrence"},
+  {href:"occupation-cost-deterrence.html",kicker:"Political pillar",label:"Occupation-Cost Deterrence"}
+]);
+addConventionalDeterrenceRelated("armed-concert",[
+  {href:"cumulative-conventional-deterrence.html",kicker:"Strategic basis",label:"Cumulative Conventional Deterrence"},
+  {href:"finite-war-firebreaks.html",kicker:"Conflict limits",label:"Finite-War Firebreaks"},
+  {href:"dignified-exit-diplomacy.html",kicker:"De-escalation practice",label:"Dignified-Exit Diplomacy"}
+]);
+addConventionalDeterrenceRelated("war-termination-doctrine",[
+  {href:"occupation-cost-deterrence.html",kicker:"Administrative test",label:"Occupation-Cost Deterrence"},
+  {href:"industrial-depth-deterrence.html",kicker:"Economic test",label:"Industrial-Depth Deterrence"},
+  {href:"dignified-exit-diplomacy.html",kicker:"Negotiated exit",label:"Dignified-Exit Diplomacy"}
+]);
+addConventionalDeterrenceRelated("great-power-escalation-ladder",[
+  {href:"finite-war-firebreaks.html",kicker:"Stage boundaries",label:"Finite-War Firebreaks"},
+  {href:"dignified-exit-diplomacy.html",kicker:"Downward path",label:"Dignified-Exit Diplomacy"},
+  {href:"conventional-strategic-bombardment.html",kicker:"General-war threshold",label:"Conventional Strategic Bombardment"}
+]);

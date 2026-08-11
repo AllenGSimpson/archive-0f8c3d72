@@ -60,6 +60,15 @@ const pages = [
   { title: "British Atomic-Weapons Assessments", description: "British feasibility reviews under reconstruction and Commonwealth priorities", href: "british-atomic-weapons-assessments.html", tags: "british atomic weapons assessments reconstruction commonwealth nuclear power no bomb" },
   { title: "Latin Atomic-Weapons Assessments", description: "Italian-led feasibility work inside the multinational Latin nuclear system", href: "latin-atomic-weapons-assessments.html", tags: "latin atomic weapons assessments italy occitania spain portugal nuclear no bomb" },
   { title: "Weapons-Oriented Fissile Production", description: "The enrichment, separation, testing, and warhead branch no major power authorized", href: "weapons-fissile-production.html", tags: "weapons fissile production enriched uranium plutonium separation warhead nuclear nonarmament" },
+  { title: "Cumulative Conventional Deterrence", description: "The distributed military, industrial, geographic, and political basis of Five-Power restraint", href: "cumulative-conventional-deterrence.html", tags: "cumulative conventional deterrence armed concert submarines missiles bombers industry geography occupation" },
+  { title: "Strategic Submarine Deterrence", description: "Persistent undersea pressure against fleets, commerce, ports, and reinforcement routes", href: "strategic-submarine-deterrence.html", tags: "strategic submarine deterrence conventional ssn ssgn commerce ports naval" },
+  { title: "Conventional Missile Deterrence", description: "Long-range precision and mass without atomic warheads", href: "conventional-missile-deterrence.html", tags: "conventional missile deterrence ballistic cruise guided reentry strategic targets" },
+  { title: "Conventional Strategic Bombardment", description: "Bomber and carrier campaigns against military systems and strategic industry", href: "conventional-strategic-bombardment.html", tags: "conventional strategic bombardment bombers carrier aviation air defense industry" },
+  { title: "Industrial-Depth Deterrence", description: "Production, repair, transport, energy, and skilled labor as strategic endurance", href: "industrial-depth-deterrence.html", tags: "industrial depth deterrence production repair transport energy war economy endurance" },
+  { title: "Alliance-Geography Deterrence", description: "Bases, clients, islands, straits, and strategic depth in the Five-Power balance", href: "alliance-geography-deterrence.html", tags: "alliance geography deterrence bases clients islands straits routes strategic depth" },
+  { title: "Occupation-Cost Deterrence", description: "The administrative, political, and human burden that follows territorial victory", href: "occupation-cost-deterrence.html", tags: "occupation cost deterrence conquest administration resistance population political victory" },
+  { title: "Finite-War Firebreaks", description: "The geographic, political, and operational boundaries that keep limited wars finite", href: "finite-war-firebreaks.html", tags: "finite war firebreaks limited conflict escalation kuwait falklands objectives" },
+  { title: "Dignified-Exit Diplomacy", description: "Face-saving settlement methods that allow governments to end dangerous crises", href: "dignified-exit-diplomacy.html", tags: "dignified exit diplomacy war termination crisis settlement mediation face saving" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -3004,6 +3013,7 @@ topicNav.push(["South Seas Government", "south-seas-general-government.html"]);
 topicNav.push(["Pacific Frontiers", "pacific-frontier-islands.html"]);
 topicNav.push(["Orbital Safety Standards", "interbloc-space-safety-standards.html"]);
 topicNav.push(["Atomic Nonarmament", "nuclear-weapons-research.html"]);
+topicNav.push(["Conventional Deterrence", "cumulative-conventional-deterrence.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -3145,6 +3155,15 @@ const crossLinks = [
   { href: "british-atomic-weapons-assessments.html", terms: ["British atomic-weapons assessments", "British atomic weapons study"] },
   { href: "latin-atomic-weapons-assessments.html", terms: ["Latin atomic-weapons assessments", "Latin atomic weapons study"] },
   { href: "weapons-fissile-production.html", terms: ["Weapons-oriented fissile production", "weapons fissile-production system", "weapons-oriented fissile cycle"] },
+  { href: "cumulative-conventional-deterrence.html", terms: ["cumulative conventional deterrence", "cumulative deterrent system"] },
+  { href: "strategic-submarine-deterrence.html", terms: ["strategic submarine deterrence", "undersea deterrent"] },
+  { href: "conventional-missile-deterrence.html", terms: ["conventional missile deterrence", "conventional missile campaign"] },
+  { href: "conventional-strategic-bombardment.html", terms: ["conventional strategic bombardment", "strategic bombing campaign"] },
+  { href: "industrial-depth-deterrence.html", terms: ["industrial-depth deterrence", "industrial depth"] },
+  { href: "alliance-geography-deterrence.html", terms: ["alliance-geography deterrence", "alliance geography"] },
+  { href: "occupation-cost-deterrence.html", terms: ["occupation-cost deterrence", "occupation cost"] },
+  { href: "finite-war-firebreaks.html", terms: ["finite-war firebreaks", "finite war firebreaks"] },
+  { href: "dignified-exit-diplomacy.html", terms: ["dignified-exit diplomacy", "dignified exit"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
