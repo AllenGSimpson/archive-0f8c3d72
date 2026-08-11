@@ -3423,6 +3423,14 @@ const pages = [
   ,{ title: "New Hebrides", description: "The multilingual Japanese district whose people call it Vanuatu", href: "new-hebrides.html", tags: "new hebrides vanuatu port vila luganville japan condominium" }
   ,{ title: "Ni-Vanuatu People", description: "The peoples of the New Hebrides and their shared Vanuatu identity", href: "ni-vanuatu-people.html", tags: "ni-vanuatu people vanuatu kastom land bislama japan" }
   ,{ title: "Bislama Language", description: "The inter-island creole and political language of the New Hebrides", href: "bislama-language.html", tags: "bislama language vanuatu new hebrides creole pidgin" }
+  ,{ title: "Suva", description: "Capital of Fiji and Japan's Southern and Eastern Pacific Administration", href: "suva.html", tags: "suva fiji capital southern eastern pacific japan" }
+  ,{ title: "iTaukei People", description: "The indigenous people of Fiji and holders of customary Fijian land", href: "itaukei-people.html", tags: "itaukei indigenous fijian people vanua chiefs land" }
+  ,{ title: "Indo-Fijians", description: "Fiji's community descended principally from Indian indenture and migration", href: "indo-fijians.html", tags: "indo-fijian girmit india fiji hindi sugar" }
+  ,{ title: "Nouméa", description: "Japan's New Caledonian naval, nickel, and industrial deputy center", href: "noumea.html", tags: "noumea new caledonia nickel kanak japan naval" }
+  ,{ title: "Kanak People", description: "The indigenous Melanesian people of New Caledonia", href: "kanak-people.html", tags: "kanak people new caledonia land languages independence" }
+  ,{ title: "Wallis and Futuna", description: "Three customary Polynesian kingdoms under direct Japanese rule", href: "wallis-and-futuna.html", tags: "wallis futuna uvea alo sigave polynesia japan" }
+  ,{ title: "French Polynesia", description: "Japan's easternmost archipelagic deputy territory", href: "french-polynesia.html", tags: "french polynesia tahiti tuamotu marquesas austral gambier japan" }
+  ,{ title: "Papeete", description: "Eastern deputy capital and Japan's bridge toward South America", href: "papeete.html", tags: "papeete tahiti french polynesia peru japan capital" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6981,6 +6989,14 @@ const crossLinks = [
   ,{ href: "new-hebrides.html", terms: ["New Hebrides", "Vanuatu"] }
   ,{ href: "ni-vanuatu-people.html", terms: ["Ni-Vanuatu people", "Ni-Vanuatu"] }
   ,{ href: "bislama-language.html", terms: ["Bislama language", "Bislama"] }
+  ,{ href: "suva.html", terms: ["Suva", "southern Pacific capital"] }
+  ,{ href: "itaukei-people.html", terms: ["iTaukei people", "indigenous Fijians", "iTaukei"] }
+  ,{ href: "indo-fijians.html", terms: ["Indo-Fijians", "Fiji Indians", "girmitiyas"] }
+  ,{ href: "noumea.html", terms: ["Nouméa", "Noumea", "New Caledonian capital"] }
+  ,{ href: "kanak-people.html", terms: ["Kanak people", "Kanaks", "Kanak"] }
+  ,{ href: "wallis-and-futuna.html", terms: ["Wallis and Futuna", "Uvea", "Alo", "Sigave"] }
+  ,{ href: "french-polynesia.html", terms: ["French Polynesia", "Japanese Polynesia"] }
+  ,{ href: "papeete.html", terms: ["Papeete", "Tahiti capital"] }
 ];
 
 function escapePattern(value) {
