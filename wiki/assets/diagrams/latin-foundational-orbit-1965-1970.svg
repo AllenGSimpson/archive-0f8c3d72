@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Latin foundational orbital program, 1965 to 1970</title>
+  <desc id="desc">A timeline from the Latin Space Convention through independent satellite launch, weather observation, communications and recovery tests, and the Aquila decision.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#231c20"/><stop offset="1" stop-color="#09131b"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000" flood-opacity=".4"/></filter>
+    <style>.title{font:700 30px Georgia,serif;fill:#f8f0e5}.sub{font:15px system-ui,sans-serif;fill:#c4b8ad}.line{stroke:#d5a65f;stroke-width:5}.dot{fill:#edc78d;stroke:#4f2e28;stroke-width:5}.box{fill:#151d25;stroke:#766b65;stroke-width:1.5}.year{font:700 18px system-ui,sans-serif;fill:#efbf78}.label{font:700 17px system-ui,sans-serif;fill:#fbf3e9}.role{font:13px system-ui,sans-serif;fill:#c8c4c1}.footer{font:14px system-ui,sans-serif;fill:#bcb4ae}</style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g transform="translate(42 42)"><text class="title">From convention to a complete orbital chain</text><text y="31" class="sub">The Latin Community builds institutions, independent launch, useful services, and safe return before promising a crew</text></g>
+  <path class="line" d="M115 324H1085"/>
+  <g transform="translate(115 324)"><circle class="dot" r="14"/><rect class="box" x="-82" y="-176" width="164" height="124" rx="15" filter="url(#shadow)"/><text class="year" x="-60" y="-142">1965</text><text class="label" x="-60" y="-111">Convention</text><text class="role" x="-60" y="-82">Council · workshare</text></g>
+  <g transform="translate(357 324)"><circle class="dot" r="14"/><rect class="box" x="-88" y="52" width="176" height="124" rx="15" filter="url(#shadow)"/><text class="year" x="-66" y="86">1967</text><text class="label" x="-66" y="117">Independent orbit</text><text class="role" x="-66" y="146">science · telemetry</text></g>
+  <g transform="translate(600 324)"><circle class="dot" r="14"/><rect class="box" x="-88" y="-176" width="176" height="124" rx="15" filter="url(#shadow)"/><text class="year" x="-66" y="-142">1968</text><text class="label" x="-66" y="-111">Weather service</text><text class="role" x="-66" y="-82">ocean · agriculture</text></g>
+  <g transform="translate(843 324)"><circle class="dot" r="14"/><rect class="box" x="-92" y="52" width="184" height="124" rx="15" filter="url(#shadow)"/><text class="year" x="-70" y="86">1969</text><text class="label" x="-70" y="117">Relay and return</text><text class="role" x="-70" y="146">communications · capsule</text></g>
+  <g transform="translate(1085 324)"><circle class="dot" r="14"/><rect class="box" x="-104" y="-176" width="208" height="124" rx="15" filter="url(#shadow)"/><text class="year" x="-82" y="-142">1970</text><text class="label" x="-82" y="-111">Aquila decision</text><text class="role" x="-82" y="-82">crew · docking · station</text></g>
+  <text x="600" y="592" text-anchor="middle" class="footer">By 1970 the Community possesses small-satellite launch, global tracking, weather, communications, recovery, and established procurement.</text>
+</svg>

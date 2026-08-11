@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Latin Space Council", description: "The intergovernmental body governing common programs, workshare, standards, and risk", href: "latin-space-council.html", tags: "latin space council convention governance workshare broglio italy occitania spain portugal" },
+  { title: "First Independent Latin Satellite", description: "The 1967 San Marco-series atmospheric and geodetic mission", href: "first-independent-latin-satellite.html", tags: "first independent latin satellite 1967 san marco atmosphere ionosphere geodetic telemetry" },
+  { title: "Latin Weather Satellite Program", description: "The 1968 weather and ocean-observation service behind later shared meteorology", href: "latin-weather-satellite-program.html", tags: "latin weather satellite program 1968 ocean mediterranean atlantic sahara east africa weather commons" },
+  { title: "Latin Experimental Communications Satellite", description: "The 1969 scheduled relay and command-authentication experiment", href: "latin-experimental-communications-satellite.html", tags: "latin experimental communications satellite 1969 relay store forward authentication rome toulouse lisbon san marco" },
+  { title: "Latin Recoverable Capsule Program", description: "The 1969 reentry, parachute, beacon, biological, and naval-retrieval test line", href: "latin-recoverable-capsule-program.html", tags: "latin recoverable capsule program 1969 reentry heat shield parachute beacon biology naval recovery aquila" },
   { title: "Latin Astronaut Corps", description: "The multinational selection, training, and crew-representation system of the Latin Space Community", href: "latin-astronaut-corps.html", tags: "latin astronaut corps aquila crew training italy occitania spain portugal" },
   { title: "Latin Launch System", description: "Shared launch vehicles, ranges, certification, and independent orbital access", href: "latin-launch-system.html", tags: "latin launch system launcher vehicle san marco range certification propulsion orbital access" },
   { title: "Latin Tracking and Recovery Network", description: "The Portuguese-led stations, weather services, ships, and recovery chain", href: "latin-tracking-recovery-network.html", tags: "latin tracking recovery network portugal azores madeira cape verde telemetry navigation ships" },
@@ -7039,6 +7044,11 @@ const crossLinks = [
   ,{ href: "latin-tracking-recovery-network.html", terms: ["Latin Tracking and Recovery Network", "Latin tracking and recovery network"] }
   ,{ href: "latin-space-medicine.html", terms: ["Latin Space Medicine", "Latin space medicine"] }
   ,{ href: "latin-space-industrial-workshare.html", terms: ["Latin Space Industrial Workshare", "Latin space industrial workshare"] }
+  ,{ href: "latin-space-council.html", terms: ["Latin Space Council", "Space Council"] }
+  ,{ href: "first-independent-latin-satellite.html", terms: ["first independent Latin satellite", "San Marco-series satellite"] }
+  ,{ href: "latin-weather-satellite-program.html", terms: ["Latin Weather Satellite Program", "Latin weather satellite"] }
+  ,{ href: "latin-experimental-communications-satellite.html", terms: ["Latin Experimental Communications Satellite", "Latin communications satellite"] }
+  ,{ href: "latin-recoverable-capsule-program.html", terms: ["Latin Recoverable Capsule Program", "Latin recoverable capsule"] }
 ];
 
 function escapePattern(value) {
