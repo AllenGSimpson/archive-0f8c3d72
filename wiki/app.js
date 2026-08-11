@@ -3314,6 +3314,18 @@ const pages = [
   ,{ title: "Japanese Settlement in Micronesia", description: "The permanent multigenerational settler history of the Japanese South Seas", href: "japanese-settlement-micronesia.html", tags: "japanese settlement micronesia migration okinawan korean saipan koror" }
   ,{ title: "Phosphate Mining in Japanese Micronesia", description: "The Angaur and Fais mining system and its environmental legacy", href: "phosphate-mining-japanese-micronesia.html", tags: "phosphate mining micronesia angaur fais fertilizer rehabilitation" }
   ,{ title: "Sugar Industry of the Japanese Marianas", description: "The plantation and industrial system that transformed Saipan, Tinian, and Rota", href: "sugar-industry-japanese-marianas.html", tags: "sugar industry japanese marianas saipan tinian rota nanyo kohatsu" }
+  ,{ title: "Chamorro People", description: "The Indigenous people divided between American Guam and the Japanese northern Marianas", href: "chamorro-people.html", tags: "chamorro chamoru people guam saipan tinian rota marianas latte" }
+  ,{ title: "Chamorro Language", description: "The Austronesian language divided between English and Japanese public systems", href: "chamorro-language.html", tags: "chamorro language fino finu chamoru spanish japanese english marianas" }
+  ,{ title: "Palauan People", description: "The Indigenous people of Palau, their clans, titles, land, and village institutions", href: "palauan-people.html", tags: "palauan people belau clans matrilineal bai koror babeldaob" }
+  ,{ title: "Palauan Language", description: "The non-Oceanic Austronesian language of the Palau Islands", href: "palauan-language.html", tags: "palauan language tekoi belau austronesian japanese katakana" }
+  ,{ title: "Yapese People", description: "The people of Wa'ab, ranked estates, stone money, and the sawei network", href: "yapese-people.html", tags: "yapese people waab stone money rai sawei estates navigation" }
+  ,{ title: "Yapese Language", description: "The distinct Oceanic language of the Yap main islands", href: "yapese-language.html", tags: "yapese language thiin waqaab oceanic yap outer islands" }
+  ,{ title: "Chuukese People", description: "The lagoon and central-Caroline people living beside Japan's Truk naval complex", href: "chuukese-people.html", tags: "chuukese people truk lagoon clans lineages naval base" }
+  ,{ title: "Chuukese Language", description: "The major Chuukic language historically called Trukese", href: "chuukese-language.html", tags: "chuukese language trukese chuukic mortlockese nuclear micronesian" }
+  ,{ title: "Pohnpeian People", description: "The people of Ponape, Nan Madol, the Nahnmwarki order, and Sokehs memory", href: "pohnpeian-people.html", tags: "pohnpeian people ponape nan madol saudeleur nahnmwarki sokehs" }
+  ,{ title: "Pohnpeian Language", description: "The Pohnpeic language of Ponape with ordinary and honorific registers", href: "pohnpeian-language.html", tags: "pohnpeian language ponape meing kitti nuclear micronesian" }
+  ,{ title: "Marshallese People", description: "The matrilineal atoll people of the Ratak and Ralik chains", href: "marshallese-people.html", tags: "marshallese people ratak ralik iroij alap rijerbal navigation" }
+  ,{ title: "Marshallese Language", description: "The vigorous Nuclear Micronesian language of the Ratak and Ralik chains", href: "marshallese-language.html", tags: "marshallese language kajin majel ratak ralik nuclear micronesian" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6763,6 +6775,18 @@ const crossLinks = [
   ,{ href: "japanese-settlement-micronesia.html", terms: ["Japanese settlement in Micronesia", "Japanese Micronesian settlers"] }
   ,{ href: "phosphate-mining-japanese-micronesia.html", terms: ["phosphate mining in Japanese Micronesia", "Micronesian phosphate mining"] }
   ,{ href: "sugar-industry-japanese-marianas.html", terms: ["sugar industry of the Japanese Marianas", "Mariana sugar industry"] }
+  ,{ href: "chamorro-people.html", terms: ["Chamorro people", "CHamoru people", "Chamorros"] }
+  ,{ href: "chamorro-language.html", terms: ["Chamorro language", "CHamoru language", "Finu' Chamorro", "Fino' CHamoru"] }
+  ,{ href: "palauan-people.html", terms: ["Palauan people", "Palauans"] }
+  ,{ href: "palauan-language.html", terms: ["Palauan language", "a tekoi er a Belau"] }
+  ,{ href: "yapese-people.html", terms: ["Yapese people", "Yapese"] }
+  ,{ href: "yapese-language.html", terms: ["Yapese language", "Thiin nu Waqaab"] }
+  ,{ href: "chuukese-people.html", terms: ["Chuukese people", "Chuukese"] }
+  ,{ href: "chuukese-language.html", terms: ["Chuukese language", "Trukese language"] }
+  ,{ href: "pohnpeian-people.html", terms: ["Pohnpeian people", "Pohnpeians"] }
+  ,{ href: "pohnpeian-language.html", terms: ["Pohnpeian language", "Lokaiahn Pohnpei", "Mahsen en Pohnpei"] }
+  ,{ href: "marshallese-people.html", terms: ["Marshallese people", "Marshallese communities"] }
+  ,{ href: "marshallese-language.html", terms: ["Marshallese language", "Kajin Ṃajeḷ", "Kajin Majol"] }
 ];
 
 function escapePattern(value) {
