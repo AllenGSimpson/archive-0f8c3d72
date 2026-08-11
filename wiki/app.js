@@ -3208,6 +3208,19 @@ const pages = [
   ,{ title: "Panhard", description: "The Paris pioneer of light cars and armored reconnaissance", href: "panhard.html", tags: "panhard levassor paris avenue ivry cars armored reconnaissance" }
   ,{ title: "SNCAM and the Dewoitine Tradition", description: "The Toulouse aircraft lineage inherited by Occitania", href: "sncam-dewoitine.html", tags: "sncam dewoitine toulouse aircraft d520 sncase occitania" }
   ,{ title: "Rhône-Poulenc", description: "The Lyon–Paris chemical and pharmaceutical group divided after 1947", href: "rhone-poulenc.html", tags: "rhone poulenc lyon paris chemicals pharmaceuticals divided france" }
+  ,{ title: "Blocked Property Doctrine", description: "Foreign legal title without ordinary control of strategic assets", href: "blocked-property-doctrine.html", tags: "blocked property doctrine foreign ownership trustees dividends reinvestment patents" }
+  ,{ title: "German Foreign-Property Custodianship", description: "The trustee regime for foreign-owned enterprises inside the Reich", href: "german-foreign-property-custodianship.html", tags: "germany foreign property custodianship american ownership opel ford lorenz dehomag" }
+  ,{ title: "Japanese Foreign-Property Custodianship", description: "The seizure, transfer, and residual-claims regime across the Japanese sphere", href: "japanese-foreign-property-custodianship.html", tags: "japan foreign property custodianship british dutch american assets asia" }
+  ,{ title: "Trans-bloc Industrial Claims Conferences", description: "Bilateral negotiation of compensation, licenses, minority shares, and blocked accounts", href: "transbloc-industrial-claims-conferences.html", tags: "trans bloc industrial claims conferences compensation licenses share exchange" }
+  ,{ title: "Dehomag", description: "The German Hollerith company operating under blocked IBM ownership", href: "dehomag.html", tags: "dehomag deutsche hollerith ibm punched cards data processing germany" }
+  ,{ title: "Kodak AG", description: "The Stuttgart camera and film company under blocked Eastman Kodak ownership", href: "kodak-ag.html", tags: "kodak ag nagel stuttgart retina 135 film blocked property" }
+  ,{ title: "Singer in Germany", description: "The Wittenberge sewing-machine works under blocked American ownership", href: "singer-germany.html", tags: "singer germany wittenberge sewing machines blocked property" }
+  ,{ title: "Unilever", description: "The British–Dutch consumer and plantation group fragmented across rival systems", href: "unilever.html", tags: "unilever lever brothers margarine unie soap plantations british dutch blocked" }
+  ,{ title: "Royal Dutch Shell", description: "The Anglo-Dutch oil group and its lost East Indian producing estate", href: "royal-dutch-shell.html", tags: "royal dutch shell oil petroleum east indies blocked claims" }
+  ,{ title: "Hongkong and Shanghai Banking Corporation", description: "The Hong Kong-founded bank divided between British claims and Japanese-controlled branches", href: "hongkong-shanghai-banking-corporation.html", tags: "hongkong shanghai banking corporation hsbc bank hong kong japan blocked" }
+  ,{ title: "Jardine Matheson", description: "The British merchant house dispossessed in Japanese Hong Kong and coastal China", href: "jardine-matheson.html", tags: "jardine matheson hong kong canton merchant house blocked property" }
+  ,{ title: "Standard-Vacuum Oil Company", description: "The American Far Eastern petroleum network displaced by Japanese conquest", href: "standard-vacuum-oil.html", tags: "standard vacuum stanvac oil petroleum east indies american japan" }
+  ,{ title: "Hong Kong under Japanese Rule", description: "The former British colony as a Japanese imperial port and China-facing commercial city", href: "hong-kong-under-japanese-rule.html", tags: "hong kong japanese rule empire port garrison commercial city 1941 1947" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6551,6 +6564,19 @@ const crossLinks = [
   ,{ href: "panhard.html", terms: ["Panhard", "Panhard & Levassor"] }
   ,{ href: "sncam-dewoitine.html", terms: ["SNCAM", "Dewoitine tradition"] }
   ,{ href: "rhone-poulenc.html", terms: ["Rhône-Poulenc", "Rhone-Poulenc"] }
+  ,{ href: "blocked-property-doctrine.html", terms: ["blocked property doctrine", "blocked property"] }
+  ,{ href: "german-foreign-property-custodianship.html", terms: ["German foreign-property custodianship", "German foreign property custodianship"] }
+  ,{ href: "japanese-foreign-property-custodianship.html", terms: ["Japanese foreign-property custodianship", "Japanese foreign property custodianship"] }
+  ,{ href: "transbloc-industrial-claims-conferences.html", terms: ["trans-bloc industrial claims conferences", "industrial claims conferences"] }
+  ,{ href: "dehomag.html", terms: ["Dehomag", "Deutsche Hollerith-Maschinen Gesellschaft"] }
+  ,{ href: "kodak-ag.html", terms: ["Kodak AG", "German Kodak"] }
+  ,{ href: "singer-germany.html", terms: ["Singer in Germany", "Singer Nähmaschinen"] }
+  ,{ href: "unilever.html", terms: ["Unilever", "British–Dutch consumer group"] }
+  ,{ href: "royal-dutch-shell.html", terms: ["Royal Dutch Shell", "Shell group"] }
+  ,{ href: "hongkong-shanghai-banking-corporation.html", terms: ["Hongkong and Shanghai Banking Corporation", "HSBC"] }
+  ,{ href: "jardine-matheson.html", terms: ["Jardine Matheson", "Jardines"] }
+  ,{ href: "standard-vacuum-oil.html", terms: ["Standard-Vacuum Oil Company", "Standard-Vacuum", "Stanvac"] }
+  ,{ href: "hong-kong-under-japanese-rule.html", terms: ["Hong Kong under Japanese rule", "Japanese Hong Kong"] }
 ];
 
 function escapePattern(value) {
