@@ -1698,6 +1698,14 @@ const pages = [
   { title: "Inter-State Investment Competition in the Southern Archipelago", description: "Fifteen governments competing for common Japanese capital, shipping, and expertise", href: "interstate-investment-competition-southern-archipelago.html", tags: "southern archipelago interstate investment competition difficult state capital shipping" },
   { title: "Corporate Politics in the Southern Archipelago", description: "The Sphere's first mature laboratory of corporate political influence without direct rule", href: "corporate-politics-southern-archipelago.html", tags: "southern archipelago corporate politics patronage media foundations banks zaibatsu" },
   { title: "Southern Archipelago Shipping and Finance System", description: "Maritime, port, banking, insurance, and customs network centered on Japan and Singapore", href: "southern-archipelago-shipping-finance-system.html", tags: "southern archipelago shipping finance ports singapore insurance customs maritime" },
+  { title: "Bornean Malaya Charter Crisis", description: "The 1973–1974 constitutional breakdown preceding the Malay–Bornean War", href: "bornean-malaya-charter-crisis.html", tags: "bornean malaya charter crisis 1973 1974 constitution revenue police concessions" },
+  { title: "Bornean Nationalism", description: "Territorial and multinational movement for an autonomy-based Bornean state", href: "bornean-nationalism.html", tags: "bornean nationalism sarawak north borneo autonomy particularism national movement" },
+  { title: "Malay National Crisis during the Malay–Bornean War", description: "The struggle to preserve a recognized Malay homeland after revolt in Borneo", href: "malay-national-crisis-bornean-war.html", tags: "malay national crisis bornean war homeland refugees malaya brunei" },
+  { title: "Japanese Strategic Intervention in the Malay–Bornean War", description: "Tokyo's 1976–1977 mediation, security supervision, and constitutional intervention", href: "japanese-strategic-intervention-malay-bornean-war.html", tags: "japan strategic intervention malay bornean war 1976 1977 geacps mediation" },
+  { title: "Malay–Bornean Triangular Settlement", description: "The 1977–1979 linked reconstruction of Borneo, Malaya, Brunei, Thailand, and Singapore", href: "malay-bornean-triangular-settlement.html", tags: "malay bornean triangular settlement 1977 1979 borneo malaya brunei thailand singapore" },
+  { title: "Thai Protection of Malaya", description: "Domestic Malayan statehood beneath Thai defense, alignment, base, and transit authority", href: "thai-protection-of-malaya.html", tags: "thai protection malaya protectorate thailand federated kingdom defense transit" },
+  { title: "Brunei Settlement", description: "Preservation of the sultanate and its separately guaranteed special position", href: "brunei-settlement.html", tags: "brunei settlement sultanate dynasty petroleum special position guarantee" },
+  { title: "Corporate Security in the Malay–Bornean War", description: "Zaibatsu infantry protecting petroleum installations and evacuation routes", href: "corporate-security-malay-bornean-war.html", tags: "corporate security malay bornean war zaibatsu oil infantry installations 1976" },
   { title: "Vladivostok Protectorate", description: "Japanese-controlled Russian Pacific port and railhead", href: "vladivostok.html", tags: "vladivostok maritime province protectorate russia geacps japan" },
   { title: "Russian Far Eastern State", description: "Federal Russian monarchy under Japanese strategic supremacy", href: "russian-far-eastern-state.html", tags: "russian far east siberia tsar mikhail chita khabarovsk amur geacps japan" },
   { title: "Chukotka Autonomous Territory", description: "Northern autonomous territory of the Russian Far Eastern State", href: "chukotka.html", tags: "chukotka anadyr bering autonomous territory russian far eastern state" },
@@ -3075,6 +3083,7 @@ topicNav.push(["Chita Crown", "house-of-romanov-russian-far-east.html"]);
 topicNav.push(["Mongolian Constitutional Order", "great-khural-united-mongolia.html"]);
 topicNav.push(["Amur Settlement", "amur-settlement.html"]);
 topicNav.push(["Southern Archipelago Economy", "sovereignty-after-concession.html"]);
+topicNav.push(["Malay–Bornean Settlement", "malay-bornean-triangular-settlement.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -4756,6 +4765,14 @@ const crossLinks = [
   { href: "interstate-investment-competition-southern-archipelago.html", terms: ["inter-state investment competition in the Southern Archipelago", "interstate investment competition", "difficult state"] },
   { href: "corporate-politics-southern-archipelago.html", terms: ["corporate politics in the Southern Archipelago", "Southern Archipelago corporate politics", "East Indian corporate-political laboratory"] },
   { href: "southern-archipelago-shipping-finance-system.html", terms: ["Southern Archipelago shipping and finance system", "archipelagic shipping and finance system"] },
+  { href: "bornean-malaya-charter-crisis.html", terms: ["Bornean Malaya charter crisis", "Bornean charter crisis"] },
+  { href: "bornean-nationalism.html", terms: ["Bornean nationalism", "Bornean national movement"] },
+  { href: "malay-national-crisis-bornean-war.html", terms: ["Malay national crisis during the Malay–Bornean War", "Malay national crisis in Borneo"] },
+  { href: "japanese-strategic-intervention-malay-bornean-war.html", terms: ["Japanese strategic intervention in the Malay–Bornean War", "Japanese intervention in the Malay–Bornean War"] },
+  { href: "malay-bornean-triangular-settlement.html", terms: ["Malay–Bornean triangular settlement", "Borneo–Malaya settlement"] },
+  { href: "thai-protection-of-malaya.html", terms: ["Thai protection of Malaya", "Malayan protected-state order"] },
+  { href: "brunei-settlement.html", terms: ["Brunei settlement", "Brunei's special position"] },
+  { href: "corporate-security-malay-bornean-war.html", terms: ["corporate security in the Malay–Bornean War", "Bornean corporate-security precedent"] },
   { href: "indonesian-unification-movement.html", terms: ["Indonesian Unification Movement", "Indonesian nationalism", "pan-Indonesian movement"] },
   { href: "concord-computer-works.html", terms: ["Concord Computer Works"] },
   { href: "interlink-software.html", terms: ["Interlink Software Corporation", "Interlink Software"] },
