@@ -3338,6 +3338,18 @@ const pages = [
   ,{ title: "Satawalese Language", description: "The Chuukic navigation language of Satawal and an ancestor of Saipan Carolinian", href: "satawalese-language.html", tags: "satawalese language satawal chuukic navigation carolinian refaluwasch" }
   ,{ title: "Mortlockese People", description: "The distinct Chuukic people of the Mortlock or Nomoi Islands southeast of Truk", href: "mortlockese-people.html", tags: "mortlockese people mortlock nomoi satawan lukunor etal namoluk losap" }
   ,{ title: "Mortlockese Language", description: "The language of the Mortlocks, closely related to but distinct from Chuukese", href: "mortlockese-language.html", tags: "mortlockese language mortlock nomoi chuukic chuukese satawan lukunor" }
+  ,{ title: "Mokilese People", description: "The Mwoakillese people of Mwoakilloa and their Ponape diaspora", href: "mokilese-people.html", tags: "mokilese mwoakillese people mwoakilloa mokil kahlap ponape" }
+  ,{ title: "Mokilese Language", description: "The Pohnpeic language of Mwoakilloa", href: "mokilese-language.html", tags: "mokilese mwoakilloan language pohnpeic pingelapese" }
+  ,{ title: "Pingelapese People", description: "The people of Pingelap, their chiefly history and typhoon survival", href: "pingelapese-people.html", tags: "pingelapese people pingelap pikelap ouwa achromatopsia typhoon" }
+  ,{ title: "Pingelapese Language", description: "The Pohnpeic language of Pingelap and its Ponape diaspora", href: "pingelapese-language.html", tags: "pingelapese language pohnpeic mokilese pikelap" }
+  ,{ title: "Ngatikese People", description: "The Sapwuahfik community shaped by the 1837 Ngatik massacre", href: "ngatikese-people.html", tags: "ngatikese sapwuahfik people massacre 1837 tortoiseshell" }
+  ,{ title: "Ngatikese Language", description: "The Sapwuahfik language and distinct Ngatik Men's Creole", href: "ngatikese-language.html", tags: "ngatikese sapwuahfik language men's creole pohnpeic english" }
+  ,{ title: "Kapingamarangi People", description: "The Kapinga Polynesian outlier people of Kapingamarangi and Porakied", href: "kapingamarangi-people.html", tags: "kapingamarangi kapinga people polynesian outlier porakied ponape" }
+  ,{ title: "Kapingamarangi Language", description: "The Polynesian outlier language of Kapingamarangi", href: "kapingamarangi-language.html", tags: "kapingamarangi language polynesian samoic outlier nukuoro" }
+  ,{ title: "Nukuoro People", description: "The Polynesian outlier people of Nukuoro and their tino aitu heritage", href: "nukuoro-people.html", tags: "nukuoro people polynesian outlier tino aitu vave" }
+  ,{ title: "Nukuoro Language", description: "The endangered Polynesian outlier language of Nukuoro", href: "nukuoro-language.html", tags: "nukuoro language polynesian samoic outlier endangered" }
+  ,{ title: "Puluwatese People", description: "The people of Polowat and their ocean-navigation school", href: "puluwatese-people.html", tags: "puluwatese polowat puluwat people navigation etak canoe" }
+  ,{ title: "Puluwatese Language", description: "The Chuukic navigation language of Polowat", href: "puluwatese-language.html", tags: "puluwatese polowat language chuukic navigation etak" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6811,6 +6823,18 @@ const crossLinks = [
   ,{ href: "satawalese-language.html", terms: ["Satawalese language"] }
   ,{ href: "mortlockese-people.html", terms: ["Mortlockese people", "Mortlockese community"] }
   ,{ href: "mortlockese-language.html", terms: ["Mortlockese language"] }
+  ,{ href: "mokilese-people.html", terms: ["Mokilese people", "Mwoakillese people"] }
+  ,{ href: "mokilese-language.html", terms: ["Mokilese language", "Mwoakilloan"] }
+  ,{ href: "pingelapese-people.html", terms: ["Pingelapese people", "Pingelapese community"] }
+  ,{ href: "pingelapese-language.html", terms: ["Pingelapese language"] }
+  ,{ href: "ngatikese-people.html", terms: ["Ngatikese people", "Sapwuahfik people"] }
+  ,{ href: "ngatikese-language.html", terms: ["Ngatikese language", "Sapwuahfik language", "Ngatik Men's Creole"] }
+  ,{ href: "kapingamarangi-people.html", terms: ["Kapingamarangi people", "Kapinga people"] }
+  ,{ href: "kapingamarangi-language.html", terms: ["Kapingamarangi language"] }
+  ,{ href: "nukuoro-people.html", terms: ["Nukuoro people"] }
+  ,{ href: "nukuoro-language.html", terms: ["Nukuoro language"] }
+  ,{ href: "puluwatese-people.html", terms: ["Puluwatese people"] }
+  ,{ href: "puluwatese-language.html", terms: ["Puluwatese language"] }
 ];
 
 function escapePattern(value) {
