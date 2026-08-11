@@ -1724,6 +1724,14 @@ const pages = [
   { title: "Assassination of Aung San", description: "The 1947 killing that removed Burma's strongest personal guarantor before independence", href: "assassination-of-aung-san.html", tags: "assassination aung san 1947 burma succession u saw" },
   { title: "U Nu Civilian Government", description: "Parliamentary ministries, Buddhist policy, welfare, and reconstruction before military guardianship", href: "u-nu-civilian-government.html", tags: "u nu civilian government burma parliament ministries buddhism development" },
   { title: "Military Guardianship in Burma", description: "Reserved army authority coexisting with parliament, federal states, and State Guards", href: "military-guardianship-burma.html", tags: "burma military guardianship guardian republic union army emergency powers federalism" },
+  { title: "Mekong River Administration", description: "Shared navigation, flood, power, and water practice without a supranational river government", href: "mekong-river-administration.html", tags: "mekong river administration vietnam cambodia laos navigation flood dams water council" },
+  { title: "Three States Transport System", description: "The connected rail, road, river, port, postal, and telephone network of the Mekong kingdoms", href: "three-states-transport-system.html", tags: "three states transport system vietnam cambodia laos rail road river ports japanese standards" },
+  { title: "Three States Customs Transit", description: "Bonded transit and common documentation among three separate customs territories", href: "three-states-customs-transit.html", tags: "three states customs transit vietnam cambodia laos tariffs bonded cargo trade" },
+  { title: "Three States Public-Health Cooperation", description: "Cross-border reporting, campaigns, sanitation, refugee health, and medical training", href: "three-states-public-health-cooperation.html", tags: "three states public health cooperation vietnam cambodia laos epidemic vaccination sanitation" },
+  { title: "Japanese Consumer Economy in the Mekong States", description: "Japanese brands, local assembly, regional suppliers, and unequal household markets", href: "japanese-consumer-economy-mekong.html", tags: "japanese consumer economy mekong vietnam cambodia laos brands assembly appliances" },
+  { title: "Media and Dubbing in the Mekong States", description: "National broadcasting and localization inside a Japanese-dominated media market", href: "media-dubbing-mekong-states.html", tags: "media dubbing mekong vietnam cambodia laos japanese television cinema radio localization" },
+  { title: "Developmental Dissatisfaction in the Mekong States", description: "The 1970s demand for licenses, management, technology, and concession control", href: "developmental-dissatisfaction-mekong.html", tags: "developmental dissatisfaction mekong vietnam cambodia laos industry concessions 1970s" },
+  { title: "Common Petitions of the Three States", description: "Collective economic, cultural, health, and border submissions to Japan", href: "common-petitions-three-states.html", tags: "common petitions three states council vietnam cambodia laos japan licenses funds commodity" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6151,6 +6159,14 @@ const crossLinks = [
   ,{ href: "assassination-of-aung-san.html", terms: ["assassination of Aung San", "Aung San assassination"] }
   ,{ href: "u-nu-civilian-government.html", terms: ["U Nu civilian government", "U Nu government"] }
   ,{ href: "military-guardianship-burma.html", terms: ["military guardianship in Burma", "military guardianship", "guardian republic"] }
+  ,{ href: "mekong-river-administration.html", terms: ["Mekong river administration", "Mekong navigation administration"] }
+  ,{ href: "three-states-transport-system.html", terms: ["Three States transport system", "Mekong transport system"] }
+  ,{ href: "three-states-customs-transit.html", terms: ["Three States customs transit", "Mekong customs transit"] }
+  ,{ href: "three-states-public-health-cooperation.html", terms: ["Three States public-health cooperation", "Mekong public-health cooperation"] }
+  ,{ href: "japanese-consumer-economy-mekong.html", terms: ["Japanese consumer economy in the Mekong states", "Mekong consumer economy"] }
+  ,{ href: "media-dubbing-mekong-states.html", terms: ["media and dubbing in the Mekong states", "Mekong media and dubbing"] }
+  ,{ href: "developmental-dissatisfaction-mekong.html", terms: ["developmental dissatisfaction in the Mekong states", "developmental dissatisfaction"] }
+  ,{ href: "common-petitions-three-states.html", terms: ["common petitions of the Three States", "common petitions to Japan"] }
 ];
 
 function escapePattern(value) {

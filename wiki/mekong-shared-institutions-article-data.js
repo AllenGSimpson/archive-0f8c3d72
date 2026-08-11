@@ -1,0 +1,194 @@
+window.deepArticles = window.deepArticles || {};
+
+const mekongSharedSources = [
+  {href:"../coProsperitySphereReference%20-%20AltWWII.md",label:"Co-Prosperity Sphere Reference — the three Indochinese kingdoms"},
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — Southeast Asian settlement and Japanese corporate order"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — postwar Asian consolidation"},
+  {href:"../transcript.md",label:"Master Transcript — Mekong political economy and culture, Turns 682–685"}
+];
+
+const mekongSharedArticle = config => ({
+  category:"Mekong states",
+  eyebrow:"Three-state cooperation · Japanese-protected Southeast Asia",
+  infoboxKicker:"Institution of the Mekong regional order",
+  ...config,
+  sources:mekongSharedSources,
+  categories:config.categories || ["Mekong states","Vietnam","Cambodia","Laos","GEACPS"]
+});
+
+Object.assign(window.deepArticles, {
+  "mekong-river-administration": mekongSharedArticle({
+    title:"Mekong river administration",
+    eyebrow:"River management · Council of the Three Indochinese States",
+    infoboxKicker:"Shared river practice without federal authority",
+    lead:"Mekong river administration is the body of agreements, surveys, operating conferences, and national agencies through which Vietnam, Cambodia, and Laos manage navigation, floods, dams, public works, and river-borne disease. It is coordinated through the Council of the Three Indochinese States but is not a supranational river government.",
+    canon:"Joint river management, navigation, flood control, health cooperation, national ownership of works, Japanese technical and financial predominance, and the absence of federal authority are established. Formal commission names, founding instruments, headquarters, voting rules, dam inventory, river boundaries, and individual project dates remain open.",
+    sections:[
+      {id:"inheritance",title:"Colonial inheritance",html:"<p>French Indochina had treated the Mekong basin as one administrative problem. Separate Vietnamese, Cambodian, and Lao sovereignty divided personnel, accounts, police powers, customs, and maintenance without changing the river's physical unity.</p>"},
+      {id:"navigation",title:"Navigation",html:"<p>National authorities coordinate channel surveys, pilots, seasonal notices, landing stages, cargo documentation, rescue, and the passage of vessels through neighboring waters. Laos depends most heavily upon these arrangements because river routes compensate for its weak internal network.</p>"},
+      {id:"flood",title:"Flood and water control",html:"<p>Flood warnings, rainfall reporting, embankments, irrigation releases, and emergency relief require upstream information to move faster than ordinary diplomacy. Joint technical meetings therefore continue even during political disputes.</p>"},
+      {id:"power",title:"Dams and power",html:"<p>Hydroelectric and irrigation works create arguments over land, fisheries, resettlement, revenue, and downstream flow. Laos seeks control and income from works on its territory; Vietnamese and Cambodian officials demand reliable operating rules.</p>"},
+      {id:"jurisdiction",title:"National jurisdiction",html:"<p>Each crown retains police, taxation, land, labor, and environmental authority inside its borders. Council recommendations become effective through national ministries rather than direct regional law.</p>"},
+      {id:"japan",title:"Japanese technical predominance",html:"<p>Japanese companies and ministries supply much surveying equipment, turbines, finance, engineering, and advanced communications. Their capacity makes projects possible while allowing Tokyo to influence priorities without annexing the river administration.</p>"},
+      {id:"disputes",title:"Regional disputes",html:"<p>Cambodian suspicion of Thai border policy, Lao fear of economic dependence, and Vietnamese demographic weight enter river negotiations. Consensus practice prevents Vietnam from converting technical superiority into formal command.</p>"},
+      {id:"mature",title:"The mature system",html:"<p>By 1985 the basin is neither integrated nor unmanaged. Separate states operate a shared technical geography whose ordinary cooperation is durable precisely because its political ambitions remain limited.</p>"}
+    ],
+    related:[{href:"council-three-indochinese-states.html",kicker:"Coordinating body",label:"Council of the Three Indochinese States"},{href:"three-states-transport-system.html",kicker:"Connected network",label:"Three States Transport System"},{href:"three-states-public-health-cooperation.html",kicker:"River-borne health",label:"Three States Public-Health Cooperation"},{href:"laos.html",kicker:"Upstream member",label:"Kingdom of Laos"},{href:"cambodia.html",kicker:"Lower-basin member",label:"Kingdom of Cambodia"},{href:"vietnam.html",kicker:"Delta member",label:"Empire of Vietnam"}],
+    facts:[["Participating states","Vietnam, Cambodia, and Laos"],["Coordinating forum","Council of the Three Indochinese States"],["Principal fields","Navigation, floods, irrigation, power, and health"],["Legal implementation","National ministries"],["Principal external supplier","Japan"],["Federal authority","None"],["Permanent commission title","Open"],["Detailed project chronology","Open"]]
+  }),
+
+  "three-states-transport-system": mekongSharedArticle({
+    title:"Three States transport system",
+    eyebrow:"Railways, roads, ports, and common technical standards",
+    infoboxKicker:"Postcolonial regional transport network",
+    lead:"The Three States transport system is the connected railway, road, river, port, postal, and telecommunications network serving Vietnam, Cambodia, and Laos after the dissolution of French Indochina. National flags and administrations govern its parts, while Japanese equipment, signals, standards, and finance make through operation possible.",
+    canon:"The inherited regional network, three national administrations, Council coordination of rail and road links, customs transit, Japanese technical control, Vietnam's superior capacity, Laos's corridor dependence, and the absence of common sovereignty are established. Network maps, gauges, companies, ministries, tariffs, junctions, and construction dates remain open.",
+    sections:[
+      {id:"partition",title:"Partition of a regional network",html:"<p>Independence divided an infrastructure designed around colonial ports and administrative centers. Track, workshops, vehicles, accounts, and personnel had to be assigned among three crowns while traffic continued.</p>"},
+      {id:"rail",title:"Railways and junctions",html:"<p>Through trains require compatible signals, timetables, braking rules, crew handovers, manifests, and repair standards. Border junctions become visible demonstrations of separate sovereignty operating through one technical system.</p>"},
+      {id:"roads",title:"Road transport",html:"<p>Japanese-financed highways extend state reach and distribute motorcycles, buses, trucks, medicines, appliances, and military stores. Cambodia and Laos rely on Vietnamese and Thai connections where their own markets cannot support complete routes.</p>"},
+      {id:"ports",title:"Ports and river transfer",html:"<p>Vietnamese ports carry most overseas volume. River and road transfer distributes imports inland, giving customs depots and freight forwarders an importance disproportionate to their administrative visibility.</p>"},
+      {id:"laos",title:"The Lao corridor",html:"<p>Laos is both dependent hinterland and strategic bridge. Vientiane handles administration and external routes while Luang Prabang retains royal and religious authority; transport investment binds the dual-capital state together.</p>"},
+      {id:"standards",title:"Japanese standards",html:"<p>Signals, telephones, rolling stock, workshop tools, vehicles, and engineering contracts increasingly follow Japanese practice. Compatibility improves regional movement while deepening dependence upon Japanese parts and training.</p>"},
+      {id:"security",title:"Strategic control",html:"<p>National police and armies protect ordinary routes, but Japan retains decisive influence over strategic communications and military transport. The Council can coordinate service without directing forces.</p>"},
+      {id:"image",title:"Three flags, one signal system",html:"<p>The characteristic image of the mature order is three national trains meeting at a Japanese-equipped junction: different crowns, citizens, and customs authorities moving under the same technical rules.</p>"}
+    ],
+    related:[{href:"council-three-indochinese-states.html",kicker:"Regional coordinator",label:"Council of the Three Indochinese States"},{href:"three-states-customs-transit.html",kicker:"Border procedure",label:"Three States Customs Transit"},{href:"mekong-river-administration.html",kicker:"Water transport",label:"Mekong River Administration"},{href:"japanese-consumer-economy-mekong.html",kicker:"Freight demand",label:"Japanese Consumer Economy in the Mekong States"},{href:"laos.html",kicker:"Corridor state",label:"Kingdom of Laos"}],
+    facts:[["Region","Vietnam, Cambodia, and Laos"],["Modes","Rail, road, river, port, post, and telephone"],["Administration","Three national systems"],["Coordination","Council technical conferences"],["Dominant standards","Japanese"],["Largest transport market","Vietnam"],["Common transport sovereignty","None"],["Detailed network map","Open"]]
+  }),
+
+  "three-states-customs-transit": mekongSharedArticle({
+    title:"Three States customs transit",
+    eyebrow:"Border administration · bonded regional commerce",
+    infoboxKicker:"Movement among three separate customs territories",
+    lead:"Three States customs transit is the set of practices that permits goods and passengers to cross Vietnam, Cambodia, and Laos without recreating a single Indochinese customs state. The system distinguishes through cargo, national imports, Japanese concession traffic, and local border commerce while preserving each crown's tariffs and revenue.",
+    canon:"Separate customs territories, coordinated transit, common documentation and standards, Council competence, Japanese commercial predominance, national tariff authority, and the prohibition on federation are established. Convention names, tariff schedules, currencies of account, bonded-corridor maps, enforcement agencies, and dates remain open.",
+    sections:[
+      {id:"separation",title:"Three customs territories",html:"<p>Vietnam, Cambodia, and Laos possess separate treasuries, borders, commercial laws, and tariff interests. Independence would be hollow if one regional office collected and distributed all customs revenue.</p>"},
+      {id:"transit",title:"Bonded transit",html:"<p>Sealed or documented cargo may cross a neighboring state before duties are assessed at its destination. The practice is essential for Laos and for Cambodian districts whose practical routes pass through Vietnamese ports or Thai-facing corridors.</p>"},
+      {id:"documents",title:"Documents and standards",html:"<p>Common manifests, weights, inspections, postal rules, and telephone procedures reduce delay. Forms may be national in language and appearance while carrying standardized technical fields for regional and Japanese operators.</p>"},
+      {id:"companies",title:"Japanese company traffic",html:"<p>Large Japanese firms possess the clerks, warehouses, credit, shipping contracts, and political access needed to navigate three systems. Smaller local merchants depend more heavily on brokers and border officials.</p>"},
+      {id:"commodities",title:"Commodities and manufactured goods",html:"<p>Rice, rubber, timber, minerals, food, and textiles move outward; machinery, medicines, vehicles, electronics, and consumer goods move inward. Transit rules determine whether local processing develops or commerce remains an import-export chain.</p>"},
+      {id:"borders",title:"Thai and western borders",html:"<p>Cambodia uses the Council to complain about Thai trade and border practice, especially where the Battambang grievance affects routes and revenue. The Council can petition but cannot compel Bangkok.</p>"},
+      {id:"disputes",title:"Dispute settlement",html:"<p>Technical officials negotiate misclassification, seizure, quarantine, damaged seals, and competing concessions. Politically sensitive cases rise to ministers or to Japanese mediation rather than a sovereign regional court.</p>"},
+      {id:"limits",title:"Limits of integration",html:"<p>Customs coordination lowers the cost of partition without abolishing it. There is no common citizenship, free external trade policy, or regional power to override national tariff law.</p>"}
+    ],
+    related:[{href:"council-three-indochinese-states.html",kicker:"Responsible forum",label:"Council of the Three Indochinese States"},{href:"three-states-transport-system.html",kicker:"Physical network",label:"Three States Transport System"},{href:"japanese-consumer-economy-mekong.html",kicker:"Commercial system",label:"Japanese Consumer Economy in the Mekong States"},{href:"common-petitions-three-states.html",kicker:"Collective bargaining",label:"Common Petitions of the Three States"},{href:"cambodia.html",kicker:"Western member",label:"Kingdom of Cambodia"}],
+    facts:[["Customs territories","Three"],["Tariff authority","National governments"],["Regional function","Transit coordination"],["Key beneficiary","Landlocked Laos"],["Dominant commercial operators","Japanese firms and local brokers"],["Strategic mediator","Japan"],["Common external tariff","None established"],["Formal convention and schedules","Open"]]
+  }),
+
+  "three-states-public-health-cooperation": mekongSharedArticle({
+    title:"Three States public-health cooperation",
+    eyebrow:"Health administration · cross-border campaigns",
+    infoboxKicker:"Regional health coordination without a common ministry",
+    lead:"Three States public-health cooperation coordinates epidemic reporting, vaccination, river and border sanitation, medical training, refugee health, and emergency supplies among Vietnam, Cambodia, and Laos. National ministries provide care and enforcement; the Council supplies the forum through which diseases are treated as regional rather than diplomatic events.",
+    canon:"Council responsibility for health, cross-border campaigns, refugee coordination, national ministries, Japanese equipment and training, unequal national capacity, and vernacular public communication are established. Diseases, campaign dates, agencies, budgets, hospitals, vaccination schedules, and outcome statistics remain open.",
+    sections:[
+      {id:"need",title:"A regional necessity",html:"<p>Rivers, roads, ports, seasonal labor, pilgrimage, trade, and refugee movements cross the new borders. Delayed notification can turn a local outbreak into a three-state emergency.</p>"},
+      {id:"reporting",title:"Reporting and warning",html:"<p>Health offices exchange case reports, laboratory notices, quarantine measures, and travel warnings through technical channels designed to remain active during political disputes.</p>"},
+      {id:"campaigns",title:"Joint campaigns",html:"<p>Vaccination, mosquito control, water treatment, maternal health, rural clinics, and disaster medicine are natural subjects for shared procurement and synchronized public information. The exact campaign record remains open.</p>"},
+      {id:"refugees",title:"Refugees and border health",html:"<p>War, insurgency, resettlement, and ordinary migration make camps and border stations part of the health system. Medical screening is inseparable from policing and arguments over who must accept displaced people.</p>"},
+      {id:"capacity",title:"Unequal capacity",html:"<p>Vietnam provides the largest professional and institutional base. Cambodia has stronger urban and royal institutions than its size suggests. Laos depends most heavily on mobile teams, neighboring routes, and external support.</p>"},
+      {id:"japan",title:"Japanese support",html:"<p>Japan supplies medicines, laboratory equipment, vehicles, scholarships, communications, and advanced training. Assistance improves capacity while orienting procurement and professional advancement toward Japanese institutions.</p>"},
+      {id:"language",title:"Language and public trust",html:"<p>Campaigns operate in Vietnamese, Khmer, and Lao. Japanese is important for technical liaison, while French survives only as an older professional and historical language rather than the language of regional authority.</p>"},
+      {id:"limits",title:"No common health ministry",html:"<p>The Council can coordinate, request funds, and circulate standards. It cannot tax directly, command national personnel, or override domestic law.</p>"}
+    ],
+    related:[{href:"council-three-indochinese-states.html",kicker:"Coordinating forum",label:"Council of the Three Indochinese States"},{href:"mekong-river-administration.html",kicker:"Environmental setting",label:"Mekong River Administration"},{href:"common-petitions-three-states.html",kicker:"Funding mechanism",label:"Common Petitions of the Three States"},{href:"vietnam.html",kicker:"Largest health system",label:"Empire of Vietnam"},{href:"laos.html",kicker:"Most dependent member",label:"Kingdom of Laos"}],
+    facts:[["Members","Vietnam, Cambodia, and Laos"],["Fields","Reporting, vaccination, sanitation, refugee health, and training"],["Delivery","National ministries and local institutions"],["Regional forum","Council of the Three Indochinese States"],["Principal external supplier","Japan"],["Public languages","Vietnamese, Khmer, and Lao"],["Common health ministry","None"],["Campaign chronology and statistics","Open"]]
+  }),
+
+  "japanese-consumer-economy-mekong": mekongSharedArticle({
+    title:"Japanese consumer economy in the Mekong states",
+    eyebrow:"Consumer integration · 1960s–1980s",
+    infoboxKicker:"Japanese brands, local assembly, and unequal markets",
+    lead:"The Japanese consumer economy in the Mekong states is the commercial order in which Japanese brands, credit, components, machinery, and distribution dominate high-prestige manufactured goods while Vietnamese, Cambodian, Lao, Chinese, Thai, and Filipino producers retain important local and lower-cost markets.",
+    canon:"Japanese predominance in high-value consumer goods, growing Vietnamese assembly, Cambodian processing and import dependence, Lao route dependence, mixed regional suppliers, localization, and the distinction between Japanese brand and place of assembly are established. Market shares, firms, product launches, plants, prices, and household ownership rates remain open.",
+    sections:[
+      {id:"goods",title:"The Japanese household object",html:"<p>Radios, bicycles, motorcycles, sewing machines, fans, watches, cameras, medicines, appliances, televisions, recorded music, and later computers make Japanese industry visible in ordinary urban life.</p>"},
+      {id:"assembly",title:"Brand and place of assembly",html:"<p>A Japanese-brand television sold in Saigon may contain Japanese and Formosan components, be assembled by Vietnamese labor, packaged by a local contractor, and sold through a Vietnamese department store. Commercial identity is therefore more layered than an import label suggests.</p>"},
+      {id:"vietnam",title:"Vietnamese assembly",html:"<p>Vietnam's larger educated market, ports, workshops, and light industry support local assembly, repair, distribution, and eventually modest domestic design. Japanese architecture and licenses still determine the high-value system.</p>"},
+      {id:"cambodia",title:"Cambodian processing and imports",html:"<p>Cambodia combines imported manufactures with food, rubber, textile, cultural, and tourist industries. Its smaller market gives distributors and Japanese suppliers greater leverage over equipment and finance.</p>"},
+      {id:"laos",title:"The Lao market",html:"<p>Laos imports most complex goods through Thai, Vietnamese, and Japanese routes. Local enterprise concentrates on cabinets, repair, retail, transport, food, and services rather than complete advanced manufacture.</p>"},
+      {id:"alternatives",title:"Regional alternatives",html:"<p>Chinese, Thai, Filipino, and local goods circulate in food, textiles, household wares, and cheaper manufactures. They limit monopoly without displacing Japanese prestige and technical standards.</p>"},
+      {id:"credit",title:"Distribution and credit",html:"<p>Dealers, installment finance, company service networks, spare parts, and advertising determine which products become durable household systems. Japanese firms possess advantages in every part of that chain.</p>"},
+      {id:"politics",title:"Consumer integration and dependence",html:"<p>Access to modern goods makes the Sphere materially credible. It also sharpens the 1970s complaint that the three states consume increasingly sophisticated products while licensing, patents, and strategic manufacture remain elsewhere.</p>"}
+    ],
+    related:[{href:"developmental-dissatisfaction-mekong.html",kicker:"Political reaction",label:"Developmental Dissatisfaction in the Mekong States"},{href:"three-states-transport-system.html",kicker:"Distribution network",label:"Three States Transport System"},{href:"media-dubbing-mekong-states.html",kicker:"Cultural market",label:"Media and Dubbing in the Mekong States"},{href:"computing-in-mekong-states.html",kicker:"Late consumer technology",label:"Computing in the Mekong States"},{href:"vietnam.html",kicker:"Assembly center",label:"Empire of Vietnam"}],
+    facts:[["Period of rapid integration","1960s–1970s"],["Dominant high-value supplier","Japan"],["Largest local market","Vietnam"],["Vietnamese role","Assembly, repair, distribution, and modest domestic production"],["Cambodian role","Importing, processing, and cultural production"],["Lao role","Route-dependent importing and repair"],["Other suppliers","Chinese, Thai, Filipino, and local"],["Market shares and ownership rates","Open"]]
+  }),
+
+  "media-dubbing-mekong-states": mekongSharedArticle({
+    title:"Media and dubbing in the Mekong states",
+    eyebrow:"Broadcasting, cinema, and cultural localization",
+    infoboxKicker:"National cultures inside a Japanese media market",
+    lead:"Media and dubbing in the Mekong states describes the system through which Japanese, Vietnamese, Chinese, Thai, Cambodian, and Lao productions circulate across three national language markets. Dubbing and localization make imported programs part of local life without erasing the unequal capital and studio power behind them.",
+    canon:"Japanese production dominance, Vietnam's substantial commercial media sector, Cambodian emphasis on court, Buddhist, and Angkorian culture, Lao reliance on radio and imports, widespread dubbing, Council interest in broadcasting rights, and 1980s preservation policy are established. Networks, studios, stars, schedules, censorship codes, program titles, and audience figures remain open.",
+    sections:[
+      {id:"market",title:"An unequal regional market",html:"<p>Japanese studios possess the finance, equipment, performers, animation houses, music companies, and distribution systems required for expensive production. National broadcasters and local companies buy, dub, schedule, and interpret much of that output.</p>"},
+      {id:"vietnam",title:"Vietnamese production",html:"<p>Vietnam supports films, songs, historical drama, theatre, radio serials, television news, literary adaptation, and court or martial epics. Its programs circulate into Cambodia, Laos, southern China, and diaspora communities.</p>"},
+      {id:"cambodia",title:"Cambodian production",html:"<p>Cambodian media emphasizes Angkorian history, court drama, Buddhist narratives, dance, royal ceremony, border memory, and rural morality. Japanese equipment and Vietnamese technical crews often support the smaller industry.</p>"},
+      {id:"laos",title:"Lao broadcasting",html:"<p>Laos relies most heavily on radio, religious broadcasting, court ceremony, music, regional news, and imported Japanese, Thai, and Vietnamese programs. Low-cost audio reaches audiences beyond the television network.</p>"},
+      {id:"dubbing",title:"Dubbing as interpretation",html:"<p>Imported stories are translated, renamed, recast, and adjusted to local moral expectations. A child may encounter Japanese animation in Khmer, Vietnamese historical drama, Thai music, and a local Buddhist holiday broadcast in one week.</p>"},
+      {id:"rights",title:"Broadcasting rights",html:"<p>The Council treats frequencies, cross-border reception, retransmission, archives, and common petitions for more local programming as regional questions. It does not operate one common broadcasting service.</p>"},
+      {id:"language",title:"Languages of prestige and practice",html:"<p>Vietnamese, Khmer, and Lao organize domestic audiences. Japanese is the practical imperial language of advanced training and contracts. French survives as a historical prestige language without a privileged Catholic political role.</p>"},
+      {id:"guardianship",title:"Cultural guardianship",html:"<p>By the 1980s preservation doctrine funds scripts, archives, dubbing, national history, traditional music, and religious programming. Cultural autonomy expands inside rather than outside Japanese strategic primacy.</p>"}
+    ],
+    related:[{href:"japanese-consumer-economy-mekong.html",kicker:"Commercial setting",label:"Japanese Consumer Economy in the Mekong States"},{href:"common-petitions-three-states.html",kicker:"Collective demands",label:"Common Petitions of the Three States"},{href:"languages-of-vietnam.html",kicker:"Vietnamese language",label:"Languages of Vietnam"},{href:"languages-of-cambodia.html",kicker:"Khmer language",label:"Languages of Cambodia"},{href:"languages-of-laos.html",kicker:"Lao language",label:"Languages of Laos"},{href:"software-localization-in-mekong-states.html",kicker:"Digital successor",label:"Software Localization in the Mekong States"}],
+    facts:[["Principal external producer","Japan"],["Largest local industry","Vietnam"],["Cambodian strengths","Court, Buddhist, dance, and historical production"],["Lao strengths","Radio, music, religion, and regional news"],["Primary localization method","Dubbing"],["Domestic languages","Vietnamese, Khmer, and Lao"],["Regional coordinator","Council of the Three Indochinese States"],["Networks, studios, and audience figures","Open"]]
+  }),
+
+  "developmental-dissatisfaction-mekong": mekongSharedArticle({
+    title:"Developmental dissatisfaction in the Mekong states",
+    eyebrow:"Political economy · 1970s–1980s",
+    infoboxKicker:"Demand for production inside a successful consumer order",
+    lead:"Developmental dissatisfaction was the political argument that Vietnam, Cambodia, and Laos had become stable consumers, commodity suppliers, and transport partners without receiving a proportionate share of high-value manufacturing, management, technology, and control over concessions. It became a central shared grievance during the 1970s.",
+    canon:"The first postwar generation's dissatisfaction, Vietnamese demands for manufacturing licenses, Cambodian demands for commodity terms and territorial compensation, Lao demands for control of dams and concessions, joint petitions, Japanese concessions in assembly and cultural funding, and continued strategic dependence are established. Parties, leaders, protests, legislation, exact dates, negotiated packages, and quantitative outcomes remain open.",
+    sections:[
+      {id:"generation",title:"The postwar generation",html:"<p>Officials, students, managers, and consumers who grew up after emergency rule judged the system by the factories, careers, and institutions it permitted rather than by liberation from French sovereignty alone.</p>"},
+      {id:"vietnam",title:"Vietnamese industrial demands",html:"<p>Vietnam argued that the region's largest educated population and market justified more assembly, consumer-industry licenses, local managers, electronics work, and technical education.</p>"},
+      {id:"cambodia",title:"Cambodian commodity and border demands",html:"<p>Cambodia sought better terms for rubber and other commodities, more processing at home, cultural investment, and continued Japanese support against the consequences of Thailand's western annexations.</p>"},
+      {id:"laos",title:"Lao concession demands",html:"<p>Laos demanded greater authority over dams, roads, transport revenue, resource concessions, and the technical institutions operating on its territory.</p>"},
+      {id:"joint",title:"A shared but unequal cause",html:"<p>The three governments could combine demands without agreeing on regional leadership. Cambodia and Laos wanted collective leverage but resisted any program that made Vietnam their industrial center by right.</p>"},
+      {id:"response",title:"Japanese response",html:"<p>Tokyo and Japanese firms conceded local assembly, management positions, scholarships, cultural funds, and selected licenses. Strategic technology, finance, advanced design, and decisive corporate control remained concentrated in Japan.</p>"},
+      {id:"limits",title:"Limits of developmental nationalism",html:"<p>None of the three possessed the military, financial, or industrial power to impose a reversal. Governments bargained inside a protected order whose security and consumer benefits made rupture unattractive.</p>"},
+      {id:"legacy",title:"Legacy by 1985",html:"<p>The result was neither stagnation nor autonomy. National professional classes and light industries expanded, especially in Vietnam, while the most valuable standards, patents, machines, and networks remained externally structured.</p>"}
+    ],
+    related:[{href:"japanese-consumer-economy-mekong.html",kicker:"Material background",label:"Japanese Consumer Economy in the Mekong States"},{href:"common-petitions-three-states.html",kicker:"Negotiating mechanism",label:"Common Petitions of the Three States"},{href:"council-three-indochinese-states.html",kicker:"Political forum",label:"Council of the Three Indochinese States"},{href:"vietnam.html",kicker:"Industrial claimant",label:"Empire of Vietnam"},{href:"cambodia.html",kicker:"Commodity claimant",label:"Kingdom of Cambodia"},{href:"laos.html",kicker:"Concession claimant",label:"Kingdom of Laos"}],
+    facts:[["Principal period","1970s–1980s"],["Vietnamese priority","Manufacturing licenses and management"],["Cambodian priority","Commodity terms, processing, and border support"],["Lao priority","Control of dams, roads, and concessions"],["Collective instrument","Common petitions through the Council"],["Japanese concessions","Assembly, management, scholarships, and cultural funding"],["Strategic independence achieved","No"],["Detailed settlements and outcomes","Open"]]
+  }),
+
+  "common-petitions-three-states": mekongSharedArticle({
+    title:"Common petitions of the Three States",
+    eyebrow:"Regional diplomacy · collective bargaining with Japan",
+    infoboxKicker:"Council mechanism for shared demands",
+    lead:"Common petitions are the principal diplomatic instrument through which Vietnam, Cambodia, and Laos convert limited regional agreement into bargaining weight inside the Co-Prosperity Sphere. The petitions place shared economic, technical, cultural, or border concerns before Japanese ministries and Sphere boards without claiming an independent common foreign policy.",
+    canon:"Joint petitions, Council preparation, demands for licenses, development funds, local programming, representation, commodity terms, and complaints concerning Thai practice are established. Petition titles, dates, signatories, response deadlines, voting rules, Japanese receiving offices, and individual outcomes remain open.",
+    sections:[
+      {id:"purpose",title:"Purpose",html:"<p>A single minor protected state can be deferred, divided among ministries, or made dependent upon one corporate sponsor. A common petition presents the same problem as a regional administrative cost that Tokyo has reason to settle.</p>"},
+      {id:"preparation",title:"Preparation in the Council",html:"<p>National delegates identify the narrow area of agreement, remove claims that imply federation or Vietnamese command, and attach technical evidence from transport, health, customs, education, or commodity agencies.</p>"},
+      {id:"licenses",title:"Industry and development",html:"<p>The three states can request consumer-industry licenses, shared development funds, management positions, technical schools, and local assembly rights. Vietnam often supplies the strongest industrial case; Cambodia and Laos insist upon distributed benefit.</p>"},
+      {id:"culture",title:"Media and cultural representation",html:"<p>Petitions seek more local-language programming, archive funds, dubbing rights, script support, scholarships, and representation on Sphere health, education, and cultural boards.</p>"},
+      {id:"trade",title:"Commodity and transit demands",html:"<p>Joint submissions address commodity prices, customs transit, freight standards, river works, and the terms under which Japanese firms use national infrastructure and concessions.</p>"},
+      {id:"thailand",title:"Complaints concerning Thailand",html:"<p>Cambodia can obtain Vietnamese and Lao support for complaints about Thai trade or border practices. The common voice increases diplomatic cost but cannot force a strategic reversal or restore annexed territory.</p>"},
+      {id:"response",title:"Japanese response",html:"<p>Tokyo may grant funds, licenses, representation, studies, or mediated talks while rejecting military, territorial, or independent diplomatic claims. Ministries can also separate the package and reward members differently.</p>"},
+      {id:"character",title:"A caucus, not a directing power",html:"<p>Common petitions give the Three States leverage and a record of collective interest. They do not create common citizenship, an executive, a military, or authority to bind the Sphere.</p>"}
+    ],
+    related:[{href:"council-three-indochinese-states.html",kicker:"Preparing body",label:"Council of the Three Indochinese States"},{href:"developmental-dissatisfaction-mekong.html",kicker:"Principal political cause",label:"Developmental Dissatisfaction in the Mekong States"},{href:"three-states-customs-transit.html",kicker:"Commercial subject",label:"Three States Customs Transit"},{href:"three-states-public-health-cooperation.html",kicker:"Technical subject",label:"Three States Public-Health Cooperation"},{href:"media-dubbing-mekong-states.html",kicker:"Cultural subject",label:"Media and Dubbing in the Mekong States"},{href:"japan.html",kicker:"Receiving power",label:"Empire of Japan"}],
+    facts:[["Petitioning states","Vietnam, Cambodia, and Laos"],["Preparing forum","Council of the Three Indochinese States"],["Recipient","Japanese ministries and Sphere boards"],["Typical economic claims","Licenses, funds, commodity terms, and transit"],["Typical cultural claims","Programming, archives, scholarships, and representation"],["Strategic claims enforceable","No"],["Independent common foreign policy","None"],["Individual petitions and outcomes","Open"]]
+  })
+});
+
+const addMekongSharedRelated = (slug, links) => {
+  const article = window.deepArticles[slug];
+  if (!article) return;
+  article.related = [...(article.related || []), ...links.filter(link => !(article.related || []).some(existing => existing.href === link.href))];
+};
+
+addMekongSharedRelated("council-three-indochinese-states",[{href:"mekong-river-administration.html",kicker:"River function",label:"Mekong River Administration"},{href:"three-states-transport-system.html",kicker:"Transport function",label:"Three States Transport System"},{href:"three-states-customs-transit.html",kicker:"Customs function",label:"Three States Customs Transit"},{href:"three-states-public-health-cooperation.html",kicker:"Health function",label:"Three States Public-Health Cooperation"},{href:"common-petitions-three-states.html",kicker:"Diplomatic function",label:"Common Petitions of the Three States"}]);
+addMekongSharedRelated("indochina",[{href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"},{href:"japanese-consumer-economy-mekong.html",kicker:"Shared political economy",label:"Japanese Consumer Economy in the Mekong States"},{href:"media-dubbing-mekong-states.html",kicker:"Shared cultural market",label:"Media and Dubbing in the Mekong States"}]);
+addMekongSharedRelated("mekong-states",[{href:"three-states-transport-system.html",kicker:"Shared infrastructure",label:"Three States Transport System"},{href:"developmental-dissatisfaction-mekong.html",kicker:"Shared political economy",label:"Developmental Dissatisfaction"},{href:"common-petitions-three-states.html",kicker:"Shared diplomacy",label:"Common Petitions of the Three States"}]);
+addMekongSharedRelated("vietnam",[{href:"japanese-consumer-economy-mekong.html",kicker:"Regional market",label:"Japanese Consumer Economy in the Mekong States"},{href:"media-dubbing-mekong-states.html",kicker:"Regional culture",label:"Media and Dubbing in the Mekong States"},{href:"developmental-dissatisfaction-mekong.html",kicker:"Industrial politics",label:"Developmental Dissatisfaction"}]);
+addMekongSharedRelated("cambodia",[{href:"mekong-river-administration.html",kicker:"Regional river system",label:"Mekong River Administration"},{href:"three-states-customs-transit.html",kicker:"Trade and border practice",label:"Three States Customs Transit"},{href:"media-dubbing-mekong-states.html",kicker:"Regional culture",label:"Media and Dubbing in the Mekong States"}]);
+addMekongSharedRelated("laos",[{href:"three-states-transport-system.html",kicker:"Corridor system",label:"Three States Transport System"},{href:"mekong-river-administration.html",kicker:"River system",label:"Mekong River Administration"},{href:"developmental-dissatisfaction-mekong.html",kicker:"Concession politics",label:"Developmental Dissatisfaction"}]);
+addMekongSharedRelated("computing-in-mekong-states",[{href:"japanese-consumer-economy-mekong.html",kicker:"Consumer setting",label:"Japanese Consumer Economy in the Mekong States"},{href:"media-dubbing-mekong-states.html",kicker:"Localization precedent",label:"Media and Dubbing in the Mekong States"}]);
+addMekongSharedRelated("software-localization-in-mekong-states",[{href:"media-dubbing-mekong-states.html",kicker:"Earlier localization system",label:"Media and Dubbing in the Mekong States"}]);
