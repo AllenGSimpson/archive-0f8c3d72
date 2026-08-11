@@ -1764,6 +1764,15 @@ const pages = [
   { title: "Mixed Urban Ethnolects of Integral Japan", description: "Urban identity speech combining Japanese and Korean or Taiwanese linguistic resources", href: "mixed-urban-ethnolects-integral-japan.html", tags: "japan mixed urban ethnolect korean taiwan hokkien hakka contact language" },
   { title: "Modern Vocabulary in the Endangered Languages of Japan", description: "Native coinage, related-language borrowing, and Japanese adaptation for modern life", href: "modern-vocabulary-endangered-languages-japan.html", tags: "japan endangered language modern vocabulary coinage borrowing korean taiwan preservation" },
   { title: "Authenticity in Japanese Language Preservation", description: "The contest among archival, community, and living standards for endangered-language policy", href: "authenticity-language-preservation-japan.html", tags: "japan language preservation authenticity archival community living korean taiwan" },
+  { title: "Rise of Japanese Preservationism", description: "The scholarly and cultural movement that entered high imperial politics between 1970 and 1977", href: "rise-japanese-preservationism.html", tags: "japan preservationism rise 1970 1977 culture language archives movement" },
+  { title: "Cultural Surveys and Archives in Imperial Japan", description: "Fieldwork, recordings, dictionaries, museums, religious repositories, and regional collections", href: "cultural-surveys-archives-japan.html", tags: "japan cultural surveys archives recordings dictionaries museums religion preservation" },
+  { title: "Preservationist High Period in Japan", description: "The movement's governing influence over language, return, autonomy, and particularism from 1977 to 1985", href: "preservationist-high-period-japan.html", tags: "japan preservationist high period 1977 1985 home return particularism" },
+  { title: "Japanese Cultural Particularism", description: "Protection of distinct cultures and homelands within Japanese strategic leadership", href: "japanese-cultural-particularism.html", tags: "japan cultural particularism geacps language homeland religion institutions" },
+  { title: "Disappointments of Japanese Preservationism", description: "The movement's linguistic, Burmese, Pacific, corporate, and administrative limits", href: "preservationist-disappointments.html", tags: "japan preservationism disappointment burma language pacific corporate decline" },
+  { title: "Decline of Japanese Preservationism", description: "The gradual post-1985 loss of preservationism's authority as a governing doctrine", href: "decline-japanese-preservationism.html", tags: "japan preservationism decline after 1985 burma generation politics" },
+  { title: "Post-Preservationist Consensus in Japan", description: "The hierarchy-first settlement placing order, function, and security before political reconstruction", href: "post-preservationist-consensus-japan.html", tags: "japan post preservationist consensus culture order function security hierarchy" },
+  { title: "Post-Preservationist Cultural Administration in Japan", description: "Archives, museums, schools, broadcasting, councils, ceremonies, and grants after the movement's decline", href: "post-preservationist-cultural-administration.html", tags: "japan post preservationist cultural administration archives museums schools broadcasting" },
+  { title: "Generational Reception of Japanese Preservationism", description: "Older restoration obligations and younger attitudes toward inherited integrated identities", href: "generational-reception-preservationism-japan.html", tags: "japan preservationism generation heritage restoration youth memory" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6231,6 +6240,15 @@ const crossLinks = [
   ,{ href: "mixed-urban-ethnolects-integral-japan.html", terms: ["mixed urban ethnolects", "urban ethnolects"] }
   ,{ href: "modern-vocabulary-endangered-languages-japan.html", terms: ["modern vocabulary in the endangered languages of Japan", "modern vocabulary in endangered languages"] }
   ,{ href: "authenticity-language-preservation-japan.html", terms: ["authenticity in Japanese language preservation", "archival authenticity", "community authenticity", "living authenticity"] }
+  ,{ href: "rise-japanese-preservationism.html", terms: ["rise of Japanese preservationism", "preservationist rise"] }
+  ,{ href: "cultural-surveys-archives-japan.html", terms: ["cultural surveys and archives in imperial Japan", "cultural surveys and archives"] }
+  ,{ href: "preservationist-high-period-japan.html", terms: ["preservationist high period in Japan", "preservationist high period"] }
+  ,{ href: "japanese-cultural-particularism.html", terms: ["Japanese cultural particularism", "cultural particularism"] }
+  ,{ href: "preservationist-disappointments.html", terms: ["disappointments of Japanese preservationism", "preservationist disappointments"] }
+  ,{ href: "decline-japanese-preservationism.html", terms: ["decline of Japanese preservationism", "preservationist decline"] }
+  ,{ href: "post-preservationist-consensus-japan.html", terms: ["post-preservationist consensus in Japan", "post-preservationist consensus"] }
+  ,{ href: "post-preservationist-cultural-administration.html", terms: ["post-preservationist cultural administration", "preservation after preservationism"] }
+  ,{ href: "generational-reception-preservationism-japan.html", terms: ["generational reception of Japanese preservationism", "preservationist generation"] }
 ];
 
 function escapePattern(value) {
