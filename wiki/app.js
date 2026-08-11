@@ -1,4 +1,12 @@
 const pages = [
+  { title: "Life on Mars", description: "Habitat, maintenance, supplies, communications, work, and community in the first settlements", href: "life-on-mars.html", tags: "life on mars daily life settlement habitat routine society germany britain america japan" },
+  { title: "Martian Timekeeping and Work Cycles", description: "Local solar time, mission clocks, Earth reference, shifts, sleep, and records", href: "martian-timekeeping-work-cycles.html", tags: "martian timekeeping work cycles sol clocks shifts sleep calendar mars" },
+  { title: "Mars Communications Delay", description: "Delayed authority, consultation, personal messages, relays, and local decisions", href: "mars-communications-delay.html", tags: "mars communications delay light time relays earth messages authority conjunction" },
+  { title: "Food and Water in the Early Martian Settlements", description: "Landed stores, recovery, local processing, hydroponics, rationing, and dependence", href: "food-water-early-martian-settlements.html", tags: "food water early martian settlements stores recovery hydroponics rationing life support" },
+  { title: "Medicine and Emergency Care on Mars", description: "Local treatment, delayed consultation, characteristic hazards, mental health, and evacuation limits", href: "medicine-emergency-care-mars.html", tags: "medicine emergency care mars physician medical health injury evacuation radiation dust" },
+  { title: "Mars Surface Mobility and Field Safety", description: "Rovers, routes, beacons, caches, field parties, dust, and rescue margin", href: "mars-surface-mobility-field-safety.html", tags: "mars surface mobility field safety rover routes beacons caches rescue dust" },
+  { title: "Law and Jurisdiction in Martian Settlements", description: "State, command, corporate, installation, safety-zone, and rescue authority", href: "law-jurisdiction-martian-settlements.html", tags: "law jurisdiction martian settlements mars state corporate safety zones claims rescue" },
+  { title: "Intersettlement Relations on Mars", description: "Operational contact, selective science, rescue, visits, exchange, and rivalry", href: "intersettlement-relations-mars.html", tags: "intersettlement relations mars diplomacy german british american japanese rescue exchange" },
   { title: "Catholic Interpretation of the 1970 German Moon Landing", description: "Scientific triumph within creation, without racial or ideological vindication", href: "catholic-interpretation-1970-moon-landing.html", tags: "catholic interpretation 1970 german moon landing religion gregory sheen" },
   { title: "Gregory XVII and the German Moon Landing", description: "The pope's congratulatory, anti-racial, and morally bounded response", href: "gregory-xvii-and-german-moon-landing.html", tags: "gregory xvii german moon landing psalm 8 papal response 1970" },
   { title: "Fulton Sheen and the German Moon Landing", description: "American Catholic commentary on technical excellence and moral accountability", href: "fulton-sheen-and-german-moon-landing.html", tags: "fulton sheen german moon landing catholic commentary technology morality" },
@@ -7113,6 +7121,14 @@ const crossLinks = [
   ,{ href: "catholic-ethics-human-spaceflight.html", terms: ["Catholic Ethics of Human Spaceflight", "Catholic spaceflight ethics"] }
   ,{ href: "catholic-critique-imperial-spaceflight.html", terms: ["Catholic Critique of Imperial Spaceflight", "Catholic critique of space empire"] }
   ,{ href: "universal-church-and-technical-latin.html", terms: ["Universal Church and Technical Latin", "Church and technical Latin"] }
+  ,{ href: "life-on-mars.html", terms: ["Life on Mars", "daily life on Mars"] }
+  ,{ href: "martian-timekeeping-work-cycles.html", terms: ["Martian timekeeping and work cycles", "Martian timekeeping", "Martian work cycles"] }
+  ,{ href: "mars-communications-delay.html", terms: ["Mars communications delay", "Earth–Mars communications delay", "Earth-Mars communications delay"] }
+  ,{ href: "food-water-early-martian-settlements.html", terms: ["Food and water in the early Martian settlements", "Martian food and water"] }
+  ,{ href: "medicine-emergency-care-mars.html", terms: ["Medicine and emergency care on Mars", "Martian medicine", "emergency care on Mars"] }
+  ,{ href: "mars-surface-mobility-field-safety.html", terms: ["Mars surface mobility and field safety", "Martian surface mobility", "field safety on Mars"] }
+  ,{ href: "law-jurisdiction-martian-settlements.html", terms: ["Law and jurisdiction in Martian settlements", "Martian jurisdiction", "law on Mars"] }
+  ,{ href: "intersettlement-relations-mars.html", terms: ["Intersettlement relations on Mars", "Martian intersettlement relations"] }
 ];
 
 function escapePattern(value) {
