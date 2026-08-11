@@ -3362,6 +3362,18 @@ const pages = [
   ,{ title: "Tobi Island", description: "Hatohobei and Helen Reef at the southern edge of the Japanese Palau district", href: "tobi-island.html", tags: "tobi hatohobei helen reef palau southwest islands" }
   ,{ title: "Tobian People", description: "The people of Hatohobei and their Koror diaspora", href: "tobian-people.html", tags: "tobian people hatohobei helen reef koror" }
   ,{ title: "Tobian Language", description: "The definitely endangered Chuukic language ramarih Hatohobei", href: "tobian-language.html", tags: "tobian language ramarih hatohobei chuukic sonsorolese endangered" }
+  ,{ title: "Carolinian Navigation", description: "Non-instrument oceanic wayfinding in the Caroline Islands", href: "carolinian-navigation.html", tags: "carolinian navigation wayfinding stars swells etak palu micronesia" }
+  ,{ title: "Etak Navigation", description: "The moving-reference positioning system of Caroline Island navigators", href: "etak-navigation.html", tags: "etak navigation reference island stars caroline micronesia" }
+  ,{ title: "Pwo", description: "Sacred initiation and recognition of Caroline Island navigators", href: "pwo-navigation-initiation.html", tags: "pwo palu initiation navigators caroline micronesia" }
+  ,{ title: "Sawei", description: "The historic exchange and hierarchy network linking Yap and its outer islands", href: "sawei-system.html", tags: "sawei yap gagil tribute exchange protection outer islands" }
+  ,{ title: "Woleai Script", description: "The indigenous syllabary developed in the Woleai region", href: "woleai-script.html", tags: "woleai script caroline islands syllabary writing glyphs" }
+  ,{ title: "Canoes of Japanese Micronesia", description: "Indigenous sailing and paddling craft across the Japanese islands", href: "micronesian-canoes.html", tags: "micronesian canoes outriggers sailing paddling shunting navigation" }
+  ,{ title: "Land Tenure in Japanese Micronesia", description: "Customary land, tree, reef, and colonial property systems", href: "land-tenure-japanese-micronesia.html", tags: "micronesia land tenure property reefs trees customary japan" }
+  ,{ title: "Christianity in Japanese Micronesia", description: "Catholic and Protestant institutions under continued Japanese government", href: "christianity-japanese-micronesia.html", tags: "micronesia christianity catholic protestant missions churches japan" }
+  ,{ title: "Education in Japanese Micronesia", description: "Mission, colonial, and postwar schooling across the Japanese islands", href: "education-japanese-micronesia.html", tags: "micronesia education schools missions colonial japanese language" }
+  ,{ title: "Japanese Language in Micronesia", description: "Japanese as the public lingua franca of the incorporated island territories", href: "japanese-language-micronesia.html", tags: "japanese language micronesia lingua franca bilingual education" }
+  ,{ title: "Indigenous Government in Japanese Micronesia", description: "Chiefs, clans, councils, and local authority within Japanese administration", href: "indigenous-government-japanese-micronesia.html", tags: "micronesia indigenous government chiefs clans councils administration" }
+  ,{ title: "Micronesian Migration and Diaspora", description: "Inter-island and metropolitan movement across Japanese Micronesia", href: "micronesian-migration-diaspora.html", tags: "micronesia migration diaspora japan saipan koror islands" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6859,6 +6871,18 @@ const crossLinks = [
   ,{ href: "tobi-island.html", terms: ["Tobi Island", "Hatohobei Island", "Helen Reef"] }
   ,{ href: "tobian-people.html", terms: ["Tobian people", "Hatohobei people"] }
   ,{ href: "tobian-language.html", terms: ["Tobian language", "ramarih Hatohobei"] }
+  ,{ href: "carolinian-navigation.html", terms: ["Carolinian navigation", "oceanic wayfinding"] }
+  ,{ href: "etak-navigation.html", terms: ["etak navigation", "etak"] }
+  ,{ href: "pwo-navigation-initiation.html", terms: ["pwo initiation", "pwo", "palu initiation"] }
+  ,{ href: "sawei-system.html", terms: ["sawei system", "sawei"] }
+  ,{ href: "woleai-script.html", terms: ["Woleai script", "Caroline Islands script"] }
+  ,{ href: "micronesian-canoes.html", terms: ["Micronesian canoes", "canoes of Japanese Micronesia"] }
+  ,{ href: "land-tenure-japanese-micronesia.html", terms: ["land tenure in Japanese Micronesia", "Micronesian land tenure"] }
+  ,{ href: "christianity-japanese-micronesia.html", terms: ["Christianity in Japanese Micronesia", "Micronesian Christianity"] }
+  ,{ href: "education-japanese-micronesia.html", terms: ["education in Japanese Micronesia", "Micronesian education"] }
+  ,{ href: "japanese-language-micronesia.html", terms: ["Japanese language in Micronesia", "Micronesian Japanese"] }
+  ,{ href: "indigenous-government-japanese-micronesia.html", terms: ["indigenous government in Japanese Micronesia", "Micronesian indigenous government"] }
+  ,{ href: "micronesian-migration-diaspora.html", terms: ["Micronesian migration and diaspora", "Micronesian diaspora"] }
 ];
 
 function escapePattern(value) {
