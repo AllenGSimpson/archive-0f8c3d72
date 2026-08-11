@@ -52,6 +52,14 @@ const pages = [
   { title: "Orbital Debris Warning System", description: "Distributed breakup, conjunction, reentry, and orbital-hazard warnings", href: "orbital-debris-warning-system.html", tags: "orbital debris warning system breakup conjunction reentry tracking passivation" },
   { title: "Inhabited-Station Approach Rules", description: "Identification, notice, communications, and maneuver procedure around crewed stations", href: "inhabited-station-approach-rules.html", tags: "inhabited station approach rules safety zone docking transponder geneva" },
   { title: "Cross-Bloc Rescue Duty", description: "The obligation to assist stranded space crews regardless of political alignment", href: "cross-bloc-rescue-duty.html", tags: "cross bloc rescue duty stranded crew humanitarian stockholm geneva space" },
+  { title: "Early Atomic-Explosive Concept", description: "Theoretical fission-weapon knowledge without a unified wartime procurement program", href: "early-atomic-explosive-concept.html", tags: "early atomic explosive concept fission chain reaction wartime theory no bomb" },
+  { title: "Atmospheric-Ignition Controversy", description: "The published atomic-risk question that shaped public ideas of the forbidden bomb", href: "atmospheric-ignition-controversy.html", tags: "atmospheric ignition controversy atomic bomb nitrogen ocean hydrogen science fiction taboo" },
+  { title: "American Atomic-Ordnance False Start", description: "The early Army study that failed to become a national weapons program", href: "american-atomic-ordnance-false-start.html", tags: "american atomic ordnance false start army b17 fissile study nuclear weapon" },
+  { title: "German Atomic-Weapons Feasibility Studies", description: "Classified assessments that established feasibility without authorizing production", href: "german-atomic-weapons-feasibility-studies.html", tags: "german atomic weapons feasibility studies nuclear latent capability production no bomb" },
+  { title: "Japanese Atomic-Weapons Assessments", description: "Japanese feasibility work and the priority given to power, propulsion, and space", href: "japanese-atomic-weapons-assessments.html", tags: "japanese atomic weapons assessments nuclear power naval propulsion reprocessing no bomb" },
+  { title: "British Atomic-Weapons Assessments", description: "British feasibility reviews under reconstruction and Commonwealth priorities", href: "british-atomic-weapons-assessments.html", tags: "british atomic weapons assessments reconstruction commonwealth nuclear power no bomb" },
+  { title: "Latin Atomic-Weapons Assessments", description: "Italian-led feasibility work inside the multinational Latin nuclear system", href: "latin-atomic-weapons-assessments.html", tags: "latin atomic weapons assessments italy occitania spain portugal nuclear no bomb" },
+  { title: "Weapons-Oriented Fissile Production", description: "The enrichment, separation, testing, and warhead branch no major power authorized", href: "weapons-fissile-production.html", tags: "weapons fissile production enriched uranium plutonium separation warhead nuclear nonarmament" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -2995,6 +3003,7 @@ topicNav.push(["Latin Scudo", "latin-scudo.html"]);
 topicNav.push(["South Seas Government", "south-seas-general-government.html"]);
 topicNav.push(["Pacific Frontiers", "pacific-frontier-islands.html"]);
 topicNav.push(["Orbital Safety Standards", "interbloc-space-safety-standards.html"]);
+topicNav.push(["Atomic Nonarmament", "nuclear-weapons-research.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -3128,6 +3137,14 @@ const crossLinks = [
   { href: "orbital-debris-warning-system.html", terms: ["Orbital debris warning system", "debris warnings", "conjunction warnings"] },
   { href: "inhabited-station-approach-rules.html", terms: ["Inhabited-station approach rules", "rules for approaching inhabited stations", "station approach rules"] },
   { href: "cross-bloc-rescue-duty.html", terms: ["Cross-bloc rescue duty", "obligation to assist a stranded crew", "assistance regardless of bloc"] },
+  { href: "early-atomic-explosive-concept.html", terms: ["Early atomic-explosive concept", "early atomic explosive concept"] },
+  { href: "atmospheric-ignition-controversy.html", terms: ["Atmospheric-ignition controversy", "atmospheric ignition controversy", "atmospheric-ignition question"] },
+  { href: "american-atomic-ordnance-false-start.html", terms: ["American atomic-ordnance false start", "American atomic ordnance study"] },
+  { href: "german-atomic-weapons-feasibility-studies.html", terms: ["German atomic-weapons feasibility studies", "German atomic weapons feasibility study"] },
+  { href: "japanese-atomic-weapons-assessments.html", terms: ["Japanese atomic-weapons assessments", "Japanese atomic weapons study"] },
+  { href: "british-atomic-weapons-assessments.html", terms: ["British atomic-weapons assessments", "British atomic weapons study"] },
+  { href: "latin-atomic-weapons-assessments.html", terms: ["Latin atomic-weapons assessments", "Latin atomic weapons study"] },
+  { href: "weapons-fissile-production.html", terms: ["Weapons-oriented fissile production", "weapons fissile-production system", "weapons-oriented fissile cycle"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
