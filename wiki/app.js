@@ -97,6 +97,11 @@ const pages = [
   { title: "Cross-Party Corporate Accommodation", description: "How durable American contractors translate programs across party coalitions", href: "cross-party-corporate-accommodation.html", tags: "cross party corporate accommodation political language contracts frontier coalitions" },
   { title: "Nominal Competition in American Strategic Industries", description: "Real specialist firms around functionally concentrated networks", href: "nominal-competition-strategic-industries.html", tags: "nominal competition strategic industries functional monopoly specialists frontier network" },
   { title: "Public Control of Indispensable Contractors", description: "Sovereign legal, procurement, regulatory, and emergency powers over essential firms", href: "public-control-indispensable-contractors.html", tags: "public control indispensable contractors procurement licensing regulation strategic ownership" },
+  { title: "House of Romanov in the Russian Far East", description: "The elected dynasty of the geographically limited Chita crown", href: "house-of-romanov-russian-far-east.html", tags: "house romanov russian far east chita tsar mikhail dynasty succession" },
+  { title: "Imperial Household of Chita", description: "The court, chancery, ceremonial staff, and patronage system serving Tsar Mikhail", href: "imperial-household-chita.html", tags: "imperial household chita court tsar mikhail romanov royal administration" },
+  { title: "Succession to the Far Eastern Throne", description: "The untested succession to an elected Romanov crown", href: "succession-far-eastern-throne.html", tags: "succession far eastern throne romanov crown council zemsky sobor heir" },
+  { title: "Romanov Legitimacy Dispute in Siberia", description: "Dynastic, constitutional, and geopolitical arguments surrounding the Chita crown", href: "romanov-legitimacy-dispute-siberia.html", tags: "romanov legitimacy dispute siberia chita mikhail dynasty japan" },
+  { title: "Romanov Drain", description: "Migration of conservative Russian state-builders toward the Chita monarchy", href: "romanov-drain.html", tags: "romanov drain migration clergy cossacks officials siberia chita" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -3046,6 +3051,7 @@ topicNav.push(["Conventional Defense", "meaningful-conventional-defense.html"]);
 topicNav.push(["Five-Power Defense", "five-power-strategic-defense-systems.html"]);
 topicNav.push(["Political Limits of Victory", "territorial-satiation.html"]);
 topicNav.push(["American Execution State", "corporate-execution-continuity.html"]);
+topicNav.push(["Chita Crown", "house-of-romanov-russian-far-east.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -3224,6 +3230,11 @@ const crossLinks = [
   { href: "cross-party-corporate-accommodation.html", terms: ["cross-party corporate accommodation", "corporate mandate translation"] },
   { href: "nominal-competition-strategic-industries.html", terms: ["nominal competition in American strategic industries", "nominal competition", "nominal competitors"] },
   { href: "public-control-indispensable-contractors.html", terms: ["public control of indispensable contractors", "indispensable contractors"] },
+  { href: "house-of-romanov-russian-far-east.html", terms: ["House of Romanov in the Russian Far East", "Far Eastern Romanov house", "Chita dynasty"] },
+  { href: "imperial-household-chita.html", terms: ["Imperial Household of Chita", "Chita household"] },
+  { href: "succession-far-eastern-throne.html", terms: ["succession to the Far Eastern throne", "Far Eastern succession"] },
+  { href: "romanov-legitimacy-dispute-siberia.html", terms: ["Romanov legitimacy dispute in Siberia", "Romanov legitimacy dispute"] },
+  { href: "romanov-drain.html", terms: ["Romanov drain"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
