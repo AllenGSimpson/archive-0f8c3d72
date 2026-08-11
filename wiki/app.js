@@ -1,4 +1,12 @@
 const pages = [
+  { title: "Lunar Society", description: "Five connected but politically distinct settlement traditions on the Moon", href: "lunar-society.html", tags: "lunar society moon settlements kennedy mondhafen serenity kaguya sancta maria" },
+  { title: "Society of Kennedy Lunar Station", description: "Corporate pluralism, households, labor, utilities, and federal authority", href: "society-kennedy-lunar-station.html", tags: "society kennedy lunar station american corporate households labor first birth" },
+  { title: "Society of Mondhafen Süd", description: "Planned industry, selected settlers, family admission, and German cislunar life", href: "society-mondhafen-sud.html", tags: "society mondhafen sud süd german lunar settlement industry families" },
+  { title: "Society of the Serenity Lunar Complex", description: "Commonwealth public service, distributed nationality, family accommodation, and shared identity", href: "society-serenity-lunar-complex.html", tags: "society serenity lunar complex commonwealth families mare serenitatis" },
+  { title: "Society of Kaguya Base", description: "Robotic preparation, Japanese command, associated participation, and compact residence", href: "society-kaguya-base.html", tags: "society kaguya base japanese lunar robotics associated states residence" },
+  { title: "Society of Sancta Maria Lunae", description: "Multinational science, technical Latin, Catholic parish life, and exploration culture", href: "society-sancta-maria-lunae.html", tags: "society sancta maria lunae latin lunar catholic parish technical latin" },
+  { title: "Lunar Civic Institutions", description: "Utilities, safety, records, labor, schools, clinics, and resident voice", href: "lunar-civic-institutions.html", tags: "lunar civic institutions settlement government utilities safety records labor schools" },
+  { title: "Interbase Relations on the Moon", description: "Transport, rescue, science, commerce, claims, and cultural exchange among five systems", href: "interbase-relations-moon.html", tags: "interbase relations moon lunar diplomacy transport rescue commerce claims" },
   { title: "Life on Mars", description: "Habitat, maintenance, supplies, communications, work, and community in the first settlements", href: "life-on-mars.html", tags: "life on mars daily life settlement habitat routine society germany britain america japan" },
   { title: "Martian Timekeeping and Work Cycles", description: "Local solar time, mission clocks, Earth reference, shifts, sleep, and records", href: "martian-timekeeping-work-cycles.html", tags: "martian timekeeping work cycles sol clocks shifts sleep calendar mars" },
   { title: "Mars Communications Delay", description: "Delayed authority, consultation, personal messages, relays, and local decisions", href: "mars-communications-delay.html", tags: "mars communications delay light time relays earth messages authority conjunction" },
@@ -7129,6 +7137,14 @@ const crossLinks = [
   ,{ href: "mars-surface-mobility-field-safety.html", terms: ["Mars surface mobility and field safety", "Martian surface mobility", "field safety on Mars"] }
   ,{ href: "law-jurisdiction-martian-settlements.html", terms: ["Law and jurisdiction in Martian settlements", "Martian jurisdiction", "law on Mars"] }
   ,{ href: "intersettlement-relations-mars.html", terms: ["Intersettlement relations on Mars", "Martian intersettlement relations"] }
+  ,{ href: "lunar-society.html", terms: ["Lunar society", "society on the Moon"] }
+  ,{ href: "society-kennedy-lunar-station.html", terms: ["Society of Kennedy Lunar Station", "Kennedy lunar society"] }
+  ,{ href: "society-mondhafen-sud.html", terms: ["Society of Mondhafen Süd", "Mondhafen society"] }
+  ,{ href: "society-serenity-lunar-complex.html", terms: ["Society of the Serenity Lunar Complex", "Society of Serenity", "Serenity lunar society"] }
+  ,{ href: "society-kaguya-base.html", terms: ["Society of Kaguya Base", "Kaguya society"] }
+  ,{ href: "society-sancta-maria-lunae.html", terms: ["Society of Sancta Maria Lunae", "Sancta Maria lunar society"] }
+  ,{ href: "lunar-civic-institutions.html", terms: ["Lunar civic institutions", "lunar settlement institutions"] }
+  ,{ href: "interbase-relations-moon.html", terms: ["Interbase relations on the Moon", "lunar interbase relations"] }
 ];
 
 function escapePattern(value) {
