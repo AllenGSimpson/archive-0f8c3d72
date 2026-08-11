@@ -2821,6 +2821,17 @@ const pages = [
   { title: "Italian Raumhafen Module", description: "Italy's first foreign scientific facility aboard the German orbital harbor", href: "italian-raumhafen-module.html", tags: "italian italy raumhafen module science solar radiation medicine materials 1983" },
   { title: "Jurisdiction aboard the Orbitaler Raumhafen", description: "National internal law within German station-wide and emergency authority", href: "raumhafen-jurisdiction.html", tags: "raumhafen jurisdiction command criminal commercial emergency authority language modules" },
   { title: "American Presence at the Orbitaler Raumhafen", description: "American refusal, later participation, and commercial service at the German station", href: "american-presence-orbitaler-raumhafen.html", tags: "american united states raumhafen module frontier commercial presence 1990s" },
+  { title: "Resident Service Corps of the Orbitaler Raumhafen", description: "Permanent technical and domestic labor aboard the international orbital harbor", href: "raumhafen-resident-service-corps.html", tags: "raumhafen resident service corps workforce technicians cargo cooks sanitation station" },
+  { title: "Tours and Rotation aboard the Orbitaler Raumhafen", description: "Work tours, leave, handover, and long-duration residence", href: "raumhafen-tours-rotation.html", tags: "raumhafen tours rotation crew resident leave handover long duration" },
+  { title: "Habitation aboard the Orbitaler Raumhafen", description: "Quarters, sleep, hygiene, privacy, and partial gravity", href: "raumhafen-habitation.html", tags: "raumhafen habitation quarters sleep hygiene privacy rotating gravity" },
+  { title: "Food and Messes aboard the Orbitaler Raumhafen", description: "Provisioning, national kitchens, hydroponics, and shared tables", href: "raumhafen-food-messes.html", tags: "raumhafen food mess galley kitchen hydroponics provisioning meals" },
+  { title: "Medical Service of the Orbitaler Raumhafen", description: "Preventive medicine, emergency care, evacuation, and multinational health authority", href: "raumhafen-medical-service.html", tags: "raumhafen medical service clinic physician evacuation psychology health" },
+  { title: "Worship aboard the Orbitaler Raumhafen", description: "Religious accommodation and common memorial observance in orbit", href: "raumhafen-worship.html", tags: "raumhafen worship religion chapel catholic protestant order faith buddhist shinto" },
+  { title: "Media and Communications aboard the Orbitaler Raumhafen", description: "News, entertainment, personal contact, and journalism inside the station", href: "raumhafen-media.html", tags: "raumhafen media communications news entertainment journalist personal messages" },
+  { title: "Recreation and Common Spaces aboard the Orbitaler Raumhafen", description: "Exercise, leisure, informal diplomacy, and Promenadenring public life", href: "raumhafen-recreation-common-spaces.html", tags: "raumhafen recreation common spaces exercise clubs promenade public life" },
+  { title: "Emergency Customs of the Orbitaler Raumhafen", description: "Drills, alarms, refuge, mutual aid, and German technical command", href: "raumhafen-emergency-customs.html", tags: "raumhafen emergency customs drills alarms refuge evacuation mutual aid" },
+  { title: "Families and Dependents aboard the Orbitaler Raumhafen", description: "The emergence of household residence in the mature orbital district", href: "raumhafen-families-dependents.html", tags: "raumhafen families dependents spouses children household promenadenring settlement" },
+  { title: "Death and Memorial Practice aboard the Orbitaler Raumhafen", description: "Recovery, notification, religious rites, inquiry, and common remembrance", href: "raumhafen-memorial-practice.html", tags: "raumhafen death memorial practice remains funeral names inquiry" },
   { title: "Elvis Presley", description: "The uninterrupted career of the first rock generation's singular celebrity", href: "elvis-presley.html", tags: "elvis presley king rock roll memphis sun rca buddy holly no draft" },
   { title: "Johnny Cash", description: "The rural moral voice of workers, prisoners, soldiers, and excluded men", href: "johnny-cash.html", tags: "johnny cash man in black country gospel prisons workers soldiers sun records" },
   { title: "Frank Sinatra", description: "The old urban-establishment star across radio, film, records, and television", href: "frank-sinatra.html", tags: "frank sinatra urban establishment hoboken capitol reprise spectator war" },
@@ -6240,6 +6251,17 @@ const crossLinks = [
   ,{ href: "italian-raumhafen-module.html", terms: ["Italian Raumhafen module", "Italian module"] }
   ,{ href: "raumhafen-jurisdiction.html", terms: ["jurisdiction aboard the Orbitaler Raumhafen", "Raumhafen jurisdiction", "station-wide emergency authority"] }
   ,{ href: "american-presence-orbitaler-raumhafen.html", terms: ["American presence at the Orbitaler Raumhafen", "American Raumhafen presence", "American module"] }
+  ,{ href: "raumhafen-resident-service-corps.html", terms: ["Resident Service Corps of the Orbitaler Raumhafen", "Raumhafen resident service corps", "station service corps"] }
+  ,{ href: "raumhafen-tours-rotation.html", terms: ["tours and rotation aboard the Orbitaler Raumhafen", "Raumhafen tours", "station rotation"] }
+  ,{ href: "raumhafen-habitation.html", terms: ["habitation aboard the Orbitaler Raumhafen", "Raumhafen habitation", "station quarters"] }
+  ,{ href: "raumhafen-food-messes.html", terms: ["food and messes aboard the Orbitaler Raumhafen", "Raumhafen messes", "station messes"] }
+  ,{ href: "raumhafen-medical-service.html", terms: ["Medical Service of the Orbitaler Raumhafen", "Raumhafen medical service", "station clinic"] }
+  ,{ href: "raumhafen-worship.html", terms: ["worship aboard the Orbitaler Raumhafen", "Raumhafen worship", "station worship"] }
+  ,{ href: "raumhafen-media.html", terms: ["media and communications aboard the Orbitaler Raumhafen", "Raumhafen media", "station media"] }
+  ,{ href: "raumhafen-recreation-common-spaces.html", terms: ["recreation and common spaces aboard the Orbitaler Raumhafen", "Raumhafen recreation", "station common spaces"] }
+  ,{ href: "raumhafen-emergency-customs.html", terms: ["emergency customs of the Orbitaler Raumhafen", "Raumhafen emergency customs", "station emergency customs"] }
+  ,{ href: "raumhafen-families-dependents.html", terms: ["families and dependents aboard the Orbitaler Raumhafen", "Raumhafen families", "station dependents"] }
+  ,{ href: "raumhafen-memorial-practice.html", terms: ["death and memorial practice aboard the Orbitaler Raumhafen", "Raumhafen memorial practice", "station memorial register"] }
   ,{ href: "elvis-presley.html", terms: ["Elvis Presley", "King of Rock and Roll"] }
   ,{ href: "johnny-cash.html", terms: ["Johnny Cash", "Man in Black"] }
   ,{ href: "frank-sinatra.html", terms: ["Frank Sinatra"] }
