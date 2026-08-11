@@ -1748,6 +1748,14 @@ const pages = [
   { title: "Nationality in the Co-Prosperity Sphere", description: "Separate nationalities, inherited citizenship, rejected dual nationality, and return rights across the Sphere", href: "nationality-geacps.html", tags: "geacps nationality citizenship paternal inheritance dual nationality home return mandate" },
   { title: "Treaty Residence in the Co-Prosperity Sphere", description: "Cross-border work, property, courts, schools, and domicile without automatic citizenship", href: "treaty-residence-geacps.html", tags: "geacps treaty residence residents domicile work property courts schools naturalization" },
   { title: "Japanese Reserve Supremacy", description: "Tokyo's final authority over strategic force, finance, transport, machinery, shipping, and arbitration", href: "japanese-reserve-supremacy.html", tags: "japan geacps reserve supremacy military ceiling finance clearing transport shipping arbitration" },
+  { title: "Technology and Culture in the Co-Prosperity Sphere", description: "National-language localization atop Japanese standards, machinery, and strategic technical command", href: "technology-culture-geacps.html", tags: "geacps technology culture localization japan standards computing software semiconductors" },
+  { title: "Digitization of Asian Writing Systems", description: "Japanese-sponsored character registries for traditional Chinese, Khmer, Lao, Hán-Nôm, Tibetan, Uyghur, and other scripts", href: "asian-script-digitization.html", tags: "geacps asian script digitization unicode 80 chinese khmer lao han nom tibetan uyghur" },
+  { title: "National Interface and Japanese Architecture", description: "The Sphere formula joining visible national localization to Japanese technical infrastructure", href: "national-interface-japanese-architecture.html", tags: "geacps national interface japanese architecture localization computing mekong" },
+  { title: "Corporate Computing in the Co-Prosperity Sphere", description: "Data processing in banks, trading houses, transport, utilities, concessions, and government", href: "corporate-computing-geacps.html", tags: "geacps corporate computing banks railways ports utilities shipping procurement" },
+  { title: "Factory Computing in the Co-Prosperity Sphere", description: "Japanese industrial control, numerical control, quality systems, and automation across Asian production", href: "factory-computing-geacps.html", tags: "geacps factory computing industrial control automation numerical control manchukuo japan" },
+  { title: "Local Software Industries in the Co-Prosperity Sphere", description: "National application, publishing, administrative, business, and preservation software", href: "local-software-industries-geacps.html", tags: "geacps local software industry vietnam publishing administration business preservation" },
+  { title: "Semiconductor Division of Labor in the Co-Prosperity Sphere", description: "Tokyo command, Kansai equipment, Kyūshū fabrication, and Taiwan's selected supporting role", href: "semiconductor-division-labor-geacps.html", tags: "geacps semiconductor division labor tokyo kansai kyushu taiwan formosa shinchiku" },
+  { title: "Strategic Technology Command in the Co-Prosperity Sphere", description: "Japanese control of advanced design, machinery, electronics, standards, and system integration", href: "strategic-technology-command-geacps.html", tags: "geacps strategic technology command japan ceiling licensing machine tools patents semiconductors" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6199,6 +6207,14 @@ const crossLinks = [
   ,{ href: "nationality-geacps.html", terms: ["nationality in the Co-Prosperity Sphere", "Sphere nationality"] }
   ,{ href: "treaty-residence-geacps.html", terms: ["treaty residence in the Co-Prosperity Sphere", "treaty residence", "treaty residents"] }
   ,{ href: "japanese-reserve-supremacy.html", terms: ["Japanese reserve supremacy", "reserve supremacy"] }
+  ,{ href: "technology-culture-geacps.html", terms: ["technology and culture in the Co-Prosperity Sphere", "Sphere technical-cultural system"] }
+  ,{ href: "asian-script-digitization.html", terms: ["digitization of Asian writing systems", "Asian script digitization"] }
+  ,{ href: "national-interface-japanese-architecture.html", terms: ["national interface and Japanese architecture", "the interface is national; the architecture is Japanese"] }
+  ,{ href: "corporate-computing-geacps.html", terms: ["corporate computing in the Co-Prosperity Sphere", "Sphere corporate computing"] }
+  ,{ href: "factory-computing-geacps.html", terms: ["factory computing in the Co-Prosperity Sphere", "Sphere factory computing"] }
+  ,{ href: "local-software-industries-geacps.html", terms: ["local software industries in the Co-Prosperity Sphere", "Sphere local software industries"] }
+  ,{ href: "semiconductor-division-labor-geacps.html", terms: ["semiconductor division of labor in the Co-Prosperity Sphere", "Sphere semiconductor division of labor"] }
+  ,{ href: "strategic-technology-command-geacps.html", terms: ["strategic technology command in the Co-Prosperity Sphere", "strategic technology command"] }
 ];
 
 function escapePattern(value) {
