@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Latin Space Community operational chain</title>
+  <desc id="desc">A diagram connecting industrial workshare, launch, crewed flight, tracking and recovery, with medicine and common certification across the entire chain.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#211b20"/><stop offset="1" stop-color="#08121a"/></linearGradient>
+    <linearGradient id="active" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8c6132"/><stop offset="1" stop-color="#4f2e28"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000" flood-opacity=".4"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d5a65f"/></marker>
+    <style>
+      .title{font:700 30px Georgia,serif;fill:#f8f0e5}.sub{font:15px system-ui,sans-serif;fill:#c4b8ad}.box{fill:#151d25;stroke:#766b65;stroke-width:1.6}.active{fill:url(#active);stroke:#edc78d;stroke-width:2}.label{font:700 19px system-ui,sans-serif;fill:#fbf3e9}.role{font:14px system-ui,sans-serif;fill:#c8c4c1}.tag{font:700 12px system-ui,sans-serif;fill:#efbf78;letter-spacing:.08em}.line{fill:none;stroke:#d5a65f;stroke-width:3;marker-end:url(#arrow)}.support{fill:#101821;stroke:#8c7c72;stroke-width:1.5}.footer{font:14px system-ui,sans-serif;fill:#bcb4ae}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g transform="translate(38 38)"><text class="title">One mission, five linked systems</text><text y="31" class="sub">Factory acceptance, flight, and safe return remain jointly certified across the Latin Community</text></g>
+  <path class="line" d="M266 260H374"/><path class="line" d="M574 260H682"/><path class="line" d="M882 260H990"/>
+  <g transform="translate(40 180)" filter="url(#shadow)"><rect class="box" width="226" height="160" rx="18"/><text class="tag" x="22" y="34">INDUSTRIAL WORKSHARE</text><text class="label" x="22" y="72">National factories</text><text class="role" x="22" y="102">structures · propulsion</text><text class="role" x="22" y="127">avionics · acceptance</text></g>
+  <g transform="translate(374 180)" filter="url(#shadow)"><rect class="box" width="200" height="160" rx="18"/><text class="tag" x="22" y="34">LAUNCH SYSTEM</text><text class="label" x="22" y="72">San Marco</text><text class="role" x="22" y="102">range · vehicle</text><text class="role" x="22" y="127">flight readiness</text></g>
+  <g transform="translate(682 180)" filter="url(#shadow)"><rect class="active" width="200" height="160" rx="18"/><text class="tag" x="22" y="34">ASTRONAUT CORPS</text><text class="label" x="22" y="72">Crewed flight</text><text class="role" x="22" y="102">Aquila · Concordia</text><text class="role" x="22" y="127">Stella Maris</text></g>
+  <g transform="translate(990 180)" filter="url(#shadow)"><rect class="box" width="170" height="160" rx="18"/><text class="tag" x="18" y="34">SAFE RETURN</text><text class="label" x="18" y="72">Recovery</text><text class="role" x="18" y="102">ships · aircraft</text><text class="role" x="18" y="127">divers · care</text></g>
+  <path d="M474 340V422H1075V340" fill="none" stroke="#7db6c7" stroke-width="2.5" stroke-dasharray="7 7"/>
+  <g transform="translate(302 418)" filter="url(#shadow)"><rect class="support" width="360" height="105" rx="16"/><text class="tag" x="22" y="32">TRACKING AND RECOVERY NETWORK</text><text class="role" x="22" y="62">telemetry · weather · navigation · command</text><text class="role" x="22" y="84">Atlantic islands · Africa · ships · stations</text></g>
+  <g transform="translate(706 418)" filter="url(#shadow)"><rect class="support" width="300" height="105" rx="16"/><text class="tag" x="22" y="32">SPACE MEDICINE</text><text class="role" x="22" y="62">selection · life support · quarantine</text><text class="role" x="22" y="84">maritime care · long-duration health</text></g>
+  <path d="M482 418V380H856V418" fill="none" stroke="#8c7c72" stroke-width="2"/>
+  <text x="600" y="593" text-anchor="middle" class="label">Common interfaces and joint certification</text>
+  <text x="600" y="621" text-anchor="middle" class="footer">Technical Latin, shared records, and multinational sign-off connect every handover.</text>
+</svg>

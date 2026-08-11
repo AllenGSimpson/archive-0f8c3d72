@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Latin Astronaut Corps", description: "The multinational selection, training, and crew-representation system of the Latin Space Community", href: "latin-astronaut-corps.html", tags: "latin astronaut corps aquila crew training italy occitania spain portugal" },
+  { title: "Latin Launch System", description: "Shared launch vehicles, ranges, certification, and independent orbital access", href: "latin-launch-system.html", tags: "latin launch system launcher vehicle san marco range certification propulsion orbital access" },
+  { title: "Latin Tracking and Recovery Network", description: "The Portuguese-led stations, weather services, ships, and recovery chain", href: "latin-tracking-recovery-network.html", tags: "latin tracking recovery network portugal azores madeira cape verde telemetry navigation ships" },
+  { title: "Latin Space Medicine", description: "Crew selection, life support, maritime care, and long-duration health", href: "latin-space-medicine.html", tags: "latin space medicine astronaut health life support quarantine recovery portugal aquila" },
+  { title: "Latin Space Industrial Workshare", description: "The treaty division of procurement, certification, and industrial return", href: "latin-space-industrial-workshare.html", tags: "latin space industrial workshare procurement certification interfaces italy occitania spain portugal" },
   { title: "Italian Space Program", description: "Italy's launch, propulsion, range, life-support, and mission-integration system", href: "italian-space-program.html", tags: "italian space program italy latin community san marco broglio aquila stella maris ceres" },
   { title: "Occitan Space Program", description: "Occitania's avionics, guidance, computing, docking, and systems-integration program", href: "occitan-space-program.html", tags: "occitan space program occitania toulouse avionics guidance computing docking telemetry stella maris" },
   { title: "Spanish Space Program", description: "Spain's structural, thermal, solar-power, fabrication, test, and astronomy program", href: "spanish-space-program.html", tags: "spanish space program spain structures solar arrays thermal tests astronomy aquila stella maris" },
@@ -7029,6 +7034,11 @@ const crossLinks = [
   ,{ href: "occitan-space-program.html", terms: ["Occitan Space Program", "Occitan space program"] }
   ,{ href: "spanish-space-program.html", terms: ["Spanish Space Program", "Spanish space program"] }
   ,{ href: "portuguese-space-program.html", terms: ["Portuguese Space Program", "Portuguese space program"] }
+  ,{ href: "latin-astronaut-corps.html", terms: ["Latin Astronaut Corps", "Latin astronaut corps"] }
+  ,{ href: "latin-launch-system.html", terms: ["Latin Launch System", "Latin launch system"] }
+  ,{ href: "latin-tracking-recovery-network.html", terms: ["Latin Tracking and Recovery Network", "Latin tracking and recovery network"] }
+  ,{ href: "latin-space-medicine.html", terms: ["Latin Space Medicine", "Latin space medicine"] }
+  ,{ href: "latin-space-industrial-workshare.html", terms: ["Latin Space Industrial Workshare", "Latin space industrial workshare"] }
 ];
 
 function escapePattern(value) {
