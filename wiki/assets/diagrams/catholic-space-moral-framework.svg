@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Catholic moral framework for spaceflight</title>
+  <desc id="desc">Scientific achievement passes through Catholic principles of dignity, creatureliness, stewardship, and universal moral law before being applied to crews, empire, military power, and language.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111722"/><stop offset="1" stop-color="#252334"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b4914e"/><stop offset="1" stop-color="#795d2e"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".36"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#b7bacd"/></marker>
+    <style>.t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#f0f1f5}.muted{fill:#b6b7c2}.head{font-size:31px;font-weight:700}.sub{font-size:16px}.boxhead{font-size:20px;font-weight:700}.body{font-size:15px}.line{stroke:#b7bacd;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="690" rx="22" fill="url(#bg)"/>
+  <text x="60" y="58" class="t head">Catholic moral interpretation of spaceflight</text>
+  <text x="60" y="86" class="t muted sub">Technical achievement is affirmed, then judged by duties that no flag, ideology, or engineering success can suspend.</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="215" width="270" height="210" rx="18" fill="#2c3747" stroke="#65728d"/>
+    <text x="190" y="263" text-anchor="middle" class="t boxhead">Scientific achievement</text>
+    <text x="85" y="305" class="t body">reason · courage · workmanship</text>
+    <text x="85" y="337" class="t body">cooperation · discovery · service</text>
+    <text x="85" y="382" class="t body">Genuine excellence deserves honor.</text>
+  </g>
+  <path d="M325 320H415" class="line"/>
+  <g filter="url(#shadow)"><rect x="415" y="145" width="350" height="350" rx="22" fill="url(#core)" stroke="#dfc989" stroke-width="2"/></g>
+  <text x="590" y="197" text-anchor="middle" class="t boxhead">Moral framework</text>
+  <line x1="458" y1="225" x2="722" y2="225" stroke="#eadba9" opacity=".72"/>
+  <text x="465" y="270" class="t body">Human dignity — no expendable persons</text>
+  <text x="465" y="310" class="t body">Creatureliness — beyond Earth, within creation</text>
+  <text x="465" y="350" class="t body">Stewardship — power enlarges responsibility</text>
+  <text x="465" y="390" class="t body">Universality — no race owns reason</text>
+  <text x="465" y="430" class="t body">Moral independence — success does not absolve</text>
+  <path d="M765 320H845" class="line"/>
+  <g filter="url(#shadow)">
+    <rect x="845" y="120" width="300" height="92" rx="14" fill="#30394b" stroke="#6d7695"/><text x="995" y="157" text-anchor="middle" class="t boxhead">Crew ethics</text><text x="995" y="186" text-anchor="middle" class="t body">consent · limits · rescue · care</text>
+    <rect x="845" y="240" width="300" height="92" rx="14" fill="#30394b" stroke="#6d7695"/><text x="995" y="277" text-anchor="middle" class="t boxhead">Imperial responsibility</text><text x="995" y="306" text-anchor="middle" class="t body">land · labor · risk · political authority</text>
+    <rect x="845" y="360" width="300" height="92" rx="14" fill="#30394b" stroke="#6d7695"/><text x="995" y="397" text-anchor="middle" class="t boxhead">Civil and military power</text><text x="995" y="426" text-anchor="middle" class="t body">truthful purpose · life-support immunity</text>
+    <rect x="845" y="480" width="300" height="92" rx="14" fill="#30394b" stroke="#6d7695"/><text x="995" y="517" text-anchor="middle" class="t boxhead">Universal language</text><text x="995" y="546" text-anchor="middle" class="t body">Latin serves; no bloc owns the Church</text>
+  </g>
+  <path d="M805 320L845 166M805 320L845 286M805 320L845 406M805 320L845 526" class="line"/>
+  <text x="60" y="625" class="t muted sub">The same standard judges German prestige, American power, Japanese primacy, Latin empire, and every later settlement beyond Earth.</text>
+</svg>

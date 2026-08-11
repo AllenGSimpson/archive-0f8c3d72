@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Catholic Interpretation of the 1970 German Moon Landing", description: "Scientific triumph within creation, without racial or ideological vindication", href: "catholic-interpretation-1970-moon-landing.html", tags: "catholic interpretation 1970 german moon landing religion gregory sheen" },
+  { title: "Gregory XVII and the German Moon Landing", description: "The pope's congratulatory, anti-racial, and morally bounded response", href: "gregory-xvii-and-german-moon-landing.html", tags: "gregory xvii german moon landing psalm 8 papal response 1970" },
+  { title: "Fulton Sheen and the German Moon Landing", description: "American Catholic commentary on technical excellence and moral accountability", href: "fulton-sheen-and-german-moon-landing.html", tags: "fulton sheen german moon landing catholic commentary technology morality" },
+  { title: "Vatican Oversight of Latin Spaceflight", description: "Crew ethics, worship, African labor, military concealment, and the universal Church", href: "vatican-oversight-latin-spaceflight.html", tags: "vatican oversight latin spaceflight ethics church san marco labor military" },
+  { title: "Catholic Ethics of Human Spaceflight", description: "Consent, exposure, qualification, life support, rescue, and care for crews", href: "catholic-ethics-human-spaceflight.html", tags: "catholic ethics human spaceflight astronaut consent exposure rescue life support" },
+  { title: "Catholic Critique of Imperial Spaceflight", description: "The land, labor, risk, authority, and legitimacy behind imperial space programs", href: "catholic-critique-imperial-spaceflight.html", tags: "catholic critique imperial spaceflight san marco labor africa empire morality" },
+  { title: "Universal Church and Technical Latin", description: "The boundary between a Community working language and a universal ecclesiastical inheritance", href: "universal-church-and-technical-latin.html", tags: "universal church technical latin language bloc property catholic community" },
   { title: "Kismayo", description: "The southern Italian Somali port and host city of the San Marco space complex", href: "kismayo.html", tags: "kismayo italian somalia port city san marco spaceport east africa" },
   { title: "San Marco Offshore Launch Range", description: "The original equatorial maritime platforms for qualification and smaller orbital missions", href: "san-marco-offshore-launch-range.html", tags: "san marco offshore launch range platform equatorial maritime kismayo" },
   { title: "San Marco Coastal Launch Complex", description: "Heavy pads, propellant, final assembly, tracking, and transport built from 1970 to 1975", href: "san-marco-coastal-launch-complex.html", tags: "san marco coastal launch complex heavy pads propellant final assembly 1970 1975" },
@@ -7099,6 +7106,13 @@ const crossLinks = [
   ,{ href: "san-marco-medical-quarantine-complex.html", terms: ["San Marco Medical and Quarantine Complex", "San Marco quarantine complex"] }
   ,{ href: "san-marco-personnel-community.html", terms: ["San Marco Personnel Community", "San Marco settlement"] }
   ,{ href: "african-technical-service-san-marco.html", terms: ["African Technical Service at San Marco", "African technical workforce at San Marco"] }
+  ,{ href: "catholic-interpretation-1970-moon-landing.html", terms: ["Catholic Interpretation of the 1970 German Moon Landing", "Catholic interpretation of the Moon landing"] }
+  ,{ href: "gregory-xvii-and-german-moon-landing.html", terms: ["Gregory XVII and the German Moon Landing", "Gregory's lunar response"] }
+  ,{ href: "fulton-sheen-and-german-moon-landing.html", terms: ["Fulton Sheen and the German Moon Landing", "Sheen's Moon landing commentary"] }
+  ,{ href: "vatican-oversight-latin-spaceflight.html", terms: ["Vatican Oversight of Latin Spaceflight", "Vatican and Latin spaceflight"] }
+  ,{ href: "catholic-ethics-human-spaceflight.html", terms: ["Catholic Ethics of Human Spaceflight", "Catholic spaceflight ethics"] }
+  ,{ href: "catholic-critique-imperial-spaceflight.html", terms: ["Catholic Critique of Imperial Spaceflight", "Catholic critique of space empire"] }
+  ,{ href: "universal-church-and-technical-latin.html", terms: ["Universal Church and Technical Latin", "Church and technical Latin"] }
 ];
 
 function escapePattern(value) {
