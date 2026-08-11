@@ -3431,6 +3431,18 @@ const pages = [
   ,{ title: "Wallis and Futuna", description: "Three customary Polynesian kingdoms under direct Japanese rule", href: "wallis-and-futuna.html", tags: "wallis futuna uvea alo sigave polynesia japan" }
   ,{ title: "French Polynesia", description: "Japan's easternmost archipelagic deputy territory", href: "french-polynesia.html", tags: "french polynesia tahiti tuamotu marquesas austral gambier japan" }
   ,{ title: "Papeete", description: "Eastern deputy capital and Japan's bridge toward South America", href: "papeete.html", tags: "papeete tahiti french polynesia peru japan capital" }
+  ,{ title: "Fijian Language", description: "Vosa Vakaviti, the indigenous Oceanic language of Fiji", href: "fijian-language.html", tags: "fijian language vosa vakaviti bauan itaukei" }
+  ,{ title: "Fiji Hindi", description: "The Indo-Fijian vernacular formed through girmit and Pacific contact", href: "fiji-hindi-language.html", tags: "fiji hindi language fiji baat girmit awadhi bhojpuri" }
+  ,{ title: "Kanak Languages", description: "New Caledonia's diverse indigenous Oceanic languages", href: "kanak-languages.html", tags: "kanak languages drehu nengone paici ajie new caledonia" }
+  ,{ title: "Wallisian Language", description: "Fakaʻuvea, the Polynesian language of Uvea and its diaspora", href: "wallisian-language.html", tags: "wallisian language faka uvea wallis noumea" }
+  ,{ title: "Futunan Language", description: "Fakafutuna, the Polynesian language of Futuna and Alofi", href: "futunan-language.html", tags: "futunan language fakafutuna futuna alofi alo sigave" }
+  ,{ title: "Tahitian People", description: "The Māʻohi people of Tahiti and the Society Islands", href: "tahitian-people.html", tags: "tahitian people maohi tahiti society islands" }
+  ,{ title: "Tahitian Language", description: "Reo Tahiti, the leading Polynesian language of Japan's eastern territories", href: "tahitian-language.html", tags: "tahitian language reo tahiti maohi polynesia" }
+  ,{ title: "Society Islands", description: "Tahiti's central Windward and Leeward archipelago", href: "society-islands.html", tags: "society islands windward leeward tahiti moorea raiatea bora bora" }
+  ,{ title: "Marquesas Islands", description: "Remote high islands of Marquesan language, monuments, tattoo, and carving", href: "marquesas-islands.html", tags: "marquesas islands enata enana nuku hiva hiva oa" }
+  ,{ title: "Tuamotu Archipelago", description: "The vast Paʻumotu atoll chain of eastern French Polynesia", href: "tuamotu-archipelago.html", tags: "tuamotu archipelago paumotu atolls pearls copra" }
+  ,{ title: "Gambier Islands", description: "Mangareva's Catholic, pearl, and lagoon-centered archipelago", href: "gambier-islands.html", tags: "gambier islands mangareva rikitea pearls" }
+  ,{ title: "Austral Islands", description: "The southern high-island district of French Polynesia", href: "austral-islands.html", tags: "austral islands tubuai rurutu rimatara raivavae rapa" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6997,6 +7009,18 @@ const crossLinks = [
   ,{ href: "wallis-and-futuna.html", terms: ["Wallis and Futuna", "Uvea", "Alo", "Sigave"] }
   ,{ href: "french-polynesia.html", terms: ["French Polynesia", "Japanese Polynesia"] }
   ,{ href: "papeete.html", terms: ["Papeete", "Tahiti capital"] }
+  ,{ href: "fijian-language.html", terms: ["Fijian language", "Vosa Vakaviti"] }
+  ,{ href: "fiji-hindi-language.html", terms: ["Fiji Hindi", "Fiji Baat"] }
+  ,{ href: "kanak-languages.html", terms: ["Kanak languages", "New Caledonian languages"] }
+  ,{ href: "wallisian-language.html", terms: ["Wallisian language", "Fakaʻuvea"] }
+  ,{ href: "futunan-language.html", terms: ["Futunan language", "Fakafutuna"] }
+  ,{ href: "tahitian-people.html", terms: ["Tahitian people", "Māʻohi", "Maohi"] }
+  ,{ href: "tahitian-language.html", terms: ["Tahitian language", "Reo Tahiti"] }
+  ,{ href: "society-islands.html", terms: ["Society Islands", "Windward Islands", "Leeward Islands"] }
+  ,{ href: "marquesas-islands.html", terms: ["Marquesas Islands", "Te Fenua Enata", "Te Henua Enana"] }
+  ,{ href: "tuamotu-archipelago.html", terms: ["Tuamotu Archipelago", "Paʻumotu", "Paumotu"] }
+  ,{ href: "gambier-islands.html", terms: ["Gambier Islands", "Mangareva"] }
+  ,{ href: "austral-islands.html", terms: ["Austral Islands", "Tubuai Islands"] }
 ];
 
 function escapePattern(value) {
