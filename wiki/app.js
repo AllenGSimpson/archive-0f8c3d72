@@ -3144,6 +3144,20 @@ const pages = [
   ,{ title: "CF-100 Mk 4 Canuck", description: "Canada's 1955 all-weather interceptor", href: "cf-100-mk4-canuck.html", tags: "cf-100 mk4 canuck avro canada royal canadian air force all weather interceptor 1955" }
   ,{ title: "CF-105A Arrow", description: "Canada's operational 1962 Mach 2 Arctic interceptor", href: "cf-105a-arrow.html", tags: "cf-105a arrow avro canada royal canadian air force mach 2 arctic interceptor 1962" }
   ,{ title: "CF-105B Arrow", description: "Canada's improved 1968 continental interceptor", href: "cf-105b-arrow.html", tags: "cf-105b arrow avro canada royal canadian air force continental interceptor improved radar 1968" }
+  ,{ title: "José Antonio Remón Cantera", description: "Police commander, president, and institutional precursor of Panamanian military rule", href: "jose-antonio-remon-cantera.html", tags: "panama remon president national police national guard assassination 1955" }
+  ,{ title: "Arnulfo Arias Madrid", description: "Three-time president and civilian Panameñista opponent of military rule", href: "arnulfo-arias-madrid.html", tags: "panama arnulfo arias panamenismo president 1940 1949 1968 coup" }
+  ,{ title: "Roberto Chiari", description: "President of Dignity during the 1964 Canal Zone crisis", href: "roberto-chiari.html", tags: "panama roberto chiari president dignity martyrs day 1964 flag canal" }
+  ,{ title: "Omar Torrijos", description: "National Guard commander, developmental ruler, and canal negotiator", href: "omar-torrijos.html", tags: "panama omar torrijos national guard military regime canal partnership accord" }
+  ,{ title: "Manuel Noriega", description: "Intelligence chief and de facto ruler of Panama from 1983", href: "manuel-noriega.html", tags: "panama manuel noriega intelligence national guard canal security 1983 1985" }
+  ,{ title: "Hay–Bunau-Varilla Treaty", description: "The 1903 legal foundation of the Panama Canal Zone", href: "hay-bunau-varilla-treaty.html", tags: "panama canal treaty 1903 hay bunau varilla canal zone sovereignty" }
+  ,{ title: "Panama Canal Zone", description: "The continuing American strategic jurisdiction around the canal", href: "panama-canal-zone.html", tags: "panama canal zone american jurisdiction bases defense zonian" }
+  ,{ title: "Panama Canal", description: "Jointly administered commercial route under American strategic command", href: "panama-canal.html", tags: "panama canal gatun locks atlantic pacific shipping strategy" }
+  ,{ title: "Martyrs' Day", description: "The January 1964 flag crisis that forced canal renegotiation", href: "martyrs-day-panama.html", tags: "panama martyrs day january 9 1964 flag students balboa canal zone" }
+  ,{ title: "1968 Panamanian Coup", description: "The National Guard overthrow of Arnulfo Arias and rise of Omar Torrijos", href: "panamanian-coup-1968.html", tags: "panama coup 1968 arias torrijos boris martinez national guard junta" }
+  ,{ title: "Canal Partnership Accord", description: "Panamanian sovereignty and commerce divided from American military command", href: "canal-partnership-accord.html", tags: "panama canal partnership accord treaty sovereignty joint administration defense" }
+  ,{ title: "Buchanan Canal-Defense Expansion", description: "The 1978–1980 modernization of American isthmian defenses", href: "buchanan-canal-defense-expansion.html", tags: "panama canal defense buchanan 1978 1980 radar missile submarine orbital tracking" }
+  ,{ title: "Panama National Guard", description: "Combined armed, police, intelligence, and governing institution", href: "panama-national-guard.html", tags: "panama national guard military police intelligence torrijos noriega" }
+  ,{ title: "Transit and Financial Economy of Panama", description: "Canal services, shipping, banking, insurance, and corporate brokerage", href: "panamanian-transit-financial-economy.html", tags: "panama economy canal transit shipping registry banking insurance colon finance" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6423,6 +6437,20 @@ const crossLinks = [
   ,{ href: "nha-trang.html", terms: ["Nha Trang"] }
   ,{ href: "hoi-an.html", terms: ["Hội An", "Hoi An", "Faifo"] }
   ,{ href: "poipet.html", terms: ["Poipet"] }
+  ,{ href: "jose-antonio-remon-cantera.html", terms: ["José Antonio Remón Cantera", "José Remón", "Remón Cantera"] }
+  ,{ href: "arnulfo-arias-madrid.html", terms: ["Arnulfo Arias Madrid", "Arnulfo Arias", "Arias Madrid"] }
+  ,{ href: "roberto-chiari.html", terms: ["Roberto Francisco Chiari Remón", "Roberto Chiari", "President of Dignity"] }
+  ,{ href: "omar-torrijos.html", terms: ["Omar Torrijos Herrera", "Omar Torrijos", "Torrijos"] }
+  ,{ href: "manuel-noriega.html", terms: ["Manuel Noriega Moreno", "Manuel Noriega", "Noriega"] }
+  ,{ href: "hay-bunau-varilla-treaty.html", terms: ["Hay–Bunau-Varilla Treaty", "Hay-Bunau-Varilla Treaty", "1903 treaty"] }
+  ,{ href: "panama-canal-zone.html", terms: ["Panama Canal Zone", "Canal Zone", "Zonian"] }
+  ,{ href: "panama-canal.html", terms: ["Panama Canal", "interoceanic canal"] }
+  ,{ href: "martyrs-day-panama.html", terms: ["Martyrs' Day", "January 1964 crisis", "1964 flag crisis"] }
+  ,{ href: "panamanian-coup-1968.html", terms: ["1968 Panamanian coup d'état", "1968 Panamanian coup", "11 October 1968 coup"] }
+  ,{ href: "canal-partnership-accord.html", terms: ["Canal Partnership Accord", "Partnership Accord"] }
+  ,{ href: "buchanan-canal-defense-expansion.html", terms: ["Buchanan canal-defense expansion", "Buchanan Canal-Defense Expansion", "1978–1980 defense expansion"] }
+  ,{ href: "panama-national-guard.html", terms: ["Panama National Guard", "National Guard of Panama"] }
+  ,{ href: "panamanian-transit-financial-economy.html", terms: ["transit and financial economy of Panama", "Panamanian transit and financial economy", "proxy counting house"] }
 ];
 
 function escapePattern(value) {
