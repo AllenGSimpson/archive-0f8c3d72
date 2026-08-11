@@ -1,4 +1,10 @@
 const pages = [
+  { title: "Concordia Ground Article", description: "The full-scale 1973 structure that exposed failures between four national systems", href: "concordia-ground-article.html", tags: "concordia ground article 1973 integration vacuum vibration thermal fire endurance testing" },
+  { title: "Latin Space Standardization Campaign", description: "Common mechanical, electrical, documentary, software, and safety interfaces", href: "latin-space-standardization-campaign.html", tags: "latin space standardization campaign interface fittings telemetry safety technical latin certification" },
+  { title: "Portuguese Aquila I Seat Settlement", description: "Ground authority, industrial return, and a later seat in place of unsafe symbolism", href: "portuguese-aquila-seat-settlement.html", tags: "portuguese aquila seat settlement portugal astronaut tracking recovery flight director" },
+  { title: "Brazilian Participation in the Latin Space Program", description: "Brazil's associated Atlantic, industrial, scientific, weather, and recovery role", href: "brazilian-latin-space-participation.html", tags: "brazil brazilian latin space participation tracking weather recovery metallurgy luso brazilian" },
+  { title: "Latin Orbital Servicing Program", description: "Concordia and Mercurius supply, inspection, repair, reboost, and recovery operations", href: "latin-orbital-servicing-program.html", tags: "latin orbital servicing concordia mercurius repair supply reboost maintenance" },
+  { title: "Concordia Human-Endurance Program", description: "Life support, habitability, medicine, monitoring, and long-duration crew research", href: "concordia-human-endurance-program.html", tags: "concordia human endurance program life support habitability medicine crew health" },
   { title: "Common Administrative Latin", description: "The controlled modern register of common law, administration, and technical interfaces", href: "common-administrative-latin.html", tags: "common administrative latin latinitas communis language chancery legal technical bloc" },
   { title: "Latin Community Legal Service", description: "The multilingual body drafting authoritative common texts directly in Latin", href: "latin-community-legal-service.html", tags: "latin community legal service drafting translation authentic text treaty law" },
   { title: "Latin Terminology Office", description: "Modern vocabulary for Community government, finance, science, computing, and industry", href: "latin-terminology-office.html", tags: "latin terminology office vocabulary standards radar transistor computing nuclear finance" },
@@ -7055,6 +7061,12 @@ const crossLinks = [
   ,{ href: "latin-weather-satellite-program.html", terms: ["Latin Weather Satellite Program", "Latin weather satellite"] }
   ,{ href: "latin-experimental-communications-satellite.html", terms: ["Latin Experimental Communications Satellite", "Latin communications satellite"] }
   ,{ href: "latin-recoverable-capsule-program.html", terms: ["Latin Recoverable Capsule Program", "Latin recoverable capsule"] }
+  ,{ href: "concordia-ground-article.html", terms: ["Concordia ground article", "Concordia test article"] }
+  ,{ href: "latin-space-standardization-campaign.html", terms: ["Latin space standardization campaign", "Latin orbital standards"] }
+  ,{ href: "portuguese-aquila-seat-settlement.html", terms: ["Portuguese Aquila I seat settlement", "Portuguese seat settlement"] }
+  ,{ href: "brazilian-latin-space-participation.html", terms: ["Brazilian participation in the Latin space program", "Brazilian Latin space participation"] }
+  ,{ href: "latin-orbital-servicing-program.html", terms: ["Latin orbital servicing program", "Concordia servicing"] }
+  ,{ href: "concordia-human-endurance-program.html", terms: ["Concordia human-endurance program", "Concordia endurance program"] }
   ,{ href: "common-administrative-latin.html", terms: ["Common Administrative Latin", "Latinitas Communis"] }
   ,{ href: "latin-community-legal-service.html", terms: ["Latin Community Legal Service", "multilingual legal service"] }
   ,{ href: "latin-terminology-office.html", terms: ["Latin Terminology Office", "Community terminology office"] }

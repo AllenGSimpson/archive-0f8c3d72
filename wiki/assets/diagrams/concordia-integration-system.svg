@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Concordia integration system</title>
+  <desc id="desc">Four national technical workshares converge on the Concordia ground article, producing common standards, flight certification, and three operational research programs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101824"/><stop offset="1" stop-color="#172b35"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c49b4c"/><stop offset="1" stop-color="#8d642d"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".35"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#8ebbc5"/></marker>
+    <style>.t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#edf3f4}.muted{fill:#a9bac0}.head{font-size:31px;font-weight:700}.sub{font-size:16px}.boxhead{font-size:21px;font-weight:700}.body{font-size:15px}.line{stroke:#8ebbc5;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="690" rx="22" fill="url(#bg)"/>
+  <text x="60" y="58" class="t head">The Concordia integration system</text>
+  <text x="60" y="86" class="t muted sub">National work remains distinct; interfaces, evidence, and mission acceptance become common.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="55" y="135" width="235" height="105" rx="14" fill="#263c4a" stroke="#52798b"/>
+    <text x="75" y="170" class="t boxhead">Italy</text><text x="75" y="198" class="t body">Life support · propulsion</text><text x="75" y="221" class="t body">mission integration</text>
+    <rect x="55" y="260" width="235" height="105" rx="14" fill="#263c4a" stroke="#52798b"/>
+    <text x="75" y="295" class="t boxhead">Occitania</text><text x="75" y="323" class="t body">Computing · guidance</text><text x="75" y="346" class="t body">telemetry · docking</text>
+    <rect x="55" y="385" width="235" height="105" rx="14" fill="#263c4a" stroke="#52798b"/>
+    <text x="75" y="420" class="t boxhead">Spain</text><text x="75" y="448" class="t body">Pressure structure · thermal</text><text x="75" y="471" class="t body">power · fabrication</text>
+    <rect x="55" y="510" width="235" height="105" rx="14" fill="#263c4a" stroke="#52798b"/>
+    <text x="75" y="545" class="t boxhead">Portugal</text><text x="75" y="573" class="t body">Tracking · weather · recovery</text><text x="75" y="596" class="t body">communications · medicine</text>
+  </g>
+
+  <path d="M290 188H420M290 313H420M290 438H420M290 563H420" class="line"/>
+  <g filter="url(#shadow)"><rect x="420" y="205" width="330" height="320" rx="22" fill="url(#core)" stroke="#e3c781" stroke-width="2"/></g>
+  <text x="585" y="260" text-anchor="middle" class="t boxhead">Concordia ground article</text>
+  <text x="585" y="292" text-anchor="middle" class="t body">Full-scale nonflight integration · 1973</text>
+  <line x1="465" y1="318" x2="705" y2="318" stroke="#f1d99c" opacity=".7"/>
+  <text x="462" y="354" class="t body">Vacuum · vibration · thermal</text>
+  <text x="462" y="382" class="t body">Fire · endurance · power transfer</text>
+  <text x="462" y="410" class="t body">Docking · telemetry · emergency drills</text>
+  <text x="462" y="453" class="t body">Shared failures become shared evidence</text>
+  <text x="462" y="481" class="t body">and common interface standards.</text>
+
+  <path d="M750 365H842" class="line"/>
+  <g filter="url(#shadow)"><rect x="842" y="267" width="303" height="196" rx="18" fill="#24434a" stroke="#6ca5aa"/></g>
+  <text x="993" y="307" text-anchor="middle" class="t boxhead">Common operating layer</text>
+  <text x="872" y="342" class="t body">Technical Latin records</text>
+  <text x="872" y="369" class="t body">Interface and safety standards</text>
+  <text x="872" y="396" class="t body">Joint certification and waivers</text>
+  <text x="872" y="423" class="t body">Industrial-return accountability</text>
+
+  <path d="M993 463V520" class="line"/>
+  <g filter="url(#shadow)">
+    <rect x="770" y="548" width="170" height="86" rx="14" fill="#293847" stroke="#5d7a94"/><text x="855" y="582" text-anchor="middle" class="t boxhead">Endurance</text><text x="855" y="609" text-anchor="middle" class="t body">crew health</text>
+    <rect x="960" y="548" width="170" height="86" rx="14" fill="#293847" stroke="#5d7a94"/><text x="1045" y="582" text-anchor="middle" class="t boxhead">Servicing</text><text x="1045" y="609" text-anchor="middle" class="t body">repair · reboost</text>
+    <rect x="770" y="117" width="360" height="92" rx="14" fill="#293847" stroke="#5d7a94"/><text x="950" y="153" text-anchor="middle" class="t boxhead">Flight qualification</text><text x="950" y="181" text-anchor="middle" class="t body">Concordia-A · Aquila I · Stella Maris</text>
+  </g>
+  <path d="M993 267V209" class="line"/>
+  <path d="M930 520L855 548M1055 520L1045 548" class="line"/>
+</svg>
