@@ -3,6 +3,9 @@ const pages = [
   { title: "The World Order", description: "The five unequal power systems", href: "world.html", tags: "blocs germany japan italy america commonwealth" },
   { title: "Setting Timeline", description: "Divergence through the mature planetary age of 2010", href: "timeline.html", tags: "chronology wwii war peace dates boom depression five party space 2010" },
   { title: "Greater German Reich", description: "Continental empire and Showroom Reich", href: "germany.html", tags: "germany reich wolfgang hitler goering east adolfstadt stalingrad volgograd volga" },
+  { title: "Greater German Reich in 2000", description: "The German national and imperial system at the millennium", href: "greater-german-reich-in-2000.html", tags: "greater german reich germany 2000 millennium wolfgang empire einheitspakt" },
+  { title: "German Politics, 1985–2000", description: "Wolfgang Hitler's later rule and consolidation of the second-generation regime", href: "german-politics-1985-2000.html", tags: "german politics 1985 2000 wolfgang leadership council party ss succession" },
+  { title: "Social Geography of the German Empire in 2000", description: "Unequal citizenship, law, movement, and modernity across the imperial layers", href: "social-geography-german-empire-2000.html", tags: "german empire social geography 2000 core protectorates east mittelafrika citizenship" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -3029,6 +3032,9 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "greater-german-reich-in-2000.html", terms: ["Greater German Reich in 2000", "Germany at the millennium"] },
+  { href: "german-politics-1985-2000.html", terms: ["German politics, 1985–2000", "German politics from 1985 to 2000"] },
+  { href: "social-geography-german-empire-2000.html", terms: ["social geography of the German Empire", "German imperial social geography"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
