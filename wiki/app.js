@@ -1777,6 +1777,12 @@ const pages = [
   { title: "Frontier Annex", description: "Frontier's private commercial complex at Orbital Port Columbia", href: "frontier-annex.html", tags: "frontier annex columbia private modules commercial station 1994 1996" },
   { title: "Project Switchback", description: "Frontier's reusable vertical-launch research program", href: "project-switchback.html", tags: "project switchback reusable rocket vertical launch frontier first stage recovery" },
   { title: "United Mongolian State", description: "Buddhist banner monarchy under Japanese protection", href: "united-mongolian-state.html", tags: "united mongolian state mongolia mengjiang demchugdongrub khuree hohhot geacps" },
+  { title: "Great Khural of the United Mongolian State", description: "Corporate and territorial national assembly of the protected banner monarchy", href: "great-khural-united-mongolia.html", tags: "great khural united mongolia assembly legislature banners princes clergy khuree" },
+  { title: "Banner System of the United Mongolian State", description: "Territorial, pastoral, and representative framework of reunited Mongolia", href: "banner-system-united-mongolia.html", tags: "banner system united mongolia pastoral federalism grazing herds administration" },
+  { title: "Buddhist Settlement in the United Mongolian State", description: "Controlled restoration of monasteries and the separate Jebtsundamba institution", href: "buddhist-settlement-united-mongolia.html", tags: "buddhist settlement united mongolia jebtsundamba monasteries religion khuree" },
+  { title: "Succession to the Mongolian Throne", description: "The 1966 settlement that constitutionalized the Chinggisid dynasty", href: "succession-mongolian-throne.html", tags: "mongolian throne succession 1966 demchugdongrub borjigin khan house law" },
+  { title: "Japanese High Mission in United Mongolia", description: "Protectorate mission administering Japan's strategic reserve", href: "japanese-high-mission-mongolia.html", tags: "japanese high mission united mongolia protectorate adviser hohhot geacps" },
+  { title: "Khüree–Hohhot Dual-Capital System", description: "Political-sacred legitimacy paired with southern administration and commerce", href: "khuree-hohhot-dual-capital-system.html", tags: "khuree hohhot dual capital united mongolia government geography" },
   { title: "Burmese Wars and Settlements", description: "Companion War, federal crises, sovereign states, and Thai protectorate", href: "burmese-wars.html", tags: "burmese companion war rangoon settlement federal crisis sovereign states thailand protectorate" },
   { title: "Malay–Bornean War", description: "The 1973–1979 dissolution of Bornean Malaya", href: "malay-bornean-war.html", tags: "malay bornean war malaya borneo brunei singapore thailand 1974" },
   { title: "Preservation Movements in Imperial Japan", description: "Regional language and identity politics from the 1970s", href: "japanese-preservationism.html", tags: "preservation movement japan taiwan formosa korea chosen language heritage" },
@@ -3052,6 +3058,7 @@ topicNav.push(["Five-Power Defense", "five-power-strategic-defense-systems.html"
 topicNav.push(["Political Limits of Victory", "territorial-satiation.html"]);
 topicNav.push(["American Execution State", "corporate-execution-continuity.html"]);
 topicNav.push(["Chita Crown", "house-of-romanov-russian-far-east.html"]);
+topicNav.push(["Mongolian Constitutional Order", "great-khural-united-mongolia.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -4837,6 +4844,12 @@ const crossLinks = [
   { href: "project-switchback.html", terms: ["Project Switchback"] },
   { href: "frontier-orbital-lines.html", terms: ["Frontier Orbital Lines", "Frontier Orbital"] },
   { href: "united-mongolian-state.html", terms: ["United Mongolian State", "Mengjiang"] },
+  { href: "great-khural-united-mongolia.html", terms: ["Great Khural of the United Mongolian State", "Great Khural"] },
+  { href: "banner-system-united-mongolia.html", terms: ["banner system of the United Mongolian State", "Banner Pastoral Settlement", "banner federalism"] },
+  { href: "buddhist-settlement-united-mongolia.html", terms: ["Buddhist settlement in the United Mongolian State", "Mongolian Buddhist settlement"] },
+  { href: "succession-mongolian-throne.html", terms: ["succession to the Mongolian throne", "Mongolian succession settlement", "constitutionalized dynasty"] },
+  { href: "japanese-high-mission-mongolia.html", terms: ["Japanese High Mission in United Mongolia", "Japanese High Mission", "Japanese high adviser"] },
+  { href: "khuree-hohhot-dual-capital-system.html", terms: ["Khüree–Hohhot dual-capital system", "Khüree-Hohhot dual-capital system", "dual-capital system"] },
   { href: "malay-bornean-war.html", terms: ["Malay–Bornean War", "Malay-Bornean War", "Bornean Malaya", "Federated Kingdom of Malaya"] },
   { href: "japanese-settlement-of-taiwan.html", terms: ["Japanese settlement of Taiwan", "postwar settlement of Taiwan", "Formosan settlement drive"] },
   { href: "languages-of-taiwan.html", terms: ["Languages of Taiwan", "Formosan languages", "Taiwanese Hokkien", "Formosan Hokkien"] },
