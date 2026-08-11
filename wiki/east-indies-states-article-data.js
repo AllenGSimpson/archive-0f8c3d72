@@ -334,3 +334,9 @@ addSouthernRelated("japan",[{href:"east-indies-successor-states.html",kicker:"So
 addSouthernRelated("singapore",[{href:"southern-archipelago-council.html",kicker:"Council support",label:"Southern Archipelago Council"},{href:"sumatran-malay-federation.html",kicker:"Sumatran hinterland",label:"Sumatran Malay Federation"}]);
 addSouthernRelated("malaya",[{href:"bornean-malaya.html",kicker:"Former island counterpart",label:"Bornean Malaya"}]);
 addSouthernRelated("geacps",[{href:"east-indies-successor-states.html",kicker:"Fifteen-state southern order",label:"Southern Archipelago States"}]);
+
+const dividedTimor = window.deepArticles["eastern-lesser-sunda-federation"];
+if (dividedTimor?.related) dividedTimor.related.unshift(
+  {href:"portuguese-timor.html",kicker:"Eastern half of Timor",label:"Portuguese Timor"},
+  {href:"divided-timor-frontier.html",kicker:"Immediate boundary",label:"Divided Timor Frontier"}
+);

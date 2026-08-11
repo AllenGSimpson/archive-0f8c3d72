@@ -333,10 +333,39 @@ if (biakPacific?.related) biakPacific.related.unshift(
 
 const pacificFrontierAmerican = window.deepArticles["pacific-frontier-islands"];
 if (pacificFrontierAmerican?.related) pacificFrontierAmerican.related.unshift(
+  {href:"commonwealth-pacific-territories.html",kicker:"Commonwealth remnants",label:"Commonwealth Pacific Territories"},
+  {href:"western-samoa.html",kicker:"New Zealand holding",label:"Western Samoa"},
+  {href:"tonga.html",kicker:"Independent aligned monarchy",label:"Tonga"},
+  {href:"pitcairn-islands.html",kicker:"British eastern holding",label:"Pitcairn Islands"},
+  {href:"easter-island.html",kicker:"Chilean eastern holding",label:"Rapa Nui"},
+  {href:"portuguese-timor.html",kicker:"Asian remnant",label:"Portuguese Timor"},
+  {href:"divided-timor-frontier.html",kicker:"Asian boundary",label:"Divided Timor Frontier"},
+  {href:"norfolk-island.html",kicker:"Australian holding",label:"Norfolk Island"},
   {href:"guam-saipan-frontier.html",kicker:"Mariana seam",label:"Guam–Saipan Frontier"},
   {href:"gilbert-phoenix-line-frontier.html",kicker:"Equatorial seam",label:"Gilbert–Phoenix–Line Frontier"},
   {href:"american-line-islands.html",kicker:"American equatorial chain",label:"American Line Islands"},
   {href:"american-phoenix-islands.html",kicker:"American atoll group",label:"American Phoenix Islands"}
+);
+
+const tahitiRemnants = window.deepArticles["tahiti-under-japanese-rule"];
+if (tahitiRemnants?.related) tahitiRemnants.related.unshift(
+  {href:"pitcairn-islands.html",kicker:"British eastern neighbor",label:"Pitcairn Islands"},
+  {href:"easter-island.html",kicker:"Chilean eastern neighbor",label:"Rapa Nui"}
+);
+
+const southernRemnants = window.deepArticles["southern-eastern-pacific-administration"];
+if (southernRemnants?.related) southernRemnants.related.unshift(
+  {href:"commonwealth-pacific-territories.html",kicker:"Protected neighboring system",label:"Commonwealth Pacific Territories"},
+  {href:"western-samoa.html",kicker:"New Zealand neighbor",label:"Western Samoa"},
+  {href:"tonga.html",kicker:"Independent neighbor",label:"Tonga"},
+  {href:"norfolk-island.html",kicker:"Australian neighbor",label:"Norfolk Island"}
+);
+
+const fijiRemnants = window.deepArticles["fiji-under-japanese-rule"];
+if (fijiRemnants?.related) fijiRemnants.related.unshift(
+  {href:"western-samoa.html",kicker:"New Zealand neighbor",label:"Western Samoa"},
+  {href:"tonga.html",kicker:"Independent neighbor",label:"Tonga"},
+  {href:"commonwealth-pacific-territories.html",kicker:"Protected neighboring system",label:"Commonwealth Pacific Territories"}
 );
 
 const micronesianAmericanFrontier = window.deepArticles["micronesian-administration"];
