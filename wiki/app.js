@@ -3410,6 +3410,19 @@ const pages = [
   ,{ title: "Tuvaluan Language", description: "The Polynesian language of the Ellice Islands", href: "tuvaluan-language.html", tags: "tuvaluan language ellice islands polynesian funafuti" }
   ,{ title: "Nauruan People", description: "Nauru's indigenous twelve-tribe community under Japanese rule", href: "nauruan-people.html", tags: "nauruan people tribes phosphate land japanese nationality" }
   ,{ title: "Nauruan Language", description: "Nauru's small indigenous Micronesian language", href: "nauruan-language.html", tags: "nauruan language micronesian nauru endangered vulnerable" }
+  ,{ title: "Rabaul", description: "Capital, port, and military-commercial center of Japanese Melanesia", href: "rabaul.html", tags: "rabaul new britain bismarck melanesian administration japan" }
+  ,{ title: "Bismarck Archipelago", description: "New Britain, New Ireland, and neighboring islands under Japanese rule", href: "bismarck-archipelago.html", tags: "bismarck archipelago new britain new ireland rabaul japan" }
+  ,{ title: "New Britain", description: "Largest island and administrative core of the Japanese Bismarcks", href: "new-britain.html", tags: "new britain rabaul tolai baining plantations japan" }
+  ,{ title: "Tolai People", description: "The Gunantuna people of the Gazelle Peninsula and Rabaul", href: "tolai-people.html", tags: "tolai gunantuna kuanua gazelle peninsula rabaul tabu tubuan" }
+  ,{ title: "New Ireland", description: "Kavieng, Malagan traditions, and the eastern Bismarck district", href: "new-ireland.html", tags: "new ireland kavieng malagan bismarck japan" }
+  ,{ title: "Bougainville", description: "A directly ruled Japanese border district outside Papua New Guinea", href: "bougainville.html", tags: "bougainville buka solomon papua new guinea japan autonomy" }
+  ,{ title: "Solomon Islands", description: "Japan's diverse directly ruled Solomon districts", href: "solomon-islands.html", tags: "solomon islands melanesia japan rabaul pijin" }
+  ,{ title: "Guadalcanal", description: "Strategic central Solomon island and Japanese aviation center", href: "guadalcanal.html", tags: "guadalcanal lunga airfield solomon islands japan" }
+  ,{ title: "Solomon Islanders", description: "The diverse peoples of Japan's Solomon districts", href: "solomon-islanders.html", tags: "solomon islanders people pijin kastom land japan" }
+  ,{ title: "Santa Cruz Islands", description: "Remote eastern Solomon district and Pacific relay", href: "santa-cruz-islands.html", tags: "santa cruz islands temotu nendo reefs duff japan" }
+  ,{ title: "New Hebrides", description: "The multilingual Japanese district whose people call it Vanuatu", href: "new-hebrides.html", tags: "new hebrides vanuatu port vila luganville japan condominium" }
+  ,{ title: "Ni-Vanuatu People", description: "The peoples of the New Hebrides and their shared Vanuatu identity", href: "ni-vanuatu-people.html", tags: "ni-vanuatu people vanuatu kastom land bislama japan" }
+  ,{ title: "Bislama Language", description: "The inter-island creole and political language of the New Hebrides", href: "bislama-language.html", tags: "bislama language vanuatu new hebrides creole pidgin" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6955,6 +6968,19 @@ const crossLinks = [
   ,{ href: "tuvaluan-language.html", terms: ["Tuvaluan language", "Ellice language"] }
   ,{ href: "nauruan-people.html", terms: ["Nauruan people", "Nauruans", "twelve tribes"] }
   ,{ href: "nauruan-language.html", terms: ["Nauruan language", "Nauruan"] }
+  ,{ href: "rabaul.html", terms: ["Rabaul", "Melanesian capital"] }
+  ,{ href: "bismarck-archipelago.html", terms: ["Bismarck Archipelago", "Bismarcks"] }
+  ,{ href: "new-britain.html", terms: ["New Britain", "Neu-Pommern"] }
+  ,{ href: "tolai-people.html", terms: ["Tolai people", "Gunantuna", "Tolai"] }
+  ,{ href: "new-ireland.html", terms: ["New Ireland", "Neu-Mecklenburg", "Kavieng"] }
+  ,{ href: "bougainville.html", terms: ["Bougainville", "Buka", "Northern Solomons"] }
+  ,{ href: "solomon-islands.html", terms: ["Solomon Islands", "Japanese Solomons"] }
+  ,{ href: "guadalcanal.html", terms: ["Guadalcanal", "Lunga airfield"] }
+  ,{ href: "solomon-islanders.html", terms: ["Solomon Islanders", "Solomon peoples"] }
+  ,{ href: "santa-cruz-islands.html", terms: ["Santa Cruz Islands", "Temotu", "Nendö"] }
+  ,{ href: "new-hebrides.html", terms: ["New Hebrides", "Vanuatu"] }
+  ,{ href: "ni-vanuatu-people.html", terms: ["Ni-Vanuatu people", "Ni-Vanuatu"] }
+  ,{ href: "bislama-language.html", terms: ["Bislama language", "Bislama"] }
 ];
 
 function escapePattern(value) {
