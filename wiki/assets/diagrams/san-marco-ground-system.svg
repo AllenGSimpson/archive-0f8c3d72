@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">San Marco ground system</title>
+  <desc id="desc">Kismayo port, airfield, housing, security, medicine, coastal assembly and launch pads connect to the offshore range and wider tracking and recovery network.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101824"/><stop offset="1" stop-color="#19313a"/></linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d603b"/><stop offset="1" stop-color="#3f4b36"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173e55"/><stop offset="1" stop-color="#0c2539"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".35"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#9fc5cf"/></marker>
+    <style>.t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#edf3f4}.muted{fill:#a9bac0}.head{font-size:31px;font-weight:700}.sub{font-size:16px}.boxhead{font-size:20px;font-weight:700}.body{font-size:15px}.line{stroke:#9fc5cf;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="690" rx="22" fill="url(#bg)"/>
+  <text x="60" y="58" class="t head">The San Marco ground system</text>
+  <text x="60" y="86" class="t muted sub">A port city, colonial corridor, protected technical settlement, coastal spaceport, and maritime range operate as one launch chain.</text>
+  <path d="M0 515C190 480 330 510 470 455C620 395 705 435 790 390V690H0Z" fill="url(#land)" opacity=".8"/>
+  <path d="M790 390C900 340 1010 300 1200 255V690H790Z" fill="url(#sea)"/>
+  <g filter="url(#shadow)">
+    <rect x="55" y="145" width="255" height="112" rx="15" fill="#263c4a" stroke="#52798b"/>
+    <text x="78" y="181" class="t boxhead">Kismayo</text><text x="78" y="213" class="t body">port · airfield · roads</text><text x="78" y="238" class="t body">commerce · military logistics</text>
+    <rect x="55" y="305" width="255" height="112" rx="15" fill="#263c4a" stroke="#52798b"/>
+    <text x="78" y="341" class="t boxhead">Personnel community</text><text x="78" y="373" class="t body">four national contingents</text><text x="78" y="398" class="t body">African workforce · housing</text>
+    <rect x="55" y="465" width="255" height="112" rx="15" fill="#263c4a" stroke="#52798b"/>
+    <text x="78" y="501" class="t boxhead">Imperial corridor</text><text x="78" y="533" class="t body">Mogadishu · East Africa</text><text x="78" y="558" class="t body">land · labor · local services</text>
+  </g>
+  <path d="M310 201H405M310 361H405M310 521H405" class="line"/>
+  <g filter="url(#shadow)"><rect x="405" y="145" width="350" height="432" rx="22" fill="url(#land)" stroke="#d8c98f" stroke-width="2"/></g>
+  <text x="580" y="190" text-anchor="middle" class="t boxhead">Coastal launch complex</text>
+  <text x="580" y="220" text-anchor="middle" class="t body">Heavy pads · final assembly · propellant</text>
+  <line x1="450" y1="246" x2="710" y2="246" stroke="#e4daa9" opacity=".75"/>
+  <rect x="447" y="276" width="266" height="74" rx="12" fill="#314b4c"/><text x="580" y="307" text-anchor="middle" class="t boxhead">Range security</text><text x="580" y="334" text-anchor="middle" class="t body">access · safety · patrol · emergency</text>
+  <rect x="447" y="370" width="266" height="74" rx="12" fill="#314b4c"/><text x="580" y="401" text-anchor="middle" class="t boxhead">Medicine and quarantine</text><text x="580" y="428" text-anchor="middle" class="t body">screening · abort · recovery reception</text>
+  <rect x="447" y="464" width="266" height="74" rx="12" fill="#314b4c"/><text x="580" y="495" text-anchor="middle" class="t boxhead">Tracking and telemetry</text><text x="580" y="522" text-anchor="middle" class="t body">weather · mission control · handover</text>
+  <path d="M755 361H848" class="line"/>
+  <g filter="url(#shadow)">
+    <rect x="848" y="170" width="297" height="130" rx="16" fill="#244859" stroke="#6ca5aa"/><text x="996" y="208" text-anchor="middle" class="t boxhead">Offshore launch range</text><text x="872" y="242" class="t body">small and medium missions</text><text x="872" y="269" class="t body">maritime safety · equatorial corridor</text>
+    <rect x="848" y="420" width="297" height="130" rx="16" fill="#244859" stroke="#6ca5aa"/><text x="996" y="458" text-anchor="middle" class="t boxhead">Downrange network</text><text x="872" y="492" class="t body">ships · aircraft · stations</text><text x="872" y="519" class="t body">Atlantic and Indian Ocean recovery</text>
+  </g>
+  <path d="M996 300V420" class="line"/>
+  <text x="60" y="635" class="t muted sub">Community technical equality among four European states rests on unequal authority within Italian East Africa.</text>
+</svg>

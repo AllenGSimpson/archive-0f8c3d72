@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Kismayo", description: "The southern Italian Somali port and host city of the San Marco space complex", href: "kismayo.html", tags: "kismayo italian somalia port city san marco spaceport east africa" },
+  { title: "San Marco Offshore Launch Range", description: "The original equatorial maritime platforms for qualification and smaller orbital missions", href: "san-marco-offshore-launch-range.html", tags: "san marco offshore launch range platform equatorial maritime kismayo" },
+  { title: "San Marco Coastal Launch Complex", description: "Heavy pads, propellant, final assembly, tracking, and transport built from 1970 to 1975", href: "san-marco-coastal-launch-complex.html", tags: "san marco coastal launch complex heavy pads propellant final assembly 1970 1975" },
+  { title: "San Marco Range Security District", description: "Military security, range safety, access control, maritime patrol, and emergency authority", href: "san-marco-range-security-district.html", tags: "san marco range security district safety access patrol military kismayo" },
+  { title: "San Marco Medical and Quarantine Complex", description: "Crew screening, isolation, launch-abort support, and recovery reception", href: "san-marco-medical-quarantine-complex.html", tags: "san marco medical quarantine complex screening abort recovery space medicine" },
+  { title: "San Marco Personnel Community", description: "The multinational residential and working settlement around the East African range", href: "san-marco-personnel-community.html", tags: "san marco personnel community settlement housing workers families east africa" },
+  { title: "African Technical Service at San Marco", description: "The colonial aerospace workforce behind construction, logistics, maintenance, weather, and medicine", href: "african-technical-service-san-marco.html", tags: "african technical service san marco somali labor workforce colonial aerospace" },
   { title: "Concordia Scientific Program", description: "Observation, materials, medicine, servicing, calibration, and shared orbital research", href: "concordia-scientific-program.html", tags: "concordia scientific program observation materials medicine calibration research" },
   { title: "Concordia Earth and Ocean Observation Program", description: "Tropical weather, maritime routes, agriculture, clouds, and crew-tended instruments", href: "concordia-earth-ocean-observation.html", tags: "concordia earth ocean observation weather shipping agriculture clouds" },
   { title: "Concordia Materials and Industrial Research Program", description: "Crystal, metallurgy, vacuum, fluid, electronics, solar-cell, and thermal experiments", href: "concordia-materials-industrial-research.html", tags: "concordia materials industrial research crystal metallurgy vacuum electronics solar thermal" },
@@ -7085,6 +7092,13 @@ const crossLinks = [
   ,{ href: "concordia-instrument-calibration-program.html", terms: ["Concordia Instrument Calibration Program", "instrument calibration program"] }
   ,{ href: "concordia-experiment-allocation-system.html", terms: ["Concordia Experiment-Allocation System", "experiment allocation system"] }
   ,{ href: "latin-orbital-research-data-service.html", terms: ["Latin Orbital Research Data Service", "orbital research data"] }
+  ,{ href: "kismayo.html", terms: ["Kismayo", "Chisimaio"] }
+  ,{ href: "san-marco-offshore-launch-range.html", terms: ["San Marco Offshore Launch Range", "San Marco offshore platforms"] }
+  ,{ href: "san-marco-coastal-launch-complex.html", terms: ["San Marco Coastal Launch Complex", "San Marco heavy launch complex"] }
+  ,{ href: "san-marco-range-security-district.html", terms: ["San Marco Range Security District", "San Marco security district"] }
+  ,{ href: "san-marco-medical-quarantine-complex.html", terms: ["San Marco Medical and Quarantine Complex", "San Marco quarantine complex"] }
+  ,{ href: "san-marco-personnel-community.html", terms: ["San Marco Personnel Community", "San Marco settlement"] }
+  ,{ href: "african-technical-service-san-marco.html", terms: ["African Technical Service at San Marco", "African technical workforce at San Marco"] }
 ];
 
 function escapePattern(value) {
