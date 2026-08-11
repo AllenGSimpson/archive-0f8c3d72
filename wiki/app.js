@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Education in the Co-Prosperity Sphere", description: "National schools, Japanese technical institutions, qualifications, and student mobility", href: "education-geacps.html", tags: "education geacps co-prosperity sphere schools universities credentials" },
+  { title: "Imperial Universities of Japan", description: "Senior public universities, professional faculties, and strategic research institutions", href: "imperial-universities-japan.html", tags: "imperial universities japan higher education research engineering medicine" },
+  { title: "Technical Secondary Education in the Co-Prosperity Sphere", description: "Industrial schools, apprenticeships, company courses, and technician formation", href: "technical-secondary-education-geacps.html", tags: "technical secondary education geacps vocational apprenticeship company school" },
+  { title: "Professional Certification in the Co-Prosperity Sphere", description: "Degrees, examinations, licenses, company grades, and strategic certification", href: "professional-certification-geacps.html", tags: "professional certification geacps license examination degree company credentials" },
+  { title: "Recognition of Professional Credentials in the Co-Prosperity Sphere", description: "Conditional equivalence, conversion, bridging study, and cross-border practice", href: "credential-recognition-geacps.html", tags: "credential recognition geacps professional qualification conversion equivalence" },
+  { title: "Scholarships and Study Abroad in the Co-Prosperity Sphere", description: "Educational mobility, technical formation, return service, and elite networks", href: "scholarships-study-abroad-geacps.html", tags: "scholarships study abroad geacps japan students universities" },
+  { title: "Teacher Training and Textbook Policy in the Co-Prosperity Sphere", description: "Teacher formation, language of instruction, curricula, and national history", href: "teacher-training-textbook-policy-geacps.html", tags: "teacher training textbook policy geacps education curriculum language" },
   { title: "Labor in the Co-Prosperity Sphere", description: "Employment, representation, migration, welfare, hierarchy, and automation across Japanese Asia", href: "labor-geacps.html", tags: "labor labour employment geacps co-prosperity sphere japan workers" },
   { title: "Japanese Corporate Employment System", description: "Long employment, seniority, discipline, transfer, and firm-centered representation", href: "japanese-corporate-employment-system.html", tags: "japanese corporate employment system seniority lifetime firm labor" },
   { title: "Company Councils in the Japanese Empire", description: "Recognized employee consultation and industrial federations without independent class power", href: "company-councils-japanese-empire.html", tags: "company councils japanese empire labor unions industrial federations" },
@@ -7229,6 +7236,13 @@ const crossLinks = [
   ,{ href: "labor-migration-geacps.html", terms: ["Labor Migration in the Co-Prosperity Sphere", "labor migration"] }
   ,{ href: "imperial-wage-hierarchy-geacps.html", terms: ["Imperial Wage and Status Hierarchy", "imperial wage hierarchy"] }
   ,{ href: "mixed-nationality-families-geacps.html", terms: ["Mixed-nationality Families in the Co-Prosperity Sphere", "mixed-nationality families"] }
+  ,{ href: "education-geacps.html", terms: ["Education in the Co-Prosperity Sphere", "Co-Prosperity education system"] }
+  ,{ href: "imperial-universities-japan.html", terms: ["Imperial Universities of Japan", "Japanese imperial universities"] }
+  ,{ href: "technical-secondary-education-geacps.html", terms: ["Technical Secondary Education in the Co-Prosperity Sphere", "technical secondary education"] }
+  ,{ href: "professional-certification-geacps.html", terms: ["Professional Certification in the Co-Prosperity Sphere", "professional certification"] }
+  ,{ href: "credential-recognition-geacps.html", terms: ["Recognition of Professional Credentials in the Co-Prosperity Sphere", "recognition of professional credentials", "credential recognition"] }
+  ,{ href: "scholarships-study-abroad-geacps.html", terms: ["Scholarships and Study Abroad in the Co-Prosperity Sphere", "scholarships and study abroad"] }
+  ,{ href: "teacher-training-textbook-policy-geacps.html", terms: ["Teacher Training and Textbook Policy in the Co-Prosperity Sphere", "teacher training and textbook policy"] }
 ];
 
 function escapePattern(value) {
