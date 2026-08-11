@@ -1820,6 +1820,16 @@ const pages = [
   { title: "Sayaboury", description: "The Lao-speaking west-bank territory retained by Thailand after 1941", href: "sayaboury.html", tags: "sayaboury sainyabuli xayaburi xaignabouli thailand laos territory 1941" },
   { title: "Savannakhet", description: "The middle-Mekong commercial center and east–west corridor city of Laos", href: "savannakhet.html", tags: "savannakhet khanthaboury laos mekong mukdahan transport corridor" },
   { title: "Paksong", description: "The coffee and administrative center of the Bolaven Plateau", href: "paksong.html", tags: "paksong laos bolaven plateau coffee champasak pakse" },
+  { title: "Mekong River", description: "The transnational river system connecting China and mainland Southeast Asia", href: "mekong-river.html", tags: "mekong river lancang china burma thailand laos cambodia vietnam navigation flood" },
+  { title: "Gulf of Tonkin", description: "The shallow maritime approach to Haiphong and the Red River delta", href: "gulf-of-tonkin.html", tags: "gulf tonkin vinh bac bo vietnam china hainan haiphong fisheries" },
+  { title: "Cần Thơ", description: "The western commercial and technical center of the Vietnamese Mekong delta", href: "can-tho.html", tags: "can tho tay do vietnam mekong delta hau bassac floating market port" },
+  { title: "Mỹ Tho", description: "The historic eastern gateway from Saigon into the Mekong delta", href: "my-tho.html", tags: "my tho vietnam mekong delta tien river saigon railway chinese refugees" },
+  { title: "Châu Đốc", description: "Vietnam's upper-delta border, river-trade, and pilgrimage city", href: "chau-doc.html", tags: "chau doc vietnam cambodia border hau river vinh te sam mountain cham khmer" },
+  { title: "Hà Tiên", description: "The Vietnamese Gulf frontier port and former Mạc principality", href: "ha-tien.html", tags: "ha tien vietnam cambodia gulf mac cuu peam port frontier" },
+  { title: "Cà Mau", description: "Southern Vietnam's canal, mangrove, fisheries, and wetland frontier", href: "ca-mau.html", tags: "ca mau vietnam mekong delta mangrove canals fisheries khmer krom" },
+  { title: "Nha Trang", description: "The scientific, maritime, and resort center of Khánh Hòa", href: "nha-trang.html", tags: "nha trang vietnam annam khanh hoa pasteur yersin oceanography port" },
+  { title: "Hội An", description: "The historic Vietnamese trading port known to foreign merchants as Faifo", href: "hoi-an.html", tags: "hoi an faifo vietnam annam port japanese bridge chinese merchants heritage" },
+  { title: "Poipet", description: "The internal Thai rail junction of the retained Sisophon corridor", href: "poipet.html", tags: "poipet thailand sisophon corridor aranyaprathet railway battambang 1942" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6343,6 +6353,16 @@ const crossLinks = [
   ,{ href: "sayaboury.html", terms: ["Sayaboury", "Sainyabuli", "Xayaburi", "Xaignabouli", "Xayaboury"] }
   ,{ href: "savannakhet.html", terms: ["Savannakhet", "Khanthaboury"] }
   ,{ href: "paksong.html", terms: ["Paksong"] }
+  ,{ href: "mekong-river.html", terms: ["Mekong River", "Lancang River", "Lancang–Mekong"] }
+  ,{ href: "gulf-of-tonkin.html", terms: ["Gulf of Tonkin", "Vịnh Bắc Bộ", "Vinh Bac Bo"] }
+  ,{ href: "can-tho.html", terms: ["Cần Thơ", "Can Tho", "Tây Đô"] }
+  ,{ href: "my-tho.html", terms: ["Mỹ Tho", "My Tho"] }
+  ,{ href: "chau-doc.html", terms: ["Châu Đốc", "Chau Doc"] }
+  ,{ href: "ha-tien.html", terms: ["Hà Tiên", "Ha Tien"] }
+  ,{ href: "ca-mau.html", terms: ["Cà Mau", "Ca Mau"] }
+  ,{ href: "nha-trang.html", terms: ["Nha Trang"] }
+  ,{ href: "hoi-an.html", terms: ["Hội An", "Hoi An", "Faifo"] }
+  ,{ href: "poipet.html", terms: ["Poipet"] }
 ];
 
 function escapePattern(value) {
