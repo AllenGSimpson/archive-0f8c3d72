@@ -1791,6 +1791,15 @@ const pages = [
   { title: "Government of Laos", description: "The dual-capital crown, Vientiane ministries, provinces, and corridor administration", href: "government-of-laos.html", tags: "laos government luang prabang vientiane monarchy champasak japan" },
   { title: "Economy of Laos", description: "Agriculture, resources, transit, concessions, and outward-facing infrastructure", href: "economy-of-laos.html", tags: "laos economy agriculture timber mining hydropower transit concessions" },
   { title: "Society of Laos", description: "Royal and administrative centers, Buddhism, Lao particularism, and upland communities", href: "society-of-laos.html", tags: "laos society luang prabang vientiane buddhism lao tham highland" },
+  { title: "Bảo Đại", description: "Nguyễn emperor and founding sovereign of modern Vietnam", href: "bao-dai.html", tags: "bao dai nguyen emperor vietnam hue monarchy" },
+  { title: "Trần Trọng Kim", description: "Scholar and founding head of government of independent Vietnam", href: "tran-trong-kim.html", tags: "tran trong kim vietnam prime minister scholar 1945" },
+  { title: "Hồ Chí Minh", description: "Viet Minh leader of the defeated post-1945 insurgency", href: "ho-chi-minh.html", tags: "ho chi minh viet minh vietnam communist insurgency" },
+  { title: "Sơn Ngọc Thành", description: "Cambodian republican nationalist and political rival to Sihanouk", href: "son-ngoc-thanh.html", tags: "son ngoc thanh cambodia republican nationalist sihanouk" },
+  { title: "Sisavang Vong", description: "King of Luang Prabang and founding sovereign of unified Laos", href: "sisavang-vong.html", tags: "sisavang vong laos luang prabang king monarchy" },
+  { title: "Hanoi", description: "Administrative, ministerial, and intellectual center of Vietnam", href: "hanoi.html", tags: "hanoi vietnam capital ministries university publishing" },
+  { title: "Saigon", description: "Commercial, financial, port, and popular-cultural center of Vietnam", href: "saigon.html", tags: "saigon vietnam port finance media industry cochinchina" },
+  { title: "Kompong Som", description: "Cambodia's national deep-water port and southern development project", href: "kompong-som.html", tags: "kompong som kampong som cambodia port gulf japan" },
+  { title: "Champasak", description: "Southern Lao royal, provincial, agricultural, and transit region", href: "champasak.html", tags: "champasak champassak laos pakse mekong wat phou" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6285,6 +6294,15 @@ const crossLinks = [
   ,{ href: "government-of-laos.html", terms: ["government of Laos"] }
   ,{ href: "economy-of-laos.html", terms: ["economy of Laos"] }
   ,{ href: "society-of-laos.html", terms: ["society of Laos"] }
+  ,{ href: "bao-dai.html", terms: ["Emperor Bảo Đại", "Bảo Đại", "Bao Dai"] }
+  ,{ href: "tran-trong-kim.html", terms: ["Trần Trọng Kim", "Tran Trong Kim"] }
+  ,{ href: "ho-chi-minh.html", terms: ["Hồ Chí Minh", "Ho Chi Minh"] }
+  ,{ href: "son-ngoc-thanh.html", terms: ["Sơn Ngọc Thành", "Son Ngoc Thanh"] }
+  ,{ href: "sisavang-vong.html", terms: ["Sisavang Vong", "Sisavangvong"] }
+  ,{ href: "hanoi.html", terms: ["Hanoi"] }
+  ,{ href: "saigon.html", terms: ["Saigon"] }
+  ,{ href: "kompong-som.html", terms: ["Kompong Som", "Kampong Som"] }
+  ,{ href: "champasak.html", terms: ["Champasak", "Champassak"] }
 ];
 
 function escapePattern(value) {

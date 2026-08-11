@@ -19,17 +19,24 @@ const mekongNationalArticle = config => ({
 const vietnamDepthRelated = [
   {href:"vietnam.html",kicker:"National overview",label:"Empire of Vietnam"},
   {href:"languages-of-vietnam.html",kicker:"Language settlement",label:"Languages of Vietnam"},
-  {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"}
+  {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"},
+  {href:"bao-dai.html",kicker:"Founding sovereign",label:"Bảo Đại"},
+  {href:"hanoi.html",kicker:"Administrative center",label:"Hanoi"},
+  {href:"saigon.html",kicker:"Commercial center",label:"Saigon"}
 ];
 const cambodiaDepthRelated = [
   {href:"cambodia.html",kicker:"National overview",label:"Kingdom of Cambodia"},
   {href:"languages-of-cambodia.html",kicker:"Language settlement",label:"Languages of Cambodia"},
-  {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"}
+  {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"},
+  {href:"son-ngoc-thanh.html",kicker:"Republican current",label:"Sơn Ngọc Thành"},
+  {href:"kompong-som.html",kicker:"National port",label:"Kompong Som"}
 ];
 const laosDepthRelated = [
   {href:"laos.html",kicker:"National overview",label:"Kingdom of Laos"},
   {href:"languages-of-laos.html",kicker:"Language settlement",label:"Languages of Laos"},
-  {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"}
+  {href:"council-three-indochinese-states.html",kicker:"Regional institution",label:"Council of the Three Indochinese States"},
+  {href:"sisavang-vong.html",kicker:"Founding sovereign",label:"Sisavang Vong"},
+  {href:"champasak.html",kicker:"Southern compact",label:"Champasak"}
 ];
 
 Object.assign(window.deepArticles,{
@@ -47,7 +54,7 @@ Object.assign(window.deepArticles,{
       {id:"reserve",title:"Japanese reserved powers",html:"<p>Vietnam has its own nationality, law, ministries, and armed formations, but Tokyo controls the strategic ceiling through bases, military liaison, shipping, rail access, intelligence, financial leverage, advanced machinery, and external alignment.</p>"},
       {id:"regional",title:"Government through the Three States council",html:"<p>Vietnam supplies much of the expertise behind regional transport, health, customs, and river administration. Cambodia and Laos support unanimous rules and rotating offices to prevent Vietnamese administrative predominance from becoming a federation.</p>"}
     ],
-    related:[...vietnamDepthRelated,{href:"economy-of-vietnam.html",kicker:"Political economy",label:"Economy of Vietnam"},{href:"society-of-vietnam.html",kicker:"Social setting",label:"Society of Vietnam"},{href:"hue.html",kicker:"Imperial capital",label:"Huế"}],
+    related:[...vietnamDepthRelated,{href:"tran-trong-kim.html",kicker:"Founding minister",label:"Trần Trọng Kim"},{href:"ho-chi-minh.html",kicker:"Defeated challenger",label:"Hồ Chí Minh"},{href:"economy-of-vietnam.html",kicker:"Political economy",label:"Economy of Vietnam"},{href:"society-of-vietnam.html",kicker:"Social setting",label:"Society of Vietnam"},{href:"hue.html",kicker:"Imperial capital",label:"Huế"}],
     facts:[["State","Empire of Vietnam"],["Government","Protected Nguyễn monarchy"],["Imperial capital","Huế"],["Administrative center","Hanoi"],["Commercial political center","Saigon"],["Founding sovereign","Bảo Đại"],["Strategic reserve","Empire of Japan"],["Final constitutional text","Open"]]
   }),
 
