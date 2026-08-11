@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Co-Prosperity Sphere food-security system</title>
+  <desc id="desc">A diagram showing crop reports and procurement feeding regional reserves, shipping allocation, protected consumers, minimum subsistence floors, and famine relief.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b17"/><stop offset="1" stop-color="#263629"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+  <g fill="none" stroke="#c5b36e" stroke-width="5" opacity=".58"><path d="M600 170V237M600 347V415M435 292H327M765 292H873M435 292L305 475M765 292L895 475"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" filter="url(#shadow)">
+    <rect x="390" y="48" width="420" height="122" rx="18" fill="#34422e" stroke="#d2bd70" stroke-width="3"/>
+    <text x="600" y="88" fill="#e0cd86" font-size="18" font-weight="700" letter-spacing="2">IMPERIAL FOOD AGENCY</text>
+    <text x="600" y="122" fill="#fff" font-size="25" font-weight="700">Reports · contracts · reserve floors</text>
+    <text x="600" y="150" fill="#d4d9cc" font-size="16">crop forecasts · prices · nutrition · emergency orders</text>
+    <rect x="435" y="237" width="330" height="110" rx="18" fill="#5a4d27" stroke="#d8bf69" stroke-width="3"/>
+    <text x="600" y="276" fill="#f2db87" font-size="18" font-weight="700">ALLOCATION GATE</text>
+    <text x="600" y="310" fill="#fff" font-size="22" font-weight="700">Ships · rail · warehouses</text>
+    <text x="600" y="336" fill="#ece2bf" font-size="15">priority determines who waits</text>
+    <rect x="52" y="222" width="275" height="140" rx="18" fill="#31463d" stroke="#79a691" stroke-width="3"/>
+    <text x="190" y="260" fill="#a8d3c0" font-size="18" font-weight="700">SUPPLY REGIONS</text>
+    <text x="190" y="296" fill="#fff" font-size="20">Chōsen · Taiwan · China</text>
+    <text x="190" y="324" fill="#d4ded8" font-size="16">Siam · Indochina · Burma</text>
+    <text x="190" y="349" fill="#d4ded8" font-size="15">rice · grain · substitutes</text>
+    <rect x="873" y="222" width="275" height="140" rx="18" fill="#49393a" stroke="#bb8386" stroke-width="3"/>
+    <text x="1010" y="260" fill="#e0a6aa" font-size="18" font-weight="700">PROTECTED DEMAND</text>
+    <text x="1010" y="296" fill="#fff" font-size="20">Home islands · forces</text>
+    <text x="1010" y="324" fill="#ead9da" font-size="16">bases · settlers · industry</text>
+    <text x="1010" y="349" fill="#ead9da" font-size="15">early hierarchy favors Japan</text>
+    <rect x="70" y="475" width="470" height="125" rx="18" fill="#283c48" stroke="#78a7bf" stroke-width="3"/>
+    <text x="305" y="516" fill="#a8d7eb" font-size="18" font-weight="700">MINIMUM SUBSISTENCE FLOOR</text>
+    <text x="305" y="551" fill="#fff" font-size="20">regional reserves and recorded exceptions</text>
+    <text x="305" y="579" fill="#d2e0e7" font-size="15">less than equality · more than discretionary charity</text>
+    <rect x="660" y="475" width="470" height="125" rx="18" fill="#4a402c" stroke="#c9a85d" stroke-width="3"/>
+    <text x="895" y="516" fill="#e7c77b" font-size="18" font-weight="700">RELIEF AND LEAKAGE</text>
+    <text x="895" y="551" fill="#fff" font-size="20">emergency imports · relief fleets · markets</text>
+    <text x="895" y="579" fill="#e3d8ba" font-size="15">smuggling and corruption redistribute shortage unofficially</text>
+  </g>
+</svg>

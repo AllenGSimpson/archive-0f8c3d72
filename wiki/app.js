@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Rice Economy of the Co-Prosperity Sphere", description: "Cultivation, procurement, storage, transport, consumption, and political hierarchy", href: "rice-economy-geacps.html", tags: "rice economy co-prosperity sphere geacps japan food agriculture" },
+  { title: "Imperial Food Procurement System", description: "Contracts, quotas, prices, clearing, intermediaries, enforcement, and evasion", href: "imperial-food-procurement-system.html", tags: "imperial food procurement system quotas contracts prices japan" },
+  { title: "Strategic Food Reserves in the Co-Prosperity Sphere", description: "Regional staple stocks, reserve floors, release decisions, and transport", href: "strategic-food-reserves-geacps.html", tags: "strategic food reserves geacps grain rice emergency stocks" },
+  { title: "Food Shipping Priorities in the Co-Prosperity Sphere", description: "Allocation of ships, rail, barges, berths, warehouses, and fuel to staple cargo", href: "food-shipping-priorities-geacps.html", tags: "food shipping priorities geacps japan transport tonnage rice" },
+  { title: "Minimum Subsistence Principle", description: "The rule against exporting a member territory below a defensible survival floor", href: "minimum-subsistence-principle.html", tags: "minimum subsistence principle geacps famine food doctrine" },
+  { title: "Famine Relief in the Co-Prosperity Sphere", description: "Emergency supply, movement, health, infrastructure, and imperial responsibility", href: "famine-relief-geacps.html", tags: "famine relief geacps japan emergency food public health" },
+  { title: "Food Black Markets in the Co-Prosperity Sphere", description: "Unofficial circulation under rationing, procurement, price, and movement controls", href: "food-black-markets-geacps.html", tags: "food black markets geacps rationing smuggling rice prices" },
   { title: "Japanese Merchant Marine", description: "The commercial fleet connecting Japan's imperial and associated maritime system", href: "japanese-merchant-marine.html", tags: "japanese merchant marine shipping fleet geacps imperial economy" },
   { title: "Nippon Yūsen Kaisha", description: "NYK, a principal scheduled ocean carrier of the Japanese imperial economy", href: "nippon-yusen-kaisha.html", tags: "nippon yusen kaisha nyk japanese shipping carrier liner" },
   { title: "Osaka Shōsen Kaisha", description: "The Osaka-based carrier linking western Japan to Asian and southern routes", href: "osaka-shosen-kaisha.html", tags: "osaka shosen kaisha osk line japanese shipping carrier" },
@@ -7201,6 +7208,13 @@ const crossLinks = [
   ,{ href: "japanese-imperial-tanker-fleet.html", terms: ["Japanese Imperial Tanker Fleet", "Japanese tanker fleet"] }
   ,{ href: "marine-insurance-yen-area.html", terms: ["Marine Insurance in the Yen Area", "yen-area marine insurance"] }
   ,{ href: "merchant-seafarers-japanese-empire.html", terms: ["Merchant Seafarers of the Japanese Empire", "Japanese merchant seafarers"] }
+  ,{ href: "rice-economy-geacps.html", terms: ["Rice Economy of the Co-Prosperity Sphere", "Co-Prosperity rice economy"] }
+  ,{ href: "imperial-food-procurement-system.html", terms: ["Imperial Food Procurement System", "food procurement system"] }
+  ,{ href: "strategic-food-reserves-geacps.html", terms: ["Strategic Food Reserves in the Co-Prosperity Sphere", "strategic food reserves"] }
+  ,{ href: "food-shipping-priorities-geacps.html", terms: ["Food Shipping Priorities in the Co-Prosperity Sphere", "food shipping priorities"] }
+  ,{ href: "minimum-subsistence-principle.html", terms: ["Minimum Subsistence Principle"] }
+  ,{ href: "famine-relief-geacps.html", terms: ["Famine Relief in the Co-Prosperity Sphere", "Co-Prosperity famine relief"] }
+  ,{ href: "food-black-markets-geacps.html", terms: ["Food Black Markets in the Co-Prosperity Sphere", "Co-Prosperity food black markets"] }
 ];
 
 function escapePattern(value) {
