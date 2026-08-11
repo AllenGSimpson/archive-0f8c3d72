@@ -84,6 +84,14 @@ const pages = [
   { title: "Japanese Archipelagic Defense System", description: "Japan's fleet, island, imperial-shipping, and orbital defensive order", href: "japanese-archipelagic-defense-system.html", tags: "japanese archipelagic defense system carriers islands shipping horai geacps" },
   { title: "Commonwealth Route-Defense System", description: "The merchant-shipping, ASW, and distributed-industrial defense of the Commonwealth", href: "commonwealth-route-defense-system.html", tags: "commonwealth route defense system cape merchant shipping asw dominions reinforcement" },
   { title: "Latin Mediterranean Defense System", description: "The Latin powers' chokepoint and selectively integrated strategic defense", href: "latin-mediterranean-defense-system.html", tags: "latin mediterranean defense system italy spain portugal occitania suez gibraltar" },
+  { title: "Territorial Satiation", description: "The declining marginal value of further terrestrial conquest among mature imperial powers", href: "territorial-satiation.html", tags: "territorial satiation conquest empires armed concert finite war space settlement" },
+  { title: "Usable Victory Problem", description: "The difference between operational success and a stable political gain", href: "usable-victory-problem.html", tags: "usable victory problem military success political settlement war termination peace" },
+  { title: "Conquest of Britain Problem", description: "Why occupation of the British Isles cannot guarantee acquisition of the Commonwealth", href: "conquest-of-britain-problem.html", tags: "conquest britain problem germany commonwealth crossing occupation america intervention" },
+  { title: "Conquest of the Continental United States Problem", description: "The oceanic, continental, military, political, and administrative barriers to conquering America", href: "conquest-of-continental-united-states-problem.html", tags: "conquest continental united states problem america invasion occupation two oceans" },
+  { title: "Distributed Imperial Survivability", description: "Continuation of a power system beyond metropolitan defeat", href: "distributed-imperial-survivability.html", tags: "distributed imperial survivability metropolitan defeat overseas governments forces allies" },
+  { title: "Capital Loss and Government Continuity", description: "Lawful authority, records, command, finance, and recognition after loss of a capital", href: "capital-loss-and-government-continuity.html", tags: "capital loss government continuity succession alternate seat records recognition exile" },
+  { title: "Third-Power Intervention Problem", description: "How decisive regional gains create balancing intervention by an outside power", href: "third-power-intervention-problem.html", tags: "third power intervention problem balance alliance geography escalation neutrality" },
+  { title: "General-War Political Objectives", description: "The missing political end state of a Five-Power general war", href: "general-war-political-objectives.html", tags: "general war political objectives territory regime change disarmament economic peace" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -3031,6 +3039,7 @@ topicNav.push(["Atomic Nonarmament", "nuclear-weapons-research.html"]);
 topicNav.push(["Conventional Deterrence", "cumulative-conventional-deterrence.html"]);
 topicNav.push(["Conventional Defense", "meaningful-conventional-defense.html"]);
 topicNav.push(["Five-Power Defense", "five-power-strategic-defense-systems.html"]);
+topicNav.push(["Political Limits of Victory", "territorial-satiation.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -3196,6 +3205,14 @@ const crossLinks = [
   { href: "japanese-archipelagic-defense-system.html", terms: ["Japanese archipelagic defense system"] },
   { href: "commonwealth-route-defense-system.html", terms: ["Commonwealth route-defense system", "Commonwealth route defense system"] },
   { href: "latin-mediterranean-defense-system.html", terms: ["Latin Mediterranean defense system"] },
+  { href: "territorial-satiation.html", terms: ["territorial satiation"] },
+  { href: "usable-victory-problem.html", terms: ["usable victory problem", "usable general-war victory"] },
+  { href: "conquest-of-britain-problem.html", terms: ["conquest of Britain problem"] },
+  { href: "conquest-of-continental-united-states-problem.html", terms: ["conquest of the continental United States problem", "continental American conquest problem"] },
+  { href: "distributed-imperial-survivability.html", terms: ["distributed imperial survivability"] },
+  { href: "capital-loss-and-government-continuity.html", terms: ["capital loss and government continuity", "government continuity after capital loss"] },
+  { href: "third-power-intervention-problem.html", terms: ["third-power intervention problem", "third power intervention problem"] },
+  { href: "general-war-political-objectives.html", terms: ["general-war political objectives", "general war political objectives"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
