@@ -3350,6 +3350,18 @@ const pages = [
   ,{ title: "Nukuoro Language", description: "The endangered Polynesian outlier language of Nukuoro", href: "nukuoro-language.html", tags: "nukuoro language polynesian samoic outlier endangered" }
   ,{ title: "Puluwatese People", description: "The people of Polowat and their ocean-navigation school", href: "puluwatese-people.html", tags: "puluwatese polowat puluwat people navigation etak canoe" }
   ,{ title: "Puluwatese Language", description: "The Chuukic navigation language of Polowat", href: "puluwatese-language.html", tags: "puluwatese polowat language chuukic navigation etak" }
+  ,{ title: "Lamotrek", description: "The central Caroline atoll of navigation, storm recovery, and Marianas migration", href: "lamotrek.html", tags: "lamotrek atoll yap outer islands navigation saipan" }
+  ,{ title: "Lamotrekese People", description: "The people of Lamotrek and ancestors of part of the Refaluwasch community", href: "lamotrekese-people.html", tags: "lamotrekese people lamotrek refaluwasch carolinian saipan" }
+  ,{ title: "Lamotrekese Language", description: "The Woleaian-related Chuukic speech of Lamotrek", href: "lamotrekese-language.html", tags: "lamotrekese language woleaian chuukic carolinian" }
+  ,{ title: "Ifalik", description: "The Yap outer-island atoll known for sharing, ranked authority, and conflict restraint", href: "ifalik.html", tags: "ifalik atoll yap sharing peaceful society chiefs" }
+  ,{ title: "Ifalik People", description: "The people of Ifalik and their moral institutions of sharing and restraint", href: "ifalik-people.html", tags: "ifalik people morality emotion sharing anger song" }
+  ,{ title: "Ifalik Language", description: "The Woleaian-related speech tradition of Ifalik", href: "ifalik-language.html", tags: "ifalik language woleaian chuukic moral vocabulary" }
+  ,{ title: "Sonsorol", description: "Dongosaro and the remote Sonsorol group of the Japanese Palau district", href: "sonsorol.html", tags: "sonsorol dongosaro pulo anna merir fanna palau" }
+  ,{ title: "Sonsorolese People", description: "The Chuukic Southwest-Island people of the Sonsorol group", href: "sonsorolese-people.html", tags: "sonsorolese people dongosaro pulo anna merir koror" }
+  ,{ title: "Sonsorolese Language", description: "The endangered Chuukic language of Dongosaro, Pulo Anna, and Merir", href: "sonsorolese-language.html", tags: "sonsorolese language ramari dongosaro chuukic tobian" }
+  ,{ title: "Tobi Island", description: "Hatohobei and Helen Reef at the southern edge of the Japanese Palau district", href: "tobi-island.html", tags: "tobi hatohobei helen reef palau southwest islands" }
+  ,{ title: "Tobian People", description: "The people of Hatohobei and their Koror diaspora", href: "tobian-people.html", tags: "tobian people hatohobei helen reef koror" }
+  ,{ title: "Tobian Language", description: "The definitely endangered Chuukic language ramarih Hatohobei", href: "tobian-language.html", tags: "tobian language ramarih hatohobei chuukic sonsorolese endangered" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6835,6 +6847,18 @@ const crossLinks = [
   ,{ href: "nukuoro-language.html", terms: ["Nukuoro language"] }
   ,{ href: "puluwatese-people.html", terms: ["Puluwatese people"] }
   ,{ href: "puluwatese-language.html", terms: ["Puluwatese language"] }
+  ,{ href: "lamotrek.html", terms: ["Lamotrek Atoll", "Lamotrek"] }
+  ,{ href: "lamotrekese-people.html", terms: ["Lamotrekese people", "Lamotrekese community"] }
+  ,{ href: "lamotrekese-language.html", terms: ["Lamotrekese language", "Lamotrekese speech"] }
+  ,{ href: "ifalik.html", terms: ["Ifalik Atoll", "Ifalik"] }
+  ,{ href: "ifalik-people.html", terms: ["Ifalik people", "Ifaluk people"] }
+  ,{ href: "ifalik-language.html", terms: ["Ifalik language", "Ifalik speech"] }
+  ,{ href: "sonsorol.html", terms: ["Sonsorol Island", "Sonsorol", "Dongosaro"] }
+  ,{ href: "sonsorolese-people.html", terms: ["Sonsorolese people", "Sonsorolese community"] }
+  ,{ href: "sonsorolese-language.html", terms: ["Sonsorolese language", "ramari Dongosaro"] }
+  ,{ href: "tobi-island.html", terms: ["Tobi Island", "Hatohobei Island", "Helen Reef"] }
+  ,{ href: "tobian-people.html", terms: ["Tobian people", "Hatohobei people"] }
+  ,{ href: "tobian-language.html", terms: ["Tobian language", "ramarih Hatohobei"] }
 ];
 
 function escapePattern(value) {
