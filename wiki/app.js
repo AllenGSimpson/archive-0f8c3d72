@@ -3326,6 +3326,18 @@ const pages = [
   ,{ title: "Pohnpeian Language", description: "The Pohnpeic language of Ponape with ordinary and honorific registers", href: "pohnpeian-language.html", tags: "pohnpeian language ponape meing kitti nuclear micronesian" }
   ,{ title: "Marshallese People", description: "The matrilineal atoll people of the Ratak and Ralik chains", href: "marshallese-people.html", tags: "marshallese people ratak ralik iroij alap rijerbal navigation" }
   ,{ title: "Marshallese Language", description: "The vigorous Nuclear Micronesian language of the Ratak and Ralik chains", href: "marshallese-language.html", tags: "marshallese language kajin majel ratak ralik nuclear micronesian" }
+  ,{ title: "Kosraean People", description: "The people of Kosrae, Lelu, the tokosra kingdom, four villages, and Protestant island society", href: "kosraean-people.html", tags: "kosraean people kosrae kusaie lelu tokosra malem tafunsak utwe" }
+  ,{ title: "Kosraean Language", description: "The distinct Nuclear Micronesian language of Kosrae", href: "kosraean-language.html", tags: "kosraean language kahs kosrae kusaiean nuclear micronesian lelu" }
+  ,{ title: "Carolinian People of the Marianas", description: "The Refaluwasch community descended from nineteenth-century migrants to Saipan", href: "carolinian-people-marianas.html", tags: "carolinian people marianas refaluwasch saipan satawal lamotrek migration" }
+  ,{ title: "Carolinian Language", description: "The Refaluwasch Chuukic language formed on Saipan", href: "carolinian-language.html", tags: "carolinian language saipan refaluwasch chuukic satawalese chamorro japanese" }
+  ,{ title: "Ulithian People", description: "The atoll people of Ulithi, their clans, navigation, and outer-island identity", href: "ulithian-people.html", tags: "ulithian people ulithi atoll mogmog falalop federai asor navigation sawei" }
+  ,{ title: "Ulithian Language", description: "The western Chuukic language of Ulithi Atoll", href: "ulithian-language.html", tags: "ulithian language ulithi chuukic nuclear micronesian woleaian" }
+  ,{ title: "Woleaian People", description: "The outer-island people of Woleai, navigation, sawei, and an indigenous script tradition", href: "woleaian-people.html", tags: "woleaian people woleai atoll navigation sawei script yap outer islands" }
+  ,{ title: "Woleaian Language", description: "The Chuukic language of Woleai and its indigenous writing system", href: "woleaian-language.html", tags: "woleaian language woleai script caroline islands script chuukic ulithian" }
+  ,{ title: "Satawalese People", description: "The small navigational people of Satawal and ancestors of many Saipan Refaluwasch", href: "satawalese-people.html", tags: "satawalese people satawal navigation saipan refaluwasch lamotrek" }
+  ,{ title: "Satawalese Language", description: "The Chuukic navigation language of Satawal and an ancestor of Saipan Carolinian", href: "satawalese-language.html", tags: "satawalese language satawal chuukic navigation carolinian refaluwasch" }
+  ,{ title: "Mortlockese People", description: "The distinct Chuukic people of the Mortlock or Nomoi Islands southeast of Truk", href: "mortlockese-people.html", tags: "mortlockese people mortlock nomoi satawan lukunor etal namoluk losap" }
+  ,{ title: "Mortlockese Language", description: "The language of the Mortlocks, closely related to but distinct from Chuukese", href: "mortlockese-language.html", tags: "mortlockese language mortlock nomoi chuukic chuukese satawan lukunor" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6787,6 +6799,18 @@ const crossLinks = [
   ,{ href: "pohnpeian-language.html", terms: ["Pohnpeian language", "Lokaiahn Pohnpei", "Mahsen en Pohnpei"] }
   ,{ href: "marshallese-people.html", terms: ["Marshallese people", "Marshallese communities"] }
   ,{ href: "marshallese-language.html", terms: ["Marshallese language", "Kajin Ṃajeḷ", "Kajin Majol"] }
+  ,{ href: "kosraean-people.html", terms: ["Kosraean people", "Kosraeans"] }
+  ,{ href: "kosraean-language.html", terms: ["Kosraean language", "Kahs Kosrae", "Kusaiean language"] }
+  ,{ href: "carolinian-people-marianas.html", terms: ["Carolinian people of the Marianas", "Refaluwasch people", "Refaluwasch community"] }
+  ,{ href: "carolinian-language.html", terms: ["Carolinian language", "Saipan Carolinian", "Refaluwasch language"] }
+  ,{ href: "ulithian-people.html", terms: ["Ulithian people", "Ulithians"] }
+  ,{ href: "ulithian-language.html", terms: ["Ulithian language"] }
+  ,{ href: "woleaian-people.html", terms: ["Woleaian people", "Woleaians"] }
+  ,{ href: "woleaian-language.html", terms: ["Woleaian language", "Woleai script"] }
+  ,{ href: "satawalese-people.html", terms: ["Satawalese people", "Satawalese"] }
+  ,{ href: "satawalese-language.html", terms: ["Satawalese language"] }
+  ,{ href: "mortlockese-people.html", terms: ["Mortlockese people", "Mortlockese community"] }
+  ,{ href: "mortlockese-language.html", terms: ["Mortlockese language"] }
 ];
 
 function escapePattern(value) {
