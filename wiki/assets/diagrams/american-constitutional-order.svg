@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Constitutional order of the forty-eight-state United States</title>
+  <desc id="desc">Diagram showing the Constitution above the presidency, House, Senate, and federal courts, with states below retaining domestic and electoral authority.</desc>
+  <defs>
+    <style>
+      .bg{fill:#101820}.panel{fill:#18242e;stroke:#66839b;stroke-width:2}.charter{fill:#23364a;stroke:#d4b96f;stroke-width:3}.state{fill:#17352f;stroke:#75a797;stroke-width:2.5}.line{stroke:#aebbc5;stroke-width:3;fill:none}.dash{stroke:#78909f;stroke-width:2.5;fill:none;stroke-dasharray:10 8}.gold{stroke:#d4b96f}.text{font-family:Georgia,'Times New Roman',serif;fill:#f2eee5;text-anchor:middle}.head{font-size:24px;font-weight:bold}.body{font-size:17px;fill:#cad4db}.small{font-size:15px;fill:#9fb0bc}.label{font-size:15px;fill:#d4b96f;font-weight:bold;letter-spacing:1px}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#aebbc5"/></marker>
+  </defs>
+  <rect class="bg" width="1200" height="760" rx="24"/>
+  <text class="text head" x="600" y="46">Constitutional Order of the Forty-Eight-State Union</text>
+  <text class="text small" x="600" y="75">separated national powers operate within a federal republic of continuing state governments</text>
+
+  <rect class="charter" x="390" y="105" width="420" height="100" rx="16"/>
+  <text class="text head" x="600" y="145">Constitution of the United States</text>
+  <text class="text body" x="600" y="176">supreme federal law · amendments · divided authority</text>
+
+  <rect class="panel" x="55" y="285" width="245" height="125" rx="16"/>
+  <text class="text head" x="177" y="325">Presidency</text>
+  <text class="text body" x="177" y="356">execution · veto · command</text>
+  <text class="text small" x="177" y="382">fixed term and national priority</text>
+
+  <rect class="panel" x="350" y="285" width="245" height="125" rx="16"/>
+  <text class="text head" x="472" y="325">House</text>
+  <text class="text body" x="472" y="356">435 seats · revenue · inquiry</text>
+  <text class="text small" x="472" y="382">state-vote contingent selection</text>
+
+  <rect class="panel" x="645" y="285" width="245" height="125" rx="16"/>
+  <text class="text head" x="767" y="325">Senate</text>
+  <text class="text body" x="767" y="356">96 seats · consent · treaties</text>
+  <text class="text small" x="767" y="382">two senators for every state</text>
+
+  <rect class="panel" x="940" y="285" width="205" height="125" rx="16"/>
+  <text class="text head" x="1042" y="325">Federal Courts</text>
+  <text class="text body" x="1042" y="356">cases · review</text>
+  <text class="text small" x="1042" y="382">Article III tenure</text>
+
+  <path class="line gold" d="M600 205V245H177V285M600 245H472V285M600 245H767V285M600 245H1042V285"/>
+  <text class="text label" x="600" y="266">SEPARATION OF POWERS · CHECKS AND BALANCES</text>
+  <path class="line" marker-end="url(#arrow)" d="M300 333H340"/>
+  <path class="line" marker-end="url(#arrow)" d="M595 333H635"/>
+  <path class="line" marker-end="url(#arrow)" d="M940 371H900"/>
+  <path class="dash" marker-end="url(#arrow)" d="M1042 285C1000 235 875 225 810 245"/>
+
+  <rect class="state" x="105" y="530" width="990" height="145" rx="18"/>
+  <text class="text head" x="600" y="572">Forty-Eight States</text>
+  <text class="text body" x="600" y="606">state constitutions · legislatures · governors · courts · police power · taxation</text>
+  <text class="text body" x="600" y="637">corporation law · local government · election administration · elector allocation</text>
+  <text class="text small" x="600" y="660">Alaska and Hawaii remain territories without equal congressional representation</text>
+
+  <path class="dash" d="M177 410V480H600V530M472 410V480M767 410V480M1042 410V480"/>
+  <text class="text label" x="600" y="509">FEDERALISM · NATIONAL SUPREMACY WITHIN CONSTITUTIONAL COMPETENCE</text>
+  <text class="text small" x="600" y="724">Presidents select direction; Congress selects lawful means; courts determine cases; states retain extensive governing machinery.</text>
+</svg>
