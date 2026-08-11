@@ -3194,6 +3194,20 @@ const pages = [
   ,{ title: "Chilean National Intelligence Service", description: "The military government's centralized repressive security apparatus", href: "chilean-national-intelligence-service.html", tags: "chile national intelligence service security repression surveillance torture disappearance" }
   ,{ title: "Chile–Britain Defense Relationship", description: "Naval, radar, staff, intelligence, and Falklands cooperation", href: "chile-britain-defense-relationship.html", tags: "chile britain defense relationship navy radar falklands intelligence" }
   ,{ title: "Beagle Conflict", description: "The southern island and maritime dispute feeding the Cold Andes", href: "beagle-conflict.html", tags: "beagle conflict chile argentina picton lennox nueva 1978 cold andes" }
+  ,{ title: "French Industrial Partition of 1947", description: "The division of plants, firms, ownership, and standards between the successor states", href: "french-industrial-partition-1947.html", tags: "france french industrial partition 1947 factories companies northern occitania" }
+  ,{ title: "Cross-border French Industrial Claims", description: "Ownership, brands, patents, debts, and pensions across the French frontier", href: "cross-border-french-industrial-claims.html", tags: "france industrial claims cross border ownership patents brands clearing" }
+  ,{ title: "Automobile Industry of Northern France", description: "The Billancourt, Javel, Nanterre, Poissy, and Sochaux vehicle system", href: "automobile-industry-northern-france.html", tags: "northern france automobile industry cars renault citroen peugeot simca panhard" }
+  ,{ title: "Motor Industry of Occitania", description: "Tyres, trucks, buses, components, and military mobility", href: "motor-industry-occitania.html", tags: "occitania motor industry michelin berliet tyres trucks buses" }
+  ,{ title: "French Aerospace Industrial Partition", description: "The division of aircraft plants, design bureaus, and national companies", href: "french-aerospace-industrial-partition.html", tags: "france aerospace partition toulouse bordeaux sncam sncase sncaso" }
+  ,{ title: "Renault", description: "The Billancourt mass producer and northern state-supervised champion", href: "renault.html", tags: "renault billancourt northern france automobiles trucks tractors" }
+  ,{ title: "Citroën", description: "The Javel manufacturer under a disputed Occitan Michelin claim", href: "citroen.html", tags: "citroen javel paris michelin ownership claim automobiles" }
+  ,{ title: "Peugeot", description: "The Sochaux family manufacturer on the continental frontier", href: "peugeot.html", tags: "peugeot sochaux montbeliard northern france automobiles" }
+  ,{ title: "Simca", description: "The Nanterre manufacturer between northern control and Fiat lineage", href: "simca.html", tags: "simca nanterre fiat northern france automobiles" }
+  ,{ title: "Michelin", description: "The Clermont-Ferrand tyre group and Occitan national champion", href: "michelin.html", tags: "michelin clermont ferrand occitania tyres rubber radial citroen" }
+  ,{ title: "Berliet", description: "The Lyon–Vénissieux truck, bus, and military-vehicle manufacturer", href: "berliet.html", tags: "berliet lyon venissieux occitania trucks buses military vehicles" }
+  ,{ title: "Panhard", description: "The Paris pioneer of light cars and armored reconnaissance", href: "panhard.html", tags: "panhard levassor paris avenue ivry cars armored reconnaissance" }
+  ,{ title: "SNCAM and the Dewoitine Tradition", description: "The Toulouse aircraft lineage inherited by Occitania", href: "sncam-dewoitine.html", tags: "sncam dewoitine toulouse aircraft d520 sncase occitania" }
+  ,{ title: "Rhône-Poulenc", description: "The Lyon–Paris chemical and pharmaceutical group divided after 1947", href: "rhone-poulenc.html", tags: "rhone poulenc lyon paris chemicals pharmaceuticals divided france" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6523,6 +6537,20 @@ const crossLinks = [
   ,{ href: "chilean-national-intelligence-service.html", terms: ["Chilean national intelligence service", "Chile's national intelligence service"] }
   ,{ href: "chile-britain-defense-relationship.html", terms: ["Chile–Britain defense relationship", "Chile-Britain defense relationship"] }
   ,{ href: "beagle-conflict.html", terms: ["Beagle conflict", "Beagle dispute"] }
+  ,{ href: "french-industrial-partition-1947.html", terms: ["French industrial partition", "industrial partition of 1947"] }
+  ,{ href: "cross-border-french-industrial-claims.html", terms: ["cross-border French industrial claims", "cross-border industrial claims"] }
+  ,{ href: "automobile-industry-northern-france.html", terms: ["automobile industry of Northern France", "northern automobile industry"] }
+  ,{ href: "motor-industry-occitania.html", terms: ["motor industry of Occitania", "Occitan motor industry"] }
+  ,{ href: "french-aerospace-industrial-partition.html", terms: ["French aerospace industrial partition", "aerospace industrial partition"] }
+  ,{ href: "renault.html", terms: ["Renault", "Renault company"] }
+  ,{ href: "citroen.html", terms: ["Citroën", "Citroen"] }
+  ,{ href: "peugeot.html", terms: ["Peugeot", "Peugeot company"] }
+  ,{ href: "simca.html", terms: ["Simca", "Simca company"] }
+  ,{ href: "michelin.html", terms: ["Michelin", "Michelin company"] }
+  ,{ href: "berliet.html", terms: ["Berliet", "Berliet company"] }
+  ,{ href: "panhard.html", terms: ["Panhard", "Panhard & Levassor"] }
+  ,{ href: "sncam-dewoitine.html", terms: ["SNCAM", "Dewoitine tradition"] }
+  ,{ href: "rhone-poulenc.html", terms: ["Rhône-Poulenc", "Rhone-Poulenc"] }
 ];
 
 function escapePattern(value) {
