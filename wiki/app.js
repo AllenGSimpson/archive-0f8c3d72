@@ -3242,6 +3242,18 @@ const pages = [
   ,{ title: "Jardine Matheson", description: "The British merchant house dispossessed in Japanese Hong Kong and coastal China", href: "jardine-matheson.html", tags: "jardine matheson hong kong canton merchant house blocked property" }
   ,{ title: "Standard-Vacuum Oil Company", description: "The American Far Eastern petroleum network displaced by Japanese conquest", href: "standard-vacuum-oil.html", tags: "standard vacuum stanvac oil petroleum east indies american japan" }
   ,{ title: "Hong Kong under Japanese Rule", description: "The former British colony as a Japanese imperial port and China-facing commercial city", href: "hong-kong-under-japanese-rule.html", tags: "hong kong japanese rule empire port garrison commercial city 1941 1947" }
+  ,{ title: "Yakutia", description: "The largest federal land of the Russian Far Eastern State", href: "yakutia.html", tags: "yakutia sakha lena federal territory russian far east mining indigenous" }
+  ,{ title: "Yakutsk", description: "The Lena River capital and northern administrative hub of Yakutia", href: "yakutsk.html", tags: "yakutsk yakutia sakha lena city permafrost aviation river capital" }
+  ,{ title: "Kolyma", description: "The northeastern mining and transport territory centered on Magadan", href: "kolyma.html", tags: "kolyma magadan mining gold far east territory dalstroy camps" }
+  ,{ title: "Kolyma Camp System", description: "The forced-labor foundation and postwar conversion of northeastern Siberia", href: "kolyma-camp-system.html", tags: "kolyma camp system gulag prisoners forced labor mining roads memory" }
+  ,{ title: "Dalstroy", description: "The Soviet northeastern development and camp administration after union collapse", href: "dalstroy.html", tags: "dalstroy soviet trust nkvd magadan kolyma gold forced labor administration" }
+  ,{ title: "Magadan", description: "The Sea of Okhotsk port and administrative gateway to Kolyma", href: "magadan.html", tags: "magadan nagaevo port kolyma dalstroy city aviation okhotsk" }
+  ,{ title: "Kamchatka", description: "The Pacific peninsula territory of the Russian Far Eastern State", href: "kamchatka.html", tags: "kamchatka peninsula petropavlovsk fisheries volcanoes far eastern state japan" }
+  ,{ title: "Petropavlovsk-Kamchatsky", description: "The Pacific port, aviation center, and capital of Kamchatka", href: "petropavlovsk-kamchatsky.html", tags: "petropavlovsk kamchatsky kamchatka avacha bay port fisheries aviation bering" }
+  ,{ title: "Sea of Okhotsk Transport System", description: "Seasonal shipping, ports, ice, aviation, and rescue across the northern Far East", href: "sea-of-okhotsk-transport-system.html", tags: "sea okhotsk transport shipping ice magadan petropavlovsk fisheries rescue" }
+  ,{ title: "Northern Resource Concessions", description: "Mining, fisheries, forestry, and protected-state capital in the Russian Far East", href: "northern-resource-concessions-russian-far-east.html", tags: "northern resource concessions russian far east japan manchukuo mining fisheries royalties labor" }
+  ,{ title: "Northern Integration of the Russian Far Eastern State", description: "Federal incorporation from the Lena basin to Kolyma and Kamchatka", href: "northern-integration-russian-far-east.html", tags: "northern integration russian far eastern state federal charters yakutia kolyma kamchatka" }
+  ,{ title: "Former Gulag Zones of Post-Soviet Siberia", description: "Security-economic domains left by the Soviet penal-labor system", href: "former-gulag-zones.html", tags: "former gulag zones siberia security chiefs labor camps railways successor states" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6619,6 +6631,18 @@ const crossLinks = [
   ,{ href: "jardine-matheson.html", terms: ["Jardine Matheson", "Jardines"] }
   ,{ href: "standard-vacuum-oil.html", terms: ["Standard-Vacuum Oil Company", "Standard-Vacuum", "Stanvac"] }
   ,{ href: "hong-kong-under-japanese-rule.html", terms: ["Hong Kong under Japanese rule", "Japanese Hong Kong"] }
+  ,{ href: "yakutia.html", terms: ["Yakutia", "Sakha land"] }
+  ,{ href: "yakutsk.html", terms: ["Yakutsk"] }
+  ,{ href: "kolyma.html", terms: ["Kolyma"] }
+  ,{ href: "kolyma-camp-system.html", terms: ["Kolyma camp system", "Kolyma camps"] }
+  ,{ href: "dalstroy.html", terms: ["Dalstroy"] }
+  ,{ href: "magadan.html", terms: ["Magadan", "Nagaevo Bay"] }
+  ,{ href: "kamchatka.html", terms: ["Kamchatka"] }
+  ,{ href: "petropavlovsk-kamchatsky.html", terms: ["Petropavlovsk-Kamchatsky", "Petropavlovsk"] }
+  ,{ href: "sea-of-okhotsk-transport-system.html", terms: ["Sea of Okhotsk transport system", "Okhotsk transport system"] }
+  ,{ href: "northern-resource-concessions-russian-far-east.html", terms: ["northern resource concessions", "Far Eastern northern concessions"] }
+  ,{ href: "northern-integration-russian-far-east.html", terms: ["northern integration of the Russian Far Eastern State", "Far Eastern northern integration"] }
+  ,{ href: "former-gulag-zones.html", terms: ["former Gulag zones", "Gulag corridors"] }
 ];
 
 function escapePattern(value) {
