@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Armed Forces of Imperial Japan", description: "Army, Navy, supreme command, mobilization, procurement, and differentiated imperial deployment", href: "armed-forces-of-imperial-japan.html", tags: "armed forces imperial Japan army navy command conscription garrisons" },
+  { title: "Imperial Japanese Army after 1947", description: "Continental defense, mobilization, garrisons, mechanization, aviation, and political authority", href: "imperial-japanese-army-postwar.html", tags: "imperial Japanese Army postwar IJA land forces China garrison tanks" },
+  { title: "Imperial Japanese Army General Staff", description: "Army strategy, operations, mobilization planning, intelligence requirements, and imperial advice", href: "imperial-japanese-army-general-staff.html", tags: "imperial Japanese Army general staff strategy operations mobilization intelligence" },
+  { title: "Army Ministry of Japan", description: "Personnel, budgets, establishments, procurement, supply, and Army representation in Cabinet", href: "army-ministry-japan.html", tags: "Army Ministry Japan personnel budget procurement cabinet administration" },
+  { title: "Conscription and Reserve System of Imperial Japan", description: "Military obligation, training, reserve service, skilled labor, and unequal integral citizenship", href: "japanese-conscription-reserve-system.html", tags: "Japanese conscription reserve system military service Korea Chosen Taiwan" },
+  { title: "Japanese Overseas Garrisons and Military Missions", description: "Direct garrisons, treaty bases, advisers, guarantees, and reserve supremacy across Asian states", href: "japanese-overseas-garrisons.html", tags: "Japanese overseas garrisons military missions bases guarantees GEACPS" },
+  { title: "Officer Corps and Military Education in Imperial Japan", description: "Army and Navy schools, professional formation, imperial ideology, technical and joint education", href: "japanese-military-education-officer-corps.html", tags: "Japanese officer corps military education academies staff college Army Navy" },
   { title: "High Institutions of Postwar Japan", description: "Imperial sanction, Cabinet coordination, strategic councils, services, ministries, and corporate implementation", href: "high-institutions-postwar-japan.html", tags: "high institutions postwar Japan emperor cabinet defense council army navy ministries" },
   { title: "State Shinto in Postwar Japan", description: "Imperial rites, shrines, civic observance, military memory, and integral-territory practice", href: "state-shinto-postwar-japan.html", tags: "state shinto postwar Japan emperor shrines rites schools military memory" },
   { title: "Imperial Conference in Postwar Japan", description: "Exceptional settlement joining imperial sanction, Cabinet government, and supreme command", href: "imperial-conference-postwar-japan.html", tags: "imperial conference postwar Japan emperor cabinet supreme command" },
@@ -7341,6 +7348,13 @@ const crossLinks = [
   ,{ href: "army-navy-relations-postwar-japan.html", terms: ["Army-Navy Relations in Postwar Japan", "Army-Navy relations"] }
   ,{ href: "imperial-court-senior-statesmen-postwar-japan.html", terms: ["Imperial Court and Senior Statesmen in Postwar Japan", "imperial court and senior statesmen"] }
   ,{ href: "bureaucracy-corporate-power-postwar-japan.html", terms: ["Bureaucracy and Corporate Power in Postwar Japan", "bureaucracy and corporate power"] }
+  ,{ href: "armed-forces-of-imperial-japan.html", terms: ["Armed Forces of Imperial Japan", "Japanese armed forces", "imperial armed forces"] }
+  ,{ href: "imperial-japanese-army-postwar.html", terms: ["Imperial Japanese Army after 1947", "postwar Imperial Japanese Army", "Imperial Japanese Army"] }
+  ,{ href: "imperial-japanese-army-general-staff.html", terms: ["Imperial Japanese Army General Staff", "Army General Staff"] }
+  ,{ href: "army-ministry-japan.html", terms: ["Army Ministry of Japan", "Japanese Army Ministry", "Army Ministry"] }
+  ,{ href: "japanese-conscription-reserve-system.html", terms: ["Conscription and Reserve System of Imperial Japan", "Japanese conscription", "Japanese reserve system"] }
+  ,{ href: "japanese-overseas-garrisons.html", terms: ["Japanese Overseas Garrisons and Military Missions", "Japanese overseas garrisons", "Japanese military missions"] }
+  ,{ href: "japanese-military-education-officer-corps.html", terms: ["Officer Corps and Military Education in Imperial Japan", "Japanese officer corps", "Japanese military education"] }
 ];
 
 function escapePattern(value) {
