@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Society of Postwar Japan", description: "Households, companies, education, geography, unequal membership, and managed social conflict", href: "society-of-postwar-japan.html", tags: "society postwar Japan household company education class minority provincial" },
+  { title: "Rural Depopulation and Provincial Japan", description: "Migration, aging, agriculture, services, regional industry, politics, and culture", href: "rural-depopulation-provincial-japan.html", tags: "rural depopulation provincial Japan migration agriculture aging prefecture" },
+  { title: "Women and Motherhood in Postwar Japan", description: "Household ideals, paid work, marriage, care, education, and company policy", href: "women-motherhood-postwar-japan.html", tags: "women motherhood postwar Japan family work marriage care education" },
+  { title: "Veterans in Postwar Japan", description: "Victory service, demobilization, reserves, employment, welfare, families, and memory", href: "veterans-postwar-japan.html", tags: "veterans postwar Japan victory demobilization reserve welfare memory" },
+  { title: "Minorities in Japan Proper", description: "Ainu, Ryukyuans, burakumin, peninsula-origin families, Taiwanese residents, and unequal nationality", href: "minorities-japan-proper.html", tags: "minorities Japan proper Ainu Okinawan Ryukyuan burakumin Korean Taiwanese" },
+  { title: "Housing and Urban Planning in Postwar Japan", description: "Reconstruction, company housing, commuting, municipal services, and metropolitan growth", href: "housing-urban-planning-postwar-japan.html", tags: "housing urban planning postwar Japan company housing commuting cities" },
+  { title: "Class, Universities, and Labor in Postwar Japan", description: "Credentials, company rank, students, labor institutions, and workplace disputes", href: "class-universities-labor-postwar-japan.html", tags: "class universities labor postwar Japan students unions disputes credentials" },
   { title: "Politics of Japan", description: "Imperial sovereignty, Cabinet government, the Diet, factions, bureaucracy, and bounded opposition", href: "politics-of-japan.html", tags: "politics Japan emperor cabinet imperial diet factions home ministry opposition" },
   { title: "Emperor in Postwar Japanese Politics", description: "Imperial sanction, mediation, conference, Cabinet transition, Hirohito, and Akihito", href: "emperor-in-postwar-japanese-politics.html", tags: "emperor postwar Japanese politics Hirohito Akihito imperial conference sanction" },
   { title: "Imperial Diet in Postwar Japan", description: "Law, supply, petitions, administrative scrutiny, factions, and constitutional limits", href: "imperial-diet-postwar-japan.html", tags: "imperial diet postwar Japan parliament House Representatives budgets petitions" },
@@ -7313,6 +7320,13 @@ const crossLinks = [
   ,{ href: "imperial-rule-assistance-association-after-victory.html", terms: ["Imperial Rule Assistance Association after Victory", "Imperial Rule Assistance Association"] }
   ,{ href: "home-ministry-police-postwar-japan.html", terms: ["Home Ministry and Police in Postwar Japan", "Home Ministry and police"] }
   ,{ href: "political-opposition-postwar-japan.html", terms: ["Political Opposition in Postwar Japan", "political opposition"] }
+  ,{ href: "society-of-postwar-japan.html", terms: ["Society of Postwar Japan", "postwar Japanese society"] }
+  ,{ href: "rural-depopulation-provincial-japan.html", terms: ["Rural Depopulation and Provincial Japan", "rural depopulation"] }
+  ,{ href: "women-motherhood-postwar-japan.html", terms: ["Women and Motherhood in Postwar Japan", "women and motherhood"] }
+  ,{ href: "veterans-postwar-japan.html", terms: ["Veterans in Postwar Japan", "Japanese veterans"] }
+  ,{ href: "minorities-japan-proper.html", terms: ["Minorities in Japan Proper", "minorities in Japan"] }
+  ,{ href: "housing-urban-planning-postwar-japan.html", terms: ["Housing and Urban Planning in Postwar Japan", "housing and urban planning"] }
+  ,{ href: "class-universities-labor-postwar-japan.html", terms: ["Class, Universities, and Labor in Postwar Japan", "university and labor politics"] }
 ];
 
 function escapePattern(value) {
