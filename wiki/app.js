@@ -92,6 +92,11 @@ const pages = [
   { title: "Capital Loss and Government Continuity", description: "Lawful authority, records, command, finance, and recognition after loss of a capital", href: "capital-loss-and-government-continuity.html", tags: "capital loss government continuity succession alternate seat records recognition exile" },
   { title: "Third-Power Intervention Problem", description: "How decisive regional gains create balancing intervention by an outside power", href: "third-power-intervention-problem.html", tags: "third power intervention problem balance alliance geography escalation neutrality" },
   { title: "General-War Political Objectives", description: "The missing political end state of a Five-Power general war", href: "general-war-political-objectives.html", tags: "general war political objectives territory regime change disarmament economic peace" },
+  { title: "Corporate Execution Continuity", description: "Operational memory and capacity across changing American governments", href: "corporate-execution-continuity.html", tags: "corporate execution continuity memory capacity three clocks america contractors" },
+  { title: "Federal Program Implementation after 1996", description: "Congressional revision of method, pace, contracts, and regional workshare", href: "federal-program-implementation-after-1996.html", tags: "federal program implementation congress method pace contracts workshare five party" },
+  { title: "Cross-Party Corporate Accommodation", description: "How durable American contractors translate programs across party coalitions", href: "cross-party-corporate-accommodation.html", tags: "cross party corporate accommodation political language contracts frontier coalitions" },
+  { title: "Nominal Competition in American Strategic Industries", description: "Real specialist firms around functionally concentrated networks", href: "nominal-competition-strategic-industries.html", tags: "nominal competition strategic industries functional monopoly specialists frontier network" },
+  { title: "Public Control of Indispensable Contractors", description: "Sovereign legal, procurement, regulatory, and emergency powers over essential firms", href: "public-control-indispensable-contractors.html", tags: "public control indispensable contractors procurement licensing regulation strategic ownership" },
   { title: "British Commonwealth", description: "Defeat, the Cape route, and reconstruction", href: "commonwealth.html", tags: "britain uk commonwealth lisbon suez cape" },
   { title: "Empire of Japan", description: "Maritime empire and developmental hierarchy", href: "japan.html", tags: "japan asia co-prosperity china korea navy" },
   { title: "United States", description: "The contested American hemisphere", href: "united-states.html", tags: "america usa buchanan rockwell reagan renewal" },
@@ -3040,6 +3045,7 @@ topicNav.push(["Conventional Deterrence", "cumulative-conventional-deterrence.ht
 topicNav.push(["Conventional Defense", "meaningful-conventional-defense.html"]);
 topicNav.push(["Five-Power Defense", "five-power-strategic-defense-systems.html"]);
 topicNav.push(["Political Limits of Victory", "territorial-satiation.html"]);
+topicNav.push(["American Execution State", "corporate-execution-continuity.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
 
 const deepNav = [
@@ -3213,6 +3219,11 @@ const crossLinks = [
   { href: "capital-loss-and-government-continuity.html", terms: ["capital loss and government continuity", "government continuity after capital loss"] },
   { href: "third-power-intervention-problem.html", terms: ["third-power intervention problem", "third power intervention problem"] },
   { href: "general-war-political-objectives.html", terms: ["general-war political objectives", "general war political objectives"] },
+  { href: "corporate-execution-continuity.html", terms: ["corporate execution continuity", "execution continuity"] },
+  { href: "federal-program-implementation-after-1996.html", terms: ["federal program implementation after 1996", "congressional method politics"] },
+  { href: "cross-party-corporate-accommodation.html", terms: ["cross-party corporate accommodation", "corporate mandate translation"] },
+  { href: "nominal-competition-strategic-industries.html", terms: ["nominal competition in American strategic industries", "nominal competition", "nominal competitors"] },
+  { href: "public-control-indispensable-contractors.html", terms: ["public control of indispensable contractors", "indispensable contractors"] },
   { href: "commonwealth.html", terms: ["British Commonwealth", "Britain"] },
   { href: "germany.html", terms: ["Greater German Reich", "Greater Germany", "Germany"] },
   { href: "japan.html", terms: ["Empire of Japan", "Japanese Empire", "Japan"] },
