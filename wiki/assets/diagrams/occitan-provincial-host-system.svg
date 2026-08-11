@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Occitan Provincial Host System</title>
+  <desc id="desc">Diagram showing the national General Staff and eight geographically specialized provincial divisions, with national procurement and aviation standards connecting the formations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101713"/><stop offset="1" stop-color="#19140d"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000" flood-opacity=".48"/></filter>
+    <style>
+      .line{stroke:#b99b54;stroke-width:3;fill:none;opacity:.78}.node{fill:#20261f;stroke:#d8b95f;stroke-width:2}.coast{fill:#1b2730}.mountain{fill:#25231c}.mobile{fill:#27201b}.staff{fill:#352515;stroke:#efcf69;stroke-width:3}.head{font:700 28px Georgia,serif;fill:#f3e8cc}.sub{font:16px Arial,sans-serif;fill:#c9c2af}.small{font:14px Arial,sans-serif;fill:#a9a492}.label{font:700 18px Georgia,serif;fill:#f5e7c4}.role{font:14px Arial,sans-serif;fill:#d2c8ae}.band{fill:#9e1b1b}.gold{fill:#e6ba3e}
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="14" class="band"/><rect x="0" y="14" width="1200" height="8" class="gold"/>
+  <text x="600" y="62" text-anchor="middle" class="head">THE OCCITAN PROVINCIAL HOST SYSTEM</text>
+  <text x="600" y="89" text-anchor="middle" class="sub">One national command · eight regional formations · locally matched arms and aviation</text>
+  <path class="line" d="M600 346L260 185M600 346L500 170M600 346L835 180M600 346L1000 315M600 346L980 530M600 346L720 610M600 346L420 610M600 346L205 520"/>
+  <g filter="url(#shadow)">
+    <rect x="405" y="292" width="390" height="128" rx="12" class="staff"/>
+    <text x="600" y="330" text-anchor="middle" class="label">NATIONAL GENERAL STAFF</text>
+    <text x="600" y="357" text-anchor="middle" class="role">doctrine · senior promotion · heavy procurement</text>
+    <text x="600" y="380" text-anchor="middle" class="role">common schools · communications · aviation standards</text>
+    <text x="600" y="402" text-anchor="middle" class="small">provincial loyalty bounded by national command</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="80" y="125" width="360" height="104" rx="10" class="node"/>
+    <text x="260" y="159" text-anchor="middle" class="label">TOULOUSE</text><text x="260" y="184" text-anchor="middle" class="role">mechanized infantry · central reserve</text><text x="260" y="207" text-anchor="middle" class="small">full close-support and point-defense group</text>
+    <rect x="455" y="110" width="290" height="104" rx="10" class="node"/>
+    <text x="600" y="144" text-anchor="middle" class="label">RHÔNE</text><text x="600" y="169" text-anchor="middle" class="role">armor · industrial corridor</text><text x="600" y="192" text-anchor="middle" class="small">full close-support and interceptor group</text>
+    <rect x="770" y="120" width="350" height="104" rx="10" class="coast node"/>
+    <text x="945" y="154" text-anchor="middle" class="label">PROVENCE</text><text x="945" y="179" text-anchor="middle" class="role">coastal defense · ports · fortresses</text><text x="945" y="202" text-anchor="middle" class="small">naval aviation and point-defense aircraft</text>
+    <rect x="900" y="264" width="260" height="104" rx="10" class="coast node"/>
+    <text x="1030" y="298" text-anchor="middle" class="label">GUYENNE</text><text x="1030" y="323" text-anchor="middle" class="role">marines · riverine forces</text><text x="1030" y="346" text-anchor="middle" class="small">maritime patrol and coastal interceptors</text>
+    <rect x="825" y="485" width="330" height="104" rx="10" class="mountain node"/>
+    <text x="990" y="519" text-anchor="middle" class="label">BÉARN–FOIX</text><text x="990" y="544" text-anchor="middle" class="role">Pyrenean defense · fortified passes</text><text x="990" y="567" text-anchor="middle" class="small">reconnaissance and liaison aviation</text>
+    <rect x="575" y="585" width="300" height="104" rx="10" class="mobile node"/>
+    <text x="725" y="619" text-anchor="middle" class="label">GASCONY</text><text x="725" y="644" text-anchor="middle" class="role">armored cavalry · screening</text><text x="725" y="667" text-anchor="middle" class="small">air reconnaissance and light support</text>
+    <rect x="265" y="580" width="305" height="104" rx="10" class="mountain node"/>
+    <text x="418" y="614" text-anchor="middle" class="label">AUVERGNE</text><text x="418" y="639" text-anchor="middle" class="role">mountain infantry · interior redoubt</text><text x="418" y="662" text-anchor="middle" class="small">short-field liaison and limited support</text>
+    <rect x="45" y="470" width="325" height="104" rx="10" class="node"/>
+    <text x="208" y="504" text-anchor="middle" class="label">LIMOUSIN–MARCHE</text><text x="208" y="529" text-anchor="middle" class="role">security · reserve · rail protection</text><text x="208" y="552" text-anchor="middle" class="small">liaison and surveillance aircraft</text>
+  </g>
+  <text x="600" y="728" text-anchor="middle" class="small">Formations grow from provincial guard battalions to regiments and divisions; exact official titles, strengths, and commanders remain open.</text>
+</svg>

@@ -1,4 +1,14 @@
 const pages = [
+  { title: "Occitan Army", description: "Provincial formations, national command, domestic industry, and the northern frontier", href: "occitan-army.html", tags: "occitan army occitania provincial formations general staff northern france" },
+  { title: "Provincial Host System", description: "Occitania's province-linked combined-arms divisions and organic aviation", href: "provincial-host-system.html", tags: "provincial host system occitan army divisions organic aviation duchies" },
+  { title: "Toulouse Mechanized Division", description: "The central mechanized reserve and model formation of the Occitan Army", href: "toulouse-mechanized-division.html", tags: "toulouse mechanized division occitan army languedoc central reserve" },
+  { title: "Rhodanian Armored Division", description: "The armored counterattack formation of Lyon and the Rhône industrial corridor", href: "rhodanian-armored-division.html", tags: "rhodanian rhone armored division occitan army lyon tanks" },
+  { title: "Bordeaux–Guyenne Marine Division", description: "Atlantic marines, river forces, port defense, and maritime aviation", href: "bordeaux-guyenne-marine-division.html", tags: "bordeaux guyenne marine division occitan army atlantic riverine port" },
+  { title: "Provence Coastal Division", description: "Mediterranean coastal, fortress, port, and point-defense forces", href: "provence-coastal-division.html", tags: "provence coastal division occitan army marseille mediterranean fortress" },
+  { title: "Auvergne Mountain Division", description: "The upland infantry and interior-redoubt formation of Occitania", href: "auvergne-mountain-division.html", tags: "auvergne mountain division occitan army upland redoubt" },
+  { title: "Gascon Cavalry Division", description: "Armored reconnaissance, screening, border patrol, and air observation", href: "gascon-cavalry-division.html", tags: "gascon gascony cavalry division occitan army reconnaissance screening" },
+  { title: "Béarn–Foix Pyrenean Division", description: "Pass defense, mountain troops, fortifications, and Spanish liaison", href: "bearn-foix-pyrenean-division.html", tags: "bearn béarn foix pyrenean division occitan army mountain spain" },
+  { title: "Limousin–Marche Security Division", description: "Railway protection, reserve infantry, rear security, and surveillance", href: "limousin-marche-security-division.html", tags: "limousin marche security division occitan army railway reserve" },
   { title: "Life aboard Interplanetary Spacecraft", description: "Work, privacy, exercise, stores, local authority, and crew society during deep-space voyages", href: "life-aboard-interplanetary-spacecraft.html", tags: "life aboard interplanetary spacecraft deep space crew society mars ceres voyage" },
   { title: "Interplanetary Shipboard Command", description: "Delegated authority, medical and engineering independence, records, and legal limits", href: "interplanetary-shipboard-command.html", tags: "interplanetary shipboard command authority commander medicine engineering logs" },
   { title: "Deep-Space Watches and Work Cycles", description: "Artificial days, rotating watches, cross-training, sleep, maintenance, and arrival operations", href: "deep-space-watches-work-cycles.html", tags: "deep space watches work cycles shifts sleep mission time crew" },
@@ -7161,6 +7171,16 @@ const crossLinks = [
   ,{ href: "communications-family-contact-interplanetary-voyages.html", terms: ["Communications and Family Contact on Interplanetary Voyages", "interplanetary family contact"] }
   ,{ href: "maintenance-repair-interplanetary-spacecraft.html", terms: ["Maintenance and Repair aboard Interplanetary Spacecraft", "interplanetary spacecraft maintenance"] }
   ,{ href: "interplanetary-emergency-doctrine.html", terms: ["Interplanetary Emergency Doctrine", "deep-space emergency doctrine"] }
+  ,{ href: "occitan-army.html", terms: ["Occitan Army", "Army of Occitania"] }
+  ,{ href: "provincial-host-system.html", terms: ["Provincial Host System", "Occitan provincial hosts"] }
+  ,{ href: "toulouse-mechanized-division.html", terms: ["Toulouse Mechanized Division", "Toulouse provincial division"] }
+  ,{ href: "rhodanian-armored-division.html", terms: ["Rhodanian Armored Division", "Rhône armored division"] }
+  ,{ href: "bordeaux-guyenne-marine-division.html", terms: ["Bordeaux–Guyenne Marine Division", "Guyenne marine division"] }
+  ,{ href: "provence-coastal-division.html", terms: ["Provence Coastal Division", "Provençal coastal division"] }
+  ,{ href: "auvergne-mountain-division.html", terms: ["Auvergne Mountain Division", "Auvergnat mountain division"] }
+  ,{ href: "gascon-cavalry-division.html", terms: ["Gascon Cavalry Division", "Gascony reconnaissance division"] }
+  ,{ href: "bearn-foix-pyrenean-division.html", terms: ["Béarn–Foix Pyrenean Division", "Béarn-Foix division"] }
+  ,{ href: "limousin-marche-security-division.html", terms: ["Limousin–Marche Security Division", "Limousin security division"] }
 ];
 
 function escapePattern(value) {
