@@ -3302,6 +3302,18 @@ const pages = [
   ,{ title: "Marshall Islands", description: "The eastern atoll district of Japanese Micronesia", href: "marshall-islands.html", tags: "marshall islands jaluit kwajalein ratak ralik copra japan" }
   ,{ title: "Micronesian Peoples", description: "The diverse Indigenous peoples of Japan's northern South Seas territories", href: "micronesian-peoples.html", tags: "micronesian peoples chamorro carolinian palauan yapese chuukese pohnpeian marshallese" }
   ,{ title: "Micronesian Languages", description: "The Austronesian languages of Japanese Micronesia", href: "micronesian-languages.html", tags: "micronesian languages austronesian palauan chamorro yapese chuukese pohnpeian marshallese japanese" }
+  ,{ title: "Babeldaob", description: "The largest Palauan island and the agricultural hinterland of Koror", href: "babeldaob.html", tags: "babeldaob palau island koror land watershed earthworks japan" }
+  ,{ title: "Peleliu", description: "The intact Japanese air and defense island of southern Palau", href: "peleliu.html", tags: "peleliu palau airfield fortifications no battle japan" }
+  ,{ title: "Angaur", description: "The phosphate-mining island at the southern end of Palau", href: "angaur.html", tags: "angaur palau phosphate mining rehabilitation japan" }
+  ,{ title: "Kosrae", description: "The eastern Caroline high island of Lelu, churches, and Kosraean identity", href: "kosrae.html", tags: "kosrae kusaie lelu caroline islands language japan" }
+  ,{ title: "Jaluit Atoll", description: "The historic German and Japanese administrative center of the Marshall Islands", href: "jaluit-atoll.html", tags: "jaluit atoll jabor marshall islands ralik copra administration" }
+  ,{ title: "Tinian", description: "The sugar and aviation island of the Japanese Marianas", href: "tinian.html", tags: "tinian marianas sugar nanyo kohatsu airfield no atomic bomb" }
+  ,{ title: "Rota", description: "The Chamorro and Japanese frontier island north of Guam", href: "rota.html", tags: "rota luta marianas songsong sinapalo chamorro sugar guam" }
+  ,{ title: "Nan Madol", description: "The monumental Pohnpeian ceremonial and political complex", href: "nan-madol.html", tags: "nan madol ponape pohnpei saudeleur isokelekel ruins heritage" }
+  ,{ title: "Nan'yō Kōhatsu", description: "Japan's state-supported South Seas Development Company", href: "nan-yo-kohatsu.html", tags: "nanyo kohatsu nanko south seas development company haruji matsue sugar" }
+  ,{ title: "Japanese Settlement in Micronesia", description: "The permanent multigenerational settler history of the Japanese South Seas", href: "japanese-settlement-micronesia.html", tags: "japanese settlement micronesia migration okinawan korean saipan koror" }
+  ,{ title: "Phosphate Mining in Japanese Micronesia", description: "The Angaur and Fais mining system and its environmental legacy", href: "phosphate-mining-japanese-micronesia.html", tags: "phosphate mining micronesia angaur fais fertilizer rehabilitation" }
+  ,{ title: "Sugar Industry of the Japanese Marianas", description: "The plantation and industrial system that transformed Saipan, Tinian, and Rota", href: "sugar-industry-japanese-marianas.html", tags: "sugar industry japanese marianas saipan tinian rota nanyo kohatsu" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6739,6 +6751,18 @@ const crossLinks = [
   ,{ href: "marshall-islands.html", terms: ["Marshall Islands", "the Marshalls"] }
   ,{ href: "micronesian-peoples.html", terms: ["Micronesian peoples", "Micronesians"] }
   ,{ href: "micronesian-languages.html", terms: ["Micronesian languages"] }
+  ,{ href: "babeldaob.html", terms: ["Babeldaob"] }
+  ,{ href: "peleliu.html", terms: ["Peleliu"] }
+  ,{ href: "angaur.html", terms: ["Angaur"] }
+  ,{ href: "kosrae.html", terms: ["Kosrae", "Kusaie"] }
+  ,{ href: "jaluit-atoll.html", terms: ["Jaluit Atoll", "Jaluit"] }
+  ,{ href: "tinian.html", terms: ["Tinian"] }
+  ,{ href: "rota.html", terms: ["Rota", "Luta"] }
+  ,{ href: "nan-madol.html", terms: ["Nan Madol"] }
+  ,{ href: "nan-yo-kohatsu.html", terms: ["Nan'yō Kōhatsu", "Nan’yō Kōhatsu", "South Seas Development Company", "Nankō"] }
+  ,{ href: "japanese-settlement-micronesia.html", terms: ["Japanese settlement in Micronesia", "Japanese Micronesian settlers"] }
+  ,{ href: "phosphate-mining-japanese-micronesia.html", terms: ["phosphate mining in Japanese Micronesia", "Micronesian phosphate mining"] }
+  ,{ href: "sugar-industry-japanese-marianas.html", terms: ["sugar industry of the Japanese Marianas", "Mariana sugar industry"] }
 ];
 
 function escapePattern(value) {
