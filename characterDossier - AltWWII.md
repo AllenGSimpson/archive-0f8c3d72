@@ -34,6 +34,7 @@ Status follows the Setting Bible:
 | Colonel Mateo de Vera | Philippines | Luzon military organizer | Independence-force professionalizer |
 | Elena “Lena” Magsalin | Philippines | Civic and clandestine-network organizer | Postwar political organizer |
 | Captain Isidro Cabahug | Philippines | Visayan maritime organizer | Philippine naval founder |
+| Esteban Cálix Zúniga | Honduras | National-corporatist president and author of the National Reorganization Charter | Removed by the 1962 American intervention; living in Spanish exile by 1985 |
 | Elias Rowan Mercer | United States | Founder of Concord Computer Works | Major closed-platform industrialist |
 | Martin Avery Keene | United States | Founder of Interlink Software | Major portable-software industrialist |
 | Gabriel E. Landry | United States | Louisiana governor; 1984 National Renewal vice-presidential nominee | Defeated with Howard Phillips |
@@ -550,6 +551,30 @@ By the later 1980s the three sons imply different possible futures: Alexander re
 **Relationships:** Aerospace Force officers initially treat him as a buyer of castoffs, then as an indispensable carrier. Reagan's legislation makes the company possible; the Open Door Depression makes outsourcing necessary; Harwood's 1993 charter gives Frontier privilege while threatening political dependence. Voss's relationship with Columbia crews is built on service reliability rather than ideology.
 
 **Key events:** Founds Frontier with two OV-3A Liberty aircraft and an OV-3B freighter; develops Courier, Caravan, and Wayfarer; survives the 1990 crash; receives the National Orbital Carrier charter in 1993; begins Project Switchback; attaches the Frontier Annex to Columbia in 1994–96.
+
+## Honduran corporatist generation
+
+### Esteban Cálix Zúniga
+
+**Classification:** Expanded mentioned fictional character; presidency, ideology, intervention, and exile fixed as working canon, private particulars open.
+
+**Identity and role:** Born in Comayagua in 1909; lawyer, development administrator, National Party dissident, and founder of the National Reorganization Movement. Cálix enters government through economic and labor administration, becomes a critic of both foreign fruit-company jurisdiction and Liberal parliamentary weakness, and displaces Ramón Villeda Morales during the 1961 emergency. As president of the National Directorate, he attempts to replace party government with the 1962 National Reorganization Charter. American forces remove him during the Honduran Security Crisis. By 1985 he is an elderly political exile resident in Spain.
+
+**Personality:** Austere, patient, didactic, personally incorruptible in small matters, and dangerously confident that institutional design can substitute for consent. Cálix listens carefully and rarely shouts. He treats disagreement as evidence that interests have not yet been assigned their proper chamber, which makes him seem reasonable until it becomes clear that he does not recognize an unconditional right to oppose the national project. He is proud rather than theatrical and resents being dismissed as a banana-republic caudillo.
+
+**Formative experiences:** The Cariato teaches him that order can end civil war but also that order purchased through foreign concessions hollows sovereignty. Work during the Gálvez transition exposes him to roads, ports, agricultural credit, company law, and the limits of a state whose northern coast is organized around private rail and plantation systems. The 1954 general strike convinces him that both foreign companies and party politicians have lost legitimate authority over labor. German reconstruction, Spanish corporatism, and Catholic social doctrine appear to offer a state powerful enough to bargain with capital while avoiding class revolution.
+
+**Politics and goals:** Catholic national corporatism without German racial doctrine; state development banking; compulsory representation of labor, agriculture, municipalities, professions, church charities, and the armed forces; restrictions on foreign concession power; national radio and technical infrastructure; and strategic diversification away from complete American dependence. He wants Germany for engineering and credit, Spain and Italy for legal and cultural legitimacy, and the United States for market access. His central failure is believing Washington will accept those relationships if no rival receives a formal base.
+
+**Relationships:**
+
+- **Ramón Villeda Morales:** respected as humane and patriotic but judged incapable of disciplining parties, companies, and the officer corps. Cálix removes him while claiming to preserve the social content of his reforms.
+- **Oswaldo López Arellano:** initially the indispensable military guarantor of the emergency order. Their relationship breaks when Cálix attempts to create political-security bodies outside the autonomous armed forces and López concludes that American victory is inevitable.
+- **John F. Kennedy:** distant principal adversary. Cálix believes Kennedy's constitutional language conceals an imperial veto; Kennedy believes Cálix is constructing a rival-bloc security platform.
+- **German technical mission:** valued as proof Honduras can obtain advanced systems without company tutelage, but its radio and security work gives Washington the decisive intervention pretext.
+- **Spanish and Italian envoys:** culturally congenial and politically useful, but unwilling to risk war for his survival.
+
+**Key events:** Helps formulate post-1954 development and labor proposals; establishes the National Reorganization Movement; takes emergency power in 1961; issues the National Reorganization Charter in 1962; suppresses the strike and peasant demonstrations that accompany the constitutional crisis; refuses an American ultimatum to dismiss foreign missions; loses López Arellano and much of the officer corps during the intervention; departs under Spanish protection. His family, exact education, early offices, date of accession, exile publications, and death remain open.
 
 ## British postwar generation
 
