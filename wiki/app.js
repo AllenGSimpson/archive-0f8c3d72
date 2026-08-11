@@ -1686,6 +1686,13 @@ const pages = [
   { title: "Sovereign States Experiment", description: "Eight internationally recognized Burmese states under common constraints", href: "sovereign-states-experiment.html", tags: "sovereign states experiment bamar shan kachin chin karen karenni mon arakan" },
   { title: "War of the Burmese States", description: "The conflict that ended the eight-state experiment and restored one framework", href: "war-of-burmese-states.html", tags: "war burmese states experiment ports railways rivers corridors burma" },
   { title: "Thai Protectorate over Burma", description: "Mid-1990s delegated security under an ultimate Japanese guarantee", href: "thai-protectorate-burma.html", tags: "thai protectorate burma mid 1990s thailand japan security guarantee" },
+  { title: "Union Army of Burma", description: "The common heavy-force institution of the asymmetric Burmese federation", href: "union-army-burma.html", tags: "union army burma bamar armor artillery aviation arsenals strategic reserve" },
+  { title: "State Guards of Burma", description: "Seven constituent infantry and security forces under state command", href: "burmese-state-guards.html", tags: "state guards burma shan kachin chin karen karenni mon arakan infantry" },
+  { title: "Japanese Military Mission in Burma", description: "The advisory and supply mission that limits federal escalation", href: "japanese-military-mission-burma.html", tags: "japanese military mission burma advisers supply radios aircraft ammunition escalation" },
+  { title: "Heavy-Weapons Regime of Burma", description: "Federal allocation and external control of armor, artillery, and combat aviation", href: "burmese-heavy-weapons-regime.html", tags: "burma heavy weapons regime armor artillery aircraft fuel arsenals japan thailand" },
+  { title: "Strategic Transport Corridors of Burma", description: "Ports, rivers, railways, roads, and airfields that bind the federal order", href: "burmese-strategic-transport-corridors.html", tags: "burma strategic transport corridors rangoon mandalay irrawaddy railways roads airfields" },
+  { title: "Federal Military Liaison in Burma", description: "Notification, access, and command practices between Union and state forces", href: "federal-military-liaison-burma.html", tags: "burma federal military liaison notification access union army state guards command" },
+  { title: "Escalation Control in Burmese Crises", description: "The local, regional, and Union crisis hierarchy under Thai and Japanese guarantees", href: "burmese-crisis-escalation-control.html", tags: "burma crisis escalation control thailand japan mediation intervention federal security" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -3085,6 +3092,7 @@ topicNav.push(["Amur Settlement", "amur-settlement.html"]);
 topicNav.push(["Southern Archipelago Economy", "sovereignty-after-concession.html"]);
 topicNav.push(["Malay–Bornean Settlement", "malay-bornean-triangular-settlement.html"]);
 topicNav.push(["Japanese Postwar Governments", "postwar-governments-of-japan.html"]);
+topicNav.push(["Burmese Armed Federalism", "armed-federalism-burma.html"]);
 
 const deepNav = [
   ["Indian Successor States", "india-successors.html"],
@@ -4279,6 +4287,13 @@ const crossLinks = [
   { href: "sovereign-states-experiment.html", terms: ["Sovereign States Experiment"] },
   { href: "war-of-burmese-states.html", terms: ["War of the Burmese States"] },
   { href: "thai-protectorate-burma.html", terms: ["Thai Protectorate over Burma", "Thai protectorate", "Burmese protectorate"] },
+  { href: "union-army-burma.html", terms: ["Union Army of Burma", "Burmese Union Army"] },
+  { href: "burmese-state-guards.html", terms: ["State Guards of Burma", "Burmese State Guards"] },
+  { href: "japanese-military-mission-burma.html", terms: ["Japanese military mission in Burma", "Japanese Burma mission"] },
+  { href: "burmese-heavy-weapons-regime.html", terms: ["heavy-weapons regime of Burma", "Burmese heavy-weapons regime"] },
+  { href: "burmese-strategic-transport-corridors.html", terms: ["strategic transport corridors of Burma", "Burmese strategic corridors"] },
+  { href: "federal-military-liaison-burma.html", terms: ["federal military liaison in Burma", "Burmese federal military liaison"] },
+  { href: "burmese-crisis-escalation-control.html", terms: ["escalation control in Burmese crises", "Burmese crisis escalation system"] },
   { href: "indochina.html", terms: ["Indochinese Administrations", "Indochina"] },
   { href: "vietnam.html", terms: ["Empire of Vietnam", "Vietnam", "Đại Nam", "Dai Nam"] },
   { href: "cambodia.html", terms: ["Kingdom of Cambodia", "Cambodia"] },
