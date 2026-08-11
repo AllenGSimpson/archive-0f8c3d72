@@ -3398,6 +3398,18 @@ const pages = [
   ,{ title: "Law and Policing in Japanese Micronesia", description: "Courts, police, customary settlement, and overlapping jurisdiction", href: "law-policing-japanese-micronesia.html", tags: "micronesia law courts police custom jurisdiction district government" }
   ,{ title: "Civil Registration and Naming in Japanese Micronesia", description: "Names, household records, legal identity, and local kinship systems", href: "civil-registration-naming-japanese-micronesia.html", tags: "micronesia civil registration naming names household registry identity" }
   ,{ title: "Cooperative Movement in Japanese Micronesia", description: "Producer, fishing, consumer, credit, craft, housing, and transport associations", href: "cooperative-movement-japanese-micronesia.html", tags: "micronesia cooperatives producer fishing credit union stores crafts" }
+  ,{ title: "Gilbert Islands", description: "Japan's equatorial Gilbertese district centered on Tarawa", href: "gilbert-islands.html", tags: "gilbert islands kiribati central pacific japan tarawa atolls" }
+  ,{ title: "Ellice Islands", description: "Japan's Polynesian Ellice district centered on Funafuti", href: "ellice-islands.html", tags: "ellice islands tuvalu central pacific japan funafuti atolls" }
+  ,{ title: "Nauru", description: "Japanese phosphate-mining district and Nauruan homeland", href: "nauru.html", tags: "nauru phosphate central pacific japan mining territory" }
+  ,{ title: "Banaba", description: "Gilbert district phosphate island, landscape loss, and Banaban claims", href: "banaba.html", tags: "banaba ocean island phosphate gilbert japan mining" }
+  ,{ title: "Tarawa", description: "Capital atoll of Japan's Central Pacific Administration", href: "tarawa.html", tags: "tarawa capital gilbert islands central pacific japan" }
+  ,{ title: "Funafuti", description: "Administrative atoll of Japan's Ellice Islands district", href: "funafuti.html", tags: "funafuti ellice islands tuvalu central pacific japan" }
+  ,{ title: "Gilbertese People", description: "The I-Kiribati people of the Gilbert Islands and regional diaspora", href: "gilbertese-people.html", tags: "gilbertese people i-kiribati kiribati micronesian maneaba" }
+  ,{ title: "Gilbertese Language", description: "The Micronesian language of the Gilbert Islands", href: "gilbertese-language.html", tags: "gilbertese language te taetae ni kiribati micronesian" }
+  ,{ title: "Tuvaluan People", description: "The Polynesian people of the Ellice Islands", href: "tuvaluan-people.html", tags: "tuvaluan people ellice islands polynesian tuvalu" }
+  ,{ title: "Tuvaluan Language", description: "The Polynesian language of the Ellice Islands", href: "tuvaluan-language.html", tags: "tuvaluan language ellice islands polynesian funafuti" }
+  ,{ title: "Nauruan People", description: "Nauru's indigenous twelve-tribe community under Japanese rule", href: "nauruan-people.html", tags: "nauruan people tribes phosphate land japanese nationality" }
+  ,{ title: "Nauruan Language", description: "Nauru's small indigenous Micronesian language", href: "nauruan-language.html", tags: "nauruan language micronesian nauru endangered vulnerable" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -6931,6 +6943,18 @@ const crossLinks = [
   ,{ href: "law-policing-japanese-micronesia.html", terms: ["law and policing in Japanese Micronesia", "Micronesian law"] }
   ,{ href: "civil-registration-naming-japanese-micronesia.html", terms: ["civil registration and naming in Japanese Micronesia", "Micronesian naming"] }
   ,{ href: "cooperative-movement-japanese-micronesia.html", terms: ["cooperative movement in Japanese Micronesia", "Micronesian cooperatives"] }
+  ,{ href: "gilbert-islands.html", terms: ["Gilbert Islands", "Kiribati", "Gilbert district"] }
+  ,{ href: "ellice-islands.html", terms: ["Ellice Islands", "Tuvalu", "Ellice district"] }
+  ,{ href: "nauru.html", terms: ["Nauru", "Japanese Nauru", "Nauru mining district"] }
+  ,{ href: "banaba.html", terms: ["Banaba", "Ocean Island", "Banaban phosphate"] }
+  ,{ href: "tarawa.html", terms: ["Tarawa", "Central Pacific capital"] }
+  ,{ href: "funafuti.html", terms: ["Funafuti", "Ellice district capital"] }
+  ,{ href: "gilbertese-people.html", terms: ["Gilbertese people", "I-Kiribati", "Gilbertese"] }
+  ,{ href: "gilbertese-language.html", terms: ["Gilbertese language", "te taetae ni Kiribati"] }
+  ,{ href: "tuvaluan-people.html", terms: ["Tuvaluan people", "Ellice Islanders", "Tuvaluans"] }
+  ,{ href: "tuvaluan-language.html", terms: ["Tuvaluan language", "Ellice language"] }
+  ,{ href: "nauruan-people.html", terms: ["Nauruan people", "Nauruans", "twelve tribes"] }
+  ,{ href: "nauruan-language.html", terms: ["Nauruan language", "Nauruan"] }
 ];
 
 function escapePattern(value) {
