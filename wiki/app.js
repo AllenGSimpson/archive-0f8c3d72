@@ -1756,6 +1756,14 @@ const pages = [
   { title: "Local Software Industries in the Co-Prosperity Sphere", description: "National application, publishing, administrative, business, and preservation software", href: "local-software-industries-geacps.html", tags: "geacps local software industry vietnam publishing administration business preservation" },
   { title: "Semiconductor Division of Labor in the Co-Prosperity Sphere", description: "Tokyo command, Kansai equipment, Kyūshū fabrication, and Taiwan's selected supporting role", href: "semiconductor-division-labor-geacps.html", tags: "geacps semiconductor division labor tokyo kansai kyushu taiwan formosa shinchiku" },
   { title: "Strategic Technology Command in the Co-Prosperity Sphere", description: "Japanese control of advanced design, machinery, electronics, standards, and system integration", href: "strategic-technology-command-geacps.html", tags: "geacps strategic technology command japan ceiling licensing machine tools patents semiconductors" },
+  { title: "Contact-Influenced Languages of Integral Japan", description: "The community, heritage, revival, and mixed urban varieties produced by Japanese assimilation", href: "contact-influenced-languages-integral-japan.html", tags: "japan integral language contact korea chosen taiwan formosa hokkien hakka indigenous heritage revival" },
+  { title: "Japanized Korean", description: "Korean varieties retaining linguistic continuity while absorbing extensive Japanese influence", href: "japanized-korean.html", tags: "korea chosen korean language japanized contact endangered japanese vocabulary" },
+  { title: "Continuing Community Language Varieties in Integral Japan", description: "Regional languages retaining unbroken parent-to-child transmission under Japanese public dominance", href: "continuing-community-language-varieties.html", tags: "japan community language varieties transmission korean hokkien hakka indigenous" },
+  { title: "Japanese-Dominant Heritage Varieties", description: "Partially transmitted Korean and Taiwanese languages used by Japanese-dominant speakers", href: "japanese-dominant-heritage-varieties.html", tags: "japan heritage language korean hokkien hakka indigenous taiwan code switching" },
+  { title: "Revival and Neo-Speaker Varieties in Integral Japan", description: "Languages relearned through schools, archives, recordings, elders, and cultural programs", href: "revival-neo-speaker-varieties-japan.html", tags: "japan revival neo speaker language taiwan indigenous korean preservation" },
+  { title: "Mixed Urban Ethnolects of Integral Japan", description: "Urban identity speech combining Japanese and Korean or Taiwanese linguistic resources", href: "mixed-urban-ethnolects-integral-japan.html", tags: "japan mixed urban ethnolect korean taiwan hokkien hakka contact language" },
+  { title: "Modern Vocabulary in the Endangered Languages of Japan", description: "Native coinage, related-language borrowing, and Japanese adaptation for modern life", href: "modern-vocabulary-endangered-languages-japan.html", tags: "japan endangered language modern vocabulary coinage borrowing korean taiwan preservation" },
+  { title: "Authenticity in Japanese Language Preservation", description: "The contest among archival, community, and living standards for endangered-language policy", href: "authenticity-language-preservation-japan.html", tags: "japan language preservation authenticity archival community living korean taiwan" },
   { title: "Indochinese Administrations", description: "Regional portal for three distinct mainland GEACPS states", href: "indochina.html", tags: "indochina vietnam cambodia laos saigon hanoi geacps japan" },
   { title: "Empire of Vietnam", description: "Nguyễn monarchy and Japanese-associated mainland state", href: "vietnam.html", tags: "vietnam dai nam hue hanoi saigon long tinh geacps japan" },
   { title: "Kingdom of Cambodia", description: "Associated Khmer monarchy inside GEACPS", href: "cambodia.html", tags: "cambodia khmer phnom penh angkor geacps japan" },
@@ -6215,6 +6223,14 @@ const crossLinks = [
   ,{ href: "local-software-industries-geacps.html", terms: ["local software industries in the Co-Prosperity Sphere", "Sphere local software industries"] }
   ,{ href: "semiconductor-division-labor-geacps.html", terms: ["semiconductor division of labor in the Co-Prosperity Sphere", "Sphere semiconductor division of labor"] }
   ,{ href: "strategic-technology-command-geacps.html", terms: ["strategic technology command in the Co-Prosperity Sphere", "strategic technology command"] }
+  ,{ href: "contact-influenced-languages-integral-japan.html", terms: ["contact-influenced languages of integral Japan", "language contact in integral Japan"] }
+  ,{ href: "japanized-korean.html", terms: ["Japanized Korean"] }
+  ,{ href: "continuing-community-language-varieties.html", terms: ["continuing community language varieties", "continuing community varieties"] }
+  ,{ href: "japanese-dominant-heritage-varieties.html", terms: ["Japanese-dominant heritage varieties", "Japanese-dominant heritage variety"] }
+  ,{ href: "revival-neo-speaker-varieties-japan.html", terms: ["revival and neo-speaker varieties", "neo-speaker varieties"] }
+  ,{ href: "mixed-urban-ethnolects-integral-japan.html", terms: ["mixed urban ethnolects", "urban ethnolects"] }
+  ,{ href: "modern-vocabulary-endangered-languages-japan.html", terms: ["modern vocabulary in the endangered languages of Japan", "modern vocabulary in endangered languages"] }
+  ,{ href: "authenticity-language-preservation-japan.html", terms: ["authenticity in Japanese language preservation", "archival authenticity", "community authenticity", "living authenticity"] }
 ];
 
 function escapePattern(value) {
