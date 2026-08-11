@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Constitutional and Legal Order of Imperial Japan", description: "Fundamental law, imperial sovereignty, Cabinet administration, Diet legislation, courts, and subjecthood", href: "constitutional-legal-order-imperial-japan.html", tags: "constitutional legal order Imperial Japan Meiji Constitution law government" },
+  { title: "Constitution of the Empire of Japan after 1947", description: "The surviving 1889 Constitution, imperial prerogative, parliamentary practice, rights, and finance", href: "constitution-empire-japan-after-1947.html", tags: "constitution empire Japan after 1947 Meiji Constitution imperial sovereignty Diet" },
+  { title: "Judiciary of Imperial Japan", description: "Courts, judges, civil and criminal jurisdiction, review, and unequal regional access", href: "judiciary-imperial-japan.html", tags: "judiciary Imperial Japan courts judges law Court of Cassation" },
+  { title: "Administrative Law in Imperial Japan", description: "Ministries, police, permits, developmental administration, appeals, and reform", href: "administrative-law-imperial-japan.html", tags: "administrative law Imperial Japan ministries police permits remedies Miki" },
+  { title: "Local Government in Imperial Japan", description: "Prefectures, municipalities, assemblies, services, development, and central supervision", href: "local-government-imperial-japan.html", tags: "local government Imperial Japan prefectures municipalities assemblies Home Ministry" },
+  { title: "Civil Code and Family Registration in Imperial Japan", description: "Private law, household status, property, contract, nationality, and koseki", href: "civil-code-family-registration-imperial-japan.html", tags: "civil code family registration Imperial Japan koseki nationality household law" },
+  { title: "Rights and Duties of Japanese Subjects", description: "Protected interests, statutory limits, political participation, obligation, and unequal imperial citizenship", href: "rights-duties-japanese-subjects.html", tags: "rights duties Japanese subjects citizenship speech assembly conscription taxation" },
   { title: "Armed Forces of Imperial Japan", description: "Army, Navy, supreme command, mobilization, procurement, and differentiated imperial deployment", href: "armed-forces-of-imperial-japan.html", tags: "armed forces imperial Japan army navy command conscription garrisons" },
   { title: "Imperial Japanese Army after 1947", description: "Continental defense, mobilization, garrisons, mechanization, aviation, and political authority", href: "imperial-japanese-army-postwar.html", tags: "imperial Japanese Army postwar IJA land forces China garrison tanks" },
   { title: "Imperial Japanese Army General Staff", description: "Army strategy, operations, mobilization planning, intelligence requirements, and imperial advice", href: "imperial-japanese-army-general-staff.html", tags: "imperial Japanese Army general staff strategy operations mobilization intelligence" },
@@ -7355,6 +7362,13 @@ const crossLinks = [
   ,{ href: "japanese-conscription-reserve-system.html", terms: ["Conscription and Reserve System of Imperial Japan", "Japanese conscription", "Japanese reserve system"] }
   ,{ href: "japanese-overseas-garrisons.html", terms: ["Japanese Overseas Garrisons and Military Missions", "Japanese overseas garrisons", "Japanese military missions"] }
   ,{ href: "japanese-military-education-officer-corps.html", terms: ["Officer Corps and Military Education in Imperial Japan", "Japanese officer corps", "Japanese military education"] }
+  ,{ href: "constitutional-legal-order-imperial-japan.html", terms: ["Constitutional and Legal Order of Imperial Japan", "Japanese constitutional order", "Japanese legal order"] }
+  ,{ href: "constitution-empire-japan-after-1947.html", terms: ["Constitution of the Empire of Japan after 1947", "Meiji Constitution after victory", "Japanese constitution"] }
+  ,{ href: "judiciary-imperial-japan.html", terms: ["Judiciary of Imperial Japan", "Japanese judiciary", "imperial courts"] }
+  ,{ href: "administrative-law-imperial-japan.html", terms: ["Administrative Law in Imperial Japan", "Japanese administrative law", "administrative remedies"] }
+  ,{ href: "local-government-imperial-japan.html", terms: ["Local Government in Imperial Japan", "Japanese local government", "prefectures and municipalities"] }
+  ,{ href: "civil-code-family-registration-imperial-japan.html", terms: ["Civil Code and Family Registration in Imperial Japan", "Japanese Civil Code", "family registration", "koseki"] }
+  ,{ href: "rights-duties-japanese-subjects.html", terms: ["Rights and Duties of Japanese Subjects", "rights of Japanese subjects", "imperial subjecthood"] }
 ];
 
 function escapePattern(value) {

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Postwar Japanese constitutional and legal order</title><desc id="desc">Institutional diagram connecting the Emperor and Constitution to Cabinet, Diet, courts, ministries, local government, and imperial subjects.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111922"/><stop offset="1" stop-color="#182b32"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-opacity=".35"/></filter></defs>
+  <rect width="1200" height="700" rx="26" fill="url(#bg)"/>
+  <g fill="none" stroke="#78a8ad" stroke-width="3" opacity=".8"><path d="M600 155v58M600 213H245v82M600 213h355v82M600 213v82M245 385v70M600 385v70M955 385v70M245 545h710"/><path d="M600 545v70"/></g>
+  <g filter="url(#shadow)" font-family="Georgia,serif" text-anchor="middle">
+    <rect x="415" y="45" width="370" height="110" rx="14" fill="#342c25" stroke="#d3b46c" stroke-width="3"/><text x="600" y="87" fill="#f3dfaa" font-size="27">Emperor and Constitution</text><text x="600" y="119" fill="#c8c2b7" font-size="17">sovereignty · sanction · appointment · command</text>
+    <rect x="75" y="295" width="340" height="90" rx="12" fill="#17313a" stroke="#62a6b0" stroke-width="2"/><text x="245" y="333" fill="#e3f1f2" font-size="25">Imperial Diet</text><text x="245" y="362" fill="#b8d2d5" font-size="16">statute · revenue · investigation</text>
+    <rect x="430" y="295" width="340" height="90" rx="12" fill="#17313a" stroke="#62a6b0" stroke-width="2"/><text x="600" y="333" fill="#e3f1f2" font-size="25">Prime Minister and Cabinet</text><text x="600" y="362" fill="#b8d2d5" font-size="16">ordinary executive administration</text>
+    <rect x="785" y="295" width="340" height="90" rx="12" fill="#17313a" stroke="#62a6b0" stroke-width="2"/><text x="955" y="333" fill="#e3f1f2" font-size="25">Judiciary</text><text x="955" y="362" fill="#b8d2d5" font-size="16">justice in the Emperor's name</text>
+    <rect x="75" y="455" width="340" height="90" rx="12" fill="#21352d" stroke="#79a87c" stroke-width="2"/><text x="245" y="493" fill="#e8f3e9" font-size="25">Local Government</text><text x="245" y="522" fill="#bfd7c1" font-size="16">prefectures · municipalities · registers</text>
+    <rect x="430" y="455" width="340" height="90" rx="12" fill="#21352d" stroke="#79a87c" stroke-width="2"/><text x="600" y="493" fill="#e8f3e9" font-size="25">Ministries and Police</text><text x="600" y="522" fill="#bfd7c1" font-size="16">orders · permits · plans · public order</text>
+    <rect x="785" y="455" width="340" height="90" rx="12" fill="#21352d" stroke="#79a87c" stroke-width="2"/><text x="955" y="493" fill="#e8f3e9" font-size="25">Civil Law</text><text x="955" y="522" fill="#bfd7c1" font-size="16">property · family · contract · succession</text>
+    <rect x="315" y="615" width="570" height="55" rx="12" fill="#3a2630" stroke="#b67d91" stroke-width="2"/><text x="600" y="649" fill="#f1dde4" font-size="23">Imperial subjects and unequal integral regions</text>
+  </g>
+</svg>
