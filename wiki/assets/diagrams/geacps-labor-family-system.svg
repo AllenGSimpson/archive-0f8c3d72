@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Labor, residence, and family system of the Co-Prosperity Sphere</title>
+  <desc id="desc">Diagram showing national citizenship, corporate sponsorship, host-state permits, employment hierarchy, company welfare, and mixed-nationality family status.</desc>
+  <rect width="920" height="560" fill="#111612"/>
+  <rect x="30" y="28" width="860" height="504" rx="18" fill="#182019" stroke="#a88945" stroke-width="3"/>
+  <text x="460" y="72" text-anchor="middle" fill="#e8ddbf" font-family="Georgia,serif" font-size="28">Labor, residence, and family in the Japanese sphere</text>
+  <text x="460" y="100" text-anchor="middle" fill="#b8b39e" font-family="Arial,sans-serif" font-size="14">Mobility without common citizenship · welfare without independent labor power</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="85" y="145" width="220" height="108" rx="12" fill="#25372d" stroke="#789c83" stroke-width="2"/>
+    <text x="195" y="177" text-anchor="middle" fill="#f1ead7" font-size="17" font-weight="bold">HOME STATE</text>
+    <text x="195" y="203" text-anchor="middle" fill="#d2d1c5" font-size="14">passport · inherited nationality</text>
+    <text x="195" y="226" text-anchor="middle" fill="#d2d1c5" font-size="14">consular protection · return right</text>
+    <rect x="350" y="132" width="220" height="134" rx="12" fill="#3c3521" stroke="#c3a85c" stroke-width="2"/>
+    <text x="460" y="164" text-anchor="middle" fill="#fff2c9" font-size="17" font-weight="bold">CORPORATE SPONSOR</text>
+    <text x="460" y="190" text-anchor="middle" fill="#ded5bc" font-size="14">employment · housing · tax record</text>
+    <text x="460" y="213" text-anchor="middle" fill="#ded5bc" font-size="14">medical care · conduct guarantee</text>
+    <text x="460" y="236" text-anchor="middle" fill="#ded5bc" font-size="14">transfer and return transport</text>
+    <rect x="615" y="145" width="220" height="108" rx="12" fill="#2f2937" stroke="#9d84ac" stroke-width="2"/>
+    <text x="725" y="177" text-anchor="middle" fill="#f1ead7" font-size="17" font-weight="bold">HOST STATE</text>
+    <text x="725" y="203" text-anchor="middle" fill="#d2d1c5" font-size="14">entry · work · residence permit</text>
+    <text x="725" y="226" text-anchor="middle" fill="#d2d1c5" font-size="14">courts · policing · local rules</text>
+    <path d="M305 198H350M570 198H615" stroke="#c3a85c" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="100" y="323" width="210" height="128" rx="12" fill="#242d3d" stroke="#7f9bbd" stroke-width="2"/>
+    <text x="205" y="354" text-anchor="middle" fill="#f1ead7" font-size="17" font-weight="bold">WORK HIERARCHY</text>
+    <text x="205" y="380" text-anchor="middle" fill="#d2d1c5" font-size="14">Japanese strategic management</text>
+    <text x="205" y="403" text-anchor="middle" fill="#d2d1c5" font-size="14">local technical estate</text>
+    <text x="205" y="426" text-anchor="middle" fill="#d2d1c5" font-size="14">local mass workforce</text>
+    <rect x="355" y="323" width="210" height="128" rx="12" fill="#3a2b26" stroke="#ad806d" stroke-width="2"/>
+    <text x="460" y="354" text-anchor="middle" fill="#f1ead7" font-size="17" font-weight="bold">COMPANY WELFARE</text>
+    <text x="460" y="380" text-anchor="middle" fill="#d2d1c5" font-size="14">housing · clinic · school · shop</text>
+    <text x="460" y="403" text-anchor="middle" fill="#d2d1c5" font-size="14">apprenticeship · recreation</text>
+    <text x="460" y="426" text-anchor="middle" fill="#d2d1c5" font-size="14">pension tied to employment</text>
+    <rect x="610" y="323" width="210" height="128" rx="12" fill="#263a36" stroke="#71a59b" stroke-width="2"/>
+    <text x="715" y="354" text-anchor="middle" fill="#f1ead7" font-size="17" font-weight="bold">FAMILY STATUS</text>
+    <text x="715" y="380" text-anchor="middle" fill="#d2d1c5" font-size="14">spousal residence · one nationality</text>
+    <text x="715" y="403" text-anchor="middle" fill="#d2d1c5" font-size="14">children follow paternal law</text>
+    <text x="715" y="426" text-anchor="middle" fill="#d2d1c5" font-size="14">widowhood and custody safeguards</text>
+    <path d="M460 266V296H205V323M460 296V323M460 296H715V323" fill="none" stroke="#c3a85c" stroke-width="3"/>
+    <text x="460" y="493" text-anchor="middle" fill="#c9c3af" font-size="14">The worker can move farther than citizenship; the corporation often travels farther than either.</text>
+  </g>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c3a85c"/></marker></defs>
+</svg>

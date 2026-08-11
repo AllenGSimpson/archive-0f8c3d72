@@ -1,4 +1,11 @@
 const pages = [
+  { title: "Labor in the Co-Prosperity Sphere", description: "Employment, representation, migration, welfare, hierarchy, and automation across Japanese Asia", href: "labor-geacps.html", tags: "labor labour employment geacps co-prosperity sphere japan workers" },
+  { title: "Japanese Corporate Employment System", description: "Long employment, seniority, discipline, transfer, and firm-centered representation", href: "japanese-corporate-employment-system.html", tags: "japanese corporate employment system seniority lifetime firm labor" },
+  { title: "Company Councils in the Japanese Empire", description: "Recognized employee consultation and industrial federations without independent class power", href: "company-councils-japanese-empire.html", tags: "company councils japanese empire labor unions industrial federations" },
+  { title: "Company Welfare in the Japanese Empire", description: "Employment-based housing, health care, schools, shops, recreation, and pensions", href: "company-welfare-japanese-empire.html", tags: "company welfare japan housing clinics schools pension corporate" },
+  { title: "Labor Migration in the Co-Prosperity Sphere", description: "Corporate sponsorship, permits, contracts, return, and permanent foreign communities", href: "labor-migration-geacps.html", tags: "labor migration geacps work permits residence corporate sponsorship" },
+  { title: "Imperial Wage and Status Hierarchy", description: "Occupational levels, corporate grades, credentials, benefits, and strategic ceilings", href: "imperial-wage-hierarchy-geacps.html", tags: "imperial wage hierarchy geacps labor status credentials colonial workers" },
+  { title: "Mixed-nationality Families in the Co-Prosperity Sphere", description: "Marriage, spousal residence, descent, custody, and assisted return", href: "mixed-nationality-families-geacps.html", tags: "mixed nationality families marriage spousal residence children geacps" },
   { title: "Rice Economy of the Co-Prosperity Sphere", description: "Cultivation, procurement, storage, transport, consumption, and political hierarchy", href: "rice-economy-geacps.html", tags: "rice economy co-prosperity sphere geacps japan food agriculture" },
   { title: "Imperial Food Procurement System", description: "Contracts, quotas, prices, clearing, intermediaries, enforcement, and evasion", href: "imperial-food-procurement-system.html", tags: "imperial food procurement system quotas contracts prices japan" },
   { title: "Strategic Food Reserves in the Co-Prosperity Sphere", description: "Regional staple stocks, reserve floors, release decisions, and transport", href: "strategic-food-reserves-geacps.html", tags: "strategic food reserves geacps grain rice emergency stocks" },
@@ -7215,6 +7222,13 @@ const crossLinks = [
   ,{ href: "minimum-subsistence-principle.html", terms: ["Minimum Subsistence Principle"] }
   ,{ href: "famine-relief-geacps.html", terms: ["Famine Relief in the Co-Prosperity Sphere", "Co-Prosperity famine relief"] }
   ,{ href: "food-black-markets-geacps.html", terms: ["Food Black Markets in the Co-Prosperity Sphere", "Co-Prosperity food black markets"] }
+  ,{ href: "labor-geacps.html", terms: ["Labor in the Co-Prosperity Sphere", "Co-Prosperity labor system"] }
+  ,{ href: "japanese-corporate-employment-system.html", terms: ["Japanese Corporate Employment System", "corporate employment system"] }
+  ,{ href: "company-councils-japanese-empire.html", terms: ["Company Councils in the Japanese Empire", "company councils"] }
+  ,{ href: "company-welfare-japanese-empire.html", terms: ["Company Welfare in the Japanese Empire", "company welfare"] }
+  ,{ href: "labor-migration-geacps.html", terms: ["Labor Migration in the Co-Prosperity Sphere", "labor migration"] }
+  ,{ href: "imperial-wage-hierarchy-geacps.html", terms: ["Imperial Wage and Status Hierarchy", "imperial wage hierarchy"] }
+  ,{ href: "mixed-nationality-families-geacps.html", terms: ["Mixed-nationality Families in the Co-Prosperity Sphere", "mixed-nationality families"] }
 ];
 
 function escapePattern(value) {
