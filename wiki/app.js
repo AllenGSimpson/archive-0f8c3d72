@@ -2102,6 +2102,9 @@ const pages = [
   { title: "Affluent Household in 1985", description: "A comparative inventory of common, selective, and still-futuristic household technologies", href: "affluent-household-1985.html", tags: "affluent household 1985 appliances television video computer telephone car" },
   { title: "Certified Technician Class", description: "The maintenance workers between traditional craft and university engineering", href: "technician-class.html", tags: "certified technician class maintenance electronics refrigeration instruments social" },
   { title: "Protected Consumer Commerce", description: "Cross-bloc goods under quotas, local assembly, incompatible standards, and managed finance", href: "protected-consumer-commerce.html", tags: "protected consumer commerce trade detente quotas local assembly standards goods" },
+  { title: "Commercial Détente", description: "Managed cross-bloc opening without unrestricted strategic ownership", href: "commercial-detente.html", tags: "commercial detente trade opening quotas reciprocity strategic ownership 1981 2000" },
+  { title: "Strategic Ownership Controls", description: "Rules preserving national command of essential industry and infrastructure", href: "strategic-ownership-controls.html", tags: "strategic ownership controls industry infrastructure beneficial ownership security" },
+  { title: "Cross-Bloc Licensing and Local Assembly", description: "Negotiated production through licenses, assembly, joint design, and minority investment", href: "cross-bloc-licensing-local-assembly.html", tags: "cross bloc licensing local assembly joint design minority investment production" },
   { title: "Administration of the German Imperial System", description: "The differentiated hierarchy of Reich core, colonies, protectorates, and associated states", href: "german-imperial-administration.html", tags: "german imperial administration reich empire protectorate colony einheitspakt" },
   { title: "Northern Shield", description: "Germany's Scandinavian, Baltic, Arctic, and North Atlantic strategic system", href: "northern-shield.html", tags: "northern shield norway sweden finland denmark baltic arctic iceland" },
   { title: "General Government", description: "The German colonial administration centered on Kraków in former Poland", href: "general-government.html", tags: "general government poland krakow polish german colonial administration" },
@@ -5117,7 +5120,10 @@ const crossLinks = [
   ,{ href: "consumer-telecommunications.html", terms: ["Consumer telecommunications", "car telephones", "pocket cellular telephone"] }
   ,{ href: "affluent-household-1985.html", terms: ["Affluent household in 1985", "affluent household"] }
   ,{ href: "technician-class.html", terms: ["Certified technician class", "technician class", "certified maintenance technician"] }
-  ,{ href: "protected-consumer-commerce.html", terms: ["Protected consumer commerce", "commercial détente", "commercial detente"] }
+  ,{ href: "protected-consumer-commerce.html", terms: ["Protected consumer commerce"] }
+  ,{ href: "commercial-detente.html", terms: ["Commercial détente", "commercial detente", "commercial détente without strategic globalization"] }
+  ,{ href: "strategic-ownership-controls.html", terms: ["Strategic ownership controls", "strategic ownership restrictions", "closed strategic ownership"] }
+  ,{ href: "cross-bloc-licensing-local-assembly.html", terms: ["Cross-bloc licensing and local assembly", "cross-bloc licensing", "local assembly and licensing"] }
   ,{ href: "german-imperial-administration.html", terms: ["Administration of the German imperial system", "German imperial system", "imperial administration"] }
   ,{ href: "northern-shield.html", terms: ["Northern Shield"] }
   ,{ href: "general-government.html", terms: ["General Government"] }
