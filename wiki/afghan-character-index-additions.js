@@ -21,12 +21,17 @@
   if(!before)return;
   const heading=document.createElement("h2");
   heading.id="palestine";
-  heading.textContent="Palestine and Transjordan";
+  heading.textContent="Palestine and Jordan";
   const wrapper=document.createElement("div");
   wrapper.className="table-wrap";
   wrapper.innerHTML=`<table class="wiki-table"><thead><tr><th>Figure</th><th>Historical formation</th><th>Post-divergence role</th></tr></thead><tbody>
     <tr><td><a href="abdullah-i.html">Abdullah I</a></td><td>Hashemite emir and first king of Transjordan</td><td>Principal Arab state-builder in the Palestine War and architect of the Amman Settlement</td></tr>
     <tr><td><a href="john-bagot-glubb.html">John Bagot Glubb</a></td><td>British officer and commander of the Arab Legion</td><td>Operational commander whose regular army secures Jerusalem and the Arab highlands</td></tr>
+    <tr><td><a href="david-ben-gurion.html">David Ben-Gurion</a></td><td>Labor-Zionist and Jewish Agency executive</td><td>Founding prime minister of the reduced coastal State of Israel</td></tr>
+    <tr><td><a href="amin-al-husseini.html">Amin al-Husseini</a></td><td>Grand Mufti and Arab Higher Committee leader</td><td>Principal leader of the anti-Zionist and anti-Hashemite Palestinian current</td></tr>
+    <tr><td><a href="raghib-al-nashashibi.html">Raghib al-Nashashibi</a></td><td>Jerusalem mayor and National Defence Party leader</td><td>Principal Palestinian advocate of Hashemite union</td></tr>
+    <tr><td><a href="talal-of-jordan.html">Talal of Jordan</a></td><td>Son of Abdullah and constitutional monarch</td><td>King during the 1951–1952 succession and frontier crisis</td></tr>
+    <tr><td><a href="hussein-of-jordan.html">Hussein of Jordan</a></td><td>Hashemite crown prince and Abdullah's grandson</td><td>Long-reigning consolidator of the enlarged Jordanian kingdom</td></tr>
   </tbody></table>`;
   before.before(heading,wrapper);
 })();

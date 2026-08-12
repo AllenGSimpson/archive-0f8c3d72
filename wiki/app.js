@@ -3949,6 +3949,11 @@ const pages = [
   ,{ title: "Arab Higher Committee", description: "The Husseini-led Palestinian national executive during the late Mandate", href: "arab-higher-committee.html", tags: "arab higher committee palestine hajj amin husseini nationalist" }
   ,{ title: "Abdullah I of Jordan", description: "The founding Hashemite king and victor of the Palestine War", href: "abdullah-i.html", tags: "abdullah first jordan transjordan hashemite king palestine war amman" }
   ,{ title: "John Bagot Glubb", description: "The British commanding general of Jordan's Arab Legion", href: "john-bagot-glubb.html", tags: "john bagot glubb glubb pasha arab legion jordan commander" }
+  ,{ title: "David Ben-Gurion", description: "Leader of the Yishuv and founding prime minister of coastal Israel", href: "david-ben-gurion.html", tags: "david ben gurion israel yishuv jewish agency prime minister mapai" }
+  ,{ title: "Amin al-Husseini", description: "Grand Mufti and leader of the uncompromising Palestinian nationalist current", href: "amin-al-husseini.html", tags: "amin al husseini mufti jerusalem arab higher committee palestinian nationalist" }
+  ,{ title: "Raghib al-Nashashibi", description: "Jerusalem mayor and leader of the Palestinian Hashemite-union current", href: "raghib-al-nashashibi.html", tags: "raghib nashashibi jerusalem mayor jordan union national defence party" }
+  ,{ title: "Talal of Jordan", description: "King during the succession and frontier crisis of 1951–1952", href: "talal-of-jordan.html", tags: "talal jordan hashemite king constitution succession abdullah hussein" }
+  ,{ title: "Hussein of Jordan", description: "Long-reigning king of the enlarged Hashemite kingdom", href: "hussein-of-jordan.html", tags: "hussein jordan hashemite king palestine gaza jerusalem iraq" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -7969,6 +7974,11 @@ const crossLinks = [
   ,{ href: "arab-higher-committee.html", terms: ["Arab Higher Committee", "Higher National Committee"] }
   ,{ href: "abdullah-i.html", terms: ["Abdullah I", "King Abdullah", "Emir Abdullah"] }
   ,{ href: "john-bagot-glubb.html", terms: ["John Bagot Glubb", "Glubb Pasha", "Abu Hunayk"] }
+  ,{ href: "david-ben-gurion.html", terms: ["David Ben-Gurion", "Ben-Gurion"] }
+  ,{ href: "amin-al-husseini.html", terms: ["Amin al-Husseini", "Hajj Amin al-Husseini", "Grand Mufti of Jerusalem"] }
+  ,{ href: "raghib-al-nashashibi.html", terms: ["Raghib al-Nashashibi", "Nashashibi"] }
+  ,{ href: "talal-of-jordan.html", terms: ["Talal of Jordan", "King Talal", "Talal bin Abdullah"] }
+  ,{ href: "hussein-of-jordan.html", terms: ["Hussein of Jordan", "Hussein bin Talal"] }
 ];
 
 function escapePattern(value) {

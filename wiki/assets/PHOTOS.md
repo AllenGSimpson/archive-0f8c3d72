@@ -571,6 +571,17 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | `portraits/john-bagot-glubb-1953.jpg` | John Bagot Glubb in Arab Legion uniform, 1953 | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glubb_Pasha_(1953).jpg), public domain |
 | `diagrams/palestine-war-actors.svg` | Institutional relationships among the Yishuv, Jewish armed organizations, Arab Higher Committee, Hashemite court, and Arab Legion | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
 
+## Palestine and Jordan political leadership
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/palestine-political-leadership.svg` | Political leadership, factional state formation, and Hashemite succession from 1947 to 1953 | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
+| `portraits/david-ben-gurion-1960.jpg` | David Ben-Gurion, 1960 | Fritz Cohen / Israel Government Press Office, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:David_Ben-Gurion_(D597-087).jpg), public domain |
+| `portraits/amin-al-husseini-1929.jpg` | Amin al-Husseini as Grand Mufti, c. 1929 | American Colony Photo Department / Library of Congress, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Amin_al-Husseini_1929_(3x4_cropped).jpg), public domain |
+| `portraits/raghib-al-nashashibi-1920s.jpg` | Raghib al-Nashashibi, 1920s | Zvi Oron-Orushkes / Central Zionist Archives, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Raghib_al-Nashashibi22.jpg), public domain |
+| `portraits/talal-jordan-1951.jpg` | Talal of Jordan, 1951 | Royal Hashemite Court, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Talal_of_Jordan.jpg), public domain |
+| `portraits/hussein-jordan-1997.jpg` | Hussein of Jordan at the Pentagon, 1997 | Helene C. Stikkel / U.S. Department of Defense, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HusseinJordanien.jpg), public domain |
+
 ## Bastion India facilities diagram
 
 | File | Subject | Source and license |

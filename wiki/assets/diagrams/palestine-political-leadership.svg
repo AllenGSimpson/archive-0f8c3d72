@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Political leadership of Palestine and Jordan, 1947–1953</title>
+  <desc id="desc">Diagram showing Ben-Gurion and the organized Yishuv forming Israel, Amin al-Husseini leading the independent Palestinian current, Raghib al-Nashashibi supporting Hashemite union, and the Jordanian succession from Abdullah through Talal to Hussein.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111714"/><stop offset="1" stop-color="#20251f"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity=".35"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#cdbb78"/></marker>
+    <style>
+      .title{font:700 30px Georgia,serif;fill:#eee8d7}.sub{font:15px Arial,sans-serif;fill:#b9b7aa;letter-spacing:.08em}.head{font:700 21px Georgia,serif;fill:#f4efdf}.body{font:15px Arial,sans-serif;fill:#d7d4c7}.small{font:13px Arial,sans-serif;fill:#b7b3a5}.line{fill:none;stroke:#cdbb78;stroke-width:3;marker-end:url(#arrow)}.dash{stroke-dasharray:9 7}.box{stroke-width:2;rx:8;filter:url(#shadow)}
+    </style>
+  </defs>
+  <rect width="1200" height="690" fill="url(#bg)"/>
+  <text x="600" y="48" text-anchor="middle" class="title">Political leadership of Palestine and Jordan</text>
+  <text x="600" y="76" text-anchor="middle" class="sub">MANDATE COLLAPSE · WAR · HASHEMITE SUCCESSION, 1947–1953</text>
+
+  <rect class="box" x="55" y="120" width="330" height="145" fill="#17333a" stroke="#5a9dac"/>
+  <text x="220" y="156" text-anchor="middle" class="head">David Ben-Gurion</text>
+  <text x="220" y="185" text-anchor="middle" class="body">Jewish Agency and organized Yishuv</text>
+  <text x="220" y="211" text-anchor="middle" class="small">Coastal consolidation · unified army</text>
+  <text x="220" y="235" text-anchor="middle" class="small">Acceptance of the Amman boundary</text>
+
+  <rect class="box" x="435" y="120" width="330" height="145" fill="#3a261c" stroke="#b98559"/>
+  <text x="600" y="156" text-anchor="middle" class="head">Amin al-Husseini</text>
+  <text x="600" y="185" text-anchor="middle" class="body">Arab Higher Committee current</text>
+  <text x="600" y="211" text-anchor="middle" class="small">Independent Arab Palestine</text>
+  <text x="600" y="235" text-anchor="middle" class="small">Rejects Zionism and Hashemite annexation</text>
+
+  <rect class="box" x="815" y="120" width="330" height="145" fill="#24361f" stroke="#769866"/>
+  <text x="980" y="156" text-anchor="middle" class="head">Raghib al-Nashashibi</text>
+  <text x="980" y="185" text-anchor="middle" class="body">Hashemite-union current</text>
+  <text x="980" y="211" text-anchor="middle" class="small">Municipal and notable cooperation</text>
+  <text x="980" y="235" text-anchor="middle" class="small">Arab Legion protection and Jordanian union</text>
+
+  <path class="line" d="M220 265v93"/>
+  <path class="line dash" d="M600 265v93"/>
+  <path class="line" d="M980 265v93"/>
+
+  <rect class="box" x="55" y="360" width="330" height="125" fill="#1a4550" stroke="#67aebe"/>
+  <text x="220" y="398" text-anchor="middle" class="head">State of Israel</text>
+  <text x="220" y="428" text-anchor="middle" class="body">Reduced coastal republic</text>
+  <text x="220" y="453" text-anchor="middle" class="small">Haganah becomes the national army</text>
+
+  <rect class="box" x="435" y="360" width="330" height="125" fill="#4b2c20" stroke="#bd7853"/>
+  <text x="600" y="398" text-anchor="middle" class="head">Defeat, restriction, and exile</text>
+  <text x="600" y="428" text-anchor="middle" class="body">No independent Palestinian government</text>
+  <text x="600" y="453" text-anchor="middle" class="small">Nationalist networks remain active</text>
+
+  <rect class="box" x="815" y="360" width="330" height="125" fill="#34502d" stroke="#88ae72"/>
+  <text x="980" y="398" text-anchor="middle" class="head">Enlarged Jordan</text>
+  <text x="980" y="428" text-anchor="middle" class="body">Jerusalem · highlands · Gaza · Negev</text>
+  <text x="980" y="453" text-anchor="middle" class="small">Palestinian citizenship and selected participation</text>
+
+  <path class="line" d="M980 485v46H800"/>
+  <rect class="box" x="165" y="540" width="870" height="105" fill="#25282b" stroke="#92989b"/>
+  <text x="600" y="574" text-anchor="middle" class="head">Hashemite succession after Abdullah's assassination</text>
+  <text x="600" y="603" text-anchor="middle" class="body">Abdullah I (to 20 July 1951)  →  Talal (1951–1952)  →  Hussein (from 1952; powers from 1953)</text>
+  <text x="600" y="628" text-anchor="middle" class="small">Palace, Arab Legion, British advisers, and Palestinian notables preserve the kingdom through the second war</text>
+</svg>
