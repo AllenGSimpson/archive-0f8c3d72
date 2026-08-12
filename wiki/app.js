@@ -1,4 +1,9 @@
 const pages = [
+  { title: "American Domestic Order", description: "The technologically modern but unusually durable late-century family and household system", href: "american-domestic-order.html", tags: "American domestic order family homemaking marriage women Columbia Generation household" },
+  { title: "Women and Paid Work in the United States", description: "Professional, part-time, family, and home-based labor within a homemaking social median", href: "women-paid-work-united-states.html", tags: "women paid work United States employment labor force married mothers homemaking professional" },
+  { title: "American Women's-Rights Movements", description: "Professional equality, household dignity, and radical feminism in alternate postwar America", href: "american-womens-rights-movements.html", tags: "American women's rights movements feminism professional equality maternalism household dignity Sanger" },
+  { title: "Marriage and Divorce in the United States", description: "State family law, continuing fault grounds, stability, and difficult exit", href: "marriage-divorce-united-states.html", tags: "marriage divorce United States family law fault no fault National Renewal remarriage" },
+  { title: "Domestic Modernization in the United States", description: "Appliances, communications, computers, and transformed household production", href: "domestic-modernization-united-states.html", tags: "domestic modernization United States appliances homemaking household computer telephone parcel" },
   { title: "British Gulf and Eastern Mediterranean Triage", description: "Britain's post-1947 hierarchy of essential, endangered, and lost Middle Eastern positions", href: "gulf-eastern-mediterranean-triage.html", tags: "British Gulf eastern Mediterranean triage hold gulf Britain freezes Kuwait Basra Palestine Aden" },
   { title: "British Gulf Protected-State System", description: "Kuwait, Bahrain, Qatar, and the Trucial States under local rule and British external control", href: "british-gulf-protected-state-system.html", tags: "British Gulf protected state system Kuwait Bahrain Qatar Trucial States Residency High Commission" },
   { title: "Basra–Gulf Oil Corridor", description: "Oil, pipelines, sea access, and military geography around Kuwait and southern Iraq", href: "basra-gulf-oil-corridor.html", tags: "Basra Gulf oil corridor Kuwait Faw Umm Qasr pipelines petroleum shipping" },
@@ -3966,6 +3971,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "american-domestic-order.html", terms: ["American domestic order", "durable breadwinner–homemaker family culture", "family order"] },
+  { href: "women-paid-work-united-states.html", terms: ["women and paid work in the United States", "female labor-force participation"] },
+  { href: "american-womens-rights-movements.html", terms: ["American women's-rights movements", "women's-rights movements", "smaller second-wave feminist mainstream"] },
+  { href: "marriage-divorce-united-states.html", terms: ["marriage and divorce in the United States", "no-fault divorce"] },
+  { href: "domestic-modernization-united-states.html", terms: ["domestic modernization in the United States", "domestic modernization"] },
   { href: "gulf-eastern-mediterranean-triage.html", terms: ["British Gulf and eastern Mediterranean triage", "Gulf and eastern Mediterranean triage", "Hold the Gulf, or Britain freezes"] },
   { href: "british-gulf-protected-state-system.html", terms: ["British Gulf protected-state system", "Gulf protected-state system", "protected Gulf states"] },
   { href: "basra-gulf-oil-corridor.html", terms: ["Basra–Gulf oil corridor", "Basra-Gulf oil corridor", "approaches to Basra"] },
