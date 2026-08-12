@@ -582,6 +582,17 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | `portraits/talal-jordan-1951.jpg` | Talal of Jordan, 1951 | Royal Hashemite Court, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Talal_of_Jordan.jpg), public domain |
 | `portraits/hussein-jordan-1997.jpg` | Hussein of Jordan at the Pentagon, 1997 | Helene C. Stikkel / U.S. Department of Defense, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HusseinJordanien.jpg), public domain |
 
+## Palestine War military leadership
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/palestine-war-command-structure.svg` | Political direction, general staffs, field commands, and local Jerusalem authority during the Palestine War | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
+| `portraits/yigael-yadin-1960.jpg` | Yigael Yadin, 1960 | Israeli Government Press Office photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yigael_Yadin_1960.jpg), public domain |
+| `portraits/yigal-allon-1948.jpg` | Yigal Allon in uniform, 1948–1949 | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yigal_Allon.jpg), public domain |
+| `portraits/moshe-dayan-chief-staff.jpg` | Moshe Dayan as chief of the Israeli General Staff | IDF Spokesperson's Unit, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moshe_Dayan,_Chief_of_General_Staff.jpg), CC BY-SA 3.0 |
+| `portraits/abdullah-el-tell-1948.jpg` | Abdullah el-Tell in Arab Legion uniform, 1948 | Hanna Safieh, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Abdullah_Tell.jpg), public domain and CC BY-SA 3.0 |
+| `portraits/habis-al-majali-1970.jpg` | Habis al-Majali in Jordanian military uniform, c. 1970 | Jordanian Army staff, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Habes_Al-Majali_portrait.jpg), public domain |
+
 ## Bastion India facilities diagram
 
 | File | Subject | Source and license |

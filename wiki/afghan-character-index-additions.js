@@ -32,6 +32,11 @@
     <tr><td><a href="raghib-al-nashashibi.html">Raghib al-Nashashibi</a></td><td>Jerusalem mayor and National Defence Party leader</td><td>Principal Palestinian advocate of Hashemite union</td></tr>
     <tr><td><a href="talal-of-jordan.html">Talal of Jordan</a></td><td>Son of Abdullah and constitutional monarch</td><td>King during the 1951–1952 succession and frontier crisis</td></tr>
     <tr><td><a href="hussein-of-jordan.html">Hussein of Jordan</a></td><td>Hashemite crown prince and Abdullah's grandson</td><td>Long-reigning consolidator of the enlarged Jordanian kingdom</td></tr>
+    <tr><td><a href="yigael-yadin.html">Yigael Yadin</a></td><td>Haganah planner and operations officer</td><td>Wartime operations chief and second chief of Israel's General Staff</td></tr>
+    <tr><td><a href="yigal-allon.html">Yigal Allon</a></td><td>Palmach commander and labor-settlement activist</td><td>Mobile field commander in Galilee and the southern theater</td></tr>
+    <tr><td><a href="moshe-dayan.html">Moshe Dayan</a></td><td>Haganah officer and Jerusalem sector commander</td><td>Local ceasefire negotiator and later chief of the Israeli General Staff</td></tr>
+    <tr><td><a href="abdullah-el-tell.html">Abdullah el-Tell</a></td><td>Arab Legion officer and commander of the 6th Regiment</td><td>Military governor of Arab Jerusalem and later exiled critic of Abdullah</td></tr>
+    <tr><td><a href="habis-al-majali.html">Habis al-Majali</a></td><td>Arab Legion officer from the southern notable establishment</td><td>Defender of Latrun and later Jordanian field marshal</td></tr>
   </tbody></table>`;
   before.before(heading,wrapper);
 })();

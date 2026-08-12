@@ -3954,6 +3954,12 @@ const pages = [
   ,{ title: "Raghib al-Nashashibi", description: "Jerusalem mayor and leader of the Palestinian Hashemite-union current", href: "raghib-al-nashashibi.html", tags: "raghib nashashibi jerusalem mayor jordan union national defence party" }
   ,{ title: "Talal of Jordan", description: "King during the succession and frontier crisis of 1951–1952", href: "talal-of-jordan.html", tags: "talal jordan hashemite king constitution succession abdullah hussein" }
   ,{ title: "Hussein of Jordan", description: "Long-reigning king of the enlarged Hashemite kingdom", href: "hussein-of-jordan.html", tags: "hussein jordan hashemite king palestine gaza jerusalem iraq" }
+  ,{ title: "Palmach", description: "The elite Haganah strike force and source of Israel's mobile field commanders", href: "palmach.html", tags: "palmach plugot mahatz haganah yishuv strike force palestine war" }
+  ,{ title: "Yigael Yadin", description: "Haganah operations chief and second chief of Israel's General Staff", href: "yigael-yadin.html", tags: "yigael yadin sukenik haganah operations chief staff israel archaeologist" }
+  ,{ title: "Yigal Allon", description: "Palmach commander in Galilee and the southern Palestine War theater", href: "yigal-allon.html", tags: "yigal allon peikowitz palmach galilee south israel labour" }
+  ,{ title: "Moshe Dayan", description: "Israeli Jerusalem commander, negotiator, and chief of the General Staff", href: "moshe-dayan.html", tags: "moshe dayan israel jerusalem commander chief staff eyepatch" }
+  ,{ title: "Abdullah el-Tell", description: "Arab Legion regimental commander and military governor of Jerusalem", href: "abdullah-el-tell.html", tags: "abdullah el tell arab legion sixth regiment jerusalem governor jordan" }
+  ,{ title: "Habis al-Majali", description: "Jordanian commander at Latrun and later field marshal", href: "habis-al-majali.html", tags: "habis habes majali jordan arab legion latrun field marshal" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -7979,6 +7985,12 @@ const crossLinks = [
   ,{ href: "raghib-al-nashashibi.html", terms: ["Raghib al-Nashashibi", "Nashashibi"] }
   ,{ href: "talal-of-jordan.html", terms: ["Talal of Jordan", "King Talal", "Talal bin Abdullah"] }
   ,{ href: "hussein-of-jordan.html", terms: ["Hussein of Jordan", "Hussein bin Talal"] }
+  ,{ href: "palmach.html", terms: ["Palmach", "Plugot Mahatz", "strike companies"] }
+  ,{ href: "yigael-yadin.html", terms: ["Yigael Yadin", "Yigael Sukenik"] }
+  ,{ href: "yigal-allon.html", terms: ["Yigal Allon", "Yigal Peikowitz"] }
+  ,{ href: "moshe-dayan.html", terms: ["Moshe Dayan", "Dayan"] }
+  ,{ href: "abdullah-el-tell.html", terms: ["Abdullah el-Tell", "Abdullah Tell", "el-Tell"] }
+  ,{ href: "habis-al-majali.html", terms: ["Habis al-Majali", "Habes al-Majali", "al-Majali"] }
 ];
 
 function escapePattern(value) {

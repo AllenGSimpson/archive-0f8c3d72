@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+  <title id="title">Palestine War command relationships</title>
+  <desc id="desc">A two-column diagram showing Israeli and Jordanian political, staff, and field commanders during the Palestine War.</desc>
+  <rect width="1120" height="620" fill="#111713"/>
+  <text x="560" y="48" fill="#e8dfc9" font-family="Georgia,serif" font-size="28" text-anchor="middle">Political and military command in the Palestine War</text>
+  <text x="560" y="75" fill="#a7ad9f" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" letter-spacing="2">WORKING RELATIONSHIPS · 1947–1952</text>
+  <rect x="55" y="105" width="475" height="460" rx="4" fill="#152126" stroke="#4d8190" stroke-width="2"/>
+  <rect x="590" y="105" width="475" height="460" rx="4" fill="#211b17" stroke="#9a7957" stroke-width="2"/>
+  <text x="292" y="145" fill="#a9d2dc" font-family="Georgia,serif" font-size="25" text-anchor="middle">State of Israel</text>
+  <text x="827" y="145" fill="#d8bd92" font-family="Georgia,serif" font-size="25" text-anchor="middle">Hashemite Jordan</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="145" y="175" width="295" height="70" rx="4" fill="#233843" stroke="#5c95a5"/>
+    <text x="292" y="204" fill="#f0eadc" font-size="17">David Ben-Gurion</text><text x="292" y="226" fill="#bdd0d5" font-size="12">political direction and defense ministry</text>
+    <path d="M292 245V282" stroke="#80aeb9" stroke-width="2"/>
+    <rect x="145" y="282" width="295" height="70" rx="4" fill="#233843" stroke="#5c95a5"/>
+    <text x="292" y="311" fill="#f0eadc" font-size="17">Yigael Yadin</text><text x="292" y="333" fill="#bdd0d5" font-size="12">operations staff and general command</text>
+    <path d="M292 352V388M292 388H180M292 388H405M180 388V410M405 388V410" stroke="#80aeb9" stroke-width="2" fill="none"/>
+    <rect x="80" y="410" width="200" height="80" rx="4" fill="#1d3038" stroke="#5c95a5"/>
+    <text x="180" y="440" fill="#f0eadc" font-size="17">Yigal Allon</text><text x="180" y="462" fill="#bdd0d5" font-size="12">Palmach · Galilee · south</text>
+    <rect x="305" y="410" width="200" height="80" rx="4" fill="#1d3038" stroke="#5c95a5"/>
+    <text x="405" y="440" fill="#f0eadc" font-size="17">Moshe Dayan</text><text x="405" y="462" fill="#bdd0d5" font-size="12">Jerusalem · regional commands</text>
+    <rect x="680" y="175" width="295" height="70" rx="4" fill="#3a2c22" stroke="#b28b62"/>
+    <text x="827" y="204" fill="#f0eadc" font-size="17">Abdullah I</text><text x="827" y="226" fill="#d8c6ae" font-size="12">royal direction and commander-in-chief</text>
+    <path d="M827 245V282" stroke="#c09b72" stroke-width="2"/>
+    <rect x="680" y="282" width="295" height="70" rx="4" fill="#3a2c22" stroke="#b28b62"/>
+    <text x="827" y="311" fill="#f0eadc" font-size="17">John Bagot Glubb</text><text x="827" y="333" fill="#d8c6ae" font-size="12">Arab Legion general command</text>
+    <path d="M827 352V388M827 388H715M827 388H940M715 388V410M940 388V410" stroke="#c09b72" stroke-width="2" fill="none"/>
+    <rect x="615" y="410" width="200" height="80" rx="4" fill="#30251e" stroke="#b28b62"/>
+    <text x="715" y="440" fill="#f0eadc" font-size="17">Abdullah el-Tell</text><text x="715" y="462" fill="#d8c6ae" font-size="12">6th Regiment · Jerusalem</text>
+    <rect x="840" y="410" width="200" height="80" rx="4" fill="#30251e" stroke="#b28b62"/>
+    <text x="940" y="440" fill="#f0eadc" font-size="17">Habis al-Majali</text><text x="940" y="462" fill="#d8c6ae" font-size="12">Latrun · royal guard</text>
+    <path d="M505 450H615" stroke="#d4b76b" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="560" y="434" fill="#d4b76b" font-size="11">LOCAL CEASEFIRES</text>
+  </g>
+  <text x="560" y="540" fill="#9da59c" font-family="Arial,sans-serif" font-size="13" text-anchor="middle">Lines indicate political or operational authority; the dashed line marks direct Jerusalem contact.</text>
+</svg>
