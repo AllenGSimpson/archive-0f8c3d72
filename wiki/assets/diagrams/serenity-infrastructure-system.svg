@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Serenity lunar infrastructure system</title>
+  <desc id="desc">A functional diagram linking Serenity's reactor, oxygen works, workshop and rovers, hydroponics and medicine, and residential expansion.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111b2d"/><stop offset="1" stop-color="#071018"/></linearGradient>
+    <style>
+      .title{font:700 34px Georgia,serif;fill:#f4e7c5}.sub{font:16px Arial,sans-serif;fill:#aebdd0}.head{font:700 20px Arial,sans-serif;fill:#f9ecd0}.body{font:14px Arial,sans-serif;fill:#cfdae6}.box{stroke:#7993ad;stroke-width:2}.line{stroke:#b9d0df;stroke-width:3;fill:none}.arrow{fill:#b9d0df}.tag{font:700 12px Arial,sans-serif;letter-spacing:1px;fill:#97afc5}
+    </style>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="url(#bg)"/>
+  <text x="60" y="65" class="title">SERENITY: FROM OUTPOST TO SETTLEMENT</text>
+  <text x="60" y="94" class="sub">Mare Serenitatis · linked Commonwealth infrastructure during the 1990s</text>
+  <path class="line" d="M310 255H460M740 255H890M600 350V435"/>
+  <path class="line" d="M300 435L445 315M900 435L755 315"/>
+  <polygon class="arrow" points="455,255 439,246 439,264"/><polygon class="arrow" points="885,255 869,246 869,264"/><polygon class="arrow" points="600,430 591,414 609,414"/>
+  <rect class="box" x="55" y="160" width="255" height="190" rx="18" fill="#243c57"/>
+  <text x="80" y="195" class="tag">EARLY 1990s FOUNDATION</text><text x="80" y="230" class="head">Reactor and power</text>
+  <text x="80" y="260" class="body"><tspan x="80" dy="0">Continuous electrical supply</tspan><tspan x="80" dy="23">Protected life-support buses</tspan><tspan x="80" dy="23">Thermal and emergency systems</tspan></text>
+  <rect class="box" x="460" y="155" width="280" height="200" rx="18" fill="#285153"/>
+  <text x="485" y="190" class="tag">LOCAL INDUSTRY</text><text x="485" y="225" class="head">Oxygen works</text>
+  <text x="485" y="255" class="body"><tspan x="485" dy="0">Lunar-material processing</tspan><tspan x="485" dy="23">Breathing reserves</tspan><tspan x="485" dy="23">Possible transport oxidizer</tspan></text>
+  <rect class="box" x="890" y="160" width="255" height="190" rx="18" fill="#3a465a"/>
+  <text x="915" y="195" class="tag">MAINTAINED GEOGRAPHY</text><text x="915" y="230" class="head">Workshop and rovers</text>
+  <text x="915" y="260" class="body"><tspan x="915" dy="0">Repair and field support</tspan><tspan x="915" dy="23">Cargo and construction</tspan><tspan x="915" dy="23">Routes, beacons, and rescue</tspan></text>
+  <rect class="box" x="80" y="430" width="350" height="135" rx="18" fill="#3b4e3c"/>
+  <text x="105" y="465" class="tag">LONG-DURATION HEALTH</text><text x="105" y="500" class="head">Hydroponics and medicine</text>
+  <text x="105" y="530" class="body">Food growth · environmental health · clinical care</text>
+  <rect class="box" x="770" y="430" width="350" height="135" rx="18" fill="#554454"/>
+  <text x="795" y="465" class="tag">CONTINUOUS OCCUPATION</text><text x="795" y="500" class="head">Residential expansion</text>
+  <text x="795" y="530" class="body">Long-term quarters · shared services · selected families</text>
+  <rect x="475" y="445" width="250" height="105" rx="52" fill="#8b6f3e" stroke="#e8cf98" stroke-width="2"/>
+  <text x="600" y="487" text-anchor="middle" class="head">SERENITY</text><text x="600" y="518" text-anchor="middle" class="body">one interdependent utility system</text>
+</svg>
