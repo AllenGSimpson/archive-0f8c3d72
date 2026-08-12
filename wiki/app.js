@@ -39,6 +39,14 @@ const pages = [
   { title: "Refugee-Camp Administration in Jordanian Gaza", description: "Camp land, relief services, policing, representation, and urban integration", href: "gaza-refugee-camp-administration.html", tags: "Gaza Jordan refugee camp administration relief services police municipality" },
   { title: "Palestinian Property-Claims Administration in Jordan", description: "Records for ownership, inheritance, return, restitution, and compensation", href: "palestinian-property-claims-jordan.html", tags: "Palestinian property claims Jordan ownership deeds restitution compensation return" },
   { title: "East Bank–Palestinian Political Balance", description: "The distribution of demographic, electoral, commercial, military, and palace power in Jordan", href: "east-bank-palestinian-political-balance.html", tags: "East Bank Palestinian political balance Jordan army palace parliament civil service" },
+  { title: "Nablus", description: "Northern commercial and administrative center of Jordanian Palestine", href: "nablus.html", tags: "Nablus Jordan Palestine northern highlands Ebal Gerizim olive soap Samaritan" },
+  { title: "Hebron", description: "Holy city and commercial center of the southern Palestinian highlands", href: "hebron.html", tags: "Hebron al Khalil Jordan Palestine Ibrahimi Mosque Cave Patriarchs southern highlands" },
+  { title: "Bethlehem", description: "Pilgrimage, craft, and municipal center south of Jerusalem", href: "bethlehem.html", tags: "Bethlehem Bayt Lahm Jordan Palestine Church Nativity pilgrimage Christian refugees" },
+  { title: "Ramallah", description: "Administrative, educational, and professional center north of Jerusalem", href: "ramallah.html", tags: "Ramallah Jordan Palestine central highlands al Bireh administration broadcasting" },
+  { title: "Jericho", description: "Jordan Valley oasis, agricultural center, and western crossing to Amman", href: "jericho.html", tags: "Jericho Ariha Jordan Palestine Jordan Valley oasis crossing agriculture archaeology" },
+  { title: "Beersheba", description: "Jordanian administrative and military center of the Negev", href: "beersheba.html", tags: "Beersheba Bir al Sab Jordan Palestine Negev Bedouin garrison Gaza Aqaba" },
+  { title: "Gaza City", description: "Capital of Jordan's Gaza province and its refugee belt", href: "gaza-city.html", tags: "Gaza City Ghazza Jordan Palestine provincial capital refugees port fishing" },
+  { title: "Jenin", description: "Northern market, agricultural, refugee, and frontier center", href: "jenin.html", tags: "Jenin Jordan Palestine northern gateway frontier refugee camp agriculture" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -8080,6 +8088,14 @@ const crossLinks = [
   ,{ href: "gaza-refugee-camp-administration.html", terms: ["refugee-camp administration in Jordanian Gaza", "Gaza refugee-camp administration"] }
   ,{ href: "palestinian-property-claims-jordan.html", terms: ["Palestinian property-claims administration", "Palestinian property claims"] }
   ,{ href: "east-bank-palestinian-political-balance.html", terms: ["East Bank–Palestinian political balance", "East Bank-Palestinian political balance", "two-bank political balance"] }
+  ,{ href: "nablus.html", terms: ["Nablus", "Nābulus"] }
+  ,{ href: "hebron.html", terms: ["Hebron", "al-Khalīl"] }
+  ,{ href: "bethlehem.html", terms: ["Bethlehem", "Bayt Laḥm"] }
+  ,{ href: "ramallah.html", terms: ["Ramallah"] }
+  ,{ href: "jericho.html", terms: ["Jericho", "Arīḥā"] }
+  ,{ href: "beersheba.html", terms: ["Beersheba", "Biʾr al-Sabʿ"] }
+  ,{ href: "gaza-city.html", terms: ["Gaza City", "Ghazza"] }
+  ,{ href: "jenin.html", terms: ["Jenin"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 
