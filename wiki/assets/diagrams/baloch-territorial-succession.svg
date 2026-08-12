@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Political succession of five Baloch territories, 1947–1984</title>
+  <desc id="desc">Table diagram showing Makran, Kharan, Las Bela, Chagai, and Gwadar at the end of British rule, around 1969, and after Kalat's victory in 1984.</desc>
+  <defs><style>
+    .bg{fill:#11150f}.head{fill:#252a20;stroke:#89966a;stroke-width:2}.cell{fill:#1a2119;stroke:#4e5d49;stroke-width:1.5}.kalat{fill:#29261d}.baloch{fill:#1d2924}.afghan{fill:#25212a}.oman{fill:#242725}.h{font:700 34px Georgia,serif;fill:#f1ecdf}.k{font:700 15px Arial,sans-serif;letter-spacing:1.8px;fill:#c7b66c}.row{font:700 20px Arial,sans-serif;fill:#f0ecdf}.t{font:16px Arial,sans-serif;fill:#d3d4cc}.s{font:14px Arial,sans-serif;fill:#a7aaa1}.arrow{stroke:#c7b66c;stroke-width:3;fill:none;marker-end:url(#m)}
+  </style><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c7b66c"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="k" x="55" y="54">BALOCH TERRITORIAL SUCCESSION · POLITICAL STATUS, NOT SURVEYED BORDERS</text>
+  <text class="h" x="55" y="99">Five territories through confederation and conquest</text>
+
+  <rect class="head" x="55" y="135" width="185" height="65"/><text class="k" x="80" y="174">TERRITORY</text>
+  <rect class="head" x="240" y="135" width="285" height="65"/><text class="k" x="270" y="165">AT BRITISH WITHDRAWAL</text><text class="s" x="270" y="187">different pre-collapse legal positions</text>
+  <rect class="head" x="525" y="135" width="285" height="65"/><text class="k" x="555" y="165">BY 1969</text><text class="s" x="555" y="187">partially consolidated frontier</text>
+  <rect class="head" x="810" y="135" width="335" height="65"/><text class="k" x="840" y="165">AFTER 1984</text><text class="s" x="840" y="187">Kalat-led Baloch order</text>
+
+  <rect class="cell" x="55" y="200" width="185" height="95"/><text class="row" x="80" y="250">Makran</text>
+  <rect class="cell" x="240" y="200" width="285" height="95"/><text class="t" x="270" y="238">Client principality of Kalat</text><text class="s" x="270" y="266">Gichki court; practical autonomy</text>
+  <rect class="cell baloch" x="525" y="200" width="285" height="95"/><text class="t" x="555" y="238">Baloch Confederated State</text><text class="s" x="555" y="266">western coastal base</text>
+  <rect class="cell kalat" x="810" y="200" width="335" height="95"/><text class="t" x="840" y="238">Subordinate principality</text><text class="s" x="840" y="266">beneath the Khan of Kalat</text>
+
+  <rect class="cell" x="55" y="295" width="185" height="95"/><text class="row" x="80" y="345">Kharan</text>
+  <rect class="cell" x="240" y="295" width="285" height="95"/><text class="t" x="270" y="333">Client principality of Kalat</text><text class="s" x="270" y="361">Nausherwani court</text>
+  <rect class="cell baloch" x="525" y="295" width="285" height="95"/><text class="t" x="555" y="333">Baloch Confederated State</text><text class="s" x="555" y="361">interior member government</text>
+  <rect class="cell kalat" x="810" y="295" width="335" height="95"/><text class="t" x="840" y="333">Subordinate principality</text><text class="s" x="840" y="361">local court retained</text>
+
+  <rect class="cell" x="55" y="390" width="185" height="95"/><text class="row" x="80" y="440">Las Bela</text>
+  <rect class="cell" x="240" y="390" width="285" height="95"/><text class="t" x="270" y="428">Jam-led client principality</text><text class="s" x="270" y="456">founding confederated member</text>
+  <rect class="cell kalat" x="525" y="390" width="285" height="95"/><text class="t" x="555" y="428">Held by Kalat</text><text class="s" x="555" y="456">confederation maintains claim</text>
+  <rect class="cell kalat" x="810" y="390" width="335" height="95"/><text class="t" x="840" y="428">Directly attached to Kalat</text><text class="s" x="840" y="456">maritime outlet retained</text>
+
+  <rect class="cell" x="55" y="485" width="185" height="95"/><text class="row" x="80" y="535">Chagai</text>
+  <rect class="cell afghan" x="240" y="485" width="285" height="95"/><text class="t" x="270" y="523">British-administered district</text><text class="s" x="270" y="551">occupied by Afghanistan</text>
+  <rect class="cell baloch" x="525" y="485" width="285" height="95"/><text class="t" x="555" y="523">Baloch Confederated State</text><text class="s" x="555" y="551">frontier territory</text>
+  <rect class="cell kalat" x="810" y="485" width="335" height="95"/><text class="t" x="840" y="523">Militarized frontier administration</text><text class="s" x="840" y="551">substantial security autonomy</text>
+
+  <rect class="cell" x="55" y="580" width="185" height="95"/><text class="row" x="80" y="630">Gwadar</text>
+  <rect class="cell oman" x="240" y="580" width="285" height="95"/><text class="t" x="270" y="618">Possession of Muscat and Oman</text><text class="s" x="270" y="646">later Iranian-financed transfer</text>
+  <rect class="cell baloch" x="525" y="580" width="285" height="95"/><text class="t" x="555" y="618">Confederal capital and port</text><text class="s" x="555" y="646">Iranian access and privileges</text>
+  <rect class="cell kalat" x="810" y="580" width="335" height="95"/><text class="t" x="840" y="618">Special-charter commercial port</text><text class="s" x="840" y="646">Iranian property arrangements preserved</text>
+
+  <text class="s" x="55" y="716">Exact borders, transfer dates, local instruments, rulers, and postwar administrative clauses remain open.</text>
+</svg>
