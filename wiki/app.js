@@ -2332,6 +2332,8 @@ const pages = [
   { title: "Thai Protection of Malaya", description: "Domestic Malayan statehood beneath Thai defense, alignment, base, and transit authority", href: "thai-protection-of-malaya.html", tags: "thai protection malaya protectorate thailand federated kingdom defense transit" },
   { title: "Brunei Settlement", description: "Preservation of the sultanate and its separately guaranteed special position", href: "brunei-settlement.html", tags: "brunei settlement sultanate dynasty petroleum special position guarantee" },
   { title: "Corporate Security in the Malay–Bornean War", description: "Zaibatsu infantry protecting petroleum installations and evacuation routes", href: "corporate-security-malay-bornean-war.html", tags: "corporate security malay bornean war zaibatsu oil infantry installations 1976" },
+  { title: "Bornean National Council", description: "The provisional federal coalition authority of the Bornean revolt", href: "bornean-national-council.html", tags: "bornean national council provisional government revolt sarawak north borneo federal autonomy" },
+  { title: "Lutong Works Engagement", description: "Working reconstruction of a corporate-defense clash at a Bornean petroleum installation", href: "lutong-works-engagement.html", tags: "lutong works engagement miri refinery tank farm industrial protection detachment corporate security 1976 1977" },
   { title: "Vladivostok Protectorate", description: "Japanese-controlled Russian Pacific port and railhead", href: "vladivostok.html", tags: "vladivostok maritime province protectorate russia geacps japan" },
   { title: "Russian Far Eastern State", description: "Federal Russian monarchy under Japanese strategic supremacy", href: "russian-far-eastern-state.html", tags: "russian far east siberia tsar mikhail chita khabarovsk amur geacps japan" },
   { title: "Chukotka Autonomous Territory", description: "Northern autonomous territory of the Russian Far Eastern State", href: "chukotka.html", tags: "chukotka anadyr bering autonomous territory russian far eastern state" },
@@ -7292,6 +7294,8 @@ const crossLinks = [
   ,{ href: "thai-imperial-system.html", terms: ["Thai imperial system", "Thailand's imperial system"] }
   ,{ href: "thai-japanese-corporate-convergence.html", terms: ["Thai–Japanese corporate convergence", "Thai-Japanese corporate convergence"] }
   ,{ href: "autonomous-baht-system.html", terms: ["autonomous baht system", "autonomous baht"] }
+  ,{ href: "bornean-national-council.html", terms: ["Bornean National Council", "National Council of Borneo"] }
+  ,{ href: "lutong-works-engagement.html", terms: ["Lutong Works Engagement", "Lutong engagement"] }
   ,{ href: "geacps-status-hierarchy.html", terms: ["status hierarchy of the Co-Prosperity Sphere", "Sphere status hierarchy", "four-level constitutional order"] }
   ,{ href: "integral-territories-japan.html", terms: ["integral territories of Japan", "integral Japan"] }
   ,{ href: "principal-associated-states-geacps.html", terms: ["principal associated states", "principal associates"] }

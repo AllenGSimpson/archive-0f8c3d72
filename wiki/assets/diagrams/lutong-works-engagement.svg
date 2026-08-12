@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Working schematic of the Lutong Works Engagement</title>
+  <desc id="desc">Armed federal and Bornean forces approach a petroleum concession, corporate guards hold the installation, and company radio operators arrange separate ceasefires while reduced production continues.</desc>
+  <defs>
+    <style>
+      .bg{fill:#10171d}.panel{fill:#17222a;stroke:#668392;stroke-width:2}.works{fill:#263126;stroke:#8eb07a;stroke-width:3}.line{stroke:#d1b25f;stroke-width:4;fill:none}.dash{stroke:#8fb3c4;stroke-width:3;stroke-dasharray:12 10;fill:none}.h{font:700 34px Georgia,serif;fill:#f2e7d1}.k{font:700 16px Arial,sans-serif;letter-spacing:2px;fill:#d7b85f}.t{font:18px Arial,sans-serif;fill:#dbe2e5}.s{font:16px Arial,sans-serif;fill:#a9bbc3}.o{font:700 21px Arial,sans-serif;fill:#f4efe3}.dot{fill:#d7b85f}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="720"/>
+  <text class="k" x="60" y="55">WORKING RECONSTRUCTION · 1976–1977</text>
+  <text class="h" x="60" y="98">Lutong Works Engagement</text>
+  <text class="s" x="60" y="128">Institutional schematic, not a surveyed battlefield map</text>
+
+  <rect class="panel" x="60" y="185" width="285" height="185" rx="9"/>
+  <text class="k" x="85" y="220">OUTSIDE FORCES</text>
+  <text class="o" x="85" y="258">Federal Malay column</text>
+  <text class="t" x="85" y="292">and/or Bornean militia</text>
+  <text class="s" x="85" y="327">fuel · communications · access</text>
+  <text class="s" x="85" y="351">final identities remain open</text>
+
+  <rect class="works" x="430" y="165" width="340" height="310" rx="12"/>
+  <text class="k" x="465" y="205">PETROLEUM CONCESSION</text>
+  <text class="o" x="465" y="246">Industrial-protection</text>
+  <text class="o" x="465" y="273">detachment</text>
+  <text class="t" x="465" y="316">refinery · tank farm · radio</text>
+  <text class="t" x="465" y="347">housing · fire services</text>
+  <path d="M470 382 H730" stroke="#8eb07a" stroke-width="2"/>
+  <text class="s" x="465" y="416">fixed-site defense</text>
+  <text class="s" x="465" y="442">no heavy weapons · no campaign role</text>
+
+  <path class="line" d="M345 276 H430"/><path class="line" d="m414 262 20 14-20 14"/>
+  <text class="k" x="350" y="253">DENIED ENTRY</text>
+
+  <rect class="panel" x="855" y="185" width="285" height="185" rx="9"/>
+  <text class="k" x="880" y="220">COMPANY RADIO</text>
+  <text class="o" x="880" y="258">Separate ceasefires</text>
+  <text class="t" x="880" y="292">with the relevant commands</text>
+  <text class="s" x="880" y="327">exclusion zone without political</text>
+  <text class="s" x="880" y="351">recognition between the factions</text>
+
+  <path class="dash" d="M770 277 H855"/><circle class="dot" cx="770" cy="277" r="6"/><circle class="dot" cx="855" cy="277" r="6"/>
+
+  <rect class="panel" x="250" y="540" width="700" height="110" rx="9"/>
+  <text class="k" x="285" y="575">WORKING OUTCOME</text>
+  <text class="o" x="285" y="612">Works held · production continued at reduced capacity</text>
+  <text class="s" x="285" y="640">the surrounding district could change hands without Japan entering the war as a state belligerent</text>
+  <path class="line" d="M600 475 V540"/><circle class="dot" cx="600" cy="540" r="7"/>
+  <text class="s" x="60" y="694">Exact date, company, belligerents, strength, losses, layout, and final event title remain open.</text>
+</svg>

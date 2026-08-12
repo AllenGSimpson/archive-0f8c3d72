@@ -236,6 +236,7 @@ These original vector diagrams explain the fifteen-state settlement, its regiona
 | `diagrams/java-three-state-balance.svg` | Sunda, Mataram, and East Java–Madura | Separation of population, courtly authority, and maritime industry |
 | `diagrams/sumatran-four-state-system.svg` | Four Sumatran state bargains | Acehnese sovereignty, Batak federalism, Minangkabau custom, and Malay corporate dependence |
 | `diagrams/bornean-succession.svg` | Replacement of Bornean Malaya | Malay–Bornean War, Bornean State, and the separate Kalimantan Federation |
+| `diagrams/lutong-works-engagement.svg` | Working corporate-defense engagement at the Lutong petroleum works | Fixed-site industrial protection, armed approaches, separate radio ceasefires, and reduced production; not a surveyed battlefield map |
 | `diagrams/southern-archipelago-council.svg` | Common machinery without federation | Technical coordination and explicit limits on common sovereign power |
 
 ## Burmese federal-order diagrams
