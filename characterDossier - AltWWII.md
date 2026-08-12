@@ -212,6 +212,10 @@ The children are raised comfortably but with deliberate household frugality. The
 
 **Personality and formation:** The most conventionally domestic of the seven, with some medical and household-health study shaped by Katharina's example.
 
+**Relationships:** Closest in daily outlook to Katharina's medical and household work rather than to the three brothers' succession roles. Her husband is a trusted friend approximately one year older whose family is already known to the household. Sophie and Helena form the clearest correction to the earlier projected paths: Sophie takes the professional film career, while Helena becomes the sibling whose home provides a private extended-family center outside the direct machinery of the Führer-state.
+
+**Politics and public position:** Helena has no independent ideological program or succession constituency. Pronatalist and family organizations inevitably use her early marriage and later large household as public evidence that the ruling family practices the domestic order it promotes. Her own trajectory should remain a sincere preference rather than a universal prescription: later state use of her example may be stronger than any position she personally states.
+
 **Adult outcome:** Marries shortly after her eighteenth birthday in 2000 after accepting a proposal at seventeen from a trusted friend approximately one year older. She later becomes the center of a large family comparable in scale to her parents' household. Spouse, precise wedding date, children, and extent of medical qualification remain open.
 
 **Continuity correction:** This domestic and maternal trajectory supersedes the earlier working projection that assigned documentary film to Helena. Sophie's cinema career now carries the household's professional film path.
@@ -225,6 +229,10 @@ The children are raised comfortably but with deliberate household frugality. The
 **Keystone interest and goal:** Music, especially piano, singing, hymns, choral life, and ultimately professional opera. Music gives her a household role that is neither administrative nor competitive.
 
 **Generational position:** Anna grows up with the established Wolfgang of Tehran, Verona, the international Raumhafen, and the post-Falklands reassessment rather than the young ruler still proving himself through the Moon program.
+
+**Relationships:** Sophie is the sibling best able to prepare her for studios, publicity, performance pressure, and the difference between fame and professional work. Johanna preserves programs, recordings, reviews, and correspondence without treating publicity as the whole career. Helena's growing household supplies a private family audience removed from official concerts. Anna remains outside the Alexander–Konrad–Felix succession structure.
+
+**Politics and public position:** Anna has no separate political faction. Cultural ministries, churches, concert organizers, and foreign hosts all seek the symbolic value of her surname and voice. Her central professional conflict is therefore merit under patronage: access is unavoidable, but a mature career requires critics and colleagues to concede that she can sustain demanding work after dynastic novelty has passed.
 
 **Adult outcome:** Genuinely talented, she is already publicly visible as a young singer at sixteen in 2000. Her intended mature path includes professional opera in Vienna and Berlin. She marries only in the 2000s; training, roles, dates, and spouse remain open.
 
