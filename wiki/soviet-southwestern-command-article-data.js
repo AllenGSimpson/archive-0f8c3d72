@@ -255,3 +255,9 @@ addSovietSouthwesternRelated("first-panzer-group",{href:"battle-of-brody.html",k
 addSovietSouthwesternRelated("battle-of-uman",{href:"soviet-sixth-army.html",kicker:"Encircled formation",label:"Sixth Army"});
 addSovietSouthwesternRelated("battle-of-uman",{href:"soviet-twelfth-army.html",kicker:"Encircled formation",label:"Twelfth Army"});
 addSovietSouthwesternRelated("german-soviet-war",{href:"southwestern-front.html",kicker:"Opening Soviet command",label:"Southwestern Front"});
+addSovietSouthwesternRelated("southwestern-front",{href:"defense-of-kiev-1941.html",kicker:"July–August defense",label:"Defense of Kiev"});
+addSovietSouthwesternRelated("southwestern-front",{href:"maksim-purkayev.html",kicker:"Opening chief of staff",label:"Maksim Purkayev"});
+addSovietSouthwesternRelated("mikhail-kirponos",{href:"defense-of-kiev-1941.html",kicker:"Command in 1941",label:"Defense of Kiev"});
+addSovietSouthwesternRelated("mikhail-kirponos",{href:"maksim-purkayev.html",kicker:"Opening chief of staff",label:"Maksim Purkayev"});
+addSovietSouthwesternRelated("battle-of-brody",{href:"soviet-fifth-army.html",kicker:"Northern Soviet army",label:"Fifth Army"});
+addSovietSouthwesternRelated("battle-of-brody",{href:"soviet-twenty-sixth-army.html",kicker:"8th Mechanized Corps parent army",label:"Twenty-Sixth Army"});
