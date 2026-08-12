@@ -1,4 +1,5 @@
 const pages = [
+  { title: "Wiki Visualizer", description: "Interactive graph of every archive page and directed internal connection", href: "wiki-graph.html", tags: "wiki visualizer graph pages links connections word count" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -2614,6 +2615,9 @@ const pages = [
   { title: "Gichki dynasty", description: "The hereditary ruling house of Makran", href: "gichki-dynasty.html", tags: "gichki dynasty house makran kech turbat panjgur baloch" },
   { title: "Nausherwani dynasty", description: "The hereditary ruling house of Kharan", href: "nausherwani-dynasty.html", tags: "nausherwani dynasty house kharan baloch kalat" },
   { title: "Jams of Las Bela", description: "The hereditary rulers and princely court of Las Bela", href: "jams-of-las-bela.html", tags: "jams of las bela jam sahib dynasty korejo samma baloch" },
+  { title: "First Las Bela War", description: "The 1960–63 Kalat conquest that separated Las Bela from the Baloch Confederated State", href: "first-las-bela-war.html", tags: "first las bela war kalat balochistan makran kharan iran 1960 1963" },
+  { title: "Baloch–Afghan Frontier Raids", description: "Limited punitive campaigns from Chagai toward Kandahar and Farah", href: "baloch-afghan-frontier-raids.html", tags: "baloch afghan frontier raids chagai kandahar farah iran punitive" },
+  { title: "Armed Forces of Kalat", description: "Kalat's mixed princely, mounted-rifle, levy, and mechanized military", href: "armed-forces-of-kalat.html", tags: "armed forces kalat army mounted rifles cavalry armor levies las bela" },
   { title: "Rajputana", description: "Concert of sovereign princely courts in western India", href: "rajputana.html", tags: "rajputana princes concert league jaipur hindustan india" },
   { title: "Madras State", description: "Tamil-majority British-protected state and southern compact member", href: "madras-state.html", tags: "madras tamil dravidian justice party british protection bastion india" },
   { title: "Kingdom of Mysore", description: "Kannada constitutional monarchy in the southern compact", href: "mysore.html", tags: "mysore bangalore kannada monarchy british protection bastion india" },
@@ -4094,6 +4098,14 @@ deepNav.push(["Languages of Taiwan", "languages-of-taiwan.html"]);
 topicNav.splice(8, 0, ["Computing History", "computing.html"]);
 
 document.querySelectorAll(".sidebar nav").forEach(nav => {
+  const archiveSection = [...nav.querySelectorAll(":scope > .nav-section")].find(section => section.querySelector(".nav-heading")?.textContent.trim() === "Archive");
+  if (archiveSection && !archiveSection.querySelector('a[href="wiki-graph.html"]')) {
+    const graphLink = document.createElement("a");
+    graphLink.dataset.nav = "";
+    graphLink.href = "wiki-graph.html";
+    graphLink.textContent = "Wiki Visualizer";
+    archiveSection.append(graphLink);
+  }
   const section = document.createElement("section");
   section.className = "nav-section nav-expanded";
   section.innerHTML = `<h2 class="nav-heading">Expanded archive</h2>${expandedNav.map(([label, href]) => `<a data-nav href="${href}">${label}</a>`).join("")}`;
@@ -6047,6 +6059,9 @@ const crossLinks = [
   { href: "gichki-dynasty.html", terms: ["Gichki dynasty", "Gichki house", "Gichki rulers"] },
   { href: "nausherwani-dynasty.html", terms: ["Nausherwani dynasty", "Nausherwani house", "Nausherwani rulers"] },
   { href: "jams-of-las-bela.html", terms: ["Jams of Las Bela", "Jam of Las Bela", "Jam Sahib of Las Bela"] },
+  { href: "first-las-bela-war.html", terms: ["First Las Bela War", "Las Bela War of 1960–63", "1960–63 Las Bela War"] },
+  { href: "baloch-afghan-frontier-raids.html", terms: ["Baloch–Afghan Frontier Raids", "Baloch-Afghan Frontier Raids", "Baloch raids toward Kandahar"] },
+  { href: "armed-forces-of-kalat.html", terms: ["Armed Forces of Kalat", "Kalat army", "Kalat's army"] },
   { href: "german-succession.html", terms: ["succession to Wolfgang Hitler", "German succession", "Alexander's succession"] },
   { href: "prinzensprache.html", terms: ["Prinzensprache", "prince's language"] },
   { href: "living-succession.html", terms: ["Wolfgang Hitler's living succession", "living succession"] },
