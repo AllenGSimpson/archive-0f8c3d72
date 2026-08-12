@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Cuban Selective-Opening Policy", description: "Controlled admission of Latin capital while Cuba retains political and strategic sovereignty", href: "cuban-selective-opening-policy.html", tags: "Cuban selective opening policy Cuba Latin capital sovereignty" },
+  { title: "Latin Banking and Settlement in Cuba", description: "Correspondent banking, project finance, insurance, Scudo claims, and national-currency settlement", href: "latin-banking-settlement-cuba.html", tags: "Latin banking settlement Cuba Scudo finance insurance" },
+  { title: "Cuban–Latin Joint Ventures", description: "Shared enterprises combining Cuban legal control with Latin capital and operating capacity", href: "cuban-latin-joint-ventures.html", tags: "Cuban Latin joint ventures investment ownership control" },
+  { title: "Cuban Maritime Commercial Opening", description: "Shipping, ports, insurance, tourism, and export routes through Latin partners", href: "cuban-maritime-commercial-opening.html", tags: "Cuban maritime commercial opening shipping ports tourism trade" },
+  { title: "Exclusion of American Corporations from Cuba", description: "Cuba's refusal to admit American firms into controlling economic positions", href: "american-corporate-exclusion-cuba.html", tags: "American corporate exclusion Cuba firms banks sovereignty" },
   { title: "Mexican Corporate Order", description: "Domestic primacy, Latin counterweights, and unavoidable American commercial presence", href: "mexican-corporate-order.html", tags: "Mexican corporate order Mexico domestic Latin American business" },
   { title: "Mexican-First Corporate Policy", description: "Qualified preference for domestic ownership, management, suppliers, and capability", href: "mexican-first-corporate-policy.html", tags: "Mexican first corporate policy domestic preference procurement ownership" },
   { title: "Latin Commercial Counterweight in Mexico", description: "Spanish and Latin firms used to diversify Mexico away from American monopoly", href: "latin-commercial-counterweight-mexico.html", tags: "Latin commercial counterweight Mexico Spain investment companies" },
@@ -4011,6 +4016,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "cuban-selective-opening-policy.html", terms: ["Cuban selective-opening policy", "Cuban selective opening"] },
+  { href: "latin-banking-settlement-cuba.html", terms: ["Latin banking and settlement in Cuba", "Latin banking in Cuba"] },
+  { href: "cuban-latin-joint-ventures.html", terms: ["Cuban–Latin joint ventures", "Cuban-Latin joint ventures"] },
+  { href: "cuban-maritime-commercial-opening.html", terms: ["Cuban maritime commercial opening", "Cuban maritime opening"] },
+  { href: "american-corporate-exclusion-cuba.html", terms: ["exclusion of American corporations from Cuba", "American corporate exclusion"] },
   { href: "mexican-corporate-order.html", terms: ["Mexican corporate order"] },
   { href: "mexican-first-corporate-policy.html", terms: ["Mexican-first corporate policy", "Mexican-first policy"] },
   { href: "latin-commercial-counterweight-mexico.html", terms: ["Latin commercial counterweight in Mexico", "Latin counterweight in Mexico"] },
