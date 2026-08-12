@@ -1,4 +1,9 @@
 const pages = [
+  { title: "American Gold-Dollar Finance in India", description: "Convertible dollar banking, credit, insurance, and equipment finance across the successor states", href: "american-gold-dollar-finance-india.html", tags: "American gold dollar finance India banking credit insurance bullion" },
+  { title: "Japanese Corporate Networks in India", description: "Banks, trading houses, infrastructure, employment, security, and political relationships", href: "japanese-corporate-networks-india.html", tags: "Japanese corporate networks India zaibatsu Gold Yen concessions Hyderabad" },
+  { title: "Infrastructure Concessions in the Indian Successor States", description: "Ports, railways, power, mines, communications, corridors, leases, and joint authorities", href: "indian-infrastructure-concessions.html", tags: "Indian infrastructure concessions ports railways mines power foreign investment" },
+  { title: "Corporate Security on the Indian Frontier", description: "Licensed guards, corridor forces, charter-territory police, and armed commercial incidents", href: "corporate-security-indian-frontier.html", tags: "corporate security Indian frontier guards zaibatsu TPS charter territories" },
+  { title: "Foreign-Investment Controls of the Indian Successor States", description: "National licensing, concession, currency, local-participation, and security rules", href: "indian-successor-state-investment-controls.html", tags: "Indian successor state foreign investment controls licensing concessions sovereignty" },
   { title: "German Defense Inheritance in Argentina", description: "German weapons, tooling, maintenance, training, and doctrine retained after 1986", href: "german-defense-inheritance-argentina.html", tags: "German defense inheritance Argentina arsenal doctrine maintenance Punta del Este" },
   { title: "American Arms Normalization with Argentina", description: "Controlled military credit, training, equipment, and industrial cooperation after Punta del Este", href: "american-arms-normalization-argentina.html", tags: "American arms normalization Argentina M11 radar training Reagan" },
   { title: "Latin Military Sustainment of Argentina", description: "Spanish-led sustainment, hybrid modernization, and replacement of German-origin systems", href: "latin-military-sustainment-argentina.html", tags: "Latin military sustainment Argentina Spain Italy Occitania Portugal" },
@@ -4031,6 +4036,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "american-gold-dollar-finance-india.html", terms: ["American gold-dollar finance in India", "American gold-dollar finance"] },
+  { href: "japanese-corporate-networks-india.html", terms: ["Japanese corporate networks in India", "Japanese corporate networks"] },
+  { href: "indian-infrastructure-concessions.html", terms: ["infrastructure concessions in the Indian successor states", "Indian infrastructure concessions"] },
+  { href: "corporate-security-indian-frontier.html", terms: ["corporate security on the Indian frontier", "Indian corporate security"] },
+  { href: "indian-successor-state-investment-controls.html", terms: ["foreign-investment controls of the Indian successor states", "Indian successor-state investment controls"] },
   { href: "german-defense-inheritance-argentina.html", terms: ["German defense inheritance in Argentina", "German defense inheritance"] },
   { href: "american-arms-normalization-argentina.html", terms: ["American arms normalization with Argentina", "American arms normalization"] },
   { href: "latin-military-sustainment-argentina.html", terms: ["Latin military sustainment of Argentina", "Latin military sustainment"] },
