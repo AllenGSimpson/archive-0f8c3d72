@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Ecuadorian Pacific commercial system</title>
+  <desc id="desc">Japanese and American commercial systems enter the Guayaquil corridor through different strengths while Ecuadorian public authority controls access and strategic functions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0e1a22"/><stop offset="1" stop-color="#142d32"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000" flood-opacity=".32"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3 0 6z" fill="#b9c9c9"/></marker>
+    <style>.h{font:700 28px Georgia,serif;fill:#f0e7d2}.t{font:700 20px Georgia,serif;fill:#f0e7d2}.s{font:15px Arial,sans-serif;fill:#c8d1ce}.k{font:700 13px Arial,sans-serif;letter-spacing:1.7px;fill:#9fb4b1}.box{stroke:#6f8583;stroke-width:2;filter:url(#shadow)}.line{fill:none;stroke:#b9c9c9;stroke-width:3;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <text class="h" x="600" y="45" text-anchor="middle">Ecuadorian Pacific commercial system</text>
+  <rect class="box" x="40" y="95" width="310" height="205" rx="15" fill="#49343b"/>
+  <text class="k" x="195" y="126" text-anchor="middle">ESTABLISHED PACIFIC NETWORK</text>
+  <text class="t" x="195" y="160" text-anchor="middle">Japanese commercial system</text>
+  <text class="s" x="195" y="198" text-anchor="middle">Shipping · fisheries · port equipment</text>
+  <text class="s" x="195" y="226" text-anchor="middle">Technical missions · communications</text>
+  <text class="s" x="195" y="254" text-anchor="middle">Project credit · machinery · markets</text>
+  <rect class="box" x="850" y="95" width="310" height="205" rx="15" fill="#28445d"/>
+  <text class="k" x="1005" y="126" text-anchor="middle">LATE-CENTURY COUNTER-ENTRY</text>
+  <text class="t" x="1005" y="160" text-anchor="middle">American commercial system</text>
+  <text class="s" x="1005" y="198" text-anchor="middle">Gold-dollar finance · insurance</text>
+  <text class="s" x="1005" y="226" text-anchor="middle">Telecommunications · software · airlines</text>
+  <text class="s" x="1005" y="254" text-anchor="middle">Mining · engineering · services</text>
+  <rect class="box" x="430" y="105" width="340" height="175" rx="15" fill="#66542d"/>
+  <text class="k" x="600" y="137" text-anchor="middle">NATIONAL COMMERCIAL HINGE</text>
+  <text class="t" x="600" y="172" text-anchor="middle">Guayaquil corridor</text>
+  <text class="s" x="600" y="210" text-anchor="middle">Port · customs · cold storage · repair</text>
+  <text class="s" x="600" y="238" text-anchor="middle">Exports · warehouses · inland transport</text>
+  <path class="line" d="M350 195H420"/><path class="line" d="M850 195H780"/>
+  <rect class="box" x="250" y="350" width="700" height="110" rx="15" fill="#274b42"/>
+  <text class="k" x="600" y="379" text-anchor="middle">ECUADORIAN SOVEREIGN AUTHORITY</text>
+  <text class="t" x="600" y="412" text-anchor="middle">Ministries · port authorities · armed forces · courts</text>
+  <text class="s" x="600" y="441" text-anchor="middle">Concessions · customs · land · security · procurement · national partners</text>
+  <path class="line" d="M600 280V340"/>
+</svg>

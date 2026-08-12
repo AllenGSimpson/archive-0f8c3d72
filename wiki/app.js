@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Ecuadorian National-Developmental Republic", description: "Government, administration, development policy, national command, and foreign commercial alignment", href: "ecuadorian-national-developmental-republic.html", tags: "Ecuadorian national developmental republic Ecuador government military ministries" },
+  { title: "Japan–Ecuador Relations", description: "Shipping, fisheries, ports, communications, technical cooperation, and limited security ties", href: "japan-ecuador-relations.html", tags: "Japan Ecuador relations Japanese Guayaquil shipping fisheries GEACPS" },
+  { title: "Guayaquil Pacific Commercial Corridor", description: "Port, customs, cold storage, repair, export handling, and trans-Pacific shipping", href: "guayaquil-pacific-commercial-corridor.html", tags: "Guayaquil Pacific commercial corridor port Ecuador customs shipping exports" },
+  { title: "Ecuadorian Export-Development Economy", description: "Agriculture, fisheries, petroleum, mining, infrastructure, and foreign finance", href: "ecuadorian-export-development-economy.html", tags: "Ecuadorian export development economy agriculture petroleum fisheries mining" },
+  { title: "American Commercial Entry into Ecuador", description: "Gold-dollar finance, telecommunications, mining, airlines, insurance, software, and contracting", href: "american-commercial-entry-ecuador.html", tags: "American commercial entry Ecuador finance telecommunications mining airlines" },
   { title: "American Gold-Dollar Finance in India", description: "Convertible dollar banking, credit, insurance, and equipment finance across the successor states", href: "american-gold-dollar-finance-india.html", tags: "American gold dollar finance India banking credit insurance bullion" },
   { title: "Japanese Corporate Networks in India", description: "Banks, trading houses, infrastructure, employment, security, and political relationships", href: "japanese-corporate-networks-india.html", tags: "Japanese corporate networks India zaibatsu Gold Yen concessions Hyderabad" },
   { title: "Infrastructure Concessions in the Indian Successor States", description: "Ports, railways, power, mines, communications, corridors, leases, and joint authorities", href: "indian-infrastructure-concessions.html", tags: "Indian infrastructure concessions ports railways mines power foreign investment" },
@@ -4036,6 +4041,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "ecuadorian-national-developmental-republic.html", terms: ["Ecuadorian national-developmental republic", "national-developmental republic"] },
+  { href: "japan-ecuador-relations.html", terms: ["Japan–Ecuador relations", "Japanese–Ecuadorian relations"] },
+  { href: "guayaquil-pacific-commercial-corridor.html", terms: ["Guayaquil Pacific commercial corridor", "Guayaquil corridor"] },
+  { href: "ecuadorian-export-development-economy.html", terms: ["Ecuadorian export-development economy", "Ecuadorian export economy"] },
+  { href: "american-commercial-entry-ecuador.html", terms: ["American commercial entry into Ecuador", "American commercial entry in Ecuador"] },
   { href: "american-gold-dollar-finance-india.html", terms: ["American gold-dollar finance in India", "American gold-dollar finance"] },
   { href: "japanese-corporate-networks-india.html", terms: ["Japanese corporate networks in India", "Japanese corporate networks"] },
   { href: "indian-infrastructure-concessions.html", terms: ["infrastructure concessions in the Indian successor states", "Indian infrastructure concessions"] },
