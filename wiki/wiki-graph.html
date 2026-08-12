@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="description" content="Interactive graph of every page and internal article connection in the Fractured Peace Archive.">
+  <title>Wiki Visualizer · Fractured Peace</title>
+  <link rel="stylesheet" href="styles.css?v=20260812">
+</head>
+<body>
+  <div class="utility-bar"><span>Local reference edition · complete archive graph</span><div class="utility-links"><a href="index.html">Main page</a><a href="world.html">Browse</a><a href="timeline.html">Chronology</a></div></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Fractured Peace Archive main page"><span class="brand-mark" aria-hidden="true"></span><span class="brand-copy"><strong>Fractured Peace</strong><small>World archive & encyclopedia</small></span></a>
+    <div class="search" role="search"><input data-search type="search" aria-label="Search the archive" placeholder="Search countries, events, people…"><button aria-label="Search">⌕</button><div class="search-results" data-search-results></div></div>
+    <div class="header-actions"><button class="icon-button mobile-nav" data-mobile-nav aria-label="Open navigation">☰</button><button class="icon-button random-button" data-random>Random</button><button class="icon-button" data-theme-toggle aria-label="Toggle color theme">◐</button></div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" aria-label="Site navigation"><nav>
+      <section class="nav-section"><h2 class="nav-heading">Archive</h2><a data-nav href="index.html">Main Page</a><a data-nav href="world.html">The World Order</a><a data-nav href="countries.html">List of Countries</a><a data-nav href="timeline.html">Timeline</a><a data-nav href="wiki-graph.html">Wiki Visualizer</a></section>
+      <section class="nav-section"><h2 class="nav-heading">Graph controls</h2><p class="nav-note">Drag to rotate. Scroll to zoom. Select a circle to center it and clear its immediate field.</p></section>
+      <section class="canon-key"><strong>Coverage</strong><p>Every HTML page is included. Circle area follows visible word count; connectors follow directed internal links.</p></section>
+    </nav></aside>
+    <main class="content">
+      <div class="page graph-page">
+        <div class="breadcrumbs"><a href="index.html">Archive</a> / Wiki Visualizer</div>
+        <div class="page-header"><div><span class="eyebrow">Knowledge graph · complete corpus</span><h1>Wiki Visualizer</h1></div><div class="page-tools"><button data-copy-link>Share</button><button data-graph-reset>Reset view</button></div></div>
+        <div class="graph-meta" aria-label="Graph summary">
+          <span><strong data-graph-pages>—</strong> pages</span>
+          <span><strong data-graph-links>—</strong> directed connections</span>
+          <span class="graph-key"><i class="graph-key-line" aria-hidden="true"></i><span>origin</span><span aria-hidden="true">→</span><span>destination</span></span>
+        </div>
+        <div class="graph-toolbar" aria-label="View controls">
+          <button type="button" data-graph-rotate="left" aria-label="Rotate left">←</button>
+          <button type="button" data-graph-rotate="right" aria-label="Rotate right">→</button>
+          <button type="button" data-graph-zoom="out" aria-label="Zoom out">−</button>
+          <button type="button" data-graph-zoom="in" aria-label="Zoom in">+</button>
+          <button type="button" data-graph-reset>Fit all</button>
+        </div>
+        <div class="graph-stage" data-graph-stage>
+          <canvas data-wiki-graph tabindex="0" role="img" aria-label="Rotatable graph of every wiki page. Circle size represents word count and green-to-blue lines show link direction. Use left and right arrow keys to rotate, up and down arrow keys to zoom, and Escape to reset."></canvas>
+          <div class="graph-focus-ring" data-graph-focus-ring aria-hidden="true"></div>
+          <div class="graph-tooltip" data-graph-tooltip role="tooltip" hidden></div>
+          <p class="graph-error" data-graph-error hidden>The visualizer requires WebGL support.</p>
+        </div>
+        <div class="graph-selection" data-graph-selection aria-live="polite">
+          <span>Select a circle to inspect and center an article.</span>
+        </div>
+      </div>
+      <footer class="site-footer"><div class="site-footer-inner"><span>Fractured Peace Archive · Knowledge graph</span><span><span data-year></span></span></div></footer>
+    </main>
+  </div>
+  <script src="wiki-graph-data.js?v=20260812"></script>
+  <script src="wiki-graph.js?v=20260812"></script>
+  <script src="app.js?v=20260812"></script>
+</body>
+</html>
