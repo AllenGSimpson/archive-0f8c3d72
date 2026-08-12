@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Government and security system of the Baloch Confederated State</title>
+  <desc id="desc">Conceptual diagram showing the component rulers of Makran, Kharan, Las Bela, and Chagai connected to the common government and armed forces at Gwadar, with Iran as external patron and Kalat as the rival claimant.</desc>
+  <defs><style>
+    .bg{fill:#11150f}.panel{fill:#1b2119;stroke:#647a59;stroke-width:2}.core{fill:#222b20;stroke:#b6c98c;stroke-width:3}.iran{fill:#202728;stroke:#80a7a6;stroke-width:2}.rival{fill:#2b2020;stroke:#b78272;stroke-width:2}.line{stroke:#73896a;stroke-width:4;fill:none}.aid{stroke:#80a7a6;stroke-width:4;fill:none}.conflict{stroke:#b78272;stroke-width:4;fill:none;stroke-dasharray:12 9}.h{font:700 34px Georgia,serif;fill:#f0ecdf}.k{font:700 16px Arial,sans-serif;letter-spacing:2px;fill:#b8cc90}.o{font:700 21px Arial,sans-serif;fill:#f0ecdf}.t{font:17px Arial,sans-serif;fill:#d2d4cb}.s{font:15px Arial,sans-serif;fill:#a4aaa0}.dot{fill:#b8cc90}
+  </style></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="k" x="60" y="55">BALOCH CONFEDERATED STATE · CONCEPTUAL INSTITUTIONAL SYSTEM</text>
+  <text class="h" x="60" y="100">Common state, princely governments, external patron</text>
+
+  <rect class="panel" x="60" y="145" width="430" height="175" rx="9"/>
+  <text class="k" x="88" y="183">COMPONENT AUTHORITIES</text><text class="o" x="88" y="222">Makran · Kharan · Las Bela*</text>
+  <text class="t" x="88" y="260">land · customary law · local police</text><text class="t" x="88" y="288">tax arrangements · courts · administration</text>
+  <text class="s" x="88" y="311">*Las Bela later lost; Chagai later administered</text>
+
+  <rect class="core" x="355" y="365" width="490" height="160" rx="10"/>
+  <text class="k" x="470" y="405">GWADAR GOVERNMENT</text><text class="h" x="412" y="451">Common confederal authority</text>
+  <text class="t" x="422" y="487">diplomacy · customs · finance · ports</text><text class="s" x="439" y="513">security treaty · concessions · national claim</text>
+
+  <rect class="panel" x="710" y="145" width="430" height="175" rx="9"/>
+  <text class="k" x="738" y="183">COMMON ARMED FORCES</text><text class="o" x="738" y="222">National army and member forces</text>
+  <text class="t" x="738" y="260">regular units · local contingents · port security</text><text class="t" x="738" y="288">armor · artillery · mounted and motor forces</text>
+  <text class="s" x="738" y="311">divided national and dynastic chains of command</text>
+
+  <path class="line" d="M275 320 V445 H355"/><circle class="dot" cx="355" cy="445" r="7"/>
+  <path class="line" d="M925 320 V445 H845"/><circle class="dot" cx="845" cy="445" r="7"/>
+
+  <rect class="iran" x="60" y="585" width="430" height="120" rx="9"/>
+  <text class="k" x="88" y="623">IRAN · EXTERNAL PATRON</text><text class="t" x="88" y="660">recognition · finance · advisers · matériel · access</text><text class="s" x="88" y="686">frontier recognition and limits on cross-border nationalism</text>
+  <path class="aid" d="M490 645 H600 V525"/>
+
+  <rect class="rival" x="710" y="585" width="430" height="120" rx="9"/>
+  <text class="k" x="738" y="623">KALAT · RIVAL CLAIMANT</text><text class="t" x="738" y="660">historic paramountcy · Las Bela · route to the sea</text><text class="s" x="738" y="686">offers local rulers hierarchy beneath the Khan</text>
+  <path class="conflict" d="M710 645 H600 V525"/>
+
+  <text class="s" x="60" y="742">This diagram describes institutions and dependencies, not surveyed borders, a complete constitution, or a fixed order of battle.</text>
+</svg>

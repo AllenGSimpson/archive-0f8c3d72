@@ -172,6 +172,7 @@ These original vector reconstructions summarize the western succession and campa
 | `diagrams/western-indian-war-sequence.svg` | Western Indian wars, 1947-1982 | State formation, early frontier campaigns, and the later limited wars of consolidation |
 | `diagrams/western-mounted-warfare.svg` | Modern mounted warfare | Mounted rifles, dismounted firepower, mixed mechanized columns, and the remount economy |
 | `diagrams/western-consolidation-wars.svg` | Three consolidation wars | Kashmir-Khalistan, Second Las Bela, and Hindustan-Rajputana compared by opening, intervention, and settlement |
+| `diagrams/baloch-confederated-state-system.svg` | Government and security system of the Baloch Confederated State | Component rulers, common government, armed forces, Iranian patronage, and Kalat's rival claim |
 
 ## Balkan-order diagrams
 
