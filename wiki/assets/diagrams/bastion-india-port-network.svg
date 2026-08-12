@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Bastion India port and command network</title>
+  <desc id="desc">Diagram linking Cape-route supply to Colombo headquarters, Trincomalee fleet fortress, the Maldives, and treaty facilities at Bombay, Madras, Cochin, and Karachi.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#111920"/><stop offset="1" stop-color="#1f2a31"/></linearGradient><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#c5d0d5"/></marker><style>.t{font:700 29px Georgia,serif;fill:#f4e8c1}.h{font:700 18px Arial,sans-serif;fill:#fff}.p{font:14px Arial,sans-serif;fill:#d6dfe4}.b{stroke:#899da8;stroke-width:2;rx:13}.c{fill:#344b58}.s{fill:#3d5143}.l{fill:#584941}.m{fill:#4d4256}.e{stroke:#c5d0d5;stroke-width:3;fill:none;marker-end:url(#a)}</style></defs>
+  <rect width="1200" height="650" fill="url(#bg)"/><text x="55" y="55" class="t">Bastion India: sovereign core and treaty-access network</text>
+  <rect x="45" y="155" width="230" height="115" class="b l"/><text x="70" y="194" class="h">Cape route</text><text x="70" y="225" class="p">Ships, fuel, stores,</text><text x="70" y="247" class="p">personnel, and relief</text>
+  <rect x="375" y="95" width="300" height="135" class="b c"/><text x="400" y="134" class="h">Colombo headquarters</text><text x="400" y="166" class="p">Command, shipping, hospitals,</text><text x="400" y="188" class="p">intelligence, finance, liaison</text>
+  <rect x="375" y="285" width="300" height="135" class="b c"/><text x="400" y="324" class="h">Trincomalee fortress</text><text x="400" y="356" class="p">Fleet anchorage, repair, fuel,</text><text x="400" y="378" class="p">ammunition, and theater reserve</text>
+  <rect x="375" y="490" width="300" height="105" class="b s"/><text x="400" y="529" class="h">Maldivian stations</text><text x="400" y="559" class="p">Weather, patrol, rescue, relay</text>
+  <path d="M275 210H360" class="e"/><path d="M525 230V270" class="e"/><path d="M525 420V475" class="e"/>
+  <rect x="810" y="75" width="315" height="95" class="b m"/><text x="835" y="112" class="h">Karachi treaty facilities</text><text x="835" y="142" class="p">Sindh · naval, air, fuel, transit</text>
+  <rect x="810" y="205" width="315" height="95" class="b m"/><text x="835" y="242" class="h">Bombay Joint Port</text><text x="835" y="272" class="p">Maratha Union · repair and convoy</text>
+  <rect x="810" y="335" width="315" height="95" class="b m"/><text x="835" y="372" class="h">Cochin Station</text><text x="835" y="402" class="p">Travancore–Cochin · coastal logistics</text>
+  <rect x="810" y="465" width="315" height="95" class="b m"/><text x="835" y="502" class="h">Madras Military District</text><text x="835" y="532" class="p">Madras State · eastern reinforcement</text>
+  <path d="M675 350Q735 350 795 122" class="e"/><path d="M675 350Q735 350 795 252" class="e"/><path d="M675 350Q735 350 795 382" class="e"/><path d="M675 350Q735 350 795 512" class="e"/>
+  <text x="45" y="630" class="p">Blue: Ceylonese Commonwealth sovereign core · Purple: facilities held through Indian host-state treaty · Green: protected staging network</text>
+</svg>

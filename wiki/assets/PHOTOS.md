@@ -562,3 +562,9 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | File | Subject | Source and license |
 | --- | --- | --- |
 | `diagrams/palestine-war-to-amman-settlement.svg` | Causal sequence from British withdrawal and refugee pressure through the Palestine War to reduced Israel, enlarged Jordan, and unresolved settlement questions | Original archive diagram based on the cited setting corpus and United Nations and U.S. diplomatic records; project-authored SVG |
+
+## Bastion India facilities diagram
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/bastion-india-port-network.svg` | Colombo headquarters, Trincomalee fleet fortress, Maldivian stations, and mainland treaty facilities at Karachi, Bombay, Cochin, and Madras | Original archive diagram based on the cited setting corpus and Royal Navy historical records; project-authored SVG |
