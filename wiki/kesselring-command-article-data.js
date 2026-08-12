@@ -111,6 +111,7 @@ const addKesselringRelated = (slug,item) => {
 };
 
 addKesselringRelated("first-battle-of-britain",{href:"albert-kesselring.html",kicker:"German air-fleet commander",label:"Albert Kesselring"});
+addKesselringRelated("luftflotte-2",{href:"army-group-center.html",kicker:"Opening eastern ground command",label:"Army Group Center"});
 addKesselringRelated("comando-supremo",{href:"oberbefehlshaber-sued.html",kicker:"German component headquarters",label:"Oberbefehlshaber Süd"});
 addKesselringRelated("italian-mediterranean-command-system",{href:"oberbefehlshaber-sued.html",kicker:"German air and liaison command",label:"Oberbefehlshaber Süd"});
 addKesselringRelated("erwin-rommel",{href:"albert-kesselring.html",kicker:"Air commander and coalition counterpart",label:"Albert Kesselring"});
