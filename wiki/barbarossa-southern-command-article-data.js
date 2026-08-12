@@ -239,7 +239,10 @@ addBarbarossaRelated("german-soviet-war",{href:"army-group-south.html",kicker:"S
 addBarbarossaRelated("german-soviet-war",{href:"battle-of-uman.html",kicker:"August 1941 encirclement",label:"Battle of Uman"});
 addBarbarossaRelated("german-soviet-war",{href:"army-group-center.html",kicker:"Opening central command",label:"Army Group Center"});
 addBarbarossaRelated("german-soviet-war",{href:"battle-of-smolensk-1941.html",kicker:"July–August central battle",label:"Battle of Smolensk"});
+addBarbarossaRelated("german-soviet-war",{href:"army-group-north.html",kicker:"Opening northern command",label:"Army Group North"});
 addBarbarossaRelated("operation-barbarossa",{href:"army-group-center.html",kicker:"Central axis",label:"Army Group Center"});
 addBarbarossaRelated("operation-barbarossa",{href:"battle-of-bialystok-minsk.html",kicker:"Opening central encirclements",label:"Battle of Białystok–Minsk"});
 addBarbarossaRelated("operation-barbarossa",{href:"battle-of-smolensk-1941.html",kicker:"July–August central battle",label:"Battle of Smolensk"});
+addBarbarossaRelated("operation-barbarossa",{href:"army-group-north.html",kicker:"Northern axis",label:"Army Group North"});
+addBarbarossaRelated("operation-barbarossa",{href:"battle-of-raseiniai.html",kicker:"Opening Baltic armored battle",label:"Battle of Raseiniai"});
 addBarbarossaRelated("luftflotte-4",{href:"army-group-south.html",kicker:"Ground-force counterpart",label:"Army Group South"});

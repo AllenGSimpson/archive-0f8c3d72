@@ -225,3 +225,4 @@ addCentralBarbarossaRelated("operation-barbarossa",{href:"battle-of-smolensk-194
 addCentralBarbarossaRelated("german-soviet-war",{href:"army-group-center.html",kicker:"Opening central command",label:"Army Group Center"});
 addCentralBarbarossaRelated("luftflotte-2",{href:"army-group-center.html",kicker:"Opening eastern ground command",label:"Army Group Center"});
 addCentralBarbarossaRelated("heinz-guderian",{href:"second-panzer-group.html",kicker:"Principal 1941 command",label:"Panzer Group 2"});
+addCentralBarbarossaRelated("army-group-center",{href:"army-group-north.html",kicker:"Northern neighboring command",label:"Army Group North"});
