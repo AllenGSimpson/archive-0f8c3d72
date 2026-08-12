@@ -616,7 +616,7 @@ By the later 1980s the three sons imply different possible futures: Alexander re
 
 ### Edward James Mallory
 
-**Classification:** Expanded mentioned fictional character; political function fixed, private particulars open.
+**Classification:** Detailed fictional character; public political role and temperament fixed, private particulars open.
 
 **Identity and role:** Born in 1948; National Liberal–Constitutional Union expansionist, opposition partner in the Greenwich Compact, and prime minister from 1996. Mallory succeeds Calder and preserves the Commonwealth lunar and Mars program through the 1998 landing.
 
