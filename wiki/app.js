@@ -3197,6 +3197,9 @@ const pages = [
   { title: "Ordered Particularism", description: "One Crown peace and many unequal constitutional forms", href: "ordered-particularism.html", tags: "ordered particularism powell doctrine accra clause crown empire africa" },
   { title: "National Liberal Movement", description: "Market discipline joined to Crown, Commonwealth, and strategic capacity", href: "national-liberal-movement.html", tags: "national liberal movement thatcher market crown commonwealth" },
   { title: "National Liberal–Constitutional Union", description: "Thatcher's governing union of National Liberals, Liberals, defectors, and Powellites", href: "national-liberal-constitutional-union.html", tags: "nlcu national liberal constitutional union thatcher ashcombe party 1980" },
+  { title: "Factions of the National Liberal–Constitutional Union", description: "The market, stewardship, Commonwealth, and Development Right currents of the NLCU", href: "factions-national-liberal-constitutional-union.html", tags: "nlcu factions market radicals stewardship crown commonwealth development right rooke halden ashcombe mallory" },
+  { title: "Market-Radical Wing of the NLCU", description: "Sir Julian Rooke's economic-liberal current for faster reownership and Atlantic commerce", href: "nlcu-market-radicals.html", tags: "nlcu market radical wing julian rooke liberal finance reownership atlantic commerce" },
+  { title: "Crown-and-Commonwealth Right", description: "Matthew Halden's sovereignty, defense, route, and strategic-ownership current", href: "crown-commonwealth-right.html", tags: "nlcu crown commonwealth right matthew halden powellite sovereignty defense strategic ownership" },
   { title: "1975 United Kingdom General Election", description: "The Kuwait Election that returns Wilson and Commonwealth Labour", href: "1975-united-kingdom-general-election.html", tags: "1975 british election kuwait election wilson labour" },
   { title: "Kuwait Supply and Procurement Inquiry", description: "The inquiry that distinguishes Britain's arsenal from its protected contractors", href: "kuwait-supply-procurement-inquiry.html", tags: "kuwait supply procurement inquiry thatcher arsenal contractor" },
   { title: "Commonwealth Clearing Squeeze", description: "The 1978 sterling-settlement crisis between Britain and the Dominions", href: "commonwealth-clearing-squeeze.html", tags: "commonwealth clearing squeeze 1978 sterling healey dominions trade" },
@@ -6955,6 +6958,9 @@ const crossLinks = [
   ,{ href: "ordered-particularism.html", terms: ["Ordered Particularism"] }
   ,{ href: "national-liberal-movement.html", terms: ["National Liberal movement", "National Liberals"] }
   ,{ href: "national-liberal-constitutional-union.html", terms: ["National Liberal–Constitutional Union", "National Liberal-Constitutional Union", "NLCU"] }
+  ,{ href: "factions-national-liberal-constitutional-union.html", terms: ["Factions of the National Liberal–Constitutional Union", "NLCU factions", "factions of the NLCU"] }
+  ,{ href: "nlcu-market-radicals.html", terms: ["Market-radical wing of the NLCU", "NLCU market radicals", "market-radical wing"] }
+  ,{ href: "crown-commonwealth-right.html", terms: ["Crown-and-Commonwealth right", "Crown and Commonwealth right", "Commonwealth right"] }
   ,{ href: "1975-united-kingdom-general-election.html", terms: ["1975 United Kingdom general election", "Kuwait Election"] }
   ,{ href: "kuwait-supply-procurement-inquiry.html", terms: ["Kuwait Supply and Procurement Inquiry", "Kuwait Supply Inquiry"] }
   ,{ href: "commonwealth-clearing-squeeze.html", terms: ["Commonwealth Clearing Squeeze", "Clearing Squeeze"] }
