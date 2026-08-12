@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Germany–Japan relations, 1940–2000</title>
+  <desc id="desc">Timeline moving from the Tripartite Pact through separate wartime campaigns, postwar rivalry, Operation Amaterasu, the Kobe Notes, the Tehran Concord, and later technical cooperation.</desc>
+  <defs>
+    <style>
+      .bg{fill:#101820}.panel{fill:#18242e;stroke:#647f96;stroke-width:2}.war{fill:#34272b;stroke:#b97573}.rival{fill:#302f22;stroke:#c3ae63}.rule{fill:#203247;stroke:#7198b9}.accord{fill:#17372f;stroke:#70a98f}.line{stroke:#aebbc5;stroke-width:5;fill:none}.tick{stroke:#aebbc5;stroke-width:3}.dash{stroke:#778b99;stroke-width:2.5;stroke-dasharray:9 8;fill:none}.text{font-family:Georgia,'Times New Roman',serif;fill:#f2eee5;text-anchor:middle}.head{font-size:25px;font-weight:bold}.year{font-size:22px;font-weight:bold;fill:#d8bd72}.body{font-size:17px;fill:#cad4db}.small{font-size:15px;fill:#9fb0bc}.label{font-size:14px;fill:#d8bd72;font-weight:bold;letter-spacing:1px}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="760" rx="24"/>
+  <text class="text head" x="600" y="48">Germany–Japan Relations, 1940–2000</text>
+  <text class="text small" x="600" y="77">formal partnership gives way to adjacent empires, strategic rivalry, regulated incidents, and bounded cooperation</text>
+
+  <path class="line" d="M95 380H1105"/>
+  <path class="tick" d="M120 360V400M275 360V400M450 360V400M625 360V400M805 360V400M980 360V400M1080 360V400"/>
+
+  <rect class="panel war" x="35" y="120" width="250" height="170" rx="16"/>
+  <text class="text year" x="160" y="158">1940–1947</text>
+  <text class="text head" x="160" y="193">Tripartite Framework</text>
+  <text class="text body" x="160" y="225">mutual sphere recognition</text>
+  <text class="text body" x="160" y="252">separate theaters and commands</text>
+  <path class="dash" d="M160 290V360"/>
+
+  <rect class="panel rival" x="310" y="455" width="280" height="185" rx="16"/>
+  <text class="text year" x="450" y="495">1947–1969</text>
+  <text class="text head" x="450" y="530">Postwar Rivalry</text>
+  <text class="text body" x="450" y="562">Siberia · India · industry</text>
+  <text class="text body" x="450" y="590">navies · clients · space</text>
+  <text class="text small" x="450" y="618">Amaterasu closes the period</text>
+  <path class="dash" d="M450 400V455"/>
+
+  <rect class="panel rule" x="625" y="120" width="285" height="190" rx="16"/>
+  <text class="text year" x="767" y="158">1970–1985</text>
+  <text class="text head" x="767" y="193">Rules and Negotiation</text>
+  <text class="text body" x="767" y="227">Kobe Notes · notification</text>
+  <text class="text body" x="767" y="255">scientific contacts · modules</text>
+  <text class="text small" x="767" y="284">Hakone remains a draft label</text>
+  <path class="dash" d="M767 310V360"/>
+
+  <rect class="panel accord" x="890" y="455" width="275" height="185" rx="16"/>
+  <text class="text year" x="1027" y="495">1985 onward</text>
+  <text class="text head" x="1027" y="530">Tehran Détente</text>
+  <text class="text body" x="1027" y="562">frontier restraint · oil</text>
+  <text class="text body" x="1027" y="590">orbit · reactors · networks</text>
+  <text class="text small" x="1027" y="618">no alliance or joint command</text>
+  <path class="dash" d="M1027 400V455"/>
+
+  <text class="text year" x="120" y="430">1940</text>
+  <text class="text year" x="275" y="430">1947</text>
+  <text class="text year" x="450" y="430">1969</text>
+  <text class="text year" x="625" y="430">1970</text>
+  <text class="text year" x="805" y="430">1983</text>
+  <text class="text year" x="980" y="430">1985</text>
+  <text class="text year" x="1080" y="430">2000</text>
+
+  <text class="text label" x="600" y="690">RELATIONSHIP: ALIGNMENT → RIVALRY → INCIDENT MANAGEMENT → DÉTENTE</text>
+  <text class="text small" x="600" y="724">The Tehran Concord limits competition; it does not restore the wartime Axis or merge the two imperial systems.</text>
+</svg>
