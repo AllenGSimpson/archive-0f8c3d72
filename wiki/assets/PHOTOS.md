@@ -550,3 +550,9 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | `diagrams/baloch-founding-courts.svg` | Comparative diagram of the founding rulers and later status of Makran, Kharan, and Las Bela | Original archive diagram based on the cited setting corpus and historical sources; project-authored SVG |
 | `diagrams/baloch-campaign-cycle-1957-1969.svg` | Comparative diagram of the Quetta consolidation, Baloch frontier raids, and Kalat's Las Bela conquest | Original archive diagram based on the cited setting corpus; project-authored SVG |
 | `diagrams/cape-route-port-system.svg` | Functional diagram of the Cape route port system from Freetown through the South African three-port hinge | Original archive diagram based on the cited setting corpus and port-authority references; project-authored SVG |
+
+## Promenadenring systems diagram
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/promenadenring-operating-systems.svg` | Fixed hub, transfer bearing, rotating pressure sectors, life-support distribution, and mass-balance control of the Promenadenring | Original archive diagram based on the cited setting corpus and NASA technical references; project-authored SVG |
