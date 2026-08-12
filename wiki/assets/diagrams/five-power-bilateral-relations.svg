@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Bilateral relations of the Five Powers</title>
+  <desc id="desc">A lower-triangular matrix showing the ten diplomatic relationships among Germany, Japan, the United States, Britain, and the Italian-led Latin system.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101713"/><stop offset="1" stop-color="#1d241f"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity=".35"/></filter>
+    <style>
+      .title{font:700 36px Georgia,serif;fill:#f2ead8}.sub{font:15px Arial,sans-serif;fill:#b8b4a8;letter-spacing:1.2px}.head{font:700 16px Arial,sans-serif;fill:#eee8da;letter-spacing:.5px}.cell{font:700 15px Arial,sans-serif;fill:#f7f1e3}.note{font:13px Arial,sans-serif;fill:#d3ccba}.small{font:12px Arial,sans-serif;fill:#aba698;letter-spacing:.7px}
+    </style>
+  </defs>
+  <rect width="1200" height="820" rx="18" fill="url(#bg)"/>
+  <text x="60" y="64" class="title">Bilateral relations of the Five Powers</text>
+  <text x="60" y="94" class="sub">TEN DYADS · NO UNIVERSAL ALLIANCE · ARMED CONCERT BY THE LATE 1980s</text>
+
+  <g transform="translate(212 138)" filter="url(#shadow)">
+    <rect width="900" height="570" rx="12" fill="#0d120f" stroke="#857754" stroke-width="2"/>
+    <g fill="#222a24" stroke="#4f574e">
+      <rect x="150" y="0" width="150" height="90"/><rect x="300" y="0" width="150" height="90"/><rect x="450" y="0" width="150" height="90"/><rect x="600" y="0" width="150" height="90"/><rect x="750" y="0" width="150" height="90"/>
+      <rect x="0" y="90" width="150" height="96"/><rect x="0" y="186" width="150" height="96"/><rect x="0" y="282" width="150" height="96"/><rect x="0" y="378" width="150" height="96"/><rect x="0" y="474" width="150" height="96"/>
+    </g>
+    <g text-anchor="middle" class="head">
+      <text x="225" y="48">GERMANY</text><text x="375" y="48">JAPAN</text>
+      <text x="525" y="39"><tspan x="525">UNITED</tspan><tspan x="525" dy="20">STATES</tspan></text>
+      <text x="675" y="48">BRITAIN</text>
+      <text x="825" y="39"><tspan x="825">LATIN</tspan><tspan x="825" dy="20">SYSTEM</tspan></text>
+      <text x="75" y="148">GERMANY</text><text x="75" y="244">JAPAN</text>
+      <text x="75" y="330"><tspan x="75">UNITED</tspan><tspan x="75" dy="20">STATES</tspan></text>
+      <text x="75" y="436">BRITAIN</text>
+      <text x="75" y="522"><tspan x="75">LATIN</tspan><tspan x="75" dy="20">SYSTEM</tspan></text>
+    </g>
+
+    <g stroke="#4f574e">
+      <path d="M150 90h750M150 186h750M150 282h750M150 378h750M150 474h750"/>
+      <path d="M150 0v570M300 0v570M450 0v570M600 0v570M750 0v570"/>
+    </g>
+    <g fill="#161c18" stroke="#303a32">
+      <rect x="150" y="90" width="150" height="96"/><rect x="300" y="186" width="150" height="96"/><rect x="450" y="282" width="150" height="96"/><rect x="600" y="378" width="150" height="96"/><rect x="750" y="474" width="150" height="96"/>
+      <path d="M300 90h600v96H450v96h450v96H600v96h300v96H750v-96H600v-96H450v-96H300z" fill="#111612" opacity=".9"/>
+    </g>
+
+    <g text-anchor="middle">
+      <g transform="translate(225 234)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#315947"/><text class="cell"><tspan x="0" y="-5">Regulated</tspan><tspan x="0" dy="20">détente</tspan></text></g>
+      <g transform="translate(225 330)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#31506b"/><text class="cell"><tspan x="0" y="-5">Atlantic</tspan><tspan x="0" dy="20">rivalry</tspan></text></g>
+      <g transform="translate(375 330)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#31506b"/><text class="cell"><tspan x="0" y="-5">Pacific</tspan><tspan x="0" dy="20">competition</tspan></text></g>
+      <g transform="translate(225 426)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#63463f"/><text class="cell"><tspan x="0" y="-5">Armed</tspan><tspan x="0" dy="20">restraint</tspan></text></g>
+      <g transform="translate(375 426)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#63463f"/><text class="cell"><tspan x="0" y="-5">Postwar</tspan><tspan x="0" dy="20">hostility</tspan></text></g>
+      <g transform="translate(525 426)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#4d6040"/><text class="cell"><tspan x="0" y="-5">Selective</tspan><tspan x="0" dy="20">partnership</tspan></text></g>
+      <g transform="translate(225 522)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#6a5134"/><text class="cell"><tspan x="0" y="-5">Managed</tspan><tspan x="0" dy="20">rivalry</tspan></text></g>
+      <g transform="translate(375 522)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#4d6040"/><text class="cell"><tspan x="0" y="-5">Distant</tspan><tspan x="0" dy="20">pragmatism</tspan></text></g>
+      <g transform="translate(525 522)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#31506b"/><text class="cell"><tspan x="0" y="-5">Hemispheric</tspan><tspan x="0" dy="20">competition</tspan></text></g>
+      <g transform="translate(675 522)"><rect x="-65" y="-35" width="130" height="70" rx="8" fill="#6a5134"/><text class="cell"><tspan x="0" y="-5">Route</tspan><tspan x="0" dy="20">rivalry</tspan></text></g>
+    </g>
+  </g>
+
+  <g transform="translate(60 744)">
+    <text class="note">Each cell summarizes a relationship, not a legal alliance status. Treaty instruments remain bilateral or issue-specific.</text>
+    <text y="28" class="small">LISBON · MID-ATLANTIC RIDGE · TEHRAN · VERONA · HALIFAX · ORBITAL INCIDENT AND RESCUE RULES</text>
+  </g>
+</svg>
