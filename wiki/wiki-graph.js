@@ -5,6 +5,7 @@
   const goButton = document.querySelector("[data-graph-go]");
   const searchInput = document.querySelector("[data-graph-search]");
   const searchStatus = document.querySelector("[data-graph-search-status]");
+  const clusterLabelLayer = document.querySelector("[data-graph-cluster-labels]");
   if (!data || !canvas || !stage) return;
 
   document.querySelector("[data-graph-pages]").textContent = data.pageCount.toLocaleString();
@@ -16,7 +17,7 @@
     return;
   }
 
-  const nodes = data.nodes.map(([title, href, words, radius, x, y, z, degree]) => ({ title, href, words, radius, x, y, z, degree }));
+  const nodes = data.nodes.map(([title, href, words, radius, x, y, z, degree, community]) => ({ title, href, words, radius, x, y, z, degree, community }));
   const nodeCount = nodes.length;
   const edgeCount = data.edges.length;
   const nodeClip = new Float32Array(nodeCount * 3);
@@ -32,6 +33,29 @@
   const baseCenter = [0, 0, 0];
   const graphHalfWidth = Math.max(...nodes.map((node) => Math.abs(node.x) + node.radius));
   const graphHalfHeight = Math.max(...nodes.map((node) => Math.abs(node.y) + node.radius));
+  const clusterMap = new Map();
+  for (let index = 0; index < nodeCount; index += 1) {
+    const community = nodes[index].community;
+    if (!Number.isInteger(community)) continue;
+    if (!clusterMap.has(community)) clusterMap.set(community, []);
+    clusterMap.get(community).push(index);
+  }
+  const clusters = [...clusterMap]
+    .map(([community, members]) => ({
+      community,
+      members,
+      portal: [...members].sort((left, right) => nodes[right].degree - nodes[left].degree || nodes[right].words - nodes[left].words || nodes[left].href.localeCompare(nodes[right].href))[0]
+    }))
+    .sort((left, right) => right.members.length - left.members.length || nodes[left.portal].href.localeCompare(nodes[right.portal].href));
+  for (const cluster of clusters) {
+    const label = document.createElement("span");
+    label.className = "graph-cluster-label";
+    label.textContent = nodes[cluster.portal].title;
+    label.dataset.community = String(cluster.community);
+    label.dataset.portal = nodes[cluster.portal].href;
+    clusterLabelLayer?.append(label);
+    cluster.label = label;
+  }
 
   let width = 1;
   let height = 1;
@@ -227,6 +251,7 @@
       edgeClip.set(nodeClip.subarray(source * 3, source * 3 + 3), edge * 6);
       edgeClip.set(nodeClip.subarray(target * 3, target * 3 + 3), edge * 6 + 3);
     }
+    positionClusterLabels();
 
     const ring = document.querySelector("[data-graph-focus-ring]");
     if (selected >= 0) {
@@ -239,6 +264,65 @@
     } else {
       ring.hidden = true;
     }
+  }
+
+  function overlapArea(left, right, padding = 4) {
+    const overlapWidth = Math.min(left.right + padding, right.right) - Math.max(left.left - padding, right.left);
+    const overlapHeight = Math.min(left.bottom + padding, right.bottom) - Math.max(left.top - padding, right.top);
+    return Math.max(0, overlapWidth) * Math.max(0, overlapHeight);
+  }
+
+  function positionClusterLabels() {
+    if (!clusterLabelLayer) return;
+    const occupied = [];
+    const margin = 6;
+    for (const cluster of clusters) {
+      const label = cluster.label;
+      const portal = cluster.portal;
+      const anchorX = screenX[portal];
+      const anchorY = screenY[portal];
+      if (anchorX < -30 || anchorX > width + 30 || anchorY < -30 || anchorY > height + 30) {
+        label.hidden = true;
+        continue;
+      }
+      label.hidden = false;
+      label.dataset.selected = String(selected >= 0 && nodes[selected].community === cluster.community);
+      cluster.labelWidth ||= label.offsetWidth;
+      cluster.labelHeight ||= label.offsetHeight;
+      const labelWidth = cluster.labelWidth;
+      const labelHeight = cluster.labelHeight;
+      const offset = Math.max(8, screenRadius[portal] + 7);
+      const rightCandidates = [
+        [anchorX + offset, anchorY - labelHeight / 2],
+        [anchorX + offset * 0.7, anchorY - offset - labelHeight],
+        [anchorX + offset * 0.7, anchorY + offset],
+        [anchorX - labelWidth / 2, anchorY - offset - labelHeight],
+        [anchorX - labelWidth / 2, anchorY + offset],
+        [anchorX - labelWidth - offset * 0.7, anchorY - offset - labelHeight],
+        [anchorX - labelWidth - offset * 0.7, anchorY + offset],
+        [anchorX - labelWidth - offset, anchorY - labelHeight / 2]
+      ];
+      const candidates = anchorX < width / 2 ? rightCandidates : [...rightCandidates].reverse();
+      let best = null;
+      for (const [candidateX, candidateY] of candidates) {
+        const left = Math.max(margin, Math.min(width - margin - labelWidth, candidateX));
+        const top = Math.max(margin, Math.min(height - margin - labelHeight, candidateY));
+        const rectangle = { left, top, right: left + labelWidth, bottom: top + labelHeight };
+        const displacement = Math.hypot(left - candidateX, top - candidateY);
+        const collision = occupied.reduce((sum, other) => sum + overlapArea(rectangle, other), 0);
+        const score = collision * 100 + displacement;
+        if (!best || score < best.score) best = { ...rectangle, score, collision };
+        if (score === 0) break;
+      }
+      label.style.left = `${best.left}px`;
+      label.style.top = `${best.top}px`;
+      label.style.opacity = searchQuery && !searchMatches[portal] && !(selected >= 0 && nodes[selected].community === cluster.community)
+        ? ".3"
+        : best.collision > 0 ? ".68" : "1";
+      occupied.push(best);
+    }
+    clusterLabelLayer.dataset.labelCount = String(clusters.length);
+    clusterLabelLayer.dataset.visibleLabelCount = String(clusters.filter((cluster) => !cluster.label.hidden).length);
   }
 
   function bindAttribute(programValue, buffer, name, size, values, usage = gl.DYNAMIC_DRAW) {
