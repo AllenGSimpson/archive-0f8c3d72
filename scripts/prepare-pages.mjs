@@ -10,6 +10,7 @@ const outputWiki = path.join(outputRoot, "wiki");
 const robotsDirective = "noindex, nofollow, noarchive, nosnippet, noimageindex";
 const robotsMeta = `  <meta name="robots" content="${robotsDirective}">`;
 
+await import("./build-wiki-home.mjs");
 await import("./build-wiki-graph.mjs");
 
 await rm(outputRoot, { recursive: true, force: true });
