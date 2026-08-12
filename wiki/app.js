@@ -1,4 +1,9 @@
 const pages = [
+  { title: "German Defense Inheritance in Argentina", description: "German weapons, tooling, maintenance, training, and doctrine retained after 1986", href: "german-defense-inheritance-argentina.html", tags: "German defense inheritance Argentina arsenal doctrine maintenance Punta del Este" },
+  { title: "American Arms Normalization with Argentina", description: "Controlled military credit, training, equipment, and industrial cooperation after Punta del Este", href: "american-arms-normalization-argentina.html", tags: "American arms normalization Argentina M11 radar training Reagan" },
+  { title: "Latin Military Sustainment of Argentina", description: "Spanish-led sustainment, hybrid modernization, and replacement of German-origin systems", href: "latin-military-sustainment-argentina.html", tags: "Latin military sustainment Argentina Spain Italy Occitania Portugal" },
+  { title: "Argentine Military Interoperability", description: "Technical and doctrinal integration of Argentine, German, American, and Latin systems", href: "argentine-military-interoperability.html", tags: "Argentine military interoperability standards doctrine ammunition data links" },
+  { title: "American Civilian Commerce in Argentina", description: "Finance, software, agriculture, telecommunications, machinery, consumer trade, and civil aerospace", href: "american-civilian-commerce-argentina.html", tags: "American civilian commerce Argentina finance software agriculture telecommunications aerospace" },
   { title: "Commonwealth Caribbean Financial System", description: "Banking, insurance, settlement, company law, and development credit across the Commonwealth Caribbean", href: "commonwealth-caribbean-financial-system.html", tags: "Commonwealth Caribbean financial system banking insurance sterling Bahamas Jamaica Belize" },
   { title: "Commonwealth Caribbean Maritime Services", description: "Shipping, ports, insurance, customs, repair, registry, and rescue in the Caribbean network", href: "commonwealth-caribbean-maritime-services.html", tags: "Commonwealth Caribbean maritime services shipping ports insurance customs" },
   { title: "Commonwealth Caribbean Communications Network", description: "Cable, radio, broadcasting, telephone, data, and emergency communications", href: "commonwealth-caribbean-communications-network.html", tags: "Commonwealth Caribbean communications network cable radio broadcasting telecommunications" },
@@ -4026,6 +4031,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "german-defense-inheritance-argentina.html", terms: ["German defense inheritance in Argentina", "German defense inheritance"] },
+  { href: "american-arms-normalization-argentina.html", terms: ["American arms normalization with Argentina", "American arms normalization"] },
+  { href: "latin-military-sustainment-argentina.html", terms: ["Latin military sustainment of Argentina", "Latin military sustainment"] },
+  { href: "argentine-military-interoperability.html", terms: ["Argentine military interoperability"] },
+  { href: "american-civilian-commerce-argentina.html", terms: ["American civilian commerce in Argentina", "American civilian commerce"] },
   { href: "commonwealth-caribbean-financial-system.html", terms: ["Commonwealth Caribbean financial system", "Commonwealth Caribbean finance"] },
   { href: "commonwealth-caribbean-maritime-services.html", terms: ["Commonwealth Caribbean maritime services", "Commonwealth Caribbean shipping"] },
   { href: "commonwealth-caribbean-communications-network.html", terms: ["Commonwealth Caribbean communications network", "Commonwealth Caribbean communications"] },
