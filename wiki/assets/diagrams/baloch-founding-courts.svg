@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Founding courts of the Baloch Confederated State</title>
+  <desc id="desc">A three-column diagram showing Bai Khan Gichki of Makran, Habibullah Khan Nausherwani of Kharan, and Ghulam Qadir Khan of Las Bela, their shared 1947 rejection of Kalat's suzerainty, and their territories' later political paths.</desc>
+  <rect width="1200" height="520" rx="28" fill="#101820"/>
+  <text x="600" y="52" text-anchor="middle" fill="#f1e7ce" font-family="Georgia,serif" font-size="30" font-weight="700">The three founding courts</text>
+  <text x="600" y="83" text-anchor="middle" fill="#9fb0b7" font-family="Arial,sans-serif" font-size="16">Hereditary authority before, during, and after the confederal settlement</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(42 112)">
+      <rect width="350" height="246" rx="18" fill="#183f4a" stroke="#4da2a8" stroke-width="2"/>
+      <text x="175" y="42" text-anchor="middle" fill="#f1e7ce" font-family="Georgia,serif" font-size="25" font-weight="700">Makran</text>
+      <text x="175" y="76" text-anchor="middle" fill="#8fd0d4" font-size="17" font-weight="700">Bai Khan Gichki</text>
+      <text x="175" y="105" text-anchor="middle" fill="#d6e0df" font-size="15">Gichki dynasty · Kech / Turbat</text>
+      <line x1="28" y1="126" x2="322" y2="126" stroke="#4da2a8" opacity=".6"/>
+      <text x="175" y="157" text-anchor="middle" fill="#d6e0df" font-size="15">Founding confederal principality</text>
+      <text x="175" y="185" text-anchor="middle" fill="#d6e0df" font-size="15">Closest court to Gwadar</text>
+      <text x="175" y="221" text-anchor="middle" fill="#f0c674" font-size="15" font-weight="700">Subordinate principality after 1984</text>
+    </g>
+    <g transform="translate(425 112)">
+      <rect width="350" height="246" rx="18" fill="#353545" stroke="#8e8eb2" stroke-width="2"/>
+      <text x="175" y="42" text-anchor="middle" fill="#f1e7ce" font-family="Georgia,serif" font-size="25" font-weight="700">Kharan</text>
+      <text x="175" y="76" text-anchor="middle" fill="#c2c2e5" font-size="17" font-weight="700">Habibullah Khan</text>
+      <text x="175" y="105" text-anchor="middle" fill="#dedee8" font-size="15">Nausherwani dynasty · Kharan</text>
+      <line x1="28" y1="126" x2="322" y2="126" stroke="#8e8eb2" opacity=".6"/>
+      <text x="175" y="157" text-anchor="middle" fill="#dedee8" font-size="15">Founding confederal principality</text>
+      <text x="175" y="185" text-anchor="middle" fill="#dedee8" font-size="15">Interior and Iranian-frontier depth</text>
+      <text x="175" y="221" text-anchor="middle" fill="#f0c674" font-size="15" font-weight="700">Subordinate principality after 1984</text>
+    </g>
+    <g transform="translate(808 112)">
+      <rect width="350" height="246" rx="18" fill="#4b3926" stroke="#b68a54" stroke-width="2"/>
+      <text x="175" y="42" text-anchor="middle" fill="#f1e7ce" font-family="Georgia,serif" font-size="25" font-weight="700">Las Bela</text>
+      <text x="175" y="76" text-anchor="middle" fill="#e0b77d" font-size="17" font-weight="700">Ghulam Qadir Khan</text>
+      <text x="175" y="105" text-anchor="middle" fill="#e8dfd1" font-size="15">Jam Sahib · Bela</text>
+      <line x1="28" y1="126" x2="322" y2="126" stroke="#b68a54" opacity=".6"/>
+      <text x="175" y="157" text-anchor="middle" fill="#e8dfd1" font-size="15">Founding confederal principality</text>
+      <text x="175" y="185" text-anchor="middle" fill="#e8dfd1" font-size="15">Eastern coast and Sindh route</text>
+      <text x="175" y="221" text-anchor="middle" fill="#f0c674" font-size="15" font-weight="700">Attached to Kalat before 1969</text>
+    </g>
+    <path d="M217 382 V420 H983 V382 M600 382 V420" fill="none" stroke="#c9b88f" stroke-width="3"/>
+    <rect x="311" y="420" width="578" height="66" rx="16" fill="#262c30" stroke="#c9b88f" stroke-width="2"/>
+    <text x="600" y="448" text-anchor="middle" fill="#f1e7ce" font-size="17" font-weight="700">Shared act: rejection of renewed Kalat suzerainty, 1947</text>
+    <text x="600" y="472" text-anchor="middle" fill="#b9c4c8" font-size="14">Common defense and diplomacy; local courts, land, law, police, and taxation retained</text>
+  </g>
+</svg>

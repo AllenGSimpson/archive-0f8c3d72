@@ -542,3 +542,9 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | `portraits/mohammad-zahir-shah.jpg` | Mohammad Zahir Shah in a formal portrait, c. 1950s–63 | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Portrait_of_King_Zahir_Shah_of_Afghanistan_in_1963.jpg), public domain |
 | `portraits/shah-mahmud-khan.jpg` | Shah Mahmud Khan in military uniform, 1945 | Pashto Wikipedia contributor, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sardar_Shah_Mahmud_Khan.jpg), public domain |
 | `portraits/mohammad-daoud-khan.jpg` | Mohammad Daoud Khan | James A. Cudney, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sardar_Mohammed_Daud.jpg), CC BY 3.0 |
+
+## Baloch dynastic diagrams
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/baloch-founding-courts.svg` | Comparative diagram of the founding rulers and later status of Makran, Kharan, and Las Bela | Original archive diagram based on the cited setting corpus and historical sources; project-authored SVG |
