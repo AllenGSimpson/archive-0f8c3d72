@@ -174,6 +174,7 @@ These original vector reconstructions summarize the western succession and campa
 | `diagrams/western-consolidation-wars.svg` | Three consolidation wars | Kashmir-Khalistan, Second Las Bela, and Hindustan-Rajputana compared by opening, intervention, and settlement |
 | `diagrams/baloch-confederated-state-system.svg` | Government and security system of the Baloch Confederated State | Component rulers, common government, armed forces, Iranian patronage, and Kalat's rival claim |
 | `diagrams/baloch-territorial-succession.svg` | Political succession of five Baloch territories | Makran, Kharan, Las Bela, Chagai, and Gwadar at British withdrawal, by 1969, and after Kalat's 1984 victory |
+| `diagrams/baloch-authority-fracture-1981-1984.svg` | Political breakdown of the Baloch Confederated State | Iranian support, Gwadar centralization, component resistance, Kalat's autonomy offer, and the post-1984 settlement |
 
 ## Balkan-order diagrams
 
