@@ -15,3 +15,18 @@
   </tbody></table>`;
   before.before(heading,intro,wrapper);
 })();
+
+(()=>{
+  const before=document.getElementById("historical");
+  if(!before)return;
+  const heading=document.createElement("h2");
+  heading.id="palestine";
+  heading.textContent="Palestine and Transjordan";
+  const wrapper=document.createElement("div");
+  wrapper.className="table-wrap";
+  wrapper.innerHTML=`<table class="wiki-table"><thead><tr><th>Figure</th><th>Historical formation</th><th>Post-divergence role</th></tr></thead><tbody>
+    <tr><td><a href="abdullah-i.html">Abdullah I</a></td><td>Hashemite emir and first king of Transjordan</td><td>Principal Arab state-builder in the Palestine War and architect of the Amman Settlement</td></tr>
+    <tr><td><a href="john-bagot-glubb.html">John Bagot Glubb</a></td><td>British officer and commander of the Arab Legion</td><td>Operational commander whose regular army secures Jerusalem and the Arab highlands</td></tr>
+  </tbody></table>`;
+  before.before(heading,wrapper);
+})();

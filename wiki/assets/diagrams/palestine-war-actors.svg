@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Political and military actors in the Palestine War</title>
+  <desc id="desc">Diagram showing the organized Yishuv, Revisionist underground, Palestinian nationalists, and Arab Legion producing the reduced Israeli state and enlarged Jordan.</desc>
+  <rect width="1200" height="690" fill="#101722"/>
+  <text x="600" y="48" fill="#f4e7c3" font-family="Georgia,serif" font-size="30" text-anchor="middle">Political and military actors, 1947–1951</text>
+  <g font-family="Arial,sans-serif" font-size="19" text-anchor="middle">
+    <rect x="70" y="90" width="470" height="92" rx="8" fill="#173a49" stroke="#6db8c4" stroke-width="2"/>
+    <text x="305" y="125" fill="#ffffff" font-weight="700">Organized Yishuv</text>
+    <text x="305" y="155" fill="#c9e4e7" font-size="16">Jewish Agency · Haganah · municipalities · labor and relief networks</text>
+    <rect x="70" y="220" width="470" height="92" rx="8" fill="#3e2b3c" stroke="#c28aaa" stroke-width="2"/>
+    <text x="305" y="255" fill="#ffffff" font-weight="700">Revisionist underground</text>
+    <text x="305" y="285" fill="#ead2e1" font-size="16">Irgun · Lehi · urban cells · independent arms and political pressure</text>
+    <rect x="660" y="90" width="470" height="92" rx="8" fill="#4b3320" stroke="#d3a85c" stroke-width="2"/>
+    <text x="895" y="125" fill="#ffffff" font-weight="700">Palestinian nationalists</text>
+    <text x="895" y="155" fill="#f1ddbc" font-size="16">Arab Higher Committee · local defense · municipal and family currents</text>
+    <rect x="660" y="220" width="470" height="92" rx="8" fill="#24412f" stroke="#81bc90" stroke-width="2"/>
+    <text x="895" y="255" fill="#ffffff" font-weight="700">Hashemite system</text>
+    <text x="895" y="285" fill="#d4ead9" font-size="16">Abdullah I · Arab Legion · Glubb · Nashashibi and unionist allies</text>
+    <path d="M305 182V380" stroke="#6db8c4" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <path d="M305 312V380" stroke="#c28aaa" stroke-width="4" marker-end="url(#arrowPink)"/>
+    <path d="M895 182V380" stroke="#d3a85c" stroke-width="4" marker-end="url(#arrowGold)"/>
+    <path d="M895 312V380" stroke="#81bc90" stroke-width="4" marker-end="url(#arrowGreen)"/>
+    <rect x="105" y="390" width="400" height="108" rx="8" fill="#1e5063" stroke="#8fd1d9" stroke-width="2"/>
+    <text x="305" y="432" fill="#ffffff" font-weight="700">Reduced State of Israel</text>
+    <text x="305" y="462" fill="#d9eef0" font-size="16">Coastal state · refugee emergency · unified national command</text>
+    <rect x="695" y="390" width="400" height="108" rx="8" fill="#31533a" stroke="#9bd0a7" stroke-width="2"/>
+    <text x="895" y="432" fill="#ffffff" font-weight="700">Enlarged Hashemite Jordan</text>
+    <text x="895" y="462" fill="#dceee0" font-size="16">Highlands · Jerusalem · Gaza · Palestinian majority problem</text>
+    <path d="M505 444H695" stroke="#e6c66b" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="600" y="430" fill="#f1dfa8" font-size="16">Amman Settlement</text>
+    <rect x="250" y="555" width="700" height="82" rx="8" fill="#242c38" stroke="#7d8998" stroke-width="2"/>
+    <text x="600" y="590" fill="#ffffff" font-weight="700">Unresolved after 1951</text>
+    <text x="600" y="618" fill="#cbd2dc" font-size="16">Refugees · Jerusalem · private armed networks · succession · renewed war</text>
+    <path d="M305 498L505 555" stroke="#7d8998" stroke-width="3"/>
+    <path d="M895 498L695 555" stroke="#7d8998" stroke-width="3"/>
+  </g>
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#6db8c4"/></marker>
+    <marker id="arrowPink" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c28aaa"/></marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d3a85c"/></marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#81bc90"/></marker>
+  </defs>
+</svg>

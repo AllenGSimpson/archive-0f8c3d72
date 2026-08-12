@@ -563,6 +563,14 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | --- | --- | --- |
 | `diagrams/palestine-war-to-amman-settlement.svg` | Causal sequence from British withdrawal and refugee pressure through the Palestine War to reduced Israel, enlarged Jordan, and unresolved settlement questions | Original archive diagram based on the cited setting corpus and United Nations and U.S. diplomatic records; project-authored SVG |
 
+## Palestine War actors
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `portraits/abdullah-i-1942.jpg` | Abdullah I of Transjordan, photographed in 1942 | Cecil Beaton / Imperial War Museums, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Abdullah_I_of_Jordan_portrait.jpg), public domain |
+| `portraits/john-bagot-glubb-1953.jpg` | John Bagot Glubb in Arab Legion uniform, 1953 | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glubb_Pasha_(1953).jpg), public domain |
+| `diagrams/palestine-war-actors.svg` | Institutional relationships among the Yishuv, Jewish armed organizations, Arab Higher Committee, Hashemite court, and Arab Legion | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
+
 ## Bastion India facilities diagram
 
 | File | Subject | Source and license |

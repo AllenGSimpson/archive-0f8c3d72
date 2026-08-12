@@ -3941,6 +3941,14 @@ const pages = [
   ,{ title: "Tuamotu Archipelago", description: "The vast Paʻumotu atoll chain of eastern French Polynesia", href: "tuamotu-archipelago.html", tags: "tuamotu archipelago paumotu atolls pearls copra" }
   ,{ title: "Gambier Islands", description: "Mangareva's Catholic, pearl, and lagoon-centered archipelago", href: "gambier-islands.html", tags: "gambier islands mangareva rikitea pearls" }
   ,{ title: "Austral Islands", description: "The southern high-island district of French Polynesia", href: "austral-islands.html", tags: "austral islands tubuai rurutu rimatara raivavae rapa" }
+  ,{ title: "Yishuv", description: "The organized Jewish community of Palestine and institutional predecessor of Israel", href: "yishuv.html", tags: "yishuv organized jewish community palestine israel agency haganah" }
+  ,{ title: "Jewish Agency for Palestine", description: "The representative institution and provisional administrative machinery of the Yishuv", href: "jewish-agency-palestine.html", tags: "jewish agency palestine yishuv immigration refugees government" }
+  ,{ title: "Haganah", description: "The principal military organization of the Yishuv and core of Israel's first national army", href: "haganah.html", tags: "haganah jewish defense organization yishuv israel palestine war" }
+  ,{ title: "Irgun", description: "The Revisionist Zionist underground during the Mandate and Palestine War", href: "irgun.html", tags: "irgun etzel revisionist zionism underground mandate palestine" }
+  ,{ title: "Lehi", description: "The militant Zionist underground and its postwar clandestine legacy", href: "lehi.html", tags: "lehi stern gang fighters freedom israel underground abdullah assassination" }
+  ,{ title: "Arab Higher Committee", description: "The Husseini-led Palestinian national executive during the late Mandate", href: "arab-higher-committee.html", tags: "arab higher committee palestine hajj amin husseini nationalist" }
+  ,{ title: "Abdullah I of Jordan", description: "The founding Hashemite king and victor of the Palestine War", href: "abdullah-i.html", tags: "abdullah first jordan transjordan hashemite king palestine war amman" }
+  ,{ title: "John Bagot Glubb", description: "The British commanding general of Jordan's Arab Legion", href: "john-bagot-glubb.html", tags: "john bagot glubb glubb pasha arab legion jordan commander" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -7953,6 +7961,14 @@ const crossLinks = [
   ,{ href: "peoples-court-greater-german-reich.html", terms: ["People's Court of the Greater German Reich", "People's Court", "Volksgerichtshof"] }
   ,{ href: "reich-citizenship-racial-status.html", terms: ["Reich Citizenship and Racial Status", "Reich citizenship", "racial status"] }
   ,{ href: "party-state-legal-unity-germany.html", terms: ["Legal Unity of Party and State in Germany", "unity of Party and state", "Party state law"] }
+  ,{ href: "yishuv.html", terms: ["Yishuv", "organized Yishuv", "Jewish community of Palestine"] }
+  ,{ href: "jewish-agency-palestine.html", terms: ["Jewish Agency for Palestine", "Jewish Agency"] }
+  ,{ href: "haganah.html", terms: ["Haganah", "Hagana"] }
+  ,{ href: "irgun.html", terms: ["Irgun", "Etzel", "National Military Organization"] }
+  ,{ href: "lehi.html", terms: ["Lehi", "Stern Gang", "Fighters for the Freedom of Israel"] }
+  ,{ href: "arab-higher-committee.html", terms: ["Arab Higher Committee", "Higher National Committee"] }
+  ,{ href: "abdullah-i.html", terms: ["Abdullah I", "King Abdullah", "Emir Abdullah"] }
+  ,{ href: "john-bagot-glubb.html", terms: ["John Bagot Glubb", "Glubb Pasha", "Abu Hunayk"] }
 ];
 
 function escapePattern(value) {
