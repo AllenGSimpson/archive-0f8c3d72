@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Emergency Services Beyond Earth", description: "Command, isolation, medical response, refuge, rescue, evacuation, and investigation", href: "emergency-services-beyond-earth.html", tags: "emergency services beyond Earth offworld rescue fire pressure medical refuge" },
+  { title: "Off-World Incident Command", description: "Temporary technical authority during station and settlement emergencies", href: "offworld-incident-command.html", tags: "off world incident command emergency authority station settlement" },
+  { title: "Lunar Surface Rescue", description: "Route plans, refuges, rovers, towing, and recovery beyond lunar settlements", href: "lunar-surface-rescue.html", tags: "lunar surface rescue Moon rover refuge route beacon emergency" },
+  { title: "Off-World Refuge Capacity", description: "People-hours of emergency air, power, water, shelter, and medical endurance", href: "offworld-refuge-capacity.html", tags: "off world refuge capacity shelter air power people hours emergency" },
+  { title: "Off-World Casualty Evacuation", description: "Stabilization and multi-stage medical transport between space facilities and Earth", href: "offworld-casualty-evacuation.html", tags: "off world casualty evacuation medical transport Moon orbit Mars" },
   { title: "Civilian Travel Beyond Earth", description: "Professional, sponsored, family, and limited leisure passage in the commercial space age", href: "civilian-space-travel.html", tags: "civilian space travel passenger tourism orbital lunar commercial" },
   { title: "Orbital Tourism", description: "Limited short-duration civilian visits to American orbital facilities", href: "orbital-tourism.html", tags: "orbital tourism Columbia Frontier Annex visitor civilian space" },
   { title: "Lunar Tourism", description: "The small prestige market for temporary visits to the American lunar system", href: "lunar-tourism.html", tags: "lunar tourism Moon Kennedy visitor civilian travel prestige" },
@@ -4001,6 +4006,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "emergency-services-beyond-earth.html", terms: ["emergency services beyond Earth", "off-world emergency services"] },
+  { href: "offworld-incident-command.html", terms: ["off-world incident command", "incident command beyond Earth"] },
+  { href: "lunar-surface-rescue.html", terms: ["lunar surface rescue"] },
+  { href: "offworld-refuge-capacity.html", terms: ["off-world refuge capacity", "refuge capacity beyond Earth"] },
+  { href: "offworld-casualty-evacuation.html", terms: ["off-world casualty evacuation", "casualty evacuation beyond Earth"] },
   { href: "civilian-space-travel.html", terms: ["civilian travel beyond Earth", "civilian space travel"] },
   { href: "orbital-tourism.html", terms: ["orbital tourism"] },
   { href: "lunar-tourism.html", terms: ["lunar tourism"] },
