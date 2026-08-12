@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Development of the German commercial strategy-game industry</title>
+  <desc id="desc">Staff exercises, transport planning, industrial simulation, cartography and computing feed private studios, which produce operational games, real-time command, grand strategy and persistent network campaigns under certification and export publishing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101820"/><stop offset="1" stop-color="#1d252c"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000" flood-opacity=".36"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#b89a63"/></marker>
+    <style>
+      .title{font:700 28px Georgia,serif;fill:#f0eadf}.sub{font:15px Arial,sans-serif;fill:#aeb8bf}.head{font:700 17px Arial,sans-serif;fill:#f2ede4}.body{font:14px Arial,sans-serif;fill:#c6cdd2}.small{font:12px Arial,sans-serif;fill:#9faab1}.box{stroke:#59656d;stroke-width:1.5}.line{stroke:#b89a63;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="560" rx="18" fill="url(#bg)"/>
+  <text class="title" x="60" y="54">From staff method to commercial culture</text>
+  <text class="sub" x="60" y="80">Germany exports a way of modeling power before it fixes a canonical flagship studio</text>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="55" y="120" width="245" height="74" rx="10" fill="#293842"/>
+    <text class="head" x="76" y="150">Staff exercises</text><text class="body" x="76" y="174">Orders · intelligence · reserves</text>
+    <rect class="box" x="55" y="208" width="245" height="74" rx="10" fill="#293842"/>
+    <text class="head" x="76" y="238">Rail and industrial planning</text><text class="body" x="76" y="262">Capacity · supply · production</text>
+    <rect class="box" x="55" y="296" width="245" height="74" rx="10" fill="#293842"/>
+    <text class="head" x="76" y="326">Cartography and terminals</text><text class="body" x="76" y="350">Layers · symbols · rapid redraw</text>
+    <rect class="box" x="55" y="384" width="245" height="74" rx="10" fill="#293842"/>
+    <text class="head" x="76" y="414">Computer adjudication</text><text class="body" x="76" y="438">Weather · movement · friction</text>
+
+    <rect class="box" x="395" y="210" width="280" height="160" rx="12" fill="#3a3530" stroke="#b89a63"/>
+    <text class="head" x="423" y="246">Private game studios</text>
+    <text class="body" x="423" y="276">Exercise designers · programmers</text>
+    <text class="body" x="423" y="300">Historians · artists · producers</text>
+    <text class="small" x="423" y="332">State grants, archives and advisers</text>
+    <text class="small" x="423" y="352">do not make every title a commission</text>
+
+    <rect class="box" x="780" y="112" width="350" height="70" rx="10" fill="#283c35"/>
+    <text class="head" x="804" y="142">Operational war games</text><text class="body" x="804" y="165">Campaign friction and logistical reach</text>
+    <rect class="box" x="780" y="198" width="350" height="70" rx="10" fill="#283c35"/>
+    <text class="head" x="804" y="228">Real-time command</text><text class="body" x="804" y="251">Shortened simultaneous-order cycles</text>
+    <rect class="box" x="780" y="284" width="350" height="70" rx="10" fill="#283c35"/>
+    <text class="head" x="804" y="314">Grand strategy</text><text class="body" x="804" y="337">State, economy and war as one system</text>
+    <rect class="box" x="780" y="370" width="350" height="70" rx="10" fill="#283c35"/>
+    <text class="head" x="804" y="400">Persistent Weltnetz campaigns</text><text class="body" x="804" y="423">Distributed staffs and lasting worlds</text>
+  </g>
+
+  <path class="line" d="M300 157 C345 157 350 230 395 250"/><path class="line" d="M300 245 C345 245 355 265 395 278"/><path class="line" d="M300 333 C345 333 355 315 395 302"/><path class="line" d="M300 421 C345 421 350 350 395 330"/>
+  <path class="line" d="M675 250 C724 222 735 147 780 147"/><path class="line" d="M675 276 C725 263 740 233 780 233"/><path class="line" d="M675 306 C725 306 740 319 780 319"/><path class="line" d="M675 334 C724 351 740 405 780 405"/>
+
+  <rect x="395" y="468" width="735" height="50" rx="9" fill="#232a30" stroke="#59656d"/>
+  <text class="head" x="420" y="498">Certification · localization · export publishing</text>
+  <text class="small" x="790" y="498">Historical distance and fictional worlds cross rival markets</text>
+</svg>
