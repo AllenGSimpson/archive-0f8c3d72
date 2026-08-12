@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Four principal instruments of the Rangoon Settlement</title>
+  <desc id="desc">Diagram showing how British termination, federal constitutional articles, Japanese security association, and civilian protection formed the 1952 to 1953 Rangoon Settlement.</desc>
+  <defs>
+    <style>
+      .bg{fill:#111512}.panel{fill:#1b211c;stroke:#85744a;stroke-width:2}.core{fill:#29271e;stroke:#c4a85e;stroke-width:3}.line{stroke:#8b7b51;stroke-width:4;fill:none}.h{font:700 27px Georgia,serif;fill:#f0eadc}.t{font:18px Arial,sans-serif;fill:#d6d2c7}.s{font:700 16px Arial,sans-serif;letter-spacing:2px;fill:#c5a85b}.o{font:700 19px Arial,sans-serif;fill:#ece4cf}.muted{font:16px Arial,sans-serif;fill:#aaa99f}.dot{fill:#c5a85b}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="720"/>
+  <text class="s" x="60" y="56">RANGOON · 1952–1953</text>
+  <text class="h" x="60" y="94">The settlement as a package of instruments</text>
+
+  <rect class="panel" x="60" y="140" width="470" height="170" rx="8"/>
+  <text class="s" x="88" y="176">TERMINATION</text>
+  <text class="o" x="88" y="211">Anglo–Burmese Termination Agreement</text>
+  <text class="t" x="88" y="247">British protection ends · authority transfers</text>
+  <text class="t" x="88" y="278">forces and protected civilians withdraw</text>
+
+  <rect class="panel" x="670" y="140" width="470" height="170" rx="8"/>
+  <text class="s" x="698" y="176">CONSTITUTION</text>
+  <text class="o" x="698" y="211">Federal Articles of Rangoon</text>
+  <text class="t" x="698" y="247">one international Union · divided powers</text>
+  <text class="t" x="698" y="278">constituent governments and State Guards</text>
+
+  <rect class="core" x="390" y="348" width="420" height="118" rx="10"/>
+  <text class="s" x="497" y="385">RANGOON SETTLEMENT</text>
+  <text class="h" x="481" y="425">Ceasefire constitution</text>
+  <text class="muted" x="465" y="451">one state · several armed national orders</text>
+
+  <path class="line" d="M295 310 V374 H390"/><circle class="dot" cx="390" cy="374" r="7"/>
+  <path class="line" d="M905 310 V374 H810"/><circle class="dot" cx="810" cy="374" r="7"/>
+
+  <rect class="panel" x="60" y="505" width="470" height="160" rx="8"/>
+  <text class="s" x="88" y="541">EXTERNAL SECURITY</text>
+  <text class="o" x="88" y="576">Japanese–Burmese Association Treaty</text>
+  <text class="t" x="88" y="612">frontier guarantee · missions and access</text>
+  <text class="t" x="88" y="642">final mediation of security disputes</text>
+
+  <rect class="panel" x="670" y="505" width="470" height="160" rx="8"/>
+  <text class="s" x="698" y="541">CIVILIANS AND PROPERTY</text>
+  <text class="o" x="698" y="576">Protection and Property Convention</text>
+  <text class="t" x="698" y="612">evacuation · residency · title and claims</text>
+  <text class="t" x="698" y="642">procedures for vulnerable communities</text>
+
+  <path class="line" d="M295 505 V440 H390"/><circle class="dot" cx="390" cy="440" r="7"/>
+  <path class="line" d="M905 505 V440 H810"/><circle class="dot" cx="810" cy="440" r="7"/>
+</svg>

@@ -247,6 +247,7 @@ These original vector diagrams summarize the recurring Burmese constitutional an
 | `diagrams/burmese-federal-architecture.svg` | Rangoon Settlement's asymmetric Union | Bamar core, seven constituent nationality states, nested autonomous districts, and a single international personality |
 | `diagrams/burmese-armed-federalism.svg` | Division of coercive authority | Union control of heavy arms and strategic systems, State Guard control of local security, and Japanese supply leverage |
 | `diagrams/burmese-war-cycle.svg` | Recurring wars and settlements | Companion War, Rangoon Settlement, Federal Crisis, later Second War, sovereign experiment, War of the States, and Thai protectorate |
+| `diagrams/rangoon-settlement-instruments.svg` | Four-instrument Rangoon Settlement package | British termination, federal constitution, Japanese security association, and civilian/property protection |
 | `diagrams/sovereign-states-experiment.svg` | Eight-state experiment | International recognition of Bamar Burma and seven nationality states beneath common transit, clearing, defense, and foreign-base constraints |
 
 ## Japanese imperial-economy diagrams
