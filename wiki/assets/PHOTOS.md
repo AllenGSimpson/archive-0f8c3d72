@@ -519,3 +519,13 @@ These portraits identify officials responsible for antisemitic law, confiscation
 | `portraits/carl-oberg.jpg` | Carl-Albrecht Oberg in SS uniform | Ron Leidelmeyer collection, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SS-General-Karl-Albrecht-Oberg1945.jpg), public domain |
 | `portraits/theodor-dannecker.jpg` | Theodor Dannecker, 1942 | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SS_war_criminal_Theodor_Dannecker.jpg), public domain |
 | `portraits/helmut-knochen.jpg` | Helmut Knochen as SS-Standartenführer | Kurt Alber / German Federal Archives, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101III-Alber-096-10,_Helmut_Knochen_(3x4_cropped).jpg), CC BY-SA 3.0 DE |
+
+## Afghan royal leadership portraits
+
+These portraits accompany the biographies of the king and royal ministers whose careers diverge from real history after the Second World War. Captions do not import the 1973 Afghan republic into the setting.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `portraits/mohammad-zahir-shah.jpg` | Mohammad Zahir Shah in a formal portrait, c. 1950s–63 | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Portrait_of_King_Zahir_Shah_of_Afghanistan_in_1963.jpg), public domain |
+| `portraits/shah-mahmud-khan.jpg` | Shah Mahmud Khan in military uniform, 1945 | Pashto Wikipedia contributor, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sardar_Shah_Mahmud_Khan.jpg), public domain |
+| `portraits/mohammad-daoud-khan.jpg` | Mohammad Daoud Khan | James A. Cudney, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sardar_Mohammed_Daud.jpg), CC BY 3.0 |
