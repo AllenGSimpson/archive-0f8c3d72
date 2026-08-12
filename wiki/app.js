@@ -1,4 +1,10 @@
 const pages = [
+  { title: "Functional Programming in Germany", description: "From Folge 81 and Zivil-Planform to Felix Hitler's production-language project", href: "german-functional-programming.html", tags: "German functional programming Folge Prinzensprache Planform Felix Hitler" },
+  { title: "Folge Community", description: "Researchers, compiler engineers, teachers, and specialist firms around Folge 81", href: "folge-community.html", tags: "Folge community German functional programming university compiler research" },
+  { title: "Development of Prinzensprache", description: "Felix Hitler's private experiments, compiler team, public specification, and later proof", href: "prinzensprache-development.html", tags: "development Prinzensprache Felix Hitler compiler 2000 2004 Formwerk Folgewerk" },
+  { title: "Prinzensprache Interoperability", description: "Planform, object, systems, network, and foreign-library integration", href: "prinzensprache-interoperability.html", tags: "Prinzensprache interoperability Planform Klasse Werkcode Nachricht Bridge libraries" },
+  { title: "Dimensional Types in Prinzensprache", description: "Compile-time checking of physical and administrative quantities", href: "dimensional-types-prinzensprache.html", tags: "Prinzensprache dimensional types units measure engineering aerospace compiler" },
+  { title: "Reception of Prinzensprache", description: "The Rechenplan, Folge, commercial, and network disputes over the prince's language", href: "prinzensprache-reception.html", tags: "reception Prinzensprache controversy Rechenplan Folge privilege Felix Hitler" },
   { title: "Politics of Extraterrestrial Settlement", description: "Five rival arguments for turning permanent bases into governed communities", href: "politics-extraterrestrial-settlement.html", tags: "politics extraterrestrial settlement comparison Germany America Japan Commonwealth Latin Moon Mars" },
   { title: "German Extraterrestrial Settlement Policy", description: "Infrastructure-first settlement through selected households and integrated administration", href: "german-extraterrestrial-settlement-policy.html", tags: "German extraterrestrial settlement policy families infrastructure Alexander Hitler Moon Mars" },
   { title: "American Commercial Settlement Policy", description: "Company-operated communities beneath federal registration and crisis authority", href: "american-commercial-settlement-policy.html", tags: "American commercial settlement policy corporations families Kennedy Moon Mars" },
@@ -3985,6 +3991,12 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "german-functional-programming.html", terms: ["functional programming in Germany", "German functional programming"] },
+  { href: "folge-community.html", terms: ["Folge community", "Folge programmers"] },
+  { href: "prinzensprache-development.html", terms: ["development of Prinzensprache", "Prinzensprache development"] },
+  { href: "prinzensprache-interoperability.html", terms: ["Prinzensprache interoperability", "Prinzensprache library integration"] },
+  { href: "dimensional-types-prinzensprache.html", terms: ["dimensional types in Prinzensprache", "Prinzensprache dimensional types"] },
+  { href: "prinzensprache-reception.html", terms: ["reception of Prinzensprache", "Prinzensprache controversy"] },
   { href: "politics-extraterrestrial-settlement.html", terms: ["politics of extraterrestrial settlement", "settlement politics beyond Earth"] },
   { href: "german-extraterrestrial-settlement-policy.html", terms: ["German extraterrestrial settlement policy", "German settlement policy beyond Earth"] },
   { href: "american-commercial-settlement-policy.html", terms: ["American commercial settlement policy", "American commercial settlement"] },
