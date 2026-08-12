@@ -468,6 +468,9 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
 .graph-toolbar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
 .graph-toolbar button { min-width: 34px; min-height: 30px; padding: 5px 10px; border: 1px solid var(--line); color: var(--muted); background: var(--paper-2); cursor: pointer; font: 700 11px/1 Arial, sans-serif; }
 .graph-toolbar button:hover { border-color: var(--accent); color: var(--ink); }
+.graph-toolbar .graph-go { margin-left: auto; }
+.graph-toolbar button:disabled { border-color: var(--line); color: color-mix(in srgb, var(--muted) 48%, transparent); cursor: not-allowed; opacity: .62; }
+.graph-toolbar button:disabled:hover { border-color: var(--line); color: color-mix(in srgb, var(--muted) 48%, transparent); }
 .graph-stage { position: relative; height: clamp(520px, calc(100vh - 300px), 800px); min-height: 520px; overflow: hidden; border: 1px solid var(--line); background: radial-gradient(circle at center, color-mix(in srgb, var(--accent-2) 9%, transparent), transparent 58%), var(--paper-2); }
 .graph-stage canvas { display: block; touch-action: none; cursor: grab; outline-offset: -3px; }
 .graph-stage canvas.is-dragging { cursor: grabbing; }

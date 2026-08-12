@@ -2,6 +2,7 @@
   const data = window.WIKI_GRAPH_DATA;
   const canvas = document.querySelector("[data-wiki-graph]");
   const stage = document.querySelector("[data-graph-stage]");
+  const goButton = document.querySelector("[data-graph-go]");
   if (!data || !canvas || !stage) return;
 
   document.querySelector("[data-graph-pages]").textContent = data.pageCount.toLocaleString();
@@ -306,6 +307,7 @@
     focusStarted = performance.now();
     focusAnimating = true;
     const node = nodes[index];
+    if (goButton) goButton.disabled = false;
     document.querySelector("[data-graph-selection]").innerHTML = `<div><strong>${node.title}</strong><span>${node.words.toLocaleString()} words · ${node.degree.toLocaleString()} directed connections</span></div><a href="${node.href}">Open article</a>`;
     requestDraw();
   }
@@ -319,6 +321,7 @@
     focusTo = [...baseCenter];
     focusStarted = performance.now();
     focusAnimating = true;
+    if (goButton) goButton.disabled = true;
     document.querySelector("[data-graph-selection]").innerHTML = "<span>Select a circle to inspect and center an article.</span>";
     document.querySelector("[data-graph-tooltip]").hidden = true;
     requestDraw();
@@ -388,6 +391,9 @@
     requestDraw();
   }));
   document.querySelectorAll("[data-graph-reset]").forEach((button) => button.addEventListener("click", resetView));
+  if (goButton) goButton.addEventListener("click", () => {
+    if (selected >= 0) window.location.href = nodes[selected].href;
+  });
   new ResizeObserver(resize).observe(stage);
   new MutationObserver(() => requestDraw()).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   resize();

@@ -247,9 +247,9 @@ function forceLayout(nodes, edges) {
   }
 
   const maximumRadius = Math.max(...radius);
-  const clearanceGap = 4;
+  const clearanceGap = 8;
   const neighborRange = maximumRadius * 2 + clearanceGap + 14;
-  const gravityConstant = 8;
+  const gravityConstant = 3;
   const iterations = 560;
   for (let iteration = 0; iteration < iterations; iteration += 1) {
     ax.fill(0); ay.fill(0); az.fill(0);
@@ -316,7 +316,7 @@ function forceLayout(nodes, edges) {
   // unbounded space. Larger and more connected articles claim their gravity
   // coordinates first; smaller articles take the nearest open point instead
   // of being snapped into a bounded lattice.
-  const hardClearanceGap = 0.75;
+  const hardClearanceGap = 5;
   const packedX = new Float64Array(count);
   const packedY = new Float64Array(count);
   const packed = new Uint8Array(count);
@@ -395,7 +395,7 @@ function forceLayout(nodes, edges) {
   for (let index = 0; index < count; index += 1) {
     x[index] -= center[0]; y[index] -= center[1]; z[index] -= center[2];
   }
-  return { x, y, z, degree, packingAttempts, maximumPackingAttempts, leafRelocations };
+  return { x, y, z, degree, gravityConstant, packingAttempts, maximumPackingAttempts, leafRelocations };
 }
 
 const pages = [];
@@ -432,6 +432,7 @@ const graph = {
   maximumWords,
   layoutModel: "connected-gravity-v1",
   massUnit: "visible-word",
+  gravityStrength: layout.gravityConstant,
   packingAttempts: layout.packingAttempts,
   maximumPackingAttempts: layout.maximumPackingAttempts,
   leafRelocations: layout.leafRelocations,

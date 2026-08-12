@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
   <meta name="description" content="Interactive graph of the Fractured Peace Archive, excluding the Setting Timeline.">
   <title>Wiki Visualizer · Fractured Peace</title>
-  <link rel="stylesheet" href="styles.css?v=20260812">
+  <link rel="stylesheet" href="styles.css?v=20260812b">
 </head>
 <body>
   <div class="utility-bar"><span>Local reference edition · article graph · timeline excluded</span><div class="utility-links"><a href="index.html">Main page</a><a href="world.html">Browse</a><a href="timeline.html">Chronology</a></div></div>
@@ -36,6 +36,7 @@
           <button type="button" data-graph-zoom="out" aria-label="Zoom out">−</button>
           <button type="button" data-graph-zoom="in" aria-label="Zoom in">+</button>
           <button type="button" data-graph-reset>Fit all</button>
+          <button type="button" class="graph-go" data-graph-go disabled>Go To</button>
         </div>
         <div class="graph-stage" data-graph-stage>
           <canvas data-wiki-graph tabindex="0" role="img" aria-label="Rotatable gravity layout of wiki pages except the Setting Timeline. Circle mass and area represent absolute word count, and green-to-blue lines show both gravitational connection and link direction. Use left and right arrow keys to rotate, up and down arrow keys to zoom, and Escape to reset."></canvas>
@@ -50,8 +51,8 @@
       <footer class="site-footer"><div class="site-footer-inner"><span>Fractured Peace Archive · Knowledge graph</span><span><span data-year></span></span></div></footer>
     </main>
   </div>
-  <script src="wiki-graph-data.js?v=20260812"></script>
-  <script src="wiki-graph.js?v=20260812"></script>
+  <script src="wiki-graph-data.js?v=20260812b"></script>
+  <script src="wiki-graph.js?v=20260812b"></script>
   <script src="app.js?v=20260812"></script>
 </body>
 </html>
