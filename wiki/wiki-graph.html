@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
-  <meta name="description" content="Interactive graph of every page and internal article connection in the Fractured Peace Archive.">
+  <meta name="description" content="Interactive graph of the Fractured Peace Archive, excluding the Setting Timeline.">
   <title>Wiki Visualizer · Fractured Peace</title>
   <link rel="stylesheet" href="styles.css?v=20260812">
 </head>
 <body>
-  <div class="utility-bar"><span>Local reference edition · complete archive graph</span><div class="utility-links"><a href="index.html">Main page</a><a href="world.html">Browse</a><a href="timeline.html">Chronology</a></div></div>
+  <div class="utility-bar"><span>Local reference edition · article graph · timeline excluded</span><div class="utility-links"><a href="index.html">Main page</a><a href="world.html">Browse</a><a href="timeline.html">Chronology</a></div></div>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Fractured Peace Archive main page"><span class="brand-mark" aria-hidden="true"></span><span class="brand-copy"><strong>Fractured Peace</strong><small>World archive & encyclopedia</small></span></a>
     <div class="search" role="search"><input data-search type="search" aria-label="Search the archive" placeholder="Search countries, events, people…"><button aria-label="Search">⌕</button><div class="search-results" data-search-results></div></div>
@@ -19,12 +19,12 @@
     <aside class="sidebar" aria-label="Site navigation"><nav>
       <section class="nav-section"><h2 class="nav-heading">Archive</h2><a data-nav href="index.html">Main Page</a><a data-nav href="world.html">The World Order</a><a data-nav href="countries.html">List of Countries</a><a data-nav href="timeline.html">Timeline</a><a data-nav href="wiki-graph.html">Wiki Visualizer</a></section>
       <section class="nav-section"><h2 class="nav-heading">Graph controls</h2><p class="nav-note">Drag to rotate. Scroll to zoom. Select a circle to center it and clear its immediate field.</p></section>
-      <section class="canon-key"><strong>Coverage</strong><p>Every HTML page is included. Circle area follows visible word count; connectors follow directed internal links.</p></section>
+      <section class="canon-key"><strong>Coverage</strong><p>Every HTML page except the Setting Timeline is included. Circle area follows visible word count; connectors follow directed internal links.</p></section>
     </nav></aside>
     <main class="content">
       <div class="page graph-page">
         <div class="breadcrumbs"><a href="index.html">Archive</a> / Wiki Visualizer</div>
-        <div class="page-header"><div><span class="eyebrow">Knowledge graph · complete corpus</span><h1>Wiki Visualizer</h1></div><div class="page-tools"><button data-copy-link>Share</button><button data-graph-reset>Reset view</button></div></div>
+        <div class="page-header"><div><span class="eyebrow">Knowledge graph · timeline excluded</span><h1>Wiki Visualizer</h1></div><div class="page-tools"><button data-copy-link>Share</button><button data-graph-reset>Reset view</button></div></div>
         <div class="graph-meta" aria-label="Graph summary">
           <span><strong data-graph-pages>—</strong> pages</span>
           <span><strong data-graph-links>—</strong> directed connections</span>
@@ -38,7 +38,7 @@
           <button type="button" data-graph-reset>Fit all</button>
         </div>
         <div class="graph-stage" data-graph-stage>
-          <canvas data-wiki-graph tabindex="0" role="img" aria-label="Rotatable graph of every wiki page. Circle size represents word count and green-to-blue lines show link direction. Use left and right arrow keys to rotate, up and down arrow keys to zoom, and Escape to reset."></canvas>
+          <canvas data-wiki-graph tabindex="0" role="img" aria-label="Rotatable graph of wiki pages except the Setting Timeline. Circle size represents word count and green-to-blue lines show link direction. Use left and right arrow keys to rotate, up and down arrow keys to zoom, and Escape to reset."></canvas>
           <div class="graph-focus-ring" data-graph-focus-ring aria-hidden="true"></div>
           <div class="graph-tooltip" data-graph-tooltip role="tooltip" hidden></div>
           <p class="graph-error" data-graph-error hidden>The visualizer requires WebGL support.</p>
