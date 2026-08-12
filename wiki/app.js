@@ -3748,7 +3748,7 @@ const flagAssets = {
   "manchukuo.html": { src: "assets/flags/manchukuo.svg", alt: "Yellow flag of Manchukuo with red, blue, white, and black canton stripes", label: "Manchukuo national flag retained from 1932" },
   "china.html": { src: "assets/flags/china-republic.svg", alt: "Blue Sky, White Sun, and a Wholly Red Earth flag of the Republic of China", label: "National flag of the Republic of China" },
   "vladivostok.html": { src: "assets/flags/vladivostok-russian-tricolor.svg", alt: "White, blue, and red Russian tricolor", label: "Russian tricolor used by the anti-Soviet protectorate · working convention" },
-  "eastern-siberia.html": { src: "assets/flags/eastern-siberia.svg", alt: "White and green flag of Siberia", label: "Historic Siberian flag adopted by the client republic · working convention" },
+  "russian-far-eastern-state.html": { src: "assets/flags/eastern-siberia.svg", alt: "White and green flag of Siberia", label: "Historic Siberian flag adopted by the client republic · working convention" },
   "chukotka.html": { src: "assets/flags/chukotka.svg", alt: "Blue regional flag of Chukotka with a white triangle and circular device", label: "Autonomous territorial flag · working convention" },
   "greece.html": { src: "assets/flags/greece.svg", alt: "Blue and white flag of Greece", label: "Historic Greek national flag retained under Italian rule" },
   "albania.html": { src: "assets/flags/albania-1939.svg", alt: "Red flag of the Italian-era Kingdom of Albania", label: "Kingdom of Albania flag introduced in 1939" },
