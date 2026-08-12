@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Cape York Space Range", description: "Northern Australian crewed, heavy-cargo, commercial, and planetary launch gateway", href: "cape-york-space-range.html", tags: "Cape York space range Australia Commonwealth launch spaceport recovery" },
+  { title: "Commonwealth Heavy-Launch Programme", description: "Cargo launchers and distributed production for Resolution, Serenity, and Mars", href: "commonwealth-heavy-launch-programme.html", tags: "Commonwealth heavy launch programme Britain Australia Canada Resolution Serenity Mars" },
+  { title: "Commonwealth Crewed-Transport Programme", description: "Post-Endeavour recurring human access, rendezvous, recovery, and rescue", href: "commonwealth-crewed-transport-programme.html", tags: "Commonwealth crewed transport programme Endeavour Cape York Resolution human spaceflight" },
+  { title: "Commonwealth Lunar Survey Programme", description: "Robotic mapping, landers, beacons, and cargo preparation for Serenity", href: "commonwealth-lunar-survey-programme.html", tags: "Commonwealth lunar survey programme Mare Serenitatis Serenity robots beacons" },
+  { title: "Commonwealth Aerospace Interface Standards", description: "Mechanical, pressure, power, data, software, safety, and acceptance rules for distributed workshare", href: "commonwealth-aerospace-interface-standards.html", tags: "Commonwealth aerospace interface standards workshare docking software quality assurance" },
   { title: "La Violencia", description: "Colombia's partisan, agrarian, regional, and criminal conflict after 1948", href: "la-violencia-colombia.html", tags: "La Violencia Colombia civil conflict Liberal Conservative peasant self defense" },
   { title: "Colombian Internal-Security System", description: "Constitutional politics, emergency administration, territorial forces, police, and military power", href: "colombian-internal-security-system.html", tags: "Colombian internal security system armed constitutional client police army emergency" },
   { title: "American Security Assistance to Colombia", description: "Advisers, communications, air transport, roads, police training, equipment, and credit", href: "american-security-assistance-colombia.html", tags: "American security assistance Colombia advisers communications airlift police credit" },
@@ -4051,6 +4056,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "cape-york-space-range.html", terms: ["Cape York Space Range", "Cape York launch range", "Cape York"] },
+  { href: "commonwealth-heavy-launch-programme.html", terms: ["Commonwealth heavy-launch programme", "Commonwealth heavy-launch program"] },
+  { href: "commonwealth-crewed-transport-programme.html", terms: ["Commonwealth crewed-transport programme", "Commonwealth crewed transport system"] },
+  { href: "commonwealth-lunar-survey-programme.html", terms: ["Commonwealth lunar survey programme", "Commonwealth lunar survey program"] },
+  { href: "commonwealth-aerospace-interface-standards.html", terms: ["Commonwealth aerospace interface standards", "Commonwealth space interfaces"] },
   { href: "la-violencia-colombia.html", terms: ["La Violencia", "Colombian rural war"] },
   { href: "colombian-internal-security-system.html", terms: ["Colombian internal-security system", "Colombian security system"] },
   { href: "american-security-assistance-colombia.html", terms: ["American security assistance to Colombia", "American security assistance in Colombia"] },
