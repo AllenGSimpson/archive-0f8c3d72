@@ -1,0 +1,143 @@
+window.deepArticles = window.deepArticles || {};
+
+const kaguyaSystemsSources = [
+  {href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible — Japanese machine-first lunar settlement"},
+  {href:"../settingTimeline%20-%20AltWWII.md",label:"Setting Timeline — Kaguya Base and the mature space age"},
+  {href:"../transcript.md",label:"Master Transcript — post-1985 Japanese lunar and Mars development"},
+  {href:"japanese-lunar-exploration-program.html",label:"Japanese Lunar Exploration Program — robotic precursor"}
+];
+
+const kaguyaSystemsRelated = [
+  {href:"kaguya-base.html",kicker:"Host settlement",label:"Kaguya Base"},
+  {href:"japanese-lunar-exploration-program.html",kicker:"Robotic precursor",label:"Japanese Lunar Exploration Program"},
+  {href:"kobo-horai.html",kicker:"Orbital support",label:"Kōbō–Hōrai"},
+  {href:"society-kaguya-base.html",kicker:"Resident community",label:"Society of Kaguya Base"},
+  {href:"japanese-mars-expedition.html",kicker:"Planetary successor",label:"Japanese Mars Expedition"}
+];
+
+const kaguyaLandscape = {
+  src:"assets/diagrams/kaguya-machine-first-settlement.svg",
+  alt:"Five-stage diagram of Kaguya Base development from orbital survey to human occupation",
+  caption:"Kaguya's machine-first sequence placed mapping, site inspection, power, shelter, construction, and environmental checkout before permanent human occupation"
+};
+
+const kaguyaSystemsArticle = config => ({
+  category:"Japanese lunar program",
+  eyebrow:"Kaguya Base · machine-first settlement",
+  infoboxKicker:"Japanese lunar infrastructure",
+  landscape:kaguyaLandscape,
+  ...config,
+  sources:config.sources || kaguyaSystemsSources,
+  categories:config.categories || ["Japanese space program","Moon","Kaguya Base","Robotics","GEACPS"],
+  related:[...(config.related || []),...kaguyaSystemsRelated.filter(item=>item.href!==config.slug+".html" && !(config.related || []).some(other=>other.href===item.href))]
+});
+
+Object.assign(window.deepArticles,{
+  "kaguya-robotic-survey-program":kaguyaSystemsArticle({
+    slug:"kaguya-robotic-survey-program",title:"Kaguya Robotic Survey Program",infoboxTitle:"Kaguya Robotic Survey Program",
+    lead:"The Kaguya Robotic Survey Program was the late-twentieth-century Japanese campaign that mapped, inspected, and repeatedly monitored candidate lunar sites before the establishment of Kaguya Base. Orbiters, relays, fixed landers, rovers, and remotely supervised machines converted the earlier exploration program into an engineering survey for permanent occupation.",
+    canon:"Extensive robotic surveying before the late-1990s establishment of Kaguya Base, orbital resource mapping, machine inspection of the selected site, communications and navigation preparation, long-duration hardware testing, Hōrai support, and Japanese final authority are established. Mission names, launch dates, vehicle counts, instruments, exact site, maps, resource estimates, and associated-state workshares remain open.",
+    sections:[
+      {id:"origin",title:"From exploration to settlement survey",html:"<p>The <a href='japanese-lunar-exploration-program.html'>Japanese Lunar Exploration Program</a> had operated orbiters, a soft lander, a rover, and cooperating machines by the early 1980s. Later missions retained the scientific work while adding questions required by a resident installation: landing dispersion, bearing strength, slopes, communications horizons, dust movement, thermal cycles, and access between work sites.</p>"},
+      {id:"orbital",title:"Orbital mapping",html:"<p>Orbiters mapped terrain, illumination, thermal behavior, radio visibility, and candidate resource signatures. Repeated passes mattered more than one complete atlas because engineers needed to know which conditions changed with local time and season.</p><p>The final base site remains open in the public record used by this archive. Kaguya should not be assigned to the northern polar utility or another named lunar region without additional confirmation.</p>"},
+      {id:"relay",title:"Communications and navigation",html:"<p>Relays and surface beacons established communications geometry before valuable cargo or people arrived. Ranging references supported automated descent, rover navigation, route reconstruction, and the later landing zone.</p><p><a href='kobo-horai.html'>Hōrai</a>, Japanese ground centers, and the imperial deep-space network shared supervision. Light-time was short enough for close human oversight but long enough to require local safe modes.</p>"},
+      {id:"inspection",title:"Machine site inspection",html:"<p>Surface machines examined the proposed pad, habitation area, excavation routes, cable runs, and nearby working ground. Cameras, contact measurements, wheel or track performance, and repeated traverses supplied evidence that could not be inferred reliably from orbital imagery.</p>"},
+      {id:"survival",title:"Long-duration survival tests",html:"<p>Equipment remained through dust, darkness, thermal cycling, communications loss, and repeated restart. A machine that worked during a short demonstration did not qualify a settlement system. Survey assets accumulated maintenance histories and identified parts that required redundancy or easier replacement.</p>"},
+      {id:"resources",title:"Resource reconnaissance",html:"<p>The survey sought usable shielding material, construction aggregate, oxygen-bearing regolith, and routes to regional resource installations. It did not establish that Kaguya itself possessed every resource needed by the wider Japanese lunar economy.</p><p>The separate <a href='japanese-lunar-polar-power-station.html'>north-polar power and mining station</a> remained a regional utility whose exact distance and relationship to the base are unsettled.</p>"},
+      {id:"authority",title:"Authority and participation",html:"<p>Associated-state stations, specialists, and instruments could contribute to mapping and analysis under the Co-Prosperity technical system. Japan retained mission certification, sensitive navigation data, final site selection, and command keys.</p>"},
+      {id:"handover",title:"Handover to construction",html:"<p>The survey did not end when a site was selected. Its beacons, maps, hazard registers, and surviving machines became inputs to cargo placement and remote construction. Later crews inherited an operating record rather than an untouched landscape.</p>"}
+    ],
+    related:[{href:"kaguya-cargo-prepositioning-program.html",kicker:"Next phase",label:"Kaguya Cargo Prepositioning Program"},{href:"kaguya-autonomous-construction-system.html",kicker:"Site preparation",label:"Kaguya Autonomous Construction System"},{href:"imperial-deep-space-network.html",kicker:"Command network",label:"Imperial Deep-Space Network"}],
+    facts:[["Period","Late 1980s–1990s"],["Operator","Japanese imperial space system"],["Principal assets","Orbiters, relays, landers, rovers, beacons"],["Primary purpose","Engineering survey for permanent occupation"],["Orbital support","Hōrai"],["Final authority","Japanese"],["Exact site","Open"],["Successor phase","Cargo prepositioning and construction"]]
+  }),
+
+  "kaguya-cargo-prepositioning-program":kaguyaSystemsArticle({
+    slug:"kaguya-cargo-prepositioning-program",title:"Kaguya Cargo Prepositioning Program",infoboxTitle:"Kaguya cargo prepositioning",
+    lead:"The Kaguya Cargo Prepositioning Program delivered power, shelter, communications, stores, construction equipment, and replacement hardware to the future lunar base before its permanent crew arrived. Automated landers placed the elements in a surveyed operating area and allowed the system to be checked through more than one environmental cycle.",
+    canon:"Years of cargo prepositioning, automated delivery of power and shelter, delivery before permanent habitation, surveyed landing areas, machine checkout, and transition into the late-1990s base are established. Campaign name, individual flights, lander designs, payload masses, exact sequence, losses, manufacturers, and associated-state cargo shares remain open.",
+    sections:[
+      {id:"purpose",title:"Purpose",html:"<p>Japan accepted launch and hardware costs in order to move risk away from the first resident crew. Power, communications, environmental shelter, tools, stores, and construction machines could fail while engineers still had time to change later cargo or send replacements.</p>"},
+      {id:"sequence",title:"Delivery sequence",html:"<p>The broad order placed navigation and communications first, followed by power and protected storage, construction equipment, habitation elements, environmental machinery, and crew consumables. Exact flight order and the number of landers remain open.</p><p>Later loads could use telemetry from earlier ones to revise touchdown points and handling plans.</p>"},
+      {id:"landers",title:"Automated landers",html:"<p>Uncrewed landers performed terminal guidance against surveyed terrain and local beacons. Cargo intended for burial or assembly was positioned within reach of surface machines rather than simply delivered to the general region.</p><p>The surviving record does not fix whether one common lander family or several specialized vehicles carried the campaign.</p>"},
+      {id:"power",title:"Power and communications packages",html:"<p>Early packages energized relays, beacons, heaters, storage, and construction machines. They also established the telemetry required to judge whether later shelter and environmental equipment survived unattended operation.</p>"},
+      {id:"shelter",title:"Shelter and pressure hardware",html:"<p>Pressure modules or their principal structural elements arrived before the crew. Robotic inspection checked seals, interfaces, cable routes, thermal behavior, and the ability to maintain a controlled internal environment.</p><p>Final internal fitting could remain for astronauts while the exterior structure and shielding were prepared remotely.</p>"},
+      {id:"stores",title:"Stores and replacement equipment",html:"<p>Food, water, gases, filters, medical supplies, clothing, tools, lubricants, seals, electronic units, and spare machine parts were distributed among protected stores. Separation reduced the chance that one landing accident or pressure failure would remove every reserve.</p>"},
+      {id:"checkout",title:"Uncrewed checkout",html:"<p>Loaded systems operated through repeated thermal and power cycles. Controllers compared commanded and measured performance, exercised valves and mechanisms, and inspected the site after faults or communication interruptions.</p><p>A successful checkout demonstrated survival and recoverability. It did not prove that the base could operate indefinitely without terrestrial resupply.</p>"},
+      {id:"crew",title:"Readiness for permanent occupation",html:"<p>The first permanent crew arrived after navigation, power, shelter, communications, and essential stores had already produced operational records. Astronauts still faced commissioning work and unknown failures, but they did not begin with an empty landing site.</p>"}
+    ],
+    related:[{href:"kaguya-robotic-survey-program.html",kicker:"Preceding phase",label:"Kaguya Robotic Survey Program"},{href:"kaguya-autonomous-construction-system.html",kicker:"Cargo handling",label:"Kaguya Autonomous Construction System"},{href:"kaguya-power-environmental-systems.html",kicker:"Commissioned utilities",label:"Kaguya Power and Environmental Systems"}],
+    facts:[["Period","1990s"],["Method","Automated landings before permanent crew"],["First services","Navigation, communications, and power"],["Major cargo","Shelter, construction equipment, stores, spares"],["Checkout","Multiple unattended environmental cycles"],["Permanent occupation","Late 1990s"],["Individual flight names","Open"],["Payload totals","Open"]]
+  }),
+
+  "kaguya-autonomous-construction-system":kaguyaSystemsArticle({
+    slug:"kaguya-autonomous-construction-system",title:"Kaguya Autonomous Construction System",infoboxTitle:"Kaguya autonomous construction system",
+    lead:"The Kaguya Autonomous Construction System was the group of remotely supervised lunar machines that prepared landing surfaces, moved cargo, excavated shielding material, buried or banked habitation modules, and maintained the future base before continuous human occupation. Its autonomy was bounded by surveyed work zones, machine rules, and human authorization.",
+    canon:"Robotic preparation of the pad, burial or shielding of modules, remote manipulation, construction before human arrival, Hōrai and terrestrial supervision, and machine survival testing are established. Vehicle types, manufacturers, fleet size, autonomy level, excavation volumes, construction dates, and losses remain open.",
+    sections:[
+      {id:"system",title:"A supervised machine workforce",html:"<p>The system combined haulers, manipulators, grading or excavation machines, inspection units, fixed cameras, beacons, and tool or charging points as required by each task. The exact fleet is not fixed.</p><p>Machines executed bounded plans locally and stopped safely when loads, terrain, communications, or position fell outside approved limits.</p>"},
+      {id:"pad",title:"Landing-zone preparation",html:"<p>Robots surveyed and cleared designated touchdown and cargo areas, marked hazards, compacted or graded working surfaces where practical, and emplaced navigation references. Prepared zones reduced debris and access problems without becoming terrestrial-style concrete runways.</p>"},
+      {id:"handling",title:"Cargo recovery and placement",html:"<p>Manipulators and haulers moved equipment away from landers, placed stores in separated locations, connected power or communications where interfaces allowed, and positioned modules for later shielding and assembly.</p><p>Every handling plan accounted for low gravity, inertia, regolith traction, limited visibility, and the consequences of a damaged connector that no person could immediately replace.</p>"},
+      {id:"shielding",title:"Excavation and shielding",html:"<p>Machines cut shallow works, moved regolith, and banked or buried pressure modules to reduce radiation exposure and thermal variation. Shielding was an engineering layer around delivered structures rather than a wholly excavated underground city.</p>"},
+      {id:"interfaces",title:"Standard interfaces",html:"<p>Lifting points, tow fittings, cable connectors, fluid couplings, fiducials, and tool access had to be recognizable to several machines. A component difficult for a robot to grasp or inspect was unsuitable for the uncrewed phase even if it could be handled easily by astronauts.</p>"},
+      {id:"control",title:"Control through Hōrai and Earth",html:"<p>Japanese ground centers prepared work plans, while Hōrai contributed communications, robotics supervision, and failure triage. Surface machines retained enough local control to hold loads, avoid known hazards, and enter safe states during interruption.</p>"},
+      {id:"failure",title:"Failure and recovery",html:"<p>Redundant routes, tow points, accessible modules, and spare manipulators mattered because a failed machine could block the work area. Survey units inspected stalled equipment before controllers committed another vehicle to recovery.</p><p>Not every failure had to be repaired before crew arrival. Unsafe or inaccessible machines could be isolated and recorded.</p>"},
+      {id:"handover",title:"Human handover",html:"<p>The first residents inherited prepared surfaces, shielded modules, connected utilities, stored cargo, and a detailed construction log. They also inherited machines requiring overhaul, improvised interfaces, and unfinished work that remote controllers had deferred.</p>"}
+    ],
+    related:[{href:"kaguya-robotic-survey-program.html",kicker:"Survey inputs",label:"Kaguya Robotic Survey Program"},{href:"kaguya-cargo-prepositioning-program.html",kicker:"Delivered hardware",label:"Kaguya Cargo Prepositioning Program"},{href:"machine-first-space-doctrine.html",kicker:"Operating doctrine",label:"Machine-First Space Doctrine"}],
+    facts:[["Period","1990s"],["Function","Pad preparation, cargo handling, shielding, inspection"],["Control","Bounded local autonomy with human supervision"],["Orbital support","Hōrai"],["Primary material","Local regolith"],["Human arrival","After construction checkout"],["Fleet size","Open"],["Excavation totals","Open"]]
+  }),
+
+  "kaguya-power-environmental-systems":kaguyaSystemsArticle({
+    slug:"kaguya-power-environmental-systems",title:"Kaguya Power and Environmental Systems",infoboxTitle:"Kaguya power and environmental systems",
+    lead:"The power and environmental systems of Kaguya Base supplied electricity, thermal control, radiation protection, air and water recovery, waste processing, hydroponic research, medical monitoring, and emergency refuge for continuous occupation. They extended Japanese experience from Hōrai and the 1985–1986 Raumhafen modules into a surface installation whose first operating history was recorded before residents arrived.",
+    canon:"Prepositioned power and shelter, closed-cycle environmental experience, hydroponics, long-duration medicine, buried or shielded modules, continuous late-1990s occupation, and a relationship to the wider Japanese polar utility are established. Kaguya's exact generating mix, output, storage, local resource use, recovery rates, agricultural volume, module layout, and connection to the north-polar station remain open.",
+    sections:[
+      {id:"power",title:"Base power",html:"<p>Power packages operated before permanent occupation and supported communications, heating, construction, environmental checkout, and protected stores. The surviving canon does not fix whether Kaguya's final primary supply was solar, reactor, imported from a regional utility, or a combination.</p><p>Critical life-support loads had local storage and a separated emergency supply regardless of the main arrangement.</p>"},
+      {id:"polar",title:"Relationship to the polar utility",html:"<p>The <a href='japanese-lunar-polar-power-station.html'>north-polar power station</a> provided solar generation, storage, reactor backup, mining, and directed transmission to parts of the Japanese lunar system. Kaguya remained the principal inhabited national base.</p><p>The sites should not be treated as one installation. Their distance, transmission capacity, and ownership relationship remain open.</p>"},
+      {id:"thermal",title:"Thermal control and shielding",html:"<p>Radiators, insulation, heaters, heat exchangers, buried service runs, and regolith shielding controlled temperature and radiation exposure. Exterior machines and cables remained more exposed and required inspection after thermal cycles.</p>"},
+      {id:"air-water",title:"Air and water recovery",html:"<p>Environmental machinery recovered water, removed carbon dioxide and contaminants, managed humidity, regenerated or replaced consumable beds, and monitored compartment quality. The system reduced resupply mass without making the base materially independent of Earth.</p>"},
+      {id:"hydroponics",title:"Hydroponics",html:"<p>Hydroponic spaces supplied fresh vegetables, limited calories, air-and-water-cycle research, seed preservation, and psychological benefit. Lighting power, nutrients, crop failures, pollination, waste conversion, and limited volume prevented a compact installation from claiming complete food independence.</p>"},
+      {id:"waste",title:"Waste and stores",html:"<p>Solid waste was sorted among recoverable material, biological processing, stabilized storage, and return or disposal. Filters, nutrients, trace chemicals, medicines, seals, pumps, and electronic units remained part of regular cargo planning.</p>"},
+      {id:"medicine",title:"Medicine and crew monitoring",html:"<p>Long-duration medical practice drew upon Kōbō–Hōrai and the Japanese life-science module at the Raumhafen. Crew health monitoring emphasized bone, muscle, cardiovascular, balance, radiation, sleep, and confinement effects.</p>"},
+      {id:"safe-haven",title:"Isolation and safe haven",html:"<p>Pressure zones, fire boundaries, emergency breathing supplies, radiation refuge, and the ability to shed nonessential loads allowed the crew to survive a local failure while controllers assessed repairs. Prepositioned stores were divided so one damaged compartment did not contain every reserve.</p>"}
+    ],
+    related:[{href:"kaguya-cargo-prepositioning-program.html",kicker:"Delivery and checkout",label:"Kaguya Cargo Prepositioning Program"},{href:"japanese-lunar-polar-power-station.html",kicker:"Regional utility",label:"Japanese Lunar Polar Power Station"},{href:"horai-hydroponics-environmental-systems.html",kicker:"Orbital precursor",label:"Hōrai Hydroponics and Environmental Systems"}],
+    facts:[["Service","Continuous lunar habitation"],["Precursor","Hōrai and Japanese Raumhafen modules"],["Protection","Regolith shielding and zoned refuge"],["Life support","Closed-cycle air and water recovery"],["Food production","Supplementary hydroponics"],["External utility","North-polar station; exact link open"],["Primary generating mix","Open"],["Food independence","Not achieved"]]
+  }),
+
+  "kaguya-command-participation":kaguyaSystemsArticle({
+    slug:"kaguya-command-participation",title:"Command and Participation at Kaguya Base",infoboxTitle:"Kaguya command and participation",
+    lead:"Command and participation at Kaguya Base followed the mature Co-Prosperity space order: the installation was legally presented as a Sphere undertaking, but Japanese agencies retained operational command, most residents were Japanese, and other nationalities entered through designated scientific, technical, or political seats rather than equal ownership.",
+    canon:"Legal Co-Prosperity status, a Japanese resident majority, Japanese operational command and symbolism, designated associated-state seats, participation without equal ownership, Hōrai support, and public use of Kaguya as a Sphere achievement under Japanese leadership are established. Founding charter, ministries, commander list, seat allocations, company shares, national totals, local civil law, and post-2000 reforms remain open.",
+    sections:[
+      {id:"status",title:"Legal status",html:"<p>Kaguya was described as a Co-Prosperity installation rather than an exclusively metropolitan possession. This status permitted associated-state missions, institutions, firms, and public claims of participation.</p><p>It did not create a federal lunar authority or equal sovereign shares in the base.</p>"},
+      {id:"command",title:"Operational command",html:"<p>A Japanese commander and Japanese-certified control system held final authority over landing traffic, pressure safety, power, communications, robotics, emergency action, and access to sensitive navigation or defense information. Hōrai and terrestrial centers remained above the surface command in the wider operational chain.</p>"},
+      {id:"agencies",title:"Agencies and firms",html:"<p>Imperial space institutions set program direction and certified missions. Zaibatsu and national-policy enterprises supplied landers, machines, power, communications, transport, scientific hardware, and service personnel within that state framework.</p><p>Commercial contracts did not confer independent political authority.</p>"},
+      {id:"seats",title:"Designated associated-state seats",html:"<p>Scientists, physicians, engineers, operators, and observers from associated states entered through allocated missions or seats. Their access could be scientific, technical, diplomatic, or symbolic. Most permanent residents and decisive technical posts remained Japanese.</p>"},
+      {id:"work",title:"Work allocation",html:"<p>Associated institutions could provide instruments, analysis, tracking, biological research, materials work, or specialized equipment. Japan retained integration, safety certification, mission keys, and the power to accept or reject hardware.</p><p>Exact national workshares are not fixed and should not be inferred from participation aboard Hōrai.</p>"},
+      {id:"procedure",title:"Language and procedure",html:"<p>Japanese was the principal command and operating language. Standard forms, translated procedures, interface labels, and joint training allowed approved specialists to work inside the system. Emergency vocabulary and machine states received particular standardization.</p>"},
+      {id:"science",title:"Data and scientific return",html:"<p>Mission partners received agreed data, samples, publications, training, and public credit. Strategic maps, detailed operating information, certification records, and some communications remained under Japanese control.</p>"},
+      {id:"public",title:"Public presentation",html:"<p>Broadcasts presented Kaguya as proof that Japan had prepared a safe road for the peoples of Greater East Asia. Associated specialists appeared within the narrative, while the commander, central ceremonies, and principal symbols emphasized imperial leadership.</p>"},
+      {id:"emergency",title:"Emergency authority",html:"<p>During pressure, power, landing, fire, medical, or communications emergencies, immediate command followed the Japanese safety chain regardless of nationality or employer. Employment, pensions, publication rights, and diplomatic claims could be argued after the installation returned to a safe condition.</p>"}
+    ],
+    related:[{href:"society-kaguya-base.html",kicker:"Everyday community",label:"Society of Kaguya Base"},{href:"horai-orbital-command-center.html",kicker:"Superior node",label:"Hōrai Orbital Command Center"},{href:"greater-east-asia-technical-charter.html",kicker:"Sphere framework",label:"Greater East Asia Technical Charter"},{href:"imperial-space-development-agency.html",kicker:"Japanese authority",label:"Imperial Space Development Agency"}],
+    facts:[["Legal description","Co-Prosperity installation"],["Operational authority","Japanese"],["Resident majority","Japanese"],["Associated participation","Designated scientific, technical, and political seats"],["Equal ownership","No"],["Orbital command support","Hōrai"],["Principal operating language","Japanese"],["Founding charter and seat totals","Open"]]
+  })
+});
+
+const kaguyaBaseArticle = window.deepArticles["kaguya-base"];
+if (kaguyaBaseArticle) {
+  kaguyaBaseArticle.landscape = kaguyaLandscape;
+  if (!kaguyaBaseArticle.sections.some(section=>section.id==="machine-first-sequence")) {
+    kaguyaBaseArticle.sections.push({
+      id:"machine-first-sequence",title:"Machine-first settlement sequence",html:"<p>Kaguya developed through a documented five-stage sequence: <a href='kaguya-robotic-survey-program.html'>orbital mapping and machine site inspection</a>; <a href='kaguya-cargo-prepositioning-program.html'>automated delivery of power, shelter, and stores</a>; <a href='kaguya-autonomous-construction-system.html'>pad preparation and module shielding</a>; unattended checkout of <a href='kaguya-power-environmental-systems.html'>power and environmental systems</a>; and permanent occupation under <a href='kaguya-command-participation.html'>Japanese command with designated associated-state participation</a>.</p>"
+    });
+  }
+  for (const item of [
+    {href:"kaguya-robotic-survey-program.html",kicker:"Phase one",label:"Robotic Survey Program"},
+    {href:"kaguya-cargo-prepositioning-program.html",kicker:"Phase two",label:"Cargo Prepositioning Program"},
+    {href:"kaguya-autonomous-construction-system.html",kicker:"Phase three",label:"Autonomous Construction System"},
+    {href:"kaguya-power-environmental-systems.html",kicker:"Habitation utilities",label:"Power and Environmental Systems"},
+    {href:"kaguya-command-participation.html",kicker:"Institutional order",label:"Command and Participation"}
+  ]) if (!kaguyaBaseArticle.related.some(existing=>existing.href===item.href)) kaguyaBaseArticle.related.unshift(item);
+}

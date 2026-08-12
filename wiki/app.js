@@ -49,6 +49,11 @@ const pages = [
   { title: "Jenin", description: "Northern market, agricultural, refugee, and frontier center", href: "jenin.html", tags: "Jenin Jordan Palestine northern gateway frontier refugee camp agriculture" },
   { title: "National Renewal", description: "The American mass party from Lindbergh and Rockwell through Buchanan government and the 1993 schism", href: "national-renewal.html", tags: "National Renewal party Lindbergh Rockwell Buchanan Omaha Rules Harwood schism" },
   { title: "Consumer Technology", description: "Appliances, broadcasting, vehicles, electronics, household computing, telecommunications, standards, and repair", href: "consumer-technology.html", tags: "consumer technology appliances television automobiles audio video cameras games household computing telecommunications repair" },
+  { title: "Kaguya Robotic Survey Program", description: "Orbiters, relays, landers, rovers, and engineering surveys that qualified Japan's permanent lunar site", href: "kaguya-robotic-survey-program.html", tags: "Kaguya robotic survey program Japan Moon orbiters landers rovers site selection" },
+  { title: "Kaguya Cargo Prepositioning Program", description: "Automated delivery of power, shelter, stores, and construction equipment before permanent occupation", href: "kaguya-cargo-prepositioning-program.html", tags: "Kaguya cargo prepositioning automated landers power shelter stores lunar base" },
+  { title: "Kaguya Autonomous Construction System", description: "Remotely supervised machines for landing zones, cargo handling, excavation, and shielding", href: "kaguya-autonomous-construction-system.html", tags: "Kaguya autonomous construction system robots landing pad regolith shielding cargo" },
+  { title: "Kaguya Power and Environmental Systems", description: "Power, thermal control, shielding, air, water, hydroponics, medicine, and emergency refuge", href: "kaguya-power-environmental-systems.html", tags: "Kaguya power environmental systems life support hydroponics medicine radiation Moon" },
+  { title: "Command and Participation at Kaguya Base", description: "Japanese command, Co-Prosperity legal status, and designated associated-state seats", href: "kaguya-command-participation.html", tags: "Kaguya command participation GEACPS Japan associated state seats lunar governance" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -8100,6 +8105,11 @@ const crossLinks = [
   ,{ href: "jenin.html", terms: ["Jenin"] }
   ,{ href: "national-renewal.html", terms: ["National Renewal"] }
   ,{ href: "consumer-technology.html", terms: ["consumer technology", "consumer technologies"] }
+  ,{ href: "kaguya-robotic-survey-program.html", terms: ["Kaguya Robotic Survey Program", "Kaguya robotic survey"] }
+  ,{ href: "kaguya-cargo-prepositioning-program.html", terms: ["Kaguya Cargo Prepositioning Program", "Kaguya cargo prepositioning"] }
+  ,{ href: "kaguya-autonomous-construction-system.html", terms: ["Kaguya Autonomous Construction System", "Kaguya autonomous construction"] }
+  ,{ href: "kaguya-power-environmental-systems.html", terms: ["Kaguya Power and Environmental Systems", "Kaguya environmental systems"] }
+  ,{ href: "kaguya-command-participation.html", terms: ["Command and Participation at Kaguya Base", "Kaguya command and participation"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 

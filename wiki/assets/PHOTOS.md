@@ -646,3 +646,9 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | File | Subject | Source and license |
 | --- | --- | --- |
 | `diagrams/national-renewal-party-system.svg` | Leadership succession, electoral turning points, organization, and factional structure of National Renewal from the late 1940s through the 1993 schism | Original archive diagram based on the cited setting corpus; project-authored SVG |
+
+## Kaguya Base machine-first settlement diagram
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/kaguya-machine-first-settlement.svg` | Japanese sequence from orbital survey and machine site inspection through cargo prepositioning, remote construction, environmental checkout, and permanent occupation at Kaguya Base | Original archive diagram based on the cited setting corpus; project-authored SVG |
