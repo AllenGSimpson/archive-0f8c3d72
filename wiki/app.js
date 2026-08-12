@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Commonwealth Caribbean Financial System", description: "Banking, insurance, settlement, company law, and development credit across the Commonwealth Caribbean", href: "commonwealth-caribbean-financial-system.html", tags: "Commonwealth Caribbean financial system banking insurance sterling Bahamas Jamaica Belize" },
+  { title: "Commonwealth Caribbean Maritime Services", description: "Shipping, ports, insurance, customs, repair, registry, and rescue in the Caribbean network", href: "commonwealth-caribbean-maritime-services.html", tags: "Commonwealth Caribbean maritime services shipping ports insurance customs" },
+  { title: "Commonwealth Caribbean Communications Network", description: "Cable, radio, broadcasting, telephone, data, and emergency communications", href: "commonwealth-caribbean-communications-network.html", tags: "Commonwealth Caribbean communications network cable radio broadcasting telecommunications" },
+  { title: "Belizean Commercial Hinterland", description: "Belize's Commonwealth-linked commercial and professional reach into mainland Central America", href: "belizean-commercial-hinterland.html", tags: "Belizean commercial hinterland Belize Central America British Commonwealth trade" },
+  { title: "American–Commonwealth Commercial Competition in the Caribbean", description: "American scale and proximity competing with Commonwealth law, finance, shipping, and sovereign positions", href: "american-commonwealth-commercial-competition-caribbean.html", tags: "American Commonwealth commercial competition Caribbean British companies" },
   { title: "Venezuelan Petroleum Order", description: "Ownership, revenue, approved operations, and security in Venezuela's post-intervention oil system", href: "venezuelan-petroleum-order.html", tags: "Venezuelan petroleum order Venezuela oil concessions American security" },
   { title: "American Advisory Mission in Venezuela", description: "Military, intelligence, communications, and petroleum-security assistance after 1966", href: "american-advisory-mission-venezuela.html", tags: "American advisory mission Venezuela military intelligence communications petroleum" },
   { title: "Strategic Access in Venezuela", description: "American air, naval, communications, petroleum-security, and contingency rights", href: "strategic-access-venezuela.html", tags: "strategic access Venezuela American air naval facilities bases" },
@@ -4021,6 +4026,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "commonwealth-caribbean-financial-system.html", terms: ["Commonwealth Caribbean financial system", "Commonwealth Caribbean finance"] },
+  { href: "commonwealth-caribbean-maritime-services.html", terms: ["Commonwealth Caribbean maritime services", "Commonwealth Caribbean shipping"] },
+  { href: "commonwealth-caribbean-communications-network.html", terms: ["Commonwealth Caribbean communications network", "Commonwealth Caribbean communications"] },
+  { href: "belizean-commercial-hinterland.html", terms: ["Belizean commercial hinterland"] },
+  { href: "american-commonwealth-commercial-competition-caribbean.html", terms: ["American–Commonwealth commercial competition in the Caribbean", "American-Commonwealth commercial competition"] },
   { href: "venezuelan-petroleum-order.html", terms: ["Venezuelan petroleum order"] },
   { href: "american-advisory-mission-venezuela.html", terms: ["American advisory mission in Venezuela", "American advisory mission"] },
   { href: "strategic-access-venezuela.html", terms: ["strategic access in Venezuela", "Venezuelan strategic access"] },
