@@ -1,4 +1,10 @@
 const pages = [
+  { title: "Politics of Extraterrestrial Settlement", description: "Five rival arguments for turning permanent bases into governed communities", href: "politics-extraterrestrial-settlement.html", tags: "politics extraterrestrial settlement comparison Germany America Japan Commonwealth Latin Moon Mars" },
+  { title: "German Extraterrestrial Settlement Policy", description: "Infrastructure-first settlement through selected households and integrated administration", href: "german-extraterrestrial-settlement-policy.html", tags: "German extraterrestrial settlement policy families infrastructure Alexander Hitler Moon Mars" },
+  { title: "American Commercial Settlement Policy", description: "Company-operated communities beneath federal registration and crisis authority", href: "american-commercial-settlement-policy.html", tags: "American commercial settlement policy corporations families Kennedy Moon Mars" },
+  { title: "Japanese Machine-Prepared Settlement Policy", description: "Robotic preparation followed by tightly selected permanent communities", href: "japanese-machine-prepared-settlement-policy.html", tags: "Japanese machine prepared settlement policy robots Kaguya Horai Mars" },
+  { title: "Commonwealth Sovereign Settlement Policy", description: "British-led sovereign access organized through Commonwealth public service", href: "commonwealth-sovereign-settlement-policy.html", tags: "Commonwealth sovereign settlement policy British Serenity Greenwich Compact families" },
+  { title: "Latin Exploratory Settlement Policy", description: "Multinational scientific, exploratory, and Catholic permanent presence", href: "latin-exploratory-settlement-policy.html", tags: "Latin exploratory settlement policy Sancta Maria Lunae Catholic Ceres" },
   { title: "Chronology of the Mature Space Age", description: "The operating sequence from orbital systems in 1985 to maintained planetary routes by 2010", href: "chronology-mature-space-age.html", tags: "chronology mature space age 1985 2010 Mars Moon Ceres orbital settlements" },
   { title: "Human Expeditions to Mars", description: "German, British, American, and Japanese crewed Mars systems compared", href: "human-mars-expeditions.html", tags: "human expeditions Mars Marsplan British American Japanese 1993 1998 1999" },
   { title: "Lunar Settlements", description: "Kennedy, Mondhafen Süd, Kaguya, Serenity, and Sancta Maria Lunae", href: "lunar-settlements.html", tags: "lunar settlements Moon Kennedy Mondhafen Kaguya Serenity Sancta Maria Lunae" },
@@ -3979,6 +3985,12 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "politics-extraterrestrial-settlement.html", terms: ["politics of extraterrestrial settlement", "settlement politics beyond Earth"] },
+  { href: "german-extraterrestrial-settlement-policy.html", terms: ["German extraterrestrial settlement policy", "German settlement policy beyond Earth"] },
+  { href: "american-commercial-settlement-policy.html", terms: ["American commercial settlement policy", "American commercial settlement"] },
+  { href: "japanese-machine-prepared-settlement-policy.html", terms: ["Japanese machine-prepared settlement policy", "machine-prepared settlement"] },
+  { href: "commonwealth-sovereign-settlement-policy.html", terms: ["Commonwealth sovereign settlement policy", "Commonwealth settlement policy"] },
+  { href: "latin-exploratory-settlement-policy.html", terms: ["Latin exploratory settlement policy", "Latin settlement policy"] },
   { href: "chronology-mature-space-age.html", terms: ["chronology of the mature space age", "mature space-age chronology"] },
   { href: "human-mars-expeditions.html", terms: ["human expeditions to Mars", "human Mars expeditions"] },
   { href: "lunar-settlements.html", terms: ["lunar settlements", "principal lunar settlements"] },
