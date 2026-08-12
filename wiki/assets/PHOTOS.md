@@ -640,3 +640,9 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | File | Subject | Source and license |
 | --- | --- | --- |
 | `diagrams/bastion-india-port-network.svg` | Colombo headquarters, Trincomalee fleet fortress, Maldivian stations, and mainland treaty facilities at Karachi, Bombay, Cochin, and Madras | Original archive diagram based on the cited setting corpus and Royal Navy historical records; project-authored SVG |
+
+## National Renewal party-system diagram
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/national-renewal-party-system.svg` | Leadership succession, electoral turning points, organization, and factional structure of National Renewal from the late 1940s through the 1993 schism | Original archive diagram based on the cited setting corpus; project-authored SVG |

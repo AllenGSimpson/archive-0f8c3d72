@@ -47,6 +47,8 @@ const pages = [
   { title: "Beersheba", description: "Jordanian administrative and military center of the Negev", href: "beersheba.html", tags: "Beersheba Bir al Sab Jordan Palestine Negev Bedouin garrison Gaza Aqaba" },
   { title: "Gaza City", description: "Capital of Jordan's Gaza province and its refugee belt", href: "gaza-city.html", tags: "Gaza City Ghazza Jordan Palestine provincial capital refugees port fishing" },
   { title: "Jenin", description: "Northern market, agricultural, refugee, and frontier center", href: "jenin.html", tags: "Jenin Jordan Palestine northern gateway frontier refugee camp agriculture" },
+  { title: "National Renewal", description: "The American mass party from Lindbergh and Rockwell through Buchanan government and the 1993 schism", href: "national-renewal.html", tags: "National Renewal party Lindbergh Rockwell Buchanan Omaha Rules Harwood schism" },
+  { title: "Consumer Technology", description: "Appliances, broadcasting, vehicles, electronics, household computing, telecommunications, standards, and repair", href: "consumer-technology.html", tags: "consumer technology appliances television automobiles audio video cameras games household computing telecommunications repair" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -5133,7 +5135,7 @@ const crossLinks = [
   { href: "hindustani-military-industry.html", terms: ["military industry of Hindustan", "Hindustani military industry"] },
   { href: "hyderabadi-arms-industry.html", terms: ["arms industry of Hyderabad", "Hyderabadi arms industry"] },
   { href: "russian-technical-communities-india.html", terms: ["Russian technical communities in India", "Russian technical communities"] },
-  { href: "american-parties.html", terms: ["Political parties in the United States", "American political parties", "Democratic-Republican Party", "Democratic-Republicans", "National Renewal", "party system"] },
+  { href: "american-parties.html", terms: ["Political parties in the United States", "American political parties", "Democratic-Republican Party", "Democratic-Republicans", "party system"] },
   { href: "american-elections.html", terms: ["Stolen Mandate", "American presidential elections"] },
   { href: "presidents.html", terms: ["List of Presidents of the United States", "presidential succession", "presidential sequence"] },
   { href: "james-f-byrnes.html", terms: ["James F. Byrnes", "President Byrnes"] },
@@ -8096,6 +8098,8 @@ const crossLinks = [
   ,{ href: "beersheba.html", terms: ["Beersheba", "Biʾr al-Sabʿ"] }
   ,{ href: "gaza-city.html", terms: ["Gaza City", "Ghazza"] }
   ,{ href: "jenin.html", terms: ["Jenin"] }
+  ,{ href: "national-renewal.html", terms: ["National Renewal"] }
+  ,{ href: "consumer-technology.html", terms: ["consumer technology", "consumer technologies"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 
