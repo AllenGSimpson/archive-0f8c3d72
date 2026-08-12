@@ -3188,6 +3188,11 @@ const pages = [
   { title: "Orbital Hydroponics", description: "Controlled cultivation for food, environmental research, and emergency supply", href: "orbital-hydroponics.html", tags: "orbital hydroponics food life support agriculture horai station" },
   { title: "Orbital Service Workforce", description: "The technical and domestic labor behind permanent space infrastructure", href: "orbital-service-workforce.html", tags: "orbital service workforce labor technicians cargo maintenance life support" },
   { title: "Strategic Stability in Space", description: "The protected functions and escalation risks that contain orbital conflict", href: "strategic-stability-in-space.html", tags: "strategic stability space orbital conflict firebreak satellites life support warning" },
+  { title: "Orbital Target Classification", description: "The escalation grammar separating bounded military targets from warning, rescue, dual-use, and inhabited systems", href: "orbital-target-classification.html", tags: "orbital target classification military satellite dual use warning inhabited escalation" },
+  { title: "Protection of Inhabited Space Installations", description: "Life-support protection and bounded coercion around crewed stations and settlements", href: "inhabited-space-installation-protection.html", tags: "inhabited space installations protection life support station settlement geneva" },
+  { title: "Orbital Debris and Neutral Harm", description: "Persistent fragment hazards, third-party exposure, debris-limited attack, and unresolved liability", href: "orbital-debris-neutral-harm.html", tags: "orbital debris neutral harm liability interception fragmentation stockholm" },
+  { title: "Space-Crisis Notification", description: "Notices, transponders, hotlines, and direct channels for ambiguous orbital operations", href: "space-crisis-notification.html", tags: "space crisis notification notice transponder hotline approach deorbit geneva" },
+  { title: "Sovereign Space-Transport Redundancy", description: "The substitute capacity separating commercial optimization from strategic dependence", href: "sovereign-space-transport-redundancy.html", tags: "sovereign space transport redundancy strategic dependence commercial optimization carrier" },
   { title: "Space Medicine", description: "The medical discipline sustaining orbital, lunar, and planetary life", href: "space-medicine.html", tags: "space medicine aerospace medical long duration health crew settlement" },
   { title: "Environmental Control and Life Support", description: "Air, water, pressure, thermal, sanitation, and waste systems beyond Earth", href: "environmental-control-life-support.html", tags: "environmental control life support eclss air water pressure waste closed cycle" },
   { title: "Space Radiation Protection", description: "Forecasting, shielding, refuges, dosimetry, and exposure management", href: "space-radiation-protection.html", tags: "space radiation protection shielding refuge solar storm dosimetry" },
@@ -3805,6 +3810,7 @@ const topicNav = [
   ["War of the Chiefs", "war-of-the-chiefs.html"],
   ["Tehran Concord", "tehran-concord.html"],
   ["Space Race", "space-programs.html"],
+  ["Orbital Restraint", "strategic-stability-in-space.html"],
   ["Orbital Stations", "orbital-stations.html"],
   ["Ideologies & Parties", "ideologies.html"],
   ["Major Characters", "characters.html"],
@@ -6847,6 +6853,11 @@ const crossLinks = [
   ,{ href: "orbital-hydroponics.html", terms: ["orbital hydroponics", "hydroponic modules", "hydroponics modules"] }
   ,{ href: "orbital-service-workforce.html", terms: ["orbital service workforce", "technical service class"] }
   ,{ href: "strategic-stability-in-space.html", terms: ["strategic stability in space", "orbital firebreak"] }
+  ,{ href: "orbital-target-classification.html", terms: ["orbital target classification", "orbital target classes", "target classification in space"] }
+  ,{ href: "inhabited-space-installation-protection.html", terms: ["protection of inhabited space installations", "inhabited installation protection", "life-support protection"] }
+  ,{ href: "orbital-debris-neutral-harm.html", terms: ["orbital debris and neutral harm", "neutral harm from orbital debris", "debris-producing attack"] }
+  ,{ href: "space-crisis-notification.html", terms: ["space-crisis notification", "space crisis notification", "orbital crisis notification"] }
+  ,{ href: "sovereign-space-transport-redundancy.html", terms: ["sovereign space-transport redundancy", "sovereign transport redundancy", "commercial optimization and strategic dependence"] }
   ,{ href: "space-medicine.html", terms: ["space medicine", "aerospace medicine"] }
   ,{ href: "environmental-control-life-support.html", terms: ["environmental control and life support", "environmental-control and life-support", "life-support systems"] }
   ,{ href: "space-radiation-protection.html", terms: ["space radiation protection", "radiation protection", "radiation refuge"] }
