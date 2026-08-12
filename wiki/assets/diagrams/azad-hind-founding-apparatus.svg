@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Four non-army founding institutions of Azad Hind</title>
+  <desc id="desc">Diagram showing how the Indian Independence League, Azad Hind Dal, Azad Hind Bank, and Rani of Jhansi organization support the Provisional Government of Free India.</desc>
+  <defs><style>
+    .bg{fill:#11150f}.panel{fill:#1c2118;stroke:#837647;stroke-width:2}.core{fill:#292719;stroke:#c6a853;stroke-width:3}.line{stroke:#8e7e4d;stroke-width:4;fill:none}.h{font:700 34px Georgia,serif;fill:#f2ead7}.k{font:700 16px Arial,sans-serif;letter-spacing:2px;fill:#d3b45d}.o{font:700 21px Arial,sans-serif;fill:#f2ecdf}.t{font:17px Arial,sans-serif;fill:#d6d2c5}.s{font:15px Arial,sans-serif;fill:#a7a89e}.dot{fill:#d3b45d}
+  </style></defs>
+  <rect class="bg" width="1200" height="720"/>
+  <text class="k" x="60" y="57">AZAD HIND · A GOVERNMENT BEFORE A TERRITORY</text>
+  <text class="h" x="60" y="100">The founding state apparatus</text>
+
+  <rect class="panel" x="60" y="150" width="455" height="165" rx="9"/>
+  <text class="k" x="88" y="188">POLITICAL NETWORK</text><text class="o" x="88" y="226">Indian Independence League</text>
+  <text class="t" x="88" y="263">diaspora · fundraising · recruitment</text><text class="s" x="88" y="291">propaganda · overseas liaison · commerce</text>
+
+  <rect class="panel" x="685" y="150" width="455" height="165" rx="9"/>
+  <text class="k" x="713" y="188">CIVIL AFFAIRS</text><text class="o" x="713" y="226">Azad Hind Dal</text>
+  <text class="t" x="713" y="263">administration · utilities · public health</text><text class="s" x="713" y="291">food · law and order · reconstruction</text>
+
+  <rect class="core" x="355" y="350" width="490" height="120" rx="10"/>
+  <text class="k" x="455" y="389">PROVISIONAL GOVERNMENT</text>
+  <text class="h" x="407" y="432">Free India becomes a state</text>
+  <text class="s" x="466" y="458">army · executive · national claim</text>
+
+  <path class="line" d="M288 315 V382 H355"/><circle class="dot" cx="355" cy="382" r="7"/>
+  <path class="line" d="M912 315 V382 H845"/><circle class="dot" cx="845" cy="382" r="7"/>
+
+  <rect class="panel" x="60" y="505" width="455" height="155" rx="9"/>
+  <text class="k" x="88" y="543">PUBLIC FINANCE</text><text class="o" x="88" y="581">Azad Hind Bank</text>
+  <text class="t" x="88" y="618">subscriptions · currency · government funds</text><text class="s" x="88" y="645">reconstruction · veterans · development credit</text>
+
+  <rect class="panel" x="685" y="505" width="455" height="155" rx="9"/>
+  <text class="k" x="713" y="543">WOMEN'S NATIONAL SERVICE</text><text class="o" x="713" y="581">Rani of Jhansi organization</text>
+  <text class="t" x="713" y="618">military service · medicine · communications</text><text class="s" x="713" y="645">logistics · civil defense · public citizenship</text>
+
+  <path class="line" d="M288 505 V438 H355"/><circle class="dot" cx="355" cy="438" r="7"/>
+  <path class="line" d="M912 505 V438 H845"/><circle class="dot" cx="845" cy="438" r="7"/>
+  <text class="s" x="60" y="696">Institutional relationships after 1947 are established in outline; statutes, memberships, leadership rosters, and final legal forms remain open.</text>
+</svg>

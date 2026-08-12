@@ -125,6 +125,14 @@ These portraits were selected near the 1945–1946 divergence so that the biogra
 | `portraits/georgy-zhukov.jpg` | Georgy Zhukov, 1945 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zhukov-LIFE-1944-1945_cropped.jpg), Grigory Vayl; U.S. publication not renewed |
 | `portraits/nikita-khrushchev.jpg` | Nikita Khrushchev, c. 1948 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nikita_Khrushchev_TASS_Portrait_Trim_Edit_Crop.jpg), G. Weil / TASS; public-domain status recorded on Commons |
 
+## Azad Hind founding-institution diagram
+
+This original vector diagram separates the non-army institutions that accompanied the Provisional Government into India. It summarizes functions established in the master transcript and historical record without fixing the institutions' unsettled post-1947 statutes, membership, leadership, finances, or final ministry relationships.
+
+| File | Subject | Basis |
+| --- | --- | --- |
+| `diagrams/azad-hind-founding-apparatus.svg` | Political, civil-affairs, financial, and women's-service apparatus | Indian Independence League, Azad Hind Dal, Azad Hind Bank, and Rani of Jhansi organization |
+
 ## Soviet-industrial-diaspora diagrams
 
 These original vector reconstructions summarize institutional and technical relationships established by the Setting Bible, Setting Timeline, land-armaments reference, and master transcript. They do not lock exact migration routes, vehicle geometry, factory locations, production totals, or component interchangeability.
