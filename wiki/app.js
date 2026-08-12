@@ -3281,6 +3281,11 @@ const pages = [
   { title: "Heliocentric Observatory Network", description: "The distributed solar-weather and heliophysics system protecting mature space operations", href: "heliocentric-observatory-network.html", tags: "heliocentric observatory network sun solar weather heliophysics radiation" },
   { title: "Asteroid-Belt Survey Network", description: "Survey craft, navigation references, relays, and resource prospecting from near-Earth space to Ceres and Vesta", href: "asteroid-belt-survey-network.html", tags: "asteroid belt survey network ceres vesta navigation resources water beacons" },
   { title: "Exploration of the Outer Solar System", description: "First arrivals, gravity-assist flybys, and rare possible orbiters beyond the asteroid belt", href: "outer-solar-system-exploration.html", tags: "outer solar system exploration jupiter saturn uranus neptune gravity assist flyby" },
+  { title: "Exploration of Jupiter", description: "Later-2000s robotic arrivals at the first major outer-planet destination", href: "exploration-of-jupiter.html", tags: "jupiter exploration jovian probes flyby orbiter radiation moons gravity assist" },
+  { title: "Exploration of Saturn", description: "Later-2000s reconnaissance of Saturn, its rings, magnetic environment, and moons", href: "exploration-of-saturn.html", tags: "saturn exploration probes flyby orbiter rings moons gravity assist" },
+  { title: "Exploration of Uranus", description: "Long-duration ice-giant mission planning whose post-divergence arrival remains open", href: "exploration-of-uranus.html", tags: "uranus exploration ice giant probe rings moons long duration" },
+  { title: "Exploration of Neptune", description: "Long-duration reconnaissance planning for Neptune and Triton", href: "exploration-of-neptune.html", tags: "neptune exploration triton ice giant probe long duration" },
+  { title: "Outer-Planet Probe Systems", description: "Power, thermal, navigation, communications, autonomy, and scientific systems for distant probes", href: "outer-planet-probe-systems.html", tags: "outer planet probe systems spacecraft autonomy communications power thermal navigation science" },
   { title: "Union Commonwealth Party", description: "Mosley's post-defeat corporatist party of planned Commonwealth interdependence", href: "union-commonwealth-party.html", tags: "union commonwealth party uc mosley britain corporatism planned interdependence" },
   { title: "Oswald Mosley", description: "Founder of British Union and post-defeat leader of Union Commonwealth", href: "oswald-mosley.html", tags: "oswald mosley british union fascism union commonwealth politician" },
   { title: "British Union", description: "The prewar fascist movement that preceded Union Commonwealth", href: "british-union.html", tags: "british union fascists buf blackshirts mosley flash circle predecessor" },
@@ -6091,6 +6096,11 @@ const crossLinks = [
   ,{ href: "heliocentric-observatory-network.html", terms: ["Heliocentric Observatory Network", "heliocentric observatory network"] }
   ,{ href: "asteroid-belt-survey-network.html", terms: ["Asteroid-Belt Survey Network", "asteroid-belt survey network"] }
   ,{ href: "outer-solar-system-exploration.html", terms: ["exploration of the outer Solar System", "outer Solar System exploration", "outer-planet exploration"] }
+  ,{ href: "exploration-of-jupiter.html", terms: ["exploration of Jupiter", "Jupiter exploration", "Jovian exploration"] }
+  ,{ href: "exploration-of-saturn.html", terms: ["exploration of Saturn", "Saturn exploration", "Saturnian exploration"] }
+  ,{ href: "exploration-of-uranus.html", terms: ["exploration of Uranus", "Uranus exploration"] }
+  ,{ href: "exploration-of-neptune.html", terms: ["exploration of Neptune", "Neptune exploration"] }
+  ,{ href: "outer-planet-probe-systems.html", terms: ["outer-planet probe systems", "outer planet probe systems", "long-duration robotic probes"] }
   ,{ href: "american-orbital-carrier-industry.html", terms: ["American orbital-carrier industry", "American orbital carrier industry"] }
   ,{ href: "liberty-orbital-services.html", terms: ["Liberty Orbital Services", "Liberty orbital consortium", "conservative second carrier"] }
   ,{ href: "american-small-payload-launch-industry.html", terms: ["American small-payload launch industry", "American small payload launch industry", "microsatellite launch industry"] }
