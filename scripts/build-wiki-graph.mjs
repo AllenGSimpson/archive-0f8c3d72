@@ -195,38 +195,82 @@ function forceLayout(nodes, edges) {
   const ay = new Float64Array(count);
   const az = new Float64Array(count);
   const radius = Float64Array.from(nodes, (node) => node.radius);
+  const mass = Float64Array.from(nodes, (node) => node.words);
   const degree = new Uint32Array(count);
+  const adjacency = Array.from({ length: count }, () => new Set());
   for (const [source, target] of edges) {
     degree[source] += 1;
     degree[target] += 1;
+    adjacency[source].add(target);
+    adjacency[target].add(source);
   }
 
-  const initialExtent = Math.sqrt(count) * 15;
-  for (let index = 0; index < count; index += 1) {
-    const angle = hashUnit(nodes[index].href, 11) * Math.PI * 2;
-    const distance = initialExtent * (0.28 + 0.72 * Math.sqrt(hashUnit(nodes[index].href, 47)));
-    x[index] = Math.cos(angle) * distance;
-    y[index] = Math.sin(angle) * distance;
-    z[index] = 0;
+  // Seed each connected component as a loose branching tree so leaves begin
+  // near an actual neighbor. These are only starting coordinates: there is no
+  // boundary or center force in the simulation that follows.
+  const positioned = new Uint8Array(count);
+  const branchAngle = new Float64Array(count);
+  const priority = (index) => mass[index] * Math.log2(2 + adjacency[index].size);
+  const rootOrder = [...Array(count).keys()].sort((left, right) => priority(right) - priority(left) || nodes[left].href.localeCompare(nodes[right].href));
+  const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+  let component = 0;
+  for (const root of rootOrder) {
+    if (positioned[root]) continue;
+    const componentAngle = component * goldenAngle;
+    const componentDistance = component === 0 ? 0 : 110 * Math.sqrt(component);
+    x[root] = Math.cos(componentAngle) * componentDistance;
+    y[root] = Math.sin(componentAngle) * componentDistance;
+    branchAngle[root] = componentAngle;
+    positioned[root] = 1;
+    const queue = [root];
+    for (let cursor = 0; cursor < queue.length; cursor += 1) {
+      const parent = queue[cursor];
+      const children = [...adjacency[parent]]
+        .filter((neighbor) => !positioned[neighbor])
+        .sort((left, right) => priority(right) - priority(left) || nodes[left].href.localeCompare(nodes[right].href));
+      for (let childIndex = 0; childIndex < children.length; childIndex += 1) {
+        const child = children[childIndex];
+        if (positioned[child]) continue;
+        const fan = Math.min(Math.PI * 2, Math.PI * 0.72 + children.length * 0.035);
+        const fanPosition = (childIndex + 0.5) / Math.max(1, children.length) - 0.5;
+        const jitter = (hashUnit(`${nodes[parent].href}|${nodes[child].href}`, 11) - 0.5) * 0.22;
+        const angle = branchAngle[parent] + fanPosition * fan + jitter;
+        const distance = radius[parent] + radius[child] + 14 + Math.sqrt(children.length) * 5;
+        x[child] = x[parent] + Math.cos(angle) * distance;
+        y[child] = y[parent] + Math.sin(angle) * distance;
+        branchAngle[child] = angle;
+        positioned[child] = 1;
+        queue.push(child);
+      }
+    }
+    component += 1;
   }
 
-  const iterations = 320;
-  const neighborRange = 48;
+  const maximumRadius = Math.max(...radius);
+  const clearanceGap = 4;
+  const neighborRange = maximumRadius * 2 + clearanceGap + 14;
+  const gravityConstant = 8;
+  const iterations = 560;
   for (let iteration = 0; iteration < iterations; iteration += 1) {
     ax.fill(0); ay.fill(0); az.fill(0);
     const progress = iteration / (iterations - 1);
-    const attraction = 0.0075 * (0.55 + progress * 0.45);
     for (const [source, target] of edges) {
       let dx = x[target] - x[source];
       let dy = y[target] - y[source];
-      let dz = 0;
-      const distance = Math.max(0.001, Math.hypot(dx, dy, dz));
-      const ideal = radius[source] + radius[target] + 12;
-      const hubWeight = 1 / Math.sqrt(1 + Math.max(degree[source], degree[target]) * 0.08);
-      const force = (distance - ideal) * attraction * hubWeight;
-      dx /= distance; dy /= distance; dz /= distance;
-      ax[source] += dx * force; ay[source] += dy * force; az[source] += dz * force;
-      ax[target] -= dx * force; ay[target] -= dy * force; az[target] -= dz * force;
+      let distance = Math.hypot(dx, dy);
+      if (distance < 0.001) {
+        dx = hashUnit(nodes[source].href + nodes[target].href, 53) - 0.5;
+        dy = hashUnit(nodes[source].href + nodes[target].href, 59) - 0.5;
+        distance = Math.max(0.001, Math.hypot(dx, dy));
+      }
+      const clearance = radius[source] + radius[target] + clearanceGap;
+      const softening = clearance * 0.8;
+      const force = gravityConstant * mass[source] * mass[target] / (distance * distance + softening * softening);
+      const sourceAcceleration = Math.min(2.2, force / mass[source]);
+      const targetAcceleration = Math.min(2.2, force / mass[target]);
+      dx /= distance; dy /= distance;
+      ax[source] += dx * sourceAcceleration; ay[source] += dy * sourceAcceleration;
+      ax[target] -= dx * targetAcceleration; ay[target] -= dy * targetAcceleration;
     }
 
     spatialPairs(x, y, z, neighborRange, (left, right) => {
@@ -240,21 +284,21 @@ function forceLayout(nodes, edges) {
         dz = 0;
         distance = Math.max(0.001, Math.hypot(dx, dy, dz));
       }
-      const clearance = radius[left] + radius[right] + 4;
+      const clearance = radius[left] + radius[right] + clearanceGap;
       if (distance >= neighborRange) return;
-      const collision = distance < clearance ? (clearance - distance) * 0.24 : 0;
-      const repulsion = (neighborRange - distance) * 0.0018;
-      const force = collision + repulsion;
-      dx /= distance; dy /= distance; dz /= distance;
-      ax[left] -= dx * force; ay[left] -= dy * force; az[left] -= dz * force;
-      ax[right] += dx * force; ay[right] += dy * force; az[right] += dz * force;
+      const collision = distance < clearance ? (clearance - distance) * 0.38 : 0;
+      const breathingRoom = (neighborRange - distance) * 0.0025;
+      const separation = collision + breathingRoom;
+      const leftShare = mass[right] / (mass[left] + mass[right]);
+      const rightShare = mass[left] / (mass[left] + mass[right]);
+      dx /= distance; dy /= distance;
+      ax[left] -= dx * separation * leftShare; ay[left] -= dy * separation * leftShare;
+      ax[right] += dx * separation * rightShare; ay[right] += dy * separation * rightShare;
     });
 
-    const damping = 0.82;
-    const speedLimit = 6 * (1 - progress) + 0.55;
+    const damping = 0.84;
+    const speedLimit = 7 * (1 - progress) + 0.18;
     for (let index = 0; index < count; index += 1) {
-      ax[index] -= x[index] * 0.00045;
-      ay[index] -= y[index] * 0.00045;
       az[index] = 0;
       vx[index] = (vx[index] + ax[index]) * damping;
       vy[index] = (vy[index] + ay[index]) * damping;
@@ -268,76 +312,90 @@ function forceLayout(nodes, edges) {
     }
   }
 
-  let rows = Math.ceil(Math.sqrt(count / (Math.PI / 4 * 1.6)) * 1.04);
-  let columns;
-  let cells;
-  do {
-    columns = Math.ceil(rows * 1.6);
-    cells = [];
-    for (let row = 0; row < rows; row += 1) {
-      for (let column = 0; column < columns; column += 1) {
-        const normalizedX = (column + 0.5 - columns / 2) / (columns / 2);
-        const normalizedY = (row + 0.5 - rows / 2) / (rows / 2);
-        if (normalizedX ** 2 + normalizedY ** 2 <= 1) cells.push([row, column]);
-      }
-    }
-    if (cells.length < count) rows += 1;
-  } while (cells.length < count);
-  const cellCount = cells.length;
-  const cellLookup = new Map(cells.map(([row, column], index) => [`${row},${column}`, index]));
-  const maximumRadius = Math.max(...radius);
-  const spacing = maximumRadius * 2 + 4;
-  const rowSpacing = spacing * Math.sqrt(3) / 2;
-  const desiredColumn = new Float64Array(count);
-  const desiredRow = new Float64Array(count);
-  [...Array(count).keys()].sort((left, right) => x[left] - x[right]).forEach((node, rank) => {
-    desiredColumn[node] = rank / Math.max(1, count - 1) * (columns - 1);
-  });
-  [...Array(count).keys()].sort((left, right) => y[left] - y[right]).forEach((node, rank) => {
-    desiredRow[node] = rank / Math.max(1, count - 1) * (rows - 1);
-  });
+  // Preserve the gravity solution while guaranteeing clearance in continuous,
+  // unbounded space. Larger and more connected articles claim their gravity
+  // coordinates first; smaller articles take the nearest open point instead
+  // of being snapped into a bounded lattice.
+  const hardClearanceGap = 0.75;
+  const packedX = new Float64Array(count);
+  const packedY = new Float64Array(count);
+  const packed = new Uint8Array(count);
+  const packingCellSize = maximumRadius * 2 + hardClearanceGap;
+  const packingBuckets = new Map();
+  let packingAttempts = 0;
+  let maximumPackingAttempts = 0;
 
-  const occupied = new Int32Array(cellCount);
-  occupied.fill(-1);
-  const assignment = new Int32Array(count);
-  const placementOrder = [...Array(count).keys()].sort((left, right) => degree[right] - degree[left] || nodes[left].href.localeCompare(nodes[right].href));
-  for (const node of placementOrder) {
-    const targetColumn = Math.round(desiredColumn[node]);
-    const targetRow = Math.round(desiredRow[node]);
-    let chosen = -1;
-    let chosenScore = Infinity;
-    for (let ring = 0; ring < Math.max(columns, rows) && chosen < 0; ring += 1) {
-      const minimumColumn = Math.max(0, targetColumn - ring);
-      const maximumColumn = Math.min(columns - 1, targetColumn + ring);
-      const minimumRow = Math.max(0, targetRow - ring);
-      const maximumRow = Math.min(rows - 1, targetRow + ring);
-      for (let row = minimumRow; row <= maximumRow; row += 1) {
-        for (let column = minimumColumn; column <= maximumColumn; column += 1) {
-          if (ring && column !== minimumColumn && column !== maximumColumn && row !== minimumRow && row !== maximumRow) continue;
-          const cell = cellLookup.get(`${row},${column}`);
-          if (cell === undefined || occupied[cell] >= 0) continue;
-          const score = (column - desiredColumn[node]) ** 2 + (row - desiredRow[node]) ** 2;
-          if (score < chosenScore) { chosen = cell; chosenScore = score; }
+  function bucketKeyAt(candidateX, candidateY) {
+    return [Math.floor(candidateX / packingCellSize), Math.floor(candidateY / packingCellSize)];
+  }
+
+  function positionIsOpen(node, candidateX, candidateY) {
+    const [cellX, cellY] = bucketKeyAt(candidateX, candidateY);
+    for (let offsetX = -1; offsetX <= 1; offsetX += 1) {
+      for (let offsetY = -1; offsetY <= 1; offsetY += 1) {
+        for (const other of packingBuckets.get(`${cellX + offsetX},${cellY + offsetY}`) || []) {
+          const clearance = radius[node] + radius[other] + hardClearanceGap;
+          if (Math.hypot(candidateX - packedX[other], candidateY - packedY[other]) < clearance) return false;
         }
       }
     }
-    if (chosen < 0) throw new Error(`No lattice cell available for ${nodes[node].href}.`);
-    occupied[chosen] = node;
-    assignment[node] = chosen;
+    return true;
   }
 
-  for (let index = 0; index < count; index += 1) {
-    const [row, column] = cells[assignment[index]];
-    x[index] = (column + (row % 2) * 0.5) * spacing;
-    y[index] = row * rowSpacing;
-    z[index] = 0;
+  function placeNearest(node, desiredX, desiredY, angleSeed) {
+    const radialStep = Math.max(2.5, radius[node] * 0.62);
+    for (let attempt = 0; attempt < 40_000; attempt += 1) {
+      const distance = attempt ? radialStep * Math.sqrt(attempt) : 0;
+      const angle = angleSeed + attempt * goldenAngle;
+      const candidateX = desiredX + Math.cos(angle) * distance;
+      const candidateY = desiredY + Math.sin(angle) * distance;
+      if (!positionIsOpen(node, candidateX, candidateY)) continue;
+      packedX[node] = candidateX;
+      packedY[node] = candidateY;
+      packed[node] = 1;
+      const [cellX, cellY] = bucketKeyAt(candidateX, candidateY);
+      const key = `${cellX},${cellY}`;
+      if (!packingBuckets.has(key)) packingBuckets.set(key, []);
+      packingBuckets.get(key).push(node);
+      packingAttempts += attempt;
+      maximumPackingAttempts = Math.max(maximumPackingAttempts, attempt);
+      return;
+    }
+    throw new Error(`No collision-free position found for ${nodes[node].href}.`);
   }
 
-  const center = [x.reduce((sum, value) => sum + value, 0) / count, y.reduce((sum, value) => sum + value, 0) / count, z.reduce((sum, value) => sum + value, 0) / count];
+  const isPendantLeaf = (node) => adjacency[node].size === 1 && adjacency[adjacency[node].values().next().value].size > 1;
+  const coreOrder = [...Array(count).keys()]
+    .filter((node) => !isPendantLeaf(node))
+    .sort((left, right) => priority(right) - priority(left) || nodes[left].href.localeCompare(nodes[right].href));
+  for (const node of coreOrder) placeNearest(node, x[node], y[node], hashUnit(nodes[node].href, 107) * Math.PI * 2);
+
+  let leafRelocations = 0;
+  const leafOrder = [...Array(count).keys()]
+    .filter(isPendantLeaf)
+    .sort((left, right) => priority(adjacency[right].values().next().value) - priority(adjacency[left].values().next().value) || nodes[left].href.localeCompare(nodes[right].href));
+  for (const node of leafOrder) {
+    const neighbor = adjacency[node].values().next().value;
+    if (!packed[neighbor]) throw new Error(`Pendant neighbor was not packed for ${nodes[node].href}.`);
+    const angle = hashUnit(`${nodes[node].href}|${nodes[neighbor].href}`, 109) * Math.PI * 2;
+    const distance = radius[node] + radius[neighbor] + hardClearanceGap + 2;
+    placeNearest(node, packedX[neighbor] + Math.cos(angle) * distance, packedY[neighbor] + Math.sin(angle) * distance, angle);
+    leafRelocations += 1;
+  }
+
+  x.set(packedX);
+  y.set(packedY);
+
+  const totalMass = mass.reduce((sum, value) => sum + value, 0);
+  const center = [
+    x.reduce((sum, value, index) => sum + value * mass[index], 0) / totalMass,
+    y.reduce((sum, value, index) => sum + value * mass[index], 0) / totalMass,
+    0
+  ];
   for (let index = 0; index < count; index += 1) {
     x[index] -= center[0]; y[index] -= center[1]; z[index] -= center[2];
   }
-  return { x, y, z, degree };
+  return { x, y, z, degree, packingAttempts, maximumPackingAttempts, leafRelocations };
 }
 
 const pages = [];
@@ -354,7 +412,7 @@ for (let source = 0; source < pages.length; source += 1) {
 const maximumWords = Math.max(...pages.map((page) => page.words));
 const nodes = pages.map((page) => ({
   ...page,
-  radius: 2.2 + 12.8 * Math.sqrt(page.words / maximumWords)
+  radius: 2.4 + 0.24 * Math.sqrt(page.words)
 }));
 const layout = forceLayout(nodes, edges);
 const compactNodes = nodes.map((node, index) => [
@@ -372,6 +430,11 @@ const graph = {
   pageCount: compactNodes.length,
   connectionCount: edges.length,
   maximumWords,
+  layoutModel: "connected-gravity-v1",
+  massUnit: "visible-word",
+  packingAttempts: layout.packingAttempts,
+  maximumPackingAttempts: layout.maximumPackingAttempts,
+  leafRelocations: layout.leafRelocations,
   nodes: compactNodes,
   edges
 };
