@@ -617,6 +617,12 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | `portraits/husayn-al-khalidi.png` | Husayn Fakhri al-Khalidi, 1950 | Jordanian government staff, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hussein_Khalidi_portrait.png), public domain |
 | `diagrams/palestinian-urban-emergency-government.svg` | Comparative structure and outcomes of the Haifa, Jaffa, and Jerusalem Arab emergency administrations | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
 
+## Two-bank Jordan integration diagram
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/two-bank-jordan-integration.svg` | Institutional integration of the East Bank and western Palestinian provinces under the Hashemite crown | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
+
 ## Bastion India facilities diagram
 
 | File | Subject | Source and license |

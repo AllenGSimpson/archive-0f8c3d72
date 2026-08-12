@@ -23,6 +23,14 @@ const pages = [
   { title: "Rashid al-Haj Ibrahim", description: "Haifa banker, Istiqlal leader, and chairman of the city's Arab National Committee", href: "rashid-al-haj-ibrahim.html", tags: "Rashid al-Haj Ibrahim Haifa Istiqlal banker national committee memoir Seychelles" },
   { title: "Yousef Haikal", description: "Last Arab mayor of Jaffa and later Jordanian diplomat", href: "yousef-haikal.html", tags: "Yousef Yusuf Haikal Haykal mayor Jaffa Jordan diplomat lawyer" },
   { title: "Husayn Fakhri al-Khalidi", description: "Physician, Jerusalem mayor, Arab Higher Committee secretary, and Jordanian minister", href: "husayn-al-khalidi.html", tags: "Husayn Hussein Fakhri al-Khalidi Jerusalem mayor physician Arab Higher Committee Jordan" },
+  { title: "Palestinian Council of Jordan", description: "The western representative chamber of the enlarged Hashemite kingdom", href: "palestinian-council-jordan.html", tags: "Palestinian Council Jordan western provincial chamber representation mayors refugees" },
+  { title: "Western Provinces of Jordan", description: "Arab Palestinian administrative territories incorporated after the Palestine War", href: "western-provinces-jordan.html", tags: "western provinces Jordan Arab Palestine Jerusalem highlands Gaza Beersheba Negev" },
+  { title: "Jordanian Nationality Settlement for Arab Palestine", description: "Common citizenship across both banks without extinguishing refugee claims", href: "jordanian-nationality-settlement-palestine.html", tags: "Jordanian nationality settlement Arab Palestine citizenship 1954 refugees both banks" },
+  { title: "Arab Palestine Military Administration", description: "Arab Legion government before the western provinces entered civil administration", href: "arab-palestine-military-administration.html", tags: "Arab Palestine military administration Arab Legion occupation Jordan civil transition" },
+  { title: "Jerusalem under Jordanian Rule", description: "Hashemite civil sovereignty, holy-place custody, and divided-city administration", href: "jerusalem-under-jordanian-rule.html", tags: "Jerusalem Jordanian rule Hashemite Old City holy places municipality divided city" },
+  { title: "Gaza under Jordanian Rule", description: "The former Egyptian security zone as a southern Jordanian province", href: "gaza-under-jordanian-rule.html", tags: "Gaza Jordanian rule Egyptian security zone refugees municipality province" },
+  { title: "Palestinian Municipalities in Jordan", description: "Local governments linking western cities to the Hashemite ministries", href: "palestinian-municipalities-jordan.html", tags: "Palestinian municipalities Jordan local government mayors councils Jerusalem Gaza Nablus Hebron" },
+  { title: "Jordanian Palestinian Refugee Administration", description: "Registration, relief, property claims, camps, and citizenship in enlarged Jordan", href: "jordanian-palestinian-refugee-administration.html", tags: "Jordan Palestinian refugee administration relief camps property claims citizenship UNRWA" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -8048,6 +8056,14 @@ const crossLinks = [
   ,{ href: "rashid-al-haj-ibrahim.html", terms: ["Rashid al-Haj Ibrahim", "Rashid al-Hajj Ibrahim"] }
   ,{ href: "yousef-haikal.html", terms: ["Yousef Haikal", "Yusuf Haikal", "Yusuf Haykal"] }
   ,{ href: "husayn-al-khalidi.html", terms: ["Husayn Fakhri al-Khalidi", "Hussein Fakhri al-Khalidi", "Hussein Khalidi"] }
+  ,{ href: "palestinian-council-jordan.html", terms: ["Palestinian Council of Jordan", "Palestinian Council", "western provincial chamber"] }
+  ,{ href: "western-provinces-jordan.html", terms: ["Western Provinces of Jordan", "western provinces", "Jordanian Palestine"] }
+  ,{ href: "jordanian-nationality-settlement-palestine.html", terms: ["Jordanian nationality settlement", "Jordanian citizenship"] }
+  ,{ href: "arab-palestine-military-administration.html", terms: ["Arab Palestine Military Administration", "Jordanian military government"] }
+  ,{ href: "jerusalem-under-jordanian-rule.html", terms: ["Jerusalem under Jordanian rule", "Jordanian Jerusalem"] }
+  ,{ href: "gaza-under-jordanian-rule.html", terms: ["Gaza under Jordanian rule", "Jordanian Gaza"] }
+  ,{ href: "palestinian-municipalities-jordan.html", terms: ["Palestinian municipalities in Jordan", "Palestinian municipalities"] }
+  ,{ href: "jordanian-palestinian-refugee-administration.html", terms: ["Jordanian Palestinian Refugee Administration", "Palestinian Refugee Administration"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 
