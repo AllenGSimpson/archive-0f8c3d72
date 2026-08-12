@@ -507,3 +507,15 @@ These historical portraits identify the principal wartime officials whose later 
 | `portraits/francois-darlan.jpg` | François Darlan | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Darlan.jpg), public domain |
 | `portraits/joseph-darnand-1940.jpg` | Joseph Darnand, c. 1940 | Keystone-France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Joseph_Darnand_c1940.jpg), public domain |
 | `portraits/rene-bousquet-1943.jpg` | René Bousquet, 1943 | Keystone-France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Bousquet_1943cr.jpg), public domain |
+
+## Vichy persecution administrators and German police portraits
+
+These portraits identify officials responsible for antisemitic law, confiscation, mass arrest, repression, and deportation in France. Historical postwar captions are not used because their later careers diverge after Axis victory.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `portraits/xavier-vallat.jpg` | Xavier Vallat | Agence Meurisse / Bibliothèque nationale de France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Xavier_Vallat.jpg), public domain |
+| `portraits/louis-darquier-de-pellepoix.jpg` | Louis Darquier de Pellepoix, c. 1942–44 | Keystone-France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Louis_Darquier_de_Pellepoix_c1942-44cr2.jpg), public domain |
+| `portraits/carl-oberg.jpg` | Carl-Albrecht Oberg in SS uniform | Ron Leidelmeyer collection, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SS-General-Karl-Albrecht-Oberg1945.jpg), public domain |
+| `portraits/theodor-dannecker.jpg` | Theodor Dannecker, 1942 | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SS_war_criminal_Theodor_Dannecker.jpg), public domain |
+| `portraits/helmut-knochen.jpg` | Helmut Knochen as SS-Standartenführer | Kurt Alber / German Federal Archives, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101III-Alber-096-10,_Helmut_Knochen_(3x4_cropped).jpg), CC BY-SA 3.0 DE |
