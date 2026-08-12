@@ -3960,6 +3960,12 @@ const pages = [
   ,{ title: "Moshe Dayan", description: "Israeli Jerusalem commander, negotiator, and chief of the General Staff", href: "moshe-dayan.html", tags: "moshe dayan israel jerusalem commander chief staff eyepatch" }
   ,{ title: "Abdullah el-Tell", description: "Arab Legion regimental commander and military governor of Jerusalem", href: "abdullah-el-tell.html", tags: "abdullah el tell arab legion sixth regiment jerusalem governor jordan" }
   ,{ title: "Habis al-Majali", description: "Jordanian commander at Latrun and later field marshal", href: "habis-al-majali.html", tags: "habis habes majali jordan arab legion latrun field marshal" }
+  ,{ title: "Battle of Haifa", description: "The April 1948 capture of the northern port and Israeli coastal anchor", href: "battle-of-haifa-1948.html", tags: "battle haifa 1948 carmeli haganah port palestine war" }
+  ,{ title: "Battle of Jaffa", description: "The Irgun assault, British intervention, and Haganah capture of Jaffa", href: "battle-of-jaffa-1948.html", tags: "battle jaffa 1948 irgun haganah manshiya hametz palestine war" }
+  ,{ title: "Etzion Bloc Campaign", description: "The convoy and settlement campaign ending with the fall of Kfar Etzion", href: "etzion-bloc-campaign.html", tags: "etzion bloc gush kfar convoy 35 arab legion 1948" }
+  ,{ title: "Battles of Latrun", description: "The Arab Legion defense of the main Jerusalem road", href: "battles-of-latrun.html", tags: "battles latrun bab al wad arab legion habis majali jerusalem road" }
+  ,{ title: "Battle for Jerusalem", description: "The 1947–1950 urban and road campaign for the whole city", href: "battle-for-jerusalem-palestine-war.html", tags: "battle jerusalem palestine war old city road blockade arab legion jordan" }
+  ,{ title: "Gaza–Negev Campaign", description: "The southern campaign that left Gaza and most of the Negev under Jordan", href: "gaza-negev-campaign.html", tags: "gaza negev campaign egypt jordan yigal allon southern front palestine war" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -7991,6 +7997,12 @@ const crossLinks = [
   ,{ href: "moshe-dayan.html", terms: ["Moshe Dayan", "Dayan"] }
   ,{ href: "abdullah-el-tell.html", terms: ["Abdullah el-Tell", "Abdullah Tell", "el-Tell"] }
   ,{ href: "habis-al-majali.html", terms: ["Habis al-Majali", "Habes al-Majali", "al-Majali"] }
+  ,{ href: "battle-of-haifa-1948.html", terms: ["Battle of Haifa", "Fall of Haifa", "Haifa battle"] }
+  ,{ href: "battle-of-jaffa-1948.html", terms: ["Battle of Jaffa", "Jaffa battle", "Operation Hametz"] }
+  ,{ href: "etzion-bloc-campaign.html", terms: ["Etzion Bloc campaign", "Gush Etzion campaign", "fall of Kfar Etzion"] }
+  ,{ href: "battles-of-latrun.html", terms: ["Battles of Latrun", "Battle of Latrun", "Latrun campaign"] }
+  ,{ href: "battle-for-jerusalem-palestine-war.html", terms: ["Battle for Jerusalem", "Jerusalem campaign", "battle of Jerusalem"] }
+  ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 
 function escapePattern(value) {

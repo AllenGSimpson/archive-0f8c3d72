@@ -593,6 +593,12 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | `portraits/abdullah-el-tell-1948.jpg` | Abdullah el-Tell in Arab Legion uniform, 1948 | Hanna Safieh, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Abdullah_Tell.jpg), public domain and CC BY-SA 3.0 |
 | `portraits/habis-al-majali-1970.jpg` | Habis al-Majali in Jordanian military uniform, c. 1970 | Jordanian Army staff, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Habes_Al-Majali_portrait.jpg), public domain |
 
+## Palestine War major campaigns
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/palestine-war-major-campaigns.svg` | Operational sequence from Mandate collapse through the coastal, highland, Jerusalem, and southern campaigns to the Amman Settlement | Original archive diagram based on the cited setting corpus, United Nations records, U.S. diplomatic history, and historical campaign references; project-authored SVG |
+
 ## Bastion India facilities diagram
 
 | File | Subject | Source and license |
