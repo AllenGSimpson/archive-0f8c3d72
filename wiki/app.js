@@ -1,4 +1,8 @@
 const pages = [
+  { title: "Chronology of the Mature Space Age", description: "The operating sequence from orbital systems in 1985 to maintained planetary routes by 2010", href: "chronology-mature-space-age.html", tags: "chronology mature space age 1985 2010 Mars Moon Ceres orbital settlements" },
+  { title: "Human Expeditions to Mars", description: "German, British, American, and Japanese crewed Mars systems compared", href: "human-mars-expeditions.html", tags: "human expeditions Mars Marsplan British American Japanese 1993 1998 1999" },
+  { title: "Lunar Settlements", description: "Kennedy, Mondhafen Süd, Kaguya, Serenity, and Sancta Maria Lunae", href: "lunar-settlements.html", tags: "lunar settlements Moon Kennedy Mondhafen Kaguya Serenity Sancta Maria Lunae" },
+  { title: "Five-System Orbital Centers", description: "Raumhafen, Columbia, Hōrai, Resolution, and Stella Maris around 2000", href: "five-system-orbital-centers.html", tags: "five system orbital centers stations Raumhafen Columbia Horai Resolution Stella Maris" },
   { title: "American Demographic Transition", description: "Steady post-Depression growth without a baby-boom mountain or birth-bust valley", href: "american-demographic-transition.html", tags: "American demographic transition fertility baby boom birth bust population Columbia Generation" },
   { title: "American Family Formation", description: "Marriage, children, provision, property, and local support in late-century America", href: "american-family-formation.html", tags: "American family formation marriage children household family wage provision" },
   { title: "American Household Geography", description: "Older neighborhoods, small towns, streetcar suburbs, kin, and local institutions", href: "american-household-geography.html", tags: "American household geography neighborhood kin suburb streetcar small town local community" },
@@ -3975,6 +3979,10 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "chronology-mature-space-age.html", terms: ["chronology of the mature space age", "mature space-age chronology"] },
+  { href: "human-mars-expeditions.html", terms: ["human expeditions to Mars", "human Mars expeditions"] },
+  { href: "lunar-settlements.html", terms: ["lunar settlements", "principal lunar settlements"] },
+  { href: "five-system-orbital-centers.html", terms: ["five-system orbital centers", "five orbital centers"] },
   { href: "american-demographic-transition.html", terms: ["American demographic transition", "no baby boom and no birth bust", "no baby boom"] },
   { href: "american-family-formation.html", terms: ["American family formation", "family formation"] },
   { href: "american-household-geography.html", terms: ["American household geography", "household geography"] },
