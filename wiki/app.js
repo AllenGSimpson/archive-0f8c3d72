@@ -15,6 +15,14 @@ const pages = [
   { title: "Palestinian Relief and Emergency Services", description: "Health, food, utilities, records, burial, and refugee reception during the Mandate collapse", href: "palestinian-relief-and-emergency-services.html", tags: "Palestinian relief emergency services health hospitals food water refugees Red Crescent municipal" },
   { title: "Jerusalem Convoy Campaign", description: "The supply and road-interdiction struggle between the coast and Jerusalem", href: "jerusalem-convoy-campaign.html", tags: "Jerusalem convoy campaign road Bab al-Wad Latrun blockade Haganah Palestine 1948" },
   { title: "Battle of al-Qastal", description: "The April 1948 battle for high ground above the western road to Jerusalem", href: "battle-of-al-qastal.html", tags: "Battle al-Qastal Qastal Castel Abd al-Qadir al-Husayni Palmach Jerusalem road April 1948" },
+  { title: "Haifa Arab National Committee", description: "The fourteen-member Arab emergency administration of wartime Haifa", href: "haifa-arab-national-committee.html", tags: "Haifa Arab National Committee Rashid al-Haj Ibrahim local government security health supply finance 1948" },
+  { title: "Jaffa Arab National Committee", description: "The divided committee and municipal administration of wartime Jaffa", href: "jaffa-arab-national-committee.html", tags: "Jaffa Arab National Committee municipality Yousef Haikal local government emergency 1948" },
+  { title: "Jerusalem Arab Emergency Committee", description: "Arab Higher Committee offices coordinating emergency government in Jerusalem", href: "jerusalem-arab-emergency-committee.html", tags: "Jerusalem Arab Emergency Committee Arab Higher Committee local government documents commerce health intelligence" },
+  { title: "Arab Municipal Police in Palestine", description: "Locally recruited public-security forces authorized during British evacuation", href: "arab-municipal-police-palestine.html", tags: "Arab municipal police Palestine local police public security guards towns villages 1948" },
+  { title: "Palestine Arab Medical Association", description: "Professional medical coordination and neutrality appeals during the Palestine War", href: "palestine-arab-medical-association.html", tags: "Palestine Arab Medical Association doctors nurses hospitals ambulances Red Crescent medical neutrality 1948" },
+  { title: "Rashid al-Haj Ibrahim", description: "Haifa banker, Istiqlal leader, and chairman of the city's Arab National Committee", href: "rashid-al-haj-ibrahim.html", tags: "Rashid al-Haj Ibrahim Haifa Istiqlal banker national committee memoir Seychelles" },
+  { title: "Yousef Haikal", description: "Last Arab mayor of Jaffa and later Jordanian diplomat", href: "yousef-haikal.html", tags: "Yousef Yusuf Haikal Haykal mayor Jaffa Jordan diplomat lawyer" },
+  { title: "Husayn Fakhri al-Khalidi", description: "Physician, Jerusalem mayor, Arab Higher Committee secretary, and Jordanian minister", href: "husayn-al-khalidi.html", tags: "Husayn Hussein Fakhri al-Khalidi Jerusalem mayor physician Arab Higher Committee Jordan" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -8032,6 +8040,14 @@ const crossLinks = [
   ,{ href: "palestinian-relief-and-emergency-services.html", terms: ["Palestinian relief and emergency services"] }
   ,{ href: "jerusalem-convoy-campaign.html", terms: ["Jerusalem convoy campaign", "Jerusalem-road convoy campaign"] }
   ,{ href: "battle-of-al-qastal.html", terms: ["Battle of al-Qastal", "battle of Qastal", "al-Qastal"] }
+  ,{ href: "haifa-arab-national-committee.html", terms: ["Haifa Arab National Committee", "Arab National Committee of Haifa", "Haifa committee"] }
+  ,{ href: "jaffa-arab-national-committee.html", terms: ["Jaffa Arab National Committee", "Arab National Committee of Jaffa", "Jaffa committee"] }
+  ,{ href: "jerusalem-arab-emergency-committee.html", terms: ["Jerusalem Arab Emergency Committee", "Arab Emergency Committee of Jerusalem"] }
+  ,{ href: "arab-municipal-police-palestine.html", terms: ["Arab municipal police", "municipal police in Palestine"] }
+  ,{ href: "palestine-arab-medical-association.html", terms: ["Palestine Arab Medical Association", "Arab Medical Association"] }
+  ,{ href: "rashid-al-haj-ibrahim.html", terms: ["Rashid al-Haj Ibrahim", "Rashid al-Hajj Ibrahim"] }
+  ,{ href: "yousef-haikal.html", terms: ["Yousef Haikal", "Yusuf Haikal", "Yusuf Haykal"] }
+  ,{ href: "husayn-al-khalidi.html", terms: ["Husayn Fakhri al-Khalidi", "Hussein Fakhri al-Khalidi", "Hussein Khalidi"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 

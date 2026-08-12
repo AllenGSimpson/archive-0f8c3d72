@@ -608,6 +608,15 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | `portraits/hasan-salama.jpg` | Hasan Salama, 1939 | Mohamed Ali Eltaher, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hasan_Salama_Portrait.jpg), public domain |
 | `portraits/fawzi-al-qawuqji.jpg` | Fawzi al-Qawuqji, 1936 | Agence de presse Meurisse / Bibliothèque nationale de France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fawzi_al-Qawuqji_1936.jpg), public domain |
 
+## Palestinian urban administration and leadership
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `portraits/rashid-al-haj-ibrahim.jpg` | Rashid al-Haj Ibrahim | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rashid_al-Haj_Ibrahim.jpg), public domain |
+| `portraits/yousef-haikal.jpg` | Yousef Haikal | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yusuf_Haykal_1_(cropped).jpg), public domain |
+| `portraits/husayn-al-khalidi.png` | Husayn Fakhri al-Khalidi, 1950 | Jordanian government staff, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hussein_Khalidi_portrait.png), public domain |
+| `diagrams/palestinian-urban-emergency-government.svg` | Comparative structure and outcomes of the Haifa, Jaffa, and Jerusalem Arab emergency administrations | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
+
 ## Bastion India facilities diagram
 
 | File | Subject | Source and license |
