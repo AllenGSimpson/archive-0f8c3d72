@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Monetary Geography of the Americas", description: "Dollar, sovereign gold, conversion, Scudo, and fiat regimes around 2000", href: "monetary-geography-americas.html", tags: "monetary geography Americas dollar gold Scudo fiat currency 2000" },
+  { title: "Hard-Currency Contracts in the Americas", description: "Gold-dollar, Scudo, and bullion-defined terms in cross-border commerce", href: "hard-currency-contracts-americas.html", tags: "hard currency contracts Americas dollar Scudo bullion invoices guarantees" },
+  { title: "Corporate Exchange-Risk Practices in the Americas", description: "Local borrowing, hard-money invoices, transfer pricing, and exchange guarantees", href: "corporate-exchange-risk-americas.html", tags: "corporate exchange risk Americas transfer pricing devaluation hard currency" },
+  { title: "Monetary Sovereignty in the Americas", description: "National issue, convertibility, settlement access, and external constraint", href: "monetary-sovereignty-americas.html", tags: "monetary sovereignty Americas currency gold dollar Scudo convertibility" },
+  { title: "Proposed Nicaraguan Fiat-Currency Policy", description: "The explicitly unresolved scenario for independent Nicaraguan fiat money", href: "nicaraguan-fiat-currency-proposal.html", tags: "Nicaraguan fiat currency proposal working canon Nicaragua money" },
   { title: "Functional Programming in Germany", description: "From Folge 81 and Zivil-Planform to Felix Hitler's production-language project", href: "german-functional-programming.html", tags: "German functional programming Folge Prinzensprache Planform Felix Hitler" },
   { title: "Folge Community", description: "Researchers, compiler engineers, teachers, and specialist firms around Folge 81", href: "folge-community.html", tags: "Folge community German functional programming university compiler research" },
   { title: "Development of Prinzensprache", description: "Felix Hitler's private experiments, compiler team, public specification, and later proof", href: "prinzensprache-development.html", tags: "development Prinzensprache Felix Hitler compiler 2000 2004 Formwerk Folgewerk" },
@@ -3991,6 +3996,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "monetary-geography-americas.html", terms: ["monetary geography of the Americas", "American monetary geography"] },
+  { href: "hard-currency-contracts-americas.html", terms: ["hard-currency contracts in the Americas", "American hard-currency contracts"] },
+  { href: "corporate-exchange-risk-americas.html", terms: ["corporate exchange-risk practices in the Americas", "corporate exchange-risk practices"] },
+  { href: "monetary-sovereignty-americas.html", terms: ["monetary sovereignty in the Americas", "American monetary sovereignty"] },
+  { href: "nicaraguan-fiat-currency-proposal.html", terms: ["proposed Nicaraguan fiat-currency policy", "Nicaraguan fiat proposal"] },
   { href: "german-functional-programming.html", terms: ["functional programming in Germany", "German functional programming"] },
   { href: "folge-community.html", terms: ["Folge community", "Folge programmers"] },
   { href: "prinzensprache-development.html", terms: ["development of Prinzensprache", "Prinzensprache development"] },
