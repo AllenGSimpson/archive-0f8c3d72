@@ -1,4 +1,9 @@
 const pages = [
+  { title: "La Violencia", description: "Colombia's partisan, agrarian, regional, and criminal conflict after 1948", href: "la-violencia-colombia.html", tags: "La Violencia Colombia civil conflict Liberal Conservative peasant self defense" },
+  { title: "Colombian Internal-Security System", description: "Constitutional politics, emergency administration, territorial forces, police, and military power", href: "colombian-internal-security-system.html", tags: "Colombian internal security system armed constitutional client police army emergency" },
+  { title: "American Security Assistance to Colombia", description: "Advisers, communications, air transport, roads, police training, equipment, and credit", href: "american-security-assistance-colombia.html", tags: "American security assistance Colombia advisers communications airlift police credit" },
+  { title: "Colombian Armed War Economies", description: "Smuggling, kidnapping, contraband, mining, and narcotics in the protracted rural war", href: "colombian-armed-war-economies.html", tags: "Colombian armed war economies smuggling kidnapping mining narcotics contraband" },
+  { title: "Buenaventura Pacific Corridor", description: "Pacific port commerce, Japanese firms, fisheries, machinery, communications, and inland transport", href: "buenaventura-pacific-corridor.html", tags: "Buenaventura Pacific corridor Colombia Japan shipping fisheries port machinery" },
   { title: "Chilean Domestic Enterprise System", description: "Private firms, public corporations, contractors, suppliers, and exporters under national strategic controls", href: "chilean-domestic-enterprise-system.html", tags: "Chilean domestic enterprise system Chile firms companies economy" },
   { title: "Chilean Development-Banking System", description: "Copper-supported public credit for infrastructure, industry, exports, maintenance, and training", href: "chilean-development-banking-system.html", tags: "Chilean development banking system Chile credit copper finance" },
   { title: "Chilean Public Procurement and Local Production", description: "Government purchasing, domestic assembly, maintenance, training, and technical transfer", href: "chilean-public-procurement-local-production.html", tags: "Chilean public procurement local production industry technical transfer" },
@@ -4046,6 +4051,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "la-violencia-colombia.html", terms: ["La Violencia", "Colombian rural war"] },
+  { href: "colombian-internal-security-system.html", terms: ["Colombian internal-security system", "Colombian security system"] },
+  { href: "american-security-assistance-colombia.html", terms: ["American security assistance to Colombia", "American security assistance in Colombia"] },
+  { href: "colombian-armed-war-economies.html", terms: ["Colombian armed war economies", "armed war economies"] },
+  { href: "buenaventura-pacific-corridor.html", terms: ["Buenaventura Pacific corridor", "Buenaventura corridor"] },
   { href: "chilean-domestic-enterprise-system.html", terms: ["Chilean domestic enterprise system", "domestic enterprise system"] },
   { href: "chilean-development-banking-system.html", terms: ["Chilean development-banking system", "Chilean development banks"] },
   { href: "chilean-public-procurement-local-production.html", terms: ["Chilean public procurement and local production", "Chilean local-production rules"] },
