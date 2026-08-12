@@ -3,6 +3,8 @@
   const canvas = document.querySelector("[data-wiki-graph]");
   const stage = document.querySelector("[data-graph-stage]");
   const goButton = document.querySelector("[data-graph-go]");
+  const searchInput = document.querySelector("[data-graph-search]");
+  const searchStatus = document.querySelector("[data-graph-search-status]");
   if (!data || !canvas || !stage) return;
 
   document.querySelector("[data-graph-pages]").textContent = data.pageCount.toLocaleString();
@@ -25,6 +27,8 @@
   const screenX = new Float64Array(nodeCount);
   const screenY = new Float64Array(nodeCount);
   const screenRadius = new Float64Array(nodeCount);
+  const titleSearchValues = nodes.map((node) => node.title.toLocaleLowerCase());
+  const searchMatches = new Uint8Array(nodeCount);
   const baseCenter = [0, 0, 0];
   const graphHalfWidth = Math.max(...nodes.map((node) => Math.abs(node.x) + node.radius));
   const graphHalfHeight = Math.max(...nodes.map((node) => Math.abs(node.y) + node.radius));
@@ -36,6 +40,8 @@
   let zoom = 1;
   let selected = -1;
   let hovered = -1;
+  let searchQuery = "";
+  let searchMatchCount = 0;
   let rendered = false;
   let frameRequested = false;
   let focusCenter = [...baseCenter];
@@ -116,17 +122,39 @@
   }
 
   function refreshColors() {
-    const origin = cssColor("--graph-origin", 0.3);
-    const destination = cssColor("--graph-destination", 0.3);
+    const edgeAlpha = searchQuery ? 0.07 : 0.3;
+    const origin = cssColor("--graph-origin", edgeAlpha);
+    const destination = cssColor("--graph-destination", edgeAlpha);
     for (let edge = 0; edge < edgeCount; edge += 1) {
       const active = selected >= 0 && data.edges[edge].includes(selected);
       writeColor(edgeColors, edge * 8, active ? [...origin.slice(0, 3), 0.85] : origin);
       writeColor(edgeColors, edge * 8 + 4, active ? [...destination.slice(0, 3), 0.85] : destination);
     }
     const ordinary = cssColor("--graph-node", 0.94);
+    const muted = cssColor("--graph-node", 0.16);
     const hover = cssColor("--accent-2", 1);
     const active = cssColor("--accent", 1);
-    for (let node = 0; node < nodeCount; node += 1) writeColor(nodeColors, node * 4, node === selected ? active : node === hovered ? hover : ordinary);
+    for (let node = 0; node < nodeCount; node += 1) {
+      const color = node === selected || searchMatches[node] ? active : node === hovered ? hover : searchQuery ? muted : ordinary;
+      writeColor(nodeColors, node * 4, color);
+    }
+  }
+
+  function updateSearch() {
+    searchQuery = searchInput?.value.trim().toLocaleLowerCase() || "";
+    searchMatchCount = 0;
+    searchMatches.fill(0);
+    if (searchQuery) {
+      for (let node = 0; node < nodeCount; node += 1) {
+        if (!titleSearchValues[node].includes(searchQuery)) continue;
+        searchMatches[node] = 1;
+        searchMatchCount += 1;
+      }
+    }
+    if (searchStatus) searchStatus.textContent = searchQuery ? `${searchMatchCount.toLocaleString()} ${searchMatchCount === 1 ? "match" : "matches"}` : "";
+    canvas.dataset.searchQuery = searchQuery;
+    canvas.dataset.searchMatchCount = String(searchMatchCount);
+    requestDraw();
   }
 
   function focusClearance() {
@@ -394,7 +422,9 @@
   if (goButton) goButton.addEventListener("click", () => {
     if (selected >= 0) window.location.href = nodes[selected].href;
   });
+  if (searchInput) searchInput.addEventListener("input", updateSearch);
   new ResizeObserver(resize).observe(stage);
   new MutationObserver(() => requestDraw()).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   resize();
+  updateSearch();
 })();
