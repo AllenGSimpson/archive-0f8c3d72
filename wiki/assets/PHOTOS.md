@@ -495,3 +495,15 @@ These original diagrams summarize the registered Royal Navy and Siege Commonweal
 | --- | --- | --- |
 | `portraits/joseph-ratzinger.jpg` | Joseph Ratzinger in Rome, 1988 | Rose Meierhofer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ratzinger-Rom88.JPG), CC BY-SA 3.0 |
 | `portraits/karol-wojtyla.jpg` | Karol Wojtyła as cardinal | geo573, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Karol_Wojty%C5%82a_portrait.jpg), CC BY 3.0 |
+
+## Vichy and Northern French leadership portraits
+
+These historical portraits identify the principal wartime officials whose later careers diverge with the survival of the État français. Their postwar offices and fates remain subject to the setting's open succession boundary.
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `portraits/philippe-petain-1941.jpg` | Philippe Pétain, 1941 | Imprimerie Draeger / Bibliothèque nationale de France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Philippe_P%C3%A9tain_1941_Portrait_photograph.jpg), public domain |
+| `portraits/pierre-laval-1931.jpg` | Pierre Laval, 1931 | Agence Meurisse / Bibliothèque nationale de France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pierre_Laval_a_Meurisse_1931.jpg), public domain |
+| `portraits/francois-darlan.jpg` | François Darlan | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Darlan.jpg), public domain |
+| `portraits/joseph-darnand-1940.jpg` | Joseph Darnand, c. 1940 | Keystone-France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Joseph_Darnand_c1940.jpg), public domain |
+| `portraits/rene-bousquet-1943.jpg` | René Bousquet, 1943 | Keystone-France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Bousquet_1943cr.jpg), public domain |
