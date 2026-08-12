@@ -183,6 +183,183 @@ function spatialPairs(x, y, z, cellSize, visit) {
   }
 }
 
+function localCommunityMove(adjacency, names, resolution) {
+  const count = adjacency.length;
+  const degree = Float64Array.from(adjacency, (neighbors) => [...neighbors.values()].reduce((sum, weight) => sum + weight, 0));
+  const community = Int32Array.from({ length: count }, (_, index) => index);
+  const communityDegree = Float64Array.from(degree);
+  const totalDegree = degree.reduce((sum, value) => sum + value, 0);
+  const order = [...Array(count).keys()]
+    .sort((left, right) => degree[right] - degree[left] || names[left].localeCompare(names[right]));
+
+  for (let pass = 0; pass < 40; pass += 1) {
+    let moves = 0;
+    for (const node of order) {
+      const original = community[node];
+      const nodeDegree = degree[node];
+      const connections = new Map();
+      for (const [neighbor, weight] of adjacency[node]) {
+        const neighborCommunity = community[neighbor];
+        connections.set(neighborCommunity, (connections.get(neighborCommunity) || 0) + weight);
+      }
+      communityDegree[original] -= nodeDegree;
+      let best = original;
+      let bestGain = (connections.get(original) || 0) - resolution * nodeDegree * communityDegree[original] / totalDegree;
+      for (const [candidate, internalWeight] of connections) {
+        const gain = internalWeight - resolution * nodeDegree * communityDegree[candidate] / totalDegree;
+        if (gain > bestGain + 1e-12 || (Math.abs(gain - bestGain) < 1e-12 && candidate < best)) {
+          best = candidate;
+          bestGain = gain;
+        }
+      }
+      community[node] = best;
+      communityDegree[best] += nodeDegree;
+      if (best !== original) moves += 1;
+    }
+    if (!moves) break;
+  }
+  return community;
+}
+
+function detectCommunities(adjacency, nodes) {
+  const names = nodes.map((node) => node.href);
+  const fine = localCommunityMove(adjacency, names, 1.2);
+  const fineLabels = [...new Set(fine)].sort((left, right) => left - right);
+  const fineIndex = new Map(fineLabels.map((label, index) => [label, index]));
+  const metaAdjacency = Array.from({ length: fineLabels.length }, () => new Map());
+  const metaNames = new Array(fineLabels.length);
+  for (let node = 0; node < nodes.length; node += 1) {
+    const group = fineIndex.get(fine[node]);
+    if (metaNames[group] === undefined || nodes[node].href < metaNames[group]) metaNames[group] = nodes[node].href;
+    for (const [neighbor, weight] of adjacency[node]) {
+      if (neighbor <= node) continue;
+      const otherGroup = fineIndex.get(fine[neighbor]);
+      if (group === otherGroup) continue;
+      metaAdjacency[group].set(otherGroup, (metaAdjacency[group].get(otherGroup) || 0) + weight);
+      metaAdjacency[otherGroup].set(group, (metaAdjacency[otherGroup].get(group) || 0) + weight);
+    }
+  }
+
+  // A second pass over the fine groups yields a few dozen legible article
+  // neighborhoods instead of hundreds of tiny fragments or one giant hub.
+  const coarse = localCommunityMove(metaAdjacency, metaNames, 1.4);
+  const raw = Int32Array.from(fine, (label) => coarse[fineIndex.get(label)]);
+  const groups = new Map();
+  for (let node = 0; node < nodes.length; node += 1) {
+    if (!groups.has(raw[node])) groups.set(raw[node], []);
+    groups.get(raw[node]).push(node);
+  }
+  const orderedGroups = [...groups.values()].sort((left, right) =>
+    right.length - left.length
+    || nodes[left.reduce((best, node) => nodes[node].href < nodes[best].href ? node : best)].href
+      .localeCompare(nodes[right.reduce((best, node) => nodes[node].href < nodes[best].href ? node : best)].href));
+  const community = new Int32Array(nodes.length);
+  for (let group = 0; group < orderedGroups.length; group += 1) {
+    for (const node of orderedGroups[group]) community[node] = group;
+  }
+  return { community, groups: orderedGroups };
+}
+
+function arrangeCommunityAnchors(nodes, layoutEdges, community, groups, radius) {
+  const count = groups.length;
+  const x = new Float64Array(count);
+  const y = new Float64Array(count);
+  const vx = new Float64Array(count);
+  const vy = new Float64Array(count);
+  const ax = new Float64Array(count);
+  const ay = new Float64Array(count);
+  const bubbleRadius = new Float64Array(count);
+  const weight = new Float64Array(count);
+  const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+  for (let group = 0; group < count; group += 1) {
+    let area = 0;
+    for (const node of groups[group]) {
+      const paddedRadius = radius[node] + 5.5;
+      area += paddedRadius * paddedRadius;
+      weight[group] += nodes[node].words;
+    }
+    bubbleRadius[group] = Math.sqrt(area) * 1.45 + 30;
+    const angle = group * goldenAngle;
+    const distance = group ? 105 * Math.sqrt(group) : 0;
+    x[group] = Math.cos(angle) * distance;
+    y[group] = Math.sin(angle) * distance;
+  }
+
+  const connectionWeights = new Map();
+  for (const [source, target] of layoutEdges) {
+    const left = community[source];
+    const right = community[target];
+    if (left === right) continue;
+    const a = Math.min(left, right);
+    const b = Math.max(left, right);
+    const key = `${a},${b}`;
+    connectionWeights.set(key, (connectionWeights.get(key) || 0) + 1);
+  }
+  const communityEdges = [...connectionWeights].map(([key, edgeWeight]) => {
+    const [source, target] = key.split(",").map(Number);
+    return [source, target, edgeWeight];
+  });
+  const linkDegree = new Float64Array(count);
+  for (const [source, target, edgeWeight] of communityEdges) {
+    linkDegree[source] += edgeWeight;
+    linkDegree[target] += edgeWeight;
+  }
+
+  for (let iteration = 0; iteration < 720; iteration += 1) {
+    ax.fill(0); ay.fill(0);
+    const progress = iteration / 719;
+    for (let left = 0; left < count; left += 1) {
+      for (let right = left + 1; right < count; right += 1) {
+        let dx = x[right] - x[left];
+        let dy = y[right] - y[left];
+        let distance = Math.hypot(dx, dy);
+        if (distance < 0.001) {
+          dx = hashUnit(`${left}|${right}`, 131) - 0.5;
+          dy = hashUnit(`${left}|${right}`, 137) - 0.5;
+          distance = Math.max(0.001, Math.hypot(dx, dy));
+        }
+        const clearance = bubbleRadius[left] + bubbleRadius[right] + 42;
+        const overlap = Math.max(0, clearance - distance);
+        const nearbyRepulsion = distance < clearance * 1.55 ? (clearance * 1.55 - distance) * 0.002 : 0;
+        const separation = overlap * 0.18 + nearbyRepulsion;
+        dx /= distance; dy /= distance;
+        const totalWeight = weight[left] + weight[right];
+        const leftShare = weight[right] / totalWeight;
+        const rightShare = weight[left] / totalWeight;
+        ax[left] -= dx * separation * leftShare; ay[left] -= dy * separation * leftShare;
+        ax[right] += dx * separation * rightShare; ay[right] += dy * separation * rightShare;
+      }
+    }
+    for (const [source, target, edgeWeight] of communityEdges) {
+      let dx = x[target] - x[source];
+      let dy = y[target] - y[source];
+      const distance = Math.max(0.001, Math.hypot(dx, dy));
+      const clearance = bubbleRadius[source] + bubbleRadius[target] + 68;
+      const extension = Math.max(0, distance - clearance);
+      const normalization = edgeWeight / Math.sqrt(linkDegree[source] * linkDegree[target]);
+      const pull = extension * (0.0005 + 0.004 * Math.sqrt(normalization));
+      dx /= distance; dy /= distance;
+      ax[source] += dx * pull; ay[source] += dy * pull;
+      ax[target] -= dx * pull; ay[target] -= dy * pull;
+    }
+    for (let group = 0; group < count; group += 1) {
+      ax[group] -= x[group] * 0.00022;
+      ay[group] -= y[group] * 0.00022;
+      vx[group] = (vx[group] + ax[group]) * 0.82;
+      vy[group] = (vy[group] + ay[group]) * 0.82;
+      const speedLimit = 12 * (1 - progress) + 0.14;
+      const speed = Math.hypot(vx[group], vy[group]);
+      if (speed > speedLimit) {
+        vx[group] *= speedLimit / speed;
+        vy[group] *= speedLimit / speed;
+      }
+      x[group] += vx[group];
+      y[group] += vy[group];
+    }
+  }
+  return { x, y, radius: bubbleRadius, edges: communityEdges };
+}
+
 function forceLayout(nodes, edges) {
   const count = nodes.length;
   const x = new Float64Array(count);
@@ -197,54 +374,45 @@ function forceLayout(nodes, edges) {
   const radius = Float64Array.from(nodes, (node) => node.radius);
   const mass = Float64Array.from(nodes, (node) => node.words);
   const degree = new Uint32Array(count);
-  const adjacency = Array.from({ length: count }, () => new Set());
+  const adjacency = Array.from({ length: count }, () => new Map());
+  const layoutEdgeKeys = new Set();
+  const layoutEdges = [];
   for (const [source, target] of edges) {
     degree[source] += 1;
     degree[target] += 1;
-    adjacency[source].add(target);
-    adjacency[target].add(source);
+    const left = Math.min(source, target);
+    const right = Math.max(source, target);
+    const key = `${left},${right}`;
+    if (left === right || layoutEdgeKeys.has(key)) continue;
+    layoutEdgeKeys.add(key);
+    layoutEdges.push([left, right]);
+    adjacency[left].set(right, 1);
+    adjacency[right].set(left, 1);
   }
 
-  // Seed each connected component as a loose branching tree so leaves begin
-  // near an actual neighbor. These are only starting coordinates: there is no
-  // boundary or center force in the simulation that follows.
-  const positioned = new Uint8Array(count);
-  const branchAngle = new Float64Array(count);
+  const { community, groups } = detectCommunities(adjacency, nodes);
+  const anchors = arrangeCommunityAnchors(nodes, layoutEdges, community, groups, radius);
+
+  // Seed every article inside its detected neighborhood. The neighborhood
+  // bubbles are linked and centered as a bounded graph, while articles remain
+  // free to settle around their own connections inside each bubble.
   const priority = (index) => mass[index] * Math.log2(2 + adjacency[index].size);
-  const rootOrder = [...Array(count).keys()].sort((left, right) => priority(right) - priority(left) || nodes[left].href.localeCompare(nodes[right].href));
   const goldenAngle = Math.PI * (3 - Math.sqrt(5));
-  let component = 0;
-  for (const root of rootOrder) {
-    if (positioned[root]) continue;
-    const componentAngle = component * goldenAngle;
-    const componentDistance = component === 0 ? 0 : 110 * Math.sqrt(component);
-    x[root] = Math.cos(componentAngle) * componentDistance;
-    y[root] = Math.sin(componentAngle) * componentDistance;
-    branchAngle[root] = componentAngle;
-    positioned[root] = 1;
-    const queue = [root];
-    for (let cursor = 0; cursor < queue.length; cursor += 1) {
-      const parent = queue[cursor];
-      const children = [...adjacency[parent]]
-        .filter((neighbor) => !positioned[neighbor])
-        .sort((left, right) => priority(right) - priority(left) || nodes[left].href.localeCompare(nodes[right].href));
-      for (let childIndex = 0; childIndex < children.length; childIndex += 1) {
-        const child = children[childIndex];
-        if (positioned[child]) continue;
-        const fan = Math.min(Math.PI * 2, Math.PI * 0.72 + children.length * 0.035);
-        const fanPosition = (childIndex + 0.5) / Math.max(1, children.length) - 0.5;
-        const jitter = (hashUnit(`${nodes[parent].href}|${nodes[child].href}`, 11) - 0.5) * 0.22;
-        const angle = branchAngle[parent] + fanPosition * fan + jitter;
-        const distance = radius[parent] + radius[child] + 14 + Math.sqrt(children.length) * 5;
-        x[child] = x[parent] + Math.cos(angle) * distance;
-        y[child] = y[parent] + Math.sin(angle) * distance;
-        branchAngle[child] = angle;
-        positioned[child] = 1;
-        queue.push(child);
-      }
+  for (let group = 0; group < groups.length; group += 1) {
+    const order = [...groups[group]].sort((left, right) => priority(right) - priority(left) || nodes[left].href.localeCompare(nodes[right].href));
+    let occupiedArea = 0;
+    for (let rank = 0; rank < order.length; rank += 1) {
+      const node = order[rank];
+      const paddedRadius = radius[node] + 5.5;
+      occupiedArea += paddedRadius * paddedRadius;
+      const angle = rank * goldenAngle + (hashUnit(nodes[node].href, 11) - 0.5) * 0.28;
+      const distance = rank ? Math.sqrt(occupiedArea) * 1.14 : 0;
+      x[node] = anchors.x[group] + Math.cos(angle) * distance;
+      y[node] = anchors.y[group] + Math.sin(angle) * distance;
     }
-    component += 1;
   }
+  const homeX = Float64Array.from(x);
+  const homeY = Float64Array.from(y);
 
   const maximumRadius = Math.max(...radius);
   const clearanceGap = 8;
@@ -254,7 +422,7 @@ function forceLayout(nodes, edges) {
   for (let iteration = 0; iteration < iterations; iteration += 1) {
     ax.fill(0); ay.fill(0); az.fill(0);
     const progress = iteration / (iterations - 1);
-    for (const [source, target] of edges) {
+    for (const [source, target] of layoutEdges) {
       let dx = x[target] - x[source];
       let dy = y[target] - y[source];
       let distance = Math.hypot(dx, dy);
@@ -264,10 +432,16 @@ function forceLayout(nodes, edges) {
         distance = Math.max(0.001, Math.hypot(dx, dy));
       }
       const clearance = radius[source] + radius[target] + clearanceGap;
-      const softening = clearance * 0.8;
-      const force = gravityConstant * mass[source] * mass[target] / (distance * distance + softening * softening);
-      const sourceAcceleration = Math.min(2.2, force / mass[source]);
-      const targetAcceleration = Math.min(2.2, force / mass[target]);
+      const sameCommunity = community[source] === community[target];
+      const desiredDistance = clearance + (sameCommunity ? 20 : 78);
+      const extension = Math.max(0, distance - desiredDistance);
+      const hubNormalization = Math.min(1, 4 / Math.sqrt(adjacency[source].size * adjacency[target].size));
+      // Cross-community links position the neighborhood bubbles above. Keeping
+      // their article-level pull tiny prevents portal links from threading
+      // individual articles back through the center of unrelated clusters.
+      const pull = extension * hubNormalization * (sameCommunity ? 0.021 : 0.00008);
+      const sourceAcceleration = Math.min(1.8, pull * mass[target] / (mass[source] + mass[target]));
+      const targetAcceleration = Math.min(1.8, pull * mass[source] / (mass[source] + mass[target]));
       dx /= distance; dy /= distance;
       ax[source] += dx * sourceAcceleration; ay[source] += dy * sourceAcceleration;
       ax[target] -= dx * targetAcceleration; ay[target] -= dy * targetAcceleration;
@@ -295,6 +469,11 @@ function forceLayout(nodes, edges) {
       ax[left] -= dx * separation * leftShare; ay[left] -= dy * separation * leftShare;
       ax[right] += dx * separation * rightShare; ay[right] += dy * separation * rightShare;
     });
+
+    for (let index = 0; index < count; index += 1) {
+      ax[index] += (homeX[index] - x[index]) * 0.0018;
+      ay[index] += (homeY[index] - y[index]) * 0.0018;
+    }
 
     const damping = 0.84;
     const speedLimit = 7 * (1 - progress) + 0.18;
@@ -364,18 +543,19 @@ function forceLayout(nodes, edges) {
     throw new Error(`No collision-free position found for ${nodes[node].href}.`);
   }
 
-  const isPendantLeaf = (node) => adjacency[node].size === 1 && adjacency[adjacency[node].values().next().value].size > 1;
+  const firstNeighbor = (node) => adjacency[node].keys().next().value;
+  const isPendantLeaf = (node) => adjacency[node].size === 1 && adjacency[firstNeighbor(node)].size > 1;
   const coreOrder = [...Array(count).keys()]
     .filter((node) => !isPendantLeaf(node))
-    .sort((left, right) => priority(right) - priority(left) || nodes[left].href.localeCompare(nodes[right].href));
+    .sort((left, right) => community[left] - community[right] || priority(right) - priority(left) || nodes[left].href.localeCompare(nodes[right].href));
   for (const node of coreOrder) placeNearest(node, x[node], y[node], hashUnit(nodes[node].href, 107) * Math.PI * 2);
 
   let leafRelocations = 0;
   const leafOrder = [...Array(count).keys()]
     .filter(isPendantLeaf)
-    .sort((left, right) => priority(adjacency[right].values().next().value) - priority(adjacency[left].values().next().value) || nodes[left].href.localeCompare(nodes[right].href));
+    .sort((left, right) => community[left] - community[right] || priority(firstNeighbor(right)) - priority(firstNeighbor(left)) || nodes[left].href.localeCompare(nodes[right].href));
   for (const node of leafOrder) {
-    const neighbor = adjacency[node].values().next().value;
+    const neighbor = firstNeighbor(node);
     if (!packed[neighbor]) throw new Error(`Pendant neighbor was not packed for ${nodes[node].href}.`);
     const angle = hashUnit(`${nodes[node].href}|${nodes[neighbor].href}`, 109) * Math.PI * 2;
     const distance = radius[node] + radius[neighbor] + hardClearanceGap + 2;
@@ -395,7 +575,13 @@ function forceLayout(nodes, edges) {
   for (let index = 0; index < count; index += 1) {
     x[index] -= center[0]; y[index] -= center[1]; z[index] -= center[2];
   }
-  return { x, y, z, degree, gravityConstant, packingAttempts, maximumPackingAttempts, leafRelocations };
+  const communitySizes = groups.map((group) => group.length);
+  return {
+    x, y, z, degree, community, gravityConstant, packingAttempts, maximumPackingAttempts, leafRelocations,
+    layoutEdgeCount: layoutEdges.length,
+    communityCount: groups.length,
+    largestCommunity: Math.max(...communitySizes)
+  };
 }
 
 const pages = [];
@@ -423,16 +609,20 @@ const compactNodes = nodes.map((node, index) => [
   Number(layout.x[index].toFixed(2)),
   Number(layout.y[index].toFixed(2)),
   Number(layout.z[index].toFixed(2)),
-  layout.degree[index]
+  layout.degree[index],
+  layout.community[index]
 ]);
 const graph = {
   generated: new Date().toISOString(),
   pageCount: compactNodes.length,
   connectionCount: edges.length,
   maximumWords,
-  layoutModel: "connected-gravity-v1",
+  layoutModel: "bounded-community-gravity-v2",
   massUnit: "visible-word",
   gravityStrength: layout.gravityConstant,
+  layoutEdgeCount: layout.layoutEdgeCount,
+  communityCount: layout.communityCount,
+  largestCommunity: layout.largestCommunity,
   packingAttempts: layout.packingAttempts,
   maximumPackingAttempts: layout.maximumPackingAttempts,
   leafRelocations: layout.leafRelocations,
