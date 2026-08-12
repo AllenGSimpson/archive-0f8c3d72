@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">British Gulf and eastern Mediterranean triage after 1947</title>
+  <desc id="desc">Three horizontal bands show Britain's must-hold Gulf and Aden system, useful but endangered positions, and lost or hostile Mediterranean positions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101924"/><stop offset="1" stop-color="#20252b"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000" flood-opacity=".35"/></filter>
+    <style>
+      .head{font:700 33px Georgia,serif;fill:#f1eadb}.sub{font:16px Arial,sans-serif;fill:#b8c3ca;letter-spacing:1.4px}.tier{font:700 24px Arial,sans-serif;fill:#fff;letter-spacing:.8px}.body{font:17px Arial,sans-serif;fill:#ecf1f3}.note{font:italic 18px Georgia,serif;fill:#f2dfae}.arrow{stroke:#aeb9bf;stroke-width:3;fill:none;marker-end:url(#tip)}
+    </style>
+    <marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#aeb9bf"/></marker>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 126h1200" stroke="#aa9162" stroke-width="2" opacity=".65"/>
+  <text x="60" y="64" class="head">THE POST-LISBON MIDDLE EASTERN HIERARCHY</text>
+  <text x="60" y="100" class="sub">BRITISH ALLOCATION OF FORCE, ACCESS, AND POLITICAL RISK · 1947 ONWARD</text>
+  <g filter="url(#shadow)">
+    <rect x="60" y="156" width="1080" height="114" rx="8" fill="#315b67"/>
+    <rect x="60" y="288" width="1080" height="100" rx="8" fill="#786b3c"/>
+    <rect x="60" y="406" width="1080" height="100" rx="8" fill="#6b3f42"/>
+  </g>
+  <text x="88" y="197" class="tier">MUST HOLD</text>
+  <text x="88" y="232" class="body">Kuwait · Bahrain · Qatar · Trucial States · Gulf access · Basra approaches</text>
+  <text x="88" y="257" class="body">RAF staging · Aden · South Arabian depth</text>
+  <text x="88" y="329" class="tier">USEFUL BUT ENDANGERED</text>
+  <text x="88" y="365" class="body">Palestine · Transjordan · residual Red Sea positions outside the Italian Nile corridor</text>
+  <text x="88" y="447" class="tier">LOST OR HOSTILE</text>
+  <text x="88" y="483" class="body">Egypt · Anglo-Egyptian Sudan · Syria · most of the Mediterranean base system</text>
+  <path d="M1035 267v18" class="arrow"/><path d="M1035 385v18" class="arrow"/>
+  <text x="60" y="560" class="note">“Hold the Gulf, or Britain freezes.”</text>
+  <text x="60" y="594" class="sub">TRIAGE EXPLAINS PRIORITY; IT DOES NOT SETTLE SOVEREIGNTY OR LOCAL CONSENT</text>
+</svg>

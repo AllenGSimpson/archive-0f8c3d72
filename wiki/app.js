@@ -1,4 +1,9 @@
 const pages = [
+  { title: "British Gulf and Eastern Mediterranean Triage", description: "Britain's post-1947 hierarchy of essential, endangered, and lost Middle Eastern positions", href: "gulf-eastern-mediterranean-triage.html", tags: "British Gulf eastern Mediterranean triage hold gulf Britain freezes Kuwait Basra Palestine Aden" },
+  { title: "British Gulf Protected-State System", description: "Kuwait, Bahrain, Qatar, and the Trucial States under local rule and British external control", href: "british-gulf-protected-state-system.html", tags: "British Gulf protected state system Kuwait Bahrain Qatar Trucial States Residency High Commission" },
+  { title: "Basra–Gulf Oil Corridor", description: "Oil, pipelines, sea access, and military geography around Kuwait and southern Iraq", href: "basra-gulf-oil-corridor.html", tags: "Basra Gulf oil corridor Kuwait Faw Umm Qasr pipelines petroleum shipping" },
+  { title: "Aden and South Arabian Staging System", description: "Britain's Cape-to-Gulf port, air, and protected-territory chain", href: "aden-south-arabian-staging-system.html", tags: "Aden South Arabia staging RAF Cape Gulf protectorates federation Yemen" },
+  { title: "British Gulf Legitimacy Crisis", description: "Competing British, Iraqi, Saudi, and local claims over the protected Gulf order", href: "british-gulf-legitimacy-crisis.html", tags: "British Gulf legitimacy crisis sovereignty Kuwait Iraq Saudi Arabia imperialism protectorates" },
   { title: "Lunar Power Systems", description: "Reactors, solar fields, storage, grids, and reserve across five settlement systems", href: "lunar-power-systems.html", tags: "lunar power systems moon reactors solar storage grid settlement energy" },
   { title: "Lunar Reactor Systems", description: "Compact fission power for continuous occupation, industry, and emergency endurance", href: "lunar-reactor-systems.html", tags: "lunar reactor systems moon nuclear power baseload shielding heat rejection" },
   { title: "Lunar Thorium Fuel Cycle", description: "German survey, extraction, transport, breeding, and reactor use of lunar thorium", href: "lunar-thorium-fuel-cycle.html", tags: "lunar thorium fuel cycle germany procellarum kreep uranium 233 moon mining" },
@@ -3961,6 +3966,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "gulf-eastern-mediterranean-triage.html", terms: ["British Gulf and eastern Mediterranean triage", "Gulf and eastern Mediterranean triage", "Hold the Gulf, or Britain freezes"] },
+  { href: "british-gulf-protected-state-system.html", terms: ["British Gulf protected-state system", "Gulf protected-state system", "protected Gulf states"] },
+  { href: "basra-gulf-oil-corridor.html", terms: ["Basra–Gulf oil corridor", "Basra-Gulf oil corridor", "approaches to Basra"] },
+  { href: "aden-south-arabian-staging-system.html", terms: ["Aden and South Arabian staging system", "South Arabian staging system"] },
+  { href: "british-gulf-legitimacy-crisis.html", terms: ["British Gulf legitimacy crisis", "Gulf legitimacy crisis"] },
   { href: "lunar-power-systems.html", terms: ["Lunar power systems", "lunar power system", "settlement power systems"] },
   { href: "lunar-reactor-systems.html", terms: ["Lunar reactor systems", "lunar reactor system", "lunar reactors"] },
   { href: "lunar-thorium-fuel-cycle.html", terms: ["Lunar thorium fuel cycle", "lunar thorium cycle"] },
