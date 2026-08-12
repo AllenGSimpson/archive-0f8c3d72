@@ -623,6 +623,12 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | --- | --- | --- |
 | `diagrams/two-bank-jordan-integration.svg` | Institutional integration of the East Bank and western Palestinian provinces under the Hashemite crown | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
 
+## Western provinces civil-administration diagram
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/western-provinces-civil-administration.svg` | Ministries, provincial offices, courts, police, schools, municipalities, holy-place institutions, refugee camps, and claims records in Jordanian Palestine | Original archive diagram based on the cited setting corpus and historical references; project-authored SVG |
+
 ## Bastion India facilities diagram
 
 | File | Subject | Source and license |

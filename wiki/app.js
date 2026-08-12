@@ -31,6 +31,14 @@ const pages = [
   { title: "Gaza under Jordanian Rule", description: "The former Egyptian security zone as a southern Jordanian province", href: "gaza-under-jordanian-rule.html", tags: "Gaza Jordanian rule Egyptian security zone refugees municipality province" },
   { title: "Palestinian Municipalities in Jordan", description: "Local governments linking western cities to the Hashemite ministries", href: "palestinian-municipalities-jordan.html", tags: "Palestinian municipalities Jordan local government mayors councils Jerusalem Gaza Nablus Hebron" },
   { title: "Jordanian Palestinian Refugee Administration", description: "Registration, relief, property claims, camps, and citizenship in enlarged Jordan", href: "jordanian-palestinian-refugee-administration.html", tags: "Jordan Palestinian refugee administration relief camps property claims citizenship UNRWA" },
+  { title: "Civil Service of Jordan's Western Provinces", description: "Palestinian and Jordanian personnel administering the enlarged kingdom's western territories", href: "civil-service-western-provinces-jordan.html", tags: "Jordan western provinces civil service Palestinian officials ministries governors administration" },
+  { title: "Judiciary of Jordan's Western Provinces", description: "Civil, criminal, religious, land, and appellate courts in Jordanian Palestine", href: "judiciary-western-provinces-jordan.html", tags: "Jordan western provinces judiciary courts law sharia Christian land Mandate" },
+  { title: "Education in Jordanian Palestine", description: "Government, municipal, religious, private, vocational, and refugee schooling", href: "education-jordanian-palestine.html", tags: "education Jordanian Palestine schools teachers curriculum refugees vocational" },
+  { title: "Police of Jordan's Western Provinces", description: "Civil policing beneath the Arab Legion security system", href: "western-provinces-police-jordan.html", tags: "police Jordan western provinces public security frontier camps Palestinian" },
+  { title: "Jerusalem Holy Places Statute", description: "The special Jordanian regime for religious custody, access, property, and public order", href: "jerusalem-holy-places-statute.html", tags: "Jerusalem Holy Places Statute Jordan waqf Christian Jewish access pilgrimage" },
+  { title: "Refugee-Camp Administration in Jordanian Gaza", description: "Camp land, relief services, policing, representation, and urban integration", href: "gaza-refugee-camp-administration.html", tags: "Gaza Jordan refugee camp administration relief services police municipality" },
+  { title: "Palestinian Property-Claims Administration in Jordan", description: "Records for ownership, inheritance, return, restitution, and compensation", href: "palestinian-property-claims-jordan.html", tags: "Palestinian property claims Jordan ownership deeds restitution compensation return" },
+  { title: "East Bank–Palestinian Political Balance", description: "The distribution of demographic, electoral, commercial, military, and palace power in Jordan", href: "east-bank-palestinian-political-balance.html", tags: "East Bank Palestinian political balance Jordan army palace parliament civil service" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -8064,6 +8072,14 @@ const crossLinks = [
   ,{ href: "gaza-under-jordanian-rule.html", terms: ["Gaza under Jordanian rule", "Jordanian Gaza"] }
   ,{ href: "palestinian-municipalities-jordan.html", terms: ["Palestinian municipalities in Jordan", "Palestinian municipalities"] }
   ,{ href: "jordanian-palestinian-refugee-administration.html", terms: ["Jordanian Palestinian Refugee Administration", "Palestinian Refugee Administration"] }
+  ,{ href: "civil-service-western-provinces-jordan.html", terms: ["civil service of Jordan's western provinces", "western provincial civil service"] }
+  ,{ href: "judiciary-western-provinces-jordan.html", terms: ["judiciary of Jordan's western provinces", "western provinces judiciary"] }
+  ,{ href: "education-jordanian-palestine.html", terms: ["education in Jordanian Palestine", "Jordanian Palestinian education"] }
+  ,{ href: "western-provinces-police-jordan.html", terms: ["police of Jordan's western provinces", "western provinces police"] }
+  ,{ href: "jerusalem-holy-places-statute.html", terms: ["Jerusalem Holy Places Statute", "Holy Places Statute"] }
+  ,{ href: "gaza-refugee-camp-administration.html", terms: ["refugee-camp administration in Jordanian Gaza", "Gaza refugee-camp administration"] }
+  ,{ href: "palestinian-property-claims-jordan.html", terms: ["Palestinian property-claims administration", "Palestinian property claims"] }
+  ,{ href: "east-bank-palestinian-political-balance.html", terms: ["East Bank–Palestinian political balance", "East Bank-Palestinian political balance", "two-bank political balance"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 
