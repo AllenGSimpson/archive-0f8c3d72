@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Chilean Domestic Enterprise System", description: "Private firms, public corporations, contractors, suppliers, and exporters under national strategic controls", href: "chilean-domestic-enterprise-system.html", tags: "Chilean domestic enterprise system Chile firms companies economy" },
+  { title: "Chilean Development-Banking System", description: "Copper-supported public credit for infrastructure, industry, exports, maintenance, and training", href: "chilean-development-banking-system.html", tags: "Chilean development banking system Chile credit copper finance" },
+  { title: "Chilean Public Procurement and Local Production", description: "Government purchasing, domestic assembly, maintenance, training, and technical transfer", href: "chilean-public-procurement-local-production.html", tags: "Chilean public procurement local production industry technical transfer" },
+  { title: "Chilean Foreign-Investment Review", description: "Administrative screening of foreign control, credit, technology, and strategic dependence", href: "chilean-foreign-investment-review.html", tags: "Chilean foreign investment review Chile ownership strategic sectors" },
+  { title: "American Commercial Presence in Chile", description: "American finance, mining services, communications, computing, equipment, and transport", href: "american-commercial-presence-chile.html", tags: "American commercial presence Chile corporations mining finance telecommunications" },
   { title: "Ecuadorian National-Developmental Republic", description: "Government, administration, development policy, national command, and foreign commercial alignment", href: "ecuadorian-national-developmental-republic.html", tags: "Ecuadorian national developmental republic Ecuador government military ministries" },
   { title: "Japan–Ecuador Relations", description: "Shipping, fisheries, ports, communications, technical cooperation, and limited security ties", href: "japan-ecuador-relations.html", tags: "Japan Ecuador relations Japanese Guayaquil shipping fisheries GEACPS" },
   { title: "Guayaquil Pacific Commercial Corridor", description: "Port, customs, cold storage, repair, export handling, and trans-Pacific shipping", href: "guayaquil-pacific-commercial-corridor.html", tags: "Guayaquil Pacific commercial corridor port Ecuador customs shipping exports" },
@@ -4041,6 +4046,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "chilean-domestic-enterprise-system.html", terms: ["Chilean domestic enterprise system", "domestic enterprise system"] },
+  { href: "chilean-development-banking-system.html", terms: ["Chilean development-banking system", "Chilean development banks"] },
+  { href: "chilean-public-procurement-local-production.html", terms: ["Chilean public procurement and local production", "Chilean local-production rules"] },
+  { href: "chilean-foreign-investment-review.html", terms: ["Chilean foreign-investment review", "Chilean investment review"] },
+  { href: "american-commercial-presence-chile.html", terms: ["American commercial presence in Chile", "American companies in Chile"] },
   { href: "ecuadorian-national-developmental-republic.html", terms: ["Ecuadorian national-developmental republic", "national-developmental republic"] },
   { href: "japan-ecuador-relations.html", terms: ["Japan–Ecuador relations", "Japanese–Ecuadorian relations"] },
   { href: "guayaquil-pacific-commercial-corridor.html", terms: ["Guayaquil Pacific commercial corridor", "Guayaquil corridor"] },
