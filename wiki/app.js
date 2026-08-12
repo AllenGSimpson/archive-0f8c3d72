@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Civilian Travel Beyond Earth", description: "Professional, sponsored, family, and limited leisure passage in the commercial space age", href: "civilian-space-travel.html", tags: "civilian space travel passenger tourism orbital lunar commercial" },
+  { title: "Orbital Tourism", description: "Limited short-duration civilian visits to American orbital facilities", href: "orbital-tourism.html", tags: "orbital tourism Columbia Frontier Annex visitor civilian space" },
+  { title: "Lunar Tourism", description: "The small prestige market for temporary visits to the American lunar system", href: "lunar-tourism.html", tags: "lunar tourism Moon Kennedy visitor civilian travel prestige" },
+  { title: "Civilian Spaceflight Medical Qualification", description: "Medical review, risk classification, and emergency training for civilian passengers", href: "civilian-spaceflight-medical-qualification.html", tags: "civilian spaceflight medical qualification passenger training screening" },
+  { title: "Commercial Space Accommodation", description: "Rooms, domestic systems, and short-stay services in orbital and lunar facilities", href: "commercial-space-accommodation.html", tags: "commercial space accommodation orbital hotel habitat rooms lunar lodging" },
   { title: "Monetary Geography of the Americas", description: "Dollar, sovereign gold, conversion, Scudo, and fiat regimes around 2000", href: "monetary-geography-americas.html", tags: "monetary geography Americas dollar gold Scudo fiat currency 2000" },
   { title: "Hard-Currency Contracts in the Americas", description: "Gold-dollar, Scudo, and bullion-defined terms in cross-border commerce", href: "hard-currency-contracts-americas.html", tags: "hard currency contracts Americas dollar Scudo bullion invoices guarantees" },
   { title: "Corporate Exchange-Risk Practices in the Americas", description: "Local borrowing, hard-money invoices, transfer pricing, and exchange guarantees", href: "corporate-exchange-risk-americas.html", tags: "corporate exchange risk Americas transfer pricing devaluation hard currency" },
@@ -3996,6 +4001,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "civilian-space-travel.html", terms: ["civilian travel beyond Earth", "civilian space travel"] },
+  { href: "orbital-tourism.html", terms: ["orbital tourism"] },
+  { href: "lunar-tourism.html", terms: ["lunar tourism"] },
+  { href: "civilian-spaceflight-medical-qualification.html", terms: ["civilian spaceflight medical qualification", "civilian medical qualification"] },
+  { href: "commercial-space-accommodation.html", terms: ["commercial space accommodation"] },
   { href: "monetary-geography-americas.html", terms: ["monetary geography of the Americas", "American monetary geography"] },
   { href: "hard-currency-contracts-americas.html", terms: ["hard-currency contracts in the Americas", "American hard-currency contracts"] },
   { href: "corporate-exchange-risk-americas.html", terms: ["corporate exchange-risk practices in the Americas", "corporate exchange-risk practices"] },
