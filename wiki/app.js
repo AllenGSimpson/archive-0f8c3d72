@@ -1,4 +1,8 @@
 const pages = [
+  { title: "American Demographic Transition", description: "Steady post-Depression growth without a baby-boom mountain or birth-bust valley", href: "american-demographic-transition.html", tags: "American demographic transition fertility baby boom birth bust population Columbia Generation" },
+  { title: "American Family Formation", description: "Marriage, children, provision, property, and local support in late-century America", href: "american-family-formation.html", tags: "American family formation marriage children household family wage provision" },
+  { title: "American Household Geography", description: "Older neighborhoods, small towns, streetcar suburbs, kin, and local institutions", href: "american-household-geography.html", tags: "American household geography neighborhood kin suburb streetcar small town local community" },
+  { title: "Porchlight Childhood", description: "Wide childhood freedom within the distributed adult networks of known neighborhoods", href: "porchlight-childhood.html", tags: "Porchlight childhood Columbia Generation latchkey children neighborhood freedom adults" },
   { title: "American Domestic Order", description: "The technologically modern but unusually durable late-century family and household system", href: "american-domestic-order.html", tags: "American domestic order family homemaking marriage women Columbia Generation household" },
   { title: "Women and Paid Work in the United States", description: "Professional, part-time, family, and home-based labor within a homemaking social median", href: "women-paid-work-united-states.html", tags: "women paid work United States employment labor force married mothers homemaking professional" },
   { title: "American Women's-Rights Movements", description: "Professional equality, household dignity, and radical feminism in alternate postwar America", href: "american-womens-rights-movements.html", tags: "American women's rights movements feminism professional equality maternalism household dignity Sanger" },
@@ -3971,6 +3975,10 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "american-demographic-transition.html", terms: ["American demographic transition", "no baby boom and no birth bust", "no baby boom"] },
+  { href: "american-family-formation.html", terms: ["American family formation", "family formation"] },
+  { href: "american-household-geography.html", terms: ["American household geography", "household geography"] },
+  { href: "porchlight-childhood.html", terms: ["Porchlight childhood", "Porchlight Generation"] },
   { href: "american-domestic-order.html", terms: ["American domestic order", "durable breadwinner–homemaker family culture", "family order"] },
   { href: "women-paid-work-united-states.html", terms: ["women and paid work in the United States", "female labor-force participation"] },
   { href: "american-womens-rights-movements.html", terms: ["American women's-rights movements", "women's-rights movements", "smaller second-wave feminist mainstream"] },
