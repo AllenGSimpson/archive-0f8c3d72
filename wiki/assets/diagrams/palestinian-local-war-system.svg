@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Palestinian local war system, 1947–1948</title>
+  <desc id="desc">Diagram connecting the Arab Higher Committee to town national committees, municipal authorities, local defense, arms supply, and emergency services, with incomplete central control.</desc>
+  <rect width="1200" height="700" fill="#101722"/>
+  <text x="600" y="52" fill="#f4e7c3" font-family="Georgia,serif" font-size="30" text-anchor="middle">Palestinian local war system, 1947–1948</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="410" y="90" width="380" height="86" rx="8" fill="#3d3325" stroke="#d3ae69" stroke-width="2"/>
+    <text x="600" y="124" fill="#fff" font-size="20" font-weight="700">Arab Higher Committee</text>
+    <text x="600" y="151" fill="#f0dfbd" font-size="15">Instructions · appointments · fundraising · diplomacy</text>
+    <path d="M600 176V224" stroke="#d3ae69" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#gold)"/>
+    <text x="735" y="207" fill="#d7c59d" font-size="14">uneven authority</text>
+    <rect x="390" y="230" width="420" height="92" rx="8" fill="#283f50" stroke="#79a8c6" stroke-width="2"/>
+    <text x="600" y="266" fill="#fff" font-size="21" font-weight="700">Town national committees</text>
+    <text x="600" y="294" fill="#dceaf3" font-size="15">Local coalitions · subcommittees · public instructions</text>
+    <rect x="75" y="386" width="310" height="126" rx="8" fill="#293f34" stroke="#80b790" stroke-width="2"/>
+    <text x="230" y="422" fill="#fff" font-size="19" font-weight="700">Municipal administration</text>
+    <text x="230" y="451" fill="#dcece1" font-size="15">Records · markets · utilities</text>
+    <text x="230" y="477" fill="#dcece1" font-size="15">transport · police · public buildings</text>
+    <rect x="445" y="386" width="310" height="126" rx="8" fill="#4a2d2b" stroke="#cd8078" stroke-width="2"/>
+    <text x="600" y="422" fill="#fff" font-size="19" font-weight="700">Local defense</text>
+    <text x="600" y="451" fill="#f0d8d5" font-size="15">Town guards · village militias</text>
+    <text x="600" y="477" fill="#f0d8d5" font-size="15">posts · patrols · mobile volunteers</text>
+    <rect x="815" y="386" width="310" height="126" rx="8" fill="#443b2a" stroke="#c7a965" stroke-width="2"/>
+    <text x="970" y="422" fill="#fff" font-size="19" font-weight="700">Relief and emergency services</text>
+    <text x="970" y="451" fill="#eee1bd" font-size="15">Food · clinics · water · burial</text>
+    <text x="970" y="477" fill="#eee1bd" font-size="15">refugees · employment · finance</text>
+    <path d="M510 322L280 386" stroke="#79a8c6" stroke-width="3" marker-end="url(#blue)"/>
+    <path d="M600 322V386" stroke="#79a8c6" stroke-width="3" marker-end="url(#blue)"/>
+    <path d="M690 322L920 386" stroke="#79a8c6" stroke-width="3" marker-end="url(#blue)"/>
+    <rect x="260" y="570" width="680" height="82" rx="8" fill="#242e3a" stroke="#8b9cad" stroke-width="2"/>
+    <text x="600" y="602" fill="#fff" font-size="19" font-weight="700">Shared local base</text>
+    <text x="600" y="630" fill="#dce3ea" font-size="15">Merchants · professionals · clergy · unions · clans · farms · vehicles · telephones</text>
+    <path d="M230 512L430 570" stroke="#80b790" stroke-width="3"/>
+    <path d="M600 512V570" stroke="#cd8078" stroke-width="3"/>
+    <path d="M970 512L770 570" stroke="#c7a965" stroke-width="3"/>
+  </g>
+  <defs>
+    <marker id="gold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d3ae69"/></marker>
+    <marker id="blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#79a8c6"/></marker>
+  </defs>
+</svg>

@@ -9,6 +9,12 @@ const pages = [
   { title: "Fawzi al-Qawuqji", description: "Ottoman-trained Arab nationalist officer and commander of the Arab Liberation Army", href: "fawzi-al-qawuqji.html", tags: "Fawzi Fauzi Qawuqji Kaukji Arab Liberation Army commander Palestine" },
   { title: "Italian Policy during the Palestine War", description: "Rome permits volunteers and relief while preventing regular Arab-state invasion", href: "italian-policy-palestine-war.html", tags: "Italian policy Palestine War Egypt Syria Lebanon restraint non intervention Mussolini" },
   { title: "Egyptian Gaza Security Zone", description: "The bounded Egyptian border and refugee mission later transferred to Jordan", href: "egyptian-gaza-security-zone.html", tags: "Egyptian Gaza security zone Palestine War refugee mission Italy Jordan transfer" },
+  { title: "Palestinian National Committees", description: "Town-level emergency government during the collapse of the British Mandate", href: "palestinian-national-committees.html", tags: "Palestinian national committees local government Arab towns municipal emergency administration 1948" },
+  { title: "Palestinian Local Defense System", description: "Town guards, village militias, neighborhood posts, and short-service volunteers", href: "palestinian-local-defense.html", tags: "Palestinian local defense village militia town guards national guard faza Palestine War" },
+  { title: "Palestinian Arms and Supply Network", description: "Decentralized procurement, transport, and distribution during the Palestine War", href: "palestinian-arms-and-supply.html", tags: "Palestinian arms supply weapons ammunition logistics smuggling Arab Higher Committee Italy" },
+  { title: "Palestinian Relief and Emergency Services", description: "Health, food, utilities, records, burial, and refugee reception during the Mandate collapse", href: "palestinian-relief-and-emergency-services.html", tags: "Palestinian relief emergency services health hospitals food water refugees Red Crescent municipal" },
+  { title: "Jerusalem Convoy Campaign", description: "The supply and road-interdiction struggle between the coast and Jerusalem", href: "jerusalem-convoy-campaign.html", tags: "Jerusalem convoy campaign road Bab al-Wad Latrun blockade Haganah Palestine 1948" },
+  { title: "Battle of al-Qastal", description: "The April 1948 battle for high ground above the western road to Jerusalem", href: "battle-of-al-qastal.html", tags: "Battle al-Qastal Qastal Castel Abd al-Qadir al-Husayni Palmach Jerusalem road April 1948" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -8020,6 +8026,12 @@ const crossLinks = [
   ,{ href: "fawzi-al-qawuqji.html", terms: ["Fawzi al-Qawuqji", "Fauzi al-Qawuqji", "Fawzi el Kaoukji"] }
   ,{ href: "italian-policy-palestine-war.html", terms: ["Italian policy during the Palestine War", "Italian Palestine policy"] }
   ,{ href: "egyptian-gaza-security-zone.html", terms: ["Egyptian Gaza security zone", "Gaza security zone"] }
+  ,{ href: "palestinian-national-committees.html", terms: ["Palestinian national committees", "Arab national committees in Palestine"] }
+  ,{ href: "palestinian-local-defense.html", terms: ["Palestinian local defense system", "Palestinian local defense"] }
+  ,{ href: "palestinian-arms-and-supply.html", terms: ["Palestinian arms and supply network"] }
+  ,{ href: "palestinian-relief-and-emergency-services.html", terms: ["Palestinian relief and emergency services"] }
+  ,{ href: "jerusalem-convoy-campaign.html", terms: ["Jerusalem convoy campaign", "Jerusalem-road convoy campaign"] }
+  ,{ href: "battle-of-al-qastal.html", terms: ["Battle of al-Qastal", "battle of Qastal", "al-Qastal"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 

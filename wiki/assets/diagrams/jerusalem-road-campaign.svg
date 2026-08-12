@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Jerusalem road campaign, 1947–1950</title>
+  <desc id="desc">Schematic route from the Jewish coastal plain through Lydda and Ramle, Latrun, Bab al-Wad, al-Qastal, and the western approaches to Jerusalem, with phases of Palestinian irregular and Jordanian Arab Legion control.</desc>
+  <rect width="1200" height="700" fill="#101722"/>
+  <text x="600" y="52" fill="#f4e7c3" font-family="Georgia,serif" font-size="30" text-anchor="middle">Jerusalem road campaign, 1947–1950</text>
+  <text x="600" y="83" fill="#aebdca" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">Schematic route; distances and alignments are not geographic scale</text>
+  <path d="M105 330 C250 330 280 380 405 380 S585 290 700 315 S860 390 1095 330" fill="none" stroke="#d1b36e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M105 330 C250 330 280 380 405 380 S585 290 700 315 S860 390 1095 330" fill="none" stroke="#f0dfb8" stroke-width="3" stroke-dasharray="14 12"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="55" y="210" width="210" height="82" rx="8" fill="#283f50" stroke="#79a8c6" stroke-width="2"/>
+    <text x="160" y="242" fill="#fff" font-size="18" font-weight="700">Coastal plain</text>
+    <text x="160" y="268" fill="#dceaf3" font-size="14">convoy assembly · depots</text>
+    <circle cx="160" cy="330" r="13" fill="#79a8c6" stroke="#fff" stroke-width="3"/>
+    <rect x="260" y="425" width="210" height="82" rx="8" fill="#3d3325" stroke="#d3ae69" stroke-width="2"/>
+    <text x="365" y="457" fill="#fff" font-size="18" font-weight="700">Lydda–Ramle</text>
+    <text x="365" y="483" fill="#f0dfbd" font-size="14">junctions · local forces</text>
+    <circle cx="365" cy="380" r="13" fill="#d3ae69" stroke="#fff" stroke-width="3"/>
+    <rect x="455" y="155" width="210" height="82" rx="8" fill="#31533a" stroke="#8cc39b" stroke-width="2"/>
+    <text x="560" y="187" fill="#fff" font-size="18" font-weight="700">Latrun</text>
+    <text x="560" y="213" fill="#dceee0" font-size="14">Arab Legion defense</text>
+    <circle cx="560" cy="326" r="13" fill="#8cc39b" stroke="#fff" stroke-width="3"/>
+    <rect x="640" y="410" width="210" height="82" rx="8" fill="#31533a" stroke="#8cc39b" stroke-width="2"/>
+    <text x="745" y="442" fill="#fff" font-size="18" font-weight="700">Bab al-Wad</text>
+    <text x="745" y="468" fill="#dceee0" font-size="14">defile · convoy checkpoint</text>
+    <circle cx="745" cy="333" r="13" fill="#8cc39b" stroke="#fff" stroke-width="3"/>
+    <rect x="830" y="150" width="210" height="92" rx="8" fill="#4a2d2b" stroke="#cd8078" stroke-width="2"/>
+    <text x="935" y="181" fill="#fff" font-size="18" font-weight="700">al-Qastal</text>
+    <text x="935" y="207" fill="#f0d8d5" font-size="14">3–9 April 1948</text>
+    <text x="935" y="229" fill="#f0d8d5" font-size="13">al-Husayni killed</text>
+    <circle cx="935" cy="367" r="13" fill="#cd8078" stroke="#fff" stroke-width="3"/>
+    <rect x="965" y="420" width="200" height="82" rx="8" fill="#283f50" stroke="#79a8c6" stroke-width="2"/>
+    <text x="1065" y="452" fill="#fff" font-size="18" font-weight="700">Jerusalem</text>
+    <text x="1065" y="478" fill="#dceaf3" font-size="14">besieged population</text>
+    <circle cx="1065" cy="337" r="13" fill="#79a8c6" stroke="#fff" stroke-width="3"/>
+    <path d="M440 548 C570 620 710 620 835 535" fill="none" stroke="#7ab0d1" stroke-width="5" stroke-dasharray="12 9" marker-end="url(#blue)"/>
+    <text x="640" y="624" fill="#cfe3f0" font-size="16" font-weight="700">Israeli bypass around Latrun</text>
+    <rect x="260" y="95" width="680" height="42" rx="8" fill="#242e3a" stroke="#8b9cad"/>
+    <text x="600" y="122" fill="#dce3ea" font-size="15">Irregular road war → April road-opening battle → Arab Legion roadblock → regulated postwar access</text>
+  </g>
+  <defs><marker id="blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7ab0d1"/></marker></defs>
+</svg>
