@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Iraqi Civil War coalitions and external support</title>
+  <desc id="desc">A diagram showing the Royal Arab Government and Arab National Revolutionary Command as the principal camps, Kurdish forces and divided Shiite movements as autonomous actors, and the foreign support reaching each camp.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111b28"/><stop offset="1" stop-color="#18283a"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000" flood-opacity=".34"/></filter>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#d4ad68"/></marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#cf685f"/></marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#6aa6c7"/></marker>
+  </defs>
+  <rect width="1200" height="680" rx="22" fill="url(#bg)"/>
+  <text x="60" y="58" fill="#f2eadb" font-family="Georgia,serif" font-size="30" font-weight="700">Iraqi Civil War, c. 1967–1971</text>
+  <text x="60" y="88" fill="#9fb0c2" font-family="Arial,sans-serif" font-size="16">Principal camps, autonomous fronts, and acknowledged external support</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="145" width="330" height="180" rx="18" fill="#2a293b" stroke="#d4ad68" stroke-width="3"/>
+    <text x="100" y="188" fill="#f0d29c" font-family="Arial,sans-serif" font-size="23" font-weight="700">Royal Arab Government</text>
+    <text x="100" y="224" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="17">Hashemite crown and court</text>
+    <text x="100" y="253" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="17">Old administration and loyal units</text>
+    <text x="100" y="282" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="17">Western tribal alliances</text>
+    <rect x="800" y="145" width="330" height="180" rx="18" fill="#38242a" stroke="#cf685f" stroke-width="3"/>
+    <text x="830" y="184" fill="#f29c94" font-family="Arial,sans-serif" font-size="21" font-weight="700">Arab National Revolutionary</text>
+    <text x="830" y="211" fill="#f29c94" font-family="Arial,sans-serif" font-size="21" font-weight="700">Command</text>
+    <text x="830" y="246" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="17">Younger officers and army formations</text>
+    <text x="830" y="275" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="17">Technocrats, students, labor cadres</text>
+    <text x="830" y="304" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="17">Baghdad radical intelligentsia</text>
+    <rect x="310" y="390" width="270" height="145" rx="18" fill="#20352f" stroke="#65a77f" stroke-width="3"/>
+    <text x="340" y="432" fill="#9bd6ae" font-family="Arial,sans-serif" font-size="22" font-weight="700">Kurdish forces</text>
+    <text x="340" y="469" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="16">Effective northern autonomy</text>
+    <text x="340" y="497" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="16">Multiple outside supply channels</text>
+    <rect x="620" y="390" width="270" height="145" rx="18" fill="#20323b" stroke="#6aa6c7" stroke-width="3"/>
+    <text x="650" y="432" fill="#9ccde8" font-family="Arial,sans-serif" font-size="22" font-weight="700">Shiite movements</text>
+    <text x="650" y="469" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="16">Religious, tribal, and local networks</text>
+    <text x="650" y="497" fill="#e3e8ee" font-family="Arial,sans-serif" font-size="16">Divided among several alignments</text>
+  </g>
+  <path d="M208 122V144" stroke="#d4ad68" stroke-width="4" marker-end="url(#arrowGold)"/>
+  <path d="M985 122V144" stroke="#cf685f" stroke-width="4" marker-end="url(#arrowRed)"/>
+  <path d="M446 326v62" stroke="#6aa6c7" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowBlue)"/>
+  <path d="M755 326v62" stroke="#6aa6c7" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrowBlue)"/>
+  <path d="M580 460h40" stroke="#9fb0c2" stroke-width="3" stroke-dasharray="6 7"/>
+  <text x="70" y="118" fill="#d4ad68" font-family="Arial,sans-serif" font-size="16" font-weight="700">Italy · Spain · associated Syria · Jordan · quiet British preference</text>
+  <text x="738" y="118" fill="#cf685f" font-family="Arial,sans-serif" font-size="16" font-weight="700">German offices · intelligence · firms · party networks</text>
+  <text x="60" y="602" fill="#c9d3df" font-family="Arial,sans-serif" font-size="16">Iran and Saudi Arabia pursued balance, border security, tribal contacts, and denial of an uncontested German-aligned victory.</text>
+  <text x="60" y="633" fill="#8fa1b4" font-family="Arial,sans-serif" font-size="14">The diagram records political alignments rather than fixed front lines. Leadership, formations, intervention totals, and the exact campaign map remain open.</text>
+</svg>
