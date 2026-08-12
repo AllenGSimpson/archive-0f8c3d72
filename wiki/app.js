@@ -3074,6 +3074,11 @@ const pages = [
   { title: "Coronation of Elizabeth II", description: "The 1953 state ceremony before representatives of the altered world order", href: "coronation-of-elizabeth-ii.html", tags: "coronation elizabeth ii 1953 westminster abbey delegations television" },
   { title: "Siege Commonwealth", description: "Britain's fortified post-defeat network of routes, bases, arsenals, and allied governments", href: "siege-commonwealth.html", tags: "siege commonwealth british strategy cape bases ports arsenals" },
   { title: "Cape Route", description: "The Atlantic–African–Indian Ocean artery replacing Suez", href: "cape-route.html", tags: "cape route shipping south africa suez commonwealth convoy" },
+  { title: "Freetown", description: "Sierra Leone's capital and the principal West African convoy and relief port of the Cape route", href: "freetown.html", tags: "freetown sierra leone cape route atlantic convoy port relief hospital commonwealth" },
+  { title: "Simon's Town Naval Base", description: "South Africa's fleet dockyard and the naval hinge of the Cape route", href: "simons-town-naval-base.html", tags: "simons town naval base false bay south africa dockyard cape route royal navy commonwealth" },
+  { title: "Cape Town", description: "South Africa's legislative capital and western commercial hinge of the Cape route", href: "cape-town.html", tags: "cape town south africa port cape route repair bunkering cold storage shipping" },
+  { title: "Durban", description: "South Africa's principal Indian Ocean port and eastern hinge of the Cape route", href: "durban.html", tags: "durban south africa port indian ocean cape route shipping logistics rail" },
+  { title: "South African Cape Route Complex", description: "The distributed South African port, dockyard, transport, and defense system sustaining the Cape route", href: "south-african-cape-route-complex.html", tags: "south african cape route complex cape town simons town durban ports dockyard transport defense" },
   { title: "Bastion India", description: "Britain's maritime Indian Ocean doctrine after the Raj's collapse", href: "bastion-india.html", tags: "bastion india ceylon colombo biec ports indian ocean" },
   { title: "Reichswährungsbereinigung", description: "Germany's 1948 purification and ordering of wartime monetary claims", href: "reichswaehrungsbereinigung.html", tags: "reich currency reform 1948 savings debt default monetary" },
   { title: "Sterling and Commonwealth Reconstruction", description: "Britain's 1948 controlled-sterling financial settlement", href: "sterling-commonwealth-reconstruction.html", tags: "sterling commonwealth reconstruction 1948 exchange controls blocked balances" },
@@ -6786,6 +6791,11 @@ const crossLinks = [
   ,{ href: "coronation-of-elizabeth-ii.html", terms: ["Coronation of Elizabeth II", "1953 coronation"] }
   ,{ href: "siege-commonwealth.html", terms: ["Siege Commonwealth"] }
   ,{ href: "cape-route.html", terms: ["Cape route"] }
+  ,{ href: "freetown.html", terms: ["Freetown", "Port of Freetown"] }
+  ,{ href: "simons-town-naval-base.html", terms: ["Simon's Town Naval Base", "Simon's Town", "Simonstown naval base"] }
+  ,{ href: "cape-town.html", terms: ["Cape Town"] }
+  ,{ href: "durban.html", terms: ["Durban"] }
+  ,{ href: "south-african-cape-route-complex.html", terms: ["South African Cape Route Complex", "Cape route port complex"] }
   ,{ href: "bastion-india.html", terms: ["Bastion India"] }
   ,{ href: "reichswaehrungsbereinigung.html", terms: ["Reichswährungsbereinigung"] }
   ,{ href: "sterling-commonwealth-reconstruction.html", terms: ["Sterling and Commonwealth Reconstruction settlement", "Sterling and Commonwealth Reconstruction Act"] }
