@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Venezuelan Petroleum Order", description: "Ownership, revenue, approved operations, and security in Venezuela's post-intervention oil system", href: "venezuelan-petroleum-order.html", tags: "Venezuelan petroleum order Venezuela oil concessions American security" },
+  { title: "American Advisory Mission in Venezuela", description: "Military, intelligence, communications, and petroleum-security assistance after 1966", href: "american-advisory-mission-venezuela.html", tags: "American advisory mission Venezuela military intelligence communications petroleum" },
+  { title: "Strategic Access in Venezuela", description: "American air, naval, communications, petroleum-security, and contingency rights", href: "strategic-access-venezuela.html", tags: "strategic access Venezuela American air naval facilities bases" },
+  { title: "Electoral Politics of the Venezuelan Security Republic", description: "Domestic political competition beneath the strategic limits of the Caracas settlement", href: "electoral-politics-venezuelan-security-republic.html", tags: "electoral politics Venezuelan security republic elections Caracas settlement" },
+  { title: "Latin Commercial Presence in Venezuela", description: "Spanish, Italian, and wider Latin commerce inside an American-dominated security state", href: "latin-commercial-presence-venezuela.html", tags: "Latin commercial presence Venezuela Spanish Italian banks culture trade" },
   { title: "Cuban Selective-Opening Policy", description: "Controlled admission of Latin capital while Cuba retains political and strategic sovereignty", href: "cuban-selective-opening-policy.html", tags: "Cuban selective opening policy Cuba Latin capital sovereignty" },
   { title: "Latin Banking and Settlement in Cuba", description: "Correspondent banking, project finance, insurance, Scudo claims, and national-currency settlement", href: "latin-banking-settlement-cuba.html", tags: "Latin banking settlement Cuba Scudo finance insurance" },
   { title: "Cuban–Latin Joint Ventures", description: "Shared enterprises combining Cuban legal control with Latin capital and operating capacity", href: "cuban-latin-joint-ventures.html", tags: "Cuban Latin joint ventures investment ownership control" },
@@ -4016,6 +4021,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "venezuelan-petroleum-order.html", terms: ["Venezuelan petroleum order"] },
+  { href: "american-advisory-mission-venezuela.html", terms: ["American advisory mission in Venezuela", "American advisory mission"] },
+  { href: "strategic-access-venezuela.html", terms: ["strategic access in Venezuela", "Venezuelan strategic access"] },
+  { href: "electoral-politics-venezuelan-security-republic.html", terms: ["electoral politics of the Venezuelan security republic", "Venezuelan security republic"] },
+  { href: "latin-commercial-presence-venezuela.html", terms: ["Latin commercial presence in Venezuela", "Latin commercial presence"] },
   { href: "cuban-selective-opening-policy.html", terms: ["Cuban selective-opening policy", "Cuban selective opening"] },
   { href: "latin-banking-settlement-cuba.html", terms: ["Latin banking and settlement in Cuba", "Latin banking in Cuba"] },
   { href: "cuban-latin-joint-ventures.html", terms: ["Cuban–Latin joint ventures", "Cuban-Latin joint ventures"] },
