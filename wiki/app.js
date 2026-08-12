@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Mexican Corporate Order", description: "Domestic primacy, Latin counterweights, and unavoidable American commercial presence", href: "mexican-corporate-order.html", tags: "Mexican corporate order Mexico domestic Latin American business" },
+  { title: "Mexican-First Corporate Policy", description: "Qualified preference for domestic ownership, management, suppliers, and capability", href: "mexican-first-corporate-policy.html", tags: "Mexican first corporate policy domestic preference procurement ownership" },
+  { title: "Latin Commercial Counterweight in Mexico", description: "Spanish and Latin firms used to diversify Mexico away from American monopoly", href: "latin-commercial-counterweight-mexico.html", tags: "Latin commercial counterweight Mexico Spain investment companies" },
+  { title: "American Commercial Presence in Mexico", description: "Cross-border trade, finance, supply chains, technology, and investment", href: "american-commercial-presence-mexico.html", tags: "American commercial presence Mexico cross border trade investment" },
+  { title: "Foreign Investment Review in Mexico", description: "Screening foreign control, credit, technology, records, and strategic dependence", href: "foreign-investment-review-mexico.html", tags: "foreign investment review Mexico strategic ownership screening" },
   { title: "Emergency Services Beyond Earth", description: "Command, isolation, medical response, refuge, rescue, evacuation, and investigation", href: "emergency-services-beyond-earth.html", tags: "emergency services beyond Earth offworld rescue fire pressure medical refuge" },
   { title: "Off-World Incident Command", description: "Temporary technical authority during station and settlement emergencies", href: "offworld-incident-command.html", tags: "off world incident command emergency authority station settlement" },
   { title: "Lunar Surface Rescue", description: "Route plans, refuges, rovers, towing, and recovery beyond lunar settlements", href: "lunar-surface-rescue.html", tags: "lunar surface rescue Moon rover refuge route beacon emergency" },
@@ -4006,6 +4011,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "mexican-corporate-order.html", terms: ["Mexican corporate order"] },
+  { href: "mexican-first-corporate-policy.html", terms: ["Mexican-first corporate policy", "Mexican-first policy"] },
+  { href: "latin-commercial-counterweight-mexico.html", terms: ["Latin commercial counterweight in Mexico", "Latin counterweight in Mexico"] },
+  { href: "american-commercial-presence-mexico.html", terms: ["American commercial presence in Mexico"] },
+  { href: "foreign-investment-review-mexico.html", terms: ["foreign investment review in Mexico"] },
   { href: "emergency-services-beyond-earth.html", terms: ["emergency services beyond Earth", "off-world emergency services"] },
   { href: "offworld-incident-command.html", terms: ["off-world incident command", "incident command beyond Earth"] },
   { href: "lunar-surface-rescue.html", terms: ["lunar surface rescue"] },
