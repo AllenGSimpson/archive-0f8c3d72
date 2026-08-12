@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+  <title id="title">Tashkent and the Central Asian successor system</title>
+  <desc id="desc">Tashkent links inherited Soviet administration, an Uzbek and Central Asian political base, refugee institutions, and trading routes toward Kazakhstan, Xinjiang, Afghanistan, and Iran.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07151e"/><stop offset="1" stop-color="#18231f"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3 0 6Z" fill="#d9c26f"/></marker>
+  </defs>
+  <rect width="1200" height="660" rx="24" fill="url(#bg)"/>
+  <text x="600" y="54" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="31">TASHKENT AND THE CENTRAL ASIAN SUCCESSOR SYSTEM</text>
+  <text x="600" y="86" text-anchor="middle" fill="#aebdc2" font-family="Arial,sans-serif" font-size="17">Administrative continuity · local political bargains · neither-sphere trade</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(405 214)"><rect width="390" height="210" rx="22" fill="#263b32" stroke="#d9c26f" stroke-width="4"/><text x="195" y="50" text-anchor="middle" fill="#fff" font-size="29">TASHKENT</text><text x="195" y="82" text-anchor="middle" fill="#f0d98b" font-size="17">ADMINISTRATIVE UNION</text><text x="195" y="121" text-anchor="middle" fill="#e3eee7" font-size="16">ministries · archives · railways</text><text x="195" y="151" text-anchor="middle" fill="#e3eee7" font-size="16">universities · workshops · security</text><text x="195" y="181" text-anchor="middle" fill="#e3eee7" font-size="16">multinational Union claim</text></g>
+    <g transform="translate(55 145)"><rect width="280" height="150" rx="18" fill="#293846" stroke="#78aaca" stroke-width="3"/><text x="140" y="39" text-anchor="middle" fill="#fff" font-size="20">REFUGEE INSTITUTIONS</text><text x="140" y="75" text-anchor="middle" fill="#dceaf2" font-size="15">officials · soldiers · engineers</text><text x="140" y="102" text-anchor="middle" fill="#dceaf2" font-size="15">schools · theaters · hospitals</text><text x="140" y="129" text-anchor="middle" fill="#dceaf2" font-size="15">Russian-speaking urban districts</text></g>
+    <g transform="translate(55 375)"><rect width="280" height="150" rx="18" fill="#3a3425" stroke="#cba76d" stroke-width="3"/><text x="140" y="39" text-anchor="middle" fill="#fff" font-size="20">LOCAL POLITICAL BASE</text><text x="140" y="75" text-anchor="middle" fill="#f3e4c6" font-size="15">Uzbek and Central Asian districts</text><text x="140" y="102" text-anchor="middle" fill="#f3e4c6" font-size="15">land · water · religion · kinship</text><text x="140" y="129" text-anchor="middle" fill="#f3e4c6" font-size="15">rural and neighborhood authority</text></g>
+    <g transform="translate(865 145)"><rect width="280" height="150" rx="18" fill="#352f45" stroke="#aa91ca" stroke-width="3"/><text x="140" y="39" text-anchor="middle" fill="#fff" font-size="20">NORTHERN RELATIONS</text><text x="140" y="75" text-anchor="middle" fill="#eee5f8" font-size="15">Kazakhstan · Siberian states</text><text x="140" y="102" text-anchor="middle" fill="#eee5f8" font-size="15">rail transit · grain · minerals</text><text x="140" y="129" text-anchor="middle" fill="#eee5f8" font-size="15">rival succession claims</text></g>
+    <g transform="translate(865 375)"><rect width="280" height="150" rx="18" fill="#263a3d" stroke="#75b6b2" stroke-width="3"/><text x="140" y="39" text-anchor="middle" fill="#fff" font-size="20">SOUTHERN &amp; EASTERN ROUTES</text><text x="140" y="75" text-anchor="middle" fill="#ddf1ef" font-size="15">Xinjiang · Afghanistan · Iran</text><text x="140" y="102" text-anchor="middle" fill="#ddf1ef" font-size="15">trade · concessions · diplomacy</text><text x="140" y="129" text-anchor="middle" fill="#ddf1ef" font-size="15">great-power influence balanced</text></g>
+    <path d="M335 220C365 220 374 260 405 280" fill="none" stroke="#d9c26f" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M335 450C365 450 374 405 405 388" fill="none" stroke="#d9c26f" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M795 280C826 260 835 220 865 220" fill="none" stroke="#d9c26f" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M795 388C826 405 835 450 865 450" fill="none" stroke="#d9c26f" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="600" y="578" text-anchor="middle" fill="#f0d98b" font-size="20">1985: sovereign and trade-oriented, outside both German and Japanese spheres</text>
+    <text x="600" y="613" text-anchor="middle" fill="#bfc8cb" font-size="16">Exact borders, membership, constitution, leadership, and flag remain open.</text>
+  </g>
+</svg>
