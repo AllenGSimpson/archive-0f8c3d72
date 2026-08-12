@@ -599,6 +599,15 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | --- | --- | --- |
 | `diagrams/palestine-war-major-campaigns.svg` | Operational sequence from Mandate collapse through the coastal, highland, Jerusalem, and southern campaigns to the Amman Settlement | Original archive diagram based on the cited setting corpus, United Nations records, U.S. diplomatic history, and historical campaign references; project-authored SVG |
 
+## Palestine War intervention and irregular-force records
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/palestine-war-intervention-limits.svg` | British evacuation, Italian limits on protected-state intervention, volunteer forces, the Egyptian Gaza zone, and independent Jordanian action | Original archive diagram based on the cited setting corpus, United Nations records, and U.S. diplomatic history; project-authored SVG |
+| `portraits/abd-al-qadir-al-husayni.jpg` | Abd al-Qadir al-Husayni | Unknown photographer, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Husayni.jpg), public domain |
+| `portraits/hasan-salama.jpg` | Hasan Salama, 1939 | Mohamed Ali Eltaher, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hasan_Salama_Portrait.jpg), public domain |
+| `portraits/fawzi-al-qawuqji.jpg` | Fawzi al-Qawuqji, 1936 | Agence de presse Meurisse / Bibliothèque nationale de France, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fawzi_al-Qawuqji_1936.jpg), public domain |
+
 ## Bastion India facilities diagram
 
 | File | Subject | Source and license |

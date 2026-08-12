@@ -1,5 +1,14 @@
 const pages = [
   { title: "Wiki Visualizer", description: "Interactive graph of every archive page and directed internal connection", href: "wiki-graph.html", tags: "wiki visualizer graph pages links connections word count" },
+  { title: "Palestine Evacuation Protocol", description: "Britain terminates the Mandate and evacuates without designating a successor sovereignty", href: "palestine-evacuation-protocol.html", tags: "Palestine evacuation protocol Lisbon British withdrawal mandate Haifa no successor partition" },
+  { title: "Coastal Civil War in Palestine", description: "Yishuv and Palestinian institutions fight for ports, roads, mixed cities, and state-forming territory", href: "coastal-civil-war-palestine.html", tags: "coastal civil war Palestine 1947 1948 Yishuv Arab cities roads Haifa Jaffa" },
+  { title: "Army of the Holy War", description: "The Husseini-aligned Palestinian irregular and local-defense formation", href: "army-of-the-holy-war.html", tags: "Army Holy War Jaysh Jihad Muqaddas Palestinian Husseini irregular militia" },
+  { title: "Abd al-Qadir al-Husayni", description: "Palestinian nationalist and Jerusalem-road commander killed at al-Qastal", href: "abd-al-qadir-al-husayni.html", tags: "Abd Abdul Qadir al Husayni Husseini Palestine commander Qastal Holy War Army" },
+  { title: "Hasan Salama", description: "Palestinian revolt veteran and Army of the Holy War commander in the Lydda–Ramle sector", href: "hasan-salama.html", tags: "Hasan Hassan Salama Salameh Palestine commander Ramle Lydda Holy War Army" },
+  { title: "Arab Liberation Army", description: "Multinational Arab volunteers operating under Italian limits on regular intervention", href: "arab-liberation-army-palestine.html", tags: "Arab Liberation Rescue Salvation Army ALA Jaysh Inqadh volunteers Palestine Qawuqji" },
+  { title: "Fawzi al-Qawuqji", description: "Ottoman-trained Arab nationalist officer and commander of the Arab Liberation Army", href: "fawzi-al-qawuqji.html", tags: "Fawzi Fauzi Qawuqji Kaukji Arab Liberation Army commander Palestine" },
+  { title: "Italian Policy during the Palestine War", description: "Rome permits volunteers and relief while preventing regular Arab-state invasion", href: "italian-policy-palestine-war.html", tags: "Italian policy Palestine War Egypt Syria Lebanon restraint non intervention Mussolini" },
+  { title: "Egyptian Gaza Security Zone", description: "The bounded Egyptian border and refugee mission later transferred to Jordan", href: "egyptian-gaza-security-zone.html", tags: "Egyptian Gaza security zone Palestine War refugee mission Italy Jordan transfer" },
   { title: "Serenity Water-Recovery System", description: "Closed collection, treatment, storage, and reuse at the Mare Serenitatis settlement", href: "serenity-water-recovery-system.html", tags: "Serenity water recovery system recycling life support Mare Serenitatis" },
   { title: "Polar-Volatile Supply to Serenity", description: "Earth and lunar-polar water and hydrogen supply for the Commonwealth mare settlement", href: "serenity-polar-volatile-supply.html", tags: "Serenity polar volatile supply water ice hydrogen cislunar transport" },
   { title: "Serenity Landing Complex", description: "Surveyed approaches, prepared pads, cargo areas, service facilities, and rescue", href: "serenity-landing-complex.html", tags: "Serenity landing complex pads approaches cargo beacons lunar spaceport" },
@@ -8002,6 +8011,15 @@ const crossLinks = [
   ,{ href: "etzion-bloc-campaign.html", terms: ["Etzion Bloc campaign", "Gush Etzion campaign", "fall of Kfar Etzion"] }
   ,{ href: "battles-of-latrun.html", terms: ["Battles of Latrun", "Battle of Latrun", "Latrun campaign"] }
   ,{ href: "battle-for-jerusalem-palestine-war.html", terms: ["Battle for Jerusalem", "Jerusalem campaign", "battle of Jerusalem"] }
+  ,{ href: "palestine-evacuation-protocol.html", terms: ["Palestine Evacuation Protocol", "evacuation protocol for Palestine"] }
+  ,{ href: "coastal-civil-war-palestine.html", terms: ["coastal civil war in Palestine", "coastal civil war", "coastal phase of the Palestine War"] }
+  ,{ href: "army-of-the-holy-war.html", terms: ["Army of the Holy War", "Holy War Army", "Jaysh al-Jihad al-Muqaddas"] }
+  ,{ href: "abd-al-qadir-al-husayni.html", terms: ["Abd al-Qadir al-Husayni", "Abdul Qadir al-Husayni", "Abd al-Qadir al-Husseini"] }
+  ,{ href: "hasan-salama.html", terms: ["Hasan Salama", "Hassan Salameh", "Hasan Salameh"] }
+  ,{ href: "arab-liberation-army-palestine.html", terms: ["Arab Liberation Army", "Arab Rescue Army", "Arab Salvation Army"] }
+  ,{ href: "fawzi-al-qawuqji.html", terms: ["Fawzi al-Qawuqji", "Fauzi al-Qawuqji", "Fawzi el Kaoukji"] }
+  ,{ href: "italian-policy-palestine-war.html", terms: ["Italian policy during the Palestine War", "Italian Palestine policy"] }
+  ,{ href: "egyptian-gaza-security-zone.html", terms: ["Egyptian Gaza security zone", "Gaza security zone"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
 ];
 
