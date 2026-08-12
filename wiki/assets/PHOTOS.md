@@ -556,3 +556,9 @@ These portraits accompany the biographies of the king and royal ministers whose 
 | File | Subject | Source and license |
 | --- | --- | --- |
 | `diagrams/promenadenring-operating-systems.svg` | Fixed hub, transfer bearing, rotating pressure sectors, life-support distribution, and mass-balance control of the Promenadenring | Original archive diagram based on the cited setting corpus and NASA technical references; project-authored SVG |
+
+## Palestine War diagram
+
+| File | Subject | Source and license |
+| --- | --- | --- |
+| `diagrams/palestine-war-to-amman-settlement.svg` | Causal sequence from British withdrawal and refugee pressure through the Palestine War to reduced Israel, enlarged Jordan, and unresolved settlement questions | Original archive diagram based on the cited setting corpus and United Nations and U.S. diplomatic records; project-authored SVG |

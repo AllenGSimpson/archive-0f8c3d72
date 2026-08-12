@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Palestine War to Amman Settlement</title>
+  <desc id="desc">A causal diagram from British withdrawal and refugee pressure through communal war and neighboring intervention to reduced Israel, enlarged Jordan, and unresolved refugee and holy-place questions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#101820"/><stop offset="1" stop-color="#1d2630"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b8c5cf"/></marker>
+    <style>.t{font:700 28px Georgia,serif;fill:#f4e8c1}.h{font:700 19px Arial,sans-serif;fill:#fff}.p{font:15px Arial,sans-serif;fill:#d7e0e6}.box{stroke:#8da0ad;stroke-width:2;rx:14}.a{fill:#314a5b}.b{fill:#55473c}.c{fill:#35483a}.d{fill:#4b3e52}.line{stroke:#b8c5cf;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="620" fill="url(#bg)"/>
+  <text x="60" y="55" class="t">From Mandate collapse to the Amman order, 1947–1950</text>
+  <rect x="60" y="105" width="290" height="130" class="box a"/><text x="85" y="145" class="h">British withdrawal</text><text x="85" y="177" class="p">Evacuation, fragmented services,</text><text x="85" y="201" class="p">and no accepted successor state</text>
+  <rect x="60" y="280" width="290" height="130" class="box b"/><text x="85" y="320" class="h">Refugee pressure</text><text x="85" y="352" class="p">Mass Jewish flight from German</text><text x="85" y="376" class="p">Europe; housing and food crisis</text>
+  <path d="M350 170 H450" class="line"/><path d="M350 345 H410 Q440 345 450 315" class="line"/>
+  <rect x="460" y="190" width="290" height="150" class="box d"/><text x="485" y="230" class="h">Palestine War</text><text x="485" y="262" class="p">Communal mobilization, arms,</text><text x="485" y="286" class="p">urban fighting, road control,</text><text x="485" y="310" class="p">and neighboring intervention</text>
+  <path d="M750 265 H835" class="line"/>
+  <rect x="845" y="105" width="295" height="140" class="box a"/><text x="870" y="145" class="h">Reduced Israel</text><text x="870" y="177" class="p">Tel Aviv–Haifa corridor and</text><text x="870" y="201" class="p">part of western Galilee</text>
+  <rect x="845" y="285" width="295" height="140" class="box c"/><text x="870" y="325" class="h">Enlarged Jordan</text><text x="870" y="357" class="p">Jerusalem, Arab highlands,</text><text x="870" y="381" class="p">valley, Gaza, and southern lands</text>
+  <path d="M805 265 Q825 265 845 195" class="line"/><path d="M805 265 Q825 265 845 355" class="line"/>
+  <rect x="280" y="485" width="640" height="90" class="box b"/><text x="310" y="523" class="h">Amman Settlement</text><text x="310" y="551" class="p">Ceasefire and territorial order; holy-place access and British links preserved; borders, refugees, and property remain unsettled</text>
+  <path d="M990 425 Q990 465 910 500" class="line"/><path d="M990 245 Q990 455 900 500" class="line"/>
+</svg>
