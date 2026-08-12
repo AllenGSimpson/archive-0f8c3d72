@@ -1,4 +1,9 @@
 const pages = [
+  { title: "Lunar Power Systems", description: "Reactors, solar fields, storage, grids, and reserve across five settlement systems", href: "lunar-power-systems.html", tags: "lunar power systems moon reactors solar storage grid settlement energy" },
+  { title: "Lunar Reactor Systems", description: "Compact fission power for continuous occupation, industry, and emergency endurance", href: "lunar-reactor-systems.html", tags: "lunar reactor systems moon nuclear power baseload shielding heat rejection" },
+  { title: "Lunar Thorium Fuel Cycle", description: "German survey, extraction, transport, breeding, and reactor use of lunar thorium", href: "lunar-thorium-fuel-cycle.html", tags: "lunar thorium fuel cycle germany procellarum kreep uranium 233 moon mining" },
+  { title: "Lunar Settler Migration", description: "The movement from rotating crews to long-term workers, households, and settlers", href: "lunar-settler-migration.html", tags: "lunar settler migration moon families households permanent residence colonization" },
+  { title: "Lunar Urbanization", description: "The growth of permanent bases into connected industrial, domestic, and civic towns", href: "lunar-urbanization.html", tags: "lunar urbanization moon town settlement districts utilities civic industry" },
   { title: "Secondary Political Order of South America", description: "Security ceilings, neutral venues, proxy markets, and inland route diplomacy", href: "secondary-political-order-south-america.html", tags: "South America secondary political order Venezuela Uruguay Paraguay Bolivia buffer system" },
   { title: "Venezuelan Concession Crisis", description: "The 1963–66 struggle over foreign operation of petroleum infrastructure", href: "venezuelan-concession-crisis.html", tags: "Venezuela concession crisis oil petroleum German Japanese consortium 1963 1966" },
   { title: "Caracas Security Settlement", description: "The conditional-sovereignty order imposed after the 1966 intervention", href: "caracas-security-settlement.html", tags: "Caracas Security Settlement Venezuela United States intervention oil strategic communications" },
@@ -3956,6 +3961,11 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "lunar-power-systems.html", terms: ["Lunar power systems", "lunar power system", "settlement power systems"] },
+  { href: "lunar-reactor-systems.html", terms: ["Lunar reactor systems", "lunar reactor system", "lunar reactors"] },
+  { href: "lunar-thorium-fuel-cycle.html", terms: ["Lunar thorium fuel cycle", "lunar thorium cycle"] },
+  { href: "lunar-settler-migration.html", terms: ["Lunar settler migration", "lunar migration"] },
+  { href: "lunar-urbanization.html", terms: ["Lunar urbanization", "urbanization of the Moon"] },
   { href: "greater-german-reich-in-2000.html", terms: ["Greater German Reich in 2000", "Germany at the millennium"] },
   { href: "united-states-in-2000.html", terms: ["United States in 2000", "America at the millennium"] },
   { href: "british-commonwealth-in-2000.html", terms: ["British Commonwealth in 2000", "Commonwealth at the millennium"] },
