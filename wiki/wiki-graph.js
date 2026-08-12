@@ -60,6 +60,7 @@
   let width = 1;
   let height = 1;
   let pixelRatio = 1;
+  let projectionScale = 1;
   let yaw = 0;
   let zoom = 1;
   let selected = -1;
@@ -232,6 +233,9 @@
     const rotatedHalfWidth = cosine * graphHalfWidth + sine * graphHalfHeight;
     const rotatedHalfHeight = sine * graphHalfWidth + cosine * graphHalfHeight;
     const scale = Math.min(width / (rotatedHalfWidth * 2.12), height / (rotatedHalfHeight * 2.12)) * zoom;
+    projectionScale = scale;
+    canvas.dataset.cameraX = focusCenter[0].toFixed(2);
+    canvas.dataset.cameraY = focusCenter[1].toFixed(2);
     for (let index = 0; index < nodeCount; index += 1) {
       const [x, y] = rotatePoint(nodes[index], index);
       screenX[index] = width / 2 + x * scale;
@@ -266,21 +270,26 @@
     }
   }
 
-  function overlapArea(left, right, padding = 4) {
+  function rectanglesOverlap(left, right, padding = 4) {
     const overlapWidth = Math.min(left.right + padding, right.right) - Math.max(left.left - padding, right.left);
     const overlapHeight = Math.min(left.bottom + padding, right.bottom) - Math.max(left.top - padding, right.top);
-    return Math.max(0, overlapWidth) * Math.max(0, overlapHeight);
+    return overlapWidth > 0 && overlapHeight > 0;
+  }
+
+  function circleOverlapsRectangle(x, y, radius, rectangle, padding = 2) {
+    const nearestX = Math.max(rectangle.left - padding, Math.min(x, rectangle.right + padding));
+    const nearestY = Math.max(rectangle.top - padding, Math.min(y, rectangle.bottom + padding));
+    return Math.hypot(x - nearestX, y - nearestY) < Math.max(1, radius);
   }
 
   function positionClusterLabels() {
     if (!clusterLabelLayer) return;
-    const occupied = [];
+    const visibleLabels = [];
     const margin = 6;
     for (const cluster of clusters) {
       const label = cluster.label;
-      const portal = cluster.portal;
-      const anchorX = screenX[portal];
-      const anchorY = screenY[portal];
+      const anchorX = cluster.members.reduce((sum, node) => sum + screenX[node], 0) / cluster.members.length;
+      const anchorY = cluster.members.reduce((sum, node) => sum + screenY[node], 0) / cluster.members.length;
       if (anchorX < -30 || anchorX > width + 30 || anchorY < -30 || anchorY > height + 30) {
         label.hidden = true;
         continue;
@@ -291,38 +300,23 @@
       cluster.labelHeight ||= label.offsetHeight;
       const labelWidth = cluster.labelWidth;
       const labelHeight = cluster.labelHeight;
-      const offset = Math.max(8, screenRadius[portal] + 7);
-      const rightCandidates = [
-        [anchorX + offset, anchorY - labelHeight / 2],
-        [anchorX + offset * 0.7, anchorY - offset - labelHeight],
-        [anchorX + offset * 0.7, anchorY + offset],
-        [anchorX - labelWidth / 2, anchorY - offset - labelHeight],
-        [anchorX - labelWidth / 2, anchorY + offset],
-        [anchorX - labelWidth - offset * 0.7, anchorY - offset - labelHeight],
-        [anchorX - labelWidth - offset * 0.7, anchorY + offset],
-        [anchorX - labelWidth - offset, anchorY - labelHeight / 2]
-      ];
-      const candidates = anchorX < width / 2 ? rightCandidates : [...rightCandidates].reverse();
-      let best = null;
-      for (const [candidateX, candidateY] of candidates) {
-        const left = Math.max(margin, Math.min(width - margin - labelWidth, candidateX));
-        const top = Math.max(margin, Math.min(height - margin - labelHeight, candidateY));
-        const rectangle = { left, top, right: left + labelWidth, bottom: top + labelHeight };
-        const displacement = Math.hypot(left - candidateX, top - candidateY);
-        const collision = occupied.reduce((sum, other) => sum + overlapArea(rectangle, other), 0);
-        const score = collision * 100 + displacement;
-        if (!best || score < best.score) best = { ...rectangle, score, collision };
-        if (score === 0) break;
-      }
-      label.style.left = `${best.left}px`;
-      label.style.top = `${best.top}px`;
-      label.style.opacity = searchQuery && !searchMatches[portal] && !(selected >= 0 && nodes[selected].community === cluster.community)
-        ? ".3"
-        : best.collision > 0 ? ".68" : "1";
-      occupied.push(best);
+      const left = Math.max(margin, Math.min(width - margin - labelWidth, anchorX - labelWidth / 2));
+      const top = Math.max(margin, Math.min(height - margin - labelHeight, anchorY - labelHeight / 2));
+      const rectangle = { left, top, right: left + labelWidth, bottom: top + labelHeight };
+      const overlapsLabel = visibleLabels.some((other) => rectanglesOverlap(rectangle, other.rectangle));
+      const overlapsOtherCluster = nodes.some((node, index) => node.community !== cluster.community && circleOverlapsRectangle(screenX[index], screenY[index], screenRadius[index], rectangle));
+      const obscured = overlapsLabel || overlapsOtherCluster;
+      label.dataset.obscured = String(obscured);
+      label.style.left = `${left}px`;
+      label.style.top = `${top}px`;
+      label.style.opacity = obscured
+        ? "0"
+        : searchQuery && !searchMatches[cluster.portal] && !(selected >= 0 && nodes[selected].community === cluster.community) ? ".3" : "1";
+      if (!obscured) visibleLabels.push({ cluster, rectangle });
     }
     clusterLabelLayer.dataset.labelCount = String(clusters.length);
-    clusterLabelLayer.dataset.visibleLabelCount = String(clusters.filter((cluster) => !cluster.label.hidden).length);
+    clusterLabelLayer.dataset.visibleLabelCount = String(visibleLabels.length);
+    clusterLabelLayer.dataset.fadedLabelCount = String(clusters.length - visibleLabels.length);
   }
 
   function bindAttribute(programValue, buffer, name, size, values, usage = gl.DYNAMIC_DRAW) {
@@ -440,8 +434,9 @@
   }
 
   canvas.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0) return;
     canvas.setPointerCapture(event.pointerId);
-    pointerStart = { x: event.clientX, y: event.clientY, yaw };
+    pointerStart = { x: event.clientX, y: event.clientY, center: [...focusCenter], scale: projectionScale, yaw };
     pointerMoved = false;
     canvas.classList.add("is-dragging");
   });
@@ -451,7 +446,13 @@
       const dy = event.clientY - pointerStart.y;
       if (Math.hypot(dx, dy) > 4) pointerMoved = true;
       if (pointerMoved) {
-        yaw = pointerStart.yaw + dx * 0.007;
+        focusAnimating = false;
+        const cosine = Math.cos(pointerStart.yaw);
+        const sine = Math.sin(pointerStart.yaw);
+        focusCenter[0] = pointerStart.center[0] + (-cosine * dx + sine * dy) / pointerStart.scale;
+        focusCenter[1] = pointerStart.center[1] + (sine * dx + cosine * dy) / pointerStart.scale;
+        focusFrom = [...focusCenter];
+        focusTo = [...focusCenter];
         document.querySelector("[data-graph-tooltip]").hidden = true;
         requestDraw();
       }
@@ -463,7 +464,11 @@
     canvas.style.cursor = next >= 0 ? "pointer" : "grab";
   });
   canvas.addEventListener("pointerup", (event) => {
-    if (!pointerMoved) selectNode(hitTest(event.clientX, event.clientY));
+    if (!pointerStart) return;
+    canvas.dataset.lastGesture = pointerMoved ? "pan" : "click";
+    const hit = !pointerMoved && event.button === 0 ? hitTest(event.clientX, event.clientY) : -1;
+    canvas.dataset.lastHit = String(hit);
+    if (hit >= 0) selectNode(hit);
     pointerStart = null;
     canvas.classList.remove("is-dragging");
   });

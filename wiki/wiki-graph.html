@@ -18,7 +18,7 @@
   <div class="layout">
     <aside class="sidebar" aria-label="Site navigation"><nav>
       <section class="nav-section"><h2 class="nav-heading">Archive</h2><a data-nav href="index.html">Main Page</a><a data-nav href="world.html">The World Order</a><a data-nav href="countries.html">List of Countries</a><a data-nav href="timeline.html">Timeline</a><a data-nav href="wiki-graph.html">Wiki Visualizer</a></section>
-      <section class="nav-section"><h2 class="nav-heading">Graph controls</h2><p class="nav-note">Drag to rotate. Scroll to zoom. Select a circle to center it and clear its immediate field.</p></section>
+      <section class="nav-section"><h2 class="nav-heading">Graph controls</h2><p class="nav-note">Drag to pan. Scroll to zoom. Use the arrows to rotate. Select a circle to center it and clear its immediate field.</p></section>
       <section class="canon-key"><strong>Coverage</strong><p>Every HTML page except the Setting Timeline is included. Absolute circle mass and area follow visible word count; hub-normalized links draw related article communities together.</p></section>
     </nav></aside>
     <main class="content">
@@ -44,7 +44,7 @@
           <button type="button" class="graph-go" data-graph-go disabled>Go To</button>
         </div>
         <div class="graph-stage" data-graph-stage>
-          <canvas data-wiki-graph tabindex="0" role="img" aria-label="Rotatable community layout of wiki pages except the Setting Timeline. Circle mass and area represent absolute word count, and green-to-blue lines show both connection and link direction. Use left and right arrow keys to rotate, up and down arrow keys to zoom, and Escape to reset."></canvas>
+          <canvas data-wiki-graph tabindex="0" role="img" aria-label="Pannable and rotatable community layout of wiki pages except the Setting Timeline. Circle mass and area represent absolute word count, and green-to-blue lines show both connection and link direction. Drag to pan, use left and right arrow keys to rotate, up and down arrow keys to zoom, and Escape to reset."></canvas>
           <div class="graph-cluster-labels" data-graph-cluster-labels aria-hidden="true"></div>
           <div class="graph-focus-ring" data-graph-focus-ring aria-hidden="true"></div>
           <div class="graph-tooltip" data-graph-tooltip role="tooltip" hidden></div>
@@ -58,7 +58,7 @@
     </main>
   </div>
   <script src="wiki-graph-data.js?v=20260812c"></script>
-  <script src="wiki-graph.js?v=20260812g"></script>
+  <script src="wiki-graph.js?v=20260812h"></script>
   <script src="app.js?v=20260812"></script>
 </body>
 </html>
