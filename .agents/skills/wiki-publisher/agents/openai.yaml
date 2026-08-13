@@ -1,0 +1,4 @@
+interface:
+  display_name: "AltWWII Wiki Publisher"
+  short_description: "Freeze, validate, and publish wiki batches"
+  default_prompt: "Use $wiki-publisher to drain active writers, validate the accumulated AltWWII wiki batch, and publish it safely."

@@ -9,6 +9,7 @@ const outputRoot = path.join(projectRoot, "_site");
 const outputWiki = path.join(outputRoot, "wiki");
 const robotsDirective = "noindex, nofollow, noarchive, nosnippet, noimageindex";
 const robotsMeta = `  <meta name="robots" content="${robotsDirective}">`;
+const editorialOnlyNames = new Set(["_writers", "_writer-discussion", "writer-discussion-data.json"]);
 
 await import("./build-wiki-home.mjs");
 await import("./build-wiki-graph.mjs");
@@ -19,7 +20,7 @@ await cp(sourceWiki, outputWiki, {
   recursive: true,
   filter: (source) => {
     const name = path.basename(source);
-    return name !== "node_modules" && name !== "package-lock.json";
+    return name !== "node_modules" && name !== "package-lock.json" && !editorialOnlyNames.has(name);
   }
 });
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AltWWII Wiki Writer"
+  short_description: "Coordinate attributed in-universe wiki writing"
+  default_prompt: "Use $wiki-writer-core to edit an AltWWII wiki article as the assigned contributor with locks, provenance, and writer attribution."

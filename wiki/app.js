@@ -8684,3 +8684,154 @@ document.addEventListener("click", event => {
 
 const year = document.querySelector("[data-year]");
 if (year) year.textContent = new Date().getFullYear();
+
+(() => {
+  const articleBody = document.querySelector(".article-body");
+  const articleLayout = document.querySelector(".article-layout");
+  const pageHeader = document.querySelector(".page-header");
+  const articleSlug = document.body.dataset.article;
+  if (!articleBody || !articleLayout || !pageHeader || !articleSlug) return;
+
+  function parseWriterFields(value) {
+    const fields = {};
+    for (const match of value.matchAll(/([a-z_]+)=([^\s]+)/gi)) fields[match[1]] = match[2];
+    return fields;
+  }
+
+  function writerNote(fields) {
+    const note = document.createElement("a");
+    note.className = "writer-note";
+    note.dataset.writer = fields.writer;
+    note.dataset.block = fields.id;
+    note.href = `?tab=writers#${encodeURIComponent(fields.id)}`;
+    note.textContent = `[${fields.writer}]`;
+    note.setAttribute("aria-label", `Writer ${fields.writer}; open editorial discussion`);
+    return note;
+  }
+
+  const commentWalker = document.createTreeWalker(articleBody, NodeFilter.SHOW_COMMENT);
+  const comments = [];
+  while (commentWalker.nextNode()) comments.push(commentWalker.currentNode);
+  const writerBlocks = [];
+
+  for (const start of comments) {
+    const startMatch = start.data.trim().match(/^altwwii-writer-block:start\s+(.+)$/i);
+    if (!startMatch || !start.parentNode) continue;
+    const fields = parseWriterFields(startMatch[1]);
+    let end = start.nextSibling;
+    while (end && !(end.nodeType === Node.COMMENT_NODE && end.data.trim() === "altwwii-writer-block:end")) end = end.nextSibling;
+    if (!end) {
+      console.warn(`Writer block ${fields.id || "(unknown)"} has no same-parent end marker.`);
+      continue;
+    }
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "writer-block";
+    wrapper.id = `article-${fields.id}`;
+    wrapper.dataset.writer = fields.writer;
+    wrapper.dataset.writerBlock = fields.id;
+    wrapper.dataset.writerKind = fields.kind;
+    wrapper.dataset.writerCreated = fields.created;
+    start.parentNode.insertBefore(wrapper, start);
+    while (start.nextSibling && start.nextSibling !== end) wrapper.append(start.nextSibling);
+
+    const note = writerNote(fields);
+    const lastElement = wrapper.lastElementChild;
+    if (lastElement?.matches("p, li, dd, blockquote")) lastElement.append(" ", note);
+    else wrapper.append(note);
+    start.remove();
+    end.remove();
+    writerBlocks.push(fields);
+  }
+
+  function element(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+
+  function addDiscussionBody(container, body) {
+    const paragraphs = String(body || "").split(/\r?\n\s*\r?\n/).map((value) => value.trim()).filter(Boolean);
+    for (const paragraph of paragraphs) container.append(element("p", "", paragraph.replace(/\r?\n/g, " ")));
+  }
+
+  function installWriterTabs(data) {
+    const entries = data?.articles?.[articleSlug] || [];
+    if (!writerBlocks.length && !entries.length) return;
+
+    const tabs = element("nav", "article-view-tabs");
+    tabs.setAttribute("aria-label", "Article views");
+    const articleTab = element("a", "", "Article");
+    articleTab.href = location.pathname;
+    const writersTab = element("a", "", "Writers");
+    writersTab.href = "?tab=writers";
+    tabs.append(articleTab, writersTab);
+    pageHeader.insertAdjacentElement("afterend", tabs);
+
+    const panel = element("section", "writer-discussion-panel");
+    panel.hidden = true;
+    panel.append(element("h2", "", "Writers"));
+    panel.append(element("p", "writer-discussion-intro", "Editorial discussion and passage ownership for this article. This view is not the encyclopedia's default reading layer."));
+
+    const writerCodes = new Set([...writerBlocks.map((block) => block.writer), ...entries.map((entry) => entry.writer)]);
+    if (writerCodes.size) {
+      const contributors = element("div", "writer-contributors");
+      contributors.append(element("strong", "", "Contributors"));
+      for (const code of [...writerCodes].sort()) {
+        const writer = data?.writers?.[code];
+        contributors.append(element("span", "", writer ? `${writer.name} [${code}] · ${writer.title}` : `[${code}]`));
+      }
+      panel.append(contributors);
+    }
+
+    const grouped = new Map();
+    for (const entry of entries) {
+      const key = entry.block || "article";
+      if (!grouped.has(key)) grouped.set(key, []);
+      grouped.get(key).push(entry);
+    }
+
+    if (!entries.length) {
+      panel.append(element("p", "writer-discussion-empty", data
+        ? "No Writer Discussion entries have been recorded for this article."
+        : "The local Writer Discussion bundle is unavailable. Run node scripts/build-writer-discussions.mjs in an editorial preview."));
+    } else {
+      for (const [blockId, blockEntries] of grouped) {
+        const group = element("section", "writer-discussion-group");
+        if (blockId !== "article") group.id = blockId;
+        group.append(element("h3", "", blockId === "article" ? "Article-level discussion" : `Passage ${blockId}`));
+        for (const entry of blockEntries) {
+          const card = element("article", "writer-discussion-entry");
+          if (entry.reply_to) card.classList.add("is-reply");
+          const writer = data?.writers?.[entry.writer];
+          const date = Number.isNaN(Date.parse(entry.created)) ? entry.created : new Date(entry.created).toLocaleString();
+          card.append(element("header", "", `${writer?.name || `Writer ${entry.writer}`} [${entry.writer}] · ${date}`));
+          addDiscussionBody(card, entry.body);
+          if (entry.reply_to) card.append(element("small", "", `Reply to ${entry.reply_to}`));
+          group.append(card);
+        }
+        panel.append(group);
+      }
+    }
+
+    articleLayout.insertAdjacentElement("afterend", panel);
+    const showWriters = new URLSearchParams(location.search).get("tab") === "writers";
+    articleLayout.hidden = showWriters;
+    panel.hidden = !showWriters;
+    articleTab.classList.toggle("is-active", !showWriters);
+    writersTab.classList.toggle("is-active", showWriters);
+    articleTab.setAttribute("aria-current", showWriters ? "false" : "page");
+    writersTab.setAttribute("aria-current", showWriters ? "page" : "false");
+
+    for (const note of document.querySelectorAll(".writer-note")) {
+      const writer = data?.writers?.[note.dataset.writer];
+      if (writer) note.title = `${writer.name} — ${writer.title}`;
+    }
+  }
+
+  fetch("writer-discussion-data.json", { cache: "no-store" })
+    .then((response) => response.ok ? response.json() : null)
+    .catch(() => null)
+    .then(installWriterTabs);
+})();

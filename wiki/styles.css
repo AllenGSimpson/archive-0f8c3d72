@@ -444,6 +444,28 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
 .party-profile dd { margin: 0; }
 
 .article-footer { margin-top: 55px; padding: 18px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--muted); font: 11px/1.6 Arial, sans-serif; }
+.writer-block { display: contents; }
+.writer-note, .canon-note { margin-left: .18em; color: var(--accent); font: 700 .68em/1 Arial, sans-serif; text-decoration: none; vertical-align: super; }
+.writer-note:hover { text-decoration: underline; }
+.article-view-tabs { display: flex; gap: 4px; margin: -6px 0 28px; border-bottom: 1px solid var(--line); }
+.article-view-tabs a { padding: 9px 14px 10px; color: var(--muted); font: 700 10px/1 Arial, sans-serif; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
+.article-view-tabs a:hover, .article-view-tabs a.is-active { color: var(--ink); }
+.article-view-tabs a.is-active { border-bottom: 2px solid var(--accent); }
+.writer-discussion-panel { width: min(100%, var(--reading)); }
+.article-layout[hidden], .writer-discussion-panel[hidden] { display: none !important; }
+.writer-discussion-panel > h2 { margin: 0 0 12px; font-size: 29px; font-weight: 500; }
+.writer-discussion-intro, .writer-discussion-empty { color: var(--muted); }
+.writer-contributors { display: grid; gap: 6px; margin: 24px 0 34px; padding: 16px 18px; border: 1px solid var(--line); background: var(--paper-2); font: 11px/1.5 Arial, sans-serif; }
+.writer-contributors strong { color: var(--ink); letter-spacing: .08em; text-transform: uppercase; }
+.writer-contributors span { color: var(--muted); }
+.writer-discussion-group { margin: 34px 0; }
+.writer-discussion-group > h3 { padding-bottom: 9px; border-bottom: 1px solid var(--line); color: var(--accent); font-size: 18px; }
+.writer-discussion-entry { margin: 16px 0; padding: 16px 18px; border-left: 3px solid var(--line); background: var(--paper-2); }
+.writer-discussion-entry.is-reply { margin-left: 28px; border-left-color: var(--accent); }
+.writer-discussion-entry header { margin-bottom: 10px; color: var(--muted); font: 700 10px/1.4 Arial, sans-serif; letter-spacing: .04em; text-transform: uppercase; }
+.writer-discussion-entry p { margin: 0 0 10px; }
+.writer-discussion-entry p:last-of-type { margin-bottom: 0; }
+.writer-discussion-entry small { display: block; margin-top: 10px; color: var(--muted); font: 10px/1.4 Arial, sans-serif; }
 .source-box { margin: 38px 0 0; padding: 18px 20px; border: 1px solid var(--line); background: var(--paper-2); }
 .source-box h3 { margin: 0 0 12px; color: var(--ink); font: 700 11px/1 Arial, sans-serif; letter-spacing: .13em; text-transform: uppercase; }
 .source-box ul { margin: 0; padding-left: 18px; columns: 2; }

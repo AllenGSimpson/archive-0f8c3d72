@@ -7,4 +7,5 @@ software-specs/
 _site/
 **/node_modules/
 *.log
-
+.altwwii-writer-state/
+wiki/writer-discussion-data.json
