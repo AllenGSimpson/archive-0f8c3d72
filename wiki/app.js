@@ -4231,6 +4231,13 @@ const pages = [
   ,{ title: "Rudolf Ramek", description: "Christian Social chancellor during introduction of the Schilling", href: "rudolf-ramek.html", tags: "rudolf ramek austria chancellor schilling banking national council 1933" }
   ,{ title: "Ernst Streeruwitz", description: "Industrialist and Austrian chancellor during the 1929 constitutional crisis", href: "ernst-streeruwitz.html", tags: "ernst streeruwitz austria chancellor industrialist constitutional reform heimwehr" }
   ,{ title: "Karl Buresch", description: "Lower Austrian governor and chancellor after the Creditanstalt collapse", href: "karl-buresch.html", tags: "karl buresch austria chancellor lower austria creditanstalt pfrimer depression" }
+  ,{ title: "Michael Hainisch", description: "Agricultural modernizer and first federal president of Austria", href: "michael-hainisch.html", tags: "michael hainisch austria federal president agriculture nonparty first republic" }
+  ,{ title: "Jodok Fink", description: "Christian Social farmer, founding vice-chancellor, and coalition broker", href: "jodok-fink.html", tags: "jodok fink austria vice chancellor christian social vorarlberg constitution coalition" }
+  ,{ title: "Robert Danneberg", description: "Social Democratic constitutional jurist and municipal legislator of Red Vienna", href: "robert-danneberg.html", tags: "robert danneberg austria red vienna social democratic constitution rent law buchenwald" }
+  ,{ title: "Otto Glöckel", description: "Social Democratic teacher and architect of the Vienna school reform", href: "otto-gloeckel.html", tags: "otto glockel glöckel austria education school reform red vienna social democratic" }
+  ,{ title: "Viktor Kienböck", description: "Finance minister and administrator of Austrian monetary stabilization", href: "viktor-kienboeck.html", tags: "viktor kienbock kienböck austria finance minister schilling national bank stabilization" }
+  ,{ title: "Leopold Waber", description: "Greater German coalition leader, vice-chancellor, and parliamentary president", href: "leopold-waber.html", tags: "leopold waber austria greater german vice chancellor justice national council" }
+  ,{ title: "Vinzenz Schumy", description: "Carinthian governor, Landbund leader, and Austrian vice-chancellor", href: "vinzenz-schumy.html", tags: "vinzenz schumy austria carinthia landbund agrarian vice chancellor plebiscite" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8533,6 +8540,13 @@ const crossLinks = [
   ,{ href: "rudolf-ramek.html", terms: ["Rudolf Ramek", "Chancellor Ramek"] }
   ,{ href: "ernst-streeruwitz.html", terms: ["Ernst Streeruwitz", "Chancellor Streeruwitz"] }
   ,{ href: "karl-buresch.html", terms: ["Karl Buresch", "Chancellor Buresch"] }
+  ,{ href: "michael-hainisch.html", terms: ["Michael Hainisch", "President Hainisch"] }
+  ,{ href: "jodok-fink.html", terms: ["Jodok Fink", "Vice-Chancellor Fink", "Vice Chancellor Fink"] }
+  ,{ href: "robert-danneberg.html", terms: ["Robert Danneberg", "Danneberg"] }
+  ,{ href: "otto-gloeckel.html", terms: ["Otto Glöckel", "Otto Glockel", "Glöckel"] }
+  ,{ href: "viktor-kienboeck.html", terms: ["Viktor Kienböck", "Viktor Kienbock", "Kienböck"] }
+  ,{ href: "leopold-waber.html", terms: ["Leopold Waber", "Vice-Chancellor Waber", "Vice Chancellor Waber"] }
+  ,{ href: "vinzenz-schumy.html", terms: ["Vinzenz Schumy", "Vice-Chancellor Schumy", "Vice Chancellor Schumy"] }
 ];
 
 function escapePattern(value) {
