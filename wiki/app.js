@@ -4217,6 +4217,13 @@ const pages = [
   ,{ title: "1930 Austrian Legislative Election", description: "The last free national election of the First Austrian Republic", href: "1930-austrian-legislative-election.html", tags: "1930 austrian legislative election national council last free election heimwehr schober block" }
   ,{ title: "Burgenland Dispute", description: "The 1918–1921 Austrian-Hungarian territorial conflict and Sopron plebiscite", href: "burgenland-dispute.html", tags: "burgenland dispute german west hungary sopron odenburg ödenburg plebiscite venice protocol 1921" }
   ,{ title: "National Council of the First Austrian Republic", description: "Austria’s directly elected federal chamber from 1920 until its destruction in 1933", href: "national-council-first-republic.html", tags: "national council austria nationalrat parliament first republic 1920 1933" }
+  ,{ title: "Red Vienna", description: "The Social Democratic municipal government, housing, and welfare programme of 1919–1934", href: "red-vienna.html", tags: "red vienna rotes wien municipal housing hugo breitner karl marx hof social democratic" }
+  ,{ title: "Linz Programme of 1926", description: "The Austromarxist programme joining democratic practice to socialist transformation", href: "linz-programme-1926.html", tags: "linz programme program 1926 otto bauer austromarxism social democratic dictatorship democracy" }
+  ,{ title: "Federal Constitutional Amendment of 1929", description: "The compromise strengthening Austria’s presidency and federal executive", href: "federal-constitutional-amendment-1929.html", tags: "austria federal constitutional amendment 1929 schober president executive constitution" }
+  ,{ title: "Federal Council of the First Austrian Republic", description: "The provincial chamber of the Austrian Parliament from 1920 to 1934", href: "federal-council-first-republic.html", tags: "austria federal council bundesrat parliament provinces lander first republic" }
+  ,{ title: "Johannes Schober", description: "Austrian police president, three-time chancellor, and founder of international criminal-police cooperation", href: "johannes-schober.html", tags: "johannes johann schober austria police president chancellor interpol july revolt 1929" }
+  ,{ title: "Carl Vaugoin", description: "Christian Social army minister and Austrian federal chancellor in 1930", href: "carl-vaugoin.html", tags: "carl karl vaugoin austria army minister chancellor christian social bundesheer" }
+  ,{ title: "Otto Ender", description: "Vorarlberg governor and Austrian chancellor during the 1931 financial crisis", href: "otto-ender.html", tags: "otto ender austria chancellor vorarlberg federal council creditanstalt customs union" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8505,6 +8512,13 @@ const crossLinks = [
   ,{ href: "1930-austrian-legislative-election.html", terms: ["1930 Austrian legislative election", "1930 National Council election"] }
   ,{ href: "burgenland-dispute.html", terms: ["Burgenland dispute", "Sopron plebiscite", "German West Hungary"] }
   ,{ href: "national-council-first-republic.html", terms: ["National Council of the First Austrian Republic", "Austrian National Council", "First Republic National Council"] }
+  ,{ href: "red-vienna.html", terms: ["Red Vienna", "Rotes Wien"] }
+  ,{ href: "linz-programme-1926.html", terms: ["Linz Programme of 1926", "Linz Programme", "Linz Program", "Linzer Programm"] }
+  ,{ href: "federal-constitutional-amendment-1929.html", terms: ["Federal Constitutional Amendment of 1929", "1929 constitutional amendment", "1929 constitutional reform"] }
+  ,{ href: "federal-council-first-republic.html", terms: ["Federal Council of the First Austrian Republic", "Austrian Federal Council", "First Republic Federal Council"] }
+  ,{ href: "johannes-schober.html", terms: ["Johannes Schober", "Johann Schober", "Chancellor Schober", "Police President Schober"] }
+  ,{ href: "carl-vaugoin.html", terms: ["Carl Vaugoin", "Karl Vaugoin", "Chancellor Vaugoin"] }
+  ,{ href: "otto-ender.html", terms: ["Otto Ender", "Chancellor Ender"] }
 ];
 
 function escapePattern(value) {
