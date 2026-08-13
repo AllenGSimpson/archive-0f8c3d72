@@ -4197,6 +4197,12 @@ const pages = [
   ,{ title: "Social Democratic Workers’ Party of Austria", description: "The mass workers’ party of Red Vienna and the First Republic", href: "social-democratic-workers-party-austria.html", tags: "social democratic workers party austria sdap austromarxism red vienna renner bauer" }
   ,{ title: "Republican Schutzbund", description: "The armed defense organization of Austrian Social Democracy", href: "republican-schutzbund.html", tags: "republican schutzbund protection league julius deutsch austria paramilitary february 1934" }
   ,{ title: "Heimwehr", description: "The regional Austrian anti-Marxist and corporatist militias", href: "heimwehr.html", tags: "heimwehr heimatschutz austria paramilitary korneuburg oath starhemberg fey pfrimer" }
+  ,{ title: "Karl Renner", description: "Founding state chancellor of German-Austria and Social Democratic constitutional politician", href: "karl-renner.html", tags: "karl renner austria state chancellor social democrat constitution anschluss gloggnitz" }
+  ,{ title: "Otto Bauer", description: "Austromarxist theorist, foreign secretary, and leader of Austrian Social Democracy", href: "otto-bauer.html", tags: "otto bauer austria austromarxism social democracy foreign secretary brno exile" }
+  ,{ title: "Karl Seitz", description: "Republican head of state, Social Democratic chairman, and mayor of Red Vienna", href: "karl-seitz.html", tags: "karl seitz austria vienna mayor red vienna social democrat president assembly" }
+  ,{ title: "Julius Deutsch", description: "Army secretary, Socialist organizer, and founder of the Republican Schutzbund", href: "julius-deutsch.html", tags: "julius deutsch austria schutzbund army secretary spanish civil war exile" }
+  ,{ title: "Ignaz Seipel", description: "Catholic priest, Christian Social leader, and twice federal chancellor of Austria", href: "ignaz-seipel.html", tags: "ignaz seipel austria chancellor christian social catholic priest stabilization" }
+  ,{ title: "Ernst Rüdiger Starhemberg", description: "Heimwehr commander, Austrian vice chancellor, and Fatherland Front leader", href: "ernst-rudiger-starhemberg.html", tags: "ernst rudiger rüdiger starhemberg austria heimwehr vice chancellor fatherland front exile" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8465,6 +8471,12 @@ const crossLinks = [
   ,{ href: "social-democratic-workers-party-austria.html", terms: ["Social Democratic Workers’ Party of Austria", "Social Democratic Workers' Party of Austria", "SDAPÖ"] }
   ,{ href: "republican-schutzbund.html", terms: ["Republican Schutzbund", "Republikanischer Schutzbund", "Republican Protection League"] }
   ,{ href: "heimwehr.html", terms: ["Heimwehr", "Heimatschutz"] }
+  ,{ href: "karl-renner.html", terms: ["Karl Renner", "Renner"] }
+  ,{ href: "otto-bauer.html", terms: ["Otto Bauer"] }
+  ,{ href: "karl-seitz.html", terms: ["Karl Seitz", "Mayor Seitz"] }
+  ,{ href: "julius-deutsch.html", terms: ["Julius Deutsch"] }
+  ,{ href: "ignaz-seipel.html", terms: ["Ignaz Seipel", "Seipel"] }
+  ,{ href: "ernst-rudiger-starhemberg.html", terms: ["Ernst Rüdiger Starhemberg", "Ernst Rudiger Starhemberg", "Starhemberg"] }
 ];
 
 function escapePattern(value) {
