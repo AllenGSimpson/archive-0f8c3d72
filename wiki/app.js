@@ -4183,6 +4183,11 @@ const pages = [
   ,{ title: "Gaza–Negev Campaign", description: "The southern campaign that left Gaza and most of the Negev under Jordan", href: "gaza-negev-campaign.html", tags: "gaza negev campaign egypt jordan yigal allon southern front palestine war" }
   ,{ title: "Austria within Greater Germany", description: "The former sovereign state as an Alpine and Danubian region of the victorious Reich", href: "austria.html", tags: "austria ostmark alpine danubian reich gaue anschluss vienna greater germany" }
   ,{ title: "Balkan Order", description: "The German, Italian, Bulgarian, and Turkish systems meeting across southeastern Europe", href: "balkan-order.html", tags: "balkan order germany italy bulgaria turkey danube adriatic aegean rivalry" }
+  ,{ title: "Anschluss of 1938", description: "The German seizure, annexation, and administrative destruction of Austria", href: "anschluss-1938.html", tags: "anschluss annexation austria germany march 1938 schuschnigg seyss inquart miklas" }
+  ,{ title: "Engelbert Dollfuss", description: "Austrian chancellor, founder of the authoritarian corporate state, and victim of the July Putsch", href: "engelbert-dollfuss.html", tags: "engelbert dollfuss austria chancellor corporate state fatherland front july putsch" }
+  ,{ title: "Kurt Schuschnigg", description: "Last chancellor of independent Austria and German political prisoner", href: "kurt-schuschnigg.html", tags: "kurt schuschnigg austria chancellor anschluss plebiscite gestapo prisoner" }
+  ,{ title: "Arthur Seyss-Inquart", description: "Austrian annexation official and Reich commissioner in the Netherlands", href: "arthur-seyss-inquart.html", tags: "arthur seyss inquart seyß reich commissioner austria netherlands anschluss" }
+  ,{ title: "Wilhelm Miklas", description: "Final federal president of independent Austria", href: "wilhelm-miklas.html", tags: "wilhelm miklas austria federal president anschluss seyss inquart" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8437,6 +8442,11 @@ const crossLinks = [
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
   ,{ href: "austria.html", terms: ["Austria within Greater Germany", "Austrian region", "former Austrian state", "Austria"] }
   ,{ href: "balkan-order.html", terms: ["Balkan Order", "Balkan system", "postwar Balkan order"] }
+  ,{ href: "anschluss-1938.html", terms: ["Anschluss of 1938", "Anschluss crisis", "German annexation of Austria", "Anschluss"] }
+  ,{ href: "engelbert-dollfuss.html", terms: ["Engelbert Dollfuss", "Engelbert Dollfuß", "Dollfuss", "Dollfuß"] }
+  ,{ href: "kurt-schuschnigg.html", terms: ["Kurt Schuschnigg", "Schuschnigg"] }
+  ,{ href: "arthur-seyss-inquart.html", terms: ["Arthur Seyss-Inquart", "Arthur Seyß-Inquart", "Seyss-Inquart", "Seyß-Inquart"] }
+  ,{ href: "wilhelm-miklas.html", terms: ["Wilhelm Miklas", "President Miklas"] }
 ];
 
 function escapePattern(value) {
