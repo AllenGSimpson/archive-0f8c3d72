@@ -4192,6 +4192,11 @@ const pages = [
   ,{ title: "Fatherland Front", description: "The sole political organization of authoritarian Austria", href: "fatherland-front.html", tags: "fatherland front vaterlandische vaterländische front kruckenkreuz austria dollfuss schuschnigg" }
   ,{ title: "Austrian Civil War", description: "The February 1934 fighting and defeat of the Republican Schutzbund", href: "austrian-civil-war.html", tags: "austrian civil war february uprising fighting schutzbund hotel schiff karl marx hof 1934" }
   ,{ title: "July Putsch of 1934", description: "The failed Austrian Nazi coup and murder of Engelbert Dollfuss", href: "july-putsch-1934.html", tags: "july putsch 1934 austria nazi coup dollfuss ravag chancellery" }
+  ,{ title: "First Austrian Republic", description: "Austria’s parliamentary state from the Habsburg collapse to authoritarian rule", href: "first-austrian-republic.html", tags: "first austrian republic german austria 1918 1933 parliament constitution interwar" }
+  ,{ title: "Christian Social Party of Austria", description: "The Catholic-conservative governing party of interwar Austria", href: "christian-social-party-austria.html", tags: "christian social party austria christlichsoziale catholic conservative seipel dollfuss" }
+  ,{ title: "Social Democratic Workers’ Party of Austria", description: "The mass workers’ party of Red Vienna and the First Republic", href: "social-democratic-workers-party-austria.html", tags: "social democratic workers party austria sdap austromarxism red vienna renner bauer" }
+  ,{ title: "Republican Schutzbund", description: "The armed defense organization of Austrian Social Democracy", href: "republican-schutzbund.html", tags: "republican schutzbund protection league julius deutsch austria paramilitary february 1934" }
+  ,{ title: "Heimwehr", description: "The regional Austrian anti-Marxist and corporatist militias", href: "heimwehr.html", tags: "heimwehr heimatschutz austria paramilitary korneuburg oath starhemberg fey pfrimer" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8455,6 +8460,11 @@ const crossLinks = [
   ,{ href: "fatherland-front.html", terms: ["Fatherland Front", "Vaterländische Front", "Vaterlandische Front"] }
   ,{ href: "austrian-civil-war.html", terms: ["Austrian Civil War", "February Uprising", "February Fighting"] }
   ,{ href: "july-putsch-1934.html", terms: ["July Putsch of 1934", "July Putsch", "July 1934 coup"] }
+  ,{ href: "first-austrian-republic.html", terms: ["First Austrian Republic", "First Republic of Austria"] }
+  ,{ href: "christian-social-party-austria.html", terms: ["Christian Social Party of Austria", "Christian Social Party", "Christian Socials"] }
+  ,{ href: "social-democratic-workers-party-austria.html", terms: ["Social Democratic Workers’ Party of Austria", "Social Democratic Workers' Party of Austria", "SDAPÖ"] }
+  ,{ href: "republican-schutzbund.html", terms: ["Republican Schutzbund", "Republikanischer Schutzbund", "Republican Protection League"] }
+  ,{ href: "heimwehr.html", terms: ["Heimwehr", "Heimatschutz"] }
 ];
 
 function escapePattern(value) {
