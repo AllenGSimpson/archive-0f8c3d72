@@ -4210,6 +4210,13 @@ const pages = [
   ,{ title: "Korneuburg Oath", description: "The Heimwehr declaration rejecting parliamentary democracy", href: "korneuburg-oath.html", tags: "korneuburg oath eid heimwehr steidle spann corporatism 1930" }
   ,{ title: "Pfrimer Putsch", description: "Walter Pfrimer’s failed Styrian Heimwehr coup and march on Vienna", href: "pfrimer-putsch.html", tags: "pfrimer putsch walter pfriemer styria heimatschutz coup 1931" }
   ,{ title: "Creditanstalt Collapse", description: "The 1931 Austrian banking failure, rescue, and monetary crisis", href: "creditanstalt-collapse.html", tags: "creditanstalt collapse bank crisis austria depression rothchild rothschild 1931" }
+  ,{ title: "Republic of German-Austria", description: "The democratic successor state proclaimed from the German-speaking Habsburg lands in 1918", href: "republic-of-german-austria.html", tags: "republic german austria deutschosterreich deutschösterreich 1918 renner seitz provisional assembly" }
+  ,{ title: "Treaty of Saint-Germain-en-Laye", description: "The 1919 peace treaty fixing Austria’s borders, name, military restrictions, and union prohibition", href: "treaty-of-saint-germain-en-laye.html", tags: "treaty saint germain en laye austria 1919 peace borders anschluss prohibition renner" }
+  ,{ title: "1919 Austrian Constituent Assembly Election", description: "Austria’s first national election under universal male and female suffrage", href: "1919-austrian-constituent-assembly-election.html", tags: "1919 austrian constituent assembly election women suffrage social democratic christian social" }
+  ,{ title: "1920 Austrian Legislative Election", description: "The first National Council election and end of the founding grand coalition", href: "1920-austrian-legislative-election.html", tags: "1920 austrian legislative election national council christian social social democratic" }
+  ,{ title: "1930 Austrian Legislative Election", description: "The last free national election of the First Austrian Republic", href: "1930-austrian-legislative-election.html", tags: "1930 austrian legislative election national council last free election heimwehr schober block" }
+  ,{ title: "Burgenland Dispute", description: "The 1918–1921 Austrian-Hungarian territorial conflict and Sopron plebiscite", href: "burgenland-dispute.html", tags: "burgenland dispute german west hungary sopron odenburg ödenburg plebiscite venice protocol 1921" }
+  ,{ title: "National Council of the First Austrian Republic", description: "Austria’s directly elected federal chamber from 1920 until its destruction in 1933", href: "national-council-first-republic.html", tags: "national council austria nationalrat parliament first republic 1920 1933" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8491,6 +8498,13 @@ const crossLinks = [
   ,{ href: "korneuburg-oath.html", terms: ["Korneuburg Oath", "Korneuburger Eid"] }
   ,{ href: "pfrimer-putsch.html", terms: ["Pfrimer Putsch", "Pfrimer coup"] }
   ,{ href: "creditanstalt-collapse.html", terms: ["Creditanstalt Collapse", "collapse of the Creditanstalt", "Creditanstalt crisis"] }
+  ,{ href: "republic-of-german-austria.html", terms: ["Republic of German-Austria", "German-Austria", "Deutschösterreich"] }
+  ,{ href: "treaty-of-saint-germain-en-laye.html", terms: ["Treaty of Saint-Germain-en-Laye", "Treaty of Saint-Germain", "Saint-Germain settlement"] }
+  ,{ href: "1919-austrian-constituent-assembly-election.html", terms: ["1919 Austrian Constituent Assembly election", "1919 Constituent Assembly election"] }
+  ,{ href: "1920-austrian-legislative-election.html", terms: ["1920 Austrian legislative election", "1920 National Council election"] }
+  ,{ href: "1930-austrian-legislative-election.html", terms: ["1930 Austrian legislative election", "1930 National Council election"] }
+  ,{ href: "burgenland-dispute.html", terms: ["Burgenland dispute", "Sopron plebiscite", "German West Hungary"] }
+  ,{ href: "national-council-first-republic.html", terms: ["National Council of the First Austrian Republic", "Austrian National Council", "First Republic National Council"] }
 ];
 
 function escapePattern(value) {
