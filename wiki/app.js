@@ -4203,6 +4203,13 @@ const pages = [
   ,{ title: "Julius Deutsch", description: "Army secretary, Socialist organizer, and founder of the Republican Schutzbund", href: "julius-deutsch.html", tags: "julius deutsch austria schutzbund army secretary spanish civil war exile" }
   ,{ title: "Ignaz Seipel", description: "Catholic priest, Christian Social leader, and twice federal chancellor of Austria", href: "ignaz-seipel.html", tags: "ignaz seipel austria chancellor christian social catholic priest stabilization" }
   ,{ title: "Ernst Rüdiger Starhemberg", description: "Heimwehr commander, Austrian vice chancellor, and Fatherland Front leader", href: "ernst-rudiger-starhemberg.html", tags: "ernst rudiger rüdiger starhemberg austria heimwehr vice chancellor fatherland front exile" }
+  ,{ title: "Federal Constitutional Law of 1920", description: "The negotiated parliamentary and federal constitution of the First Austrian Republic", href: "federal-constitutional-law-1920.html", tags: "austria constitution federal constitutional law b-vg 1920 kelsen parliament" }
+  ,{ title: "Geneva Protocols of 1922", description: "The League-supervised financial and currency stabilization of Austria", href: "geneva-protocols-1922.html", tags: "geneva protocols austria league nations seipel loan stabilization schilling 1922" }
+  ,{ title: "Schattendorf Incident", description: "The 1927 political shooting whose acquittals precipitated the July Revolt", href: "schattendorf-incident.html", tags: "schattendorf incident shooting josef grossing grössing csmarits burgenland 1927" }
+  ,{ title: "July Revolt of 1927", description: "The Vienna mass protest, Palace of Justice fire, and police shootings", href: "july-revolt-1927.html", tags: "july revolt 1927 vienna palace justice fire schober schattendorf" }
+  ,{ title: "Korneuburg Oath", description: "The Heimwehr declaration rejecting parliamentary democracy", href: "korneuburg-oath.html", tags: "korneuburg oath eid heimwehr steidle spann corporatism 1930" }
+  ,{ title: "Pfrimer Putsch", description: "Walter Pfrimer’s failed Styrian Heimwehr coup and march on Vienna", href: "pfrimer-putsch.html", tags: "pfrimer putsch walter pfriemer styria heimatschutz coup 1931" }
+  ,{ title: "Creditanstalt Collapse", description: "The 1931 Austrian banking failure, rescue, and monetary crisis", href: "creditanstalt-collapse.html", tags: "creditanstalt collapse bank crisis austria depression rothchild rothschild 1931" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8477,6 +8484,13 @@ const crossLinks = [
   ,{ href: "julius-deutsch.html", terms: ["Julius Deutsch"] }
   ,{ href: "ignaz-seipel.html", terms: ["Ignaz Seipel", "Seipel"] }
   ,{ href: "ernst-rudiger-starhemberg.html", terms: ["Ernst Rüdiger Starhemberg", "Ernst Rudiger Starhemberg", "Starhemberg"] }
+  ,{ href: "federal-constitutional-law-1920.html", terms: ["Federal Constitutional Law of 1920", "Federal Constitutional Law", "1920 constitution"] }
+  ,{ href: "geneva-protocols-1922.html", terms: ["Geneva Protocols of 1922", "Geneva Protocols", "Geneva stabilization"] }
+  ,{ href: "schattendorf-incident.html", terms: ["Schattendorf Incident", "Schattendorf killings", "Schattendorf shooting"] }
+  ,{ href: "july-revolt-1927.html", terms: ["July Revolt of 1927", "July Revolt", "Vienna July Revolt"] }
+  ,{ href: "korneuburg-oath.html", terms: ["Korneuburg Oath", "Korneuburger Eid"] }
+  ,{ href: "pfrimer-putsch.html", terms: ["Pfrimer Putsch", "Pfrimer coup"] }
+  ,{ href: "creditanstalt-collapse.html", terms: ["Creditanstalt Collapse", "collapse of the Creditanstalt", "Creditanstalt crisis"] }
 ];
 
 function escapePattern(value) {
