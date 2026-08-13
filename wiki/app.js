@@ -4181,6 +4181,8 @@ const pages = [
   ,{ title: "Battles of Latrun", description: "The Arab Legion defense of the main Jerusalem road", href: "battles-of-latrun.html", tags: "battles latrun bab al wad arab legion habis majali jerusalem road" }
   ,{ title: "Battle for Jerusalem", description: "The 1947–1950 urban and road campaign for the whole city", href: "battle-for-jerusalem-palestine-war.html", tags: "battle jerusalem palestine war old city road blockade arab legion jordan" }
   ,{ title: "Gaza–Negev Campaign", description: "The southern campaign that left Gaza and most of the Negev under Jordan", href: "gaza-negev-campaign.html", tags: "gaza negev campaign egypt jordan yigal allon southern front palestine war" }
+  ,{ title: "Austria within Greater Germany", description: "The former sovereign state as an Alpine and Danubian region of the victorious Reich", href: "austria.html", tags: "austria ostmark alpine danubian reich gaue anschluss vienna greater germany" }
+  ,{ title: "Balkan Order", description: "The German, Italian, Bulgarian, and Turkish systems meeting across southeastern Europe", href: "balkan-order.html", tags: "balkan order germany italy bulgaria turkey danube adriatic aegean rivalry" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8433,6 +8435,8 @@ const crossLinks = [
   ,{ href: "kaguya-power-environmental-systems.html", terms: ["Kaguya Power and Environmental Systems", "Kaguya environmental systems"] }
   ,{ href: "kaguya-command-participation.html", terms: ["Command and Participation at Kaguya Base", "Kaguya command and participation"] }
   ,{ href: "gaza-negev-campaign.html", terms: ["Gaza–Negev campaign", "Gaza-Negev campaign", "southern Palestine campaign"] }
+  ,{ href: "austria.html", terms: ["Austria within Greater Germany", "Austrian region", "former Austrian state", "Austria"] }
+  ,{ href: "balkan-order.html", terms: ["Balkan Order", "Balkan system", "postwar Balkan order"] }
 ];
 
 function escapePattern(value) {
