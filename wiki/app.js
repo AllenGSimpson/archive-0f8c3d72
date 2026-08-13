@@ -4188,6 +4188,10 @@ const pages = [
   ,{ title: "Kurt Schuschnigg", description: "Last chancellor of independent Austria and German political prisoner", href: "kurt-schuschnigg.html", tags: "kurt schuschnigg austria chancellor anschluss plebiscite gestapo prisoner" }
   ,{ title: "Arthur Seyss-Inquart", description: "Austrian annexation official and Reich commissioner in the Netherlands", href: "arthur-seyss-inquart.html", tags: "arthur seyss inquart seyß reich commissioner austria netherlands anschluss" }
   ,{ title: "Wilhelm Miklas", description: "Final federal president of independent Austria", href: "wilhelm-miklas.html", tags: "wilhelm miklas austria federal president anschluss seyss inquart" }
+  ,{ title: "Federal State of Austria", description: "The authoritarian Austrian corporate state under Dollfuss and Schuschnigg", href: "federal-state-of-austria.html", tags: "federal state austria bundesstaat ständestaat austrofascism corporate state dollfuss schuschnigg" }
+  ,{ title: "Fatherland Front", description: "The sole political organization of authoritarian Austria", href: "fatherland-front.html", tags: "fatherland front vaterlandische vaterländische front kruckenkreuz austria dollfuss schuschnigg" }
+  ,{ title: "Austrian Civil War", description: "The February 1934 fighting and defeat of the Republican Schutzbund", href: "austrian-civil-war.html", tags: "austrian civil war february uprising fighting schutzbund hotel schiff karl marx hof 1934" }
+  ,{ title: "July Putsch of 1934", description: "The failed Austrian Nazi coup and murder of Engelbert Dollfuss", href: "july-putsch-1934.html", tags: "july putsch 1934 austria nazi coup dollfuss ravag chancellery" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -8447,6 +8451,10 @@ const crossLinks = [
   ,{ href: "kurt-schuschnigg.html", terms: ["Kurt Schuschnigg", "Schuschnigg"] }
   ,{ href: "arthur-seyss-inquart.html", terms: ["Arthur Seyss-Inquart", "Arthur Seyß-Inquart", "Seyss-Inquart", "Seyß-Inquart"] }
   ,{ href: "wilhelm-miklas.html", terms: ["Wilhelm Miklas", "President Miklas"] }
+  ,{ href: "federal-state-of-austria.html", terms: ["Federal State of Austria", "Austrian corporate state", "Austrofascist state"] }
+  ,{ href: "fatherland-front.html", terms: ["Fatherland Front", "Vaterländische Front", "Vaterlandische Front"] }
+  ,{ href: "austrian-civil-war.html", terms: ["Austrian Civil War", "February Uprising", "February Fighting"] }
+  ,{ href: "july-putsch-1934.html", terms: ["July Putsch of 1934", "July Putsch", "July 1934 coup"] }
 ];
 
 function escapePattern(value) {
