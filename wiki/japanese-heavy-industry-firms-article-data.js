@@ -55,11 +55,11 @@ Object.assign(window.deepArticles, {
         ["A7M","A7M Reppū",null,"a"],
         ["A8M1","A8M1 Senpū",null,"a"],
         ["A8M2","A8M2 Senpū",null,"a"],
-        ["A9M1","Type 16 A9M1 Shippū","a9m1-shippu.html","a"],
+        ["A9M1","A9M1 Shippū","a9m1-shippu.html","a"],
         ["A9M2","A9M2 Shippū",null,"a"],
         ["A9M3","A9M3 Shippū",null,"a"],
         ["A9M4","A9M4 Shippū",null,"a"],
-        ["A10M1","A10M1",null,"a"]
+        ["A10M1","A10M1","a10m1-shippu-kai.html","a"]
       ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Mitsubishi Heavy Industries is one of Japan's broadest heavy-engineering and aerospace companies. Its ability to integrate ships, power systems, aircraft, and launch vehicles makes it central to both commercial infrastructure and strategic procurement.</p><p>Exact plant assignments and program shares remain unregistered.</p>"}
     ],

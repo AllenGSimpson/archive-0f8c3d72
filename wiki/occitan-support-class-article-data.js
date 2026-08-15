@@ -23,7 +23,6 @@ const occitanSupportRoster = ships => `<div class='table-wrap'><table class='wik
 
 const occitanSupportOverview = window.deepArticles["marine-occitane"];
 if (occitanSupportOverview) {
-  occitanSupportOverview.canon = "The Marine Occitane's technical role, fixed class and category totals, controlling introduction bands, displacements, registered capabilities, 56-active-ship total, Latin interfaces, naming practices, and category totals are established. Toulouse, Aquitaine, and Provence are explicit hull names; later combatant and support names are registered extrapolations as stated in their articles. Fleet commands, bases, deployments, readiness, budgets, detailed weapons and sensors beyond the register, builders by hull, refits, and most individual service histories remain open.";
   const smallerSection = occitanSupportOverview.sections.find(section => section.id === "smaller");
   if (smallerSection) {
     smallerSection.html = smallerSection.html
@@ -62,20 +61,20 @@ Object.assign(window.deepArticles, {
 
   "occitan-amphibious-group": occitanSupportArticle({
     title:"Occitan amphibious group",type:"Major amphibious ships",period:"1970–1985",
-    lead:"The Occitan amphibious group comprised four active major ships in 1985. The working register assigns them Occitan regional names, 12,000-tonne full-load displacement, mixed diesel or gas-turbine propulsion, and commissioning years from 1970 to 1982.",
-    canon:"Occitania's four-active-major-amphibious-ship total and regional naming practice are established. The combined group designation, individual names, 1970–1982 commissioning sequence, 12,000-tonne full-load displacement, and diesel-or-gas-turbine propulsion are registered extrapolations. Division into subclasses, dimensions, speed, troop, vehicle, dock, landing-craft and aviation capacities, weapons, sensors, crew, builders, refits, deployments, and detailed service histories remain open.",
+    lead:"Occitania's compact fleet included an amphibious branch. The working register assigns that branch four active major ships, regional names, a 12,000-tonne reference displacement, mixed diesel or gas-turbine propulsion, and dates from 1970 to 1982; those particulars remain provisional.",
+    canon:"Occitania's supporting amphibious capability and regional naming practice are established. The combined group designation, four-ship total, individual names, 1970–1982 sequence, 12,000-tonne reference displacement, diesel-or-gas-turbine propulsion, and four-active 1985 allocation remain provisional. Division into subclasses, dimensions, speed, troop, vehicle, dock, landing-craft and aviation capacities, weapons, sensors, crew, builders, refits, deployments, and detailed service histories remain open.",
     sections:[
-      {id:"organization",title:"Organization",html:"<p>The controlling fleet balance treats four ships as one major amphibious category. The register does not divide them into landing ships, docks, or assault transports.</p>"},
-      {id:"registry",title:"Working registered ships",html:occitanSupportRoster([["Provença","1970"],["Lengadòc","1974"],["Gasconha","1978"],["Auvèrnhe","1982"]])},
+      {id:"organization",title:"Organization",html:"<p>The working fleet balance treats four ships as one provisional major-amphibious category. The register does not divide them into landing ships, docks, or assault transports.</p>"},
+      {id:"registry",title:"Working registered ships",html:occitanSupportRoster([["Provença","1970","Active · provisional"],["Lengadòc","1974","Active · provisional"],["Gasconha","1978","Active · provisional"],["Auvèrnhe","1982","Active · provisional"]])},
       {id:"design",title:"Working design",html:"<p>The register assigns 12,000 tonnes full load and diesel or gas-turbine propulsion across the group. Individual hull forms, capacities, landing systems, aviation facilities, speed, weapons, and complement remain open.</p>"},
       {id:"role",title:"Amphibious role",html:"<p>The ships moved troops, vehicles, engineers, stores, landing craft, and command elements within the western Mediterranean and along Latin routes.</p>"},
-      {id:"provence",title:"Relationship to the aviation cruiser",html:"<p>The <a href='provence-aviation-cruiser.html'><em>Provence</em> aviation cruiser</a> supplied VTOL aircraft, helicopters, drones, and command facilities above the four-ship amphibious category.</p>"},
+      {id:"provence",title:"Relationship to the aviation cruiser",html:"<p>The <a href='provence-aviation-cruiser.html'><em>Provence</em> aviation cruiser</a> supplied aviation and command capacity above the working amphibious allocation. Its detailed air group remains reference-register material.</p>"},
       {id:"names",title:"Naming",html:"<p>The working names use Occitan forms for regions, following the established amphibious naming practice. They remain registry extrapolations.</p>"},
       {id:"latin",title:"Latin interoperability",html:"<p>Common aviation markings, replenishment fittings, communications, rescue procedures, and data formats allowed the ships to operate with Italian, Spanish, and Portuguese support forces.</p>"},
-      {id:"status",title:"Status in 1985",html:"<p>All four major amphibious ships were active. Individual types, readiness, and assignments remain open.</p>"}
+      {id:"status",title:"Status in 1985",html:"<!-- altwwii-writer-block:start id=wb-g-20260815-x6p2t writer=g kind=revision created=2026-08-15T15:52:00-06:00 --><p>The current register assigns four named major amphibious ships to active service. The total, roster, dates, specifications, individual types, readiness, and assignments remain provisional.</p><!-- altwwii-writer-block:end -->"}
     ],
     related:[...occitanSupportRelated,{href:"provence-aviation-cruiser.html",kicker:"Aviation command",label:"Provence"},{href:"camargue-class-mine-countermeasure-vessel.html",kicker:"Approach clearance",label:"Camargue Mine-Countermeasure Lineage"},{href:"occitan-fleet-auxiliaries.html",kicker:"Sustainment",label:"Occitan Fleet Auxiliaries"}],
-    facts:[["Type","Major amphibious ship"],["Ships","4 · fixed"],["Working introduction","1970–1982"],["Working full load","12,000 t"],["Working propulsion","Diesel or gas turbine"],["Naming rule","Occitan regions"],["Active, 1985","4"],["Class-detail status","Registered extrapolation"]]
+    facts:[["Type","Major amphibious ship"],["Working ships","4 provisional"],["Working introduction","1970–1982"],["Reference full load","12,000 t"],["Working propulsion","Diesel or gas turbine"],["Naming rule","Occitan regions"],["Active, 1985","4 provisional"],["Class-detail status","Working register"]]
   }),
 
   "camargue-class-mine-countermeasure-vessel": occitanSupportArticle({
@@ -98,19 +97,19 @@ Object.assign(window.deepArticles, {
 
   "occitan-fleet-auxiliaries": occitanSupportArticle({
     title:"Occitan fleet auxiliaries",type:"Major auxiliary force",period:"1970–1985",
-    lead:"The Occitan fleet auxiliary force comprised eight active major ships in 1985. The working register assigns them Occitan river names, 18,000-tonne full-load displacement, diesel or steam-turbine propulsion, and commissioning years from 1970 to 1984.",
-    canon:"Occitania's eight-active-major-auxiliary total and river naming practice are established. Individual hull names, 1970–1984 commissioning sequence, common 18,000-tonne full-load displacement, and diesel-or-steam-turbine propulsion are registered extrapolations. Division among oilers, stores ships, repair ships, tenders and other types, dimensions, speed, transfer stations, cargo capacities, aviation, crew, builders, refits, deployments, and detailed service histories remain open.",
+    lead:"Occitania's compact fleet required an auxiliary branch for replenishment, repair, tending, and trials support. The working register assigns it eight active major ships, river names, an 18,000-tonne reference displacement, mixed diesel or steam-turbine propulsion, and dates from 1970 to 1984; those particulars remain provisional.",
+    canon:"Occitania's major-auxiliary, ocean-support, and trials-support capabilities and river naming practice are established. The eight-active-ship total, individual names, 1970–1984 sequence, common 18,000-tonne reference displacement, and diesel-or-steam-turbine propulsion remain provisional. Division among oilers, stores ships, repair ships, tenders and other types, dimensions, speed, transfer stations, cargo capacities, aviation, crew, builders, refits, deployments, and detailed service histories remain open.",
     sections:[
-      {id:"organization",title:"Organization",html:"<p>The fleet balance counts eight major replenishment and repair ships as one auxiliary category. The working register does not divide the hulls into functional subclasses.</p>"},
-      {id:"registry",title:"Working registered ships",html:occitanSupportRoster([["Ròse","1970"],["Garona","1972"],["Dordonha","1974"],["Tarn","1976"],["Òlt","1978"],["Arièja","1980"],["Ador","1982"],["Vidorle","1984"]])},
+      {id:"organization",title:"Organization",html:"<p>The working fleet balance counts eight major replenishment and repair ships as one provisional auxiliary category. The register does not divide the hulls into functional subclasses.</p>"},
+      {id:"registry",title:"Working registered ships",html:occitanSupportRoster([["Ròse","1970","Active · provisional"],["Garona","1972","Active · provisional"],["Dordonha","1974","Active · provisional"],["Tarn","1976","Active · provisional"],["Òlt","1978","Active · provisional"],["Arièja","1980","Active · provisional"],["Ador","1982","Active · provisional"],["Vidorle","1984","Active · provisional"]])},
       {id:"design",title:"Working design",html:"<p>The register assigns 18,000 tonnes full load and diesel or steam-turbine machinery. The uniform figure may represent a planning standard rather than one literal class; individual functions and dimensions remain open.</p>"},
       {id:"replenishment",title:"Replenishment",html:"<p>Fuel, ammunition, stores, water, spares, medical supplies, and aviation support sustained the compact fleet beyond its home ports.</p>"},
       {id:"repair",title:"Repair and trials support",html:"<p>Major auxiliaries supported workshops, salvage, submarine tending, mobile maintenance, and technical trials. Hull-by-hull assignments remain open.</p>"},
       {id:"names",title:"Naming",html:"<p>The working names are rivers in Occitan form, following the established auxiliary naming rule.</p>"},
       {id:"operations",title:"Operations",html:"<p>The ships supported western Mediterranean operations and deployments through Gibraltar into the Atlantic, while common fittings allowed them to service mixed Latin formations.</p>"},
-      {id:"status",title:"Status in 1985",html:"<p>All eight major auxiliaries were active. Individual roles, readiness, and deployments remain open.</p>"}
+      {id:"status",title:"Status in 1985",html:"<!-- altwwii-writer-block:start id=wb-g-20260815-y8r4v writer=g kind=revision created=2026-08-15T15:53:00-06:00 --><p>The current register assigns eight named major auxiliaries to active service. The total, roster, dates, specifications, individual roles, readiness, and deployments remain provisional.</p><!-- altwwii-writer-block:end -->"}
     ],
     related:[...occitanSupportRelated,{href:"provence-aviation-cruiser.html",kicker:"Sustained aviation force",label:"Provence"},{href:"occitan-amphibious-group.html",kicker:"Supported amphibious force",label:"Occitan Amphibious Group"},{href:"aigrette-class-ssgn.html",kicker:"Supported trials platform",label:"Aigrette Class"}],
-    facts:[["Category","Major fleet auxiliaries"],["Ships","8 · fixed"],["Working introduction","1970–1984"],["Working full load","18,000 t"],["Working propulsion","Diesel or steam turbine"],["Naming rule","Occitan rivers"],["Active, 1985","8"],["Hull-detail status","Registered extrapolation"]]
+    facts:[["Category","Major fleet auxiliaries"],["Working ships","8 provisional"],["Working introduction","1970–1984"],["Reference full load","18,000 t"],["Working propulsion","Diesel or steam turbine"],["Naming rule","Occitan rivers"],["Active, 1985","8 provisional"],["Hull-detail status","Working register"]]
   })
 });

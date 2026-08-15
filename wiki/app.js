@@ -1048,13 +1048,13 @@ const pages = [
   { title: "Schützenpanzer 56 Kätzchen II", description: "Germany's heavier 1956 infantry fighting vehicle", href: "schuetzenpanzer-56-katzchen-ii.html", tags: "schuetzenpanzer 56 katzchen kaetzchen ii german infantry fighting vehicle 20 mm 1956" },
   { title: "Schützenpanzer 71 Greif", description: "Germany's standard 1972 infantry fighting vehicle and specialist chassis family", href: "schuetzenpanzer-71-greif.html", tags: "schuetzenpanzer 71 greif german ifv 30 mm drachen 1972" },
   { title: "Panzer IV Ausf. J", description: "Germany's 1944 mass-production medium tank and postwar reserve vehicle", href: "panzer-iv-ausf-j.html", tags: "panzer iv 4 ausf j german medium tank kwk 40 reserve colonial" },
-  { title: "Panther Ausf. F", description: "Germany's principal 1945 late-war medium tank", href: "panther-ausf-f.html", tags: "panzer v 5 panther ausf f german medium tank 1945 kwk 44" },
+  { title: "Panther Ausf. D and E", description: "Germany's accepted 1945–46 late-war Panther sequence", href: "panther-ausf-f.html", tags: "panzer v 5 panther ausf d e german medium tank 1945 1946 75 mm 88 mm ausf f legacy" },
   { title: "Tiger I", description: "Germany's 1942 Panzer VI heavy breakthrough tank", href: "tiger-i.html", tags: "panzer vi 6 tiger i ausf e german heavy breakthrough tank 88 mm" },
   { title: "Tiger II", description: "Germany's 1944 Tiger Ausf. B heavy antitank and breakthrough tank", href: "tiger-ii.html", tags: "tiger ii 2 ausf b konigstiger king tiger german heavy tank 88 mm" },
   { title: "Panzer VIII Maus", description: "Germany's six-vehicle 1945 superheavy pilot and trial program", href: "panzer-viii-maus.html", tags: "panzer viii 8 maus german superheavy tank pilot fortress trial 128 mm" },
   { title: "German Main Tank Development, 1942–1985", description: "The armored lineage from Panther and Tiger through Panzer XII", href: "german-main-tank-development.html", tags: "germany german main tank development lineage panther tiger panzer ix x xi xii" },
-  { title: "Panzer IX", description: "Germany's rationalized 1947 standard and heavy-assault tank family", href: "panzer-ix.html", tags: "panzer ix 9 german tank 1947 ausf a b c d 88 105 mm" },
-  { title: "Panzer X", description: "Germany's first true main battle tank and leading 1960s armored export", href: "panzer-x.html", tags: "panzer x 10 german main battle tank 1956 ausf a b c d e export" },
+  { title: "Panzer IX", description: "Germany's rationalized 1947 main battle tank and single accepted Ausf. A family", href: "panzer-ix.html", tags: "panzer ix 9 german main battle tank 1947 ausf a 88 mm" },
+  { title: "Panzer X", description: "Germany's first integrated technological-generation tank and leading 1960s armored export", href: "panzer-x.html", tags: "panzer x 10 german main battle tank integrated system 1956 ausf a b c d e export" },
   { title: "Panzer XI", description: "Germany's 1967 mobility-generation main battle tank", href: "panzer-xi.html", tags: "panzer xi 11 german main battle tank 1967 mobility congo" },
   { title: "Panzer XII", description: "Germany's 1981 composite-armored 120 mm main battle tank", href: "panzer-xii.html", tags: "panzer xii 12 german main battle tank 1981 120 mm composite" },
   { title: "German Postwar Small Arms", description: "The registered rifle, machine-gun, and mounting-interface system from 1944 to 1985", href: "german-postwar-small-arms.html", tags: "german postwar small arms rifles machine guns stg gewehr mg einheitsleiste" },
@@ -1095,11 +1095,11 @@ const pages = [
   { title: "Ahnenerbe", description: "SS research organization for ancestry, prehistory, expeditions, and ideological scholarship", href: "ahnenerbe.html", tags: "ahnenerbe ss ancestry heritage prehistory expeditions research" },
   { title: "Lebensraum", description: "Living space as racialized conquest, settlement, labor, and imperial administration", href: "lebensraum.html", tags: "lebensraum living space east conquest settlement colonization germany" },
   { title: "Racial Classification in Greater Germany", description: "The files, reviews, permits, exceptions, and status categories of racial rule", href: "racial-classification-greater-germany.html", tags: "racial classification greater germany files permits ancestry status bureaucracy" },
-  { title: "Naval Armistice Inventory of 1947", description: "The afloat and operational fleets at the Lisbon settlement", href: "naval-armistice-inventory-1947.html", tags: "naval armistice inventory 1947 fleet afloat operational united states britain germany italy japan" },
-  { title: "German Armistice Fleet", description: "The Kriegsmarine's afloat, operational, and front-line inheritance at the end of 1947", href: "german-armistice-fleet.html", tags: "german armistice fleet kriegsmarine 1947 capital carrier u-boat submarine inventory" },
-  { title: "Italian Armistice Fleet", description: "The Regia Marina's surviving and operational inventory at the end of 1947", href: "italian-armistice-fleet.html", tags: "italian armistice fleet regia marina 1947 battleship carrier inventory" },
+  { title: "Naval Armistice Inventory of 1947", description: "The revised and bounded fleet audit at the Lisbon settlement", href: "naval-armistice-inventory-1947.html", tags: "naval armistice inventory 1947 fleet afloat operational united states britain germany italy japan" },
+  { title: "German Armistice Fleet", description: "Working reconstruction of the Kriegsmarine's afloat and front-line inheritance at the end of 1947", href: "german-armistice-fleet.html", tags: "german armistice fleet kriegsmarine 1947 working allocation capital carrier u-boat submarine inventory" },
+  { title: "Italian Armistice Fleet", description: "Working reconstruction of the Regia Marina's surviving and operational inventory at the end of 1947", href: "italian-armistice-fleet.html", tags: "italian armistice fleet regia marina 1947 working allocation battleship carrier inventory" },
   { title: "Japanese Armistice Fleet", description: "The Imperial Japanese Navy's surviving and operational inventory at the end of 1947", href: "japanese-armistice-fleet.html", tags: "japanese armistice fleet imperial navy 1947 battleship carrier destroyer inventory" },
-  { title: "World Naval Balance in 1985", description: "Comparative front-line fleet strength on 1 January 1985", href: "world-naval-balance-1985.html", tags: "world naval balance fleet strength 1985 carriers submarines destroyers auxiliaries" },
+  { title: "World Naval Balance in 1985", description: "Established fleet relationships and bounded strength on 1 January 1985", href: "world-naval-balance-1985.html", tags: "world naval balance fleet strength 1985 carriers submarines destroyers auxiliaries" },
   { title: "Naval Technology, 1944–1985", description: "The transition from radar-directed gun fleets to networked missile and submarine systems", href: "naval-technology-1944-1985.html", tags: "naval technology 1944 1985 radar missiles sonar carrier submarine nuclear propulsion data links vls" },
   { title: "Surface Combatant Classification", description: "Warship categories from missile craft and escorts through battleships", href: "surface-combatant-classification.html", tags: "surface combatant classification patrol missile craft corvette frigate destroyer cruiser battleship" },
   { title: "Aircraft-Carrier Classification", description: "Fleet, light, assault, and escort carrier categories", href: "aircraft-carrier-classification.html", tags: "aircraft carrier classification fleet light assault escort aviation ship categories" },
@@ -1108,7 +1108,7 @@ const pages = [
   { title: "Warship Naming and Identification", description: "National ship names, service prefixes, pennants, hull numbers, and transfer identities", href: "warship-naming-and-identification.html", tags: "warship naming identification hull number pennant prefix bae brp i ro navy" },
   { title: "Naval Readiness and Status", description: "Afloat, operational, front-line, reserve, training, repair, and disposal terminology", href: "naval-readiness-status.html", tags: "naval readiness status afloat operational front line reserve training repair disposal" },
   { title: "Kriegsmarine after the Second World War", description: "German naval doctrine, reduction, reconstruction, and the 1985 fleet", href: "kriegsmarine-postwar.html", tags: "kriegsmarine german navy postwar fleet 1947 1985" },
-  { title: "German Surface Fleet, 1947–1985", description: "Carriers, cruisers, escorts, auxiliaries, and submarine-support doctrine", href: "german-surface-fleet.html", tags: "german surface fleet carriers cruisers destroyers frigates navy" },
+  { title: "German Surface Fleet, 1947–1985", description: "Registered carriers, cruisers, escorts, open support totals, and submarine-support doctrine", href: "german-surface-fleet.html", tags: "german surface fleet carriers cruisers destroyers frigates navy support registry" },
   { title: "German Capital Ships after 1947", description: "The retirement of the battleship fleet and the Wotan missile successor", href: "german-capital-ships-postwar.html", tags: "german capital ships bismarck tirpitz h39 wotan battleship" },
   { title: "German Aircraft-Carrier Force", description: "Graf Zeppelin, Peter Strasser, Europa, and Hansa", href: "german-carrier-force.html", tags: "german carrier force graf zeppelin peter strasser europa hansa naval aviation" },
   { title: "Wotan-class Large Guided-Weapon Ship", description: "Wotan and Siegfried as nuclear-electric missile command ships", href: "wotan-class.html", tags: "wotan siegfried large guided weapon ship grosse lenkwaffenschiff kriegsmarine" },
@@ -1122,16 +1122,16 @@ const pages = [
   { title: "Typ 62 Frigate", description: "Twenty German anti-submarine and general escort frigates", href: "typ-62-frigate.html", tags: "typ 62 frigate f 19 38 german asw anti submarine general escort" },
   { title: "Typ 74 Frigate", description: "Sixteen quiet long-range German towed-array escorts", href: "typ-74-frigate.html", tags: "typ 74 frigate f 39 54 german towed array quiet escort" },
   { title: "Typ 73 Schnellboot", description: "Twenty-eight German coastal missile and surveillance craft", href: "typ-73-schnellboot.html", tags: "typ 73 schnellboot s 01 28 german coastal missile ambush surveillance" },
-  { title: "German Submarine Force, 1947–1985", description: "Elektroboote, attack submarines, missile boats, transports, and the sensor system", href: "german-submarine-force.html", tags: "german submarine force u-boat kriegsmarine ssk ssn ssgn" },
+  { title: "German Submarine Force, 1947–1985", description: "Fast, AIP ambush, nuclear, missile, and transport submarine schools", href: "german-submarine-force.html", tags: "german submarine force u-boat kriegsmarine lauerboot jagd lenkwaffen" },
   { title: "Elektroboot Heritage", description: "The Type XXI and Type XXIII foundation of the postwar U-boat arm", href: "elektroboot-heritage.html", tags: "elektroboot type xxi xxiii submarine heritage uboat" },
-  { title: "German Conventional Submarine Line", description: "Types XXIV, XXVII, XXIX, and XXXII", href: "german-conventional-submarine-line.html", tags: "german conventional submarine type xxiv xxvii xxix xxxii ssk" },
-  { title: "German Nuclear Attack Submarines", description: "Type XXX and Type XXXIII Jagd-U-Boote", href: "german-nuclear-attack-submarines.html", tags: "german nuclear attack submarine jagd u boot type xxx xxxiii ssn" },
-  { title: "German Guided-Missile Submarines", description: "Type XXXI and Type XXXIV Lenkwaffen-U-Boote", href: "german-guided-missile-submarines.html", tags: "german guided missile submarine lenkwaffen u boot type xxxi xxxiv ssgn" },
-  { title: "German Submersible Transports", description: "Types XXVIII, XXXI/T, and XXXV covert undersea logistics", href: "german-submersible-transports.html", tags: "german submersible transport unterseefrachter unterseetransportschiff xxviii xxxi t xxxv" },
+  { title: "German Conventional and AIP Submarine Schools", description: "Type XXVI and XXV fast work, Type XXIV stealth development, and Type XXIX Lauerboote", href: "german-conventional-submarine-line.html", tags: "german conventional aip submarine type xxiv xxv xxvi xxix lauerboot stirling" },
+  { title: "German Nuclear Attack Submarines", description: "The Type XXX founding generation of the Jagd-U-Boot school", href: "german-nuclear-attack-submarines.html", tags: "german nuclear attack submarine jagd u boot type xxx ssn" },
+  { title: "German Guided-Missile Submarines", description: "Type XXXI and later conventionally armed Lenkwaffen-U-Boote", href: "german-guided-missile-submarines.html", tags: "german guided missile submarine lenkwaffen u boot type xxxi ssg ssgn" },
+  { title: "German Submersible Transports", description: "Nuclear bulk freighters and smaller special-transport submarines", href: "german-submersible-transports.html", tags: "german submersible transport unterseefrachter unterseetransportschiff xxviii xxxi t xxxv" },
   { title: "Imperial Japanese Navy after the Second World War", description: "Japan's carrier-centered fleet, imperial routes, and 1985 naval balance", href: "imperial-japanese-navy-postwar.html", tags: "imperial japanese navy postwar fleet carrier maritime 1947 1985" },
   { title: "Japanese Carrier System", description: "Eight fleet carriers, four light carriers, aviation, bases, escorts, and sensors", href: "japanese-carrier-system.html", tags: "japanese carrier system fleet light aviation bases airborne warning tsubaki" },
-  { title: "Yamato Class after the Second World War", description: "Yamato and Musashi as surviving bombardment and prestige battleships", href: "yamato-class-postwar.html", tags: "yamato musashi battleship postwar japan 460 mm" },
-  { title: "Japanese Wartime Carrier Inheritance", description: "Taiho, Shinano, and the uninterrupted carrier institution", href: "japanese-wartime-carrier-inheritance.html", tags: "japanese wartime carrier inheritance taiho shinano aircraft carrier" },
+  { title: "Yamato Class after the Second World War", description: "Yamato, Musashi, and Shinano in secondary postwar battleship roles", href: "yamato-class-postwar.html", tags: "yamato musashi shinano battleship postwar japan" },
+  { title: "Japanese Wartime Carrier Inheritance", description: "Taiho and the uninterrupted carrier institution", href: "japanese-wartime-carrier-inheritance.html", tags: "japanese wartime carrier inheritance taiho aircraft carrier" },
   { title: "Amagi-class Aircraft Carrier", description: "The four-ship standard postwar Japanese fleet-carrier class", href: "amagi-class-carrier.html", tags: "amagi katsuragi aso ikoma aircraft carrier japanese fleet" },
   { title: "Hakuryu-class Aircraft Carrier", description: "Hakuryu and Soryu, Japan's largest 1985 carrier generation", href: "hakuryu-class-carrier.html", tags: "hakuryu soryu aircraft carrier japanese fleet 1980 1983" },
   { title: "Zuiho II-class Light Aircraft Carrier", description: "Four light carriers for fighters, helicopters, routes, and amphibious support", href: "zuiho-ii-class.html", tags: "zuiho shoho ryuho hiyo light carrier japan" },
@@ -1194,43 +1194,43 @@ const pages = [
   { title: "United States Navy after the Second World War", description: "America's neutral-war inheritance and balanced postwar fleet", href: "us-navy-postwar.html", tags: "united states navy usn american postwar fleet 1947 1985" },
   { title: "American Balanced-Fleet Doctrine", description: "Carriers, battleships, escorts, submarines, amphibious ships, and support", href: "american-balanced-fleet.html", tags: "american balanced fleet doctrine navy carrier battleship submarine amphibious" },
   { title: "United States Neutral-War Fleet", description: "The undamaged but smaller American naval inheritance of 1947", href: "american-neutral-war-fleet.html", tags: "american neutral war fleet 1947 battleship carrier destroyer submarine merchant" },
-  { title: "American Postwar Battleship Force", description: "The Iowa and Montana armored missile and bombardment fleet", href: "american-postwar-battleships.html", tags: "american battleship iowa montana ohio missouri new jersey wisconsin" },
-  { title: "Iowa-class Battleship", description: "Four fast armored American missile-and-gun flagships", href: "iowa-class-battleship.html", tags: "iowa class battleship new jersey missouri wisconsin 406 mm american navy" },
-  { title: "Montana-class Battleship", description: "Montana and Ohio, the completed American heavy battleships", href: "montana-class-battleship.html", tags: "montana class battleship ohio 406 mm american navy" },
-  { title: "American Carrier Force", description: "Nine fleet carriers and five assault carriers in 1985", href: "american-carrier-force.html", tags: "american carrier force naval aviation united states enterprise saratoga" },
-  { title: "United States-class Aircraft Carrier", description: "United States, Constitution, and Independence", href: "united-states-class-carrier.html", tags: "united states class aircraft carrier constitution independence steam" },
-  { title: "Enterprise-class Aircraft Carrier", description: "Enterprise and Franklin, America's first nuclear carrier class", href: "enterprise-class-carrier.html", tags: "enterprise class aircraft carrier franklin american nuclear fleet carrier" },
-  { title: "Saratoga-class Aircraft Carrier", description: "Four large American nuclear fleet carriers introduced from 1973", href: "saratoga-class-carrier.html", tags: "saratoga class aircraft carrier ranger yorktown lexington american nuclear fleet carrier" },
-  { title: "Wasp-class Assault Carrier", description: "Three American helicopter and amphibious assault carriers", href: "wasp-class-assault-carrier.html", tags: "wasp class assault carrier iwo jima guadalcanal helicopter amphibious" },
-  { title: "America-class VTOL Carrier", description: "America and Philippine Sea in vertical-takeoff and amphibious service", href: "america-class-vtol-carrier.html", tags: "america class vtol carrier philippine sea vertical takeoff amphibious" },
-  { title: "American Nuclear Carriers", description: "Enterprise, Franklin, Saratoga, Ranger, Yorktown, and Lexington", href: "american-nuclear-carriers.html", tags: "american nuclear carrier enterprise franklin saratoga ranger yorktown lexington" },
-  { title: "American Assault Carriers", description: "Wasp helicopter-assault and America VTOL carriers", href: "american-assault-carriers.html", tags: "american assault carrier wasp iwo jima guadalcanal america philippine sea vtol" },
-  { title: "American Postwar Cruiser Force", description: "Long Beach, California, and Ticonderoga missile cruisers", href: "american-cruiser-force.html", tags: "american cruiser long beach california ticonderoga nuclear phased array" },
-  { title: "Long Beach-class Cruiser", description: "Three nuclear carrier-air-defense and command cruisers", href: "long-beach-class-cruiser.html", tags: "long beach class cruiser chicago albany nuclear command air defense" },
-  { title: "California-class Cruiser", description: "Five nuclear missile escorts commissioned from 1971", href: "california-class-cruiser.html", tags: "california class cruiser south carolina virginia texas arkansas nuclear missile escort" },
-  { title: "Ticonderoga-class Cruiser", description: "Six gas-turbine phased-array fleet-defense cruisers", href: "ticonderoga-class-cruiser.html", tags: "ticonderoga class cruiser bunker hill mobile bay antietam leyte gulf valley forge phased array" },
-  { title: "American Destroyer and Frigate Force", description: "Adams, Spruance, Knox, and Perry escort generations", href: "american-destroyer-frigate-force.html", tags: "american destroyer frigate charles adams spruance knox perry escort asw" },
-  { title: "Charles F. Adams-class Destroyer", description: "Twenty-four American missile fleet escorts introduced from 1960", href: "charles-f-adams-class-destroyer.html", tags: "charles f adams class destroyer ddg missile fleet escort american navy" },
-  { title: "Spruance-class Destroyer", description: "Twenty-four quiet multipurpose and anti-submarine destroyers", href: "spruance-class-destroyer.html", tags: "spruance class destroyer dd gas turbine quiet multipurpose asw american navy" },
-  { title: "Knox-class Frigate", description: "Thirty American long-range anti-submarine escorts", href: "knox-class-frigate.html", tags: "knox class frigate ff steam turbine long range asw escort american navy" },
-  { title: "Perry-class Frigate", description: "Twenty-four American economical ocean escorts", href: "perry-class-frigate.html", tags: "perry class frigate ffg gas turbine economical ocean escort american navy" },
+  { title: "American Postwar Battleship Force", description: "The Iowa, Montana, Kentucky, and Maine capital-ship generations", href: "american-postwar-battleships.html", tags: "american battleship iowa montana kentucky maine capital fleet" },
+  { title: "Iowa-class Battleship", description: "Four fast battleships with missile, command, and drone-spotting refits", href: "iowa-class-battleship.html", tags: "iowa class battleship new jersey missouri wisconsin american navy" },
+  { title: "Montana-class Battleship", description: "Montana and Ohio, with an unresolved Ohio commissioning chronology", href: "montana-class-battleship.html", tags: "montana class battleship ohio heavy yamato american navy" },
+  { title: "American Carrier Force", description: "Five or six first-line air-cruiser carriers, assault ships, and naval drones in 1985", href: "american-carrier-force.html", tags: "american carrier force naval aviation air cruiser drone assault" },
+  { title: "United States-class Aircraft Carrier", description: "Legacy record for a withdrawn carrier-class reconstruction", href: "united-states-class-carrier.html", tags: "united states class aircraft carrier legacy withdrawn first jet drone" },
+  { title: "Enterprise Nuclear Carrier Generation", description: "The mature American nuclear carrier generation around 1979", href: "enterprise-class-carrier.html", tags: "enterprise generation aircraft carrier american nuclear fleet drone" },
+  { title: "Saratoga-class Aircraft Carrier", description: "Legacy record for a withdrawn carrier-class reconstruction", href: "saratoga-class-carrier.html", tags: "saratoga class aircraft carrier legacy withdrawn enlarged conventional" },
+  { title: "Wasp-class Assault Carrier", description: "Legacy record for a withdrawn helicopter-carrier reconstruction", href: "wasp-class-assault-carrier.html", tags: "wasp class assault carrier legacy withdrawn helicopter amphibious" },
+  { title: "America-class VTOL Carrier", description: "Legacy record for a withdrawn VTOL-carrier reconstruction", href: "america-class-vtol-carrier.html", tags: "america class vtol carrier legacy withdrawn amphibious" },
+  { title: "American Nuclear Carriers", description: "The Enterprise nuclear generation and its open class registry", href: "american-nuclear-carriers.html", tags: "american nuclear carrier enterprise generation open registry" },
+  { title: "American Assault Carriers", description: "American helicopter, VTOL, and amphibious aviation branches", href: "american-assault-carriers.html", tags: "american assault carrier helicopter vtol amphibious open registry" },
+  { title: "American Postwar Cruiser Force", description: "Heavy and light cruiser generations for command, reconnaissance, and drone control", href: "american-cruiser-force.html", tags: "american cruiser chicago nuclear command reconnaissance drone light heavy" },
+  { title: "USS Chicago Experimental Nuclear Cruiser", description: "Fixed American surface-reactor experiment at a legacy Long Beach-class address", href: "long-beach-class-cruiser.html", tags: "long beach class cruiser chicago nuclear experiment command air defense legacy" },
+  { title: "California-class Cruiser Reconstruction", description: "Legacy record for a withdrawn American cruiser reconstruction", href: "california-class-cruiser.html", tags: "california class cruiser reconstruction withdrawn legacy american navy" },
+  { title: "Ticonderoga-class Cruiser Reconstruction", description: "Legacy record for a withdrawn American cruiser reconstruction", href: "ticonderoga-class-cruiser.html", tags: "ticonderoga class cruiser reconstruction withdrawn legacy american navy" },
+  { title: "American Destroyer and Frigate Force", description: "General-purpose destroyers and specialist ocean escorts", href: "american-destroyer-frigate-force.html", tags: "american destroyer frigate escort asw convoy drone torpedo" },
+  { title: "Charles F. Adams-class Destroyer Reconstruction", description: "Legacy record for a withdrawn American destroyer reconstruction", href: "charles-f-adams-class-destroyer.html", tags: "charles f adams class destroyer reconstruction withdrawn legacy american navy" },
+  { title: "Spruance-class Destroyer Reconstruction", description: "Legacy record for a withdrawn American destroyer reconstruction", href: "spruance-class-destroyer.html", tags: "spruance class destroyer reconstruction withdrawn legacy american navy" },
+  { title: "Knox-class Frigate Reconstruction", description: "Legacy record for a withdrawn American frigate reconstruction", href: "knox-class-frigate.html", tags: "knox class frigate reconstruction withdrawn legacy american navy" },
+  { title: "Perry-class Frigate Reconstruction", description: "Legacy record for a withdrawn American frigate reconstruction", href: "perry-class-frigate.html", tags: "perry class frigate reconstruction withdrawn legacy american navy" },
   { title: "United States Submarine Force", description: "American attack, guided-missile, and conventional submarine branches", href: "us-navy-submarine-force.html", tags: "united states submarine force ssn ssgn ssk american navy" },
-  { title: "American Nuclear Attack Submarines", description: "Sturgeon and Los Angeles front-line attack boats", href: "american-nuclear-attack-submarines.html", tags: "american nuclear attack submarine sturgeon los angeles ssn" },
-  { title: "American Guided-Missile Submarines", description: "Triton and Longbow conventional-strike SSGNs", href: "american-guided-missile-submarines.html", tags: "american guided missile submarine triton longbow ssgn vls conventional" },
-  { title: "Tang/Barbel Submarine Family", description: "Twenty American diesel-electric boats for Arctic, Caribbean, and coastal patrol", href: "tang-barbel-submarines.html", tags: "american submarine tang barbel conventional diesel electric ssk arctic caribbean coastal" },
-  { title: "Sturgeon-class Submarine", description: "American long-range nuclear attack submarines introduced from 1970", href: "sturgeon-class-submarine.html", tags: "american submarine sturgeon class nuclear attack ssn reserve" },
-  { title: "Los Angeles-class Submarine", description: "American fleet-attack and carrier-escort nuclear submarines", href: "los-angeles-class-submarine.html", tags: "american submarine los angeles class nuclear attack ssn carrier escort" },
-  { title: "Triton-class Submarine", description: "First-generation American conventional-strike nuclear SSGNs", href: "triton-class-submarine.html", tags: "american submarine triton class nuclear guided missile ssgn conventional strategic strike" },
-  { title: "Longbow-class Submarine", description: "American submerged-VLS conventional-strike nuclear SSGNs", href: "longbow-class-submarine.html", tags: "american submarine longbow class nuclear guided missile ssgn vertical launch vls" },
-  { title: "American Conventional Submarines", description: "The twenty-boat Tang and Barbel family", href: "american-conventional-submarines.html", tags: "american conventional submarine tang barbel ssk diesel electric" },
-  { title: "United States Amphibious Force", description: "Iwo Jima, Austin, and Newport landing ships", href: "american-amphibious-force.html", tags: "american amphibious force iwo jima austin newport lph lpd lst" },
-  { title: "Iwo Jima-class Amphibious Assault Ship", description: "Seven American helicopter-assault ships introduced from 1961", href: "iwo-jima-class-amphibious-ship.html", tags: "iwo jima class amphibious assault ship helicopter lph american navy" },
-  { title: "Austin-class Landing-platform Dock", description: "Twelve American well-deck amphibious ships", href: "austin-class-landing-platform-dock.html", tags: "austin class landing platform dock lpd well deck amphibious american navy" },
-  { title: "Newport-class Tank Landing Ship", description: "Thirteen American fast heavy-delivery landing ships", href: "newport-class-tank-landing-ship.html", tags: "newport class tank landing ship lst fast heavy vehicles amphibious american navy" },
-  { title: "United States Fleet Support Force", description: "Auxiliaries, mine warfare, and fast missile combatants", href: "american-fleet-support-force.html", tags: "american fleet support auxiliary avenger pegasus mine warfare replenishment repair" },
-  { title: "United States Major Fleet Auxiliaries", description: "Forty-two replenishment, repair, and mobile-support ships", href: "american-major-fleet-auxiliaries.html", tags: "american major fleet auxiliaries replenishment repair oiler stores tender transport support" },
-  { title: "Avenger-class Mine-warfare Ship", description: "Twenty-four American mine-countermeasure vessels", href: "avenger-class-mine-warfare-ship.html", tags: "avenger class mine warfare countermeasure mcm ports canal amphibious american navy" },
-  { title: "Pegasus-class Missile Combatant", description: "Twenty-four American coastal corvettes and missile craft", href: "pegasus-class-missile-combatant.html", tags: "pegasus class missile combatant corvette patrol craft coastal caribbean american navy" },
+  { title: "American Nuclear Attack Submarines", description: "Bounded nuclear reconnaissance-and-attack elite; exact classes and totals open", href: "american-nuclear-attack-submarines.html", tags: "american nuclear attack submarine reconnaissance scout raider" },
+  { title: "American Guided-Missile Submarines", description: "Very small experimental conventional-strike submarine branch", href: "american-guided-missile-submarines.html", tags: "american guided missile submarine experimental conventional strike" },
+  { title: "Tang/Barbel Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "tang-barbel-submarines.html", tags: "american submarine tang barbel reconstruction withdrawn legacy" },
+  { title: "Sturgeon-class Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "sturgeon-class-submarine.html", tags: "american submarine sturgeon class reconstruction withdrawn legacy" },
+  { title: "Los Angeles-class Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "los-angeles-class-submarine.html", tags: "american submarine los angeles class reconstruction withdrawn legacy" },
+  { title: "Triton-class Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "triton-class-submarine.html", tags: "american submarine triton class reconstruction withdrawn legacy" },
+  { title: "Longbow-class Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "longbow-class-submarine.html", tags: "american submarine longbow class reconstruction withdrawn legacy" },
+  { title: "American Conventional Submarines", description: "Coastal and training branch; exact classes and totals open", href: "american-conventional-submarines.html", tags: "american conventional submarine coastal training branch" },
+  { title: "United States Postwar Amphibious Force", description: "Helicopter-assault, landing-platform-dock, and fast tank-landing functions; exact classes open", href: "american-amphibious-force.html", tags: "american amphibious force helicopter assault landing platform dock tank landing" },
+  { title: "Iwo Jima-class Amphibious-ship Reconstruction", description: "Legacy record for a withdrawn American amphibious reconstruction", href: "iwo-jima-class-amphibious-ship.html", tags: "iwo jima class amphibious assault ship reconstruction withdrawn legacy" },
+  { title: "Austin-class Landing-platform-dock Reconstruction", description: "Legacy record for a withdrawn American amphibious reconstruction", href: "austin-class-landing-platform-dock.html", tags: "austin class landing platform dock reconstruction withdrawn legacy" },
+  { title: "Newport-class Tank-landing-ship Reconstruction", description: "Legacy record for a withdrawn American amphibious reconstruction", href: "newport-class-tank-landing-ship.html", tags: "newport class tank landing ship reconstruction withdrawn legacy" },
+  { title: "United States Fleet Support Force", description: "Mobile logistics, repair, mine warfare, and protected access; exact totals open", href: "american-fleet-support-force.html", tags: "american fleet support auxiliary mine warfare replenishment repair" },
+  { title: "United States Major Fleet Auxiliaries", description: "Replenishment and repair system with an open class and 1985 register", href: "american-major-fleet-auxiliaries.html", tags: "american major fleet auxiliaries replenishment repair oiler stores tender transport support" },
+  { title: "Avenger-class Mine-warfare Reconstruction", description: "Legacy record for a withdrawn American mine-warfare reconstruction", href: "avenger-class-mine-warfare-ship.html", tags: "avenger class mine warfare reconstruction withdrawn legacy" },
+  { title: "Pegasus-class Missile-combatant Reconstruction", description: "Legacy record for a withdrawn American small-combatant reconstruction", href: "pegasus-class-missile-combatant.html", tags: "pegasus class missile combatant reconstruction withdrawn legacy" },
   { title: "Mature Space Age, 1985–2010", description: "Lunar settlement, Mars expeditions, Ceres, and five independent systems", href: "mature-space-age.html", tags: "mature space age 1985 2010 moon mars ceres settlement five systems" },
   { title: "Spaceflight in 1985", description: "The five-power capability balance at the opening of the mature space age", href: "spaceflight-in-1985.html", tags: "spaceflight 1985 baseline germany america japan britain latin five systems" },
   { title: "1990 in Spaceflight", description: "The Open Door Depression transfers Project Pilgrim's technical inheritance into a commercial system", href: "1990-in-spaceflight.html", tags: "1990 spaceflight open door depression project pilgrim Mars program institutional transfer" },
@@ -1481,13 +1481,13 @@ const pages = [
   { title: "Tehran Concord", description: "German–Japanese restraint and frontier sovereignty", href: "tehran-concord.html", tags: "tehran concord germany japan iran siberia détente 1985" },
   { title: "The Space Race, 1957–1985", description: "Satellites, Moon landings, stations, and Mars planning", href: "space-programs.html", tags: "space race programs germany america japan moon mars reusable rockets timeline" },
   { title: "Orbital Stations", description: "Raumhafen, Columbia, Hōrai, and Stella Maris as rival models of permanent orbit", href: "orbital-stations.html", tags: "raumhafen columbia horai hōrai stella maris station orbit germany america japan latin" },
-  { title: "American Orbital Vehicle Program", description: "The self-powered runway-to-orbit Pathfinder, Columbia, Liberty, Hercules, Ranger, Enterprise, and Zenith families", href: "american-orbital-vehicle-program.html", tags: "american orbital vehicle program ov series spaceplane aerospace force runway orbit fleet" },
-  { title: "OV-1A Pathfinder", description: "The first American aircraft to fly from a runway to orbit and back", href: "ov-1a-pathfinder.html", tags: "ov 1a pathfinder 1969 runway orbit experimental spaceplane" },
-  { title: "Columbia Spaceplane Program", description: "The OV-2A and OV-2B two-aircraft lunar mission of 1971", href: "columbia-spaceplane-program.html", tags: "columbia ov 2a ov 2b tanker moon lunar refueling 1971 spaceplane" },
-  { title: "Liberty Spaceplane", description: "The OV-3A crewed and OV-3B automatic general orbital transports", href: "liberty-spaceplane.html", tags: "liberty ov 3a ov 3b automatic cargo crew spaceplane transport" },
-  { title: "OV-4A Hercules", description: "America's heavy station-module, truss, propellant, and bulk-cargo orbital aircraft", href: "ov-4a-hercules.html", tags: "ov 4a hercules heavy orbital cargo station modules propellant" },
-  { title: "OV-5A Ranger", description: "America's satellite inspection, retrieval, repair, and rescue aircraft", href: "ov-5a-ranger.html", tags: "ov 5a ranger satellite inspection retrieval repair rescue cross range" },
-  { title: "OV-6A Enterprise", description: "The second-generation American high-frequency crew and cargo transport", href: "ov-6a-enterprise.html", tags: "ov 6a enterprise 1983 crew cargo high frequency orbital transport" },
+  { title: "American Orbital Vehicle Program", description: "The O-1 through O-10 runway-to-orbit requirements and O-100 Deep-Space Century successor", href: "american-orbital-vehicle-program.html", tags: "american orbital vehicle program o series spaceplane aerospace force runway orbit fleet deep space century" },
+  { title: "XO-1 Pathfinder", description: "The first American aircraft to complete the runway-to-orbit cycle", href: "ov-1a-pathfinder.html", tags: "xo 1 pathfinder 1969 runway orbit experimental spaceplane" },
+  { title: "Columbia Spaceplane Program", description: "The O-2A and O-2B two-aircraft lunar mission of 1971", href: "columbia-spaceplane-program.html", tags: "columbia o 2a o 2b tanker moon lunar refueling 1971 spaceplane" },
+  { title: "Liberty Spaceplane", description: "The O-3A crewed and O-3B automatic general orbital transports", href: "liberty-spaceplane.html", tags: "liberty o 3a o 3b automatic cargo crew spaceplane transport" },
+  { title: "O-4A Hercules", description: "America's heavy station-module, truss, propellant, and bulk-cargo orbital aircraft", href: "ov-4a-hercules.html", tags: "o 4a hercules heavy orbital cargo station modules propellant" },
+  { title: "O-5A Ranger", description: "America's satellite inspection, retrieval, repair, and rescue aircraft", href: "ov-5a-ranger.html", tags: "o 5a ranger satellite inspection retrieval repair rescue cross range" },
+  { title: "O-6A Enterprise", description: "The second-generation American passenger and crew-rotation orbital aircraft", href: "ov-6a-enterprise.html", tags: "o 6a enterprise 1983 passenger crew high frequency orbital transport" },
   { title: "Canaveral Aerospace Field", description: "The principal runway, maintenance, cryogenic, and control base of the American orbital fleet", href: "canaveral-aerospace-field.html", tags: "canaveral aerospace field florida runway cryogenic orbital fleet columbia" },
   { title: "Orbital Port Columbia", description: "America's low-orbit transport, repair, research, and construction port", href: "orbital-port-columbia.html", tags: "orbital port columbia columbia station 1977 1979 space station america" },
   { title: "Kennedy Lunar Station", description: "The first continuously occupied human outpost beyond Earth", href: "kennedy-lunar-station.html", tags: "kennedy lunar station moon base permanent outpost 1979 1980" },
@@ -1498,7 +1498,7 @@ const pages = [
   { title: "Geneva Convention on Mass-Effect Weapons in Outer Space", description: "The 1974 restriction on biological, chemical, and radiological orbital weapons", href: "geneva-space-weapons-convention.html", tags: "geneva convention mass effect weapons outer space 1974 arms control" },
   { title: "Stockholm Orbital Safety and Salvage Convention", description: "The 1976 registration, rescue, passivation, debris, and salvage agreement", href: "stockholm-orbital-safety-convention.html", tags: "stockholm orbital safety salvage convention 1976 rescue debris passivation registration" },
   { title: "Geneva Orbital Incidents Agreement", description: "The 1982 rules for close approaches, station zones, notice, and life support", href: "geneva-orbital-incidents-agreement.html", tags: "geneva orbital incidents agreement 1982 close approach transponder station safety" },
-  { title: "Orbital Weapons", description: "German, American, and Japanese armed inspection and interception systems", href: "orbital-weapons.html", tags: "orbital weapons raumjager zenith raiden inspection interceptor military space" },
+  { title: "Orbital Weapons", description: "Armed inspectors, orbit-only combat craft, merchant auxiliaries, and orbital-carrier requirements through 2012", href: "orbital-weapons.html", tags: "orbital weapons raumjager zenith raiden inspection interceptor military space fighter attacker bomber carrier merchant aerospace" },
   { title: "Political Ideologies and Parties", description: "Comparative guide to the five political systems", href: "ideologies.html", tags: "ideologies parties fascism corporatism commonwealth democracy" },
   { title: "Major-Character Index", description: "Directory of the setting's central cast", href: "characters.html", tags: "characters people biographies dossier index cast" },
   { title: "Everyday Life by Bloc", description: "Material culture and lived modernity", href: "everyday-life.html", tags: "everyday daily life society culture consumer family blocs" },
@@ -1550,19 +1550,19 @@ const pages = [
   { title: "Joint Aircraft Designation Act", description: "The 1963 American common register for aircraft and orbital vehicles", href: "joint-aircraft-designation-act.html", tags: "united states american aircraft designation act aerospace force OV OSV fighter attack 1963" },
   { title: "M3 Light Tank", description: "America's 1941 light tank for training, defense, and early expeditionary service", href: "m3-light-tank.html", tags: "m3 light tank american t3 37 mm neutral era 1941" },
   { title: "M3 Medium Tank", description: "America's hull-gun stopgap medium tank in limited domestic and British service", href: "m3-medium-tank.html", tags: "m3 medium tank american t5 75 mm 37 mm britain export 1942" },
-  { title: "M4 Medium Tank", description: "America's principal neutral-era medium tank and Commonwealth armored export", href: "m4-medium-tank.html", tags: "m4 medium tank american t6 75 mm commonwealth britain export 8000 1943" },
+  { title: "M4 Medium Tank", description: "America's principal neutral-era medium tank and Commonwealth armored export", href: "m4-medium-tank.html", tags: "m4 medium tank american t6 75 mm commonwealth britain export reduced production 1943" },
   { title: "M5 Light Tank", description: "The incremental 1942 development of America's M3 light-tank family", href: "m5-light-tank.html", tags: "m5 light tank american m3 family 37 mm neutral era 1942" },
   { title: "M6 Heavy Tank", description: "America's forty-vehicle homeland-defense and proving heavy tank", href: "m6-heavy-tank.html", tags: "m6 t1e1 heavy tank american limited standard homeland defense 1945" },
-  { title: "M7 Transitional Tank", description: "America's limited light-medium cavalry tank accepted in 1947", href: "m7-transitional-tank.html", tags: "m7 t7 transitional tank american cavalry light medium 1947 480" },
-  { title: "T8 Airborne Tank Project", description: "The six-prototype American airborne-tank project canceled in 1948", href: "t8-airborne-tank-project.html", tags: "t8 airborne tank project american prototype canceled 1948 british influence" },
-  { title: "M9 Expeditionary Light Tank", description: "The Philippine-shaped American intervention tank accepted in 1956", href: "m9-expeditionary-light-tank.html", tags: "m9 t9 expeditionary light tank american philippines honduras venezuela 1956" },
-  { title: "M10 Universal Combat Tank", description: "America's first serious postwar general-purpose tank", href: "m10-universal-combat-tank.html", tags: "m10 t10 universal combat tank american 90 mm diesel 1960" },
-  { title: "M11 Main Battle Tank", description: "America's standard 1967–1985 main battle tank family", href: "m11-main-battle-tank.html", tags: "m11 xm11 main battle tank american m11a1 m11a2 m11a3 105 mm" },
-  { title: "M12 Airborne Gun Tank", description: "America's air-transportable amphibious gun-missile light tank", href: "m12-airborne-gun-tank.html", tags: "m12 xm12 airborne gun tank american amphibious 152 mm missile 1970" },
-  { title: "M13 Advanced Mobile Battle Tank", description: "America's three-crew mobile main battle tank type-classified in 1985", href: "m13-tank.html", tags: "m13 xm13 thirteen american tank main battle composite autoloader 1985" },
-  { title: "XM14 Light Combat Tank", description: "The HSTV-L and Stingray-derived American light combat vehicle in production trials", href: "xm14-light-combat-tank.html", tags: "xm14 m14 light combat tank hstvl stingray american 1985 1987" },
+  { title: "Advanced Medium Tank Experimental Program", description: "America's T20, T22, T22E1, and T23 comparative engineering program", href: "m7-transitional-tank.html", tags: "american advanced medium tank experimental program t20 t22 t22e1 t23 autoloader m7 legacy" },
+  { title: "American 1947 Tank Settlement", description: "The M24, M26, and M34 cavalry, medium, and heavy schools", href: "t8-airborne-tank-project.html", tags: "american tank settlement m24 m26 m34 marshall 1947 t8 legacy" },
+  { title: "M41 Light Tank", description: "America's 1953 cavalry and expeditionary light tank", href: "m9-expeditionary-light-tank.html", tags: "m41 light tank american 76 mm cavalry expeditionary 1953 m9 legacy" },
+  { title: "M46, M47, and M48 Medium Tanks", description: "America's delayed post-Philippine Patton-family sequence", href: "m10-universal-combat-tank.html", tags: "m46 m47 m48 american medium tank patton 90 mm 1957 1960 1964 m10 legacy" },
+  { title: "M60 Main Battle Tank", description: "America's mature 1968 main battle tank and 1985 armored-force baseline", href: "m11-main-battle-tank.html", tags: "m60 american main battle tank 105 mm diesel 1968 1985 m11 legacy" },
+  { title: "T92E1 Light Tank Trials", description: "America's late-1950s amphibious light-tank trial program", href: "m12-airborne-gun-tank.html", tags: "t92e1 american amphibious light tank trials 18.5 tonnes m12 legacy" },
+  { title: "Post-M60 Replacement Competition", description: "America's unresolved 1985 main-battle-tank successor competition", href: "m13-tank.html", tags: "american post m60 replacement competition main battle tank open 1985 m13 legacy" },
+  { title: "1980s Light Direct-Fire Competition", description: "America's unresolved tracked and wheeled light armored requirement", href: "xm14-light-combat-tank.html", tags: "american light direct fire competition hstvl stingray tracked wheeled open 1985 xm14 m14 legacy" },
   { title: "Japanese Light Armor and Infantry Carriers", description: "The Ho-To, Yu, Ho, and Ke vehicle families from 1947 to 1980", href: "japanese-light-armor-and-infantry-carriers.html", tags: "japan japanese light armor armoured infantry carrier apc ifv yu ho ke lineage" },
-  { title: "Type 7 Chi-Ru", description: "Japan's standardized 1947 victory-era medium tank", href: "type-7-chi-ru.html", tags: "type 7 chi ru japanese medium tank victory era 90 mm 1947" },
+  { title: "Type 7 Chi-Ru", description: "Japan's standardized 1947 victory-era main-force tank", href: "type-7-chi-ru.html", tags: "type 7 chi ru japanese main force tank victory era 88 mm 49.5 tonnes 1947" },
   { title: "Type 7 Ho-To", description: "Japan's legacy 1947 enclosed tracked armored personnel carrier", href: "type-7-ho-to.html", tags: "type 7 ho to japanese tracked armored personnel carrier apc 1947 legacy" },
   { title: "Type 18 Yu-Ha", description: "Japan's standard tracked APC in Army and tropical export forms", href: "type-18-yu-ha.html", tags: "type 18 yu ha japanese tracked apc carrier ko otsu tropical 1958" },
   { title: "Type 33 Ho-He", description: "Japan's cannon-and-missile first-line infantry combat vehicle", href: "type-33-ho-he.html", tags: "type 33 ho he japanese infantry combat vehicle ifv 30 mm atgm 1973" },
@@ -1584,15 +1584,15 @@ const pages = [
   { title: "Type 45 Shu-Ru", description: "Japan's three-crew autoloading 120 mm main battle tank", href: "type-45-shu-ru.html", tags: "type 45 shu ru japanese tank main battle autoloader smoothbore 1985" },
   { title: "Rj 3 Falke", description: "Germany's one-seat missile-armed orbital interceptor in advanced trials", href: "rj-3-falke.html", tags: "rj 3 falke raumjager german orbital interceptor space fighter 1985" },
   { title: "Type 48 Raiden", description: "Japan's laser-relay supervised-autonomous orbital interceptor system", href: "type-48-raiden.html", tags: "type 48 raiden japan orbital interceptor unmanned autonomous laser relay 1988" },
-  { title: "American Tank Development, 1941–1987", description: "The United States armored lineage from neutral-era exports through M13 and M14", href: "american-tank-development.html", tags: "american tank development m3 m4 m9 m10 m11 m12 m13 m14 armor registry" },
+  { title: "American Tank Development, 1941–1985", description: "The United States armored lineage from neutral-era exports through M60 and open successor competitions", href: "american-tank-development.html", tags: "american tank development m3 m4 m24 m26 m34 m41 m46 m47 m48 m60 armor registry" },
   { title: "Shu Main Battle Tank Lineage", description: "Japan's Type 16, Type 26, Type 36, and Type 45 main-force tank family", href: "shu-main-battle-tank-lineage.html", tags: "japan shu main battle tank lineage shu ha he ri ru type 16 26 36 45" },
   { title: "Raumjäger Program", description: "Germany's Rj 1 Wespe, Rj 2 Habicht, and Rj 3 Falke orbital interceptors", href: "raumjaeger-program.html", tags: "raumjager raumjäger program wespe habicht falke germany orbital interceptor" },
   { title: "Orbitaler Raumhafen", description: "Germany's high-orbit harbor, construction yard, fuel depot, and international station", href: "orbitaler-raumhafen.html", tags: "orbitaler raumhafen germany station harbor orbit 1975 kribi marsplan moon" },
-  { title: "Japanese Modules on the Orbitaler Raumhafen", description: "Japan's 1985 robotics and 1986 life-sciences and environmental laboratories", href: "japanese-raumhafen-modules.html", tags: "japan japanese orbitaler raumhafen modules science robotics hydroponics environmental life support tehran 1985 1986" },
+  { title: "Japanese Modules on the Orbitaler Raumhafen", description: "Japan's 1985 science-and-robotics and 1986 logistics-and-life-support modules", href: "japanese-raumhafen-modules.html", tags: "japan japanese orbitaler raumhafen modules science robotics logistics hydroponics environmental life support tehran 1985 1986" },
   { title: "Einheitspakt", description: "The unequal German-centered strategic and economic system", href: "einheitspakt.html", tags: "einheitspakt german sphere alliance bloc protectorates associates northern shield" },
   { title: "Underground France", description: "The clandestine national claim surviving the division of France", href: "underground-france.html", tags: "underground france resistance exile northern occitania brittany reunification" },
   { title: "Punta del Este Protocols", description: "The 1986 settlement ending the Falklands–Malvinas War", href: "punta-del-este-protocols.html", tags: "punta del este protocols 1986 falklands malvinas peace treaty argentina britain uruguay" },
-  { title: "Aerospace Doctrine of the United States", description: "The three-service system, Maracaibo Shock, and American turn toward orbital warfare", href: "aerospace-doctrine.html", tags: "american aerospace doctrine air force army naval maracaibo apex zenith orbital warfare" },
+  { title: "Aerospace Doctrine of the United States", description: "The three-service system, commercial-space transition, and Aerospace Force refocus through 2012", href: "aerospace-doctrine.html", tags: "american aerospace doctrine air force army naval maracaibo apex zenith orbital warfare o 100 commercial f a b carrier" },
   { title: "George Lincoln Rockwell", description: "National Renewal leader, presidential candidate, and martyr-founder", href: "george-lincoln-rockwell.html", tags: "george lincoln rockwell national renewal 1968 1972 assassination stolen mandate" },
   { title: "Adolf Hitler", description: "Founder and first Führer of the victorious Greater German Reich", href: "adolf-hitler.html", tags: "adolf hitler founder führer germany wolfgang second draft 1962" },
   { title: "Hermann Göring", description: "Reichsmarschall, second Führer, and architect of the 1962 leadership settlement", href: "hermann-goering.html", tags: "hermann goering göring reichsmarschall luftwaffe führer succession 1962 1965" },
@@ -2900,7 +2900,7 @@ const pages = [
   { title: "Motown Cultural System", description: "Detroit's Black-owned record, film, television, touring, and publishing network", href: "motown-cultural-system.html", tags: "motown berry gordy detroit black owned media records film television" },
   { title: "Black American Public Sphere", description: "Parallel and permeable Black institutions in media, religion, education, and business", href: "black-american-public-sphere.html", tags: "black american public sphere radio press churches colleges clubs civil rights" },
   { title: "American Cottage-Industry Revival", description: "Household enterprise enabled by telephones, parcels, local credit, and personal computers", href: "american-cottage-industry-revival.html", tags: "america cottage industry home enterprise women work personal computer household business" },
-  { title: "United States Aerospace Force", description: "The strategic-air and orbital service commanding America's military and scientific space program", href: "united-states-aerospace-force.html", tags: "united states aerospace force usaf strategic air space service columbia zenith" },
+  { title: "United States Aerospace Force", description: "The strategic-air and orbital service from runway-to-orbit transport to orbit-only combat systems", href: "united-states-aerospace-force.html", tags: "united states aerospace force usaf strategic air space service columbia zenith o 100 orbital fighter attacker bomber carrier" },
   { title: "Hemispheric Renewal Act", description: "Kennedy's 1961 program of aerospace, education, civil rights, and interventionist renewal", href: "hemispheric-renewal-act.html", tags: "hemispheric renewal act kennedy 1961 civil rights aerospace monroe doctrine" },
   { title: "Honduran Security Crisis", description: "The 1962 American intervention that created a durable Central American client", href: "honduran-security-crisis.html", tags: "honduras security crisis 1962 america intervention client puppet kennedy" },
   { title: "Venezuelan Intervention", description: "The 1966 American intervention over oil, communications, and foreign strategic penetration", href: "venezuelan-intervention.html", tags: "venezuela intervention 1966 america oil caracas settlement kennedy" },
@@ -2917,7 +2917,7 @@ const pages = [
   { title: "Planform", description: "Germany's typed intermediate representation for portable certified programs", href: "planform.html", tags: "planform intermediate representation german compiler zivil planform portability" },
   { title: "Planwerk", description: "The German operating-system family for certified batch, files, networks, and audit", href: "planwerk.html", tags: "planwerk german operating system planlauf programmbuch audit network" },
   { title: "Kurzplan", description: "Germany's interpreted home and school programming language", href: "kurzplan.html", tags: "kurzplan 77 german home computer school language graphics sound" },
-  { title: "German Civilian Programming Languages", description: "The seven-language ecology opened by the 1982 civilian software directive", href: "german-civilian-languages.html", tags: "german civilian languages werkcode lehrplan folge schluss klasse bildschrift nachricht" },
+  { title: "German Civilian Programming Languages", description: "The seven principal families, specialist languages, and later functional branch of Germany's civilian ecology", href: "german-civilian-languages.html", tags: "german civilian languages werkcode lehrplan folge schluss klasse bildschrift nachricht prinzensprache" },
   { title: "Plan Austral", description: "Argentina's Spanish-language programming system over the German civilian stack", href: "plan-austral.html", tags: "plan austral argentina spanish programming language lehrplan kurzplan" },
   { title: "Software Portability", description: "The five levels of cross-machine and cross-bloc program compatibility", href: "software-portability.html", tags: "software portability compatibility source binary intermediate bridge planform unicode" },
   { title: "Commonwealth Programming Languages", description: "Britain's information-service tradition from machine orders to ML and occam", href: "commonwealth-programming-languages.html", tags: "british commonwealth programming languages autocode cleo cpl bcpl ml occam" },
@@ -3300,7 +3300,7 @@ const pages = [
   { title: "George VI", description: "Wartime king and constitutional mediator of the post-defeat settlement", href: "george-vi.html", tags: "george vi king crown windsor westminster white parachutes commonwealth" },
   { title: "Elizabeth II", description: "Post-defeat sovereign and constitutional head of the British Commonwealth", href: "elizabeth-ii.html", tags: "elizabeth ii queen crown coronation commonwealth powell new elizabethans" },
   { title: "Winston Churchill", description: "Wartime prime minister from defiance to the Lisbon defeat", href: "winston-churchill.html", tags: "winston churchill prime minister coalition torch white parachutes lisbon defeat" },
-  { title: "Clement Attlee", description: "Wartime deputy and displaced leader of the coalition generation", href: "clement-attlee.html", tags: "clement attlee labour deputy prime minister coalition resignation bevan" },
+  { title: "Clement Attlee", description: "Wartime deputy and emergency prime minister during the 1947 ceasefire and Lisbon settlement", href: "clement-attlee.html", tags: "clement attlee labour deputy prime minister emergency ministry ceasefire lisbon resignation bevan" },
   { title: "Monarchy of the United Kingdom", description: "The strengthened but constitutional Crown after the 1947 defeat", href: "british-monarchy.html", tags: "british monarchy crown constitution realms elizabeth george commonwealth" },
   { title: "Crown Current", description: "The cross-party Crown-constitutional movement after defeat", href: "crown-current.html", tags: "crown current constitutionalists king country reserve powers council" },
   { title: "Coronation of Elizabeth II", description: "The 1953 state ceremony before representatives of the altered world order", href: "coronation-of-elizabeth-ii.html", tags: "coronation elizabeth ii 1953 westminster abbey delegations television" },
@@ -3414,7 +3414,7 @@ const pages = [
   { title: "Hōrai Hydroponics and Environmental Systems", description: "Plant growth, closed-cycle research, and emergency food supplementation aboard Hōrai", href: "horai-hydroponics-environmental-systems.html", tags: "horai hydroponics environmental systems closed cycle food life support japan" },
   { title: "Hōrai Orbital Command Center", description: "Japan's continuously staffed civil, robotic, deep-space, and supervised defense-network control center", href: "horai-orbital-command-center.html", tags: "horai orbital command center civil defense network robotics laser relay japan" },
   { title: "Japanese Science and Robotics Module", description: "Japan's 1985 robotics, materials, remote-manipulation, and automated-control laboratory aboard the Raumhafen", href: "japanese-raumhafen-science-robotics-module.html", tags: "japanese raumhafen science robotics module 1985 materials remote manipulation automated control" },
-  { title: "Japanese Life-Sciences and Environmental Module", description: "Japan's 1986 hydroponics, closed-cycle, medical, and endurance laboratory aboard the Raumhafen", href: "japanese-raumhafen-life-sciences-module.html", tags: "japanese raumhafen life sciences environmental module 1986 hydroponics medicine closed cycle" },
+  { title: "Japanese Logistics and Life-Support Module", description: "Japan's 1986 logistics-and-life-support facility carrying hydroponics, closed-cycle, and medical work", href: "japanese-raumhafen-life-sciences-module.html", tags: "japanese raumhafen logistics life support module 1986 life sciences hydroponics medicine closed cycle" },
   { title: "Musubi Program", description: "Japan's automatic rendezvous and docking test series", href: "musubi-program.html", tags: "musubi program docking rendezvous connection bond japan hikari" },
   { title: "Biak Booster Failure", description: "The 1974 launch accident and procurement scandal that brought down Tanaka", href: "biak-booster-failure.html", tags: "biak booster failure accident 1974 tanaka miki kobo procurement safety" },
   { title: "Associated-State Astronaut Program", description: "Multinational GEACPS specialists within Japanese orbital command", href: "associated-state-astronaut-program.html", tags: "associated state astronaut program filipino siamese chinese geacps hikari horai" },
@@ -3660,7 +3660,7 @@ const pages = [
   { title: "Woomera Commonwealth Range", description: "The South Australian weapons, rocket, launch, tracking, and recovery complex", href: "woomera-commonwealth-range.html", tags: "woomera commonwealth range australia skylark black knight blue streak prospero launch" },
   { title: "Italian Tank Lineage", description: "Italy's uninterrupted armored-development sequence from P40 to Ariete II", href: "italian-tank-lineage.html", tags: "italy italian tank lineage p40 p43 leone ariete ansaldo fiat oto iri" },
   { title: "P40", description: "Italy's 1943 victory-era 75 mm service tank", href: "p40-tank.html", tags: "p40 italian tank 1943 ansaldo 75 mm world war two" },
-  { title: "P43 Leone", description: "Italy's 1948 five-crew 90 mm victory-generation tank", href: "p43-leone.html", tags: "p43 leone italian tank 1948 90 mm five crew" },
+  { title: "P35/43 and P38/43", description: "Italy's 1945–47 four-crew victory-generation tank family", href: "p43-leone.html", tags: "p35 43 p38 43 italian tank 1945 1947 75 mm 90 mm four crew p43 leone legacy" },
   { title: "Carro 57 Ariete", description: "Italy's 1957 four-crew 90 mm main battle tank", href: "carro-57-ariete.html", tags: "carro 57 ariete italian main battle tank 1957 90 mm" },
   { title: "Carro 68 Leone II", description: "Italy's stabilized Latin-standard 105 mm tank of 1968", href: "carro-68-leone-ii.html", tags: "carro 68 leone ii italian tank 1968 105 mm oto infrared stabilization" },
   { title: "Carro 80 Ariete II", description: "Italy's composite-armored 120 mm main battle tank of 1981", href: "carro-80-ariete-ii.html", tags: "carro 80 ariete ii italian tank 1981 120 mm composite laser thermal digital" },
@@ -3791,51 +3791,61 @@ const pages = [
   ,{ title: "Arado", description: "Germany's fast-bomber and reconnaissance-aircraft design authority", href: "arado.html", tags: "arado germany aircraft manufacturer ar 234 blitz strike reconnaissance" }
   ,{ title: "Dornier", description: "Germany's metal-aircraft, maritime, and long-range systems manufacturer", href: "dornier.html", tags: "dornier germany aircraft manufacturer do 17 do 24 do 217 do 335 maritime" }
   ,{ title: "Blohm & Voss", description: "Hamburg's maritime-aircraft and experimental-configurations specialist", href: "blohm-and-voss.html", tags: "blohm voss hamburger flugzeugbau germany aircraft manufacturer bv 138 bv 222" }
-  ,{ title: "German Early Jet Generation", description: "Seven registered victory-era and immediate-postwar jet aircraft from 1944 to 1949", href: "german-early-jet-generation.html", tags: "germany german luftwaffe early jets aircraft lineage me 262 he 162 ta 183 ho 229 ar 234 ef 131" }
-  ,{ title: "Reichsluftgerätordnung 1948", description: "The German aircraft register's naming, variant, project, and mission-class regulation", href: "reichsluftgeraetordnung-1948.html", tags: "reichsluftgeraetordnung 1948 reich air materiel regulation aircraft designation rlm 500 series" }
-  ,{ title: "Me 262A-1", description: "Germany's 1944 heavy day jet interceptor", href: "me-262a-1.html", tags: "me 262 a1 a-1 messerschmitt germany german heavy day interceptor jet mk 108 1944" }
-  ,{ title: "Me 262F", description: "Germany's 1948 HG-II high-speed interceptor", href: "me-262f.html", tags: "me 262f 262 f hg ii germany german high speed interceptor jet 1948" }
-  ,{ title: "He 162C", description: "Germany's 1947 light point-defense jet fighter", href: "he-162c.html", tags: "he 162c 162 c heinkel germany german light point defense jet fighter 1947" }
-  ,{ title: "Ta 183A-1 Huckebein", description: "Germany's 1948 frontline day jet fighter", href: "ta-183a-1-huckebein.html", tags: "ta 183a-1 ta183 huckebein focke wulf germany german frontline day fighter 1948" }
-  ,{ title: "Ho 229A-2", description: "Germany's specialized 1948 flying-wing penetration strike aircraft", href: "ho-229a-2.html", tags: "ho 229a-2 ho229 horten germany german flying wing penetration strike 1948" }
-  ,{ title: "Ar 234C-3 Blitz", description: "Germany's 1946 fast jet bomber and reconnaissance aircraft", href: "ar-234c-3-blitz.html", tags: "ar 234c-3 ar234 blitz arado germany german fast bomber reconnaissance jet 1946" }
-  ,{ title: "EF 131A-0", description: "Germany's 1949 forward-swept reconnaissance-bomber evaluation aircraft", href: "ef-131a-0.html", tags: "ef 131a-0 ef131 ju 287 germany german forward swept reconnaissance bomber evaluation 1949" }
-  ,{ title: "First German Clean-Register Aircraft Generation", description: "The five purpose-built German 500-series aircraft introduced from 1956 to 1962", href: "german-clean-register-generation.html", tags: "germany german luftwaffe clean register 500 series aircraft generation me 501 fw 502 ar 503 ho 505 ju 506" }
-  ,{ title: "Me 501A-1 Falke", description: "Germany's 1956 twin-engine all-weather interceptor", href: "me-501a-1-falke.html", tags: "me 501a-1 me501 falke messerschmitt germany all weather interceptor luftlanze 1956" }
-  ,{ title: "Fw 502A-1 Habicht", description: "Germany's 1957 single-engine frontline fighter", href: "fw-502a-1-habicht.html", tags: "fw 502a-1 fw502 habicht focke wulf germany frontline fighter luftlanze 1957" }
-  ,{ title: "Ar 503A-1 Blitz II", description: "Germany's 1958 fast strike and reconnaissance aircraft", href: "ar-503a-1-blitz-ii.html", tags: "ar 503a-1 ar503 blitz ii arado germany strike reconnaissance 1958" }
-  ,{ title: "Ho 505A-1 Nachtflügel", description: "Germany's 1961 flying-wing penetration-reconnaissance aircraft", href: "ho-505a-1-nachtfluegel.html", tags: "ho 505a-1 ho505 nachtfluegel nachtflügel horten germany flying wing penetration reconnaissance 1961" }
-  ,{ title: "Ju 506A-1", description: "Germany's 1962 maritime-patrol and electronic-reconnaissance aircraft", href: "ju-506a-1.html", tags: "ju 506a-1 ju506 junkers germany maritime patrol electronic reconnaissance 1962" }
-  ,{ title: "German Mature Atmospheric Aircraft Fleet", description: "Five parallel German aircraft branches and ten types introduced from 1967 to 1983", href: "german-mature-atmospheric-fleet.html", tags: "germany german luftwaffe mature atmospheric aircraft fleet interceptor air superiority strike close support maritime" }
-  ,{ title: "Me 511A-1 Adler", description: "Germany's 1967 heavy interceptor", href: "me-511a-1-adler.html", tags: "me 511a-1 me511 adler germany heavy interceptor long range missile 1967" }
-  ,{ title: "Fw 512A-1 Sperber", description: "Germany's 1969 air-superiority fighter", href: "fw-512a-1-sperber.html", tags: "fw 512a-1 fw512 sperber germany air superiority fighter 1969" }
-  ,{ title: "Ar 513A-1 Blitz III", description: "Germany's 1970 low-level theater-strike aircraft", href: "ar-513a-1-blitz-iii.html", tags: "ar 513a-1 ar513 blitz iii germany low level theater strike 1970" }
-  ,{ title: "Fw 514A-1 Würger II", description: "Germany's 1971 dedicated close-support aircraft", href: "fw-514a-1-wuerger-ii.html", tags: "fw 514a-1 fw514 wuerger würger ii germany close support aircraft 1971" }
-  ,{ title: "Ju 516A-1 Seeadler", description: "Germany's 1972 maritime-patrol and missile-control aircraft", href: "ju-516a-1-seeadler.html", tags: "ju 516a-1 ju516 seeadler germany maritime patrol missile control anti ship asw 1972" }
-  ,{ title: "Me 521A-1 Falke II", description: "Germany's 1978 long-range pulse-Doppler interceptor", href: "me-521a-1-falke-ii.html", tags: "me 521a-1 me521 falke ii germany long range pulse doppler interceptor 1978" }
-  ,{ title: "Fw 522A-1 Habicht II", description: "Germany's 1980 digital air-superiority fighter", href: "fw-522a-1-habicht-ii.html", tags: "fw 522a-1 fw522 habicht ii germany digital air superiority fighter 1980" }
-  ,{ title: "Ar 523A-1 Blitz IV", description: "Germany's 1981 terrain-following strike aircraft", href: "ar-523a-1-blitz-iv.html", tags: "ar 523a-1 ar523 blitz iv germany terrain following strike 1981" }
-  ,{ title: "Fw 524A-1 Würger III", description: "Germany's 1982 armored close-support aircraft", href: "fw-524a-1-wuerger-iii.html", tags: "fw 524a-1 fw524 wuerger würger iii germany armored close support 1982" }
-  ,{ title: "Ju 526A-1 Seeadler II", description: "Germany's 1983 long-range maritime-surveillance aircraft", href: "ju-526a-1-seeadler-ii.html", tags: "ju 526a-1 ju526 seeadler ii germany long range maritime surveillance anti ship asw 1983" }
+  ,{ title: "German Late-War and Immediate-Postwar Jets", description: "The Me 262, Ta 183, Ho 229, Ar 234, Junkers experiments, and the non-operational He 162 program", href: "german-early-jet-generation.html", tags: "germany german luftwaffe early jets aircraft lineage me 262 he 162 ta 183 ho 229 ar 234 ju 287" }
+  ,{ title: "Reichsluftgerätordnung 1948", description: "Germany's national role-series aircraft register and company-project rules", href: "reichsluftgeraetordnung-1948.html", tags: "reichsluftgeraetordnung 1948 aircraft designation role series national ordinal company project" }
+  ,{ title: "Me 262", description: "Germany's regular wartime jet fighter and turbine-fighter school", href: "me-262a-1.html", tags: "me 262 messerschmitt germany german operational jet fighter wartime" }
+  ,{ title: "Me 262 HG III Research Development", description: "The high-speed research aircraft defined by wing-root integration and low endurance", href: "me-262f.html", tags: "me 262 hg iii germany german high speed research wing root engine endurance" }
+  ,{ title: "He 162 Program", description: "Germany's non-operational Volksjäger paper and prototype work", href: "he-162c.html", tags: "he 162 heinkel germany german volksjaeger prototype paper program" }
+  ,{ title: "Ta 183", description: "Focke-Wulf's late-war or immediate-postwar swept-wing fighter bridge", href: "ta-183a-1-huckebein.html", tags: "ta 183 focke wulf germany german swept wing fighter postwar bridge" }
+  ,{ title: "Ho 229 / H IX", description: "Horten-Gotha's operational flying-wing aircraft family", href: "ho-229a-2.html", tags: "ho 229 h ix horten gotha germany german flying wing operational family" }
+  ,{ title: "Ar 234", description: "Germany's operational early jet bomber and reconnaissance family", href: "ar-234c-3-blitz.html", tags: "ar 234 ar234 ar 234c-3 blitz legacy arado germany german bomber reconnaissance jet" }
+  ,{ title: "Ju 287 / EF 131 Evaluation Program", description: "Germany's sixteen-aircraft forward-swept-wing and structural research program", href: "ef-131a-0.html", tags: "ef 131a-0 ef131 ju 287 germany german forward swept experimental structural evaluation legacy" }
+  ,{ title: "German Post-1948 Aircraft Register", description: "The Reichsluftgerätordnung national role-series system and its open acceptance chronology", href: "german-clean-register-generation.html", tags: "germany german luftwaffe aircraft role series register reichsluftgeraetordnung design authority" }
+  ,{ title: "Messerschmitt Clean-Register Interceptor Branch", description: "Messerschmitt's post-1948 high-speed interceptor projects", href: "me-501a-1-falke.html", tags: "messerschmitt germany high speed interceptor design branch project register" }
+  ,{ title: "Focke-Wulf Clean-Register Fighter Branch", description: "Focke-Wulf's post-1948 frontline and air-superiority projects", href: "fw-502a-1-habicht.html", tags: "focke wulf germany frontline air superiority fighter design branch" }
+  ,{ title: "Arado Clean-Register Strike Branch", description: "Arado's post-1948 fast-strike and reconnaissance projects", href: "ar-503a-1-blitz-ii.html", tags: "arado germany strike reconnaissance aircraft design branch" }
+  ,{ title: "Horten-Gotha Clean-Register Flying-Wing Branch", description: "Horten-Gotha's postwar flying-wing design school", href: "ho-505a-1-nachtfluegel.html", tags: "horten gotha germany flying wing penetration reconnaissance design branch" }
+  ,{ title: "Junkers Clean-Register Maritime and Heavy-Aircraft Branch", description: "Junkers postwar maritime, heavy-aircraft, and systematic research projects", href: "ju-506a-1.html", tags: "junkers germany maritime heavy aircraft research design branch" }
+  ,{ title: "German Postwar Atmospheric Design Branches", description: "Germany's specialized interceptor, fighter, strike, close-support, maritime, reconnaissance, and bomber schools", href: "german-mature-atmospheric-fleet.html", tags: "germany german luftwaffe postwar atmospheric design branches interceptor fighter strike close support maritime" }
+  ,{ title: "Messerschmitt Postwar Interceptor Branch", description: "Messerschmitt's earlier postwar high-speed interceptor work", href: "me-511a-1-adler.html", tags: "messerschmitt germany postwar high speed interceptor branch" }
+  ,{ title: "Focke-Wulf Postwar Fighter Branch", description: "Focke-Wulf's earlier postwar air-superiority work", href: "fw-512a-1-sperber.html", tags: "focke wulf germany postwar air superiority fighter branch" }
+  ,{ title: "Arado Postwar Strike Branch", description: "Arado's earlier postwar theater-strike and reconnaissance work", href: "ar-513a-1-blitz-iii.html", tags: "arado germany postwar strike reconnaissance branch" }
+  ,{ title: "Focke-Wulf Postwar Close-Support Branch", description: "Focke-Wulf's earlier postwar battlefield-aircraft work", href: "fw-514a-1-wuerger-ii.html", tags: "focke wulf germany postwar close support ground attack branch" }
+  ,{ title: "Junkers Postwar Maritime-Aircraft Branch", description: "Junkers earlier postwar maritime and heavy-systems work", href: "ju-516a-1-seeadler.html", tags: "junkers germany postwar maritime aircraft heavy systems branch" }
+  ,{ title: "Messerschmitt Mature Interceptor Projects", description: "Messerschmitt's mature Cold Peace interceptor design work", href: "me-521a-1-falke-ii.html", tags: "messerschmitt germany mature interceptor projects radar missiles" }
+  ,{ title: "Focke-Wulf Mature Fighter Projects", description: "Focke-Wulf's mature Cold Peace air-superiority work", href: "fw-522a-1-habicht-ii.html", tags: "focke wulf germany mature air superiority fighter projects" }
+  ,{ title: "Arado Mature Strike Projects", description: "Arado's mature Cold Peace theater-strike work", href: "ar-523a-1-blitz-iv.html", tags: "arado germany mature theater strike reconnaissance projects" }
+  ,{ title: "Focke-Wulf Mature Close-Support Projects", description: "Focke-Wulf's mature armored ground-attack work", href: "fw-524a-1-wuerger-iii.html", tags: "focke wulf germany mature armored close support projects" }
+  ,{ title: "Junkers Mature Maritime Projects", description: "Junkers mature long-range maritime-surveillance work", href: "ju-526a-1-seeadler-ii.html", tags: "junkers germany mature maritime surveillance projects" }
   ,{ title: "Imperial Japanese Aircraft Designations", description: "Army, Navy, and joint-service aircraft nomenclature in the victorious Japanese Empire", href: "imperial-japanese-aircraft-designations.html", tags: "japan japanese aircraft designation register army navy joint ki type role manufacturer model" }
-  ,{ title: "Japanese Late-Piston and First-Jet Generation", description: "Nine Japanese combat aircraft introduced from 1944 through 1952", href: "japanese-late-piston-first-jet-generation.html", tags: "japan japanese aircraft piston rocket jet generation shinden kikka karyu 1944 1952" }
+  ,{ title: "Japanese Late-Piston and First-Jet Generation", description: "Kikka, Ki-100 Shinden, Keiun, A8M, and the overlapping piston-to-turbine transition", href: "japanese-late-piston-first-jet-generation.html", tags: "japan japanese aircraft piston jet generation shinden kikka ki 100 keiun a8m" }
   ,{ title: "N1K2-J Shiden Kai", description: "Japan's 1944 land-based piston fighter", href: "n1k2-j-shiden-kai.html", tags: "n1k2-j n1k2 shiden kai japan kawanishi land fighter piston 1944" }
-  ,{ title: "A7M3 Reppū", description: "Japan's 1946 carrier piston fighter", href: "a7m3-reppu.html", tags: "a7m3 reppu reppū japan carrier fighter piston 1946" }
-  ,{ title: "J7W1 Shinden", description: "Japan's 1946 piston point-defense interceptor", href: "j7w1-shinden.html", tags: "j7w1 shinden japan kyushu canard piston point defense interceptor 1946" }
-  ,{ title: "J8M1 Shūsui", description: "Japan's 1946 rocket point-defense interceptor", href: "j8m1-shusui.html", tags: "j8m1 shusui shūsui japan rocket point defense interceptor 1946" }
-  ,{ title: "G9N1 Kikka Kai", description: "Japan's 1946 jet strike-and-reconnaissance aircraft", href: "g9n1-kikka-kai.html", tags: "g9n1 kikka kai nakajima japan jet strike reconnaissance 1946" }
-  ,{ title: "J10N1 Karyū", description: "Japan's 1947 heavy twin-engine jet interceptor", href: "j10n1-karyu.html", tags: "j10n1 karyu karyū ki-201 nakajima japan heavy twin engine jet interceptor 1947" }
-  ,{ title: "J7W2 Shinden Kai", description: "Japan's 1949 jet canard point-defense interceptor", href: "j7w2-shinden-kai.html", tags: "j7w2 shinden kai japan kyushu jet canard point defense interceptor 1949" }
-  ,{ title: "J11T1 Kogarashi", description: "Japan's 1949 lightweight continental jet fighter", href: "j11t1-kogarashi.html", tags: "j11t1 kogarashi ki-214 tachikawa japan lightweight continental jet fighter 1949" }
-  ,{ title: "J7W3 Shinden Kai Ni", description: "Japan's 1952 advanced canard interceptor", href: "j7w3-shinden-kai-ni.html", tags: "j7w3 shinden kai ni japan kyushu advanced canard interceptor missile 1952" }
-  ,{ title: "Japanese Joint-Service Combat-Aircraft Lineage", description: "Japan's seven registered carrier fighters and interceptors introduced from 1956 through 1983", href: "japanese-joint-service-combat-aircraft-lineage.html", tags: "japan japanese joint service combat aircraft lineage carrier fighter interceptor fleet defense 1956 1983" }
-  ,{ title: "Type 16 A9M1 Shippū", description: "Japan's 1956 carrier air-superiority fighter", href: "a9m1-shippu.html", tags: "type 16 a9m1 shippu shippū japan carrier air superiority fighter 1956" }
-  ,{ title: "Type 18 J12N1 Raikō", description: "Japan's 1958 all-weather interceptor", href: "j12n1-raiko.html", tags: "type 18 j12n1 raiko raikō japan all weather interceptor 1958" }
-  ,{ title: "Type 26 A10M1 Shippū Kai", description: "Japan's 1966 supersonic carrier fighter", href: "a10m1-shippu-kai.html", tags: "type 26 a10m1 shippu kai shippū japan supersonic carrier fighter 1966" }
-  ,{ title: "Type 28 J13M1 Raiden", description: "Japan's 1968 Mach 2 imperial air-defense fighter", href: "j13m1-raiden.html", tags: "type 28 j13m1 raiden japan mach 2 imperial air defense fighter 1968" }
-  ,{ title: "Type 36 J14M1 Kairyū", description: "Japan's 1976 heavy twin-engine fleet-defense fighter", href: "j14m1-kairyu.html", tags: "type 36 j14m1 kairyu kairyū japan heavy twin engine fleet defense fighter 1976" }
-  ,{ title: "Type 38 A11M1 Arashi", description: "Japan's 1978 lightweight carrier air-superiority fighter", href: "a11m1-arashi.html", tags: "type 38 a11m1 arashi japan lightweight carrier air superiority fighter 1978" }
-  ,{ title: "Type 43 A12M1 Arashi Kai", description: "Japan's 1983 networked fleet air-superiority fighter", href: "a12m1-arashi-kai.html", tags: "type 43 a12m1 arashi kai japan networked fleet air superiority fighter 1983" }
+  ,{ title: "A7M Reppū Family", description: "Mitsubishi's principal piston carrier-fighter family of 1945–47", href: "a7m3-reppu.html", tags: "a7m reppu reppū japan carrier fighter piston mitsubishi" }
+  ,{ title: "Former J7W1 Shinden Service Designation", description: "The Navy project transferred before acceptance and became Ki-100-I", href: "j7w1-shinden.html", tags: "j7w1 shinden former withdrawn kyushu ki 100" }
+  ,{ title: "J8M Shūsui Project", description: "An unresolved wartime rocket-aircraft project", href: "j8m1-shusui.html", tags: "j8m shusui shūsui japan rocket project open" }
+  ,{ title: "Former G9N1 Kikka Kai Designation", description: "The superseded service code formerly applied to Nakajima Kikka", href: "g9n1-kikka-kai.html", tags: "g9n1 kikka kai former withdrawn nakajima" }
+  ,{ title: "Former J10N1 Karyū Designation", description: "A withdrawn provisional heavy-interceptor filler", href: "j10n1-karyu.html", tags: "j10n1 karyu karyū ki 201 former withdrawn" }
+  ,{ title: "Former J7W2 Shinden Kai Service Designation", description: "The first turbojet Shinden entered the Army register as Ki-100-II", href: "j7w2-shinden-kai.html", tags: "j7w2 shinden kai former withdrawn ki 100 ii" }
+  ,{ title: "Former J11T1 Kogarashi Designation", description: "The withdrawn Ki-214 and J11T1 provisional filler", href: "j11t1-kogarashi.html", tags: "j11t1 kogarashi ki 214 former withdrawn" }
+  ,{ title: "Former J7W3 Shinden Kai Ni Service Designation", description: "The advanced Shinden entered the Army register as Ki-100-III", href: "j7w3-shinden-kai-ni.html", tags: "j7w3 shinden kai ni former withdrawn ki 100 iii" }
+  ,{ title: "Ki-100-I Shinden", description: "The Army piston canard first flown on 1 February 1945", href: "ki-100-i-shinden.html", tags: "ki 100 i shinden army piston canard 1945" }
+  ,{ title: "Ki-100-II Shinden Kai", description: "The first turbojet Shinden and limited late-war combat aircraft", href: "ki-100-ii-shinden-kai.html", tags: "ki 100 ii shinden kai turbojet 1946 1947" }
+  ,{ title: "Ki-100-III Shinden Kai Ni", description: "The stretched turbine-designed continental fighter", href: "ki-100-iii-shinden-kai-ni.html", tags: "ki 100 iii shinden kai ni continental fighter" }
+  ,{ title: "Nakajima Kikka", description: "Japan's first jet and turbine-production school", href: "nakajima-kikka.html", tags: "nakajima kikka first japanese jet 1945" }
+  ,{ title: "R2Y1 Keiun", description: "The piston reconnaissance and aerodynamic bridge to B8Y", href: "r2y1-keiun.html", tags: "r2y1 keiun reconnaissance piston 1945" }
+  ,{ title: "B8Y1 Keiun Kai", description: "The twin-engine carrier-attack and systems aircraft", href: "b8y1-keiun-kai.html", tags: "b8y1 keiun kai carrier attack twin engine" }
+  ,{ title: "A8M Senpū", description: "Mitsubishi's ultralight first-generation carrier jet", href: "a8m-senpu.html", tags: "a8m senpu senpū mitsubishi carrier jet" }
+  ,{ title: "Japanese Joint-Service Combat-Aircraft Lineage", description: "The A8M–A10M carrier-fighter and B8Y–B10Y heavy-aircraft families", href: "japanese-joint-service-combat-aircraft-lineage.html", tags: "japan japanese joint aircraft a8m a9m a10m b8y b9y b10y" }
+  ,{ title: "A9M Shippū Family", description: "Mitsubishi's four-mark transonic and early-supersonic carrier-fighter family", href: "a9m1-shippu.html", tags: "a9m shippu shippū a9m1 a9m2 a9m3 a9m4" }
+  ,{ title: "Former J12N1 Raikō Designation", description: "A withdrawn all-weather-interceptor entry", href: "j12n1-raiko.html", tags: "j12n1 raiko raikō former withdrawn" }
+  ,{ title: "A10M1", description: "Japan's modern single-engine carrier air-superiority platform", href: "a10m1-shippu-kai.html", tags: "a10m1 japan carrier fighter dorsal crescent intake 1978 1980" }
+  ,{ title: "Former J13M1 Raiden Designation", description: "A withdrawn atmospheric-fighter entry", href: "j13m1-raiden.html", tags: "j13m1 raiden former withdrawn" }
+  ,{ title: "Former J14M1 Kairyū Designation", description: "A withdrawn heavy fleet-defense entry", href: "j14m1-kairyu.html", tags: "j14m1 kairyu kairyū former withdrawn" }
+  ,{ title: "Former A11M1 Arashi Designation", description: "No automatic A11M succession exists by 1985", href: "a11m1-arashi.html", tags: "a11m1 arashi former withdrawn" }
+  ,{ title: "Former A12M1 Arashi Kai Designation", description: "No automatic A12M succession exists by 1985", href: "a12m1-arashi-kai.html", tags: "a12m1 arashi kai former withdrawn" }
+  ,{ title: "B8Y2 Keiun Kai Ni", description: "The improved 1950s nose-intake Keiun form", href: "b8y2-keiun-kai-ni.html", tags: "b8y2 keiun kai ni carrier attack nose intake" }
+  ,{ title: "B9Y Family", description: "Japan's new swept-wing heavy carrier-capable aircraft", href: "b9y-family.html", tags: "b9y japan heavy carrier twin engine two seat" }
+  ,{ title: "B10Y Family", description: "Japan's mature sensor-heavy fleet-defense and multirole aircraft", href: "b10y-family.html", tags: "b10y japan fleet defense multirole twin engine two seat" }
   ,{ title: "Japanese Aircraft and Guided-Weapon Naming Families", description: "Public name families for Japanese aircraft roles and flower-named unmanned guided weapons", href: "japanese-aircraft-and-guided-weapon-naming-families.html", tags: "japan japanese aircraft guided weapon naming families wind lightning weather flowers kamikaze role code" }
   ,{ title: "Japanese Anti-Ship Guided Weapons", description: "Four flower-named Japanese fleet weapons introduced from 1947 through 1982", href: "japanese-anti-ship-guided-weapons.html", tags: "japan japanese anti ship guided weapons missiles oka kiku ume tsubaki radio radar network" }
   ,{ title: "Type 7 Ōka", description: "Japan's 1947 unmanned radio-command anti-ship weapon", href: "type-7-oka.html", tags: "type 7 oka ōka japan unmanned radio command anti ship guided weapon 1947" }
@@ -3855,6 +3865,11 @@ const pages = [
   ,{ title: "Martin Aircraft", description: "The Glenn L. Martin Company's bomber, patrol-aircraft, and lifting-body programs", href: "martin-aircraft.html", tags: "martin american aircraft manufacturer b-26 pbm mariner x-24 lifting body" }
   ,{ title: "Convair", description: "American designer of large aircraft and the B-58A Hustler supersonic bomber", href: "convair.html", tags: "convair consolidated vultee american aircraft manufacturer pby b-24 b-58 hustler" }
   ,{ title: "American Early-Jet Generation", description: "Eight American Army and Aerospace Command jets introduced from 1952 through 1960", href: "american-early-jet-generation.html", tags: "united states american early jet generation army air corps aerospace command shooting star thunderjet thunderstreak sabre starfire" }
+  ,{ title: "Jet-engine Industry of the United States", description: "The firms, engine families, and research system behind American high-speed and orbital propulsion", href: "american-jet-engine-industry.html", tags: "united states american jet engine industry general electric pratt whitney allison curtiss wright westinghouse j57 j75 j79 j93 neumann" }
+  ,{ title: "American Volunteer Group", description: "The civilian Flying Tigers formation retained in China until its 1945 evacuation", href: "american-volunteer-group.html", tags: "american volunteer group avg flying tigers china chennault yunnan 1941 1945" }
+  ,{ title: "Gerhard Neumann", description: "Flying Tigers technical specialist and General Electric jet-engine engineer", href: "gerhard-neumann.html", tags: "gerhard neumann flying tigers avg general electric j79 variable stator douglas" }
+  ,{ title: "Century Series", description: "The nine American supersonic combat-aircraft programs from F-100 through F-108", href: "century-series.html", tags: "united states century series f-100 f-101 f-102 xf-103 f-104 f-105 f-106 f-107 f-108 supersonic fighter interceptor" }
+  ,{ title: "Teen Series", description: "The F-10 through F-19 American three-service fighter register", href: "teen-series.html", tags: "united states teen series f-10 f-11 f-12 f-13 f-14 f-15 f-16 f-17 f-18 f-19 army navy aerospace fighter interceptor" }
   ,{ title: "P-80A-5 Shooting Star", description: "America's 1952 early jet pursuit and research aircraft", href: "p-80a-5-shooting-star.html", tags: "p-80a-5 p80 shooting star lockheed army pursuit research jet 1952" }
   ,{ title: "F-80C Shooting Star", description: "America's 1958 transitional Aerospace Command interceptor", href: "f-80c-shooting-star.html", tags: "f-80c f80 shooting star lockheed aerospace command transitional interceptor 1958" }
   ,{ title: "F-84E Thunderjet", description: "America's 1955 Army fighter-bomber and escort", href: "f-84e-thunderjet.html", tags: "f-84e f84 thunderjet republic army fighter bomber escort 1955" }
@@ -3885,7 +3900,7 @@ const pages = [
   ,{ title: "F-12A Blackbird", description: "America's 1970 Mach 3 Blackbird strategic interceptor", href: "f-12a-blackbird.html", tags: "f-12a f12 blackbird lockheed aerospace force mach 3 strategic interceptor missiles 1970" }
   ,{ title: "B-58A Hustler", description: "America's 1959 high-supersonic conventional strategic bomber", href: "b-58a-hustler.html", tags: "b-58a b58 hustler convair aerospace command force high supersonic schnellbomber conventional strategic bomber 1959" }
   ,{ title: "B-70A Valkyrie", description: "America's 1969 Mach 3 conventional strategic bomber", href: "b-70a-valkyrie.html", tags: "b-70a b70 valkyrie north american aerospace force mach 3 conventional strategic bomber 1969" }
-  ,{ title: "American Reusable-Aerospace Research Generation", description: "Four American experimental paths that converged in the OV-1A Pathfinder", href: "american-reusable-aerospace-research-generation.html", tags: "american reusable aerospace research generation x-15a x-20a dyna-soar x-24 project apex pathfinder hypersonic lifting body combined cycle" }
+  ,{ title: "American Reusable-Aerospace Research Generation", description: "Four American experimental paths that converged in the XO-1 Pathfinder", href: "american-reusable-aerospace-research-generation.html", tags: "american reusable aerospace research generation x-15a x-20a dyna-soar x-24 project apex pathfinder hypersonic lifting body combined cycle" }
   ,{ title: "X-15A", description: "America's 1961 piloted hypersonic rocketplane research vehicle", href: "x-15a.html", tags: "x-15a x15 rocketplane hypersonic research heating reaction controls energy management 1961" }
   ,{ title: "X-20A Dyna-Soar", description: "America's booster-launched orbital-glide research vehicle", href: "x-20a-dyna-soar.html", tags: "x-20a x20 dyna-soar orbital glider booster reentry inspection demonstrator 1966" }
   ,{ title: "X-24 Series", description: "America's 1964–68 lifting-body and integrated-propulsion research series", href: "x-24-series.html", tags: "x-24 lifting body integrated propulsion inlet transition hydrogen cooling high angle reentry" }
@@ -4881,7 +4896,7 @@ const crossLinks = [
   { href: "schuetzenpanzer-71-greif.html", terms: ["Schützenpanzer 71 Greif", "Greif IFV"] },
   { href: "panzer-xi-ausf-d-ar.html", terms: ["Panzer XI Ausf. D(ar)", "Panzer XI D(ar)"] },
   { href: "panzer-iv-ausf-j.html", terms: ["Panzer IV Ausf. J", "Panzer IV", "Panzer 4"] },
-  { href: "panther-ausf-f.html", terms: ["Panzer V Panther Ausf. F", "Panther Ausf. F", "Panzer V", "Panther tank"] },
+  { href: "panther-ausf-f.html", terms: ["Panzer V Panther Ausf. D", "Panther Ausf. D", "Panzer V Panther Ausf. E", "Panther Ausf. E", "Panzer V", "Panther tank", "Panther Ausf. F"] },
   { href: "tiger-i.html", terms: ["Panzer VI Tiger Ausf. E", "Tiger I", "Tiger Ausf. E", "Panzer VI"] },
   { href: "tiger-ii.html", terms: ["Tiger II Ausf. B", "Tiger II", "Tiger Ausf. B", "Königstiger", "King Tiger"] },
   { href: "panzer-viii-maus.html", terms: ["Panzer VIII Maus", "Maus tank", "Maus pilots"] },
@@ -4981,30 +4996,30 @@ const crossLinks = [
   { href: "blohm-and-voss.html", terms: ["Blohm & Voss", "Blohm und Voss", "Hamburger Flugzeugbau"] },
   { href: "german-early-jet-generation.html", terms: ["German early-jet generation", "German Early Jet Generation", "late-war and immediate-postwar jets"] },
   { href: "reichsluftgeraetordnung-1948.html", terms: ["Reichsluftgerätordnung 1948", "Reich Air Materiel Regulation of 1948", "Reichsluftgerätordnung"] },
-  { href: "me-262a-1.html", terms: ["Me 262A-1", "Me 262 A-1"] },
-  { href: "me-262f.html", terms: ["Me 262F", "Me 262 F"] },
-  { href: "he-162c.html", terms: ["He 162C", "He 162 C"] },
-  { href: "ta-183a-1-huckebein.html", terms: ["Ta 183A-1 Huckebein", "Ta 183A-1", "Huckebein"] },
-  { href: "ho-229a-2.html", terms: ["Ho 229A-2", "Ho 229 A-2"] },
-  { href: "ar-234c-3-blitz.html", terms: ["Ar 234C-3 Blitz", "Ar 234C-3"] },
-  { href: "ef-131a-0.html", terms: ["EF 131A-0", "EF 131 A-0"] },
-  { href: "german-clean-register-generation.html", terms: ["first German clean-register aircraft generation", "First Clean-Register Generation", "first 500-series generation"] },
-  { href: "me-501a-1-falke.html", terms: ["Me 501A-1 Falke", "Me 501A-1", "Me 501 Falke"] },
-  { href: "fw-502a-1-habicht.html", terms: ["Fw 502A-1 Habicht", "Fw 502A-1", "Fw 502 Habicht"] },
-  { href: "ar-503a-1-blitz-ii.html", terms: ["Ar 503A-1 Blitz II", "Ar 503A-1", "Blitz II"] },
-  { href: "ho-505a-1-nachtfluegel.html", terms: ["Ho 505A-1 Nachtflügel", "Ho 505A-1 Nachtfluegel", "Ho 505A-1", "Nachtflügel"] },
-  { href: "ju-506a-1.html", terms: ["Ju 506A-1", "Ju 506 A-1"] },
-  { href: "german-mature-atmospheric-fleet.html", terms: ["German mature atmospheric aircraft fleet", "German Mature Atmospheric Fleet", "later atmospheric generations"] },
-  { href: "me-511a-1-adler.html", terms: ["Me 511A-1 Adler", "Me 511A-1"] },
-  { href: "fw-512a-1-sperber.html", terms: ["Fw 512A-1 Sperber", "Fw 512A-1"] },
-  { href: "ar-513a-1-blitz-iii.html", terms: ["Ar 513A-1 Blitz III", "Ar 513A-1", "Blitz III"] },
-  { href: "fw-514a-1-wuerger-ii.html", terms: ["Fw 514A-1 Würger II", "Fw 514A-1 Wuerger II", "Fw 514A-1", "Würger II"] },
-  { href: "ju-516a-1-seeadler.html", terms: ["Ju 516A-1 Seeadler", "Ju 516A-1"] },
-  { href: "me-521a-1-falke-ii.html", terms: ["Me 521A-1 Falke II", "Me 521A-1", "Falke II"] },
-  { href: "fw-522a-1-habicht-ii.html", terms: ["Fw 522A-1 Habicht II", "Fw 522A-1", "Habicht II"] },
-  { href: "ar-523a-1-blitz-iv.html", terms: ["Ar 523A-1 Blitz IV", "Ar 523A-1", "Blitz IV"] },
-  { href: "fw-524a-1-wuerger-iii.html", terms: ["Fw 524A-1 Würger III", "Fw 524A-1 Wuerger III", "Fw 524A-1", "Würger III"] },
-  { href: "ju-526a-1-seeadler-ii.html", terms: ["Ju 526A-1 Seeadler II", "Ju 526A-1", "Seeadler II"] },
+  { href: "me-262a-1.html", terms: ["Me 262", "Messerschmitt Me 262"] },
+  { href: "me-262f.html", terms: ["Me 262 HG III", "HG III research development"] },
+  { href: "he-162c.html", terms: ["He 162 program", "Volksjäger program"] },
+  { href: "ta-183a-1-huckebein.html", terms: ["Ta 183", "Focke-Wulf Ta 183"] },
+  { href: "ho-229a-2.html", terms: ["Ho 229", "H IX", "Horten Ho 229"] },
+  { href: "ar-234c-3-blitz.html", terms: ["Ar 234", "Ar 234C-3 Blitz", "Ar 234C-3"] },
+  { href: "ef-131a-0.html", terms: ["Ju 287 / EF 131 Evaluation Program", "Ju 287", "EF 131", "EF 131A-0", "EF 131 A-0"] },
+  { href: "german-clean-register-generation.html", terms: ["German post-1948 aircraft register", "Reichsluftgerätordnung role series"] },
+  { href: "me-501a-1-falke.html", terms: ["Messerschmitt clean-register interceptor branch"] },
+  { href: "fw-502a-1-habicht.html", terms: ["Focke-Wulf clean-register fighter branch"] },
+  { href: "ar-503a-1-blitz-ii.html", terms: ["Arado clean-register strike branch"] },
+  { href: "ho-505a-1-nachtfluegel.html", terms: ["Horten-Gotha clean-register flying-wing branch"] },
+  { href: "ju-506a-1.html", terms: ["Junkers clean-register maritime and heavy-aircraft branch"] },
+  { href: "german-mature-atmospheric-fleet.html", terms: ["German postwar atmospheric design branches", "specialized German aircraft branches"] },
+  { href: "me-511a-1-adler.html", terms: ["Messerschmitt postwar interceptor branch"] },
+  { href: "fw-512a-1-sperber.html", terms: ["Focke-Wulf postwar fighter branch"] },
+  { href: "ar-513a-1-blitz-iii.html", terms: ["Arado postwar strike branch"] },
+  { href: "fw-514a-1-wuerger-ii.html", terms: ["Focke-Wulf postwar close-support branch"] },
+  { href: "ju-516a-1-seeadler.html", terms: ["Junkers postwar maritime-aircraft branch"] },
+  { href: "me-521a-1-falke-ii.html", terms: ["Messerschmitt mature interceptor projects"] },
+  { href: "fw-522a-1-habicht-ii.html", terms: ["Focke-Wulf mature fighter projects"] },
+  { href: "ar-523a-1-blitz-iv.html", terms: ["Arado mature strike projects"] },
+  { href: "fw-524a-1-wuerger-iii.html", terms: ["Focke-Wulf mature close-support projects"] },
+  { href: "ju-526a-1-seeadler-ii.html", terms: ["Junkers mature maritime projects"] },
   { href: "imperial-japanese-aircraft-designations.html", terms: ["Imperial Japanese aircraft designation systems", "Imperial Japanese Aircraft Designations", "Japanese aircraft designations"] },
   { href: "japanese-late-piston-first-jet-generation.html", terms: ["Japanese late-piston and first-jet generation", "Japanese Late-Piston and First-Jet Generation"] },
   { href: "n1k2-j-shiden-kai.html", terms: ["N1K2-J Shiden Kai", "N1K2-J"] },
@@ -5024,6 +5039,16 @@ const crossLinks = [
   { href: "j14m1-kairyu.html", terms: ["Type 36 J14M1 Kairyū", "J14M1 Kairyū", "J14M1 Kairyu"] },
   { href: "a11m1-arashi.html", terms: ["Type 38 A11M1 Arashi", "A11M1 Arashi"] },
   { href: "a12m1-arashi-kai.html", terms: ["Type 43 A12M1 Arashi Kai", "A12M1 Arashi Kai"] },
+  { href: "ki-100-i-shinden.html", terms: ["Ki-100-I Shinden", "Ki-100-I"] },
+  { href: "ki-100-ii-shinden-kai.html", terms: ["Ki-100-II Shinden Kai", "Ki-100-II"] },
+  { href: "ki-100-iii-shinden-kai-ni.html", terms: ["Ki-100-III Shinden Kai Ni", "Ki-100-III"] },
+  { href: "nakajima-kikka.html", terms: ["Nakajima Kikka", "Kikka"] },
+  { href: "r2y1-keiun.html", terms: ["R2Y1 Keiun", "R2Y1"] },
+  { href: "b8y1-keiun-kai.html", terms: ["B8Y1 Keiun Kai", "B8Y1"] },
+  { href: "a8m-senpu.html", terms: ["A8M Senpū", "A8M Senpu", "A8M1", "A8M2"] },
+  { href: "b8y2-keiun-kai-ni.html", terms: ["B8Y2 Keiun Kai Ni", "B8Y2"] },
+  { href: "b9y-family.html", terms: ["B9Y family", "B9Y"] },
+  { href: "b10y-family.html", terms: ["B10Y family", "B10Y"] },
   { href: "japanese-aircraft-and-guided-weapon-naming-families.html", terms: ["Japanese aircraft and guided-weapon naming families", "Japanese Aircraft and Guided-Weapon Naming Families", "Japanese public naming families"] },
   { href: "japanese-anti-ship-guided-weapons.html", terms: ["Japanese anti-ship guided weapons", "Japanese Anti-Ship Guided Weapons", "flower-name guided-weapon lineage"] },
   { href: "type-7-oka.html", terms: ["Type 7 Ōka", "Type 7 Oka"] },
@@ -5043,6 +5068,9 @@ const crossLinks = [
   { href: "martin-aircraft.html", terms: ["Martin Aircraft", "Glenn L. Martin Company", "Martin aircraft"] },
   { href: "convair.html", terms: ["Convair", "Consolidated Vultee"] },
   { href: "american-early-jet-generation.html", terms: ["American early-jet generation", "American Early-Jet Generation", "American early jets"] },
+  { href: "american-jet-engine-industry.html", terms: ["jet-engine industry of the United States", "American jet-engine industry", "American jet engine industry"] },
+  { href: "century-series.html", terms: ["Century Series", "Century-Series"] },
+  { href: "teen-series.html", terms: ["Teen Series", "Teen-Series", "F-10 through F-19"] },
   { href: "p-80a-5-shooting-star.html", terms: ["P-80A-5 Shooting Star", "P-80A-5"] },
   { href: "f-80c-shooting-star.html", terms: ["F-80C Shooting Star", "F-80C"] },
   { href: "f-84e-thunderjet.html", terms: ["F-84E Thunderjet", "F-84E"] },
@@ -5172,9 +5200,9 @@ const crossLinks = [
   { href: "german-surface-escorts.html", terms: ["German surface escorts"] },
   { href: "german-submarine-force.html", terms: ["German submarine force", "U-boat fleet"] },
   { href: "elektroboot-heritage.html", terms: ["Elektroboot", "Elektroboote", "Type XXI", "Type XXIII"] },
-  { href: "german-conventional-submarine-line.html", terms: ["German conventional submarine line", "Type XXIV", "Type XXVII", "Type XXIX", "Type XXXII"] },
-  { href: "german-nuclear-attack-submarines.html", terms: ["German nuclear attack submarines", "Jagd-U-Boote", "Jagd-U-Boot", "Type XXX", "Type XXXIII"] },
-  { href: "german-guided-missile-submarines.html", terms: ["German guided-missile submarines", "Lenkwaffen-U-Boote", "Lenkwaffen-U-Boot", "Type XXXI", "Type XXXIV"] },
+  { href: "german-conventional-submarine-line.html", terms: ["German conventional submarine line", "German AIP submarines", "Type XXIV", "Type XXV", "Type XXVI", "Type XXIX", "Lauerboot"] },
+  { href: "german-nuclear-attack-submarines.html", terms: ["German nuclear attack submarines", "Jagd-U-Boote", "Jagd-U-Boot", "Type XXX"] },
+  { href: "german-guided-missile-submarines.html", terms: ["German guided-missile submarines", "Lenkwaffen-U-Boote", "Lenkwaffen-U-Boot", "Type XXXI"] },
   { href: "german-submersible-transports.html", terms: ["German submersible transports", "Type XXXI/T", "Type XXXV", "Unterseefrachter", "Unterseetransportschiff"] },
   { href: "imperial-japanese-navy-postwar.html", terms: ["postwar Imperial Japanese Navy", "Imperial Japanese Navy"] },
   { href: "japanese-carrier-system.html", terms: ["Japanese carrier system", "carrier-first maritime doctrine"] },
@@ -6639,13 +6667,13 @@ const crossLinks = [
   { href: "1992-united-states-presidential-election.html", terms: ["1992 United States presidential election", "1992 presidential election", "election of 1992"] },
   { href: "1993-national-renewal-schism.html", terms: ["1993 National Renewal schism", "1993 Renewal schism", "National Renewal schism"] },
   { href: "five-party-republic.html", terms: ["Five-Party Republic", "five-party republic"] },
-  { href: "american-orbital-vehicle-program.html", terms: ["American Orbital Vehicle Program", "Operational Vehicle series", "OV series", "runway-to-orbit fleet"] },
-  { href: "ov-1a-pathfinder.html", terms: ["OV-1A Pathfinder", "Pathfinder orbital aircraft"] },
-  { href: "columbia-spaceplane-program.html", terms: ["Columbia Spaceplane Program", "OV-2A Columbia", "OV-2B Columbia Tanker", "Columbia Tanker"] },
-  { href: "liberty-spaceplane.html", terms: ["OV-3A Liberty", "OV-3B Liberty Automatic", "Liberty Automatic", "Liberty spaceplane"] },
-  { href: "ov-4a-hercules.html", terms: ["OV-4A Hercules", "Hercules orbital aircraft"] },
-  { href: "ov-5a-ranger.html", terms: ["OV-5A Ranger", "Ranger orbital aircraft"] },
-  { href: "ov-6a-enterprise.html", terms: ["OV-6A Enterprise", "Enterprise orbital aircraft"] },
+  { href: "american-orbital-vehicle-program.html", terms: ["American Orbital Vehicle Program", "Operational Vehicle series", "O series", "runway-to-orbit fleet"] },
+  { href: "ov-1a-pathfinder.html", terms: ["XO-1 Pathfinder", "Pathfinder orbital aircraft"] },
+  { href: "columbia-spaceplane-program.html", terms: ["Columbia Spaceplane Program", "O-2A Columbia", "O-2B Columbia Tanker", "Columbia Tanker"] },
+  { href: "liberty-spaceplane.html", terms: ["O-3A Liberty", "O-3B Liberty Automatic", "Liberty Automatic", "Liberty spaceplane"] },
+  { href: "ov-4a-hercules.html", terms: ["O-4A Hercules", "Hercules orbital aircraft"] },
+  { href: "ov-5a-ranger.html", terms: ["O-5A Ranger", "Ranger orbital aircraft"] },
+  { href: "ov-6a-enterprise.html", terms: ["O-6A Enterprise", "Enterprise orbital aircraft"] },
   { href: "canaveral-aerospace-field.html", terms: ["Canaveral Aerospace Field"] },
   { href: "orbital-port-columbia.html", terms: ["United States Orbital Port Columbia", "Orbital Port Columbia", "Columbia Station"] },
   { href: "kennedy-lunar-station.html", terms: ["Kennedy Lunar Station"] },
@@ -6835,20 +6863,20 @@ const crossLinks = [
   ,{ href: "maracaibo-shock.html", terms: ["Maracaibo Shock", "Maracaibo lesson"] }
   ,{ href: "establishment-compact.html", terms: ["Establishment Compact", "House Betrayal", "Establishment Coup"] }
   ,{ href: "national-mission-productive-enterprise-act.html", terms: ["National Mission and Productive Enterprise Act", "Productive Enterprise program", "National Production Institutes"] }
-  ,{ href: "project-zenith.html", terms: ["Project Zenith", "OSV-1A Zenith", "OSV-1 Zenith"] }
-  ,{ href: "m13-tank.html", terms: ["M13 Advanced Mobile Battle Tank", "M13 tank", "the M13", "the Thirteen"] }
-  ,{ href: "xm14-light-combat-tank.html", terms: ["XM14 Light Combat Tank", "XM14", "M14 Light Combat Tank"] }
+  ,{ href: "project-zenith.html", terms: ["Project Zenith", "O-7A Zenith", "O-7 Zenith"] }
+  ,{ href: "m13-tank.html", terms: ["Post-M60 Replacement Competition", "M60 replacement", "M13 Advanced Mobile Battle Tank", "M13 tank"] }
+  ,{ href: "xm14-light-combat-tank.html", terms: ["1980s Light Direct-Fire Competition", "light direct-fire competition", "XM14 Light Combat Tank", "XM14", "M14 Light Combat Tank"] }
   ,{ href: "m3-light-tank.html", terms: ["M3 Light Tank"] }
   ,{ href: "m3-medium-tank.html", terms: ["M3 Medium Tank"] }
   ,{ href: "m4-medium-tank.html", terms: ["M4 Medium Tank"] }
   ,{ href: "m5-light-tank.html", terms: ["M5 Light Tank"] }
   ,{ href: "m6-heavy-tank.html", terms: ["M6 Heavy Tank"] }
-  ,{ href: "m7-transitional-tank.html", terms: ["M7 Transitional Tank", "M7 tank"] }
-  ,{ href: "t8-airborne-tank-project.html", terms: ["T8 Airborne Tank Project", "T8 airborne tank", "T8 tank"] }
-  ,{ href: "m9-expeditionary-light-tank.html", terms: ["M9 Expeditionary Light Tank", "M9 light tank", "M9 tank"] }
-  ,{ href: "m10-universal-combat-tank.html", terms: ["M10 Universal Combat Tank", "M10 tank"] }
-  ,{ href: "m11-main-battle-tank.html", terms: ["M11 Main Battle Tank", "M11A3", "M11 tank"] }
-  ,{ href: "m12-airborne-gun-tank.html", terms: ["M12 Airborne Gun Tank", "M12 gun tank", "M12 tank"] }
+  ,{ href: "m7-transitional-tank.html", terms: ["Advanced Medium Tank Experimental Program", "T20", "T22", "T22E1", "T23", "M7 Transitional Tank"] }
+  ,{ href: "t8-airborne-tank-project.html", terms: ["American 1947 Tank Settlement", "M24 Light Tank", "M26 Medium Tank", "M34 Marshall", "T8 Airborne Tank Project"] }
+  ,{ href: "m9-expeditionary-light-tank.html", terms: ["M41 Light Tank", "M41 tank", "M9 Expeditionary Light Tank"] }
+  ,{ href: "m10-universal-combat-tank.html", terms: ["M46 Medium Tank", "M47 Medium Tank", "M48 Medium Tank", "M10 Universal Combat Tank"] }
+  ,{ href: "m11-main-battle-tank.html", terms: ["M60 Main Battle Tank", "M60 tank", "M11 Main Battle Tank", "M11A3"] }
+  ,{ href: "m12-airborne-gun-tank.html", terms: ["T92E1 Light Tank", "T92E1 trials", "M12 Airborne Gun Tank"] }
   ,{ href: "japanese-light-armor-and-infantry-carriers.html", terms: ["Japanese light armor and infantry carriers", "Japanese light armour and infantry carriers", "light-armor and infantry-carrier system"] }
   ,{ href: "type-7-chi-ru.html", terms: ["Type 7 Chi-Ru", "Chi-Ru"] }
   ,{ href: "type-7-ho-to.html", terms: ["Type 7 Ho-To", "Ho-To"] }
@@ -7456,7 +7484,7 @@ const crossLinks = [
   ,{ href: "horai-hydroponics-environmental-systems.html", terms: ["Hōrai hydroponics and environmental systems", "Hōrai environmental systems"] }
   ,{ href: "horai-orbital-command-center.html", terms: ["Hōrai orbital command center", "Hōrai command center"] }
   ,{ href: "japanese-raumhafen-science-robotics-module.html", terms: ["Japanese science and robotics module", "1985 Japanese Raumhafen module"] }
-  ,{ href: "japanese-raumhafen-life-sciences-module.html", terms: ["Japanese life-sciences and environmental module", "1986 Japanese Raumhafen module"] }
+  ,{ href: "japanese-raumhafen-life-sciences-module.html", terms: ["Japanese logistics and life-support module", "Japanese life-sciences and environmental module", "1986 Japanese Raumhafen module"] }
   ,{ href: "kobo-horai.html", terms: ["Kōbō–Hōrai orbital complex", "Kōbō laboratory", "Hōrai Orbital Platform", "Kōbō", "Hōrai"] }
   ,{ href: "japanese-raumhafen-modules.html", terms: ["Japanese Raumhafen modules", "Japanese module group"] }
   ,{ href: "mondhafen-sud.html", terms: ["Mondhafen Süd", "Mondhafen Sud"] }
@@ -7858,7 +7886,7 @@ const crossLinks = [
   ,{ href: "deimos.html", terms: ["Deimos", "outer moon of Mars"] }
   ,{ href: "italian-tank-lineage.html", terms: ["Italian tank lineage", "Italian armored lineage"] }
   ,{ href: "p40-tank.html", terms: ["P40 tank", "Italian P40"] }
-  ,{ href: "p43-leone.html", terms: ["P43 Leone", "P43 tank"] }
+  ,{ href: "p43-leone.html", terms: ["P35/43 Serie I", "P38/43 Serie 90", "P43 family", "P43 Leone", "P43 tank"] }
   ,{ href: "carro-57-ariete.html", terms: ["Carro 57 Ariete", "Carro 57"] }
   ,{ href: "carro-68-leone-ii.html", terms: ["Carro 68 Leone II", "Carro 68"] }
   ,{ href: "carro-80-ariete-ii.html", terms: ["Carro 80 Ariete II", "Carro 80"] }
@@ -8755,8 +8783,10 @@ if (year) year.textContent = new Date().getFullYear();
   const articleBody = document.querySelector(".article-body");
   const articleLayout = document.querySelector(".article-layout");
   const breadcrumbs = document.querySelector(".breadcrumbs");
-  const articleSlug = document.body.dataset.article;
-  if (!articleBody || !articleLayout || !breadcrumbs || !articleSlug) return;
+  const pageName = location.pathname.split("/").pop() || "";
+  if (!articleBody || !articleLayout || !breadcrumbs || ["index.html", "timeline.html"].includes(pageName.toLowerCase())) return;
+  const articleSlug = document.body.dataset.article || pageName.replace(/\.html$/i, "");
+  if (!articleSlug) return;
 
   const provenanceLabels = {
     a: "Author-established canon",

@@ -1,8 +1,8 @@
-# Aerospace Armaments Reference, 1941–1985
+# Aerospace Armaments Reference, 1941–2012
 
 ## Purpose and authority
 
-This is the specialized canon reference for military aviation, aerospace vehicles, orbital combat craft, and their principal weapons in the alternate-World-War-II setting. It records the designation systems, representative operational lineages, service doctrines, and fixed planning specifications required to keep the setting consistent from the 1 August 1941 divergence through 1985.
+This is the specialized canon reference for military aviation, aerospace vehicles, orbital combat craft, and their principal weapons in the alternate-World-War-II setting. It records the designation systems, representative operational lineages, service doctrines, and fixed planning specifications required to keep the setting consistent from the 1 August 1941 divergence through the current canon horizon of 5 January 2012. The densest type catalog remains the 1941–1985 force, while later sections follow the American orbital-industrial line beyond 1985 where it has now been established directly.
 
 Land systems are governed by [Land Armaments Reference, 1941–1985](./landArmamentsReference%20-%20AltWWII.md). Warships, embarked naval capacity, fleet balances, and the individual-hull ledger are governed by [Naval Armaments Reference, 1941–1985](./navalArmamentsReference%20-%20AltWWII.md).
 
@@ -31,8 +31,8 @@ Included:
 - the United States Army Air Corps, Naval Air Corps, and Aerospace Force;
 - Britain, Canada, Italy, Occitania, Spain, and Portugal;
 - principal operational fighters, interceptors, strike aircraft, bombers, patrol aircraft, and close-support aircraft;
-- American orbital-strike vehicles, German Raumjäger, Japanese supervised orbital interceptors, and orbital recovery doctrine;
-- the major aerospace milestones needed to interpret the force structure of 1985.
+- American orbital vehicles and later orbit-resident spacecraft, German Raumjäger, Japanese supervised orbital interceptors, and orbital recovery doctrine;
+- the major aerospace milestones needed to interpret the force structure of 1985 and the later American orbital-industrial transition through 2012.
 
 Not covered exhaustively:
 
@@ -314,10 +314,28 @@ The **Joint Aircraft Designation Act of 1963** places future Army, Navy, Marine,
 | T | Trainer |
 | H | Helicopter |
 | X | Experimental aircraft |
-| OV | Reusable orbital vehicle |
-| OSV | Orbital strategic vehicle |
+| O | Orbital vehicle |
 
-Aircraft retain a principal role even when they can carry secondary stores. `F/A` is rejected as bureaucratically evasive and doctrinally corrosive.
+Aircraft retain a principal role even when they can carry secondary stores. `F/A` is rejected as bureaucratically evasive and doctrinally corrosive. `O` describes an orbital operating domain rather than a transport or combat mission: reconnaissance, tanker, service, passenger, and combat vehicles can all remain members of the same O sequence. Experimental and service-test status remains an ordinary prefix, producing forms such as `XO-1` and `YO-1` before `O-1A` acceptance.
+
+## American jet-engine industrial ladder
+
+British engines start the American jet age, but they do not permanently define it. The 1941 Arnold–NACA access to Whittle technology survives the divergence; Nene, Tay, Sapphire, and Olympus licenses remain technical apprenticeships, accelerators, or insurance. Neutrality delays mass production, so pre-Philippine America is prototype-rich and squadron-poor, but sustained competition produces indigenous high-thrust schools by the mature Century-Series period.
+
+| Firm | Foundational path | Mature specialty |
+|---|---|---|
+| General Electric | Whittle-derived entry, then J35/J47 compressor work | Variable stators, J79/J93-class high-speed turbojets, power machinery, and later nuclear-electric systems |
+| Pratt & Whitney | Nene/Tay apprenticeship | J57/J75 twin-spool engines, efficient turbofans, restartable hydrogen rockets, and high-specific-impulse cryogenic propulsion |
+| Allison | Production and development second source | J71-class indigenous turbojets, afterburners, rugged rotating machinery, pumps, and industrial redundancy |
+| Curtiss-Wright | Sapphire/J65 and Olympus/J67 licenses | High-temperature inlets, ramjets, turbine–ramjet transition, hydrogen cooling, and combined-cycle atmospheric propulsion |
+| Westinghouse | Indigenous compact axial-flow engines | Compact and auxiliary turbines, experimental propulsion, reactors, nuclear systems, and later high-power orbital machinery |
+| Rocketdyne | Dedicated rocket house | Large high-thrust chemical engines |
+| Aerojet-General | Rocket and special-propulsion work | Storable propulsion and nuclear-thermal integration |
+| Hughes | Spacecraft and electronics | Industrialization of American ion and electric propulsion |
+
+Gerhard Neumann supplies a crucial human bridge without requiring American–German belligerency. He joins Chennault's still-civilian American Volunteer Group in late 1941, remains an AVG technical specialist through the collapsing Chinese front, and helps reconstruct and evaluate a captured Japanese fighter. The AVG evacuation through Burma and British India in 1945 carries him out as essential technical personnel. Donovan's smaller neutral-American OSS brings him to the United States; a special congressional act gives him citizenship in 1946. He works at Douglas Aircraft Research from 1946 to 1948 and joins General Electric in 1948, where his compressor and variable-stator work feeds the domestic J79 school.
+
+NACA's independent aerodynamic program supplies the F-86 swept-wing solution in 1946–1949; it is not dependent upon captured German data. The governing procurement rule is that no critical propulsion program is allowed to depend upon one airframe: engines retain flying testbeds even when their intended aircraft is delayed or canceled.
 
 ## Early jets and surviving historical programs
 
@@ -333,6 +351,43 @@ Aircraft retain a principal role even when they can carry secondary stores. `F/A
 | F-94D Starfire | 1960 | Army Air Corps | Limited all-weather strike | 1,050 km/h | 720 km | One 20×102 mm cannon; 1,800 kg stores |
 
 The XF-85 Goblin and XF-90 remain research aircraft. Parasite-fighter recovery is too dangerous and constraining; XF-90 work instead feeds long-range interception and escort studies.
+
+## Century and Teen Series development
+
+All nine numbered Century-Series programs from F-100 through F-108 produce flying aircraft. The sequence is not a uniform service fleet: it includes mass-production fighters, limited operational types, service-test batches, and research vehicles. The Army Air Corps begins the breakneck climb in speed and altitude; Aerospace Command inherits continental interception in 1958, and the independent Aerospace Force inherits it in 1962.
+
+| Program | First flight | Canon disposition |
+|---|---:|---|
+| F-100 | 1954 | Operational supersonic fighter |
+| F-101 | 1955 | Operational long-range fighter/interceptor family |
+| F-102 | 1955 | Operational delta interceptor |
+| XF-103A | 1959 | Simplified turbine/ramjet flight demonstrator proving inlet control, hot structure, and pilot-survival systems |
+| F-104 | 1956 | Operational Mach 2 point interceptor |
+| F-105 | 1957 | Main heavy tactical strike fighter |
+| F-106 | 1958 | Mature operational delta interceptor |
+| F-107 | 1957 | Limited 36–60-aircraft service-test and special-operation batch for reconnaissance, special strike, and research; does not displace F-105 |
+| XF-108 / F-108A | 1961 / 1966 service | J93-powered long-range Mach 3 interceptor developed in concert with B-70 systems |
+
+XF-103B/C vehicles in 1960–1963 pursue higher-Mach combined-cycle and hydrogen-assisted thermal work. Mach 5 remains the terminal research objective of the family, not the routine performance of a 1950s service interceptor. X-15 supplies the complementary rocket-flight, reaction-control, heating, and energy-management school. Bell's D-188A receives `X-109A` in the divergent register and flies two or three full-scale VTOL/supersonic research aircraft in 1962–1964; it is not a frontline fighter.
+
+The 1963 common register produces a later F-10 through F-19 block retrospectively called the **Teen Series**. It contains three institutional branches rather than one aerodynamic philosophy.
+
+| Number | Service | Principal function | Status |
+|---|---|---|---|
+| F-10 | Navy | Redesignated Skyknight all-weather fighter | Legacy numbering prologue |
+| F-11 | Navy | Lightweight supersonic carrier fighter | Legacy numbering prologue |
+| F-12 | Aerospace Force | Mach 3 long-range strategic interceptor | Major operational type |
+| F-13 | Aerospace Force | Combined-cycle hypersonic and near-space interceptor | Small operational/research fleet; name and final block details open |
+| F-14 | Navy | Long-range fleet-defense fighter | Major operational type |
+| F-15 | Army Air Corps | Heavy air-superiority fighter | Major operational type |
+| F-16 | Army Air Corps | Lightweight air-superiority fighter | Major operational type |
+| F-17 | Joint evaluation | Lightweight competitor and technology demonstrator | Flies; no major Army fleet |
+| F-18 | Navy | Medium carrier fighter descended from F-17 work | Major operational type |
+| F-19 | Aerospace Force | Mature Mach 5-class boundary-of-space interceptor | Small elite force; name and final block details open |
+
+F-13 is the engineering hinge between XF-103, X-15, lifting-body work, and the first orbital aircraft. It takes off conventionally, passes from turbine to ramjet propulsion, uses rocket thrust for its final near-space climb, and returns without establishing orbit. Its useful envelope is approximately Mach 3.5–4 sustained airbreathing flight, a short Mach 4.5 dash in mature aircraft, and rocket-assisted zoom missions near 80–100 km. F-12 remains the better patrol interceptor.
+
+F-19 is designed after American hydrogen infrastructure becomes operational. It sustains approximately Mach 4.5, dashes beyond Mach 5, normally works around 30–37 km altitude, and uses rocket-assisted trajectories higher. It has a spear nose, broad chines flowing into a cranked delta, small canards, a flattened paired compression inlet, an engine-box belly, twin canted tails, internal weapons, a tandem escape capsule, and high-temperature dark-metal finishes. F-19 defends the road to space; an O-series craft handles targets already established in orbit.
 
 ## Army Air Corps force
 
@@ -370,7 +425,22 @@ The Army's fast A-8 attacks bridges, airfields, missile batteries, and supply co
 | B-58A Hustler | 1959 | First high-supersonic Schnellbomber | 2,125 km/h | 3,200 km | 19,300 m | 8,000 kg conventional stores |
 | B-70A Valkyrie | 1969 | Mach 3 strategic bomber | 3,250 km/h | 6,900 km | 23,500 m | 14,500 kg conventional stores |
 
-The B-29 and B-36 exist in reduced numbers as maritime, reconnaissance, conventional-bombing, and test platforms. B-47 supplies swept-wing experience. America does not procure a historical mass B-52 fleet; B-52 remains a design study and prototype branch displaced by B-58, B-70, boost-glide, and spaceplane programs.
+American jet bombing begins with experimental and competing forms rather than an already-settled Schnellbomber doctrine.
+
+| Program | Working date | Place in the development line |
+|---|---:|---|
+| XB-43 Jetmaster | late 1940s | First American all-jet bomber experiment; research only |
+| B-45 Tornado | 1952–1953 | Small first operational jet-bomber bridge, approximately 60–90 aircraft including reconnaissance and test forms |
+| XB-46 | early 1950s | Sleek straight-wing prototype competitor |
+| B-47 Stratojet | 1949–1950 first flight; 1954 service | Swept-wing, podded-engine Schnellbomber revelation and major Philippine-War procurement winner |
+| XB-48 | early 1950s | Six-engine conventional prototype competitor |
+| XB-55 | canceled before service | Turboprop range/payload road not taken; at most one late demonstrator |
+| XB-56 | 1954–1955 | Two B-47-derived four-large-engine flying laboratories, initially tied to Allison J71 development |
+| B-52A/B | 1956 limited service | Range/payload school retained in only 24–48 aircraft; long-range reconnaissance, maritime, guided-weapon, strategic-exercise, and X-plane mothership work |
+| B-58A Hustler | 1959 | First mature American Schnellbomber and principal high-speed strategic type |
+| B-70A Valkyrie | 1969 | Ultimate atmospheric Schnellbomber and last new terrestrial strategic bomber |
+
+The B-29 and B-36 also survive in reduced numbers as maritime, reconnaissance, conventional-bombing, and test platforms. B-52 is not a failure: its range, load, J57 engine experience, and later mothership work are important. It loses the force-structure argument because conventional bombing requires repeated penetration while undefeated German interceptors and missiles continue to improve. B-58 builds strategic identity around modular ventral fuel, conventional-strike, reconnaissance, electronic-warfare, and guided-weapon packages. B-70 then organizes its airframe around Mach 3 compression lift and shock management, entering service in the same year that XO-1 proves orbit reachable by aircraft. B-70 contributes the large lifting centerbody, canards, hot structure, and inlet/airframe integration later combined with F-19 and O-series reentry practice in O-7 Zenith.
 
 ## The Maracaibo Shock and atmospheric retreat
 
@@ -388,23 +458,31 @@ By 1985, atmospheric bombers remain useful for signaling, theater wars, electron
 
 ## American reusable aerospace lineage
 
-The operational American family consists of **horizontal-takeoff, horizontal-landing, runway-to-orbit aerospace planes**. Integrated multi-cycle propulsion uses turbines, ramjets or dual-mode ramjets, hydrogen cooling, and finally onboard hydrogen–oxygen rockets as the atmosphere thins. X-15 and booster-launched X-20 work remain research ancestors, but no operational `OV` is a Shuttle-like glider placed on a vertical launch stack.
+The first operational American family consists principally of **horizontal-takeoff, horizontal-landing, runway-to-orbit aerospace planes**. Integrated multi-cycle propulsion uses turbines, ramjets or dual-mode ramjets, hydrogen cooling, and finally onboard hydrogen–oxygen rockets as the atmosphere thins. X-15 and booster-launched X-20 work remain research ancestors, but no first-block operational O vehicle is a Shuttle-like glider placed on a vertical launch stack.
 
-| Vehicle | Introduction | Fixed canon role | Specifications still open |
-|---|---:|---|---|
-| X-15A | 1961 research service | Hypersonic structures, controls, heating, and energy-management landing | Detailed block allocation |
-| X-20A Dyna-Soar | 1966 trials | Booster-launched research glider and inspection demonstrator; not the operational OV architecture | Exact test inventory and final retirement |
-| OV-1A Pathfinder | 1969 | First true American runway-to-orbit flight and operational-pathfinder generation | Gross mass, payload, dimensions, propulsion cycle, and production block |
-| OV-2A Columbia | 20 July 1971 | Crewed lunar vehicle: runway launch, orbital refueling, vertical lunar landing, direct Earth return, and runway recovery | Gross mass, lunar payload, exact crew, and block total |
-| OV-2B Columbia Tanker | 1971 | Independently runway-launched orbital tanker enabling Columbia's lunar mission | Propellant transfer load, crew/automation fit, and block total |
-| OV-3A Liberty | 1972 | Practical crew, cargo, satellite, and laboratory service | Gross mass, payload, dimensions, propulsion arrangement, and block total |
-| OV-3B Liberty Automatic | 1974 | Fully automated cargo deployment and runway recovery | Exact payload, autonomous-flight architecture, and production total |
-| OV-4A Hercules | 1976 | Heavy station modules, trusses, propellant, and bulk cargo | Gross mass, payload, dimensions, and production total |
-| OV-5A Ranger | 1979 | High-cross-range satellite inspection, retrieval, repair, and rescue | Exact mission radius, payload, and fleet size |
-| OV-6A Enterprise | 1983 | High-frequency crew and cargo operations supporting the expanded Columbia system | Exact block specifications and fleet size |
-| OSV-1A Zenith | 1984 limited readiness | Armed inspection, reconnaissance, rescue, electronic warfare, controlled deorbit, and conventional strategic strike | Exact mass, payload, endurance, and limited-readiness inventory |
+The numbers designate ten separate mission requirements, not ten marks in one linear airframe family. They need not fly in number order, and a later program does not automatically replace an earlier one.
 
-The family shares runway and servicing infrastructure, hydrogen systems, thermal-protection knowledge, avionics ancestry, orbital traffic procedures, and a progressively refined integrated-cycle propulsion tradition. Zenith is a closed military derivative of that ecosystem rather than an armed civilian Columbia docked beside habitation. Exact masses and block totals remain deliberately unresolved until the dedicated structural reset; the names, sequence, runway-to-orbit architecture, and governing missions are fixed.
+| Vehicle | First important period | Governing requirement and status |
+|---|---:|---|
+| X-15A | 1961 research service | Hypersonic structures, controls, heating, reaction controls, and energy-management landing |
+| X-20A Dyna-Soar | 1966 trials | Booster-launched research glider and inspection demonstrator; not the operational O architecture |
+| XO-1 Pathfinder | 1969 | First aircraft to take off horizontally under integrated propulsion, achieve stable orbit, reenter, and land on a runway; stripped experimental vehicle rather than the final reconnaissance mark |
+| O-1A/B/C Pathfinder | 1970 onward | Small rapid-response orbital reconnaissance, inspection, and sensor-change family |
+| O-2A Columbia | 20 July 1971 | Cislunar expedition vehicle: runway launch, orbital refueling, vertical lunar landing, direct Earth return, and runway recovery |
+| O-2B Columbia Tanker | 1971 | Independently runway-launched expedient tanker enabling the first lunar mission |
+| O-3A Liberty | 1972 | Standard general orbital transport for crew, cargo, satellites, and laboratories; long-lived American workhorse |
+| O-3B Liberty Automatic | 1974 | Fully automated cargo deployment and runway recovery; later marks successively improve engines, thermal protection, controls, docking, and commercial life |
+| O-4A Hercules | 1976 | Heavy station modules, trusses, reactors, propellant, and bulk construction cargo; later supplemented by reusable vertical bulk lift |
+| O-5A Ranger | 1979 | High-cross-range satellite inspection, capture, retrieval, repair, reboost, controlled disposal, and rescue |
+| O-6A Enterprise | 1983 | High-frequency passenger and crew-rotation airliner with less flexible cargo volume than Liberty |
+| O-7A Zenith | 1984 limited readiness | Rapid-launch orbital fighter for inspection, interception, reconnaissance, rescue, electronic warfare, controlled deorbit, and secondary conventional strategic strike |
+| O-8 | 1970s–1980s development | Purpose-built cryogenic orbital tanker, increasingly automated; name and final service chronology open |
+| O-9 | 1980s development | Crewed mobile orbital command, signals-intelligence, relay, and electronic-warfare aircraft; technically impressive but overtaken by distributed satellites, stations, and data links |
+| O-10 | 1980s development | High-energy interorbital and cislunar transport whose success demonstrates that a spaceplane should not simply be enlarged into a Mars ship; name and final service chronology open |
+
+Pathfinder gets the medal because it closes the orbital flight cycle first; later O-1 marks do the reconnaissance job better. Columbia is deliberately uneconomical because the national demonstration is that America **flew** to the Moon. Liberty becomes the F-16 of spaceflight through maintainability, standardized payloads, margin, and repeated block rebuilding. Hercules makes orbital construction possible while exposing the cost of carrying wings and Earth-return machinery with bulk freight. Ranger is the orbital tow truck, Enterprise the airliner, and Zenith the fighter.
+
+The family shares runway and servicing infrastructure, hydrogen systems, thermal-protection knowledge, avionics ancestry, orbital traffic procedures, and a progressively refined integrated-cycle propulsion tradition. O-7 is a closed military descendant of B-70, F-19, and first-generation O technology rather than an armed civilian Columbia. Exact masses and block totals remain deliberately unresolved until the dedicated structural reset.
 
 ### Zenith conventional weapons
 
@@ -415,6 +493,50 @@ The family shares runway and servicing infrastructure, hydrogen systems, thermal
 | Strategic Chemical Denial Package | Contingency study only | Not type-classified | Mass urban or industrial denial | Inert simulants only; never deployed or stationed in orbit |
 
 A kinetic penetrator requires heat-resistant structure, stabilization, guidance protection, and terminal correction. It is not an untreated metal bar and cannot attack any point on Earth regardless of orbital geometry. The weapon is difficult to intercept during final descent, but its carrier, launch site, command links, runway, and orbital support system remain vulnerable.
+
+## The Deep-Space Century
+
+Project Pilgrim opens a deliberately separate block: **XO-100 Pilgrim**, followed by the O-Hundreds or **Deep-Space Century**. `X` is the status prefix and `O-100` the program identity. The defining certification change is that an O-100-series vehicle need not enter Earth's atmosphere and normally is not certified to do so. It may be assembled in orbit, launched in sections, carried to orbit by another vehicle, or based permanently in cislunar or extralunar space.
+
+Pilgrim is authorized in 1981–1982 as the American answer to Marsplan 92. Major structures, life support, propulsion competitions, Mars-entry work, and yard expansion occupy 1983–1987. XO-100 is assembled in orbit around 1987–1988 as the first large American vehicle designed to remain there and performs cislunar or high-energy shakedown work in 1988–1989. The 1990 funding and ownership crisis prevents its planned federal Mars expedition without erasing the craft, people, hardware, surveys, or lifting-body research that later pass into the commercial Mars system.
+
+Pilgrim is a mission system rather than one giant lander. Its orbit-built transfer ship remains outside the atmosphere. An integrated Mars lifting body performs aerodynamic entry, cross-range maneuver, supersonic retropropulsion, powered horizontal approach, and wheeled touchdown. It is not required to survive Earth launch or Earth reentry.
+
+| Program | Reserved requirement | Status by the current reference |
+|---|---|---|
+| O-100 Pilgrim | Crewed interplanetary expedition transport and integrated Mars-flight system | Program identity fixed; federal Mars flight prevented by 1990 crisis |
+| O-101 | Fast cislunar personnel and dispatch craft | Requirement reserved; name, contractor, and service date open |
+| O-102 | Heavy cislunar freight and tug | Requirement reserved; details open |
+| O-103 | Propellant tanker and depot tender | Requirement reserved; details open |
+| O-104 | Deep-space rescue and recovery | Requirement reserved; details open |
+| O-105 | Cislunar patrol and inspection craft | Requirement reserved as orbit-resident military successor logic to Zenith; details open |
+| O-106 | Orbital construction and yard tender | Requirement reserved; details open |
+| O-107 | Long-duration scientific survey craft | Requirement reserved; details open |
+| O-108 | High-power electric-propulsion freighter | Requirement reserved; propulsion direction fixed, details open |
+| O-109 | Extralunar endurance vehicle | Requirement reserved; details open |
+
+Pilgrim's first crewed architecture favors nuclear-thermal primary propulsion with conventional chemical maneuvering and backup; electric propulsion supports other elements of the system rather than replacing every engine. Lewis Laboratory and Harold Kaufman preserve the 1959 American electron-bombardment-ion-engine line; Hughes industrializes it. Rocketdyne remains the high-thrust chemical house, Pratt & Whitney the high-efficiency hydrogen house, and Aerojet-General with Westinghouse the nuclear-thermal integration team. General Electric supplies power conversion, generators, control electronics, and later nuclear-electric machinery. O-108 is the late-generation answer built around sustained low thrust and high total delta-v rather than fighter-like acceleration.
+
+Westinghouse leads the first prestige propulsion assembly substantially manufactured in orbit. The achievement is not that zero gravity magically perfects an ordinary rocket: Earth still manufactures reactors, bearings, precision machinery, electronics, and other difficult components. Orbit permits accelerator structures, radiator systems, trusses, and large thrust assemblies that need not survive one-g launch, booster vibration, or a terrestrial fairing.
+
+## American spacecraft design doctrine after 1985
+
+American spacecraft retain the body axes of aircraft: forward and aft, dorsal and ventral, port and starboard. They have bilateral external organization, a defined internal local vertical, dorsal command spaces, a protected belly, an aft engine cluster aligned through the changing center of mass, and paired structures balanced left and right. Thick lateral cargo booms can resemble wings while functioning as pallet racks, power and propellant trunks, and modular attachment structures. Even an orbit-only ship is expected to have a top.
+
+This creates four overlapping generations:
+
+1. **1960s–early 1980s:** aircraft learn to reach orbit; the first O-series is runway-to-orbit.
+2. **O-100 generation:** orbit-built spacecraft retain aircraft-like bilateral form, forward command, and local vertical even when they cannot enter Earth's atmosphere.
+3. **1985–2000:** manufacturers and operators identify commercial requirements before the government does; internal company model numbers and names become first-class identities.
+4. **2000s onward:** private transport and logistics allow the Aerospace Force to concentrate on combat, protected command, strategic maneuver, and capital spacecraft.
+
+Frontier is initially an operator, not a clean-sheet manufacturer. Boeing, North American/Rockwell, Lockheed, Northrop, Grumman, McDonnell Douglas, Martin, Convair/General Dynamics, and their later corporate successors remain competing design houses. After 1985 the market can produce a company-funded craft before any federal requirement or service designation exists. The 1990 austerity crisis nearly kills late O-Hundred vehicles, but abolishing them would mean abolishing the Aerospace Force's unique strategic mission; programs survive through lower quantities, delays, corporate participation, and commercial derivatives while routine transportation moves outward to licensed operators.
+
+By the 2000s, purpose-built orbit-only combat craft can return to ordinary mission designations: `F` for fighter, `A` for attack, and `B` for strategic bomber. The Aerospace Force still speaks of aircraft, pilots, squadrons, and sorties even when the machines cannot survive atmospheric entry.
+
+The first American orbital-carrier requirement is a capital-spacecraft direction rather than a fixed commissioned class. The carrier is conceived as an orbital airfield, tanker, magazine, repair yard, sensor platform, command post, and crew base that prepositions specialized fighters in favorable orbital geometry. Survivability uses sacrificial outer bumpers, standoff and stuffed debris/fragment layers, local heavy protection around command, reactors, magazines, and propellant trunks, plus compartmentalization, duplicated buses, isolation valves, reserve controls, and damage control. Armor improves survival against debris, fragments, near misses, and smaller weapons; it cannot make a ship invulnerable to a full-velocity guided kinetic strike. Guided interceptors and missiles provide reach, while guns serve close defense, terminal interception, anti-sensor work, and last-ditch mission kills.
+
+Corporate fleets remain merchant-aerospace auxiliaries rather than legalized private war fleets. Defensive weapons, reserve-commissioned crews, military-compatible communications, government cargo, emergency requisition, and wartime conversion clauses make the distinction increasingly narrow. *Bonhomme Richard* is an evocative but still-unassigned candidate name whose possible use would itself provoke a Navy–merchant-aerospace naming dispute; it is not a fixed hull in this reference.
 
 ---
 
@@ -621,7 +743,7 @@ The defining operational rule is:
 |---|---|---|---|
 | Germany | Separate fighter, interceptor, strike, close-support, and maritime fleets | Fixed orbital harbor defended by crewed Raumjäger | Integrated radar, missiles, computing, night fighting, and heavy-rocket logistics |
 | Japan | Heavy fleet-defense fighter plus lighter carrier fighter and dedicated strike aviation | Optical-relay network moving toward supervised unmanned interceptors | Carrier-network warfare, automation, electronics, and long-range anti-ship strike |
-| United States | Separate Army fighter/attack and Navy fleet-defense/strike forces | Aerospace Force shifting from atmospheric bombers to reusable orbital attack | Speed, cross-range, runway recovery, computing, and strategic spaceplanes |
+| United States | Separate Army fighter/attack and Navy fleet-defense/strike forces | Aerospace Force moves from high-Mach atmospheric interception through runway-to-orbit aircraft to orbit-resident combat spacecraft | Speed, cross-range, hydrogen/combined-cycle propulsion, runway recovery, computing, orbital industry, and bilateral aircraft-derived spacecraft design |
 | Britain/Commonwealth | Interceptors, carrier strike, maritime patrol, and dispersed-base fighters | Tracking, rescue, and limited military orbital support | Global basing, reconnaissance, ASW, VTOL, Arrow, and TSR-2 |
 | Italy | Light fighters, interceptors, trainers, and maritime strike | Latin-bloc tracking and treaty diplomacy | Austere-field operation and export flexibility |
 | Occitania | High-performance interceptors and fighter-bombers | Sensors and precision-guidance support | Mirage aerodynamic and systems integration |
@@ -649,36 +771,42 @@ The defining operational rule is:
 | 1960 | F-86F; F-94D |
 | 1961 | X-15A; Vulcan B.2; Mirage III C |
 | 1962 | United States Aerospace Force; CF-105A Arrow |
-| 1963 | Joint Aircraft Designation Act; NF-104A; OV and OSV role prefixes |
+| 1963 | Joint Aircraft Designation Act; NF-104A; single O orbital-vehicle sequence reserved |
 | 1964 | Lightning F.3; Mirage III E |
 | 1965 | Buccaneer S.2; Army A-6A |
 | 1966 | Harrier GR.1 initial service; F-108A; X-20A; Maracaibo Shock |
 | 1967 | R-11A Blackbird; Project Apex |
 | 1968 | CF-105B Arrow; naval Harrier operational; Unified Japanese Air Procurement Regulation |
-| 1969 | TSR-2 B.1; B-70A; OV-1A Pathfinder runway-to-orbit flight |
+| 1969 | TSR-2 B.1; B-70A; XO-1 Pathfinder runway-to-orbit flight |
 | 1970 | F-12A Blackbird; A9M4 mature standard; Type 30 Ume |
-| 1971 | A-6E; Mirage F1 C; OV-2A Columbia lunar mission with OV-2B Columbia Tanker |
-| 1972 | A-8A; OV-3A Liberty practical service |
+| 1971 | A-6E; Mirage F1 C; O-2A Columbia lunar mission with O-2B Columbia Tanker |
+| 1972 | A-8A; O-3A Liberty practical service |
 | 1973 | P-3C Orion; accelerated collision-cascade model |
-| 1974 | F-14A; OV-3B Liberty Automatic flight; Geneva Mass-Effect Weapons Convention |
+| 1974 | F-14A; O-3B Liberty Automatic flight; Geneva Mass-Effect Weapons Convention |
 | 1975 | E-2C; Orbitaler Raumhafen commissioning and armed-inspection studies |
-| 1976 | OV-4A Hercules heavy-cargo service; Stockholm Orbital Safety and Salvage Convention; A10M prototype generation |
+| 1976 | O-4A Hercules heavy-cargo service; Stockholm Orbital Safety and Salvage Convention; A10M prototype generation |
 | 1977 | A-10A; Project Zenith |
 | 1978 | A10M1 service generation; Rj 1 Wespe trials |
-| 1979 | OV-5A Ranger satellite-service generation |
+| 1979 | O-5A Ranger satellite-service generation |
 | 1980 | Mature A10M and B-series carrier system |
 | 1981 | Rj 2 Habicht operational |
-| 1982 | Type 42 Tsubaki; Fiat G.85 |
-| 1983 | OV-6A Enterprise high-frequency service; Sea Fury and Tempest demonstrator program; Mirage 2000 C; Nordring depot |
-| 1984 | Sea Fury/Tempest public competition; OSV-1A Zenith limited readiness; GRP-1 Sledge |
+| 1982 | Type 42 Tsubaki; Fiat G.85; Project Pilgrim authorized and O-100 number reserved |
+| 1983 | O-6A Enterprise high-frequency service; Sea Fury and Tempest demonstrator program; Mirage 2000 C; Nordring depot |
+| 1984 | Sea Fury/Tempest public competition; O-7A Zenith limited readiness; GRP-1 Sledge |
 | 1985 | Sea Fury and Tempest production settlement; Rj 3 Falke advanced trials; ORB-2 trials |
 
-## Committed development after 1985
+## Development after 1985
 
 | Year | Status | System |
 |---:|---|---|
-| 1986 | Planned expansion | A second OSV-1 squadron and additional orbital-recovery vehicles enter the funded program |
+| 1986 | Planned expansion | A second O-7 squadron and additional orbital-recovery vehicles enter the funded program |
+| 1987–1988 | Assembly | XO-100 Pilgrim becomes the first large American vehicle assembled specifically to remain in space |
 | 1988 | Scheduled service | Type 48 Raiden orbital-defense group with optical relays and unmanned tugs |
+| 1988–1989 | Shakedown | Pilgrim performs cislunar or high-energy proving missions before its planned Mars expedition |
+| 1990 | Program crisis | Federal Mars flight is prevented; Pilgrim hardware, staff, and Mars-entry work pass into the commercial successor system |
+| 1993 | Commercial integration | Frontier's National Orbital Carrier position formalizes the merchant-aerospace reserve and requisition relationship |
+| Late 1990s | Industrial transition | Commercial procurement and manufacturer project identities outstrip many inherited federal O-series requirements |
+| 2000s | Military refocus | Aerospace returns to F/A/B mission designations for orbit-only combat craft and studies an orbital carrier |
 
 ---
 
@@ -705,7 +833,7 @@ The defining operational rule is:
 | F4U Pirate | F4U Corsair |
 | F-84F Thunderjet | F-84F Thunderstreak |
 | B-57 as an automatic indigenous American design | British Canberra derivative only if separately licensed; not standard canon |
-| B-52 as the mature American strategic fleet | B-58, B-70, Project Apex, OV, and OSV lineage |
+| B-52 as either the mature American strategic fleet or a paper-only dead end | Limited 24–48-aircraft B-52A/B force displaced as the principal doctrine by B-58, B-70, Project Apex, and the O lineage |
 | Every American fighter treated as multirole | Separate F, A, B, P, R, and orbital categories |
 | G.57 as Italy's great late-war fighter | Fiat G.55 Centauro |
 | C-205 | Macchi C.205 Veltro |
@@ -717,7 +845,8 @@ The defining operational rule is:
 | A gun hit automatically deorbiting its target | Mission kill followed by tug stabilization, salvage, or controlled deorbit |
 | Head-on counter-rotating orbital gunnery | Same-direction, ahead-of-track interception with retrograde safe-fire geometry |
 | One universal Outer Space Treaty demilitarizing orbit | Limited 1974 anti-WMD convention plus 1976 safety and salvage convention |
-| Booster-launched OV-1/OV-2 operational lineage and Columbia Automatic | Runway-to-orbit Pathfinder–Columbia/Columbia Tanker–Liberty/Liberty Automatic–Hercules–Ranger–Enterprise family; booster launch survives only in X-20 research ancestry |
+| `OV` and `OSV` as separate American service categories | One `O` orbital-vehicle sequence; experimental and service-test status uses ordinary X/Y prefixes |
+| Booster-launched OV-1/OV-2 operational lineage and Columbia Automatic | Runway-to-orbit O-1 Pathfinder–O-2 Columbia/Columbia Tanker–O-3 Liberty/Liberty Automatic–O-4 Hercules–O-5 Ranger–O-6 Enterprise–O-7 Zenith family; booster launch survives only in X-20 research ancestry |
 | Unguided metal rods as city-destroying orbital weapons | Guided reentry penetrators for hardened point targets |
 | Japanese orbital fighters as autonomous killer drones | Human-authorized, laser-linked supervised interceptors with lost-link safing |
 
@@ -726,8 +855,12 @@ The defining operational rule is:
 - Exact post-1948 German national acceptance ordinals, production totals, squadron deployments, and export customers.
 - Names and specifications of Japan's dedicated post-1950 strike, patrol, tanker, and airborne-warning aircraft.
 - The detailed British, Italian, Occitan, and Japanese air-to-air missile registries.
-- The number of OSV-1 vehicles available at limited readiness in 1984–1985.
-- Final gross masses, payloads, dimensions, propulsion details, and production blocks for the fixed Pathfinder–Columbia–Liberty–Hercules–Ranger–Enterprise–Zenith sequence.
+- The number of O-7 vehicles available at limited readiness in 1984–1985.
+- Final gross masses, payloads, dimensions, propulsion details, and production blocks for the fixed O-1 Pathfinder through O-7 Zenith sequence.
+- Names, contractors, exact service chronology, and final dispositions for O-8, O-9, and O-10.
+- Names, contractors, detailed propulsion, production totals, and service dates for the reserved O-101 through O-109 requirements.
+- The first accepted designations and contractors of the 2000s orbit-only F-, A-, and B-series combat craft.
+- Whether an orbital carrier reaches authorization, construction, or commission by 5 January 2012; no commissioned class is yet fixed here.
 - Whether the Geneva anti-WMD convention receives later German or Japanese ratification.
 - The public name, orbit, and ownership fiction of Japan's first crewed orbital command facility.
 - Whether the first real orbital exchange of fire occurs before or after 1990.

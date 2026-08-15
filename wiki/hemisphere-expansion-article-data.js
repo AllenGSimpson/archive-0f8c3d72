@@ -312,7 +312,7 @@ if (window.deepArticles["chile"]) {
 addHemisphereRelations("argentina",[
   {href:"plan-centinela.html",kicker:"Falklands-era constraint",label:"Plan Centinela"},
   {href:"cold-andes.html",kicker:"Postwar confrontation",label:"Cold Andes"}
-],{id:"cold-andes",title:"Postwar rearmament and the Cold Andes",html:"<p>After Punta del Este, Washington normalizes limited Argentine access to American arms and industry in order to reduce German dependence. The resulting force combines German doctrine, organization, and sustainment habits with American equipment.</p><p>Chile's frontier pressure continues through the <a href='cold-andes.html'>Cold Andes</a>, making interoperability and national military identity part of the unresolved postwar settlement.</p>"});
+],{id:"cold-andes",title:"Postwar rearmament and the Cold Andes",html:"<p>After Punta del Este, Washington normalizes limited Argentine access to American arms and industry in order to reduce German dependence. The resulting force combines German doctrine, organization, and sustainment habits with American equipment.<sup class='canon-note' data-provenance='a'>[a]</sup></p><p>Chile's frontier pressure continues through the <a href='cold-andes.html'>Cold Andes</a>, making interoperability and national military identity part of the unresolved postwar settlement.<sup class='canon-note' data-provenance='a'>[a]</sup></p>"});
 
 addHemisphereRelations("brazil",[
   {href:"luso-brazilian-community.html",kicker:"Atlantic association",label:"Luso-Brazilian Community"}

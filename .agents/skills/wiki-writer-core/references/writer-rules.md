@@ -61,3 +61,12 @@ Do not make every invented person exceptional or dramatic.
 ## Images
 
 Use real-world images only when their visible circumstances remain plausible in-setting. Flag genuinely alternate portraits, flags, maps, vehicles, architecture, or scenes for custom art instead of presenting a contradictory real image as authentic.
+
+For the lead image on articles about ships, aircraft, and ground vehicles, use this preference order:
+
+1. A historical photograph of the same real-world type, when its visible configuration is compatible with the setting vehicle.
+2. A historical photograph of the closest real-world counterpart, presented under the vehicle's in-setting designation.
+3. A suitably licensed design image, profile, drawing, or model view from Wikimedia Commons or another attributable source.
+4. Custom art when no compatible historical or design image exists.
+
+Public-facing captions should identify the subject as it exists in the setting. The asset record, source note, and credit must still identify the real-world image accurately. For example, the preferred lead image for the **Panzer V Ausf. A** article is a real-world photograph of a Panther Ausf. D whose visible configuration is compatible; the wiki caption may identify it in-setting as a Panzer V Ausf. A, while the underlying source record retains the historical Panther Ausf. D identification.

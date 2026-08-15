@@ -174,6 +174,12 @@ if (promenadenringOverview) {
 
 const raumhafenOverview = window.deepArticles["orbitaler-raumhafen"];
 if (raumhafenOverview) {
+  if (!raumhafenOverview.sections.some(section => section.id === "promenadenring")) {
+    raumhafenOverview.sections.push({id:"promenadenring",title:"Promenadenring and the mature orbital district",html:"<p>Marsplan 92's success changes Raumhafen doctrine. Germany authorizes the <a href='promenadenring.html'>Promenadenring</a> and a further Raumwerft expansion in 1994; lunar structural shipments begin in 1995, the first spokes and inhabited arc appear in 1996–97, more than half the ring is occupied by 1998, and closure and formal opening follow around 1999 or 2000.<sup class='canon-note' data-provenance='a'>[a]</sup></p><p>By the current 2012 canon horizon the Raumhafen is an inhabited orbital district as well as a harbor, industrial yard, international station, and interplanetary staging center. Its later population, exact ring specifications, and internal municipal arrangements remain open.<sup class='canon-note' data-provenance='a'>[a]</sup></p>"});
+  }
+  raumhafenOverview.facts = raumhafenOverview.facts || [];
+  if (!raumhafenOverview.facts.some(item => item[0] === "Interplanetary yard")) raumhafenOverview.facts.push(["Interplanetary yard","Raumwerft · late 1980s <sup class='canon-note' data-provenance='a'>[a]</sup>"]);
+  if (!raumhafenOverview.facts.some(item => item[0] === "Promenadenring")) raumhafenOverview.facts.push(["Promenadenring","Authorized 1994 · opened around 1999–2000 <sup class='canon-note' data-provenance='a'>[a]</sup>"]);
   raumhafenOverview.related = [
     ...(raumhafenOverview.related || []),
     {href:"promenadenring-construction-program.html",kicker:"1994–2000 enlargement",label:"Promenadenring Construction Program"},

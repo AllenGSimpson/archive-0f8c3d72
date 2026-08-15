@@ -25,6 +25,14 @@ const lineageArticle = config => ({
   categories:config.categories || ["India","Military industry","Soviet diaspora","Design bureaus"]
 });
 
+const lineageAircraftListSection = rows => ({
+  id:"aircraft",title:"List of Aircraft",
+  html:`<p>The internal designation records the original design-office or development identity. The official designation is the accepted Soviet title. These inherited aircraft establish the lineage; they do not fix the names of later Indian or Iranian designs.</p><div class='table-wrap'><table class='wiki-table'><thead><tr><th>Internal designation</th><th>Official designation</th></tr></thead><tbody>${rows.map(([internal,official,href,provenance]) => {
+    const note = provenance === "p" ? "<sup class='canon-note' data-provenance='p'>[p]</sup>" : provenance === "a" ? "<sup class='canon-note' data-provenance='a'>[a]</sup>" : "<sup class='canon-note' data-provenance='e'>[e]</sup>";
+    return `<tr><td>${internal}</td><td>${href ? `<a href='${href}'>${official}</a>` : official}${note}</td></tr>`;
+  }).join("")}</tbody></table></div>`
+});
+
 Object.assign(window.deepArticles,{
   "kartsev-nizhny-tagil-congress":lineageArticle({
     title:"Kartsev–Nizhny Tagil Lineage in Congress India",infoboxTitle:"Kartsev–Nizhny Tagil lineage",flag:groundGenealogy,
@@ -200,7 +208,7 @@ Object.assign(window.deepArticles,{
   "mikoyan-gurevich-hindustan":lineageArticle({
     title:"Mikoyan–Gurevich Lineage in Hindustan",infoboxTitle:"MiG lineage in Hindustan",flag:aircraftGenealogy,
     lead:"The Mikoyan–Gurevich lineage in Hindustan is Delhi's principal fighter and interceptor design institution. Its swept-wing fighters, radar-equipped interceptors, and later lightweight tactical aircraft form the aerial counterpart to Hindustan's advanced Morozov armor and layered Mytishchi air-defense system.",
-    canon:"The Hindustani destination, MiG fighter and interceptor specialization, defense-of-Delhi rationale, swept-wing and radar-equipped development, later lightweight tactical branch, integration with ground air defense, and Indianization are established. Bureau name, founding personnel, factories, aircraft designations, engines, specifications, service dates, and production totals remain open.",
+    canon:"The Hindustani destination, MiG fighter and interceptor specialization, defense-of-Delhi rationale, swept-wing and radar-equipped development, later lightweight tactical branch, integration with ground air defense, and Indianization are established. The inherited MiG-1 and MiG-3 design identities are established by pre-divergence history; the bureau name, founding personnel, factories, postwar aircraft designations, engines, specifications, service dates, and production totals remain open.",
     sections:[
       {id:"fit",title:"A fighter bureau for a surrounded capital",html:"<p>Hindustan must defend Delhi and rapidly reinforce several frontiers. A fighter-and-interceptor institution answers this requirement more directly than a large bomber or transport establishment.</p>"},
       {id:"migration",title:"The southern MiG branch",html:"<p>Designers, production specialists, test practice, drawings, and aerodynamic knowledge travel through the technical diaspora. The host must rebuild factories, engine supply, instruments, and training around them.</p>"},
@@ -209,16 +217,20 @@ Object.assign(window.deepArticles,{
       {id:"tactical",title:"The lightweight tactical branch",html:"<p>Later aircraft balance interception with battlefield support and dispersal. Hindustan needs machines numerous enough for several fronts even while its design culture favors technical performance.</p>"},
       {id:"bases",title:"Dispersed air defense",html:"<p>Hardened fields, road movement, alternate strips, underground stores, and mobile maintenance reduce vulnerability to Azad Hind air attack and sabotage.</p>"},
       {id:"systems",title:"The engine and radar constraint",html:"<p>Airframe design advances faster than domestic powerplants and sensors. Foreign-derived engines and radar may remain inside aircraft otherwise designed, assembled, and supported in Hindustan.</p>"},
+      lineageAircraftListSection([
+        ["I-200","MiG-1",null,"p"],
+        ["I-200 improved series","MiG-3",null,"p"]
+      ]),
       {id:"identity",title:"A Hindustani fighter school",html:"<p>The branch gradually trains Indian aerodynamicists, test pilots, production managers, and tactical officers. Its aircraft remain visibly MiG-descended without being foreign property or Soviet exports.</p>"}
     ],related:[...lineageRelated,{href:"soviet-aircraft-design-diaspora.html",kicker:"Aviation overview",label:"Soviet Aircraft-Design Diaspora"},{href:"hindustani-military-industry.html",kicker:"Host system",label:"Military Industry of Hindustan"},{href:"mytishchi-air-defense-hindustan.html",kicker:"Ground network",label:"Mytishchi Air-Defense Lineage"}],
     additionalSources:[{href:"../aerospaceArmamentsReference%20-%20AltWWII.md",label:"Aerospace Armaments Reference"}],
-    facts:[["Host state","Hindustan"],["Ancestry","Mikoyan–Gurevich design tradition"],["Primary missions","Fighter and interceptor development"],["Strategic center","Delhi"],["Early direction","Swept-wing fighters"],["Later direction","Radar-equipped interceptors and lightweight tactical aircraft"],["Ground partner","Mytishchi mobile air defense"],["Aircraft designations","Open"]]
+    facts:[["Host state","Hindustan"],["Ancestry","Mikoyan–Gurevich design tradition"],["Primary missions","Fighter and interceptor development"],["Strategic center","Delhi"],["Early direction","Swept-wing fighters"],["Later direction","Radar-equipped interceptors and lightweight tactical aircraft"],["Ground partner","Mytishchi mobile air defense"],["Postwar aircraft designations","Open"]]
   }),
 
   "ilyushin-congress-india":lineageArticle({
     title:"Ilyushin Lineage in Congress India",infoboxTitle:"Ilyushin lineage in Congress India",flag:aircraftGenealogy,
     lead:"The Ilyushin lineage in Congress India is the aircraft-development branch oriented toward battlefield attack, durable support, transport, and operation from dispersed fields. It complements the Congress mass army, Vijaya armored system, railway mobilization, and defensive doctrine more directly than a prestige interceptor establishment would.",
-    canon:"The Congress destination, Ilyushin ancestry, ground-attack and transport emphasis, dispersed-field operation, support of mass armies and fortified fronts, gradual domestic production ladder, complementarity with Congress ordnance, and Indianization are established. Bureau title, founders, plants, engines, aircraft names, weapons, dates, and production totals remain open.",
+    canon:"The Congress destination, Ilyushin ancestry, ground-attack and transport emphasis, dispersed-field operation, support of mass armies and fortified fronts, gradual domestic production ladder, complementarity with Congress ordnance, and Indianization are established. The DB-3, Il-2, Il-4, and limited Il-10 development identities are established; the bureau title, founders, plants, engines, postwar aircraft names, weapons, dates, and production totals remain open.",
     sections:[
       {id:"mission",title:"Aircraft for the mass army",html:"<p>Congress fights around fortified lines, large reserve formations, rail movement, artillery, and prolonged ground operations. It requires durable aircraft that can attack, carry, resupply, evacuate, and operate repeatedly.</p>"},
       {id:"migration",title:"The Ilyushin branch",html:"<p>Technical personnel and partial institutional knowledge enter industrial asylum rather than arriving as one finished company. Indian ministries rebuild the design and production system around local plants and schools.</p>"},
@@ -227,16 +239,22 @@ Object.assign(window.deepArticles,{
       {id:"fields",title:"Dispersed-field operation",html:"<p>Aircraft must tolerate dust, heat, monsoon damage, rough strips, temporary maintenance, and rapidly changing bases behind the fortified belt.</p>"},
       {id:"ladder",title:"The production ladder",html:"<p>Depot overhaul leads to component substitution, local assembly, national airframes around foreign-derived engines, and only later more independent systems. Congress calls each stage national when it controls the program and labor.</p>"},
       {id:"army",title:"Integration with Congress ordnance",html:"<p>Radios, reconnaissance, transport planning, attack doctrine, and spare-parts administration connect aviation to Vijaya formations, engineers, rail troops, and domestic ammunition factories.</p>"},
+      lineageAircraftListSection([
+        ["TsKB-30","DB-3",null,"p"],
+        ["TsKB-30F / DB-3F","Il-4",null,"a"],
+        ["TsKB-55","Il-2",null,"p"],
+        ["TsKB-33","Il-10",null,"a"]
+      ]),
       {id:"identity",title:"An Indian support-aircraft school",html:"<p>Russian ancestry remains visible in design priorities, but later aircraft answer Congress requirements and are sustained by Indian institutions. They become national systems rather than émigré curiosities.</p>"}
     ],related:[...lineageRelated,{href:"soviet-aircraft-design-diaspora.html",kicker:"Aviation overview",label:"Soviet Aircraft-Design Diaspora"},{href:"congress-indian-ordnance-system.html",kicker:"Host system",label:"Congress Indian Ordnance System"},{href:"kartsev-nizhny-tagil-congress.html",kicker:"Armored partner",label:"Kartsev–Nizhny Tagil Lineage"}],
     additionalSources:[{href:"../aerospaceArmamentsReference%20-%20AltWWII.md",label:"Aerospace Armaments Reference"}],
-    facts:[["Host state","Congress India"],["Ancestry","Ilyushin design tradition"],["Primary missions","Ground attack, battlefield support, transport"],["Operating model","Dispersed fields"],["Principal customer","Congress mass army"],["Industrial path","Overhaul to assembly to national airframe"],["Armored partner","Vijaya system"],["Aircraft designations","Open"]]
+    facts:[["Host state","Congress India"],["Ancestry","Ilyushin design tradition"],["Primary missions","Ground attack, battlefield support, transport"],["Operating model","Dispersed fields"],["Principal customer","Congress mass army"],["Industrial path","Overhaul to assembly to national airframe"],["Armored partner","Vijaya system"],["Postwar aircraft designations","Open"]]
   }),
 
   "yakovlev-hyderabad":lineageArticle({
     title:"Yakovlev Lineage in Hyderabad",infoboxTitle:"Yakovlev lineage in Hyderabad",flag:aircraftGenealogy,
     lead:"The Yakovlev lineage in Hyderabad is the princely aviation branch specializing in trainers, light fighters, prototypes, overhaul, and short-run export aircraft. Its broad experimental tradition fits a commercial arms state willing to build a machine rejected by larger governments if a court, smaller successor state, or private consortium will finance it.",
-    canon:"The Hyderabad destination, Yakovlev ancestry, trainer and light-fighter specialization, prototype and unconventional-aircraft culture, overhaul and engine rebuilding, short-run export production, princely customer base, and Indianization are established. Bureau name, founders, plants, aircraft designations, engines, production totals, customers, and project fates remain open.",
+    canon:"The Hyderabad destination, Yakovlev ancestry, trainer and light-fighter specialization, prototype and unconventional-aircraft culture, overhaul and engine rebuilding, short-run export production, princely customer base, and Indianization are established. The Yak-1 and Yak-7 inheritance and limited Yak-9 development are established; the bureau name, founders, plants, postwar aircraft designations, engines, production totals, customers, and project fates remain open.",
     sections:[
       {id:"fit",title:"A broad bureau for a commercial court",html:"<p>Yakovlev's history across fighters, trainers, prototypes, and unusual aircraft suits a state that sells specialized capability rather than standardizing one immense national air force.</p>"},
       {id:"migration",title:"A princely aviation refuge",html:"<p>Hyderabad offers protected workshops, court contracts, access to technical schools, and a maritime commercial corridor. The branch can survive through several small customers instead of one procurement ministry.</p>"},
@@ -245,16 +263,21 @@ Object.assign(window.deepArticles,{
       {id:"prototype",title:"The second life of rejected projects",html:"<p>A design rejected by Congress or Hindustan may still enter a short Hyderabad production run. Political patrons accept risk when the project promises prestige, export leverage, or a niche capability.</p>"},
       {id:"overhaul",title:"Overhaul and engine rebuilding",html:"<p>Maintaining mixed imported fleets is as important as new construction. Workshops rebuild engines, substitute components, translate manuals, and return otherwise unusable aircraft to service.</p>"},
       {id:"market",title:"Aircraft for the princely market",html:"<p>Contracts package machines with instructors, mechanics, spares, ammunition, finance, and access to the Machilipatnam corridor. Buyers acquire an operating service rather than an airframe alone.</p>"},
+      lineageAircraftListSection([
+        ["I-26","Yak-1",null,"p"],
+        ["UTI-26","Yak-7UTI",null,"p"],
+        ["Yak-7DI","Yak-9",null,"a"]
+      ]),
       {id:"japan",title:"Japanese association after 1986",html:"<p>Japanese investment and standards give the branch new components and markets while threatening its independence. Hyderabad remains the owner and sovereign host, not an Azad Hind or Japanese provincial plant.</p>"}
     ],related:[...lineageRelated,{href:"soviet-aircraft-design-diaspora.html",kicker:"Aviation overview",label:"Soviet Aircraft-Design Diaspora"},{href:"hyderabadi-arms-industry.html",kicker:"Host industry",label:"Arms Industry of Hyderabad"},{href:"princely-arms-market.html",kicker:"Customer system",label:"Princely Arms Market"}],
     additionalSources:[{href:"../aerospaceArmamentsReference%20-%20AltWWII.md",label:"Aerospace Armaments Reference"}],
-    facts:[["Host state","Hyderabad"],["Ancestry","Yakovlev design tradition"],["Principal products","Trainers, light fighters, prototypes"],["Major service","Overhaul and engine rebuilding"],["Production style","Short runs"],["Primary market","Princely and smaller successor states"],["Later partner","Japan after 1986"],["Aircraft designations","Open"]]
+    facts:[["Host state","Hyderabad"],["Ancestry","Yakovlev design tradition"],["Principal products","Trainers, light fighters, prototypes"],["Major service","Overhaul and engine rebuilding"],["Production style","Short runs"],["Primary market","Princely and smaller successor states"],["Later partner","Japan after 1986"],["Postwar aircraft designations","Open"]]
   }),
 
   "russian-aviation-lineages-iran":lineageArticle({
     title:"Russian Aviation Lineages in Iran",infoboxTitle:"Russian aviation lineages in Iran",flag:aircraftGenealogy,
     lead:"The Russian aviation lineages in Iran are the principal southern homes of displaced Tupolev and Sukhoi institutions. Iran's relative stability, oil revenue, secure airfields, and stronger state finance allow it to preserve long-range and tactical-strike programs that the besieged Indian successors cannot sustain at full scale.",
-    canon:"Iran as principal Tupolev and Sukhoi host, long-range and tactical-strike division, oil and stability rationale, smaller liaison or production branches in Congress, Pakistan, or Sindh, long-cycle infrastructure, and Iranian ownership are established. Bureau charters, sites, founders, aircraft names, engines, weapons, quantities, and relationship to the Iranian monarchy remain open.",
+    canon:"Iran as principal Tupolev and Sukhoi host, long-range and tactical-strike division, oil and stability rationale, smaller liaison or production branches in Congress, Pakistan, or Sindh, long-cycle infrastructure, and Iranian ownership are established. The inherited Tupolev SB and limited Tu-2 programs and the pre-divergence Sukhoi Su-2 are established; the Su-6 prototype is an incorporated lineage extrapolation. Bureau charters, sites, founders, postwar aircraft names, engines, weapons, quantities, and relationship to the Iranian monarchy remain open.",
     sections:[
       {id:"iran",title:"Why Iran becomes the principal host",html:"<p>Iran offers oil, a functioning monarchy and bureaucracy, secure territory, large airfields, access to foreign trade, and the capacity to finance test and production cycles longer than most successor governments can tolerate.</p>"},
       {id:"tupolev",title:"The Tupolev core",html:"<p>Tupolev's large-aircraft tradition supports long-range bombers, transports, maritime patrol, and complex prototypes. A landlocked or constantly besieged Indian state could not easily preserve that full infrastructure.</p>"},
@@ -263,11 +286,17 @@ Object.assign(window.deepArticles,{
       {id:"branches",title:"Branches in Congress, Pakistan, and Sindh",html:"<p>Transport liaison, component production, assembly, or Sukhoi-derived strike offices can operate farther east. These remain subsidiaries or partnered branches rather than the principal institutional cores.</p>"},
       {id:"markets",title:"A regional aircraft market",html:"<p>Iran can sell aircraft, overhauls, training, engines, and credit to Pakistani and Indian states while using contracts to secure transit, oil, influence, or hard-currency earnings.</p>"},
       {id:"tehran",title:"The Tehran boundary after 1985",html:"<p>The Tehran Concord confirms Iranian independence and restrains Indian or Japanese encroachment without making Iran a Japanese client. Russian-derived aviation remains an Iranian strategic asset inside that settlement.</p>"},
+      lineageAircraftListSection([
+        ["ANT-40","SB",null,"p"],
+        ["Aircraft 103","Tu-2",null,"a"],
+        ["BB-1","Su-2",null,"p"],
+        ["OBSh","Su-6",null,"e"]
+      ]),
       {id:"identity",title:"Iranian institutions with Russian ancestry",html:"<p>Later generations of Iranian engineers and officers define requirements and lead programs. The bureau names may survive, but the aircraft are financed, tested, operated, and politically owned by Iran.</p>"}
     ],related:[...lineageRelated,{href:"iran.html",kicker:"Host state",label:"Iran"},{href:"soviet-aircraft-design-diaspora.html",kicker:"Aviation overview",label:"Soviet Aircraft-Design Diaspora"},{href:"tehran-concord.html",kicker:"Strategic settlement",label:"Tehran Concord"}],
     additionalSources:[{href:"../aerospaceArmamentsReference%20-%20AltWWII.md",label:"Aerospace Armaments Reference"}],
     categories:["Iran","Military industry","Soviet diaspora","Aviation"],
-    facts:[["Host state","Iran"],["Principal heavy-aircraft lineage","Tupolev"],["Principal tactical lineage","Sukhoi"],["Strategic resources","Oil, secure airfields, state finance"],["Tupolev missions","Long-range, transport, maritime patrol"],["Sukhoi missions","Fighter-bomber and tactical strike"],["Subsidiary markets","Congress India, Pakistan, and Sindh"],["Aircraft designations","Open"]]
+    facts:[["Host state","Iran"],["Principal heavy-aircraft lineage","Tupolev"],["Principal tactical lineage","Sukhoi"],["Strategic resources","Oil, secure airfields, state finance"],["Tupolev missions","Long-range, transport, maritime patrol"],["Sukhoi missions","Fighter-bomber and tactical strike"],["Subsidiary markets","Congress India, Pakistan, and Sindh"],["Postwar aircraft designations","Open"]]
   }),
 
   "russian-naval-design-diaspora":lineageArticle({
