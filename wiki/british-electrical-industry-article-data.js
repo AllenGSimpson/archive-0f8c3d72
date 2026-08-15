@@ -22,6 +22,22 @@ const britishElectricalRelated = [
   {href:"strategic-industries-arsenal-continuity-act.html",kicker:"Postwar framework",label:"Strategic Industries and Arsenal Continuity Act"}
 ];
 
+const englishElectricAircraftListSection = rows => ({
+  id:"aircraft-list",
+  title:"List of Aircraft",
+  html:`<p>The internal designation is the company's project or design-office identifier. The official designation is linked where the aircraft has its own article.</p><div class='table-wrap'><table class='wiki-table'><thead><tr><th>Internal designation</th><th>Official designation</th></tr></thead><tbody>${rows.map(([internal,official,href,provenance]) => {
+    const note = provenance === "p"
+      ? "<sup class='canon-note' data-provenance='p'>[p]</sup>"
+      : provenance === "a"
+        ? "<sup class='canon-note' data-provenance='a'>[a]</sup>"
+        : provenance === "e"
+          ? "<sup class='canon-note' data-provenance='e'>[e]</sup>"
+          : "";
+    const officialCell = `${href ? `<a href='${href}'>${official}</a>` : official}${note}`;
+    return `<tr><td>${internal}</td><td>${officialCell}</td></tr>`;
+  }).join("")}</tbody></table></div>`
+});
+
 Object.assign(window.deepArticles, {
   "electrical-and-electronic-industry-of-britain": britishElectricalArticle({
     title:"Electrical and electronic industry of Britain",infoboxTitle:"Electrical and electronic industry of the United Kingdom",infoboxKicker:"National industrial sector",eyebrow:"Power, signals, computing, broadcasting, and consumer electronics · 1947–1985",categories:["Electrical and electronic industry of Britain","British industry","Computing in Britain","Broadcasting in Britain","Commonwealth trade"],
@@ -92,6 +108,10 @@ Object.assign(window.deepArticles, {
       {id:"aircraft",title:"Aircraft",html:"<p>English Electric’s Warton organization developed the <a href='canberra-b2.html'>Canberra</a> jet bomber and reconnaissance aircraft and the <a href='lightning-f3.html'>Lightning</a> interceptor. Aircraft design required engines, radar, instruments, control systems, electrical generation, testing, and production management across the group.</p><p>Later aircraft work entered national industrial arrangements while the English Electric name remained attached to the lineage.</p>"},
       {id:"computers",title:"Computers",html:"<p>English Electric manufactured DEUCE from the National Physical Laboratory’s ACE lineage and developed additional scientific and commercial systems. Power engineering, aircraft calculation, radar, and industrial control provided demanding internal customers.</p><p>English Electric Computers entered <a href='international-computers-limited.html'>ICL</a> through the 1967–1968 procurement consolidation. Specialized control and electronic work remained elsewhere in the group.</p>"},
       {id:"structure",title:"Independent group",html:"<p>English Electric remains independent of GEC in the setting’s postwar structure. It works through joint standards, government contracts, the <a href='british-aircraft-corporation.html'>British Aircraft Corporation</a>, ICL, and Commonwealth projects instead of disappearing into one electrical holding company.</p><p>The arrangement preserves distinct design offices and regional works.</p>"},
+      englishElectricAircraftListSection([
+        ["English Electric A.1","Canberra B.2","canberra-b2.html","a"],
+        ["English Electric P.1B","Lightning F.3","lightning-f3.html","a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 English Electric remains a heavy-engineering and systems group centered on power, traction, telecommunications, aerospace heritage, large machinery, control, and Commonwealth service. Marconi supplies much of its public electronics identity.</p><p>Detailed divisional boundaries and later corporate purchases remain open.</p>"}
     ],
     related:[...britishElectricalRelated,{href:"general-electric-company-britain.html",kicker:"Heavy-electrical competitor",label:"General Electric Company"},{href:"international-computers-limited.html",kicker:"Computer successor",label:"International Computers Limited"},{href:"canberra-b2.html",kicker:"Jet bomber lineage",label:"Canberra B.2"},{href:"lightning-f3.html",kicker:"Interceptor lineage",label:"Lightning F.3"}],

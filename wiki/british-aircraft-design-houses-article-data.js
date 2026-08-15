@@ -22,6 +22,23 @@ const designHouseRelated = [
   {href:"british-fighter-development-1944-1964.html",kicker:"Aircraft chronology",label:"British Fighter Development"}
 ];
 
+const britishAircraftListSection = rows => ({
+  id:"aircraft",
+  title:"List of Aircraft",
+  html:`<p>The internal designation is the manufacturer's project, type, or design-office identifier. A dash indicates that the aircraft had no separate official designation in the present register.</p><div class='table-wrap'><table class='wiki-table'><thead><tr><th>Internal designation</th><th>Official designation</th></tr></thead><tbody>${rows.map(([internal,official,href,provenance]) => {
+    const note = provenance === "p"
+      ? "<sup class='canon-note' data-provenance='p'>[p]</sup>"
+      : provenance === "a"
+        ? "<sup class='canon-note' data-provenance='a'>[a]</sup>"
+        : provenance === "e"
+          ? "<sup class='canon-note' data-provenance='e'>[e]</sup>"
+          : "";
+    const internalCell = href && !official ? `<a href='${href}'>${internal}</a>${note}` : `${internal}${official ? "" : note}`;
+    const officialCell = official ? `${href ? `<a href='${href}'>${official}</a>` : official}${note}` : "—";
+    return `<tr><td>${internalCell}</td><td>${officialCell}</td></tr>`;
+  }).join("")}</tbody></table></div>`
+});
+
 Object.assign(window.deepArticles, {
   "hawker-aircraft": britishDesignHouseArticle({
     title:"Hawker Aircraft",infoboxTitle:"Hawker Aircraft Limited",eyebrow:"Kingston, Brooklands, and Langley · fighters and vertical flight · 1920–1985",
@@ -35,6 +52,18 @@ Object.assign(window.deepArticles, {
       {id:"postwar",title:"Sea Fury, Sea Hawk, and the jet transition",html:"<p>The Sea Fury completed Hawker's piston-fighter lineage. Experimental P.1040, P.1052, and P.1081 work explored jet propulsion, swept wings, naval operation, and high-speed stability.</p><p>The Sea Hawk entered naval service while the design office pursued a more capable land-based interceptor.</p>"},
       {id:"hunter",title:"The Hunter system",html:"<p>The <a href='hunter-f1.html'>Hunter</a> became Hawker's principal postwar fighter and one of Britain's major exports. Fighter, ground-attack, reconnaissance, and training variants supported a long service life.</p><p>Production, engines, radar, weapons, conversion work, training, and spares connected Hawker to Rolls-Royce, Armstrong Whitworth, Commonwealth air forces, and overseas customers.</p>"},
       {id:"vertical",title:"P.1127 and Harrier",html:"<p>Hawker's P.1127 work joined a compact airframe to Bristol's vectored-thrust engine. Kestrel trials developed the operating methods required for dispersed vertical and short takeoff.</p><p>The <a href='harrier-gr1.html'>Harrier</a> gave the design house a second defining postwar lineage and tied fighter design to engine integration, naval aviation, and rough-field logistics.</p>"},
+      britishAircraftListSection([
+        ["Hawker Hart","Hart",null,"p"],
+        ["Hawker Fury","Fury",null,"p"],
+        ["Hawker Hurricane","Hurricane",null,"p"],
+        ["Hawker Typhoon","Typhoon",null,"a"],
+        ["Hawker Tempest","Tempest",null,"a"],
+        ["Hawker Fury / Sea Fury","Sea Fury",null,"a"],
+        ["Hawker P.1040","Sea Hawk",null,"a"],
+        ["Hawker P.1067","Hunter F.1","hunter-f1.html","a"],
+        ["Hawker P.1127","Kestrel FGA.1",null,"a"],
+        ["Hawker P.1127 RAF","Harrier GR.1","harrier-gr1.html","a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>Within <a href='hawker-siddeley.html'>Hawker Siddeley</a>, the Hawker name remains associated with fighter configuration, vertical flight, flight test, export support, and the Kingston tradition. Group finance and manufacturing are shared, but technical authorship remains publicly legible.</p><p>Exact late-century company law and site allocation remain open.</p>"}
     ],
     related:[...designHouseRelated,{href:"hawker-siddeley.html",kicker:"Parent group",label:"Hawker Siddeley"},{href:"hunter-f1.html",kicker:"Transonic fighter",label:"Hunter F.1"},{href:"harrier-gr1.html",kicker:"Vertical-flight lineage",label:"Harrier GR.1"},{href:"rolls-royce.html",kicker:"Principal engine partner",label:"Rolls-Royce"}],
@@ -54,6 +83,13 @@ Object.assign(window.deepArticles, {
       {id:"meteor",title:"Meteor production and development",html:"<p>The <a href='meteor-f3.html'>Meteor</a> became Britain's first operational jet fighter. Twin engines reduced risk during an immature propulsion era, while successive marks improved engines, structure, cockpit, speed, and armament.</p><p>Meteor work trained production workers, pilots, maintainers, suppliers, and test establishments for the postwar jet age.</p>"},
       {id:"javelin",title:"The Javelin interceptor",html:"<p>The <a href='javelin-faw1.html'>Javelin</a> gave Gloster a large delta-wing all-weather interceptor program. Radar, missiles, two crew, high-altitude performance, and ground-controlled interception made it a systems aircraft rather than a simple day fighter.</p><p>Its development connected the company to Britain's air-defense electronics and guided-weapons industries.</p>"},
       {id:"group",title:"A constituent technical identity",html:"<p>Hawker Siddeley increasingly distributes work by program rather than by historic company. In-setting policy nevertheless preserves the Gloster name in design records, test establishments, apprenticeships, and specialist teams.</p><p>The name marks jet and interceptor experience even when final aircraft carry group designations.</p>"},
+      britishAircraftListSection([
+        ["Gloster SS.19B","Gauntlet",null,"p"],
+        ["Gloster SS.37","Gladiator",null,"p"],
+        ["Gloster E.28/39",null,null,"p"],
+        ["Gloster F.9/40","Meteor F.3","meteor-f3.html","a"],
+        ["Gloster GA.5","Javelin FAW.1","javelin-faw1.html","a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Gloster is a Hawker Siddeley constituent identity associated with interceptor development, flight testing, systems integration, production support, and Gloucestershire aerospace skills. It is not an independent competitor to the parent group.</p><p>Its exact legal and administrative form remains open.</p>"}
     ],
     related:[...designHouseRelated,{href:"hawker-siddeley.html",kicker:"Parent group",label:"Hawker Siddeley"},{href:"meteor-f3.html",kicker:"First operational jet",label:"Meteor F.3"},{href:"javelin-faw1.html",kicker:"All-weather interceptor",label:"Javelin FAW.1"},{href:"rolls-royce.html",kicker:"Jet-engine partner",label:"Rolls-Royce"}],
@@ -73,6 +109,14 @@ Object.assign(window.deepArticles, {
       {id:"jets",title:"Attacker, Swift, and Scimitar",html:"<p>Postwar projects carried Supermarine into jet propulsion, swept wings, naval operation, reconnaissance, and low-level attack. The Attacker, Swift, and Scimitar produced mixed results but sustained a specialized design community.</p><p>Failures and limited runs remained technically valuable within the wider Vickers organization.</p>"},
       {id:"bac",title:"The BAC settlement",html:"<p>Vickers aviation entered the <a href='british-aircraft-corporation.html'>British Aircraft Corporation</a> in 1960. Supermarine ceased to compete as an independent firm but remained a legible technical lineage within Vickers and BAC records.</p><p>Its naval and high-speed expertise contributed to group studies, workshare, and advanced projects.</p>"},
       {id:"memory",title:"A national design name",html:"<p>The Spitfire gives Supermarine a public identity stronger than its later corporate independence. Museums, veterans, apprentices, export publicity, technical societies, and company archives preserve the name.</p><p>In-setting industrial policy finds that this inheritance remains useful for recruiting and prestige.</p>"},
+      britishAircraftListSection([
+        ["Supermarine S.6B",null,null,"p"],
+        ["Supermarine Type 224",null,null,"p"],
+        ["Supermarine Type 300","Spitfire",null,"p"],
+        ["Supermarine Type 392","Attacker FB.1","attacker-fb1.html","a"],
+        ["Supermarine Type 541","Swift",null,"a"],
+        ["Supermarine Type 544","Scimitar",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Supermarine is a named Vickers–BAC design tradition associated with high-speed aerodynamics, naval aircraft, flight test, and the Solent industrial region. It is neither a separate airframe group nor a dormant historical label.</p><p>The exact administrative unit using the name remains open.</p>"}
     ],
     related:[...designHouseRelated,{href:"vickers-armstrongs-aircraft.html",kicker:"Parent aviation organization",label:"Vickers-Armstrongs Aircraft"},{href:"british-aircraft-corporation.html",kicker:"Post-1960 group",label:"British Aircraft Corporation"},{href:"rolls-royce.html",kicker:"Engine partner",label:"Rolls-Royce"},{href:"portsmouth.html",kicker:"Solent naval geography",label:"Portsmouth"}],
@@ -92,6 +136,15 @@ Object.assign(window.deepArticles, {
       {id:"viscount",title:"Viscount and Vanguard",html:"<p>The Viscount became the first turboprop airliner to enter regular service and one of Britain's strongest postwar civil-aircraft successes. Rolls-Royce Dart engines, passenger comfort, reliability, and suitable route economics made it widely exportable.</p><p>The larger Vanguard served a narrower market but extended the turboprop transport school.</p>"},
       {id:"valiant",title:"Valiant and strategic aircraft",html:"<p>The Valiant gave Vickers a strategic jet bomber and later tanker role. Its relatively conservative structure allowed earlier service than the more radical Vulcan and Victor.</p><p>High-speed military studies also fed the design work that entered BAC.</p>"},
       {id:"vc10",title:"VC10 and BAC",html:"<p>Vickers aviation joined <a href='british-aircraft-corporation.html'>BAC</a> in 1960. The VC10, optimized for long routes and demanding airfields, became the last airliner designed principally under the Vickers-Armstrongs name before the group structure took precedence.</p><p>Its civil, military transport, and tanker value tied the lineage closely to Commonwealth geography.</p>"},
+      britishAircraftListSection([
+        ["Vickers Type 271","Wellington",null,"p"],
+        ["Vickers Type 284","Warwick",null,"a"],
+        ["Vickers Type 491","Viking",null,"a"],
+        ["Vickers Type 630","Viscount",null,"a"],
+        ["Vickers Type 660","Valiant",null,"a"],
+        ["Vickers Type 950","Vanguard",null,"a"],
+        ["Vickers Type 1100","VC10",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 the Vickers aviation tradition remains a principal BAC component associated with civil transports, heavy aircraft, structures, systems integration, and Brooklands–Weybridge engineering. The parent group shares production and finance while retaining the Vickers name where it describes technical ancestry.</p>"}
     ],
     related:[...designHouseRelated,{href:"british-aircraft-corporation.html",kicker:"Post-1960 parent group",label:"British Aircraft Corporation"},{href:"supermarine.html",kicker:"Fighter and naval design house",label:"Supermarine"},{href:"commonwealth-civil-aviation.html",kicker:"Principal transport market",label:"Commonwealth Civil Aviation"},{href:"handley-page.html",kicker:"Heavy-aircraft counterpart",label:"Handley Page"}],
@@ -111,6 +164,14 @@ Object.assign(window.deepArticles, {
       {id:"production",title:"Distributed wartime and jet production",html:"<p>Armstrong Whitworth built Albemarle transports and produced aircraft designed by other companies. After the war it became an important manufacturer of Gloster Meteor and Hawker Hunter variants.</p><p>Shared production made the company a practical bridge among Hawker Siddeley design houses.</p>"},
       {id:"apollo",title:"Apollo and civil ambition",html:"<p>The Apollo turboprop airliner attempted to enter the postwar transport market but suffered from engine and development difficulties. The program did not establish a major civil line.</p><p>Its lessons in pressurization, turboprop integration, and passenger systems remained available to the group.</p>"},
       {id:"argosy",title:"Argosy transport lineage",html:"<p>The Argosy used a twin-boom configuration and unobstructed cargo hold for military and civil freight. Rough-field use, loading access, airborne supply, and Commonwealth logistics suited the company's transport specialization.</p><p>The aircraft made utility rather than glamour the center of the design argument.</p>"},
+      britishAircraftListSection([
+        ["Armstrong Whitworth A.W.38","Whitley",null,"p"],
+        ["Armstrong Whitworth A.W.41","Albemarle",null,"p"],
+        ["Armstrong Whitworth A.W.52",null,null,"a"],
+        ["Armstrong Whitworth A.W.55","Apollo",null,"a"],
+        ["Armstrong Whitworth A.W.650","Argosy C.1",null,"a"],
+        ["Armstrong Whitworth A.W.660","Argosy",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Armstrong Whitworth remains a Hawker Siddeley technical and manufacturing identity associated with transports, shared production, structural work, conversion, and Coventry aerospace skills. It is not a separate national competitor.</p><p>Exact site and divisional arrangements remain open.</p>"}
     ],
     related:[...designHouseRelated,{href:"hawker-siddeley.html",kicker:"Parent group",label:"Hawker Siddeley"},{href:"gloster-aircraft-company.html",kicker:"Shared Meteor production",label:"Gloster Aircraft Company"},{href:"hawker-aircraft.html",kicker:"Shared Hunter production",label:"Hawker Aircraft"},{href:"coventry.html",kicker:"Industrial center",label:"Coventry"}],
@@ -130,6 +191,15 @@ Object.assign(window.deepArticles, {
       {id:"general",title:"General Aircraft merger",html:"<p>Blackburn combined with General Aircraft Limited in 1949. The merger brought the GAL.60 Universal Freighter project from Feltham to Brough and widened experience in transports, gliders, and specialized structures.</p><p>The organization later returned to the Blackburn Aircraft name.</p>"},
       {id:"beverley",title:"The Beverley",html:"<p>The Beverley heavy transport carried troops, vehicles, and outsized loads into austere fields. Its cargo access, high wing, twin-boom tail, and rough-strip utility suited imperial and Commonwealth logistics.</p><p>The aircraft made Brough a center for practical heavy-lift operations.</p>"},
       {id:"buccaneer",title:"The Buccaneer",html:"<p>The Buccaneer was designed for high-speed low-level carrier strike, using boundary-layer control to combine heavy load with operation from compact decks. It later served in land-based strike roles.</p><p>Airframe strength, naval systems, low-level aerodynamics, and weapons integration made it Blackburn's defining jet-age design.</p>"},
+      britishAircraftListSection([
+        ["Blackburn B.24","Skua",null,"p"],
+        ["Blackburn B.25","Roc",null,"p"],
+        ["Blackburn B.26","Botha",null,"p"],
+        ["Blackburn B.37","Firebrand",null,"a"],
+        ["Blackburn B-48","Firecrest",null,"a"],
+        ["Blackburn B-101","Beverley C.1",null,"a"],
+        ["Blackburn B-103 (NA.39)","Buccaneer S.2","buccaneer-s2.html","a"]
+      ]),
       {id:"position",title:"Hawker Siddeley and 1985",html:"<p>Blackburn entered <a href='hawker-siddeley.html'>Hawker Siddeley</a> in 1960. In-setting policy preserves Blackburn and Brough as a visible naval, trainer, strike, and production lineage within the group.</p><p>By 1985 shared programs sustain the works even where aircraft carry Hawker Siddeley designations.</p>"}
     ],
     related:[...designHouseRelated,{href:"hawker-siddeley.html",kicker:"Parent group",label:"Hawker Siddeley"},{href:"royal-navy-postwar.html",kicker:"Principal naval customer",label:"Royal Navy after 1947"},{href:"british-strike-support-aircraft-lineage.html",kicker:"Strike-aircraft system",label:"British Strike and Support Aircraft"},{href:"handley-page.html",kicker:"Heavy-aircraft counterpart",label:"Handley Page"}],
@@ -149,6 +219,12 @@ Object.assign(window.deepArticles, {
       {id:"gnat",title:"The Gnat fighter",html:"<p>The Gnat first flew in 1955 as a lightweight fighter. Britain did not adopt it in that role, but the compact airframe offered smaller air forces an alternative to increasingly heavy interceptors.</p><p>Historical Indian license production is not presumed in a subcontinent divided among successor states. Any Congress, princely, or other Indian order remains open.</p>"},
       {id:"trainer",title:"Advanced jet training",html:"<p>The two-seat Gnat Trainer entered RAF service as an advanced fast-jet trainer. Low operating cost, responsive handling, and compact size made it useful between elementary jet training and front-line fighters.</p><p>Display-team service gave the small aircraft exceptional public visibility.</p>"},
       {id:"hawker",title:"Entry into Hawker Siddeley",html:"<p><a href='hawker-siddeley.html'>Hawker Siddeley</a> acquired Folland in 1959. Group finance and production supported the trainer while Hamble supplied a distinct lightweight-design and manufacturing school.</p><p>The Folland name remains attached to the Gnat and to later internal studies.</p>"},
+      britishAircraftListSection([
+        ["Folland Fo.108",null,null,"p"],
+        ["Folland Fo.139","Midge",null,"a"],
+        ["Folland Fo.141","Gnat F.1",null,"a"],
+        ["Folland Fo.144","Gnat T.1",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Folland is a Hawker Siddeley constituent identity associated with trainers, lightweight structures, economical export aircraft, prototypes, and specialized workshare. It provides institutional memory for programs too small to justify a major-group design organization.</p><p>Its precise product line after the Gnat remains open.</p>"}
     ],
     related:[...designHouseRelated,{href:"hawker-siddeley.html",kicker:"Parent group",label:"Hawker Siddeley"},{href:"hawker-aircraft.html",kicker:"Front-line fighter counterpart",label:"Hawker Aircraft"},{href:"hunting-aircraft.html",kicker:"Training-aircraft counterpart",label:"Hunting Aircraft"},{href:"india-successors.html",kicker:"Open export and license market",label:"Indian Successor States"}],
@@ -168,6 +244,15 @@ Object.assign(window.deepArticles, {
       {id:"h107",title:"The H.107 civil-jet study",html:"<p>Hunting studied a compact short-haul jet designated H.107. The design did not reach an independent prototype before consolidation, but BAC judged the concept valuable.</p><p>Market enlargement and redesign produced the One-Eleven, giving a small company an important place in a major civil program.</p>"},
       {id:"bac",title:"Entry into BAC",html:"<p>Hunting Aircraft joined <a href='british-aircraft-corporation.html'>British Aircraft Corporation</a> in 1960 with Vickers aviation, English Electric Aviation, and Bristol Aircraft. Training aircraft, light structures, production capacity, and civil studies entered the new group.</p><p>Hunting's identity remained strongest in the Provost and H.107 lineages.</p>"},
       {id:"strikemaster",title:"Training and light attack",html:"<p>BAC developed the pressurized Jet Provost into the Strikemaster light-attack and training aircraft. Export customers valued simple support, rough-field operation, and the ability to combine instruction with armed missions.</p><p>The lineage connected Hunting's economical design culture to BAC's larger sales and systems organization.</p>"},
+      britishAircraftListSection([
+        ["Percival P.31","Proctor",null,"p"],
+        ["Percival P.40","Prentice",null,"a"],
+        ["Percival P.50","Prince",null,"a"],
+        ["Percival P.56","Provost T.1",null,"a"],
+        ["Hunting Percival P.84","Jet Provost T.1",null,"a"],
+        ["Hunting H.107","BAC One-Eleven",null,"a"],
+        ["BAC 167","Strikemaster",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Hunting is a named BAC technical inheritance in trainers, compact civil aircraft, economical export support, and the Luton design school. The name identifies ancestry and specialist teams rather than a separate national airframe company.</p><p>Exact late-century programs and facilities remain open.</p>"}
     ],
     related:[...designHouseRelated,{href:"british-aircraft-corporation.html",kicker:"Parent group",label:"British Aircraft Corporation"},{href:"folland-aircraft.html",kicker:"Advanced-training counterpart",label:"Folland Aircraft"},{href:"commonwealth-civil-aviation.html",kicker:"Civil market",label:"Commonwealth Civil Aviation"},{href:"bristol-aeroplane-company.html",kicker:"BAC constituent partner",label:"Bristol Aeroplane Company"}],

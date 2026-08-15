@@ -15,8 +15,16 @@ const occitanAircraftLandscape = {
 
 const occitanAircraftArticle = config => ({
   category:"Military aircraft", eyebrow:"Occitan military aircraft", landscape:occitanAircraftLandscape,
-  ...config, sources:occitanAircraftSources,
+  ...config, sources:[...occitanAircraftSources,...(config.primarySources || [])],
   categories:config.categories || ["Occitania","Latin Bloc","Military aircraft","Combat aircraft","Aerospace industry"]
+});
+
+const occitanAircraftListSection = rows => ({
+  id:"aircraft",title:"List of Aircraft",
+  html:`<p>The internal designation is the manufacturer's project code. The official designation gives the registered service or public title.</p><div class='table-wrap'><table class='wiki-table'><thead><tr><th>Internal designation</th><th>Official designation</th></tr></thead><tbody>${rows.map(([internal,official,href,provenance]) => {
+    const note = provenance === "p" ? "<sup class='canon-note' data-provenance='p'>[p]</sup>" : provenance === "a" ? "<sup class='canon-note' data-provenance='a'>[a]</sup>" : "<sup class='canon-note' data-provenance='e'>[e]</sup>";
+    return `<tr><td>${internal}</td><td>${href ? `<a href='${href}'>${official}</a>` : official}${note}</td></tr>`;
+  }).join("")}</tbody></table></div>`
 });
 
 Object.assign(window.deepArticles, {
@@ -144,5 +152,30 @@ Object.assign(window.deepArticles, {
     ],
     related:[{href:"occitan-combat-aircraft-lineage.html",kicker:"National aircraft registry",label:"Occitan Combat Aircraft Lineage"},{href:"mirage-f1-c.html",kicker:"1971 predecessor generation",label:"Mirage F1 C"},{href:"mirage-iii-c.html",kicker:"Earlier Mach 2 interceptor",label:"Mirage III C"},{href:"occitania.html",kicker:"Country of origin",label:"Occitania"},{href:"latin-military-aviation.html",kicker:"Regional aviation system",label:"Latin Military Aviation"},{href:"military-technology.html",kicker:"Capability portal",label:"Military Technology"}],
     facts:[["Country of origin","Occitania"],["Introduction","1983"],["Type","Digital fly-by-wire interceptor"],["Maximum speed","2,530 km/h"],["Combat radius","1,300 km"],["Cannon","Two 30×113B mm"],["Missile load","Six"],["1985 status","Latest, fastest, and longest-ranged registered Occitan fighter"]]
+  }),
+
+  "dassault-aviation": occitanAircraftArticle({
+    title:"Dassault Aviation",category:"Occitan aerospace industry",eyebrow:"Mérignac · combat-aircraft design and assembly · 1929–1985",infoboxKicker:"Occitan aircraft manufacturer",infoboxTitle:"Dassault Aviation",
+    lead:"Dassault Aviation is the combat-aircraft design and assembly house whose Mérignac tradition survives the Toulouse–Bordeaux evacuation and French partition. Its MD 450 and MD 452 projects establish Occitania's first indigenous jet generations, followed by the Super Mystère and Mirage families through 1985.",
+    canon:"Marcel Bloch's 1929 company foundation is a pre-divergence historical anchor. Preservation of Dassault's Mérignac assembly tradition, the MD 450B and MD 452C line, Super Mystère B2, Mirage III C and E, Mirage F1 C, and Mirage 2000 C are fixed in-setting. The exact legal adoption of the Dassault name, ownership, nationalization settlement, factories, production totals, exports, and 1985 organization remain open.",
+    sections:[
+      {id:"foundation",title:"Bloch design inheritance",html:"<p>Marcel Bloch established his aircraft company in 1929. Prewar military designs and the Mérignac industrial base supplied the personnel, methods, and facilities inherited by the southern evacuation system.</p>"},
+      {id:"evacuation",title:"Mérignac after partition",html:"<p>The Toulouse–Bordeaux evacuation preserves engineers, tooling, state factories, and the Mérignac assembly tradition south of the German partition. The company becomes a principal expression of Occitan technical sovereignty.</p>"},
+      {id:"jets",title:"Ouragan and Mystère",html:"<p>The <a href='md-450b-ouragan.html'>MD 450B Ouragan</a> enters in 1951, followed by the <a href='md-452c-mystere-ii.html'>MD 452C Mystère II</a> and <a href='super-mystere-b2.html'>Super Mystère B2</a>. The sequence moves from first-generation jets to swept-wing and supersonic aircraft.</p>"},
+      {id:"mirage",title:"Mirage families",html:"<p>Mirage III, Mirage F1, and Mirage 2000 provide interceptor, multirole, air-superiority, and digital fly-by-wire generations. Export and licensed-production work tie the company to the broader Latin aviation market.</p>"},
+      occitanAircraftListSection([
+        ["MD 450","MD 450B Ouragan","md-450b-ouragan.html","a"],
+        ["MD 452","MD 452C Mystère II","md-452c-mystere-ii.html","a"],
+        ["MD 460","Super Mystère B2","super-mystere-b2.html","a"],
+        ["MD 550","Mirage III C","mirage-iii-c.html","a"],
+        ["MD 550","Mirage III E","mirage-iii-e.html","a"],
+        ["Mirage F1","Mirage F1 C","mirage-f1-c.html","a"],
+        ["Mirage 2000","Mirage 2000 C","mirage-2000-c.html","a"]
+      ]),
+      {id:"position",title:"Position in 1985",html:"<p>By 1985 Dassault Aviation is Occitania's principal combat-aircraft prime, supported by state factories, engine, electronics, weapons, test, and export institutions whose exact corporate boundaries remain open.</p>"}
+    ],
+    related:[{href:"occitan-combat-aircraft-lineage.html",kicker:"National aircraft registry",label:"Occitan Combat Aircraft Lineage"},{href:"md-450b-ouragan.html",kicker:"First indigenous jet",label:"MD 450B Ouragan"},{href:"mirage-2000-c.html",kicker:"1985 lineage endpoint",label:"Mirage 2000 C"},{href:"occitania.html",kicker:"Country of origin",label:"Occitania"},{href:"latin-military-aviation.html",kicker:"Regional aviation system",label:"Latin Military Aviation"}],
+    facts:[["Founder","Marcel Bloch"],["Historical foundation","1929"],["Principal assembly center","Mérignac"],["First registered jet","MD 450B Ouragan · 1951"],["Principal postwar family","Mirage"],["1985 position","Principal Occitan combat-aircraft prime"]],
+    primarySources:[{href:"https://timeline.dassault-aviation.com/en/foundations/",label:"Dassault Aviation — company and aircraft timeline"},{href:"https://www.dassault-aviation.com/en/passion/history/sites/merignac/",label:"Dassault Aviation — Mérignac site history"}],categories:["Dassault Aviation","Occitania","Aircraft manufacturers","Mérignac","Latin Bloc aviation"]
   })
 });

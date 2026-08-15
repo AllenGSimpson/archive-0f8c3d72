@@ -1,10 +1,10 @@
-# Aerospace Armaments Reference, 1944–1985
+# Aerospace Armaments Reference, 1941–1985
 
 ## Purpose and authority
 
-This is the specialized canon reference for military aviation, aerospace vehicles, orbital combat craft, and their principal weapons in the alternate-World-War-II setting. It records the designation systems, representative operational lineages, service doctrines, and fixed planning specifications required to keep the setting consistent through 1985. Programs already authorized for service from 1986 through 1988 are recorded as committed development rather than a complete post-1985 inventory.
+This is the specialized canon reference for military aviation, aerospace vehicles, orbital combat craft, and their principal weapons in the alternate-World-War-II setting. It records the designation systems, representative operational lineages, service doctrines, and fixed planning specifications required to keep the setting consistent from the 1 August 1941 divergence through 1985.
 
-Land systems are governed by [Land Armaments Reference, 1944–1985](./landArmamentsReference%20-%20AltWWII.md). Warships, embarked naval capacity, fleet balances, and the individual-hull ledger are governed by [Naval Armaments Reference, 1944–1985](./navalArmamentsReference%20-%20AltWWII.md).
+Land systems are governed by [Land Armaments Reference, 1941–1985](./landArmamentsReference%20-%20AltWWII.md). Warships, embarked naval capacity, fleet balances, and the individual-hull ledger are governed by [Naval Armaments Reference, 1941–1985](./navalArmamentsReference%20-%20AltWWII.md).
 
 Within that subject, this document supersedes:
 
@@ -17,6 +17,8 @@ Within that subject, this document supersedes:
 - any description of orbital combat as aerodynamic dogfighting.
 
 Later direct user corrections still take precedence. A historical name retained here is intentional: the responsible institution, manufacturer, requirement, and design path survive the divergence well enough for the designation to remain useful.
+
+The detailed aviation-development branches incorporated into the master transcript in August 2026 reopened much of the earlier postwar aircraft catalog. In particular, the German 500-series and the old Japanese A11/A12 ladder are withdrawn. Where the revised transcript establishes a design school or development family without fixing an accepted type number, this reference preserves that open status rather than manufacturing a complete fleet around provisional wiki extrapolation.
 
 This is an operational reference rather than a complete production ledger. Performance figures describe a standard service aircraft in clean or stated combat configuration under normal conditions. Actual range, ceiling, speed, payload, and endurance vary with weather, fuel, stores, maintenance, altitude, and mission profile.
 
@@ -74,82 +76,74 @@ By 1985, the best atmospheric combat aircraft combine pulse-Doppler radar, inert
 
 ## Designation system
 
-The German system is governed by the **Reichsluftgerätordnung 1948**, the Reich Air Materiel Regulation of 1948. It cleans the central RLM register without replacing the manufacturer-number tradition.
+The **Reichsluftgerätordnung 1948** replaces the old monolithic RLM number register for newly accepted aircraft. It does not reset aircraft into a 500 block. It creates a role-series register while grandfathering every designation assigned under the wartime system.
 
-1. Existing aircraft retain established designations.
-2. The public type remains manufacturer abbreviation plus centrally assigned number.
-3. Internal studies retain `P.` or `EF` numbers but cannot enter service under them.
-4. Clean-sheet postwar operational types begin in the 500 block.
-5. `V` identifies a prototype, as in `Me 262V12`.
-6. `-0` identifies preproduction aircraft, as in `Ta 183A-0`.
-7. A major production form uses a letter.
-8. A subvariant uses a number after the letter, as in `Me 501A-1`.
-9. `/R` and `/U` identify field and factory conversion packages.
-10. Mission class is an administrative entry rather than part of the painted type designation.
+The postwar operational form is:
 
-| Mission class | German term | Staff code |
+> `design authority + role code + national acceptance ordinal + major-series letter + production-standard number`
+
+Thus `Me J4B-2` identifies a Messerschmitt design, the fourth fighter type accepted under the postwar national register, its second major architecture, and its second standardized production form. The individual airframe carries a separate **Werknummer**. The acceptance ordinal is national rather than manufacturer-specific: `Me J1`, `Fw J2`, and `He J3` would be the first three accepted postwar fighters regardless of which factories produce them.
+
+| Code | German category | Coverage |
 |---|---|---|
-| Day fighter | Jagdflugzeug | J |
-| Night fighter | Nachtjagdflugzeug | NJ |
-| Heavy fighter or escort | Zerstörer / Begleitjäger | Z / BJ |
-| Ground attack | Schlachtflugzeug | S |
-| Close support | Nahkampfflugzeug | NK |
-| Fast tactical bomber | Schnellbomber | SB |
-| Heavy or strategic bomber | Fernbomber | FB |
-| Reconnaissance | Aufklärer | A |
-| Maritime reconnaissance | Seeaufklärer | SA |
-| Torpedo or naval attack | Torpedoflugzeug | T |
-| Transport | Transportflugzeug | Tr |
-| Trainer | Schulflugzeug | Sch |
+| J | Jagdflugzeug | Fighters, interceptors, air-superiority aircraft, and escorts |
+| S | Schlachtflugzeug | Ground attack and close support |
+| B | Bombenflugzeug | Tactical through strategic bombers |
+| A | Aufklärungsflugzeug | Reconnaissance and surveillance |
+| Se | Seeflugzeug / Seeaufklärer | Dedicated maritime patrol and attack |
+| T | Transportflugzeug | Cargo, troop transport, and tanker derivatives |
+| Sch | Schulflugzeug | Trainers |
+| H | Hubschrauber | Helicopters and other rotary-wing aircraft |
+| Vb | Verbindungsflugzeug | Liaison and utility aircraft where a separate class is required |
 
-Thus `Me 501A-1, Klasse NJ/Z` is an administrative description; `NJ/Z` is not part of the aircraft's formal name.
+`A`, `B`, and `C` mark major redesigns. `-1`, `-2`, and later numbers mark standardized equipment forms within one major architecture; `-0` marks a pre-series batch. `V` remains the prototype-airframe marker. `/R` survives only for genuinely removable, family-specific mission kits. Permanent factory changes receive a new production-standard number instead of proliferating `/U` suffixes.
+
+The manufacturer prefix means **design authority**, not assembly plant. An Arado accepted before the military design bureau's absorption remains `Ar` for life; a new design by the combined organization becomes `Me`. Horten-Gotha uses `Ho`, because Horten remains the military design authority even though the public-facing corporation is Gotha. `Go` would belong to a separate Gotha design authority, a split which does not occur.
+
+### Company project registers
+
+Company projects do not enter the national service sequence until accepted. Paper designs, wind-tunnel models, mock-ups, and even privately financed flying demonstrators can therefore proliferate without consuming service numbers.
+
+| Design house | Internal project form | Branch grammar | Example |
+|---|---|---|---|
+| Messerschmitt | `Me P.####` | `/I`, `/II`, `/III`, then `V#` | `Me P.1147/III V1` |
+| Focke-Wulf | `Fw P.###` | `Entwurf I/II/III`, then `V#` | `Fw P.312, Entwurf II, V1` |
+| Horten-Gotha | `H` plus Roman numeral | `A/B/C`, then `V#` | `H XXIV B V1` |
+| Junkers | `Ju EF ###` | `/1`, `/2`, `/3`, then `V#` | `Ju EF 151/2 V1` |
+| Heinkel | `He P.####` | `A/B/C`, then `V#` | `He P.1126C V1` |
+| Arado | `Ar E.###` | `-1`, `-2`, `-3`, then `V#` | `Ar E.612-2 V1` |
+
+Junkers also maintains an `EFo` research register for work which is not yet an aircraft program. Internal branch letters and numbers never dictate the later service-series letter or ordinal. A successful `Me P.1147/III V1` might become `Me J[n]A-0`; the value of `[n]` depends only on the actual national acceptance chronology.
+
+**Reference rule:** give both the internal project number and service designation when both exist. The RLM or post-RLM service designation is primary after assignment. The internal project designation is primary only when the design never enters the service register.
 
 ## Late-war and immediate postwar jets
 
-| Aircraft | Introduction | Mission | Maximum speed | Combat radius | Ceiling | Standard armament or load |
-|---|---:|---|---:|---:|---:|---|
-| Me 262A-1 | 1944 | Heavy day interceptor | 870 km/h | 530 km | 11,450 m | Four 30×90RB mm MK 108 cannon |
-| Me 262F | 1948 | HG-II high-speed interceptor | 960 km/h | 610 km | 13,200 m | Four 30×90RB mm MK 108 cannon |
-| He 162C | 1947 | Light point-defense fighter | 900 km/h | 360 km | 12,100 m | Two 20×82 mm MG 151/20 cannon |
-| Ta 183A-1 Huckebein | 1948 | Frontline day fighter | 955 km/h | 650 km | 13,800 m | Four 30×90RB mm MK 108 cannon |
-| Ho 229A-2 | 1948 | Penetration strike aircraft | 950 km/h | 620 km | 15,000 m | Two 30×184B mm MK 103 cannon; 1,000 kg stores |
-| Ar 234C-3 Blitz | 1946 | Fast bomber and reconnaissance | 870 km/h | 720 km | 10,800 m | 1,500 kg stores |
-| EF 131A-0 | 1949 evaluation | Forward-swept reconnaissance bomber | 865 km/h | 900 km | 12,500 m | 3,000 kg stores |
+| Aircraft or development family | Status by 1947 | Canon function |
+|---|---|---|
+| Me 262 | Regular operational fighter | Germany's first mature jet-fighter school and the baseline from which the high-speed Messerschmitt branch learns |
+| Me 262 HG III | Flying research development | Wing-root engine installation and revised aerodynamics improve speed but remove fuel volume; the aircraft is remembered for low endurance, not merely high consumption |
+| Ta 183 | Late-war production or immediate postwar adoption | Focke-Wulf's compact swept-wing fighter school and an important bridge into the postwar register |
+| Ho 229 / H IX | Operational family | Horten-Gotha's defining fighter and penetration-aircraft architecture; it is not a token batch or dead-end curiosity |
+| Ar 234 | Operational bomber and reconnaissance aircraft | Fast reconnaissance and bomber lineage retained during the transition |
+| Ju 287 / EF successors | Experimental family | Forward-swept-wing and structural research, not a settled mass bomber fleet |
+| He 162 | Paper and prototype work only | The Volksjäger emergency logic never produces an operational service fleet in this war |
 
-The Me 262G HG-III research aircraft is not type-classified. Its redesigned engine installation, wing, and fuselage feed the Me 501 rather than producing an indefinite sequence of Me 262 variants.
+The Me 262 remains the regular jet fighter during the war. HG III does not become an endless alphabetic production sequence; its aerodynamic and engine-integration lessons feed later Messerschmitt projects. Focke-Wulf's Ta 183 is not displaced by a fictional He 162C fleet.
 
-The Ho 229 becomes a famous but specialized family. Germany builds exactly 186 production aircraft across A-1, A-2, B-1, and reconnaissance forms. Its secondary low radar return is useful, but Germany does not possess a mature 1940s stealth doctrine.
+Horten-Gotha receives the institutional continuity which the historical firm lacked. Ho 229 becomes a major, long-running airframe family. Its reduced radar return is initially a secondary consequence of shape rather than a complete 1940s stealth doctrine, but the flying-wing experience compounds across later fighters, reconnaissance aircraft, bombers, and civilian transports.
 
-The Ju 287 and EF 131 forward-swept program produces sixteen evaluation aircraft. Aeroelastic divergence prevents normal bomber adoption; the research is revived after composite structures and digital flight control mature.
+### Horten XVIII and the flying-wing bomber school
 
-Me P.1101 remains a variable-sweep research line. Blohm & Voss P.210, P.212, and P.215 work supplies demonstrators and radar-airframe research rather than three production fleets.
+Horten's H XVIII strategic-bomber work reaches production after the war under Horten-Gotha. The mature aircraft converges on eight improved post-Jumo engines and four rudder surfaces comparable in function to the later YB-49 arrangement. It is not simply a six-Jumo paper study frozen in 1945. The accepted service code remains open until the post-1948 bomber-acceptance chronology is reconstructed; `Ho B1` is possible only if it is actually the first accepted clean-register bomber.
 
-## First clean-register generation
+The same structural school produces the well-known Horten-Gotha civilian flying-wing airliner. Passenger seating occupies the former payload volume and reinforced flush windows in the lower surface provide a celebrated downward view. The airliner is relevant here because it keeps pressure-vessel, flying-wing, and high-capacity production knowledge alive outside military orders.
 
-| Aircraft | Introduction | Mission | Maximum speed | Combat radius | Ceiling | Standard armament or load |
-|---|---:|---|---:|---:|---:|---|
-| Me 501A-1 Falke | 1956 | Twin-engine all-weather interceptor | 1,620 km/h | 850 km | 17,500 m | Two 30×170 mm cannon; four Luftlanze 55 missiles |
-| Fw 502A-1 Habicht | 1957 | Single-engine frontline fighter | 1,490 km/h | 690 km | 16,300 m | Two 20×139 mm cannon; two Luftlanze 55 missiles |
-| Ar 503A-1 Blitz II | 1958 | Fast strike and reconnaissance | 1,670 km/h | 1,150 km | 17,000 m | 4,000 kg stores |
-| Ho 505A-1 Nachtflügel | 1961 | Flying-wing penetration reconnaissance | 1,080 km/h | 2,200 km | 17,800 m | 5,000 kg internal stores |
-| Ju 506A-1 | 1962 | Maritime patrol and electronic reconnaissance | 680 km/h | 3,500 km | 11,000 m | Sensors, mines, torpedoes, or guided weapons |
+## Postwar atmospheric development
 
-## Later atmospheric generations
+Germany deliberately preserves separate interceptor, air-superiority, strike, close-support, maritime, and strategic-bomber fleets. Messerschmitt continues the high-speed interceptor line; Focke-Wulf repeatedly explores wing planform and fighter handling; Horten-Gotha develops flying-wing families; Junkers emphasizes systematic research and maritime or heavy-aircraft systems; Arado remains important in fast strike and reconnaissance before its military bureau is absorbed; Heinkel continues engine and aircraft work under its own project register.
 
-| Aircraft | Introduction | Mission | Maximum speed | Combat radius | Ceiling | Standard armament or load |
-|---|---:|---|---:|---:|---:|---|
-| Me 511A-1 Adler | 1967 | Heavy interceptor | 2,650 km/h | 1,050 km | 21,000 m | Six long-range air-to-air missiles; one 30×170 mm cannon |
-| Fw 512A-1 Sperber | 1969 | Air-superiority fighter | 2,250 km/h | 790 km | 18,500 m | Four missiles; one 20×139 mm cannon |
-| Ar 513A-1 Blitz III | 1970 | Low-level theater strike | 2,050 km/h | 1,250 km | 17,000 m | 5,000 kg stores |
-| Fw 514A-1 Würger II | 1971 | Dedicated close support | 980 km/h | 520 km | 13,500 m | Two 30×170 mm cannon; 3,200 kg stores |
-| Ju 516A-1 Seeadler | 1972 | Maritime patrol and missile control | 900 km/h | 4,100 km | 13,000 m | Four anti-ship missiles or ASW load |
-| Me 521A-1 Falke II | 1978 | Long-range pulse-Doppler interceptor | 2,780 km/h | 1,300 km | 22,500 m | Eight air-to-air missiles; one 30×170 mm cannon |
-| Fw 522A-1 Habicht II | 1980 | Digital air-superiority fighter | 2,420 km/h | 980 km | 19,500 m | Six air-to-air missiles; one 20×139 mm cannon |
-| Ar 523A-1 Blitz IV | 1981 | Terrain-following strike aircraft | 2,100 km/h | 1,480 km | 18,000 m | 7,000 kg stores |
-| Fw 524A-1 Würger III | 1982 | Armored close-support aircraft | 930 km/h | 650 km | 12,800 m | One 30×170 mm cannon; 4,500 kg stores |
-| Ju 526A-1 Seeadler II | 1983 | Long-range maritime surveillance | 940 km/h | 5,000 km | 14,200 m | Six anti-ship missiles or ASW load |
-
-Germany deliberately preserves separate interceptor, air-superiority, strike, close-support, and maritime fleets. Its fourth-generation advantage lies as much in integrated radar, missiles, ground control, and orbital warning as in airframe performance.
+The exact accepted `J`, `S`, `B`, `A`, and `Se` ordinals after 1948 are **not yet fixed**. The deleted `Me 501`, `Fw 502`, `Ar 503`, `Ho 505`, `Ju 506`, `Me 511`, and later 500-series fleet must not be restored merely to fill a table. By 1985 Germany nevertheless retains the established qualitative position: integrated radar, guided weapons, ground control, orbital warning, night/all-weather experience, and specialized airframes make the system more dangerous than any single published speed figure suggests.
 
 ---
 
@@ -163,7 +157,7 @@ The Navy code is:
 
 > role letter + sequence number + manufacturer letter + model number
 
-Thus `J7W1` is the seventh Navy land-based-fighter project, built by Watanabe/Kyushu, first model.
+Thus historical `J7W1` would mean the seventh Navy land-based-fighter project, built by Watanabe/Kyushu, first model. In this setting the canard fighter transfers to Army sponsorship before formal service acceptance and therefore becomes `Ki-100`, not an operational J7W series.
 
 | Navy letter | Role |
 |---|---|
@@ -208,45 +202,55 @@ The **1968 Unified Air Procurement Regulation** makes the expanded Navy-pattern 
 
 | Term | Use |
 |---|---|
-| Final model digit | Formal model sequence, as in J7W1, J7W2, and J7W3 |
+| Final model digit | Formal model sequence, as in A8M1 and A8M2 |
 | Kai | Substantially modified form of an established aircraft |
 | Kai Ni | Second substantial modification |
 | Kō / Otsu / Hei | Parallel equipment, engine, or production configurations |
 | Gata | Physical or mission form |
 
-J7W2 and J7W3 are legitimate only while the Shinden remains recognizably the same canard family. A new wing plan, twin-engine layout, new fuselage, and new mission require a new project number.
+Army `Ki` numbers and Navy letter-number-manufacturer codes are distinct technical identities. The Navy does not retroactively preserve `R2Y2` once the Keiun descendant is accepted as a carrier-attack aircraft; the accepted line becomes `B8Y`. Later Navy fighter marks remain within one A-number so long as the basic airframe architecture survives.
 
 ## Late piston and first-jet generation
 
-| Aircraft or project | Formal service designation | Introduction | Mission | Maximum speed | Combat radius | Ceiling | Standard armament or load |
-|---|---:|---|---:|---:|---:|---:|---|
-| N1K2-J Shiden Kai | Type 4 N1K2-J Shiden Kai | 1944 | Land-based piston fighter | 595 km/h | 575 km | 10,800 m | Four 20×101RB mm cannon |
-| A7M3 Reppū | Type 6 A7M3 Reppū | 1946 | Carrier piston fighter | 630 km/h | 900 km | 11,200 m | Two 20×101RB mm cannon; two 13.2×99 mm guns |
-| J7W1 Shinden | Type 6 J7W1 Shinden | 1946 | Piston point-defense interceptor | 750 km/h | 425 km | 12,000 m | Four 30×122 mm cannon |
-| J8M1 Shūsui | Type 6 J8M1 Shūsui | 1946 | Rocket point-defense interceptor | 900 km/h | 40 km | 12,000 m | Two 30×122 mm cannon; seven minutes powered endurance |
-| Nakajima Kikka Kai | Type 6 G9N1 Kikka Kai | 1946 | Jet strike and reconnaissance | 720 km/h | 550 km | 12,000 m | Two 30×122 mm cannon; 800 kg stores |
-| Nakajima Ki-201 Karyū | Type 7 J10N1 Karyū | 1947 | Heavy twin-engine jet interceptor | 850 km/h | 650 km | 13,000 m | Four 30×122 mm cannon |
-| J7W2 Shinden Kai | Type 9 J7W2 Shinden Kai | 1949 | Jet point-defense interceptor | 920 km/h | 400 km | 13,500 m | Four 30×122 mm cannon |
-| Tachikawa Ki-214 | Type 9 J11T1 Kogarashi | 1949 | Lightweight continental jet fighter | 850 km/h | 410 km | 12,500 m | Two 20×101RB mm cannon |
-| J7W3 Shinden Kai Ni | Type 12 J7W3 Shinden Kai Ni | 1952 | Advanced canard interceptor | 1,080 km/h | 600 km | 15,000 m | Four 30×122 mm cannon; two early missiles after 1956 |
+| Aircraft or project | Fixed date or period | Service | Canon function |
+|---|---:|---|---|
+| N1K2-J Shiden Kai | 1944 | Navy | Mature land-based piston fighter |
+| A7M Reppū family | 1945–47 | Navy | Last principal Mitsubishi piston carrier-fighter family |
+| Nakajima Kikka | 1945 | Navy | First Japanese jet; turbine-production, maintenance, and conversion school rather than the long-term fighter winner |
+| Ki-100-I Shinden | First flight 1 February 1945 | Army | Piston-powered canard proof and operational-development aircraft |
+| Ki-100-II Shinden Kai | 1946–47 | Army | First turbojet Shinden and limited late-war combat aircraft |
+| Ki-100-III Shinden Kai Ni | Immediate postwar | Army | Stretched, turbine-designed continental fighter with improved fuel fraction |
+| R2Y1 Keiun | 1945 development | Navy | Piston reconnaissance and aerodynamic bridge; retains its historical technical identity |
+| B8Y1 Keiun Kai | c. 1947–49 | Navy | Selected twin-engine, wing-root-intake carrier-attack and systems aircraft descended from R2Y work |
+| A8M Senpū | First flight 1947; service c. 1948–49 | Navy | Horikoshi's ultralight first-generation Mitsubishi carrier jet |
 
-`Ki-162-I` and `Ki-162-III` are not canon. They were game-derived extrapolations incorrectly treated as historical Japanese projects. Ki-214 preserves the useful concept of a simplified Japanese He 162 derivative without copying the German type number. Tachikawa is a separate aircraft manufacturer, not a designer nested beneath another aeronautical board; the Joint Aircraft Register therefore assigns it manufacturer letter `T`. The accepted Ki-214 becomes **Type 9 J11T1 Kogarashi**, using *Kogarashi* (“winter wind”) within the fighter wind-name family.
+`Ki-100 Shinden` is a fixed Army identity. The setting's historical Ki-100 radial-engine Ki-61 conversion therefore does not exist; inline-engined Ki-61 development continues under its own marks. The Shinden canard line does not provide a free combination of maximum speed and maneuverability. Its distinction is that Japanese pilots surrender less handling quality than expected when moving into the jet age, while the stretched III form addresses the early family's range and packaging limits.
 
-The register assigns codes by actual role and manufacturer. Kikka Kai therefore enters the land-based attack sequence as `G9N1`, while Nakajima's Ki-201 enters the fighter sequence as `J10N1`. A model digit is mandatory in the public code. Later land-based fighters continue the sequence as `J12`, `J13`, and `J14` rather than recycling `J9`, `J10`, or `J11`.
+Kikka wins the race to become Japan's first jet because two modest Ne-20-class engines are available before a single sufficiently powerful turbine for Shinden. It is respected as a bridge but criticized for short range, delayed throttle response, higher approach speed, and a heavy feel relative to Japanese piston fighters.
+
+R2Y development tests three layouts. The selected `B8Y1` uses two aft-buried Ne-330 engines with wing-root intakes, leaving the nose free for weapons and later radar. The nose-intake alternative returns as **B8Y2 Keiun Kai Ni** after improved engines and ducting, rather than consuming `B9`; `B9Y` is reserved for the first genuinely new swept-wing heavy carrier aircraft. The Keiun family remains carrier-capable by requirement while often operating from major land bases.
+
+`Ki-162`, `Ki-214`, `J10N1 Karyū`, and the former `J11T1 Kogarashi` are withdrawn game-derived or provisional fillers. They must not be used to displace the Kikka, Ki-100, Mitsubishi A-series, and B8Y/B9Y lines fixed here.
 
 ## Joint-service combat-aircraft lineage
 
-| Formal service designation | Technical code | Introduction | Mission | Maximum speed | Combat radius | Standard armament |
-|---|---|---:|---|---:|---:|---|
-| Type 16 A9M1 Shippū | A9M1 | 1956 | Carrier air superiority | 1,180 km/h | 850 km | Two 20×124 mm cannon; four missiles |
-| Type 18 J12N1 Raikō | J12N1 | 1958 | All-weather interception | 1,620 km/h | 900 km | Two 30×165 mm cannon; four missiles |
-| Type 26 A10M1 Shippū Kai | A10M1 | 1966 | Supersonic carrier fighter | 2,050 km/h | 1,050 km | One 20×124 mm cannon; six missiles |
-| Type 28 J13M1 Raiden | J13M1 | 1968 | Mach 2 imperial air defense | 2,350 km/h | 1,250 km | One 20×124 mm cannon; six missiles |
-| Type 36 J14M1 Kairyū | J14M1 | 1976 | Heavy twin-engine fleet defense | 2,500 km/h | 1,500 km | One 20×124 mm cannon; eight missiles |
-| Type 38 A11M1 Arashi | A11M1 | 1978 | Lightweight carrier air superiority | 2,200 km/h | 1,100 km | One 20×124 mm cannon; six missiles |
-| Type 43 A12M1 Arashi Kai | A12M1 | 1983 | Networked fleet air superiority | 2,400 km/h | 1,250 km | One 20×124 mm cannon; eight missiles |
+| Formal service designation | Approximate period | Canon role and development |
+|---|---:|---|
+| A8M1/A8M2 Senpū | 1947–early 1950s | Very light carrier fighter, first tested around a single Ne-20 and made viable by the Ne-330; initial two 13.2 mm guns give way to two lightweight Type 7 20 mm cannon |
+| A9M1 Shippū | 1955–56 | Swept-wing transonic carrier fighter, approximately Mach 0.95–0.98 rather than the old fixed 1,180 km/h claim |
+| A9M2 Shippū | c. 1959–61 | Longer radar nose, improved electrical system, and early missile integration |
+| A9M3 Shippū | c. 1963–65 | Better engine and afterburner; Mach 1.1–1.2 class under favorable conditions |
+| A9M4 Shippū | c. 1968–70 | Mature missile, data-link, radar, and carrier-handling standard |
+| A10M1 | c. 1978–80 | First architectural break into a modern single-engine carrier air-superiority platform; broad wing, digital/hybrid flight control, large radar nose, and dorsal crescent intake |
+| B8Y2 Keiun Kai Ni | 1950s | Improved nose-intake form within the original Keiun family |
+| B9Y family | late 1950s–60s | New swept-wing heavy carrier-capable strike/interception aircraft; twin-engine and normally two-seat |
+| B10Y and mature successor marks | 1960s–80s | Progression toward a supersonic, sensor-heavy, two-seat fleet-defense and multirole platform; later marks stabilize rather than consuming a new number every few years |
 
-Japan's 1970s force is built around the heavy Kairyū fleet-defense fighter and smaller Arashi carrier fighter. By 1985, radar aircraft, fighters, missile carriers, ships, and optical or radio data links operate as one fleet-defense system.
+A8M, A9M, and A10M are a coherent Mitsubishi design language rather than copies of American fighters. A8M has rounded tips, folding wings, a raised annular intake collar, a short bulbous nose, and twin tailwheels flanking the exhaust. A10M develops the intake into a shallow black dorsal crescent standing slightly off the boundary layer and feeding a much deeper internal plenum. Its clean lower fuselage benefits carrier structure and stores carriage; intake distortion under yaw and high angle of attack drives years of duct, bleed, guide-vane, and engine-control work.
+
+A10M is designed as a long-lived platform. Later radar, engine, cockpit, electronic-warfare, structural, and weapons packages remain A10M marks and `Kai` packages. There is no automatic A11M or A12M by 1985, and an eventual new A-number requires a genuinely new aerodynamic architecture such as internal weapons, major low-observable shaping, or a new propulsion concept.
+
+By 1985 Japanese naval aviation is deliberately two-family: the single-engine Mitsubishi A10M fighter and the larger twin-engine, two-seat B-series systems aircraft. Airborne warning, optical and radio data links, missiles, surface ships, satellites, and carrier groups operate as one fleet-defense system.
 
 ## Naming families and guided weapons
 
@@ -384,16 +388,23 @@ By 1985, atmospheric bombers remain useful for signaling, theater wars, electron
 
 ## American reusable aerospace lineage
 
-| Vehicle | Introduction | Crew | Mission mass | Internal payload | Normal service orbit | On-orbit endurance | Canon role |
-|---|---:|---:|---:|---:|---:|---:|---|
-| X-15A | 1961 research service | 1 | 15.5 t | 0.2 t instruments | Suborbital | 12 minutes powered flight | Hypersonic structures, controls, and energy-management landing |
-| X-20A Dyna-Soar | 1966 trials | 1 | 5.2 t | 0.5 t | 160 km | 9 hours | Booster-launched orbital glider and inspection demonstrator |
-| OV-1A Pathfinder | 1969 | 2 | 18.0 t | 2.0 t | 240 km | 2 days | First operational American orbital spaceplane |
-| OV-2A Columbia | 1972 | 4 | 32.0 t | 8.0 t | 400 km | 10 days | Crew, cargo, satellite service, and lunar-system support |
-| OV-2B Columbia Automatic | 1974 | 0 | 32.5 t | 8.0 t | 400 km | 14 days | Fully automated cargo, retrieval, and landing capability; optional crew controls remain fitted |
-| OSV-1A Zenith | 1984 limited readiness | 2 | 31.0 t | 6.0 t | 450 km | 12 days | Orbital inspection, electronic warfare, rescue, and conventional strike; remotely supervised flight is available for hazardous missions |
+The operational American family consists of **horizontal-takeoff, horizontal-landing, runway-to-orbit aerospace planes**. Integrated multi-cycle propulsion uses turbines, ramjets or dual-mode ramjets, hydrogen cooling, and finally onboard hydrogen–oxygen rockets as the atmosphere thins. X-15 and booster-launched X-20 work remain research ancestors, but no operational `OV` is a Shuttle-like glider placed on a vertical launch stack.
 
-OSV-1 shares Columbia geometry, booster interfaces, thermal protection, landing gear, avionics ancestry, and maintenance infrastructure. It adds protected communications, greater maneuvering propellant, improved cross-range, electronic warfare, classified navigation, and an internal mission bay. Military OSVs operate from a segregated complex rather than docking armed beside Columbia's civilian habitation.
+| Vehicle | Introduction | Fixed canon role | Specifications still open |
+|---|---:|---|---|
+| X-15A | 1961 research service | Hypersonic structures, controls, heating, and energy-management landing | Detailed block allocation |
+| X-20A Dyna-Soar | 1966 trials | Booster-launched research glider and inspection demonstrator; not the operational OV architecture | Exact test inventory and final retirement |
+| OV-1A Pathfinder | 1969 | First true American runway-to-orbit flight and operational-pathfinder generation | Gross mass, payload, dimensions, propulsion cycle, and production block |
+| OV-2A Columbia | 20 July 1971 | Crewed lunar vehicle: runway launch, orbital refueling, vertical lunar landing, direct Earth return, and runway recovery | Gross mass, lunar payload, exact crew, and block total |
+| OV-2B Columbia Tanker | 1971 | Independently runway-launched orbital tanker enabling Columbia's lunar mission | Propellant transfer load, crew/automation fit, and block total |
+| OV-3A Liberty | 1972 | Practical crew, cargo, satellite, and laboratory service | Gross mass, payload, dimensions, propulsion arrangement, and block total |
+| OV-3B Liberty Automatic | 1974 | Fully automated cargo deployment and runway recovery | Exact payload, autonomous-flight architecture, and production total |
+| OV-4A Hercules | 1976 | Heavy station modules, trusses, propellant, and bulk cargo | Gross mass, payload, dimensions, and production total |
+| OV-5A Ranger | 1979 | High-cross-range satellite inspection, retrieval, repair, and rescue | Exact mission radius, payload, and fleet size |
+| OV-6A Enterprise | 1983 | High-frequency crew and cargo operations supporting the expanded Columbia system | Exact block specifications and fleet size |
+| OSV-1A Zenith | 1984 limited readiness | Armed inspection, reconnaissance, rescue, electronic warfare, controlled deorbit, and conventional strategic strike | Exact mass, payload, endurance, and limited-readiness inventory |
+
+The family shares runway and servicing infrastructure, hydrogen systems, thermal-protection knowledge, avionics ancestry, orbital traffic procedures, and a progressively refined integrated-cycle propulsion tradition. Zenith is a closed military derivative of that ecosystem rather than an armed civilian Columbia docked beside habitation. Exact masses and block totals remain deliberately unresolved until the dedicated structural reset; the names, sequence, runway-to-orbit architecture, and governing missions are fixed.
 
 ### Zenith conventional weapons
 
@@ -445,14 +456,29 @@ Canada and Australia retain local prefixes such as `CF` and `CA` while using Com
 | Canberra B.2 | 1951 | Conventional bomber and reconnaissance | 930 km/h | 1,300 km | 2,700 kg stores |
 | Buccaneer S.2 | 1965 | Low-altitude maritime strike | 1,040 km/h | 1,850 km | 7,200 kg stores or anti-ship missiles |
 | TSR-2 B.1 | 1969 | Commonwealth interdiction and reconnaissance | 2,200 km/h | 1,850 km | 4,500 kg internal stores |
-| Harrier GR.1 | 1970 | Dispersed-base strike and reconnaissance | 1,175 km/h | 600 km | Two 30×113B mm cannon; 2,300 kg stores |
+| Harrier GR.1 | 1966 initial; 1967–68 mature deployment | Dispersed-base strike and reconnaissance | 1,175 km/h | 600 km | Two 30×113B mm cannon; 2,300 kg stores |
 | Vulcan B.2 | 1961 | Principal conventional strategic bomber | 1,040 km/h | 3,700 km | 9,500 kg stores or stand-off missiles |
 | Victor K.1 | 1965 tanker conversion | Tanker and strategic support | 1,010 km/h | 4,500 km | Refueling equipment or reconnaissance fit |
 | CF-100 Mk 4 | 1955 | Canadian all-weather interceptor | 890 km/h | 900 km | Eight 12.7×99 mm guns; rockets or missiles |
 | CF-105A Arrow | 1962 | Mach 2 Arctic interceptor | 2,250 km/h | 1,250 km | Eight long-range missiles |
 | CF-105B Arrow | 1968 | Improved continental interceptor | 2,450 km/h | 1,500 km | Eight long-range missiles; improved radar |
 
-TSR-2 survives because Britain requires conventional penetration, reconnaissance, anti-shipping attack, and independent Commonwealth reach. Harrier is equally valuable because the Siege Commonwealth expects damaged runways, island defense, small carriers, and dispersed operations.
+TSR-2 survives because Britain requires conventional penetration, reconnaissance, anti-shipping attack, and independent Commonwealth reach. Harrier is equally valuable because the Siege Commonwealth expects damaged runways, island defense, small carriers, and dispersed operations. A navalized FRS.1-equivalent enters Fleet Air Arm service in 1967–68. Harrier begins as a strike aircraft and remains demanding to fly; reconnaissance, fleet defense, interception, and other requirements accumulate because its basing independence is strategically unique, not because the first airframe is optimal for every role.
+
+### British STOVL generations
+
+The Second Battle of Britain makes runway dispersal a permanent requirement. The 1966 Harrier is the first operational generation. A P.1154-descended supersonic successor in the early-to-mid 1970s proves that supersonic STOVL is possible but remains expensive and temperamental. A late-1970s joint requirement then produces the P.1214/P.1216 competition.
+
+Four demonstrators—an aerodynamic and a mission-system aircraft for each design—fly by 1983–84. P.1214 is the forward-swept, high-alpha, maneuver-oriented type and reaches approximately Mach 1.8. P.1216 is the more stable, accelerating Mach-2-class interceptor and the Air Staff's preferred high-speed machine. The aircraft do not fight in the Falklands/Malvinas War, but testing during the conflict turns an intended closed procurement into a national public argument. Observers, enthusiast films, partial leaks, and speculative press performance figures make cancelling P.1214 politically costly.
+
+Britain ultimately buys both as one systems family:
+
+| Development identity | Service name | Primary user | Principal role | Status by 1985 |
+|---|---|---|---|---|
+| BAe P.1214 | **Sea Fury F.1** | Fleet Air Arm and expeditionary Commonwealth forces | Maneuver-oriented naval/STOVL fighter and strike aircraft | Flying prototype; larger production family selected |
+| BAe P.1216 | **Tempest F.1** | Royal Air Force | Mach-2-class dispersed interceptor and missile fighter | Flying prototype; smaller but substantial RAF order selected |
+
+Sea Fury and Tempest share an advanced engine family, cockpit architecture, radar and avionics hardware families, weapons, connectors, stock gauges, accessories, and depot repair standards while retaining radically different wings, major structures, inlets, and installation geometry. Common stock can be cut or formed to marked airframe dimensions at qualified depots; certified load-bearing and pressure-critical parts remain controlled. The production settlement follows the 1985 scope and is expected to produce service aircraft late in the decade.
 
 ---
 
@@ -607,43 +633,45 @@ The defining operational rule is:
 | Year | System or decision |
 |---:|---|
 | 1944 | Me 262A-1; Meteor F.3; Type 4 N1K2-J Shiden Kai |
-| 1946 | Ar 234C-3; Type 6 A7M3 Reppū; Type 6 J7W1 Shinden; Type 6 J8M1 Shūsui; Type 6 G9N1 Kikka Kai; Vampire F.1 |
-| 1947 | He 162C; Type 7 J10N1 Karyū; Attacker FB.1 |
-| 1948 | Reichsluftgerätordnung; Me 262F; Ta 183A-1; Ho 229A-2; FJ-1 Fury; Vampire FB.5 |
-| 1949 | EF 131A-0; Type 9 J7W2 Shinden Kai; Type 9 J11T1 Kogarashi |
+| 1945 | Ki-100-I Shinden first flight; Nakajima Kikka first Japanese jet; R2Y1 development; A7M Reppū family |
+| 1946 | Ar 234C-3; Ki-100-II Shinden Kai limited service; Vampire F.1 |
+| 1947 | A8M Senpū first flight; B8Y1 Keiun Kai development; Ta 183 and Ho 229 operational families; Attacker FB.1 |
+| 1948 | Reichsluftgerätordnung role-series register; Ki-100-III Shinden Kai Ni postwar family; Vampire FB.5 |
+| 1949 | A8M Senpū service generation; B8Y1 Keiun Kai service generation |
 | 1951 | Canberra B.2; MD 450B Ouragan |
-| 1952 | Type 12 J7W3 Shinden Kai Ni; P-80A-5; F2H-2; F3D-1 |
+| 1952 | P-80A-5; F2H-2; F3D-1 |
 | 1954 | Hunter F.1; MD 452C Mystère II; Sagittario II trials |
 | 1955 | F-84E; F7U-3; CF-100 Mk 4 |
-| 1956 | Me 501A-1; Type 16 A9M1 Shippū; Javelin FAW.1; Imperial Joint Aircraft Register |
-| 1957 | Fw 502A-1; F-86A; Fiat G.91R; Super Mystère B2 |
-| 1958 | Ar 503A-1; Aerospace Command; F-80C; F-84F; F-94C; F-104A; Type 18 J12N1 Raikō |
+| 1956 | A9M1 Shippū; B9Y heavy-aircraft generation; Javelin FAW.1; Imperial Joint Aircraft Register |
+| 1957 | F-86A; Fiat G.91R; Super Mystère B2 |
+| 1958 | Aerospace Command; F-80C; F-84F; F-94C; F-104A |
 | 1959 | B-58A Hustler |
 | 1960 | F-86F; F-94D |
-| 1961 | Ho 505A-1; X-15A; Vulcan B.2; Mirage III C |
-| 1962 | Ju 506A-1; United States Aerospace Force; CF-105A Arrow |
+| 1961 | X-15A; Vulcan B.2; Mirage III C |
+| 1962 | United States Aerospace Force; CF-105A Arrow |
 | 1963 | Joint Aircraft Designation Act; NF-104A; OV and OSV role prefixes |
 | 1964 | Lightning F.3; Mirage III E |
 | 1965 | Buccaneer S.2; Army A-6A |
-| 1966 | Me 511A-1; Type 26 A10M1 Shippū Kai; F-108A; X-20A; Maracaibo Shock |
+| 1966 | Harrier GR.1 initial service; F-108A; X-20A; Maracaibo Shock |
 | 1967 | R-11A Blackbird; Project Apex |
-| 1968 | Type 28 J13M1 Raiden; CF-105B Arrow; Unified Japanese Air Procurement Regulation |
-| 1969 | Fw 512A-1; TSR-2 B.1; B-70A; OV-1A Pathfinder orbital flight |
-| 1970 | Ar 513A-1; F-12A Blackbird; Harrier GR.1; Type 30 Ume |
-| 1971 | Fw 514A-1; A-6E; Mirage F1 C |
-| 1972 | Ju 516A-1; A-8A; OV-2A Columbia |
+| 1968 | CF-105B Arrow; naval Harrier operational; Unified Japanese Air Procurement Regulation |
+| 1969 | TSR-2 B.1; B-70A; OV-1A Pathfinder runway-to-orbit flight |
+| 1970 | F-12A Blackbird; A9M4 mature standard; Type 30 Ume |
+| 1971 | A-6E; Mirage F1 C; OV-2A Columbia lunar mission with OV-2B Columbia Tanker |
+| 1972 | A-8A; OV-3A Liberty practical service |
 | 1973 | P-3C Orion; accelerated collision-cascade model |
-| 1974 | F-14A; OV-2B automated flight; Geneva Mass-Effect Weapons Convention |
+| 1974 | F-14A; OV-3B Liberty Automatic flight; Geneva Mass-Effect Weapons Convention |
 | 1975 | E-2C; Orbitaler Raumhafen commissioning and armed-inspection studies |
-| 1976 | Type 36 J14M1 Kairyū; Stockholm Orbital Safety and Salvage Convention |
+| 1976 | OV-4A Hercules heavy-cargo service; Stockholm Orbital Safety and Salvage Convention; A10M prototype generation |
 | 1977 | A-10A; Project Zenith |
-| 1978 | Me 521A-1; Type 38 A11M1 Arashi; Rj 1 Wespe trials |
-| 1980 | Fw 522A-1 |
-| 1981 | Ar 523A-1; Rj 2 Habicht operational |
-| 1982 | Fw 524A-1; Type 42 Tsubaki; Fiat G.85 |
-| 1983 | Ju 526A-1; Type 43 A12M1 Arashi Kai; Mirage 2000 C; Nordring depot |
-| 1984 | OSV-1A Zenith limited readiness; GRP-1 Sledge |
-| 1985 | Rj 3 Falke advanced trials; ORB-2 trials |
+| 1978 | A10M1 service generation; Rj 1 Wespe trials |
+| 1979 | OV-5A Ranger satellite-service generation |
+| 1980 | Mature A10M and B-series carrier system |
+| 1981 | Rj 2 Habicht operational |
+| 1982 | Type 42 Tsubaki; Fiat G.85 |
+| 1983 | OV-6A Enterprise high-frequency service; Sea Fury and Tempest demonstrator program; Mirage 2000 C; Nordring depot |
+| 1984 | Sea Fury/Tempest public competition; OSV-1A Zenith limited readiness; GRP-1 Sledge |
+| 1985 | Sea Fury and Tempest production settlement; Rj 3 Falke advanced trials; ORB-2 trials |
 
 ## Committed development after 1985
 
@@ -658,14 +686,18 @@ The defining operational rule is:
 
 | Superseded or provisional label | Canon replacement |
 |---|---|
-| RLF aircraft-designation system | RLM administration followed by Reichsluftgerätordnung 1948 |
-| German role abbreviation embedded in the type name | Manufacturer abbreviation plus central number; role retained as staff class |
+| German postwar 500-series (`Me 501`, `Fw 502`, and successors) | Reichsluftgerätordnung role-series register; exact acceptance ordinals remain open |
+| German role retained only as a staff class | Broad role code is embedded in the post-1948 service designation |
 | Me 109B-2 as a postwar jet | Messerschmitt P.1092B-2 study; Bf 109B-2 remains an early piston fighter |
-| Me 262 HG III as an ordinary production variant | Research basis for Me 501 Falke |
+| Me 262 HG III as an ordinary production variant or fuel-hog caricature | Low-endurance research development feeding the later Messerschmitt high-speed school |
+| Operational He 162C fleet | He 162 remains paper/prototype work; no service fleet |
+| Ho 229 as a small 186-aircraft dead-end | Important long-running Horten-Gotha operational family |
 | Every Blohm & Voss paper project entering service | Demonstrator and research program only |
 | Ju 287/EF 131 as a standard bomber fleet | Sixteen-aircraft evaluation program |
-| J7W3 as a historical completed aircraft | Alternate-setting J7W3 Shinden Kai Ni |
-| Ki-162-I, Ki-162-III, Tachikawa Ki-214, or Type 9 J11T | Type 9 J11T1 Kogarashi, the Tachikawa Ki-214-derived light fighter |
+| Operational J7W1/J7W2/J7W3 Shinden service line | Army Ki-100-I/II/III Shinden family; J7W survives only as the pre-transfer historical design context |
+| Ki-162-I, Ki-162-III, Tachikawa Ki-214, J10N1 Karyū, or J11T1 Kogarashi | Withdrawn provisional/game-derived fillers |
+| R2Y2 retained after carrier-attack acceptance | R2Y1 development bridge followed by B8Y1/B8Y2 Keiun |
+| Automatic A11M and A12M sequence by 1985 | Long-lived A10M platform; new A-number requires a new architecture |
 | Japanese foreign companies in the Navy manufacturer-code table | Domestic Japanese manufacturer letters only |
 | Kamikaze as an aircraft-design category | No suicide-aircraft category; flower names belong to guided missiles |
 | United States Air Force as the universal American air arm | Army Air Corps, Naval Air Corps, and independent Aerospace Force |
@@ -685,16 +717,17 @@ The defining operational rule is:
 | A gun hit automatically deorbiting its target | Mission kill followed by tug stabilization, salvage, or controlled deorbit |
 | Head-on counter-rotating orbital gunnery | Same-direction, ahead-of-track interception with retrograde safe-fire geometry |
 | One universal Outer Space Treaty demilitarizing orbit | Limited 1974 anti-WMD convention plus 1976 safety and salvage convention |
+| Booster-launched OV-1/OV-2 operational lineage and Columbia Automatic | Runway-to-orbit Pathfinder–Columbia/Columbia Tanker–Liberty/Liberty Automatic–Hercules–Ranger–Enterprise family; booster launch survives only in X-20 research ancestry |
 | Unguided metal rods as city-destroying orbital weapons | Guided reentry penetrators for hardened point targets |
 | Japanese orbital fighters as autonomous killer drones | Human-authorized, laser-linked supervised interceptors with lost-link safing |
 
 ## Remaining decisions
 
-- Exact production totals for post-1956 German aircraft.
-- Squadron deployments and export customers for the German 500-series.
+- Exact post-1948 German national acceptance ordinals, production totals, squadron deployments, and export customers.
 - Names and specifications of Japan's dedicated post-1950 strike, patrol, tanker, and airborne-warning aircraft.
 - The detailed British, Italian, Occitan, and Japanese air-to-air missile registries.
 - The number of OSV-1 vehicles available at limited readiness in 1984–1985.
+- Final gross masses, payloads, dimensions, propulsion details, and production blocks for the fixed Pathfinder–Columbia–Liberty–Hercules–Ranger–Enterprise–Zenith sequence.
 - Whether the Geneva anti-WMD convention receives later German or Japanese ratification.
 - The public name, orbit, and ownership fiction of Japan's first crewed orbital command facility.
 - Whether the first real orbital exchange of fire occurs before or after 1990.

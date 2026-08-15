@@ -1,10 +1,10 @@
-# Land Armaments Reference, 1944–1985
+# Land Armaments Reference, 1941–1985
 
 ## Purpose and authority
 
-This is the specialized canon reference for land armaments in the alternate-World-War-II setting. It covers the principal tanks, armored carriers, infantry fighting vehicles, artillery, air-defense weapons, antitank systems, rifles, and machine guns required to keep the setting internally consistent through 1985. A few already-authorized American programs entering service from 1987 through 1991 are recorded as committed development rather than a complete post-1985 inventory.
+This is the specialized canon reference for land armaments in the alternate-World-War-II setting. It covers the principal tanks, armored carriers, infantry fighting vehicles, artillery, air-defense weapons, antitank systems, rifles, and machine guns required to keep the setting internally consistent from the 1 August 1941 technical baseline through 1985.
 
-Military aircraft, aerospace vehicles, and orbital weapons are governed separately by [Aerospace Armaments Reference, 1944–1985](./aerospaceArmamentsReference%20-%20AltWWII.md). Warships, fleet balances, naval designations, and the individual-hull ledger are governed by [Naval Armaments Reference, 1944–1985](./navalArmamentsReference%20-%20AltWWII.md).
+Military aircraft, aerospace vehicles, and orbital weapons are governed separately by [Aerospace Armaments Reference, 1941–1985](./aerospaceArmamentsReference%20-%20AltWWII.md). Warships, fleet balances, naval designations, and the individual-hull ledger are governed by [Naval Armaments Reference, 1941–1985](./navalArmamentsReference%20-%20AltWWII.md).
 
 Within that subject, this document supersedes:
 
@@ -14,7 +14,7 @@ Within that subject, this document supersedes:
 - approximate specification bands where this document supplies a single service value;
 - the earlier description of the German StG 60 as a full-power battle rifle.
 
-Later direct user corrections still take precedence. A real-world name retained here is intentional: either the relevant institution and development path still exist, or the name is independent enough to survive the divergence.
+Later direct user corrections still take precedence. This edition incorporates the August 2026 detailed-development branches, under which the older reference specifications were expressly reopened. A real-world name retained here is intentional: either the relevant institution and development path still exist, or the name is independent enough to survive the divergence. Where the transcript has reopened a later system without yet selecting a replacement, this document marks the gap as open rather than preserving the displaced specification as active canon.
 
 This is a reference rather than a manufacturing ledger. Listed weights are standard combat weights, power figures are nominal production ratings, and performance figures describe the named baseline model. Individual vehicles and ammunition lots still vary in service.
 
@@ -98,32 +98,41 @@ The wartime E-series survives as an industrial philosophy rather than a set of l
 | Vehicle | Introduction | Combat weight | Crew | Main armament | Engine | Road speed | Canon role |
 |---|---:|---:|---:|---|---:|---:|---|
 | Panzer IV Ausf. J | 1944 | 25.0 t | 5 | 75 mm KwK 40 L/48 | 300 hp | 38 km/h | Wartime mass vehicle; reserve and colonial use through 1958 |
-| Panzer V Panther Ausf. F | 1945 | 46.5 t | 5 | 75 mm KwK 44 L/70 | 700 hp | 46 km/h | Principal late-war medium tank |
+| Panzer V Panther Ausf. D | 1945 | 46.5 t | 5 | 75 mm KwK 44 L/70 | Maybach HL 230 P30, 700 PS maximum / 600 PS governed | 46 km/h | Final mature 75 mm Panther |
+| Panzer V Panther Ausf. E | 1946 | 52.0 t | 5 | 88 mm KwK 43 L/71 | Maybach HL 230 P30; late lots receive Panzer IX-derived powerpack components | 40 km/h early; 46 km/h late | Troubled transitional vehicle and Panzer IX combat laboratory |
 | Panzer VI Tiger Ausf. E | 1942 | 57.0 t | 5 | 88 mm KwK 36 L/56 | 700 hp | 40 km/h | Heavy breakthrough tank |
-| Tiger II Ausf. B | 1944 | 69.8 t | 5 | 88 mm KwK 43 L/71 | 700 hp | 38 km/h | Heavy antitank and breakthrough tank |
-| Panzer VII Löwe | — | — | — | — | — | — | Development designation only; never accepted |
+| Panzer VII Tiger II | 1944 | 69.8 t | 5 | 88 mm KwK 43 L/71 | 700 hp | 38 km/h | Heavy antitank and breakthrough tank; formally regularizes the Tiger II service number |
 | Panzer VIII Maus | 1945 trials | 188.0 t | 6 | 128 mm KwK 44 L/55 | 1,250 hp electric drive | 20 km/h | Six pilot vehicles; fortress, trial, and propaganda use only |
-| Panzer IX Ausf. A | 1947 | 51.2 t | 5 | 88 mm KwK 46 L/71 | 900 hp petrol | 45 km/h | Standardized late-war production tank |
-| Panzer IX Ausf. B | 1948 | 65.0 t | 5 | 105 mm KwK 47 L/68 | 900 hp petrol | 40 km/h | Low-volume heavy assault variant |
-| Panzer X Ausf. A | 1956 | 47.8 t | 4 | 105 mm KwK 55 L/55 | 1,000 hp diesel | 50 km/h | First true German main battle tank |
+| Panzer IX Ausf. A | 1947 | 53.2 t | 5 | 88 mm KwK 46 L/71 | 900 hp petrol | 48 km/h | First tank deliberately designed to replace both German medium and heavy battlefield roles |
+| Panzer X Ausf. A | 1956 | 49.5 t | 4 | 105 mm KwK 55 L/55; automatic loader | 1,000 hp diesel | 56 km/h | First German technological-generation MBT, with integral night fighting and hunter-killer observation |
 | Panzer XI Ausf. A | 1967 | 44.0 t | 4 | 105 mm KwK 65 L/58 | 1,100 hp multifuel diesel | 68 km/h | Mobility-generation main battle tank |
 | Panzer XII Ausf. A | 1981 | 57.0 t | 4 | 120 mm KwK 79 L/44 smoothbore | 1,500 hp diesel | 68 km/h | Composite-armored digital-fire-control MBT |
 
+### Panzer V late-war sequence
+
+The setting sequence is alphabetic: **Ausf. A → B → C → D → E**. Ausf. D supersedes the older reference's Panther F label. It is the final mature 75 mm Panther, with the Schmalturm, 80 mm frontal hull armor, 50 mm sides, 40 mm rear armor, and a 120 mm turret-front zone.
+
+Ausf. E is one official Ausführung with two materially different production phases. The first Baulos forces the 88 mm KwK 43 into a heavily modified Schmalturm-derived installation and produces only twenty to thirty cramped, loader-hostile vehicles. Later Baulose use the developing Panzer IX turret, sights, electrical system, and eventually powerpack components on the Panther hull. Quartermasters and crews distinguish *frühe E* from *späte E* even though the paperwork calls both Ausf. E. The late E is the Panzer IX program's field laboratory, not a second standardized tank family.
+
+The historical Löwe work remains a `VK` development study and never receives the Panzer VII service number. **Panzer VII is Tiger II**; Panzer VIII is Maus.
+
 ### Panzer IX
 
-Panzer IX is the production outcome of the E-50/E-75 rationalization effort without reproducing either historical drawing. Ausf. A and Ausf. B share their engine family, transmission architecture, track components, sights, radios, and recovery tools. Ausf. A is the standard production model. Ausf. B preserves the heavy assault role in much smaller numbers.
+Panzer IX is the production result of the 1944–1947 Einheitsprogramm rather than a literal E-50 drawing. Daimler-Benz holds design authority and system integration; MAN supplies the non-interleaved torsion-bar running gear and a major production share; Henschel shapes turret ergonomics and leads Bergepanzer IX work; Adler's component catalogue becomes the Einheitsnormen; Krupp supplies the 88 mm installation. Panzer IX is selected because it is consistently maintainable and producible, not because one prototype dominates every trial category.
 
-Ausf. A uses optical range estimation. The 1951 **Ausf. C** receives vertical stabilization and a stereoscopic rangefinder. The 1954 **Ausf. D** receives active infrared equipment in selected formations.
+German historians call Panzer IX the first tank deliberately designed as a main battle tank because its requirement abolishes the medium/heavy battlefield distinction. British historians instead call Centurion the first tank that became one. Both claims remain part of setting historiography.
+
+The proposed 105 mm heavy **Ausf. B is deleted**. Panzer IX remains one principal 88 mm production family. Optional active-infrared commander and driver equipment appears in the late 1940s; the standardized 1953–1954 night-fighting package adds factory electrical preparation and is issued selectively without becoming a universal new Ausführung.
 
 ### Panzer X
 
-Panzer X replaces Panther, Tiger, and most Panzer IX roles with one principal tank family. It becomes the German empire’s ubiquitous postwar tank and the leading export tank of the 1960s.
+Panzer X replaces Panzer IX in the first line because it integrates capabilities which cannot be added cleanly to IX: a selectable 18-round automatic loader, a 105 mm gun, vertical stabilization, coincidence ranging, an independent commander's observation turret, modular rear powerpack, auxiliary power unit, automatic fire suppression, and three-station active infrared. It is not Germany's first MBT; it is the first German tank designed as an integrated technological system.
 
 | Variant | Introduction | Defining change |
 |---|---:|---|
-| X Ausf. A | 1956 | Baseline 105 mm tank; coincidence rangefinder; one-axis stabilization |
+| X Ausf. A | 1956 | Baseline autoloading 105 mm tank; coincidence rangefinder; one-axis stabilization; integral driver, gunner, and commander active IR |
 | X Ausf. B | 1960 | Improved diesel, transmission, and gun stabilization |
-| X Ausf. C | 1963 | Analog ballistic computer and standard active infrared |
+| X Ausf. C | 1963 | Analog ballistic computer and substantially improved active-infrared set |
 | X Ausf. D | 1965 | Tropical/export package and simplified maintenance suite |
 | X Ausf. E | 1971 | Passive low-light gunner sight and modular frontal applique |
 
@@ -151,11 +160,13 @@ The baseline **Ausf. A** has a thermal gunner sight but an image-intensified com
 
 | Vehicle | Introduction | Combat weight | Crew + infantry | Armament | Engine | Road speed |
 |---|---:|---:|---:|---|---:|---:|
-| Schützenpanzer 45 Kätzchen | 1946 | 18.6 t | 3 + 8 | 20 mm MK 45 L/55, 20×82 mm; coaxial 7.92 mm | 500 hp | 55 km/h |
+| Schützenpanzer 45 Kätzchen | 1946 | 18.8 t | 3 + 8 | 20 mm KwK 45 L/55, 20×82 mm; coaxial 7.92 mm | 450 hp | 55 km/h |
 | Schützenpanzer 56 Kätzchen II | 1956 | 25.0 t | 3 + 8 | 20 mm MK 56 L/70, 20×139 mm; coaxial 7.92 mm | 650 hp | 60 km/h |
 | Schützenpanzer 71 Greif | 1972 | 31.5 t | 3 + 7 | 30 mm MK 71, 30×170 mm; coaxial 7.92 mm; Drachen ATGM | 720 hp | 65 km/h |
 
-Kätzchen is purpose-built, not a Panzer 38 emergency conversion. It establishes the German IFV principle unusually early: armored movement, rear exit, organic automatic cannon, a radio in every vehicle, and continued mounted participation after the infantry dismounts.
+Kätzchen is purpose-built, not a Panzer 38 emergency conversion. The production layout places driver front-left, engine and transmission front-right, a compact turret forward of the troop space, and an unobstructed rear door. It establishes the German IFV principle unusually early: armored movement, rear exit, organic automatic cannon, a radio in every vehicle, and continued mounted participation after the infantry dismounts.
+
+Its eleven-man Gruppe consists of the Gruppenführer/vehicle commander, driver, and gunner plus eight dismounts. The eight-man element carries one MG 42 rather than the 251-era pair because the vehicle's 20 mm cannon and coaxial MG remain part of the squad's weapons establishment. A Panzergrenadierzug normally has three rifle Kätzchen, a dedicated command vehicle, and an 8 cm mortar Kätzchen; Panzerjäger Kätzchen are company assets attached downward, while 12 cm mortar variants sit at battalion.
 
 Greif is the standard chassis for command, 120 mm mortar, artillery observation, antitank, air-defense, recovery, and export light-tank variants.
 
@@ -214,8 +225,8 @@ Britain preserves the universal-tank concept, strong rifled guns, prepared-posit
 | Cromwell Mk IV | 1943 | 28.0 t | 5 | 75 mm ROQF Mk V | 600 hp | 64 km/h |
 | Comet | 1944 | 32.5 t | 5 | 76.2 mm 77 mm HV gun | 600 hp | 51 km/h |
 | Centurion Mk 1 | 1945 | 42.0 t | 4 | 76.2 mm 17-pounder | 600 hp | 35 km/h |
-| Centurion Mk 2 | 1947 | 47.0 t | 4 | 76.2 mm 17-pounder | 650 hp | 35 km/h |
-| Centurion Mk 3 | 1949 | 50.8 t | 4 | 83.4 mm 20-pounder | 650 hp | 35 km/h |
+| Centurion Mk 2 | 1946 | 47.0 t | 4 | 76.2 mm 17-pounder | 650 hp | 35 km/h |
+| Centurion Mk 3 | 1947 | 50.8 t | 4 | 83.4 mm 20-pounder | 650 hp | 35 km/h |
 | Charioteer | 1952 | 28.5 t | 4 | 83.4 mm 20-pounder | 600 hp | 51 km/h |
 | Conqueror Mk 2 | 1956 | 66.0 t | 4 | 120 mm L1 L/55 | 810 hp | 34 km/h |
 | Centurion Mk 10 | 1959 | 52.0 t | 4 | 105 mm L7 L/52 | 650 hp | 35 km/h |
@@ -227,6 +238,10 @@ Britain preserves the universal-tank concept, strong rifled guns, prepared-posit
 | Challenger 1 Mk 1 | 1984 | 62.0 t | 4 | 120 mm L11A5 L/55 | 1,200 hp | 56 km/h |
 
 Charioteer is a reserve and export stopgap, not a heavy tank or a developmental ancestor of Chieftain. Caernarvon remains a training and development bridge between Centurion and Conqueror. FV4202 remains a three-vehicle test program feeding Chieftain; it is never a service tank.
+
+Britain's wartime development tree remains deliberately broad: A13, Covenanter, Crusader, Cavalier/Centaur/Cromwell, Challenger/Avenger, Comet, and Centurion overlap with the Matilda, Valentine, Churchill, Excelsior, Ram, Australian AC, Archer, Firefly, Achilles, and AA families. This menagerie is initially a survival mechanism distributed across Britain and the Commonwealth. Centurion ends it functionally by absorbing maneuver and antitank roles into one universal tank.
+
+Centurion Mk 1 reaches Egypt in 1945 and fights late Panther and scarce Tiger II vehicles. Mk 2 is the 1946 desert-corrected model built around observation, faster target acquisition, improved controls, and standardized modular night-fighting preparation. Mk 3 is formally accepted in 1947 with the 20-pounder and mature wartime optical and electrical package, but loses its intended theater before operational deployment. The later claim that Mk 3 was designed specifically to defeat Panzer IX is an anachronism: British procurement first sees the complete Panzer IX at the 1947 Siegestag parade, although its turret looks familiar from late Panzer V Ausf. E combat reports.
 
 Chieftain engine reliability improves earlier than in real history because Britain treats German armor as an immediate strategic threat. Mk 8 introduces a laser rangefinder and improved automotive package. Mk 10 adds composite/applique turret protection, passive night equipment, and improved analog-digital fire control.
 
@@ -269,8 +284,9 @@ Bishop II replaces the anachronistic use of AS-90 in the 1970s and early 1980s. 
 
 ## British infantry weapons
 
-| Weapon | Introduction | Cartridge | Feed | Standard role |
+| Weapon | Introduction | Cartridge or projectile | Feed | Standard role |
 |---|---:|---|---:|---|
+| Projector, Infantry, Anti Tank (PIAT) | Aug. 1942 | 83 mm shaped-charge bomb | Single loaded | Platoon antitank weapon; also useful against field fortification |
 | Rifle No. 9 Mk 1 | 1951 | 7×43 mm | 20-round magazine | Standard bullpup service rifle |
 | Rifle No. 9 Mk 2 | 1962 | 7×43 mm | 25-round magazine | Reliability and manufacturing improvement |
 | Rifle No. 9 Mk 4 | 1977 | 7×43 mm | 25-round magazine | Principal 1985 service rifle |
@@ -278,7 +294,7 @@ Bishop II replaces the anachronistic use of AS-90 in the 1970s and early 1980s. 
 | L7 TADEN | 1954 | 7×43 mm | 100-round belt | General-purpose and tripod machine gun |
 | L7A4 TADEN | 1974 | 7×43 mm | 100-round belt | Improved barrel, feed, and optical fire-control package |
 
-Rifle No. 9 Mk 1 is the service EM-2. No NATO standardization overturns its adoption. Mk 4 has polymer furniture, a passive night-sight interface, a 4× marksman optic, and an underbarrel 40×46 mm grenade launcher option.
+PIAT production begins in August 1942. It is compact and ammunition-efficient but physically demanding to cock and awkward at long range. Rifle No. 9 Mk 1 is the service EM-2. No NATO standardization overturns its adoption. Mk 4 has polymer furniture, a passive night-sight interface, a 4× marksman optic, and an underbarrel 40×46 mm grenade launcher option.
 
 The **Enfield Dovetail Pattern 76** is the British standard optical mounting interface. It is not Picatinny. Britain trials 4.85×49 mm weapons after 1978 but does not adopt them before 1985 because 7×43 mm remains effective and logistically entrenched.
 
@@ -288,29 +304,17 @@ The **Enfield Dovetail Pattern 76** is the British standard optical mounting int
 
 ## Procurement divergence
 
-Neutral America never creates the historical Sherman–Pershing–Patton industrial sequence. It still develops armor and exports M4 tanks, but it misses the wartime proliferation of tank, tank-destroyer, airborne, assault-gun, and experimental projects that historically consumed dozens of development numbers.
+Neutral America is the war's great armored observer and prototyper rather than a combat-selected mass armored power. It has money, proving grounds, industrial breadth, attaché reports, and anxiety about foreign tank growth, but lacks battalion experience which would expose the difference between brochure performance and combat-ready tank-days. Its wartime establishment therefore overlearns visible qualities—gun, armor, weight, and maximum speed—and underlearns maintenance, recovery, fuel, and crew burden.
 
-The Philippine War becomes the institutional shock. It teaches the Army and Marines that transport weight is a combat characteristic, tracks matter more than road speed in difficult terrain, infantry carriers require roofs and rear exits, and a tank is useless if the theater’s ships, bridges, ports, and recovery equipment cannot sustain it.
+The M3, M4, M5, and T1/M6 programs survive because they are committed or already producing hardware at the divergence. From 1942 the Advanced Medium Tank Experimental Program buys information rather than a mass replacement fleet: T20, T22, T22E1, and T23 test transmissions, electrical drive, turret layouts, and automatic loading in one-to-three-vehicle lots. The T22E1 becomes one of America's earliest serious autoloading tank experiments, but its awkward replenishment and malfunction clearance earn the verdict “interesting; do not build more.”
 
-America therefore develops one mobile main battle tank line, one airborne/light-gun line, battle-taxi personnel carriers, and separate reconnaissance vehicles. It does not copy German Panzergrenadier doctrine and does not produce a recognizable Bradley.
+The Philippine War is the institutional shock. It teaches the Army and Marines that transport weight is a combat characteristic, tracks matter more than road speed in difficult terrain, and a tank which ships, bridges, ports, recovery vehicles, and workshops cannot sustain has only theoretical protection. It vindicates M24 in that theater without proving that every future war should be fought by light tanks.
 
 ## American nomenclature
 
-The earlier American registry inherited model numbers from programs that never occur in this timeline. That is now corrected.
+American `T` and `M` numbers do not form a simple matched ladder. Standardizing T34 as M34 does not imply that every M-number has a same-number T predecessor; M46, for example, is an M26 modernization. `E` marks an experimental modification and `A` an accepted production modification. Complete equipment nouns remain part of the designation, so reuse across different materiel categories is lawful.
 
-The **1957 Ground Materiel Nomenclature Directive** establishes the governing system:
-
-1. `T` denotes a formal tank development through 1959.
-2. `XM` replaces `T` for new tank developments from 1960 onward.
-3. A standardized vehicle normally keeps its development number: `T10` becomes `M10`; `XM13` becomes `M13`.
-4. A canceled development consumes its number.
-5. `E` marks an experimental modification: `M11A2E1`.
-6. `A` marks an accepted production modification: `M11A1`, `M11A2`, and `M11A3`.
-7. The complete equipment noun is part of the designation. Different categories may reuse a number: `Tank, Combat, M4` and `Carrier, Personnel, M4` are not the same registry item.
-8. The Army avoids assigning the same shorthand number to two major contemporary systems when practical, but duplication across categories is lawful.
-9. Technology demonstrators keep research names until a formal development program is authorized.
-
-American numbers are not model years, generations, weights, or a single list shared by all military equipment. They record the projects this alternate United States actually authorizes.
+The former compact M7/M9/M10/M11/M12/M13/M14 alternate tank ladder is withdrawn. It conflicted with the later authorial decision that the M24, T20, M26, M34, M41, T92, and delayed Patton-family development remain the recognizable American lineage.
 
 ## Corrected tank-development registry
 
@@ -321,17 +325,21 @@ American numbers are not model years, generations, weights, or a single list sha
 | T5 / M3 Medium | M3 Medium Tank | 1940 / 1942 | Limited domestic and British-export vehicle |
 | T6 / M4 | M4 Medium Tank | 1941 / 1943 | Reduced production, primarily Commonwealth export |
 | M5 | M5 Light Tank | 1942 | Incremental M3 light-tank development |
-| T1E1 / M6 | M6 Heavy Tank | 1942 / 1945 | Forty pilot and limited-standard vehicles |
-| T7 / M7 | M7 Transitional Tank | 1943 / 1947 | Limited cavalry/light-medium vehicle |
-| T8 | — | 1944 / canceled 1948 | Airborne-tank project; no American M8 tank |
-| T9 / M9 | M9 Expeditionary Light Tank | 1953 / 1956 | First Philippine-shaped intervention tank |
-| T10 / M10 | M10 Universal Combat Tank | 1956 / 1960 | First serious postwar general-purpose tank |
-| XM11 / M11 | M11 Main Battle Tank | 1962 / 1967 | Kennedy–Buchanan-era standard MBT |
-| XM12 / M12 | M12 Airborne Gun Tank | 1964 / 1970 | Amphibious gun-missile light tank |
-| XM13 / M13 | M13 Advanced Mobile Battle Tank | 1976 / 1985 | Abrams-generation mobile MBT without designation reset |
-| XM14 / M14 | M14 Light Combat Tank | 1981 / planned 1987 | HSTV-L/Stingray-derived armored gun system |
-
-The abandoned M8 project and every later canceled project consume registry positions. The compact sequence reflects America’s slower development cycle rather than historical wartime designation inflation.
+| T1 / M6 | M6 Heavy Tank | 1941 pilot / limited standard 1945 | Homeland-defense and heavy-school proving vehicle |
+| T20, T22, T23 | — | 1942 onward / experimental | Advanced-medium comparative engineering; no wartime mass production |
+| T22E1 | — | 1943 / demonstrator | Early American automatic-loading tank experiment |
+| T24 / M24 | M24 Light Tank | 1943 / 1944 | Cavalry and later Philippine expeditionary success |
+| T26 / M26 | M26 Medium Tank | 1944 / 1947 limited standard | Small medium-school production fleet |
+| T29, T30 | — | 1944–1947 / prototypes | Heavy-gun and armor experiments |
+| T34 / M34 | M34 Marshall | wartime / 1947 limited standard | Existing operational battalion standardized after the Siegestag Maus display |
+| T32 | — | 1945–1948 / prototypes | Pershing-derived attempt to absorb the heavy mission; rejected |
+| T43 | — | 1948 onward / prototypes | Maus-killer follow-on; never standardized as M103 |
+| M41 | M41 Light Tank | 1953 | Cavalry successor also claimed by expeditionary-medium officers |
+| T92E1 | — | late 1950s / extended trials | Setting-divergent amphibious light tank, 18.5 tonnes |
+| M26E2 / M46 | M46 Medium Tank | trials / 1957 | Limited M26 conversion and new-production modernization |
+| M47 | M47 Medium Tank | 1960 | Delayed 90 mm compromise after Philippine doctrinal split |
+| M48 | M48 Medium Tank | 1964 | Clean-sheet 90 mm general-purpose tank |
+| M60 | M60 Main Battle Tank | 1968 | Mature 105 mm American general-purpose tank family |
 
 ## American tank lineage
 
@@ -342,98 +350,24 @@ The abandoned M8 project and every later canceled project consume registry posit
 | M4 Medium Tank | 1943 | 30.3 t | 5 | 75 mm M3 L/40 | 400 hp petrol | 39 km/h | Limited neutral-era production and Commonwealth export |
 | M5 Light Tank | 1942 | 15.5 t | 4 | 37 mm M6 | 250 hp petrol | 58 km/h | Improved M3 light-tank family |
 | M6 Heavy Tank | 1945 | 57.4 t | 6 | 76.2 mm M7 L/50; coaxial 37 mm | 825 hp petrol | 35 km/h | Pilot, homeland-defense, and proving vehicle |
-| M7 Transitional Tank | 1947 | 27.0 t | 4 | 75 mm M3 L/40 | 400 hp petrol | 48 km/h | Limited cavalry/light-medium tank |
-| M9 Expeditionary Light Tank | 1956 | 24.0 t | 4 | 76.2 mm M32 L/50 | 500 hp petrol | 60 km/h | Iconic Philippine and hemispheric intervention tank |
-| M10 Universal Combat Tank | 1960 | 39.5 t | 4 | 90 mm M54 L/54 | 750 hp diesel | 55 km/h | First postwar universal combat tank |
-| M11 Main Battle Tank | 1967 | 43.0 t | 4 | 105 mm M68 L/52 | 850 hp diesel | 56 km/h | First mature American MBT |
-| M12 Airborne Gun Tank | 1970 | 17.2 t | 4 | 152 mm gun/launcher | 300 hp diesel | 70 km/h | Airborne, amphibious, and expeditionary light tank |
-| M13 Advanced Mobile Battle Tank | 1985 | 43.0 t | 3 | 105 mm M13 L/55 rifled gun | 1,100 hp diesel | 70 km/h | New mobile composite-armored MBT |
-| XM14 Light Combat Tank | 1985 trials | 22.0 t | 3 | 75 mm hypervelocity automatic cannon; two heavy ATGMs | 700 hp diesel | 80 km/h | HSTV-L/Stingray production prototype |
+| M24 Light Tank | 1944 | 18.4 t | 5 | 75 mm M6 | 296 hp petrol | 56 km/h | Cavalry vehicle and principal Philippine armored success |
+| M26 Medium Tank | 1947 limited standard | 41.7 t | 5 | 90 mm M3 | 500 hp petrol | 40 km/h | Medium-school continental tank; small fleet |
+| M34 Marshall | 1947 limited standard | 65.8 t | 6 | 120 mm T53 | 810 hp petrol | 35 km/h | One-battalion heavy-school prestige and continental-defense tank |
+| M41 Light Tank | 1953 | 23.5 t | 4 | 76 mm M32 | 500 hp petrol | 72 km/h | M24 successor and expeditionary gun tank |
+| M46 Medium Tank | 1957 | 44.0 t | 5 | 90 mm M3A1 | 810 hp petrol | 48 km/h | Limited M26 modernization and conversion fleet |
+| M47 Medium Tank | 1960 | 46.0 t | 5 | 90 mm M36 | 810 hp petrol | 48 km/h | Delayed medium-school compromise |
+| M48 Medium Tank | 1964 | 49.0 t | 4 | 90 mm M41 | 810 hp petrol | 48 km/h | Clean-sheet general-purpose tank |
+| M60 Main Battle Tank | 1968 | 50.7 t | 4 | 105 mm M68 | 750 hp diesel | 48 km/h | Mature American main battle tank and 1985 family baseline |
 
-### M4 production
+### Production and factional memory
 
-Exactly 8,000 M4s are produced, of which 5,200 go to Britain and other Commonwealth customers. The tank never becomes a fifty-thousand-vehicle industrial ecosystem, creates fewer specialist derivatives, and receives a slower upgrade cycle. Americans remember it as a reliable neutral-era export rather than the vehicle that won a world war.
+M4 production remains in the low thousands and is principally a Commonwealth export; the earlier exact 8,000/5,200 split is reopened pending the naval and industrial production audit. Britain modifies part of the fleet into Firefly and related vehicles and repeatedly reports that the original gun and protection are inadequate against late-war threats.
 
-### M7 and T8
+The 1947 Army contains three institutional schools. Cavalry receives M24; the medium school receives a small M26 fleet and retains T20-family hardware; the heavy school operates one T34 battalion which becomes M34 Marshall after Maus appears at the Siegestag parade. T32 fails because it reaches heavy-tank weight without M34 firepower. T43 develops an M103-like Maus killer, but Germany's actual adoption of the 53-ton Panzer IX destroys its production case.
 
-M7 grows too heavy for the light role without acquiring enough gun or protection to become a durable medium. Exactly 480 production vehicles serve in training, cavalry, coastal defense, and British evaluation units. The line ends in 1953.
+In the Philippines, M24 earns the headlines and T20 vehicles perform competently. The heavy school correctly notes that the campaign does not test its continental mission, then incorrectly tries to dismiss every lesson about shipping, bridges, fuel, recovery, and workshop burden. The postwar result is four factions: heavy M34/T43 advocates, Pershing-modernization officers, an expeditionary-medium school, and cavalry purists. M41 becomes the vehicle each claims; the cavalry purists answer its weight growth with the amphibious T92E1.
 
-T8 is a British-influenced airborne project. America builds six prototypes but never type-classifies an M8 tank because it lacks the airborne establishment needed to justify production.
-
-### M9 Expeditionary Light Tank
-
-M9 is the first tank designed directly around Philippine experience: wide tracks, good reverse speed, reliable cooling, unobstructed engine access, and a transport envelope suited to landing craft, weak bridges, plantation roads, and jungle approaches. It becomes the characteristic American tank of Honduras, Venezuela, and early hemispheric interventions.
-
-### M10 Universal Combat Tank
-
-M10 combines the M9’s deployability discipline with a 90 mm gun, diesel power, basic stabilization, an optical rangefinder, and interchangeable tropical and winter packages. It is a general-purpose tank, not a European-style heavy breakthrough system.
-
-### M11 Main Battle Tank
-
-| Variant | Introduction | Combat weight | Defining change |
-|---|---:|---:|---|
-| M11 | 1967 | 43.0 t | Baseline 105 mm tank; active infrared and partial stabilization |
-| M11A1 | 1970 | 43.8 t | 900 hp diesel, revised turret, full two-axis stabilization |
-| M11A2 | 1974 | 44.5 t | Laser rangefinder, passive night sight, and APFSDS |
-| M11A3 | 1981 | 45.5 t | Thermal gunner sight, digital ballistic computer, and applique armor |
-
-M11A3 is the mature standard tank of most American armored formations in 1985. Its British-compatible 105×617R mm ammunition is American-designed and fired from an American-built M68-series gun.
-
-### M12 Airborne Gun Tank
-
-M12 retains the useful parts of the historical Sheridan concept without inheriting its designation. It is air-transportable by heavy aircraft, amphibious, and strategically mobile. The 152 mm gun/launcher remains difficult to maintain.
-
-| Variant | Introduction | Defining change |
-|---|---:|---|
-| M12 | 1970 | Baseline gun-missile vehicle |
-| M12A1 | 1975 | Laser rangefinder and improved missile electronics |
-| M12A2 | 1978 | Revised suspension, passive night sight, smoke system, and more reliable ammunition handling |
-
-M12 begins leaving first-line units after M14 reaches operational service in 1987.
-
-### M13 Advanced Mobile Battle Tank
-
-M13 is America’s Abrams-generation vehicle, but neither its designation nor its weight follows the historical Abrams. It is the successful XM13 project and is normally called **the M13** or **the Thirteen**. No official personal nickname has been selected.
-
-| Characteristic | M13 service value |
-|---|---|
-| Combat weight | 43.0 t |
-| Crew | 3 |
-| Main gun | 105 mm M13 L/55 rifled gun |
-| Loading | Protected-bustle autoloader |
-| Ready ammunition | 26 rounds |
-| Total ammunition | 38 rounds |
-| Engine | 1,100 hp modular diesel |
-| Suspension | Hydropneumatic |
-| Road speed | 70 km/h |
-| Fire control | Laser rangefinder and digital ballistic computer |
-| Night equipment | Thermal gunner sight; passive panoramic commander sight |
-| Protection | Composite frontal arc; steel and spaced side protection |
-
-The three-man crew reduces protected volume and weight but increases maintenance, security, resupply, and casualty burdens. America compensates with modular power packs, diagnostic computers, strong battalion maintenance sections, and dedicated recovery teams.
-
-M13 doctrine is to see first, fire first, move immediately, and combine terrain, smoke, artillery, helicopters, missiles, and maneuver. It can defeat Panzer XI and Type 36 Shu-Ri Kai Ni frontally with advanced 105 mm APFSDS. Against Panzer XII, frontal kills require favorable range and angle; American doctrine seeks flank shots or uses heavy antitank missiles.
-
-The planned **M13A1**, fixed for 1990, weighs 48.0 tonnes and carries a 120 mm smoothbore, improved bustle autoloader, heavier frontal composite package, second-generation thermal sights, and digital inter-vehicle communications.
-
-### XM14 / M14 Light Combat Tank
-
-HSTV-L remains the research demonstrator. XM14 combines its low silhouette, hydropneumatic suspension, sensors, autoloader, and mobility work with Cadillac Gage’s Stingray production engineering. The Army service name is **M14 Light Combat Tank**; **Stingray** survives as a manufacturer and cavalry nickname.
-
-| Characteristic | XM14 production prototype |
-|---|---|
-| Combat weight | 22.0 t |
-| Crew | 3 |
-| Main gun | 75 mm hypervelocity automatic cannon |
-| Main-gun ammunition | 30 rounds |
-| Additional antitank armament | Two heavy guided missiles |
-| Engine | 700 hp compact diesel |
-| Suspension | Hydropneumatic |
-| Road speed | 80 km/h |
-| Protection | Small-arms protection all around; 20 mm frontal protection |
-| Fire control | Laser rangefinder and stabilized day/thermal sight |
-
-M14 is not the standard MBT. It supports airborne, Marine, cavalry, and rapid-intervention forces through concealment, rapid displacement, flank fire, and missile attacks against heavy frontal armor. Standardization is scheduled for 1987. The planned 1991 M14A1 carries a low-recoil 105 mm gun and weighs 25.0 tonnes.
+The delayed Patton-family sequence follows from that argument. M46 is chiefly a powerpack modernization of the small M26 fleet. M47 combines proven automotive work with the best lighter-medium turret and fire-control studies. M48 is the first clean-sheet post-Philippine general-purpose medium. M60 becomes the mature 105 mm family after real hemispheric interventions finally give America operational feedback. Exact post-1968 M60 modification dates and the 1980s successor competition remain open; the displaced M11A3/M13/XM14 claims must not be used to fill that gap.
 
 ## American battle-taxi and reconnaissance families
 
@@ -454,7 +388,7 @@ M4 Alligator occupies the historical M113 role without inheriting its number. M5
 
 M3 Cougar is a domestic Cadillac Gage eight-wheeled vehicle rather than a Canadian MOWAG derivative. Marines commonly call it **LAV-25 Cougar**. It serves Marines, cavalry, military police, hemispheric constabulary forces, and associated Latin American armies; it does not replace M5 in tracked formations.
 
-America has no M1128 or Stryker-style wheeled mobile gun system by 1985. The XM14/M14 program already fills the light direct-fire requirement with a tracked, air-transportable vehicle. A medium wheeled gun family may emerge after 1991, but it is not part of the present canon.
+America has no M1128 or Stryker-style wheeled mobile gun system by 1985. The direct-fire successor question remains open: the Army has trialled light tracked and wheeled concepts, but none has received a fixed service designation. A medium wheeled gun family may emerge after 1991, but it is not part of the present canon.
 
 ### M5-family mission vehicles
 
@@ -490,25 +424,26 @@ The M5 carrier family supplies command, observation, mortar, ambulance, and miss
 
 ## American infantry weapons
 
-| Weapon | Introduction | Cartridge | Feed | Standard role |
+| Weapon | Introduction | Cartridge or projectile | Feed | Standard role |
 |---|---:|---|---:|---|
 | M1 Rifle | 1936 | 7.62×63 mm | 8-round en-bloc clip | Standard rifle through Philippine War |
 | M1 Carbine | 1942 | 7.62×33 mm | 15-round magazine | Personal-defense and light rifle |
+| Rocket Launcher, 2.36-inch, M1 | June 1942 | 60 mm M6 rocket | Single loaded | Shoulder-fired antitank and fortification weapon |
 | M15 Rifle | 1959 | 7.62×51 mm | 20-round magazine | Limited battle rifle and marksman weapon |
 | M16 Rifle | 1964 | 5.56×45 mm | 20-round magazine | Initial small-caliber service rifle |
 | M16A1 Rifle | 1967 | 5.56×45 mm | 30-round magazine | Standard late-setting American rifle |
 | M60 Machine Gun | 1960 | 7.62×51 mm | Disintegrating belt | Expeditionary GPMG |
 | M2HB Machine Gun | 1933 | 12.7×99 mm | Disintegrating belt | Heavy machine gun and vehicle armament |
 
-M15 is an AR-10-family straight-line aluminum rifle accepted in limited numbers. The small-caliber program overtakes it before it can replace the M1 across the force.
+The M1 rocket launcher enters production in June 1942. Several are supplied to Britain, and its first major combat demonstration occurs during Operation Torch in 1943. M15 is an AR-10-family straight-line aluminum rifle accepted in limited numbers. The small-caliber program overtakes it before it can replace the M1 across the force.
 
 M16 receives deliberate pre-adoption ammunition, magazine, chrome-chamber, and cleaning trials because America is not rushing into a Vietnam-scale deployment. M16A1 remains visually recognizable, but its early reliability crisis is smaller.
 
 ## American armored doctrine in 1985
 
-Armored divisions center on M11A3, with M13 entering low-rate service; M5 battle carriers; M2 scouts; M4A2 air-defense guns; M8 self-propelled artillery; missile carriers; helicopters; and strong recovery units.
+Armored divisions center on the mature M60 family; M5 battle carriers; M2 scouts; M4A2 air-defense guns; M8 self-propelled artillery; missile carriers; helicopters; and strong recovery units. A replacement competition is active, but its winner and service designation remain open.
 
-Rapid-deployment forces center on M12A2, XM14 trial vehicles, M4A2 Alligators, light artillery, helicopters, and air-portable logistics. Marines combine M3 Cougar, M12A2, amphibious M4 carriers, helicopters, and naval fire support.
+Rapid-deployment forces center on M41-derived and T92E1-descended light vehicles, M4A2 Alligators, light artillery, helicopters, and air-portable logistics. Marines combine M3 Cougar, light tracked direct-fire detachments, amphibious M4 carriers, helicopters, and naval fire support. Exact 1980s light-tank service designations remain open.
 
 The doctrine is summarized:
 
@@ -587,15 +522,17 @@ The `Chi` family belongs to the era of the medium tank. The `Shu` family begins 
 
 | Formal service designation | Vehicle class | Introduction | Combat weight | Crew | Main armament | Engine | Road speed |
 |---|---|---:|---:|---:|---|---:|---:|
-| Type 4 Chi-To | Medium tank | 1944 | 30.0 t | 5 | 75 mm Type 5 L/56 | 400 hp diesel | 45 km/h |
-| Type 5 Chi-Ri | Medium tank | 1945 | 37.0 t | 5 | 75 mm Type 5 L/56 | 550 hp diesel | 45 km/h |
-| Type 7 Chi-Ru | Medium tank | 1947 | 36.8 t | 5 | 90 mm Type 7 L/52 | 700 hp diesel | 50 km/h |
+| Type 4 Chi-To | Medium tank | 1944 | 34.5 t | 5 | 75 mm Type 5 L/56 | 450 hp diesel | 43 km/h |
+| Type 5 Chi-Ri | Heavy-medium tank | 1945 | 42.0 t | 5 | 75 mm Type 5 L/56 | 600 hp diesel | 40 km/h |
+| Type 7 Chi-Ru | Main-force tank | 1947 | 49.5 t | 5 | 88 mm Type 7 L/58 | 700 hp diesel | 42 km/h |
 | Type 16 Shu-Ha | Main battle tank | 1956 | 36.0 t | 4 | 90 mm Type 16 L/55 | 750 hp diesel | 55 km/h |
 | Type 26 Shu-He | Main battle tank | 1966 | 40.5 t | 4 | 105 mm Type 26 L/52 | 850 hp diesel | 62 km/h |
 | Type 36 Shu-Ri | Main battle tank | 1976 | 44.0 t | 4 | 105 mm Type 36 L/60 | 1,000 hp diesel | 70 km/h |
 | Type 45 Shu-Ru | Main battle tank | 1985 low-rate production | 49.0 t | 3 | 120 mm Type 45 L/44 smoothbore | 1,200 hp diesel | 68 km/h |
 
-Type 5 Chi-Ri remains a limited heavy-medium and command tank; the 88 mm proposal never enters service. Type 7 Chi-Ru is the standardized victory-era vehicle and uses a 90 mm gun rather than an unresolved 88/90 mm alternative.
+Type 5 Chi-Ri is the tank whose chassis runs ahead of its gun: its protected volume and turret ring anticipate a larger weapon, but the long Type 5 75 mm remains the producible 1945 armament. Type 7 Chi-Ru is the standardized victory-era main-force tank. Its indigenous 88 mm Type 7 L/58 grows from Japan's existing Type 99 88 mm antiaircraft ammunition and manufacturing experience rather than copying a German caliber. The displaced 36.8-tonne/90 mm entry is not an alternate active specification.
+
+The wartime progression is threat-driven: Type 1 Chi-He rationalizes the existing medium, Type 3 Chi-Nu adds the first serious 75 mm response, Chi-To becomes the first clean next-generation medium, Chi-Ri adds protection against the pessimistic northern-war forecast, and Chi-Ru accepts that the future main-force tank will weigh what earlier doctrine called heavy. Japan retains compact dimensions and diesel power but no longer treats shipping convenience as permission for inadequate protection.
 
 ### Main-battle-tank project cycles
 
@@ -645,13 +582,15 @@ The **Type 18 Yu-Ha Kō** is the Japanese Army production form. **Type 18 Yu-Ha 
 | Weapon | Introduction | Cartridge | Feed | Standard role |
 |---|---:|---|---:|---|
 | Type 99 Rifle | 1939 | 7.7×58 mm | 5-round internal magazine | Wartime bolt-action rifle |
-| Type 7 Self-Loading Rifle | 1947 | 7.7×58 mm | 10-round magazine | Transitional semiautomatic rifle |
+| Type 7 Self-Loading Rifle | 1947 | 7.7×58 mm | 20-round detachable magazine; charger-loadable in place | Mature full-power semiautomatic service rifle |
 | Type 16 Automatic Rifle | 1956 | 6.5×45 mm | 25-round magazine | First selective-fire universal rifle |
 | Type 24 Automatic Rifle | 1964 | 6.5×45 mm | 30-round magazine | Standard imperial assault rifle |
 | Type 42 Rifle | 1982 | 5.8×40 mm | 30-round magazine | New small-caliber elite and home-island rifle |
 | Type 17 GPMG | 1957 | 7.7×58 mm | Disintegrating belt | Full-power general-purpose machine gun |
 | Type 28 Universal Machine Gun | 1968 | 6.5×45 mm | Disintegrating belt | Rifle-caliber squad and tripod weapon |
 | Type 38 Squad Automatic Weapon | 1978 | 5.8×40 mm | 100-round belt box | Small-caliber automatic weapon |
+
+The Type 7 uses a short-stroke gas piston above the barrel, three-position adjustable regulator, tilting bolt, 520 mm barrel, Type 30 bayonet mount, and semiautomatic fire only. Type 3 (1943) and Type 5 (1945) development rifles precede it; the latter introduces the steep semi-pistol grip and twenty-round magazine which define the mature weapon. The Type 7 weighs 4.15 kg empty and is 1,010 mm long.
 
 Type 24 uses an indigenous gas piston and rotating bolt. It has a folding bipod, aperture sight, and rifle-grenade capability. It becomes one of the most common weapons in Asia through imperial export and licensed manufacture.
 
@@ -683,12 +622,15 @@ Italy’s armored industry combines IRI capital, Ansaldo, Fiat, OTO, German comb
 | Vehicle | Introduction | Combat weight | Crew | Main armament | Engine | Road speed |
 |---|---:|---:|---:|---|---:|---:|
 | P40 | 1943 | 26.0 t | 4 | 75 mm Ansaldo L/34 | 420 hp diesel | 40 km/h |
-| P43 Leone | 1948 | 32.5 t | 5 | 90 mm Cannone 47 L/50 | 550 hp diesel | 45 km/h |
+| P35/43 Serie I | 1945 | 35.0 t | 4 | 75 mm Cannone 45 L/50 | 550 hp diesel | 50 km/h |
+| P38/43 Serie 90 | 1947 | 38.0 t | 4 | 90 mm Cannone 46 L/50 | 600 hp diesel | 48 km/h |
 | Carro 57 Ariete | 1957 | 38.0 t | 4 | 90 mm Cannone 56 L/55 | 750 hp diesel | 55 km/h |
 | Carro 68 Leone II | 1968 | 44.0 t | 4 | 105 mm OTO L/52 | 900 hp diesel | 60 km/h |
 | Carro 80 Ariete II | 1981 | 55.0 t | 4 | 120 mm OTO L/44 smoothbore | 1,300 hp diesel | 65 km/h |
 
-P43 uses the selected 90 mm gun; the earlier 75/90 mm alternative is retired. Leone II introduces two-axis stabilization and active infrared. Ariete II adds composite armor, laser ranging, digital fire control, and an early thermal gunner sight.
+The P26/40 begins with the 75/34 and receives an Italian 75/46–48 installation in improved 1944 production, using licensed German high-pressure, projectile, recoil, and manufacturing knowledge without becoming a KwK 40 copy. The P35/43 combines the P40's welded protection and gun-tank line with Carro Celere Sahariano mobility work. It deletes the bow machine-gunner position, retains a proper three-man turret, and distributes protection heavily toward an 80 mm sloped frontal arc. The 1947 P38/43 installs Italy's tank-developed 90 mm family in response to Centurion without adopting the German 88 mm ammunition system.
+
+Italian doctrine is **see first, fire first, move before the reply**. Mobility means acceleration, reverse speed, sustained cruising, cross-country control, range, and maintainability—not the fantasy that a tank cannot be hit while moving quickly. Semoventi remain half the armored system: 75/34, 75/46, 90 mm, and 105/25 vehicles supply guns which the turreted fleet cannot economically mount everywhere. The older standalone `P43 Leone` row is superseded by the P35/43 and P38/43 wartime family; Leone II introduces two-axis stabilization and active infrared, while Ariete II adds composite armor, laser ranging, digital fire control, and an early thermal gunner sight.
 
 ### Italian mechanized, artillery, and air-defense systems
 
@@ -865,55 +807,47 @@ Challenger remains in Britain and Canada. Panzer XII remains in Germany. Warrior
 
 | Year | System |
 |---:|---|
+| 1942 | MG 42; Panzer VI Tiger; American 60 mm M1 rocket launcher; British 83 mm PIAT |
 | 1944 | Type 4 Chi-To; Comet; StG 44 |
-| 1945 | Centurion Mk 1; Type 5 Chi-Ri; StG 45A; Maus trials; M6 Heavy Tank |
-| 1946 | Schützenpanzer 45 Kätzchen |
-| 1947 | Panzer IX Ausf. A; Centurion Mk 2; Type 7 Chi-Ru; Type 7 Ho-To; Type 7 Self-Loading Rifle; Fucile Modello 47; M7 Transitional Tank |
-| 1948 | Panzer IX Ausf. B; P43 Leone; Char 48 Languedoc |
-| 1949 | Centurion Mk 3 |
+| 1945 | Panzer V Ausf. D; P35/43 Serie I; Centurion Mk 1; Type 5 Chi-Ri; StG 45A; Maus trials; M6 Heavy Tank |
+| 1946 | Panzer V Ausf. E; Centurion Mk 2; Schützenpanzer 45 Kätzchen |
+| 1947 | Panzer IX Ausf. A; Centurion Mk 3; Type 7 Chi-Ru; Type 7 Ho-To; Type 7 Self-Loading Rifle; P38/43 Serie 90; Fucile Modello 47; limited M26 and M34 Marshall service |
+| 1948 | Char 48 Languedoc |
 | 1951 | Rifle No. 9 Mk 1 |
 | 1952 | Charioteer; MG 52; Kugelblitz II; L4 TADEN; Fusil Modelo 52 |
-| 1953 | Char 53 Toulouse |
+| 1953 | Char 53 Toulouse; M41 light tank |
 | 1954 | L7 TADEN |
 | 1955 | Panzerhaubitze 55; Char Léger 55 |
-| 1956 | Panzer X Ausf. A; Kätzchen II; Conqueror; M9 Expeditionary Light Tank; Type 16 Shu-Ha; Type 16 Automatic Rifle |
-| 1957 | Type 17 GPMG; Carro 57 Ariete |
+| 1956 | Panzer X Ausf. A; Kätzchen II; Conqueror; Type 16 Shu-Ha; Type 16 Automatic Rifle |
+| 1957 | American M46; Type 17 GPMG; Carro 57 Ariete |
 | 1958 | Gewehr 58; Type 18 Yu-Ha; Fucile Automatico 58; VCC-58 |
 | 1959 | Centurion Mk 10; M15 Rifle; Fusil Automático 59 |
-| 1960 | M10 Universal Combat Tank; M4 Alligator; M60 GPMG; Ametralladora 60 |
+| 1960 | American M47; M4 Alligator; M60 GPMG; Ametralladora 60 |
 | 1961 | StG 60 |
 | 1962 | Habicht; Rifle No. 9 Mk 2; Centurion Mk 13 |
 | 1963 | FV432; American 155 mm SP Howitzer M8 |
-| 1964 | M16 Rifle; Type 24 Automatic Rifle |
+| 1964 | American M48; M16 Rifle; Type 24 Automatic Rifle |
 | 1965 | Char 65 Aquitaine; FV433 Abbot; American 203 mm SP Gun M9 |
 | 1966 | Chieftain Mk 3; Drachen 66; Type 26 Shu-He |
-| 1967 | Panzer XI Ausf. A; M11 Main Battle Tank; FAA-67; Argentine Panzer X Ausf. D(ar) |
-| 1968 | MG 68; Carro 68 Leone II; Beretta AR-68; Type 28 Universal Machine Gun; AA-68; American Air-Defense Gun M4 |
+| 1967 | Panzer XI Ausf. A; FAA-67; Argentine Panzer X Ausf. D(ar) |
+| 1968 | American M60; MG 68; Carro 68 Leone II; Beretta AR-68; Type 28 Universal Machine Gun; AA-68; American Air-Defense Gun M4 |
 | 1969 | FV438 Swingfire |
-| 1970 | M12 Airborne Gun Tank; Dragón Modelo 70 |
+| 1970 | Dragón Modelo 70 |
 | 1971 | Scorpion; Scimitar |
 | 1972 | Schützenpanzer 71 Greif; Panzerhaubitze 72; Chieftain Mk 5; FV435 Cavalier; VCC-72 Dardo; Sanglier; Fusil Automático 72 |
 | 1973 | Type 33 Ho-He |
-| 1974 | Panzerfaust 74; L7A4 TADEN; L118 Light Gun; Ametralladora 74; M11A2 |
+| 1974 | Panzerfaust 74; L7A4 TADEN; L118 Light Gun; Ametralladora 74 |
 | 1975 | Flakpanzer XI; TAM-74A1; Type 35 Ke-Yo |
 | 1976 | leichtes MG 76; Ratel 20; Type 36 Shu-Ri; SIDAM-76; VCTP-74 |
 | 1977 | Rifle No. 9 Mk 4; Bishop II; Argentine Panzer XI Ausf. D(ar) |
-| 1978 | Chieftain Mk 8; Ratel 90; Type 38 SAW; Argentine 149.1 mm SPH; VBE-78 Ñandú; M12A2; American 155 mm SP Howitzer M8A2 |
+| 1978 | Chieftain Mk 8; Ratel 90; Type 38 SAW; Argentine 149.1 mm SPH; VBE-78 Ñandú; American 155 mm SP Howitzer M8A2 |
 | 1979 | Commonwealth L45; M4A2 Alligator |
 | 1980 | Char 80 Aigle; Palmaria; Type 40 Yu-Ni |
-| 1981 | Panzer XII Ausf. A; Carro 80 Ariete II; TAM-74A2; M11A3 |
+| 1981 | Panzer XII Ausf. A; Carro 80 Ariete II; TAM-74A2 |
 | 1982 | Chieftain Mk 10; Beretta AR-82; Type 42 Rifle; American Air-Defense Gun M4A2 |
 | 1983 | StG 82; Autoblindo 79 Centauro; M5 Battle Carrier; M2 Scout; American Multiple Rocket Launcher M6 |
 | 1984 | Challenger 1; M3 Cougar |
-| 1985 | Warrior troop trials; Type 45 Shu-Ru low-rate production; M13 Advanced Mobile Battle Tank; XM14 production trials |
-
-## Committed American development after 1985
-
-| Year | Status | System |
-|---:|---|---|
-| 1987 | Scheduled service | M14 Light Combat Tank |
-| 1990 | Fixed development objective | M13A1 with 120 mm gun and 48.0 t combat weight |
-| 1991 | Fixed development objective | M14A1 with 105 mm low-recoil gun and 25.0 t combat weight |
+| 1985 | Warrior troop trials; Type 45 Shu-Ru low-rate production; American M60 replacement and light direct-fire competitions remain unresolved |
 
 ---
 
@@ -921,14 +855,15 @@ Challenger remains in Britain and Canada. Panzer XII remains in Germany. Warrior
 
 | Superseded or provisional label | Canon replacement |
 |---|---|
-| Panzer VII as Tiger II | Tiger II / Tiger Ausf. B |
-| Panzer VII production tank | Panzer VII Löwe, development only |
+| Tiger II separated from the Panzer numeral sequence | Panzer VII Tiger II |
+| Panzer VII Löwe production tank | Development proposal only; the numeral belongs to Tiger II |
 | StG 60 as a G3-like battle rifle | Gewehr 58 |
 | StG 60 caliber range or full-power cartridge | 5.6×40 mm |
 | Cuban G3-like FA-60 | Licensed 5.6×40 mm StG 60 |
 | German “15.5 cm” SPH | 149.1 mm, officially 15 cm |
 | German postwar `A1/A2/A3` Panzer variants | Continued `Ausf. A/B/C` letter sequence |
-| Panzer IX Ausf. S | Panzer IX Ausf. B |
+| Panzer V Ausf. F as the last Panther | Panzer V Ausf. D is the final 75 mm production model; Ausf. E is the 88 mm transitional series |
+| Panzer IX Ausf. S or Ausf. B | Deleted; the 88 mm Panzer IX Ausf. A is the single accepted family before Panzer X |
 | Panzer X or XI `A4E` Argentine export designation | Panzer X or XI Ausf. D(ar) |
 | Type 16 Chi-Wa or Type 16 Tank | Type 16 Shu-Ha |
 | Type 26 Chi-Ka or Type 26 Tank | Type 26 Shu-He |
@@ -938,13 +873,14 @@ Challenger remains in Britain and Canada. Panzer XII remains in Germany. Warrior
 | Type 18 Ho-Ru or Type 18 Armored Personnel Carrier | Type 18 Yu-Ha |
 | Type 33 Ho-Ka or Type 33 Infantry Combat Vehicle | Type 33 Ho-He |
 | Type 40 Ho-Ri or Type 40 Wheeled Armored Personnel Carrier | Type 40 Yu-Ni |
-| M24/M31 Chaffee as the post-Philippine tank | M9 Expeditionary Light Tank |
-| M18/M56 Hornet as a separate post-Philippine gun carrier | Role divided among M9, M12, and M14 |
+| A compact alternate M7–M14 American tank-number ladder | Withdrawn; use the M24, M26, M34, M41, M46, M47, M48, and M60 line fixed above |
+| M24/M31 Chaffee replaced immediately by an alternate M9 | M24 remains the wartime light tank and leads to M41 and the T92E1 experiments |
+| M18/M56 Hornet assigned a new fixed postwar number | Light direct-fire development remains a family of trials until separately fixed |
 | M113/M117 as the American carrier | Carrier, Personnel, Full-Tracked, M4 Alligator |
-| M50/M67/M60-like American MBT | M10 Universal Tank followed by M11 Main Battle Tank |
-| M551/M70 as the American airborne gun tank | M12 Airborne Gun Tank |
-| M1 Liberty/Abrams-generation tank | M13 Advanced Mobile Battle Tank |
-| HSTV-L or Stingray used as the sole American MBT | XM14/M14 Light Combat Tank in a separate expeditionary role |
+| M50/M67/M60-like American MBT renamed M10/M11 | M46–M47–M48 development culminates in the M60 family |
+| M551/M70 renamed M12 | T92E1-descended light direct-fire development; final service designation open |
+| M1 Liberty/Abrams-generation tank renamed M13 | Post-M60 replacement competition remains open |
+| HSTV-L or Stingray renamed XM14/M14 | Experimental light-tank branch remains open and has no fixed service number by 1985 |
 | Bradley or XM723-derived IFV | M5 battle-taxi carrier and separate M2 scout |
 | Historical XM800T/M800 designation | Vehicle, Reconnaissance, Full-Tracked, M2 |
 | FV4202 as a service tank | Development testbed only |
@@ -955,6 +891,9 @@ Challenger remains in Britain and Canada. Panzer XII remains in Germany. Warrior
 | SIDAM-type air defense | SIDAM-76 |
 | AMX institution automatically inherited by Occitania | Ateliers Mécaniques d’Occitanie after Toulouse Evacuation |
 | Challenger-versus-Panzer XII Falklands battle | Chieftain Mk 10 versus TAM-74A2 and Panzer XI Ausf. D(ar) |
+| Type 7 Chi-Ru at 36.8 t with a generic 90 mm gun | 49.5 t vehicle with the indigenous 88 mm Type 7 L/58 |
+| Type 7 Self-Loading Rifle with a 10-round magazine | 20-round detachable-magazine rifle, charger-loadable and normally semiautomatic |
+| P43 Leone as a single 1948 Italian tank | P35/43 Serie I in 1945 followed by P38/43 Serie 90 in 1947 |
 | Picatinny rail before 1995 | Einheitsleiste 79, Enfield Dovetail Pattern 76, Type 41 rib, or Guida Comune 79 |
 
 ## Remaining decisions

@@ -17,6 +17,23 @@ const japaneseSystemFirmArticle = config => ({
   categories:config.categories || ["Japanese companies","Business history","Electrical industry","GEACPS"]
 });
 
+const nakajimaAircraftListSection = rows => ({
+  id:"aircraft-list",
+  title:"List of Aircraft",
+  html:`<p>The internal designation is the Army project number, Navy letter-number code, or company project identity. The official designation gives the registered service name.</p><div class='table-wrap'><table class='wiki-table'><thead><tr><th>Internal designation</th><th>Official designation</th></tr></thead><tbody>${rows.map(([internal,official,href,provenance]) => {
+    const note = provenance === "p"
+      ? "<sup class='canon-note' data-provenance='p'>[p]</sup>"
+      : provenance === "a"
+        ? "<sup class='canon-note' data-provenance='a'>[a]</sup>"
+        : provenance === "e"
+          ? "<sup class='canon-note' data-provenance='e'>[e]</sup>"
+          : "";
+    const internalCell = href && !official ? `<a href='${href}'>${internal}</a>${note}` : `${internal}${official ? "" : note}`;
+    const officialCell = official ? `${href ? `<a href='${href}'>${official}</a>` : official}${note}` : "—";
+    return `<tr><td>${internalCell}</td><td>${officialCell}</td></tr>`;
+  }).join("")}</tbody></table></div>`
+});
+
 const systemMarketSection = {
   id:"imperial-system",
   title:"The imperial production system",
@@ -125,15 +142,26 @@ Object.assign(window.deepArticles, {
     canon:"Chikuhei Nakajima's 1917 Aircraft Research Laboratory, later Nakajima Aircraft, aircraft and engine production, and large wartime industrial capacity are historical anchors. Survival without occupation dismantling, 1948–49 Nakajima Industrial reorganization, retained Nakajima Aircraft division, conversion catalog, overcapacity, political protection, administrative duplication, and mature status as a large but difficult aviation-machinery house are established setting developments. Exact corporate charter, management, finances, plant closures, civilian marques, and ownership stakes remain open.",
     sections:[
       {id:"origins",title:"Aircraft Research Laboratory",html:"<p>Chikuhei Nakajima established an Aircraft Research Laboratory in 1917. It became Nakajima Aircraft Factory and, in 1931, Nakajima Aircraft Company. Airframes, radial engines, propellers, testing, and mass production made it one of Japan's principal aviation manufacturers.</p><p>The company developed strong Army relationships and a wide supplier and technical network.</p>"},
-      {id:"war",title:"Wartime industrial system",html:"<p>By the final years of the war Nakajima controlled aircraft plants, engine works, machine-tool divisions, vehicle workshops, research offices, and continental facilities. Expansion created real technical depth together with duplicated bureaus, uneven management, and dependence upon military orders.</p><p>Kikka Kai and the Ki-201 Karyū lineage preserve its place in the first Japanese jet generation.</p>"},
+      {id:"war",title:"Wartime industrial system",html:"<p>By the final years of the war Nakajima controlled aircraft plants, engine works, machine-tool divisions, vehicle workshops, research offices, and continental facilities. Expansion created real technical depth together with duplicated bureaus, uneven management, and dependence upon military orders.</p><p>The Nakajima Kikka preserves its place in the first Japanese jet generation.</p>"},
       {id:"survival",title:"Survival after 1947",html:"<p>No occupation authority dissolves Nakajima into a collection of successor firms. Personnel, patents, plants, machine tools, and political relationships remain substantially together after the peace.</p><p>This continuity is an advantage and a liability. Japan retains an immense aviation-industrial base but must pay for capacity that peacetime aircraft orders cannot fully use.</p>"},
       {id:"reorganization",title:"Nakajima Industrial Company",html:"<p>The group reorganizes in 1948–49 as Nakajima Industrial Company while retaining Nakajima Aircraft as its aviation division. The structure is intended to move engines, materials, precision production, and vehicle workshops into civilian markets without abandoning strategic aviation.</p><p>The exact charter, holding-company form, and first executive board remain open.</p>"},
       {id:"conversion",title:"Civilian conversion",html:"<div class='table-wrap'><table class='wiki-table'><thead><tr><th>Division or product</th><th>Conversion basis</th></tr></thead><tbody><tr><td>Industrial engines</td><td>Aircraft-engine metallurgy, machining, and test practice</td></tr><tr><td>Buses and trucks</td><td>Vehicle workshops, engines, bodies, and military transport experience</td></tr><tr><td>Pumps and generators</td><td>Power auxiliaries and rotating machinery</td></tr><tr><td>Agricultural machinery</td><td>Engines, transmissions, fabrication, and reconstruction demand</td></tr><tr><td>Machine tools</td><td>Internal wartime production equipment and design offices</td></tr><tr><td>Railway components</td><td>Heavy fabrication, engines, controls, and continental facilities</td></tr><tr><td>Alloy components</td><td>Aircraft-derived materials and precision manufacture</td></tr></tbody></table></div>"},
       {id:"crisis",title:"Conversion crisis",html:"<p>The group carries too many plants, military managers, design offices, and employees for its early civilian sales. Commercial distribution is weaker than its engineering, and Army patronage loses some value after demobilization.</p><p>Mitsubishi seeks selected assets. Army and aviation ministries demand preservation. Financial officials press for closures, consolidation, and measurable civilian orders.</p>"},
       {id:"protection",title:"Political protection and the fifth-house question",html:"<p>State credit and strategic procurement prevent a disorderly collapse. Protection does not eliminate recurring rescue negotiations or internal reorganization.</p><p>Throughout the 1950s observers debate whether Nakajima is becoming a fifth great corporate house or remaining an expensive technical reserve maintained for reasons of security.</p>"},
+      nakajimaAircraftListSection([
+        ["Ki-27","Type 97 Fighter",null,"p"],
+        ["Ki-43","Type 1 Fighter Hayabusa",null,"a"],
+        ["Ki-44","Type 2 Fighter Shōki",null,"a"],
+        ["Ki-49","Type 100 Heavy Bomber Donryū",null,"p"],
+        ["Ki-84","Type 4 Fighter Hayate",null,"a"],
+        ["B5N","Type 97 Carrier Attack Aircraft",null,"p"],
+        ["B6N","Type 2 Carrier Attack Aircraft Tenzan",null,"a"],
+        ["J1N","Type 2 Land-based Reconnaissance Aircraft",null,"a"],
+        ["Kikka project","Nakajima Kikka",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Nakajima Industrial is a large, politically protected, technically capable, and administratively difficult aviation-machinery concern. Nakajima Aircraft remains a major division serving combat aircraft, engines, transports, and related strategic work.</p><p>Civilian machinery gives the group a broader revenue base, but no final roster of marques or subsidiaries has been fixed.</p>"}
     ],
-    related:[{href:"g9n1-kikka-kai.html",kicker:"Early jet product",label:"G9N1 Kikka Kai"},{href:"j10n1-karyu.html",kicker:"Heavy-interceptor product",label:"J10N1 Karyū"},{href:"prince-motor-company.html",kicker:"Aircraft-derived vehicle lineage",label:"Prince Motor Company"},{href:"japanese-imperial-corporate-houses.html",kicker:"Industrial order",label:"Imperial Corporate Houses of Japan"}],
+    related:[{href:"japanese-late-piston-first-jet-generation.html",kicker:"Early jet context",label:"Japanese Late-Piston and First-Jet Generation"},{href:"prince-motor-company.html",kicker:"Aircraft-derived vehicle lineage",label:"Prince Motor Company"},{href:"japanese-imperial-corporate-houses.html",kicker:"Industrial order",label:"Imperial Corporate Houses of Japan"}],
     facts:[["Predecessor","Nakajima Aircraft Company"],["Historical origin","Aircraft Research Laboratory, 1917"],["Reorganized","1948–49"],["Aviation division","Nakajima Aircraft"],["Headquarters","Japan; exact 1985 site open"],["Principal fields","Aircraft, engines, vehicles, machinery"],["1985 status","Large protected but administratively difficult house"]],
     primarySources:[{href:"https://www.subaru.co.jp/en/outline/about/aerospace/",label:"Subaru — Nakajima Aircraft lineage and aviation history"},{href:"https://www.subaru.co.jp/en/outline/about/",label:"Subaru — 1917 Nakajima origin and corporate chronology"}]
   })

@@ -1006,7 +1006,7 @@ const pages = [
   { title: "Iceland Crisis and Atlantic Accord", description: "The confrontation that divided the Atlantic", href: "iceland-crisis.html", tags: "iceland crisis mid-atlantic ridge accord kennedy germany america" },
   { title: "Kuwait War and Operation Covenant", description: "Britain's 1974 Gulf victory", href: "kuwait-war.html", tags: "kuwait iraq operation covenant muscat gulf britain" },
   { title: "Falklands–Malvinas War", description: "The prolonged South Atlantic war of 1984–1986", href: "falklands-war.html", tags: "falklands malvinas argentina britain second torch stanley" },
-  { title: "War of the Chiefs", description: "The Mittelafrikan cascade and Second Mosaic Settlement", href: "war-of-the-chiefs.html", tags: "war chiefs mittelafrika mosaic settlement 1969 1978" },
+  { title: "Häuptlingskrieg (War of the Chiefs)", description: "The Mittelafrikan cascade and Second Mosaic Settlement", href: "war-of-the-chiefs.html", tags: "häuptlingskrieg hauptlingskrieg war chiefs mittelafrika mosaic settlement 1969 1978" },
   { title: "Counting Wars", description: "The coercive registration conflicts of 1948–1952", href: "counting-wars.html", tags: "counting wars mittelafrika census registration refugees colonial violence" },
   { title: "General Registration of Mittelafrika", description: "The population, land, labor, and status campaign", href: "general-registration.html", tags: "general registration mittelafrika census labor land status 1948" },
   { title: "Mosaic Order", description: "Mittelafrika's recognized-community system of negotiated colonial hierarchy", href: "mosaic-order.html", tags: "mosaic order mittelafrika chiefs communities cadastre colonial administration" },
@@ -3012,6 +3012,10 @@ const pages = [
   { title: "Aichi Aircraft", description: "The surviving Nagoya manufacturer of naval aircraft, engines, and precision machinery", href: "aichi-aircraft.html", tags: "aichi aircraft kokuki nagoya naval aviation engines machinery japan" },
   { title: "Kawanishi Aircraft", description: "The Japanese flying-boat, fighter, patrol, and amphibious-aircraft specialist", href: "kawanishi-aircraft.html", tags: "kawanishi aircraft kokuki flying boat amphibious patrol fighter japan" },
   { title: "Tachikawa Aircraft", description: "The surviving trainer, utility-aircraft, transport, and light-manufacturing specialist", href: "tachikawa-aircraft.html", tags: "tachikawa aircraft hikoki ishikawajima trainer utility transport japan" },
+  { title: "Kyushu Aircraft", description: "The Fukuoka trainer, patrol-aircraft, and Shinden canard manufacturer", href: "kyushu-aircraft.html", tags: "kyushu aircraft hikoki watanabe fukuoka trainer patrol shinden japan" },
+  { title: "Yokosuka Naval Air Technical Arsenal", description: "The Imperial Japanese Navy's aircraft research, prototype, and design establishment", href: "yokosuka-naval-air-technical-arsenal.html", tags: "yokosuka naval air technical arsenal kugisho aircraft design japan" },
+  { title: "Hitachi Aircraft", description: "Japan's trainer, aero-engine, and airframe-production company", href: "hitachi-aircraft.html", tags: "hitachi aircraft kokuki gasuden trainer engine airframe japan" },
+  { title: "Hiro Naval Arsenal", description: "The Imperial Japanese Navy's flying-boat, engine, and aircraft-production establishment", href: "hiro-naval-arsenal.html", tags: "hiro naval arsenal hirosho flying boat aircraft engine japan" },
   { title: "IG Farben", description: "The intact German chemical, pharmaceutical, synthetic-fuel, rubber, and plastics combine", href: "ig-farben.html", tags: "ig farben chemical pharmaceutical synthetic fuel rubber plastics germany" },
   { title: "Friedrich Krupp", description: "The Essen family concern spanning steel, mining, machinery, ships, railways, and armaments", href: "friedrich-krupp.html", tags: "friedrich krupp fried alfried essen steel mining machinery armaments germany" },
   { title: "Reichswerke Hermann Göring", description: "The rationalized state combine for mining, steel, vehicles, armaments, and imperial concessions", href: "reichswerke-hermann-goering.html", tags: "reichswerke hermann goring göring state combine salzgitter steel mining armaments germany" },
@@ -3756,6 +3760,12 @@ const pages = [
   ,{ title: "Latin Military Aviation", description: "The coordinated but non-unified air-power system of Italy, Occitania, Spain, and Portugal", href: "latin-military-aviation.html", tags: "latin bloc military aviation air force italy occitania spain portugal aircraft aerospace" }
   ,{ title: "Italian Combat Aircraft Lineage", description: "Italy's uninterrupted combat-aircraft registry from wartime piston designs to the Fiat G.85", href: "italian-combat-aircraft-lineage.html", tags: "italy italian combat aircraft lineage fiat macchi reggiane piaggio aerfer aermacchi g91 g85" }
   ,{ title: "Occitan Combat Aircraft Lineage", description: "Occitania's Ouragan, Mystère, and Mirage combat-aircraft sequence", href: "occitan-combat-aircraft-lineage.html", tags: "occitania occitan combat aircraft lineage ouragan mystere mirage dassault merignac aerospace" }
+  ,{ title: "Aerfer", description: "Italy's Campanian high-speed research and interceptor aircraft house", href: "aerfer.html", tags: "aerfer italy italian campania aircraft manufacturer sagittario leone interceptor" }
+  ,{ title: "Savoia-Marchetti", description: "Italy's long-range, transport, bomber, and maritime aircraft manufacturer", href: "savoia-marchetti.html", tags: "savoia marchetti italy italian aircraft manufacturer sm79 sm81 sm82 aquila" }
+  ,{ title: "Caproni", description: "Italy's historic aircraft group and reaction-propulsion research organization", href: "caproni.html", tags: "caproni italy italian aircraft manufacturer campini re2007 reaction propulsion" }
+  ,{ title: "CANT", description: "The Monfalcone maritime-aircraft and multi-engine design organization", href: "cant.html", tags: "cant crda italy italian monfalcone aircraft manufacturer z1007 maritime" }
+  ,{ title: "Breda Aeronautica", description: "Italy's trainer, attack-aircraft, and industrial-workshare division", href: "breda-aeronautica.html", tags: "breda aeronautica italy italian aircraft manufacturer ba65 ba88 trainer attack" }
+  ,{ title: "Dassault Aviation", description: "Occitania's principal combat-aircraft design and assembly house", href: "dassault-aviation.html", tags: "dassault aviation occitania merignac ouragan mystere mirage aircraft manufacturer" }
   ,{ title: "Latin Tactical Aircraft Requirement", description: "The four-country Latin program that produced the Fiat G.91R", href: "latin-tactical-aircraft-requirement.html", tags: "latin tactical aircraft requirement fiat g91 g.91r italy spain portugal occitania" }
   ,{ title: "Spanish Military Aviation", description: "Spain's licensed-production, training, transport, patrol, and CASA lightweight-fighter system", href: "spanish-military-aviation.html", tags: "spain spanish military aviation air force casa licensed aircraft trainers transports maritime patrol" }
   ,{ title: "Portuguese Military Aviation", description: "Portugal's patrol, ASW, transport, colonial-reconnaissance, and rough-field aviation system", href: "portuguese-military-aviation.html", tags: "portugal portuguese military aviation air force patrol asw transport colonial reconnaissance rough field" }
@@ -3772,6 +3782,15 @@ const pages = [
   ,{ title: "Mirage III E", description: "Occitania's 1964 fighter-bomber and reconnaissance aircraft", href: "mirage-iii-e.html", tags: "mirage iii e occitania occitan fighter bomber reconnaissance 1964" }
   ,{ title: "Mirage F1 C", description: "Occitania's air-superiority fighter introduced in 1971", href: "mirage-f1-c.html", tags: "mirage f1 c occitania occitan air superiority fighter 1971" }
   ,{ title: "Mirage 2000 C", description: "Occitania's digital fly-by-wire interceptor introduced in 1983", href: "mirage-2000-c.html", tags: "mirage 2000 c occitania occitan digital fly by wire interceptor 1983" }
+  ,{ title: "British Aerospace", description: "Kingston design authority for the P.1214 Sea Fury and P.1216 Tempest STOVL family", href: "british-aerospace.html", tags: "british aerospace bae kingston aircraft manufacturer p 1214 p 1216 sea fury tempest stovl" }
+  ,{ title: "Messerschmitt", description: "Germany's principal high-speed fighter and heavy-interceptor design authority", href: "messerschmitt.html", tags: "messerschmitt germany aircraft manufacturer bayerische flugzeugwerke me 262 high speed interceptor" }
+  ,{ title: "Focke-Wulf", description: "Germany's single-seat fighter and close-support aircraft design authority", href: "focke-wulf.html", tags: "focke wulf germany aircraft manufacturer fw 190 ta 152 ta 183 close support" }
+  ,{ title: "Horten-Gotha", description: "Germany's continuing flying-wing design and production organization", href: "horten-gotha.html", tags: "horten gotha germany aircraft manufacturer flying wing ho 229 h xviii" }
+  ,{ title: "Junkers Aircraft", description: "Germany's metal-aircraft, research, and maritime-systems design authority", href: "junkers-aircraft.html", tags: "junkers germany aircraft manufacturer dessau ju 52 ju 88 ju 287 ef 131" }
+  ,{ title: "Heinkel", description: "Germany's bomber, night-fighter, jet, and aircraft-engine design company", href: "heinkel.html", tags: "heinkel germany aircraft manufacturer he 111 he 177 he 219 he 162" }
+  ,{ title: "Arado", description: "Germany's fast-bomber and reconnaissance-aircraft design authority", href: "arado.html", tags: "arado germany aircraft manufacturer ar 234 blitz strike reconnaissance" }
+  ,{ title: "Dornier", description: "Germany's metal-aircraft, maritime, and long-range systems manufacturer", href: "dornier.html", tags: "dornier germany aircraft manufacturer do 17 do 24 do 217 do 335 maritime" }
+  ,{ title: "Blohm & Voss", description: "Hamburg's maritime-aircraft and experimental-configurations specialist", href: "blohm-and-voss.html", tags: "blohm voss hamburger flugzeugbau germany aircraft manufacturer bv 138 bv 222" }
   ,{ title: "German Early Jet Generation", description: "Seven registered victory-era and immediate-postwar jet aircraft from 1944 to 1949", href: "german-early-jet-generation.html", tags: "germany german luftwaffe early jets aircraft lineage me 262 he 162 ta 183 ho 229 ar 234 ef 131" }
   ,{ title: "Reichsluftgerätordnung 1948", description: "The German aircraft register's naming, variant, project, and mission-class regulation", href: "reichsluftgeraetordnung-1948.html", tags: "reichsluftgeraetordnung 1948 reich air materiel regulation aircraft designation rlm 500 series" }
   ,{ title: "Me 262A-1", description: "Germany's 1944 heavy day jet interceptor", href: "me-262a-1.html", tags: "me 262 a1 a-1 messerschmitt germany german heavy day interceptor jet mk 108 1944" }
@@ -3823,6 +3842,18 @@ const pages = [
   ,{ title: "Type 18 Kiku", description: "Japan's 1958 radar-guided anti-ship missile", href: "type-18-kiku.html", tags: "type 18 kiku japan radar guided anti ship missile 1958" }
   ,{ title: "Type 30 Ume", description: "Japan's 1970 active-radar fleet missile", href: "type-30-ume.html", tags: "type 30 ume japan active radar fleet anti ship missile aircraft surface ship 1970" }
   ,{ title: "Type 42 Tsubaki", description: "Japan's 1982 networked over-the-horizon anti-ship missile", href: "type-42-tsubaki.html", tags: "type 42 tsubaki japan networked over horizon anti ship missile maritime aircraft 1982" }
+  ,{ title: "Lockheed", description: "American designer of the Shooting Star, Starfire, Starfighter, Blackbird, and Orion families", href: "lockheed.html", tags: "lockheed american aircraft manufacturer shooting star starfire starfighter blackbird orion" }
+  ,{ title: "Republic Aviation", description: "American designer of the Thunderbolt and F-84 tactical-aircraft families", href: "republic-aviation.html", tags: "republic aviation american aircraft manufacturer thunderbolt thunderjet thunderstreak f-84" }
+  ,{ title: "North American Aviation", description: "American designer of Mustang, Sabre, X-15, Rapier, and Valkyrie aircraft", href: "north-american-aviation.html", tags: "north american aviation aircraft manufacturer mustang sabre x-15 rapier valkyrie" }
+  ,{ title: "Grumman", description: "American naval-aircraft designer of Wildcat, Hellcat, Intruder, Tomcat, and Hawkeye families", href: "grumman.html", tags: "grumman american naval aircraft manufacturer wildcat hellcat intruder tomcat hawkeye" }
+  ,{ title: "General Dynamics Aerospace", description: "American aerospace organization responsible for the F-16A Falcon", href: "general-dynamics-aerospace.html", tags: "general dynamics aerospace american aircraft manufacturer f-16 falcon" }
+  ,{ title: "Fairchild Republic", description: "American designer of the A-10A Thunderbolt II close-support aircraft", href: "fairchild-republic.html", tags: "fairchild republic american aircraft manufacturer a-10 thunderbolt close support" }
+  ,{ title: "McDonnell Aircraft", description: "St. Louis naval-fighter manufacturer associated with Phantom and Banshee jets", href: "mcdonnell-aircraft.html", tags: "mcdonnell american aircraft manufacturer st louis phantom banshee f2h" }
+  ,{ title: "Douglas Aircraft", description: "American designer of transports, attack aircraft, and the F3D Skyknight", href: "douglas-aircraft.html", tags: "douglas american aircraft manufacturer dc-3 dauntless invader skyknight" }
+  ,{ title: "Vought", description: "American naval-aircraft designer of Corsair and Cutlass fighters", href: "vought.html", tags: "vought american naval aircraft manufacturer corsair cutlass f4u f7u" }
+  ,{ title: "Boeing Aircraft", description: "American bomber, transport, and reusable-aerospace aircraft organization", href: "boeing-aircraft.html", tags: "boeing american aircraft manufacturer b-17 b-29 dyna-soar x-20" }
+  ,{ title: "Martin Aircraft", description: "The Glenn L. Martin Company's bomber, patrol-aircraft, and lifting-body programs", href: "martin-aircraft.html", tags: "martin american aircraft manufacturer b-26 pbm mariner x-24 lifting body" }
+  ,{ title: "Convair", description: "American designer of large aircraft and the B-58A Hustler supersonic bomber", href: "convair.html", tags: "convair consolidated vultee american aircraft manufacturer pby b-24 b-58 hustler" }
   ,{ title: "American Early-Jet Generation", description: "Eight American Army and Aerospace Command jets introduced from 1952 through 1960", href: "american-early-jet-generation.html", tags: "united states american early jet generation army air corps aerospace command shooting star thunderjet thunderstreak sabre starfire" }
   ,{ title: "P-80A-5 Shooting Star", description: "America's 1952 early jet pursuit and research aircraft", href: "p-80a-5-shooting-star.html", tags: "p-80a-5 p80 shooting star lockheed army pursuit research jet 1952" }
   ,{ title: "F-80C Shooting Star", description: "America's 1958 transitional Aerospace Command interceptor", href: "f-80c-shooting-star.html", tags: "f-80c f80 shooting star lockheed aerospace command transitional interceptor 1958" }
@@ -3875,6 +3906,8 @@ const pages = [
   ,{ title: "TSR-2 B.1", description: "Britain's operational 1969 Mach 2 interdiction and reconnaissance aircraft", href: "tsr-2-b1.html", tags: "tsr-2 tsr2 b1 british aircraft corporation royal air force interdiction reconnaissance mach 2 1969" }
   ,{ title: "Harrier GR.1", description: "Britain's 1970 dispersed-base strike and reconnaissance aircraft", href: "harrier-gr1.html", tags: "harrier gr1 hawker siddeley royal air force vtol stovl dispersed base strike reconnaissance 1970" }
   ,{ title: "Canadian Interceptor Lineage", description: "Canada's sovereign interceptor development from CF-100 Canuck to two operational Arrow generations", href: "canadian-interceptor-lineage.html", tags: "canadian interceptor lineage canada rcaf avro canuck arrow cf-100 cf-105 arctic defense" }
+  ,{ title: "Avro Canada", description: "Canada's Malton designer of the CF-100 Canuck and operational CF-105 Arrow family", href: "avro-canada.html", tags: "avro canada malton aircraft manufacturer cf-100 canuck cf-105 arrow" }
+  ,{ title: "Canadair", description: "Canada's Cartierville aircraft-production, adaptation, and support company", href: "canadair.html", tags: "canadair canada cartierville montreal aircraft manufacturer canso licensed production" }
   ,{ title: "CF-100 Mk 4 Canuck", description: "Canada's 1955 all-weather interceptor", href: "cf-100-mk4-canuck.html", tags: "cf-100 mk4 canuck avro canada royal canadian air force all weather interceptor 1955" }
   ,{ title: "CF-105A Arrow", description: "Canada's operational 1962 Mach 2 Arctic interceptor", href: "cf-105a-arrow.html", tags: "cf-105a arrow avro canada royal canadian air force mach 2 arctic interceptor 1962" }
   ,{ title: "CF-105B Arrow", description: "Canada's improved 1968 continental interceptor", href: "cf-105b-arrow.html", tags: "cf-105b arrow avro canada royal canadian air force continental interceptor improved radar 1968" }
@@ -4332,7 +4365,7 @@ const topicNav = [
   ["Iceland Crisis", "iceland-crisis.html"],
   ["Kuwait War", "kuwait-war.html"],
   ["Falklands–Malvinas War", "falklands-war.html"],
-  ["War of the Chiefs", "war-of-the-chiefs.html"],
+  ["Häuptlingskrieg (War of the Chiefs)", "war-of-the-chiefs.html"],
   ["Tehran Concord", "tehran-concord.html"],
   ["Space Race", "space-programs.html"],
   ["Orbital Restraint", "strategic-stability-in-space.html"],
@@ -4915,6 +4948,12 @@ const crossLinks = [
   { href: "latin-military-aviation.html", terms: ["Latin military aviation", "Latin aviation system"] },
   { href: "italian-combat-aircraft-lineage.html", terms: ["Italian combat-aircraft lineage", "Italian combat aircraft lineage"] },
   { href: "occitan-combat-aircraft-lineage.html", terms: ["Occitan combat-aircraft lineage", "Occitan combat aircraft lineage", "Ouragan–Mystère–Mirage sequence"] },
+  { href: "aerfer.html", terms: ["Aerfer", "Aerfer aircraft"] },
+  { href: "savoia-marchetti.html", terms: ["Savoia-Marchetti", "Savoia Marchetti"] },
+  { href: "caproni.html", terms: ["Caproni", "Società Italiana Caproni", "Campini-Caproni"] },
+  { href: "cant.html", terms: ["CANT", "CRDA CANT", "Cantieri Aeronautici e Navali Triestini"] },
+  { href: "breda-aeronautica.html", terms: ["Breda Aeronautica", "Breda aircraft", "Breda aeronautical division"] },
+  { href: "dassault-aviation.html", terms: ["Dassault Aviation", "Dassault", "Mérignac aircraft works"] },
   { href: "latin-tactical-aircraft-requirement.html", terms: ["Latin Tactical Aircraft Requirement", "shared tactical-aircraft requirement"] },
   { href: "spanish-military-aviation.html", terms: ["Spanish military aviation", "Spanish aviation system"] },
   { href: "portuguese-military-aviation.html", terms: ["Portuguese military aviation", "Portuguese aviation system"] },
@@ -4931,6 +4970,15 @@ const crossLinks = [
   { href: "mirage-iii-e.html", terms: ["Mirage III E", "Mirage IIIE"] },
   { href: "mirage-f1-c.html", terms: ["Mirage F1 C", "Mirage F1C"] },
   { href: "mirage-2000-c.html", terms: ["Mirage 2000 C", "Mirage 2000C"] },
+  { href: "british-aerospace.html", terms: ["British Aerospace", "BAe", "BAe P.1214", "BAe P.1216"] },
+  { href: "messerschmitt.html", terms: ["Messerschmitt", "Bayerische Flugzeugwerke", "BFW aircraft"] },
+  { href: "focke-wulf.html", terms: ["Focke-Wulf", "Focke Wulf"] },
+  { href: "horten-gotha.html", terms: ["Horten-Gotha", "Horten Gotha", "Horten flying wings"] },
+  { href: "junkers-aircraft.html", terms: ["Junkers Aircraft", "Junkers Flugzeug- und Motorenwerke", "Junkers"] },
+  { href: "heinkel.html", terms: ["Heinkel", "Ernst Heinkel Flugzeugwerke"] },
+  { href: "arado.html", terms: ["Arado", "Arado Flugzeugwerke"] },
+  { href: "dornier.html", terms: ["Dornier", "Dornier Flugzeugwerke", "Claude Dornier"] },
+  { href: "blohm-and-voss.html", terms: ["Blohm & Voss", "Blohm und Voss", "Hamburger Flugzeugbau"] },
   { href: "german-early-jet-generation.html", terms: ["German early-jet generation", "German Early Jet Generation", "late-war and immediate-postwar jets"] },
   { href: "reichsluftgeraetordnung-1948.html", terms: ["Reichsluftgerätordnung 1948", "Reich Air Materiel Regulation of 1948", "Reichsluftgerätordnung"] },
   { href: "me-262a-1.html", terms: ["Me 262A-1", "Me 262 A-1"] },
@@ -4982,6 +5030,18 @@ const crossLinks = [
   { href: "type-18-kiku.html", terms: ["Type 18 Kiku"] },
   { href: "type-30-ume.html", terms: ["Type 30 Ume"] },
   { href: "type-42-tsubaki.html", terms: ["Type 42 Tsubaki"] },
+  { href: "lockheed.html", terms: ["Lockheed", "Lockheed Aircraft Corporation"] },
+  { href: "republic-aviation.html", terms: ["Republic Aviation", "Republic Aircraft"] },
+  { href: "north-american-aviation.html", terms: ["North American Aviation", "NAA aircraft"] },
+  { href: "grumman.html", terms: ["Grumman", "Grumman Aircraft Engineering Corporation"] },
+  { href: "general-dynamics-aerospace.html", terms: ["General Dynamics Aerospace", "General Dynamics aircraft"] },
+  { href: "fairchild-republic.html", terms: ["Fairchild Republic", "Fairchild-Republic"] },
+  { href: "mcdonnell-aircraft.html", terms: ["McDonnell Aircraft", "McDonnell"] },
+  { href: "douglas-aircraft.html", terms: ["Douglas Aircraft", "Douglas Aircraft Company"] },
+  { href: "vought.html", terms: ["Vought", "Chance Vought"] },
+  { href: "boeing-aircraft.html", terms: ["Boeing Aircraft", "Boeing Airplane Company", "Boeing"] },
+  { href: "martin-aircraft.html", terms: ["Martin Aircraft", "Glenn L. Martin Company", "Martin aircraft"] },
+  { href: "convair.html", terms: ["Convair", "Consolidated Vultee"] },
   { href: "american-early-jet-generation.html", terms: ["American early-jet generation", "American Early-Jet Generation", "American early jets"] },
   { href: "p-80a-5-shooting-star.html", terms: ["P-80A-5 Shooting Star", "P-80A-5"] },
   { href: "f-80c-shooting-star.html", terms: ["F-80C Shooting Star", "F-80C"] },
@@ -5034,6 +5094,8 @@ const crossLinks = [
   { href: "tsr-2-b1.html", terms: ["TSR-2 B.1", "TSR-2"] },
   { href: "harrier-gr1.html", terms: ["Harrier GR.1"] },
   { href: "canadian-interceptor-lineage.html", terms: ["Canadian interceptor lineage"] },
+  { href: "avro-canada.html", terms: ["Avro Canada", "A.V. Roe Canada"] },
+  { href: "canadair.html", terms: ["Canadair", "Canadair Limited"] },
   { href: "cf-100-mk4-canuck.html", terms: ["CF-100 Mk 4 Canuck", "CF-100 Canuck", "CF-100"] },
   { href: "cf-105a-arrow.html", terms: ["CF-105A Arrow"] },
   { href: "cf-105b-arrow.html", terms: ["CF-105B Arrow"] },
@@ -6998,6 +7060,10 @@ const crossLinks = [
   ,{ href: "aichi-aircraft.html", terms: ["Aichi Aircraft", "Aichi Kōkūki", "Aichi Kokuki"] }
   ,{ href: "kawanishi-aircraft.html", terms: ["Kawanishi Aircraft", "Kawanishi Kōkūki", "Kawanishi"] }
   ,{ href: "tachikawa-aircraft.html", terms: ["Tachikawa Aircraft Company", "Tachikawa Aircraft", "Tachikawa Hikōki"] }
+  ,{ href: "kyushu-aircraft.html", terms: ["Kyushu Aircraft", "Kyūshū Hikōki", "Watanabe Iron Works aircraft division"] }
+  ,{ href: "yokosuka-naval-air-technical-arsenal.html", terms: ["Yokosuka Naval Air Technical Arsenal", "Kūgishō", "Kugisho"] }
+  ,{ href: "hitachi-aircraft.html", terms: ["Hitachi Aircraft", "Hitachi Kōkūki", "Hitachi Kokuki"] }
+  ,{ href: "hiro-naval-arsenal.html", terms: ["Hiro Naval Arsenal", "Hiro Kaigun Kōshō", "Hiroshō"] }
   ,{ href: "ig-farben.html", terms: ["Interessengemeinschaft Farbenindustrie", "IG Farben"] }
   ,{ href: "friedrich-krupp.html", terms: ["Friedrich Krupp", "Fried. Krupp", "Krupp"] }
   ,{ href: "reichswerke-hermann-goering.html", terms: ["Reichswerke Hermann Göring", "Reichswerke Hermann Goering", "Reichswerke"] }
@@ -8688,9 +8754,19 @@ if (year) year.textContent = new Date().getFullYear();
 (() => {
   const articleBody = document.querySelector(".article-body");
   const articleLayout = document.querySelector(".article-layout");
-  const pageHeader = document.querySelector(".page-header");
+  const breadcrumbs = document.querySelector(".breadcrumbs");
   const articleSlug = document.body.dataset.article;
-  if (!articleBody || !articleLayout || !pageHeader || !articleSlug) return;
+  if (!articleBody || !articleLayout || !breadcrumbs || !articleSlug) return;
+
+  const provenanceLabels = {
+    a: "Author-established canon",
+    p: "Pre-divergence canon: real-world history before 1 August 1941",
+    e: "Incorporated extrapolation"
+  };
+  for (const note of document.querySelectorAll(".canon-note[data-provenance]")) {
+    const label = provenanceLabels[note.dataset.provenance];
+    if (label) note.title = label;
+  }
 
   function parseWriterFields(value) {
     const fields = {};
@@ -8703,7 +8779,7 @@ if (year) year.textContent = new Date().getFullYear();
     note.className = "writer-note";
     note.dataset.writer = fields.writer;
     note.dataset.block = fields.id;
-    note.href = `?tab=writers#${encodeURIComponent(fields.id)}`;
+    note.href = `?tab=discussion#${encodeURIComponent(fields.id)}`;
     note.textContent = `[${fields.writer}]`;
     note.setAttribute("aria-label", `Writer ${fields.writer}; open editorial discussion`);
     return note;
@@ -8758,21 +8834,29 @@ if (year) year.textContent = new Date().getFullYear();
 
   function installWriterTabs(data) {
     const entries = data?.articles?.[articleSlug] || [];
-    if (!writerBlocks.length && !entries.length) return;
 
-    const tabs = element("nav", "article-view-tabs");
-    tabs.setAttribute("aria-label", "Article views");
-    const articleTab = element("a", "", "Article");
-    articleTab.href = location.pathname;
-    const writersTab = element("a", "", "Writers");
-    writersTab.href = "?tab=writers";
-    tabs.append(articleTab, writersTab);
-    pageHeader.insertAdjacentElement("afterend", tabs);
+    const contextRow = element("div", "article-context-row");
+    const viewToggle = element("nav", "article-view-toggle");
+    viewToggle.setAttribute("aria-label", "Article view");
+    const pageView = element("a", "", "Page");
+    pageView.href = location.pathname;
+    const discussionView = element("a", "", "Discussion");
+    discussionView.href = "?tab=discussion";
+    viewToggle.append(pageView, discussionView);
+    breadcrumbs.insertAdjacentElement("beforebegin", contextRow);
+    contextRow.append(breadcrumbs, viewToggle);
 
     const panel = element("section", "writer-discussion-panel");
     panel.hidden = true;
-    panel.append(element("h2", "", "Writers"));
+    panel.append(element("h2", "", "Writer Discussion"));
     panel.append(element("p", "writer-discussion-intro", "Editorial discussion and passage ownership for this article. This view is not the encyclopedia's default reading layer."));
+
+    const provenanceKey = element("div", "writer-provenance-key");
+    provenanceKey.append(element("strong", "", "Fact provenance"));
+    for (const [code, label] of Object.entries(provenanceLabels)) {
+      provenanceKey.append(element("span", "", `[${code}] ${label}`));
+    }
+    panel.append(provenanceKey);
 
     const writerCodes = new Set([...writerBlocks.map((block) => block.writer), ...entries.map((entry) => entry.writer)]);
     if (writerCodes.size) {
@@ -8816,13 +8900,14 @@ if (year) year.textContent = new Date().getFullYear();
     }
 
     articleLayout.insertAdjacentElement("afterend", panel);
-    const showWriters = new URLSearchParams(location.search).get("tab") === "writers";
-    articleLayout.hidden = showWriters;
-    panel.hidden = !showWriters;
-    articleTab.classList.toggle("is-active", !showWriters);
-    writersTab.classList.toggle("is-active", showWriters);
-    articleTab.setAttribute("aria-current", showWriters ? "false" : "page");
-    writersTab.setAttribute("aria-current", showWriters ? "page" : "false");
+    const requestedView = new URLSearchParams(location.search).get("tab");
+    const showDiscussion = requestedView === "discussion" || requestedView === "writers";
+    articleLayout.hidden = showDiscussion;
+    panel.hidden = !showDiscussion;
+    pageView.classList.toggle("is-active", !showDiscussion);
+    discussionView.classList.toggle("is-active", showDiscussion);
+    pageView.setAttribute("aria-current", showDiscussion ? "false" : "page");
+    discussionView.setAttribute("aria-current", showDiscussion ? "page" : "false");
 
     for (const note of document.querySelectorAll(".writer-note")) {
       const writer = data?.writers?.[note.dataset.writer];
@@ -8830,8 +8915,10 @@ if (year) year.textContent = new Date().getFullYear();
     }
   }
 
-  fetch("writer-discussion-data.json", { cache: "no-store" })
-    .then((response) => response.ok ? response.json() : null)
-    .catch(() => null)
-    .then(installWriterTabs);
+  Promise.all([
+    fetch("_writers/registry.md", { cache: "no-store" }).then((response) => response.ok).catch(() => false),
+    fetch("writer-discussion-data.json", { cache: "no-store" }).then((response) => response.ok ? response.json() : null).catch(() => null)
+  ]).then(([editorialMode, data]) => {
+    if (editorialMode) installWriterTabs(data);
+  });
 })();

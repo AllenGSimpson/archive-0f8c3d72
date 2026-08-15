@@ -81,7 +81,7 @@ Object.assign(window.deepArticles,{
   "denis-healey":laterBritishArticle({
     title:"Denis Healey",eyebrow:"Prime Minister of the United Kingdom · 1976–1980",infoboxKicker:"Commonwealth Labour prime minister",
     lead:"Denis Winston Healey was a British Labour politician, wartime officer, Defence Minister during the Kuwait War, and prime minister from 1976 to 1980. He inherited Wilson's victory and preserved real industrial and military capacity, but his effort to protect every strategic producer turned the arsenal of the Commonwealth into an economy of soft budgets, controls, and blocked adjustment.",
-    canon:"Healey's historical life, military service, and Labour career; Defence Ministry during Operation Covenant; succession to Wilson in 1976; Commonwealth Labour leadership; strategic-public-corporation program; 1978–80 clearing crisis; and defeat by the NLCU are established. Exact budget measures and later offices remain open.",
+    canon:"Healey's historical life, military service, and Labour career; Defence Ministry during Operation Covenant; succession to Wilson in 1976; Commonwealth Labour leadership; strategic-public-corporation program; 1978–80 clearing crisis; and defeat by the NLCU are established. Exact budget measures and later offices remain open. His historical death on 3 October 2015 is post-canon and is not an established setting event.",
     portrait:{src:"assets/portraits/denis-healey.jpg",alt:"Portrait of Denis Healey",caption:"Denis Healey"},
     primarySources:[{href:"https://en.wikipedia.org/wiki/Denis_Healey",label:"Denis Healey — historical biography"}],
     sections:[
@@ -95,13 +95,13 @@ Object.assign(window.deepArticles,{
       {id:"defeat",title:"Defeat and legacy",html:"<p>The crisis allows Margaret Thatcher's National Liberals to argue that capacity must be preserved through ownership discipline rather than universal state management. Healey loses office in 1980. His critics blame stagnation; defenders note that Thatcher's later war economy depends on assets, skills, and reserve facilities his government refused to liquidate.</p>"}
     ],
     related:[{href:"harold-wilson.html",kicker:"Predecessor",label:"Harold Wilson"},{href:"kuwait-war.html",kicker:"Defining campaign",label:"Kuwait War"},{href:"commonwealth-labour.html",kicker:"Party",label:"Commonwealth Labour"},{href:"margaret-thatcher.html",kicker:"Successor",label:"Margaret Thatcher"}],
-    facts:[["Born","30 August 1917"],["Died","3 October 2015"],["Party","Commonwealth Labour"],["Wartime rank","Major"],["Cabinet role","Minister of Defence"],["Premiership","1976–1980"],["Predecessor","Harold Wilson"],["Successor","Margaret Thatcher"]]
+    facts:[["Born","30 August 1917"],["Party","Commonwealth Labour"],["Wartime rank","Major"],["Cabinet role","Minister of Defence"],["Premiership","1976–1980"],["Predecessor","Harold Wilson"],["Successor","Margaret Thatcher"],["Post-2012 chronology","Open"]]
   }),
 
   "margaret-thatcher":laterBritishArticle({
     title:"Margaret Thatcher",eyebrow:"Prime Minister of the United Kingdom · 1980–1987",infoboxKicker:"National Liberal prime minister",
     lead:"Margaret Hilda Thatcher was a British chemist, barrister, National Liberal politician, and prime minister from 1980 until her voluntary retirement in 1987. In the setting she does not become a conventional Conservative premier: she builds the National Liberal–Constitutional Union around market discipline, Crown and Commonwealth, strategic public capacity, and the distinction between assets to preserve, lease, or transfer.",
-    canon:"Thatcher's historical early life and pre-divergence formation; movement from the Conservatives into National Liberalism; NLCU leadership and 1980 victory; 1981 reconstitution law; mixed-economy program; Falklands War; 1985 Runway Election; 1986 victory; and voluntary retirement in late 1987 are established. Exact constituency and early shadow offices remain open.",
+    canon:"Thatcher's historical early life and pre-divergence formation; movement from the Conservatives into National Liberalism; NLCU leadership and 1980 victory; 1981 reconstitution law; mixed-economy program; Falklands War; 1985 Runway Election; 1986 victory; and voluntary retirement in late 1987 are established. Exact constituency and early shadow offices remain open. Her historical death on 8 April 2013 is post-canon and is not an established setting event.",
     portrait:{src:"assets/portraits/margaret-thatcher.jpg",alt:"Portrait of Margaret Thatcher",caption:"Margaret Thatcher, 1984"},
     primarySources:[{href:"https://en.wikipedia.org/wiki/Margaret_Thatcher",label:"Margaret Thatcher — historical biography"}],
     sections:[
@@ -115,7 +115,7 @@ Object.assign(window.deepArticles,{
       {id:"retirement",title:"Victory, inquiry, and retirement",html:"<p>Britain retakes Stanley in 1986 and accepts the Punta del Este limits on punitive victory. Thatcher remains for demobilization, pensions, reconstruction, the Falklands Commission, and a first defense review, then retires voluntarily in late 1987. The NLCU chooses David Ashcombe to consolidate rather than reverse her settlement.</p>"}
     ],
     related:[{href:"national-liberal-movement.html",kicker:"Political current",label:"National Liberal Movement"},{href:"national-liberal-constitutional-union.html",kicker:"Governing party",label:"National Liberal–Constitutional Union"},{href:"falklands-war.html",kicker:"Defining conflict",label:"Falklands–Malvinas War"},{href:"david-ashcombe.html",kicker:"Successor",label:"David Ashcombe"}],
-    facts:[["Born","13 October 1925"],["Died","8 April 2013"],["Party","National Liberal–Constitutional Union"],["Premiership","1980–1987"],["1980 result","337 seats"],["1985 result","317 seats; 18 allied Crown Conservatives"],["Defining reform","Industrial Reconstitution and Reownership Act 1981"],["Successor","David Ashcombe"]]
+    facts:[["Born","13 October 1925"],["Party","National Liberal–Constitutional Union"],["Premiership","1980–1987"],["1980 result","337 seats"],["1985 result","317 seats; 18 allied Crown Conservatives"],["Defining reform","Industrial Reconstitution and Reownership Act 1981"],["Successor","David Ashcombe"],["Post-2012 chronology","Open"]]
   }),
 
   "commonwealth-labour":laterBritishArticle({

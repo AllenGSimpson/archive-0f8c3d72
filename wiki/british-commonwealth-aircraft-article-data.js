@@ -36,6 +36,14 @@ const canadianInterceptorRelated = [
   {href:"mid-atlantic-ridge-accord.html",kicker:"1968 strategic rupture",label:"Atlantic Accord"}
 ];
 
+const commonwealthAircraftListSection = rows => ({
+  id:"aircraft",title:"List of Aircraft",
+  html:`<p>The internal designation is the manufacturer's project or model code. The official designation gives the registered service or public title.</p><div class='table-wrap'><table class='wiki-table'><thead><tr><th>Internal designation</th><th>Official designation</th></tr></thead><tbody>${rows.map(([internal,official,href,provenance]) => {
+    const note = provenance === "p" ? "<sup class='canon-note' data-provenance='p'>[p]</sup>" : provenance === "a" ? "<sup class='canon-note' data-provenance='a'>[a]</sup>" : "<sup class='canon-note' data-provenance='e'>[e]</sup>";
+    return `<tr><td>${internal}</td><td>${href ? `<a href='${href}'>${official}</a>` : official}${note}</td></tr>`;
+  }).join("")}</tbody></table></div>`
+});
+
 const commonwealthAircraftType = c => commonwealthAircraftArticle({
   title:c.title,eyebrow:`${c.service} · introduced ${c.year}`,infoboxKicker:c.kicker,infoboxTitle:c.title,landscape:c.landscape,
   lead:c.lead,
@@ -92,6 +100,44 @@ Object.assign(window.deepArticles, {
     related:[{href:"cf-100-mk4-canuck.html",kicker:"1955 foundation",label:"CF-100 Mk 4 Canuck"},{href:"cf-105a-arrow.html",kicker:"1962 Mach 2 interceptor",label:"CF-105A Arrow"},{href:"cf-105b-arrow.html",kicker:"1968 improved interceptor",label:"CF-105B Arrow"},{href:"dominion-defence-in-depth.html",kicker:"Post-Accord doctrine",label:"Dominion Defence-in-Depth"},{href:"commonwealth.html",kicker:"Wider strategic system",label:"British Commonwealth"},{href:"military-technology.html",kicker:"Comparative register",label:"Military Technology"}],
     sources:[...britishStrikeLocalSources,{href:"https://nrc-digital-repository.canada.ca/eng/avro/about/",label:"National Research Council Canada — Avro Arrow archival collection"}],categories:["Canada","Royal Canadian Air Force","Military aircraft","Avro Canada","Commonwealth defense"],
     facts:[["Period","1955–1968"],["Registered aircraft","Three"],["Manufacturer","Avro Canada"],["First type","CF-100 Mk 4 Canuck"],["Mach 2 generation","CF-105 Arrow"],["A-model service","1962"],["B-model service","1968"],["Principal theater","Arctic and continental approaches"]]
+  }),
+
+  "avro-canada": commonwealthAircraftArticle({
+    title:"Avro Canada",category:"Canadian aerospace industry",eyebrow:"Malton, Ontario · interceptors, engines, and sovereign air defense · 1945–1985",infoboxKicker:"Canadian aircraft manufacturer",infoboxTitle:"A.V. Roe Canada · Avro Canada",landscape:canadianInterceptorLandscape,
+    lead:"Avro Canada is the Malton aircraft manufacturer responsible for the CF-100 Canuck and the operational CF-105 Arrow family. The company anchors Canada's sovereign interceptor design, engine, radar-integration, test, and production capacity within the British Commonwealth.",
+    canon:"Avro Canada manufacture of the CF-100 and CF-105, the 1955 Canuck introduction, operational CF-105A in 1962, and improved CF-105B in 1968 are fixed. The Malton industrial base and broad A.V. Roe Canada inheritance are retained. Exact incorporation date, subsidiaries, ownership, workforce, engines, production totals, exports, non-interceptor projects, and 1985 organization remain open.",
+    sections:[
+      {id:"malton",title:"Malton aircraft complex",html:"<p>Avro Canada develops around the wartime aircraft-production complex at Malton, Ontario. Large hangars, engineering offices, test facilities, suppliers, and proximity to Toronto support complete-aircraft programs.</p>"},
+      {id:"canuck",title:"CF-100 Canuck",html:"<p>The <a href='cf-100-mk4-canuck.html'>CF-100 Mk 4 Canuck</a> establishes domestic competence in twin-engine all-weather interception, radar integration, cold-weather operation, and series manufacture.</p>"},
+      {id:"arrow",title:"Operational Arrow family",html:"<p>The <a href='cf-105a-arrow.html'>CF-105A Arrow</a> enters in 1962 rather than being cancelled. The <a href='cf-105b-arrow.html'>CF-105B Arrow</a> follows in 1968 with improved radar, speed, and radius.</p>"},
+      commonwealthAircraftListSection([
+        ["XC-100","CF-100 Mk 4 Canuck","cf-100-mk4-canuck.html","a"],
+        ["CF-105","CF-105A Arrow","cf-105a-arrow.html","a"],
+        ["CF-105B","CF-105B Arrow","cf-105b-arrow.html","a"]
+      ]),
+      {id:"position",title:"Position in 1985",html:"<p>By 1985 Avro Canada remains Canada's principal high-performance interceptor house. Its continued existence prevents the loss of the Arrow design team and sustains a domestic air-defense prime within Commonwealth procurement.</p>"}
+    ],
+    related:[...canadianInterceptorRelated,{href:"cf-100-mk4-canuck.html",kicker:"All-weather foundation",label:"CF-100 Mk 4 Canuck"},{href:"cf-105a-arrow.html",kicker:"First operational Arrow",label:"CF-105A Arrow"},{href:"canadair.html",kicker:"Canadian manufacturing counterpart",label:"Canadair"}],
+    sources:[...britishStrikeLocalSources,{href:"https://nrc-digital-repository.canada.ca/eng/avro/about/",label:"National Research Council Canada — Avro Arrow archival collection"}],categories:["Avro Canada","Canadian aerospace industry","Aircraft manufacturers","Royal Canadian Air Force","Commonwealth defense"],
+    facts:[["Principal center","Malton, Ontario"],["Established field","All-weather and Arctic interception"],["First registered aircraft","CF-100 Mk 4 Canuck · 1955"],["Arrow service","CF-105A · 1962"],["Improved Arrow","CF-105B · 1968"],["1985 position","Principal Canadian interceptor house"]]
+  }),
+
+  "canadair": commonwealthAircraftArticle({
+    title:"Canadair",category:"Canadian aerospace industry",eyebrow:"Cartierville, Quebec · aircraft production, licensing, and support · from 1944",infoboxKicker:"Canadian aircraft manufacturer",infoboxTitle:"Canadair Limited",
+    lead:"Canadair is the Montreal aircraft manufacturer formed around the Cartierville works and Canadian Vickers aircraft organization. It preserves a second major Canadian design and production center alongside Avro Canada, specializing in licensed manufacture, adaptation, patrol, transport, and support aircraft.",
+    canon:"Canadair's presence as a major Dominion design capacity and its Canadian Vickers and Cartierville industrial inheritance are retained. The Canso production inheritance is compatible with wartime history. Exact incorporation terms, ownership, licensed types, indigenous postwar catalog, engines, production totals, exports, mergers, and 1985 organization remain open.",
+    sections:[
+      {id:"cartierville",title:"Cartierville inheritance",html:"<p>The company inherits the Montreal-area plant, workforce, tooling, and production experience of Canadian Vickers aircraft work. This gives Canada a major eastern aircraft center separate from Malton.</p>"},
+      {id:"production",title:"Licensed production and adaptation",html:"<p>Canadair's durable role lies in translating outside designs into Canadian manufacture, cold-weather operation, Commonwealth equipment standards, patrol requirements, and long service support.</p>"},
+      {id:"canso",title:"Canso production inheritance",html:"<p>The Canadian-built Canso flying boat and patrol aircraft is the clearest wartime product inherited with the Cartierville organization. Later company designations and developments require separate canon.</p>"},
+      commonwealthAircraftListSection([
+        ["CL-1","Canso",null,"e"]
+      ]),
+      {id:"position",title:"Position in 1985",html:"<p>By 1985 Canadair remains a Canadian and Commonwealth aircraft-production, adaptation, and support institution. Its exact model catalog and ownership structure remain open.</p>"}
+    ],
+    related:[...canadianInterceptorRelated,{href:"avro-canada.html",kicker:"Canadian design counterpart",label:"Avro Canada"},{href:"british-aerospace-industry.html",kicker:"Commonwealth industrial system",label:"British Aerospace Industry"}],
+    sources:[...britishStrikeLocalSources,{href:"https://en.wikipedia.org/wiki/Canadair",label:"Wikipedia — Canadair historical background"}],categories:["Canadair","Canadian aerospace industry","Aircraft manufacturers","Montreal","Commonwealth defense"],
+    facts:[["Principal center","Cartierville, Quebec"],["Industrial predecessor","Canadian Vickers aircraft organization"],["Established fields","Licensed manufacture · adaptation · patrol · transport · support"],["Wartime inheritance","Canso production"],["1985 structure","Open"]]
   }),
 
   "canberra-b2": commonwealthAircraftType({title:"Canberra B.2",year:1951,service:"Royal Air Force",mission:"Conventional bomber and reconnaissance",speed:"930 km/h",radius:"1,300 km",armament:"2,700 kg conventional stores",country:"United Kingdom",manufacturer:"English Electric",official:"canberra",landscape:britishStrikeLandscape,kicker:"First British jet bomber and reconnaissance aircraft",lead:"The Canberra B.2 was the Royal Air Force's conventional bomber and reconnaissance aircraft introduced in 1951. Its 930 km/h maximum speed, 1,300 km combat radius, and 2,700 kg stores load gave reconstructed Britain a flexible high-altitude aircraft without making atomic attack the center of Bomber Command.",identityTitle:"A fast bomber for a finite-war strategy",identityHtml:"<p>Canberra relies upon speed, altitude, and a clean airframe rather than defensive gun turrets. Its load is smaller than later strategic bombers, but the aircraft can be adapted to photography, signals, survey, training, and conventional attack.</p>",developmentHtml:"<p>English Electric develops Canberra from the B.3/45 requirement for a high-altitude successor to Mosquito. The broad historical design and B.2 foundation are retained while its strategic context remains entirely conventional.</p>",serviceHtml:"<p>The RAF introduces Canberra during the reconstruction settlement, when preserving a jet-bomber and reconnaissance industry is itself a strategic achievement.</p>",missionHtml:"<p>Conventional bombing and reconnaissance are fixed. Target sets, cameras, electronic fits, colonial or Commonwealth deployments, and combat operations remain open.</p>",systemsTitle:"Stores bay and reconnaissance adaptability",systemsHtml:"<p>A 2,700 kg standard stores load defines the bomber mission. Bomb types, cameras, signals equipment, navigation, sights, electronic countermeasures, and load-radius alternatives remain open.</p>",lineageTitle:"First branch of the strike system",lineageHtml:"<p><a href='vulcan-b2.html'>Vulcan B.2</a> later handles heavier strategic attack, while <a href='tsr-2-b1.html'>TSR-2 B.1</a> specializes in fast low-level interdiction and reconnaissance.</p>",related:[{href:"vulcan-b2.html",kicker:"Strategic successor branch",label:"Vulcan B.2"},{href:"tsr-2-b1.html",kicker:"Interdiction successor branch",label:"TSR-2 B.1"}]}),

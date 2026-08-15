@@ -8,6 +8,11 @@ const wikiRoot = path.join(projectRoot, "wiki");
 const writersRoot = path.join(wikiRoot, "_writers");
 const discussionRoot = path.join(wikiRoot, "_writer-discussion");
 const errors = [];
+const provenanceLabels = new Map([
+  ["a", "author-established canon"],
+  ["p", "pre-divergence canon"],
+  ["e", "incorporated extrapolation"]
+]);
 
 function parseFrontmatter(text, filePath) {
   if (!text.startsWith("---\n") && !text.startsWith("---\r\n")) {
@@ -56,8 +61,8 @@ for (const filePath of profileFiles) {
   try {
     const { metadata } = parseFrontmatter(await readFile(filePath, "utf8"), filePath);
     if (!metadata.code) continue;
-    if (!/^[a-z]$/.test(metadata.code) || ["a", "e"].includes(metadata.code)) {
-      errors.push(`${filePath}: writer code must be one lowercase letter other than a or e.`);
+    if (!/^[a-z]$/.test(metadata.code) || provenanceLabels.has(metadata.code)) {
+      errors.push(`${filePath}: writer code must be one lowercase letter other than the reserved provenance codes a, p, and e.`);
     } else if (writers.has(metadata.code)) {
       errors.push(`${filePath}: duplicate writer code ${metadata.code}.`);
     } else {
@@ -75,8 +80,15 @@ const sourceFiles = await filesUnder(wikiRoot, (filePath) => {
 });
 const blockIds = new Map();
 let blockCount = 0;
+let provenanceCount = 0;
 const markerPattern = /<!--\s*altwwii-writer-block:(start|end)\b([\s\S]*?)-->/gi;
+const superscriptPattern = /<sup\b([^>]*)>([\s\S]*?)<\/sup>/gi;
 const allowedKinds = new Set(["interpretation", "analysis", "context", "extrapolation", "technical", "counterfactual", "revision"]);
+
+function attributeValue(attributes, name) {
+  const match = attributes.match(new RegExp(`\\b${name}\\s*=\\s*(["'])(.*?)\\1`, "i"));
+  return match?.[2];
+}
 
 for (const filePath of sourceFiles) {
   const text = await readFile(filePath, "utf8");
@@ -98,11 +110,33 @@ for (const filePath of sourceFiles) {
     if (fields.id && blockIds.has(fields.id)) errors.push(`${filePath}: duplicate writer block id ${fields.id}; first seen in ${blockIds.get(fields.id)}.`);
     else if (fields.id) blockIds.set(fields.id, filePath);
     if (fields.kind && !allowedKinds.has(fields.kind)) errors.push(`${filePath}: unsupported writer block kind ${fields.kind}.`);
+    if (fields.writer === "v" && fields.kind && fields.kind !== "extrapolation") {
+      errors.push(`${filePath}: writer v may only use kind=extrapolation blocks.`);
+    }
     if (fields.created && Number.isNaN(Date.parse(fields.created))) errors.push(`${filePath}: invalid writer block timestamp ${fields.created}.`);
     stack.push(fields);
     blockCount += 1;
   }
   if (stack.length) errors.push(`${filePath}: ${stack.length} writer block(s) are not closed.`);
+
+  for (const match of text.matchAll(superscriptPattern)) {
+    const classes = attributeValue(match[1], "class")?.split(/\s+/) || [];
+    if (!classes.includes("canon-note")) continue;
+    provenanceCount += 1;
+    const provenance = attributeValue(match[1], "data-provenance");
+    if (!provenance) {
+      errors.push(`${filePath}: canon-note is missing data-provenance.`);
+      continue;
+    }
+    if (!provenanceLabels.has(provenance)) {
+      errors.push(`${filePath}: unsupported fact provenance ${provenance}; expected a, p, or e.`);
+      continue;
+    }
+    const visibleMark = match[2].replace(/<[^>]*>/g, "").trim();
+    if (visibleMark !== `[${provenance}]`) {
+      errors.push(`${filePath}: canon-note with provenance ${provenance} must display [${provenance}].`);
+    }
+  }
 }
 
 const discussionFiles = await filesUnder(discussionRoot, (filePath) => filePath.endsWith(".md"));
@@ -146,5 +180,5 @@ if (errors.length) {
   for (const error of errors) console.error(`- ${error}`);
   process.exitCode = 1;
 } else {
-  console.log(`Writer metadata valid: ${writers.size} active writers, ${blockCount} writer blocks, ${discussionFiles.length} discussion entries.`);
+  console.log(`Writer metadata valid: ${writers.size} active writers, ${blockCount} writer blocks, ${provenanceCount} provenance notes, ${discussionFiles.length} discussion entries.`);
 }

@@ -12,6 +12,14 @@
 
 Normal wiki-writing agents must not commit or push wiki work.
 
+The current in-setting canon date is **5 January 2012**. Treat events after that date as post-canon unless a later direct authorial statement advances the horizon. Later plans, projections, and real-world biographical dates must not be written as completed setting history.
+
+Fact-level provenance uses `[a]` for facts explicitly established by the setting author, `[p]` for real-world history before 1 August 1941 that is canon by pre-divergence inheritance, and `[e]` for incorporated extrapolation. These codes are reserved provenance marks and never identify writers.
+
+The General Canon Editor `[g]` audits and repairs existing article claims about the canon era beginning 1 August 1941. This role does not create new articles and does not fact-check properly bounded pre-divergence `[p]` material.
+
+The Connective Extrapolator `[v]` fills gaps inside established canon without extending the setting beyond its latest established date. Every `[v]` addition must use a visible `writer=v`, `kind=extrapolation` block. `[v]` is less authoritative than `[a]` and `[e]`, but compatible `[v]` material must not be removed merely because its inferred middle step is not explicit in canon.
+
 Writers must:
 
 1. Acquire the logical article lock before changing an article shell, its record in a shared `*-article-data.js` file, or its Writer Discussion.

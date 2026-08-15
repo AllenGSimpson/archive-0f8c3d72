@@ -15,6 +15,16 @@ const spanishAerospaceRelated = [
   {href:"latin-military-aviation.html",kicker:"Regional aircraft system",label:"Latin Military Aviation"}
 ];
 
+const spanishAircraftListSection = rows => ({
+  id:"aircraft",title:"List of Aircraft",
+  html:`<p>The internal designation is CASA's factory or licensed-production identifier. The official designation gives the service or public name; a dash indicates that no separate official name is established.</p><div class='table-wrap'><table class='wiki-table'><thead><tr><th>Internal designation</th><th>Official designation</th></tr></thead><tbody>${rows.map(([internal,official,href,provenance]) => {
+    const note = provenance === "p" ? "<sup class='canon-note' data-provenance='p'>[p]</sup>" : provenance === "a" ? "<sup class='canon-note' data-provenance='a'>[a]</sup>" : "<sup class='canon-note' data-provenance='e'>[e]</sup>";
+    const internalCell = href && !official ? `<a href='${href}'>${internal}</a>${note}` : `${internal}${official ? "" : note}`;
+    const officialCell = official ? `${href ? `<a href='${href}'>${official}</a>` : official}${note}` : "—";
+    return `<tr><td>${internalCell}</td><td>${officialCell}</td></tr>`;
+  }).join("")}</tbody></table></div>`
+});
+
 Object.assign(window.deepArticles, {
   "construcciones-aeronauticas": {
     title:"Construcciones Aeronáuticas",category:"Spanish aerospace companies",eyebrow:"CASA · Spanish aircraft manufacturer · founded 3 March 1923",infoboxKicker:"Aircraft manufacturer",infoboxTitle:"Construcciones Aeronáuticas, S.A. · CASA",
@@ -26,6 +36,13 @@ Object.assign(window.deepArticles, {
       {id:"licenses",title:"Licensed production",html:"<p>French, German, Italian, and later Occitan licenses provide airframes, engines, tooling, drawings, inspection methods, and production experience. CASA progressively substitutes Spanish components and adapts aircraft to national weapons, radios, climates, bases, and maintenance.</p>"},
       {id:"reconstruction",title:"Postwar reconstruction",html:"<p>Worn tools, scarce alloys, disrupted suppliers, and military demand shape the 1947 program. INI finance, Air Ministry orders, foreign technical agreements, and repair work preserve the skilled labor force while factories modernize.</p>"},
       {id:"products",title:"Trainers, transports, and patrol aircraft",html:"<p>Training aircraft support pilot expansion at manageable cost. Transports serve military logistics, Gibraltar, Morocco, islands, colonial routes, and civil operators. Maritime-patrol aircraft connect CASA to the Navy, Atlantic bases, radar, antisubmarine systems, and long-duration maintenance.</p>"},
+      spanishAircraftListSection([
+        ["CASA-Breguet XIX","Breguet XIX",null,"p"],
+        ["CASA III",null,null,"p"],
+        ["CASA 1.131","Bücker Bü 131 Jungmann",null,"e"],
+        ["CASA 2.111",null,null,"e"],
+        ["CASA 352",null,null,"e"]
+      ]),
       {id:"fighters",title:"Lightweight fighters",html:"<p>Spain does not reproduce every high-performance subsystem. CASA combines licensed engines, Occitan aerodynamics and electronics, Italian weapons and production knowledge, and Spanish structures and integration in later lightweight-fighter programs.</p>"},
       {id:"suppliers",title:"Spanish aerospace network",html:"<p>Machine shops, electrical firms, instruments, radios, tires, hydraulics, castings, sheet metal, tooling, universities, test establishments, and military depots form the wider network. CASA contracts give suppliers work beyond one aircraft type.</p>"},
       {id:"position",title:"Position in 1985",html:"<p>By 1985 CASA is Spain's leading airframe, transport, trainer, patrol, and aerospace-integration company. It remains distinct within the Latin system. Later absorption into a pan-European Airbus structure is not established.</p>"}

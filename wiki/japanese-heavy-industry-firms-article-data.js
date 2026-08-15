@@ -16,6 +16,23 @@ const heavyIndustryArticle = config => ({
   categories:config.categories || ["Japanese companies","Aerospace industry","Heavy industry","GEACPS"]
 });
 
+const japaneseHeavyAircraftListSection = rows => ({
+  id:"aircraft-list",
+  title:"List of Aircraft",
+  html:`<p>The internal designation is the Army project number, Navy letter-number code, or company project identity. The official designation gives the registered service name.</p><div class='table-wrap'><table class='wiki-table'><thead><tr><th>Internal designation</th><th>Official designation</th></tr></thead><tbody>${rows.map(([internal,official,href,provenance]) => {
+    const note = provenance === "p"
+      ? "<sup class='canon-note' data-provenance='p'>[p]</sup>"
+      : provenance === "a"
+        ? "<sup class='canon-note' data-provenance='a'>[a]</sup>"
+        : provenance === "e"
+          ? "<sup class='canon-note' data-provenance='e'>[e]</sup>"
+          : "";
+    const internalCell = href && !official ? `<a href='${href}'>${internal}</a>${note}` : `${internal}${official ? "" : note}`;
+    const officialCell = official ? `${href ? `<a href='${href}'>${official}</a>` : official}${note}` : "—";
+    return `<tr><td>${internalCell}</td><td>${officialCell}</td></tr>`;
+  }).join("")}</tbody></table></div>`
+});
+
 Object.assign(window.deepArticles, {
   "mitsubishi-heavy-industries": heavyIndustryArticle({
     title:"Mitsubishi Heavy Industries",infoboxTitle:"Mitsubishi Heavy Industries",eyebrow:"Mitsubishi Heavy-Industries · formed 1934",infoboxKicker:"Shipbuilding and aerospace company",
@@ -29,6 +46,21 @@ Object.assign(window.deepArticles, {
       {id:"marine",title:"Ships and heavy machinery",html:"<p>Merchant ships, naval construction, turbines, boilers, engines, cranes, industrial plant, railway equipment, and large structures remain core businesses. Mitsubishi can combine a yard, propulsion works, electrical supplier, insurer, bank, and trading company within one corporate-house project.</p><p>Imperial ports and resource routes make maritime capacity strategically protected.</p>"},
       {id:"aircraft",title:"Aircraft and engines",html:"<p>Aircraft production continues without a postwar aviation ban. Military aircraft, engines, transports, and licensed or jointly designed civil types sustain the factories while jet propulsion and guided systems broaden the technical base.</p><p>The company competes and cooperates with Nakajima, Kawasaki, Aichi, Kawanishi, and Tachikawa under state procurement plans.</p>"},
       {id:"space",title:"Launch vehicles and space integration",html:"<p>Mitsubishi supplies launch-vehicle structures, propulsion, tanks, engines, ground equipment, and final integration to the <a href='human-orbital-systems-program.html'>human orbital</a> and <a href='japanese-lunar-exploration-program.html'>lunar exploration</a> programs. <a href='mitsubishi-electric.html'>Mitsubishi Electric</a> contributes power, control, communications, and spacecraft electronics.</p><p>The two companies remain distinct operating concerns within the same house.</p>"},
+      japaneseHeavyAircraftListSection([
+        ["A5M","Type 96 Carrier Fighter",null,"p"],
+        ["A6M","Type 0 Carrier Fighter",null,"p"],
+        ["G3M","Type 96 Land-based Attack Aircraft",null,"p"],
+        ["G4M","Type 1 Land-based Attack Aircraft",null,"p"],
+        ["J2M","Type 3 J2M Raiden",null,"a"],
+        ["A7M","A7M Reppū",null,"a"],
+        ["A8M1","A8M1 Senpū",null,"a"],
+        ["A8M2","A8M2 Senpū",null,"a"],
+        ["A9M1","Type 16 A9M1 Shippū","a9m1-shippu.html","a"],
+        ["A9M2","A9M2 Shippū",null,"a"],
+        ["A9M3","A9M3 Shippū",null,"a"],
+        ["A9M4","A9M4 Shippū",null,"a"],
+        ["A10M1","A10M1",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Mitsubishi Heavy Industries is one of Japan's broadest heavy-engineering and aerospace companies. Its ability to integrate ships, power systems, aircraft, and launch vehicles makes it central to both commercial infrastructure and strategic procurement.</p><p>Exact plant assignments and program shares remain unregistered.</p>"}
     ],
     related:[{href:"mitsubishi-corporate-house.html",kicker:"Corporate house",label:"Mitsubishi"},{href:"mitsubishi-electric.html",kicker:"Electrical sister company",label:"Mitsubishi Electric"},{href:"human-orbital-systems-program.html",kicker:"Aerospace program",label:"Human Orbital Systems Program"},{href:"japanese-lunar-exploration-program.html",kicker:"Aerospace program",label:"Japanese Lunar Exploration Program"},{href:"nakajima-industrial-company.html",kicker:"Industrial rival",label:"Nakajima Industrial Company"}],
@@ -48,6 +80,14 @@ Object.assign(window.deepArticles, {
       {id:"systems",title:"Ships, railways, and industrial plant",html:"<p>Kawasaki builds commercial and naval vessels, railway equipment, engines, turbines, bridges, process plant, and material-handling machinery. Projects throughout Japan and associated states often combine Japanese engineering with local labor, assembly, and operation.</p><p>Transport gives the company a broader infrastructure role than an aircraft-only manufacturer.</p>"},
       {id:"aviation",title:"Aviation and propulsion",html:"<p>Aircraft, aero engines, helicopters, guided systems, and maintenance remain major fields. The company preserves military design teams after the war and later joins civil and space-related work where airframe, turbine, and control experience is relevant.</p><p>Exact aircraft assignments after the documented wartime register remain open.</p>"},
       {id:"robotics",title:"Industrial robotics",html:"<p>Automation grows from welding, material handling, machine tools, and production engineering. Kawasaki's mature robotics business supplies automobile plants, heavy manufacturers, and hazardous industrial work, linking it to the wider <a href='applied-systems-takeoff.html'>applied-systems takeoff</a>.</p><p>Foreign licensing and domestic development coexist; precise model chronology remains open.</p>"},
+      japaneseHeavyAircraftListSection([
+        ["Ki-10","Type 95 Fighter",null,"p"],
+        ["Ki-45","Type 2 Two-seat Fighter Toryū",null,"p"],
+        ["Ki-48","Type 99 Twin-engined Light Bomber",null,"p"],
+        ["Ki-61","Type 3 Fighter Hien",null,"a"],
+        ["Ki-100","Type 5 Fighter",null,"a"],
+        ["Ki-102","Type 4 Assault Aircraft",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Kawasaki is a major transport, aerospace, machinery, and automation group. Its shipyards, rolling-stock works, aviation plants, and robotic systems place it between traditional heavy industry and programmable manufacturing.</p>"}
     ],
     related:[{href:"mitsubishi-heavy-industries.html",kicker:"Heavy-industry rival",label:"Mitsubishi Heavy Industries"},{href:"nakajima-industrial-company.html",kicker:"Aviation rival",label:"Nakajima Industrial Company"},{href:"yaskawa-electric.html",kicker:"Automation specialist",label:"Yaskawa Electric"},{href:"applied-systems-takeoff.html",kicker:"Industrial transformation",label:"Applied-Systems Takeoff"},{href:"far-eastern-aircraft-industry.html",kicker:"Regional customer",label:"Far Eastern Aircraft Industry"}],
@@ -67,6 +107,14 @@ Object.assign(window.deepArticles, {
       {id:"vehicles",title:"Engines and vehicles",html:"<p>Engine manufacture provides a route into compact commercial vehicles and automotive components. These products absorb factory capacity, serve reconstruction, and connect aviation tolerances to mass civilian production.</p><p>The exact use of the Giant vehicle mark and the scale of complete-vehicle production remain open.</p>"},
       {id:"nissan",title:"Relationship with Nissan",html:"<p>Aichi supplies engines and components within the Japanese vehicle industry and develops ties to <a href='nissan-motor-company.html'>Nissan Motor</a>. Whether the historical 1960s capital alliance becomes ownership, a protected supply agreement, or a looser technical partnership in this setting remains unregistered.</p>"},
       {id:"mature",title:"Mature aerospace work",html:"<p>By the mature period Aichi occupies a specialist position in airframes, engines, naval aviation support, components, and subcontracted aerospace production. It competes for complete programs while also supplying larger integrators.</p><p>Exact postwar aircraft types and production totals remain open.</p>"},
+      japaneseHeavyAircraftListSection([
+        ["D1A","Type 94 / Type 96 Carrier Bomber",null,"p"],
+        ["D3A","Type 99 Carrier Bomber",null,"p"],
+        ["E11A","Type 98 Reconnaissance Seaplane",null,"p"],
+        ["E13A","Type 0 Reconnaissance Seaplane",null,"p"],
+        ["B7A","Type 4 Carrier Attack Aircraft Ryūsei",null,"a"],
+        ["M6A","M6A Seiran",null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Aichi is a durable Nagoya engineering company whose aircraft identity survived the war. Aviation, engines, precision manufacture, and vehicle components give it a narrower but more flexible position than the largest heavy-industrial groups.</p>"}
     ],
     related:[{href:"japanese-motor-industry.html",kicker:"Civilian market",label:"Japanese Motor Industry"},{href:"nissan-motor-company.html",kicker:"Automotive relationship",label:"Nissan Motor Company"},{href:"mitsubishi-heavy-industries.html",kicker:"Aerospace integrator",label:"Mitsubishi Heavy Industries"},{href:"far-eastern-aircraft-industry.html",kicker:"Regional industry",label:"Far Eastern Aircraft Industry"}],
@@ -86,6 +134,14 @@ Object.assign(window.deepArticles, {
       {id:"amphibious",title:"Amphibious and patrol development",html:"<p>Long maritime approaches, island territories, weak regional airfields, and extensive search areas sustain demand for amphibious aircraft. Kawanishi develops transports, patrol types, search-and-rescue aircraft, and specialized maritime systems.</p><p>Exact type designations and fleet totals remain open.</p>"},
       {id:"operations",title:"Operational role",html:"<p>Amphibians serve naval aviation, coast guards, colonial administrations, survey organizations, and civil transport operators. Their ability to operate from sheltered water is valuable where runway construction is expensive or politically sensitive.</p><p>Maintenance networks extend through Japan, the Pacific, and Southeast Asia.</p>"},
       {id:"diversification",title:"Industrial diversification",html:"<p>Pumps, hydraulic machinery, special-purpose vehicles, marine equipment, and factory products provide plausible adjacent businesses. They draw on corrosion-resistant fabrication and fluid systems without replacing aircraft as the company's defining field.</p><p>The exact subsidiary and product roster is open.</p>"},
+      japaneseHeavyAircraftListSection([
+        ["H3K","Type 90 Flying Boat",null,"p"],
+        ["H6K","Type 97 Flying Boat",null,"p"],
+        ["H8K","Type 2 Flying Boat",null,"a"],
+        ["N1K","Type 2 Fighter Seaplane Kyōfū",null,"a"],
+        ["N1K1-J","Shiden",null,"a"],
+        ["N1K2-J","N1K2-J Shiden Kai","n1k2-j-shiden-kai.html","a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Kawanishi is Japan's leading specialist in large amphibious and maritime aircraft, with a historical fighter lineage and a supporting industrial business. It is smaller than the principal system integrators but difficult to replace in its niche.</p>"}
     ],
     related:[{href:"n1k2-j-shiden-kai.html",kicker:"Historical aircraft",label:"N1K2-J Shiden Kai"},{href:"japanese-late-pacific-expansion.html",kicker:"Maritime setting",label:"Japanese Late Pacific Expansion"},{href:"limited-southern-war.html",kicker:"Regional conflict",label:"Limited Southern War"},{href:"far-eastern-aircraft-industry.html",kicker:"Regional industry",label:"Far Eastern Aircraft Industry"}],
@@ -105,6 +161,15 @@ Object.assign(window.deepArticles, {
       {id:"continuity",title:"Survival after 1947",html:"<p>The company is not dispossessed by an occupation authority and is not prohibited from aircraft manufacture. Its sites, workforce, technical archive, and military customer remain available for conversion and continued production.</p><p>Light commercial goods and vehicle work can supplement aviation without ending the corporate lineage.</p>"},
       {id:"mature",title:"Mature aircraft work",html:"<p>Trainers, liaison aircraft, utility transports, light engines, and subcontracted structures define Tachikawa's mature role. The company supplies flying schools and secondary services across Japan and associated states.</p><p>Exact postwar designs, licenses, and export operators remain open.</p>"},
       {id:"prince",title:"Relationship with Prince Motor",html:"<p>Aircraft engineers and manufacturing experience overlap with the lineage that historically produced the Tama electric car and <a href='prince-motor-company.html'>Prince Motor Company</a>. Because Tachikawa continues as an aircraft concern here, the precise transfer of personnel, patents, and vehicle operations differs from the historical occupation-era break and remains open.</p>"},
+      japaneseHeavyAircraftListSection([
+        ["Ki-9","Type 95-1 Intermediate Trainer",null,"p"],
+        ["Ki-17","Type 95-3 Basic Trainer",null,"p"],
+        ["Ki-36","Type 98 Direct-cooperation Aircraft",null,"p"],
+        ["Ki-54","Type 1 Advanced Trainer",null,"a"],
+        ["Ki-55","Type 99 Advanced Trainer",null,"p"],
+        ["Ki-74",null,null,"a"],
+        ["Ki-94-II",null,null,"a"]
+      ]),
       {id:"position",title:"Position in 1985",html:"<p>By 1985 Tachikawa is a specialist trainer, utility-aircraft, and subcontract manufacturing company. Its continuity preserves an independent reservoir of design and production capacity below the scale of Mitsubishi, Kawasaki, and Nakajima.</p>"}
     ],
     related:[{href:"prince-motor-company.html",kicker:"Related engineering lineage",label:"Prince Motor Company"},{href:"nakajima-industrial-company.html",kicker:"Aviation competitor",label:"Nakajima Industrial Company"},{href:"japanese-motor-industry.html",kicker:"Diversification field",label:"Japanese Motor Industry"},{href:"far-eastern-aircraft-industry.html",kicker:"Regional industry",label:"Far Eastern Aircraft Industry"}],

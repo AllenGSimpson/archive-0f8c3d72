@@ -1,8 +1,8 @@
-# Naval Armaments Reference, 1944–1985
+# Naval Armaments Reference, 1941–1985
 
 ## Purpose and authority
 
-This is the specialized canon reference for warships, naval auxiliaries, submarine systems, fleet doctrine, and naval development in the alternate-World-War-II setting. It establishes the 1947 armistice inventory, postwar class lineages, fixed 1985 force structure, and the naval balance immediately before the Falklands/Malvinas War.
+This is the specialized canon reference for warships, naval auxiliaries, submarine systems, fleet doctrine, and naval development in the alternate-World-War-II setting. It establishes the revised 1947 armistice audit, postwar development schools, and the naval balance around the Falklands/Malvinas War.
 
 Within that subject, this document supersedes:
 
@@ -13,11 +13,13 @@ Within that subject, this document supersedes:
 - descriptions of Argentina as incapable of building modern warships;
 - descriptions of patrol vessels and littoral combatants as interchangeable categories;
 - any strategically important ballistic-missile-submarine force dependent upon nuclear warheads;
-- the assumption that transport submarines move merchant-ship quantities of ordinary cargo.
+- the assumption that only two transport submarines could be rationalized for Germany's colonial route.
 
 Later direct user corrections still take precedence. Historical ship names retained here are intentional where the hull, construction program, or naming tradition survives the divergence.
 
-Individual hull records are maintained in [Naval Asset Registry, 1947–1985](./navalAssetRegistry%20-%20AltWWII.csv). The registry distinguishes explicit canon from historical carryovers and extrapolated hulls. This document controls class characteristics and force totals when a registry row is less authoritative.
+Individual hull records are maintained in [Naval Asset Registry, 1947–1985](./navalAssetRegistry%20-%20AltWWII.csv). The registry remains a useful naming and hull-history reconstruction, but its former five-navy 31 December 1947 mega-ledger is superseded by the revised wartime audit below. Where registry totals or individual survival assumptions conflict with this document, they require a later registry rebuild rather than controlling canon.
+
+The detailed naval-development branches incorporated into the master transcript in August 2026 also reopen many postwar class names and exact fleet totals which originated as unsupervised extrapolation. Fixed doctrines and programs are retained below; a precise hull count remains provisional unless directly reaffirmed.
 
 ## Scope
 
@@ -105,22 +107,22 @@ There is no strategically important SSBN fleet. Nuclear warheads do not exist, a
 
 | Navy and condition | Capital ships | Fleet/light carriers | Cruisers | Destroyers | Frigates, corvettes, and major escorts | Submarines |
 |---|---:|---:|---:|---:|---:|---:|
-| United States—afloat | 25 | 13 | 47 | 145 | 60 | 125 |
-| United States—operational | 20 | 11 | 40 | 105 | 40 | 95 |
-| Britain—afloat | 11 | 24 | 43 | 168 | 260 | 74 |
-| Britain—operational | 8 | 14 | 29 | 112 | 180 | 48 |
+| United States—afloat | 20 | 12 | 38 | 96 | 44 | 86 |
+| United States—operational | 14 | 9 | 29 | 72 | 30 | 62 |
+| Britain—afloat | 10 | 26 | 34 | 134 | 204 | 62 |
+| Britain—operational | 7 | 15 | 23 | 78 | 122 | 42 |
 | Germany—afloat | 5 | 2 | 11 | 48 | 64 | 820 |
 | Germany—operational or front-line | 5 | 2 | 9 | 39 | 44 | 310 |
 | Italy—afloat | 6 | 2 | 18 | 58 | 88 | 82 |
 | Italy—operational | 5 | 2 | 14 | 43 | 65 | 58 |
-| Japan—afloat | 10 | 15 | 37 | 126 | 105 | 96 |
-| Japan—operational | 10 | 12 | 30 | 98 | 75 | 70 |
+| Japan—afloat | 11 | 13 | Working audit open | Working audit open | Working audit open | c. 80 |
+| Japan—operational | 9 | 10 | Working audit open | Working audit open | Working audit open | c. 58 |
 
 These are surviving hulls, not additions to later fleets. The registry carries each survivor forward to retirement, transfer, conversion, or continued service.
 
 ## Registry reconstruction standard
 
-The armistice totals are canon; the survival of most individual wartime hulls is not recoverable after the divergence. The asset registry therefore uses a class-allocation reconstruction rather than anonymous balance rows:
+The British and American category totals and the Japanese capital/carrier/submarine totals above are the controlling revised audit. German and Italian figures remain working allocations pending the same campaign-based reconstruction. The survival of most individual wartime hulls is not recoverable after the divergence. The asset registry therefore uses a class-allocation reconstruction rather than anonymous balance rows:
 
 1. Every pre-1948 record has a service-style hull number or pennant, designation, class, subtype, propulsion plant, full-load displacement, standard crew, armament or payload, and principal role.
 2. Submarines record both surface full-load and submerged displacement. Carriers additionally record a standard air group.
@@ -140,27 +142,15 @@ Spain, Portugal, Occitania, and Argentina are not part of the locked five-navy a
 
 ## United States inheritance
 
-America never enters the general war and suffers no combat attrition. Its twenty-five battleships consist of fifteen older standard and pre-standard types, two North Carolina-class, four South Dakota-class, and four Iowa-class ships. Montana and Ohio remain under construction and commission in 1948 and 1950.
+America never enters the general war and suffers no combat attrition, but neutral budgets sharply reduce the historical emergency program. Two Montana-class battleships—*Montana* and *Ohio*—commission in 1946–47; three further authorized hulls are suspended or cancelled. All four Iowas complete more slowly than historically, and the Alaska-class large cruisers count within the twenty-capital-ship audit. Old units spend substantial time in reserve or training.
 
-America completes thirteen fleet carriers by 1947 rather than the historical mass carrier program. It builds seventy-two new destroyers for American or export use; fifty older destroyers and thirty-six modern ships pass to Britain or Commonwealth customers. The American merchant emergency program produces 720 EC2/Liberty-type ships, 180 faster Victory-type ships, and 250 tankers or specialized cargo hulls rather than 2,710 Liberty ships.
+Five Essex-class carriers complete by the end of 1947 and join the surviving prewar fleet/light-carrier core for twelve afloat and nine operational. The Navy does not build the historical masses of escort carriers, destroyer escorts, LSTs, fleet oilers, or merchant emergency hulls. Its force is formidable near American bases but lacks the practiced replenishment train for immediate transoceanic war.
 
 ## British inheritance
 
-Britain ends the extended war with eleven capital ships afloat:
+Britain ends the extended war with ten capital ships afloat: *Renown, Nelson, Rodney, Queen Elizabeth, Valiant, King George V, Duke of York, Anson, Howe,* and *Vanguard*. *Hood* was sunk before the divergence. *Prince of Wales* and *Repulse* are lost to Japan; *Warspite* is lost at Ceylon; *Barham* suffers her historical November 1941 magazine loss. *Malaya* and the surviving R-class ships leave front-line accounting through reserve, retirement, or disposal. *Vanguard* commissions in 1946; *Lion* remains incomplete at the armistice.
 
-- Hood;
-- Renown;
-- Nelson;
-- Rodney;
-- Queen Elizabeth;
-- Valiant;
-- King George V;
-- Duke of York;
-- Anson;
-- Howe;
-- Vanguard.
-
-Hood survives because the historical Denmark Strait battle never occurs, but structural exhaustion forces retirement in 1950. Prince of Wales and Repulse remain Far Eastern losses. Britain loses 175 destroyers and 95 submarines during the war but completes and receives enough replacements to retain 168 destroyers and 260 major escorts afloat.
+The Fleet Air Arm has six fleet carriers, seven light fleet carriers, and thirteen escort carriers afloat, of which four, four, and seven respectively are operational on fourteen days' notice. The operational crisis lies in destroyers and ocean escorts: the fleet remains capable of denying invasion but cannot simultaneously cover the Atlantic, Cape route, Mediterranean, Indian Ocean, and empire while clearing its repair backlog.
 
 ## German inheritance
 
@@ -183,9 +173,9 @@ Italy retains Littorio, Vittorio Veneto, Roma, Impero, Andrea Doria, and Caio Du
 
 ## Japanese inheritance
 
-Japan retains ten battleships: Yamato, Musashi, Nagato, Kongō, Haruna, Kirishima, Ise, Hyūga, Fusō, and Yamashiro. Mutsu is lost in its magazine accident, and Hiei is lost during extended Indian Ocean combat.
+Japan retains eleven capital ships afloat and nine operational. *Yamato* is repaired after Ceylon; *Musashi* and *Shinano* complete as battleships, because the Midway conversion trigger never occurs. *Mutsu* is lost in her magazine accident and one older capital ship is lost in extended Indian Ocean operations.
 
-Japan retains fifteen carriers, thirty-seven cruisers, 126 destroyers, 105 major escorts, and ninety-six submarines. It fights Britain and regional enemies but never suffers American carrier war, submarine blockade, industrial replacement pressure, or mining of the home islands.
+Thirteen fleet/light carriers are afloat and ten operational: *Akagi, Kaga, Sōryū, Hiryū, Shōkaku, Zuikaku, Taihō*, three *Unryū*-class ships, and three light or converted carriers in varying readiness. *Hōshō* is not counted as a modern operational carrier. Japan has roughly eighty ocean and fleet submarines afloat and fifty-eight operational. Exact cruiser, destroyer, and escort totals remain open pending a campaign and convoy-demand audit rather than inheriting the former mega-ledger.
 
 ---
 
@@ -203,45 +193,29 @@ No fleet has an impenetrable missile defense. The decisive advantage is usually 
 
 ---
 
-# IV. Fleet balance on 1 January 1985
+# IV. Audited fleet position on 1 January 1985
+
+The former exact all-category ledger is withdrawn. It combined registry extrapolation with later doctrine as though every class total had been authorially fixed. The detailed August 2026 naval branch instead fixed several institutional relationships and selected force totals while reopening most full-fleet counts.
 
 ## Major blue-water fleets
 
-| Category | United States | Japan | Britain | Germany |
-|---|---:|---:|---:|---:|
-| Battleships or large armored combatants | 6 | 2 | 2 | 2 |
-| Fleet carriers | 9 | 8 | 4 | 0 |
-| Light or assault carriers | 5 | 4 | 3 | 2 |
-| Missile and command cruisers | 14 | 10 | 7 | 6 |
-| Destroyers | 42 | 38 | 28 | 20 |
-| Frigates and ocean escorts | 54 | 46 | 48 | 34 |
-| Corvettes and fast missile combatants | 24 | 42 | 20 | 28 |
-| SSNs | 20 | 16 | 16 | 24 |
-| SSGNs | 8 | 6 | 4 | 14 |
-| Conventional submarines | 20 | 30 | 18 | 42 |
-| Major amphibious ships | 32 | 26 | 18 | 10 |
-| Mine-warfare ships | 24 | 32 | 28 | 30 |
-| Major replenishment and repair ships | 42 | 38 | 36 | 26 |
+| Power | Fixed or bounded 1985 position | Counts still requiring registry reconstruction |
+|---|---|---|
+| United States | Battleship-centered capital fleet; approximately **five or six** first-line fleet carriers, plus light and assault ships; carriers are institutionally air cruisers and major assault-drone bases | Exact active battleship, cruiser, escort, submarine, amphibious, and auxiliary totals; post-Essex carrier class names and hull allocation |
+| Japan | **Eight** first-line fleet carriers in four two-carrier divisions; **four** Zuihō II light carriers; four modern fast carrier-guard battleships, with the three Yamato-class hulls in reserve, support, training, or experimental work | Final active totals for the working cruiser, escort, conventional-attack, nuclear-attack, and guided-missile-submarine families |
+| Britain and Commonwealth | Premier Commonwealth surface, aviation, anti-submarine, and global-support system; four principal fleet carriers and three light/assault carriers remain the current working allocation | Final worldwide active totals outside the separately fixed South Atlantic theater pool |
+| Germany | World-leading submarine system divided among fast, nuclear, stealth/AIP, missile, bulk-freight, and special-transport schools; two Europa light carriers and two Wotan large guided-weapon ships remain active | Exact SSN, SSGN, SSK/AIP, escort, mine-warfare, auxiliary, and Unterseefrachter totals |
+
+The governing balance is qualitative rather than a disguised statistical certainty. Japan has the largest **fixed** first-line carrier force. America remains a peer blue-water aviation power with fewer first-line carriers but a much larger battleship-and-drone institution. Britain converts Commonwealth geography into surface reach and anti-submarine endurance. Germany can threaten ocean communications most seriously beneath the surface while maintaining the escorts required to keep its own Mittelafrika route open.
 
 ## Latin fleets and Argentina
 
-| Category | Italy | Spain | Portugal | Occitania | Argentina |
-|---|---:|---:|---:|---:|---:|
-| Battleships or armored combatants | 2 | 0 | 0 | 0 | 0 |
-| Fleet carriers | 2 | 2 | 0 | 0 | 0 |
-| Light or assault carriers | 1 | 1 | 0 | 1 | 1 |
-| Missile and command cruisers | 4 | 5 | 1 | 2 | 1 |
-| Destroyers | 12 | 14 | 6 | 6 | 4 |
-| Frigates | 16 | 16 | 10 | 12 | 0 |
-| Corvettes and missile craft | 18 | 16 | 10 | 8 | 18 |
-| SSNs | 3 | 3 | 0 | 2 | 0 |
-| SSGNs | 2 | 1 | 0 | 1 | 0 |
-| Conventional submarines | 8 | 8 | 8 | 6 | 6 |
-| Major amphibious ships | 10 | 10 | 6 | 4 | 4 |
-| Mine-warfare ships | 12 | 10 | 8 | 6 | 6 |
-| Major auxiliaries | 12 | 14 | 8 | 8 | 8 |
+The older numerical table remains useful only as a planning worksheet and is not binding canon. The fixed relationships are:
 
-Italy and Spain are naval peers. Italy concentrates combat density around the Mediterranean, Suez, and Red Sea; Spain emphasizes Atlantic endurance, Gibraltar, the Canaries, and support or intervention in the Americas. Portugal is a genuine oceanic second-rank navy. Occitania is the bloc’s compact technical spearhead.
+- Italy and Spain are naval peers. Italy concentrates combat density around the Mediterranean, Suez, and Red Sea; Spain emphasizes Atlantic endurance, Gibraltar, the Canaries, and support or intervention in the Americas.
+- Portugal is a genuine oceanic second-rank navy with cruiser, destroyer, submarine, amphibious, mine-warfare, and support capacity rather than an escort-only service.
+- Occitania is the bloc's compact technical spearhead, especially in sensors, electronics, guided weapons, and experimental submarines.
+- Argentina operates a complete regional fleet built around *Almirante Brown*, a continuously modernized carrier system, German-derived submarines, domestic missile corvettes, amphibious shipping, mines, and auxiliaries. Its exact 1985 category totals remain subordinate to a rebuilt hull registry.
 
 ---
 
@@ -322,9 +296,9 @@ The Royal Fleet Auxiliary operates thirty-six major oilers, stores ships, repair
 
 ## Strategic character
 
-> The surface fleet fixes, threatens, and displays. The U-boat fleet destroys.
+> Submarines are the decisive offensive arm. Escorts are the indispensable communications arm. Heavy surface ships prevent an opponent from concentrating freely against either one.
 
-Germany maintains enough surface power to cover U-boat exits, protect Norway and Iceland, escort replenishment groups, support client fleets, and demonstrate technology. It does not attempt to match Japanese or American carrier numbers.
+Dönitz is vindicated by the Atlantic campaign without erasing Raeder's surface program. Plan Z construction already under way continues, and Germany's surface fleet acquires a positive postwar mission: protect the Europe–Mittelafrika connection. Ocean escorts, destroyer leaders, cruisers, maritime patrol aviation, bases, and an Africa Squadron keep ordinary convoy traffic moving to Duala, Kribi, Pointe-Noire, Matadi, Dakar, and other route ports. The offensive U-boat arm still receives priority, but the Navy is not merely a submarine force with ceremonial targets attached.
 
 ## Capital, carrier, and cruiser lineage
 
@@ -358,30 +332,37 @@ German destroyers retain `Z` numbers, frigates `F` numbers, and fast combatants 
 
 ## Submarine line
 
-| Type | Built | Introduction | Propulsion | Mission | Active in 1985 |
-|---|---:|---|---|---|---:|
-| XXI | 184 | 1944–1950 | Diesel-electric | Ocean attack | 0 front-line |
-| XXIII | 96 | 1944–1949 | Diesel-electric | Coastal attack | 0 front-line |
-| XXIV | 72 | 1951–1959 | Diesel-electric | Long-range ocean attack | 16 |
-| XXVII | 54 | 1954–1965 | Diesel-electric | Coastal and export | 10 |
-| XXIX | 36 | 1960–1969 | Diesel-electric | Deep-ocean quiet attack | 0 front-line |
-| XXX | 14 | 1962–1973 | Nuclear | First Jagd-U-Boot | 10 |
-| XXXI | 10 | 1967–1976 | Nuclear | Guided-missile attack | 8 after two transport conversions |
-| XXXII | 24 | 1972–1984 | Diesel-electric | Advanced quiet attack | 16 |
-| XXXIII | 18 | 1974–1985 | Nuclear | Second-generation attack | 14 |
-| XXXIV | 8 | 1981–1985 | Nuclear | Long-range guided-missile attack | 6 |
+Germany maintains three first-line design schools rather than one ladder in which nuclear power simply replaces conventional boats.
 
-The 1985 front line is forty-two SSKs, twenty-four SSNs, and fourteen SSGNs. Intelligence services can estimate construction but cannot reliably establish patrol state, readiness, conversion status, or which similar signatures represent different boats.
+| Type or school | First major period | Governing design priority | Canon status |
+|---|---:|---|---|
+| Type XXI | 1944 onward | General ocean Elektroboot; fully submerged operations | Wartime mass operational basis |
+| Type XXVI | 1945–47 | Walter high-performance escort hunter | Elite, scarce, and technically secret |
+| Type XXV | 1946–47 trials | Teardrop hull, extreme submerged sprint, maneuverability | Battery-limited experimental fast-school ancestor |
+| Type XXIV A | c. 1951 | Acoustic discipline, passive sensing, ambush patrol | Conventional founding boat of the stealth school |
+| Type XXIV B / Versuch | c. 1954–56 | Inserted Stirling AIP plant | First German naval Stirling demonstrator |
+| Type XXIX | c. 1959–61 | Purpose-designed Stirling AIP **Lauerboot** using seabed terrain | Mature stealth school |
+| Type XXX | c. 1962 | Nuclear endurance, Type XXV hydrodynamics, and quieting lessons | Nuclear Jagd-U-Boot school |
+| Type XXXI and later missile derivatives | late 1960s onward | Submerged conventional guided-missile attack | Concealed bombardment school |
+
+A Jagd-U-Boot goes looking for the convoy; a Lauerboot waits where the convoy must cross. Type XXIX is designed for **Bodenlage** (bottoming) and **Schwebelage** (near-motionless suspension). It uses a strong pressure hull, retractable broad-footed `Bodenstützen`, pressure depth, downward acoustic altimetry, seabed-approach controls, and expendable or sacrificial contact fittings. Routine first-generation bottoming is approximately 50–200 m, appropriate to much of the North Sea; 700–900 m Norwegian-Trench-class work belongs to later development, and abyssal-ocean fantasy depths do not.
+
+Engineered mineral-composite facing over elastomeric acoustic treatment helps the boat resemble a complicated seabed return. It is more effective at frustrating classification than preventing every initial detection. British multistatic sonar, detailed bottom mapping, and repeated observations become the natural countermeasures.
+
+Lauerboote retain ordinary horizontal torpedo tubes. Specialized vertical buoyant or low-powered quiet weapons attack a ship's underside from a static firing position and become one ancestor of later German VLS; they do not replace flexible torpedo batteries. Nuclear and AIP boats remain complementary because the former offers endurance and pursuit while the latter can reduce machinery activity to an exceptionally low ambush state. Exact postwar construction totals remain open pending a new registry audit.
 
 ## Submersible transports
 
-| Type | Introduction | Built or converted | Submerged displacement | Crew | Normal payload | Speed | Endurance | 1985 status |
-|---|---:|---:|---:|---:|---:|---:|---:|---|
-| Type XXVIII Unterseefrachter | 1959 | 4 | 4,900 t | 42 | 500 t | 16 kn | 70 days | Two reserve or commercial |
-| Type XXXI/T conversion | 1974 | 2 | 11,800 t | 52 plus 20 specialists | 800 t | 23 kn | 100 days | Two operational |
-| Type XXXV Unterseetransportschiff | 1982 | 2 | 15,200 t | 48 plus 24 specialists | 1,050 t | 24 kn | 120 days | Two operational |
+The transport arm divides into two branches.
 
-Type XXXV has 2,400 m³ of dry cargo volume and two floodable heavy bays. It can carry two medium armored vehicles or five light vehicles, but ammunition, missile seekers, radar components, engines, sonar, medical cargo, and technicians are far more efficient payloads. All three types are unarmed and depend upon stealth, decoys, intelligence, and attack-submarine route clearance.
+| Branch | Development | Normal purpose |
+|---|---|---|
+| **Unterseefrachter** | Type XXVIII experiments in the late 1950s lead to a mature nuclear class in the 1960s–80s | Several-thousand-ton blockade-running loads preserving minimum strategic sealift to Mittelafrika |
+| **Unterseetransportschiff** | Smaller conversions and purpose-built special transports | Missiles, electronics, engines, medical stores, technicians, special forces, and deniable transfers |
+
+The mature Unterseefrachter is a 30,000–45,000-ton submerged vessel with working useful cargo on the order of 8,000 tonnes, specialized surface-loading hatches, and dedicated berths in Europe and Mittelafrika. It normally surfaces for cargo operations and is escorted underwater by one or two Jagd-U-Boote running ahead and abeam. It is protected from gunfire and surface raiders while submerged but remains vulnerable to submarines, mines, active sonar, and ASW aviation. Germany builds a real class—roughly enough for several boats to load, transit, unload, and refit concurrently—rather than a two-hull curiosity; the exact total remains open.
+
+Even an eight-boat class moves only the equivalent of several ordinary Liberty-sized freighters per complete cycle. It cannot replace cheap surface shipping or sustain all of Mittelafrika through an indefinite blockade. Its purpose is to make closure of the surface route mean ruthless prioritization rather than immediate severance. The smaller Unterseetransportschiff branch remains the correct model for operations such as Nachtbrücke.
 
 The Deutsche Ozeanische Reederei supplies civilian-commercial cover. Navy-built hulls, naval reservists, military navigation data, and classified tasking make the legal fiction fragile.
 
@@ -395,52 +376,61 @@ Japan’s carrier system integrates fleet and light carriers, land-based naval a
 
 ## Battleships and carriers
 
-| Class | Ships or number | Commissioning | 1985 full load | Standard 1985 air group or armament | Status |
-|---|---|---|---:|---|---|
-| Yamato | Yamato; Musashi | 1941; 1942 | 74,800 t | Nine 460 mm guns; SAMs; anti-ship missiles; helicopters | Active |
-| Taihō improved | Taihō and follow-ons | 1944–1948 | 42,000 t | 68 aircraft | Taihō active after reconstruction |
-| Shinano | Shinano | 1946 | 71,000 t | 64 aircraft | Active |
-| Amagi | Four ships | 1957–1965 | 53,000 t | 66 aircraft | Active |
-| Hakuryū | Hakuryū; Sōryū | 1980; 1983 | 76,000 t | 84 aircraft | Active |
-| Zuihō II light carrier | Four ships | 1962–1969 | 28,000 t | 24 fighters plus helicopters | Active |
+| Class or program | Commissioning | Built | Propulsion | Governing role |
+|---|---:|---:|---|---|
+| Yamato | inherited through 1945 | 3 | Oil steam | *Yamato, Musashi,* and battleship *Shinano*; wartime heavy core and later reserve/support |
+| Kii | 1958–63 | 2 | Oil steam | 31-knot carrier-guard battleship with 460 mm battery; *Kii* and *Owari* |
+| Shinano reconstruction | c. 1970–74 | 1 conversion | PWR | Nuclear battleship and electrical testbed |
+| Suruga | 1977–82 | 2 | PWR | Mature nuclear fast carrier-guard battleship |
+| Hiryū II | 1957–64 | 4 | Oil steam | First clean-sheet jet fleet carrier |
+| Taihō II | 1967–75 | 4 | PWR | First production nuclear carrier generation |
+| Hakuryū | 1981–90 | 4 ordered | PWR | True Japanese nuclear supercarrier; two operational by 1985 |
+| Zuihō II | 1962–69 | 4 | Oil steam | Light carrier for regional cover, ASW, training, and secondary operations |
 
-The active fleet carriers are Shinano, Taihō, Amagi, Katsuragi, Aso, Ikoma, Hakuryū, and Sōryū. The active light carriers are Zuihō, Shōhō, Ryūhō, and Hiyō.
+The 1985 first-line target is eight fleet carriers—two Hiryū II, four Taihō II, and two Hakuryū—organized as four two-carrier battle divisions. Four modern fast battleships, two Kii and two Suruga, act as heavy “big brothers” rather than the offensive center. The three Yamato-class hulls remain prestigious reserve, bombardment, training, and experimental assets. Japan, unlike America, openly builds a proper supercarrier because carrier aviation is the decisive fleet weapon.
 
 ## Cruisers and escorts
 
 | Class | Built | Introduction | Full load | Active in 1985 | Role |
 |---|---:|---|---:|---:|---|
-| Ibuki aviation missile cruiser | 2 | 1954–1957 | 13,000 t | 2 | Command, missiles, and helicopter aviation |
-| Takao II missile cruiser | 4 | 1960–1967 | 14,000 t | 4 | Carrier-group air defense and surface strike |
-| Maya command cruiser | 4 | 1974–1982 | 16,500 t | 4 | Eighty missile cells, fleet command, and two helicopters |
-| Asakaze destroyer | 12 | 1954–1961 | 4,200 t | 12 | First postwar missile destroyer |
-| Amatsukaze destroyer | 14 | 1962–1970 | 5,400 t | 14 | Area defense and carrier escort |
-| Hatsuyuki destroyer | 12 | 1974–1982 | 6,200 t | 12 | Networked multipurpose destroyer |
-| Isuzu escort | 14 | 1952–1960 | 2,400 t | 14 | General escort |
-| Chikugo escort | 18 | 1961–1970 | 3,100 t | 18 | ASW and imperial-route escort |
-| Yūbari frigate | 14 | 1972–1981 | 4,000 t | 14 | Missile frigate with helicopter |
+| Takao II | 4 | 1959–66 | Working design open | 4 | Conventional carrier-group air defense, information coordination, and command |
+| Maya II | 4 | 1970–78 | Working design open | 4 | First production nuclear command cruiser |
+| Chōkai II | 4 planned | 1983–91 | Working design open | Initial hulls | Second-generation compact-PWR command cruiser |
+| Asakaze II | 12 | 1953–61 | Working design open | Working | First postwar fleet escort |
+| Amatsukaze II | 14 | 1962–70 | Working design open | Working | Mature conventional SAM/ASW carrier escort |
+| **Inazuma** | 4 | 1972–76 | Oversized PWR destroyer | 4 | First nuclear fleet destroyer; area defense, ASW, command, and large electrical reserve |
+| Hatsuyuki | 16 | 1974–84 | Working design open | Working | Economical conventional mass escort built alongside Inazuma |
+| Shiranui II | from c. 1980 | Working total open | 7,500–8,000 t class | Initial hulls | Smaller second-generation nuclear destroyer |
+| Postwar frigate families | Working total open | 1950s–85 | Working design open | Open | Route defense and carrier outer screen; nuclear frigate remains a later objective |
+
+The first nuclear destroyer is named **Inazuma** (“Lightning”); sisters continue meteorological names such as *Ikazuchi, Arashi,* and *Hayate*. Nuclear ships lose the great oil-fired funnel, though auxiliary exhausts and ventilation remain. By 1985 elite Japanese formations have a recognizable funnel-light silhouette dominated by radar, integrated masts, aviation facilities, and missile directors.
 
 ## Submarines
 
-| Family | Type | Built | Introduction | Active in 1985 | Mission |
-|---|---|---:|---|---:|---|
-| Type 30 Uzushio | SSK | 18 | 1970–1978 | 12 | Coastal and ocean attack |
-| Type 38 Yūshio | SSK | 18 | 1978–1985 | 18 | Modern quiet conventional attack |
-| Type 24 nuclear attack | SSN | 8 | 1964–1972 | 8 | Fleet attack |
-| Type 38 nuclear attack | SSN | 8 | 1978–1985 | 8 | Second-generation fleet attack |
-| Type 32 guided missile | SSGN | 6 | 1972–1979 | 6 | Long-range anti-ship and land attack |
+The former Type 30/38 and fixed thirty-SSK, sixteen-SSN, and six-SSGN ledger is reopened. Japan unquestionably maintains conventional attack, nuclear fleet-attack, guided-missile, special-aviation, and assault-transport branches, but their final service types and 1985 hull totals require the same role-first reconstruction as the surface fleet.
 
-Older I-201, Type 15 Kuroshio, and Type 23 Oyashio boats furnish the training, reserve, export, and experimental inheritance but are outside the thirty-boat front-line 1985 SSK total.
+| School | Development basis | 1985 mission | Canon status |
+|---|---|---|---|
+| High-speed conventional attack | I-201 and later teardrop-hull experience | Coastal denial, strait ambush, training, and economical ocean patrol | Fixed role; postwar class sequence and total open |
+| Nuclear fleet attack | First-generation PWR boats in the late 1950s–60s, followed by compact-PWR improvement | Carrier screening, enemy-submarine hunting, distant reconnaissance, and independent attack | Fixed school; class names and total open |
+| Guided-missile submarine | Large Japanese ocean-submarine and missile-control experience | Long-range anti-ship attack and conventional land strike | Fixed school; class names, magazine arrangement, and total open |
+| Aviation submarine | I-400 proof, then floatplane, early-jet, VTOL, nuclear, multi-hull, and drone development | Covert reconnaissance, special strike, deception, and remote aviation presence | Fixed small strategic branch; mature 1980s force approximately four or five boats |
+| Undersea assault transport | Wartime transport submarines and special-force carriage | Marines, swimmers, minisubmarines, high-value cargo, and surprise lodgment | Fixed role; postwar classes and total open |
 
-## Special transport submarines
+PWR remains the operational Japanese naval-reactor standard through 1985. Japan has already selected the long-term winner—a sealed U-233-fueled fluoride MSR supplied by a thorium fuel cycle ashore—but it does not place a mature production MSR in a warship during this reference period. Compact PWRs make the second nuclear-destroyer generation smaller and cheaper first; experimental naval MSR installation follows around the late 1980s or 1990s, with frigate-scale standardization only in the 2000s.
 
-| Class | Introduction | Built | Submerged displacement | Crew | Standard mission load | Speed | Endurance |
-|---|---:|---:|---:|---:|---|---:|---:|
-| Type D / I-361 | 1944 | 12 through 1947 | 2,200 t | 55 | 90 t cargo or 80 troops | 13 kn | 60 days |
-| Type 18 / I-460 | 1958 | 4 | 3,900 t | 44 | 100 troops and 150 t cargo | 18 kn | 65 days |
-| Type 36 / I-490 | 1976 | 3 | 8,800 t | 46 | 96 troops and 220 t cargo | 23 kn | 90 days |
+## Special aviation and assault submarines
 
-The nuclear I-490 carries two minisubmarines or four swimmer-delivery vehicles. Japan treats it as a surprise amphibious door rather than a recurring supply line. A human command team directs the landing while attack submarines and a signals-intelligence boat screen the approach.
+Japan's submarine arm divides into fleet scouts and attackers, independent raiders, and a small strategic special-mission force. I-400, I-401, and possibly I-402 remain numbered wartime experiments carrying three recoverable Seiran float attack aircraft.
+
+In the **Sharjah raid**, I-400 surfaces before dawn in the Gulf of Oman, launches three float-equipped Seirans, and dives. The aircraft make a single dawn pass over RAF Sharjah, burn a fuel tank, damage minor equipment, miss with one bomb, wound a handful of personnel, and suffer one light control-surface hit. All three recover to the surfaced submarine at a displaced rendezvous. I-400 dives only minutes before British reconnaissance reaches the area and finds no carrier or tender. The damage is negligible; the intelligence impossibility proves the program: Japan placed a recoverable air strike beyond the expected map of its naval aviation without revealing the launching platform.
+
+The postwar special force then separates into:
+
+- **aviation submarines**, whose successive floatplane, awkward early-jet, and finally VTOL generations solve launch and recovery;
+- **undersea assault transports**, which carry marines, special forces, minisubmarines, swimmer vehicles, and high-value cargo.
+
+Mature aviation submarines are very large, broad multi-hull nuclear ships carrying approximately six high-performance aircraft rather than twenty. Four or five provide a tiny strategic force by the 1980s. They retain administrative I-numbers but receive individual names from mythological sea beings and deities: the lead institutional successor is **I-500 Ryūjin**, followed by names such as *Watatsumi*. Existence is difficult to hide; exact aviation purpose remains a closely held secret. Recovery is possible but optional during a high-threat strike, and later drones make the aviation volume increasingly useful.
 
 ---
 
@@ -475,46 +465,49 @@ Smaller patrol craft, minesweepers, landing craft, depot ships, and transports a
 
 ## Strategic character
 
-Without Pearl Harbor, the United States never experiences a cultural destruction of battleship prestige. It nevertheless recognizes Japanese carrier strength and creates the world’s most expensive balanced fleet. The Navy remains responsible for carrier aviation, conventional sea-launched strategic strike, amphibious warfare, and hemispheric sea control.
+Without Pearl Harbor, the United States never experiences the institutional destruction of battleship prestige. It is not anti-carrier; it rejects **carrier primacy**. Ceylon teaches that carrier aircraft provide reach and initiative while Yamato's battle line protects the fleet when weather, darkness, recovery cycles, or damage interrupt aviation.
+
+The battleship is the armored command-and-control center and the only capital-ship category. A carrier is institutionally an **air cruiser**: its aircraft are its battery, it has wide tactical freedom, and it may be larger than a battleship, but it remains the fleet's long arm rather than its body. Heavy cruisers lead smaller task groups and reinforce the battle line. Light cruisers are fast reconnaissance, electronic, relay, and anti-air nodes. Destroyers retain torpedo, gun, AA, and ASW work; frigates are the specialist submarine hunters.
+
+American assault drones grow from the TDN/TDR/XPDR family without a captured V-1 lineage. Carriers become their principal naval base. By the 1980s a fleet carrier has a protected Drone Operations Center below the flight deck, auxiliary control positions, a separate packed-drone handling bay, deck-edge launch rails, unusually dense communications and relay equipment, and several dozen simultaneous supervisory or terminal-control channels. Manned fighters remain visible on deck while much of the carrier's strike magazine is folded below.
+
+Cheap domestic oil delays American surface nuclear propulsion. Submarines receive reactors when submerged endurance justifies them; experimental cruiser **USS Chicago** proves the surface plant; selected carriers and battleships turn nuclear only in the late 1970s and 1980s. America develops nuclear capital ships, not an all-nuclear navy.
 
 ## Battleships and carriers
 
-| Class | Ships | Commissioning | 1985 full load | Standard 1985 armament or air group |
-|---|---|---|---:|---|
-| Iowa | Iowa; New Jersey; Missouri; Wisconsin | 1943–1945 | 58,000 t | Nine 406 mm guns; surface and land-attack missiles; area and close defense |
-| Montana | Montana; Ohio | 1948; 1950 | 70,000 t | Twelve 406 mm guns; surface and land-attack missiles; area and close defense |
-| United States carrier | United States; Constitution; Independence | 1957–1963 | 74,000 t | 86 aircraft |
-| Enterprise carrier | Enterprise; Franklin | 1965; 1970 | 80,000 t | 88 aircraft |
-| Saratoga carrier | Saratoga; Ranger; Yorktown; Lexington | 1973–1981 | 86,000 t | 92 aircraft |
+| Generation | First major commission | Governing role |
+|---|---:|---|
+| Iowa | 1943–45 | Fast battle wing; later missile, command, and drone-spotting refits |
+| Montana | 1946–47 | *Montana* and *Ohio*; heavy answer to the Yamato family, with later experimental nuclear work on one hull |
+| Kentucky | c. 1960 | First genuinely postwar missile-and-gun battleship generation |
+| Maine | c. 1984 | First clean-sheet nuclear battleship; armored fleet command center, missiles, heavy guns, helicopters, sensors, and reconnaissance drones |
+| First jet/drone fleet carrier | c. 1958 | Conventional carrier built around fighters, manned strike aircraft, and a large assault-drone establishment |
+| Enlarged conventional jet/drone carrier | c. 1969 | Greater control bandwidth, packed-drone volume, and fleet air defense |
+| Enterprise nuclear generation | c. 1979 | First mature nuclear American carrier generation; still an air cruiser, not the fleet capital ship |
 
-Five light or assault carriers consist of three Wasp-class helicopter assault ships and two America-class VTOL/amphibious carriers.
+America has approximately five or six first-line fleet carriers in 1985, supplemented by light and assault ships, rather than the former nine-supercarrier inventory. Exact class names and hull counts after the inherited Essex generation remain open except where fixed above. The Navy never treats a giant carrier as a prestige requirement for its own sake; volume goes into air defense, control spaces, and folded drones rather than establishing carrier supremacy.
 
 ## Cruisers, destroyers, and frigates
 
-| Class | Built | Introduction | Full load | Active in 1985 | Role |
-|---|---:|---|---:|---:|---|
-| Long Beach | 3 | 1961–1968 | 17,000 t | 3 | Nuclear carrier air defense and command |
-| California | 5 | 1971–1979 | 12,500 t | 5 | Nuclear missile escort |
-| Ticonderoga | 6 | 1982–1985 | 10,000 t | 6 | Phased-array fleet defense and command |
-| Charles F. Adams destroyer | 24 | 1960–1970 | 4,800 t | 18 | Missile fleet escort |
-| Spruance destroyer | 24 | 1975–1984 | 8,000 t | 24 | Quiet multipurpose and ASW destroyer |
-| Knox frigate | 30 | 1968–1977 | 4,200 t | 30 | Long-range ASW escort |
-| Perry frigate | 24 | 1977–1985 | 4,100 t | 24 | Economical ocean escort |
+| Generation | Introduction | Role |
+|---|---:|---|
+| Automatic-gun heavy cruiser | 1950s | Armored task-group center and battle-line support |
+| **USS Chicago** experimental nuclear cruiser | 1960s | Nuclear surface-propulsion demonstration, command, and fleet air defense; named for Chicago Pile-1 |
+| Mature drone/C2 heavy cruiser | mid-1960s | Task-group command, assault-drone relay, and distributed AA |
+| New conventional heavy cruiser | mid-1980s | Mature command, missile, gun, and drone architecture after nuclear cruiser economics disappoint |
+| Automatic-AA light cruiser | early 1950s | Fast fleet AA and reconnaissance |
+| Scout-information light cruiser | mid-1960s | Radar, EW, communications, and drone relay |
+| Mature electronic scout cruiser | early 1980s | Fleet information node with missiles, guns, and substantial drone complement |
+| General-purpose destroyer families | 1950s–80s | Torpedo attack, gun action, distributed AA, ASW, and drone work |
+| Ocean frigate families | 1950s–80s | Specialist ASW and convoy escort |
+
+Exact postwar cruiser, destroyer, and frigate class names and totals remain open. The former California/Ticonderoga/Adams/Spruance/Knox/Perry reconstruction imported too much of the historical carrier navy and is not active canon.
 
 ## Submarines and amphibious forces
 
-| Class | Type | Built | Introduction | Front-line in 1985 | Role |
-|---|---|---:|---|---:|---|
-| Sturgeon | SSN | 12 | 1970–1980 | 8 | Long-range attack |
-| Los Angeles | SSN | 12 | 1978–1985 | 12 | Fleet attack and carrier escort |
-| Triton | SSGN | 4 | 1965–1972 | 4 | Conventional strategic missile attack |
-| Longbow | SSGN | 4 | 1976–1983 | 4 | Submerged VLS strike |
-| Tang/Barbel families | SSK | 20 active | 1951–1965 | 20 | Arctic, Caribbean, and coastal patrol |
-| Iwo Jima | Amphibious | 7 | 1961–1970 | 7 | Helicopter assault |
-| Austin | Amphibious | 12 | 1965–1977 | 12 | Landing-platform dock |
-| Newport | Amphibious | 13 | 1970–1983 | 13 | Fast tank landing ship |
+The post-1947 submarine service is smaller than the former Sturgeon/Los Angeles/Triton/Longbow reconstruction implied: a capable nuclear reconnaissance/attack elite, a conventional coastal and training branch, and a very small experimental guided-missile branch. Exact 1985 class names and hull totals are open. Submarines remain scouts, fleet-support attackers, and independent raiders because America never fights the unrestricted Pacific submarine war that would validate a larger institution.
 
-Earlier nuclear attack boats remain in training, intelligence, or secondary service and do not increase the twenty-boat front-line total.
+Amphibious development remains important after the Philippine War and hemispheric interventions, but the historical Iwo Jima/Austin/Newport production totals are not automatically inherited. Helicopter assault, landing-platform dock, and fast tank-landing functions all exist; their alternate class registry remains to be reconstructed.
 
 ---
 
@@ -674,10 +667,10 @@ Britain is nationally stronger, but Argentina can concentrate near mainland air 
 | Year | System or decision |
 |---:|---|
 | 1944 | German Type XXI and XXIII; Japanese I-361 transport submarines; late-war radar and guided-weapon fleet |
-| 1947 | Armistice naval ledger becomes the postwar starting inventory; Friedrich der Große and Peter Strasser commission |
+| 1947 | Revised campaign-based armistice audit becomes the postwar starting inventory; Friedrich der Große and Peter Strasser commission |
 | 1949 | Großdeutschland and HMS Lion commission |
-| 1950 | USS Ohio and HMS Hood retirement; missile-transition programs accelerate |
-| 1958 | Latin Naval Materiel Board; Japanese I-460; HMS Malta; Spanish Hispanidad |
+| 1950 | Early postwar reserve and disposal programs accelerate alongside missile-transition studies; *Hood* remains a pre-divergence loss and *Ohio* a newly commissioned Montana-class ship |
+| 1958 | Latin Naval Materiel Board; first postwar Japanese special-mission submarine generation (final class identity reopened); HMS Malta; Spanish Hispanidad |
 | 1959 | German Type XXVIII cargo submarine and British Oberon enter service |
 | 1962 | German Europa carrier, British County cruiser, and first German Type XXX SSN generation |
 | 1964 | Spanish Reina Isabel carrier and Italian Augusto carrier |
@@ -687,15 +680,15 @@ Britain is nationally stronger, but Argentina can concentrate near mainland air 
 | 1973 | HMS Commonwealth commissions |
 | 1974 | Germany delivers ARA Almirante Brown and Argentina commissions her in mid-year; German missile-cruiser public demonstration; Type XXXI/T conversion begins |
 | 1975 | Spanish Canarias II, British Resolute SSGN, and modern Occitan SSK generation |
-| 1976 | German Typ 76 destroyer development; Japanese I-490 nuclear special transport |
-| 1978 | Wotan, Provence aviation cruiser, Invincible, and first Type 38 Japanese SSNs |
+| 1976 | German Typ 76 destroyer development; Japanese nuclear special-mission submarine generation expands into aviation and assault-transport roles |
+| 1978 | Wotan, Provence aviation cruiser, Invincible, and second-generation Japanese nuclear attack-submarine development |
 | 1979 | Italian Aquila II and continuously modernized Argentine carrier system |
-| 1980 | Hakuryū nuclear carrier and first modern Japanese fleet-network generation |
-| 1981 | German Type XXXIV SSGN, Trafalgar SSN, and Mediterraneo cruiser generation |
+| 1980 | Mature Japanese nuclear carrier-network generation; smaller Shiranui II nuclear-destroyer development |
+| 1981 | Later German Type XXXI-derived SSGN development, Trafalgar SSN, and Mediterraneo cruiser generation |
 | 1982 | First Type XXXV Unterseetransportschiff; Wotan-class Siegfried; first Espora corvette |
-| 1983 | Japanese Sōryū, Spanish Numancia SSGN, and German Nordring-linked maritime surveillance |
+| 1983 | Hakuryū supercarrier generation, Spanish Numancia SSGN, and German Nordring-linked maritime surveillance |
 | 1984 | Second Type XXXV; Operation Nachtbrücke preparation; Aigrette SSGN |
-| 1985 | Revised fleet totals locked; Falklands/Malvinas War begins with the forces recorded here |
+| 1985 | Revised fleet relationships and selected carrier/capital-ship totals fixed; all-category fleet ledgers remain open except for the separately defined Falklands theater forces |
 
 ---
 
@@ -714,8 +707,11 @@ Britain is nationally stronger, but Argentina can concentrate near mainland air 
 | Argentina unable to build warships | Licensed and domestic production at Río Santiago, Tandanor, and Puerto Belgrano |
 | Patrol vessel equals littoral combatant | Patrol vessel is constabulary; littoral combatant is a fighting umbrella category |
 | SSBN used for any large missile submarine | SSG or SSGN unless a nuclear ballistic-warhead mission exists |
-| Transport submarine as underwater merchant freighter | Special strategic transport for small, decisive, high-value cargo |
+| All transport submarines reduced to small high-value-cargo boats | Separate bulk Unterseefrachter for minimum Mittelafrika sealift and smaller special-mission Unterseetransportschiffe |
 | Type XXXV routinely delivering tanks | Vehicle carriage is exceptional; spares, ammunition, electronics, and specialists dominate |
+| 31 December 1947 five-navy mega-ledger as binding canon | Revised British, American, and Japanese campaign-based audit in this document; German and Italian totals remain working allocations |
+| Historical-style nine-supercarrier American fleet | Five or six first-line air-cruiser carriers plus continued battleship-centered capital fleet |
+| Exact 1 January 1985 all-category fleet ledger | Selected fixed totals and qualitative fleet relationships in Part IV; remaining class and hull counts require registry reconstruction |
 | Britain deploys its entire navy to the Falklands | Large rotating theater pool with a smaller simultaneous force |
 
 ## Remaining decisions

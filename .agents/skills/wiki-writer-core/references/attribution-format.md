@@ -13,13 +13,23 @@ The runtime converts the boundary into a `data-writer` wrapper and appends the v
 Requirements:
 
 - `id`: globally unique `wb-<writer>-<YYYYMMDD>-<five lowercase letters or digits>`.
-- `writer`: an active permanent code from `wiki/_writers/registry.md`; never `a` or `e`.
+- `writer`: an active permanent code from `wiki/_writers/registry.md`; never the reserved provenance codes `a`, `p`, or `e`.
 - `kind`: `interpretation`, `analysis`, `context`, `extrapolation`, `technical`, `counterfactual`, or `revision`.
 - `created`: an ISO 8601 timestamp with timezone.
 - Start and end markers must share one HTML parent after rendering and may not nest.
 - A block should contain one coherent contribution. Do not wrap an entire article to avoid making ownership decisions.
 
 Writer identity marks interpretation or an attributable addition. It does not replace factual provenance.
+
+### Connective extrapolation blocks
+
+Every `[v]` contribution uses `writer=v` and `kind=extrapolation`:
+
+```html
+<!-- altwwii-writer-block:start id=wb-v-20260815-a31f2 writer=v kind=extrapolation created=2026-08-15T12:00:00-06:00 --><p>The surviving program therefore required a permanent interministerial maintenance office between prototype approval and routine service.</p><!-- altwwii-writer-block:end -->
+```
+
+The visible `[v]` mark identifies a lower-authority connective inference. Do not use `data-provenance='v'`, and do not add `[e]` merely to promote the same inference. When A → B → C is not obvious, record A, B, C, and the compatibility reasoning in Writer Discussion.
 
 ## Fact provenance
 
@@ -29,7 +39,13 @@ Use fact-level provenance only where the distinction helps later editors:
 Congress terminated American material support to Britain in early 1947.<sup class='canon-note' data-provenance='a'>[a]</sup>
 ```
 
-Use `data-provenance='e'` for incorporated extrapolation. A specialist block may contain either provenance mark when relevant.
+Use `data-provenance='p'` for real-world historical information about events and conditions before 1 August 1941:
+
+```html
+The German invasion of Poland began on 1 September 1939.<sup class='canon-note' data-provenance='p'>[p]</sup>
+```
+
+Use `data-provenance='e'` for incorporated extrapolation. Apply `[p]` only to the pre-divergence fact or clause it supports; a person, institution, or process with pre-divergence origins does not make its post-cutoff history pre-divergence canon. A specialist block may contain any provenance mark when relevant.
 
 ## Authoritative article voice
 

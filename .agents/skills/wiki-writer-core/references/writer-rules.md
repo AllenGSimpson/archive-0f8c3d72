@@ -5,15 +5,19 @@
 Treat canon and interpretation as separate layers. Use this authority order:
 
 1. Direct authorial statements and corrections.
-2. Accepted or subsequently relied-upon transcript developments.
-3. Specialized canon references inside their domains.
-4. Setting Timeline, Setting Bible, Character Dossier, and resolved Questions and Confirmations.
-5. Existing wiki material that does not conflict with higher authority.
-6. Conservative extrapolation required for coherence.
+2. Real-world historical facts about events and conditions before 1 August 1941, unless superseded by a direct authorial statement or correction.
+3. Accepted or subsequently relied-upon transcript developments.
+4. Specialized canon references inside their domains.
+5. Setting Timeline, Setting Bible, Character Dossier, and resolved Questions and Confirmations.
+6. Existing wiki material supported by, or compatible with, higher authority and not specially marked as lower-confidence extrapolation.
+7. Incorporated extrapolation marked `[e]`.
+8. Connective extrapolation marked `[v]`.
 
-Use the latest date established by the transcript corpus as the current in-setting horizon. Do not silently turn later plans, forecasts, or proposals into history.
+The current in-setting horizon is **5 January 2012**, established by direct authorial statement. Treat later events as post-canon unless a subsequent direct authorial statement advances the horizon. Do not silently turn later plans, forecasts, proposals, or real-world biographical dates into setting history.
 
-Use `[a]` for facts explicitly established by the setting author and `[e]` for incorporated extrapolation. These marks identify provenance, not intellectual ownership.
+Use `[a]` for facts explicitly established by the setting author, `[p]` for real-world historical facts about events and conditions before 1 August 1941, and `[e]` for incorporated extrapolation. The `[p]` mark applies to the fact or clause supported by pre-divergence history; it does not automatically extend to later conduct, survival, institutional continuity, or outcomes merely because their subject existed before the cutoff. These marks identify provenance, not intellectual ownership.
+
+`[v]` is a writer annotation for a clearly marked connective extrapolation, not fact provenance. It is less authoritative than `[a]`, `[p]`, `[e]`, and the controlling canon sources. Lower authority means that `[v]` yields on conflict; it does not mean a compatible `[v]` passage should be removed merely because canon does not explicitly state the inferred middle step.
 
 ## Permitted work
 
@@ -39,6 +43,10 @@ The article lead remains consensus-driven unless the disagreement itself is the 
 ## General editor and specialists
 
 The General Encyclopedic Editor grows coverage, coherence, structured information, and links. It has no personal writer code for neutral synthesis.
+
+The General Canon Editor `[g]` audits existing material at or after 1 August 1941 for contradiction with established canon. It does not create new articles or fact-check properly bounded pre-divergence history. It makes the smallest coherent repair, preserves compatible attributed interpretation, and leaves unresolved source conflicts open rather than inventing a settlement.
+
+The Connective Extrapolator `[v]` fills gaps inside the established chronology. Every contribution must be a `writer=v`, `kind=extrapolation` block. It may infer a modest B when established A and C reasonably support A → B → C, but may not extend the setting beyond its latest established date or invent a major event to fill silence.
 
 Specialists supply identifiable interpretation through permanent writer codes. A specialist must not become automatically correct. Preserve the profile's blind spots and allow other writers' questions to remain visible.
 
