@@ -57,3 +57,10 @@ Object.assign(window.deepArticles, {
     sources:spanishRailSources,categories:["RENFE","Spanish state-owned companies","Rail transport in Spain","Madrid","Public utilities"]
   }
 });
+
+if(window.deepArticles["rail-transport-in-spain"]){
+  const sections=window.deepArticles["rail-transport-in-spain"].sections||[];
+  const insertionPoint=sections.findIndex(section=>section.id==="passengers");
+  const contribution={id:"wagon-records",title:"Consignments and wagon control",html:"<!-- altwwii-writer-block:start id=wb-v-20260816-j9r5b writer=v kind=extrapolation created=2026-08-16T12:45:00-06:00 --><p>A freight consignment linked the shipper and consignee to a numbered wagon or recorded group of wagons. Its papers identified the commodity, declared weight or count, origin, destination, routing, special handling, and the party responsible for charges. The loading office recorded acceptance, any seal, and departure. Junction and receiving offices then recorded handover, arrival, placement at a siding or goods shed, unloading, shortage or damage, and release of the empty wagon.</p><p>Wagon control distinguished stock moving in a train from loaded wagons awaiting movement, empties awaiting instruction, vehicles held at private sidings, and equipment stopped for repair. A mine, refinery, port, or factory that delayed unloading reduced capacity elsewhere even when the railway owned enough wagons on paper. Time charges and priority orders encouraged release but could not provide labor, storage, or a clear siding. A wagon unloaded without prompt notice, misrouted under stale papers, or waiting for a disputed consignee could remain unavailable until clerks and yard staff reconciled its physical position with the central record.</p><!-- altwwii-writer-block:end -->"};
+  if(insertionPoint>=0&&!sections.some(section=>section.id===contribution.id)) sections.splice(insertionPoint,0,contribution);
+}

@@ -97,3 +97,17 @@ Object.assign(window.deepArticles, {
     facts:[["Established","1947"],["Location","South Australia"],["Sovereignty","Australian"],["Founding arrangement","Joint British–Australian project"],["Principal early roles","Guided weapons, sounding rockets, re-entry, and tracking"],["Major vehicles","Skylark · Black Knight · Blue Streak · Black Arrow"],["First wholly Commonwealth satellite","Prospero I · 1965"],["Later operator","Commonwealth Space Board and Australian authorities"],["Mature roles","Testing, launch support, tracking, recovery, and training"]]
   }
 });
+
+const australianSouthernArsenalArticle = window.deepArticles["australian-southern-arsenal"];
+if (australianSouthernArsenalArticle) {
+  if (!australianSouthernArsenalArticle.sections.some(section => section.id === "sentinel")) {
+    australianSouthernArsenalArticle.sections.splice(1,0,{
+      id:"sentinel",
+      title:"Wartime armored foundation",
+      html:"<p>The <a href='australian-cruiser-tank-program.html'>Australian Cruiser Tank Programme</a> established AC1 Sentinel production in 1942 and continued into the AC3 Thunderbolt instead of ending with a small training fleet. Australian vehicles supported national formations and reached Burma in limited numbers, preserving the industrial and maintenance skills later associated with the southern arsenal.<sup class='canon-note' data-provenance='a'>[a]</sup></p>"
+    });
+  }
+  if (!australianSouthernArsenalArticle.related.some(item => item.href === "australian-cruiser-tank-program.html")) {
+    australianSouthernArsenalArticle.related.push({href:"australian-cruiser-tank-program.html",kicker:"Wartime armored foundation",label:"Australian Cruiser Tank Programme"});
+  }
+}

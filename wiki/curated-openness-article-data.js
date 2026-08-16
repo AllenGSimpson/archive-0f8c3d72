@@ -211,8 +211,6 @@ if (propaganda) {
     {href:"open-reich-campaign.html",kicker:"1953 campaign",label:"Open Reich Campaign"},
     {href:"foreign-access-regime-germany.html",kicker:"Administrative boundary",label:"Foreign-Access Regime"}
   ].forEach(item=>{if(!propaganda.related.some(existing=>existing.href===item.href)) propaganda.related.push(item);});
-  const german = propaganda.sections?.find(section=>section.id==="german");
-  if (german) german.html = "<p>Germany admits tourists, delegations, athletes, journalists, and technicians through <a href='curated-openness.html'>curated openness</a>: a prosperous, carefully selected front parlor built from real achievements, respectable intermediaries, cultural exchange, audience-specific messages, and selective truth. Colonial coercion is hidden behind administrative language and <a href='foreign-access-regime-germany.html'>controlled access</a>.</p>";
 }
 
 const germanAviation = window.deepArticles["german-civil-aviation"];
@@ -223,4 +221,11 @@ if (germanAviation) {
     {href:"foreign-visitors-germany.html",kicker:"Passenger politics",label:"Foreign Visitors to Germany"},
     {href:"foreign-access-regime-germany.html",kicker:"Travel permissions",label:"Foreign-Access Regime"}
   ].forEach(item=>{if(!germanAviation.related.some(existing=>existing.href===item.href)) germanAviation.related.push(item);});
+}
+
+if(window.deepArticles["guest-protocol"]){
+  const sections=window.deepArticles["guest-protocol"].sections||[];
+  const insertionPoint=sections.findIndex(section=>section.id==="rights");
+  const contribution={id:"incident-records",title:"Incident records",html:"<!-- altwwii-writer-block:start id=wb-v-20260816-w6d3q writer=v kind=extrapolation created=2026-08-16T12:40:02-06:00 --><p>A hotel, tourist office, station desk, or police post receiving a foreign complaint recorded enough information for another office to act: the visitor and booking or travel document, place and time, language or interpreter, alleged loss, injury, offense, witnesses, property involved, and the authority already contacted. Referral copies allowed transport, municipal, medical, police, and foreign-affairs staff to work from the same initial account even when each retained its own file.</p><p>Immediate assistance could precede a decision about fault. A replacement ticket, doctor, temporary room, interpreter, or recovery of baggage prevented a small failure from becoming a public incident while investigation continued. Security offices could restrict or reclassify information, and translation or jurisdiction could produce conflicting versions. Administrative closure showed that the visitor had received an answer or remedy; it did not necessarily confirm the complaint, discipline an official, compensate every loss, or give a German resident the same route of escalation.</p><!-- altwwii-writer-block:end -->"};
+  if(insertionPoint>=0&&!sections.some(section=>section.id===contribution.id)) sections.splice(insertionPoint,0,contribution);
 }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Three currents of British reconstruction architecture</title>
+  <desc id="desc">Civic restoration, democratic modernism, and New Britannic modernism converge in a mixed postwar building settlement.</desc>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12Z" fill="#9eb3c2"/></marker></defs>
+  <rect width="1600" height="900" fill="#101820"/>
+  <text x="80" y="92" fill="#f2e8d5" font-family="Georgia,serif" font-size="52">Rebuilding Britain after defeat</text>
+  <text x="82" y="137" fill="#9eb3c2" font-family="Arial,sans-serif" font-size="24">Three political schools · one negotiated urban landscape</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(70 205)"><rect width="430" height="285" rx="20" fill="#24323d" stroke="#c8995a" stroke-width="4"/><text x="215" y="58" fill="#f2e8d5" font-size="32" font-weight="700" text-anchor="middle">Civic restoration</text><text x="38" y="112" fill="#fff" font-size="23">Old street lines and townscapes</text><text x="38" y="154" fill="#fff" font-size="23">Brick, stone, and pitched roofs</text><text x="38" y="196" fill="#fff" font-size="23">Churches and civic monuments</text><text x="38" y="238" fill="#fff" font-size="23">Modern services behind old fronts</text></g>
+    <g transform="translate(585 205)"><rect width="430" height="285" rx="20" fill="#24323d" stroke="#61a87b" stroke-width="4"/><text x="215" y="58" fill="#f2e8d5" font-size="32" font-weight="700" text-anchor="middle">Democratic modernism</text><text x="38" y="112" fill="#fff" font-size="23">Prefabrication and housing blocks</text><text x="38" y="154" fill="#fff" font-size="23">Schools in open ground</text><text x="38" y="196" fill="#fff" font-size="23">District heat and broad roads</text><text x="38" y="238" fill="#fff" font-size="23">Planned communities and zoning</text></g>
+    <g transform="translate(1100 205)"><rect width="430" height="285" rx="20" fill="#24323d" stroke="#6f8fbf" stroke-width="4"/><text x="215" y="58" fill="#f2e8d5" font-size="32" font-weight="700" text-anchor="middle">New Britannic</text><text x="38" y="112" fill="#fff" font-size="23">Brick and stone exteriors</text><text x="38" y="154" fill="#fff" font-size="23">Stripped classical proportion</text><text x="38" y="196" fill="#fff" font-size="23">Steel, concrete, standard interiors</text><text x="38" y="238" fill="#fff" font-size="23">Civic axes and Commonwealth signs</text></g>
+    <path d="M285 510C285 590 520 615 650 650" fill="none" stroke="#9eb3c2" stroke-width="6" marker-end="url(#arrow)"/>
+    <path d="M800 510V640" fill="none" stroke="#9eb3c2" stroke-width="6" marker-end="url(#arrow)"/>
+    <path d="M1315 510C1315 590 1080 615 950 650" fill="none" stroke="#9eb3c2" stroke-width="6" marker-end="url(#arrow)"/>
+    <rect x="365" y="660" width="870" height="145" rx="24" fill="#2c3e48" stroke="#f1c75b" stroke-width="4"/>
+    <text x="800" y="712" fill="#f2e8d5" font-family="Georgia,serif" font-size="32" text-anchor="middle">The reconstruction compromise</text>
+    <text x="800" y="758" fill="#fff" font-size="25" text-anchor="middle">Repair where possible · restore major streets and monuments</text>
+    <text x="800" y="793" fill="#fff" font-size="25" text-anchor="middle">Build modern where destruction removed the old fabric</text>
+  </g>
+</svg>

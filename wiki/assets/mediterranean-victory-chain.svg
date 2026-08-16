@@ -9,7 +9,7 @@
   <path class="arrow" d="M495 127h50"/>
   <rect class="win" x="545" y="70" width="205" height="115" rx="12"/><text class="t" x="647" y="106" text-anchor="middle">Egyptian Advance</text><text class="s" x="647" y="138" text-anchor="middle">ports · rail · Delta</text><text class="s" x="647" y="162" text-anchor="middle">moving supply corridor</text>
   <path class="arrow" d="M750 127h50"/>
-  <rect class="win" x="800" y="70" width="165" height="115" rx="12"/><text class="t" x="882" y="106" text-anchor="middle">Suez</text><text class="s" x="882" y="138" text-anchor="middle">secured by 1945</text><text class="s" x="882" y="162" text-anchor="middle">British route closed</text>
+  <rect class="win" x="800" y="70" width="165" height="115" rx="12"/><text class="t" x="882" y="106" text-anchor="middle">Suez</text><text class="s" x="882" y="138" text-anchor="middle">secured Apr. 1947</text><text class="s" x="882" y="162" text-anchor="middle">British route closed</text>
   <path class="arrow" d="M965 127h45"/>
   <rect class="settle" x="1010" y="70" width="155" height="115" rx="12"/><text class="t" x="1087" y="106" text-anchor="middle">Lisbon</text><text class="s" x="1087" y="138" text-anchor="middle">treaty control</text><text class="s" x="1087" y="162" text-anchor="middle">in 1947</text>
   <path class="thin" d="M137 185v215h815"/>

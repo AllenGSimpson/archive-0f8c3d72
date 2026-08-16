@@ -153,9 +153,9 @@ Object.assign(window.deepArticles, {
   }),
 
   "john-bagot-glubb":palestineActorArticle({
-    title:"John Bagot Glubb",eyebrow:"British and Jordanian officer · 1897–1986",infoboxKicker:"Commander of the Arab Legion",infoboxTitle:"Sir John Bagot Glubb",
+    title:"John Bagot Glubb",eyebrow:"British and Jordanian officer · born 1897",infoboxKicker:"Commander of the Arab Legion",infoboxTitle:"Sir John Bagot Glubb",
     lead:"Lieutenant-General Sir John Bagot Glubb, commonly known as Glubb Pasha, was the British officer who commanded and trained the Arab Legion from 1939. His staff, communications, logistics, and caution made the Legion the decisive regular force in the Palestine War and the military foundation of enlarged Jordan.",
-    canon:"Glubb's historical birth, Royal Engineers service, First World War wound, service in Iraq and Transjordan, Desert Patrol, assumption of Arab Legion command in 1939, family, writings, honors, and death in 1986 are retained unless altered by the postwar political branch. The setting establishes a larger Jordanian victory, defense of Jerusalem and the highlands, implementation of Abdullah's limited-war policy, and a central role in the 1951 succession crisis. His dismissal date, later Jordanian office, and exact postwar career remain open.",
+    canon:"<!-- altwwii-writer-block:start id=wb-g-20260815-p4v8k writer=g kind=revision created=2026-08-15T23:36:00-06:00 -->Glubb's birth, Royal Engineers service, First World War wound, service in Iraq and Transjordan, Desert Patrol, assumption of Arab Legion command in 1939, family, writings, and honors are retained. The setting establishes a larger Jordanian victory, defense of Jerusalem and the highlands, implementation of Abdullah's limited-war policy, and a central role in the 1951 succession crisis. His dismissal date, later Jordanian office, exact postwar career, final years, and death remain open; the historical 1986 death is not automatically imported.<sup class='canon-note' data-provenance='e'>[e]</sup><!-- altwwii-writer-block:end -->",
     portrait:{src:"assets/portraits/john-bagot-glubb-1953.jpg",alt:"John Bagot Glubb in Arab Legion uniform saluting in 1953",caption:"Glubb Pasha in Arab Legion uniform, 1953",credit:"Wikimedia Commons"},
     sections:[
       {id:"early",title:"Early life and First World War",html:"<p>Glubb was born at Preston on 16 April 1897 and educated at Cheltenham College. Commissioned into the Royal Engineers in 1915, he served on the Western Front and suffered the jaw wound that later produced the Arabic nickname Abu Hunayk.</p>"},
@@ -170,7 +170,7 @@ Object.assign(window.deepArticles, {
     ],
     related:[{href:"arab-legion-palestine-war.html",kicker:"Command",label:"Arab Legion in the Palestine War"},{href:"abdullah-i.html",kicker:"Sovereign",label:"Abdullah I"},{href:"jordan.html",kicker:"State served",label:"Hashemite Kingdom of Jordan"},{href:"the-gulf-line.html",kicker:"British strategic setting",label:"The Gulf Line"}],
     historicalSources:[{href:"https://en.wikipedia.org/wiki/John_Bagot_Glubb",label:"Wikipedia — John Bagot Glubb historical baseline"},{href:"https://commons.wikimedia.org/wiki/File:Glubb_Pasha_(1953).jpg",label:"Wikimedia Commons — 1953 portrait and rights record"}],
-    facts:[["Born","16 April 1897 · Preston, England"],["Service","Royal Engineers and Arab Legion"],["Arab Legion commander","From 1939; final departure open"],["Nicknames","Glubb Pasha · Abu Hunayk"],["Principal setting conflict","Palestine War"],["Rank","Lieutenant-General"],["Died","17 March 1986"]]
+    facts:[["Born","16 April 1897 · Preston, England"],["Service","Royal Engineers and Arab Legion"],["Arab Legion commander","From 1939; final departure open"],["Nicknames","Glubb Pasha · Abu Hunayk"],["Principal setting conflict","Palestine War"],["Rank","Lieutenant-General"],["Setting death","Open"]]
   })
 });
 

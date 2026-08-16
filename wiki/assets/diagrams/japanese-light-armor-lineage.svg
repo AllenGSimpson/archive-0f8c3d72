@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Japanese armored vehicle families, 1947–1980</title>
-  <desc id="desc">A timeline separating the victory-era Chi-Ru tank, legacy Ho-To carrier, post-1952 Yu transport family, Ho infantry combat family, and Ke light-tank family.</desc>
+  <desc id="desc">A timeline separating the victory-era Chi-Ru tank, Type 4 Kai carrier, post-1952 Yu transport family, Ho infantry combat family, and Ke light-tank family.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111815"/><stop offset="1" stop-color="#20231d"/></linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#000" flood-opacity=".4"/></filter>
@@ -34,8 +34,8 @@
 
   <text x="38" y="458" class="row">INFANTRY TRANSPORT</text>
   <rect x="225" y="404" width="270" height="120" class="box" fill="#4b4032" stroke="#b99b62"/>
-  <rect x="241" y="418" width="92" height="25" rx="5" fill="#b99b62"/><text x="287" y="436" text-anchor="middle" class="family">LEGACY HO</text>
-  <text x="360" y="452" text-anchor="middle" class="name">Type 7 Ho-To</text><text x="360" y="480" text-anchor="middle" class="kind">TRACKED APC · 14.8 t</text><text x="360" y="504" text-anchor="middle" class="spec">Pre-reform code retained</text>
+  <rect x="241" y="418" width="92" height="25" rx="5" fill="#b99b62"/><text x="287" y="436" text-anchor="middle" class="family">TYPE 4</text>
+  <text x="360" y="452" text-anchor="middle" class="name">Type 4 Kai</text><text x="360" y="480" text-anchor="middle" class="kind">TRACKED APC · 12.0–12.3 t</text><text x="360" y="504" text-anchor="middle" class="spec">1947 convertible-roof variant</text>
   <rect x="551" y="404" width="300" height="120" class="box" fill="#354a48" stroke="#75a8a2"/>
   <rect x="567" y="418" width="50" height="25" rx="5" fill="#75a8a2"/><text x="592" y="436" text-anchor="middle" class="family">YU</text>
   <text x="701" y="452" text-anchor="middle" class="name">Type 18 Yu-Ha</text><text x="701" y="480" text-anchor="middle" class="kind">TRACKED APC · 17.5 t</text><text x="701" y="504" text-anchor="middle" class="spec">Army Kō · tropical/export Otsu</text>

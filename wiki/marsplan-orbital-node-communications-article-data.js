@@ -1,0 +1,38 @@
+(()=>{
+  const article=window.deepArticles&&window.deepArticles["marsplan-orbital-node"];
+  if(!article)return;
+
+  const insertAfter=(afterId,section)=>{
+    article.sections=article.sections||[];
+    if(article.sections.some(existing=>existing.id===section.id))return;
+    const index=article.sections.findIndex(existing=>existing.id===afterId);
+    if(index<0)article.sections.push(section);else article.sections.splice(index+1,0,section);
+  };
+
+  insertAfter("navigation",{id:"communications-architecture",title:"Communications architecture",html:`<!-- altwwii-writer-block:start id=wb-s-20260816-v3a7w writer=s kind=technical created=2026-08-16T14:27:00-06:00 --><p>The node required three distinct communication layers. A narrow high-gain Earth link carried expedition telemetry, command traffic, crew messages, mapping and stored surface data over interplanetary distance. Mars-local antennas supported the shorter links to descending landers, ascent craft, surface terminals and the permanent platform. A wide-coverage low-rate path supported initial acquisition, safe-mode command and engineering status when precise Earth pointing was unavailable.</p><p>These layers shared time, data storage, command authentication and the vehicle's configuration record, but they did not need to share one antenna or amplifier. The Earth terminal demanded gain and precise line-of-sight control; the local system demanded coverage during changing orbital and lander geometry; the survival path demanded independence from the high-gain drive and fine-attitude chain. Concurrent landing control and Earth reporting also required either separately pointable terminals, enough angular coverage, or scheduled time-sharing.</p><p>The node acted as a communications router, not merely a speaking post. It accepted numbered files and health packets from surface elements, checked and stored them, forwarded priority traffic to Earth, and returned commands or acknowledgements during later passes. Exact frequencies, antenna types and dimensions, transmitter powers, simultaneous-link capability, coding, cryptography, data rates and storage allocations remain open.</p><!-- altwwii-writer-block:end -->`});
+
+  insertAfter("landings",{id:"communications-geometry",title:"Mars geometry and service continuity",html:`<!-- altwwii-writer-block:start id=wb-s-20260816-w4b8x writer=s kind=technical created=2026-08-16T14:27:00-06:00 --><p>Earth range changed throughout the expedition, so the long-haul link was designed for the adverse useful geometry rather than the favorable arrival demonstration. One-way light time varied by minutes and prevented immediate terrestrial control. Mars occulted Earth during part of many orbital revolutions, the surface site's horizon limited local visibility, and solar conjunction could degrade or interrupt the Earth path. The flight plan therefore carried contact predictions, frequency and Doppler forecasts, station assignments, data priorities and missed-contact actions.</p><p>A low Mars orbit would offer short, comparatively strong surface passes and useful mapping geometry but could not keep one surface site continuously visible. A higher or near-stationary relay geometry could lengthen contact but changed link distance, coverage, insertion cost, navigation and stationkeeping demands. Because the permanent platform's orbit is not established, uninterrupted service cannot be inferred from its existence. The early base retained schedules, stored procedures and local command authority for periods between relay passes or during Earth outage.</p><p>High-gain Earth pointing competed with mapping, radiator geometry, reactor shielding, docking and landing-site observation. If the antenna was body-fixed, the vehicle had to slew; if it was gimballed, the mechanism required alignment, cable and momentum limits. Either arrangement consumed attitude-control, electrical and thermal margin. Link predictions used actual configuration and antenna blockage after each lander separation or docking rather than assuming the departure vehicle's pattern remained valid.</p><!-- altwwii-writer-block:end -->`});
+
+  insertAfter("platform",{id:"communications-survival",title:"Degraded links and the permanent platform",html:`<!-- altwwii-writer-block:start id=wb-s-20260816-x5c9y writer=s kind=technical created=2026-08-16T14:27:00-06:00 --><p>Loss of the high-gain Earth link first stopped bulk return and precision radiometric work; it did not automatically justify abandonment. The node could reduce telemetry rate, select a wide-coverage antenna, transmit a coarse beacon, store surface traffic, and enter an attitude that preserved power, thermal limits, shielding and command reception. Controllers then distinguished pointing or ephemeris error from amplifier, receiver, antenna-drive, power, thermal, oscillator, cable, switch or ground-station faults through independent indications and bounded reconfiguration tests.</p><p>The detached communications and navigation platform had to retain more than an antenna. A continuing service required electrical generation and storage, thermal control, stable time and frequency references, radios and transponders compatible with the base and Earth network, antennas, data storage, command handling, attitude control, orbit determination, stationkeeping or accepted orbital drift, radiation tolerance, and autonomous fault protection. The platform also needed a tested separation state and enough independent equipment that departure of the expedition ship did not remove its command or ranging chain.</p><p>A single platform supplied scheduled relay and navigation observations unless its eventual orbit happened to provide continuous visibility. Later Mars infrastructure could add complementary orbiters, surface high-gain terminals, spares and ground-network capacity. The record does not establish the detached platform's mass, power, orbit, service life, redundancy, maintenance access, navigation signals, or whether later missions replaced or enlarged it.</p><!-- altwwii-writer-block:end -->`});
+
+  article.related=article.related||[];
+  for(const item of [
+    {href:"spacecraft-communications-systems.html",kicker:"Communications architecture",label:"Spacecraft Communications Systems"},
+    {href:"mars-communications-delay.html",kicker:"Operational constraint",label:"Mars Communications Delay"}
+  ])if(!article.related.some(existing=>existing.href===item.href))article.related.push(item);
+
+  article.sources=article.sources||[];
+  for(const item of [
+    {href:"https://ntrs.nasa.gov/citations/19830013955",label:"NASA/JPL — deep-space telemetry, command, tracking, modulation, receivers, and antennas"},
+    {href:"https://deepspace.jpl.nasa.gov/dsndocs/810-005/",label:"NASA/JPL Deep Space Network — telecommunications-link design and ground interfaces"},
+    {href:"https://ntrs.nasa.gov/citations/20060051755",label:"NASA — communications-link trades at Martian distances"}
+  ])if(!article.sources.some(existing=>existing.href===item.href))article.sources.push(item);
+
+  article.facts=article.facts||[];
+  const facts=new Map(article.facts);
+  facts.set("Communications layers","High-gain Earth · Mars-local relay · wide-coverage survival link");
+  facts.set("Mars surface service","Scheduled relay and store-and-forward; continuity depends on orbit and later assets");
+  facts.set("Detached platform requirements","Power · thermal control · radios · timing · storage · attitude and orbit control · autonomy");
+  facts.set("Frequencies, antennas, rates, link margins, and platform orbit","Open");
+  article.facts=Array.from(facts.entries());
+})();

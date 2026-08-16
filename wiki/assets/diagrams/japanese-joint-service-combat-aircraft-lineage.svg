@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
-  <title id="title">Japanese joint-service combat-aircraft lineage, 1956–1983</title>
-  <desc id="desc">Two branches show four carrier fighters and three land or fleet-defense interceptors converging in the integrated fleet-defense system of 1985.</desc>
+  <title id="title">Japanese joint-service combat-aircraft lineage through 1985</title>
+  <desc id="desc">The A8M through A10M single-engine carrier-fighter family and the B8Y through B10Y twin-engine systems-aircraft family converge in Japan's integrated fleet-defense system by 1985.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101a23"/><stop offset="1" stop-color="#173039"/></linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000" flood-opacity=".38"/></filter>
@@ -9,30 +9,53 @@
   <rect width="1200" height="900" fill="url(#bg)"/>
   <circle cx="1080" cy="100" r="58" fill="#bb2633"/>
   <text x="70" y="75" class="title">Japanese Joint-Service Combat-Aircraft Lineage</text>
-  <text x="70" y="108" class="sub">Seven registered fighters and interceptors · 1956–1983</text>
+  <text x="70" y="108" class="sub">Two complementary carrier-capable families · late 1940s–1985</text>
 
-  <text x="70" y="205" class="lane">CARRIER AIR SUPERIORITY</text>
-  <path d="M205 340 H1045" class="arrow"/><path d="M1034 330 L1050 340 L1034 350" class="arrow"/>
-  <rect class="box" x="105" y="245" width="235" height="130" fill="#32616e"/>
-  <text x="125" y="280" class="name">A9M1 Shippū</text><text x="125" y="306" class="meta">Type 16 · 1956</text><text x="125" y="332" class="role">Carrier air superiority</text><text x="125" y="354" class="role">1,180 km/h · 4 missiles</text>
-  <rect class="box" x="365" y="245" width="235" height="130" fill="#32616e"/>
-  <text x="385" y="280" class="name">A10M1 Shippū Kai</text><text x="385" y="306" class="meta">Type 26 · 1966</text><text x="385" y="332" class="role">Supersonic carrier fighter</text><text x="385" y="354" class="role">2,050 km/h · 6 missiles</text>
-  <rect class="box" x="625" y="245" width="215" height="130" fill="#32616e"/>
-  <text x="645" y="280" class="name">A11M1 Arashi</text><text x="645" y="306" class="meta">Type 38 · 1978</text><text x="645" y="332" class="role">Light carrier fighter</text><text x="645" y="354" class="role">2,200 km/h · 6 missiles</text>
-  <rect class="box" x="865" y="245" width="235" height="130" fill="#32616e"/>
-  <text x="885" y="280" class="name">A12M1 Arashi Kai</text><text x="885" y="306" class="meta">Type 43 · 1983</text><text x="885" y="332" class="role">Networked fleet fighter</text><text x="885" y="354" class="role">2,400 km/h · 8 missiles</text>
+  <text x="70" y="190" class="lane">SINGLE-ENGINE CARRIER AIR SUPERIORITY</text>
+  <path d="M205 342 H1025" class="arrow"/><path d="M1014 332 L1030 342 L1014 352" class="arrow"/>
+  <rect class="box" x="105" y="235" width="275" height="145" fill="#32616e"/>
+  <text x="125" y="270" class="name">A8M Senpū</text>
+  <text x="125" y="298" class="meta">first flight 1947 · service c. 1948–49</text>
+  <text x="125" y="326" class="role">Very light first-generation carrier jet</text>
+  <text x="125" y="351" class="role">A8M1 / A8M2 development</text>
+  <rect class="box" x="465" y="235" width="275" height="145" fill="#32616e"/>
+  <text x="485" y="270" class="name">A9M Shippū</text>
+  <text x="485" y="298" class="meta">1955–70 · four principal marks</text>
+  <text x="485" y="326" class="role">Transonic carrier fighter evolving</text>
+  <text x="485" y="351" class="role">through radar, missiles, and data links</text>
+  <rect class="box" x="825" y="235" width="275" height="145" fill="#32616e"/>
+  <text x="845" y="270" class="name">A10M</text>
+  <text x="845" y="298" class="meta">prototype 1976 · service c. 1978–80</text>
+  <text x="845" y="326" class="role">Modern single-engine air-superiority</text>
+  <text x="845" y="351" class="role">platform, long-lived through 1985</text>
 
-  <text x="70" y="475" class="lane">LAND AND FLEET DEFENSE</text>
-  <path d="M265 610 H925" class="arrow"/><path d="M914 600 L930 610 L914 620" class="arrow"/>
-  <rect class="box" x="155" y="515" width="255" height="130" fill="#8d4149"/>
-  <text x="175" y="550" class="name">J12N1 Raikō</text><text x="175" y="576" class="meta">Type 18 · 1958</text><text x="175" y="602" class="role">All-weather interception</text><text x="175" y="624" class="role">1,620 km/h · 4 missiles</text>
-  <rect class="box" x="475" y="515" width="255" height="130" fill="#8d4149"/>
-  <text x="495" y="550" class="name">J13M1 Raiden</text><text x="495" y="576" class="meta">Type 28 · 1968</text><text x="495" y="602" class="role">Mach 2 imperial defense</text><text x="495" y="624" class="role">2,350 km/h · 6 missiles</text>
-  <rect class="box" x="795" y="515" width="255" height="130" fill="#8d4149"/>
-  <text x="815" y="550" class="name">J14M1 Kairyū</text><text x="815" y="576" class="meta">Type 36 · 1976</text><text x="815" y="602" class="role">Heavy twin-engine defense</text><text x="815" y="624" class="role">2,500 km/h · 8 missiles</text>
+  <text x="70" y="480" class="lane">TWIN-ENGINE SYSTEMS AIRCRAFT</text>
+  <path d="M205 632 H1025" class="arrow"/><path d="M1014 622 L1030 632 L1014 642" class="arrow"/>
+  <rect class="box" x="105" y="525" width="275" height="145" fill="#8d4149"/>
+  <text x="125" y="560" class="name">B8Y Keiun family</text>
+  <text x="125" y="588" class="meta">B8Y1 c. 1947–49 · B8Y2 in 1950s</text>
+  <text x="125" y="616" class="role">Carrier-capable attack and systems</text>
+  <text x="125" y="641" class="role">aircraft descended from R2Y work</text>
+  <rect class="box" x="465" y="525" width="275" height="145" fill="#8d4149"/>
+  <text x="485" y="560" class="name">B9Y family</text>
+  <text x="485" y="588" class="meta">late 1950s–60s</text>
+  <text x="485" y="616" class="role">New swept-wing, twin-engine,</text>
+  <text x="485" y="641" class="role">normally two-seat heavy aircraft</text>
+  <rect class="box" x="825" y="525" width="275" height="145" fill="#8d4149"/>
+  <text x="845" y="560" class="name">B10Y and later marks</text>
+  <text x="845" y="588" class="meta">1960s–80s</text>
+  <text x="845" y="616" class="role">Sensor-heavy fleet-defense and</text>
+  <text x="845" y="641" class="role">multirole platform</text>
 
-  <path d="M980 375 C980 710 1055 695 1055 748" class="join"/><path d="M920 645 C920 700 1000 700 1000 748" class="join"/>
-  <rect class="box" x="825" y="748" width="300" height="92" fill="#296e63"/>
-  <text x="850" y="784" class="name">Integrated fleet defense · 1985</text><text x="850" y="811" class="role">Radar aircraft · fighters · ships</text><text x="850" y="831" class="role">Missile carriers · optical/radio links</text>
-  <text x="70" y="800" class="note">The branches remain specialized even as the fleet's sensors and weapons become one network.</text>
+  <path d="M970 380 C970 706 1015 700 1015 748" class="join"/>
+  <path d="M970 670 C970 708 1015 710 1015 748" class="join"/>
+  <rect class="box" x="735" y="748" width="390" height="92" fill="#296e63"/>
+  <text x="760" y="784" class="name">Integrated fleet defense · 1985</text>
+  <text x="760" y="811" class="role">Airborne warning · optical/radio links · missiles</text>
+  <text x="760" y="831" class="role">Surface ships · satellites · carrier groups</text>
+  <rect x="70" y="735" width="595" height="96" rx="14" fill="#222f35" stroke="#d9bd65" stroke-width="2"/>
+  <text x="92" y="770" class="name">No automatic A11M or A12M by 1985</text>
+  <text x="92" y="798" class="role">Later radar, engine, cockpit, structural, electronic-warfare,</text>
+  <text x="92" y="820" class="role">and weapons packages remain A10M marks or Kai packages.</text>
+  <text x="70" y="875" class="note">A new A-number requires a genuinely new aerodynamic architecture rather than routine modernization.</text>
 </svg>

@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
-  <title id="title">American balanced fleet in 1985</title>
-  <desc id="desc">A central balanced-fleet doctrine node surrounded by the American carrier, battleship, escort, submarine, amphibious, and support branches.</desc>
+  <title id="title">American balanced-fleet doctrine in 1985</title>
+  <desc id="desc">A central balanced-fleet doctrine node surrounded by the established American carrier, battleship, escort, submarine, amphibious, and support branches. Only the approximate first-line fleet-carrier strength is quantified; other 1985 totals remain open.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081521"/><stop offset="1" stop-color="#102c3b"/></linearGradient>
     <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123c59"/><stop offset="1" stop-color="#126e83"/></linearGradient>
     <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".35"/></filter>
     <style>
-    .title{font:700 42px Georgia,serif;fill:#eef8fb}.sub{font:500 19px Arial,sans-serif;fill:#a9c6d0;letter-spacing:2px}.box{fill:#122a38;stroke:#64b6c8;stroke-width:2}.head{font:700 25px Arial,sans-serif;fill:#f4fafc}.count{font:700 40px Georgia,serif;fill:#8ce0e7}.copy{font:18px Arial,sans-serif;fill:#c8dce3}.line{stroke:#438ca0;stroke-width:3;opacity:.8}.corehead{font:700 32px Georgia,serif;fill:#fff}.corecopy{font:18px Arial,sans-serif;fill:#d9f3f5}.foot{font:700 21px Arial,sans-serif;fill:#e6f7f8;letter-spacing:1.5px}
+      .title{font:700 42px Georgia,serif;fill:#eef8fb}.sub{font:500 19px Arial,sans-serif;fill:#a9c6d0;letter-spacing:2px}.box{fill:#122a38;stroke:#64b6c8;stroke-width:2}.head{font:700 24px Arial,sans-serif;fill:#f4fafc}.status{font:700 24px Georgia,serif;fill:#8ce0e7}.copy{font:17px Arial,sans-serif;fill:#c8dce3}.line{stroke:#438ca0;stroke-width:3;opacity:.8}.corehead{font:700 32px Georgia,serif;fill:#fff}.corecopy{font:18px Arial,sans-serif;fill:#d9f3f5}.foot{font:700 18px Arial,sans-serif;fill:#e6f7f8;letter-spacing:1.2px}
     </style>
   </defs>
   <rect width="1600" height="1000" fill="url(#bg)"/>
   <text x="800" y="70" text-anchor="middle" class="title">THE AMERICAN BALANCED FLEET</text>
-  <text x="800" y="108" text-anchor="middle" class="sub">FRONT-LINE STRENGTH · 1 JANUARY 1985</text>
+  <text x="800" y="108" text-anchor="middle" class="sub">ESTABLISHED FORCE RELATIONSHIPS · 1 JANUARY 1985</text>
   <g class="line">
     <path d="M800 430 L385 270"/><path d="M800 430 L1215 270"/>
     <path d="M720 510 L385 635"/><path d="M880 510 L1215 635"/>
@@ -25,12 +25,12 @@
     <text x="800" y="504" text-anchor="middle" class="corecopy">Amphibious ships intervene · auxiliaries sustain</text>
     <text x="800" y="536" text-anchor="middle" class="corecopy">No single arm receives exclusive primacy</text>
   </g>
-  <g transform="translate(90 155)"><rect class="box" width="590" height="170" rx="18"/><text x="30" y="45" class="head">CARRIER AVIATION</text><text x="30" y="102" class="count">9 + 5</text><text x="195" y="86" class="copy">fleet + assault carriers</text><text x="195" y="116" class="copy">air cover, strike, reconnaissance, landing support</text></g>
-  <g transform="translate(920 155)"><rect class="box" width="590" height="170" rx="18"/><text x="30" y="45" class="head">ARMORED SURFACE POWER</text><text x="30" y="102" class="count">6</text><text x="105" y="86" class="copy">Iowa- and Montana-class battleships</text><text x="105" y="116" class="copy">guns, missiles, command, and bombardment</text></g>
-  <g transform="translate(90 570)"><rect class="box" width="590" height="170" rx="18"/><text x="30" y="45" class="head">LAYERED SURFACE SCREEN</text><text x="30" y="102" class="count">14 · 42 · 54</text><text x="285" y="86" class="copy">cruisers · destroyers · frigates</text><text x="285" y="116" class="copy">air defense · ASW · ocean escort</text></g>
-  <g transform="translate(920 570)"><rect class="box" width="590" height="170" rx="18"/><text x="30" y="45" class="head">UNDERSEA FORCE</text><text x="30" y="102" class="count">20 · 8 · 20</text><text x="270" y="86" class="copy">SSN · SSGN · SSK</text><text x="270" y="116" class="copy">fleet attack · strike · regional patrol</text></g>
-  <g transform="translate(90 765)"><rect class="box" width="590" height="150" rx="18"/><text x="30" y="45" class="head">AMPHIBIOUS POWER</text><text x="30" y="103" class="count">32</text><text x="110" y="86" class="copy">major landing ships</text><text x="110" y="116" class="copy">plus five assault carriers and Marine aviation</text></g>
-  <g transform="translate(920 765)"><rect class="box" width="590" height="150" rx="18"/><text x="30" y="45" class="head">ACCESS AND SUSTAINMENT</text><text x="30" y="103" class="count">42 · 24 · 24</text><text x="300" y="86" class="copy">auxiliaries · mine warfare</text><text x="300" y="116" class="copy">fast combatants · coastal access</text></g>
+  <g transform="translate(90 155)"><rect class="box" width="590" height="170" rx="18"/><text x="30" y="45" class="head">CARRIER AVIATION</text><text x="30" y="92" class="status">≈ 5 OR 6 FIRST-LINE</text><text x="30" y="124" class="copy">fleet carriers, with light and assault aviation ships</text><text x="30" y="150" class="copy">air cover · strike · reconnaissance · landing support</text></g>
+  <g transform="translate(920 155)"><rect class="box" width="590" height="170" rx="18"/><text x="30" y="45" class="head">ARMORED SURFACE POWER</text><text x="30" y="92" class="status">BATTLESHIP-CENTERED</text><text x="30" y="124" class="copy">armored command · guns · missiles · bombardment</text><text x="30" y="150" class="copy">exact active 1985 total remains open</text></g>
+  <g transform="translate(90 570)"><rect class="box" width="590" height="170" rx="18"/><text x="30" y="45" class="head">LAYERED SURFACE SCREEN</text><text x="30" y="92" class="status">CRUISERS · DESTROYERS · FRIGATES</text><text x="30" y="124" class="copy">command · air defense · ASW · ocean escort</text><text x="30" y="150" class="copy">postwar class names and exact totals remain open</text></g>
+  <g transform="translate(920 570)"><rect class="box" width="590" height="170" rx="18"/><text x="30" y="45" class="head">UNDERSEA FORCE</text><text x="30" y="92" class="status">THREE BOUNDED BRANCHES</text><text x="30" y="124" class="copy">nuclear attack elite · experimental guided-missile</text><text x="30" y="150" class="copy">conventional coastal and training branch</text></g>
+  <g transform="translate(90 765)"><rect class="box" width="590" height="150" rx="18"/><text x="30" y="45" class="head">AMPHIBIOUS POWER</text><text x="30" y="87" class="status">THREE ESTABLISHED FUNCTIONS</text><text x="30" y="116" class="copy">helicopter assault · landing-platform dock</text><text x="30" y="141" class="copy">fast tank landing · class registry and totals open</text></g>
+  <g transform="translate(920 765)"><rect class="box" width="590" height="150" rx="18"/><text x="30" y="45" class="head">ACCESS AND SUSTAINMENT</text><text x="30" y="87" class="status">MOBILE AND FIXED SUPPORT</text><text x="30" y="116" class="copy">replenishment · repair · mine warfare · protected bases</text><text x="30" y="141" class="copy">postwar classes and exact totals remain open</text></g>
   <rect x="200" y="935" width="1200" height="42" rx="21" fill="#173e4b" stroke="#4ca0b2"/>
-  <text x="800" y="964" text-anchor="middle" class="foot">HEMISPHERIC SEA CONTROL · EXPEDITIONARY CONCENTRATION · CONVENTIONAL STRATEGIC STRIKE</text>
+  <text x="800" y="964" text-anchor="middle" class="foot">ONLY THE APPROXIMATE FIRST-LINE FLEET-CARRIER STRENGTH IS FIXED FOR 1985</text>
 </svg>

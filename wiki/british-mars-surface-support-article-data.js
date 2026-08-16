@@ -82,7 +82,7 @@ const addBritishMarsSurfaceRelated=(slug,item)=>{const related=window.deepArticl
 const britishMarsProgram=window.deepArticles["british-mars-direct-program"];
 if(britishMarsProgram){
   const hardware=britishMarsProgram.sections.find(section=>section.id==="hardware");
-  if(hardware)hardware.html="<p>The architecture centered on a <a href='british-mars-transfer-habitation-vehicle.html'>transfer and habitation vehicle</a>, a <a href='british-mars-return-system.html'>prepositioned return system</a>, a <a href='british-mars-surface-lander.html'>surface lander</a>, and a compact <a href='british-mars-surface-support-package.html'>surface-support package</a> containing a habitat, reactor, pressurized rover, communications, and scientific equipment. Their final physical staging remains open.</p>";
+  if(hardware)hardware.html="<!-- altwwii-writer-block:start id=wb-g-20260816-d9r5k writer=g kind=revision created=2026-08-16T20:30:00-06:00 --><p>The transfer-and-habitation vehicle, prepositioned return system, surface lander, and compact <a href='british-mars-surface-support-package.html'>surface-support package</a> containing a habitat, reactor, pressurized rover, communications and scientific equipment are accepted architecture.<sup class='canon-note' data-provenance='e'>[e]</sup> Names, counts, specifications, propulsion, launches, docking, and final physical staging remain open.</p><!-- altwwii-writer-block:end -->";
 }
 
 const britishMarsExpedition=window.deepArticles["british-valles-marineris-surface-expedition"];

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Functional schematic of Stella Maris</title>
+  <desc id="desc">A non-geometric archive diagram showing a multinational station core connected to crew and cargo transport, laboratories, and the later exploration yard, with the four national workshare beneath.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101922"/><stop offset="1" stop-color="#20232a"/></linearGradient>
+    <linearGradient id="core" x1="0" x2="1"><stop stop-color="#667c89"/><stop offset=".5" stop-color="#a5a99f"/><stop offset="1" stop-color="#667c89"/></linearGradient>
+    <linearGradient id="yard" x1="0" x2="1"><stop stop-color="#7d6744"/><stop offset="1" stop-color="#b79a62"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#c7d1d8" stroke-opacity=".08"/></pattern>
+    <style>.serif{font-family:Georgia,serif}.sans{font-family:Arial,sans-serif}.head{fill:#f3ede0;font-size:46px}.deck{fill:#c3ccd2;font-size:18px;letter-spacing:2px}.label{fill:#f7f2e8;font-size:18px;font-weight:700}.small{fill:#c8d0d5;font-size:15px}.line{stroke:#c8d0d5;stroke-width:3;fill:none}.thin{stroke:#b2bec5;stroke-width:2;fill:none}</style>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/><rect width="1200" height="720" fill="url(#grid)"/>
+  <text x="64" y="68" class="serif head">Stella Maris</text>
+  <text x="66" y="101" class="sans deck">MULTINATIONAL STATION CORE · SHARED LOGISTICS · EXPLORATION YARD</text>
+  <g transform="translate(80 165)">
+    <g class="line"><path d="M90 195h665"/><path d="M310 60v270"/><path d="M505 70v250"/></g>
+    <g fill="#324754" stroke="#d7dde0" stroke-width="3"><rect x="128" y="135" width="180" height="120" rx="42"/><rect x="315" y="120" width="190" height="150" rx="54"/><rect x="515" y="130" width="165" height="130" rx="46"/></g>
+    <g fill="url(#core)" stroke="#e7e4db" stroke-width="3"><rect x="250" y="35" width="120" height="80" rx="18"/><rect x="445" y="28" width="120" height="88" rx="18"/><rect x="255" y="277" width="110" height="76" rx="18"/><rect x="450" y="276" width="110" height="76" rx="18"/></g>
+    <g fill="#20323c" stroke="#d7dde0" stroke-width="3"><circle cx="110" cy="195" r="34"/><circle cx="705" cy="195" r="34"/></g>
+    <g transform="translate(760 82)" stroke="#eadfc8" stroke-width="3"><path d="M0 113h260M35 45v220M100 15v310M170 45v220M235 78v155" class="line"/><rect x="55" y="92" width="150" height="86" rx="18" fill="url(#yard)"/><circle cx="230" cy="113" r="23" fill="#4d493f"/><circle cx="230" cy="198" r="23" fill="#4d493f"/></g>
+    <text x="397" y="203" text-anchor="middle" class="sans label">STATION CORE</text>
+    <text x="886" y="203" text-anchor="middle" class="sans label">EXPLORATION YARD</text>
+    <text x="110" y="254" text-anchor="middle" class="sans small">Aquila crew</text>
+    <text x="705" y="254" text-anchor="middle" class="sans small">Mercurius cargo</text>
+    <text x="397" y="384" text-anchor="middle" class="sans small">science · habitation · command · common interfaces</text>
+    <text x="886" y="384" text-anchor="middle" class="sans small">assembly · tankage · engine work · nuclear handling</text>
+  </g>
+  <g transform="translate(66 590)" class="sans">
+    <rect width="252" height="74" rx="12" fill="#554b43" stroke="#a89176"/><rect x="270" width="252" height="74" rx="12" fill="#4f5845" stroke="#94a27f"/><rect x="540" width="252" height="74" rx="12" fill="#3f5260" stroke="#829baa"/><rect x="810" width="252" height="74" rx="12" fill="#4d4558" stroke="#9587a6"/>
+    <text x="126" y="30" text-anchor="middle" class="label">ITALY</text><text x="126" y="54" text-anchor="middle" class="small">integration · launchers</text>
+    <text x="396" y="30" text-anchor="middle" class="label">SPAIN</text><text x="396" y="54" text-anchor="middle" class="small">production · shipping</text>
+    <text x="666" y="30" text-anchor="middle" class="label">OCCITANIA</text><text x="666" y="54" text-anchor="middle" class="small">avionics · electronics</text>
+    <text x="936" y="30" text-anchor="middle" class="label">PORTUGAL</text><text x="936" y="54" text-anchor="middle" class="small">tracking · navigation</text>
+  </g>
+  <text x="1134" y="698" text-anchor="end" class="sans small">FUNCTIONAL SCHEMATIC · NOT TO SCALE</text>
+</svg>

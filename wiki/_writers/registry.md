@@ -4,20 +4,20 @@ The codes in this registry identify recurring in-universe contributors. `[a]`, `
 
 ## Active roles
 
-| Code | Contributor | Field | Profile |
-| --- | --- | --- | --- |
-| — | General Encyclopedic Editor | Coverage, synthesis, consistency, and conservative extrapolation | [general-editor.md](general-editor.md) |
-| g | Dr. Martin Ellwood | General canon audit and contradiction repair | [g-martin-ellwood.md](g-martin-ellwood.md) |
-| v | Dr. Julien Vernier | Connective extrapolation within the established horizon | [v-julien-vernier.md](v-julien-vernier.md) |
-| m | Dr. Mitch Langley | Military and war history | [m-mitch-langley.md](m-mitch-langley.md) |
-| s | Dr.-Ing. Sabine Voigt | Space systems engineering and technical history | [s-sabine-voigt.md](s-sabine-voigt.md) |
-| r | Dr. Robert H. Mercer | American Austrian-school economics | [r-robert-mercer.md](r-robert-mercer.md) |
-| k | Prof. Dr. Klaus Reinhardt | Berlin-school political economy | [k-klaus-reinhardt.md](k-klaus-reinhardt.md) |
-| b | Dr. Jonathan Hargreaves | British constitutional and imperial history | [b-jonathan-hargreaves.md](b-jonathan-hargreaves.md) |
-| j | Prof. Masato Ishikawa | Japanese imperial institutional history | [j-masato-ishikawa.md](j-masato-ishikawa.md) |
-| c | Rev. Dr. Tomás Valcárcel | Spanish Catholic ecclesiastical history and canon law | [c-tomas-valcarcel.md](c-tomas-valcarcel.md) |
-| i | Prof. Matteo Bellandi | Italian colonial social history and anthropology | [i-matteo-bellandi.md](i-matteo-bellandi.md) |
-| o | Dr. Matthias Eberhardt | Ostdeutsch settlement and Reichskommissariat history | [o-matthias-eberhardt.md](o-matthias-eberhardt.md) |
+| Code | Contributor | Field | Profile | Bounded goal |
+| --- | --- | --- | --- | --- |
+| — | General Encyclopedic Editor | Coverage, synthesis, consistency, and conservative extrapolation | [general-editor.md](general-editor.md) | [Goal](../../.agents/wiki-writer-goals/general-editor.md) |
+| g | Dr. Martin Ellwood | General canon audit and contradiction repair | [g-martin-ellwood.md](g-martin-ellwood.md) | [Goal](../../.agents/wiki-writer-goals/g-martin-ellwood.md) |
+| v | Dr. Julien Vernier | Connective extrapolation within the established horizon | [v-julien-vernier.md](v-julien-vernier.md) | [Goal](../../.agents/wiki-writer-goals/v-julien-vernier.md) |
+| m | Dr. Mitch Langley | Military and war history | [m-mitch-langley.md](m-mitch-langley.md) | [Goal](../../.agents/wiki-writer-goals/m-mitch-langley.md) |
+| s | Dr.-Ing. Sabine Voigt | Space systems engineering and technical history | [s-sabine-voigt.md](s-sabine-voigt.md) | [Goal](../../.agents/wiki-writer-goals/s-sabine-voigt.md) |
+| r | Dr. Robert H. Mercer | American Austrian-school economics | [r-robert-mercer.md](r-robert-mercer.md) | [Goal](../../.agents/wiki-writer-goals/r-robert-mercer.md) |
+| k | Prof. Dr. Klaus Reinhardt | Berlin-school political economy | [k-klaus-reinhardt.md](k-klaus-reinhardt.md) | [Goal](../../.agents/wiki-writer-goals/k-klaus-reinhardt.md) |
+| b | Dr. Jonathan Hargreaves | British constitutional and imperial history | [b-jonathan-hargreaves.md](b-jonathan-hargreaves.md) | [Goal](../../.agents/wiki-writer-goals/b-jonathan-hargreaves.md) |
+| j | Prof. Masato Ishikawa | Japanese imperial institutional history | [j-masato-ishikawa.md](j-masato-ishikawa.md) | [Goal](../../.agents/wiki-writer-goals/j-masato-ishikawa.md) |
+| c | Rev. Dr. Tomás Valcárcel | Spanish Catholic ecclesiastical history and canon law | [c-tomas-valcarcel.md](c-tomas-valcarcel.md) | [Goal](../../.agents/wiki-writer-goals/c-tomas-valcarcel.md) |
+| i | Prof. Matteo Bellandi | Italian colonial social history and anthropology | [i-matteo-bellandi.md](i-matteo-bellandi.md) | [Goal](../../.agents/wiki-writer-goals/i-matteo-bellandi.md) |
+| o | Dr. Matthias Eberhardt | Ostdeutsch settlement and Reichskommissariat history | [o-matthias-eberhardt.md](o-matthias-eberhardt.md) | [Goal](../../.agents/wiki-writer-goals/o-matthias-eberhardt.md) |
 
 The General Canon Editor is an audit role rather than a coverage or viewpoint specialist. `[g]` reviews existing canon-era material; the unannotated General Encyclopedic Editor creates and expands coverage. `[v]` fills connective gaps within the established horizon and always marks its extrapolations visibly.
 

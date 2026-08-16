@@ -196,3 +196,10 @@ Object.assign(window.deepArticles, {
     additionalSources:[{href:"https://www.martini.com/it/it/our-heritage/our-history/",label:"Martini — official company history"},{href:"https://archiviostorico.fondazionefiera.it/entita/601-martini-rossi",label:"Fondazione Fiera Milano historical archive — Martini & Rossi"}],categories:["Martini & Rossi","Italian beverage companies","Vermouth","Piedmont","Italian exports"]
   })
 });
+
+if(window.deepArticles["food-and-popular-goods-industry-of-italy"]){
+  const sections=window.deepArticles["food-and-popular-goods-industry-of-italy"].sections||[];
+  const insertionPoint=sections.findIndex(section=>section.id==="brands");
+  const contribution={id:"batch-records",title:"Batch records and product withdrawal",html:"<!-- altwwii-writer-block:start id=wb-v-20260816-d4q7s writer=v kind=extrapolation created=2026-08-16T12:50:00-06:00 --><p>Factory and bottling records connected a production lot to received ingredients, the processing or filling line, packaging and label stock, inspection results, and the warehouses or agents to which it was sent. A stamped or printed lot, date, or plant mark on the container let wholesalers and retailers report a defect more precisely than the brand name alone. Small firms and goods repacked by merchants often retained only invoice and delivery-date evidence.</p><p>When contamination, seal failure, a wrong label, or an unstable product was suspected, firms and inspectors held remaining stock and compared complaints with the batch record. Agents could be told to stop sale, return, segregate, or destroy affected packages while unaffected production continued. Incomplete ledgers, reused containers, mixed cases, and informal resale widened the withdrawal or left the responsible lot uncertain. Credit, transport cost, public notice, and responsibility among supplier, packer, carrier, and retailer remained separate disputes.</p><!-- altwwii-writer-block:end -->"};
+  if(insertionPoint>=0&&!sections.some(section=>section.id===contribution.id)) sections.splice(insertionPoint,0,contribution);
+}

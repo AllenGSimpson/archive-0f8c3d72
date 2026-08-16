@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">British wartime land system, 1941–1947</title>
+  <desc id="desc">A diagram showing a stable three-section rifle platoon connected to North African, Burmese, Malta and Torch lessons, with Indian and Australian production supporting the eastern theater and expeditionary movement doctrine shaping later forces.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0c1724"/><stop offset="1" stop-color="#17263a"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000" flood-opacity=".35"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#a9bdd1"/></marker>
+    <style>
+      .box{fill:#15283b;stroke:#6e8fae;stroke-width:2;rx:16;filter:url(#shadow)}
+      .core{fill:#203d58;stroke:#b8d2e7;stroke-width:2.5;rx:18;filter:url(#shadow)}
+      .industry{fill:#273b2c;stroke:#86aa85;stroke-width:2;rx:16;filter:url(#shadow)}
+      .doctrine{fill:#44382a;stroke:#c4a06c;stroke-width:2.5;rx:18;filter:url(#shadow)}
+      .line{fill:none;stroke:#a9bdd1;stroke-width:3;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#86aa85;stroke-width:3;stroke-dasharray:9 8;marker-end:url(#arrow)}
+      text{font-family:Georgia,'Times New Roman',serif;fill:#eef4f8}
+      .heading{font-size:29px;font-weight:700}
+      .label{font-size:23px;font-weight:700}
+      .body{font-family:Arial,sans-serif;font-size:18px;fill:#cfdae4}
+      .small{font-family:Arial,sans-serif;font-size:16px;fill:#b9c7d3}
+    </style>
+  </defs>
+  <rect width="1400" height="760" fill="url(#bg)"/>
+  <text x="700" y="52" text-anchor="middle" class="heading">British wartime land system · 1941–1947</text>
+
+  <rect x="470" y="86" width="460" height="132" class="core"/>
+  <text x="700" y="124" text-anchor="middle" class="label">Stable rifle-platoon core</text>
+  <text x="700" y="157" text-anchor="middle" class="body">Three Bren sections · 2-inch mortar</text>
+  <text x="700" y="185" text-anchor="middle" class="body">Changing close-AT team · stronger links upward</text>
+
+  <path d="M610 218 C510 252 328 258 250 302" class="line"/>
+  <path d="M700 218 L700 302" class="line"/>
+  <path d="M790 218 C890 252 1072 258 1150 302" class="line"/>
+
+  <rect x="70" y="304" width="360" height="150" class="box"/>
+  <text x="250" y="344" text-anchor="middle" class="label">North Africa</text>
+  <text x="250" y="380" text-anchor="middle" class="body">Antitank defense · smoke</text>
+  <text x="250" y="408" text-anchor="middle" class="body">artillery · tank–infantry integration</text>
+  <text x="250" y="435" text-anchor="middle" class="small">PIAT and bazooka prioritized</text>
+
+  <rect x="520" y="304" width="360" height="150" class="box"/>
+  <text x="700" y="344" text-anchor="middle" class="label">Burma</text>
+  <text x="700" y="380" text-anchor="middle" class="body">Patrol independence · local movement</text>
+  <text x="700" y="408" text-anchor="middle" class="body">medical endurance · regional supply</text>
+  <text x="700" y="435" text-anchor="middle" class="small">Boys rifles remain useful against light armor</text>
+
+  <rect x="970" y="304" width="360" height="150" class="box"/>
+  <text x="1150" y="344" text-anchor="middle" class="label">Malta and Torch</text>
+  <text x="1150" y="380" text-anchor="middle" class="body">Ports · shipping · air cover</text>
+  <text x="1150" y="408" text-anchor="middle" class="body">workshops · recovery · extraction</text>
+  <text x="1150" y="435" text-anchor="middle" class="small">Capabilities lost before arrival</text>
+
+  <rect x="392" y="518" width="285" height="116" class="industry"/>
+  <text x="535" y="558" text-anchor="middle" class="label">Indian arsenal</text>
+  <text x="535" y="590" text-anchor="middle" class="body">Ammunition · repair</text>
+  <text x="535" y="617" text-anchor="middle" class="body">parts · engineer stores</text>
+
+  <rect x="723" y="518" width="285" height="116" class="industry"/>
+  <text x="865" y="558" text-anchor="middle" class="label">Australian armor</text>
+  <text x="865" y="590" text-anchor="middle" class="body">AC1 Sentinel</text>
+  <text x="865" y="617" text-anchor="middle" class="body">AC3 Thunderbolt</text>
+
+  <path d="M610 518 C625 486 654 468 675 454" class="dash"/>
+  <path d="M790 518 C775 486 746 468 725 454" class="dash"/>
+
+  <rect x="995" y="526" width="335" height="152" class="doctrine"/>
+  <text x="1162" y="565" text-anchor="middle" class="label">Expeditionary movement</text>
+  <text x="1162" y="601" text-anchor="middle" class="body">Combat-complete initial lift</text>
+  <text x="1162" y="629" text-anchor="middle" class="body">compressed convoy serials</text>
+  <text x="1162" y="657" text-anchor="middle" class="body">cross-loaded capability</text>
+  <path d="M1150 454 L1158 526" class="line"/>
+
+  <path d="M995 604 C882 704 518 705 398 631" class="line"/>
+  <text x="700" y="724" text-anchor="middle" class="small">Later Commonwealth doctrine joins regional production to transport, recovery, and protected routes</text>
+</svg>

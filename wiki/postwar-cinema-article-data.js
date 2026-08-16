@@ -216,3 +216,10 @@ Object.assign(window.deepArticles, {
     facts:[["Released","1967"],["Country","Kingdom of Italy"],["Language","Italian"],["Genre","Engineering spectacle · espionage thriller"],["English title","The Canal"],["Setting","Suez Canal modernization"],["Protagonist","Hydraulic engineer"],["Exact creators and cast","Open"]]
   })
 });
+
+if(window.deepArticles["cinema-of-italy"]){
+  const sections=window.deepArticles["cinema-of-italy"].sections||[];
+  const insertionPoint=sections.findIndex(section=>section.id==="genre");
+  const contribution={id:"print-circulation",title:"Print circulation and exhibition",html:"<!-- altwwii-writer-block:start id=wb-v-20260816-p5r9k writer=v kind=extrapolation created=2026-08-16T13:04:32-06:00 --><p>A distributor booked a physical release print through a sequence of cinemas and sent its reels with shipping cases, language version, exhibition dates, approval papers, and a condition record. The receiving cinema checked the reel count and visible damage, screened the print, recorded broken joins or missing footage, and returned it or forwarded it to the next booking. A limited number of usable prints staggered release between metropolitan premieres, provincial towns, colonial circuits, and foreign markets.</p><p>A co-production crossing a frontier could require new subtitles or dubbing, local approval, publicity material, and customs handling. Authorization in one Latin state did not automatically settle exhibition in another. Repeated projection, repair splices, local cuts, and damaged reels meant that two audiences could see copies of different length or quality. Distributors repaired or replaced valuable prints when stock allowed; an exhibitor at the end of a circuit might continue with a worn or incomplete copy.</p><!-- altwwii-writer-block:end -->"};
+  if(insertionPoint>=0&&!sections.some(section=>section.id===contribution.id)) sections.splice(insertionPoint,0,contribution);
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Japanese aviation-submarine development</title>
+  <desc id="desc">A five-stage diagram from I-400 and the Sharjah raid through floatplane, early-jet, vertical-takeoff, nuclear, multi-hull, and drone development to I-500 Ryujin.</desc>
+  <rect width="1600" height="620" fill="#101822"/>
+  <text x="80" y="74" fill="#f4f1e8" font-family="Georgia, serif" font-size="38">Japanese aviation-submarine development</text>
+  <text x="80" y="111" fill="#9db1c4" font-family="Arial, sans-serif" font-size="20">A succession of technical schools, not a complete class or hull registry</text>
+  <line x1="170" y1="290" x2="1430" y2="290" stroke="#6b879b" stroke-width="8"/>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(85 170)">
+      <rect width="250" height="255" rx="14" fill="#172737" stroke="#d7b55a" stroke-width="3"/>
+      <circle cx="125" cy="120" r="20" fill="#d7b55a"/>
+      <text x="125" y="42" text-anchor="middle" fill="#f4f1e8" font-size="25" font-weight="700">I-400 proof</text>
+      <text x="125" y="76" text-anchor="middle" fill="#b9c9d6" font-size="18">wartime experiment</text>
+      <text x="125" y="168" text-anchor="middle" fill="#f4f1e8" font-size="19">3 recoverable Seirans</text>
+      <text x="125" y="200" text-anchor="middle" fill="#f4f1e8" font-size="19">Sharjah raid</text>
+      <text x="125" y="230" text-anchor="middle" fill="#9db1c4" font-size="16">capability demonstrated</text>
+    </g>
+    <g transform="translate(380 170)">
+      <rect width="250" height="255" rx="14" fill="#172737" stroke="#6ea0bc" stroke-width="3"/>
+      <circle cx="125" cy="120" r="20" fill="#6ea0bc"/>
+      <text x="125" y="42" text-anchor="middle" fill="#f4f1e8" font-size="25" font-weight="700">Floatplane school</text>
+      <text x="125" y="76" text-anchor="middle" fill="#b9c9d6" font-size="18">postwar refinement</text>
+      <text x="125" y="168" text-anchor="middle" fill="#f4f1e8" font-size="19">launch and recovery</text>
+      <text x="125" y="200" text-anchor="middle" fill="#f4f1e8" font-size="19">handling and weather</text>
+      <text x="125" y="230" text-anchor="middle" fill="#9db1c4" font-size="16">class names open</text>
+    </g>
+    <g transform="translate(675 170)">
+      <rect width="250" height="255" rx="14" fill="#172737" stroke="#a887ad" stroke-width="3"/>
+      <circle cx="125" cy="120" r="20" fill="#a887ad"/>
+      <text x="125" y="42" text-anchor="middle" fill="#f4f1e8" font-size="25" font-weight="700">Early-jet trials</text>
+      <text x="125" y="76" text-anchor="middle" fill="#b9c9d6" font-size="18">difficult transition</text>
+      <text x="125" y="168" text-anchor="middle" fill="#f4f1e8" font-size="19">heat and exhaust</text>
+      <text x="125" y="200" text-anchor="middle" fill="#f4f1e8" font-size="19">recovery problem</text>
+      <text x="125" y="230" text-anchor="middle" fill="#9db1c4" font-size="16">experiments, not fleet</text>
+    </g>
+    <g transform="translate(970 170)">
+      <rect width="250" height="255" rx="14" fill="#172737" stroke="#79a87b" stroke-width="3"/>
+      <circle cx="125" cy="120" r="20" fill="#79a87b"/>
+      <text x="125" y="42" text-anchor="middle" fill="#f4f1e8" font-size="25" font-weight="700">VTOL and nuclear</text>
+      <text x="125" y="76" text-anchor="middle" fill="#b9c9d6" font-size="18">mature architecture</text>
+      <text x="125" y="168" text-anchor="middle" fill="#f4f1e8" font-size="19">broad multi-hull volume</text>
+      <text x="125" y="200" text-anchor="middle" fill="#f4f1e8" font-size="19">strategic endurance</text>
+      <text x="125" y="230" text-anchor="middle" fill="#9db1c4" font-size="16">PWR through 1985</text>
+    </g>
+    <g transform="translate(1265 170)">
+      <rect width="250" height="255" rx="14" fill="#172737" stroke="#e06d66" stroke-width="3"/>
+      <circle cx="125" cy="120" r="20" fill="#e06d66"/>
+      <text x="125" y="42" text-anchor="middle" fill="#f4f1e8" font-size="25" font-weight="700">I-500 Ryūjin</text>
+      <text x="125" y="76" text-anchor="middle" fill="#b9c9d6" font-size="18">1980s mature force</text>
+      <text x="125" y="168" text-anchor="middle" fill="#f4f1e8" font-size="19">about 6 aircraft</text>
+      <text x="125" y="200" text-anchor="middle" fill="#f4f1e8" font-size="19">later drones</text>
+      <text x="125" y="230" text-anchor="middle" fill="#9db1c4" font-size="16">about 4–5 boats</text>
+    </g>
+  </g>
+  <rect x="85" y="485" width="1430" height="82" rx="12" fill="#0c131c" stroke="#31485a"/>
+  <text x="800" y="520" text-anchor="middle" fill="#f4f1e8" font-family="Arial, sans-serif" font-size="19">Fixed: missions, technical sequence, approximate mature air group and force, Ryūjin identity</text>
+  <text x="800" y="550" text-anchor="middle" fill="#9db1c4" font-family="Arial, sans-serif" font-size="18">Open: intermediate classes, exact dates, dimensions, aircraft types, sister ships, patrol histories, readiness</text>
+</svg>

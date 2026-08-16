@@ -107,8 +107,6 @@ const addRangoonInstrumentRelated=(id,cards)=>{
 const settlement=window.deepArticles["rangoon-settlement"];
 if(settlement){
   settlement.landscape={src:"assets/diagrams/rangoon-settlement-instruments.svg",alt:"Diagram of the four principal instruments of the Rangoon Settlement",caption:"The Rangoon Settlement was a package: withdrawal, federal constitution, external security, and civilian/property protection were recorded separately."};
-  settlement.canon="The 1952–1953 date, package character, four principal instruments, end of British protection, federal ceasefire Union, State Guards, and Japanese predominance are established. The four short instrument titles are conventional working usage; enrolled titles, signatories, exact texts, conference dates, and ratification remain open.";
-  settlement.facts=(settlement.facts||[]).map(([k,v])=>k==="Exact treaty titles"?["Instrument titles","Conventional short titles; enrolled titles open"]:[k,v]);
 }
 addRangoonInstrumentRelated("rangoon-settlement",rangoonInstrumentCards);
 addRangoonInstrumentRelated("burmese-companion-war",[

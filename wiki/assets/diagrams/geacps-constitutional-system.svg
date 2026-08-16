@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+  <title id="title">Constitutional system of the Greater East Asia Co-Prosperity Sphere</title>
+  <desc id="desc">Japan and its integral territories, principal associated states, protected and dependent members, and external strategic associates are connected by conference, economic, security, and technical systems beneath Japanese reserve supremacy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17212a"/><stop offset="1" stop-color="#0e151b"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000" flood-opacity=".35"/></filter>
+    <style>.label{font:700 24px Georgia,serif;fill:#f1eadc}.small{font:16px Arial,sans-serif;fill:#d8d3ca}.tiny{font:14px Arial,sans-serif;fill:#bbb6ae}.box{stroke:#d6cfc1;stroke-width:2}.line{stroke:#d9b765;stroke-width:3;fill:none}.cap{font:700 17px Arial,sans-serif;letter-spacing:1.5px;fill:#f1d68a}.pill{fill:#1e2a33;stroke:#796f60;stroke-width:1.5}</style>
+  </defs>
+  <rect width="1200" height="660" rx="20" fill="url(#bg)"/>
+  <text x="600" y="42" text-anchor="middle" class="cap">DIFFERENTIATED ASSOCIATION UNDER JAPANESE PRIMACY</text>
+  <g filter="url(#shadow)">
+    <rect x="360" y="70" width="480" height="90" rx="12" fill="#7c2330" class="box"/>
+    <text x="600" y="106" text-anchor="middle" class="label">Japan and integral territories</text>
+    <text x="600" y="136" text-anchor="middle" class="small">Japanese sovereignty and nationality</text>
+    <rect x="85" y="218" width="460" height="108" rx="12" fill="#405f7d" class="box"/>
+    <text x="315" y="257" text-anchor="middle" class="label">Principal associated states</text>
+    <text x="315" y="287" text-anchor="middle" class="small">Manchukuo · National China · Thailand · Philippines</text>
+    <text x="315" y="311" text-anchor="middle" class="tiny">National sovereignty beneath a strategic ceiling</text>
+    <rect x="655" y="218" width="460" height="108" rx="12" fill="#4f684d" class="box"/>
+    <text x="885" y="257" text-anchor="middle" class="label">Protected and dependent members</text>
+    <text x="885" y="287" text-anchor="middle" class="small">Unequal concessions, guarantees, and protectorates</text>
+    <text x="885" y="311" text-anchor="middle" class="tiny">Local institutions with variable substantive autonomy</text>
+    <rect x="360" y="386" width="480" height="92" rx="12" fill="#6d5b3d" class="box"/>
+    <text x="600" y="423" text-anchor="middle" class="label">External strategic associates</text>
+    <text x="600" y="453" text-anchor="middle" class="small">Azad Hind · Hyderabad after 1986</text>
+  </g>
+  <path d="M600 160V190M600 190H315V218M600 190H885V218M315 326V354H600V386M885 326V354H600" class="line"/>
+  <g>
+    <rect x="70" y="545" width="245" height="58" rx="29" class="pill"/><text x="192" y="580" text-anchor="middle" class="small">Conference and treaty</text>
+    <rect x="342" y="545" width="245" height="58" rx="29" class="pill"/><text x="464" y="580" text-anchor="middle" class="small">Clearing and corporations</text>
+    <rect x="614" y="545" width="245" height="58" rx="29" class="pill"/><text x="736" y="580" text-anchor="middle" class="small">Security and transport</text>
+    <rect x="886" y="545" width="245" height="58" rx="29" class="pill"/><text x="1008" y="580" text-anchor="middle" class="small">Standards and education</text>
+  </g>
+  <text x="600" y="641" text-anchor="middle" class="cap">JAPANESE RESERVE SUPREMACY FORMS THE FINAL CEILING</text>
+</svg>

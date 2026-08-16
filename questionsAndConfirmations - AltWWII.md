@@ -484,6 +484,14 @@ Priority:
 
 **Authorial answer:** _Pending_
 
+### P1-35 — Southern Cameroons boundary and Buea
+
+**Question:** What postwar boundary allows Southern Cameroons to survive as a British Crown Frontier Territory while Buea serves from 1947 as the ceremonial capital of German Reichskommissariat Mittelafrika?
+
+**Current working treatment:** Southern Cameroons survives as a separate British-associated frontier territory beside German Kamerun, but it is not assumed to be coterminous with the historical British mandate. Buea is under German authority. The remaining border, capital, and disposition of the historical mandate districts are open.
+
+**Authorial answer:** _Pending_
+
 ## P2 — Precision and flavor
 
 ### P2-01 — White Parachute originator

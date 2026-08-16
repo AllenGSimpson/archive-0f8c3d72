@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
   <title id="title">American reusable-aerospace research generation, 1961–1969</title>
-  <desc id="desc">Four research paths—X-15A, X-20A Dyna-Soar, X-24, and Project Apex—contribute different technologies to OV-1A Pathfinder.</desc>
+  <desc id="desc">Four research paths—X-15A, X-20A Dyna-Soar, X-24, and Project Apex—contribute different technologies to the experimental XO-1 Pathfinder.</desc>
   <rect width="1200" height="900" fill="#111e2c"/>
   <g font-family="DejaVu Sans, Arial, sans-serif">
     <text x="62" y="68" fill="#f5efe5" font-family="Georgia, serif" font-size="37" font-weight="700">American Reusable-Aerospace Research</text>
@@ -67,7 +67,7 @@
     <g>
       <rect x="925" y="265" width="235" height="165" rx="12" fill="#2e5271" stroke="#f0d274" stroke-width="3"/>
       <text x="950" y="301" fill="#f7e7ae" font-size="14" font-weight="700" letter-spacing="1">OPERATIONAL CONVERGENCE</text>
-      <text x="950" y="337" fill="#fff" font-size="22" font-weight="700">OV-1A Pathfinder</text>
+      <text x="950" y="337" fill="#fff" font-size="22" font-weight="700">XO-1 Pathfinder</text>
       <text x="950" y="369" fill="#edf6fb" font-size="14">Runway to orbit · 1969</text>
       <text x="950" y="397" fill="#d2e6f1" font-size="14">One vehicle · one complete cycle</text>
     </g>

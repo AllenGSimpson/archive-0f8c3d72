@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Italian wartime infantry reform</title>
+  <desc id="desc">The 1941 rifle platoon had two twenty-man maneuver elements with two Breda light machine guns each. The 1942 Africa-pattern platoon divided the same forty men and four machine guns into four ten-man squads, supported by company and higher attachments.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111923"/><stop offset="1" stop-color="#1d2832"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-opacity=".3"/></filter>
+    <style>.title{font:700 34px Georgia,serif;fill:#f2eee3}.sub{font:18px Arial,sans-serif;fill:#b9c4cc}.head{font:700 22px Arial,sans-serif;fill:#fff}.label{font:700 18px Arial,sans-serif;fill:#fff}.small{font:15px Arial,sans-serif;fill:#d7dfe4}.box{stroke:#9aa7af;stroke-width:2;rx:10;filter:url(#shadow)}.line{stroke:#d2b25f;stroke-width:4;fill:none}.dash{stroke:#98a9b2;stroke-width:2;stroke-dasharray:8 7;fill:none}</style>
+  </defs>
+  <rect width="1200" height="650" fill="url(#bg)"/>
+  <text x="60" y="58" class="title">Italian rifle-platoon reform, 1941–1942</text>
+  <text x="60" y="90" class="sub">Same forty maneuver troops · same four light machine guns · different command relationships</text>
+  <text x="80" y="145" class="head">1941 inherited organization</text>
+  <rect x="95" y="175" width="360" height="72" class="box" fill="#5c4632"/>
+  <text x="275" y="205" text-anchor="middle" class="label">Platoon command</text><text x="275" y="230" text-anchor="middle" class="small">two subordinate maneuver elements</text>
+  <path d="M275 247v38M275 285H150M275 285H400M150 285v28M400 285v28" class="line"/>
+  <rect x="55" y="313" width="190" height="110" class="box" fill="#6c3f35"/><text x="150" y="347" text-anchor="middle" class="label">20-man element</text><text x="150" y="375" text-anchor="middle" class="small">2 × Breda 30</text><text x="150" y="398" text-anchor="middle" class="small">LMG + rifle groups</text>
+  <rect x="305" y="313" width="190" height="110" class="box" fill="#6c3f35"/><text x="400" y="347" text-anchor="middle" class="label">20-man element</text><text x="400" y="375" text-anchor="middle" class="small">2 × Breda 30</text><text x="400" y="398" text-anchor="middle" class="small">LMG + rifle groups</text>
+  <text x="275" y="470" text-anchor="middle" class="sub">Large subordinate units · only two formal choices</text>
+  <path d="M530 320h95" class="line"/><path d="M612 307l18 13-18 13" fill="#d2b25f"/><text x="580" y="292" text-anchor="middle" class="small">repackage</text>
+  <text x="720" y="145" class="head">1942 Africa-pattern organization</text>
+  <rect x="700" y="175" width="420" height="72" class="box" fill="#2f5661"/><text x="910" y="205" text-anchor="middle" class="label">Platoon command</text><text x="910" y="230" text-anchor="middle" class="small">four subordinate maneuver elements</text>
+  <path d="M910 247v38M725 285h370M725 285v28M850 285v28M970 285v28M1095 285v28" class="line"/>
+  <g fill="#315f4b"><rect x="655" y="313" width="140" height="110" class="box"/><rect x="780" y="313" width="140" height="110" class="box"/><rect x="900" y="313" width="140" height="110" class="box"/><rect x="1025" y="313" width="140" height="110" class="box"/></g>
+  <g text-anchor="middle"><text x="725" y="347" class="label">10-man squad</text><text x="725" y="375" class="small">1 × Breda 30</text><text x="725" y="398" class="small">rifle body</text><text x="850" y="347" class="label">10-man squad</text><text x="850" y="375" class="small">1 × Breda 30</text><text x="850" y="398" class="small">rifle body</text><text x="970" y="347" class="label">10-man squad</text><text x="970" y="375" class="small">1 × Breda 30</text><text x="970" y="398" class="small">rifle body</text><text x="1095" y="347" class="label">10-man squad</text><text x="1095" y="375" class="small">1 × Breda 30</text><text x="1095" y="398" class="small">rifle body</text></g>
+  <text x="910" y="470" text-anchor="middle" class="sub">Smaller squads · four choices · informal pairing when useful</text>
+  <path d="M710 500h400v84H710z" class="dash"/><text x="910" y="530" text-anchor="middle" class="label">Company and higher attachments</text><text x="910" y="558" text-anchor="middle" class="small">machine guns · mortars · antitank · engineers · observers · vehicles</text>
+  <text x="910" y="610" text-anchor="middle" class="small">Specialist capability is modular above the squad</text><text x="60" y="620" class="small">Archive reconstruction · exact headquarters strength and support tables remain open</text>
+</svg>

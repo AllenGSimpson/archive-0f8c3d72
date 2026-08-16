@@ -18,6 +18,8 @@ Participate in the wiki as one editor inside a shared intellectual ecosystem.
 5. Check open handoffs addressed to the role before selecting unrelated work.
 6. Check the working tree and preserve every unrelated change.
 
+Writer profiles define role, method, bias, and limits; they are not runnable long-running goals. When the user wants to start a durable writer goal, use the matching concise prompt in `.agents/wiki-writer-goals/`. Reading a profile or goal prompt is setup and can never satisfy the goal by itself.
+
 ## Edit an article
 
 1. Acquire the logical page lock for `wiki/<slug>.html` before changing its shell or any shared `*-article-data.js` record that supplies its content.

@@ -5,7 +5,7 @@
   const goButton = document.querySelector("[data-graph-go]");
   const searchInput = document.querySelector("[data-graph-search]");
   const searchStatus = document.querySelector("[data-graph-search-status]");
-  const clusterLabelLayer = document.querySelector("[data-graph-cluster-labels]");
+  const articleLabelLayer = document.querySelector("[data-graph-article-labels]");
   if (!data || !canvas || !stage) return;
 
   document.querySelector("[data-graph-pages]").textContent = data.pageCount.toLocaleString();
@@ -20,11 +20,15 @@
   const nodes = data.nodes.map(([title, href, words, radius, x, y, z, degree, community]) => ({ title, href, words, radius, x, y, z, degree, community }));
   const nodeCount = nodes.length;
   const edgeCount = data.edges.length;
+  const structuralEdges = data.structuralEdges || [];
+  const structuralEdgeCount = structuralEdges.length;
   const nodeClip = new Float32Array(nodeCount * 3);
   const nodeSizes = new Float32Array(nodeCount);
   const nodeColors = new Float32Array(nodeCount * 4);
   const edgeClip = new Float32Array(edgeCount * 6);
   const edgeColors = new Float32Array(edgeCount * 8);
+  const structuralClip = new Float32Array(structuralEdgeCount * 6);
+  const structuralColors = new Float32Array(structuralEdgeCount * 8);
   const screenX = new Float64Array(nodeCount);
   const screenY = new Float64Array(nodeCount);
   const screenRadius = new Float64Array(nodeCount);
@@ -33,29 +37,31 @@
   const baseCenter = [0, 0, 0];
   const graphHalfWidth = Math.max(...nodes.map((node) => Math.abs(node.x) + node.radius));
   const graphHalfHeight = Math.max(...nodes.map((node) => Math.abs(node.y) + node.radius));
-  const clusterMap = new Map();
-  for (let index = 0; index < nodeCount; index += 1) {
-    const community = nodes[index].community;
-    if (!Number.isInteger(community)) continue;
-    if (!clusterMap.has(community)) clusterMap.set(community, []);
-    clusterMap.get(community).push(index);
-  }
-  const clusters = [...clusterMap]
-    .map(([community, members]) => ({
-      community,
-      members,
-      portal: [...members].sort((left, right) => nodes[right].degree - nodes[left].degree || nodes[right].words - nodes[left].words || nodes[left].href.localeCompare(nodes[right].href))[0]
-    }))
-    .sort((left, right) => right.members.length - left.members.length || nodes[left.portal].href.localeCompare(nodes[right.portal].href));
-  for (const cluster of clusters) {
+  const minimumLabelFontSize = 10 * 96 / 72;
+  const inscribedLabelBoxFactor = Math.SQRT2;
+  const labelTiers = data.labelTiers || Array(nodeCount).fill(3);
+  const labelTierZoom = [1, 1.75, 3, 5];
+  const articleLabels = nodes.map((node, index) => ({ node: index, words: node.words, href: node.href, tier: labelTiers[index] ?? 3 }));
+  const labelFragment = document.createDocumentFragment();
+  const labelMeasureContext = document.createElement("canvas").getContext("2d");
+  labelMeasureContext.font = `800 ${minimumLabelFontSize}px Arial`;
+  const minimumLabelLineHeight = minimumLabelFontSize * 0.92;
+  for (const articleLabel of articleLabels) {
     const label = document.createElement("span");
-    label.className = "graph-cluster-label";
-    label.textContent = nodes[cluster.portal].title;
-    label.dataset.community = String(cluster.community);
-    label.dataset.portal = nodes[cluster.portal].href;
-    clusterLabelLayer?.append(label);
-    cluster.label = label;
+    label.className = "graph-article-label";
+    label.textContent = nodes[articleLabel.node].title;
+    label.dataset.article = nodes[articleLabel.node].href;
+    label.hidden = true;
+    labelFragment.append(label);
+    articleLabel.label = label;
+    const measuredWidth = labelMeasureContext.measureText(nodes[articleLabel.node].title.toLocaleUpperCase()).width;
+    articleLabel.minimumBoxSize = Math.ceil(Math.max(minimumLabelLineHeight,
+      Math.sqrt(measuredWidth * minimumLabelLineHeight) * 1.5 + 2));
   }
+  articleLabelLayer?.append(labelFragment);
+  let visibleArticleLabels = [];
+  const minimumLabelProjectionScale = Math.max(...articleLabels.map((articleLabel) =>
+    articleLabel.minimumBoxSize / (nodes[articleLabel.node].radius * inscribedLabelBoxFactor)));
 
   let width = 1;
   let height = 1;
@@ -130,6 +136,8 @@
   const nodeProgram = program(vertexNode, fragmentNode);
   const edgePositionBuffer = gl.createBuffer();
   const edgeColorBuffer = gl.createBuffer();
+  const structuralPositionBuffer = gl.createBuffer();
+  const structuralColorBuffer = gl.createBuffer();
   const nodePositionBuffer = gl.createBuffer();
   const nodeSizeBuffer = gl.createBuffer();
   const nodeColorBuffer = gl.createBuffer();
@@ -147,13 +155,31 @@
   }
 
   function refreshColors() {
-    const edgeAlpha = searchQuery ? 0.07 : 0.3;
-    const origin = cssColor("--graph-origin", edgeAlpha);
-    const destination = cssColor("--graph-destination", edgeAlpha);
+    const revealProgress = Math.max(0, Math.min(1, (zoom - 1.5) / 2.5));
+    const reveal = revealProgress * revealProgress * (3 - 2 * revealProgress);
+    const peerProgress = Math.max(0, Math.min(1, (zoom - 1.75) / 1.75));
+    const peerReveal = peerProgress * peerProgress * (3 - 2 * peerProgress);
     for (let edge = 0; edge < edgeCount; edge += 1) {
-      const active = selected >= 0 && data.edges[edge].includes(selected);
-      writeColor(edgeColors, edge * 8, active ? [...origin.slice(0, 3), 0.85] : origin);
-      writeColor(edgeColors, edge * 8 + 4, active ? [...destination.slice(0, 3), 0.85] : destination);
+      const [source, target] = data.edges[edge];
+      const selectedIncident = selected >= 0 && (source === selected || target === selected);
+      const hoveredIncident = hovered >= 0 && (source === hovered || target === hovered);
+      const searchIncident = searchQuery && (searchMatches[source] || searchMatches[target]);
+      let alpha = 0.3 * reveal * (searchQuery ? 0.2 : 1);
+      if (searchIncident) alpha = 0.55;
+      if (hoveredIncident) alpha = 0.68;
+      if (selectedIncident) alpha = 0.85;
+      writeColor(edgeColors, edge * 8, cssColor("--graph-origin", alpha));
+      writeColor(edgeColors, edge * 8 + 4, cssColor("--graph-destination", alpha));
+    }
+    for (let edge = 0; edge < structuralEdgeCount; edge += 1) {
+      const [source, target, kind] = structuralEdges[edge];
+      const active = source === selected || target === selected || source === hovered || target === hovered
+        || (searchQuery && (searchMatches[source] || searchMatches[target]));
+      const property = kind === 0 ? "--graph-trunk" : kind === 1 ? "--graph-peer" : "--graph-bridge";
+      const alpha = active ? 0.82 : kind === 0 ? 0.46 : kind === 1 ? 0.16 * peerReveal : 0.28;
+      const color = cssColor(property, alpha);
+      writeColor(structuralColors, edge * 8, color);
+      writeColor(structuralColors, edge * 8 + 4, color);
     }
     const ordinary = cssColor("--graph-node", 0.94);
     const muted = cssColor("--graph-node", 0.16);
@@ -227,15 +253,25 @@
     canvas.dataset.overlapCount = String(overlaps);
   }
 
-  function project() {
+  function fittedProjectionScale() {
     const cosine = Math.abs(Math.cos(yaw));
     const sine = Math.abs(Math.sin(yaw));
     const rotatedHalfWidth = cosine * graphHalfWidth + sine * graphHalfHeight;
     const rotatedHalfHeight = sine * graphHalfWidth + cosine * graphHalfHeight;
-    const scale = Math.min(width / (rotatedHalfWidth * 2.12), height / (rotatedHalfHeight * 2.12)) * zoom;
+    return Math.min(width / (rotatedHalfWidth * 2.12), height / (rotatedHalfHeight * 2.12));
+  }
+
+  function maximumZoom() {
+    return Math.max(7, minimumLabelProjectionScale / Math.max(0.0001, fittedProjectionScale()) * 1.02);
+  }
+
+  function project() {
+    zoom = Math.min(zoom, maximumZoom());
+    const scale = fittedProjectionScale() * zoom;
     projectionScale = scale;
     canvas.dataset.cameraX = focusCenter[0].toFixed(2);
     canvas.dataset.cameraY = focusCenter[1].toFixed(2);
+    canvas.dataset.maximumZoom = maximumZoom().toFixed(3);
     for (let index = 0; index < nodeCount; index += 1) {
       const [x, y] = rotatePoint(nodes[index], index);
       screenX[index] = width / 2 + x * scale;
@@ -255,7 +291,12 @@
       edgeClip.set(nodeClip.subarray(source * 3, source * 3 + 3), edge * 6);
       edgeClip.set(nodeClip.subarray(target * 3, target * 3 + 3), edge * 6 + 3);
     }
-    positionClusterLabels();
+    for (let edge = 0; edge < structuralEdgeCount; edge += 1) {
+      const [source, target] = structuralEdges[edge];
+      structuralClip.set(nodeClip.subarray(source * 3, source * 3 + 3), edge * 6);
+      structuralClip.set(nodeClip.subarray(target * 3, target * 3 + 3), edge * 6 + 3);
+    }
+    positionArticleLabels();
 
     const ring = document.querySelector("[data-graph-focus-ring]");
     if (selected >= 0) {
@@ -270,53 +311,38 @@
     }
   }
 
-  function rectanglesOverlap(left, right, padding = 4) {
-    const overlapWidth = Math.min(left.right + padding, right.right) - Math.max(left.left - padding, right.left);
-    const overlapHeight = Math.min(left.bottom + padding, right.bottom) - Math.max(left.top - padding, right.top);
-    return overlapWidth > 0 && overlapHeight > 0;
-  }
-
-  function circleOverlapsRectangle(x, y, radius, rectangle, padding = 2) {
-    const nearestX = Math.max(rectangle.left - padding, Math.min(x, rectangle.right + padding));
-    const nearestY = Math.max(rectangle.top - padding, Math.min(y, rectangle.bottom + padding));
-    return Math.hypot(x - nearestX, y - nearestY) < Math.max(1, radius);
-  }
-
-  function positionClusterLabels() {
-    if (!clusterLabelLayer) return;
-    const visibleLabels = [];
-    const margin = 6;
-    for (const cluster of clusters) {
-      const label = cluster.label;
-      const anchorX = cluster.members.reduce((sum, node) => sum + screenX[node], 0) / cluster.members.length;
-      const anchorY = cluster.members.reduce((sum, node) => sum + screenY[node], 0) / cluster.members.length;
-      if (anchorX < -30 || anchorX > width + 30 || anchorY < -30 || anchorY > height + 30) {
-        label.hidden = true;
-        continue;
-      }
-      label.hidden = false;
-      label.dataset.selected = String(selected >= 0 && nodes[selected].community === cluster.community);
-      cluster.labelWidth ||= label.offsetWidth;
-      cluster.labelHeight ||= label.offsetHeight;
-      const labelWidth = cluster.labelWidth;
-      const labelHeight = cluster.labelHeight;
-      const left = Math.max(margin, Math.min(width - margin - labelWidth, anchorX - labelWidth / 2));
-      const top = Math.max(margin, Math.min(height - margin - labelHeight, anchorY - labelHeight / 2));
-      const rectangle = { left, top, right: left + labelWidth, bottom: top + labelHeight };
-      const overlapsLabel = visibleLabels.some((other) => rectanglesOverlap(rectangle, other.rectangle));
-      const overlapsOtherCluster = nodes.some((node, index) => node.community !== cluster.community && circleOverlapsRectangle(screenX[index], screenY[index], screenRadius[index], rectangle));
-      const obscured = overlapsLabel || overlapsOtherCluster;
-      label.dataset.obscured = String(obscured);
-      label.style.left = `${left}px`;
-      label.style.top = `${top}px`;
-      label.style.opacity = obscured
-        ? "0"
-        : searchQuery && !searchMatches[cluster.portal] && !(selected >= 0 && nodes[selected].community === cluster.community) ? ".3" : "1";
-      if (!obscured) visibleLabels.push({ cluster, rectangle });
+  function positionArticleLabels() {
+    if (!articleLabelLayer) return;
+    for (const articleLabel of visibleArticleLabels) articleLabel.label.hidden = true;
+    visibleArticleLabels = [];
+    let onscreenCount = 0;
+    for (const articleLabel of articleLabels) {
+      const node = articleLabel.node;
+      const anchorX = screenX[node];
+      const anchorY = screenY[node];
+      const labelBoxSize = screenRadius[node] * inscribedLabelBoxFactor;
+      if (anchorX + screenRadius[node] < 0 || anchorX - screenRadius[node] > width
+        || anchorY + screenRadius[node] < 0 || anchorY - screenRadius[node] > height) continue;
+      onscreenCount += 1;
+      const priorityReveal = selected === node || hovered === node || Boolean(searchQuery && searchMatches[node]);
+      if (!priorityReveal && zoom < labelTierZoom[articleLabel.tier]) continue;
+      if (labelBoxSize < articleLabel.minimumBoxSize) continue;
+      articleLabel.label.hidden = false;
+      articleLabel.label.dataset.obscured = "false";
+      articleLabel.label.dataset.selected = String(selected === articleLabel.node);
+      articleLabel.label.style.left = `${anchorX - labelBoxSize / 2}px`;
+      articleLabel.label.style.top = `${anchorY - labelBoxSize / 2}px`;
+      articleLabel.label.style.width = `${labelBoxSize}px`;
+      articleLabel.label.style.height = `${labelBoxSize}px`;
+      articleLabel.label.style.fontSize = `${minimumLabelFontSize}px`;
+      articleLabel.label.style.opacity = searchQuery && !searchMatches[articleLabel.node] && selected !== articleLabel.node ? ".3" : "1";
+      visibleArticleLabels.push(articleLabel);
     }
-    clusterLabelLayer.dataset.labelCount = String(clusters.length);
-    clusterLabelLayer.dataset.visibleLabelCount = String(visibleLabels.length);
-    clusterLabelLayer.dataset.fadedLabelCount = String(clusters.length - visibleLabels.length);
+    articleLabelLayer.dataset.labelCount = String(articleLabels.length);
+    articleLabelLayer.dataset.onscreenLabelCount = String(onscreenCount);
+    articleLabelLayer.dataset.visibleLabelCount = String(visibleArticleLabels.length);
+    articleLabelLayer.dataset.fadedLabelCount = String(onscreenCount - visibleArticleLabels.length);
+    articleLabelLayer.dataset.minimumFontSize = `${minimumLabelFontSize}px`;
   }
 
   function bindAttribute(programValue, buffer, name, size, values, usage = gl.DYNAMIC_DRAW) {
@@ -346,6 +372,10 @@
     gl.depthFunc(gl.LEQUAL);
 
     gl.useProgram(edgeProgram);
+    bindAttribute(edgeProgram, structuralPositionBuffer, "a_position", 3, structuralClip);
+    bindAttribute(edgeProgram, structuralColorBuffer, "a_color", 4, structuralColors);
+    gl.drawArrays(gl.LINES, 0, structuralEdgeCount * 2);
+
     bindAttribute(edgeProgram, edgePositionBuffer, "a_position", 3, edgeClip);
     bindAttribute(edgeProgram, edgeColorBuffer, "a_color", 4, edgeColors);
     gl.drawArrays(gl.LINES, 0, edgeCount * 2);
@@ -481,17 +511,17 @@
   });
   canvas.addEventListener("wheel", (event) => {
     event.preventDefault();
-    zoom = Math.max(0.28, Math.min(7, zoom * Math.exp(-event.deltaY * 0.001)));
+    zoom = Math.max(0.28, Math.min(maximumZoom(), zoom * Math.exp(-event.deltaY * 0.001)));
     requestDraw();
   }, { passive: false });
   canvas.addEventListener("keydown", (event) => {
     const step = 0.14;
     if (event.key === "ArrowLeft") yaw -= step;
     else if (event.key === "ArrowRight") yaw += step;
-    else if (event.key === "ArrowUp") zoom = Math.min(7, zoom * 1.14);
-    else if (event.key === "ArrowDown") zoom = Math.max(0.28, zoom / 1.14);
-    else if (event.key === "+" || event.key === "=") zoom = Math.min(7, zoom * 1.14);
-    else if (event.key === "-" || event.key === "_") zoom = Math.max(0.28, zoom / 1.14);
+    else if (event.key === "ArrowUp") zoom = Math.min(maximumZoom(), zoom * 1.25);
+    else if (event.key === "ArrowDown") zoom = Math.max(0.28, zoom / 1.25);
+    else if (event.key === "+" || event.key === "=") zoom = Math.min(maximumZoom(), zoom * 1.25);
+    else if (event.key === "-" || event.key === "_") zoom = Math.max(0.28, zoom / 1.25);
     else if (event.key === "Escape") { resetView(); event.preventDefault(); return; }
     else return;
     event.preventDefault(); requestDraw();
@@ -504,7 +534,7 @@
     requestDraw();
   }));
   document.querySelectorAll("[data-graph-zoom]").forEach((button) => button.addEventListener("click", () => {
-    zoom = Math.max(0.28, Math.min(7, zoom * (button.dataset.graphZoom === "in" ? 1.18 : 1 / 1.18)));
+    zoom = Math.max(0.28, Math.min(maximumZoom(), zoom * (button.dataset.graphZoom === "in" ? 1.4 : 1 / 1.4)));
     requestDraw();
   }));
   document.querySelectorAll("[data-graph-reset]").forEach((button) => button.addEventListener("click", resetView));

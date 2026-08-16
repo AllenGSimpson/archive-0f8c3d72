@@ -1,5 +1,23 @@
 const pages = [
+  { title: "British Wartime Land Doctrine", description: "British Army development across North Africa, Burma, Malta, and Operation Torch", href: "british-wartime-land-doctrine.html", tags: "british wartime land doctrine army north africa burma malta torch combined arms" },
+  { title: "British Wartime Rifle Platoon", description: "The three-section Bren-centered wartime infantry platoon and its supporting system", href: "british-wartime-rifle-platoon.html", tags: "british wartime rifle platoon bren two inch mortar section infantry" },
+  { title: "British Wartime Close-Antitank System", description: "British use of Boys rifles, PIATs, and Lend-Lease bazookas", href: "british-wartime-close-antitank-system.html", tags: "british close antitank boys rifle piat bazooka lend lease torch" },
+  { title: "British Expeditionary Movement Doctrine", description: "Post-Torch combat-complete initial lift, convoy serials, and cross-loading", href: "british-expeditionary-movement-doctrine.html", tags: "british expeditionary movement doctrine combat complete initial operational lift convoy serial cross loading" },
+  { title: "Wartime Indian Arsenal", description: "The expanded British Indian military-industrial base supplying Burma and the eastern Commonwealth", href: "wartime-indian-arsenal.html", tags: "wartime indian arsenal british raj industry burma ammunition repair factories" },
+  { title: "Australian Cruiser Tank Programme", description: "Australia's wartime AC1 Sentinel and AC3 Thunderbolt production programme", href: "australian-cruiser-tank-program.html", tags: "australian cruiser tank programme program AC1 Sentinel AC3 Thunderbolt Burma" },
   { title: "Wiki Visualizer", description: "Interactive graph of every archive page and directed internal connection", href: "wiki-graph.html", tags: "wiki visualizer graph pages links connections word count" },
+  { title: "General Electric Jet-Engine Programs", description: "GE aircraft-turbine development from the British transfer through J47, J79, and J93", href: "general-electric-jet-engine-programs.html", tags: "general electric jet engine programs GE aviation turbines J47 J79 J93" },
+  { title: "General Electric J47", description: "Production axial-flow turbojet of the first postwar American jet generation", href: "general-electric-j47.html", tags: "General Electric J47 turbojet B-47 Stratojet F-86 axial flow" },
+  { title: "General Electric J79", description: "Variable-stator Mach 2 turbojet used by Starfighter and Hustler aircraft", href: "general-electric-j79.html", tags: "General Electric J79 variable stator Neumann F-104 B-58 Mach 2" },
+  { title: "General Electric J93", description: "Sustained-Mach-3 turbojet used by Rapier and Valkyrie aircraft", href: "general-electric-j93.html", tags: "General Electric J93 YJ93 F-108 B-70 Rapier Valkyrie Mach 3" },
+  { title: "Douglas XB-43 Jetmaster", description: "First American all-jet bomber experiment and Douglas propulsion research aircraft", href: "xb-43-jetmaster.html", tags: "XB-43 Jetmaster Douglas experimental bomber jet Mixmaster" },
+  { title: "North American B-45 Tornado", description: "First operational American jet-bomber bridge", href: "b-45-tornado.html", tags: "B-45 Tornado North American bomber reconnaissance jet" },
+  { title: "Convair XB-46", description: "Straight-wing competitor in the first American jet-bomber generation", href: "xb-46.html", tags: "XB-46 Convair experimental jet bomber" },
+  { title: "Boeing B-47 Stratojet", description: "Swept-wing postwar production standard and foundation of the American speed school", href: "b-47-stratojet.html", tags: "B-47 Stratojet Boeing strategic bomber Philippine War" },
+  { title: "Martin XB-48", description: "Six-engine straight-wing competitor in the first jet-bomber program", href: "xb-48.html", tags: "XB-48 Martin experimental six engine jet bomber" },
+  { title: "Boeing XB-55", description: "Rejected turboprop range-and-payload strategic-bomber project", href: "xb-55.html", tags: "XB-55 Boeing turboprop bomber endurance range" },
+  { title: "Boeing XB-56", description: "Flying four-large-engine development of the B-47 Stratojet", href: "xb-56.html", tags: "XB-56 YB-47C Boeing J71 propulsion test bomber" },
+  { title: "Boeing B-52 Stratofortress", description: "Limited B-52A/B heavy-bomber fleet and reusable-aerospace mothership", href: "b-52-stratofortress.html", tags: "B-52 Stratofortress Boeing B-52A B-52B bomber mothership space" },
   { title: "Chronology of the Palestine War", description: "British contraction, coastal civil war, regular intervention, extended fighting, and the Amman negotiations", href: "chronology-palestine-war.html", tags: "chronology timeline Palestine War 1945 1947 1948 1950 Amman" },
   { title: "Belligerents of the Palestine War", description: "Jewish, Palestinian, Jordanian, volunteer, and Egyptian forces and their incompatible objectives", href: "belligerents-palestine-war.html", tags: "belligerents forces Palestine War Haganah Irgun Lehi Arab Legion Palestinian Egypt" },
   { title: "Foreign Involvement in the Palestine War", description: "British withdrawal, Italian restraint, Jordanian intervention, the Egyptian Gaza mission, and overseas support", href: "foreign-involvement-palestine-war.html", tags: "foreign involvement intervention Palestine War Britain Italy Jordan Egypt United States Vatican" },
@@ -145,6 +163,7 @@ const pages = [
   { title: "Reception of Prinzensprache", description: "The Rechenplan, Folge, commercial, and network disputes over the prince's language", href: "prinzensprache-reception.html", tags: "reception Prinzensprache controversy Rechenplan Folge privilege Felix Hitler" },
   { title: "Politics of Extraterrestrial Settlement", description: "Five rival arguments for turning permanent bases into governed communities", href: "politics-extraterrestrial-settlement.html", tags: "politics extraterrestrial settlement comparison Germany America Japan Commonwealth Latin Moon Mars" },
   { title: "German Extraterrestrial Settlement Policy", description: "Infrastructure-first settlement through selected households and integrated administration", href: "german-extraterrestrial-settlement-policy.html", tags: "German extraterrestrial settlement policy families infrastructure Alexander Hitler Moon Mars" },
+  { title: "German Space-Settlement Recruitment", description: "Metropolitan specialists, eastern settler families, and the demographic politics of German off-world migration", href: "german-space-settlement-recruitment.html", tags: "German space settlement recruitment metropolitan eastern SS settlers families pronatalism Moon Mars" },
   { title: "American Commercial Settlement Policy", description: "Company-operated communities beneath federal registration and crisis authority", href: "american-commercial-settlement-policy.html", tags: "American commercial settlement policy corporations families Kennedy Moon Mars" },
   { title: "Japanese Machine-Prepared Settlement Policy", description: "Robotic preparation followed by tightly selected permanent communities", href: "japanese-machine-prepared-settlement-policy.html", tags: "Japanese machine prepared settlement policy robots Kaguya Horai Mars" },
   { title: "Commonwealth Sovereign Settlement Policy", description: "British-led sovereign access organized through Commonwealth public service", href: "commonwealth-sovereign-settlement-policy.html", tags: "Commonwealth sovereign settlement policy British Serenity Greenwich Compact families" },
@@ -174,11 +193,11 @@ const pages = [
   { title: "Lunar Urbanization", description: "The growth of permanent bases into connected industrial, domestic, and civic towns", href: "lunar-urbanization.html", tags: "lunar urbanization moon town settlement districts utilities civic industry" },
   { title: "Secondary Political Order of South America", description: "Security ceilings, neutral venues, proxy markets, and inland route diplomacy", href: "secondary-political-order-south-america.html", tags: "South America secondary political order Venezuela Uruguay Paraguay Bolivia buffer system" },
   { title: "Venezuelan Concession Crisis", description: "The 1963–66 struggle over foreign operation of petroleum infrastructure", href: "venezuelan-concession-crisis.html", tags: "Venezuela concession crisis oil petroleum German Japanese consortium 1963 1966" },
-  { title: "Caracas Security Settlement", description: "The conditional-sovereignty order imposed after the 1966 intervention", href: "caracas-security-settlement.html", tags: "Caracas Security Settlement Venezuela United States intervention oil strategic communications" },
+  { title: "Caracas Security Settlement", description: "Archive label for the conditional-sovereignty order imposed after the 1966 intervention", href: "caracas-security-settlement.html", tags: "Caracas Security Settlement Venezuela United States intervention oil strategic communications" },
   { title: "Civic-Military Dictatorship in Uruguay", description: "Authoritarian rule, repression, and armed administrative neutrality", href: "civic-military-dictatorship-uruguay.html", tags: "Uruguay civic military dictatorship insurgency neutrality 1973 1985" },
-  { title: "Uruguayan Civilian Restoration", description: "Constitutional reconstruction and neutral commercial diplomacy around 1985", href: "uruguayan-civilian-restoration.html", tags: "Uruguay civilian restoration democracy Montevideo neutrality Punta del Este 1985" },
+  { title: "Uruguayan Civilian Restoration", description: "Mid-1980s civilian return and a working constitutional reconstruction", href: "uruguayan-civilian-restoration.html", tags: "Uruguay civilian restoration democracy Montevideo neutrality Punta del Este 1985" },
   { title: "Paraguay–Bolivia Buffer System", description: "The informal inland balance of river brokerage, minerals, and competing routes", href: "paraguay-bolivia-buffer-system.html", tags: "Paraguay Bolivia buffer system inland South America rivers routes minerals" },
-  { title: "Paraguayan Proxy Marketplace", description: "Foreign missions, contraband, intelligence, and patronage under Stroessner", href: "paraguayan-proxy-marketplace.html", tags: "Paraguay proxy marketplace Stroessner intelligence contraband Argentina Brazil" },
+  { title: "Paraguayan Proxy Marketplace", description: "Working model of foreign missions, contraband, intelligence, and authoritarian patronage", href: "paraguayan-proxy-marketplace.html", tags: "Paraguay proxy marketplace Stroessner intelligence contraband Argentina Brazil" },
   { title: "Bolivian Route Diplomacy", description: "Mineral concessions and competing Pacific and Atlantic corridors", href: "bolivian-route-diplomacy.html", tags: "Bolivia route diplomacy landlocked minerals Chile Peru Argentina Brazil Paraguay" },
   { title: "Federal Executive Branch of the United States", description: "Presidential direction, departments, civil service, and corporate execution", href: "federal-executive-branch-united-states.html", tags: "United States federal executive branch president cabinet departments civil service EOP" },
   { title: "Cabinet of the United States", description: "Department heads, presidential advice, and Senate confirmation", href: "cabinet-united-states.html", tags: "United States Cabinet secretaries attorney general department heads Senate confirmation" },
@@ -225,13 +244,28 @@ const pages = [
   { title: "Supreme Court of the United States", description: "The alternate Court without Earl Warren and its later contract-constitutional doctrine", href: "supreme-court-united-states.html", tags: "Supreme Court United States Earl Warren Free Association Reagan Court Genoa" },
   { title: "Federalism in the Forty-Eight-State Union", description: "Divided sovereignty, state police power, election law, territories, and national supremacy", href: "federalism-forty-eight-state-union.html", tags: "federalism forty eight states Union Alaska Hawaii state law elections" },
   { title: "Constitutional and Legal Order of the United Kingdom", description: "Crown-in-Parliament, responsible government, courts, conventions, and Commonwealth status", href: "constitutional-legal-order-united-kingdom.html", tags: "constitution legal order United Kingdom Britain Crown Parliament cabinet courts Commonwealth" },
+  { title: "Local Government in Post-Defeat Britain", description: "Councils, rates, grants, housing, reconstruction, local elections, statutory authority, and central oversight", href: "local-government-post-defeat-britain.html", tags: "local government post defeat Britain councils counties boroughs rates grants housing reconstruction" },
   { title: "Crown-in-Parliament in Postwar Britain", description: "The sovereign, Commons, and Lords as the legislative authority after defeat", href: "crown-in-parliament-postwar-britain.html", tags: "Crown in Parliament postwar Britain sovereign Commons Lords royal assent confidence" },
+  { title: "Royal Prerogative in Post-Defeat Britain", description: "Crown authority, ministerial advice, statutory limits, armed forces, treaties, appointments, and realm boundaries", href: "royal-prerogative-post-defeat-britain.html", tags: "royal prerogative post defeat Britain Crown ministers statutory limits treaties armed forces" },
+  { title: "Emergency Powers in Post-Defeat Britain", description: "Statutory, prerogative, parliamentary, administrative, and territorial authority during emergency", href: "emergency-powers-post-defeat-britain.html", tags: "emergency powers post defeat Britain regulations Defence Acts requisition detention Parliament Commonwealth" },
   { title: "House of Commons in Postwar Britain", description: "The elected chamber, confidence, supply, scrutiny, and shifting majorities", href: "house-of-commons-postwar-britain.html", tags: "House Commons postwar Britain parliament confidence supply Brick Parliament 640" },
+  { title: "Parliamentary Elections and Franchise in Post-Defeat Britain", description: "Franchise, registers, dissolution, writs, nominations, polling, counting, election petitions, and government formation", href: "parliamentary-elections-franchise-post-defeat-britain.html", tags: "parliamentary elections franchise post defeat Britain constituencies registration ballot returning officer first past the post" },
+  { title: "Parliamentary Opposition in Post-Defeat Britain", description: "Official Opposition, support parties, scrutiny, censure, classified briefing, and alternative government", href: "parliamentary-opposition-post-defeat-britain.html", tags: "parliamentary opposition post defeat Britain Official Opposition support party censure confidence supply classified briefing" },
+  { title: "Treasury and Parliamentary Supply in Post-Defeat Britain", description: "HM Treasury, Commons supply, borrowing, audit, sterling, and Commonwealth finance", href: "treasury-and-supply-post-defeat-britain.html", tags: "Treasury parliamentary supply post defeat Britain budget estimates appropriation audit sterling Commonwealth" },
+  { title: "Commonwealth Intergovernmental Agreements", description: "How separate Commonwealth governments made political, financial, contractual, technical, and defence commitments", href: "commonwealth-intergovernmental-agreements.html", tags: "Commonwealth intergovernmental agreements treaties contracts appropriations defence assignments separate governments" },
   { title: "House of Lords in Postwar Britain", description: "The revising chamber, inherited limits, and unresolved post-defeat reform", href: "house-of-lords-postwar-britain.html", tags: "House Lords postwar Britain upper chamber peers Parliament Act reform" },
+  { title: "Privy Council in Postwar Britain", description: "Royal advice, Orders in Council, classified opposition access, and inherited imperial appeals", href: "privy-council-postwar-britain.html", tags: "Privy Council postwar Britain royal advice Orders in Council Judicial Committee opposition briefings" },
+  { title: "Judicial Committee of the Privy Council after 1947", description: "Appellate jurisdiction, governing law, access, and realm-specific authority across the Commonwealth", href: "judicial-committee-privy-council-after-1947.html", tags: "Judicial Committee Privy Council appeals Commonwealth jurisdiction imperial law after 1947" },
   { title: "Cabinet Government in Postwar Britain", description: "Prime minister, collective responsibility, departments, and recorded warning", href: "cabinet-government-postwar-britain.html", tags: "Cabinet government postwar Britain prime minister collective responsibility Commonwealth Council" },
+  { title: "Cabinet Office and Cabinet Secretariat after 1947", description: "Cabinet agendas, papers, conclusions, committees, implementation, and continuity between ministries", href: "cabinet-office-secretariat-post-defeat-britain.html", tags: "Cabinet Office Secretariat Secretary conclusions papers committees records post defeat Britain" },
+  { title: "Law Officers of the Crown after 1947", description: "Government legal advice, Crown litigation, prosecution, public interest, and Commonwealth jurisdiction", href: "law-officers-crown-post-defeat-britain.html", tags: "Law Officers Crown Attorney General Solicitor General legal advice prosecution litigation post defeat Britain Commonwealth" },
+  { title: "Prime Minister of the United Kingdom after 1947", description: "Appointment, Commons confidence, Cabinet leadership, royal advice, dissolution, and responsibility", href: "prime-minister-united-kingdom-after-1947.html", tags: "prime minister United Kingdom after 1947 appointment confidence Cabinet dissolution responsibility" },
+  { title: "Civil Service of the United Kingdom after 1947", description: "Permanent administration, ministerial direction, recorded advice, and Commonwealth boundaries", href: "civil-service-postwar-united-kingdom.html", tags: "civil service United Kingdom Britain Whitehall administration ministers reconstruction Commonwealth" },
+  { title: "Armed Services of the United Kingdom after 1947", description: "Crown command, ministerial responsibility, parliamentary supply, and Commonwealth forces", href: "armed-services-postwar-united-kingdom.html", tags: "armed services United Kingdom Britain Crown command defence Parliament Commonwealth Royal Navy Army RAF" },
   { title: "Judiciary of the United Kingdom after 1947", description: "Independent courts within an uncodified parliamentary constitution", href: "judiciary-postwar-united-kingdom.html", tags: "judiciary United Kingdom after 1947 courts judges judicial review House Lords" },
   { title: "Constitutional Conventions of Post-Defeat Britain", description: "Appointment, confidence, advice, warning, responsibility, and restraint", href: "constitutional-conventions-post-defeat-britain.html", tags: "constitutional conventions post defeat Britain Crown confidence reserve powers George VI" },
   { title: "British Nationality and Imperial Domicile Act 1949", description: "Common Crown allegiance without an automatic metropolitan right of abode", href: "british-nationality-imperial-domicile-act-1949.html", tags: "British nationality imperial domicile act 1949 subject Commonwealth citizen right abode Windrush" },
+  { title: "Former British Imperial Territories after 1947", description: "Cession, withdrawal, independence, residual rights, and successor authority after British rule", href: "former-british-imperial-territories-after-1947.html", tags: "former British imperial territories cession withdrawal independence Gibraltar Palestine India Burma Ghana" },
   { title: "Constitutional and Legal Order of the Greater German Reich", description: "Leadership law, executive legislation, Party authority, courts, citizenship, and imperial status", href: "constitutional-legal-order-greater-german-reich.html", tags: "constitutional legal order Greater German Reich Germany law government Führer" },
   { title: "Enabling Act in Postwar Germany", description: "The continuing foundation of executive legislation outside ordinary parliamentary procedure", href: "enabling-act-postwar-germany.html", tags: "Enabling Act postwar Germany executive legislation Reich government 1933" },
   { title: "Reichstag of the Greater German Reich", description: "The acclamatory national chamber of the mature National Socialist leadership state", href: "reichstag-greater-german-reich.html", tags: "Reichstag Greater German Reich parliament acclamation deputies elections" },
@@ -426,6 +460,7 @@ const pages = [
   { title: "German Politics, 1985–2000", description: "Wolfgang Hitler's later rule and consolidation of the second-generation regime", href: "german-politics-1985-2000.html", tags: "german politics 1985 2000 wolfgang leadership council party ss succession" },
   { title: "American Politics, 1985–2000", description: "From Reagan's reciprocal opening to Hale's five-party republic", href: "american-politics-1985-2000.html", tags: "american politics 1985 2000 reagan harwood hale boom depression five party" },
   { title: "British Politics, 1985–2000", description: "From the Falklands settlement through Mallory's planetary government", href: "british-politics-1985-2000.html", tags: "british politics 1985 2000 thatcher ashcombe calder mallory greenwich" },
+  { title: "Ashcombe Settlement", description: "Britain's post-Falklands settlement of Responsible Independence, protected capacity, and bounded Atlantic cooperation", href: "ashcombe-settlement.html", tags: "ashcombe settlement david ashcombe responsible independence peace election halifax factory reownership britain 1987 1988 1992" },
   { title: "Japan under Active Concord, 1985–2000", description: "Participation, corporate bargaining, and space prestige under Japanese primacy", href: "japan-under-active-concord-1985-2000.html", tags: "japan politics active concord 1985 2000 akihito nakasone geacps" },
   { title: "Latin Institutional Consolidation, 1985–2000", description: "Confederal money, development, diplomacy, and space institutions", href: "latin-institutional-consolidation-1985-2000.html", tags: "latin politics institutions 1985 2000 verona scudo stella maris ceres" },
   { title: "Social Geography of the German Empire in 2000", description: "Unequal citizenship, law, movement, and modernity across the imperial layers", href: "social-geography-german-empire-2000.html", tags: "german empire social geography 2000 core protectorates east mittelafrika citizenship" },
@@ -478,6 +513,14 @@ const pages = [
   { title: "Cumulative Conventional Deterrence", description: "The distributed military, industrial, geographic, and political basis of Five-Power restraint", href: "cumulative-conventional-deterrence.html", tags: "cumulative conventional deterrence armed concert submarines missiles bombers industry geography occupation" },
   { title: "Strategic Submarine Deterrence", description: "Persistent undersea pressure against fleets, commerce, ports, and reinforcement routes", href: "strategic-submarine-deterrence.html", tags: "strategic submarine deterrence conventional ssn ssgn commerce ports naval" },
   { title: "Conventional Missile Deterrence", description: "Long-range precision and mass without atomic warheads", href: "conventional-missile-deterrence.html", tags: "conventional missile deterrence ballistic cruise guided reentry strategic targets" },
+  { title: "German Guided-Weapon Development", description: "The Fi 103/A4, Fritz X, and Wasserfall traditions and their postwar missile branches", href: "german-guided-weapons-development.html", tags: "germany german guided weapons missiles fi 103 a4 fritz x wasserfall sam aam cruise target drone" },
+  { title: "Fi 103", description: "Germany's limited-use flying bomb and ancestor of target aircraft and cruise missiles", href: "fi-103.html", tags: "fi 103 fzg 76 fieseler v1 v-1 flying bomb target drone cruise missile germany" },
+  { title: "A4 Rocket", description: "Germany's wartime ballistic rocket and principal high-energy space-launch ancestor", href: "a4-rocket.html", tags: "a4 rocket aggregat 4 v2 v-2 peenemunde mittelwerk germany ballistic space launch" },
+  { title: "Fritz X", description: "Germany's wartime radio-command antiship bomb and precision-control lineage", href: "fritz-x.html", tags: "fritz x guided bomb antiship radio command germany precision weapon" },
+  { title: "Wasserfall", description: "Germany's wartime radar-directed air-defense system and postwar SAM ancestor", href: "wasserfall.html", tags: "wasserfall germany surface to air missile sam radar command air defense luftschild" },
+  { title: "Ruhrstahl X-4", description: "Germany's experimental wire-command, passive-emitter, and infrared air-to-air missile program", href: "ruhrstahl-x-4.html", tags: "ruhrstahl x 4 x-4 germany air to air missile madrid infrared passive emitter" },
+  { title: "German Flugziel Program", description: "The Fi 103-derived target-aircraft, telemetry, and unmanned test establishment", href: "german-flugziel-program.html", tags: "germany german flugziel target drone unmanned aircraft telemetry fzg 76 uav" },
+  { title: "Guided-Weapon Development in the United States", description: "Domestic American missile roots, absent foreign exploitation, and later system integration", href: "american-guided-weapons-development.html", tags: "united states america american guided weapons missiles drones rockets jb 2 loon paperclip nike gorgon bat" },
   { title: "Conventional Strategic Bombardment", description: "Bomber and carrier campaigns against military systems and strategic industry", href: "conventional-strategic-bombardment.html", tags: "conventional strategic bombardment bombers carrier aviation air defense industry" },
   { title: "Industrial-Depth Deterrence", description: "Production, repair, transport, energy, and skilled labor as strategic endurance", href: "industrial-depth-deterrence.html", tags: "industrial depth deterrence production repair transport energy war economy endurance" },
   { title: "Alliance-Geography Deterrence", description: "Bases, clients, islands, straits, and strategic depth in the Five-Power balance", href: "alliance-geography-deterrence.html", tags: "alliance geography deterrence bases clients islands straits routes strategic depth" },
@@ -536,63 +579,63 @@ const pages = [
   { title: "Central American Crisis", description: "The connected insurgencies, interventions, and proxy wars of postwar Central America", href: "central-american-crisis.html", tags: "central american crisis nicaragua guatemala salvador honduras costa rica proxy war insurgency" },
   { title: "Central American Security Corridor", description: "American bases, missions, routes, and client governments across the isthmus", href: "central-american-security-corridor.html", tags: "central america security corridor american bases missions honduras panama canal" },
   { title: "Nicaraguan Proxy War", description: "The unfinished revolution and fragmented war after the Somoza collapse", href: "nicaraguan-proxy-war.html", tags: "nicaragua proxy war revolution somoza sandinismo cuba honduras managua" },
-  { title: "Somoza Dynasty", description: "The family regime that controlled Nicaragua and its National Guard", href: "somoza-dynasty.html", tags: "somoza dynasty nicaragua anastasio luis family dictatorship national guard" },
+  { title: "Somoza Dynasty", description: "Nicaragua's family regime; exact post-1941 ruler sequence remains working", href: "somoza-dynasty.html", tags: "somoza dynasty nicaragua anastasio luis family dictatorship national guard" },
   { title: "Nicaraguan National Guard", description: "The combined army, gendarmerie, police, and intelligence institution of the Somoza state", href: "nicaraguan-national-guard.html", tags: "nicaraguan national guard guardia nacional somoza military police gendarmerie" },
   { title: "Sandinismo in Nicaragua", description: "The broad nationalist and revolutionary tradition named for Augusto César Sandino", href: "sandinismo-nicaragua.html", tags: "sandinismo nicaragua sandino nationalist guerrilla catholic agrarian anti somoza" },
-  { title: "1972 Managua Earthquake", description: "Destruction, relief controversy, and political crisis under the Somoza regime", href: "managua-earthquake-1972.html", tags: "1972 managua earthquake nicaragua disaster relief somoza reconstruction" },
-  { title: "Managua Settlement", description: "The coalition and security agreements that reduced the Nicaraguan Proxy War", href: "managua-settlement.html", tags: "managua settlement nicaragua peace coalition constabulary exclusion zones" },
+  { title: "1972 Managua Earthquake", description: "Working historical route for the Somoza regime's earthquake-era legitimacy crisis", href: "managua-earthquake-1972.html", tags: "1972 managua earthquake nicaragua disaster relief somoza reconstruction" },
+  { title: "Managua Settlement", description: "Working name for the settlement that reduced the Nicaraguan Proxy War", href: "managua-settlement.html", tags: "managua settlement nicaragua peace coalition constabulary exclusion zones" },
   { title: "Guatemalan Insurgency", description: "Land, Indigenous, military, religious, and concession conflicts in Guatemala", href: "guatemalan-insurgency.html", tags: "guatemalan insurgency guatemala maya land military counterinsurgency american" },
   { title: "Salvadoran Insurgency", description: "The fragmented rural and urban internal war in El Salvador", href: "salvadoran-insurgency.html", tags: "salvadoran insurgency el salvador civil war land catholic labor american" },
   { title: "Augusto César Sandino", description: "Nationalist guerrilla leader and namesake of Nicaragua's Sandinista tradition", href: "augusto-cesar-sandino.html", tags: "augusto cesar sandino nicaragua guerrilla occupation nationalism sandinismo" },
-  { title: "Anastasio Somoza García", description: "National Guard commander and founder of Nicaragua's Somoza dynasty", href: "anastasio-somoza-garcia.html", tags: "anastasio somoza garcia nicaragua president national guard dynasty" },
-  { title: "Luis Somoza Debayle", description: "President and civilian head of the Somoza family regime", href: "luis-somoza-debayle.html", tags: "luis somoza debayle nicaragua president dynasty national liberal" },
-  { title: "Anastasio Somoza Debayle", description: "Final dynastic ruler of Nicaragua before the late-1970s collapse", href: "anastasio-somoza-debayle.html", tags: "anastasio somoza debayle tachito nicaragua dictator national guard exile" },
-  { title: "Pedro Joaquín Chamorro Cardenal", description: "La Prensa publisher whose assassination accelerated the anti-Somoza revolt", href: "pedro-joaquin-chamorro-cardenal.html", tags: "pedro joaquin chamorro cardenal la prensa nicaragua journalist assassination" },
-  { title: "Carlos Fonseca", description: "Sandinista organizer and theorist of the Marxist revolutionary current", href: "carlos-fonseca.html", tags: "carlos fonseca amador nicaragua sandinista revolutionary marxist matagalpa" },
-  { title: "Edén Pastora", description: "Comandante Cero and nationalist commander of the 1978 National Palace raid", href: "eden-pastora.html", tags: "eden pastora comandante cero nicaragua national palace guerrilla sandinista" },
-  { title: "Violeta Chamorro", description: "La Prensa publisher and civilian opposition figure in the post-Somoza coalition", href: "violeta-chamorro.html", tags: "violeta chamorro barrios la prensa nicaragua civilian opposition coalition" },
-  { title: "Daniel Ortega", description: "Sandinista militant whose historical presidency is displaced by the proxy war", href: "daniel-ortega.html", tags: "daniel ortega nicaragua sandinista militant prison cuba divergent history" },
-  { title: "Tomás Borge", description: "Early Sandinista organizer, writer, and prolonged-war advocate", href: "tomas-borge.html", tags: "tomas borge nicaragua sandinista fonseca revolutionary writer" },
-  { title: "Jorge Ubico", description: "Authoritarian president whose fall opened Guatemala's 1944 reform era", href: "jorge-ubico.html", tags: "jorge ubico guatemala president dictator 1944 revolution" },
-  { title: "Juan José Arévalo", description: "Educator and reform president of Guatemala after the 1944 revolution", href: "juan-jose-arevalo.html", tags: "juan jose arevalo guatemala president spiritual socialism reform" },
-  { title: "Jacobo Árbenz", description: "Guatemalan president and agrarian reformer overthrown in 1954", href: "jacobo-arbenz.html", tags: "jacobo arbenz guatemala president decree 900 agrarian reform" },
-  { title: "Carlos Castillo Armas", description: "American-backed leader of Guatemala's 1954 counterrevolution", href: "carlos-castillo-armas.html", tags: "carlos castillo armas guatemala president coup counterrevolution" },
-  { title: "Miguel Ydígoras Fuentes", description: "Guatemalan president during the opening of the armed insurgency", href: "miguel-ydigoras-fuentes.html", tags: "miguel ydigoras fuentes guatemala president insurgency general" },
+  { title: "Anastasio Somoza García", description: "Pre-divergence dynasty founder with a working post-1941 succession", href: "anastasio-somoza-garcia.html", tags: "anastasio somoza garcia nicaragua president national guard dynasty" },
+  { title: "Luis Somoza Debayle", description: "Historical candidate for the dynasty's civilian succession", href: "luis-somoza-debayle.html", tags: "luis somoza debayle nicaragua president dynasty national liberal" },
+  { title: "Anastasio Somoza Debayle", description: "Historical candidate for the dynasty's final military ruler", href: "anastasio-somoza-debayle.html", tags: "anastasio somoza debayle tachito nicaragua dictator national guard exile" },
+  { title: "Pedro Joaquín Chamorro Cardenal", description: "Working historical candidate for the civilian-opposition catalyst", href: "pedro-joaquin-chamorro-cardenal.html", tags: "pedro joaquin chamorro cardenal la prensa nicaragua journalist assassination" },
+  { title: "Carlos Fonseca", description: "Working candidate for a Marxist current within divided Sandinismo", href: "carlos-fonseca.html", tags: "carlos fonseca amador nicaragua sandinista revolutionary marxist matagalpa" },
+  { title: "Edén Pastora", description: "Working candidate for the nationalist armed current", href: "eden-pastora.html", tags: "eden pastora comandante cero nicaragua national palace guerrilla sandinista" },
+  { title: "Violeta Chamorro", description: "Working candidate for the civilian opposition and coalition", href: "violeta-chamorro.html", tags: "violeta chamorro barrios la prensa nicaragua civilian opposition coalition" },
+  { title: "Daniel Ortega", description: "Historical candidate for a Marxist current within divided Sandinismo", href: "daniel-ortega.html", tags: "daniel ortega nicaragua sandinista militant prison cuba divergent history" },
+  { title: "Tomás Borge", description: "Working candidate for the prolonged-war Sandinista current", href: "tomas-borge.html", tags: "tomas borge nicaragua sandinista fonseca revolutionary writer" },
+  { title: "Jorge Ubico", description: "Inherited dictator with a working post-1941 fall and exile route", href: "jorge-ubico.html", tags: "jorge ubico guatemala president dictator 1944 revolution" },
+  { title: "Juan José Arévalo", description: "Historical candidate for Guatemala's working post-1944 reform presidency", href: "juan-jose-arevalo.html", tags: "juan jose arevalo guatemala president spiritual socialism reform" },
+  { title: "Jacobo Árbenz", description: "Historical candidate for Guatemala's working agrarian-reform route", href: "jacobo-arbenz.html", tags: "jacobo arbenz guatemala president decree 900 agrarian reform" },
+  { title: "Carlos Castillo Armas", description: "Historical candidate for Guatemala's working counterrevolutionary route", href: "carlos-castillo-armas.html", tags: "carlos castillo armas guatemala president coup counterrevolution" },
+  { title: "Miguel Ydígoras Fuentes", description: "Historical candidate for Guatemala's working transition into insurgency", href: "miguel-ydigoras-fuentes.html", tags: "miguel ydigoras fuentes guatemala president insurgency general" },
   { title: "Farabundo Martí", description: "Salvadoran revolutionary executed after the 1932 uprising", href: "farabundo-marti.html", tags: "farabundo marti el salvador revolutionary 1932 uprising" },
-  { title: "Maximiliano Hernández Martínez", description: "Military ruler who built El Salvador's post-1931 security state", href: "maximiliano-hernandez-martinez.html", tags: "maximiliano hernandez martinez el salvador president la matanza" },
-  { title: "Óscar Romero", description: "Archbishop of San Salvador and critic of political murder", href: "oscar-romero.html", tags: "oscar romero archbishop san salvador catholic assassination" },
-  { title: "José Napoleón Duarte", description: "Christian Democratic reformer and disputed 1972 presidential candidate", href: "jose-napoleon-duarte.html", tags: "jose napoleon duarte el salvador christian democrat mayor president" },
-  { title: "Roberto d’Aubuisson", description: "Salvadoran intelligence officer and radical-right organizer", href: "roberto-daubuisson.html", tags: "roberto daubuisson el salvador intelligence death squads right" },
-  { title: "Guatemalan Revolution", description: "The democratic and social reform era from the 1944 uprising to the 1954 crisis", href: "guatemalan-revolution.html", tags: "guatemalan revolution october 1944 arevalo arbenz reform" },
-  { title: "Decree 900", description: "Guatemala's 1952 agrarian reform law and its political consequences", href: "decree-900.html", tags: "decree 900 guatemala agrarian reform land arbenz united fruit" },
-  { title: "Guatemalan Crisis of 1954", description: "The multipolar intervention and counterrevolution that removed Jacobo Árbenz", href: "guatemalan-crisis-1954.html", tags: "guatemala crisis 1954 coup arbenz castillo armas united fruit german american" },
-  { title: "United Fruit Company in Central America", description: "The plantation, transport, land, and political system of the American fruit company", href: "united-fruit-company-central-america.html", tags: "united fruit company central america guatemala bananas irca puerto barrios" },
+  { title: "Maximiliano Hernández Martínez", description: "Inherited military ruler with a working post-1941 fall and exile route", href: "maximiliano-hernandez-martinez.html", tags: "maximiliano hernandez martinez el salvador president la matanza" },
+  { title: "Óscar Romero", description: "Historical candidate for El Salvador's working Catholic-moral biography", href: "oscar-romero.html", tags: "oscar romero archbishop san salvador catholic assassination" },
+  { title: "José Napoleón Duarte", description: "Historical candidate for El Salvador's working electoral-reform biography", href: "jose-napoleon-duarte.html", tags: "jose napoleon duarte el salvador christian democrat mayor president" },
+  { title: "Roberto d’Aubuisson", description: "Working biographical embodiment of El Salvador's security hardliners", href: "roberto-daubuisson.html", tags: "roberto daubuisson el salvador intelligence death squads right" },
+  { title: "Guatemalan Revolution", description: "Working historical route for Guatemala's 1944–1954 reform era", href: "guatemalan-revolution.html", tags: "guatemalan revolution october 1944 arevalo arbenz reform" },
+  { title: "Decree 900", description: "Working implementation of Guatemala's established agrarian-reform conflict", href: "decree-900.html", tags: "decree 900 guatemala agrarian reform land arbenz united fruit" },
+  { title: "Guatemalan Crisis of 1954", description: "Working intervention route into Guatemala's American-backed security order", href: "guatemalan-crisis-1954.html", tags: "guatemala crisis 1954 coup arbenz castillo armas united fruit german american" },
+  { title: "United Fruit Company in Central America", description: "Inherited corporation with a working post-1941 Guatemalan chronology", href: "united-fruit-company-central-america.html", tags: "united fruit company central america guatemala bananas irca puerto barrios" },
   { title: "La Matanza", description: "The 1932 Salvadoran uprising, mass killing, and destruction of open Indigenous politics", href: "la-matanza-1932.html", tags: "la matanza 1932 el salvador massacre uprising indigenous pipil marti" },
-  { title: "1972 Salvadoran Presidential Election", description: "The disputed Duarte–Molina election, failed officers' rising, and exile", href: "salvadoran-election-1972.html", tags: "1972 salvadoran election duarte molina uno fraud coup" },
-  { title: "Rutilio Grande", description: "Jesuit rural pastor whose 1977 assassination transformed Óscar Romero's ministry", href: "rutilio-grande.html", tags: "rutilio grande jesuit aguilares el salvador romero assassination" },
-  { title: "Salvadoran State Crisis of 1979", description: "The reformist military rupture and failed civilian–military opening", href: "salvadoran-state-crisis-1979.html", tags: "salvadoran state crisis 1979 coup junta reform officers civil war" },
+  { title: "1972 Salvadoran Presidential Election", description: "Working Duarte–Molina route within El Salvador's restricted electoral order", href: "salvadoran-election-1972.html", tags: "1972 salvadoran election duarte molina uno fraud coup" },
+  { title: "Rutilio Grande", description: "Historical candidate for a Catholic-social ministry and martyrdom route", href: "rutilio-grande.html", tags: "rutilio grande jesuit aguilares el salvador romero assassination" },
+  { title: "Salvadoran State Crisis of 1979", description: "Working coup-and-junta route into El Salvador's fragmented insurgency", href: "salvadoran-state-crisis-1979.html", tags: "salvadoran state crisis 1979 coup junta reform officers civil war" },
   { title: "Tiburcio Carías Andino", description: "The long dictatorship that ended recurrent civil war while entrenching the National Party", href: "tiburcio-carias-andino.html", tags: "tiburcio carias andino cariato honduras president dictator national party" },
-  { title: "Juan Manuel Gálvez", description: "Post-Cariato president, developmental administrator, and mediator of the 1954 strike", href: "juan-manuel-galvez.html", tags: "juan manuel galvez honduras president 1949 1954 strike development" },
-  { title: "Ramón Villeda Morales", description: "Liberal reform president and constitutional-restoration figure in the 1962 crisis", href: "ramon-villeda-morales.html", tags: "ramon villeda morales honduras liberal president reform restoration" },
-  { title: "Oswaldo López Arellano", description: "Autonomous armed-forces commander and military guarantor of the post-1962 order", href: "oswaldo-lopez-arellano.html", tags: "oswaldo lopez arellano honduras military armed forces 1962 settlement" },
-  { title: "Esteban Cálix Zúniga", description: "The national-corporatist ruler removed during the Honduran Security Crisis", href: "esteban-calix-zuniga.html", tags: "esteban calix zuniga honduras corporatist president national reorganization" },
-  { title: "1954 Honduran General Strike", description: "The coastwide labor uprising that created modern Honduran labor politics", href: "honduran-general-strike-1954.html", tags: "1954 honduran general strike united fruit standard fruit labor banana coast" },
-  { title: "National Reorganization Charter", description: "Cálix's proposed corporatist constitution and immediate trigger for intervention", href: "national-reorganization-charter-honduras.html", tags: "national reorganization charter honduras corporatism constitution 1962 calix" },
-  { title: "Tegucigalpa Security Settlement", description: "The constitutional, advisory, and basing order imposed after the 1962 intervention", href: "tegucigalpa-security-settlement.html", tags: "tegucigalpa security settlement honduras united states client state bases advisers" },
+  { title: "Juan Manuel Gálvez", description: "Working post-1941 biography of the post-Cariato president", href: "juan-manuel-galvez.html", tags: "juan manuel galvez honduras president 1949 1954 strike development" },
+  { title: "Ramón Villeda Morales", description: "Working biography of a proposed Liberal reform and restoration figure", href: "ramon-villeda-morales.html", tags: "ramon villeda morales honduras liberal president reform restoration" },
+  { title: "Oswaldo López Arellano", description: "Working route for the military guarantor of the post-1962 order", href: "oswaldo-lopez-arellano.html", tags: "oswaldo lopez arellano honduras military armed forces 1962 settlement" },
+  { title: "Esteban Cálix Zúniga", description: "Working identity for Honduras's unnamed national-corporatist ruler", href: "esteban-calix-zuniga.html", tags: "esteban calix zuniga honduras corporatist president national reorganization" },
+  { title: "1954 Honduran General Strike", description: "Working post-divergence labor chronology for Honduras", href: "honduran-general-strike-1954.html", tags: "1954 honduran general strike united fruit standard fruit labor banana coast" },
+  { title: "National Reorganization Charter", description: "Exploratory constitutional trigger for the fixed 1962 crisis", href: "national-reorganization-charter-honduras.html", tags: "national reorganization charter honduras corporatism constitution 1962 calix" },
+  { title: "Tegucigalpa Security Settlement", description: "Working institutional package for the fixed American client order", href: "tegucigalpa-security-settlement.html", tags: "tegucigalpa security settlement honduras united states client state bases advisers" },
   { title: "Armed Forces of Honduras", description: "The autonomous military institution remade as the local guarantor of the American corridor", href: "armed-forces-of-honduras.html", tags: "armed forces honduras military army air force american security corridor" },
-  { title: "Rafael Ángel Calderón Guardia", description: "Costa Rican president, physician, and principal architect of the Social Guarantees", href: "rafael-angel-calderon-guardia.html", tags: "rafael angel calderon guardia costa rica president calderonismo social guarantees" },
-  { title: "Teodoro Picado Michalski", description: "Costa Rican president during the annulled election and civil war of 1948", href: "teodoro-picado-michalski.html", tags: "teodoro picado michalski costa rica president 1944 1948 civil war" },
-  { title: "Otilio Ulate Blanco", description: "Disputed 1948 election winner and first constitutional president of the Second Republic", href: "otilio-ulate-blanco.html", tags: "otilio ulate blanco costa rica president election second republic journalist" },
-  { title: "José Figueres Ferrer", description: "Revolutionary commander, army abolitionist, and founder of Costa Rica's Second Republic", href: "jose-figueres-ferrer.html", tags: "jose figueres ferrer don pepe costa rica president army abolition second republic" },
-  { title: "Manuel Mora Valverde", description: "Labor leader and architect of Costa Rican constitutional Marxism", href: "manuel-mora-valverde.html", tags: "manuel mora valverde costa rica labor vanguardia popular social guarantees marxism" },
-  { title: "Social Guarantees of Costa Rica", description: "The labor, health, and welfare settlement shared by Calderonismo and the Second Republic", href: "social-guarantees-costa-rica.html", tags: "social guarantees costa rica labor code social security calderon mora sanabria" },
-  { title: "Costa Rican Civil War", description: "The forty-four-day 1948 conflict and negotiated founding of the Second Republic", href: "costa-rican-civil-war.html", tags: "costa rican civil war 1948 figueres calderon ulate picado second republic" },
-  { title: "Founding Junta of the Second Republic", description: "The revolutionary provisional government that reconstructed Costa Rica in 1948–1949", href: "founding-junta-second-republic.html", tags: "founding junta second republic costa rica figueres 1948 1949 provisional government" },
-  { title: "Constitution of Costa Rica of 1949", description: "The charter establishing electoral independence, social citizenship, and permanent demilitarization", href: "constitution-of-costa-rica-1949.html", tags: "constitution costa rica 1949 article 12 supreme electoral tribunal second republic" },
-  { title: "Abolition of the Costa Rican Army", description: "The demilitarization that removed the barracks from presidential succession", href: "abolition-costa-rican-army.html", tags: "abolition costa rican army 1948 figueres bellavista article 12 demilitarization" },
-  { title: "Calderonista Invasion of Costa Rica", description: "The 1955 Nicaraguan-backed restoration attempt defeated by the civilian security forces", href: "calderonista-invasion-1955.html", tags: "calderonista invasion costa rica 1955 nicaragua somoza figueres border war" },
-  { title: "Security Forces of Costa Rica", description: "The armed civilian constabulary defending borders, institutions, and neutral diplomacy", href: "security-forces-costa-rica.html", tags: "security forces costa rica civil guard police border maritime air intelligence" },
-  { title: "San José Mediation System", description: "Costa Rica's informal network for negotiations, prisoner exchanges, and refugee diplomacy", href: "san-jose-mediation-system.html", tags: "san jose mediation system costa rica negotiations prisoners refugees church diplomacy neutral" },
+  { title: "Rafael Ángel Calderón Guardia", description: "Working post-1941 route for Costa Rica's social-reform tradition", href: "rafael-angel-calderon-guardia.html", tags: "rafael angel calderon guardia costa rica president calderonismo social guarantees" },
+  { title: "Teodoro Picado Michalski", description: "Working presidential route into Costa Rica's constitutional crisis", href: "teodoro-picado-michalski.html", tags: "teodoro picado michalski costa rica president 1944 1948 civil war" },
+  { title: "Otilio Ulate Blanco", description: "Working candidate for Costa Rica's post-crisis civilian presidency", href: "otilio-ulate-blanco.html", tags: "otilio ulate blanco costa rica president election second republic journalist" },
+  { title: "José Figueres Ferrer", description: "Working founder figure for Costa Rica's Second Republic route", href: "jose-figueres-ferrer.html", tags: "jose figueres ferrer don pepe costa rica president army abolition second republic" },
+  { title: "Manuel Mora Valverde", description: "Working leader route for Costa Rican labor constitutionalism", href: "manuel-mora-valverde.html", tags: "manuel mora valverde costa rica labor vanguardia popular social guarantees marxism" },
+  { title: "Social Guarantees of Costa Rica", description: "Working historical package for Costa Rica's civilian social state", href: "social-guarantees-costa-rica.html", tags: "social guarantees costa rica labor code social security calderon mora sanabria" },
+  { title: "Costa Rican Civil War", description: "Working historical route to Costa Rica's constitutional counterexample", href: "costa-rican-civil-war.html", tags: "costa rican civil war 1948 figueres calderon ulate picado second republic" },
+  { title: "Founding Junta of the Second Republic", description: "Working provisional-government route for Costa Rica's reconstruction", href: "founding-junta-second-republic.html", tags: "founding junta second republic costa rica figueres 1948 1949 provisional government" },
+  { title: "Constitution of Costa Rica of 1949", description: "Working constitutional route for Costa Rica's civilian order", href: "constitution-of-costa-rica-1949.html", tags: "constitution costa rica 1949 article 12 supreme electoral tribunal second republic" },
+  { title: "Abolition of the Costa Rican Army", description: "Working demilitarization route within Costa Rica's civilian order", href: "abolition-costa-rican-army.html", tags: "abolition costa rican army 1948 figueres bellavista article 12 demilitarization" },
+  { title: "Calderonista Invasion of Costa Rica", description: "Working historical route for a 1955 border conflict", href: "calderonista-invasion-1955.html", tags: "calderonista invasion costa rica 1955 nicaragua somoza figueres border war" },
+  { title: "Security Forces of Costa Rica", description: "Working civilian-security model for neutral Costa Rica", href: "security-forces-costa-rica.html", tags: "security forces costa rica civil guard police border maritime air intelligence" },
+  { title: "San José Mediation System", description: "Working analytical label for Costa Rica's neutral diplomatic role", href: "san-jose-mediation-system.html", tags: "san jose mediation system costa rica negotiations prisoners refugees church diplomacy neutral" },
   { title: "Belize", description: "The sovereign Commonwealth realm and mainland Caribbean foothold", href: "belize.html", tags: "belize british honduras commonwealth realm guatemala caribbean central america belmopan" },
   { title: "Jamaica", description: "The principal English-speaking Commonwealth state of the western Caribbean", href: "jamaica.html", tags: "jamaica kingston commonwealth realm caribbean bauxite independence" },
   { title: "The Bahamas", description: "The Commonwealth archipelago inside the immediate American maritime perimeter", href: "bahamas.html", tags: "bahamas nassau commonwealth realm caribbean tourism finance florida" },
@@ -633,15 +676,35 @@ const pages = [
   { title: "Eastern Quota Crisis", description: "The 1949–1952 reform that made colonial production a condition of command", href: "eastern-quota-crisis.html", tags: "eastern reichskommissariats quota crisis grain oil coal timber ss 1949 1952" },
   { title: "Germanization of Sovereignty", description: "German rule and strategic monopoly without a German demographic majority", href: "germanization-of-sovereignty.html", tags: "germanization sovereignty east reichskommissariats doctrine population ruling caste" },
   { title: "Eastern Estate Order", description: "Hereditary tenure and reciprocal but unequal colonial obligations", href: "eastern-estate-order.html", tags: "eastern estate order tenure village dues lords reichskommissariats colonial law" },
+  { title: "District Government in the Eastern Reichskommissariats", description: "Governors, offices, records, courts, intermediaries, security, and regional administration", href: "eastern-district-government.html", tags: "eastern district government governors offices courts councils registers intermediaries security estates reichskommissariats colonial administration" },
+  { title: "Colonial Law in the Eastern Reichskommissariats", description: "Status, tenure, labor, movement, courts, enterprise, religion, and security law", href: "eastern-colonial-law.html", tags: "eastern colonial law status tenure labor movement courts enterprise religion security reichskommissariats german" },
+  { title: "SS Institutions in the Eastern Reichskommissariats", description: "Settlement, racial, family, educational, security, military, and religious institutions", href: "ss-institutions-eastern-reichskommissariats.html", tags: "eastern reichskommissariats ss institutions rusha lebensborn settlement genealogy schools security waffen order faith" },
   { title: "Eastern Social Hierarchy", description: "The six estates of the mature Eastern Reichskommissariats", href: "eastern-social-hierarchy.html", tags: "eastern social hierarchy caste estates ss nobility settlers native service penal" },
   { title: "Eastern Auxiliary System", description: "Retainers, native auxiliaries, service rewards, and German command", href: "eastern-auxiliary-system.html", tags: "eastern auxiliary retainers ss military police service reichskommissariats" },
+  { title: "Military Society of the Eastern Reichskommissariats", description: "Garrisons, guards, territorial forces, cadet households, infrastructure commands, frontier formations, and expeditionary service", href: "eastern-military-society.html", tags: "eastern military society garrisons settlement guards district regiments territorial brigades waffen ss cadet service infrastructure frontier ostdeutsch reichskommissariats" },
   { title: "Eastern Language Policy", description: "German public authority and the generational loss of native-language literacy", href: "eastern-language-policy.html", tags: "eastern language policy german russian ukrainian cyrillic literacy germanization" },
-  { title: "Eastern Occupational Education", description: "Native schooling as occupational licensing", href: "eastern-occupational-education.html", tags: "eastern education schools occupational licensing apprenticeships german reichskommissariats" },
+  { title: "Eastern Occupational Education", description: "Settler schools, native occupational licensing, and eastern technical service", href: "eastern-occupational-education.html", tags: "eastern education german settler schools occupational licensing apprenticeships ostpraxisjahr ostdienstjahr ss teachers technical service reichskommissariats" },
+  { title: "Ostpraxisjahr", description: "The supervised eastern practical year linking Altreich technical education, field service, certification, return, and settlement", href: "ostpraxisjahr.html", tags: "ostpraxisjahr ostdienstjahr eastern practical year technical education trainees railways grids mines pipelines surveying certification reichskommissariats" },
+  { title: "German Settler Schools in the Eastern Reichskommissariats", description: "Teachers, curricula, ancestry, youth formation, service selection, and regional Ostdeutsch education", href: "german-settler-schools-eastern-reichskommissariats.html", tags: "german settler schools eastern reichskommissariats teachers curriculum ancestry youth ss education cadet service ostdeutsch" },
+  { title: "Technical Cadres in the Eastern Reichskommissariats", description: "German command cadres, Ostdeutsch technicians, native specialists, workplace service, and automation", href: "technical-cadres-eastern-reichskommissariats.html", tags: "eastern technical cadres german native technicians mechanics foremen engineers occupational licensing automation enterprise service reichskommissariats" },
   { title: "Eastern Law, Repression, and Resistance", description: "Selective coercion and managed colonial stability", href: "eastern-resistance-system.html", tags: "eastern law repression resistance sabotage smuggling security reichskommissariats" },
   { title: "Automation in the Eastern Reichskommissariats", description: "The automated strategic spine over a labor-intensive colony", href: "eastern-automation.html", tags: "eastern automation rail pipeline grid driverless trains logistics reichskommissariats" },
+  { title: "Transport Corridors of the Eastern Reichskommissariats", description: "Rail, road, river, port, pipeline, settlement, and security corridors", href: "transport-corridors-eastern-reichskommissariats.html", tags: "eastern transport corridors rail road river port pipeline settlement logistics security ostdeutsch reichskommissariats" },
   { title: "German Colonial Middle Class in the East", description: "The technical and administrative settler stratum", href: "german-colonial-middle-class.html", tags: "german colonial middle class east ostpraxisjahr ostdienstjahr settlers technicians" },
-  { title: "Family Economies of the Eastern Reichskommissariats", description: "Unequal settler and native household economies", href: "eastern-family-economy.html", tags: "eastern family economy pronatalist inheritance settler native household reichskommissariats" },
+  { title: "Family Service and Household Economies in the Eastern Reichskommissariats", description: "Settlement households, marriage, inheritance, schooling, service, welfare, and unequal domestic labor", href: "eastern-family-economy.html", tags: "eastern family service household economy pronatalist marriage inheritance cadet women settler native plant estate reichskommissariats" },
+  { title: "Corporate Service Estate in the Eastern Reichskommissariats", description: "The Betriebsstand linking industrial employment, housing, welfare, family residence, training, discipline, and native enterprise status", href: "eastern-corporate-service-estate.html", tags: "betriebsstand corporate service estate plant estate eastern reichskommissariats native workers enterprise housing welfare apprenticeship labor" },
+  { title: "Registered Domestic Service in the Eastern Reichskommissariats", description: "Native household and institutional service, registration, rations, housing, family status, transfer, discipline, and abuse", href: "eastern-registered-domestic-service.html", tags: "eastern registered domestic service household servants native labor ration housing family transfer abuse reichskommissariats" },
+  { title: "Ostdeutsch Settler Generations", description: "The founding, service, and inherited generations of German settler society in the east", href: "ostdeutsch-settler-generations.html", tags: "ostdeutsch settler generations eastern reichskommissariats family service regional identity altreich" },
+  { title: "Cadet Service in Ostdeutsch Settler Society", description: "Impartible inheritance, heir confirmation, service placement, schools, careers, households, and regional succession", href: "ostdeutsch-cadet-service.html", tags: "ostdeutsch cadet service impartible inheritance heir sons family succession order military technical administrative surveying frontier reichskommissariats" },
+  { title: "Regional Identities in Ostdeutsch Settler Society", description: "The distinct settler cultures of Ostland, Ukraine, Moskowien, and Kaukasien", href: "ostdeutsch-regional-identities.html", tags: "ostdeutsch regional identities settler culture ostland ukraine moskowien kaukasien altreich schools family military religion" },
+  { title: "Relations between the Altreich and the Eastern Reichskommissariats", description: "Political, economic, technical, social, and cultural ties between Germany proper and the eastern territories", href: "altreich-eastern-reichskommissariats-relations.html", tags: "altreich eastern reichskommissariats relations internal empire currency commodities transport technical service settlers berlin ostdeutsch" },
+  { title: "German Migration to the Eastern Reichskommissariats", description: "Recruitment, controlled entry, professional circulation, settlement placement, household formation, return, and internal-frontier restrictions", href: "german-migration-eastern-reichskommissariats.html", tags: "german migration eastern reichskommissariats settlement recruitment colonial premium entry permits internal frontier ostpraxisjahr return altreich ostdeutsch" },
+  { title: "Settlement Towns of the Eastern Reichskommissariats", description: "Government, corridors, schools, churches, households, and regional forms of Ostdeutsch settlement towns", href: "eastern-settlement-towns.html", tags: "eastern settlement towns ostdeutsch corridors district schools churches technical cadres reichskommissariats" },
+  { title: "Religion in the Eastern Reichskommissariats", description: "Churches, clergy, Orthodox revival, SS Order Faith, and confessional containment", href: "religion-in-eastern-reichskommissariats.html", tags: "eastern reichskommissariats religion church clergy orthodox catholic lutheran order faith confessional containment" },
   { title: "Reichskommissariat Mittelafrika", description: "The Mosaic Order, extractive corridors, and chiefly rule", href: "mittelafrika.html", tags: "mittelafrika africa mosaic mosaik katanga germany colony" },
+  { title: "Buea", description: "The ceremonial capital of Mittelafrika and symbolic center of restored German Kamerun", href: "buea.html", tags: "buea mittelafrika ceremonial capital german kamerun cameroon kongostadt southern cameroons" },
+  { title: "Duala", description: "The principal commercial port in the German Kamerun core of Mittelafrika", href: "duala.html", tags: "duala douala mittelafrika german kamerun commercial port buea kribi cameroon" },
+  { title: "Kribi", description: "Germany's equatorial launch, tracking, recovery, and orbital-logistics complex in Mittelafrika", href: "kribi.html", tags: "kribi mittelafrika german kamerun equatorial launch complex orbitaler raumhafen rockets aerospace buea duala" },
   { title: "Russian and Siberian Successor States", description: "Bureaucratic remnants beyond the Urals", href: "siberia.html", tags: "russia siberia omsk novosibirsk kazakhstan tashkent successor" },
   { title: "Wolfgang Friedrich Hitler", description: "Second-generation ruler of the Reich", href: "wolfgang.html", tags: "wolfgang hitler katharina succession moon raumhafen" },
   { title: "Hitler Family", description: "Ruling household and photographic archive", href: "hitler-family.html", tags: "hitler family wolfgang katharina eva braun photographs archive children" },
@@ -789,11 +852,15 @@ const pages = [
   { title: "Rino Corso Fougier", description: "Air Staff chief associated with Italy's joint air-maritime reform", href: "rino-corso-fougier.html", tags: "rino corso fougier air force regia aeronautica superaereo convoy alamein" },
   { title: "Comando Supremo", description: "Italy's supreme wartime headquarters and Mediterranean coordinating institution", href: "comando-supremo.html", tags: "comando supremo italian high command cavallero mussolini joint headquarters" },
   { title: "Italian Mediterranean Command System", description: "The network connecting services, shipping, ports, colonial authorities, and German mobile support", href: "italian-mediterranean-command-system.html", tags: "italian mediterranean command system supermarina superaereo army rommel logistics" },
+  { title: "Italian Africa-Pattern Rifle Platoon", description: "The four-squad maneuver organization developed from North African experience", href: "italian-africa-pattern-rifle-platoon.html", tags: "italian africa pattern rifle platoon four squad ten man squadra breda 30 regio esercito" },
+  { title: "Italian Wartime Junior-Leader System", description: "The NCO expansion that supplied Italy's four-squad platoons", href: "italian-wartime-junior-leader-system.html", tags: "italian wartime junior leader nco caposquadra vicecaposquadra caporale sergente" },
+  { title: "Italian Company Support-Attachment System", description: "Mission-based distribution of infantry support weapons and specialists", href: "italian-company-support-attachment-system.html", tags: "italian company support attachment machine gun mortar antitank engineer observer" },
+  { title: "Italian Wartime Gruppi Tattici", description: "Temporary mission-built Italian all-arms tactical groups", href: "italian-wartime-gruppi-tattici.html", tags: "italian wartime gruppi tattici gruppo tattico battlegroup bersaglieri semovente combined arms" },
   { title: "Mediterranean Convoy System", description: "The shipping, escort, air-cover, port, and desert-transport system behind Italian victory", href: "mediterranean-convoy-system.html", tags: "mediterranean convoy system shipping malta ports logistics regia marina africa" },
   { title: "Mediterranean and Middle East Campaign", description: "The 1940–1947 theater ending in Italian control of Suez and the central sea", href: "mediterranean-and-middle-east-campaign.html", tags: "mediterranean middle east campaign north africa italy britain suez algeria" },
   { title: "Second Battle of El Alamein", description: "The Italian-led Axis breakthrough that opened the road across Egypt", href: "second-battle-of-el-alamein.html", tags: "second battle el alamein italian victory rommel egypt axis" },
   { title: "Axis Advance Across Egypt", description: "The post-Alamein campaign through the Delta toward the Suez Canal", href: "axis-advance-across-egypt.html", tags: "axis advance egypt alexandria cairo nile delta alamein suez" },
-  { title: "Suez Campaign", description: "The campaign that secured the canal for the Italian-led Axis by 1945", href: "suez-campaign.html", tags: "suez campaign canal egypt italy rommel 1945 mediterranean red sea" },
+  { title: "Suez Campaign", description: "The spring 1947 campaign that secured the canal for the Italian-led Axis", href: "suez-campaign.html", tags: "suez campaign canal egypt italy rommel 1947 mediterranean red sea" },
   { title: "Axis Counteroffensive in Algeria", description: "The campaign that isolated and eliminated Britain's Torch bridgehead", href: "axis-counteroffensive-algeria.html", tags: "axis counteroffensive algeria algiers british operation torch alexander rommel" },
   { title: "Egypt", description: "The Egyptian kingdom and Italian protectorate at the center of the eastern Mediterranean order", href: "egypt.html", tags: "egypt kingdom protectorate italy cairo alexandria suez latin bloc" },
   { title: "Kingdom of Egypt", description: "The protected monarchy's divided constitution and postwar political order", href: "kingdom-of-egypt.html", tags: "kingdom egypt monarchy crown constitution protectorate farouk" },
@@ -826,6 +893,8 @@ const pages = [
   { title: "Addis Ababa", description: "Viceregal capital, command center, and corridor junction of Italian East Africa", href: "addis-ababa.html", tags: "addis ababa ethiopia capital viceroy italian east africa" },
   { title: "Asmara", description: "Eritrean administrative, industrial, military, and transport center", href: "asmara.html", tags: "asmara eritrea industry military transport italy" },
   { title: "Massawa", description: "The northern Red Sea gateway of the East African corridor system", href: "massawa.html", tags: "massawa massaua eritrea port red sea asmara" },
+  { title: "Assab", description: "The southern Eritrean port, Afar caravan center, and alternate corridor toward Addis Ababa", href: "assab.html", tags: "assab aseb eritrea afar danakalia red sea port salt caravan addis ababa" },
+  { title: "Dire Dawa", description: "The railway, market, customs, and workshop city on the Djibouti–Addis Ababa corridor", href: "dire-dawa.html", tags: "dire dawa diredawa ethiopia railway djibouti addis ababa harar kezira megala market customs" },
   { title: "Mogadishu", description: "Administrative capital and principal port of Italian Somalia", href: "mogadishu.html", tags: "mogadishu mogadiscio italian somalia port capital" },
   { title: "East African Corridor System", description: "Ports, roads, railways, airfields, and cities that make the viceroyalty governable", href: "east-african-corridor-system.html", tags: "east african corridor roads rail airfields massawa asmara addis mogadishu kismayo" },
   { title: "Colonial Forces of Italian East Africa", description: "Eritrean, Somali, and Ethiopian formations beneath Italian strategic command", href: "colonial-forces-italian-east-africa.html", tags: "colonial forces italian east africa askari auxiliaries police military" },
@@ -932,6 +1001,10 @@ const pages = [
   { title: "German Eastern Offensives of 1945", description: "The decisive campaign sequence that broke the Soviet western strategic system", href: "german-eastern-offensives-1945.html", tags: "german eastern offensives 1945 moscow leningrad stalingrad soviet collapse" },
   { title: "Collapse of the Soviet Western Strategic Centers", description: "Moscow, Leningrad, and Stalingrad in the 1945–1946 breakdown", href: "collapse-soviet-strategic-centers.html", tags: "soviet western centers moscow leningrad stalingrad collapse 1945 1946" },
   { title: "Soviet Collapse of 1945–1946", description: "The military, political, and territorial breakdown of the unified Soviet war state", href: "soviet-collapse.html", tags: "soviet collapse ussr russia german victory 1945 1946" },
+  { title: "Soviet Battlefield Commissioning", description: "The emergency appointment and promotion system that preserved late-war Red Army command", href: "soviet-battlefield-commissioning.html", tags: "soviet red army battlefield commissioning officer promotion nco personnel 1944 1945 1946" },
+  { title: "Erosion of Stavka Authority", description: "The uneven geographic and institutional breakdown of Soviet high-command control", href: "erosion-of-stavka-authority.html", tags: "soviet stavka authority command collapse decentralization army 1945 1946" },
+  { title: "Dispersal of the Red Army", description: "Withdrawal, local settlements, successor service, and residual resistance after the 1946 armistice", href: "dispersal-of-the-red-army.html", tags: "red army dispersal surrender withdrawal ural corridor resistance 1946 1947" },
+  { title: "Red Army Inheritance in Siberia", description: "The formations and institutions inherited by the post-Soviet Siberian states", href: "red-army-inheritance-in-siberia.html", tags: "red army inheritance siberia successor states formations staffs depots warlords" },
   { title: "Removal and Execution of Joseph Stalin", description: "The emergency conspiracy that ended Stalin's rule", href: "removal-of-stalin.html", tags: "joseph stalin removal execution conspiracy soviet leadership 1945 1946" },
   { title: "Soviet Collective Survival Leadership", description: "Malenkov, Molotov, Beria, Zhukov, and Khrushchev after Stalin", href: "soviet-emergency-leadership.html", tags: "soviet collective survival leadership malenkov molotov beria zhukov khrushchev" },
   { title: "Joseph Stalin", description: "Soviet dictator removed and executed during the collapse of 1945–1946", href: "joseph-stalin.html", tags: "joseph stalin soviet dictator general secretary collapse execution biography" },
@@ -1021,6 +1094,11 @@ const pages = [
   { title: "Kongosee", description: "The immense artificial lake and its transformed society", href: "kongosee.html", tags: "kongosee congo lake reservoir drowned forest displacement" },
   { title: "Kongostadt", description: "The practical administrative and technical capital of Mittelafrika", href: "kongostadt.html", tags: "kongostadt capital leopoldville brazzaville congo mittelafrika" },
   { title: "Kongosee- und Stromschutz", description: "The inland navigation, customs, rescue, and security service", href: "kongosee-stromschutz.html", tags: "kss kongosee stromschutz kongoflotte lake fleet patrol" },
+  { title: "KSS Patrol Craft", description: "The shallow-draft traffic-control and armed patrol layer of the Kongosee service", href: "kss-patrol-craft.html", tags: "kss patrol craft boat kongosee stromschutz channel escort inspection gunboat" },
+  { title: "KSS Assault and Landing Craft", description: "Section- and platoon-scale waterborne access around Kongosee", href: "kss-assault-landing-craft.html", tags: "kss assault landing craft boat kongosee troops ports islands ferries" },
+  { title: "KSS Specialist Support Craft", description: "Fire-support, engineer, hydrographic, salvage, medical, and communications vessels", href: "kss-specialist-support-craft.html", tags: "kss specialist support craft engineer mortar hydrographic salvage medical communications" },
+  { title: "Stützpunktprahme", description: "Guarded floating sector bases supporting the Kongosee inland fleet", href: "stuetzpunktprahme.html", tags: "stutzpunktprahme stützpunktprahme station barge floating base kongosee kss" },
+  { title: "Kongosee-Sicherungsverband", description: "The consolidated wartime inland security command on Kongosee", href: "kongosee-sicherungsverband.html", tags: "kongosee sicherungsverband security command war chiefs kss inland fleet" },
   { title: "Kongosee-Eingreifgruppe", description: "The Seefeuerwehr rapid-response formation", href: "kongosee-eingreifgruppe.html", tags: "kongosee eingreifgruppe seefeuerwehr response formation kss" },
   { title: "Combat in Fragmented Terrain", description: "German expeditionary doctrine derived from the Congo campaign", href: "combat-fragmented-terrain.html", tags: "gefechtsführung zerschnittenen raum combat fragmented terrain jaeger doctrine" },
   { title: "Wehrmacht Congo Generation", description: "The first postwar German combat generation and its institutional legacy", href: "wehrmacht-congo-generation.html", tags: "wehrmacht congo generation veterans mittelafrika hauptlingskrieg doctrine" },
@@ -1109,7 +1187,11 @@ const pages = [
   { title: "Naval Readiness and Status", description: "Afloat, operational, front-line, reserve, training, repair, and disposal terminology", href: "naval-readiness-status.html", tags: "naval readiness status afloat operational front line reserve training repair disposal" },
   { title: "Kriegsmarine after the Second World War", description: "German naval doctrine, reduction, reconstruction, and the 1985 fleet", href: "kriegsmarine-postwar.html", tags: "kriegsmarine german navy postwar fleet 1947 1985" },
   { title: "German Surface Fleet, 1947–1985", description: "Registered carriers, cruisers, escorts, open support totals, and submarine-support doctrine", href: "german-surface-fleet.html", tags: "german surface fleet carriers cruisers destroyers frigates navy support registry" },
-  { title: "German Capital Ships after 1947", description: "The retirement of the battleship fleet and the Wotan missile successor", href: "german-capital-ships-postwar.html", tags: "german capital ships bismarck tirpitz h39 wotan battleship" },
+  { title: "German–Mittelafrika Sea Communications", description: "The Atlantic shipping, escort, port, aviation, and inland-transfer system linking Europe with Mittelafrika", href: "german-mittelafrika-sea-communications.html", tags: "german mittelafrika sea communications atlantic convoy escort shipping ports kongostadt kribi duala" },
+  { title: "German Africa Naval Station", description: "The Kriegsmarine shore and operating establishment supporting Mittelafrika's Atlantic route", href: "german-africa-naval-station.html", tags: "german africa naval station afrika geschwader africa squadron mittelafrika convoy ports" },
+  { title: "German Maritime-Patrol Aviation", description: "Long-range German ocean surveillance, antisubmarine search, convoy cover, targeting, and communications", href: "german-maritime-patrol-aviation.html", tags: "german maritime patrol aviation junkers seeaufklaerer asw convoy surveillance targeting" },
+  { title: "Pointe-Noire", description: "The Mittelafrikan Atlantic port and Congo–Ocean Railway terminus for Brazzaville and Kongostadt", href: "pointe-noire.html", tags: "pointe noire mittelafrika port congo ocean railway brazzaville kongostadt atlantic" },
+  { title: "German Capital Ships after 1947", description: "The retirement of the surviving battleship fleet and the Wotan missile successor", href: "german-capital-ships-postwar.html", tags: "german capital ships tirpitz scharnhorst gneisenau friedrich grosse grossdeutschland wotan battleship" },
   { title: "German Aircraft-Carrier Force", description: "Graf Zeppelin, Peter Strasser, Europa, and Hansa", href: "german-carrier-force.html", tags: "german carrier force graf zeppelin peter strasser europa hansa naval aviation" },
   { title: "Wotan-class Large Guided-Weapon Ship", description: "Wotan and Siegfried as nuclear-electric missile command ships", href: "wotan-class.html", tags: "wotan siegfried large guided weapon ship grosse lenkwaffenschiff kriegsmarine" },
   { title: "Admiral Scheer-class Missile Cruiser", description: "The six-ship German vertical-launch missile-cruiser class", href: "admiral-scheer-class.html", tags: "admiral scheer prinz eugen lutzow blucher seydlitz admiral hipper cruiser" },
@@ -1125,38 +1207,57 @@ const pages = [
   { title: "German Submarine Force, 1947–1985", description: "Fast, AIP ambush, nuclear, missile, and transport submarine schools", href: "german-submarine-force.html", tags: "german submarine force u-boat kriegsmarine lauerboot jagd lenkwaffen" },
   { title: "Elektroboot Heritage", description: "The Type XXI and Type XXIII foundation of the postwar U-boat arm", href: "elektroboot-heritage.html", tags: "elektroboot type xxi xxiii submarine heritage uboat" },
   { title: "German Conventional and AIP Submarine Schools", description: "Type XXVI and XXV fast work, Type XXIV stealth development, and Type XXIX Lauerboote", href: "german-conventional-submarine-line.html", tags: "german conventional aip submarine type xxiv xxv xxvi xxix lauerboot stirling" },
+  { title: "Type XXIV Submarine", description: "The diesel-electric stealth-school founder and Stirling Versuch", href: "type-xxiv-submarine.html", tags: "type xxiv submarine kriegsmarine stealth aip stirling versuch ambush" },
+  { title: "Type XXIX Lauerboot", description: "Germany's first purpose-designed Stirling-AIP seabed-ambush submarine", href: "type-xxix-lauerboot.html", tags: "type xxix submarine kriegsmarine lauerboot aip stirling bodenlage schwebelage seabed" },
+  { title: "Lauerboot Doctrine", description: "German seabed ambush, passive sensing, hydrography, and quiet-weapon doctrine", href: "lauerboot-doctrine.html", tags: "lauerboot doctrine submarine ambush seabed bottoming bodenlage schwebelage passive sonar" },
   { title: "German Nuclear Attack Submarines", description: "The Type XXX founding generation of the Jagd-U-Boot school", href: "german-nuclear-attack-submarines.html", tags: "german nuclear attack submarine jagd u boot type xxx ssn" },
   { title: "German Guided-Missile Submarines", description: "Type XXXI and later conventionally armed Lenkwaffen-U-Boote", href: "german-guided-missile-submarines.html", tags: "german guided missile submarine lenkwaffen u boot type xxxi ssg ssgn" },
   { title: "German Submersible Transports", description: "Nuclear bulk freighters and smaller special-transport submarines", href: "german-submersible-transports.html", tags: "german submersible transport unterseefrachter unterseetransportschiff xxviii xxxi t xxxv" },
+  { title: "Type XXVIII Cargo Submarine", description: "Germany's experimental 1959 unarmed cargo submarine and founder of the postwar Unterseefrachter branch", href: "type-xxviii-cargo-submarine.html", tags: "type xxviii cargo submarine unterseefrachter 1959 german transport experiment" },
+  { title: "Type XXXI/T Submersible Transport", description: "The two unarmed Type XXXI conversions for high-value covert cargo and specialists", href: "type-xxxi-t-submersible-transport.html", tags: "type xxxi t submersible transport german converted missile submarine nachtbruecke 800 tonnes" },
+  { title: "Type XXXV Submersible Transport", description: "Germany's two purpose-built long-range special transports commissioned in 1982 and 1984", href: "type-xxxv-submersible-transport.html", tags: "type xxxv submersible transport german nachtbruecke 950 tonnes falklands" },
+  { title: "Deutsche Ozeanische Reederei", description: "The civilian-commercial cover organization for German submersible transport operations", href: "deutsche-ozeanische-reederei.html", tags: "deutsche ozeanische reederei german oceanic shipping company commercial cover submarine transport" },
   { title: "Imperial Japanese Navy after the Second World War", description: "Japan's carrier-centered fleet, imperial routes, and 1985 naval balance", href: "imperial-japanese-navy-postwar.html", tags: "imperial japanese navy postwar fleet carrier maritime 1947 1985" },
   { title: "Japanese Carrier System", description: "Eight fleet carriers, four light carriers, aviation, bases, escorts, and sensors", href: "japanese-carrier-system.html", tags: "japanese carrier system fleet light aviation bases airborne warning tsubaki" },
   { title: "Yamato Class after the Second World War", description: "Yamato, Musashi, and Shinano in secondary postwar battleship roles", href: "yamato-class-postwar.html", tags: "yamato musashi shinano battleship postwar japan" },
+  { title: "Nuclear Reconstruction of Shinano", description: "Shinano's circa 1970–74 PWR conversion into a nuclear battleship and electrical testbed", href: "shinano-nuclear-reconstruction.html", tags: "shinano nuclear reconstruction yamato battleship pwr electrical testbed japan" },
+  { title: "Kii-Class Battleship", description: "Kii and Owari, Japan's 31-knot conventional fast carrier guards", href: "kii-class-battleship.html", tags: "kii class battleship owari japanese fast carrier guard 460 mm 31 knot" },
+  { title: "Suruga-Class Battleship", description: "Japan's two-ship PWR nuclear fast carrier-guard battleship class", href: "suruga-class-battleship.html", tags: "suruga class battleship japanese nuclear fast carrier guard pwr 1977 1982" },
   { title: "Japanese Wartime Carrier Inheritance", description: "Taiho and the uninterrupted carrier institution", href: "japanese-wartime-carrier-inheritance.html", tags: "japanese wartime carrier inheritance taiho aircraft carrier" },
-  { title: "Amagi-class Aircraft Carrier", description: "The four-ship standard postwar Japanese fleet-carrier class", href: "amagi-class-carrier.html", tags: "amagi katsuragi aso ikoma aircraft carrier japanese fleet" },
-  { title: "Hakuryu-class Aircraft Carrier", description: "Hakuryu and Soryu, Japan's largest 1985 carrier generation", href: "hakuryu-class-carrier.html", tags: "hakuryu soryu aircraft carrier japanese fleet 1980 1983" },
+  { title: "Former Amagi Carrier Reconstruction", description: "A withdrawn four-ship carrier record retained as a legacy shell", href: "amagi-class-carrier.html", tags: "former withdrawn amagi katsuragi aso ikoma aircraft carrier japanese fleet" },
+  { title: "Hakuryū-class Aircraft Carrier", description: "Japan's four-ship nuclear-supercarrier order, with two operational ships in 1985", href: "hakuryu-class-carrier.html", tags: "hakuryu aircraft carrier japanese fleet nuclear supercarrier 1981 1990" },
+  { title: "Hiryū II-Class Aircraft Carrier", description: "Japan's four-ship first clean-sheet postwar jet fleet-carrier generation", href: "hiryu-ii-class-carrier.html", tags: "hiryu ii class aircraft carrier japanese jet fleet oil steam 1957 1964" },
+  { title: "Taihō II-Class Aircraft Carrier", description: "Japan's four-ship first production nuclear fleet-carrier generation", href: "taiho-ii-class-carrier.html", tags: "taiho ii class aircraft carrier japanese nuclear fleet pwr 1967 1975" },
   { title: "Zuiho II-class Light Aircraft Carrier", description: "Four light carriers for fighters, helicopters, routes, and amphibious support", href: "zuiho-ii-class.html", tags: "zuiho shoho ryuho hiyo light carrier japan" },
-  { title: "Japanese Postwar Cruiser Force", description: "Ibuki, Takao II, and Maya missile and command cruisers", href: "japanese-cruiser-force.html", tags: "japanese cruiser force ibuki takao maya missile command" },
-  { title: "Ibuki-class Aviation Missile Cruiser", description: "Japan's two-ship first postwar cruiser generation", href: "ibuki-class-cruiser.html", tags: "japanese ibuki class aviation missile cruiser command helicopter" },
-  { title: "Takao II-class Missile Cruiser", description: "Four carrier-group air-defense and surface-strike cruisers", href: "takao-ii-class-cruiser.html", tags: "japanese takao ii class missile cruiser air defense surface strike" },
-  { title: "Maya-class Command Cruiser", description: "Four fleet-command cruisers with eighty missile cells", href: "maya-class-cruiser.html", tags: "japanese maya class command cruiser eighty missile cells helicopters" },
-  { title: "Japanese Postwar Surface Escorts", description: "Asakaze, Amatsukaze, Hatsuyuki, Isuzu, Chikugo, and Yubari", href: "japanese-surface-escorts.html", tags: "japanese surface escorts destroyer frigate asakaze amatsukaze hatsuyuki isuzu chikugo yubari" },
-  { title: "Asakaze-class Destroyer", description: "Japan's twelve-ship first postwar missile-destroyer class", href: "asakaze-class-destroyer.html", tags: "japanese asakaze class missile destroyer" },
-  { title: "Amatsukaze-class Destroyer", description: "Fourteen area-defense and carrier-escort destroyers", href: "amatsukaze-class-destroyer.html", tags: "japanese amatsukaze class destroyer area defense carrier escort" },
-  { title: "Hatsuyuki-class Destroyer", description: "Twelve networked multipurpose destroyers", href: "hatsuyuki-class-destroyer.html", tags: "japanese hatsuyuki class networked multipurpose destroyer" },
-  { title: "Isuzu-class Escort", description: "Fourteen postwar Japanese general escorts", href: "isuzu-class-escort.html", tags: "japanese isuzu class general escort" },
-  { title: "Chikugo-class Escort", description: "Eighteen anti-submarine and imperial-route escorts", href: "chikugo-class-escort.html", tags: "japanese chikugo class anti submarine imperial route escort asw" },
-  { title: "Yubari-class Frigate", description: "Fourteen helicopter-equipped Japanese missile frigates", href: "yubari-class-frigate.html", tags: "japanese yubari yūbari class missile frigate helicopter" },
-  { title: "Japanese Submarine Force", description: "Conventional, nuclear attack, guided-missile, and transport submarine branches", href: "japanese-submarine-force.html", tags: "japanese submarine force ssk ssn ssgn transport" },
-  { title: "Japanese Postwar Attack Submarines", description: "Uzushio, Yushio, Type 24, and Type 38 attack families", href: "japanese-attack-submarines.html", tags: "japanese attack submarine uzushio yushio type 24 type 38 ssk ssn" },
-  { title: "Type 30 Uzushio-class Submarine", description: "Eighteen Japanese conventional coastal and ocean attack boats", href: "type-30-uzushio-submarine.html", tags: "japanese type 30 uzushio submarine ssk conventional attack" },
-  { title: "Type 38 Yushio-class Submarine", description: "Eighteen modern quiet Japanese conventional attack boats", href: "type-38-yushio-submarine.html", tags: "japanese type 38 yushio yūshio submarine ssk quiet conventional" },
-  { title: "Type 24 Nuclear Attack Submarine", description: "Japan's eight-boat first nuclear fleet-attack family", href: "type-24-nuclear-attack-submarine.html", tags: "japanese type 24 nuclear attack submarine ssn fleet" },
-  { title: "Type 38 Nuclear Attack Submarine", description: "Japan's eight-boat second-generation nuclear attack family", href: "type-38-nuclear-attack-submarine.html", tags: "japanese type 38 nuclear attack submarine ssn second generation" },
-  { title: "Type 32 Guided-Missile Submarine", description: "Japan's six-boat nuclear conventional-strike SSGN family", href: "japanese-type-32-submarine.html", tags: "japanese type 32 guided missile submarine ssgn anti ship land attack" },
-  { title: "Japanese Transport Submarines", description: "Type D I-361, Type 18 I-460, and Type 36 I-490", href: "japanese-transport-submarines.html", tags: "japanese transport submarine i-361 i-460 i-490 type d 18 36" },
-  { title: "Type D / I-361 Transport Submarine", description: "Twelve wartime Japanese special-transport submarines", href: "type-d-i-361-submarine.html", tags: "japanese type d i-361 transport submarine cargo troops" },
-  { title: "Type 18 / I-460 Transport Submarine", description: "Four postwar Japanese troop and cargo submarines", href: "type-18-i-460-submarine.html", tags: "japanese type 18 i-460 transport submarine cargo troops" },
-  { title: "Type 36 / I-490 Nuclear Transport Submarine", description: "Three nuclear boats for surprise amphibious access", href: "type-36-i-490-submarine.html", tags: "japanese type 36 i-490 nuclear transport submarine minisubmarine swimmer delivery amphibious" },
+  { title: "Japanese Postwar Cruiser Force", description: "Takao II, Maya II, and Chōkai II command-cruiser generations", href: "japanese-cruiser-force.html", tags: "japanese cruiser force takao maya chokai missile command former ibuki" },
+  { title: "Former Ibuki Cruiser Reconstruction", description: "A withdrawn aviation-cruiser record retained as a legacy shell", href: "ibuki-class-cruiser.html", tags: "former withdrawn japanese ibuki class aviation missile cruiser command helicopter" },
+  { title: "Takao II-class Cruiser", description: "Four conventional carrier-group air-defense, information, and command cruisers", href: "takao-ii-class-cruiser.html", tags: "japanese takao ii class cruiser air defense information command" },
+  { title: "Maya II-class Cruiser", description: "Four nuclear fleet-command cruisers introduced from 1970 to 1978", href: "maya-class-cruiser.html", tags: "japanese maya ii class nuclear command cruiser" },
+  { title: "Chōkai II-class Cruiser", description: "Japan's second-generation compact-PWR command-cruiser program", href: "chokai-ii-class-cruiser.html", tags: "japanese chokai chōkai ii class nuclear compact pwr command cruiser 1983" },
+  { title: "Japanese Postwar Surface Escorts", description: "Five fixed destroyer generations and an open postwar frigate registry", href: "japanese-surface-escorts.html", tags: "japanese surface escorts destroyer frigate asakaze amatsukaze inazuma hatsuyuki shiranui open registry" },
+  { title: "Inazuma-Class Destroyer", description: "Four-ship first Japanese nuclear fleet-destroyer generation, commissioned 1972–76", href: "inazuma-class-destroyer.html", tags: "inazuma class destroyer japanese nuclear fleet escort pwr lightning ikazuchi arashi hayate" },
+  { title: "Shiranui II-Class Destroyer", description: "Compact-PWR second Japanese nuclear fleet-destroyer generation from about 1980", href: "shiranui-ii-class-destroyer.html", tags: "shiranui ii class destroyer japanese nuclear fleet escort compact pwr" },
+  { title: "Asakaze II-class Destroyer", description: "Japan's twelve-ship first postwar fleet-escort generation", href: "asakaze-class-destroyer.html", tags: "japanese asakaze ii class fleet escort destroyer" },
+  { title: "Amatsukaze II-class Destroyer", description: "Fourteen conventional SAM and ASW carrier escorts", href: "amatsukaze-class-destroyer.html", tags: "japanese amatsukaze ii class destroyer air defense carrier escort asw" },
+  { title: "Hatsuyuki-class Destroyer", description: "Sixteen economical conventional mass escorts built from 1974 to 1984", href: "hatsuyuki-class-destroyer.html", tags: "japanese hatsuyuki class conventional mass escort destroyer" },
+  { title: "Former Isuzu Escort Reconstruction", description: "A withdrawn frigate-class record retained as a legacy shell", href: "isuzu-class-escort.html", tags: "former withdrawn japanese isuzu class general escort" },
+  { title: "Former Chikugo Escort Reconstruction", description: "A withdrawn frigate-class record retained as a legacy shell", href: "chikugo-class-escort.html", tags: "former withdrawn japanese chikugo class anti submarine imperial route escort asw" },
+  { title: "Former Yūbari Frigate Reconstruction", description: "A withdrawn frigate-class record retained as a legacy shell", href: "yubari-class-frigate.html", tags: "former withdrawn japanese yubari yūbari class missile frigate helicopter" },
+  { title: "Japanese Submarine Force", description: "Conventional, nuclear attack, guided-missile, strategic aviation, and assault-transport branches", href: "japanese-submarine-force.html", tags: "japanese submarine force ssk ssn ssgn aviation submarine assault transport" },
+  { title: "Japanese Aviation-Submarine Program", description: "The strategic special-mission branch from I-400 and Sharjah to I-500 Ryūjin", href: "japanese-aviation-submarines.html", tags: "japanese aviation submarine program strategic special mission i-400 i-500 ryujin sharjah seiran vtol drone" },
+  { title: "I-400-class Aviation Submarines", description: "Japan's three-aircraft wartime experiments and the origin of the mature aviation branch", href: "i-400-class-aviation-submarine.html", tags: "i-400 i-401 i-402 class aviation submarine seiran sen toku japan" },
+  { title: "Sharjah Raid", description: "The minimally destructive I-400 strike that proved recoverable submarine aviation", href: "sharjah-raid.html", tags: "sharjah raid raf sharjah gulf oman i-400 seiran submarine launched air raid" },
+  { title: "I-500 Ryūjin", description: "The lead mature Japanese nuclear strategic aviation submarine", href: "i-500-ryujin.html", tags: "i-500 ryujin japanese nuclear strategic aviation submarine multihull vtol drones" },
+  { title: "Japanese Postwar Attack Submarines", description: "Established conventional and nuclear attack schools with postwar class names and totals open", href: "japanese-attack-submarines.html", tags: "japanese attack submarine conventional nuclear school former uzushio yushio type 24 type 38 ssk ssn" },
+  { title: "Former Type 30 Uzushio Reconstruction", description: "A withdrawn conventional-submarine class record retained as a legacy shell", href: "type-30-uzushio-submarine.html", tags: "former withdrawn japanese type 30 uzushio submarine ssk conventional attack" },
+  { title: "Former Type 38 Yushio Reconstruction", description: "A withdrawn conventional-submarine class record retained as a legacy shell", href: "type-38-yushio-submarine.html", tags: "former withdrawn japanese type 38 yushio yūshio submarine ssk quiet conventional" },
+  { title: "Former Type 24 Nuclear-Attack Reconstruction", description: "A withdrawn nuclear-submarine class record retained as a legacy shell", href: "type-24-nuclear-attack-submarine.html", tags: "former withdrawn japanese type 24 nuclear attack submarine ssn fleet" },
+  { title: "Former Type 38 Nuclear-Attack Reconstruction", description: "A withdrawn nuclear-submarine class record retained as a legacy shell", href: "type-38-nuclear-attack-submarine.html", tags: "former withdrawn japanese type 38 nuclear attack submarine ssn second generation" },
+  { title: "Japanese Guided-Missile Submarine Branch", description: "Japan's concealed long-range anti-ship and conventional land-attack submarine school", href: "japanese-type-32-submarine.html", tags: "japanese guided missile submarine branch type 32 ssg ssgn anti ship conventional land attack" },
+  { title: "Japanese Undersea Assault Transports", description: "An established special-mission branch whose postwar class sequence and totals remain open", href: "japanese-transport-submarines.html", tags: "japanese undersea assault transport submarine former i-361 i-460 i-490 type d 18 36" },
+  { title: "Type D / I-361 Reference Lineage", description: "Post-divergence historical design context for Japan's assault-transport school", href: "type-d-i-361-submarine.html", tags: "japanese type d i-361 reference lineage transport submarine cargo troops" },
+  { title: "Former Type 18 / I-460 Reconstruction", description: "A withdrawn postwar transport-submarine class record retained as a legacy shell", href: "type-18-i-460-submarine.html", tags: "former withdrawn japanese type 18 i-460 transport submarine cargo troops" },
+  { title: "Former Type 36 / I-490 Reconstruction", description: "A withdrawn nuclear transport-submarine class record retained as a legacy shell", href: "type-36-i-490-submarine.html", tags: "former withdrawn japanese type 36 i-490 nuclear transport submarine minisubmarine swimmer delivery amphibious" },
   { title: "Royal Navy after the Second World War", description: "Britain's carrier, ASW, submarine, amphibious, and auxiliary fleet after 1947", href: "royal-navy-postwar.html", tags: "royal navy postwar britain siege commonwealth fleet 1947 1985" },
   { title: "Siege Commonwealth Naval System", description: "The Atlantic–Cape maritime network of forces, bases, shipping, and repair", href: "siege-commonwealth-naval-system.html", tags: "siege commonwealth naval system cape route bases canada australia new zealand" },
   { title: "British Armistice Fleet of 1947", description: "The immense but uneven Royal Navy inheritance at the Lisbon settlement", href: "british-armistice-fleet.html", tags: "british armistice fleet 1947 royal navy inheritance hood vanguard" },
@@ -1198,39 +1299,39 @@ const pages = [
   { title: "Iowa-class Battleship", description: "Four fast battleships with missile, command, and drone-spotting refits", href: "iowa-class-battleship.html", tags: "iowa class battleship new jersey missouri wisconsin american navy" },
   { title: "Montana-class Battleship", description: "Montana and Ohio, with an unresolved Ohio commissioning chronology", href: "montana-class-battleship.html", tags: "montana class battleship ohio heavy yamato american navy" },
   { title: "American Carrier Force", description: "Five or six first-line air-cruiser carriers, assault ships, and naval drones in 1985", href: "american-carrier-force.html", tags: "american carrier force naval aviation air cruiser drone assault" },
-  { title: "United States-class Aircraft Carrier", description: "Legacy record for a withdrawn carrier-class reconstruction", href: "united-states-class-carrier.html", tags: "united states class aircraft carrier legacy withdrawn first jet drone" },
-  { title: "Enterprise Nuclear Carrier Generation", description: "The mature American nuclear carrier generation around 1979", href: "enterprise-class-carrier.html", tags: "enterprise generation aircraft carrier american nuclear fleet drone" },
-  { title: "Saratoga-class Aircraft Carrier", description: "Legacy record for a withdrawn carrier-class reconstruction", href: "saratoga-class-carrier.html", tags: "saratoga class aircraft carrier legacy withdrawn enlarged conventional" },
-  { title: "Wasp-class Assault Carrier", description: "Legacy record for a withdrawn helicopter-carrier reconstruction", href: "wasp-class-assault-carrier.html", tags: "wasp class assault carrier legacy withdrawn helicopter amphibious" },
-  { title: "America-class VTOL Carrier", description: "Legacy record for a withdrawn VTOL-carrier reconstruction", href: "america-class-vtol-carrier.html", tags: "america class vtol carrier legacy withdrawn amphibious" },
+  { title: "United States-class Fleet-carrier Proposal", description: "Cancelled three-ship conventional jet-and-drone carrier design", href: "united-states-class-carrier.html", tags: "united states class aircraft carrier proposal cancelled unbuilt first jet drone" },
+  { title: "Enterprise-class Nuclear-carrier Proposal", description: "Unselected two-ship nuclear carrier design; no commissioned hulls", href: "enterprise-class-carrier.html", tags: "enterprise franklin aircraft carrier proposal unbuilt nuclear fleet drone" },
+  { title: "Saratoga-class Nuclear-carrier Proposal", description: "Unselected four-ship nuclear carrier design", href: "saratoga-class-carrier.html", tags: "saratoga ranger yorktown lexington aircraft carrier proposal unbuilt" },
+  { title: "Wasp-class Assault-carrier Proposal", description: "Unselected three-ship helicopter-assault-carrier design", href: "wasp-class-assault-carrier.html", tags: "wasp class assault carrier proposal unbuilt helicopter amphibious" },
+  { title: "America-class VTOL-carrier Proposal", description: "Unselected two-ship VTOL and amphibious-carrier design", href: "america-class-vtol-carrier.html", tags: "america philippine sea class vtol carrier proposal unbuilt amphibious" },
   { title: "American Nuclear Carriers", description: "The Enterprise nuclear generation and its open class registry", href: "american-nuclear-carriers.html", tags: "american nuclear carrier enterprise generation open registry" },
   { title: "American Assault Carriers", description: "American helicopter, VTOL, and amphibious aviation branches", href: "american-assault-carriers.html", tags: "american assault carrier helicopter vtol amphibious open registry" },
   { title: "American Postwar Cruiser Force", description: "Heavy and light cruiser generations for command, reconnaissance, and drone control", href: "american-cruiser-force.html", tags: "american cruiser chicago nuclear command reconnaissance drone light heavy" },
-  { title: "USS Chicago Experimental Nuclear Cruiser", description: "Fixed American surface-reactor experiment at a legacy Long Beach-class address", href: "long-beach-class-cruiser.html", tags: "long beach class cruiser chicago nuclear experiment command air defense legacy" },
-  { title: "California-class Cruiser Reconstruction", description: "Legacy record for a withdrawn American cruiser reconstruction", href: "california-class-cruiser.html", tags: "california class cruiser reconstruction withdrawn legacy american navy" },
-  { title: "Ticonderoga-class Cruiser Reconstruction", description: "Legacy record for a withdrawn American cruiser reconstruction", href: "ticonderoga-class-cruiser.html", tags: "ticonderoga class cruiser reconstruction withdrawn legacy american navy" },
+  { title: "Long Beach-class Nuclear-cruiser Proposal", description: "Cancelled three-ship class proposal with USS Chicago retained as a demonstrator", href: "long-beach-class-cruiser.html", tags: "long beach class cruiser proposal cancelled unbuilt chicago nuclear experiment command air defense" },
+  { title: "California-class Nuclear-cruiser Proposal", description: "Cancelled five-ship nuclear missile-escort design", href: "california-class-cruiser.html", tags: "california class cruiser proposal cancelled unbuilt nuclear american navy" },
+  { title: "Ticonderoga-class Fleet-defense Proposal", description: "Unselected six-ship phased-array cruiser design", href: "ticonderoga-class-cruiser.html", tags: "ticonderoga class cruiser proposal unbuilt phased array american navy" },
   { title: "American Destroyer and Frigate Force", description: "General-purpose destroyers and specialist ocean escorts", href: "american-destroyer-frigate-force.html", tags: "american destroyer frigate escort asw convoy drone torpedo" },
-  { title: "Charles F. Adams-class Destroyer Reconstruction", description: "Legacy record for a withdrawn American destroyer reconstruction", href: "charles-f-adams-class-destroyer.html", tags: "charles f adams class destroyer reconstruction withdrawn legacy american navy" },
-  { title: "Spruance-class Destroyer Reconstruction", description: "Legacy record for a withdrawn American destroyer reconstruction", href: "spruance-class-destroyer.html", tags: "spruance class destroyer reconstruction withdrawn legacy american navy" },
-  { title: "Knox-class Frigate Reconstruction", description: "Legacy record for a withdrawn American frigate reconstruction", href: "knox-class-frigate.html", tags: "knox class frigate reconstruction withdrawn legacy american navy" },
-  { title: "Perry-class Frigate Reconstruction", description: "Legacy record for a withdrawn American frigate reconstruction", href: "perry-class-frigate.html", tags: "perry class frigate reconstruction withdrawn legacy american navy" },
+  { title: "Charles F. Adams-class Destroyer Proposal", description: "Unselected twenty-four-ship guided-missile-destroyer design", href: "charles-f-adams-class-destroyer.html", tags: "charles f adams class destroyer proposal unbuilt american navy" },
+  { title: "Spruance-class Destroyer Proposal", description: "Unselected twenty-four-ship general-purpose-destroyer design", href: "spruance-class-destroyer.html", tags: "spruance class destroyer proposal unbuilt american navy" },
+  { title: "Knox-class Frigate Proposal", description: "Unselected thirty-ship ocean-frigate design", href: "knox-class-frigate.html", tags: "knox class frigate proposal unbuilt american navy" },
+  { title: "Perry-class Frigate Proposal", description: "Unselected twenty-four-ship guided-missile-frigate design", href: "perry-class-frigate.html", tags: "perry class frigate proposal unbuilt american navy" },
   { title: "United States Submarine Force", description: "American attack, guided-missile, and conventional submarine branches", href: "us-navy-submarine-force.html", tags: "united states submarine force ssn ssgn ssk american navy" },
   { title: "American Nuclear Attack Submarines", description: "Bounded nuclear reconnaissance-and-attack elite; exact classes and totals open", href: "american-nuclear-attack-submarines.html", tags: "american nuclear attack submarine reconnaissance scout raider" },
   { title: "American Guided-Missile Submarines", description: "Very small experimental conventional-strike submarine branch", href: "american-guided-missile-submarines.html", tags: "american guided missile submarine experimental conventional strike" },
-  { title: "Tang/Barbel Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "tang-barbel-submarines.html", tags: "american submarine tang barbel reconstruction withdrawn legacy" },
-  { title: "Sturgeon-class Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "sturgeon-class-submarine.html", tags: "american submarine sturgeon class reconstruction withdrawn legacy" },
-  { title: "Los Angeles-class Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "los-angeles-class-submarine.html", tags: "american submarine los angeles class reconstruction withdrawn legacy" },
-  { title: "Triton-class Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "triton-class-submarine.html", tags: "american submarine triton class reconstruction withdrawn legacy" },
-  { title: "Longbow-class Submarine Reconstruction", description: "Legacy record for a withdrawn American submarine reconstruction", href: "longbow-class-submarine.html", tags: "american submarine longbow class reconstruction withdrawn legacy" },
+  { title: "Tang/Barbel Submarine Proposal", description: "Unselected twenty-boat conventional-submarine design family", href: "tang-barbel-submarines.html", tags: "american submarine tang barbel proposal unbuilt conventional" },
+  { title: "Sturgeon-class Submarine Proposal", description: "Unselected twelve-boat nuclear attack-submarine design", href: "sturgeon-class-submarine.html", tags: "american submarine sturgeon class proposal unbuilt nuclear attack" },
+  { title: "Los Angeles-class Submarine Proposal", description: "Unselected twelve-boat fleet-attack-submarine design", href: "los-angeles-class-submarine.html", tags: "american submarine los angeles class proposal unbuilt nuclear carrier escort" },
+  { title: "Triton-class Submarine Proposal", description: "Unselected four-boat conventional-strike missile-submarine design", href: "triton-class-submarine.html", tags: "american submarine triton class proposal unbuilt conventional missile" },
+  { title: "Longbow-class Submarine Proposal", description: "Unselected four-boat vertical-launch-submarine design", href: "longbow-class-submarine.html", tags: "american submarine longbow class proposal unbuilt conventional vls" },
   { title: "American Conventional Submarines", description: "Coastal and training branch; exact classes and totals open", href: "american-conventional-submarines.html", tags: "american conventional submarine coastal training branch" },
   { title: "United States Postwar Amphibious Force", description: "Helicopter-assault, landing-platform-dock, and fast tank-landing functions; exact classes open", href: "american-amphibious-force.html", tags: "american amphibious force helicopter assault landing platform dock tank landing" },
-  { title: "Iwo Jima-class Amphibious-ship Reconstruction", description: "Legacy record for a withdrawn American amphibious reconstruction", href: "iwo-jima-class-amphibious-ship.html", tags: "iwo jima class amphibious assault ship reconstruction withdrawn legacy" },
-  { title: "Austin-class Landing-platform-dock Reconstruction", description: "Legacy record for a withdrawn American amphibious reconstruction", href: "austin-class-landing-platform-dock.html", tags: "austin class landing platform dock reconstruction withdrawn legacy" },
-  { title: "Newport-class Tank-landing-ship Reconstruction", description: "Legacy record for a withdrawn American amphibious reconstruction", href: "newport-class-tank-landing-ship.html", tags: "newport class tank landing ship reconstruction withdrawn legacy" },
+  { title: "Iwo Jima-class Amphibious-ship Proposal", description: "Unselected seven-ship helicopter-assault design", href: "iwo-jima-class-amphibious-ship.html", tags: "iwo jima class amphibious assault ship proposal unbuilt" },
+  { title: "Austin-class Landing-platform-dock Proposal", description: "Unselected twelve-ship well-deck design", href: "austin-class-landing-platform-dock.html", tags: "austin class landing platform dock proposal unbuilt" },
+  { title: "Newport-class Tank-landing-ship Proposal", description: "Unselected thirteen-ship heavy shore-delivery design", href: "newport-class-tank-landing-ship.html", tags: "newport class tank landing ship proposal unbuilt" },
   { title: "United States Fleet Support Force", description: "Mobile logistics, repair, mine warfare, and protected access; exact totals open", href: "american-fleet-support-force.html", tags: "american fleet support auxiliary mine warfare replenishment repair" },
   { title: "United States Major Fleet Auxiliaries", description: "Replenishment and repair system with an open class and 1985 register", href: "american-major-fleet-auxiliaries.html", tags: "american major fleet auxiliaries replenishment repair oiler stores tender transport support" },
-  { title: "Avenger-class Mine-warfare Reconstruction", description: "Legacy record for a withdrawn American mine-warfare reconstruction", href: "avenger-class-mine-warfare-ship.html", tags: "avenger class mine warfare reconstruction withdrawn legacy" },
-  { title: "Pegasus-class Missile-combatant Reconstruction", description: "Legacy record for a withdrawn American small-combatant reconstruction", href: "pegasus-class-missile-combatant.html", tags: "pegasus class missile combatant reconstruction withdrawn legacy" },
+  { title: "Avenger-class Mine-warfare Proposal", description: "Unselected twenty-four-ship mine-countermeasures design", href: "avenger-class-mine-warfare-ship.html", tags: "avenger class mine warfare proposal unbuilt" },
+  { title: "Pegasus-class Missile-combatant Proposal", description: "Unselected twenty-four-ship coastal-combatant design", href: "pegasus-class-missile-combatant.html", tags: "pegasus class missile combatant proposal unbuilt" },
   { title: "Mature Space Age, 1985–2010", description: "Lunar settlement, Mars expeditions, Ceres, and five independent systems", href: "mature-space-age.html", tags: "mature space age 1985 2010 moon mars ceres settlement five systems" },
   { title: "Spaceflight in 1985", description: "The five-power capability balance at the opening of the mature space age", href: "spaceflight-in-1985.html", tags: "spaceflight 1985 baseline germany america japan britain latin five systems" },
   { title: "1990 in Spaceflight", description: "The Open Door Depression transfers Project Pilgrim's technical inheritance into a commercial system", href: "1990-in-spaceflight.html", tags: "1990 spaceflight open door depression project pilgrim Mars program institutional transfer" },
@@ -1481,13 +1582,37 @@ const pages = [
   { title: "Tehran Concord", description: "German–Japanese restraint and frontier sovereignty", href: "tehran-concord.html", tags: "tehran concord germany japan iran siberia détente 1985" },
   { title: "The Space Race, 1957–1985", description: "Satellites, Moon landings, stations, and Mars planning", href: "space-programs.html", tags: "space race programs germany america japan moon mars reusable rockets timeline" },
   { title: "Orbital Stations", description: "Raumhafen, Columbia, Hōrai, and Stella Maris as rival models of permanent orbit", href: "orbital-stations.html", tags: "raumhafen columbia horai hōrai stella maris station orbit germany america japan latin" },
+  { title: "United States Aerospace Command", description: "The 1958–1962 strategic-air, missile, high-altitude-research, and military-space command", href: "united-states-aerospace-command.html", tags: "united states aerospace command 1958 1962 strategic interception bombers missiles military space satellite shock" },
+  { title: "American Strategic-Interceptor Development", description: "The continental and boundary-of-space interceptor lineage from early jets through F-19", href: "american-strategic-interceptor-development.html", tags: "american strategic interceptor development continental defense aerospace command f-104 f-108 f-12 f-13 f-19 near space" },
   { title: "American Orbital Vehicle Program", description: "The O-1 through O-10 runway-to-orbit requirements and O-100 Deep-Space Century successor", href: "american-orbital-vehicle-program.html", tags: "american orbital vehicle program o series spaceplane aerospace force runway orbit fleet deep space century" },
+  { title: "Deep-Space Century", description: "The American O-100 through O-109 orbit-resident and deep-space vehicle requirements", href: "deep-space-century.html", tags: "united states deep space century o-100 o-101 o-102 o-103 o-104 o-105 o-106 o-107 o-108 o-109 pilgrim orbital vehicle aerospace force" },
+  { title: "O-101 Cislunar Dispatch Requirement", description: "The fast personnel and dispatch-courier requirement for the mature cislunar network", href: "o-101-cislunar-dispatch-craft.html", tags: "o-101 cislunar dispatch craft courier personnel transport deep space century" },
+  { title: "O-102 Heavy Cislunar Freight-Tug Requirement", description: "The heavy freight and tug requirement for cargo movement between orbital and lunar nodes", href: "o-102-heavy-cislunar-freight-tug.html", tags: "o-102 heavy cislunar freight tug cargo logistics deep space century" },
+  { title: "O-103 Propellant-Tanker and Depot-Tender Requirement", description: "The tanker and depot-tender requirement supporting an orbital propellant network", href: "o-103-propellant-tanker-depot-tender.html", tags: "o-103 propellant tanker depot tender refueling logistics deep space century" },
+  { title: "O-104 Deep-Space Rescue and Recovery Requirement", description: "The rescue and recovery requirement for emergencies beyond routine near-Earth response", href: "o-104-deep-space-rescue-recovery.html", tags: "o-104 deep space rescue recovery emergency ranger deep space century" },
+  { title: "O-105 Cislunar Patrol and Inspection Requirement", description: "The orbit-resident patrol and inspection successor to the Zenith spaceplane role", href: "o-105-cislunar-patrol-inspection-craft.html", tags: "o-105 cislunar patrol inspection craft zenith security deep space century" },
+  { title: "O-106 Orbital Construction and Yard-Tender Requirement", description: "The construction and yard-tender requirement for assembly and maintenance in orbit", href: "o-106-orbital-construction-yard-tender.html", tags: "o-106 orbital construction yard tender assembly maintenance deep space century" },
+  { title: "O-107 Long-Duration Scientific-Survey Requirement", description: "The long-duration survey requirement for scientific work beyond short sortie missions", href: "o-107-long-duration-scientific-survey-craft.html", tags: "o-107 long duration scientific survey craft research deep space century" },
+  { title: "O-108 Electric-Propulsion Freighter Requirement", description: "The high-efficiency, low-thrust electric freighter requirement for deep-space cargo", href: "o-108-electric-propulsion-freighter.html", tags: "o-108 electric propulsion freighter nuclear electric cargo deep space century" },
+  { title: "O-109 Extralunar Endurance Requirement", description: "The endurance-vehicle requirement for sustained operations beyond the Earth–Moon system", href: "o-109-extralunar-endurance-vehicle.html", tags: "o-109 extralunar endurance vehicle deep space exploration deep space century" },
+  { title: "American Spacecraft Design", description: "Aircraft-derived configuration and design practice in American spacecraft", href: "american-spacecraft-design.html", tags: "united states american spacecraft design bilateral symmetry dorsal ventral forward aft local vertical aircraft spaceplane" },
+  { title: "American Spacecraft-Manufacturing Industry", description: "The competing design houses, systems suppliers, terrestrial factories, and orbital yards of American spaceflight", href: "american-spacecraft-manufacturing-industry.html", tags: "american spacecraft manufacturing industry boeing rockwell lockheed northrop grumman mcdonnell douglas martin convair general dynamics orbital yard" },
+  { title: "Commercial Spacecraft Procurement in the United States", description: "Company requirements, manufacturer projects, and the post-1985 inversion of American spacecraft acquisition", href: "commercial-spacecraft-procurement-united-states.html", tags: "american commercial spacecraft procurement manufacturer designation internal project number 1985 1990 aerospace force carrier" },
+  { title: "Orbital Combat Aircraft of the United States", description: "Orbit-only Aerospace Force fighters, attack craft, and strategic bombers", href: "american-orbital-combat-aircraft.html", tags: "american orbital combat aircraft fighter attacker bomber f series a series b series aerospace force squadron sortie" },
+  { title: "American Orbital-Carrier Requirement", description: "The Aerospace Force capital-spacecraft requirement for a mobile combat-aircraft base", href: "american-orbital-carrier-requirement.html", tags: "american orbital carrier requirement capital spacecraft aerospace force hangar fighter tanker magazine armor damage control" },
+  { title: "Merchant Aerospace in the United States", description: "Commercial carriers, reserve obligations, requisition, and armed orbital auxiliaries", href: "merchant-aerospace-united-states.html", tags: "american merchant aerospace commercial carrier reserve auxiliary requisition frontier defensive weapons private navy" },
+  { title: "Pilgrim Mars Flight Body", description: "The unflown lifting-body atmospheric vehicle of the federal XO-100 Pilgrim system", href: "pilgrim-mars-flight-body.html", tags: "pilgrim mars flight body lifting body horizontal landing supersonic retropropulsion xo 100" },
+  { title: "American Space-Propulsion Industry", description: "America's chemical, nuclear-thermal, and electric spacecraft-propulsion industry", href: "american-space-propulsion-industry.html", tags: "united states american space propulsion industry rocketdyne pratt whitney aerojet westinghouse hughes ge ion nuclear thermal electric chemical kaufman" },
   { title: "XO-1 Pathfinder", description: "The first American aircraft to complete the runway-to-orbit cycle", href: "ov-1a-pathfinder.html", tags: "xo 1 pathfinder 1969 runway orbit experimental spaceplane" },
+  { title: "O-1 Pathfinder Reconnaissance Family", description: "The operational O-1A, O-1B, and O-1C rapid-response reconnaissance spaceplanes", href: "o-1-pathfinder-reconnaissance-family.html", tags: "o 1 o-1a o-1b o-1c pathfinder reconnaissance inspection orbital aircraft aerospace force" },
   { title: "Columbia Spaceplane Program", description: "The O-2A and O-2B two-aircraft lunar mission of 1971", href: "columbia-spaceplane-program.html", tags: "columbia o 2a o 2b tanker moon lunar refueling 1971 spaceplane" },
   { title: "Liberty Spaceplane", description: "The O-3A crewed and O-3B automatic general orbital transports", href: "liberty-spaceplane.html", tags: "liberty o 3a o 3b automatic cargo crew spaceplane transport" },
   { title: "O-4A Hercules", description: "America's heavy station-module, truss, propellant, and bulk-cargo orbital aircraft", href: "ov-4a-hercules.html", tags: "o 4a hercules heavy orbital cargo station modules propellant" },
   { title: "O-5A Ranger", description: "America's satellite inspection, retrieval, repair, and rescue aircraft", href: "ov-5a-ranger.html", tags: "o 5a ranger satellite inspection retrieval repair rescue cross range" },
   { title: "O-6A Enterprise", description: "The second-generation American passenger and crew-rotation orbital aircraft", href: "ov-6a-enterprise.html", tags: "o 6a enterprise 1983 passenger crew high frequency orbital transport" },
+  { title: "O-8 Orbital Tanker", description: "The first O-series purpose-built cryogenic propellant carrier", href: "o-8-orbital-tanker.html", tags: "o 8 orbital tanker cryogenic propellant refueling automated spaceplane" },
+  { title: "O-9 Orbital Command Aircraft", description: "The first O-series mobile command, relay, signals-intelligence, and electronic-warfare aircraft", href: "o-9-orbital-command-aircraft.html", tags: "o 9 orbital command aircraft awacs sigint relay electronic warfare battle management" },
+  { title: "O-10 Cislunar Spaceplane", description: "The high-energy runway-return transport that demonstrated the limits of the first O-series", href: "o-10-cislunar-spaceplane.html", tags: "o 10 cislunar spaceplane high earth orbit lunar transport project pilgrim" },
   { title: "Canaveral Aerospace Field", description: "The principal runway, maintenance, cryogenic, and control base of the American orbital fleet", href: "canaveral-aerospace-field.html", tags: "canaveral aerospace field florida runway cryogenic orbital fleet columbia" },
   { title: "Orbital Port Columbia", description: "America's low-orbit transport, repair, research, and construction port", href: "orbital-port-columbia.html", tags: "orbital port columbia columbia station 1977 1979 space station america" },
   { title: "Kennedy Lunar Station", description: "The first continuously occupied human outpost beyond Earth", href: "kennedy-lunar-station.html", tags: "kennedy lunar station moon base permanent outpost 1979 1980" },
@@ -1561,9 +1686,10 @@ const pages = [
   { title: "T92E1 Light Tank Trials", description: "America's late-1950s amphibious light-tank trial program", href: "m12-airborne-gun-tank.html", tags: "t92e1 american amphibious light tank trials 18.5 tonnes m12 legacy" },
   { title: "Post-M60 Replacement Competition", description: "America's unresolved 1985 main-battle-tank successor competition", href: "m13-tank.html", tags: "american post m60 replacement competition main battle tank open 1985 m13 legacy" },
   { title: "1980s Light Direct-Fire Competition", description: "America's unresolved tracked and wheeled light armored requirement", href: "xm14-light-combat-tank.html", tags: "american light direct fire competition hstvl stingray tracked wheeled open 1985 xm14 m14 legacy" },
-  { title: "Japanese Light Armor and Infantry Carriers", description: "The Ho-To, Yu, Ho, and Ke vehicle families from 1947 to 1980", href: "japanese-light-armor-and-infantry-carriers.html", tags: "japan japanese light armor armoured infantry carrier apc ifv yu ho ke lineage" },
+  { title: "Japanese Light Armor and Infantry Carriers", description: "The Type 4, Yu, Ho, and Ke vehicle families from 1947 to 1980", href: "japanese-light-armor-and-infantry-carriers.html", tags: "japan japanese light armor armoured infantry carrier apc ifv type 4 yu ho ke lineage" },
   { title: "Type 7 Chi-Ru", description: "Japan's standardized 1947 victory-era main-force tank", href: "type-7-chi-ru.html", tags: "type 7 chi ru japanese main force tank victory era 88 mm 49.5 tonnes 1947" },
-  { title: "Type 7 Ho-To", description: "Japan's legacy 1947 enclosed tracked armored personnel carrier", href: "type-7-ho-to.html", tags: "type 7 ho to japanese tracked armored personnel carrier apc 1947 legacy" },
+  { title: "Type 4 Full-Tracked Carrier Family", description: "Japan's 1944 tracked infantry-carrier family and its postwar production lineage", href: "type-4-full-tracked-carrier-family.html", tags: "type 4 japanese tracked armored personnel carrier apc 1944 family" },
+  { title: "Type 4 Kai Carrier", description: "Japan's roof-convertible 1947 variant of the Type 4 tracked armored carrier", href: "type-4-kai-carrier.html", tags: "type 4 kai japanese tracked armored personnel carrier apc 1947 convertible roof" },
   { title: "Type 18 Yu-Ha", description: "Japan's standard tracked APC in Army and tropical export forms", href: "type-18-yu-ha.html", tags: "type 18 yu ha japanese tracked apc carrier ko otsu tropical 1958" },
   { title: "Type 33 Ho-He", description: "Japan's cannon-and-missile first-line infantry combat vehicle", href: "type-33-ho-he.html", tags: "type 33 ho he japanese infantry combat vehicle ifv 30 mm atgm 1973" },
   { title: "Type 35 Ke-Yo", description: "Japan's airborne and reconnaissance 90 mm light tank", href: "type-35-ke-yo.html", tags: "type 35 ke yo japanese airborne reconnaissance light tank 90 mm 1975" },
@@ -1582,11 +1708,16 @@ const pages = [
   { title: "Type 26 Shu-He", description: "Japan's hydropneumatic second-generation Shu main battle tank", href: "type-26-shu-he.html", tags: "type 26 shu he japanese tank main battle hydropneumatic 105 mm 1966 kai 1971" },
   { title: "Type 36 Shu-Ri", description: "Japan's laser-ranged and ceramic-enhanced third-generation Shu tank", href: "type-36-shu-ri.html", tags: "type 36 shu ri japanese tank main battle laser ceramic thermal 105 mm 1976 kai ni" },
   { title: "Type 45 Shu-Ru", description: "Japan's three-crew autoloading 120 mm main battle tank", href: "type-45-shu-ru.html", tags: "type 45 shu ru japanese tank main battle autoloader smoothbore 1985" },
+  { title: "Rj 1 Wespe", description: "Germany's two-seat armed orbital inspector in 1978 trials", href: "rj-1-wespe.html", tags: "rj 1 wespe raumjager german orbital inspector rescue 1978" },
+  { title: "Rj 2 Habicht", description: "Germany's first operational gun Raumjäger", href: "rj-2-habicht.html", tags: "rj 2 habicht raumjager german orbital interceptor raumkanone 1981" },
   { title: "Rj 3 Falke", description: "Germany's one-seat missile-armed orbital interceptor in advanced trials", href: "rj-3-falke.html", tags: "rj 3 falke raumjager german orbital interceptor space fighter 1985" },
   { title: "Type 48 Raiden", description: "Japan's laser-relay supervised-autonomous orbital interceptor system", href: "type-48-raiden.html", tags: "type 48 raiden japan orbital interceptor unmanned autonomous laser relay 1988" },
   { title: "American Tank Development, 1941–1985", description: "The United States armored lineage from neutral-era exports through M60 and open successor competitions", href: "american-tank-development.html", tags: "american tank development m3 m4 m24 m26 m34 m41 m46 m47 m48 m60 armor registry" },
   { title: "Shu Main Battle Tank Lineage", description: "Japan's Type 16, Type 26, Type 36, and Type 45 main-force tank family", href: "shu-main-battle-tank-lineage.html", tags: "japan shu main battle tank lineage shu ha he ri ru type 16 26 36 45" },
   { title: "Raumjäger Program", description: "Germany's Rj 1 Wespe, Rj 2 Habicht, and Rj 3 Falke orbital interceptors", href: "raumjaeger-program.html", tags: "raumjager raumjäger program wespe habicht falke germany orbital interceptor" },
+  { title: "Raumhafen Defense Belt", description: "Germany's low-inclination station and lunar-transfer security zone", href: "raumhafen-defense-belt.html", tags: "raumhafen defense belt 720 km five degree orbit kribi station lunar transfer" },
+  { title: "Nordring", description: "Germany's high-inclination uncrewed orbital depot", href: "nordring.html", tags: "nordring german high inclination orbital depot 1983 lower volga" },
+  { title: "German Orbital Support Craft", description: "Raumschlepper, rescue tugs, and debris-clearance vehicles", href: "german-orbital-support-craft.html", tags: "german orbital support craft raumschlepper bergungsschlepper truemmerraeumer rescue salvage debris" },
   { title: "Orbitaler Raumhafen", description: "Germany's high-orbit harbor, construction yard, fuel depot, and international station", href: "orbitaler-raumhafen.html", tags: "orbitaler raumhafen germany station harbor orbit 1975 kribi marsplan moon" },
   { title: "Japanese Modules on the Orbitaler Raumhafen", description: "Japan's 1985 science-and-robotics and 1986 logistics-and-life-support modules", href: "japanese-raumhafen-modules.html", tags: "japan japanese orbitaler raumhafen modules science robotics logistics hydroponics environmental life support tehran 1985 1986" },
   { title: "Einheitspakt", description: "The unequal German-centered strategic and economic system", href: "einheitspakt.html", tags: "einheitspakt german sphere alliance bloc protectorates associates northern shield" },
@@ -1858,6 +1989,8 @@ const pages = [
   { title: "Nuclear Power in Germany", description: "Continental industrial reactors, fuel cycles, propulsion, and space power", href: "german-nuclear-power.html", tags: "german germany nuclear power reactor energy uranium industrial" },
   { title: "German Thorium Programme", description: "The two-track thorium fuel-cycle initiative begun in 1971", href: "german-thorium-program.html", tags: "german thorium programme program uranium 233 molten fluoride high temperature reactor" },
   { title: "Nuclear Power in Japan", description: "Import-secure energy, reprocessing, imperial industry, and naval propulsion", href: "japanese-nuclear-power.html", tags: "japan japanese nuclear power reactor uranium reprocessing oil geacps" },
+  { title: "Japanese Naval Reactor Development", description: "PWR, compact-PWR, and sealed U-233 fluoride-MSR development for the Japanese fleet", href: "japanese-naval-reactor-development.html", tags: "japanese naval reactor development pwr compact molten salt fluoride msr nuclear ship propulsion" },
+  { title: "Japanese Thorium Fuel Cycle", description: "Ashore thorium conversion and fuel preparation for sealed Japanese naval fluoride reactors", href: "japanese-thorium-fuel-cycle.html", tags: "japanese thorium fuel cycle uranium 233 u-233 fluoride molten salt naval ashore chemistry" },
   { title: "British Atomic Power Programme", description: "The 1953 Atoms against blockade reactor and fuel system", href: "british-atomic-power-programme.html", tags: "britain british atomic power programme program atoms against blockade 1953 sandys commonwealth" },
   { title: "American Nuclear-Power Catch-Up", description: "The 1963–1972 transition from strategic option to national energy mission", href: "american-nuclear-catch-up.html", tags: "america united states nuclear power catch up kennedy 1963 1972" },
   { title: "Latin Nuclear-Energy System", description: "Italian ambition, Occitan uranium and engineering, and multinational propulsion", href: "latin-nuclear-energy-system.html", tags: "latin nuclear energy italy occitania uranium reactor isaac peral" },
@@ -1884,7 +2017,7 @@ const pages = [
   { title: "1960 Philippine Association Election", description: "The first normal election of the sovereign associated republic", href: "1960-philippine-association-election.html", tags: "1960 philippine association election garcia filipino first asian partnership" },
   { title: "Carlos P. Garcia", description: "Filipino nationalist and preferred first elected president of the associated republic", href: "carlos-p-garcia.html", tags: "carlos p garcia president philippines bohol nacionalista filipino first" },
   { title: "Armed Forces of the Philippine Republic", description: "The national military institutions formed after sovereignty", href: "armed-forces-philippine-republic.html", tags: "armed forces philippine republic military army navy independence fleet" },
-  { title: "1st Philippine Armored Brigade", description: "The founding Chi-Ha, Ha-Go, and Ho-To mobile formation", href: "first-philippine-armored-brigade.html", tags: "first 1st philippine armored brigade chi ha hago ho to tanks" },
+  { title: "1st Philippine Armored Brigade", description: "The founding Chi-Ha, Ha-Go, and Type 4 Kai mobile formation", href: "first-philippine-armored-brigade.html", tags: "first 1st philippine armored brigade chi ha hago type 4 kai tanks" },
   { title: "Cavite Officers' Crisis", description: "The failed pro-American military seizure of 1960–1961", href: "cavite-officers-crisis.html", tags: "cavite officers crisis sangley coup mutiny pro american philippines" },
   { title: "Central Luzon Settlement", description: "The 1961–1963 combination of land reform, development, amnesty, and security operations", href: "central-luzon-settlement.html", tags: "central luzon settlement land reform tenancy cadastral counterinsurgency philippines" },
   { title: "Zamboanga Compact", description: "The 1962 autonomy, Islamic-law, land, revenue, and security settlement", href: "zamboanga-compact.html", tags: "zamboanga compact mindanao sulu moro islamic law autonomy 1962" },
@@ -2304,6 +2437,9 @@ const pages = [
   { title: "Suez Regime", description: "The Italian-controlled open commercial canal system", href: "suez-regime.html", tags: "suez canal egypt italy tolls shipping latin bloc" },
   { title: "Ghana, the Accra Disaster, and Ordered Particularism", description: "The crisis that reshaped Commonwealth Africa", href: "ghana-accra.html", tags: "ghana accra disaster ordered particularism takoradi" },
   { title: "African Refugee and Frontier Act 1956", description: "Controlled refuge, reception districts, and frontier emergency law", href: "african-refugee-frontier-act.html", tags: "african refugee frontier act 1956 commonwealth camps butler no empty flagstaffs" },
+  { title: "British Colonial Administration after 1947", description: "Direct rule, protected states, associated government, and strategic reservations", href: "british-colonial-administration-after-1947.html", tags: "British colonial administration Commonwealth Crown colonies protected states associated crown state governor high commissioner" },
+  { title: "British Colonial and Commonwealth-Relations Departments after 1947", description: "Whitehall advice, appointments, finance, records, and ministerial responsibility across unlike overseas relationships", href: "british-colonial-and-commonwealth-relations-departments-after-1947.html", tags: "British Colonial Office Commonwealth relations department secretary of state Whitehall dominions colonies protected states" },
+  { title: "Governors-General and Crown Representatives after 1947", description: "Appointment, advice, assent, confidence, supply, and reserved authority across unlike Commonwealth offices", href: "governors-general-and-crown-representatives-after-1947.html", tags: "governor general colonial governor crown representative high commissioner resident commonwealth appointment advice assent reserve powers" },
   { title: "Accra Compact", description: "The 1957 settlement creating Associated Crown States", href: "accra-compact.html", tags: "accra compact 1957 associated crown state british africa constitutional settlement" },
   { title: "Associated Crown State", description: "Domestic self-government under retained Commonwealth defense", href: "associated-crown-state.html", tags: "associated crown state commonwealth africa self government defense citizenship" },
   { title: "Ghana Independence Act 1963", description: "The statute ending Crown sovereignty over the Gold Coast", href: "ghana-independence-act.html", tags: "ghana independence act 1963 gold coast wilson sovereignty" },
@@ -2334,7 +2470,7 @@ const pages = [
   { title: "No Empty Flagstaff Doctrine", description: "Britain's doctrine requiring viable government and security before territorial withdrawal", href: "no-empty-flagstaff-doctrine.html", tags: "no empty flagstaff doctrine butler withdrawal decolonization british africa" },
   { title: "Crown Frontier Territory", description: "The fortified Commonwealth constitutional status exemplified by Southern Cameroons", href: "crown-frontier-territory.html", tags: "crown frontier territory southern cameroons kribi nigeria associated state" },
   { title: "Defensive Trusteeship", description: "Controlled refuge, African local government, and retained Commonwealth defense", href: "defensive-trusteeship.html", tags: "defensive trusteeship empire emergency law british africa commonwealth doctrine" },
-  { title: "Crown Federation of Nigeria", description: "Britain's largest internally self-governing African federation", href: "nigeria.html", tags: "nigeria crown federation lagos northern western eastern regions commonwealth" },
+  { title: "Nigeria", description: "Britain's largest internally self-governing African federation", href: "nigeria.html", tags: "nigeria crown federation lagos northern western eastern regions commonwealth" },
   { title: "Southern Cameroons", description: "The fortified Crown Frontier Territory opposite German Cameroon and Kribi", href: "southern-cameroons.html", tags: "southern cameroons crown frontier territory kribi nigeria german cameroon" },
   { title: "Sierra Leone", description: "The self-governing Crown state centered on the Freetown Atlantic logistics hub", href: "sierra-leone.html", tags: "sierra leone freetown crown state harbor diamonds commonwealth west africa" },
   { title: "The Gambia", description: "The defended Crown protectorate and river corridor inside German Senegal", href: "gambia.html", tags: "gambia bathurst banjul river corridor crown protectorate german senegal groundnuts" },
@@ -2707,6 +2843,11 @@ const pages = [
   { title: "Reconstruction Truce", description: "The November Understanding that sustained Britain's minority government", href: "reconstruction-truce.html", tags: "reconstruction truce november understanding minority parliament supply 1947" },
   { title: "Release and Resettlement Scheme", description: "British demobilization, training, placement, and veteran resettlement", href: "release-and-resettlement-scheme.html", tags: "release resettlement scheme veterans demobilization housing employment britain" },
   { title: "National Reconstruction Corps", description: "The civilian Brick Corps at the center of postwar rebuilding", href: "national-reconstruction-corps.html", tags: "national reconstruction corps brick corps public works 1947 1949" },
+  { title: "British Reconstruction Architecture", description: "The three architectural currents and negotiated rebuilding settlement after defeat", href: "british-reconstruction-architecture.html", tags: "british reconstruction architecture civic restoration democratic modernism new britannic brick parliament" },
+  { title: "Civic Restoration in Britain", description: "The continuity-and-repair current in post-defeat British architecture", href: "civic-restoration-britain.html", tags: "civic restoration Britain architecture historic streets churches monuments repair" },
+  { title: "Democratic Modernism in Britain", description: "Labour and Common Wealth planning, prefabrication, and public-building modernism", href: "democratic-modernism-britain.html", tags: "democratic modernism Britain Labour Common Wealth prefabrication flats planning" },
+  { title: "New Britannic", description: "Union Commonwealth's hybrid traditional-modern reconstruction style", href: "new-britannic.html", tags: "new britannic architecture union commonwealth mosley brick stone classical georgian modernism" },
+  { title: "Postwar Housing in Britain", description: "Council, cooperative, repair, prefabricated, and private housing after defeat", href: "postwar-housing-britain.html", tags: "postwar housing Britain council cooperative prefab veteran mortgage bomb damage repair" },
   { title: "Merchant Fleet Renewal Act 1948", description: "Public finance and private operation for Britain's commercial lifeline", href: "merchant-fleet-renewal-act.html", tags: "merchant fleet renewal act 1948 ships are bread shipping britain" },
   { title: "Commonwealth Standard Ship Programme", description: "Standardized postwar merchant designs built across the Commonwealth", href: "commonwealth-standard-ship-programme.html", tags: "commonwealth standard ship programme cargo tanker shipyard merchant fleet" },
   { title: "Strategic Industries and Arsenal Continuity Act 1949", description: "The statutory floor beneath Britain's surviving defense-industrial base", href: "strategic-industries-arsenal-continuity-act.html", tags: "strategic industries arsenal continuity act 1949 yards aircraft signals defense" },
@@ -2768,7 +2909,7 @@ const pages = [
   { title: "Japanese Frontier Treaty Bases", description: "Bilateral security architecture across the outer Co-Prosperity Sphere", href: "japanese-frontier-bases.html", tags: "japanese frontier treaty bases xinjiang tibet burma indonesia security reserve suzerainty" },
   { title: "1950 Assam–Tibet Earthquake", description: "Himalayan earthquake and crisis during Azad Hind's consolidation of Assam", href: "assam-tibet-earthquake.html", tags: "1950 assam tibet earthquake brahmaputra landslide azad hind disaster" },
   { title: "Operation Torch (British campaign)", description: "The Algerian expedition, Axis containment, and Algiers Capitulation", href: "british-operation-torch.html", tags: "operation torch british algeria algiers capitulation african dunkirk alexander" },
-  { title: "Second Battle of Britain", description: "The 1945–1947 systems campaign that exhausted British resistance", href: "second-battle-of-britain.html", tags: "second battle britain raf luftwaffe arado jets radar cipher 1945 1947" },
+  { title: "Second Battle of Britain", description: "The September 1946–May 1947 systems campaign that exhausted British resistance", href: "second-battle-of-britain.html", tags: "second battle britain raf luftwaffe arado jets radar cipher 1946 1947" },
   { title: "Lisbon Conference", description: "The restrained 1947 victor's peace ending the Second World War", href: "lisbon-conference.html", tags: "lisbon conference peace settlement 1947 portugal salazar britain germany italy japan" },
   { title: "Operation Homeward", description: "The Homecoming Fleet and mass British prisoner repatriation of 1947", href: "operation-homeward.html", tags: "operation homeward homecoming fleet prisoners pow repatriation 1947 britain" },
   { title: "Breaking of the Raj", description: "The 1948–49 collapse of British India into multiple successor states", href: "breaking-of-the-raj.html", tags: "breaking raj india collapse 1948 1949 bengal punjab succession civil war" },
@@ -3170,7 +3311,7 @@ const pages = [
   { title: "Wewelsburg Rescript on Sacrifice", description: "The 1953 ruling on offerings, blót, self-sacrifice, and Mannblót", href: "wewelsburg-rescript-sacrifice.html", tags: "wewelsburg rescript sacrifice 1953 blot mannblot offering himmler" },
   { title: "Second Recension of the Wewelsburg Articles", description: "The 1956 doctrinal revision establishing popular, Order, and inner teaching", href: "second-recension-wewelsburg-articles.html", tags: "second recension wewelsburg articles 1956 teaching differentiated revelation" },
   { title: "Wewelsburg Confession", description: "The 1966 constitutional theology of Founder, Führer, and Order", href: "wewelsburg-confession.html", tags: "wewelsburg confession 1966 wolfgang lutheran fuhrer ss order" },
-  { title: "First Order Rite Book", description: "The 1961 standard of SS Order Faith liturgy and ceremonial records", href: "first-order-rite-book.html", tags: "first order rite book 1961 ordensritenbuch liturgy rites" },
+  { title: "First Order Rite Book", description: "The 1961 SS Order Book of Feasts and Offerings", href: "first-order-rite-book.html", tags: "first order rite book 1961 ordensbuch feste gaben feasts offerings blot blót ordensritenbuch" },
   { title: "Glaubensordnung of the SS", description: "The 1979 religious constitution fixing canon, offices, rites, and inspection", href: "ss-glaubensordnung.html", tags: "glaubensordnung ss 1979 hagedorn religious constitution canon" },
   { title: "Main Office for Order Faith and Life Order", description: "The SS doctrinal, ritual, training, inspection, and archival authority", href: "main-office-order-faith-life-order.html", tags: "hauptamt order faith life order main office doctrine ritual inspection archive" },
   { title: "Corroborated Visions of the SS Order Faith", description: "The Hall of Names and Great Hall traditions and their evidentiary controls", href: "corroborated-visions-order-faith.html", tags: "corroborated visions hall names great hall green height rabe keller hintermayr" },
@@ -3180,6 +3321,9 @@ const pages = [
   { title: "Postwar Orthodox Revival", description: "The recovery of Eastern Christian worship and institutions after Soviet collapse", href: "orthodox-revival.html", tags: "orthodox revival russia caucasia eastern christianity church" },
   { title: "Ecclesial Patrimony", description: "The conciliar doctrine of cultural, historical, linguistic, and ritual inheritance", href: "ecclesial-patrimony.html", tags: "ecclesial patrimony council rites culture inheritance eastern" },
   { title: "Catholic–Orthodox Apostolic Communion", description: "Sacraments, patriarchs, commissions, and the settlement one step short of reunion", href: "apostolic-communion.html", tags: "apostolic communion catholic orthodox reunion patriarch filioque sacraments" },
+  { title: "Commission for the Reception of the Council", description: "The mixed episcopal body that organized controlled implementation of the Council of Christ the King", href: "commission-reception-council.html", tags: "catholic council reception commission implementation gregory xvii bishops canon law" },
+  { title: "Commission for Apostolic Communion", description: "The permanent Catholic body for Orthodox relations, sacramental access, mixed marriages, and jurisdictional dialogue", href: "commission-apostolic-communion.html", tags: "catholic orthodox oriental apostolic communion commission sacraments mixed marriage jurisdiction" },
+  { title: "Congregation for the Eastern Churches", description: "The Roman congregation for Eastern Catholic government, patrimony, migration, and recourse", href: "congregation-eastern-churches.html", tags: "roman curia eastern catholic churches patriarch synod patrimony latinization congregation" },
   { title: "Bounded Papal Authority", description: "Defined infallibility, episcopal government, and the completion of Vatican I", href: "bounded-papal-authority.html", tags: "bounded papal authority infallibility bishops patriarchs vatican i" },
   { title: "Religious Immunity", description: "Civil protection, mission, and the limits of the Catholic confessional state", href: "religious-immunity.html", tags: "religious immunity liberty freedom confessional state coercion mission" },
   { title: "Roman Rite Settlement", description: "Latin, the Roman Canon, chant, vernacular readings, and restrained reform", href: "roman-rite-settlement.html", tags: "roman rite liturgy latin canon chant novus ordo reform" },
@@ -3199,10 +3343,10 @@ const pages = [
   { title: "Catholic Pastoral Jurisdiction on Mars", description: "Catholic mission government for Mars crews under long communications delay", href: "catholic-pastoral-jurisdiction-on-mars.html", tags: "catholic pastoral jurisdiction mars priest mission communications delay parish" },
   { title: "Republic of Ecuador", description: "Japanese-associated Pacific republic in a mature American corporate contest", href: "ecuador.html", tags: "ecuador quito guayaquil geacps japan america corporate contest pacific" },
   { title: "Oriental Republic of Uruguay", description: "Civilian restoration, commercial neutrality, and South Atlantic diplomacy", href: "uruguay.html", tags: "uruguay montevideo neutral clearing punta del este south america" },
-  { title: "Republic of Paraguay", description: "Stroessner's authoritarian inland buffer and marketplace", href: "paraguay.html", tags: "paraguay asuncion stroessner buffer market neutral south america" },
+  { title: "Republic of Paraguay", description: "Authoritarian inland buffer and marketplace; exact ruler sequence open", href: "paraguay.html", tags: "paraguay asuncion stroessner buffer market neutral south america" },
   { title: "Republic of Bolivia", description: "Landlocked mineral and route balancing in the multipolar Americas", href: "bolivia.html", tags: "bolivia la paz sucre minerals routes neutral south america" },
   { title: "Republic of Panama", description: "Sovereignty under the expanded American canal-defense system", href: "panama.html", tags: "panama canal american hemisphere defense central america" },
-  { title: "Republic of Nicaragua", description: "American alignment and the non-Marxist Sandinista conflict", href: "nicaragua.html", tags: "nicaragua sandinista non marxist catholic america central" },
+  { title: "Republic of Nicaragua", description: "American alignment and the ideologically divided Sandinista conflict", href: "nicaragua.html", tags: "nicaragua sandinista divided nationalist marxist catholic america central" },
   { title: "Republic of Suriname", description: "Postcolonial sovereignty and Buchanan-era American defense association", href: "suriname.html", tags: "suriname paramaribo guiana bauxite american defense associate" },
   { title: "Second Cristiada", description: "Mexico's Catholic-national conflict of approximately 1977–1979", href: "second-cristiada.html", tags: "second cristiada mexico catholic war 1977 1979 buchanan" },
   { title: "Mexican Catholic-National Settlement", description: "The mediated settlement of 1979–1980 and consolidation through 1985", href: "mexican-catholic-national-settlement.html", tags: "mexico catholic national settlement buchanan church 1980" },
@@ -3216,6 +3360,7 @@ const pages = [
   { title: "Kansū 42", description: "Japan's specialist native-token functional research language", href: "kansu-42.html", tags: "kansu kansū 関数四二 japanese functional ml lambda research language" },
   { title: "Ronri 44", description: "Japan's specialist native-token logic-programming language", href: "ronri-44.html", tags: "ronri 論理四四 japanese logic prolog unification research language" },
   { title: "Gazō 44", description: "Japan's specialist retained-graphics and interface language", href: "gazo-44.html", tags: "gazo gazō 画像四四 japanese graphics sprites interface language" },
+  { title: "Vertical computing in Japan", description: "Portrait terminals, vertical source, mixed windows, and Japanese programming displays", href: "japanese-vertical-computing.html", tags: "japan japanese vertical computing terminals portrait 縦型端末 source code falling columns" },
   { title: "International Character and Data Standards Council", description: "The cross-bloc standards body behind UNICODE 80", href: "international-character-data-standards-council.html", tags: "icdsc international character data standards council unicode 80 kyoto geneva tokyo melbourne" },
   { title: "Concord Architecture", description: "Elias Mercer's closed integrated personal-computing platform", href: "concord-architecture.html", tags: "concord architecture concord one meridian gated republic mercer civic platform" },
   { title: "ShadowNet", description: "The pseudonymous American cultural and application overlay on Weltnetz", href: "shadownet.html", tags: "shadownet shadow net brightnet weltnetz pseudonym privacy relay signed handles" },
@@ -3260,12 +3405,12 @@ const pages = [
   { title: "Software Localization in the Mekong States", description: "The four-layer national-interface and Japanese-core production model", href: "software-localization-in-mekong-states.html", tags: "mekong software localization japanese core national bureau interface architecture" },
   { title: "Vietnamese Software Industry", description: "Vietnam's path from application offices to domestic studios", href: "vietnamese-software-industry.html", tags: "vietnam vietnamese software industry studios publishing education games han nom" },
   { title: "Weltnetz", description: "The German-led common international network layer", href: "weltnetz.html", tags: "weltnetz world network falkenberg satellite packets transport internet" },
-  { title: "Seitenplan", description: "The multilingual declarative document standard of Weltnetz", href: "seitenplan.html", tags: "seitenplan 88 page plan fenster verweis document markup weltnetz" },
-  { title: "Bridge/WN", description: "Interlink's 1988 Weltnetz environment for American-compatible computers", href: "bridge-wn.html", tags: "bridge wn interlink martin keene weltnetz american gateway 1988" },
+  { title: "Seitenplan", description: "Working reconstruction of Weltnetz's German document standard", href: "seitenplan.html", tags: "seitenplan 88 page plan fenster verweis document markup weltnetz" },
+  { title: "Bridge/WN", description: "Working name for Interlink's late-1980s Weltnetz environment", href: "bridge-wn.html", tags: "bridge wn interlink martin keene weltnetz american gateway 1988" },
   { title: "American Data Network", description: "America's decentralized packet-network family and strategic remnant", href: "american-data-network.html", tags: "american data network adn packet research defense university strategic" },
-  { title: "Commonwealth Packet Service", description: "Britain's managed information-service and gateway network", href: "commonwealth-packet-service.html", tags: "commonwealth packet service cps british network videotex education gateway" },
-  { title: "Japanese Imperial Information Network", description: "Japan's factory, transaction, household, and Sekaimō network ecology", href: "japanese-imperial-information-network.html", tags: "japanese imperial information network teikoku johomo sekaimo sekai factory paging" },
-  { title: "Latin Technical Network", description: "The Rete Latina confederal public and professional network", href: "latin-technical-network.html", tags: "latin technical network rete latina public professional scudo olivetti" },
+  { title: "Commonwealth Packet Service", description: "Commonwealth network ecology, with detailed service history still working", href: "commonwealth-packet-service.html", tags: "commonwealth packet service cps british network videotex education gateway" },
+  { title: "Japanese Imperial Information Network", description: "Japan's pre-convergence network, with detailed names and structure still working", href: "japanese-imperial-information-network.html", tags: "japanese imperial information network teikoku johomo sekaimo sekai factory paging" },
+  { title: "Latin Technical Network", description: "Working reconstruction of the Latin public-network ecology", href: "latin-technical-network.html", tags: "latin technical network rete latina public professional scudo olivetti" },
   { title: "National Network Search Services", description: "Competing national maps and directories of Weltnetz", href: "national-network-search-services.html", tags: "national search engines directories weltnetz netzregister indexing portals" },
   { title: "Pioneers of Computing", description: "The people and institutions behind the five computing traditions", href: "computing-pioneers.html", tags: "computing pioneers history people turing zuse church von neumann hopper wilkes schreyer nakashima" },
   { title: "Alan Turing", description: "British computing statesman, ACE architect, and public elder", href: "alan-turing.html", tags: "alan turing npl ace bletchley cryptanalysis machine intelligence british computing" },
@@ -3291,6 +3436,8 @@ const pages = [
   { title: "Palestine Funds Controversy", description: "The fight over American religious fundraising and suspected militant diversion", href: "palestine-funds-controversy.html", tags: "palestine funds controversy 1954 1955 fundraising israel churches revisionist" },
   { title: "Holy Office Instruction on Dispensationalism", description: "Pius XII's rejection of prophetic war theology and unconditional territorial claims", href: "holy-office-instruction-dispensationalism.html", tags: "holy office instruction dispensationalism pius xii christian zionism israel catholic" },
   { title: "Adolfstadt an der Wolga", description: "The rebuilt lower-Volga transport, industrial, military, and launch-support city", href: "adolfstadt.html", tags: "adolfstadt an der wolga stalingrad lower volga moskowien paulusburg launch city" },
+  { title: "Peenemünde", description: "The historical and intellectual center of German rocketry and spaceflight", href: "peenemunde.html", tags: "peenemunde peenemünde germany rockets space research a4 raumbote von braun" },
+  { title: "Lower Volga launch complex", description: "Germany's heavy, hazardous, military, and high-inclination launch range east of Adolfstadt", href: "lower-volga-launch-complex.html", tags: "lower volga launch complex range adolfstadt germany rockets military nordring raumhafen" },
   { title: "Wehrmacht", description: "Germany's armed forces from criminal war through victory, empire, and conventional deterrence", href: "wehrmacht.html", tags: "wehrmacht german armed forces heer kriegsmarine luftwaffe rommel senger war chiefs" },
   { title: "Reich Security Main Office", description: "The RSHA security-police, intelligence, persecution, and administrative-computing system", href: "reich-security-main-office.html", tags: "reich security main office rsha reichssicherheitshauptamt heydrich gestapo kripo sd schellenberg" },
   { title: "Economy of the Greater German Reich", description: "The directed imperial market, currency hierarchy, extraction system, and consumer bargain", href: "german-economy.html", tags: "german economy gelenkte grossraumwirtschaft reichsmark verrechnungsmark showroom reich imperial market" },
@@ -3332,6 +3479,7 @@ const pages = [
   { title: "First Butler Ministry", description: "The 1951–1955 Conservative minority government sustained by contractual supply", href: "first-butler-ministry.html", tags: "first butler ministry contract ministry conservative minority government 1951 1955 contracts not commands" },
   { title: "Contract Commonwealth", description: "The Butler-era system of reciprocal Commonwealth contracts, planning, and maintained capacity", href: "contract-commonwealth.html", tags: "contract commonwealth contracts not commands butler shipping production dominions planning secretariat" },
   { title: "Indian Operations Commission", description: "The 1952 inquiry into Britain's incompatible political and military objectives in India", href: "indian-operations-commission.html", tags: "indian operations commission inquiry 1952 deployment evacuation demobilization cabinet india" },
+  { title: "Public Inquiries and Commissions in Post-Defeat Britain", description: "Authority, evidence, findings, and responsibility across royal, statutory, parliamentary, departmental, and service investigations", href: "public-inquiries-and-commissions-post-defeat-britain.html", tags: "British public inquiry royal commission statutory inquiry parliamentary investigation ministerial responsibility accountability" },
   { title: "Indian Ocean Defence White Paper of 1952", description: "The four-tier statement of Britain's defensible obligations: Hold the gates, not the whole house", href: "indian-ocean-defence-white-paper-1952.html", tags: "indian ocean defence defense white paper 1952 hold gates whole house butler bastion india" },
   { title: "Second Butler Ministry", description: "The 1955–1959 Conservative majority government and Britain's first unified satellite response", href: "second-butler-ministry.html", tags: "second butler ministry conservative majority 1955 1959 siege commonwealth silent overflight" },
   { title: "Technical Education and Apprenticeship Act 1953", description: "Britain's settlement for technical schools, engineering colleges, apprenticeships, and Commonwealth scholarships", href: "technical-education-apprenticeship-act-1953.html", tags: "technical education apprenticeship act 1953 butler engineering colleges skills schools scholarships" },
@@ -3610,6 +3758,7 @@ const pages = [
   { title: "Conservative and Unionist Party", description: "Butler's rebuilt party of contracts, Crown, Commonwealth, and administrative competence", href: "conservative-party-united-kingdom.html", tags: "conservative unionist party butler macmillan powell britain" },
   { title: "Liberal Party", description: "The civil-libertarian, procedural, local-government, and commercial-liberal force", href: "liberal-party-united-kingdom.html", tags: "liberal party britain civil liberties electoral reform inquiry thatcher" },
   { title: "Post-Defeat British Party System", description: "The five-party parliamentary order created by the White Parachute Election", href: "post-defeat-british-party-system.html", tags: "post defeat british party system five party 1947 brick parliament" },
+  { title: "Public Opinion in Post-Defeat Britain", description: "Elections, protest, press, broadcasting, testimony, and inquiry after the 1947 defeat", href: "public-opinion-post-defeat-britain.html", tags: "public opinion post defeat Britain elections protest press broadcasting inquiry" },
   { title: "J. B. Priestley", description: "Writer, broadcaster, and moral public voice of Common Wealth", href: "jb-priestley.html", tags: "jb priestley writer broadcaster common wealth 1941 committee" },
   { title: "Tom Wintringham", description: "Military writer, citizen-defence advocate, and Common Wealth founder", href: "tom-wintringham.html", tags: "tom wintringham military writer home guard common wealth citizen defence" },
   { title: "James Callaghan", description: "Labour politician and Royal Navy veteran of the 1947 generation", href: "james-callaghan.html", tags: "james callaghan labour royal navy transport veterans" },
@@ -3705,7 +3854,10 @@ const pages = [
   ,{ title: "British Tank Lineage", description: "Britain's universal-tank sequence from Cromwell and Comet to Challenger 1", href: "british-tank-lineage.html", tags: "britain british commonwealth tank lineage cromwell comet centurion charioteer conqueror chieftain challenger" }
   ,{ title: "Centurion", description: "Britain's universal-tank family from the 17-pounder Mk 1 to the 105 mm Mk 13", href: "centurion-tank.html", tags: "centurion british tank universal mk 1 2 3 10 13 17 pounder 20 pounder l7" }
   ,{ title: "Charioteer", description: "Britain's Cromwell-based 20-pounder reserve and export stopgap", href: "charioteer-tank.html", tags: "charioteer british tank cromwell 20 pounder reserve export stopgap" }
-  ,{ title: "Conqueror", description: "Britain's limited 120 mm heavy-support tank", href: "conqueror-tank.html", tags: "conqueror british heavy gun tank mk 2 120 mm centurion support" }
+  ,{ title: "Conqueror", description: "Britain's limited 120 mm heavy-support tank with integral active infrared", href: "conqueror-tank.html", tags: "conqueror british heavy gun tank mk 2 120 mm centurion support night fighting infrared" }
+  ,{ title: "Conway Experimental Tank", description: "Britain's 1946–47 Centurion-based heavy-gun experiment", href: "conway-experimental-tank.html", tags: "conway experimental tank british centurion a41 heavy gun 1946 1947 prototype" }
+  ,{ title: "Churchill Crocodile", description: "Britain's prototype-only Churchill flame-tank program", href: "churchill-crocodile.html", tags: "churchill crocodile british flame tank prototype fuel trailer cancelled" }
+  ,{ title: "Caernarvon Development Vehicle", description: "Britain's small Centurion-to-Conqueror heavy-chassis development fleet", href: "caernarvon-development-vehicle.html", tags: "caernarvon british development vehicle centurion conqueror fv200 heavy tank infrared" }
   ,{ title: "Chieftain", description: "Britain's 120 mm main battle tank and principal Falklands armored system", href: "chieftain-tank.html", tags: "chieftain chieftain mk 3 chieftain mk 5 chieftain mk 8 chieftain mk 10 british main battle tank falklands mount pleasant" }
   ,{ title: "Challenger 1", description: "Britain's composite-armored 1984 successor withheld from the Falklands", href: "challenger-1.html", tags: "challenger 1 british main battle tank mk 1 composite armor 1984 canada" }
   ,{ title: "British Carriers and Tracked Reconnaissance", description: "Britain's FV430, CVR(T), Swingfire, Cavalier, and Warrior vehicle system", href: "british-carriers-and-reconnaissance.html", tags: "britain british commonwealth carriers tracked reconnaissance infantry fighting vehicles fv430 cvrt" }
@@ -3786,15 +3938,38 @@ const pages = [
   ,{ title: "Messerschmitt", description: "Germany's principal high-speed fighter and heavy-interceptor design authority", href: "messerschmitt.html", tags: "messerschmitt germany aircraft manufacturer bayerische flugzeugwerke me 262 high speed interceptor" }
   ,{ title: "Focke-Wulf", description: "Germany's single-seat fighter and close-support aircraft design authority", href: "focke-wulf.html", tags: "focke wulf germany aircraft manufacturer fw 190 ta 152 ta 183 close support" }
   ,{ title: "Horten-Gotha", description: "Germany's continuing flying-wing design and production organization", href: "horten-gotha.html", tags: "horten gotha germany aircraft manufacturer flying wing ho 229 h xviii" }
+  ,{ title: "Horten XVIII", description: "Horten-Gotha's postwar production flying-wing strategic bomber", href: "horten-xviii.html", tags: "horten xviii h xviii germany german strategic bomber flying wing postwar me 464" }
+  ,{ title: "Messerschmitt Me 464", description: "The conventional strategic-bomber proposal defeated by Horten XVIII", href: "messerschmitt-me-464.html", tags: "messerschmitt me 464 germany strategic bomber proposal horten xviii competition" }
+  ,{ title: "Gotha Weltblick", description: "Germany's Horten-derived long-range civil flying-wing airliner", href: "gotha-weltblick.html", tags: "gotha weltblick horten germany german flying wing airliner lufthansa aussichtssalon" }
   ,{ title: "Junkers Aircraft", description: "Germany's metal-aircraft, research, and maritime-systems design authority", href: "junkers-aircraft.html", tags: "junkers germany aircraft manufacturer dessau ju 52 ju 88 ju 287 ef 131" }
   ,{ title: "Heinkel", description: "Germany's bomber, night-fighter, jet, and aircraft-engine design company", href: "heinkel.html", tags: "heinkel germany aircraft manufacturer he 111 he 177 he 219 he 162" }
   ,{ title: "Arado", description: "Germany's fast-bomber and reconnaissance-aircraft design authority", href: "arado.html", tags: "arado germany aircraft manufacturer ar 234 blitz strike reconnaissance" }
   ,{ title: "Dornier", description: "Germany's metal-aircraft, maritime, and long-range systems manufacturer", href: "dornier.html", tags: "dornier germany aircraft manufacturer do 17 do 24 do 217 do 335 maritime" }
   ,{ title: "Blohm & Voss", description: "Hamburg's maritime-aircraft and experimental-configurations specialist", href: "blohm-and-voss.html", tags: "blohm voss hamburger flugzeugbau germany aircraft manufacturer bv 138 bv 222" }
-  ,{ title: "German Late-War and Immediate-Postwar Jets", description: "The Me 262, Ta 183, Ho 229, Ar 234, Junkers experiments, and the non-operational He 162 program", href: "german-early-jet-generation.html", tags: "germany german luftwaffe early jets aircraft lineage me 262 he 162 ta 183 ho 229 ar 234 ju 287" }
+  ,{ title: "German Late-War and Immediate-Postwar Jets", description: "The Me 163, Me 262, Ta 183, Ho 229, Ar 234, Junkers experiments, and non-operational He 162 program", href: "german-early-jet-generation.html", tags: "germany german luftwaffe early jets rocket aircraft lineage me 163 me 262 he 162 ta 183 ho 229 ar 234 ju 287" }
+  ,{ title: "Me 163 Komet", description: "Germany's brief rocket-fighter branch and enduring glide and rocket technology demonstrator", href: "me-163-komet.html", tags: "me 163 komet messerschmitt rocket fighter glider demonstrator tailless germany" }
+  ,{ title: "Henschel Hs 129 B-3", description: "The small operational German specialist antitank aircraft built around the BK 7,5", href: "hs-129-b3.html", tags: "henschel hs 129 b3 ground attack antitank aircraft bk 7.5 germany" }
+  ,{ title: "BK 7,5 Aircraft Cannon", description: "The twelve-round automatic-loading 75 mm aircraft cannon and later tank-autoloader precedent", href: "bk-75-aircraft-cannon.html", tags: "bk 7.5 bordkanone 75 mm aircraft cannon automatic loader autoloader hs 129 panzer x" }
   ,{ title: "Reichsluftgerätordnung 1948", description: "Germany's national role-series aircraft register and company-project rules", href: "reichsluftgeraetordnung-1948.html", tags: "reichsluftgeraetordnung 1948 aircraft designation role series national ordinal company project" }
+  ,{ title: "German Aircraft Company Project Registers", description: "The six internal design-office numbering systems beneath Germany's post-1948 service register", href: "german-aircraft-company-project-registers.html", tags: "german aircraft company project registers messerschmitt focke wulf horten gotha junkers heinkel arado internal designation prototype" }
+  ,{ title: "Messerschmitt Project Register", description: "Messerschmitt's P. four-digit ledger and Roman-numbered design branches", href: "messerschmitt-project-register.html", tags: "messerschmitt project register me p roman branch prototype v1 german aircraft" }
+  ,{ title: "Focke-Wulf Project Register", description: "Focke-Wulf's P. three-digit ledger and Entwurf configurations", href: "focke-wulf-project-register.html", tags: "focke wulf project register fw p entwurf prototype v1 german aircraft" }
+  ,{ title: "Horten-Gotha Project Register", description: "The Horten Roman-numeral aircraft ledger and Ho military design-authority prefix", href: "horten-gotha-project-register.html", tags: "horten gotha project register roman numeral ho h ix h xviii prototype design authority" }
+  ,{ title: "Junkers EF Project Register", description: "Junkers' EF development-aircraft sequence and EFo research files", href: "junkers-ef-project-register.html", tags: "junkers ef efo project register development aircraft research prototype" }
+  ,{ title: "Heinkel Project Register", description: "Heinkel's P. four-digit ledger and lettered internal design branches", href: "heinkel-project-register.html", tags: "heinkel project register he p letter branch prototype v1 german aircraft" }
+  ,{ title: "Arado Project Register", description: "Arado's E. three-digit ledger and numbered internal alternatives", href: "arado-project-register.html", tags: "arado project register ar e numbered alternative prototype messerschmitt absorption" }
+  ,{ title: "Rocketdyne", description: "The principal American large high-thrust liquid rocket-engine house", href: "rocketdyne.html", tags: "rocketdyne american space propulsion rocket engine f-1 j-2 chemical high thrust" }
+  ,{ title: "Aerojet-General", description: "American storable propulsion and nuclear-thermal engine integrator", href: "aerojet-general.html", tags: "aerojet general american space propulsion storable nuclear thermal nerva rocket" }
+  ,{ title: "Hughes Aircraft Company", description: "American electronics, spacecraft, guided-weapons, and ion-propulsion company", href: "hughes-aircraft.html", tags: "hughes aircraft company american electronics spacecraft ion propulsion thruster missile" }
+  ,{ title: "Westinghouse Astronuclear Laboratory", description: "Westinghouse reactor and high-power orbital-propulsion organization", href: "westinghouse-astronuclear-laboratory.html", tags: "westinghouse astronuclear laboratory american nerva reactor nuclear thermal electric propulsion" }
+  ,{ title: "Lewis Propulsion Laboratory", description: "The federal Cleveland laboratory for aircraft, rocket, nuclear, and electric propulsion", href: "lewis-propulsion-laboratory.html", tags: "lewis propulsion laboratory cleveland naca federal research rocket electric ion hydrogen" }
+  ,{ title: "Harold R. Kaufman", description: "American engineer and inventor of the electron-bombardment ion thruster", href: "harold-kaufman.html", tags: "harold kaufman american engineer ion thruster electron bombardment lewis sert" }
+  ,{ title: "Space Electric Rocket Test", description: "SERT I and SERT II, the American ion-propulsion flight-test program", href: "space-electric-rocket-test.html", tags: "space electric rocket test sert i ii ion propulsion mercury lewis kaufman" }
+  ,{ title: "Ion Propulsion in the United States", description: "American ion-thruster development from Lewis and SERT to Hughes and electric freight", href: "american-ion-propulsion.html", tags: "united states american ion propulsion electric thruster sert hughes o-108" }
+  ,{ title: "Nuclear-Thermal Propulsion in the United States", description: "Project Rover, NERVA, and American high-thrust nuclear spacecraft propulsion", href: "american-nuclear-thermal-propulsion.html", tags: "united states american nuclear thermal propulsion project rover nerva aerojet westinghouse pilgrim" }
+  ,{ title: "Nuclear-Electric Propulsion in the United States", description: "American reactor-powered electric propulsion for freight and deep-space vehicles", href: "american-nuclear-electric-propulsion.html", tags: "united states american nuclear electric propulsion reactor ion freight o-108 westinghouse ge hughes" }
   ,{ title: "Me 262", description: "Germany's regular wartime jet fighter and turbine-fighter school", href: "me-262a-1.html", tags: "me 262 messerschmitt germany german operational jet fighter wartime" }
-  ,{ title: "Me 262 HG III Research Development", description: "The high-speed research aircraft defined by wing-root integration and low endurance", href: "me-262f.html", tags: "me 262 hg iii germany german high speed research wing root engine endurance" }
+  ,{ title: "Me 262 HG III", description: "The limited-service high-speed fighter defined by wing-root integration and low endurance", href: "me-262f.html", tags: "me 262 hg iii germany german high speed limited service wing root engine endurance" }
   ,{ title: "He 162 Program", description: "Germany's non-operational Volksjäger paper and prototype work", href: "he-162c.html", tags: "he 162 heinkel germany german volksjaeger prototype paper program" }
   ,{ title: "Ta 183", description: "Focke-Wulf's late-war or immediate-postwar swept-wing fighter bridge", href: "ta-183a-1-huckebein.html", tags: "ta 183 focke wulf germany german swept wing fighter postwar bridge" }
   ,{ title: "Ho 229 / H IX", description: "Horten-Gotha's operational flying-wing aircraft family", href: "ho-229a-2.html", tags: "ho 229 h ix horten gotha germany german flying wing operational family" }
@@ -3818,11 +3993,12 @@ const pages = [
   ,{ title: "Focke-Wulf Mature Close-Support Projects", description: "Focke-Wulf's mature armored ground-attack work", href: "fw-524a-1-wuerger-iii.html", tags: "focke wulf germany mature armored close support projects" }
   ,{ title: "Junkers Mature Maritime Projects", description: "Junkers mature long-range maritime-surveillance work", href: "ju-526a-1-seeadler-ii.html", tags: "junkers germany mature maritime surveillance projects" }
   ,{ title: "Imperial Japanese Aircraft Designations", description: "Army, Navy, and joint-service aircraft nomenclature in the victorious Japanese Empire", href: "imperial-japanese-aircraft-designations.html", tags: "japan japanese aircraft designation register army navy joint ki type role manufacturer model" }
-  ,{ title: "Japanese Late-Piston and First-Jet Generation", description: "Kikka, Ki-100 Shinden, Keiun, A8M, and the overlapping piston-to-turbine transition", href: "japanese-late-piston-first-jet-generation.html", tags: "japan japanese aircraft piston jet generation shinden kikka ki 100 keiun a8m" }
+  ,{ title: "Japanese Late-Piston and First-Jet Generation", description: "Kikka, Ki-100 and Ki-200 Shinden, J8M experimentation, Keiun, A8M, and the piston-to-turbine transition", href: "japanese-late-piston-first-jet-generation.html", tags: "japan japanese aircraft piston jet generation shinden kikka ki 100 ki 200 j8m shusui keiun a8m" }
   ,{ title: "N1K2-J Shiden Kai", description: "Japan's 1944 land-based piston fighter", href: "n1k2-j-shiden-kai.html", tags: "n1k2-j n1k2 shiden kai japan kawanishi land fighter piston 1944" }
   ,{ title: "A7M Reppū Family", description: "Mitsubishi's principal piston carrier-fighter family of 1945–47", href: "a7m3-reppu.html", tags: "a7m reppu reppū japan carrier fighter piston mitsubishi" }
   ,{ title: "Former J7W1 Shinden Service Designation", description: "The Navy project transferred before acceptance and became Ki-100-I", href: "j7w1-shinden.html", tags: "j7w1 shinden former withdrawn kyushu ki 100" }
-  ,{ title: "J8M Shūsui Project", description: "An unresolved wartime rocket-aircraft project", href: "j8m1-shusui.html", tags: "j8m shusui shūsui japan rocket project open" }
+  ,{ title: "J8M Shūsui Project", description: "The Navy's limited rocket-aircraft experimentation, never adopted as Army Ki-200", href: "j8m1-shusui.html", tags: "j8m shusui shūsui japan navy rocket experimental army ki 200" }
+  ,{ title: "Ki-200 Shinden II", description: "The provisional supersonic double-delta and canard successor to the Army's Ki-100 family", href: "ki-200-shinden-ii.html", tags: "ki 200 shinden ii japan army supersonic double delta canard fighter twin tail" }
   ,{ title: "Former G9N1 Kikka Kai Designation", description: "The superseded service code formerly applied to Nakajima Kikka", href: "g9n1-kikka-kai.html", tags: "g9n1 kikka kai former withdrawn nakajima" }
   ,{ title: "Former J10N1 Karyū Designation", description: "A withdrawn provisional heavy-interceptor filler", href: "j10n1-karyu.html", tags: "j10n1 karyu karyū ki 201 former withdrawn" }
   ,{ title: "Former J7W2 Shinden Kai Service Designation", description: "The first turbojet Shinden entered the Army register as Ki-100-II", href: "j7w2-shinden-kai.html", tags: "j7w2 shinden kai former withdrawn ki 100 ii" }
@@ -3838,11 +4014,12 @@ const pages = [
   ,{ title: "Japanese Joint-Service Combat-Aircraft Lineage", description: "The A8M–A10M carrier-fighter and B8Y–B10Y heavy-aircraft families", href: "japanese-joint-service-combat-aircraft-lineage.html", tags: "japan japanese joint aircraft a8m a9m a10m b8y b9y b10y" }
   ,{ title: "A9M Shippū Family", description: "Mitsubishi's four-mark transonic and early-supersonic carrier-fighter family", href: "a9m1-shippu.html", tags: "a9m shippu shippū a9m1 a9m2 a9m3 a9m4" }
   ,{ title: "Former J12N1 Raikō Designation", description: "A withdrawn all-weather-interceptor entry", href: "j12n1-raiko.html", tags: "j12n1 raiko raikō former withdrawn" }
-  ,{ title: "A10M1", description: "Japan's modern single-engine carrier air-superiority platform", href: "a10m1-shippu-kai.html", tags: "a10m1 japan carrier fighter dorsal crescent intake 1978 1980" }
+  ,{ title: "A10M Arashi", description: "Japan's long-lived modern single-engine carrier-fighter platform beginning around 1979–80", href: "a10m1-shippu-kai.html", tags: "a10m a10m1 arashi storm japan carrier fighter dorsal black crescent intake 1979 1980" }
+  ,{ title: "A10M2 Arashi", description: "The early-1980s digital-control and improved-radar development of the Arashi carrier fighter", href: "a10m2-arashi.html", tags: "a10m2 arashi japan carrier fighter digital flight control pulse doppler radar 1983 1985" }
   ,{ title: "Former J13M1 Raiden Designation", description: "A withdrawn atmospheric-fighter entry", href: "j13m1-raiden.html", tags: "j13m1 raiden former withdrawn" }
   ,{ title: "Former J14M1 Kairyū Designation", description: "A withdrawn heavy fleet-defense entry", href: "j14m1-kairyu.html", tags: "j14m1 kairyu kairyū former withdrawn" }
-  ,{ title: "Former A11M1 Arashi Designation", description: "No automatic A11M succession exists by 1985", href: "a11m1-arashi.html", tags: "a11m1 arashi former withdrawn" }
-  ,{ title: "Former A12M1 Arashi Kai Designation", description: "No automatic A12M succession exists by 1985", href: "a12m1-arashi-kai.html", tags: "a12m1 arashi kai former withdrawn" }
+  ,{ title: "Former A11M1 Arashi Designation", description: "The number is withdrawn while the Arashi name moves to the long-lived A10M family", href: "a11m1-arashi.html", tags: "a11m1 arashi former withdrawn a10m name reassigned" }
+  ,{ title: "Former A12M1 Arashi Kai Designation", description: "Its modernization role remains within later A10M Arashi marks and Kai packages", href: "a12m1-arashi-kai.html", tags: "a12m1 arashi kai former withdrawn a10m marks modernization" }
   ,{ title: "B8Y2 Keiun Kai Ni", description: "The improved 1950s nose-intake Keiun form", href: "b8y2-keiun-kai-ni.html", tags: "b8y2 keiun kai ni carrier attack nose intake" }
   ,{ title: "B9Y Family", description: "Japan's new swept-wing heavy carrier-capable aircraft", href: "b9y-family.html", tags: "b9y japan heavy carrier twin engine two seat" }
   ,{ title: "B10Y Family", description: "Japan's mature sensor-heavy fleet-defense and multirole aircraft", href: "b10y-family.html", tags: "b10y japan fleet defense multirole twin engine two seat" }
@@ -3852,24 +4029,86 @@ const pages = [
   ,{ title: "Type 18 Kiku", description: "Japan's 1958 radar-guided anti-ship missile", href: "type-18-kiku.html", tags: "type 18 kiku japan radar guided anti ship missile 1958" }
   ,{ title: "Type 30 Ume", description: "Japan's 1970 active-radar fleet missile", href: "type-30-ume.html", tags: "type 30 ume japan active radar fleet anti ship missile aircraft surface ship 1970" }
   ,{ title: "Type 42 Tsubaki", description: "Japan's 1982 networked over-the-horizon anti-ship missile", href: "type-42-tsubaki.html", tags: "type 42 tsubaki japan networked over horizon anti ship missile maritime aircraft 1982" }
-  ,{ title: "Lockheed", description: "American designer of the Shooting Star, Starfire, Starfighter, Blackbird, and Orion families", href: "lockheed.html", tags: "lockheed american aircraft manufacturer shooting star starfire starfighter blackbird orion" }
+  ,{ title: "Lockheed", description: "American aircraft and spacecraft design lineage associated with the Blackbird and Orion families", href: "lockheed.html", tags: "lockheed american aircraft spacecraft manufacturer shooting star starfire starfighter blackbird orion reconnaissance structures" }
   ,{ title: "Republic Aviation", description: "American designer of the Thunderbolt and F-84 tactical-aircraft families", href: "republic-aviation.html", tags: "republic aviation american aircraft manufacturer thunderbolt thunderjet thunderstreak f-84" }
-  ,{ title: "North American Aviation", description: "American designer of Mustang, Sabre, X-15, Rapier, and Valkyrie aircraft", href: "north-american-aviation.html", tags: "north american aviation aircraft manufacturer mustang sabre x-15 rapier valkyrie" }
-  ,{ title: "Grumman", description: "American naval-aircraft designer of Wildcat, Hellcat, Intruder, Tomcat, and Hawkeye families", href: "grumman.html", tags: "grumman american naval aircraft manufacturer wildcat hellcat intruder tomcat hawkeye" }
-  ,{ title: "General Dynamics Aerospace", description: "American aerospace organization responsible for the F-16A Falcon", href: "general-dynamics-aerospace.html", tags: "general dynamics aerospace american aircraft manufacturer f-16 falcon" }
+  ,{ title: "North American Aviation", description: "Mustang, Sabre, X-15, Rapier, Valkyrie, and later North American/Rockwell spacecraft lineage", href: "north-american-aviation.html", tags: "north american aviation rockwell aircraft spacecraft manufacturer mustang sabre x-15 rapier valkyrie aerospaceplane thermal protection" }
+  ,{ title: "Northrop", description: "American designer of flying wings, lifting bodies, lightweight fighters, and spacecraft", href: "northrop.html", tags: "northrop corporation jack northrop aircraft manufacturer n-1m jb-1 m2-f2 hl-10 f-17 f-18 lifting body spacecraft" }
+  ,{ title: "Grumman", description: "American designer of naval aircraft, crewed spacecraft, docking systems, and maintainable orbital vehicles", href: "grumman.html", tags: "grumman american naval aircraft spacecraft manufacturer wildcat hellcat tiger intruder tomcat hawkeye docking servicing" }
+  ,{ title: "General Dynamics Aerospace", description: "American F-16A and spacecraft systems organization associated with the Convair lineage", href: "general-dynamics-aerospace.html", tags: "general dynamics aerospace american aircraft spacecraft manufacturer f-16 falcon convair cryogenic boosters propulsion" }
   ,{ title: "Fairchild Republic", description: "American designer of the A-10A Thunderbolt II close-support aircraft", href: "fairchild-republic.html", tags: "fairchild republic american aircraft manufacturer a-10 thunderbolt close support" }
-  ,{ title: "McDonnell Aircraft", description: "St. Louis naval-fighter manufacturer associated with Phantom and Banshee jets", href: "mcdonnell-aircraft.html", tags: "mcdonnell american aircraft manufacturer st louis phantom banshee f2h" }
-  ,{ title: "Douglas Aircraft", description: "American designer of transports, attack aircraft, and the F3D Skyknight", href: "douglas-aircraft.html", tags: "douglas american aircraft manufacturer dc-3 dauntless invader skyknight" }
+  ,{ title: "McDonnell Aircraft", description: "St. Louis designer of naval fighters, the F-15, F-18 collaboration, and later orbital logistics systems", href: "mcdonnell-aircraft.html", tags: "mcdonnell mcdonnell douglas american aircraft spacecraft manufacturer st louis phantom banshee f2h f-15 f-18 orbital logistics" }
+  ,{ title: "Douglas Aircraft", description: "American designer of transports, attack aircraft, the Skyknight/F-10 lineage, and later spacecraft systems", href: "douglas-aircraft.html", tags: "douglas mcdonnell douglas american aircraft spacecraft manufacturer dc-3 dauntless invader skyknight f-10" }
+  ,{ title: "Bell Aircraft", description: "American experimental-aircraft builder associated with the P-39, P-59, and X-109A", href: "bell-aircraft.html", tags: "bell aircraft corporation lawrence bell buffalo p-39 airacobra p-59 airacomet x-109 experimental vtol" }
   ,{ title: "Vought", description: "American naval-aircraft designer of Corsair and Cutlass fighters", href: "vought.html", tags: "vought american naval aircraft manufacturer corsair cutlass f4u f7u" }
-  ,{ title: "Boeing Aircraft", description: "American bomber, transport, and reusable-aerospace aircraft organization", href: "boeing-aircraft.html", tags: "boeing american aircraft manufacturer b-17 b-29 dyna-soar x-20" }
-  ,{ title: "Martin Aircraft", description: "The Glenn L. Martin Company's bomber, patrol-aircraft, and lifting-body programs", href: "martin-aircraft.html", tags: "martin american aircraft manufacturer b-26 pbm mariner x-24 lifting body" }
-  ,{ title: "Convair", description: "American designer of large aircraft and the B-58A Hustler supersonic bomber", href: "convair.html", tags: "convair consolidated vultee american aircraft manufacturer pby b-24 b-58 hustler" }
+  ,{ title: "Boeing Aircraft", description: "American bomber, transport, orbital-glider, and spacecraft organization", href: "boeing-aircraft.html", tags: "boeing american aircraft spacecraft manufacturer b-17 b-29 dyna-soar x-20 large transport heavy orbital structures freight" }
+  ,{ title: "Martin Aircraft", description: "Glenn L. Martin bomber, patrol-aircraft, lifting-body, and spacecraft lineage", href: "martin-aircraft.html", tags: "martin american aircraft spacecraft manufacturer b-26 pbm mariner x-24 lifting body utility vehicles tugs" }
+  ,{ title: "Convair", description: "American large-aircraft, B-58, and spacecraft-design lineage", href: "convair.html", tags: "convair consolidated vultee general dynamics american aircraft spacecraft manufacturer pby b-24 b-58 hustler cryogenic boosters" }
   ,{ title: "American Early-Jet Generation", description: "Eight American Army and Aerospace Command jets introduced from 1952 through 1960", href: "american-early-jet-generation.html", tags: "united states american early jet generation army air corps aerospace command shooting star thunderjet thunderstreak sabre starfire" }
+  ,{ title: "American Jet Procurement under Neutrality", description: "The research–deployment gap that left neutral America prototype-rich but squadron-poor", href: "american-jet-procurement-under-neutrality.html", tags: "united states american jet procurement neutrality research deployment production mobilization philippine war prototype squadron" }
+  ,{ title: "American Swept-Wing Research", description: "The independent NACA-centered aerodynamic route to the Sabre and Century Series", href: "american-swept-wing-research.html", tags: "united states american naca swept wing research sabre f-86 transonic wind tunnel 1945 1949" }
   ,{ title: "Jet-engine Industry of the United States", description: "The firms, engine families, and research system behind American high-speed and orbital propulsion", href: "american-jet-engine-industry.html", tags: "united states american jet engine industry general electric pratt whitney allison curtiss wright westinghouse j57 j75 j79 j93 neumann" }
+  ,{ title: "Henry H. Arnold", description: "Army aviator and institutional founder of the American jet-propulsion program", href: "henry-h-arnold.html", tags: "henry harley hap arnold army air corps naca jet propulsion whittle 1941" }
+  ,{ title: "NACA Special Committee on Jet Propulsion", description: "The 1941 federal technical body coordinating American jet-propulsion investigations", href: "naca-special-committee-on-jet-propulsion.html", tags: "naca special committee jet propulsion william durand vannevar bush henry arnold 1941" }
+  ,{ title: "National Advisory Committee for Aeronautics", description: "The federal laboratory and advisory system coordinating American aeronautical research", href: "national-advisory-committee-for-aeronautics.html", tags: "national advisory committee aeronautics naca langley ames lewis federal research aviation" }
+  ,{ title: "Langley Memorial Aeronautical Laboratory", description: "The first permanent NACA laboratory and center of American aerodynamic research", href: "langley-memorial-aeronautical-laboratory.html", tags: "langley memorial aeronautical laboratory naca hampton virginia wind tunnel aerodynamic research" }
+  ,{ title: "Ames Aeronautical Laboratory", description: "The NACA high-speed and full-scale research laboratory at Moffett Field", href: "ames-aeronautical-laboratory.html", tags: "ames aeronautical laboratory naca moffett field california high speed full scale wind tunnel" }
+  ,{ title: "National Defense Research Committee", description: "The federal committee coordinating civilian scientific research for national defense", href: "national-defense-research-committee.html", tags: "national defense research committee ndrc vannevar bush federal science military research 1940" }
+  ,{ title: "Office of Scientific Research and Development", description: "The presidential defense-science and research-contracting authority established in 1941", href: "office-of-scientific-research-and-development.html", tags: "office scientific research development osrd executive order 8807 vannevar bush ndrc 1941" }
+  ,{ title: "William F. Durand", description: "Engineer, founding NACA chairman, and leader of the 1941 jet-propulsion committee", href: "william-f-durand.html", tags: "william frederick durand engineer stanford naca chairman jet propulsion propeller" }
+  ,{ title: "Vannevar Bush", description: "Engineer, federal science administrator, and NACA chairman during the 1941 jet initiative", href: "vannevar-bush.html", tags: "vannevar bush engineer science administrator naca ndrc osrd jet propulsion" }
+  ,{ title: "British–American Turbojet Transfer", description: "The 1941 transfer of Whittle hardware and drawings to General Electric and Bell", href: "british-american-turbojet-transfer.html", tags: "british american turbojet transfer whittle w1x w2b general electric bell 1941" }
+  ,{ title: "Frank Whittle", description: "British Royal Air Force engineer and pioneer of the practical turbojet", href: "frank-whittle.html", tags: "frank whittle british engineer royal air force power jets turbojet w1" }
+  ,{ title: "Power Jets", description: "The British development company behind the Whittle turbojet family", href: "power-jets.html", tags: "power jets limited frank whittle williams tinling british turbojet w1 w2" }
+  ,{ title: "Gloster E.28/39", description: "The experimental aircraft that made the first official British turbojet flight", href: "gloster-e-28-39.html", tags: "gloster e28 39 e.28/39 w4041 british first jet aircraft george carter" }
+  ,{ title: "Whittle W.1 and W.1X Turbojets", description: "The first British flight turbojet and its ground-test derivative", href: "whittle-w1-w1x-turbojet.html", tags: "whittle w1 w.1 w1x w.1x power jets centrifugal turbojet engine" }
+  ,{ title: "Power Jets W.2 Turbojet Program", description: "The British combat-engine program between Whittle's demonstrators and production turbojets", href: "power-jets-w2-turbojet.html", tags: "power jets w2 w.2 w2b frank whittle british turbojet welland derwent" }
+  ,{ title: "Rolls-Royce Welland", description: "The first production-generation British turbojet in the Whittle engine line", href: "rolls-royce-welland.html", tags: "rolls royce welland rb23 w2b 23 british centrifugal turbojet meteor" }
+  ,{ title: "Rolls-Royce Derwent", description: "The principal early Rolls-Royce turbojet family for the Gloster Meteor", href: "rolls-royce-derwent.html", tags: "rolls royce derwent rb37 british centrifugal turbojet gloster meteor" }
+  ,{ title: "Gloster F.9/40 Meteor Prototype Program", description: "The twin-engine development program that became the operational Meteor", href: "gloster-f9-40-meteor-prototypes.html", tags: "gloster f9 40 f.9/40 meteor prototype british jet fighter george carter" }
+  ,{ title: "Rolls-Royce Nene", description: "The large British centrifugal turbojet and first stage of Pratt & Whitney's jet apprenticeship", href: "rolls-royce-nene.html", tags: "rolls royce nene rb41 centrifugal turbojet pratt whitney license sea hawk" }
+  ,{ title: "Rolls-Royce RB.44 Tay", description: "The enlarged Nene-derived turbojet licensed to Pratt & Whitney", href: "rolls-royce-rb44-tay.html", tags: "rolls royce rb44 tay early turbojet nene centrifugal pratt whitney license" }
+  ,{ title: "Armstrong Siddeley Sapphire", description: "The British axial turbojet licensed to Curtiss-Wright as the J65", href: "armstrong-siddeley-sapphire.html", tags: "armstrong siddeley sapphire axial turbojet curtiss wright j65 license" }
+  ,{ title: "Bristol Olympus", description: "The British two-spool axial turbojet licensed to Curtiss-Wright as the J67", href: "bristol-olympus.html", tags: "bristol olympus two spool axial turbojet vulcan curtiss wright j67 xf103" }
+  ,{ title: "Rolls-Royce Avon", description: "The British axial turbojet family behind the mature Canberra and Hunter lineages", href: "rolls-royce-avon.html", tags: "rolls royce avon axial turbojet canberra hunter british engine" }
+  ,{ title: "de Havilland Goblin", description: "The compact British centrifugal turbojet of the Vampire fighter family", href: "de-havilland-goblin.html", tags: "de havilland goblin halford centrifugal turbojet vampire meteor" }
+  ,{ title: "de Havilland Ghost", description: "The enlarged Goblin-derived turbojet of the Venom and Comet lineages", href: "de-havilland-ghost.html", tags: "de havilland ghost centrifugal turbojet venom comet goblin" }
+  ,{ title: "Westinghouse Aviation Gas Turbine Division", description: "The indigenous American compact axial-engine and experimental-propulsion organization", href: "westinghouse-aviation-gas-turbine-division.html", tags: "westinghouse aviation gas turbine division axial turbojet compact engine j30 j34 j40" }
+  ,{ title: "Westinghouse J30", description: "The foundational indigenous American axial-flow turbojet", href: "westinghouse-j30.html", tags: "westinghouse j30 19a yankee indigenous american axial turbojet" }
+  ,{ title: "Westinghouse J34", description: "Westinghouse's successful compact axial-flow production turbojet family", href: "westinghouse-j34.html", tags: "westinghouse j34 24c axial turbojet compact production engine" }
+  ,{ title: "Westinghouse J40", description: "The failed high-thrust naval turbojet and American procurement turning point", href: "westinghouse-j40.html", tags: "westinghouse j40 axial turbojet navy surge reliability failure 1955" }
+  ,{ title: "General Electric J31 and Allison J33", description: "The first American centrifugal turbojet families produced from the 1941 British transfer", href: "general-electric-j31-and-allison-j33.html", tags: "general electric j31 allison j33 type i ia i-40 centrifugal turbojet whittle british transfer" }
+  ,{ title: "American Jet-Engine Procurement Reform", description: "The propulsion-risk policy that separated critical engine programs from any one airframe", href: "american-jet-engine-procurement-reform.html", tags: "american jet engine procurement reform airframe independence flying testbed industrial redundancy j40 century series" }
+  ,{ title: "American Ramjet and Liquid-Hydrogen Flight Research", description: "The high-speed airbreathing lineage from NACA research through XF-103 to Pathfinder", href: "american-ramjet-and-hydrogen-flight-research.html", tags: "american ramjet liquid hydrogen flight research combined cycle xf-103 f-13 apex pathfinder mach 5" }
+  ,{ title: "Bell P-59 Airacomet", description: "America's first jet aircraft and its experimental conversion school", href: "p-59-airacomet.html", tags: "bell p-59 p59 xp-59a airacomet first american jet experimental conversion general electric whittle" }
+  ,{ title: "Pratt & Whitney Aircraft", description: "The East Hartford piston, twin-spool turbojet, turbofan, and cryogenic-propulsion manufacturer", href: "pratt-whitney-aircraft.html", tags: "pratt whitney aircraft east hartford rentschler wasp nene tay j57 j75 cryogenic propulsion" }
+  ,{ title: "Allison Engine Company", description: "The Indianapolis production-development and second-line American aircraft-engine organization", href: "allison-engine-company.html", tags: "allison engine company general motors indianapolis v-1710 j35 j71 afterburner production redundancy" }
+  ,{ title: "Curtiss-Wright Corporation", description: "The American radial-engine, licensed-turbine, and combined-cycle propulsion organization", href: "curtiss-wright.html", tags: "curtiss wright corporation whirlwind cyclone p-40 j65 j67 xj67 xrj55 ramjet combined cycle" }
+  ,{ title: "Pratt & Whitney J57–J75 Engine Family", description: "The twin-spool turbojets powering six Century-Series programs", href: "pratt-whitney-j57-j75-engine-family.html", tags: "pratt whitney j57 j75 x-176 twin spool turbojet century series f100 f101 f102 f105 f106 f107" }
+  ,{ title: "Allison J35 and J71 Turbojet Programs", description: "Allison's axial-flow production, afterburner, and high-altitude engine programs", href: "allison-j35-j71-engine-family.html", tags: "allison j35 j71 tg-180 axial turbojet afterburner altitude hydrogen f84" }
+  ,{ title: "Wright J65, J67, and Combined-Cycle Programs", description: "Curtiss-Wright's licensed turbine cores and indigenous ramjet-integration school", href: "wright-j65-j67-combined-cycle-family.html", tags: "wright j65 sapphire j67 olympus xj67 xrj55 ramjet combined cycle xf103 hydrogen" }
   ,{ title: "American Volunteer Group", description: "The civilian Flying Tigers formation retained in China until its 1945 evacuation", href: "american-volunteer-group.html", tags: "american volunteer group avg flying tigers china chennault yunnan 1941 1945" }
+  ,{ title: "Claire Lee Chennault", description: "Chinese Air Force adviser and commander of the continuing civilian Flying Tigers", href: "claire-lee-chennault.html", tags: "claire lee chennault flying tigers avg american volunteer group china pursuit" }
+  ,{ title: "William J. Donovan", description: "American foreign-intelligence organizer and recipient of Gerhard Neumann's post-AVG briefing", href: "william-j-donovan.html", tags: "william joseph wild bill donovan coordinator information strategic services oss intelligence neumann" }
+  ,{ title: "Evacuation of the American Volunteer Group", description: "The 1945 withdrawal from Yunnan through Burma into British India", href: "evacuation-of-the-american-volunteer-group.html", tags: "avg evacuation flying tigers yunnan burma british india 1945 chennault neumann" }
+  ,{ title: "American Volunteer Group Technical Intelligence", description: "Maintenance, salvage, captured-aircraft evaluation, and reporting by the Flying Tigers", href: "american-volunteer-group-technical-intelligence.html", tags: "avg technical intelligence captured japanese fighter neumann maintenance salvage flying tigers" }
   ,{ title: "Gerhard Neumann", description: "Flying Tigers technical specialist and General Electric jet-engine engineer", href: "gerhard-neumann.html", tags: "gerhard neumann flying tigers avg general electric j79 variable stator douglas" }
   ,{ title: "Century Series", description: "The nine American supersonic combat-aircraft programs from F-100 through F-108", href: "century-series.html", tags: "united states century series f-100 f-101 f-102 xf-103 f-104 f-105 f-106 f-107 f-108 supersonic fighter interceptor" }
+  ,{ title: "North American F-100 Super Sabre", description: "The Army Air Corps' first operational Century-Series supersonic fighter family", href: "f-100-super-sabre.html", tags: "f-100 f100 super sabre north american century series army air corps supersonic fighter j57" }
+  ,{ title: "McDonnell F-101 Voodoo", description: "American long-range fighter, interceptor, and reconnaissance family", href: "f-101-voodoo.html", tags: "f-101 f101 voodoo mcdonnell century series long range fighter interceptor reconnaissance j57" }
+  ,{ title: "Convair F-102 Delta Dagger", description: "American all-weather delta-wing continental interceptor", href: "f-102-delta-dagger.html", tags: "f-102 f102 delta dagger convair century series all weather delta interceptor j57 aerospace force" }
+  ,{ title: "Republic F-105 Thunderchief", description: "The Army Air Corps' main heavy tactical strike fighter of the Century Series", href: "f-105-thunderchief.html", tags: "f-105 f105 thunderchief republic century series army air corps heavy tactical strike fighter j75" }
+  ,{ title: "Convair F-106 Delta Dart", description: "The Aerospace Force's mature all-weather delta interceptor", href: "f-106-delta-dart.html", tags: "f-106 f106 delta dart convair century series aerospace force all weather interceptor j75" }
+  ,{ title: "Republic XF-103A", description: "America's 1959 combined-cycle flight demonstrator and research family", href: "xf-103a.html", tags: "xf-103a xf103 republic century series turbine ramjet combined cycle experimental aircraft 1959" }
+  ,{ title: "North American F-107", description: "America's limited-service high-speed strike and research aircraft", href: "f-107.html", tags: "f-107 f107 north american century series army air corps reconnaissance special strike service test research" }
+  ,{ title: "Bell X-109A", description: "America's 1962–64 supersonic VTOL research aircraft", href: "x-109a.html", tags: "x-109a x109 bell d-188a vtol supersonic research aircraft tilting nacelles 1962 1964" }
   ,{ title: "Teen Series", description: "The F-10 through F-19 American three-service fighter register", href: "teen-series.html", tags: "united states teen series f-10 f-11 f-12 f-13 f-14 f-15 f-16 f-17 f-18 f-19 army navy aerospace fighter interceptor" }
+  ,{ title: "F-10 Skyknight", description: "The Naval Air Corps' 1963 common-register designation for its legacy all-weather fighter", href: "f-10-skyknight.html", tags: "f-10 f10 skyknight douglas f3d naval air corps all weather fighter teen series 1963" }
+  ,{ title: "F-11A Tiger", description: "The Naval Air Corps' lightweight supersonic carrier fighter in the common register", href: "f-11a-tiger.html", tags: "f-11a f11 tiger grumman naval air corps supersonic carrier fighter teen series" }
+  ,{ title: "F-15A Eagle", description: "The Army Air Corps' heavy air-superiority fighter and high-capability partner to the F-16", href: "f-15a-eagle.html", tags: "f-15a f15 eagle mcdonnell army air corps heavy air superiority fighter teen series" }
+  ,{ title: "F-17 Evaluation Program", description: "The joint Northrop lightweight-fighter competitor and technology-demonstration program", href: "f-17-evaluation-program.html", tags: "f-17 f17 yf-17 cobra northrop joint evaluation lightweight fighter technology demonstrator teen series" }
+  ,{ title: "F-18A Hornet", description: "The Naval Air Corps' medium carrier fighter descended from F-17 work", href: "f-18a-hornet.html", tags: "f-18a f18 hornet northrop mcdonnell naval air corps medium carrier fighter teen series" }
+  ,{ title: "F-13", description: "America's combined-cycle hypersonic near-space interceptor", href: "f-13.html", tags: "f-13 f13 united states aerospace force republic combined cycle turbine ramjet rocket hypersonic near space interceptor" }
+  ,{ title: "F-19", description: "America's hydrogen-fuelled boundary-of-space interceptor", href: "f-19.html", tags: "f-19 f19 united states aerospace force hydrogen combined cycle mach 5 boundary space interceptor" }
   ,{ title: "P-80A-5 Shooting Star", description: "America's 1952 early jet pursuit and research aircraft", href: "p-80a-5-shooting-star.html", tags: "p-80a-5 p80 shooting star lockheed army pursuit research jet 1952" }
   ,{ title: "F-80C Shooting Star", description: "America's 1958 transitional Aerospace Command interceptor", href: "f-80c-shooting-star.html", tags: "f-80c f80 shooting star lockheed aerospace command transitional interceptor 1958" }
   ,{ title: "F-84E Thunderjet", description: "America's 1955 Army fighter-bomber and escort", href: "f-84e-thunderjet.html", tags: "f-84e f84 thunderjet republic army fighter bomber escort 1955" }
@@ -3878,12 +4117,12 @@ const pages = [
   ,{ title: "F-86F Sabre", description: "America's 1960 mature Army frontline fighter", href: "f-86f-sabre.html", tags: "f-86f f86 sabre north american army mature frontline fighter 1960" }
   ,{ title: "F-94C Starfire", description: "America's 1958 Aerospace Command all-weather interceptor", href: "f-94c-starfire.html", tags: "f-94c f94 starfire lockheed aerospace command all weather interceptor rockets 1958" }
   ,{ title: "F-94D Starfire", description: "America's 1960 limited Army all-weather strike aircraft", href: "f-94d-starfire.html", tags: "f-94d f94 starfire lockheed army limited all weather strike 1960" }
-  ,{ title: "United States Army Air Corps Force", description: "America's four-role Army combat-aircraft register from 1965 through 1978", href: "american-army-air-corps-force.html", tags: "united states army air corps force fighter attack close support interdiction battlefield aviation" }
+  ,{ title: "United States Army Air Corps Force", description: "America's heavy–light fighter pair and three specialized Army attack branches", href: "american-army-air-corps-force.html", tags: "united states army air corps force f-15 f-16 fighter attack close support interdiction battlefield aviation" }
   ,{ title: "F-16A Falcon", description: "America's 1978 compact Army air-superiority fighter", href: "f-16a-falcon.html", tags: "f-16a f16 falcon general dynamics army air corps compact air superiority fighter 1978" }
   ,{ title: "A-6A Intruder", description: "America's 1965 all-weather Army theater-attack aircraft", href: "a-6a-intruder.html", tags: "a-6a a6 intruder grumman army air corps all weather theater attack 1965" }
   ,{ title: "A-8A Thunderchief II", description: "America's 1972 supersonic Army interdiction and defense-suppression aircraft", href: "a-8a-thunderchief-ii.html", tags: "a-8a a8 thunderchief ii army air corps supersonic interdiction defense suppression 1972" }
   ,{ title: "A-10A Thunderbolt II", description: "America's 1977 armored Army close-support aircraft", href: "a-10a-thunderbolt-ii.html", tags: "a-10a a10 thunderbolt ii fairchild republic army air corps armored close support 1977" }
-  ,{ title: "United States Naval Air Corps Force", description: "America's eight-aircraft carrier and maritime aviation register from 1948 through 1975", href: "american-naval-air-corps-force.html", tags: "united states naval air corps carrier aviation fleet defense maritime strike patrol antisubmarine airborne warning" }
+  ,{ title: "United States Naval Air Corps Force", description: "America's common-register carrier and maritime aviation system", href: "american-naval-air-corps-force.html", tags: "united states naval air corps f-10 f-11 f-14 f-18 carrier aviation fleet defense maritime strike patrol antisubmarine airborne warning" }
   ,{ title: "FJ-1 Fury", description: "America's first operational carrier jet, introduced in 1948", href: "fj-1-fury.html", tags: "fj-1 fj1 fury north american naval air corps first operational carrier jet 1948" }
   ,{ title: "F2H-2 Banshee", description: "America's 1952 carrier fighter and escort", href: "f2h-2-banshee.html", tags: "f2h-2 f2h banshee mcdonnell naval air corps carrier fighter escort 1952" }
   ,{ title: "F3D-1 Skyknight", description: "America's 1952 all-weather fleet-defense fighter", href: "f3d-1-skyknight.html", tags: "f3d-1 f3d skyknight douglas naval air corps all weather fleet defense radar 1952" }
@@ -3893,6 +4132,7 @@ const pages = [
   ,{ title: "F-14A Tomcat", description: "America's 1974 long-range carrier fleet-defense fighter", href: "f-14a-tomcat.html", tags: "f-14a f14 tomcat grumman naval air corps carrier fleet defense fighter missiles 1974" }
   ,{ title: "E-2C Hawkeye", description: "America's 1975 carrier airborne-warning and fleet-control aircraft", href: "e-2c-hawkeye.html", tags: "e-2c e2 hawkeye grumman naval air corps carrier airborne early warning radar data link 1975" }
   ,{ title: "United States Aerospace Force Atmospheric Fleet", description: "America's seven-aircraft strategic interception, reconnaissance, training, and conventional-bomber register from 1958 through 1970", href: "american-aerospace-force-atmospheric-fleet.html", tags: "united states aerospace force atmospheric fleet strategic interception reconnaissance bomber training starfighter rapier blackbird hustler valkyrie" }
+  ,{ title: "American Strategic-Bomber Development", description: "The jet-bomber line from XB-43 and B-47 through Hustler and Valkyrie", href: "american-strategic-bomber-development.html", tags: "united states american strategic bomber development xb-43 b-45 b-47 xb-55 xb-56 b-52 b-58 b-70 schnellbomber" }
   ,{ title: "F-104A Starfighter", description: "America's 1958 Aerospace Command Mach 2 point interceptor", href: "f-104a-starfighter.html", tags: "f-104a f104 starfighter lockheed aerospace command force mach 2 point interceptor 1958" }
   ,{ title: "NF-104A Starfighter", description: "America's 1963 rocket-assisted aerospace trainer", href: "nf-104a-starfighter.html", tags: "nf-104a nf104 starfighter lockheed aerospace force rocket assisted trainer reaction controls 1963" }
   ,{ title: "F-108A Rapier", description: "America's 1966 long-range Mach 3 strategic interceptor", href: "f-108a-rapier.html", tags: "f-108a f108 rapier north american aerospace force mach 3 long range strategic interceptor 1966" }
@@ -3905,7 +4145,13 @@ const pages = [
   ,{ title: "X-20A Dyna-Soar", description: "America's booster-launched orbital-glide research vehicle", href: "x-20a-dyna-soar.html", tags: "x-20a x20 dyna-soar orbital glider booster reentry inspection demonstrator 1966" }
   ,{ title: "X-24 Series", description: "America's 1964–68 lifting-body and integrated-propulsion research series", href: "x-24-series.html", tags: "x-24 lifting body integrated propulsion inlet transition hydrogen cooling high angle reentry" }
   ,{ title: "Project Apex", description: "America's 1967–69 runway-launched upper-atmosphere demonstrator program", href: "project-apex.html", tags: "project apex combined cycle propulsion thermal structure runway launched upper atmosphere demonstrator maracaibo computing" }
-  ,{ title: "British Fighter Development, 1944–1964", description: "The British jet-fighter lineage from Meteor F.3 to Lightning F.3", href: "british-fighter-development-1944-1964.html", tags: "british fighter development royal air force fleet air arm meteor vampire attacker hunter javelin lightning" }
+  ,{ title: "British Fighter Development, 1944–1964", description: "The British jet-fighter lineage from the 1947 force through Lightning F.3", href: "british-fighter-development-1944-1964.html", tags: "british fighter development royal air force fleet air arm meteor vampire attacker venom sea hawk hunter javelin lightning" }
+  ,{ title: "British Fighter Force in 1947", description: "The operational, second-line, preproduction, and prototype layers of Britain's final wartime fighter force", href: "british-fighter-force-1947.html", tags: "britain 1947 fighter force second battle meteor vampire attacker venom sea hawk raf fleet air arm" }
+  ,{ title: "Meteor F.4", description: "The principal British frontline jet fighter of the Second Battle of Britain", href: "meteor-f4.html", tags: "gloster meteor f4 britain royal air force frontline jet fighter 1947 me 262" }
+  ,{ title: "Meteor F.8 Development Aircraft", description: "The preproduction Meteor fighters considered for emergency combat evaluation in 1947", href: "meteor-f8.html", tags: "gloster meteor f8 development preproduction emergency evaluation second battle britain" }
+  ,{ title: "Vampire F.3", description: "The growing lightweight single-engine British jet-fighter force of 1947", href: "vampire-f3.html", tags: "de havilland vampire f3 britain royal air force lightweight jet fighter goblin 1947" }
+  ,{ title: "Venom Precursor", description: "The Ghost-powered thin-wing de Havilland prototype of 1947", href: "venom-prototype.html", tags: "de havilland venom prototype precursor thin wing vampire ghost engine 1947" }
+  ,{ title: "Sea Hawk Prototype", description: "Hawker's central-engine naval-jet prototype and service-trial program of 1947", href: "sea-hawk-prototype.html", tags: "hawker sea hawk prototype service trials fleet air arm nene carrier fighter 1947" }
   ,{ title: "Meteor F.3", description: "Britain's 1944 defensive jet fighter", href: "meteor-f3.html", tags: "meteor f3 gloster royal air force defensive jet fighter 1944 cannon" }
   ,{ title: "Vampire F.1", description: "Britain's 1946 lightweight jet fighter", href: "vampire-f1.html", tags: "vampire f1 de havilland royal air force lightweight jet fighter 1946" }
   ,{ title: "Vampire FB.5", description: "Britain's 1948 fighter-bomber and export jet", href: "vampire-fb5.html", tags: "vampire fb5 de havilland fighter bomber export commonwealth 1948" }
@@ -3913,30 +4159,34 @@ const pages = [
   ,{ title: "Hunter F.1", description: "Britain's 1954 transonic day fighter", href: "hunter-f1.html", tags: "hunter f1 hawker royal air force transonic day fighter aden cannon 1954" }
   ,{ title: "Javelin FAW.1", description: "Britain's 1956 all-weather delta interceptor", href: "javelin-faw1.html", tags: "javelin faw1 gloster royal air force all weather delta interceptor radar missiles 1956" }
   ,{ title: "Lightning F.3", description: "Britain's 1964 Mach 2 home-defense interceptor", href: "lightning-f3.html", tags: "lightning f3 english electric royal air force mach 2 interceptor home defense 1964" }
-  ,{ title: "British Strike and Support Aircraft, 1951–1970", description: "Six complementary British conventional strike, reconnaissance, maritime, tanker, strategic, and dispersed-base aircraft", href: "british-strike-support-aircraft-lineage.html", tags: "british strike support aircraft canberra buccaneer tsr-2 harrier vulcan victor royal air force fleet air arm" }
+  ,{ title: "British Strike and Support Aircraft, 1951–1969", description: "Six complementary British conventional strike, reconnaissance, maritime, tanker, strategic, and dispersed-base aircraft", href: "british-strike-support-aircraft-lineage.html", tags: "british strike support aircraft canberra buccaneer tsr-2 harrier vulcan victor royal air force fleet air arm" }
+  ,{ title: "Canberra B.1", description: "Britain's emergency Derwent-powered jet bomber of 1947", href: "canberra-b1.html", tags: "canberra b1 english electric royal air force derwent emergency bomber second battle britain 1947" }
   ,{ title: "Canberra B.2", description: "Britain's 1951 conventional jet bomber and reconnaissance aircraft", href: "canberra-b2.html", tags: "canberra b2 english electric royal air force conventional bomber reconnaissance 1951" }
   ,{ title: "Vulcan B.2", description: "Britain's 1961 conventional strategic bomber", href: "vulcan-b2.html", tags: "vulcan b2 avro royal air force conventional strategic bomber stand-off missiles 1961" }
   ,{ title: "Buccaneer S.2", description: "Britain's 1965 low-altitude maritime strike aircraft", href: "buccaneer-s2.html", tags: "buccaneer s2 blackburn fleet air arm royal air force maritime strike anti-ship 1965" }
   ,{ title: "Victor K.1", description: "Britain's 1965 tanker and strategic-support aircraft", href: "victor-k1.html", tags: "victor k1 handley page royal air force tanker aerial refueling reconnaissance support 1965" }
   ,{ title: "TSR-2 B.1", description: "Britain's operational 1969 Mach 2 interdiction and reconnaissance aircraft", href: "tsr-2-b1.html", tags: "tsr-2 tsr2 b1 british aircraft corporation royal air force interdiction reconnaissance mach 2 1969" }
-  ,{ title: "Harrier GR.1", description: "Britain's 1970 dispersed-base strike and reconnaissance aircraft", href: "harrier-gr1.html", tags: "harrier gr1 hawker siddeley royal air force vtol stovl dispersed base strike reconnaissance 1970" }
+  ,{ title: "Harrier GR.1", description: "Britain's 1966 dispersed-base strike and reconnaissance aircraft", href: "harrier-gr1.html", tags: "harrier gr1 hawker siddeley royal air force vtol stovl dispersed base strike reconnaissance 1966" }
+  ,{ title: "British STOVL Development", description: "Britain's dispersed-airpower lineage from Harrier to the P.1214/P.1216 family", href: "british-stovl-development.html", tags: "british stovl vtol dispersed airpower harrier sea harrier p1154 p1214 p1216 runway independence" }
+  ,{ title: "Sea Harrier", description: "Fleet Air Arm first-generation naval STOVL fighter operational by 1968", href: "sea-harrier.html", tags: "sea harrier fleet air arm naval stovl vtol small carrier fleet defense 1968" }
+  ,{ title: "British Supersonic STOVL Fighter", description: "P.1154-derived British supersonic dispersed fighter generation of the 1970s", href: "british-supersonic-stovl-fighter.html", tags: "british supersonic stovl fighter p1154 harrier successor royal air force fleet air arm 1970s" }
   ,{ title: "Canadian Interceptor Lineage", description: "Canada's sovereign interceptor development from CF-100 Canuck to two operational Arrow generations", href: "canadian-interceptor-lineage.html", tags: "canadian interceptor lineage canada rcaf avro canuck arrow cf-100 cf-105 arctic defense" }
   ,{ title: "Avro Canada", description: "Canada's Malton designer of the CF-100 Canuck and operational CF-105 Arrow family", href: "avro-canada.html", tags: "avro canada malton aircraft manufacturer cf-100 canuck cf-105 arrow" }
   ,{ title: "Canadair", description: "Canada's Cartierville aircraft-production, adaptation, and support company", href: "canadair.html", tags: "canadair canada cartierville montreal aircraft manufacturer canso licensed production" }
   ,{ title: "CF-100 Mk 4 Canuck", description: "Canada's 1955 all-weather interceptor", href: "cf-100-mk4-canuck.html", tags: "cf-100 mk4 canuck avro canada royal canadian air force all weather interceptor 1955" }
   ,{ title: "CF-105A Arrow", description: "Canada's operational 1962 Mach 2 Arctic interceptor", href: "cf-105a-arrow.html", tags: "cf-105a arrow avro canada royal canadian air force mach 2 arctic interceptor 1962" }
   ,{ title: "CF-105B Arrow", description: "Canada's improved 1968 continental interceptor", href: "cf-105b-arrow.html", tags: "cf-105b arrow avro canada royal canadian air force continental interceptor improved radar 1968" }
-  ,{ title: "José Antonio Remón Cantera", description: "Police commander, president, and institutional precursor of Panamanian military rule", href: "jose-antonio-remon-cantera.html", tags: "panama remon president national police national guard assassination 1955" }
-  ,{ title: "Arnulfo Arias Madrid", description: "Three-time president and civilian Panameñista opponent of military rule", href: "arnulfo-arias-madrid.html", tags: "panama arnulfo arias panamenismo president 1940 1949 1968 coup" }
-  ,{ title: "Roberto Chiari", description: "President of Dignity during the 1964 Canal Zone crisis", href: "roberto-chiari.html", tags: "panama roberto chiari president dignity martyrs day 1964 flag canal" }
-  ,{ title: "Omar Torrijos", description: "National Guard commander, developmental ruler, and canal negotiator", href: "omar-torrijos.html", tags: "panama omar torrijos national guard military regime canal partnership accord" }
-  ,{ title: "Manuel Noriega", description: "Intelligence chief and de facto ruler of Panama from 1983", href: "manuel-noriega.html", tags: "panama manuel noriega intelligence national guard canal security 1983 1985" }
+  ,{ title: "José Antonio Remón Cantera", description: "Working historical precursor of Panamanian military rule", href: "jose-antonio-remon-cantera.html", tags: "panama remon president national police national guard assassination 1955" }
+  ,{ title: "Arnulfo Arias Madrid", description: "Pre-divergence president with a working later Panameñista career", href: "arnulfo-arias-madrid.html", tags: "panama arnulfo arias panamenismo president 1940 1949 1968 coup" }
+  ,{ title: "Roberto Chiari", description: "Working presidential route through the fixed 1964 canal crisis", href: "roberto-chiari.html", tags: "panama roberto chiari president dignity martyrs day 1964 flag canal" }
+  ,{ title: "Omar Torrijos", description: "Historical candidate for Panama's post-1968 military leadership", href: "omar-torrijos.html", tags: "panama omar torrijos national guard military regime canal partnership accord" }
+  ,{ title: "Manuel Noriega", description: "Historical candidate for Panama's mid-1980s intelligence broker", href: "manuel-noriega.html", tags: "panama manuel noriega intelligence national guard canal security 1983 1985" }
   ,{ title: "Hay–Bunau-Varilla Treaty", description: "The 1903 legal foundation of the Panama Canal Zone", href: "hay-bunau-varilla-treaty.html", tags: "panama canal treaty 1903 hay bunau varilla canal zone sovereignty" }
   ,{ title: "Panama Canal Zone", description: "The continuing American strategic jurisdiction around the canal", href: "panama-canal-zone.html", tags: "panama canal zone american jurisdiction bases defense zonian" }
   ,{ title: "Panama Canal", description: "Jointly administered commercial route under American strategic command", href: "panama-canal.html", tags: "panama canal gatun locks atlantic pacific shipping strategy" }
-  ,{ title: "Martyrs' Day", description: "The January 1964 flag crisis that forced canal renegotiation", href: "martyrs-day-panama.html", tags: "panama martyrs day january 9 1964 flag students balboa canal zone" }
-  ,{ title: "1968 Panamanian Coup", description: "The National Guard overthrow of Arnulfo Arias and rise of Omar Torrijos", href: "panamanian-coup-1968.html", tags: "panama coup 1968 arias torrijos boris martinez national guard junta" }
-  ,{ title: "Canal Partnership Accord", description: "Panamanian sovereignty and commerce divided from American military command", href: "canal-partnership-accord.html", tags: "panama canal partnership accord treaty sovereignty joint administration defense" }
+  ,{ title: "Martyrs' Day", description: "Working historical route for the fixed 1964 canal crisis", href: "martyrs-day-panama.html", tags: "panama martyrs day january 9 1964 flag students balboa canal zone" }
+  ,{ title: "1968 Panamanian Coup", description: "Working historical route into Panama's established 1968 military regime", href: "panamanian-coup-1968.html", tags: "panama coup 1968 arias torrijos boris martinez national guard junta" }
+  ,{ title: "Canal Partnership Accord", description: "Working name for a no-transfer canal settlement", href: "canal-partnership-accord.html", tags: "panama canal partnership accord treaty sovereignty joint administration defense" }
   ,{ title: "Buchanan Canal-Defense Expansion", description: "The 1978–1980 modernization of American isthmian defenses", href: "buchanan-canal-defense-expansion.html", tags: "panama canal defense buchanan 1978 1980 radar missile submarine orbital tracking" }
   ,{ title: "Panama National Guard", description: "Combined armed, police, intelligence, and governing institution", href: "panama-national-guard.html", tags: "panama national guard military police intelligence torrijos noriega" }
   ,{ title: "Transit and Financial Economy of Panama", description: "Canal services, shipping, banking, insurance, and corporate brokerage", href: "panamanian-transit-financial-economy.html", tags: "panama economy canal transit shipping registry banking insurance colon finance" }
@@ -3944,38 +4194,38 @@ const pages = [
   ,{ title: "Plínio Salgado", description: "Writer, politician, and founder of Brazilian Integralism", href: "plinio-salgado.html", tags: "brazil plinio salgado integralism aib green shirts corporatism catholic" }
   ,{ title: "Juscelino Kubitschek", description: "President, developmental modernizer, and builder of Brasília", href: "juscelino-kubitschek.html", tags: "brazil juscelino kubitschek jk president brasilia fifty years five development" }
   ,{ title: "João Goulart", description: "Labour president overthrown by the 1964 military coup", href: "joao-goulart.html", tags: "brazil joao goulart jango president labour basic reforms coup 1964" }
-  ,{ title: "Ernesto Geisel", description: "Military president and architect of the controlled political opening", href: "ernesto-geisel.html", tags: "brazil ernesto geisel president military petrobras opening 1974 1979" }
+  ,{ title: "Ernesto Geisel", description: "Historical candidate for Brazil's working military-opening chronology", href: "ernesto-geisel.html", tags: "brazil ernesto geisel president military petrobras opening 1974 1979" }
   ,{ title: "Ação Integralista Brasileira", description: "Brazil's nationwide green-shirt integralist movement, 1932–1937", href: "acao-integralista-brasileira.html", tags: "brazil acao integralista brasileira aib integralism green shirts sigma anaue" }
-  ,{ title: "Estado Novo (Brazil)", description: "Vargas's centralized corporatist dictatorship, 1937–1945", href: "estado-novo-brazil.html", tags: "brazil estado novo vargas dictatorship corporatism labor 1937 1945" }
+  ,{ title: "Estado Novo (Brazil)", description: "Inherited pre-divergence dictatorship with a working post-1941 end", href: "estado-novo-brazil.html", tags: "brazil estado novo vargas dictatorship corporatism labor 1937 1945" }
   ,{ title: "Brazilian National Developmentalism", description: "State planning, industrial sovereignty, and managed foreign capital", href: "brazilian-national-developmentalism.html", tags: "brazil national developmentalism industry planning local content technology transfer" }
-  ,{ title: "Petrobras", description: "Brazil's state-controlled strategic petroleum and technology enterprise", href: "petrobras.html", tags: "brazil petrobras petroleum oil energy state company geisel vargas" }
-  ,{ title: "Brasília", description: "Planned inland federal capital inaugurated in 1960", href: "brasilia.html", tags: "brazil brasilia capital kubitschek lucio costa oscar niemeyer 1960" }
-  ,{ title: "1964 Brazilian Coup", description: "Military overthrow of João Goulart and fall of the Fourth Republic", href: "brazilian-coup-1964.html", tags: "brazil coup 1964 joao goulart military castelo branco fourth republic" }
-  ,{ title: "Brazilian Military Government", description: "Authoritarian developmental republic under military presidents, 1964–1985", href: "brazilian-military-government.html", tags: "brazil military government dictatorship arena mdb ai5 1964 1985" }
-  ,{ title: "Brazilian Economic Miracle", description: "High-growth authoritarian-developmental phase, 1968–1973", href: "brazilian-economic-miracle.html", tags: "brazil economic miracle growth industry infrastructure debt inequality 1968 1973" }
-  ,{ title: "Brazilian Political Opening", description: "Controlled liberalization and return to civilian government, 1974–1985", href: "brazilian-political-opening.html", tags: "brazil political opening abertura democracy amnesty diretas ja geisel figueiredo 1985" }
+  ,{ title: "Petrobras", description: "Working state-enterprise implementation of Brazil's fixed developmental doctrine", href: "petrobras.html", tags: "brazil petrobras petroleum oil energy state company geisel vargas" }
+  ,{ title: "Brasília", description: "Established federal capital with a working construction chronology", href: "brasilia.html", tags: "brazil brasilia capital kubitschek lucio costa oscar niemeyer 1960" }
+  ,{ title: "1964 Brazilian Coup", description: "Working military-coup route within Brazil's autonomous developmental history", href: "brazilian-coup-1964.html", tags: "brazil coup 1964 joao goulart military castelo branco fourth republic" }
+  ,{ title: "Brazilian Military Government", description: "Working 1964–1985 regime route for Brazil's developmental state", href: "brazilian-military-government.html", tags: "brazil military government dictatorship arena mdb ai5 1964 1985" }
+  ,{ title: "Brazilian Economic Miracle", description: "Working 1968–1973 phase within Brazil's established industrial model", href: "brazilian-economic-miracle.html", tags: "brazil economic miracle growth industry infrastructure debt inequality 1968 1973" }
+  ,{ title: "Brazilian Political Opening", description: "Working 1974–1985 route to civilian government", href: "brazilian-political-opening.html", tags: "brazil political opening abertura democracy amnesty diretas ja geisel figueiredo 1985" }
   ,{ title: "Cristero War", description: "The 1926–1929 religious conflict later known as the First Cristiada", href: "first-cristero-war.html", tags: "mexico cristero war first cristiada calles law church state 1926 1929" }
   ,{ title: "Cristero Movement", description: "The religious, familial, regional, and political tradition of Cristero resistance", href: "cristero-movement.html", tags: "mexico cristero movement christ king guadalupe bajio catholic resistance" }
   ,{ title: "National Synarchist Union", description: "Mexico's Catholic-national Sinarquista mass movement", href: "national-synarchist-union.html", tags: "mexico national synarchist union union nacional sinarquista uns sinarquismo catholic corporatism" }
   ,{ title: "National Action Party (Mexico)", description: "Constitutional and socially Catholic opposition to the revolutionary party-state", href: "national-action-party-mexico.html", tags: "mexico national action party pan partido accion nacional opposition catholic municipal" }
-  ,{ title: "Institutional Revolutionary Party", description: "Mexico's revolutionary corporatist party-state and its loss of monopoly", href: "institutional-revolutionary-party-mexico.html", tags: "mexico institutional revolutionary party pri pnr prm party state corporatism" }
-  ,{ title: "Mexican Miracle", description: "Protected industrialization and political continuity from roughly 1940 to 1970", href: "mexican-miracle.html", tags: "mexico mexican miracle economy industrialization import substitution development growth" }
+  ,{ title: "Institutional Revolutionary Party", description: "Working post-1941 route for Mexico's revolutionary party-state", href: "institutional-revolutionary-party-mexico.html", tags: "mexico institutional revolutionary party pri pnr prm party state corporatism" }
+  ,{ title: "Mexican Miracle", description: "Working economic chronology for protected industrialization after 1941", href: "mexican-miracle.html", tags: "mexico mexican miracle economy industrialization import substitution development growth" }
   ,{ title: "Pemex", description: "Mexico's state petroleum company and symbol of strategic sovereignty", href: "pemex.html", tags: "mexico pemex petroleos mexicanos oil petroleum cardenas expropriation state enterprise" }
   ,{ title: "Catholic Civil Society in Mexico", description: "Schools, cooperatives, professions, parishes, and civic networks before the Second Cristiada", href: "mexican-catholic-civil-society.html", tags: "mexico catholic civil society schools cooperatives parishes professions second cristiada" }
-  ,{ title: "National Catholic Coalition (Mexico)", description: "The political umbrella of the Second Cristiada", href: "national-catholic-coalition-mexico.html", tags: "mexico national catholic coalition second cristiada pan sinarquista regional governments" }
-  ,{ title: "Guadalupan Corporatism", description: "The Catholic-national doctrine of post-Cristiada Mexico", href: "guadalupan-corporatism.html", tags: "mexico guadalupan corporatism christian nationalism catholic federal municipal economy" }
-  ,{ title: "Mexican Crown Movement", description: "The unresolved post-Cristiada constitutional-monarchist current", href: "mexican-crown-movement.html", tags: "mexico crown movement monarchy iturbide regency elective hereditary constitutional" }
+  ,{ title: "National Catholic Coalition (Mexico)", description: "Working reconstruction of the Second Cristiada's political umbrella", href: "national-catholic-coalition-mexico.html", tags: "mexico national catholic coalition second cristiada pan sinarquista regional governments" }
+  ,{ title: "Guadalupan Corporatism", description: "Working model for Catholic-national institutions in mature Mexico", href: "guadalupan-corporatism.html", tags: "mexico guadalupan corporatism christian nationalism catholic federal municipal economy" }
+  ,{ title: "Mexican Crown Movement", description: "Exploratory route toward a plausible but unresolved later monarchy", href: "mexican-crown-movement.html", tags: "mexico crown movement monarchy iturbide regency elective hereditary constitutional" }
   ,{ title: "Augusto Pinochet", description: "The Chilean army officer who becomes an authoritarian national balancer", href: "augusto-pinochet.html", tags: "chile augusto pinochet military ruler national equilibrium balance dictator" }
-  ,{ title: "Chilean Officers' Crisis", description: "The 1966–1968 military, procurement, and foreign-patron crisis", href: "chilean-officers-crisis.html", tags: "chile officers crisis 1966 1968 military procurement foreign patron pinochet" }
+  ,{ title: "Chilean Officers' Crisis", description: "Working 1966–1968 precursor to Pinochet's later rule", href: "chilean-officers-crisis.html", tags: "chile officers crisis 1966 1968 military procurement foreign patron pinochet" }
   ,{ title: "Popular National Front (Chile)", description: "The working left-national coalition overthrown in the early 1970s", href: "popular-national-front-chile.html", tags: "chile popular national front left national copper labor coalition" }
-  ,{ title: "Chilean Military Coup", description: "The early-1970s intervention that creates the four-service junta", href: "chilean-military-coup.html", tags: "chile military coup 1972 1973 1974 junta pinochet" }
+  ,{ title: "Chilean Military Coup", description: "Working early-1970s route to Pinochet's established regime", href: "chilean-military-coup.html", tags: "chile military coup 1972 1973 1974 junta pinochet" }
   ,{ title: "Military Government of Chile", description: "Pinochet's repressive military-developmental balance state", href: "military-government-chile.html", tags: "chile military government junta dictatorship pinochet repression development" }
   ,{ title: "Chilean Armed Forces", description: "The multi-source army, navy, air, police, and frontier-defense system", href: "chilean-armed-forces.html", tags: "chile armed forces army navy air force carabineros mountain defense" }
-  ,{ title: "Chilean Copper Industry", description: "Strategic mineral sovereignty, nationalization, and development finance", href: "chilean-copper-industry.html", tags: "chile copper industry nationalization mining state ownership development" }
-  ,{ title: "Chilean Military-Developmental Economy", description: "The state-guided mixed economy that replaces historical neoliberalism", href: "chilean-military-developmental-economy.html", tags: "chile military developmental economy mixed state copper banks industry" }
-  ,{ title: "Chilean National Intelligence Service", description: "The military government's centralized repressive security apparatus", href: "chilean-national-intelligence-service.html", tags: "chile national intelligence service security repression surveillance torture disappearance" }
-  ,{ title: "Chile–Britain Defense Relationship", description: "Naval, radar, staff, intelligence, and Falklands cooperation", href: "chile-britain-defense-relationship.html", tags: "chile britain defense relationship navy radar falklands intelligence" }
-  ,{ title: "Beagle Conflict", description: "The southern island and maritime dispute feeding the Cold Andes", href: "beagle-conflict.html", tags: "beagle conflict chile argentina picton lennox nueva 1978 cold andes" }
+  ,{ title: "Chilean Copper Industry", description: "Working ownership route for Chile's strategic mineral economy", href: "chilean-copper-industry.html", tags: "chile copper industry nationalization mining state ownership development" }
+  ,{ title: "Chilean Military-Developmental Economy", description: "Working institutions beneath Chile's fixed non-Chicago direction", href: "chilean-military-developmental-economy.html", tags: "chile military developmental economy mixed state copper banks industry" }
+  ,{ title: "Chilean National Intelligence Service", description: "Working model for Pinochet's established repressive apparatus", href: "chilean-national-intelligence-service.html", tags: "chile national intelligence service security repression surveillance torture disappearance" }
+  ,{ title: "Chile–Britain Defense Relationship", description: "Working bilateral detail within Chile's fixed British security lean", href: "chile-britain-defense-relationship.html", tags: "chile britain defense relationship navy radar falklands intelligence" }
+  ,{ title: "Beagle Conflict", description: "Working post-divergence route into the southern contingency", href: "beagle-conflict.html", tags: "beagle conflict chile argentina picton lennox nueva 1978 cold andes" }
   ,{ title: "French Industrial Partition of 1947", description: "The division of plants, firms, ownership, and standards between the successor states", href: "french-industrial-partition-1947.html", tags: "france french industrial partition 1947 factories companies northern occitania" }
   ,{ title: "Cross-border French Industrial Claims", description: "Ownership, brands, patents, debts, and pensions across the French frontier", href: "cross-border-french-industrial-claims.html", tags: "france industrial claims cross border ownership patents brands clearing" }
   ,{ title: "Automobile Industry of Northern France", description: "The Billancourt, Javel, Nanterre, Poissy, and Sochaux vehicle system", href: "automobile-industry-northern-france.html", tags: "northern france automobile industry cars renault citroen peugeot simca panhard" }
@@ -4286,6 +4536,38 @@ const pages = [
   ,{ title: "Viktor Kienböck", description: "Finance minister and administrator of Austrian monetary stabilization", href: "viktor-kienboeck.html", tags: "viktor kienbock kienböck austria finance minister schilling national bank stabilization" }
   ,{ title: "Leopold Waber", description: "Greater German coalition leader, vice-chancellor, and parliamentary president", href: "leopold-waber.html", tags: "leopold waber austria greater german vice chancellor justice national council" }
   ,{ title: "Vinzenz Schumy", description: "Carinthian governor, Landbund leader, and Austrian vice-chancellor", href: "vinzenz-schumy.html", tags: "vinzenz schumy austria carinthia landbund agrarian vice chancellor plebiscite" }
+  ,{ title: "Sverdlovsk Military Armistice", description: "The military suspension and protected evacuation that ended organized operations on the principal German–Soviet front", href: "sverdlovsk-military-armistice.html", tags: "Sverdlovsk military armistice German Soviet war evacuation February 1946" }
+  ,{ title: "Northern Intervention Directive", description: "Japan's December 1945 authorization for intervention in the fragmented Soviet Far East", href: "northern-intervention-directive.html", tags: "Northern Intervention Directive Japan Manchuria Maritime Province Amur Russian Far East 1946" }
+  ,{ title: "Vladivostok Fleet Agreement", description: "The February 1947 supervised settlement of Soviet Pacific naval resistance", href: "vladivostok-fleet-agreement.html", tags: "Vladivostok Fleet Agreement Soviet Pacific Fleet Japan naval standstill 1947" }
+  ,{ title: "Battle of Cape Bougaroun", description: "The February 1943 surface action that sank Giulio Cesare during the Algerian campaign", href: "battle-of-cape-bougaroun.html", tags: "Battle Cape Bougaroun Giulio Cesare HMS Sirius Operation Torch Royal Navy Regia Marina" }
+  ,{ title: "Fate of the Soviet Navy", description: "The four regional endings of the Baltic, Black Sea, Northern, and Pacific fleets", href: "fate-of-the-soviet-navy.html", tags: "fate Soviet Navy fleets Baltic Black Sea Northern Pacific collapse inheritance" }
+  ,{ title: "Baltic Fleet Inheritance", description: "The mixed German and Finnish inheritance of the Leningrad fortress fleet", href: "baltic-fleet-inheritance.html", tags: "Baltic Fleet inheritance Finland Germany Leningrad Kronstadt Maksim Gorky naval prizes" }
+  ,{ title: "Destruction of the Black Sea Fleet", description: "The May 1946 scuttling and dispersal at Poti and Batumi", href: "destruction-of-the-black-sea-fleet.html", tags: "destruction Black Sea Fleet Poti Batumi scuttling Turkey internment May 1946" }
+  ,{ title: "Northern Fleet Dispersal", description: "The division of Soviet Arctic ships and bases among successor authorities", href: "northern-fleet-dispersal.html", tags: "Northern Fleet dispersal Soviet Arctic Finland Germany local Russian commands" }
+  ,{ title: "Vladivostok Protectorate Fleet", description: "The Russian-crewed successor to the Soviet Pacific Fleet establishment at Vladivostok", href: "vladivostok-protectorate-fleet.html", tags: "Vladivostok Protectorate Fleet Urajio Russian navy Soviet Pacific Fleet Japanese supervision" }
+  ,{ title: "Russian Far Eastern Navy", description: "The coastal and river naval service of the Russian Far Eastern State", href: "russian-far-eastern-navy.html", tags: "Russian Far Eastern Navy Sovetskaya Gavan Petropavlovsk Nikolayevsk Amur" }
+  ,{ title: "Amur River Flotilla", description: "The shallow-draft patrol and transport force of the Russian Far Eastern State", href: "amur-river-flotilla.html", tags: "Amur River Flotilla Konstantinovka gunboats patrol transport river navy" }
+  ,{ title: "Nikolayevsk Naval Establishment", description: "The lower-Amur estuary and river–sea naval station", href: "nikolayevsk-naval-establishment.html", tags: "Nikolayevsk-on-Amur naval establishment estuary Sea of Okhotsk river sea transfer" }
+  ,{ title: "Soviet Pacific Fleet (1941–1947)", description: "The armed-neutral Pacific fleet, its Soviet-built core, and its negotiated preservation", href: "soviet-pacific-fleet-1941-1947.html", tags: "Soviet Pacific Fleet Vladivostok Project Hula neutrality Japan 1941 1947 preservation" }
+  ,{ title: "Sovetskaya Gavan Naval Base", description: "The principal Tatar Strait and Pacific base of the Russian Far Eastern Navy", href: "sovetskaya-gavan-naval-base.html", tags: "Sovetskaya Gavan naval base Tatar Strait Sea of Okhotsk Russian Far Eastern Navy" }
+  ,{ title: "Petropavlovsk-Kamchatsky Naval Station", description: "The Kamchatka and northern Pacific station of the Russian Far Eastern Navy", href: "petropavlovsk-kamchatsky-naval-station.html", tags: "Petropavlovsk Kamchatsky naval station Avacha Bay Kamchatka Russian Far Eastern Navy" }
+  ,{ title: "Soviet Air Forces in the German–Soviet War", description: "The VVS, its 1942–43 high-water period, and its progressive operational narrowing", href: "soviet-air-forces-german-soviet-war.html", tags: "Soviet Air Forces VVS German Soviet War aviation eastern front 1941 1946" }
+  ,{ title: "Soviet Aviation Material Crisis", description: "The industrial, logistical, fuel, engine, and personnel constraints on Soviet air power", href: "soviet-aviation-material-crisis.html", tags: "Soviet aviation material crisis aluminum alloys fuel engines spares radios pilots aircraft production" }
+  ,{ title: "Soviet Aviation Industrial Evacuation", description: "The eastward movement and reconstruction of Soviet aircraft production", href: "soviet-aviation-industrial-evacuation.html", tags: "Soviet aviation industrial evacuation aircraft factories engines machine tools eastward production" }
+  ,{ title: "Soviet Pilot Training and Replacement Crisis", description: "Fuel, instructor, conversion, and specialist-aircrew limits on the wartime VVS", href: "soviet-pilot-training-replacement-crisis.html", tags: "Soviet pilot training replacement crisis VVS instructors aircrew navigators fuel" }
+  ,{ title: "Soviet Aviation Field Maintenance and Salvage", description: "Repair, recovery, overhaul, substitution, and cannibalization in the wartime VVS", href: "soviet-aviation-field-maintenance-salvage.html", tags: "Soviet aviation field maintenance salvage repair recovery overhaul cannibalization VVS" }
+  ,{ title: "Soviet Local Air Concentration", description: "Temporary late-war air parity over selected defended sectors", href: "soviet-local-air-concentration.html", tags: "Soviet local air concentration VVS defended islands parity priority sectors 1943 1945" }
+  ,{ title: "Dispersal of the Soviet Air Forces", description: "The division of VVS units and institutions during the Soviet collapse", href: "dispersal-soviet-air-forces.html", tags: "dispersal Soviet Air Forces VVS collapse successor states aircraft airfields depots schools" }
+  ,{ title: "Soviet Wartime Fighter Aviation", description: "The narrowed Yakovlev–Lavochkin fighter system of the wartime VVS", href: "soviet-wartime-fighter-aviation.html", tags: "Soviet wartime fighter aviation Yakovlev Lavochkin Yak LaGG La MiG VVS" }
+  ,{ title: "Yakovlev Wartime Fighter Family", description: "The Yak-1, Yak-7, Yak-9, and Yak-3 inline-engine fighter lineage", href: "yakovlev-wartime-fighter-family.html", tags: "Yakovlev wartime fighter family Yak-1 Yak-7 Yak-9 Yak-3 Klimov" }
+  ,{ title: "Lavochkin Wartime Fighter Family", description: "The LaGG-3, La-5, and limited La-7 radial-engine fighter lineage", href: "lavochkin-wartime-fighter-family.html", tags: "Lavochkin wartime fighter family LaGG-3 La-5 La-7 Shvetsov ASh-82" }
+  ,{ title: "Ilyushin Il-2 Wartime Development", description: "The protected Il-2 attack-aircraft system and its limited Il-10 successor", href: "ilyushin-il-2-wartime-development.html", tags: "Ilyushin Il-2 wartime development Il-10 attack aviation Sturmovik AM-38" }
+  ,{ title: "Soviet Wartime Bomber Aviation", description: "The contracted Pe-2, Il-4, Pe-8, Tu-2, and Yer-2 bomber portfolio", href: "soviet-wartime-bomber-aviation.html", tags: "Soviet wartime bomber aviation Pe-2 Il-4 Pe-8 Tu-2 Yer-2 VVS" }
+  ,{ title: "Mikoyan–Gurevich MiG-3 in Wartime Service", description: "The high-altitude MiG-3 branch and its wartime industrial curtailment", href: "mikoyan-gurevich-mig-3-wartime-service.html", tags: "Mikoyan Gurevich MiG-3 wartime service Soviet fighter high altitude curtailed production" }
+  ,{ title: "Petlyakov Pe-2 in Wartime Service", description: "The principal Soviet tactical-bomber and reconnaissance aircraft of the German–Soviet War", href: "petlyakov-pe-2-wartime-service.html", tags: "Petlyakov Pe-2 wartime service Soviet tactical bomber reconnaissance VVS" }
+  ,{ title: "Ilyushin Il-4 in Wartime Service", description: "The reduced Soviet long-range, maritime, night, and reconnaissance bomber establishment", href: "ilyushin-il-4-wartime-service.html", tags: "Ilyushin Il-4 DB-3 wartime service Soviet long range maritime night bomber" }
+  ,{ title: "Petlyakov Pe-8 in Wartime Service", description: "The small Soviet four-engine heavy-bomber force and its selective missions", href: "petlyakov-pe-8-wartime-service.html", tags: "Petlyakov Pe-8 wartime service Soviet heavy bomber diplomatic strategic special missions" }
+  ,{ title: "Tupolev Tu-2 Wartime Development", description: "The limited modern tactical-bomber successor that could not replace Pe-2", href: "tupolev-tu-2-wartime-development.html", tags: "Tupolev Tu-2 wartime development Soviet tactical bomber Pe-2 successor limited production" }
 ];
 
 const here = location.pathname.split("/").pop() || "index.html";
@@ -4527,6 +4809,16 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  { href: "british-wartime-land-doctrine.html", terms: ["British wartime land doctrine", "British wartime doctrine"] },
+  { href: "british-wartime-rifle-platoon.html", terms: ["British wartime rifle platoon", "three-section Bren-centered rifle platoon"] },
+  { href: "british-wartime-close-antitank-system.html", terms: ["British wartime close-antitank system", "British close-antitank system"] },
+  { href: "british-expeditionary-movement-doctrine.html", terms: ["British expeditionary movement doctrine", "combat-complete initial lift", "initial operational lift", "expeditionary movement"] },
+  { href: "wartime-indian-arsenal.html", terms: ["wartime Indian arsenal", "Indian wartime arsenal"] },
+  { href: "australian-cruiser-tank-program.html", terms: ["Australian Cruiser Tank Programme", "Australian Cruiser Tank Program", "AC1 Sentinel", "AC3 Thunderbolt"] },
+  { href: "claire-lee-chennault.html", terms: ["Claire Lee Chennault", "Claire Chennault", "Chennault"] },
+  { href: "william-j-donovan.html", terms: ["William J. Donovan", "William Joseph Donovan", "William Donovan"] },
+  { href: "evacuation-of-the-american-volunteer-group.html", terms: ["evacuation of the American Volunteer Group", "American Volunteer Group evacuation", "AVG evacuation"] },
+  { href: "american-volunteer-group-technical-intelligence.html", terms: ["American Volunteer Group technical intelligence", "AVG technical intelligence", "technical-intelligence work"] },
   { href: "cape-york-space-range.html", terms: ["Cape York Space Range", "Cape York launch range", "Cape York"] },
   { href: "commonwealth-heavy-launch-programme.html", terms: ["Commonwealth heavy-launch programme", "Commonwealth heavy-launch program"] },
   { href: "commonwealth-crewed-transport-programme.html", terms: ["Commonwealth crewed-transport programme", "Commonwealth crewed transport system"] },
@@ -4600,6 +4892,7 @@ const crossLinks = [
   { href: "prinzensprache-reception.html", terms: ["reception of Prinzensprache", "Prinzensprache controversy"] },
   { href: "politics-extraterrestrial-settlement.html", terms: ["politics of extraterrestrial settlement", "settlement politics beyond Earth"] },
   { href: "german-extraterrestrial-settlement-policy.html", terms: ["German extraterrestrial settlement policy", "German settlement policy beyond Earth"] },
+  { href: "german-space-settlement-recruitment.html", terms: ["German space-settlement recruitment", "German space settlement recruitment", "eastern German space settlers"] },
   { href: "american-commercial-settlement-policy.html", terms: ["American commercial settlement policy", "American commercial settlement"] },
   { href: "japanese-machine-prepared-settlement-policy.html", terms: ["Japanese machine-prepared settlement policy", "machine-prepared settlement"] },
   { href: "commonwealth-sovereign-settlement-policy.html", terms: ["Commonwealth sovereign settlement policy", "Commonwealth settlement policy"] },
@@ -4687,6 +4980,14 @@ const crossLinks = [
   { href: "cumulative-conventional-deterrence.html", terms: ["cumulative conventional deterrence", "cumulative deterrent system"] },
   { href: "strategic-submarine-deterrence.html", terms: ["strategic submarine deterrence", "undersea deterrent"] },
   { href: "conventional-missile-deterrence.html", terms: ["conventional missile deterrence", "conventional missile campaign"] },
+  { href: "german-guided-weapons-development.html", terms: ["German guided-weapon development", "German missile development", "German guided weapons"] },
+  { href: "fi-103.html", terms: ["Fi 103", "FZG 76", "Fieseler Fi 103"] },
+  { href: "a4-rocket.html", terms: ["A4 rocket", "Aggregat 4", "German A4"] },
+  { href: "fritz-x.html", terms: ["Fritz X", "Fritz-X"] },
+  { href: "wasserfall.html", terms: ["Wasserfall missile", "Wasserfall"] },
+  { href: "ruhrstahl-x-4.html", terms: ["Ruhrstahl X-4", "X-4 air-to-air missile", "X-4 missile"] },
+  { href: "german-flugziel-program.html", terms: ["German Flugziel program", "Flugziel establishment"] },
+  { href: "american-guided-weapons-development.html", terms: ["Guided-weapon development in the United States", "American guided-weapon development", "American missile development"] },
   { href: "conventional-strategic-bombardment.html", terms: ["conventional strategic bombardment", "strategic bombing campaign"] },
   { href: "industrial-depth-deterrence.html", terms: ["industrial-depth deterrence", "industrial depth"] },
   { href: "alliance-geography-deterrence.html", terms: ["alliance-geography deterrence", "alliance geography"] },
@@ -4851,8 +5152,11 @@ const crossLinks = [
   { href: "eastern-occupational-education.html", terms: ["Eastern occupational education", "occupational licensing"] },
   { href: "eastern-resistance-system.html", terms: ["Eastern resistance", "selective repression"] },
   { href: "eastern-automation.html", terms: ["Eastern automation", "automated rail corridors"] },
-  { href: "german-colonial-middle-class.html", terms: ["German colonial middle class", "Ostpraxisjahr", "Ostdienstjahr"] },
-  { href: "eastern-family-economy.html", terms: ["Eastern family economies", "family wage"] },
+  { href: "transport-corridors-eastern-reichskommissariats.html", terms: ["Eastern transport corridors", "settlement corridors", "Eastern railways"] },
+  { href: "german-colonial-middle-class.html", terms: ["German colonial middle class"] },
+  { href: "ostpraxisjahr.html", terms: ["Ostpraxisjahr", "Ostdienstjahr", "eastern practical year"] },
+  { href: "eastern-family-economy.html", terms: ["Eastern family service", "Eastern family economies", "family wage", "cadet service"] },
+  { href: "ostdeutsch-regional-identities.html", terms: ["Ostdeutsch regional identities", "Eastern settler culture", "Reichsostdeutsche", "Siedlungsdeutsche"] },
   { href: "mittelafrika.html", terms: ["Reichskommissariat Mittelafrika", "Mittelafrika"] },
   { href: "counting-wars.html", terms: ["Counting Wars"] },
   { href: "general-registration.html", terms: ["General Registration of Mittelafrika", "General Registration"] },
@@ -4866,7 +5170,12 @@ const crossLinks = [
   { href: "malebo-sperrwerk.html", terms: ["Malebo-Sperrwerk"] },
   { href: "inga-werke.html", terms: ["Inga-Werke"] },
   { href: "kongosee-eingreifgruppe.html", terms: ["Kongosee-Eingreifgruppe", "Seefeuerwehr"] },
-  { href: "kongosee-stromschutz.html", terms: ["Kongosee- und Stromschutz", "Kongosee-Sicherungsverband", "Kongoseeflotte", "Kongoflotte"] },
+  { href: "kongosee-stromschutz.html", terms: ["Kongosee- und Stromschutz", "Kongoseeflotte", "Kongoflotte"] },
+  { href: "kss-patrol-craft.html", terms: ["KSS patrol craft", "KSS patrol boats"] },
+  { href: "kss-assault-landing-craft.html", terms: ["KSS assault and landing craft", "KSS assault craft", "KSS landing craft"] },
+  { href: "kss-specialist-support-craft.html", terms: ["KSS specialist support craft", "KSS support craft"] },
+  { href: "stuetzpunktprahme.html", terms: ["Stützpunktprahme", "Stützpunktprahm", "station barges"] },
+  { href: "kongosee-sicherungsverband.html", terms: ["Kongosee-Sicherungsverband"] },
   { href: "kongosee.html", terms: ["Kongosee"] },
   { href: "kongostadt.html", terms: ["Kongostadt"] },
   { href: "combat-fragmented-terrain.html", terms: ["Gefechtsführung im zerschnittenen Raum", "Combat in Fragmented Terrain"] },
@@ -4909,6 +5218,9 @@ const crossLinks = [
   { href: "centurion-tank.html", terms: ["Centurion Mk 13", "Centurion Mk 10", "Centurion Mk 3", "Centurion Mk 2", "Centurion Mk 1", "Centurion tank", "Centurions"] },
   { href: "charioteer-tank.html", terms: ["Charioteer tank", "Charioteer"] },
   { href: "conqueror-tank.html", terms: ["Conqueror Mk 2", "Conqueror tank", "Conquerors"] },
+  { href: "conway-experimental-tank.html", terms: ["Conway experimental tank", "Conway tank", "Conway"] },
+  { href: "churchill-crocodile.html", terms: ["Churchill Crocodile", "Crocodile flame tank"] },
+  { href: "caernarvon-development-vehicle.html", terms: ["Caernarvon development vehicle", "Caernarvon tank", "Caernarvon"] },
   { href: "chieftain-tank.html", terms: ["Chieftain Mk 10", "Chieftain Mk 8", "Chieftain Mk 5", "Chieftain Mk 3", "Chieftain tanks", "Chieftains", "Chieftain"] },
   { href: "challenger-1.html", terms: ["Challenger 1 Mk 1", "Challenger 1", "Challenger tanks", "Challenger"] },
   { href: "british-carriers-and-reconnaissance.html", terms: ["British carriers and tracked reconnaissance", "British carrier and reconnaissance system", "British support-vehicle fleet"] },
@@ -4989,13 +5301,36 @@ const crossLinks = [
   { href: "messerschmitt.html", terms: ["Messerschmitt", "Bayerische Flugzeugwerke", "BFW aircraft"] },
   { href: "focke-wulf.html", terms: ["Focke-Wulf", "Focke Wulf"] },
   { href: "horten-gotha.html", terms: ["Horten-Gotha", "Horten Gotha", "Horten flying wings"] },
+  { href: "horten-xviii.html", terms: ["Horten XVIII", "H XVIII", "Horten H XVIII"] },
+  { href: "messerschmitt-me-464.html", terms: ["Messerschmitt Me 464", "Me 464", "Horten XVIII competitor"] },
+  { href: "gotha-weltblick.html", terms: ["Gotha Weltblick", "Weltblick airliner", "Weltblick"] },
   { href: "junkers-aircraft.html", terms: ["Junkers Aircraft", "Junkers Flugzeug- und Motorenwerke", "Junkers"] },
   { href: "heinkel.html", terms: ["Heinkel", "Ernst Heinkel Flugzeugwerke"] },
   { href: "arado.html", terms: ["Arado", "Arado Flugzeugwerke"] },
   { href: "dornier.html", terms: ["Dornier", "Dornier Flugzeugwerke", "Claude Dornier"] },
   { href: "blohm-and-voss.html", terms: ["Blohm & Voss", "Blohm und Voss", "Hamburger Flugzeugbau"] },
   { href: "german-early-jet-generation.html", terms: ["German early-jet generation", "German Early Jet Generation", "late-war and immediate-postwar jets"] },
+  { href: "me-163-komet.html", terms: ["Me 163 Komet", "Me 163", "Komet rocket fighter"] },
+  { href: "hs-129-b3.html", terms: ["Henschel Hs 129 B-3", "Hs 129 B-3", "Hs 129 B3"] },
+  { href: "bk-75-aircraft-cannon.html", terms: ["7.5 cm Bordkanone BK 7,5", "BK 7,5", "BK 7.5", "Bordkanone 75"] },
   { href: "reichsluftgeraetordnung-1948.html", terms: ["Reichsluftgerätordnung 1948", "Reich Air Materiel Regulation of 1948", "Reichsluftgerätordnung"] },
+  { href: "german-aircraft-company-project-registers.html", terms: ["German aircraft company project registers", "German company project registers"] },
+  { href: "messerschmitt-project-register.html", terms: ["Messerschmitt project register", "Messerschmitt P register"] },
+  { href: "focke-wulf-project-register.html", terms: ["Focke-Wulf project register", "Focke-Wulf P register"] },
+  { href: "horten-gotha-project-register.html", terms: ["Horten-Gotha project register", "Horten project register"] },
+  { href: "junkers-ef-project-register.html", terms: ["Junkers EF project register", "Junkers EF register", "EFo research register"] },
+  { href: "heinkel-project-register.html", terms: ["Heinkel project register", "Heinkel P register"] },
+  { href: "arado-project-register.html", terms: ["Arado project register", "Arado E register"] },
+  { href: "rocketdyne.html", terms: ["Rocketdyne"] },
+  { href: "aerojet-general.html", terms: ["Aerojet-General", "Aerojet General"] },
+  { href: "hughes-aircraft.html", terms: ["Hughes Aircraft Company", "Hughes Aircraft"] },
+  { href: "westinghouse-astronuclear-laboratory.html", terms: ["Westinghouse Astronuclear Laboratory", "Westinghouse Astronuclear"] },
+  { href: "lewis-propulsion-laboratory.html", terms: ["Lewis Propulsion Laboratory", "Lewis federal laboratories"] },
+  { href: "harold-kaufman.html", terms: ["Harold R. Kaufman", "Harold Kaufman"] },
+  { href: "space-electric-rocket-test.html", terms: ["Space Electric Rocket Test", "SERT II", "SERT I"] },
+  { href: "american-ion-propulsion.html", terms: ["ion propulsion in the United States", "American ion propulsion"] },
+  { href: "american-nuclear-thermal-propulsion.html", terms: ["nuclear-thermal propulsion in the United States", "American nuclear-thermal propulsion"] },
+  { href: "american-nuclear-electric-propulsion.html", terms: ["nuclear-electric propulsion in the United States", "American nuclear-electric propulsion"] },
   { href: "me-262a-1.html", terms: ["Me 262", "Messerschmitt Me 262"] },
   { href: "me-262f.html", terms: ["Me 262 HG III", "HG III research development"] },
   { href: "he-162c.html", terms: ["He 162 program", "Volksjäger program"] },
@@ -5025,7 +5360,8 @@ const crossLinks = [
   { href: "n1k2-j-shiden-kai.html", terms: ["N1K2-J Shiden Kai", "N1K2-J"] },
   { href: "a7m3-reppu.html", terms: ["A7M3 Reppū", "A7M3 Reppu", "A7M3"] },
   { href: "j7w1-shinden.html", terms: ["J7W1 Shinden", "J7W1"] },
-  { href: "j8m1-shusui.html", terms: ["J8M1 Shūsui", "J8M1 Shusui", "J8M1"] },
+  { href: "j8m1-shusui.html", terms: ["J8M1 Shūsui", "J8M Shūsui", "J8M1 Shusui", "J8M1"] },
+  { href: "ki-200-shinden-ii.html", terms: ["Ki-200 Shinden II", "Ki-200", "Ki 200 Shinden II"] },
   { href: "g9n1-kikka-kai.html", terms: ["Type 6 G9N1 Kikka Kai", "G9N1 Kikka Kai", "Nakajima Kikka Kai"] },
   { href: "j10n1-karyu.html", terms: ["Type 7 J10N1 Karyū", "J10N1 Karyū", "J10N1 Karyu", "Nakajima Ki-201 Karyū", "Nakajima Ki-201 Karyu"] },
   { href: "j7w2-shinden-kai.html", terms: ["J7W2 Shinden Kai", "J7W2"] },
@@ -5034,7 +5370,8 @@ const crossLinks = [
   { href: "japanese-joint-service-combat-aircraft-lineage.html", terms: ["Japanese joint-service combat-aircraft lineage", "Japanese Joint-Service Combat-Aircraft Lineage", "joint-service combat-aircraft lineage"] },
   { href: "a9m1-shippu.html", terms: ["Type 16 A9M1 Shippū", "A9M1 Shippū", "A9M1 Shippu"] },
   { href: "j12n1-raiko.html", terms: ["Type 18 J12N1 Raikō", "J12N1 Raikō", "J12N1 Raiko"] },
-  { href: "a10m1-shippu-kai.html", terms: ["Type 26 A10M1 Shippū Kai", "A10M1 Shippū Kai", "A10M1 Shippu Kai"] },
+  { href: "a10m1-shippu-kai.html", terms: ["A10M Arashi", "A10M1 Arashi", "A10M1", "black crescent intake"] },
+  { href: "a10m2-arashi.html", terms: ["A10M2 Arashi", "A10M2"] },
   { href: "j13m1-raiden.html", terms: ["Type 28 J13M1 Raiden", "J13M1 Raiden"] },
   { href: "j14m1-kairyu.html", terms: ["Type 36 J14M1 Kairyū", "J14M1 Kairyū", "J14M1 Kairyu"] },
   { href: "a11m1-arashi.html", terms: ["Type 38 A11M1 Arashi", "A11M1 Arashi"] },
@@ -5057,20 +5394,74 @@ const crossLinks = [
   { href: "type-42-tsubaki.html", terms: ["Type 42 Tsubaki"] },
   { href: "lockheed.html", terms: ["Lockheed", "Lockheed Aircraft Corporation"] },
   { href: "republic-aviation.html", terms: ["Republic Aviation", "Republic Aircraft"] },
-  { href: "north-american-aviation.html", terms: ["North American Aviation", "NAA aircraft"] },
+  { href: "north-american-aviation.html", terms: ["North American Aviation", "North American/Rockwell", "North American / Rockwell", "North American Rockwell", "NAA aircraft"] },
+  { href: "northrop.html", terms: ["Northrop Corporation", "Northrop Aircraft", "Northrop"] },
   { href: "grumman.html", terms: ["Grumman", "Grumman Aircraft Engineering Corporation"] },
   { href: "general-dynamics-aerospace.html", terms: ["General Dynamics Aerospace", "General Dynamics aircraft"] },
   { href: "fairchild-republic.html", terms: ["Fairchild Republic", "Fairchild-Republic"] },
-  { href: "mcdonnell-aircraft.html", terms: ["McDonnell Aircraft", "McDonnell"] },
+  { href: "mcdonnell-aircraft.html", terms: ["McDonnell Douglas", "McDonnell Aircraft", "McDonnell"] },
   { href: "douglas-aircraft.html", terms: ["Douglas Aircraft", "Douglas Aircraft Company"] },
+  { href: "bell-aircraft.html", terms: ["Bell Aircraft Corporation", "Bell Aircraft"] },
   { href: "vought.html", terms: ["Vought", "Chance Vought"] },
   { href: "boeing-aircraft.html", terms: ["Boeing Aircraft", "Boeing Airplane Company", "Boeing"] },
   { href: "martin-aircraft.html", terms: ["Martin Aircraft", "Glenn L. Martin Company", "Martin aircraft"] },
   { href: "convair.html", terms: ["Convair", "Consolidated Vultee"] },
   { href: "american-early-jet-generation.html", terms: ["American early-jet generation", "American Early-Jet Generation", "American early jets"] },
+  { href: "american-jet-procurement-under-neutrality.html", terms: ["American jet procurement under neutrality", "jet procurement under neutrality", "neutral-American jet procurement"] },
+  { href: "american-swept-wing-research.html", terms: ["American swept-wing research", "American swept wing research", "NACA swept-wing research"] },
   { href: "american-jet-engine-industry.html", terms: ["jet-engine industry of the United States", "American jet-engine industry", "American jet engine industry"] },
+  { href: "henry-h-arnold.html", terms: ["Henry H. Arnold", "Henry Harley Arnold", "Hap Arnold", "General Arnold"] },
+  { href: "naca-special-committee-on-jet-propulsion.html", terms: ["NACA Special Committee on Jet Propulsion", "Special Committee on Jet Propulsion"] },
+  { href: "national-advisory-committee-for-aeronautics.html", terms: ["National Advisory Committee for Aeronautics", "NACA"] },
+  { href: "langley-memorial-aeronautical-laboratory.html", terms: ["Langley Memorial Aeronautical Laboratory", "Langley Aeronautical Laboratory"] },
+  { href: "ames-aeronautical-laboratory.html", terms: ["Ames Aeronautical Laboratory"] },
+  { href: "national-defense-research-committee.html", terms: ["National Defense Research Committee", "NDRC"] },
+  { href: "office-of-scientific-research-and-development.html", terms: ["Office of Scientific Research and Development", "OSRD"] },
+  { href: "william-f-durand.html", terms: ["William F. Durand", "William Frederick Durand"] },
+  { href: "vannevar-bush.html", terms: ["Vannevar Bush"] },
+  { href: "british-american-turbojet-transfer.html", terms: ["British–American turbojet transfer", "British-American turbojet transfer", "1941 turbojet transfer"] },
+  { href: "frank-whittle.html", terms: ["Frank Whittle", "Whittle"] },
+  { href: "power-jets.html", terms: ["Power Jets", "Power Jets Limited"] },
+  { href: "gloster-e-28-39.html", terms: ["Gloster E.28/39", "E.28/39", "Gloster E28/39"] },
+  { href: "whittle-w1-w1x-turbojet.html", terms: ["Whittle W.1 and W.1X turbojets", "Whittle W.1", "Whittle W.1X", "W.1X engine"] },
+  { href: "power-jets-w2-turbojet.html", terms: ["Power Jets W.2 turbojet program", "Power Jets W.2", "W.2B drawings", "W.2B"] },
+  { href: "rolls-royce-welland.html", terms: ["Rolls-Royce Welland", "Welland turbojet", "Welland"] },
+  { href: "rolls-royce-derwent.html", terms: ["Rolls-Royce Derwent", "Derwent turbojet", "Derwent"] },
+  { href: "gloster-f9-40-meteor-prototypes.html", terms: ["Gloster F.9/40 Meteor prototype program", "Gloster F.9/40", "F.9/40 prototype program"] },
+  { href: "rolls-royce-nene.html", terms: ["Rolls-Royce Nene", "RB.41 Nene", "Nene turbojet", "Nene engine"] },
+  { href: "rolls-royce-rb44-tay.html", terms: ["Rolls-Royce RB.44 Tay", "RB.44 Tay", "early Tay turbojet"] },
+  { href: "armstrong-siddeley-sapphire.html", terms: ["Armstrong Siddeley Sapphire", "Sapphire turbojet", "Sapphire engine"] },
+  { href: "bristol-olympus.html", terms: ["Bristol Olympus", "Olympus turbojet", "Olympus engine"] },
+  { href: "rolls-royce-avon.html", terms: ["Rolls-Royce Avon", "Avon turbojet", "Avon engine"] },
+  { href: "de-havilland-goblin.html", terms: ["de Havilland Goblin", "Goblin turbojet", "Goblin engine"] },
+  { href: "de-havilland-ghost.html", terms: ["de Havilland Ghost", "Ghost turbojet", "Ghost engine"] },
+  { href: "westinghouse-aviation-gas-turbine-division.html", terms: ["Westinghouse Aviation Gas Turbine Division", "Westinghouse gas-turbine division"] },
+  { href: "westinghouse-j30.html", terms: ["Westinghouse J30", "J30 turbojet", "J30 engine"] },
+  { href: "general-electric-j31-and-allison-j33.html", terms: ["General Electric J31", "GE J31", "Allison J33", "GE I-40", "Type I-A turbojet", "first American centrifugal turbojets"] },
+  { href: "american-jet-engine-procurement-reform.html", terms: ["American jet-engine procurement reform", "airframe-independence rule", "engine-to-airframe redundancy rule", "propulsion procurement reform"] },
+  { href: "american-ramjet-and-hydrogen-flight-research.html", terms: ["American ramjet research", "American liquid-hydrogen flight research", "hydrogen-assisted flight research", "American combined-cycle research"] },
+  { href: "westinghouse-j34.html", terms: ["Westinghouse J34", "J34 turbojet", "J34 engine"] },
+  { href: "westinghouse-j40.html", terms: ["Westinghouse J40", "J40 turbojet", "J40 engine"] },
+  { href: "p-59-airacomet.html", terms: ["Bell P-59 Airacomet", "P-59 Airacomet", "XP-59A", "P-59"] },
+  { href: "general-electric-jet-engine-programs.html", terms: ["General Electric jet-engine programs", "General Electric jet engine programs", "GE jet-engine programs"] },
+  { href: "general-electric-j47.html", terms: ["General Electric J47", "J47 turbojet", "J47"] },
+  { href: "general-electric-j79.html", terms: ["General Electric J79", "J79 turbojet", "J79"] },
+  { href: "general-electric-j93.html", terms: ["General Electric J93", "YJ93", "J93"] },
+  { href: "pratt-whitney-aircraft.html", terms: ["Pratt & Whitney Aircraft", "Pratt & Whitney"] },
+  { href: "allison-engine-company.html", terms: ["Allison Engine Company", "Allison engine division", "Allison Division"] },
+  { href: "curtiss-wright.html", terms: ["Curtiss-Wright Corporation", "Curtiss-Wright"] },
+  { href: "pratt-whitney-j57-j75-engine-family.html", terms: ["Pratt & Whitney J57–J75 engine family", "J57–J75 engine family", "J57 engine", "J75 engine", "J57", "J75"] },
+  { href: "allison-j35-j71-engine-family.html", terms: ["Allison J35 and J71 turbojet programs", "Allison J35", "Allison J71", "J35 engine", "J71 engine"] },
+  { href: "wright-j65-j67-combined-cycle-family.html", terms: ["Wright J65, J67, and combined-cycle programs", "Wright J65", "Wright J67", "XJ67", "XRJ55"] },
   { href: "century-series.html", terms: ["Century Series", "Century-Series"] },
   { href: "teen-series.html", terms: ["Teen Series", "Teen-Series", "F-10 through F-19"] },
+  { href: "f-10-skyknight.html", terms: ["F-10 Skyknight", "F-10A Skyknight", "F-10B Skyknight"] },
+  { href: "f-11a-tiger.html", terms: ["F-11A Tiger", "F-11 Tiger"] },
+  { href: "f-15a-eagle.html", terms: ["F-15A Eagle", "F-15 Eagle"] },
+  { href: "f-17-evaluation-program.html", terms: ["F-17 evaluation program", "F-17 program"] },
+  { href: "f-18a-hornet.html", terms: ["F-18A Hornet", "F-18 Hornet"] },
+  { href: "f-13.html", terms: ["F-13 near-space interceptor", "F-13 combined-cycle interceptor", "F-13"] },
+  { href: "f-19.html", terms: ["F-19 boundary-of-space interceptor", "F-19"] },
   { href: "p-80a-5-shooting-star.html", terms: ["P-80A-5 Shooting Star", "P-80A-5"] },
   { href: "f-80c-shooting-star.html", terms: ["F-80C Shooting Star", "F-80C"] },
   { href: "f-84e-thunderjet.html", terms: ["F-84E Thunderjet", "F-84E"] },
@@ -5094,6 +5485,23 @@ const crossLinks = [
   { href: "f-14a-tomcat.html", terms: ["F-14A Tomcat", "F-14A"] },
   { href: "e-2c-hawkeye.html", terms: ["E-2C Hawkeye", "E-2C"] },
   { href: "american-aerospace-force-atmospheric-fleet.html", terms: ["United States Aerospace Force atmospheric fleet", "American Aerospace Force atmospheric fleet", "Aerospace Force atmospheric fleet"] },
+  { href: "american-strategic-bomber-development.html", terms: ["American strategic-bomber development", "American strategic bomber development", "jet-bomber development program"] },
+  { href: "xb-43-jetmaster.html", terms: ["Douglas XB-43 Jetmaster", "XB-43 Jetmaster", "XB-43"] },
+  { href: "b-45-tornado.html", terms: ["North American B-45 Tornado", "B-45 Tornado", "B-45"] },
+  { href: "xb-46.html", terms: ["Convair XB-46", "XB-46"] },
+  { href: "b-47-stratojet.html", terms: ["Boeing B-47 Stratojet", "B-47 Stratojet", "B-47"] },
+  { href: "xb-48.html", terms: ["Martin XB-48", "XB-48"] },
+  { href: "xb-55.html", terms: ["Boeing XB-55", "XB-55"] },
+  { href: "xb-56.html", terms: ["Boeing XB-56", "XB-56", "YB-47C"] },
+  { href: "b-52-stratofortress.html", terms: ["Boeing B-52 Stratofortress", "B-52 Stratofortress", "B-52A/B", "B-52A", "B-52B", "B-52"] },
+  { href: "xf-103a.html", terms: ["Republic XF-103A", "XF-103A", "XF-103"] },
+  { href: "f-107.html", terms: ["North American F-107", "F-107"] },
+  { href: "x-109a.html", terms: ["Bell X-109A", "X-109A", "D-188A"] },
+  { href: "f-100-super-sabre.html", terms: ["North American F-100 Super Sabre", "F-100 Super Sabre", "F-100"] },
+  { href: "f-101-voodoo.html", terms: ["McDonnell F-101 Voodoo", "F-101 Voodoo", "F-101"] },
+  { href: "f-102-delta-dagger.html", terms: ["Convair F-102 Delta Dagger", "F-102 Delta Dagger", "F-102"] },
+  { href: "f-105-thunderchief.html", terms: ["Republic F-105 Thunderchief", "F-105 Thunderchief", "F-105"] },
+  { href: "f-106-delta-dart.html", terms: ["Convair F-106 Delta Dart", "F-106 Delta Dart", "F-106"] },
   { href: "f-104a-starfighter.html", terms: ["F-104A Starfighter", "F-104A"] },
   { href: "nf-104a-starfighter.html", terms: ["NF-104A Starfighter", "NF-104A"] },
   { href: "f-108a-rapier.html", terms: ["F-108A Rapier", "F-108A"] },
@@ -5107,6 +5515,12 @@ const crossLinks = [
   { href: "x-24-series.html", terms: ["X-24 series", "X-24"] },
   { href: "project-apex.html", terms: ["Project Apex"] },
   { href: "british-fighter-development-1944-1964.html", terms: ["British fighter development, 1944–1964", "British fighter development", "British jet-fighter lineage"] },
+  { href: "british-fighter-force-1947.html", terms: ["British fighter force in 1947", "1947 British fighter force"] },
+  { href: "meteor-f4.html", terms: ["Meteor F.4"] },
+  { href: "meteor-f8.html", terms: ["Meteor F.8", "Meteor F.8 development aircraft"] },
+  { href: "vampire-f3.html", terms: ["Vampire F.3"] },
+  { href: "venom-prototype.html", terms: ["Venom precursor", "Venom prototype"] },
+  { href: "sea-hawk-prototype.html", terms: ["Sea Hawk prototype", "Hawker Sea Hawk"] },
   { href: "meteor-f3.html", terms: ["Meteor F.3"] },
   { href: "vampire-f1.html", terms: ["Vampire F.1"] },
   { href: "vampire-fb5.html", terms: ["Vampire FB.5"] },
@@ -5114,13 +5528,17 @@ const crossLinks = [
   { href: "hunter-f1.html", terms: ["Hunter F.1"] },
   { href: "javelin-faw1.html", terms: ["Javelin FAW.1"] },
   { href: "lightning-f3.html", terms: ["Lightning F.3"] },
-  { href: "british-strike-support-aircraft-lineage.html", terms: ["British strike and support aircraft, 1951–1970", "British strike and support aircraft"] },
+  { href: "british-strike-support-aircraft-lineage.html", terms: ["British strike and support aircraft, 1951–1969", "British strike and support aircraft"] },
+  { href: "canberra-b1.html", terms: ["Canberra B.1"] },
   { href: "canberra-b2.html", terms: ["Canberra B.2"] },
   { href: "vulcan-b2.html", terms: ["Vulcan B.2"] },
   { href: "buccaneer-s2.html", terms: ["Buccaneer S.2"] },
   { href: "victor-k1.html", terms: ["Victor K.1"] },
   { href: "tsr-2-b1.html", terms: ["TSR-2 B.1", "TSR-2"] },
   { href: "harrier-gr1.html", terms: ["Harrier GR.1"] },
+  { href: "british-stovl-development.html", terms: ["British STOVL development", "British dispersed airpower"] },
+  { href: "sea-harrier.html", terms: ["Sea Harrier", "naval Harrier"] },
+  { href: "british-supersonic-stovl-fighter.html", terms: ["British supersonic STOVL fighter", "P.1154-derived supersonic fighter", "P.1154-derived successor"] },
   { href: "canadian-interceptor-lineage.html", terms: ["Canadian interceptor lineage"] },
   { href: "avro-canada.html", terms: ["Avro Canada", "A.V. Roe Canada"] },
   { href: "canadair.html", terms: ["Canadair", "Canadair Limited"] },
@@ -5185,6 +5603,10 @@ const crossLinks = [
   { href: "naval-readiness-status.html", terms: ["naval readiness and status", "afloat and operational", "front-line status"] },
   { href: "kriegsmarine-postwar.html", terms: ["postwar Kriegsmarine", "Kriegsmarine"] },
   { href: "german-surface-fleet.html", terms: ["German surface fleet"] },
+  { href: "german-mittelafrika-sea-communications.html", terms: ["German–Mittelafrika Sea Communications", "German-Mittelafrika sea communications", "Europe–Mittelafrika route", "German Africa convoy system"] },
+  { href: "german-africa-naval-station.html", terms: ["German Africa Naval Station", "Africa Squadron", "Afrika-Geschwader"] },
+  { href: "german-maritime-patrol-aviation.html", terms: ["German maritime-patrol aviation", "German maritime patrol aviation", "German ocean surveillance"] },
+  { href: "pointe-noire.html", terms: ["Pointe-Noire", "Pointe Noire", "Congo–Ocean Railway port"] },
   { href: "german-capital-ships-postwar.html", terms: ["German capital ships", "German battleship fleet"] },
   { href: "german-carrier-force.html", terms: ["German carrier force", "German aircraft-carrier force"] },
   { href: "wotan-class.html", terms: ["Wotan class", "Wotan-class", "Große Lenkwaffenschiffe"] },
@@ -5201,38 +5623,57 @@ const crossLinks = [
   { href: "german-submarine-force.html", terms: ["German submarine force", "U-boat fleet"] },
   { href: "elektroboot-heritage.html", terms: ["Elektroboot", "Elektroboote", "Type XXI", "Type XXIII"] },
   { href: "german-conventional-submarine-line.html", terms: ["German conventional submarine line", "German AIP submarines", "Type XXIV", "Type XXV", "Type XXVI", "Type XXIX", "Lauerboot"] },
+  { href: "type-xxiv-submarine.html", terms: ["Type XXIV", "Type XXIV A", "Type XXIV B", "Stirling Versuch", "German stealth submarine"] },
+  { href: "type-xxix-lauerboot.html", terms: ["Type XXIX", "Type XXIX Lauerboot", "Bodenstützen", "Bodenlage", "Schwebelage"] },
+  { href: "lauerboot-doctrine.html", terms: ["Lauerboot doctrine", "Lauerboote", "seabed ambush doctrine", "German submarine ambush school"] },
   { href: "german-nuclear-attack-submarines.html", terms: ["German nuclear attack submarines", "Jagd-U-Boote", "Jagd-U-Boot", "Type XXX"] },
   { href: "german-guided-missile-submarines.html", terms: ["German guided-missile submarines", "Lenkwaffen-U-Boote", "Lenkwaffen-U-Boot", "Type XXXI"] },
   { href: "german-submersible-transports.html", terms: ["German submersible transports", "Type XXXI/T", "Type XXXV", "Unterseefrachter", "Unterseetransportschiff"] },
+  { href: "type-xxviii-cargo-submarine.html", terms: ["Type XXVIII Cargo Submarine", "Type XXVIII", "first postwar Unterseefrachter"] },
+  { href: "type-xxxi-t-submersible-transport.html", terms: ["Type XXXI/T Submersible Transport", "Type XXXI/T", "XXXI transport conversion"] },
+  { href: "type-xxxv-submersible-transport.html", terms: ["Type XXXV Submersible Transport", "Type XXXV", "XXXV transport"] },
+  { href: "deutsche-ozeanische-reederei.html", terms: ["Deutsche Ozeanische Reederei", "German Oceanic Shipping Company", "DOR submarine cover"] },
   { href: "imperial-japanese-navy-postwar.html", terms: ["postwar Imperial Japanese Navy", "Imperial Japanese Navy"] },
   { href: "japanese-carrier-system.html", terms: ["Japanese carrier system", "carrier-first maritime doctrine"] },
   { href: "yamato-class-postwar.html", terms: ["Yamato class", "Yamato", "Musashi"] },
+  { href: "shinano-nuclear-reconstruction.html", terms: ["Nuclear Reconstruction of Shinano", "Shinano nuclear reconstruction"] },
+  { href: "kii-class-battleship.html", terms: ["Kii-class battleship", "Kii class", "Kii-class"] },
+  { href: "suruga-class-battleship.html", terms: ["Suruga-class battleship", "Suruga class", "Suruga-class"] },
   { href: "japanese-wartime-carrier-inheritance.html", terms: ["Japanese wartime carrier inheritance", "Taihō", "Shinano"] },
-  { href: "amagi-class-carrier.html", terms: ["Amagi class", "Amagi-class", "Katsuragi", "Aso carrier", "Ikoma carrier"] },
-  { href: "hakuryu-class-carrier.html", terms: ["Hakuryū class", "Hakuryū-class", "Hakuryū", "Sōryū"] },
+  { href: "amagi-class-carrier.html", terms: ["Former Amagi carrier reconstruction", "Amagi class", "Amagi-class", "Katsuragi", "Aso carrier", "Ikoma carrier"] },
+  { href: "hakuryu-class-carrier.html", terms: ["Hakuryū class", "Hakuryū-class", "Hakuryū"] },
+  { href: "hiryu-ii-class-carrier.html", terms: ["Hiryū II-class aircraft carrier", "Hiryū II class", "Hiryū II"] },
+  { href: "taiho-ii-class-carrier.html", terms: ["Taihō II-class aircraft carrier", "Taihō II class", "Taihō II"] },
   { href: "zuiho-ii-class.html", terms: ["Zuihō II class", "Zuihō II-class", "Zuihō", "Shōhō", "Ryūhō", "Hiyō"] },
   { href: "japanese-cruiser-force.html", terms: ["Japanese cruiser force"] },
-  { href: "ibuki-class-cruiser.html", terms: ["Ibuki aviation missile cruiser", "Ibuki-class aviation missile cruiser", "Ibuki class"] },
-  { href: "takao-ii-class-cruiser.html", terms: ["Takao II missile cruiser", "Takao II-class missile cruiser", "Takao II class"] },
-  { href: "maya-class-cruiser.html", terms: ["Maya command cruiser", "Maya-class command cruiser", "Maya class"] },
+  { href: "ibuki-class-cruiser.html", terms: ["Former Ibuki cruiser reconstruction", "Ibuki aviation missile cruiser", "Ibuki-class aviation missile cruiser", "Ibuki class"] },
+  { href: "takao-ii-class-cruiser.html", terms: ["Takao II-class cruiser", "Takao II missile cruiser", "Takao II-class missile cruiser", "Takao II class"] },
+  { href: "maya-class-cruiser.html", terms: ["Maya II-class cruiser", "Maya command cruiser", "Maya-class command cruiser", "Maya class"] },
+  { href: "chokai-ii-class-cruiser.html", terms: ["Chōkai II-class cruiser", "Chōkai II command cruiser", "Chokai II-class cruiser", "Chōkai II class"] },
   { href: "japanese-surface-escorts.html", terms: ["Japanese surface escorts"] },
-  { href: "asakaze-class-destroyer.html", terms: ["Asakaze destroyer", "Asakaze-class destroyer", "Asakaze class"] },
-  { href: "amatsukaze-class-destroyer.html", terms: ["Amatsukaze destroyer", "Amatsukaze-class destroyer", "Amatsukaze class"] },
+  { href: "inazuma-class-destroyer.html", terms: ["Inazuma-class destroyer", "Inazuma class", "Inazuma nuclear destroyer"] },
+  { href: "shiranui-ii-class-destroyer.html", terms: ["Shiranui II-class destroyer", "Shiranui II class"] },
+  { href: "asakaze-class-destroyer.html", terms: ["Asakaze II-class destroyer", "Asakaze destroyer", "Asakaze-class destroyer", "Asakaze class"] },
+  { href: "amatsukaze-class-destroyer.html", terms: ["Amatsukaze II-class destroyer", "Amatsukaze destroyer", "Amatsukaze-class destroyer", "Amatsukaze class"] },
   { href: "hatsuyuki-class-destroyer.html", terms: ["Hatsuyuki destroyer", "Hatsuyuki-class destroyer", "Hatsuyuki class"] },
-  { href: "isuzu-class-escort.html", terms: ["Isuzu escort", "Isuzu-class escort", "Isuzu class"] },
-  { href: "chikugo-class-escort.html", terms: ["Chikugo escort", "Chikugo-class escort", "Chikugo class"] },
-  { href: "yubari-class-frigate.html", terms: ["Yūbari frigate", "Yūbari-class frigate", "Yūbari class", "Yubari frigate"] },
+  { href: "isuzu-class-escort.html", terms: ["Former Isuzu escort reconstruction", "Isuzu escort", "Isuzu-class escort", "Isuzu class"] },
+  { href: "chikugo-class-escort.html", terms: ["Former Chikugo escort reconstruction", "Chikugo escort", "Chikugo-class escort", "Chikugo class"] },
+  { href: "yubari-class-frigate.html", terms: ["Former Yūbari frigate reconstruction", "Yūbari frigate", "Yūbari-class frigate", "Yūbari class", "Yubari frigate"] },
   { href: "japanese-submarine-force.html", terms: ["Japanese submarine force"] },
-  { href: "japanese-attack-submarines.html", terms: ["Japanese attack submarines"] },
-  { href: "type-30-uzushio-submarine.html", terms: ["Type 30 Uzushio", "Uzushio-class submarine", "Uzushio class"] },
-  { href: "type-38-yushio-submarine.html", terms: ["Type 38 Yūshio", "Yūshio-class submarine", "Yūshio class", "Type 38 Yushio"] },
-  { href: "type-24-nuclear-attack-submarine.html", terms: ["Type 24 nuclear attack", "Type 24 SSN", "Type 24 nuclear attack submarine"] },
-  { href: "type-38-nuclear-attack-submarine.html", terms: ["Type 38 nuclear attack", "Type 38 SSN", "Type 38 nuclear attack submarine"] },
-  { href: "japanese-type-32-submarine.html", terms: ["Type 32 guided-missile submarine", "Type 32 guided missile"] },
-  { href: "japanese-transport-submarines.html", terms: ["Japanese transport submarines"] },
-  { href: "type-d-i-361-submarine.html", terms: ["Type D / I-361", "Type D transport submarine", "I-361 class"] },
-  { href: "type-18-i-460-submarine.html", terms: ["Type 18 / I-460", "Type 18 transport submarine", "I-460 class"] },
-  { href: "type-36-i-490-submarine.html", terms: ["Type 36 / I-490", "Type 36 transport submarine", "I-490 class", "I-490"] },
+  { href: "japanese-aviation-submarines.html", terms: ["Japanese aviation-submarine program", "Japanese aviation submarines", "strategic aviation-submarine force", "submersible aircraft carriers"] },
+  { href: "i-400-class-aviation-submarine.html", terms: ["I-400-class aviation submarines", "I-400 class", "I-400", "I-401", "I-402"] },
+  { href: "sharjah-raid.html", terms: ["Sharjah raid", "raid on RAF Sharjah"] },
+  { href: "i-500-ryujin.html", terms: ["I-500 Ryūjin", "I-500 Ryujin", "Ryūjin class", "Ryujin class"] },
+  { href: "japanese-attack-submarines.html", terms: ["Japanese attack submarines", "Japanese postwar attack submarine schools"] },
+  { href: "type-30-uzushio-submarine.html", terms: ["Former Type 30 Uzushio reconstruction", "Type 30 Uzushio", "Uzushio-class submarine", "Uzushio class"] },
+  { href: "type-38-yushio-submarine.html", terms: ["Former Type 38 Yūshio reconstruction", "Type 38 Yūshio", "Yūshio-class submarine", "Yūshio class", "Type 38 Yushio"] },
+  { href: "type-24-nuclear-attack-submarine.html", terms: ["Former Type 24 nuclear-attack reconstruction", "Type 24 nuclear attack", "Type 24 SSN", "Type 24 nuclear attack submarine"] },
+  { href: "type-38-nuclear-attack-submarine.html", terms: ["Former Type 38 nuclear-attack reconstruction", "Type 38 nuclear attack", "Type 38 SSN", "Type 38 nuclear attack submarine"] },
+  { href: "japanese-type-32-submarine.html", terms: ["Japanese guided-missile submarine branch", "guided-missile submarine school", "Former Type 32 guided-missile reconstruction", "Type 32 guided-missile submarine"] },
+  { href: "japanese-transport-submarines.html", terms: ["Japanese undersea assault transports", "Japanese transport submarines"] },
+  { href: "type-d-i-361-submarine.html", terms: ["Type D / I-361 reference lineage", "Type D / I-361", "Type D transport submarine", "I-361 class"] },
+  { href: "type-18-i-460-submarine.html", terms: ["Former Type 18 / I-460 reconstruction", "Type 18 / I-460", "Type 18 transport submarine", "I-460 class"] },
+  { href: "type-36-i-490-submarine.html", terms: ["Former Type 36 / I-490 reconstruction", "Type 36 / I-490", "Type 36 transport submarine", "I-490 class", "I-490"] },
   { href: "royal-navy-postwar.html", terms: ["postwar Royal Navy", "Royal Navy"] },
   { href: "siege-commonwealth-naval-system.html", terms: ["Siege Commonwealth naval system", "Commonwealth maritime system"] },
   { href: "british-armistice-fleet.html", terms: ["British armistice fleet", "British naval inheritance", "1947 British fleet"] },
@@ -5430,6 +5871,11 @@ const crossLinks = [
   { href: "reconstruction-truce.html", terms: ["Reconstruction Truce", "November Understanding"] },
   { href: "release-and-resettlement-scheme.html", terms: ["Release and Resettlement Scheme"] },
   { href: "national-reconstruction-corps.html", terms: ["National Reconstruction Corps", "Brick Corps"] },
+  { href: "british-reconstruction-architecture.html", terms: ["British reconstruction architecture", "reconstruction architecture in Britain"] },
+  { href: "civic-restoration-britain.html", terms: ["civic restoration"] },
+  { href: "democratic-modernism-britain.html", terms: ["democratic modernism"] },
+  { href: "new-britannic.html", terms: ["New Britannic", "New Britannic modernism"] },
+  { href: "postwar-housing-britain.html", terms: ["postwar housing in Britain", "British postwar housing", "housing and bomb-damage acts", "Housing and Bomb Damage Acts"] },
   { href: "merchant-fleet-renewal-act.html", terms: ["Merchant Fleet Renewal Act"] },
   { href: "commonwealth-standard-ship-programme.html", terms: ["Commonwealth Standard Ship Programme"] },
   { href: "strategic-industries-arsenal-continuity-act.html", terms: ["Strategic Industries and Arsenal Continuity Act", "Arsenal Continuity Act"] },
@@ -5524,6 +5970,10 @@ const crossLinks = [
   { href: "german-eastern-offensives-1945.html", terms: ["German eastern offensives of 1945", "1945 eastern offensives"] },
   { href: "collapse-soviet-strategic-centers.html", terms: ["Soviet western strategic centers", "western strategic centers"] },
   { href: "soviet-collapse.html", terms: ["Soviet collapse of 1945–1946", "Soviet collapse"] },
+  { href: "soviet-battlefield-commissioning.html", terms: ["Soviet battlefield commissioning", "battlefield commissions", "battlefield commissioning", "late-war Soviet promotion system"] },
+  { href: "erosion-of-stavka-authority.html", terms: ["erosion of Stavka authority", "Stavka authority", "loss of Stavka control"] },
+  { href: "dispersal-of-the-red-army.html", terms: ["dispersal of the Red Army", "Red Army dispersal", "Soviet military dispersal"] },
+  { href: "red-army-inheritance-in-siberia.html", terms: ["Red Army inheritance in Siberia", "Siberian military inheritance", "successor armies"] },
   { href: "removal-of-stalin.html", terms: ["removal and execution of Joseph Stalin", "removal of Stalin"] },
   { href: "soviet-emergency-leadership.html", terms: ["Soviet collective survival leadership", "collective survival leadership"] },
   { href: "joseph-stalin.html", terms: ["Joseph Stalin", "Stalin"] },
@@ -5741,7 +6191,7 @@ const crossLinks = [
   { href: "saudi-arabia.html", terms: ["Kingdom of Saudi Arabia", "Saudi Arabia"] },
   { href: "turkey.html", terms: ["Republic of Turkey", "Turkey"] },
   { href: "middle-east.html", terms: ["Middle East"] },
-  { href: "british-africa.html", terms: ["British Africa", "Cape system", "Cape route"] },
+  { href: "british-africa.html", terms: ["British Africa", "Cape system"] },
   { href: "spain.html", terms: ["Spanish State", "Spain"] },
   { href: "occitania.html", terms: ["Occitania"] },
   { href: "pius-xii.html", terms: ["Pope Pius XII", "Pius XII", "Eugenio Pacelli"] },
@@ -6069,6 +6519,8 @@ const crossLinks = [
   { href: "german-nuclear-power.html", terms: ["Nuclear Power in Germany", "German nuclear power", "German nuclear-energy system"] },
   { href: "german-thorium-program.html", terms: ["German Thorium Programme", "German Thorium Program", "thorium programme", "thorium program"] },
   { href: "japanese-nuclear-power.html", terms: ["Nuclear Power in Japan", "Japanese nuclear power", "Japanese nuclear program"] },
+  { href: "japanese-naval-reactor-development.html", terms: ["Japanese Naval Reactor Development", "Japanese naval reactor program", "Japanese naval reactors"] },
+  { href: "japanese-thorium-fuel-cycle.html", terms: ["Japanese Thorium Fuel Cycle", "Japanese thorium fuel cycle", "ashore thorium fuel cycle", "thorium fuel cycle ashore"] },
   { href: "british-atomic-power-programme.html", terms: ["British Atomic Power Programme", "British Atomic Power Program", "Atoms against blockade", "Atomic Power and Industrial Security Act"] },
   { href: "american-nuclear-catch-up.html", terms: ["American Nuclear-Power Catch-Up", "American nuclear catch-up", "American atomic-power catch-up"] },
   { href: "latin-nuclear-energy-system.html", terms: ["Latin Nuclear-Energy System", "Latin nuclear-energy system", "Latin nuclear program"] },
@@ -6653,6 +7105,7 @@ const crossLinks = [
   { href: "elias-mercer.html", terms: ["Elias Rowan Mercer", "Elias Mercer"] },
   { href: "martin-keene.html", terms: ["Martin Avery Keene", "Martin Keene"] },
   { href: "david-ashcombe.html", terms: ["David Ashcombe"] },
+  { href: "ashcombe-settlement.html", terms: ["Ashcombe settlement", "Ashcombe Settlement"] },
   { href: "martin-calder.html", terms: ["Martin Calder"] },
   { href: "julian-rooke.html", terms: ["Sir Julian Rooke", "Julian Rooke"] },
   { href: "matthew-halden.html", terms: ["Matthew Halden"] },
@@ -6668,12 +7121,34 @@ const crossLinks = [
   { href: "1993-national-renewal-schism.html", terms: ["1993 National Renewal schism", "1993 Renewal schism", "National Renewal schism"] },
   { href: "five-party-republic.html", terms: ["Five-Party Republic", "five-party republic"] },
   { href: "american-orbital-vehicle-program.html", terms: ["American Orbital Vehicle Program", "Operational Vehicle series", "O series", "runway-to-orbit fleet"] },
+  { href: "deep-space-century.html", terms: ["Deep-Space Century", "Deep Space Century", "O-Hundred generation", "O-100 through O-109"] },
+  { href: "o-101-cislunar-dispatch-craft.html", terms: ["O-101", "O-101 Cislunar Dispatch Requirement", "cislunar dispatch craft", "dispatch courier"] },
+  { href: "o-102-heavy-cislunar-freight-tug.html", terms: ["O-102", "O-102 Heavy Cislunar Freight-Tug Requirement", "heavy cislunar freight tug", "cislunar cargo tug"] },
+  { href: "o-103-propellant-tanker-depot-tender.html", terms: ["O-103", "O-103 Propellant-Tanker and Depot-Tender Requirement", "propellant tanker", "depot tender"] },
+  { href: "o-104-deep-space-rescue-recovery.html", terms: ["O-104", "O-104 Deep-Space Rescue and Recovery Requirement", "deep-space rescue", "deep-space recovery"] },
+  { href: "o-105-cislunar-patrol-inspection-craft.html", terms: ["O-105", "O-105 Cislunar Patrol and Inspection Requirement", "cislunar patrol", "inspection craft"] },
+  { href: "o-106-orbital-construction-yard-tender.html", terms: ["O-106", "O-106 Orbital Construction and Yard-Tender Requirement", "orbital construction tender", "yard tender"] },
+  { href: "o-107-long-duration-scientific-survey-craft.html", terms: ["O-107", "O-107 Long-Duration Scientific-Survey Requirement", "scientific survey craft", "long-duration survey"] },
+  { href: "o-108-electric-propulsion-freighter.html", terms: ["O-108", "O-108 Electric-Propulsion Freighter Requirement", "electric-propulsion freighter", "electric freighter"] },
+  { href: "o-109-extralunar-endurance-vehicle.html", terms: ["O-109", "O-109 Extralunar Endurance Requirement", "extralunar endurance vehicle", "deep-space endurance vehicle"] },
+  { href: "american-spacecraft-design.html", terms: ["American spacecraft design", "American aircraft organization"] },
+  { href: "american-spacecraft-manufacturing-industry.html", terms: ["American spacecraft-manufacturing industry", "American spacecraft manufacturing industry"] },
+  { href: "commercial-spacecraft-procurement-united-states.html", terms: ["Commercial spacecraft procurement in the United States", "American commercial spacecraft procurement"] },
+  { href: "american-orbital-combat-aircraft.html", terms: ["Orbital combat aircraft of the United States", "American orbital combat aircraft"] },
+  { href: "american-orbital-carrier-requirement.html", terms: ["American orbital-carrier requirement", "American orbital carrier requirement"] },
+  { href: "merchant-aerospace-united-states.html", terms: ["Merchant aerospace in the United States", "American merchant aerospace", "merchant-aerospace reserve"] },
+  { href: "pilgrim-mars-flight-body.html", terms: ["Pilgrim Mars flight body", "Pilgrim atmospheric flight body"] },
+  { href: "american-space-propulsion-industry.html", terms: ["American space-propulsion industry", "American space propulsion industry", "space-propulsion industry"] },
   { href: "ov-1a-pathfinder.html", terms: ["XO-1 Pathfinder", "Pathfinder orbital aircraft"] },
+  { href: "o-1-pathfinder-reconnaissance-family.html", terms: ["O-1 Pathfinder reconnaissance family", "O-1A/B/C Pathfinder", "O-1A Pathfinder", "O-1B Pathfinder", "O-1C Pathfinder"] },
   { href: "columbia-spaceplane-program.html", terms: ["Columbia Spaceplane Program", "O-2A Columbia", "O-2B Columbia Tanker", "Columbia Tanker"] },
   { href: "liberty-spaceplane.html", terms: ["O-3A Liberty", "O-3B Liberty Automatic", "Liberty Automatic", "Liberty spaceplane"] },
   { href: "ov-4a-hercules.html", terms: ["O-4A Hercules", "Hercules orbital aircraft"] },
   { href: "ov-5a-ranger.html", terms: ["O-5A Ranger", "Ranger orbital aircraft"] },
   { href: "ov-6a-enterprise.html", terms: ["O-6A Enterprise", "Enterprise orbital aircraft"] },
+  { href: "o-8-orbital-tanker.html", terms: ["O-8 orbital tanker", "O-8 tanker", "O-8"] },
+  { href: "o-9-orbital-command-aircraft.html", terms: ["O-9 orbital command aircraft", "O-9 command aircraft", "O-9"] },
+  { href: "o-10-cislunar-spaceplane.html", terms: ["O-10 cislunar spaceplane", "O-10 spaceplane", "O-10"] },
   { href: "canaveral-aerospace-field.html", terms: ["Canaveral Aerospace Field"] },
   { href: "orbital-port-columbia.html", terms: ["United States Orbital Port Columbia", "Orbital Port Columbia", "Columbia Station"] },
   { href: "kennedy-lunar-station.html", terms: ["Kennedy Lunar Station"] },
@@ -6856,7 +7331,9 @@ const crossLinks = [
   ,{ href: "british-space-sovereignty.html", terms: ["British space sovereignty", "space sovereignty"] }
   ,{ href: "american-aerospace-migration-to-britain.html", terms: ["American aerospace migration to Britain", "displaced American aerospace specialists"] }
   ,{ href: "american-cottage-industry-revival.html", terms: ["American cottage-industry revival", "cottage-industry revival", "home enterprise"] }
-  ,{ href: "united-states-aerospace-force.html", terms: ["United States Aerospace Force", "Aerospace Force", "United States Aerospace Command", "Aerospace Command"] }
+  ,{ href: "united-states-aerospace-force.html", terms: ["United States Aerospace Force", "Aerospace Force"] }
+  ,{ href: "united-states-aerospace-command.html", terms: ["United States Aerospace Command", "Aerospace Command"] }
+  ,{ href: "american-strategic-interceptor-development.html", terms: ["American strategic-interceptor development", "American strategic interceptor development", "strategic-interceptor lineage"] }
   ,{ href: "hemispheric-renewal-act.html", terms: ["Hemispheric Renewal Act"] }
   ,{ href: "honduran-security-crisis.html", terms: ["Honduran Security Crisis", "Honduras intervention"] }
   ,{ href: "venezuelan-intervention.html", terms: ["Venezuelan Intervention", "Venezuela intervention", "Caracas Security Settlement"] }
@@ -6879,7 +7356,9 @@ const crossLinks = [
   ,{ href: "m12-airborne-gun-tank.html", terms: ["T92E1 Light Tank", "T92E1 trials", "M12 Airborne Gun Tank"] }
   ,{ href: "japanese-light-armor-and-infantry-carriers.html", terms: ["Japanese light armor and infantry carriers", "Japanese light armour and infantry carriers", "light-armor and infantry-carrier system"] }
   ,{ href: "type-7-chi-ru.html", terms: ["Type 7 Chi-Ru", "Chi-Ru"] }
-  ,{ href: "type-7-ho-to.html", terms: ["Type 7 Ho-To", "Ho-To"] }
+  ,{ href: "type-4-full-tracked-carrier-family.html", terms: ["Type 4 Full-Tracked Carrier Family", "Type 4 carrier family", "Type 4 carrier"] }
+  ,{ href: "type-4-kai-carrier.html", terms: ["Type 4 Kai Carrier", "Type 4 Kai Armored Carrier", "Type 4 Kai carrier"] }
+  ,{ href: "type-7-ho-to.html", terms: ["Former Type 7 Ho-To designation", "Type 7 Ho-To", "Ho-To"] }
   ,{ href: "type-18-yu-ha.html", terms: ["Type 18 Yu-Ha", "Yu-Ha", "Type 18 Yu-Ha Kō", "Type 18 Yu-Ha Otsu"] }
   ,{ href: "type-33-ho-he.html", terms: ["Type 33 Ho-He", "Ho-He"] }
   ,{ href: "type-35-ke-yo.html", terms: ["Type 35 Ke-Yo", "Ke-Yo"] }
@@ -6898,11 +7377,16 @@ const crossLinks = [
   ,{ href: "type-26-shu-he.html", terms: ["Type 26 Shu-He", "Shu-He", "Type 26 Shu-He Kai"] }
   ,{ href: "type-36-shu-ri.html", terms: ["Type 36 Shu-Ri", "Shu-Ri", "Type 36 Shu-Ri Kai", "Type 36 Shu-Ri Kai Ni"] }
   ,{ href: "type-45-shu-ru.html", terms: ["Type 45 Shu-Ru", "Shu-Ru"] }
+  ,{ href: "rj-1-wespe.html", terms: ["Rj 1 Wespe", "Wespe armed inspector"] }
+  ,{ href: "rj-2-habicht.html", terms: ["Rj 2 Habicht", "Habicht gun interceptor"] }
   ,{ href: "rj-3-falke.html", terms: ["Rj 3 Falke", "Falke orbital interceptor"] }
   ,{ href: "type-48-raiden.html", terms: ["Type 48 Orbital Interceptor Raiden", "Type 48 Raiden"] }
   ,{ href: "american-tank-development.html", terms: ["American tank development", "American tank lineage"] }
   ,{ href: "shu-main-battle-tank-lineage.html", terms: ["Shu main battle tank lineage", "Shu lineage", "Shu main-force lineage"] }
   ,{ href: "raumjaeger-program.html", terms: ["Raumjäger program", "Raumjager program", "German Raumjäger"] }
+  ,{ href: "raumhafen-defense-belt.html", terms: ["Raumhafen defense belt", "Raumhafen belt"] }
+  ,{ href: "nordring.html", terms: ["Nordring", "Nordring depot"] }
+  ,{ href: "german-orbital-support-craft.html", terms: ["German orbital support craft", "Raumschlepper", "Bergungsschlepper", "Trümmerräumer"] }
   ,{ href: "underground-france.html", terms: ["Underground France", "underground French"] }
   ,{ href: "punta-del-este-protocols.html", terms: ["Punta del Este Protocols", "Punta del Este settlement"] }
   ,{ href: "aerospace-doctrine.html", terms: ["American aerospace doctrine", "Aerospace doctrine of the United States", "aerospace doctrine"] }
@@ -6963,6 +7447,7 @@ const crossLinks = [
   ,{ href: "kansu-42.html", terms: ["Kansū 42", "Kansū", "関数四二"] }
   ,{ href: "ronri-44.html", terms: ["Ronri 44", "Ronri", "論理四四"] }
   ,{ href: "gazo-44.html", terms: ["Gazō 44", "Gazō", "画像四四"] }
+  ,{ href: "japanese-vertical-computing.html", terms: ["Vertical computing in Japan", "Japanese vertical terminals", "縦型端末"] }
   ,{ href: "international-character-data-standards-council.html", terms: ["International Character and Data Standards Council", "ICDSC"] }
   ,{ href: "concord-architecture.html", terms: ["Concord architecture", "Concord Meridian", "Concord One"] }
   ,{ href: "shadownet.html", terms: ["ShadowNet", "going shadow"] }
@@ -7246,7 +7731,7 @@ const crossLinks = [
   ,{ href: "wewelsburg-rescript-sacrifice.html", terms: ["Wewelsburg Rescript on Sacrifice", "Rescript on Sacrifice", "sacrifice rescript"] }
   ,{ href: "second-recension-wewelsburg-articles.html", terms: ["Second Recension of the Wewelsburg Articles", "second recension of the Articles", "1956 recension"] }
   ,{ href: "wewelsburg-confession.html", terms: ["Wewelsburg Confession"] }
-  ,{ href: "first-order-rite-book.html", terms: ["First Order Rite Book", "Ordensritenbuch"] }
+  ,{ href: "first-order-rite-book.html", terms: ["First Order Rite Book", "Ordensbuch der Feste und Gaben", "Order Book of Feasts and Offerings", "Ordensritenbuch"] }
   ,{ href: "ss-glaubensordnung.html", terms: ["Glaubensordnung"] }
   ,{ href: "main-office-order-faith-life-order.html", terms: ["Main Office for Order Faith and Life Order", "Hauptamt für Ordensglauben und Lebensordnung"] }
   ,{ href: "corroborated-visions-order-faith.html", terms: ["Corroborated visions of the SS Order Faith", "corroborated visions", "Hall of Names", "Great Hall and Green Height"] }
@@ -7256,6 +7741,9 @@ const crossLinks = [
   ,{ href: "orthodox-revival.html", terms: ["postwar Orthodox revival", "Orthodox revival"] }
   ,{ href: "ecclesial-patrimony.html", terms: ["ecclesial patrimony"] }
   ,{ href: "apostolic-communion.html", terms: ["Catholic–Orthodox apostolic communion", "apostolic communion", "near-reunion with the East"] }
+  ,{ href: "commission-reception-council.html", terms: ["Commission for the Reception of the Council", "Council reception commission"] }
+  ,{ href: "commission-apostolic-communion.html", terms: ["Commission for Apostolic Communion", "apostolic communion commission"] }
+  ,{ href: "congregation-eastern-churches.html", terms: ["Congregation for the Eastern Churches", "Eastern Churches congregation"] }
   ,{ href: "bounded-papal-authority.html", terms: ["bounded papal authority", "completion of Vatican I"] }
   ,{ href: "religious-immunity.html", terms: ["religious immunity"] }
   ,{ href: "roman-rite-settlement.html", terms: ["Roman Rite settlement", "stable Roman Rite"] }
@@ -7680,6 +8168,10 @@ const crossLinks = [
   ,{ href: "rino-corso-fougier.html", terms: ["Rino Corso Fougier", "Corso Fougier", "Fougier"] }
   ,{ href: "comando-supremo.html", terms: ["Comando Supremo", "Italian supreme headquarters"] }
   ,{ href: "italian-mediterranean-command-system.html", terms: ["Italian Mediterranean command system", "Mediterranean command system", "Supermarina", "Superaereo"] }
+  ,{ href: "italian-africa-pattern-rifle-platoon.html", terms: ["Italian Africa-pattern rifle platoon", "Africa-pattern platoon", "four-squad platoon", "four ten-man squads", "plotone fucilieri"] }
+  ,{ href: "italian-wartime-junior-leader-system.html", terms: ["Italian wartime junior-leader system", "Italian junior-leader system", "capisquadra", "vicecaposquadra"] }
+  ,{ href: "italian-company-support-attachment-system.html", terms: ["Italian company support-attachment system", "company support-attachment system", "Italian support attachments"] }
+  ,{ href: "italian-wartime-gruppi-tattici.html", terms: ["Italian wartime gruppi tattici", "gruppi tattici", "gruppo tattico", "Italian battlegroups"] }
   ,{ href: "mediterranean-convoy-system.html", terms: ["Mediterranean convoy system", "Italian convoy system", "convoy system"] }
   ,{ href: "mediterranean-and-middle-east-campaign.html", terms: ["Mediterranean and Middle East Campaign", "Mediterranean campaign", "North African campaign"] }
   ,{ href: "second-battle-of-el-alamein.html", terms: ["Second Battle of El Alamein", "second Alamein battle"] }
@@ -7716,6 +8208,8 @@ const crossLinks = [
   ,{ href: "addis-ababa.html", terms: ["Addis Ababa"] }
   ,{ href: "asmara.html", terms: ["Asmara"] }
   ,{ href: "massawa.html", terms: ["Massawa", "Massaua"] }
+  ,{ href: "assab.html", terms: ["Assab", "Aseb", "Asseb"] }
+  ,{ href: "dire-dawa.html", terms: ["Dire Dawa", "Diredawa"] }
   ,{ href: "mogadishu.html", terms: ["Mogadishu", "Mogadiscio"] }
   ,{ href: "east-african-corridor-system.html", terms: ["East African Corridor System", "East African corridor system", "corridor empire"] }
   ,{ href: "colonial-forces-italian-east-africa.html", terms: ["Colonial Forces of Italian East Africa", "Eritrean askari", "Somali formations"] }
@@ -8641,6 +9135,38 @@ const crossLinks = [
   ,{ href: "viktor-kienboeck.html", terms: ["Viktor Kienböck", "Viktor Kienbock", "Kienböck"] }
   ,{ href: "leopold-waber.html", terms: ["Leopold Waber", "Vice-Chancellor Waber", "Vice Chancellor Waber"] }
   ,{ href: "vinzenz-schumy.html", terms: ["Vinzenz Schumy", "Vice-Chancellor Schumy", "Vice Chancellor Schumy"] }
+  ,{ href: "sverdlovsk-military-armistice.html", terms: ["Sverdlovsk Military Armistice", "Sverdlovsk Armistice", "12 February armistice"] }
+  ,{ href: "northern-intervention-directive.html", terms: ["Northern Intervention Directive", "Japanese Northern Intervention Directive", "northern intervention"] }
+  ,{ href: "vladivostok-fleet-agreement.html", terms: ["Vladivostok Fleet Agreement", "Soviet Pacific Fleet standstill", "Vladivostok naval settlement"] }
+  ,{ href: "battle-of-cape-bougaroun.html", terms: ["Battle of Cape Bougaroun", "Cape Bougaroun", "sinking of Giulio Cesare"] }
+  ,{ href: "fate-of-the-soviet-navy.html", terms: ["Fate of the Soviet Navy", "Soviet naval collapse", "four Soviet fleets"] }
+  ,{ href: "baltic-fleet-inheritance.html", terms: ["Baltic Fleet inheritance", "Soviet Baltic Fleet inheritance", "Baltic naval inheritance"] }
+  ,{ href: "destruction-of-the-black-sea-fleet.html", terms: ["Destruction of the Black Sea Fleet", "Black Sea Fleet destruction", "Poti and Batumi scuttling"] }
+  ,{ href: "northern-fleet-dispersal.html", terms: ["Northern Fleet dispersal", "Soviet Northern Fleet dispersal", "Arctic fleet dispersal"] }
+  ,{ href: "vladivostok-protectorate-fleet.html", terms: ["Vladivostok Protectorate Fleet", "Vladivostok fleet"] }
+  ,{ href: "russian-far-eastern-navy.html", terms: ["Russian Far Eastern Navy", "Far Eastern Navy"] }
+  ,{ href: "amur-river-flotilla.html", terms: ["Amur River Flotilla", "Amur flotilla"] }
+  ,{ href: "nikolayevsk-naval-establishment.html", terms: ["Nikolayevsk Naval Establishment", "Nikolayevsk-on-Amur naval station"] }
+  ,{ href: "soviet-pacific-fleet-1941-1947.html", terms: ["Soviet Pacific Fleet (1941–1947)", "Soviet Pacific Fleet"] }
+  ,{ href: "sovetskaya-gavan-naval-base.html", terms: ["Sovetskaya Gavan Naval Base", "Sovetskaya Gavan"] }
+  ,{ href: "petropavlovsk-kamchatsky-naval-station.html", terms: ["Petropavlovsk-Kamchatsky Naval Station", "Kamchatka naval station"] }
+  ,{ href: "soviet-air-forces-german-soviet-war.html", terms: ["Soviet Air Forces in the German–Soviet War", "Soviet Air Forces", "VVS"] }
+  ,{ href: "soviet-aviation-material-crisis.html", terms: ["Soviet Aviation Material Crisis"] }
+  ,{ href: "soviet-aviation-industrial-evacuation.html", terms: ["Soviet Aviation Industrial Evacuation", "aviation industrial evacuation"] }
+  ,{ href: "soviet-pilot-training-replacement-crisis.html", terms: ["Soviet Pilot Training and Replacement Crisis", "Soviet pilot replacement crisis"] }
+  ,{ href: "soviet-aviation-field-maintenance-salvage.html", terms: ["Soviet Aviation Field Maintenance and Salvage", "Soviet aviation salvage"] }
+  ,{ href: "soviet-local-air-concentration.html", terms: ["Soviet Local Air Concentration", "local air concentration"] }
+  ,{ href: "dispersal-soviet-air-forces.html", terms: ["Dispersal of the Soviet Air Forces", "VVS dispersal"] }
+  ,{ href: "soviet-wartime-fighter-aviation.html", terms: ["Soviet Wartime Fighter Aviation"] }
+  ,{ href: "yakovlev-wartime-fighter-family.html", terms: ["Yakovlev Wartime Fighter Family", "Yakovlev fighter family"] }
+  ,{ href: "lavochkin-wartime-fighter-family.html", terms: ["Lavochkin Wartime Fighter Family", "Lavochkin fighter family"] }
+  ,{ href: "ilyushin-il-2-wartime-development.html", terms: ["Ilyushin Il-2 Wartime Development", "Il-2 wartime development"] }
+  ,{ href: "soviet-wartime-bomber-aviation.html", terms: ["Soviet Wartime Bomber Aviation"] }
+  ,{ href: "mikoyan-gurevich-mig-3-wartime-service.html", terms: ["Mikoyan–Gurevich MiG-3 in Wartime Service", "MiG-3 wartime service", "MiG-3"] }
+  ,{ href: "petlyakov-pe-2-wartime-service.html", terms: ["Petlyakov Pe-2 in Wartime Service", "Pe-2 wartime service"] }
+  ,{ href: "ilyushin-il-4-wartime-service.html", terms: ["Ilyushin Il-4 in Wartime Service", "Il-4 wartime service"] }
+  ,{ href: "petlyakov-pe-8-wartime-service.html", terms: ["Petlyakov Pe-8 in Wartime Service", "Pe-8 wartime service"] }
+  ,{ href: "tupolev-tu-2-wartime-development.html", terms: ["Tupolev Tu-2 Wartime Development", "Tu-2 wartime development"] }
 ];
 
 function escapePattern(value) {

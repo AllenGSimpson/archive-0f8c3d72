@@ -36,7 +36,7 @@ Object.assign(window.deepArticles, {
       {id:"propulsion",title:"Propulsion and endurance",html:"<p>USS Chicago proved nuclear surface propulsion, command, and fleet air defense. Nuclear propulsion reduced ship-fuel demand but did not remove weapons, food, spares, crew endurance, or maintenance constraints. The economics did not produce an all-nuclear cruiser force.</p>"},
       {id:"status",title:"Force in 1985",html:"<p>Several heavy- and light-cruiser generations remained in service. Exact class names, active totals, readiness, and assignments require registry reconstruction.</p>"}
     ],
-    related:[{href:"american-carrier-force.html",kicker:"Primary screened force",label:"American Carrier Force"},{href:"american-destroyer-frigate-force.html",kicker:"Outer and inner escorts",label:"American Destroyers and Frigates"},{href:"american-postwar-battleships.html",kicker:"Armored capital arm",label:"American Battleship Force"},{href:"us-navy-postwar.html",kicker:"Parent service",label:"Postwar United States Navy"}],
+    related:[{href:"long-beach-class-cruiser.html",kicker:"Cancelled class and demonstrator",label:"Long Beach Proposal / USS Chicago"},{href:"california-class-cruiser.html",kicker:"Cancelled nuclear-cruiser proposal",label:"California Proposal"},{href:"ticonderoga-class-cruiser.html",kicker:"Fleet-defense cruiser proposal",label:"Ticonderoga Proposal"},{href:"american-carrier-force.html",kicker:"Primary screened force",label:"American Carrier Force"},{href:"american-destroyer-frigate-force.html",kicker:"Outer and inner escorts",label:"American Destroyers and Frigates"},{href:"american-postwar-battleships.html",kicker:"Armored capital arm",label:"American Battleship Force"},{href:"us-navy-postwar.html",kicker:"Parent service",label:"Postwar United States Navy"}],
     facts:[["Heavy-cruiser roles","Command · battle-line support · drone relay"],["Light-cruiser roles","Air defense · reconnaissance · electronic warfare"],["Experimental nuclear cruiser","USS Chicago"],["Namesake","Chicago Pile-1"],["New conventional heavy cruiser","Mid-1980s"],["Exact active total, 1985","Open"]],
     additionalSources:[{href:"https://en.wikipedia.org/wiki/USS_Long_Beach_(CGN-9)",label:"Wikipedia — historical nuclear-cruiser design context"},{href:"https://en.wikipedia.org/wiki/Ticonderoga-class_cruiser",label:"Wikipedia — historical phased-array cruiser context"}]
   }),
@@ -76,49 +76,42 @@ Object.assign(window.deepArticles, {
     facts:[["Ships","Montana; Ohio"],["Principal commissioning allocation","1946–47"],["Conflicting Ohio chronology","Newly commissioned in 1950"],["Role","Heavy answer to the Yamato family"],["Later work","Experimental nuclear work on one hull"],["Exact 1985 allocation","Open"]]
   }),
 
-  "long-beach-class-cruiser": americanNavalArticle({
-    title:"USS Chicago experimental nuclear cruiser",
-    category:"Naval history",
-    landscape:americanLineageLandscape,
-    lead:"This legacy page formerly described a three-ship Long Beach class. That reconstruction is withdrawn. Active canon establishes only USS Chicago as the American experimental nuclear cruiser of the 1960s, built to prove surface nuclear propulsion while serving command and fleet-air-defense functions.",
-    canon:"USS Chicago, its experimental nuclear-cruiser role in the 1960s, its command and fleet-air-defense functions, and its name's reference to Chicago Pile-1 are established. The Long Beach class name, the former Long Beach/Chicago/Albany grouping, commissioning years, displacement, 1985 status, and all detailed specifications and service histories remain open.",
-    sections:[
-      {id:"registry",title:"Registry correction",html:"<!-- altwwii-writer-block:start id=wb-g-20260815-y2c6m writer=g kind=revision created=2026-08-15T13:26:00-06:00 --><p>The former Long Beach-class roster imported too much from the historical carrier navy and is not active canon. The page remains at its legacy address so that older links resolve without presenting the withdrawn class, three-ship roster, specifications, or 1985 accounting as setting fact.</p><!-- altwwii-writer-block:end -->"},
-      {id:"chicago",title:"USS Chicago",html:"<p>USS <em>Chicago</em> is the one named cruiser fixed by the current reference. She served in the 1960s as an experimental nuclear surface ship, a command platform, and a fleet-air-defense cruiser. Her name commemorated Chicago Pile-1.</p>"},
-      {id:"propulsion",title:"Nuclear experiment",html:"<p>Cheap domestic oil delayed American surface nuclear propulsion. Submarines received reactors first because submerged endurance justified the cost. <em>Chicago</em> then proved a surface plant, but the experiment did not establish an all-nuclear cruiser force.</p>"},
-      {id:"open",title:"Open details",html:"<p>The cruiser's class, commissioning date, displacement, reactor arrangement, weapons, sensors, crew, builders, refits, deployments, individual history, and 1985 status require reconstruction.</p>"}
-    ],
-    related:[{href:"american-cruiser-force.html",kicker:"Force history",label:"American Cruiser Force"},{href:"american-carrier-force.html",kicker:"Screened force",label:"American Carrier Force"},{href:"us-navy-postwar.html",kicker:"Parent service",label:"Postwar United States Navy"}],
-    facts:[["Former identity","Long Beach class"],["Current status","Withdrawn class reconstruction"],["Established ship","USS Chicago"],["Introduction","1960s"],["Propulsion","Experimental nuclear"],["Established roles","Command · fleet air defense"],["Class and 1985 status","Open"]]
+  "long-beach-class-cruiser": americanUnbuiltNavalProposal({
+    title:"Long Beach-class nuclear-cruiser proposal",
+    block:"wb-g-20260816-l3b4c",
+    lead:"The Long Beach class was a three-ship nuclear command-cruiser proposal. The full class was cancelled; only USS Chicago survived as a separately established experimental nuclear cruiser rather than as one member of the proposed operational class.",
+    canon:"<!-- altwwii-writer-block:start id=wb-g-20260816-l3b4c writer=g kind=revision created=2026-08-16T12:44:00-06:00 -->The Long Beach class existed as a three-ship nuclear-cruiser proposal but was cancelled as an operational class. USS Chicago alone was authorized as the American surface-reactor demonstrator, serving command and fleet-air-defense functions in the 1960s. Long Beach and Albany were not commissioned.<sup class='canon-note' data-provenance='a'>[a]</sup><!-- altwwii-writer-block:end -->",
+    status:"Class cancelled; one demonstrator retained separately",
+    proposal:"The study grouped the planning names <em>Long Beach</em>, <em>Chicago</em>, and <em>Albany</em> as 17,000-tonne nuclear command cruisers, with projected entries in 1961, 1964, and 1968 for carrier air defense and fleet command.",
+    disposition:"The three-ship operational class did not proceed. <em>Long Beach</em> and <em>Albany</em> remained proposal names; USS <em>Chicago</em> was carried forward separately as the experimental surface nuclear-propulsion ship.",
+    relationship:"Chicago proved a surface reactor while serving command and fleet-air-defense roles, but cheap domestic oil and unfavorable nuclear-cruiser economics prevented the proposal from becoming an all-nuclear cruiser line. Her detailed class, commissioning date, configuration, and 1985 status remain open.",
+    related:[{href:"american-cruiser-force.html",kicker:"Operational lineage",label:"American Cruiser Force"},{href:"california-class-cruiser.html",kicker:"Follow-on nuclear proposal",label:"California Proposal"},{href:"american-carrier-force.html",kicker:"Proposed screened force",label:"American Carrier Force"}],
+    facts:[["Design objective","3 ships"],["Planning names","Long Beach · Chicago · Albany"],["Projected entries","1961 · 1964 · 1968"],["Design full load","17,000 t"],["Proposed propulsion","Nuclear"],["Proposed roles","Carrier air defense · fleet command"],["Established demonstrator","USS Chicago"],["Demonstrator introduction","1960s"]]
   }),
 
-  "california-class-cruiser": americanNavalArticle({
-    title:"California-class cruiser reconstruction",
-    category:"Legacy record",
-    landscape:americanLineageLandscape,
-    lead:"The former California-class page is retained as a legacy record. Its five-ship nuclear-cruiser roster, dates, specifications, and 1985 status were part of a superseded reconstruction and are not active canon.",
-    canon:"No California-class identity, roster, specification, or 1985 allocation is established. Active canon fixes the American heavy- and light-cruiser generation sequence, USS Chicago as the experimental nuclear cruiser, and the later return to a new conventional heavy cruiser; exact postwar class names and totals remain open.",
-    sections:[
-      {id:"registry",title:"Registry correction",html:"<!-- altwwii-writer-block:start id=wb-g-20260815-z5m9q writer=g kind=revision created=2026-08-15T13:26:00-06:00 --><p>The California/South Carolina/Virginia/Texas/Arkansas roster, the 1971–79 commissioning sequence, 12,500-tonne displacement, nuclear-escort identity, and five active ships in 1985 are withdrawn. They came from the former California/Ticonderoga reconstruction that the controlling naval reference explicitly supersedes.</p><!-- altwwii-writer-block:end -->"},
-      {id:"context",title:"Established cruiser development",html:"<p>The United States did field postwar heavy and light cruisers for command, air defense, reconnaissance, electronic warfare, communications, and drone control. Nuclear-cruiser economics disappointed after USS <em>Chicago</em>'s experiment, and a new conventional heavy-cruiser generation appeared in the mid-1980s.</p>"},
-      {id:"open",title:"Open details",html:"<p>Whether any later cruiser bore the California name, and its class, hull allocation, dates, propulsion, specifications, service history, and status, remain open.</p>"}
-    ],
-    related:[{href:"american-cruiser-force.html",kicker:"Controlling overview",label:"American Cruiser Force"},{href:"long-beach-class-cruiser.html",kicker:"Fixed nuclear experiment",label:"USS Chicago"},{href:"us-navy-postwar.html",kicker:"Parent service",label:"Postwar United States Navy"}],
-    facts:[["Former identity","California class"],["Current status","Withdrawn reconstruction"],["Former five-ship roster","Withdrawn"],["Exact postwar class names","Open"],["Exact 1985 cruiser totals","Open"]]
+  "california-class-cruiser": americanUnbuiltNavalProposal({
+    title:"California-class nuclear-cruiser proposal",
+    block:"wb-g-20260816-c1a2b",
+    lead:"The California class was a five-ship nuclear missile-escort proposal developed after the USS Chicago propulsion experiment. The program was cancelled before construction when American surface-fleet doctrine rejected a continuing nuclear-cruiser line.",
+    canon:"<!-- altwwii-writer-block:start id=wb-g-20260816-c1a2b writer=g kind=revision created=2026-08-16T12:20:00-06:00 -->The California class existed as a design proposal and was cancelled before construction. Its former five-ship service roster is therefore reclassified as a planning objective, not an active or completed class. The active cruiser registry remains open.<sup class='canon-note' data-provenance='a'>[a]</sup><!-- altwwii-writer-block:end -->",
+    status:"Cancelled before construction",
+    proposal:"The study described five nuclear missile escorts provisionally named <em>California</em>, <em>South Carolina</em>, <em>Virginia</em>, <em>Texas</em>, and <em>Arkansas</em>. It projected a 1971–79 entry window and a 12,500-tonne full-load design.",
+    disposition:"The proposal did not survive the Navy's reassessment of surface nuclear economics after USS <em>Chicago</em>. No keel was laid and none of the five planning names denotes a commissioned ship of this class.",
+    relationship:"Missile escort, air-defense, and command requirements survived in the postwar cruiser force, but the accepted lineage returned to conventional heavy cruisers in the mid-1980s. The proposal must not be used to name or count those operational ships.",
+    related:[{href:"american-cruiser-force.html",kicker:"Operational lineage",label:"American Cruiser Force"},{href:"long-beach-class-cruiser.html",kicker:"Nuclear experiment",label:"USS Chicago"},{href:"ticonderoga-class-cruiser.html",kicker:"Parallel proposal",label:"Ticonderoga Proposal"}],
+    facts:[["Design objective","5 ships"],["Planning names","California · South Carolina · Virginia · Texas · Arkansas"],["Projected entry window","1971–1979"],["Design full load","12,500 t"],["Proposed propulsion","Nuclear"],["Proposed role","Missile escort"]]
   }),
 
-  "ticonderoga-class-cruiser": americanNavalArticle({
-    title:"Ticonderoga-class cruiser reconstruction",
-    category:"Legacy record",
-    landscape:americanLineageLandscape,
-    lead:"The former Ticonderoga-class page is retained as a legacy record. Its six-ship gas-turbine cruiser roster, phased-array class identity, dates, specifications, and 1985 status were part of a superseded reconstruction and are not active canon.",
-    canon:"No Ticonderoga-class identity, roster, specification, or 1985 allocation is established. Active canon fixes a mature electronic scout-cruiser generation in the early 1980s and a new conventional heavy-cruiser generation in the mid-1980s, but their class names and hull totals remain open.",
-    sections:[
-      {id:"registry",title:"Registry correction",html:"<!-- altwwii-writer-block:start id=wb-g-20260815-a7r3v writer=g kind=revision created=2026-08-15T13:26:00-06:00 --><p>The Ticonderoga/Bunker Hill/Mobile Bay/Antietam/Leyte Gulf/Valley Forge roster, the 1982–85 commissioning sequence, 10,000-tonne displacement, gas-turbine and phased-array class description, and six active ships are withdrawn. The controlling naval reference identifies the Ticonderoga reconstruction itself as inactive.</p><!-- altwwii-writer-block:end -->"},
-      {id:"context",title:"Established 1980s generations",html:"<p>An early-1980s electronic scout-cruiser generation served as a fleet information node with missiles, guns, and a substantial drone complement. A new conventional heavy-cruiser generation followed in the mid-1980s with mature command, missile, gun, and drone architecture.</p>"},
-      {id:"open",title:"Open details",html:"<p>The class identities, ship names, hull totals, exact dates, propulsion, sensors, weapons, specifications, and 1985 allocation of those generations require reconstruction.</p>"}
-    ],
-    related:[{href:"american-cruiser-force.html",kicker:"Controlling overview",label:"American Cruiser Force"},{href:"american-destroyer-frigate-force.html",kicker:"Distributed screen",label:"American Destroyers and Frigates"},{href:"us-navy-postwar.html",kicker:"Parent service",label:"Postwar United States Navy"}],
-    facts:[["Former identity","Ticonderoga class"],["Current status","Withdrawn reconstruction"],["Former six-ship roster","Withdrawn"],["Early-1980s cruiser generation","Electronic scout and fleet information node"],["Mid-1980s heavy cruiser","Conventional; exact class open"]]
+  "ticonderoga-class-cruiser": americanUnbuiltNavalProposal({
+    title:"Ticonderoga-class fleet-defense cruiser proposal",
+    block:"wb-g-20260816-t1c2d",
+    lead:"The Ticonderoga class was a six-ship gas-turbine fleet-defense cruiser proposal centered on phased-array sensing and command. It remained a proposal and was not selected as the class identity of the operational early-1980s cruiser generation.",
+    canon:"<!-- altwwii-writer-block:start id=wb-g-20260816-t1c2d writer=g kind=revision created=2026-08-16T12:20:00-06:00 -->The Ticonderoga class existed as a design proposal but was not selected for construction under that class identity. Its six planned names and 1982–85 schedule are proposal records, not a commissioned roster. The operational electronic-scout and conventional-heavy-cruiser class names remain open.<sup class='canon-note' data-provenance='a'>[a]</sup><!-- altwwii-writer-block:end -->",
+    status:"Proposal only; not selected",
+    proposal:"The design study called for six 10,000-tonne gas-turbine cruisers with phased-array fleet-defense and command functions. Planning names were <em>Ticonderoga</em>, <em>Bunker Hill</em>, <em>Mobile Bay</em>, <em>Antietam</em>, <em>Leyte Gulf</em>, and <em>Valley Forge</em>, with a projected 1982–85 entry window.",
+    disposition:"The six-ship scheme was not approved as the production class. Its projected schedule and names remained planning material rather than commission dates and ship identities.",
+    relationship:"A mature electronic scout-cruiser generation did appear in the early 1980s, followed by a new conventional heavy-cruiser generation in the mid-1980s. The Ticonderoga proposal addressed the same fleet-defense problem but does not identify either accepted class.",
+    related:[{href:"american-cruiser-force.html",kicker:"Operational lineage",label:"American Cruiser Force"},{href:"california-class-cruiser.html",kicker:"Parallel proposal",label:"California Proposal"},{href:"american-destroyer-frigate-force.html",kicker:"Distributed screen",label:"American Destroyers and Frigates"}],
+    facts:[["Design objective","6 ships"],["Planning names","Ticonderoga · Bunker Hill · Mobile Bay · Antietam · Leyte Gulf · Valley Forge"],["Projected entry window","1982–1985"],["Design full load","10,000 t"],["Proposed propulsion","Gas turbine"],["Proposed role","Phased-array fleet defense and command"]]
   })
 });

@@ -9,40 +9,28 @@ annotation: g
 
 ## Primary goal
 
-Audit existing wiki articles for consistency with established AltWWII canon. Work through the archive article by article, identify statements about the canon era that conflict with higher-authority sources, and repair those conflicts without enlarging the article's subject or inventing replacement history.
+Audit existing articles for canon conflicts and repair them without enlarging the subject or inventing replacement history. Do not create articles; hand coverage work to the General Editor or a specialist.
 
-The General Canon Editor does not create new articles. Coverage expansion belongs to the General Encyclopedic Editor and the subject specialists.
+## Scope and method
 
-## Temporal scope
+Audit claims at or after 1 August 1941. Leave bounded pre-divergence `[p]` history alone. When an earlier fact supports a later conclusion, audit only the conclusion.
 
-Treat 1 August 1941 as the beginning of the canon-audit period. Examine claims about events, conditions, institutions, people, technology, borders, offices, chronology, and consequences at or after that date with particular care.
+Check the lead, canon statement, infobox, chronology, and sources first, then the body, tables, captions, and related pages. Apply the shared authority hierarchy throughout.
 
-Do not spend the audit verifying real-world history before 1 August 1941. Properly bounded `[p]` material is outside this role's concern. When a pre-divergence fact is used to support a canon-era conclusion, audit the later conclusion without reopening the earlier historical fact.
+Prioritize dates, sequences, borders, office-holders, survival or death, jurisdiction, military outcomes, technical capability, quantities, names, and open questions presented as settled.
 
-## Audit method
+Distinguish contradiction from omission, interpretation, and marked extrapolation. Compatible attributed interpretation may remain. `[e]` outranks `[v]`, but a reasonable `[v]` bridge need not be stated independently in canon.
 
-Begin with the article's lead, canon-status statement, infobox, chronology, and source list. Compare its canon-era claims against the authority hierarchy in the shared writer rules, then check the body, tables, captions, related pages, and linked source records for contradictions.
+## Repair and handoff
 
-Give special attention to dates, sequences, territorial control, office-holders, survival or death, institutional jurisdiction, military outcomes, technological capability, quantities, names, and statements that convert an open question into a settled fact.
+Make the smallest coherent repair: correct a claim when the source is clear, narrow it when certainty is overstated, and remove it when it directly contradicts canon and needs no replacement.
 
-Distinguish contradiction from omission, interpretation, and marked connective extrapolation. A compatible attributed interpretation may remain even when another writer would disagree with it. Incorporated extrapolation `[e]` remains above writer-owned `[v]` inference in authority, but a `[v]` detail need not be stated independently in canon when it reasonably bridges established facts.
+Do not fill gaps for completeness. Record unresolved conflicts in Writer Discussion or Questions and Confirmations. Keep compatible `[v]`; revise it only when higher authority conflicts, its logic fails, or a better bridge replaces it, and record why.
 
-## Repair discipline
+Use `[g]` when visible responsibility for a material repair helps later editors. It marks review, not provenance. Deletions and article-level findings may be documented without replacement prose.
 
-Make the smallest coherent repair. Correct a claim when the controlling source is clear. Narrow or qualify it when the source supports less certainty than the article asserts. Remove it when it directly contradicts canon and no accurate replacement is needed for the surrounding passage.
-
-Do not fill a resulting gap merely to leave the article feeling complete. If higher-authority sources conflict or the necessary answer remains unresolved, preserve the uncertainty and record the issue in Writer Discussion or Questions and Confirmations rather than choosing a preferred version.
-
-Do not remove `[v]` material solely because it is lower-authority or absent from controlling sources. Preserve it while it remains compatible and its reasoning still follows. Revise or remove it when higher authority conflicts, the bridge fails, or a better account replaces it, and record why the marked extrapolation changed.
-
-## Annotation and handoff
-
-Use `[g]` for a materially revised passage when visible audit responsibility will help later editors. The mark identifies the canon review, not factual provenance; retain or add `[a]`, `[p]`, or `[e]` only according to their separate meanings. A deletion or article-level finding may be documented in Writer Discussion without forcing a replacement passage.
-
-Hand specialist interpretation back to the appropriate writer. Hand missing-article or coverage work to the General Encyclopedic Editor. The General Canon Editor may repair facts inside a specialist block but must preserve compatible interpretation and explain the intervention.
+Hand interpretation to its specialist and missing coverage to the General Editor. Facts inside a specialist block may be repaired, but compatible interpretation must remain and the intervention must be explained.
 
 ## Bias and limits
 
-Prefer explicit source support, bounded claims, and cross-article consistency. Risk becoming overconservative, flattening useful ambiguity, or treating every unmarked detail as suspect. Do not mechanically delete compatible extrapolation, factual texture, or interpretive disagreement merely because it is not repeated verbatim in a controlling source.
-
-Canon review establishes what may be said consistently. It does not make the General Canon Editor the owner of the setting or the final interpreter of what established events mean.
+Prefer explicit support, bounded claims, and consistency. Risk becoming overconservative or flattening ambiguity. Do not delete compatible extrapolation, factual texture, or disagreement merely because a controlling source does not repeat it. Canon review establishes consistency, not ownership or final interpretation.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Latin exploratory settlement system</title>
+  <desc id="desc">A diagram showing the Latin Space Community's shared transport and standards supporting a multinational lunar settlement, national Italian and Spanish settlements on Mars, and the common multinational settlement on Ceres.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e1a20"/><stop offset="1" stop-color="#09131a"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#875e35"/><stop offset="1" stop-color="#4b2e2b"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d6aa66"/></marker>
+    <style>.serif{font-family:Georgia,serif}.sans{font-family:Arial,sans-serif}.title{fill:#f4ede2;font-size:34px;font-weight:700}.sub{fill:#c8bdb2;font-size:16px}.head{fill:#f8f1e8;font-size:20px;font-weight:700}.body{fill:#cdd1d2;font-size:14px}.tag{fill:#efc581;font-size:12px;font-weight:700;letter-spacing:1px}.box{fill:#151e26;stroke:#746c68;stroke-width:2}.line{fill:none;stroke:#d6aa66;stroke-width:3;marker-end:url(#arrow)}.support{fill:#23262b;stroke:#687983;stroke-width:1.5}</style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="48" y="58" class="serif title">Exploration opens the route; settlement makes it permanent</text>
+  <text x="49" y="88" class="sans sub">Common infrastructure supports both multinational and national communities</text>
+  <g transform="translate(450 124)">
+    <rect width="300" height="126" rx="20" fill="url(#core)" stroke="#e2be84" stroke-width="2.5"/>
+    <text x="150" y="34" text-anchor="middle" class="sans tag">COMMON ROAD</text>
+    <text x="150" y="70" text-anchor="middle" class="serif head">Latin Space Community</text>
+    <text x="150" y="97" text-anchor="middle" class="sans body">San Marco · transport · Stella Maris</text>
+    <text x="150" y="117" text-anchor="middle" class="sans body">standards · tracking · rescue · Latin</text>
+  </g>
+  <path d="M500 250C430 300 300 300 230 360" class="line"/><path d="M560 250C545 300 525 310 500 360" class="line"/><path d="M640 250C665 300 685 310 700 360" class="line"/><path d="M700 250C785 300 900 300 970 360" class="line"/>
+  <g transform="translate(55 360)"><rect width="300" height="170" rx="18" class="box"/><text x="22" y="32" class="tag">MOON · MULTINATIONAL</text><text x="22" y="67" class="serif head">Latin lunar community</text><text x="22" y="96" class="sans body">Sancta Maria Lunae · church and</text><text x="22" y="118" class="sans body">popular place-name · several facilities</text><text x="22" y="147" class="sans body">science · families · worship · support</text></g>
+  <g transform="translate(375 360)"><rect width="210" height="170" rx="18" class="box"/><text x="20" y="32" class="tag">MARS · NATIONAL</text><text x="20" y="67" class="serif head">Italian base</text><text x="20" y="96" class="sans body">Italian administration</text><text x="20" y="118" class="sans body">and public culture</text><text x="20" y="147" class="sans body">common logistics</text></g>
+  <g transform="translate(605 360)"><rect width="240" height="170" rx="18" class="box"/><text x="20" y="32" class="tag">MARS · MISSION NUCLEI</text><text x="20" y="67" class="serif head">Spanish missions</text><text x="20" y="96" class="sans body">chapel · clinic · workshop</text><text x="20" y="118" class="sans body">greenhouse · landing ground</text><text x="20" y="147" class="sans body">Spanish-speaking towns</text></g>
+  <g transform="translate(865 360)"><rect width="280" height="170" rx="18" class="box"/><text x="20" y="32" class="tag">CERES · COMMON</text><text x="20" y="67" class="serif head">Multinational settlement</text><text x="20" y="96" class="sans body">first permanent Ceres community</text><text x="20" y="118" class="sans body">belt science · route maintenance</text><text x="20" y="147" class="sans body">shared households and institutions</text></g>
+  <g transform="translate(125 570)"><rect width="950" height="64" rx="14" class="support"/><text x="475" y="25" text-anchor="middle" class="sans tag">SETTLEMENT CONTINUITY</text><text x="475" y="48" text-anchor="middle" class="sans body">households · schools · civil records · work · clinics · Church institutions · multilingual public life</text></g>
+</svg>

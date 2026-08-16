@@ -563,11 +563,11 @@ Type 45 Shu-Ru uses composite frontal armor, a bustle autoloader, thermal sights
 
 ## Japanese light armor and infantry carriers
 
-The pre-reform Type 7 Ho-To retains its historically untidy `Ho` code. New transport and fighting-vehicle projects use the 1952 system.
+The later equipment record supersedes the former Type 7 Ho-To entry. The 1947 carrier remains a variant of the 1944 Type 4 full-tracked family, with the lower vehicle retained and an opening armored roof added. `Type 4 Kai` is the working short form; the detailed numeric specification is incorporated extrapolation rather than direct authorial fact. New transport and fighting-vehicle projects use the 1952 system.
 
-| Formal service designation | Vehicle class | Introduction | Combat weight | Crew + infantry | Armament | Role |
+| Formal or working designation | Vehicle class | Introduction | Combat weight | Crew + infantry | Armament | Role |
 |---|---|---:|---:|---:|---|---|
-| Type 7 Ho-To | Armored personnel carrier | 1947 | 14.8 t | 2 + 10 | 13.2×96 mm heavy machine gun | Legacy enclosed tracked APC |
+| Type 4 Kai carrier *(working)* | Armored personnel carrier | 1947 | 12.0–12.3 t *(working)* | 2 + 13 *(working)* | 7.7 mm machine gun *(working)* | Type 4-family tracked APC with convertible armored roof |
 | Type 18 Yu-Ha | Armored personnel carrier | 1958 | 17.5 t | 2 + 11 | 13.2×96 mm heavy machine gun | Standard tracked armored transport |
 | Type 33 Ho-He | Infantry combat vehicle | 1973 | 28.5 t | 3 + 7 | 30×165 mm cannon; Type 33 ATGM | First-line Japanese IFV |
 | Type 35 Ke-Yo | Light tank | 1975 | 22.0 t | 4 | 90 mm Type 35 low-recoil gun | Airborne and reconnaissance light tank |
@@ -575,7 +575,7 @@ The pre-reform Type 7 Ho-To retains its historically untidy `Ho` code. New trans
 
 The `Yu` series carries infantry through fragments, small-arms fire, and difficult terrain, then supports from cover after dismounting. The `Ho` series has a stabilized cannon, antitank capability, superior sights and radios, and remains in the close battle. Japan fields expensive Ho-He vehicles in first-line Japanese divisions and cheaper Yu-Ha and Yu-Ni transports in associated, occupation, and second-line forces.
 
-The **Type 18 Yu-Ha Kō** is the Japanese Army production form. **Type 18 Yu-Ha Otsu** is the tropical export and licensed-production form with simplified environmental controls and a locally serviceable engine package. Korea and Manchukuo manufacture Ho-To, Yu-Ha, Yu-Ni, and simplified Ho-He variants under license. Japan controls advanced engines, optics, ATGM seekers, and the best ammunition.
+The **Type 18 Yu-Ha Kō** is the Japanese Army production form. **Type 18 Yu-Ha Otsu** is the tropical export and licensed-production form with simplified environmental controls and a locally serviceable engine package. Korea and Manchukuo manufacture Type 4-family carriers, Yu-Ha, Yu-Ni, and simplified Ho-He variants under license. Japan controls advanced engines, optics, ATGM seekers, and the best ammunition.
 
 ## Japanese infantry weapons
 
@@ -811,7 +811,7 @@ Challenger remains in Britain and Canada. Panzer XII remains in Germany. Warrior
 | 1944 | Type 4 Chi-To; Comet; StG 44 |
 | 1945 | Panzer V Ausf. D; P35/43 Serie I; Centurion Mk 1; Type 5 Chi-Ri; StG 45A; Maus trials; M6 Heavy Tank |
 | 1946 | Panzer V Ausf. E; Centurion Mk 2; Schützenpanzer 45 Kätzchen |
-| 1947 | Panzer IX Ausf. A; Centurion Mk 3; Type 7 Chi-Ru; Type 7 Ho-To; Type 7 Self-Loading Rifle; P38/43 Serie 90; Fucile Modello 47; limited M26 and M34 Marshall service |
+| 1947 | Panzer IX Ausf. A; Centurion Mk 3; Type 7 Chi-Ru; Type 4 Kai carrier *(working name)*; Type 7 Self-Loading Rifle; P38/43 Serie 90; Fucile Modello 47; limited M26 and M34 Marshall service |
 | 1948 | Char 48 Languedoc |
 | 1951 | Rifle No. 9 Mk 1 |
 | 1952 | Charioteer; MG 52; Kugelblitz II; L4 TADEN; Fusil Modelo 52 |
