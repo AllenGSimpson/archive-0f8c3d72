@@ -3,22 +3,43 @@ import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 import { buildSemanticStructure } from "./wiki-graph-semantics.mjs";
-import { buildSemanticForestLayout } from "./wiki-graph-layout.mjs";
+import { buildSemanticForestLayout, describeSemanticForestRoots, detectCommunities } from "./wiki-graph-layout.mjs";
+import { buildDirectedPhysicsLayout } from "./wiki-graph-physics.mjs";
+import { createRootMapInput, validateCheckpoint } from "./wiki-root-map-optimizer.mjs";
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDirectory, "..");
 const wikiDirectory = path.join(projectRoot, "wiki");
-const outputArgument = process.argv.indexOf("--output");
-if (outputArgument >= 0 && !process.argv[outputArgument + 1]) throw new Error("--output requires a path.");
-const outputFile = outputArgument >= 0
-  ? path.resolve(projectRoot, process.argv[outputArgument + 1])
+function argumentValue(name) {
+  const index = process.argv.indexOf(name);
+  if (index < 0) return null;
+  if (!process.argv[index + 1] || process.argv[index + 1].startsWith("--")) throw new Error(`${name} requires a path.`);
+  return process.argv[index + 1];
+}
+
+const outputValue = argumentValue("--output");
+const exportRootMapValue = argumentValue("--export-root-map-input");
+const rootMapValue = argumentValue("--root-map");
+const layoutValue = argumentValue("--layout") || "semantic";
+if (!["semantic", "physics"].includes(layoutValue)) throw new Error(`Unsupported --layout ${layoutValue}; use semantic or physics.`);
+if (exportRootMapValue && rootMapValue) throw new Error("--export-root-map-input and --root-map cannot be used together.");
+if (layoutValue === "physics" && (exportRootMapValue || rootMapValue)) throw new Error("--layout physics cannot be combined with --export-root-map-input or --root-map.");
+const outputFile = outputValue
+  ? path.resolve(projectRoot, outputValue)
   : path.join(wikiDirectory, "wiki-graph-data.js");
 const overridesText = await readFile(path.join(scriptDirectory, "wiki-graph-overrides.json"), "utf8");
 const overrideParentBody = overridesText.match(/["']parents["']\s*:\s*\{([\s\S]*?)\}/)?.[1] || "";
 const overrideParentKeys = [...overrideParentBody.matchAll(/"((?:\\.|[^"\\])*)"\s*:/g)].map((match) => JSON.parse(`"${match[1]}"`));
 if (new Set(overrideParentKeys).size !== overrideParentKeys.length) throw new Error("Wiki graph overrides contain duplicate parent definitions.");
 const overrides = JSON.parse(overridesText);
-const excludedGraphPages = new Set(["timeline.html"]);
+const excludedGraphPages = new Set(["timeline.html", "wiki-root-map-evolution.html"]);
+const physicsAnchorDefinitions = [
+  { href: "united-states.html", title: "United States", color: "#1485ED" },
+  { href: "commonwealth.html", title: "British Commonwealth", color: "#AA0A0A" },
+  { href: "latin-bloc.html", title: "Latin Bloc", color: "#437F3F" },
+  { href: "germany.html", title: "Greater German Reich", color: "#666057" },
+  { href: "geacps.html", title: "Greater East Asia Co-Prosperity Sphere", color: "#FFC9B2" }
+];
 const htmlFiles = (await readdir(wikiDirectory))
   .filter((name) => name.endsWith(".html") && !excludedGraphPages.has(name))
   .sort((a, b) => a.localeCompare(b));
@@ -212,14 +233,91 @@ const nodes = pages.map((page) => ({
   radius: 5.4 + 0.24 * Math.sqrt(page.words)
 }));
 const structure = buildSemanticStructure(nodes, edges, overrides);
-const layout = buildSemanticForestLayout(nodes, structure);
+
+function rootMapInputFor(layout = null) {
+  const rootGeometry = describeSemanticForestRoots(nodes, structure);
+  const rootIndexByNode = new Map(structure.roots.map((root, index) => [root, index]));
+  const rootNodeByHref = new Map(structure.roots.map((root) => [nodes[root].href, root]));
+  const aggregate = new Map();
+  for (const [source, target] of edges) {
+    const sourceRoot = structure.rootOf[source];
+    const targetRoot = structure.rootOf[target];
+    if (sourceRoot === targetRoot) continue;
+    const [left, right] = [sourceRoot, targetRoot]
+      .sort((a, b) => nodes[a].href.localeCompare(nodes[b].href));
+    const key = `${nodes[left].href}\u0000${nodes[right].href}`;
+    let entry = aggregate.get(key);
+    if (!entry) {
+      entry = { source: nodes[left].href, target: nodes[right].href, sourceToTargetCount: 0, targetToSourceCount: 0 };
+      aggregate.set(key, entry);
+    }
+    if (sourceRoot === left) entry.sourceToTargetCount += 1;
+    else entry.targetToSourceCount += 1;
+  }
+  const rootDegrees = new Array(structure.roots.length).fill(0);
+  for (const entry of aggregate.values()) {
+    rootDegrees[rootIndexByNode.get(rootNodeByHref.get(entry.source))] += 1;
+    rootDegrees[rootIndexByNode.get(rootNodeByHref.get(entry.target))] += 1;
+  }
+  const roots = rootGeometry.roots.map((root) => ({
+    href: nodes[root.index].href,
+    title: nodes[root.index].title,
+    x: layout ? layout.x[root.index] : 0,
+    y: layout ? layout.y[root.index] : 0,
+    reservedRadius: root.reservedRadius,
+    mass: nodes[root.index].words + structure.descendantWordMass[root.index],
+    component: root.component,
+    rootDegree: rootDegrees[rootIndexByNode.get(root.index)]
+  }));
+  const connections = [...aggregate.values()].map((entry) => ({
+    ...entry,
+    directedReferenceCount: entry.sourceToTargetCount + entry.targetToSourceCount,
+    reciprocalCount: Math.min(entry.sourceToTargetCount, entry.targetToSourceCount)
+  }));
+  return createRootMapInput({ roots, connections });
+}
+
+const rootMapInput = rootMapInputFor();
+if (exportRootMapValue) {
+  const baselineLayout = buildSemanticForestLayout(nodes, structure);
+  const exported = rootMapInputFor(baselineLayout);
+  const exportPath = path.resolve(projectRoot, exportRootMapValue);
+  await mkdir(path.dirname(exportPath), { recursive: true });
+  await writeFile(exportPath, `${JSON.stringify(exported, null, 2)}\n`, "utf8");
+  console.log(`Exported root-map input: ${exported.roots.length} roots, ${exported.connections.length} bundles -> ${path.relative(projectRoot, exportPath)}.`);
+  process.exit(0);
+}
+
+let rootMapCheckpoint = null;
+let rootPositions = null;
+if (rootMapValue) {
+  const checkpointPath = path.resolve(projectRoot, rootMapValue);
+  rootMapCheckpoint = validateCheckpoint(JSON.parse(await readFile(checkpointPath, "utf8")), rootMapInput);
+  rootPositions = Object.fromEntries(structure.roots.map((root) => [root, rootMapCheckpoint.roots[nodes[root].href]]));
+}
+let layout;
+if (layoutValue === "physics") {
+  const communities = detectCommunities(structure.graph.adjacency, nodes);
+  const nodeByHref = new Map(nodes.map((node, index) => [node.href, index]));
+  const physicsAnchors = physicsAnchorDefinitions.map((anchor) => ({ ...anchor, index: nodeByHref.get(anchor.href) }));
+  if (physicsAnchors.some((anchor) => !Number.isInteger(anchor.index))) throw new Error("Physics anchor article is missing from the graph corpus.");
+  layout = buildDirectedPhysicsLayout(nodes, edges, {
+    community: communities.community,
+    communityCount: communities.groups.length,
+    largestCommunity: Math.max(...communities.groups.map((group) => group.length)),
+    degree: structure.graph.degree,
+    anchors: physicsAnchors
+  });
+} else {
+  layout = buildSemanticForestLayout(nodes, structure, rootPositions ? { rootPositions } : {});
+}
 const compactNodes = nodes.map((node, index) => [
   node.title,
   node.href,
   node.words,
   Number(node.radius.toFixed(3)),
-  Number(layout.x[index].toFixed(3)),
-  Number(layout.y[index].toFixed(3)),
+  Number(layout.x[index].toFixed(4)),
+  Number(layout.y[index].toFixed(4)),
   Number(layout.z[index].toFixed(2)),
   layout.degree[index],
   layout.community[index]
@@ -229,9 +327,9 @@ const graph = {
   pageCount: compactNodes.length,
   connectionCount: edges.length,
   maximumWords,
-  layoutModel: "semantic-forest-v2",
+  layoutModel: layoutValue === "physics" ? "directed-physics-v1" : "semantic-forest-v2",
   massUnit: "visible-word",
-  layoutEdgeCount: structure.structuralEdges.length,
+  layoutEdgeCount: layoutValue === "physics" ? edges.length : structure.structuralEdges.length,
   communityCount: layout.communityCount,
   largestCommunity: layout.largestCommunity,
   rootCount: structure.roots.length,
@@ -264,11 +362,41 @@ const graph = {
   rootBridgeForceCount: layout.rootBridgeForceCount,
   parentSpringCount: layout.parentSpringCount,
   mapDiagonal: Number(layout.mapDiagonal.toFixed(6)),
+  ...(layoutValue === "physics" ? {
+    physicsIterations: layout.physicsIterations,
+    physicsConverged: layout.physicsConverged,
+    physicsRepulsionIterations: layout.repulsionIterations,
+    physicsAttractionEdgeCount: layout.attractionEdgeCount,
+    physicsAnchorAttractionMultiplier: layout.anchorAttractionMultiplier,
+    physicsAttractionMultiplierMinimum: Number(layout.attractionMultiplierMinimum.toFixed(6)),
+    physicsAttractionMultiplierMaximum: Number(layout.attractionMultiplierMaximum.toFixed(6)),
+    physicsAttractionMultipliers: layout.attractionMultipliers,
+    physicsInitialPlacementCount: layout.initialPlacementCount,
+    physicsInitialPlacementLayers: layout.initialPlacementLayers,
+    physicsCollisionIterations: layout.collisionIterations,
+    physicsMaximumOverlap: Number(layout.maximumOverlap.toFixed(6)),
+    physicsMinimumSeparation: Number(layout.minimumSeparation.toFixed(6)),
+    physicsComponentCount: layout.componentCount,
+    originlessCount: layout.originlessCount,
+    anchorCount: layout.anchorCount
+  } : {}),
+  rootMapModel: rootMapCheckpoint ? rootMapCheckpoint.schema : "none",
+  ...(rootMapCheckpoint ? {
+    rootMapCorpusHash: rootMapCheckpoint.corpusHash,
+    rootMapScore: Number(rootMapCheckpoint.score.total.toFixed(6)),
+    rootMapBarriers: rootMapCheckpoint.metrics.barriers,
+    rootMapWeightedReferenceLength: Number(rootMapCheckpoint.metrics.weightedReferenceLength.toFixed(6))
+  } : {}),
   parents: structure.parents,
   depths: structure.depths,
   labelTiers: structure.labelTiers,
   structuralEdgeKinds: ["parent", "peer", "bridge"],
   structuralEdges: structure.structuralEdges,
+  ...(layoutValue === "physics" ? {
+    originless: layout.originless,
+    anchors: layout.anchors,
+    anchorColors: layout.anchorColors
+  } : {}),
   nodes: compactNodes,
   edges
 };

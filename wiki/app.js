@@ -3001,6 +3001,8 @@ const pages = [
   { title: "Culture of the United States", description: "Mission modernism from the Spectator War to the Conspiracy Republic", href: "culture-of-the-united-states.html", tags: "american culture mission modernism media social history united states" },
   { title: "Spectator War", description: "American wartime culture without belligerency or mass mobilization, 1941–1947", href: "spectator-war.html", tags: "spectator war america neutrality radio newsreels second world war culture" },
   { title: "Rocket Awakening", description: "The American scientific and cultural response to the 1957 German satellite", href: "rocket-awakening.html", tags: "rocket awakening america science education kennedy satellite space mission 1957" },
+  { title: "Red Alert", description: "Peter George's 1958 atmospheric-ignition thriller and the source novel for Dr. Strangelove", href: "red-alert.html", tags: "red alert two hours to doom peter george peter bryant novel atmospheric ignition dr strangelove atomic bomb" },
+  { title: "Dr. Strangelove", description: "Stanley Kubrick's 1964 science-fiction nightmare comedy about an unauthorized atomic superbomb", href: "dr-strangelove.html", tags: "dr strangelove doctor strangelove how i learned to stop worrying love the bomb stanley kubrick peter sellers film red alert atmospheric ignition major kong" },
   { title: "Conspiracy Republic", description: "American political anxiety, institutional horror, and assassination culture in the 1970s", href: "conspiracy-republic.html", tags: "conspiracy republic america 1970s last republic rockwell assassination political horror" },
   { title: "American Electronic-Threat Cinema", description: "The three-film sequence from created labor through command intrusion to automated collapse", href: "american-electronic-threat-cinema.html", tags: "american electronic threat cinema blade runner wargames terminator black hour computers film" },
   { title: "Blade Runner", description: "The 1982 science-fiction film about artificial labor, corporate personhood, and Japanese power", href: "blade-runner.html", tags: "blade runner 1982 film replicants artificial labor corporation japan ridley scott" },
@@ -6699,7 +6701,7 @@ const crossLinks = [
   { href: "hanseatische-kuehl-und-transportwerke.html", terms: ["Hanseatische Kühl- und Transportwerke", "Hanseatische Kuehl- und Transportwerke", "Hanseatic Refrigeration and Transport Works"] },
   { href: "rheinische-regeltechnik.html", terms: ["Rheinische Regeltechnik", "Rhenish Control Engineering"] },
   { href: "spanish-motor-industry.html", terms: ["Motor Industry of Spain", "Spanish motor industry", "Spanish automotive industry"] },
-  { href: "seat.html", terms: ["Sociedad Española de Automóviles de Turismo", "SEAT"] },
+  { href: "seat.html", terms: ["Sociedad Española de Automóviles de Turismo", "SEAT"], caseSensitive: true },
   { href: "enasa-pegaso.html", terms: ["Empresa Nacional de Autocamiones", "ENASA", "Pegaso trucks", "Pegaso"] },
   { href: "spanish-postwar-economic-development.html", terms: ["Postwar Economic Development of Spain", "Spanish postwar economy", "autarquía concertada"] },
   { href: "instituto-nacional-de-industria.html", terms: ["Instituto Nacional de Industria", "Spanish INI"] },
@@ -7233,6 +7235,8 @@ const crossLinks = [
   ,{ href: "culture-of-the-united-states.html", terms: ["Culture of the United States", "American culture", "mission modernism"] }
   ,{ href: "spectator-war.html", terms: ["Spectator War", "spectator-war culture"] }
   ,{ href: "rocket-awakening.html", terms: ["Rocket Awakening", "delayed Fifties"] }
+  ,{ href: "red-alert.html", terms: ["Red Alert", "Two Hours to Doom", "Peter George", "Peter Bryant"] }
+  ,{ href: "dr-strangelove.html", terms: ["Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", "Dr. Strangelove", "Doctor Strangelove"] }
   ,{ href: "conspiracy-republic.html", terms: ["Conspiracy Republic", "institutional horror"] }
   ,{ href: "american-electronic-threat-cinema.html", terms: ["American electronic-threat cinema", "electronic-threat cinema"] }
   ,{ href: "blade-runner.html", terms: ["Blade Runner"] }
@@ -9179,7 +9183,7 @@ function addFirstMentionLinks() {
     .filter(entry => entry.href.split("#")[0].toLowerCase() !== current)
     .map(entry => ({
       ...entry,
-      pattern: new RegExp(`\\b(?:${entry.terms.sort((a, b) => b.length - a.length).map(escapePattern).join("|")})\\b`, "i")
+      pattern: new RegExp(`\\b(?:${entry.terms.sort((a, b) => b.length - a.length).map(escapePattern).join("|")})\\b`, entry.caseSensitive ? "" : "i")
     }));
   const used = new Set();
   const containers = document.querySelectorAll(".hero-copy p, .article-body p, .article-body li, .article-body td, .portal-card p, .dispatch p");

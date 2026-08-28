@@ -13,6 +13,8 @@ const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDirectory, "..");
 const firstPath = path.join(projectRoot, ".tmp", "wiki-graph-semantic-test-a.js");
 const secondPath = path.join(projectRoot, ".tmp", "wiki-graph-semantic-test-b.js");
+const physicsFirstPath = path.join(projectRoot, ".tmp", "wiki-graph-physics-test-a.js");
+const physicsSecondPath = path.join(projectRoot, ".tmp", "wiki-graph-physics-test-b.js");
 
 async function loadGraph(file) {
   const sandbox = { window: {} };
@@ -87,4 +89,31 @@ test("full corpus v2 builds are deterministic, territorial, complete, and collis
   assert.ok(clearance.maximum <= 0.01);
   const diagonal = Math.hypot(Math.max(...x) - Math.min(...x), Math.max(...y) - Math.min(...y));
   assert.ok(diagonal <= 6200);
+});
+
+test("full corpus directed physics builds are deterministic, complete, and collision-free", { timeout: 900_000 }, async () => {
+  await execute(process.execPath, ["scripts/build-wiki-graph.mjs", "--layout", "physics", "--output", ".tmp/wiki-graph-physics-test-a.js"], { cwd: projectRoot });
+  await execute(process.execPath, ["scripts/build-wiki-graph.mjs", "--layout", "physics", "--output", ".tmp/wiki-graph-physics-test-b.js"], { cwd: projectRoot });
+  const first = await loadGraph(physicsFirstPath);
+  const second = await loadGraph(physicsSecondPath);
+  assert.deepEqual(withoutTimestamp(first), withoutTimestamp(second));
+  assert.equal(first.layoutModel, "directed-physics-v1");
+  assert.equal(first.anchorCount, 5);
+  assert.equal(first.anchors.filter(Boolean).length, 5);
+  assert.deepEqual(new Set(first.anchorColors.filter(Boolean)), new Set(["#1485ED", "#437F3F", "#666057", "#AA0A0A", "#FFC9B2"]));
+  assert.equal(first.edges.length, first.connectionCount);
+  assert.equal(first.layoutEdgeCount, first.connectionCount);
+  assert.equal(first.originless.length, first.pageCount);
+  assert.ok(first.originlessCount > 0);
+  assert.ok(first.physicsIterations <= 1200);
+  assert.equal(first.physicsAttractionEdgeCount > 0, true);
+  assert.ok(first.physicsMaximumOverlap <= 0.01);
+  assert.ok(first.physicsMinimumSeparation >= 4.99);
+  const nodes = first.nodes.map((entry) => ({ title: entry[0], href: entry[1], words: entry[2], radius: entry[3] }));
+  const x = first.nodes.map((entry) => entry[4]);
+  const y = first.nodes.map((entry) => entry[5]);
+  assert.ok(x.every(Number.isFinite) && y.every(Number.isFinite));
+  const clearance = verifyLayoutClearance(nodes, x, y);
+  assert.ok(clearance.minimumSeparation >= 4.99);
+  assert.ok(clearance.maximum <= 0.01);
 });

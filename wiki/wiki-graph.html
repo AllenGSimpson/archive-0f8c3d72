@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
   <meta name="description" content="Interactive graph of the Fractured Peace Archive, excluding the Setting Timeline.">
   <title>Wiki Visualizer · Fractured Peace</title>
-  <link rel="stylesheet" href="styles.css?v=20260816d">
+  <link rel="stylesheet" href="styles.css?v=20260818graph-controls">
 </head>
 <body>
   <div class="utility-bar"><span>Local reference edition · article graph · timeline excluded</span><div class="utility-links"><a href="index.html">Main page</a><a href="world.html">Browse</a><a href="timeline.html">Chronology</a></div></div>
@@ -29,7 +29,14 @@
           <span><strong data-graph-pages>—</strong> pages</span>
           <span><strong data-graph-links>—</strong> directed connections</span>
           <span class="graph-key"><i class="graph-key-line" aria-hidden="true"></i><span>origin</span><span aria-hidden="true">→</span><span>destination</span></span>
-          <span class="graph-key"><i class="graph-key-trunk" aria-hidden="true"></i><span>structural branch</span></span>
+          <span class="graph-key graph-structure-key"><i class="graph-key-trunk" aria-hidden="true"></i><span>structural branch</span><input type="checkbox" data-graph-structural-visibility checked aria-label="Show structural branches"></span>
+          <span class="graph-key graph-anchor-key" data-graph-anchor-key hidden>
+            <span class="graph-anchor-item"><i class="graph-key-anchor" data-graph-anchor-swatch="united-states.html" aria-hidden="true"></i>US</span>
+            <span class="graph-anchor-item"><i class="graph-key-anchor" data-graph-anchor-swatch="latin-bloc.html" aria-hidden="true"></i>LB</span>
+            <span class="graph-anchor-item"><i class="graph-key-anchor" data-graph-anchor-swatch="germany.html" aria-hidden="true"></i>GGR</span>
+            <span class="graph-anchor-item"><i class="graph-key-anchor" data-graph-anchor-swatch="commonwealth.html" aria-hidden="true"></i>BC</span>
+            <span class="graph-anchor-item"><i class="graph-key-anchor" data-graph-anchor-swatch="geacps.html" aria-hidden="true"></i>GEACPS</span>
+          </span>
         </div>
         <div class="graph-toolbar" aria-label="View controls">
           <button type="button" data-graph-rotate="left" aria-label="Rotate left">←</button>
@@ -41,6 +48,11 @@
             <span>Highlight titles</span>
             <input type="search" data-graph-search aria-label="Highlight article titles" placeholder="Type a title sequence…" autocomplete="off" spellcheck="false" aria-describedby="graph-search-status">
             <output id="graph-search-status" data-graph-search-status aria-live="polite"></output>
+          </label>
+          <label class="graph-color-toggle">
+            <input type="checkbox" data-graph-color-relationships>
+            <span>Color relationships</span>
+            <output data-graph-color-status aria-live="polite"></output>
           </label>
           <button type="button" class="graph-go" data-graph-go disabled>Go To</button>
         </div>
@@ -58,8 +70,8 @@
       <footer class="site-footer"><div class="site-footer-inner"><span>Fractured Peace Archive · Knowledge graph</span><span><span data-year></span></span></div></footer>
     </main>
   </div>
-  <script src="wiki-graph-data.js?v=20260816d"></script>
-  <script src="wiki-graph.js?v=20260816f"></script>
+  <script src="wiki-graph-data.js?v=20260817physics"></script>
+  <script src="wiki-graph.js?v=20260818graph-controls"></script>
   <script src="app.js?v=20260812"></script>
 </body>
 </html>

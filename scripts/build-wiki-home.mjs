@@ -11,7 +11,7 @@ const wikiDirectory = path.join(projectRoot, "wiki");
 const indexPath = path.join(wikiDirectory, "index.html");
 const recentStart = "            <!-- RECENT_ARTICLES_START -->";
 const recentEnd = "            <!-- RECENT_ARTICLES_END -->";
-const excludedPages = new Set(["index.html", "wiki-graph.html"]);
+const excludedPages = new Set(["index.html", "wiki-graph.html", "wiki-root-map-evolution.html"]);
 
 const namedEntities = new Map([
   ["amp", "&"], ["apos", "'"], ["gt", ">"], ["lt", "<"], ["nbsp", " "], ["quot", '"'],

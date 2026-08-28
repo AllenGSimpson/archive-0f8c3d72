@@ -5,8 +5,17 @@
   const goButton = document.querySelector("[data-graph-go]");
   const searchInput = document.querySelector("[data-graph-search]");
   const searchStatus = document.querySelector("[data-graph-search-status]");
+  const relationshipToggle = document.querySelector("[data-graph-color-relationships]");
+  const relationshipStatus = document.querySelector("[data-graph-color-status]");
+  const structuralToggle = document.querySelector("[data-graph-structural-visibility]");
   const articleLabelLayer = document.querySelector("[data-graph-article-labels]");
   if (!data || !canvas || !stage) return;
+
+  const originless = data.originless || Array.from({ length: data.nodes.length }, () => false);
+  const anchors = data.anchors || Array.from({ length: data.nodes.length }, () => false);
+  const anchorColors = data.anchorColors || Array.from({ length: data.nodes.length }, () => null);
+  const anchorKey = document.querySelector("[data-graph-anchor-key]");
+  if (anchorKey) anchorKey.hidden = data.layoutModel !== "directed-physics-v1" || !anchors.some(Boolean);
 
   document.querySelector("[data-graph-pages]").textContent = data.pageCount.toLocaleString();
   document.querySelector("[data-graph-links]").textContent = data.connectionCount.toLocaleString();
@@ -19,12 +28,80 @@
 
   const nodes = data.nodes.map(([title, href, words, radius, x, y, z, degree, community]) => ({ title, href, words, radius, x, y, z, degree, community }));
   const nodeCount = nodes.length;
+  const relationshipAnchorHex = new Map([
+    ["commonwealth.html", "#E53935"],
+    ["geacps.html", "#F4C430"],
+    ["latin-bloc.html", "#18A558"],
+    ["united-states.html", "#2864DC"],
+    ["germany.html", "#C238C8"]
+  ]);
+  const relationshipAnchorIndices = new Map(nodes.map((node, index) => [node.href, index])
+    .filter(([href]) => relationshipAnchorHex.has(href)));
   const edgeCount = data.edges.length;
+  const outgoingTargets = Array.from({ length: nodeCount }, () => []);
+  for (const edge of data.edges) {
+    if (Array.isArray(edge) && Number.isInteger(edge[0]) && Number.isInteger(edge[1]) && edge[0] >= 0 && edge[0] < nodeCount && edge[1] >= 0 && edge[1] < nodeCount) {
+      outgoingTargets[edge[0]].push(edge[1]);
+    }
+  }
+  function relationshipRgb(hex) {
+    return [
+      Number.parseInt(hex.slice(1, 3), 16) / 255,
+      Number.parseInt(hex.slice(3, 5), 16) / 255,
+      Number.parseInt(hex.slice(5, 7), 16) / 255,
+      1
+    ];
+  }
+  function buildRelationshipColors() {
+    let colors = Array.from({ length: nodeCount }, () => null);
+    for (const [href, index] of relationshipAnchorIndices) colors[index] = relationshipRgb(relationshipAnchorHex.get(href));
+    let iterations = 0;
+    let stablePasses = 0;
+    const sameColor = (left, right) => {
+      if (!left || !right) return left === right;
+      return Math.max(Math.abs(left[0] - right[0]), Math.abs(left[1] - right[1]), Math.abs(left[2] - right[2])) <= 1e-7;
+    };
+    do {
+      const previous = colors;
+      const next = colors.slice();
+      let changed = 0;
+      for (let source = 0; source < nodeCount; source += 1) {
+        let count = 0; let red = 0; let green = 0; let blue = 0;
+        for (const target of outgoingTargets[source]) {
+          const color = previous[target];
+          if (!color) continue;
+          red += color[0]; green += color[1]; blue += color[2]; count += 1;
+        }
+        const nextColor = relationshipAnchorIndices.has(nodes[source].href)
+          ? relationshipRgb(relationshipAnchorHex.get(nodes[source].href))
+          : count ? [red / count, green / count, blue / count, 1] : null;
+        if (!sameColor(previous[source], nextColor)) changed += 1;
+        next[source] = nextColor;
+      }
+      colors = next;
+      iterations += 1;
+      stablePasses = changed === 0 ? stablePasses + 1 : 0;
+    } while (stablePasses < 2 && iterations <= 2000);
+    return { colors, iterations, done: stablePasses >= 2, coloredCount: colors.filter(Boolean).length };
+  }
+  const relationshipColoring = buildRelationshipColors();
+  const anchorSwatches = [...document.querySelectorAll("[data-graph-anchor-swatch]")];
+  function refreshAnchorLegend() {
+    for (const swatch of anchorSwatches) {
+      const index = nodes.findIndex((node) => node.href === swatch.dataset.graphAnchorSwatch);
+      const normalColor = index >= 0 ? anchorColors[index] : null;
+      const relationshipColor = relationshipAnchorHex.get(swatch.dataset.graphAnchorSwatch);
+      swatch.style.backgroundColor = relationshipMode ? relationshipColor || "#ffffff" : normalColor || "#ffffff";
+    }
+  }
   const structuralEdges = data.structuralEdges || [];
   const structuralEdgeCount = structuralEdges.length;
   const nodeClip = new Float32Array(nodeCount * 3);
   const nodeSizes = new Float32Array(nodeCount);
   const nodeColors = new Float32Array(nodeCount * 4);
+  const anchorHaloSizes = new Float32Array(nodeCount);
+  const anchorHaloColors = new Float32Array(nodeCount * 4);
+  const nodeHollows = new Float32Array(nodeCount);
   const edgeClip = new Float32Array(edgeCount * 6);
   const edgeColors = new Float32Array(edgeCount * 8);
   const structuralClip = new Float32Array(structuralEdgeCount * 6);
@@ -73,6 +150,8 @@
   let hovered = -1;
   let searchQuery = "";
   let searchMatchCount = 0;
+  let relationshipMode = false;
+  let structuralVisible = structuralToggle?.checked !== false;
   let rendered = false;
   let frameRequested = false;
   let focusCenter = [...baseCenter];
@@ -97,17 +176,21 @@
   const vertexNode = `
     attribute vec3 a_position;
     attribute float a_size;
+    attribute float a_hollow;
     attribute vec4 a_color;
     varying vec4 v_color;
-    void main() { gl_Position = vec4(a_position, 1.0); gl_PointSize = a_size; v_color = a_color; }
+    varying float v_hollow;
+    void main() { gl_Position = vec4(a_position, 1.0); gl_PointSize = a_size; v_color = a_color; v_hollow = a_hollow; }
   `;
   const fragmentNode = `
     precision mediump float;
     varying vec4 v_color;
+    varying float v_hollow;
     uniform vec4 u_border;
     void main() {
       float distanceFromCenter = length(gl_PointCoord - vec2(0.5));
       if (distanceFromCenter > 0.5) discard;
+      if (v_hollow > 0.5 && distanceFromCenter < 0.34) discard;
       float edge = smoothstep(0.39, 0.49, distanceFromCenter);
       float alpha = 1.0 - smoothstep(0.47, 0.5, distanceFromCenter);
       gl_FragColor = mix(v_color, u_border, edge);
@@ -140,6 +223,7 @@
   const structuralColorBuffer = gl.createBuffer();
   const nodePositionBuffer = gl.createBuffer();
   const nodeSizeBuffer = gl.createBuffer();
+  const nodeHollowBuffer = gl.createBuffer();
   const nodeColorBuffer = gl.createBuffer();
 
   function cssColor(property, alpha = 1) {
@@ -150,11 +234,22 @@
     return [rgb[0] / 255, rgb[1] / 255, rgb[2] / 255, alpha];
   }
 
+  function hexColor(value, alpha = 1) {
+    const match = String(value || "").match(/^#([\da-f]{6})$/i);
+    if (!match) return cssColor("--graph-node", alpha);
+    return [Number.parseInt(match[1].slice(0, 2), 16) / 255, Number.parseInt(match[1].slice(2, 4), 16) / 255, Number.parseInt(match[1].slice(4, 6), 16) / 255, alpha];
+  }
+
   function writeColor(target, offset, color) {
     target[offset] = color[0]; target[offset + 1] = color[1]; target[offset + 2] = color[2]; target[offset + 3] = color[3];
   }
 
   function refreshColors() {
+    if (anchorKey) anchorKey.hidden = data.layoutModel !== "directed-physics-v1" || !anchors.some(Boolean);
+    refreshAnchorLegend();
+    if (relationshipStatus) relationshipStatus.textContent = relationshipMode
+      ? `${relationshipColoring.done ? "done" : "running"} · ${relationshipColoring.coloredCount.toLocaleString()} colored · ${relationshipColoring.iterations.toLocaleString()} passes`
+      : "";
     const revealProgress = Math.max(0, Math.min(1, (zoom - 1.5) / 2.5));
     const reveal = revealProgress * revealProgress * (3 - 2 * revealProgress);
     const peerProgress = Math.max(0, Math.min(1, (zoom - 1.75) / 1.75));
@@ -176,17 +271,26 @@
       const active = source === selected || target === selected || source === hovered || target === hovered
         || (searchQuery && (searchMatches[source] || searchMatches[target]));
       const property = kind === 0 ? "--graph-trunk" : kind === 1 ? "--graph-peer" : "--graph-bridge";
-      const alpha = active ? 0.82 : kind === 0 ? 0.46 : kind === 1 ? 0.16 * peerReveal : 0.28;
+      const alpha = !structuralVisible ? 0 : active ? 0.82 : kind === 0 ? 0.46 : kind === 1 ? 0.16 * peerReveal : 0.28;
       const color = cssColor(property, alpha);
       writeColor(structuralColors, edge * 8, color);
       writeColor(structuralColors, edge * 8 + 4, color);
     }
     const ordinary = cssColor("--graph-node", 0.94);
+    const originlessColor = cssColor("--graph-originless-hollow", 1);
+    const anchorHalo = cssColor("--graph-anchor-halo", 0.72);
     const muted = cssColor("--graph-node", 0.16);
     const hover = cssColor("--accent-2", 1);
     const active = cssColor("--accent", 1);
+    const relationshipWhite = [1, 1, 1, 1];
     for (let node = 0; node < nodeCount; node += 1) {
-      const color = node === selected || searchMatches[node] ? active : node === hovered ? hover : searchQuery ? muted : ordinary;
+      const anchorColor = anchors[node] && anchorColors[node] ? hexColor(anchorColors[node], 1) : null;
+      anchorHaloSizes[node] = anchors[node] ? nodeSizes[node] * 1.52 : 0;
+      nodeHollows[node] = !relationshipMode && originless[node] ? 1 : 0;
+      writeColor(anchorHaloColors, node * 4, anchors[node] ? anchorHalo : [0, 0, 0, 0]);
+      const color = node === selected || searchMatches[node] ? active : node === hovered ? hover : searchQuery ? muted
+        : relationshipMode ? (relationshipColoring.colors[node] || relationshipWhite)
+          : anchorColor || (originless[node] ? originlessColor : ordinary);
       writeColor(nodeColors, node * 4, color);
     }
   }
@@ -372,9 +476,11 @@
     gl.depthFunc(gl.LEQUAL);
 
     gl.useProgram(edgeProgram);
-    bindAttribute(edgeProgram, structuralPositionBuffer, "a_position", 3, structuralClip);
-    bindAttribute(edgeProgram, structuralColorBuffer, "a_color", 4, structuralColors);
-    gl.drawArrays(gl.LINES, 0, structuralEdgeCount * 2);
+    if (structuralVisible) {
+      bindAttribute(edgeProgram, structuralPositionBuffer, "a_position", 3, structuralClip);
+      bindAttribute(edgeProgram, structuralColorBuffer, "a_color", 4, structuralColors);
+      gl.drawArrays(gl.LINES, 0, structuralEdgeCount * 2);
+    }
 
     bindAttribute(edgeProgram, edgePositionBuffer, "a_position", 3, edgeClip);
     bindAttribute(edgeProgram, edgeColorBuffer, "a_color", 4, edgeColors);
@@ -382,9 +488,15 @@
 
     gl.useProgram(nodeProgram);
     bindAttribute(nodeProgram, nodePositionBuffer, "a_position", 3, nodeClip);
+    bindAttribute(nodeProgram, nodeHollowBuffer, "a_hollow", 1, nodeHollows);
     bindAttribute(nodeProgram, nodeSizeBuffer, "a_size", 1, nodeSizes);
     bindAttribute(nodeProgram, nodeColorBuffer, "a_color", 4, nodeColors);
     gl.uniform4fv(gl.getUniformLocation(nodeProgram, "u_border"), cssColor("--paper", 1));
+    bindAttribute(nodeProgram, nodeSizeBuffer, "a_size", 1, anchorHaloSizes);
+    bindAttribute(nodeProgram, nodeColorBuffer, "a_color", 4, anchorHaloColors);
+    gl.drawArrays(gl.POINTS, 0, nodeCount);
+    bindAttribute(nodeProgram, nodeSizeBuffer, "a_size", 1, nodeSizes);
+    bindAttribute(nodeProgram, nodeColorBuffer, "a_color", 4, nodeColors);
     gl.drawArrays(gl.POINTS, 0, nodeCount);
     rendered = true;
     if (focusAnimating) requestDraw();
@@ -542,6 +654,14 @@
     if (selected >= 0) window.location.href = nodes[selected].href;
   });
   if (searchInput) searchInput.addEventListener("input", updateSearch);
+  if (relationshipToggle) relationshipToggle.addEventListener("change", () => {
+    relationshipMode = relationshipToggle.checked;
+    requestDraw();
+  });
+  if (structuralToggle) structuralToggle.addEventListener("change", () => {
+    structuralVisible = structuralToggle.checked;
+    requestDraw();
+  });
   new ResizeObserver(resize).observe(stage);
   new MutationObserver(() => requestDraw()).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   resize();

@@ -1,6 +1,10 @@
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { execFile } from "node:child_process";
 import path from "node:path";
+import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
+
+const execFileAsync = promisify(execFile);
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDirectory, "..");
@@ -9,10 +13,21 @@ const outputRoot = path.join(projectRoot, "_site");
 const outputWiki = path.join(outputRoot, "wiki");
 const robotsDirective = "noindex, nofollow, noarchive, nosnippet, noimageindex";
 const robotsMeta = `  <meta name="robots" content="${robotsDirective}">`;
-const editorialOnlyNames = new Set(["_writers", "_writer-discussion", "writer-discussion-data.json"]);
+const nonPublicNames = new Set([
+  "_writers",
+  "_writer-discussion",
+  "writer-discussion-data.json",
+  "wiki-root-map-evolution.html"
+]);
 
 await import("./build-wiki-home.mjs");
-await import("./build-wiki-graph.mjs");
+const graphBuild = await execFileAsync(
+  process.execPath,
+  [path.join(scriptDirectory, "build-wiki-graph.mjs"), "--layout", "physics"],
+  { cwd: projectRoot, encoding: "utf8", maxBuffer: 16 * 1024 * 1024 }
+);
+if (graphBuild.stdout) process.stdout.write(graphBuild.stdout);
+if (graphBuild.stderr) process.stderr.write(graphBuild.stderr);
 
 await rm(outputRoot, { recursive: true, force: true });
 await mkdir(outputRoot, { recursive: true });
@@ -20,7 +35,7 @@ await cp(sourceWiki, outputWiki, {
   recursive: true,
   filter: (source) => {
     const name = path.basename(source);
-    return name !== "node_modules" && name !== "package-lock.json" && !editorialOnlyNames.has(name);
+    return name !== "node_modules" && name !== "package-lock.json" && !nonPublicNames.has(name);
   }
 });
 

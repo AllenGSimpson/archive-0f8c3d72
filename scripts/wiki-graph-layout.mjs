@@ -143,6 +143,21 @@ function hierarchyGeometry(nodes, structure) {
   return { reservedRadius, major, entry: [...entry], exit: [...exit], euler };
 }
 
+export function describeSemanticForestRoots(nodes, structure) {
+  const geometry = hierarchyGeometry(nodes, structure);
+  const componentByNode = new Int32Array(nodes.length);
+  structure.components.forEach((members, component) => members.forEach((node) => { componentByNode[node] = component; }));
+  return {
+    reservedRadius: [...geometry.reservedRadius],
+    componentByNode: [...componentByNode],
+    roots: structure.roots.map((root) => ({
+      index: root,
+      reservedRadius: geometry.reservedRadius[root],
+      component: componentByNode[root]
+    }))
+  };
+}
+
 function parentRestLength(nodes, structure, geometry, child) {
   const parent = structure.parents[child];
   const clearance = nodes[parent].radius + nodes[child].radius + 5;
@@ -201,7 +216,18 @@ function normalizeAngle(angle) {
   return angle;
 }
 
-function layoutRoots(nodes, structure, geometry, componentByNode, x, y, iterations) {
+function layoutRoots(nodes, structure, geometry, componentByNode, x, y, iterations, suppliedPositions = null) {
+  if (suppliedPositions) {
+    for (const root of structure.roots) {
+      const position = suppliedPositions[root];
+      if (!Array.isArray(position) || position.length !== 2 || !Number.isFinite(position[0]) || !Number.isFinite(position[1])) {
+        throw new Error(`Root-map layout is missing valid coordinates for ${nodes[root].href}.`);
+      }
+      x[root] = position[0];
+      y[root] = position[1];
+    }
+    return [];
+  }
   const vx = new Float64Array(nodes.length);
   const vy = new Float64Array(nodes.length);
   const inertia = new Float64Array(nodes.length);
@@ -324,7 +350,7 @@ function parentSprings(nodes, structure, geometry) {
   return springs;
 }
 
-function relax(nodes, structure, geometry, componentByNode, x, y, seeding, iterations) {
+function relax(nodes, structure, geometry, componentByNode, x, y, seeding, iterations, rootMapLocked = false) {
   const vx = new Float64Array(nodes.length);
   const vy = new Float64Array(nodes.length);
   const effectiveMass = nodes.map((node, index) => (node.words + 0.2 * structure.descendantWordMass[index])
@@ -469,7 +495,7 @@ function relax(nodes, structure, geometry, componentByNode, x, y, seeding, itera
       applyHubExclusion(a, b, 1);
       applyHubExclusion(b, a, -1);
     });
-    for (const root of structure.roots) {
+    if (!rootMapLocked) for (const root of structure.roots) {
       vx[root] -= x[root] * 0.000025;
       vy[root] -= y[root] * 0.000025;
     }
@@ -499,8 +525,11 @@ function maximumPenetration(nodes, x, y, gap = 5) {
 }
 
 function collisionProjection(nodes, structure, geometry, x, y, effectiveMass, normalPasses, maximumPasses) {
+  // Keep a small serialization margin so the published four-decimal node
+  // coordinates still satisfy the public five-unit clearance invariant.
+  const collisionGap = 5.02;
   const maximumRadius = Math.max(...nodes.map((node) => node.radius));
-  const cellSize = Math.max(16, maximumRadius * 2 + 5);
+  const cellSize = Math.max(16, maximumRadius * 2 + collisionGap);
   let iterations = 0;
   let branchTranslationCount = 0;
   let descendantBranchTranslationCount = 0;
@@ -539,7 +568,7 @@ function collisionProjection(nodes, structure, geometry, x, y, effectiveMass, no
         [dx, dy] = deterministicDirection(nodes, a, b, 53);
         distance = 1;
       }
-      const penetration = nodes[a].radius + nodes[b].radius + 5 - distance;
+      const penetration = nodes[a].radius + nodes[b].radius + collisionGap - distance;
       if (penetration <= 0) return;
       const [left, right] = divergentTargets(a, b);
       const massLeft = left.branch ? nodes[left.node].words + structure.descendantWordMass[left.node] : effectiveMass[left.node];
@@ -588,7 +617,7 @@ function collisionProjection(nodes, structure, geometry, x, y, effectiveMass, no
         [dx, dy] = deterministicDirection(nodes, a, b, 53);
         distance = 1;
       }
-      const penetration = nodes[a].radius + nodes[b].radius + 5 - distance;
+      const penetration = nodes[a].radius + nodes[b].radius + collisionGap - distance;
       if (penetration <= 0) return;
       const inverseA = 1 / Math.max(1, effectiveMass[a]);
       const inverseB = 1 / Math.max(1, effectiveMass[b]);
@@ -768,9 +797,9 @@ export function buildSemanticForestLayout(nodes, structure, options = {}) {
   const x = new Float64Array(nodes.length);
   const y = new Float64Array(nodes.length);
   const geometry = hierarchyGeometry(nodes, structure);
-  const rootEdges = layoutRoots(nodes, structure, geometry, componentByNode, x, y, rootIterations);
+  const rootEdges = layoutRoots(nodes, structure, geometry, componentByNode, x, y, rootIterations, options.rootPositions || null);
   const seeding = seedDescendants(nodes, structure, geometry, x, y);
-  const relaxed = relax(nodes, structure, geometry, componentByNode, x, y, seeding, relaxationIterations);
+  const relaxed = relax(nodes, structure, geometry, componentByNode, x, y, seeding, relaxationIterations, Boolean(options.rootPositions));
   arrangeComponents(nodes, structure.components, x, y);
   const collision = collisionProjection(nodes, structure, geometry, x, y, relaxed.effectiveMass, collisionPasses, maximumCollisionPasses);
   centerByWordMass(nodes, x, y);

@@ -14,6 +14,14 @@
   --graph-origin: #55c76a;
   --graph-destination: #4f8fe4;
   --graph-node: #e8e4d8;
+  --graph-originless: #ef675f;
+  --graph-originless-hollow: #ffffff;
+  --graph-anchor-us: #1485ED;
+  --graph-anchor-latin: #437F3F;
+  --graph-anchor-german: #666057;
+  --graph-anchor-commonwealth: #AA0A0A;
+  --graph-anchor-geacps: #FFC9B2;
+  --graph-anchor-halo: #e4b84c;
   --graph-trunk: #c9c3ad;
   --graph-peer: #7f9188;
   --graph-bridge: #b79762;
@@ -37,6 +45,14 @@ html[data-theme="light"] {
   --graph-origin: #237f39;
   --graph-destination: #255fa8;
   --graph-node: #30352d;
+  --graph-originless: #b6352e;
+  --graph-originless-hollow: #ffffff;
+  --graph-anchor-us: #1485ED;
+  --graph-anchor-latin: #437F3F;
+  --graph-anchor-german: #666057;
+  --graph-anchor-commonwealth: #AA0A0A;
+  --graph-anchor-geacps: #FFC9B2;
+  --graph-anchor-halo: #b88416;
   --graph-trunk: #575b50;
   --graph-peer: #71827a;
   --graph-bridge: #8b6e3f;
@@ -310,10 +326,17 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
 .infobox-map.biography-portrait a { display: block; aspect-ratio: 4/5; overflow: hidden; }
 .infobox-map.biography-portrait img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 22%; filter: saturate(.82) contrast(1.04); }
 .infobox-map.biography-portrait small { display: block; padding: 10px 13px 12px; border-top: 1px solid var(--line); color: var(--muted); font: 9px/1.45 Arial, sans-serif; letter-spacing: .045em; text-align: center; text-transform: uppercase; }
+/* Book covers and other tall source portraits must remain fully visible. */
+body[data-article="red-alert"] .infobox-map.biography-portrait a { aspect-ratio: auto; }
+body[data-article="red-alert"] .infobox-map.biography-portrait img { height: auto; object-fit: contain; object-position: center; }
 .infobox-map.article-landscape { display: grid; aspect-ratio: auto; overflow: visible; background: #111512; }
 .infobox-map.article-landscape a { display: block; overflow: hidden; }
 .infobox-map.article-landscape img { display: block; width: 100%; height: auto; object-fit: contain; object-position: center; filter: saturate(.82) contrast(1.04); }
 .infobox-map.article-landscape small { display: block; padding: 10px 13px 12px; border-top: 1px solid var(--line); color: var(--muted); font: 9px/1.45 Arial, sans-serif; letter-spacing: .045em; text-align: center; text-transform: uppercase; }
+.infobox-map.poster-display { display: grid; aspect-ratio: auto; overflow: visible; background: #111512; }
+.infobox-map.poster-display a { display: block; overflow: hidden; }
+.infobox-map.poster-display img { display: block; width: 100%; height: auto; object-fit: contain; object-position: center; filter: none; }
+.infobox-map.poster-display small { display: block; padding: 10px 13px 12px; border-top: 1px solid var(--line); color: var(--muted); font: 9px/1.45 Arial, sans-serif; letter-spacing: .045em; text-align: center; text-transform: uppercase; }
 .archive-map-figure { margin: 22px 0 26px; overflow: hidden; border: 1px solid var(--line); background: var(--paper-2); box-shadow: 0 12px 32px rgba(0,0,0,.08); }
 .archive-map-figure img { display: block; width: 100%; height: auto; background: #e7e1d4; }
 .archive-map-figure figcaption { padding: 11px 14px 13px; border-top: 1px solid var(--line-soft); color: var(--muted); font: 11px/1.55 Arial, sans-serif; }
@@ -328,6 +351,8 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
 .photo-grid .archive-photo { margin: 0; }
 .photo-grid .archive-photo > a { aspect-ratio: 4/5; overflow: hidden; }
 .photo-grid .archive-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+.photo-grid.film-stills .archive-photo > a { aspect-ratio: 4/3; background: #111512; }
+.photo-grid.film-stills .archive-photo img { object-fit: contain; object-position: center; }
 .flag-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; margin: 24px 0 30px; }
 .flag-card { overflow: hidden; border: 1px solid var(--line); background: var(--paper-2); box-shadow: 0 10px 26px rgba(0,0,0,.1); }
 .flag-card > a:first-child { display: block; padding: 14px; background: linear-gradient(145deg,#111512,#20251f); }
@@ -502,6 +527,12 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
 .graph-key { display: inline-flex; align-items: center; gap: 7px; }
 .graph-key-line { width: 58px; height: 2px; background: linear-gradient(90deg, var(--graph-origin), var(--graph-destination)); }
 .graph-key-trunk { width: 58px; height: 2px; background: var(--graph-trunk); }
+.graph-anchor-key { display: inline-flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.graph-anchor-item { display: inline-flex; align-items: center; gap: 4px; }
+.graph-key-anchor { width: 10px; height: 10px; border-radius: 50%; border: 1px solid rgba(255,255,255,.55); }
+.graph-color-toggle { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; cursor: pointer; }
+.graph-color-toggle input { accent-color: var(--accent); }
+.graph-color-toggle output { color: var(--muted); font-size: .82em; }
 .graph-toolbar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
 .graph-toolbar button { min-width: 34px; min-height: 30px; padding: 5px 10px; border: 1px solid var(--line); color: var(--muted); background: var(--paper-2); cursor: pointer; font: 700 11px/1 Arial, sans-serif; }
 .graph-toolbar button:hover { border-color: var(--accent); color: var(--ink); }
@@ -535,7 +566,7 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
   .hero-meta { display: none; }
   .home-grid { grid-template-columns: 1fr; }
   .article-layout { display: flex; flex-direction: column; align-items: stretch; width: 100%; }
-  .infobox { order: -1; position: static; align-self: center; width: min(100%, 520px); margin-bottom: 30px; }
+  .infobox { order: -1; position: static; align-self: center; width: min(100%, 360px); margin-bottom: 30px; }
   .bloc-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
@@ -556,13 +587,24 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
   .hero-copy { align-self: end; padding: 30px; }
   .portal-grid { grid-template-columns: 1fr; }
   .article-layout { display: flex; flex-direction: column; align-items: stretch; width: 100%; }
-  .infobox { order: -1; position: static; width: 100%; }
+  .infobox { order: -1; position: static; align-self: center; width: min(100%, 340px); }
   .bloc-grid { grid-template-columns: repeat(2, 1fr); }
   .party-profile-grid { grid-template-columns: 1fr; }
   .photo-grid { grid-template-columns: 1fr; }
   .flag-grid { grid-template-columns: 1fr; }
   .graph-page { width: min(100% - 20px, 900px); }
   .graph-stage { height: 62vh; min-height: 460px; }
+}
+
+/* Keep film posters as compact side references wherever the reading column remains usable. */
+@media (min-width: 960px) and (max-width: 1120px) {
+  body[data-article="dr-strangelove"] .article-layout { display: grid; grid-template-columns: minmax(0,1fr) 250px; gap: 28px; align-items: start; }
+  body[data-article="dr-strangelove"] .infobox { order: initial; position: sticky; top: 110px; align-self: start; width: auto; margin-bottom: 0; }
+}
+
+@media (min-width: 700px) and (max-width: 820px) {
+  body[data-article="dr-strangelove"] .article-layout { display: grid; grid-template-columns: minmax(0,1fr) 220px; gap: 22px; align-items: start; }
+  body[data-article="dr-strangelove"] .infobox { order: initial; position: static; align-self: start; width: auto; margin-bottom: 0; }
 }
 
 @media (max-width: 520px) {
@@ -576,6 +618,7 @@ h1 { margin: 8px 0 0; font-size: clamp(38px, 6vw, 72px); font-weight: 500; lette
   .panel-body { padding: 16px; }
   .bloc-grid { grid-template-columns: 1fr; }
   .toc ol { columns: 1; }
+  .infobox { width: min(100%, 300px); }
   .source-box ul { columns: 1; }
   .related-grid { grid-template-columns: 1fr; }
   .presidents-table { min-width: 820px; }
