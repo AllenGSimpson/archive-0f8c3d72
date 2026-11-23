@@ -7,14 +7,14 @@ const conventionalDeterrenceSources = [
   {href:"../questionsAndConfirmations%20-%20AltWWII.md",label:"Questions and Confirmations — open doctrine terminology and force details"}
 ];
 
-const escalationLandscape = {src:"assets/diagrams/armed-concert-escalation-ladder.svg",alt:"Six-stage great-power escalation ladder from normal competition through general war",caption:"The cumulative deterrent system works by keeping finite disputes below attacks on core homelands and strategic industry"};
+const conventionalDeterrenceEscalationLandscape = {src:"assets/diagrams/armed-concert-escalation-ladder.svg",alt:"Six-stage great-power escalation ladder from normal competition through general war",caption:"The cumulative deterrent system works by keeping finite disputes below attacks on core homelands and strategic industry"};
 const terminationLandscape = {src:"assets/diagrams/war-termination-annex.svg",alt:"Four war-termination questions concerning political outcome, territory, renewed conflict, and inherited administration",caption:"Operational success becomes politically unusable when the proposed peace cannot be defined or administered"};
 
 const deterrencePillarArticle = config => ({
   category:config.category || "Strategic doctrine",
   eyebrow:config.eyebrow || "Armed Concert · non-nuclear deterrence",
   infoboxKicker:config.infoboxKicker || "Conventional deterrent mechanism",
-  landscape:config.landscape || escalationLandscape,
+  landscape:config.landscape || conventionalDeterrenceEscalationLandscape,
   ...config,
   sources:conventionalDeterrenceSources,
   categories:config.categories || ["Strategic doctrine","Non-nuclear deterrence","Armed Concert","Great powers"]

@@ -28,15 +28,6 @@ Object.assign(window.deepArticles, {
     facts:[["Service","Imperial Japanese Navy"],["Primary function","Carrier-group command and information coordination"],["Takao II","4 · 1959–66 · active 1985"],["Maya II","4 · 1970–78 · active 1985"],["Chōkai II","4 planned · 1983–91 · initial hulls"],["Operational reactor standard","PWR through 1985"],["Exact Chōkai II count in 1985","Open"],["Full-load designs","Open"],["Former Ibuki class","Withdrawn"]]
   }),
 
-  "ibuki-class-cruiser": japaneseNavalArticle({
-    title:"Former Ibuki cruiser reconstruction", category:"Legacy cruiser record", eyebrow:"Superseded Japanese surface-fleet registry", landscape:lineageLandscape,
-    lead:"Ibuki was a proposed two-ship aviation missile-cruiser generation in a superseded Japanese postwar fleet ledger. Its 1954–57 introduction band, 13,000-tonne displacement, and two-active-ship 1985 status are not active canon.",
-    canon:"<!-- altwwii-writer-block:start id=wb-g-20260816-p7r4d writer=g kind=revision created=2026-08-16T06:00:00-06:00 -->Japan's postwar command-cruiser requirement is direct setting canon.<sup class='canon-note' data-provenance='a'>[a]</sup> The Ibuki class identity, build total, dates, displacement, aviation fit, and 1985 status are reopened registry extrapolation.<sup class='canon-note' data-provenance='e'>[e]</sup><!-- altwwii-writer-block:end -->",
-    sections:[{id:"status",title:"Registry status",html:"<p>The current sequence begins with Takao II. This shell remains to identify the displaced Ibuki label and prevent its figures from returning as settled fleet history.</p>"}],
-    related:[{href:"japanese-cruiser-force.html",kicker:"Current account",label:"Japanese Cruiser Force"},{href:"takao-ii-class-cruiser.html",kicker:"First current generation",label:"Takao II"}],
-    facts:[["Former class","Ibuki"],["Former build","2 · withdrawn"],["Former displacement","13,000 t · withdrawn"],["Current status","Not active canon"]]
-  }),
-
   "takao-ii-class-cruiser": japaneseNavalArticle({
     title:"Takao II-class cruiser", category:"Cruiser class", eyebrow:"Conventional command cruiser · 1959–66", landscape:lineageLandscape,
     lead:"Takao II is Japan's four-ship conventional carrier-group air-defense, information-coordination, and command-cruiser generation. The ships enter service from 1959 through 1966 and remain active in 1985.",
@@ -119,30 +110,5 @@ Object.assign(window.deepArticles, {
     facts:[["Built","16"],["Introduced","1974–84"],["Role","Economical conventional mass escort"],["Active, 1985","Working"],["Full load","Open"]]
   }),
 
-  "isuzu-class-escort": japaneseNavalArticle({
-    title:"Former Isuzu escort reconstruction", category:"Legacy frigate record", eyebrow:"Superseded Japanese surface-fleet registry", landscape:lineageLandscape,
-    lead:"Isuzu was a proposed fourteen-ship general-escort class in a superseded Japanese postwar frigate ledger. Its dates, displacement, build, and 1985 allocation are not active canon.",
-    canon:"<!-- altwwii-writer-block:start id=wb-g-20260816-v4x1j writer=g kind=revision created=2026-08-16T06:00:00-06:00 -->Japan's postwar frigate role in route defense and the carrier outer screen is direct setting canon.<sup class='canon-note' data-provenance='a'>[a]</sup> The Isuzu class identity, fourteen-ship build, dates, displacement, and active allocation are reopened.<sup class='canon-note' data-provenance='e'>[e]</sup><!-- altwwii-writer-block:end -->",
-    sections:[{id:"status",title:"Registry status",html:"<p>Postwar frigate class names, designs, and totals remain open. This shell records a displaced label only.</p>"}],
-    related:[{href:"japanese-surface-escorts.html",kicker:"Current account",label:"Japanese Surface Escorts"}],
-    facts:[["Former class","Isuzu"],["Former build","14 · withdrawn"],["Current frigate sequence","Open"]]
-  }),
 
-  "chikugo-class-escort": japaneseNavalArticle({
-    title:"Former Chikugo escort reconstruction", category:"Legacy frigate record", eyebrow:"Superseded Japanese surface-fleet registry", landscape:lineageLandscape,
-    lead:"Chikugo was a proposed eighteen-ship anti-submarine and route-escort class in a superseded Japanese postwar frigate ledger. Its dates, displacement, build, and 1985 allocation are not active canon.",
-    canon:"<!-- altwwii-writer-block:start id=wb-g-20260816-w5y2k writer=g kind=revision created=2026-08-16T06:00:00-06:00 -->Japan's postwar frigate role in route defense and the carrier outer screen is direct setting canon.<sup class='canon-note' data-provenance='a'>[a]</sup> The Chikugo class identity, eighteen-ship build, dates, displacement, and active allocation are reopened.<sup class='canon-note' data-provenance='e'>[e]</sup><!-- altwwii-writer-block:end -->",
-    sections:[{id:"status",title:"Registry status",html:"<p>Postwar frigate class names, designs, and totals remain open. This shell records a displaced label only.</p>"}],
-    related:[{href:"japanese-surface-escorts.html",kicker:"Current account",label:"Japanese Surface Escorts"}],
-    facts:[["Former class","Chikugo"],["Former build","18 · withdrawn"],["Current frigate sequence","Open"]]
-  }),
-
-  "yubari-class-frigate": japaneseNavalArticle({
-    title:"Former Yūbari frigate reconstruction", category:"Legacy frigate record", eyebrow:"Superseded Japanese surface-fleet registry", landscape:lineageLandscape,
-    lead:"Yūbari was a proposed fourteen-ship missile-frigate class in a superseded Japanese postwar frigate ledger. Its dates, displacement, helicopter fit, build, and 1985 allocation are not active canon.",
-    canon:"<!-- altwwii-writer-block:start id=wb-g-20260816-x6z3l writer=g kind=revision created=2026-08-16T06:00:00-06:00 -->Japan's postwar frigate role in route defense and the carrier outer screen is direct setting canon.<sup class='canon-note' data-provenance='a'>[a]</sup> The Yūbari class identity, fourteen-ship build, dates, displacement, helicopter fit, and active allocation are reopened.<sup class='canon-note' data-provenance='e'>[e]</sup><!-- altwwii-writer-block:end -->",
-    sections:[{id:"status",title:"Registry status",html:"<p>Postwar frigate class names, designs, and totals remain open. This shell records a displaced label only.</p>"}],
-    related:[{href:"japanese-surface-escorts.html",kicker:"Current account",label:"Japanese Surface Escorts"}],
-    facts:[["Former class","Yūbari"],["Former build","14 · withdrawn"],["Current frigate sequence","Open"]]
-  })
 });

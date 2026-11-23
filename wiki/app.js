@@ -1,4 +1,53 @@
 const pages = [
+  {"title": "Road Vehicle Index", "description": "Road vehicles by marque and year, including production models, prototypes, concepts and separate external comparisons with checked Wikipedia references.", "href": "road-vehicle-index.html", "tags": "vehicle index road car model motorcycle scooter truck concept marque year chronology wikipedia"},
+  {"title": "Frontier Aircraft", "description": "Frontier bush aircraft, ultralights, Larry Mauro and Solar Riser, and post-crash Frontier Aviation.", "href": "frontier-aircraft.html", "tags": "frontier aircraft aviation bush utility solar riser larry mauro ultralight"},
+  {"title": "Aero Commander", "description": "Aero Commander: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "aero-commander.html", "tags": "aero commander transport automotive aviation archive"},
+  {"title": "American experimental and specialty vehicles", "description": "American manufacturers developed concept cars, working research vehicles, limited customer products and specialized production lines alongside their ordinary ranges.", "href": "american-experimental-vehicles.html", "tags": "american experimental and specialty vehicles transport automotive aviation archive"},
+  {"title": "American high-speed rail research consortium", "description": "American high-speed rail research consortium in the Fractured Peace setting.", "href": "american-high-speed-rail-research-consortium.html", "tags": "american high speed rail research consortium transport automotive aviation archive"},
+  {"title": "American industrial robotics", "description": "American industrial robotics in the Fractured Peace setting.", "href": "american-industrial-robotics.html", "tags": "american industrial robotics transport automotive aviation archive"},
+  {"title": "American motor-industry reorganization", "description": "The American motor-industry reorganization followed the ownership inquiry, forced divestitures and financial collapse of 1990.", "href": "american-motor-industry-reorganization.html", "tags": "american motor industry reorganization transport automotive aviation archive"},
+  {"title": "American motorcycle industry", "description": "The American motorcycle industry comprises the large touring and sporting manufacturers Harley-Davidson and Indian, the performance specialist Crocker, the revived Excelsior–Henderson concern, and makers of scooters, utility cycles and small motorized vehicles.", "href": "american-motorcycle-industry.html", "tags": "american motorcycle industry transport automotive aviation archive"},
+  {"title": "American production economy in 2002", "description": "American production economy in 2002 in the Fractured Peace setting.", "href": "american-production-economy-in-2002.html", "tags": "american production economy in 2002 transport automotive aviation archive"},
+  {"title": "American transportation expositions", "description": "The American transportation expositions were recurring multi-company displays of current vehicles, announced products and experimental engineering.", "href": "american-transportation-expositions.html", "tags": "american transportation expositions transport automotive aviation archive"},
+  {"title": "Arado P.1100", "description": "Arado P.1100: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "arado-p1100.html", "tags": "arado p 1100 transport automotive aviation archive"},
+  {"title": "Beechcraft", "description": "Beechcraft: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "beechcraft.html", "tags": "beechcraft transport automotive aviation archive"},
+  {"title": "Cessna", "description": "Cessna: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "cessna.html", "tags": "cessna transport automotive aviation archive"},
+  {"title": "Chrysler Corporation", "description": "Chrysler was an American automobile group whose passenger and commercial lines included Chrysler, Plymouth, Dodge, DeSoto and Imperial.", "href": "chrysler-corporation.html", "tags": "chrysler corporation transport automotive aviation archive"},
+  {"title": "Chrysler Turboflite", "description": "Turboflite was Chrysler’s premium gas-turbine automobile programme.", "href": "chrysler-turboflite.html", "tags": "chrysler turboflite transport automotive aviation archive"},
+  {"title": "Concorde", "description": "Concorde: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "concorde.html", "tags": "concorde transport automotive aviation archive"},
+  {"title": "Convair Supersonic Transports", "description": "Convair Supersonic Transports: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "convair-supersonic-transports.html", "tags": "convair supersonic transports transport automotive aviation archive"},
+  {"title": "Crocker Motorcycles", "description": "Crocker is an American low-volume motorcycle manufacturer specializing in high performance, high-speed stability and experimental machinery.", "href": "crocker-motorcycles.html", "tags": "crocker motorcycles transport automotive aviation archive"},
+  {"title": "Crosley", "description": "Crosley was a small American vehicle manufacturer whose products served inexpensive personal, sporting and institutional uses.", "href": "crosley.html", "tags": "crosley transport automotive aviation archive"},
+  {"title": "DeLorean Motor Company", "description": "DeLorean was an American-led specialty automobile venture associated with John DeLorean.", "href": "delorean-motor-company.html", "tags": "delorean motor company transport automotive aviation archive"},
+  {"title": "Electronic vision and vehicle automation in the United States", "description": "American vehicle-control development progressed from analog assistance and experimental hand controls to digital cockpit systems, camera vision and supervised machinery.", "href": "electronic-vision-and-vehicle-automation.html", "tags": "electronic vision and vehicle automation in the united states transport automotive aviation archive"},
+  {"title": "Excelsior–Henderson", "description": "Excelsior–Henderson is an American motorcycle concern using the Excelsior and Henderson marques.", "href": "excelsior-henderson.html", "tags": "excelsior henderson transport automotive aviation archive"},
+  {"title": "Experimental American rail systems", "description": "Experimental American rail systems in the Fractured Peace setting.", "href": "experimental-american-rail-systems.html", "tags": "experimental american rail systems transport automotive aviation archive"},
+  {"title": "Experimental Light Aircraft in the United States", "description": "Experimental Light Aircraft in the United States: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "experimental-light-aircraft.html", "tags": "experimental light aircraft in the united states transport automotive aviation archive"},
+  {"title": "Ford–Ghia design controversy", "description": "Ford’s use of Italian Ghia design work became a public controversy in 1977 under the protected American market.", "href": "ford-ghia-design-controversy.html", "tags": "ford ghia design controversy transport automotive aviation archive"},
+  {"title": "Ford Motor Company", "description": "Ford Motor Company was one of the three largest American automobile groups at the 1941 divergence.", "href": "ford-motor-company.html", "tags": "ford motor company transport automotive aviation archive"},
+  {"title": "General-Aviation Manufacturers in the United States", "description": "General-Aviation Manufacturers in the United States: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "general-aviation-manufacturers.html", "tags": "general aviation manufacturers in the united states transport automotive aviation archive"},
+  {"title": "General Motors", "description": "General Motors was the largest multi-marque American motor group at the divergence, supplying passenger cars from Chevrolet to Cadillac and commercial vehicles through GMC.", "href": "general-motors.html", "tags": "general motors transport automotive aviation archive"},
+  {"title": "Ghia", "description": "Ghia in the Fractured Peace motor industry.", "href": "ghia.html", "tags": "ghia transport automotive aviation archive"},
+  {"title": "General Motors Firebird programme", "description": "The General Motors Firebird programme investigated turbine propulsion, advanced bodies and automotive control systems.", "href": "gm-firebird-program.html", "tags": "general motors firebird programme transport automotive aviation archive"},
+  {"title": "Harley-Davidson", "description": "Harley-Davidson is an American motorcycle manufacturer associated with large V-twin touring machines, police and commercial motorcycles, sporting derivatives and dirt-track racing.", "href": "harley-davidson.html", "tags": "harley davidson transport automotive aviation archive"},
+  {"title": "Hudson Motor Car Company", "description": "Hudson was an independent American automobile manufacturer whose passenger-car development emphasized low construction, road behavior and performance.", "href": "hudson-motor-car-company.html", "tags": "hudson motor car company transport automotive aviation archive"},
+  {"title": "Indian Motorcycle", "description": "Indian is an American motorcycle manufacturer whose range combines the Scout sporting and trail family with Chief touring motorcycles.", "href": "indian-motorcycle.html", "tags": "indian motorcycle transport automotive aviation archive"},
+  {"title": "International Harvester", "description": "International Harvester combined agricultural machinery with American truck and commercial-vehicle production.", "href": "international-harvester.html", "tags": "international harvester transport automotive aviation archive"},
+  {"title": "International motorcycles and scooters", "description": "Motorcycle and scooter production developed within the protected markets of Germany, Britain, Italy, Spain, Japan and the United States.", "href": "international-motorcycles-and-scooters.html", "tags": "international motorcycles and scooters transport automotive aviation archive"},
+  {"title": "Italian motor design houses", "description": "Italian motor design houses in the Fractured Peace motor industry.", "href": "italian-motor-design-houses.html", "tags": "italian motor design houses transport automotive aviation archive"},
+  {"title": "Lamborghini", "description": "Lamborghini in the Fractured Peace motor industry.", "href": "lamborghini.html", "tags": "lamborghini transport automotive aviation archive"},
+  {"title": "Mooney Aircraft", "description": "Mooney Aircraft: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "mooney-aircraft.html", "tags": "mooney aircraft transport automotive aviation archive"},
+  {"title": "Mooney–Beech Aircraft", "description": "Mooney–Beech Aircraft: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "mooney-beech-aircraft.html", "tags": "mooney beech aircraft transport automotive aviation archive"},
+  {"title": "Nash-Kelvinator", "description": "Nash-Kelvinator combined American automobile manufacture with appliances and refrigeration.", "href": "nash-kelvinator.html", "tags": "nash kelvinator transport automotive aviation archive"},
+  {"title": "Networked industry and date conversion", "description": "Networked industry and date conversion in the Fractured Peace setting.", "href": "networked-industry-and-date-conversion.html", "tags": "networked industry and date conversion transport automotive aviation archive"},
+  {"title": "Packard", "description": "Packard was an independent American maker of prestige automobiles, engines and engineering products.", "href": "packard.html", "tags": "packard transport automotive aviation archive"},
+  {"title": "Personal Jet Aircraft in the United States", "description": "Personal Jet Aircraft in the United States: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "personal-jet-aircraft.html", "tags": "personal jet aircraft in the united states transport automotive aviation archive"},
+  {"title": "Piper Aircraft", "description": "Piper Aircraft: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "piper-aircraft.html", "tags": "piper aircraft transport automotive aviation archive"},
+  {"title": "Rail transport in the United States", "description": "Rail transport in the United States in the Fractured Peace setting.", "href": "rail-transport-in-united-states.html", "tags": "rail transport in the united states transport automotive aviation archive"},
+  {"title": "Stinson Aircraft", "description": "Stinson Aircraft: aircraft, manufacturers and development history in the Fractured Peace Archive.", "href": "stinson-aircraft.html", "tags": "stinson aircraft transport automotive aviation archive"},
+  {"title": "Studebaker", "description": "Studebaker was an American manufacturer of passenger cars and trucks whose products combined relatively light construction, distinctive bodies and its own engine development.", "href": "studebaker.html", "tags": "studebaker transport automotive aviation archive"},
+  {"title": "Transport and distribution in 2005", "description": "Transport and distribution in 2005 in the Fractured Peace setting.", "href": "transport-and-distribution-in-2005.html", "tags": "transport and distribution in 2005 transport automotive aviation archive"},
+  {"title": "Vector", "description": "Vector was a low-volume American supercar project associated with Gerald Wiegert.", "href": "vector.html", "tags": "vector transport automotive aviation archive"},
   { title: "British Wartime Land Doctrine", description: "British Army development across North Africa, Burma, Malta, and Operation Torch", href: "british-wartime-land-doctrine.html", tags: "british wartime land doctrine army north africa burma malta torch combined arms" },
   { title: "British Wartime Rifle Platoon", description: "The three-section Bren-centered wartime infantry platoon and its supporting system", href: "british-wartime-rifle-platoon.html", tags: "british wartime rifle platoon bren two inch mortar section infantry" },
   { title: "British Wartime Close-Antitank System", description: "British use of Boys rifles, PIATs, and Lend-Lease bazookas", href: "british-wartime-close-antitank-system.html", tags: "british close antitank boys rifle piat bazooka lend lease torch" },
@@ -1224,13 +1273,11 @@ const pages = [
   { title: "Kii-Class Battleship", description: "Kii and Owari, Japan's 31-knot conventional fast carrier guards", href: "kii-class-battleship.html", tags: "kii class battleship owari japanese fast carrier guard 460 mm 31 knot" },
   { title: "Suruga-Class Battleship", description: "Japan's two-ship PWR nuclear fast carrier-guard battleship class", href: "suruga-class-battleship.html", tags: "suruga class battleship japanese nuclear fast carrier guard pwr 1977 1982" },
   { title: "Japanese Wartime Carrier Inheritance", description: "Taiho and the uninterrupted carrier institution", href: "japanese-wartime-carrier-inheritance.html", tags: "japanese wartime carrier inheritance taiho aircraft carrier" },
-  { title: "Former Amagi Carrier Reconstruction", description: "A withdrawn four-ship carrier record retained as a legacy shell", href: "amagi-class-carrier.html", tags: "former withdrawn amagi katsuragi aso ikoma aircraft carrier japanese fleet" },
   { title: "Hakuryū-class Aircraft Carrier", description: "Japan's four-ship nuclear-supercarrier order, with two operational ships in 1985", href: "hakuryu-class-carrier.html", tags: "hakuryu aircraft carrier japanese fleet nuclear supercarrier 1981 1990" },
   { title: "Hiryū II-Class Aircraft Carrier", description: "Japan's four-ship first clean-sheet postwar jet fleet-carrier generation", href: "hiryu-ii-class-carrier.html", tags: "hiryu ii class aircraft carrier japanese jet fleet oil steam 1957 1964" },
   { title: "Taihō II-Class Aircraft Carrier", description: "Japan's four-ship first production nuclear fleet-carrier generation", href: "taiho-ii-class-carrier.html", tags: "taiho ii class aircraft carrier japanese nuclear fleet pwr 1967 1975" },
   { title: "Zuiho II-class Light Aircraft Carrier", description: "Four light carriers for fighters, helicopters, routes, and amphibious support", href: "zuiho-ii-class.html", tags: "zuiho shoho ryuho hiyo light carrier japan" },
   { title: "Japanese Postwar Cruiser Force", description: "Takao II, Maya II, and Chōkai II command-cruiser generations", href: "japanese-cruiser-force.html", tags: "japanese cruiser force takao maya chokai missile command former ibuki" },
-  { title: "Former Ibuki Cruiser Reconstruction", description: "A withdrawn aviation-cruiser record retained as a legacy shell", href: "ibuki-class-cruiser.html", tags: "former withdrawn japanese ibuki class aviation missile cruiser command helicopter" },
   { title: "Takao II-class Cruiser", description: "Four conventional carrier-group air-defense, information, and command cruisers", href: "takao-ii-class-cruiser.html", tags: "japanese takao ii class cruiser air defense information command" },
   { title: "Maya II-class Cruiser", description: "Four nuclear fleet-command cruisers introduced from 1970 to 1978", href: "maya-class-cruiser.html", tags: "japanese maya ii class nuclear command cruiser" },
   { title: "Chōkai II-class Cruiser", description: "Japan's second-generation compact-PWR command-cruiser program", href: "chokai-ii-class-cruiser.html", tags: "japanese chokai chōkai ii class nuclear compact pwr command cruiser 1983" },
@@ -1240,24 +1287,15 @@ const pages = [
   { title: "Asakaze II-class Destroyer", description: "Japan's twelve-ship first postwar fleet-escort generation", href: "asakaze-class-destroyer.html", tags: "japanese asakaze ii class fleet escort destroyer" },
   { title: "Amatsukaze II-class Destroyer", description: "Fourteen conventional SAM and ASW carrier escorts", href: "amatsukaze-class-destroyer.html", tags: "japanese amatsukaze ii class destroyer air defense carrier escort asw" },
   { title: "Hatsuyuki-class Destroyer", description: "Sixteen economical conventional mass escorts built from 1974 to 1984", href: "hatsuyuki-class-destroyer.html", tags: "japanese hatsuyuki class conventional mass escort destroyer" },
-  { title: "Former Isuzu Escort Reconstruction", description: "A withdrawn frigate-class record retained as a legacy shell", href: "isuzu-class-escort.html", tags: "former withdrawn japanese isuzu class general escort" },
-  { title: "Former Chikugo Escort Reconstruction", description: "A withdrawn frigate-class record retained as a legacy shell", href: "chikugo-class-escort.html", tags: "former withdrawn japanese chikugo class anti submarine imperial route escort asw" },
-  { title: "Former Yūbari Frigate Reconstruction", description: "A withdrawn frigate-class record retained as a legacy shell", href: "yubari-class-frigate.html", tags: "former withdrawn japanese yubari yūbari class missile frigate helicopter" },
   { title: "Japanese Submarine Force", description: "Conventional, nuclear attack, guided-missile, strategic aviation, and assault-transport branches", href: "japanese-submarine-force.html", tags: "japanese submarine force ssk ssn ssgn aviation submarine assault transport" },
   { title: "Japanese Aviation-Submarine Program", description: "The strategic special-mission branch from I-400 and Sharjah to I-500 Ryūjin", href: "japanese-aviation-submarines.html", tags: "japanese aviation submarine program strategic special mission i-400 i-500 ryujin sharjah seiran vtol drone" },
   { title: "I-400-class Aviation Submarines", description: "Japan's three-aircraft wartime experiments and the origin of the mature aviation branch", href: "i-400-class-aviation-submarine.html", tags: "i-400 i-401 i-402 class aviation submarine seiran sen toku japan" },
   { title: "Sharjah Raid", description: "The minimally destructive I-400 strike that proved recoverable submarine aviation", href: "sharjah-raid.html", tags: "sharjah raid raf sharjah gulf oman i-400 seiran submarine launched air raid" },
   { title: "I-500 Ryūjin", description: "The lead mature Japanese nuclear strategic aviation submarine", href: "i-500-ryujin.html", tags: "i-500 ryujin japanese nuclear strategic aviation submarine multihull vtol drones" },
   { title: "Japanese Postwar Attack Submarines", description: "Established conventional and nuclear attack schools with postwar class names and totals open", href: "japanese-attack-submarines.html", tags: "japanese attack submarine conventional nuclear school former uzushio yushio type 24 type 38 ssk ssn" },
-  { title: "Former Type 30 Uzushio Reconstruction", description: "A withdrawn conventional-submarine class record retained as a legacy shell", href: "type-30-uzushio-submarine.html", tags: "former withdrawn japanese type 30 uzushio submarine ssk conventional attack" },
-  { title: "Former Type 38 Yushio Reconstruction", description: "A withdrawn conventional-submarine class record retained as a legacy shell", href: "type-38-yushio-submarine.html", tags: "former withdrawn japanese type 38 yushio yūshio submarine ssk quiet conventional" },
-  { title: "Former Type 24 Nuclear-Attack Reconstruction", description: "A withdrawn nuclear-submarine class record retained as a legacy shell", href: "type-24-nuclear-attack-submarine.html", tags: "former withdrawn japanese type 24 nuclear attack submarine ssn fleet" },
-  { title: "Former Type 38 Nuclear-Attack Reconstruction", description: "A withdrawn nuclear-submarine class record retained as a legacy shell", href: "type-38-nuclear-attack-submarine.html", tags: "former withdrawn japanese type 38 nuclear attack submarine ssn second generation" },
   { title: "Japanese Guided-Missile Submarine Branch", description: "Japan's concealed long-range anti-ship and conventional land-attack submarine school", href: "japanese-type-32-submarine.html", tags: "japanese guided missile submarine branch type 32 ssg ssgn anti ship conventional land attack" },
   { title: "Japanese Undersea Assault Transports", description: "An established special-mission branch whose postwar class sequence and totals remain open", href: "japanese-transport-submarines.html", tags: "japanese undersea assault transport submarine former i-361 i-460 i-490 type d 18 36" },
   { title: "Type D / I-361 Reference Lineage", description: "Post-divergence historical design context for Japan's assault-transport school", href: "type-d-i-361-submarine.html", tags: "japanese type d i-361 reference lineage transport submarine cargo troops" },
-  { title: "Former Type 18 / I-460 Reconstruction", description: "A withdrawn postwar transport-submarine class record retained as a legacy shell", href: "type-18-i-460-submarine.html", tags: "former withdrawn japanese type 18 i-460 transport submarine cargo troops" },
-  { title: "Former Type 36 / I-490 Reconstruction", description: "A withdrawn nuclear transport-submarine class record retained as a legacy shell", href: "type-36-i-490-submarine.html", tags: "former withdrawn japanese type 36 i-490 nuclear transport submarine minisubmarine swimmer delivery amphibious" },
   { title: "Royal Navy after the Second World War", description: "Britain's carrier, ASW, submarine, amphibious, and auxiliary fleet after 1947", href: "royal-navy-postwar.html", tags: "royal navy postwar britain siege commonwealth fleet 1947 1985" },
   { title: "Siege Commonwealth Naval System", description: "The Atlantic–Cape maritime network of forces, bases, shipping, and repair", href: "siege-commonwealth-naval-system.html", tags: "siege commonwealth naval system cape route bases canada australia new zealand" },
   { title: "British Armistice Fleet of 1947", description: "The immense but uneven Royal Navy inheritance at the Lisbon settlement", href: "british-armistice-fleet.html", tags: "british armistice fleet 1947 royal navy inheritance hood vanguard" },
@@ -3111,9 +3149,9 @@ const pages = [
   { title: "Volkswagenwerk", description: "The state mass producer that settled the KdF claims and motorized the postwar Reich", href: "volkswagenwerk.html", tags: "volkswagen volkswagenwerk kdf wagen typ 1 volkswagen 1100 labour front wolfsburg automobile" },
   { title: "Auto Union", description: "The intact Saxon four-marque group of DKW, Wanderer, Audi, and Horch", href: "auto-union.html", tags: "auto union dkw wanderer audi horch saxony chemnitz zwickau four rings automobile" },
   { title: "Borgward", description: "The Bremen vehicle concern preserved through managed commercial-vehicle reorganization", href: "borgward.html", tags: "borgward bremen hansa lloyd commercial vehicles trucks nutzfahrzeuge german automobile" },
-  { title: "American Independent Motor Industry", description: "The manufacturers outside the Big Three and their three durable consolidation paths", href: "american-independent-motor-industry.html", tags: "american independent motor automobile industry nash hudson studebaker packard kaiser willys amc" },
-  { title: "American Motors Corporation", description: "The Nash–Hudson combination and fourth full-line American automobile producer", href: "american-motors-corporation.html", tags: "american motors corporation amc nash kelvinator hudson compact cars refrigeration appliances" },
-  { title: "Studebaker–Packard", description: "America's surviving prestige, engine, truck, and government-engineering motor concern", href: "studebaker-packard.html", tags: "studebaker packard south bend detroit prestige engines trucks government engineering automobile" },
+  { title: "American Independent Motor Industry", description: "Separate Nash, Hudson, Studebaker and Packard concerns, Kaiser\u2013Willys, and post-crash ownership", href: "american-independent-motor-industry.html", tags: "american independent motor automobile industry nash hudson studebaker packard kaiser willys ownership" },
+  { title: "Nash and Hudson", description: "Separate Nash\u2013Kelvinator and Hudson companies and their linked histories", href: "american-motors-corporation.html", tags: "nash kelvinator hudson separate companies american motors corporation amc" },
+  { title: "Studebaker and Packard", description: "Separate Studebaker and Packard companies and engineering programmes", href: "studebaker-packard.html", tags: "studebaker packard separate companies south bend detroit engines trucks automobile" },
   { title: "Kaiser–Willys", description: "The independent American Jeep, utility, military, and export-vehicle specialist", href: "kaiser-willys.html", tags: "kaiser willys jeep utility four wheel drive 4x4 military transport light trucks american automobile" },
   { title: "Applied-Systems Takeoff", description: "Reliability, electronics, automation, refrigeration, logistics, and space procurement", href: "applied-systems-takeoff.html", tags: "applied systems takeoff reliability transistor automation refrigeration logistics raumbote" },
   { title: "Reliability Engineering", description: "Traceability, testing, maintenance, inquiry, and certification across complex systems", href: "reliability-engineering.html", tags: "reliability engineering certification fatigue testing components comet quality" },
@@ -3998,14 +4036,8 @@ const pages = [
   ,{ title: "Japanese Late-Piston and First-Jet Generation", description: "Kikka, Ki-100 and Ki-200 Shinden, J8M experimentation, Keiun, A8M, and the piston-to-turbine transition", href: "japanese-late-piston-first-jet-generation.html", tags: "japan japanese aircraft piston jet generation shinden kikka ki 100 ki 200 j8m shusui keiun a8m" }
   ,{ title: "N1K2-J Shiden Kai", description: "Japan's 1944 land-based piston fighter", href: "n1k2-j-shiden-kai.html", tags: "n1k2-j n1k2 shiden kai japan kawanishi land fighter piston 1944" }
   ,{ title: "A7M Reppū Family", description: "Mitsubishi's principal piston carrier-fighter family of 1945–47", href: "a7m3-reppu.html", tags: "a7m reppu reppū japan carrier fighter piston mitsubishi" }
-  ,{ title: "Former J7W1 Shinden Service Designation", description: "The Navy project transferred before acceptance and became Ki-100-I", href: "j7w1-shinden.html", tags: "j7w1 shinden former withdrawn kyushu ki 100" }
   ,{ title: "J8M Shūsui Project", description: "The Navy's limited rocket-aircraft experimentation, never adopted as Army Ki-200", href: "j8m1-shusui.html", tags: "j8m shusui shūsui japan navy rocket experimental army ki 200" }
   ,{ title: "Ki-200 Shinden II", description: "The provisional supersonic double-delta and canard successor to the Army's Ki-100 family", href: "ki-200-shinden-ii.html", tags: "ki 200 shinden ii japan army supersonic double delta canard fighter twin tail" }
-  ,{ title: "Former G9N1 Kikka Kai Designation", description: "The superseded service code formerly applied to Nakajima Kikka", href: "g9n1-kikka-kai.html", tags: "g9n1 kikka kai former withdrawn nakajima" }
-  ,{ title: "Former J10N1 Karyū Designation", description: "A withdrawn provisional heavy-interceptor filler", href: "j10n1-karyu.html", tags: "j10n1 karyu karyū ki 201 former withdrawn" }
-  ,{ title: "Former J7W2 Shinden Kai Service Designation", description: "The first turbojet Shinden entered the Army register as Ki-100-II", href: "j7w2-shinden-kai.html", tags: "j7w2 shinden kai former withdrawn ki 100 ii" }
-  ,{ title: "Former J11T1 Kogarashi Designation", description: "The withdrawn Ki-214 and J11T1 provisional filler", href: "j11t1-kogarashi.html", tags: "j11t1 kogarashi ki 214 former withdrawn" }
-  ,{ title: "Former J7W3 Shinden Kai Ni Service Designation", description: "The advanced Shinden entered the Army register as Ki-100-III", href: "j7w3-shinden-kai-ni.html", tags: "j7w3 shinden kai ni former withdrawn ki 100 iii" }
   ,{ title: "Ki-100-I Shinden", description: "The Army piston canard first flown on 1 February 1945", href: "ki-100-i-shinden.html", tags: "ki 100 i shinden army piston canard 1945" }
   ,{ title: "Ki-100-II Shinden Kai", description: "The first turbojet Shinden and limited late-war combat aircraft", href: "ki-100-ii-shinden-kai.html", tags: "ki 100 ii shinden kai turbojet 1946 1947" }
   ,{ title: "Ki-100-III Shinden Kai Ni", description: "The stretched turbine-designed continental fighter", href: "ki-100-iii-shinden-kai-ni.html", tags: "ki 100 iii shinden kai ni continental fighter" }
@@ -4015,13 +4047,8 @@ const pages = [
   ,{ title: "A8M Senpū", description: "Mitsubishi's ultralight first-generation carrier jet", href: "a8m-senpu.html", tags: "a8m senpu senpū mitsubishi carrier jet" }
   ,{ title: "Japanese Joint-Service Combat-Aircraft Lineage", description: "The A8M–A10M carrier-fighter and B8Y–B10Y heavy-aircraft families", href: "japanese-joint-service-combat-aircraft-lineage.html", tags: "japan japanese joint aircraft a8m a9m a10m b8y b9y b10y" }
   ,{ title: "A9M Shippū Family", description: "Mitsubishi's four-mark transonic and early-supersonic carrier-fighter family", href: "a9m1-shippu.html", tags: "a9m shippu shippū a9m1 a9m2 a9m3 a9m4" }
-  ,{ title: "Former J12N1 Raikō Designation", description: "A withdrawn all-weather-interceptor entry", href: "j12n1-raiko.html", tags: "j12n1 raiko raikō former withdrawn" }
   ,{ title: "A10M Arashi", description: "Japan's long-lived modern single-engine carrier-fighter platform beginning around 1979–80", href: "a10m1-shippu-kai.html", tags: "a10m a10m1 arashi storm japan carrier fighter dorsal black crescent intake 1979 1980" }
   ,{ title: "A10M2 Arashi", description: "The early-1980s digital-control and improved-radar development of the Arashi carrier fighter", href: "a10m2-arashi.html", tags: "a10m2 arashi japan carrier fighter digital flight control pulse doppler radar 1983 1985" }
-  ,{ title: "Former J13M1 Raiden Designation", description: "A withdrawn atmospheric-fighter entry", href: "j13m1-raiden.html", tags: "j13m1 raiden former withdrawn" }
-  ,{ title: "Former J14M1 Kairyū Designation", description: "A withdrawn heavy fleet-defense entry", href: "j14m1-kairyu.html", tags: "j14m1 kairyu kairyū former withdrawn" }
-  ,{ title: "Former A11M1 Arashi Designation", description: "The number is withdrawn while the Arashi name moves to the long-lived A10M family", href: "a11m1-arashi.html", tags: "a11m1 arashi former withdrawn a10m name reassigned" }
-  ,{ title: "Former A12M1 Arashi Kai Designation", description: "Its modernization role remains within later A10M Arashi marks and Kai packages", href: "a12m1-arashi-kai.html", tags: "a12m1 arashi kai former withdrawn a10m marks modernization" }
   ,{ title: "B8Y2 Keiun Kai Ni", description: "The improved 1950s nose-intake Keiun form", href: "b8y2-keiun-kai-ni.html", tags: "b8y2 keiun kai ni carrier attack nose intake" }
   ,{ title: "B9Y Family", description: "Japan's new swept-wing heavy carrier-capable aircraft", href: "b9y-family.html", tags: "b9y japan heavy carrier twin engine two seat" }
   ,{ title: "B10Y Family", description: "Japan's mature sensor-heavy fleet-defense and multirole aircraft", href: "b10y-family.html", tags: "b10y japan fleet defense multirole twin engine two seat" }
@@ -4572,6 +4599,767 @@ const pages = [
   ,{ title: "Tupolev Tu-2 Wartime Development", description: "The limited modern tactical-bomber successor that could not replace Pe-2", href: "tupolev-tu-2-wartime-development.html", tags: "Tupolev Tu-2 wartime development Soviet tactical bomber Pe-2 successor limited production" }
 ];
 
+/* SIX_LORE_CATALOG_START */
+pages.push(...[
+  {
+    "title": "American Combat Aircraft in 1966",
+    "description": "The American combat-aircraft inventory of 1966 combined older postwar jets, the Century series, all-weather naval aircraft, and a distinct Aerospace Force strategic establishment.",
+    "href": "american-combat-aircraft-1966.html",
+    "tags": "american combat aircraft in 1966"
+  },
+  {
+    "title": "American Foreign Legion",
+    "description": "The American Foreign Legion, usually AFL, was a private American military-service corporation created during the general war and enlarged by postwar Indian and Philippine contracts. It sold aviation, training, technical assistance, logistics, and expeditionary formations to governments and commercial clients. Its American identity and frequent cooperation with Washington did not place it within the United States armed forces.",
+    "href": "american-foreign-legion.html",
+    "tags": "american foreign legion"
+  },
+  {
+    "title": "American Foreign Volunteer System",
+    "description": "The American foreign volunteer system was the personnel and contracting machinery through which Americans entered overseas service while the United States remained outside the general war. After 1942, the Army and Navy facilitated individual departures for British and Chinese service. The system produced a small combat-experienced cohort alongside a much larger population that had never been mobilized.",
+    "href": "american-foreign-volunteer-system.html",
+    "tags": "american foreign volunteer system"
+  },
+  {
+    "title": "Antoine de Lévis-Mirepoix",
+    "description": "Antoine, Duke of Lévis-Mirepoix, was a founding elder of Occitania and a leading spokesman for its Council of Provinces. His aristocratic, municipal, historical, and southern cultural background supplied the new confederation with an authority distinct from Vichy or Italian occupation.",
+    "href": "antoine-de-levis-mirepoix.html",
+    "tags": "antoine de lévis-mirepoix"
+  },
+  {
+    "title": "Arado Ar B2",
+    "description": "The Ar B2 was Arado’s production Schnellbomber, accepted in 1959 from the E.642 program. It combined a supersonic airframe, internal weapons, high-thrust propulsion, and an evolving electronic self-protection system.",
+    "href": "ar-b2.html",
+    "tags": "arado ar b2"
+  },
+  {
+    "title": "Arado E.668",
+    "description": "Arado E.668-1 was the company’s high-speed entrant in the 1962–63 Lenkwaffenjäger competition. Its failure was an important financial setback during Arado’s continuing bomber and civil-transport commitments.",
+    "href": "arado-e-668.html",
+    "tags": "arado e.668"
+  },
+  {
+    "title": "Arado E.700",
+    "description": "Arado E.700 was the experimental German aerospace aircraft that demonstrated runway-to-orbit flight and runway return in 1979. Its technical success preserved a specialized reusable capability, while its development costs and small procurement requirement precipitated Arado’s 1980 combination with Messerschmitt.",
+    "href": "arado-e-700.html",
+    "tags": "arado e.700"
+  },
+  {
+    "title": "Arado Kugel",
+    "description": "The Arado Kugel was the first supersonic transport placed in airline service. Its E.636 development culminated in a 1969 prototype and limited Lufthansa passenger operation in the second half of 1970.",
+    "href": "arado-kugel.html",
+    "tags": "arado kugel"
+  },
+  {
+    "title": "Arado Triebwerk",
+    "description": "Arado Triebwerk, usually shortened to ArT, was Arado’s in-house advanced propulsion organization. It survived the 1980 Messerschmitt-Arado combination as a semi-autonomous authority, while BMW remained the combined concern’s principal mass-series engine supplier.",
+    "href": "arado-triebwerk.html",
+    "tags": "arado triebwerk"
+  },
+  {
+    "title": "Argentine Prewar Aviation Register",
+    "description": "Argentina entered 1984 with a German-assisted aviation system built over approximately fifteen years. Modernized older fighters operated beside newer naval aircraft, maritime strike, patrol, tanker, command and transport fleets. The end 1983 figures are approximate national planning strengths, not a count of aircraft simultaneously serviceable or based on the Falklands.",
+    "href": "argentine-prewar-aviation-register.html",
+    "tags": "argentine prewar aviation register"
+  },
+  {
+    "title": "Belgian Royal Settlement",
+    "description": "The Belgian Royal Settlement preserved Belgium as a separate monarchy inside the German protectorate system after 1947. Leopold III’s decision to remain in Belgium during the defeat became a source of dynastic authority. The Crown mediated linguistic, industrial, and territorial disputes while accepting German reserved powers over defense, foreign policy, and strategic infrastructure.",
+    "href": "belgian-royal-settlement.html",
+    "tags": "belgian royal settlement"
+  },
+  {
+    "title": "Blohm & Voss Afrikadienst",
+    "description": "Blohm & Voss Afrikadienst was the African aviation and logistics organization built around the company’s postwar flying-boat business. It developed from aircraft support and route trials into a concessionary transport system with docks, workshops, fuel, radios, trained crews and scheduled services.",
+    "href": "blohm-voss-afrikadienst.html",
+    "tags": "blohm & voss afrikadienst"
+  },
+  {
+    "title": "Buchenwald industrial system",
+    "description": "The Buchenwald industrial system joined the concentration camp, adjoining armaments works and satellite workshops in a coerced subcontracting network. During the later war it supplied inspected components to German manufacturers and employed technically skilled prisoners, including Marcel Bloch.",
+    "href": "buchenwald-industrial-system.html",
+    "tags": "buchenwald industrial system"
+  },
+  {
+    "title": "Charles de Gaulle",
+    "description": "Charles de Gaulle was the wartime representative of continued French sovereignty and, after 1947, the most prominent private advocate of an undivided France. He returned under safe conduct to Colombey-les-Deux-Églises, held no office in the État français, and died in 1970.",
+    "href": "charles-de-gaulle.html",
+    "tags": "charles de gaulle"
+  },
+  {
+    "title": "Charles Maurras",
+    "description": "Charles Maurras was the principal intellectual ancestor and critic of the Catholic provincialist politics appropriated by early Occitania. His integral French nationalism made him hostile to the foreign-engineered division from which that state emerged.",
+    "href": "charles-maurras.html",
+    "tags": "charles maurras"
+  },
+  {
+    "title": "Civil law and personal status",
+    "description": "Postwar private law retains recognizable national traditions in contracts, conveyancing, sales, probate, negligence, insurance, and ordinary procedure. Its practical operation differs most where political systems change citizenship, household status, employment, corporate organization, or the allocation of economic risk.",
+    "href": "civil-law-personal-status.html",
+    "tags": "civil law and personal status"
+  },
+  {
+    "title": "Contractor Margin",
+    "description": "The Contractor Margin was the political space for private military service preserved by the 1968 Mid-Atlantic Ridge Accord. The German–American settlement restricted state-force deployment across its strategic line while leaving trade, investment, arms sales, volunteers, private companies, and qualifying advisers available as instruments of influence.",
+    "href": "contractor-margin.html",
+    "tags": "contractor margin"
+  },
+  {
+    "title": "Contractor Reciprocity Articles",
+    "description": "The Contractor Reciprocity Articles were the evolving understandings by which major military-service companies recognized surrendered personnel, notified employers, treated wounded prisoners, and negotiated exchanges. The practice emerged through Indian service during approximately 1952–57 and was conspicuous in Venezuela in 1966.",
+    "href": "contractor-reciprocity-articles.html",
+    "tags": "contractor reciprocity articles"
+  },
+  {
+    "title": "Corporate Military Companies",
+    "description": "Corporate military companies, abbreviated CMCs and also called private military companies or mercenary companies, sold organized military capabilities through private contracts. The American Foreign Legion, GWA, and Kaigai Hōan Sangyō formed the principal early general contractors. Specialist and smaller firms multiplied after the 1966 Venezuelan war.",
+    "href": "corporate-military-companies.html",
+    "tags": "corporate military companies"
+  },
+  {
+    "title": "Dornier Naval Strike Aircraft",
+    "description": "Dornier became the Kriegsmarine’s principal naval-strike aircraft integrator after the long war. Its line began with the piston-engined Do Se1, advanced through the turbine-powered Se3 and later jets, and matured into a two-seat all-weather maritime attack system during the 1970s.",
+    "href": "dornier-naval-strike-aircraft.html",
+    "tags": "dornier naval strike aircraft"
+  },
+  {
+    "title": "Dorothee Brill",
+    "description": "Dorothee Brill was a Berlin physical-education teacher and the wife of rocket engineer Wernher von Braun. Their wartime engagement continued into a marriage around 1944–45, and they had three children involved in different parts of Germany’s space establishment.",
+    "href": "dorothee-brill.html",
+    "tags": "dorothee brill"
+  },
+  {
+    "title": "Dutch Migration to Belgium",
+    "description": "Dutch migration to Belgium accompanied the gradual absorption and Germanization of the Netherlands after the war. It brought people seeking the preservation of Dutch institutions into another German-dependent state whose monarchy and nationality remained separate.",
+    "href": "dutch-migration-to-belgium.html",
+    "tags": "dutch migration to belgium"
+  },
+  {
+    "title": "Einheitspakt Standards",
+    "description": "Einheitspakt standards, commonly abbreviated EPS, are the shared interfaces and qualification rules used by German and approved partner industries. German leadership retained strategic control while allowing Belgian, French, Norwegian, Hungarian, and other contributions to become common specifications.",
+    "href": "einheitspakt-standards.html",
+    "tags": "einheitspakt standards"
+  },
+  {
+    "title": "Erhard Siegler",
+    "description": "Dr.-Ing. Erhard Siegler (born 1926) founded the German specialist organization associated with reusable operational unmanned aircraft. His programmes pursued reconnaissance, electronic warfare, deception and attack beyond the small organic tactical systems supplied by Fieseler.",
+    "href": "erhard-siegler.html",
+    "tags": "erhard siegler"
+  },
+  {
+    "title": "Fabrique Nationale",
+    "description": "Fabrique Nationale, or FN, is the Belgian arms manufacturer based at Herstal. It survived as a specialist supplier within the Einheitspakt, developing a reputation for reliability, practical handling, adaptable mechanisms, and equipment tailored to unusual customer requirements.",
+    "href": "fabrique-nationale.html",
+    "tags": "fabrique nationale"
+  },
+  {
+    "title": "Family law in Germany",
+    "description": "German family law combines civil marriage, state regulation of eligibility, compulsory claims for close heirs, and a system of household benefits linked to employment, children, housing, and pensions. Metropolitan law remains distinct from the estate and succession rules of the eastern SS order.",
+    "href": "family-law-in-germany.html",
+    "tags": "family law in germany"
+  },
+  {
+    "title": "Family law in Italy",
+    "description": "Italian family law develops from the 1942 Civil Code through the transition from Fascist rule to royal Catholic corporatism. Marriage remains indissoluble, household obligations remain differentiated, and occupational institutions deliver much of the support attached to dependents.",
+    "href": "family-law-in-italy.html",
+    "tags": "family law in italy"
+  },
+  {
+    "title": "Family law in Occitania",
+    "description": "Occitan family law preserves a French civil-law foundation while giving Catholic marriage public effect, protecting the household’s property, and strengthening family-based taxation. It distinguishes a marriage’s religious validity from the civil consequences of separation, support, custody, and succession.",
+    "href": "family-law-in-occitania.html",
+    "tags": "family law in occitania"
+  },
+  {
+    "title": "Family taxation and inheritance in the United States",
+    "description": "American family finance combines state marriage, property, and probate law with federal tax and social-insurance instruments. Testamentary freedom remains broader than in the continental European family systems. The abolition of the federal individual income tax on 1 January 1994 substantially changes the instruments through which Washington favors households.",
+    "href": "family-taxation-inheritance-united-states.html",
+    "tags": "family taxation and inheritance in the united states"
+  },
+  {
+    "title": "Fertility and household policy",
+    "description": "Postwar demographic policy links marriage, housing, employment, household security, inheritance, education, and family expectations. The major pronatalist systems seek to sustain family formation in affluent industrial societies. Female withdrawal from wage employment, a rise in income, or a short-lived increase in births does not independently establish a larger completed family size.",
+    "href": "fertility-household-policy.html",
+    "tags": "fertility and household policy"
+  },
+  {
+    "title": "Fieseler Modellflug",
+    "description": "Fieseler Modellflug is the civilian model-aircraft and radio-control branch of Fieseler. Established in the second half of the 1950s, it sold flying models and control equipment before electronic computers became ordinary consumer products.",
+    "href": "fieseler-modellflug.html",
+    "tags": "fieseler modellflug"
+  },
+  {
+    "title": "Fieseler Unmanned Aircraft",
+    "description": "Fieseler’s postwar unmanned aircraft developed through target vehicles into tactical reconnaissance systems owned by army formations. Aircraft, launch and recovery equipment, ground stations, trained crews and repair capacity formed the purchased system.",
+    "href": "fieseler-unmanned-aircraft.html",
+    "tags": "fieseler unmanned aircraft"
+  },
+  {
+    "title": "Fieseler",
+    "description": "Fieseler is a German aircraft and control-systems manufacturer whose light STOL aircraft, target drones, tactical reconnaissance vehicles and civilian radio-control products developed from the Storch and wartime pilotless-aircraft schools. Its largest unmanned military customer became the Heer, while the Luftwaffe purchased targets and evaluated higher-altitude systems.",
+    "href": "fieseler.html",
+    "tags": "fieseler"
+  },
+  {
+    "title": "Flettner Fl H7",
+    "description": "The Fl H7 was Flettner’s compact turbine utility and scout helicopter. Its H7D combat variant became a standard Mittelafrika escort aircraft in 1975.",
+    "href": "flettner-h7.html",
+    "tags": "flettner fl h7"
+  },
+  {
+    "title": "Fliegerfaust 78",
+    "description": "Fliegerfaust 78 is the mature German shoulder-fired infrared air-defense missile generation introduced in the later 1970s. Its 78A standard was in German service and export use by the early 1980s, including Argentina.",
+    "href": "fliegerfaust-78.html",
+    "tags": "fliegerfaust 78"
+  },
+  {
+    "title": "Focke-Achgelis Fa H8",
+    "description": "The Fa H8 was Focke-Achgelis’ tandem-rotor medium transport helicopter. The H8A of 1967–68 developed into armored assault and modular combat standards during the Mittelafrika war.",
+    "href": "focke-achgelis-h8.html",
+    "tags": "focke-achgelis fa h8"
+  },
+  {
+    "title": "Focke-Wulf Civil Aircraft",
+    "description": "Focke-Wulf’s postwar civil range emphasized straightforward controls, accessible maintenance, flight schools, family touring, and utility service.",
+    "href": "focke-wulf-civil-aircraft.html",
+    "tags": "focke-wulf civil aircraft"
+  },
+  {
+    "title": "François de La Rocque",
+    "description": "François de La Rocque was a French veteran and conservative nationalist leader whose political inheritance became one of the foundations of non-Communist opposition to partition. He died in 1946, leaving the extensive social networks of the Parti Social Français without their founder.",
+    "href": "francois-de-la-rocque.html",
+    "tags": "françois de la rocque"
+  },
+  {
+    "title": "Armaments Industry of Divided France",
+    "description": "The armaments industry of divided France separated plant ownership, design staffs, state arsenals, and corporate claims after 1947. Northern France retained substantial industrial mass under German strategic controls. Occitania inherited the principal southern arsenals and a growing independent technical system. Brittany and Belgium retained industrial capacities with different limits on strategic use.",
+    "href": "french-armaments-industry.html",
+    "tags": "armaments industry of divided france"
+  },
+  {
+    "title": "French national space program",
+    "description": "The French national space program was the État français effort to demonstrate domestic manufacture of a crewed launcher and spacecraft. Begun as a small scientific institution in the 1980s and expanded into a national prototype in the 1990s, it achieved an all-French crewed orbital flight around 2000 from a German-controlled range. The state subsequently purchased transport while its surviving factories entered international supply chains.",
+    "href": "french-national-space-program.html",
+    "tags": "french national space program"
+  },
+  {
+    "title": "French and Occitan personal armor",
+    "description": "French and Occitan personal armor in the 1960s and early 1970s consisted chiefly of fragmentation vests, with heavier rifle-resistant protection reserved for selected duties. Casualty reports from the 1974 Saône war produced an armor controversy in both states and accelerated removable-plate and cuirass programs.",
+    "href": "french-occitan-personal-armor.html",
+    "tags": "french and occitan personal armor"
+  },
+  {
+    "title": "French–Occitan War of 1974",
+    "description": "The French–Occitan War of 1974 was a short interstate war fought from 9 to 23 September between the État français and the provincial forces of Occitania. France advanced down the Saône toward Mâcon while a Poitevin-led coalition advanced toward Tours. German, Italian, and Spanish pressure ended the fighting and restored the antebellum frontier. The German and Italian regular forces did not deliberately exchange fire.",
+    "href": "french-occitan-war-1974.html",
+    "tags": "french occitan war of 1974"
+  },
+  {
+    "title": "French Political Factions",
+    "description": "The political traditions surviving the defeat and partition of France included authoritarian administrative conservatives, Doriotist mass organizations, Catholic counterrevolutionaries, provincialists, Gaullists, former members of the Parti Social Français, Communists, and clandestine nationalist networks. Their opposition to the Third Republic had never made the interwar right a single movement. After 1947, disagreement over collaboration, French unity, Catholic authority, and the political status of the provinces divided these traditions among several states.",
+    "href": "french-political-factions.html",
+    "tags": "french political factions"
+  },
+  {
+    "title": "French Provincial Settlement, 1947–1952",
+    "description": "The French provincial settlement comprised the territorial division of 1947, the initial renaming of Occitan administrative regions in 1948, and the nineteen-province reform of 1952. It left Northern France, Occitania, Brittany, and Belgian and German annexations with different administrative maps and competing descriptions of French historical geography.",
+    "href": "french-provincial-settlement.html",
+    "tags": "french provincial settlement, 1947 1952"
+  },
+  {
+    "title": "French Provisioning Panic, 1947–1950",
+    "description": "The French provisioning panic of 1947–1950 was the fear that the territorially reduced État français could no longer feed its inherited population. Distribution and currency disruption made the immediate concern real, but the remaining northern state retained ample staple-producing land. Agricultural modernization and continental trade disproved the strongest carrying-capacity claims.",
+    "href": "french-provisioning-panic.html",
+    "tags": "french provisioning panic, 1947 1950"
+  },
+  {
+    "title": "French Resistance",
+    "description": "The French Resistance was the collection of clandestine movements opposed to occupation and collaboration during 1940–47. Its activity peaked before prolonged German security pressure and the failure of an Allied return led surviving networks toward preservation, intelligence and social continuity.",
+    "href": "french-resistance.html",
+    "tags": "french resistance"
+  },
+  {
+    "title": "French space industry",
+    "description": "The French space industry retained component manufacture, test facilities and software expertise after the national crewed-launch demonstration around 2000. Its principal surviving markets were German civilian space systems, with much smaller occasional American orders.",
+    "href": "french-space-industry.html",
+    "tags": "french space industry"
+  },
+  {
+    "title": "Spaceflight in the French successor states",
+    "description": "Spaceflight acquired different public meanings in the French successor states. Occitania treated shared construction as a national technical achievement; northern France increasingly demanded visible ownership of a complete vehicle; Belgium emphasized specialist participation, and Brittany emphasized navigation and recognition of its citizenship.",
+    "href": "french-successor-space-culture.html",
+    "tags": "spaceflight in the french successor states"
+  },
+  {
+    "title": "Diplomacy of the French Successor States",
+    "description": "The diplomacy of the French successor states distinguished legal recognition from judgments about the partition’s origin. By the mid-1950s, the main foreign powers dealt with Paris, Toulouse, Rennes, and Brussels as existing governments. Many continued to regard the settlement as unnatural without supporting a war to reverse it. The conflict of 1974 sharply reduced the diplomatic value of French restorationism.",
+    "href": "french-successor-state-diplomacy.html",
+    "tags": "diplomacy of the french successor states"
+  },
+  {
+    "title": "Focke-Wulf Fw J2",
+    "description": "The Fw J2 was Focke-Wulf’s first postwar accepted jet fighter, selected principally for carrier service. Its compact single-engine configuration developed from the Ta 183 school through Fw P.312.",
+    "href": "fw-j2.html",
+    "tags": "focke-wulf fw j2"
+  },
+  {
+    "title": "Focke-Wulf Fw J6",
+    "description": "The Fw J6 was Focke-Wulf’s P.326 maneuver fighter, accepted as J6A-0 in 1969 after twelve years of development. The initial accepted type emphasized naval service.",
+    "href": "fw-j6.html",
+    "tags": "focke-wulf fw j6"
+  },
+  {
+    "title": "Georges Bidault",
+    "description": "Georges Bidault was a French Resistance political leader associated with the preservation of clandestine networks after Jean Moulin’s loss in 1943. As expectations of liberation receded, he advocated retaining personnel, institutions and national memory for a longer political struggle.",
+    "href": "georges-bidault.html",
+    "tags": "georges bidault"
+  },
+  {
+    "title": "German Aviation in the Häuptlingskrieg",
+    "description": "The Häuptlingskrieg transformed German aviation through the demands of a dispersed colonial counterinsurgency. Water access, persistent reconnaissance, helicopters, refueling and distributed logistics received greater immediate importance than high-altitude performance or air-superiority capability.",
+    "href": "german-african-air-war.html",
+    "tags": "german aviation in the häuptlingskrieg"
+  },
+  {
+    "title": "German Aircraft Self-Protection",
+    "description": "German aircraft self-protection developed from early missile-age warning and decoy experiments into an integrated set of signature, electronic, maneuver, suppression, and stand-off methods after Maracaibo.",
+    "href": "german-aircraft-self-protection.html",
+    "tags": "german aircraft self-protection"
+  },
+  {
+    "title": "German–Arab Military Services",
+    "description": "The German–Arab military-services company established during the Iraqi Civil War combined German capital and technical organization with Iraqi and other Arab personnel. It developed as a specialist partner to GWA and became increasingly localized after the revolutionary victory.",
+    "href": "german-arab-military-services.html",
+    "tags": "german arab military services"
+  },
+  {
+    "title": "German Aviation Export Policy",
+    "description": "German aviation exports developed from aircraft sales into packages of equipment, maintenance, training, radar, communications and command support. The Iraqi defeat in 1974 accelerated a policy already emerging from the problems of sophisticated aircraft operated beyond Germany’s own institutional system.",
+    "href": "german-aviation-export-policy.html",
+    "tags": "german aviation export policy"
+  },
+  {
+    "title": "German Aviation Fuel Economy",
+    "description": "German aviation passed from a fuel-constrained reconstruction economy to increasing fuel abundance during the 1960s. This transition expanded jet transport while leaving propeller aircraft economical for short, thin, and rough-field routes.",
+    "href": "german-aviation-fuel-economy.html",
+    "tags": "german aviation fuel economy"
+  },
+  {
+    "title": "German Aviation Generational Succession",
+    "description": "German aviation passed from its founding designers to a mixture of family management, technical heirs and professional institutions during the later twentieth century. Ownership, chief design authority and control of a national programme did not necessarily pass to the same successor.",
+    "href": "german-aviation-generational-succession.html",
+    "tags": "german aviation generational succession"
+  },
+  {
+    "title": "German Civil Aircraft Export Affair of 1951",
+    "description": "The 1951 civil-aircraft export affair followed the legal American purchase of a Focke-Wulf P.314A and its examination by American aeronautical and military engineers. The episode encouraged a more formal German technical-export review regime.",
+    "href": "german-civil-aircraft-export-affair-1951.html",
+    "tags": "german civil aircraft export affair of 1951"
+  },
+  {
+    "title": "German Contract Reserve in Argentina",
+    "description": "The German contract reserve in Argentina was a private military-service company organized around an Argentine availability retainer. It supplied experienced German and German-Argentine personnel alongside the broader procurement and technical work of GWA.",
+    "href": "german-contract-reserve-argentina.html",
+    "tags": "german contract reserve in argentina"
+  },
+  {
+    "title": "German Guided Bombs",
+    "description": "German postwar guided bombs developed from Fritz X and the powered Hs 293 line into radio-command, television-command, powered-ejection, and stand-off weapons.",
+    "href": "german-guided-bombs.html",
+    "tags": "german guided bombs"
+  },
+  {
+    "title": "German Lenkwaffenjäger Program",
+    "description": "The Lenkwaffenjägerforderung 61, or LJ 61, sought a dedicated missile interceptor under a doctrine that no longer required a gun. Heinkel’s ten-missile proposal won in 1963.",
+    "href": "german-lenkwaffenjaeger-program.html",
+    "tags": "german lenkwaffenjäger program"
+  },
+  {
+    "title": "German Postwar Aero Engines",
+    "description": "German postwar engine makers retained separate design schools in piston, turbojet, turboprop, turboshaft, and low-bypass propulsion. New cores acquired new numbers, while developments within an existing core normally advanced the suffix.",
+    "href": "german-postwar-aero-engines.html",
+    "tags": "german postwar aero engines"
+  },
+  {
+    "title": "German Postwar Aircraft Development",
+    "description": "German aircraft development after 1947 proceeded through competing company projects, civil sales, service trials, and a national acceptance register. Six major design houses pursued different combinations of performance, handling, range, interception systems, and transport economics.",
+    "href": "german-postwar-aircraft-development.html",
+    "tags": "german postwar aircraft development"
+  },
+  {
+    "title": "German Rotorcraft Development",
+    "description": "Germany’s postwar helicopter industry developed from the compact Flettner and heavy-lift Focke-Achgelis schools. Mittelafrika supplied a major civil market before the War of the Chiefs made combat transport and escort procurement urgent.",
+    "href": "german-rotorcraft-development.html",
+    "tags": "german rotorcraft development"
+  },
+  {
+    "title": "German Schnelljäger Program",
+    "description": "The Schnelljägerforderung 55, or SJ 55, was the German requirement for a Mach-2-class radar and missile interceptor. Heinkel won the 1956 evaluation with the aircraft accepted as He J3.",
+    "href": "german-schnelljaeger-program.html",
+    "tags": "german schnelljäger program"
+  },
+  {
+    "title": "German Specialist Civil Aircraft",
+    "description": "German specialist civil aircraft served small landing grounds, remote settlements, river and lake routes and industrial operations alongside the large airlines and personal-aircraft market. Fieseler, Heinkel and Dornier maintained distinct STOL schools, while Blohm & Voss developed waterborne regional transport.",
+    "href": "german-specialist-civil-aircraft.html",
+    "tags": "german specialist civil aircraft"
+  },
+  {
+    "title": "Gotha Civil Flying Wings",
+    "description": "Gotha marketed the Horten flying-wing school through a civil range built around the experience of flight, from transition training to long-range observation saloons.",
+    "href": "gotha-civil-flying-wings.html",
+    "tags": "gotha civil flying wings"
+  },
+  {
+    "title": "GWA",
+    "description": "GWA was the principal German corporate military-services concern. Jointly financed by major industrial interests, it provided equipment, doctrine, operators, workshops, maintenance, training, and supply as integrated foreign contracts. Its clients bought access to a functioning German technical and military system.",
+    "href": "gwa.html",
+    "tags": "gwa"
+  },
+  {
+    "title": "Heinkel He J3",
+    "description": "The He J3 was the radar-first all-weather interceptor selected in the 1956 Schnelljäger trials. Its He P.1158C development combined Mach-2-class flight with reliable radar and missile integration.",
+    "href": "he-j3.html",
+    "tags": "heinkel he j3"
+  },
+  {
+    "title": "Heinkel He J5",
+    "description": "The He J5 was Heinkel’s dedicated beyond-visual-range interceptor, accepted in 1963 with ten missiles and no gun. It developed from He P.1182A under the Lenkwaffenjägerforderung 61.",
+    "href": "he-j5.html",
+    "tags": "heinkel he j5"
+  },
+  {
+    "title": "Heinkel Civil Aircraft",
+    "description": "Heinkel developed separate civil ranges for rough-country utility and executive travel. Animal names identified the utility ladder; gemstones identified the more finished private aircraft.",
+    "href": "heinkel-civil-aircraft.html",
+    "tags": "heinkel civil aircraft"
+  },
+  {
+    "title": "Heinkel Wasserbüffel",
+    "description": "The Wasserbüffel was the water-operating development of Heinkel’s Büffel utility school, promoted by the Mittelafrika war and the growth of the Kongosee aviation network.",
+    "href": "heinkel-wasserbueffel.html",
+    "tags": "heinkel wasserbüffel"
+  },
+  {
+    "title": "Henschel Postwar Attack Aircraft",
+    "description": "Henschel became Germany’s principal dedicated fixed-wing battlefield-attack and tactical weapon-integration house after the long war. Its aircraft developed from the Hs S1’s heavy-cannon installation through two-seat precision attack to the post-African 30 mm generation.",
+    "href": "henschel-postwar-schlachtflugzeug.html",
+    "tags": "henschel postwar attack aircraft"
+  },
+  {
+    "title": "Henschel Hs S1",
+    "description": "The Henschel Hs S1 was Germany’s first accepted postwar dedicated battlefield-attack aircraft. Developed as Hs P.141, it combined jet propulsion with a purpose-designed installation for the BK 7,5 cannon rather than adding the weapon to an underpowered existing airframe.",
+    "href": "henschel-s1.html",
+    "tags": "henschel hs s1"
+  },
+  {
+    "title": "Henschel Hs S2",
+    "description": "The Henschel Hs S2 was the two-seat battlefield-attack aircraft developed from project P.148. It succeeded the S1’s gun-centered arrangement with a wider attack system incorporating cannon, conventional stores and guided weapons.",
+    "href": "henschel-s2.html",
+    "tags": "henschel hs s2"
+  },
+  {
+    "title": "Horten H XXIV",
+    "description": "Horten H XXIV was the flying-wing competitor in Germany’s 1955–56 Schnelljäger program. Its internal missile arrangement and unexpectedly low radar return shaped Horten-Gotha’s later signature-management research.",
+    "href": "horten-h-xxiv.html",
+    "tags": "horten h xxiv"
+  },
+  {
+    "title": "Horten H XXVIII",
+    "description": "Horten H XXVIII B was the low-signature entrant in the 1962–63 German missile-interceptor competition. It lost to Heinkel while establishing a funded research lineage in radar signature, materials, and internal weapons.",
+    "href": "horten-h-xxviii.html",
+    "tags": "horten h xxviii"
+  },
+  {
+    "title": "Horten Low-Observable Aircraft",
+    "description": "Horten-Gotha’s low-observable aircraft work developed through the H XXIX test and combat aircraft, the H XXX strategic bomber programme of 1977–1990 and the later H XXXI fighter study. Deliberate radar and infrared management grew out of earlier flying-wing work, measurement and digital flight control.",
+    "href": "horten-low-observable-aircraft.html",
+    "tags": "horten low-observable aircraft"
+  },
+  {
+    "title": "Jacques Doriot",
+    "description": "Jacques Doriot was the principal mass-political figure of postwar Northern France. His Parti populaire français supplied organization and a revolutionary nationalist constituency to a state whose ministries remained dominated by administrative conservatives and German supervision.",
+    "href": "jacques-doriot.html",
+    "tags": "jacques doriot"
+  },
+  {
+    "title": "Joseph Martray",
+    "description": "Joseph Martray was a principal architect of the economic development that made postwar Breton independence viable. His public program emphasized roads, electricity, agriculture, ports, fisheries, industry, and higher education.",
+    "href": "joseph-martray.html",
+    "tags": "joseph martray"
+  },
+  {
+    "title": "Joseph P. Kennedy Jr.",
+    "description": "Joseph Patrick Kennedy Jr. was an American naval aviator and overseas volunteer who served in British maritime patrol and heavy aviation. He died in 1944 when an experimental explosive aircraft detonated prematurely over England. He was the elder brother of President John F. Kennedy.",
+    "href": "joseph-p-kennedy-jr.html",
+    "tags": "joseph p. kennedy jr."
+  },
+  {
+    "title": "Junkers Ju El1",
+    "description": "The Ju El1 was Germany’s first accepted electronic aircraft under the El register. Its EF 158/4 ancestry came from a large platform initially offered as a strategic bomber.",
+    "href": "ju-el1.html",
+    "tags": "junkers ju el1"
+  },
+  {
+    "title": "Junkers Civil Aircraft",
+    "description": "Junkers’ postwar civil production centered on economical transport and adaptable large platforms, with public names drawn from trade, navigation, and travel.",
+    "href": "junkers-civil-aircraft.html",
+    "tags": "junkers civil aircraft"
+  },
+  {
+    "title": "Junkers EF 158 Tanker Development",
+    "description": "The Junkers EF 158 tanker development adapted the company’s large postwar platform lineage to aerial refueling. The EF 158/3 branch preceded the African wars and became prominent during the Häuptlingskrieg, when refueling extended the persistence of strike and support aircraft operating from a limited base network.",
+    "href": "junkers-ef-158-tanker.html",
+    "tags": "junkers ef 158 tanker development"
+  },
+  {
+    "title": "Kaigai Hōan Sangyō K.K.",
+    "description": "Kaigai Hōan Sangyō K.K., usually KHS, was a Japanese military-services company financed across industrial, shipping, banking, aviation, and trading interests. It combined overseas military work with the protection and development of commercial infrastructure. Its fragmented ownership gave it unusual freedom from routine direction by Tokyo.",
+    "href": "kaigai-hoan-sangyo.html",
+    "tags": "kaigai hōan sangyō k.k."
+  },
+  {
+    "title": "Kampfhubschrauberforderung 74",
+    "description": "Kampfhubschrauberforderung 74, normally KH 74, was Germany’s 1974 requirement for a purpose-designed attack helicopter. Flettner and Focke-Achgelis produced contrasting demonstrators in 1975.",
+    "href": "kampfhubschrauberforderung-74.html",
+    "tags": "kampfhubschrauberforderung 74"
+  },
+  {
+    "title": "Latin aerospace regional marks",
+    "description": "Latin aerospace regional marks identify the locality, contractor and production lot of spacecraft components within the multinational workshare. The practice grew from Occitan provincial heraldry and spread to Italian, Spanish and Portuguese suppliers.",
+    "href": "latin-aerospace-regional-marks.html",
+    "tags": "latin aerospace regional marks"
+  },
+  {
+    "title": "Latin extraterrestrial heraldry",
+    "description": "Latin extraterrestrial heraldry assigns separate civic arms to national and common communities on the Moon, Mars and Ceres. The devices preserve different local and national traditions rather than a uniform space-colony template.",
+    "href": "latin-extraterrestrial-heraldry.html",
+    "tags": "latin extraterrestrial heraldry"
+  },
+  {
+    "title": "Lufthaubitze",
+    "description": "Lufthaubitze was the soldiers’ name for the Junkers-Henschel heavy gunship introduced during the Häuptlingskrieg. A Junkers EF-derived platform carried a Henschel-integrated 10.5 cm howitzer and supporting observation and fire-control equipment. It belonged to the Schlachtflugzeug role rather than a separate national aircraft category.",
+    "href": "lufthaubitze.html",
+    "tags": "lufthaubitze"
+  },
+  {
+    "title": "Luftlanze",
+    "description": "Luftlanze was Germany’s standardized postwar air-to-air missile family. The initial 55 generation followed Ruhrstahl’s X-4, X-5, and X-6 experiments; later weapons supported the J5 and high-altitude interception programs.",
+    "href": "luftlanze.html",
+    "tags": "luftlanze"
+  },
+  {
+    "title": "Manufacture d’armes de Châtellerault",
+    "description": "The Manufacture d’armes de Châtellerault, or MAC, is the principal inherited arsenal of Poitou in the Occitan confederation. Its physical works lie at Châtellerault, close to the western frontier corridor that became a major theater of the war of 1974.",
+    "href": "mac-chatellerault.html",
+    "tags": "manufacture d’armes de châtellerault"
+  },
+  {
+    "title": "Marcel Dassault",
+    "description": "Marcel Dassault, born Marcel Bloch, was the aircraft manufacturer whose postwar move to the Bordeaux region made his company a principal independent aviation house of Occitania. His imprisonment and coerced technical work in the Buchenwald system continued until the 1947 settlement.",
+    "href": "marcel-dassault.html",
+    "tags": "marcel dassault"
+  },
+  {
+    "title": "Manufacture d’armes de Saint-Étienne",
+    "description": "The Manufacture d’armes de Saint-Étienne, or MAS, is a Lyonnais provincial arsenal whose small-arms designs achieved adoption across Occitania and the Latin Bloc. Its work helped introduce intermediate-cartridge automatic rifles into the Latin military system.",
+    "href": "mas-saint-etienne.html",
+    "tags": "manufacture d’armes de saint-étienne"
+  },
+  {
+    "title": "Manufacture d’armes de Tulle",
+    "description": "The Manufacture d’armes de Tulle, or MAT, is the inherited arms establishment of Limousin in Occitania. It forms a provincial nucleus for weapons knowledge, maintenance, ammunition, training, and reserve support behind the northern frontier provinces.",
+    "href": "mat-tulle.html",
+    "tags": "manufacture d’armes de tulle"
+  },
+  {
+    "title": "Max Rouquette",
+    "description": "Max Rouquette, also known as Max Roqueta, was a physician, writer, and major cultural nation-builder in Occitania. His work connected literature, education, theater, and the promotion of a common written Occitan culture across a politically diverse confederation.",
+    "href": "max-rouquette.html",
+    "tags": "max rouquette"
+  },
+  {
+    "title": "Messerschmitt Me J1",
+    "description": "The Me J1 was the first fighter accepted under Germany’s postwar national register. Developed as Me P.1147/III, it replaced an evolutionary Me 262 layout with a longer airframe, wing-root engines, refined sweep, and a V-tail.",
+    "href": "me-j1.html",
+    "tags": "messerschmitt me j1"
+  },
+  {
+    "title": "Messerschmitt Me J4",
+    "description": "The Me J4 was Messerschmitt’s compact single-engine successor to the J1 in the general fighter and air-superiority role. Accepted in 1959, it retained a gun alongside missile armament.",
+    "href": "me-j4.html",
+    "tags": "messerschmitt me j4"
+  },
+  {
+    "title": "Messerschmitt Me P.1300",
+    "description": "Me P.1300 was Messerschmitt’s next-generation fighter project, promoted from a reserved concept to funded advanced design in 1981. The programme followed the mature J4 architecture and drew on Arado Triebwerk’s advanced propulsion after the 1980 industrial combination.",
+    "href": "me-p-1300.html",
+    "tags": "messerschmitt me p.1300"
+  },
+  {
+    "title": "Messerschmitt Adler",
+    "description": "The Adler was Messerschmitt’s clean-sheet high-altitude passenger liner. Developed as P.1248, it first flew in 1964 and entered the growing international route market in the middle 1960s.",
+    "href": "messerschmitt-adler.html",
+    "tags": "messerschmitt adler"
+  },
+  {
+    "title": "Messerschmitt-Arado Werke AG",
+    "description": "Messerschmitt-Arado Werke AG was formed in 1980 after Arado’s late 1979 liquidity crisis. Presented as a merger, the combination placed capital allocation and executive control with Messerschmitt while retaining Arado’s profitable civil brand and specialist aerospace and propulsion capacity.",
+    "href": "messerschmitt-arado-werke.html",
+    "tags": "messerschmitt-arado werke ag"
+  },
+  {
+    "title": "Messerschmitt Civil Aircraft",
+    "description": "Messerschmitt entered civil aviation more actively after losing the 1953 strategic-bomber requirement. Its civil identity emphasized speed and altitude, with bird names for public products.",
+    "href": "messerschmitt-civil-aircraft.html",
+    "tags": "messerschmitt civil aircraft"
+  },
+  {
+    "title": "Messerschmitt P.1186",
+    "description": "Me P.1186 was Messerschmitt’s postwar high-altitude strategic-bomber project. Its failure to secure the 1953 bomber order encouraged civil salvage work and the later Kranich express freighter.",
+    "href": "messerschmitt-p-1186.html",
+    "tags": "messerschmitt p.1186"
+  },
+  {
+    "title": "Messerschmitt P.1294",
+    "description": "Me P.1294 was a clean-sheet German radar and SAM-suppression aircraft opened in 1967. Its second configuration first flew in late 1969.",
+    "href": "messerschmitt-p-1294.html",
+    "tags": "messerschmitt p.1294"
+  },
+  {
+    "title": "Mozambican Latin launch facilities",
+    "description": "Mozambican Latin launch facilities provide a Portuguese-controlled secondary gateway for the Latin Space Community. Coastal geography permits eastward launches over the Indian Ocean, supplementing the principal San Marco system near Kismayo.",
+    "href": "mozambique-latin-launch-range.html",
+    "tags": "mozambican latin launch facilities"
+  },
+  {
+    "title": "Northern French computing",
+    "description": "Northern French computing developed around the Paris–Angers Bull system, public administration and domestic commercial customers. French-language applications coexisted with German-compatible interfaces and politically supervised strategic uses.",
+    "href": "northern-french-computing.html",
+    "tags": "northern french computing"
+  },
+  {
+    "title": "Northern French Political Culture",
+    "description": "Northern French political culture developed from prolonged occupation, the survival of the État français, and the partition of 1947. National restoration dominated the first postwar generation. After the failed war of 1974, politics increasingly concerned the autonomy, prosperity, and cultural standing that the reduced French state could obtain inside the German continental order.",
+    "href": "northern-french-political-culture.html",
+    "tags": "northern french political culture"
+  },
+  {
+    "title": "Occitan combat cuirass",
+    "description": "The Occitan combat cuirass is a modular personal-armor system developed from an Aquitanian provincial project after the 1974 war. Its curved metal shell, protective inserts and sallet-derived helmet produced a distinctive silhouette in field service and a polished breastplate tradition on parade.",
+    "href": "occitan-combat-cuirass.html",
+    "tags": "occitan combat cuirass"
+  },
+  {
+    "title": "Occitan computing",
+    "description": "Occitan computing developed from a dispersed post-partition engineering community into a specialized Latin technical system. Toulouse concentrated real-time and aerospace work, Marseille logic programming, Grenoble microelectronics and Garona large-scale computation and network infrastructure.",
+    "href": "occitan-computing.html",
+    "tags": "occitan computing"
+  },
+  {
+    "title": "Occitan extraterrestrial communities",
+    "description": "Occitan extraterrestrial communities are nationally affiliated settlements that develop local civic identities within the Latin space system. Their charters and arms distinguish permanent towns from temporary technical bases without automatically granting the full voting weight of a historic province.",
+    "href": "occitan-extraterrestrial-communities.html",
+    "tags": "occitan extraterrestrial communities"
+  },
+  {
+    "title": "Occitan heraldry",
+    "description": "Occitan heraldry combines the national gold Occitan cross on red with the separate arms, flags and military badges of the nineteen provinces recognized in the 1952 settlement. The common marque d’union is compulsory; its position within provincial arms varies.",
+    "href": "occitan-heraldry.html",
+    "tags": "occitan heraldry"
+  },
+  {
+    "title": "French and Occitan military dress",
+    "description": "French and Occitan military dress developed separate helmet, field-uniform and insignia traditions after partition. By the Saône fighting of September 1974, French gray-green clothing, the ridged Modèle 1962 Adrian and foliage camouflage differed from Occitan olive dress, the sallet-derived Modèle 1953 helmet and provincial badges.",
+    "href": "occitan-military-dress.html",
+    "tags": "french and occitan military dress"
+  },
+  {
+    "title": "Paul Bloch",
+    "description": "Paul Bloch was a participant in the French Resistance who used the pseudonym Dassault. He survived the prolonged clandestine war and its transition toward preservation. His brother Marcel adopted the name after release from German imprisonment.",
+    "href": "paul-bloch.html",
+    "tags": "paul bloch"
+  },
+  {
+    "title": "Pierre-Étienne Flandin",
+    "description": "Pierre-Étienne Flandin represented the administrative conservative tradition that supplied the respectable governmental leadership of postwar Northern France. His importance lay in continuity of ministries, law, industrial management, and diplomacy rather than command of a mass political movement.",
+    "href": "pierre-etienne-flandin.html",
+    "tags": "pierre-étienne flandin"
+  },
+  {
+    "title": "Pierre-Louis Berthaud",
+    "description": "Pierre-Louis Berthaud was an Occitan language activist and public cultural figure whose career crossed collaboration-era administration, anti-German resistance, and postwar southern nation-building. His commitment to the langue d’oc gave him a constituency independent of the founding aristocratic establishment.",
+    "href": "pierre-louis-berthaud.html",
+    "tags": "pierre-louis berthaud"
+  },
+  {
+    "title": "Private German Undersea Services",
+    "description": "Private German undersea services developed as a specialist branch of the post-1968 military-contracting industry. German-owned companies operated transports and other submersibles with civilian contractor crews, selling access and logistics while retaining German property, technical licensing, and shipyard support.",
+    "href": "private-german-undersea-services.html",
+    "tags": "private german undersea services"
+  },
+  {
+    "title": "PT-101 Incident",
+    "description": "The PT-101 incident was the loss of a motor torpedo boat by fire during readiness service in the Gulf of Panama in 1943. John F. Kennedy’s rescue and leadership of the surviving crew earned him the Navy and Marine Corps Medal.",
+    "href": "pt-101-incident.html",
+    "tags": "pt-101 incident"
+  },
+  {
+    "title": "Raymond Delaporte",
+    "description": "Raymond Delaporte was a Catholic Breton nationalist and a leading figure of the collaboration-era generation that founded the German-guaranteed Breton state. His role linked the new government to an existing separatist movement rather than to the French authoritarian right.",
+    "href": "raymond-delaporte.html",
+    "tags": "raymond delaporte"
+  },
+  {
+    "title": "Roanne Armaments School",
+    "description": "The Roanne armaments school is the Occitan armored-engineering tradition built around the Roanne arsenal, southern industrial plants, and French design staffs who moved after partition. It preserved an oscillating-turret and autoloading lineage under Occitan designations rather than the northern AMX institutional name.",
+    "href": "roanne-armaments-school.html",
+    "tags": "roanne armaments school"
+  },
+  {
+    "title": "Robert Lafont",
+    "description": "Robert Lafont was an Occitan scholar and nationalist associated with the younger reformist generation that challenged the founding conservative order from within the new country’s own cultural institutions.",
+    "href": "robert-lafont.html",
+    "tags": "robert lafont"
+  },
+  {
+    "title": "Siberian Technical Services Corporation",
+    "description": "Siberian Technical Services Corporation was the American Foreign Legion’s industrial and technical subsidiary in Omsk–Novosibirsk. A contract partly paid in concession and production rights exchanged American aviation, communications, maintenance, and training services for a long-term industrial foothold.",
+    "href": "siberian-technical-services-corporation.html",
+    "tags": "siberian technical services corporation"
+  },
+  {
+    "title": "Siegfried Thiel",
+    "description": "Siegfried Thiel (born5 September 1941) was a German engineer in Fieseler’s unmanned-flight-control organization. The son of rocket engineer Walter Thiel and Martha Thiel, he developed a career in controls, telemetry, navigation and remote-aircraft systems rather than succeeding to his father’s missile responsibilities.",
+    "href": "siegfried-thiel.html",
+    "tags": "siegfried thiel"
+  },
+  {
+    "title": "Venezuelan Oil Consortium",
+    "description": "The German–Japanese–Venezuelan oil consortium was the joint operating concern whose concessions and preferential supply contracts drove the Venezuelan crisis of 1963–66. Its expansion linked petroleum competition to private military service, German state air defense, and the American intervention of 1966.",
+    "href": "venezuelan-oil-consortium.html",
+    "tags": "venezuelan oil consortium"
+  },
+  {
+    "title": "Wolfram Max Horten",
+    "description": "Wolfram Max Horten (born 1948) was a German controls and computational-aerodynamics engineer at Horten-Gotha. Reimar Horten’s eldest son, he worked on H XXIX and developed into a senior technical participant during the long H XXX strategic-bomber programme.",
+    "href": "wolfram-max-horten.html",
+    "tags": "wolfram max horten"
+  },
+  {
+    "title": "Women, work, and the Latin household",
+    "description": "Italy, Spain, and Occitania organize female economic activity around marriage, household production, care, and selected professions. Their postwar systems move from blunt employment exclusions toward differentiated work over the life cycle. Serious education and legal capacity coexist with a social expectation that mothers of young children principally manage the household.",
+    "href": "women-work-household-latin-bloc.html",
+    "tags": "women, work, and the latin household"
+  },
+  {
+    "title": "Yann Fouéré",
+    "description": "Yann Fouéré was a Breton autonomist journalist, constitutional thinker, and foreign-policy voice. He represented a civilian institutional current that sought to give Breton independence a political definition extending beyond its German guarantee.",
+    "href": "yann-fouere.html",
+    "tags": "yann fouéré"
+  }
+]);
+/* SIX_LORE_CATALOG_END */
+
 const here = location.pathname.split("/").pop() || "index.html";
 
 const flagAssets = {
@@ -4811,6 +5599,18 @@ document.querySelectorAll('a[href="latin-bloc.html"]').forEach(link => {
 });
 
 const crossLinks = [
+  {"href": "road-vehicle-index.html", "terms": ["Road Vehicle Index", "road vehicle index"]},
+  {"href": "frontier-aircraft.html", "terms": ["Frontier Aircraft", "Frontier Aviation"]},
+  {"href": "nash-kelvinator.html", "terms": ["Nash-Kelvinator", "Nash–Kelvinator"]},
+  {"href": "hudson-motor-car-company.html", "terms": ["Hudson Motor Car Company"]},
+  {"href": "ford-motor-company.html", "terms": ["Ford Motor Company"]},
+  {"href": "general-motors.html", "terms": ["General Motors"]},
+  {"href": "chrysler-corporation.html", "terms": ["Chrysler Corporation"]},
+  {"href": "mooney-beech-aircraft.html", "terms": ["Mooney–Beech", "Mooney-Beech"]},
+  {"href": "american-high-speed-rail-research-consortium.html", "terms": ["national high-speed rail research consortium"]},
+  {"href": "concorde.html", "terms": ["Concorde"]},
+  {"href": "arado-p1100.html", "terms": ["Arado P.1100"]},
+  {"href": "ghia.html", "terms": ["Carrozzeria Ghia"]},
   { href: "british-wartime-land-doctrine.html", terms: ["British wartime land doctrine", "British wartime doctrine"] },
   { href: "british-wartime-rifle-platoon.html", terms: ["British wartime rifle platoon", "three-section Bren-centered rifle platoon"] },
   { href: "british-wartime-close-antitank-system.html", terms: ["British wartime close-antitank system", "British close-antitank system"] },
@@ -5361,23 +6161,12 @@ const crossLinks = [
   { href: "japanese-late-piston-first-jet-generation.html", terms: ["Japanese late-piston and first-jet generation", "Japanese Late-Piston and First-Jet Generation"] },
   { href: "n1k2-j-shiden-kai.html", terms: ["N1K2-J Shiden Kai", "N1K2-J"] },
   { href: "a7m3-reppu.html", terms: ["A7M3 Reppū", "A7M3 Reppu", "A7M3"] },
-  { href: "j7w1-shinden.html", terms: ["J7W1 Shinden", "J7W1"] },
   { href: "j8m1-shusui.html", terms: ["J8M1 Shūsui", "J8M Shūsui", "J8M1 Shusui", "J8M1"] },
   { href: "ki-200-shinden-ii.html", terms: ["Ki-200 Shinden II", "Ki-200", "Ki 200 Shinden II"] },
-  { href: "g9n1-kikka-kai.html", terms: ["Type 6 G9N1 Kikka Kai", "G9N1 Kikka Kai", "Nakajima Kikka Kai"] },
-  { href: "j10n1-karyu.html", terms: ["Type 7 J10N1 Karyū", "J10N1 Karyū", "J10N1 Karyu", "Nakajima Ki-201 Karyū", "Nakajima Ki-201 Karyu"] },
-  { href: "j7w2-shinden-kai.html", terms: ["J7W2 Shinden Kai", "J7W2"] },
-  { href: "j11t1-kogarashi.html", terms: ["Type 9 J11T1 Kogarashi", "J11T1 Kogarashi", "Tachikawa Ki-214"] },
-  { href: "j7w3-shinden-kai-ni.html", terms: ["J7W3 Shinden Kai Ni", "J7W3"] },
   { href: "japanese-joint-service-combat-aircraft-lineage.html", terms: ["Japanese joint-service combat-aircraft lineage", "Japanese Joint-Service Combat-Aircraft Lineage", "joint-service combat-aircraft lineage"] },
   { href: "a9m1-shippu.html", terms: ["Type 16 A9M1 Shippū", "A9M1 Shippū", "A9M1 Shippu"] },
-  { href: "j12n1-raiko.html", terms: ["Type 18 J12N1 Raikō", "J12N1 Raikō", "J12N1 Raiko"] },
   { href: "a10m1-shippu-kai.html", terms: ["A10M Arashi", "A10M1 Arashi", "A10M1", "black crescent intake"] },
   { href: "a10m2-arashi.html", terms: ["A10M2 Arashi", "A10M2"] },
-  { href: "j13m1-raiden.html", terms: ["Type 28 J13M1 Raiden", "J13M1 Raiden"] },
-  { href: "j14m1-kairyu.html", terms: ["Type 36 J14M1 Kairyū", "J14M1 Kairyū", "J14M1 Kairyu"] },
-  { href: "a11m1-arashi.html", terms: ["Type 38 A11M1 Arashi", "A11M1 Arashi"] },
-  { href: "a12m1-arashi-kai.html", terms: ["Type 43 A12M1 Arashi Kai", "A12M1 Arashi Kai"] },
   { href: "ki-100-i-shinden.html", terms: ["Ki-100-I Shinden", "Ki-100-I"] },
   { href: "ki-100-ii-shinden-kai.html", terms: ["Ki-100-II Shinden Kai", "Ki-100-II"] },
   { href: "ki-100-iii-shinden-kai-ni.html", terms: ["Ki-100-III Shinden Kai Ni", "Ki-100-III"] },
@@ -5642,13 +6431,11 @@ const crossLinks = [
   { href: "kii-class-battleship.html", terms: ["Kii-class battleship", "Kii class", "Kii-class"] },
   { href: "suruga-class-battleship.html", terms: ["Suruga-class battleship", "Suruga class", "Suruga-class"] },
   { href: "japanese-wartime-carrier-inheritance.html", terms: ["Japanese wartime carrier inheritance", "Taihō", "Shinano"] },
-  { href: "amagi-class-carrier.html", terms: ["Former Amagi carrier reconstruction", "Amagi class", "Amagi-class", "Katsuragi", "Aso carrier", "Ikoma carrier"] },
   { href: "hakuryu-class-carrier.html", terms: ["Hakuryū class", "Hakuryū-class", "Hakuryū"] },
   { href: "hiryu-ii-class-carrier.html", terms: ["Hiryū II-class aircraft carrier", "Hiryū II class", "Hiryū II"] },
   { href: "taiho-ii-class-carrier.html", terms: ["Taihō II-class aircraft carrier", "Taihō II class", "Taihō II"] },
   { href: "zuiho-ii-class.html", terms: ["Zuihō II class", "Zuihō II-class", "Zuihō", "Shōhō", "Ryūhō", "Hiyō"] },
   { href: "japanese-cruiser-force.html", terms: ["Japanese cruiser force"] },
-  { href: "ibuki-class-cruiser.html", terms: ["Former Ibuki cruiser reconstruction", "Ibuki aviation missile cruiser", "Ibuki-class aviation missile cruiser", "Ibuki class"] },
   { href: "takao-ii-class-cruiser.html", terms: ["Takao II-class cruiser", "Takao II missile cruiser", "Takao II-class missile cruiser", "Takao II class"] },
   { href: "maya-class-cruiser.html", terms: ["Maya II-class cruiser", "Maya command cruiser", "Maya-class command cruiser", "Maya class"] },
   { href: "chokai-ii-class-cruiser.html", terms: ["Chōkai II-class cruiser", "Chōkai II command cruiser", "Chokai II-class cruiser", "Chōkai II class"] },
@@ -5658,24 +6445,15 @@ const crossLinks = [
   { href: "asakaze-class-destroyer.html", terms: ["Asakaze II-class destroyer", "Asakaze destroyer", "Asakaze-class destroyer", "Asakaze class"] },
   { href: "amatsukaze-class-destroyer.html", terms: ["Amatsukaze II-class destroyer", "Amatsukaze destroyer", "Amatsukaze-class destroyer", "Amatsukaze class"] },
   { href: "hatsuyuki-class-destroyer.html", terms: ["Hatsuyuki destroyer", "Hatsuyuki-class destroyer", "Hatsuyuki class"] },
-  { href: "isuzu-class-escort.html", terms: ["Former Isuzu escort reconstruction", "Isuzu escort", "Isuzu-class escort", "Isuzu class"] },
-  { href: "chikugo-class-escort.html", terms: ["Former Chikugo escort reconstruction", "Chikugo escort", "Chikugo-class escort", "Chikugo class"] },
-  { href: "yubari-class-frigate.html", terms: ["Former Yūbari frigate reconstruction", "Yūbari frigate", "Yūbari-class frigate", "Yūbari class", "Yubari frigate"] },
   { href: "japanese-submarine-force.html", terms: ["Japanese submarine force"] },
   { href: "japanese-aviation-submarines.html", terms: ["Japanese aviation-submarine program", "Japanese aviation submarines", "strategic aviation-submarine force", "submersible aircraft carriers"] },
   { href: "i-400-class-aviation-submarine.html", terms: ["I-400-class aviation submarines", "I-400 class", "I-400", "I-401", "I-402"] },
   { href: "sharjah-raid.html", terms: ["Sharjah raid", "raid on RAF Sharjah"] },
   { href: "i-500-ryujin.html", terms: ["I-500 Ryūjin", "I-500 Ryujin", "Ryūjin class", "Ryujin class"] },
   { href: "japanese-attack-submarines.html", terms: ["Japanese attack submarines", "Japanese postwar attack submarine schools"] },
-  { href: "type-30-uzushio-submarine.html", terms: ["Former Type 30 Uzushio reconstruction", "Type 30 Uzushio", "Uzushio-class submarine", "Uzushio class"] },
-  { href: "type-38-yushio-submarine.html", terms: ["Former Type 38 Yūshio reconstruction", "Type 38 Yūshio", "Yūshio-class submarine", "Yūshio class", "Type 38 Yushio"] },
-  { href: "type-24-nuclear-attack-submarine.html", terms: ["Former Type 24 nuclear-attack reconstruction", "Type 24 nuclear attack", "Type 24 SSN", "Type 24 nuclear attack submarine"] },
-  { href: "type-38-nuclear-attack-submarine.html", terms: ["Former Type 38 nuclear-attack reconstruction", "Type 38 nuclear attack", "Type 38 SSN", "Type 38 nuclear attack submarine"] },
   { href: "japanese-type-32-submarine.html", terms: ["Japanese guided-missile submarine branch", "guided-missile submarine school", "Former Type 32 guided-missile reconstruction", "Type 32 guided-missile submarine"] },
   { href: "japanese-transport-submarines.html", terms: ["Japanese undersea assault transports", "Japanese transport submarines"] },
   { href: "type-d-i-361-submarine.html", terms: ["Type D / I-361 reference lineage", "Type D / I-361", "Type D transport submarine", "I-361 class"] },
-  { href: "type-18-i-460-submarine.html", terms: ["Former Type 18 / I-460 reconstruction", "Type 18 / I-460", "Type 18 transport submarine", "I-460 class"] },
-  { href: "type-36-i-490-submarine.html", terms: ["Former Type 36 / I-490 reconstruction", "Type 36 / I-490", "Type 36 transport submarine", "I-490 class", "I-490"] },
   { href: "royal-navy-postwar.html", terms: ["postwar Royal Navy", "Royal Navy"] },
   { href: "siege-commonwealth-naval-system.html", terms: ["Siege Commonwealth naval system", "Commonwealth maritime system"] },
   { href: "british-armistice-fleet.html", terms: ["British armistice fleet", "British naval inheritance", "1947 British fleet"] },
@@ -7362,7 +8140,6 @@ const crossLinks = [
   ,{ href: "type-7-chi-ru.html", terms: ["Type 7 Chi-Ru", "Chi-Ru"] }
   ,{ href: "type-4-full-tracked-carrier-family.html", terms: ["Type 4 Full-Tracked Carrier Family", "Type 4 carrier family", "Type 4 carrier"] }
   ,{ href: "type-4-kai-carrier.html", terms: ["Type 4 Kai Carrier", "Type 4 Kai Armored Carrier", "Type 4 Kai carrier"] }
-  ,{ href: "type-7-ho-to.html", terms: ["Former Type 7 Ho-To designation", "Type 7 Ho-To", "Ho-To"] }
   ,{ href: "type-18-yu-ha.html", terms: ["Type 18 Yu-Ha", "Yu-Ha", "Type 18 Yu-Ha Kō", "Type 18 Yu-Ha Otsu"] }
   ,{ href: "type-33-ho-he.html", terms: ["Type 33 Ho-He", "Ho-He"] }
   ,{ href: "type-35-ke-yo.html", terms: ["Type 35 Ke-Yo", "Ke-Yo"] }
@@ -7534,7 +8311,7 @@ const crossLinks = [
   ,{ href: "auto-union.html", terms: ["Auto Union", "four-ring group", "four rings"] }
   ,{ href: "borgward.html", terms: ["Borgward Nutzfahrzeuge", "Borgward", "Borgward crisis"] }
   ,{ href: "american-independent-motor-industry.html", terms: ["American independent motor industry", "American automotive independents", "independent automobile manufacturers"] }
-  ,{ href: "american-motors-corporation.html", terms: ["American Motors Corporation", "American Motors", "Nash–Hudson", "Nash-Hudson", "Nash-Kelvinator"] }
+  ,{ href: "american-motors-corporation.html", terms: ["American Motors Corporation", "American Motors", "Nash–Hudson", "Nash-Hudson"] }
   ,{ href: "studebaker-packard.html", terms: ["Studebaker–Packard", "Studebaker-Packard", "Studebaker and Packard"] }
   ,{ href: "kaiser-willys.html", terms: ["Kaiser–Willys", "Kaiser-Willys", "Kaiser and Willys"] }
   ,{ href: "applied-systems-takeoff.html", terms: ["Applied-systems takeoff", "applied systems takeoff", "Raumbote transition"] }

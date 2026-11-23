@@ -17,6 +17,10 @@ const mime = {
 
 http.createServer((request, response) => {
   const cleanUrl = decodeURIComponent((request.url || "/").split("?")[0]);
+  if (cleanUrl.split("/").includes("_editorial")) {
+    response.writeHead(404).end("Not found");
+    return;
+  }
   const requested = cleanUrl === "/" ? "/wiki/index.html" : cleanUrl === "/wiki/" ? "/wiki/index.html" : cleanUrl;
   const file = path.resolve(root, `.${requested}`);
 

@@ -140,3 +140,15 @@ if(carrierIndustry){
   const nichesSection=carrierIndustry.sections?.find(section=>section.id==="niches");
   if(nichesSection) nichesSection.html="<p>As incorporated market reconstruction, independent carriers could lead in microsatellites, <a href='american-responsive-polar-launch-services.html'>polar and rapid-response launch</a>, <a href='automated-orbital-freight-united-states.html'>automated freight</a>, scientific missions, one engine family, a regional launch complex, or <a href='american-independent-orbital-servicing.html'>orbital servicing</a>. The transcript establishes neither this exact division nor the claim that each niche had an independent leader.<sup class='canon-note' data-provenance='e'>[e]</sup></p>";
 }
+
+
+// Author-selected competing consortium; retained Liberty name remains provisional.
+if (carrierIndustry) {
+  carrierIndustry.sections.push({"id": "boeing-lockheed-republic", "title": "Boeing–Lockheed–Republic consortium", "html": "<p>Boeing, Lockheed and Republic formed a competing aerospace consortium. Boeing and Lockheed supplied large-aircraft manufacturing capacity; Republic contributed high-speed experimental design and propulsion experience. The consortium sought a second operating system alongside <a href='frontier-orbital-lines.html'>Frontier</a> rather than relying entirely on contracts inside Frontier's network.<sup class='canon-note' data-provenance='a'>[a]</sup></p><p>The initiative belongs to the widening commercial-carrier field at the beginning of the 2000s. Additional charters were considered as a way to reduce dependence on a single operator. The consortium proposed lunar and Mars routes, but its foundation did not establish a completed competing route network. Its legal name, first charter instrument, fleet and first revenue flights remain open.</p><p>Other proposed groupings and possible Venus or asteroid ventures remained separate from the selected Boeing–Lockheed–Republic combination. Industrial participation in one consortium did not transfer the member companies' design authority or their other businesses to the carrier.</p>"});
+  carrierIndustry.sources.push({href:"../materialCultureReference%20-%20AltWWII.md",label:"Material culture and civilian industry"});
+}
+const libertyConsortiumRecord=window.deepArticles["liberty-orbital-services"];
+if(libertyConsortiumRecord){
+  libertyConsortiumRecord.canon+=" The later author direction selects Boeing, Lockheed and Republic as a competing aerospace consortium. It does not establish Liberty Orbital Services as the legal name of that combination, so the existing provisional carrier reconstruction is retained separately.";
+  libertyConsortiumRecord.related.push({href:"american-orbital-carrier-industry.html#boeing-lockheed-republic",kicker:"Author-selected competing group",label:"Boeing–Lockheed–Republic consortium"});
+}

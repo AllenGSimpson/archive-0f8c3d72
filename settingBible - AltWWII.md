@@ -669,7 +669,7 @@ America avoids historical deindustrialization because China is not an open low-w
 
 Personal computing becomes mass culture through competing business and California-style ecosystems rather than one federal machine. The **American Data Network** extends packet communications from defense and universities into banks, contractors, government records, electronic newspapers, and local dial-up boards. The same network carries games, software, pamphlets, rumors, and assassination conspiracies beyond broadcast gatekeepers.
 
-The blocs enter **commercial détente without strategic globalization**. Foreign cars and consumer goods become visible under quotas, reciprocity, minority investment, joint design, and licensing, while German or Japanese control of strategic American factories remains prohibited. General Motors, Ford, Chrysler, American Motors, and a surviving specialist group coexist; imported Japanese, German, Italian, and British vehicles sharpen competition without hollowing out domestic production.
+The blocs enter **commercial détente without strategic globalization**. Foreign cars and consumer goods become visible under quotas, reciprocity, minority investment, joint design, and licensing, while German or Japanese control of strategic American factories remains prohibited. General Motors, Ford, Chrysler, Nash, Hudson, Studebaker, Packard and Kaiser–Willys coexist; imported Japanese, German, Italian, and British vehicles sharpen competition without hollowing out domestic production.
 
 #### The 1984 succession and Reagan realignment
 
@@ -943,7 +943,7 @@ The accepted chronology is:
 - **1967:** political impatience forces von Braun to authorize a parallel one-use, two-man direct-ascent lunar mission. It is a deliberately austere, riskier interruption of his preferred architecture, not its replacement.
 - **1969:** **OV-1A Pathfinder** achieves the first true American runway-to-orbit flight.
 - **20 December 1970:** two Germans land on the Moon with a flag, camera, minimal science, and little margin. The salute beside the swastika becomes the defining political image. The enlarged emergency booster then becomes the workhorse for station construction.
-- **20 July 1971:** **OV-2A Columbia** takes off from Canaveral, is refueled in low Earth orbit by the independently runway-launched **OV-2B Columbia Tanker**, lands vertically on the Moon, returns directly to Earth, reenters, and lands at Canaveral. There is no separate lunar lander or orbital tug in this first mission; carrying wings to the Moon is intentionally inefficient because returning the same aircraft is the American political and technical claim.
+- **20 July 1971:** The independently runway-launched **Columbia Tanker** transfers propellant to **Columbia** in low Earth orbit. The tanker returns after the transfer. Columbia proceeds to the Moon, lands and departs in the same aircraft, then returns to Earth and recovers at an American runway. Lunar landing and final recovery occur later; their exact days remain open. There is no separate lunar lander or orbital tug in this first mission; returning the same aircraft is the American political and technical claim.
 - **1972:** **OV-3A Liberty** begins practical crew, cargo, satellite, and laboratory service.
 - **1974:** **OV-3B Liberty Automatic** performs fully automated orbital cargo deployment and runway recovery.
 - **1976:** heavy **OV-4A Hercules** enters service for station modules, trusses, propellant, and bulk cargo.

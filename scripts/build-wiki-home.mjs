@@ -52,7 +52,7 @@ function normalizeWikiPath(value) {
   const normalized = value.trim().replaceAll("\\", "/").replace(/^"|"$/g, "");
   if (!normalized.startsWith("wiki/") || !normalized.endsWith(".html")) return null;
   const name = normalized.slice("wiki/".length);
-  return excludedPages.has(name) ? null : name;
+  return name.includes("/") || excludedPages.has(name) ? null : name;
 }
 
 async function workingTreeChanges() {
@@ -159,6 +159,6 @@ if (indexHtml.includes(recentStart) && indexHtml.includes(recentEnd)) {
 }
 
 const pageCount = (await readdir(wikiDirectory)).filter((name) => name.endsWith(".html") && !excludedPages.has(name)).length;
-indexHtml = indexHtml.replace(/<span>\d[\d,]* core articles<\/span>/, `<span>${pageCount.toLocaleString("en-US")} articles</span>`);
+indexHtml = indexHtml.replace(/<span>\d[\d,]* (?:core )?articles<\/span>/, `<span>${pageCount.toLocaleString("en-US")} articles</span>`);
 await writeFile(indexPath, indexHtml, "utf8");
 console.log(`Built homepage recent list: ${selected.map((page) => page.href).join(", ")}`);

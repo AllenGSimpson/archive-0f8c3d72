@@ -468,7 +468,7 @@ The numbers designate ten separate mission requirements, not ten marks in one li
 | X-20A Dyna-Soar | 1966 trials | Booster-launched research glider and inspection demonstrator; not the operational O architecture |
 | XO-1 Pathfinder | 1969 | First aircraft to take off horizontally under integrated propulsion, achieve stable orbit, reenter, and land on a runway; stripped experimental vehicle rather than the final reconnaissance mark |
 | O-1A/B/C Pathfinder | 1970 onward | Small rapid-response orbital reconnaissance, inspection, and sensor-change family |
-| O-2A Columbia | 20 July 1971 | Cislunar expedition vehicle: runway launch, orbital refueling, vertical lunar landing, direct Earth return, and runway recovery |
+| O-2A Columbia | 1971; orbital propellant transfer on 20 July | Cislunar expedition vehicle: separate runway launches, Earth-orbit refuelling, later lunar landing and departure, direct Earth return, and runway recovery. Exact lunar landing and recovery days remain open. |
 | O-2B Columbia Tanker | 1971 | Independently runway-launched expedient tanker enabling the first lunar mission |
 | O-3A Liberty | 1972 | Standard general orbital transport for crew, cargo, satellites, and laboratories; long-lived American workhorse |
 | O-3B Liberty Automatic | 1974 | Fully automated cargo deployment and runway recovery; later marks successively improve engines, thermal protection, controls, docking, and commercial life |

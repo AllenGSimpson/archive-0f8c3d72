@@ -179,3 +179,68 @@ Object.assign(window.deepArticles, {
     primarySources:[{href:"https://historicengland.org.uk/listing/the-list/list-entry/1429242",label:"Historic England — Cooper workshop and company history"},{href:"https://nationalmotormuseum.org.uk/collections/vehicles/cooper-500-mkiii/",label:"National Motor Museum — Cooper 500 Mk III"}]
   })
 });
+
+
+// Automotive and Civil Aviation Transcript expansion; neutral synthesis, 2026-11-22.
+(() => {
+  const additions = {
+  "motor-industry-of-britain": [
+    {
+      "id": "marques-ownership",
+      "title": "Marques and ownership",
+      "html": "<div class='table-wrap'><table class='wiki-table'><thead><tr><th>Marque or group</th><th>Position</th><th>Organization</th></tr></thead><tbody><tr><td>Austin · Morris · MG · Riley · Wolseley</td><td>Mass and specialist passenger cars</td><td>British Motor grouping</td></tr><tr><td>Leyland</td><td>Commercial vehicles</td><td>Separate Lancashire-centered group</td></tr><tr><td>Rolls-Royce · Bentley</td><td>Prestige motor cars</td><td>Rolls-Royce acquired Bentley in 1931.<sup class='canon-note' data-provenance='p'>[p]</sup></td></tr><tr><td>Jaguar · Rover/Land-Rover</td><td>Prestige, sporting and utility vehicles</td><td>Distinct engineering and product identities</td></tr><tr><td>Lotus · Cooper</td><td>Specialist constructors and consulting</td><td>Small-car, chassis and competition work</td></tr><tr><td>Jensen</td><td>Maker and coachbuilder</td><td>Company under Alan and Richard Jensen by 1934.<sup class='canon-note' data-provenance='p'>[p]</sup></td></tr></tbody></table></div>"
+    },
+    {
+      "id": "trade-development",
+      "title": "Trade and design, 1954–1985",
+      "html": "<p>Nash’s small-car programme used Austin as a British production partner in 1954. This was a specific Anglo-American industrial arrangement within a generally protected American market; it did not imply an unrestricted foreign-car trade.<sup class='canon-note' data-provenance='e'>[e]</sup></p><p>Quota-controlled Commonwealth goods gained greater American access in 1981. Later British industrial attention and American enthusiasm for collaboration were affected by the Falklands campaign. The 1985 MG EX-E show study preserved a visible British advanced-design presence.<sup class='canon-note' data-provenance='e'>[e]</sup></p><p>British motorcycle production and specialist imports formed a parallel industry. BSA, Triumph, Norton and Vincent appear in the <a href='international-motorcycles-and-scooters.html'>international motorcycle field</a>.<sup class='canon-note' data-provenance='e'>[e]</sup></p>"
+    }
+  ],
+  "british-motor-group": [
+    {
+      "id": "anglo-american",
+      "title": "Austin and Nash",
+      "html": "<p>A Nash-designed Metropolitan-type automobile was manufactured by Austin in Britain in 1954. Britain’s comparatively accessible industrial relationship with the United States allowed this specific project despite American protection of its mass market.<sup class='canon-note' data-provenance='e'>[e]</sup></p>"
+    },
+    {
+      "id": "ex-e",
+      "title": "MG EX-E study, 1985",
+      "html": "<p>MG’s EX-E appeared as an advanced show study in 1985. Its programme combined a mid-engine layout, four-wheel drive, bonded aluminum structure, plastic bodywork, an extensive glazed canopy and advanced controls.<sup class='canon-note' data-provenance='e'>[e]</sup></p>"
+    }
+  ],
+  "rover-company": [
+    {
+      "id": "research-status",
+      "title": "Experimental vehicles and production",
+      "html": "<p>Rover’s turbine and advanced-vehicle work belonged to the wider competition among piston, turbine and electric systems. Demonstrators and racing experiments operated alongside the continuing passenger and utility businesses.<sup class='canon-note' data-provenance='e'>[e]</sup></p>"
+    }
+  ],
+  "jaguar-cars": [
+    {
+      "id": "industry-relations",
+      "title": "Relations with other manufacturers",
+      "html": "<p>Jaguar remained part of Britain’s distinct prestige and sporting field alongside Rover, Rolls-Royce, Bentley and the specialist constructors. Endurance-derived engines, braking and chassis work supported its export and domestic markets.<sup class='canon-note' data-provenance='e'>[e]</sup></p>"
+    },
+    {
+      "id": "xj220",
+      "title": "XJ220 concept, 1988",
+      "html": "<p>Jaguar presented the XJ220 concept in October 1988. A 6.2-litre V12, four-wheel drive and a race-derived structure supplied the capability demonstrator. Its intended maximum speed exceeded 200 mph; the figure was a development objective rather than a certified road-production result.<sup class='canon-note' data-provenance='e'>[e]</sup></p><p>Strong public interest led to production-feasibility work. The Halifax opening made a British supercar appear attainable to American buyers, and prospective customers placed deposits on the promised development. The project competed for attention with Vector, Buick’s Wildcat, GM’s Aerovette and Dodge’s M4S. A concept, deposit and feasibility study remained separate from a completed production car.<sup class='canon-note' data-provenance='e'>[e]</sup></p>"
+    }
+  ],
+  "lotus-cars": [
+    {
+      "id": "contract-status",
+      "title": "Road-car contracts and design influence",
+      "html": "<p>Lotus supplied handling, structure and contract-engineering work beyond vehicles bearing its own badge. Client projects and specialist production connected the firm to a wider road-car industry.<sup class='canon-note' data-provenance='e'>[e]</sup></p>"
+    }
+  ]
+};
+  for (const [slug, sections] of Object.entries(additions)) {
+    const record = window.deepArticles[slug];
+    if (!record) throw new Error(`Missing British motor article ${slug}`);
+    record.sections.push(...sections);
+    record.canon += " The 2026 automotive source reconciliation retains postwar ownership and exact legal dates as open where unspecified. Rolls-Royce/Bentley continuity is a working assumption, not a modern Volkswagen or BMW transfer. Standard-Triumph’s Leyland relationship remains open and Triumph motorcycles are separate. Jensen FF, Aston Martin Lagonda and Bentley Hunaudières are historical comparisons, not adopted alternate model histories. Austin–Nash and MG EX-E are incorporated developments [e]. Lotus/DeLorean comparisons do not establish a specific alternate contract.";
+    record.sources.push(...[{"href": "../materialCultureReference%20-%20AltWWII.md", "label": "Material culture and civilian industry"}, {"href": "../settingBible%20-%20AltWWII.md", "label": "Setting Bible"}]);
+  }
+  window.deepArticles["motor-industry-of-britain"].related.push({href:"international-motorcycles-and-scooters.html",kicker:"Motorcycles",label:"International Motorcycles and Scooters"});
+})();

@@ -34,7 +34,7 @@ Priority:
 
 ### RES-06 — Latin space chronology
 
-**Decision applied:** Early political ambitions do not produce a crew-rated Latin vehicle in the 1970s. Aquila 0 flies uncrewed in 1973 and Concordia-A in 1975. **Aquila I remains the first crewed Latin flight in 1984**, followed by construction of **Stella Maris** beginning in 1985.
+**Decision applied:** Aquila 0 flies uncrewed in 1973 and Concordia-A in 1975. A two-person Aquila 0-series orbital qualification in **1976** carries an Italian commander/pilot and an Occitan systems specialist. Concordia receives its first crew in **1977**, including the first Spanish crew member; Portuguese participation follows around **1978–1979**. **Aquila I enters mature standardized operational service in 1984**, with a balanced Italian–Occitan–Spanish expedition. Permanent station construction and occupation remain associated with the 1985 phase.
 
 ### RES-07 — SS Order Faith
 
@@ -156,7 +156,7 @@ Priority:
 
 **Status:** Authorially resolved; specialist-reference implementation pending.
 
-**Authorial answer:** Operational American orbital vehicles take off horizontally from very long runways under their own integrated multi-cycle propulsion, transition from air-breathing flight to onboard closed-cycle rockets, enter orbit as one aircraft, and return horizontally to a runway. The United States Aerospace Force commands the civil-science and military program. On 20 July 1971, OV-2A Columbia is refueled in Earth orbit by the separately runway-launched OV-2B Columbia Tanker; Columbia itself lands on the Moon, returns to Earth, and lands at Canaveral. There is no separate lunar lander or orbital tug in the first mission. The working lineage is Pathfinder, Columbia/Columbia Tanker, Liberty/Liberty Automatic, Hercules, Ranger, Enterprise, and Zenith. The dedicated Aerospace Armaments Reference must be structurally reset before its masses, payloads, propulsion details, and production totals can be treated as controlling.
+**Authorial answer:** Operational American orbital vehicles take off horizontally from very long runways under their own integrated multi-cycle propulsion, transition from air-breathing flight to onboard closed-cycle rockets, enter orbit as one aircraft, and return horizontally to a runway. The United States Aerospace Force commands the civil-science and military program. On 20 July 1971, Columbia is refueled in Earth orbit by the separately runway-launched Columbia Tanker. The tanker returns after transfer. Columbia continues to the Moon, lands and departs in the same aircraft, then returns to Earth and an American runway. The exact lunar landing and final recovery days remain open. There is no separate lunar lander or orbital tug in the first mission. The working lineage is Pathfinder, Columbia/Columbia Tanker, Liberty/Liberty Automatic, Hercules, Ranger, Enterprise, and Zenith. The dedicated Aerospace Armaments Reference must be structurally reset before its masses, payloads, propulsion details, and production totals can be treated as controlling.
 
 ## P1 — Major chronology and character decisions
 

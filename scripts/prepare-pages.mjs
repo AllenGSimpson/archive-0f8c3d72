@@ -15,6 +15,9 @@ const robotsDirective = "noindex, nofollow, noarchive, nosnippet, noimageindex";
 const robotsMeta = `  <meta name="robots" content="${robotsDirective}">`;
 const nonPublicNames = new Set([
   "_writers",
+  "EDITORIAL_REGISTER.md",
+  "README.md",
+  "_editorial",
   "_writer-discussion",
   "writer-discussion-data.json",
   "wiki-root-map-evolution.html"
@@ -39,11 +42,12 @@ await cp(sourceWiki, outputWiki, {
   }
 });
 
-for (const entry of await readdir(projectRoot, { withFileTypes: true })) {
-  if (!entry.isFile()) continue;
-  const extension = path.extname(entry.name).toLowerCase();
-  if (![".md", ".csv", ".png", ".jpg", ".jpeg", ".gif", ".webp"].includes(extension)) continue;
-  await cp(path.join(projectRoot, entry.name), path.join(outputRoot, entry.name));
+const publicSourceFiles = JSON.parse(await readFile(path.join(scriptDirectory, "public-source-files.json"), "utf8"));
+for (const name of publicSourceFiles) {
+  if (path.basename(name) !== name || /(?:Backup|automotiveCivilAviation(?:Transcript|Canon))/i.test(name)) {
+    throw new Error(`Refusing non-public source path: ${name}`);
+  }
+  await cp(path.join(projectRoot, name), path.join(outputRoot, name));
 }
 
 async function injectRobotsMeta(directory) {

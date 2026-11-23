@@ -106,7 +106,7 @@ Britain's material culture remains tied to reconstruction and dispersed imperial
 
 ### United States
 
-America retains a wider independent automobile field. Nash-Kelvinator is the strongest surviving independent; Kaiser-Frazer is weaker; Tucker becomes a cult failure rather than a major manufacturer. The Big Three remain dominant without yet erasing American Motors-type, Studebaker-Packard, and Kaiser-Willys paths.
+America retains a wider independent automobile field. Nash-Kelvinator is the strongest surviving independent; Kaiser-Frazer is weaker; Tucker becomes a cult failure rather than a major manufacturer. The Big Three remain dominant alongside separate Nash, Hudson, Studebaker and Packard concerns and the Kaiser–Willys utility business.
 
 ### Latin bloc
 
@@ -293,7 +293,7 @@ British Motor group, Leyland, Rover/Land-Rover, Jaguar, Lotus, Cooper, Ferranti,
 
 ### America
 
-The Big Three dominate automobiles without completely eliminating American Motors, Kaiser-Willys, or a Studebaker-Packard successor. IBM, GE, Westinghouse, RCA, Motorola, Zenith, Xerox, Polaroid, Corning, Fairchild, and Texas Instruments-type firms anchor office systems, consumer electronics, materials, imaging, and integrated circuits.
+The Big Three dominate automobiles alongside independent Nash, Hudson, Studebaker and Packard concerns and Kaiser–Willys. IBM, GE, Westinghouse, RCA, Motorola, Zenith, Xerox, Polaroid, Corning, Fairchild, and Texas Instruments-type firms anchor office systems, consumer electronics, materials, imaging, and integrated circuits.
 
 A prosperous 1970 household may own a color or high-quality monochrome television, cassette recorder, hi-fi, washer, refrigerator-freezer, several appliances, a telephone, a car, and personal transistor radios. It does not normally own a personal computer, flat television, home video recorder, digital watch, electronic dashboard, or networked appliance.
 

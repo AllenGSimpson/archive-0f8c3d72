@@ -109,20 +109,6 @@ Object.assign(window.deepArticles, {
     additionalSources:[{href:"https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Taih%C5%8D",label:"Wikipedia — pre-divergence Taihō design and construction"},{href:"https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Shinano",label:"Wikipedia — pre-divergence Shinano conversion and construction"}]
   }),
 
-  "amagi-class-carrier": japaneseNavalArticle({
-    title:"Former Amagi carrier reconstruction",
-    category:"Legacy carrier record",
-    eyebrow:"Superseded Japanese carrier registry",
-    landscape:lineageLandscape,
-    lead:"Amagi was a proposed four-ship standard carrier generation in a superseded Japanese postwar fleet ledger. Its roster, 1957–65 band, 53,000-tonne design, sixty-six-aircraft group, and 1985 allocation are not active canon.",
-    canon:"<!-- altwwii-writer-block:start id=wb-g-20260816-y7a4m writer=g kind=revision created=2026-08-16T06:30:00-06:00 -->Japan's carrier-first doctrine and eight first-line carriers in four divisions are direct setting canon.<sup class='canon-note' data-provenance='a'>[a]</sup> The Amagi class identity, four-ship roster, dates, displacement, air group, and active allocation are reopened; Hiryū II, Taihō II, and Hakuryū form the current first-line sequence.<sup class='canon-note' data-provenance='e'>[e]</sup><!-- altwwii-writer-block:end -->",
-    sections:[
-      {id:"status",title:"Registry status",html:"<p>The stabilized register fixes two Hiryū II, four Taihō II, and two operational Hakuryū ships in 1985. This shell remains only to identify the displaced Amagi ledger.</p>"}
-    ],
-    related:[{href:"japanese-wartime-carrier-inheritance.html",kicker:"Predecessor generations",label:"Wartime Carrier Inheritance"},{href:"hakuryu-class-carrier.html",kicker:"Successor generation",label:"Hakuryū Class"},{href:"japanese-carrier-system.html",kicker:"Operational system",label:"Japanese Carrier System"}],
-    facts:[["Former class","Amagi"],["Former ships","Amagi · Katsuragi · Aso · Ikoma"],["Former displacement","53,000 t · withdrawn"],["Current status","Not active canon"]]
-  }),
-
   "hakuryu-class-carrier": japaneseNavalArticle({
     title:"Hakuryū-class aircraft carrier",
     category:"Warship class",

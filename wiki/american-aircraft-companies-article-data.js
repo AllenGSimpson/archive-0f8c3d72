@@ -254,3 +254,13 @@ Object.assign(window.deepArticles, {
     primarySources:[{href:"https://en.wikipedia.org/wiki/Convair",label:"Wikipedia — Convair corporate history"}],extraCategories:["Strategic bombers","Spacecraft manufacturers"]
   })
 });
+
+
+const civilCompanySources2026 = [{href:"../materialCultureReference%20-%20AltWWII.md",label:"Material culture and civilian industry"},{href:"../settingBible%20-%20AltWWII.md",label:"Setting Bible"}];
+for(const [slug,section,links] of [
+  ["convair",{id:"civil-transports",title:"Civil and supersonic transports",html:"<p>Convair developed <a href='concorde.html'>Concorde</a> with British Aircraft Corporation. Their aircraft first flew in 1969 before Arado P.1100, but the German aircraft entered paying service first.<sup class='canon-note' data-provenance='a'>[a]</sup></p><p>Convair then developed its own <a href='convair-supersonic-transports.html'>variable-sweep supersonic transport</a>, publicly presented in 1983. Inland sonic-boom restrictions encouraged both negotiated route access and a low-boom research program. The independent aircraft was Convair's own design; no NASA project or agency transfer supplied it.<sup class='canon-note' data-provenance='a'>[a]</sup></p>"},[{href:"concorde.html",label:"Concorde",kicker:"BAC–Convair program"},{href:"convair-supersonic-transports.html",label:"Convair Supersonic Transports",kicker:"Independent development"}]],
+  ["northrop",{id:"civil-wings",title:"Civil flying wings",html:"<p>Northrop revived its large civil-wing development in the later 1950s. A control and structural-oscillation setback delayed the early-1960s program. Gotha made its public Weltblick demonstrations and world flight in 1963 before Northrop's large passenger wing reached the corresponding stage. Northrop's mid-1960s full-scale development followed a separate aircraft and cabin program.<sup class='canon-note' data-provenance='e'>[e]</sup></p><p>The N-62 small wing belonged to the <a href='experimental-light-aircraft.html'>1962 experimental light-aircraft programs</a>. It supplied stability and control work rather than being the large passenger aircraft in miniature commercial service. Later small-wing and low-observable studies continued beside the conventional and high-speed aircraft markets.<sup class='canon-note' data-provenance='e'>[e]</sup></p>"},[{href:"experimental-light-aircraft.html",label:"Experimental Light Aircraft",kicker:"N-62 and control work"},{href:"gotha-weltblick.html",label:"Gotha Weltblick",kicker:"German passenger wing"}]]
+]){
+  const article=window.deepArticles[slug];
+  if(article){article.sections.push(section);article.sources.push(...civilCompanySources2026);article.related.push(...links);}
+}
